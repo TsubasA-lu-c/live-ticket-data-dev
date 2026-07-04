@@ -1,0 +1,111 @@
+{
+  "artistId": "ellegarden",
+  "tours": [
+    {
+      "id": "ellegarden_fes_oganamahage_2026",
+      "artistId": "ellegarden",
+      "title": "OGA NAMAHAGE ROCK FESTIVAL vol.15",
+      "startDate": "2026-07-25T00:00:00+09:00",
+      "endDate": "2026-07-25T00:00:00+09:00",
+      "prices": [
+        {"label": "1日券(前売)", "amount": 10000}
+      ],
+      "source": "system",
+      "sourceUrl": "https://onrf.jp/",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_fes_joinalive_2026",
+      "artistId": "ellegarden",
+      "title": "JOIN ALIVE 2026",
+      "startDate": "2026-07-19T00:00:00+09:00",
+      "endDate": "2026-07-19T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://joinalive.jp/2026/artist/9496/",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_fes_newacousticcamp_2026",
+      "artistId": "ellegarden",
+      "title": "New Acoustic Camp 2026",
+      "startDate": "2026-09-19T00:00:00+09:00",
+      "endDate": "2026-09-19T00:00:00+09:00",
+      "prices": [
+        {"label": "1日入場券(9/19)", "amount": 15000},
+        {"label": "2日通し入場券", "amount": 24000}
+      ],
+      "source": "system",
+      "sourceUrl": "https://newacousticcamp.com/ticket/",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "ellegarden_fes_oganamahage_2026_oga_0725",
+      "tourId": "ellegarden_fes_oganamahage_2026",
+      "venue": "男鹿市船川港内特設ステージ",
+      "performanceAt": "2026-07-25T12:00:00+09:00",
+      "doorOpenAt": "2026-07-25T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "OGA NAMAHAGE ROCK FESTIVAL vol.15",
+      "source": "system",
+      "sourceUrl": "https://onrf.jp/",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_fes_joinalive_2026_iwamizawa_0719",
+      "tourId": "ellegarden_fes_joinalive_2026",
+      "venue": "いわみざわ公園野外音楽堂キタオン",
+      "performanceAt": "2026-07-19T18:20:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "JOIN ALIVE 2026",
+      "source": "system",
+      "sourceUrl": "https://joinalive.jp/2026/artist/9496/",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_fes_newacousticcamp_2026_minakami_0919",
+      "tourId": "ellegarden_fes_newacousticcamp_2026",
+      "venue": "水上高原リゾート200",
+      "performanceAt": "2026-09-19T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "New Acoustic Camp 2026",
+      "source": "system",
+      "sourceUrl": "https://newacousticcamp.com/artist/ellegarden/",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "ellegarden_fes_oganamahage_2026_ippan",
+      "tourId": "ellegarden_fes_oganamahage_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-04-25T10:00:00+09:00",
+      "entryEndAt": "2026-07-23T18:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["ellegarden_fes_oganamahage_2026_oga_0725"],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/0406230001-P0030020P021001?P1=0175",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_fes_newacousticcamp_2026_saichaku",
+      "tourId": "ellegarden_fes_newacousticcamp_2026",
+      "type": "最終先着先行",
+      "entryStartAt": "2026-06-23T12:00:00+09:00",
+      "entryEndAt": "2026-07-05T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["ellegarden_fes_newacousticcamp_2026_minakami_0919"],
+      "source": "system",
+      "sourceUrl": "https://newacousticcamp.com/ticket/",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    }
+  ]
+}

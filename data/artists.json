@@ -1,5 +1,18 @@
 [
   {
+    "id": "ellegarden",
+    "name": "ELLEGARDEN",
+    "aliases": [
+      "エルレガーデン",
+      "エルレ"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://ellegarden.jp/",
+    "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+  },
+  {
     "id": "golden_bomber",
     "name": "ゴールデンボンバー",
     "aliases": [
