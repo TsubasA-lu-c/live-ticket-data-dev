@@ -1,0 +1,196 @@
+{
+  "artistId": "aina_the_end",
+  "tours": [
+    {
+      "id": "aina_the_end_picnic_2026",
+      "artistId": "aina_the_end",
+      "title": "AiNA THE END LIVE TOUR 2026 - PICNIC -",
+      "startDate": "2026-06-15T00:00:00+09:00",
+      "endDate": "2026-07-05T00:00:00+09:00",
+      "prices": [
+        { "label": "Special love ticket（FC会員限定）", "amount": 15000 },
+        { "label": "一般指定席", "amount": 9500 }
+      ],
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1130314",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_sound_connection_2026",
+      "artistId": "aina_the_end",
+      "title": "SOUND CONNECTION -Mirroring Lights-",
+      "startDate": "2026-10-27T00:00:00+09:00",
+      "endDate": "2026-10-27T00:00:00+09:00",
+      "prices": [
+        { "label": "S指定席", "amount": 11000 },
+        { "label": "指定席", "amount": 8800 },
+        { "label": "ファミリー指定席", "amount": 8800 },
+        { "label": "グッズ付きS指定席", "amount": 13500 },
+        { "label": "グッズ付き指定席", "amount": 11300 },
+        { "label": "グッズ付きファミリー指定席", "amount": 11300 }
+      ],
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1134281",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "aina_the_end_picnic_2026_omiya_0615",
+      "tourId": "aina_the_end_picnic_2026",
+      "venue": "大宮ソニックシティ 大ホール",
+      "performanceAt": "2026-06-15T19:00:00+09:00",
+      "doorOpenAt": "2026-06-15T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1130314",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_picnic_2026_fukuoka_0621",
+      "tourId": "aina_the_end_picnic_2026",
+      "venue": "福岡市民ホール 大ホール",
+      "performanceAt": "2026-06-21T19:00:00+09:00",
+      "doorOpenAt": "2026-06-21T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1130314",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_picnic_2026_nagoya_0623",
+      "tourId": "aina_the_end_picnic_2026",
+      "venue": "Niterra日本特殊陶業市民会館フォレストホール",
+      "performanceAt": "2026-06-23T19:00:00+09:00",
+      "doorOpenAt": "2026-06-23T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1130314",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_picnic_2026_osaka_0625",
+      "tourId": "aina_the_end_picnic_2026",
+      "venue": "オリックス劇場",
+      "performanceAt": "2026-06-25T19:00:00+09:00",
+      "doorOpenAt": "2026-06-25T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1130314",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_picnic_2026_tokyo_0705",
+      "tourId": "aina_the_end_picnic_2026",
+      "venue": "NHKホール",
+      "performanceAt": "2026-07-05T18:00:00+09:00",
+      "doorOpenAt": "2026-07-05T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1130314",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_sound_connection_2026_kobe_1027",
+      "tourId": "aina_the_end_sound_connection_2026",
+      "venue": "神戸国際会館こくさいホール",
+      "performanceAt": "2026-10-27T19:00:00+09:00",
+      "doorOpenAt": "2026-10-27T18:00:00+09:00",
+      "kind": "fes",
+      "eventName": "SOUND CONNECTION -Mirroring Lights-",
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1134281",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "aina_the_end_picnic_2026_general_sale",
+      "tourId": "aina_the_end_picnic_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-05-16T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aina_the_end_picnic_2026_tokyo_0705"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1130314",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_picnic_2026_kizai_kaibo",
+      "tourId": "aina_the_end_picnic_2026",
+      "type": "機材開放追加先着",
+      "entryStartAt": "2026-06-11T20:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aina_the_end_picnic_2026_fukuoka_0621",
+        "aina_the_end_picnic_2026_nagoya_0623",
+        "aina_the_end_picnic_2026_osaka_0625",
+        "aina_the_end_picnic_2026_tokyo_0705"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1133990",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_sound_connection_2026_fc_senko",
+      "tourId": "aina_the_end_sound_connection_2026",
+      "type": "FC先行",
+      "entryStartAt": "2026-06-23T17:00:00+09:00",
+      "entryEndAt": "2026-06-29T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aina_the_end_sound_connection_2026_kobe_1027"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1134281",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_sound_connection_2026_official_senko",
+      "tourId": "aina_the_end_sound_connection_2026",
+      "type": "オフィシャル先行",
+      "entryStartAt": "2026-07-05T12:00:00+09:00",
+      "entryEndAt": "2026-07-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aina_the_end_sound_connection_2026_kobe_1027"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1134281",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_sound_connection_2026_familymart",
+      "tourId": "aina_the_end_sound_connection_2026",
+      "type": "ファミリーマート先行",
+      "entryStartAt": "2026-07-25T12:00:00+09:00",
+      "entryEndAt": "2026-08-11T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aina_the_end_sound_connection_2026_kobe_1027"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1134281",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ]
+}

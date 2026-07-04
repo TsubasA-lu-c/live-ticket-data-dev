@@ -1,0 +1,667 @@
+{
+  "artistId": "hana",
+  "tours": [
+    {
+      "id": "hana_born_to_bloom_2026",
+      "artistId": "hana",
+      "title": "HANA 1st TOUR 2026 \"Born to Bloom\"",
+      "startDate": "2026-03-07T00:00:00+09:00",
+      "endDate": "2026-07-20T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 10890
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_add",
+      "artistId": "hana",
+      "title": "HANA 1st TOUR 2026 \"Born to Bloom\" 追加公演",
+      "startDate": "2026-09-16T00:00:00+09:00",
+      "endDate": "2026-10-31T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 10890
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/260612/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_fes_2026_summersonic_tokyo",
+      "artistId": "hana",
+      "title": "SUMMER SONIC 2026 TOKYO",
+      "startDate": "2026-08-15T00:00:00+09:00",
+      "endDate": "2026-08-15T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/260417/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_fes_2026_summersonic_osaka",
+      "artistId": "hana",
+      "title": "SUMMER SONIC 2026 OSAKA",
+      "startDate": "2026-08-16T00:00:00+09:00",
+      "endDate": "2026-08-16T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/260417/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_fes_2026_niigata",
+      "artistId": "hana",
+      "title": "音楽と髭達2026 -TIME MACHINE-",
+      "startDate": "2026-08-29T11:00:00+09:00",
+      "endDate": "2026-08-29T11:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/260501/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_fes_2026_chiba",
+      "artistId": "hana",
+      "title": "ROCK IN JAPAN FESTIVAL 2026",
+      "startDate": "2026-09-20T12:00:00+09:00",
+      "endDate": "2026-09-20T12:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_fes_2026_inkigayo_tokyo",
+      "artistId": "hana",
+      "title": "INKIGAYO LIVE in TOKYO",
+      "startDate": "2026-09-22T00:00:00+09:00",
+      "endDate": "2026-09-23T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/260626/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_fes_2026_incheon_pentaport",
+      "artistId": "hana",
+      "title": "Incheon Pentaport Rock Festival 2026",
+      "startDate": "2026-08-02T00:00:00+09:00",
+      "endDate": "2026-08-02T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/260629/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "hana_fes_2026_bmsg",
+      "artistId": "hana",
+      "title": "BMSG FES'26",
+      "startDate": "2026-10-10T00:00:00+09:00",
+      "endDate": "2026-10-12T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "一般指定席",
+          "amount": 20000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/260630-2/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "hana_born_to_bloom_2026_aichi_0307",
+      "tourId": "hana_born_to_bloom_2026",
+      "venue": "愛知県芸術劇場 大ホール",
+      "performanceAt": "2026-03-07T18:00:00+09:00",
+      "doorOpenAt": "2026-03-07T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_aichi_0308",
+      "tourId": "hana_born_to_bloom_2026",
+      "venue": "愛知県芸術劇場 大ホール",
+      "performanceAt": "2026-03-08T17:30:00+09:00",
+      "doorOpenAt": "2026-03-08T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_ibaraki_0321",
+      "tourId": "hana_born_to_bloom_2026",
+      "venue": "水戸市民会館 グロービスホール",
+      "performanceAt": "2026-03-21T18:00:00+09:00",
+      "doorOpenAt": "2026-03-21T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_tokyo_0329",
+      "tourId": "hana_born_to_bloom_2026",
+      "venue": "東京国際フォーラム ホールA",
+      "performanceAt": "2026-03-29T18:00:00+09:00",
+      "doorOpenAt": "2026-03-29T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_fukuoka_0403",
+      "tourId": "hana_born_to_bloom_2026",
+      "venue": "福岡サンパレスホテル&ホール",
+      "performanceAt": "2026-04-03T18:30:00+09:00",
+      "doorOpenAt": "2026-04-03T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_fukuoka_0404",
+      "tourId": "hana_born_to_bloom_2026",
+      "venue": "福岡サンパレスホテル&ホール",
+      "performanceAt": "2026-04-04T17:00:00+09:00",
+      "doorOpenAt": "2026-04-04T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_hiroshima_0410",
+      "tourId": "hana_born_to_bloom_2026",
+      "venue": "上野学園ホール",
+      "performanceAt": "2026-04-10T18:30:00+09:00",
+      "doorOpenAt": "2026-04-10T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_okayama_0412",
+      "tourId": "hana_born_to_bloom_2026",
+      "venue": "倉敷市民会館",
+      "performanceAt": "2026-04-12T18:00:00+09:00",
+      "doorOpenAt": "2026-04-12T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_osaka_0418",
+      "tourId": "hana_born_to_bloom_2026",
+      "venue": "グランキューブ大阪 メインホール",
+      "performanceAt": "2026-04-18T18:00:00+09:00",
+      "doorOpenAt": "2026-04-18T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_osaka_0419",
+      "tourId": "hana_born_to_bloom_2026",
+      "venue": "グランキューブ大阪 メインホール",
+      "performanceAt": "2026-04-19T17:00:00+09:00",
+      "doorOpenAt": "2026-04-19T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_kagawa_0426",
+      "tourId": "hana_born_to_bloom_2026",
+      "venue": "レクザムホール",
+      "performanceAt": "2026-04-26T18:00:00+09:00",
+      "doorOpenAt": "2026-04-26T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_hokkaido_0502",
+      "tourId": "hana_born_to_bloom_2026",
+      "venue": "札幌文化芸術劇場 hitaru",
+      "performanceAt": "2026-05-02T18:00:00+09:00",
+      "doorOpenAt": "2026-05-02T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_miyagi_0505",
+      "tourId": "hana_born_to_bloom_2026",
+      "venue": "仙台サンプラザホール",
+      "performanceAt": "2026-05-05T18:00:00+09:00",
+      "doorOpenAt": "2026-05-05T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_miyagi_0506",
+      "tourId": "hana_born_to_bloom_2026",
+      "venue": "仙台サンプラザホール",
+      "performanceAt": "2026-05-06T17:00:00+09:00",
+      "doorOpenAt": "2026-05-06T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_chiba_0509",
+      "tourId": "hana_born_to_bloom_2026",
+      "venue": "市川市文化会館 大ホール",
+      "performanceAt": "2026-05-09T18:00:00+09:00",
+      "doorOpenAt": "2026-05-09T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_hyogo_0522",
+      "tourId": "hana_born_to_bloom_2026",
+      "venue": "神戸国際会館こくさいホール",
+      "performanceAt": "2026-05-22T18:30:00+09:00",
+      "doorOpenAt": "2026-05-22T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_hyogo_0523",
+      "tourId": "hana_born_to_bloom_2026",
+      "venue": "神戸国際会館こくさいホール",
+      "performanceAt": "2026-05-23T17:00:00+09:00",
+      "doorOpenAt": "2026-05-23T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_shizuoka_0607",
+      "tourId": "hana_born_to_bloom_2026",
+      "venue": "アクトシティ浜松 大ホール",
+      "performanceAt": "2026-06-07T18:00:00+09:00",
+      "doorOpenAt": "2026-06-07T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_kanagawa_0619",
+      "tourId": "hana_born_to_bloom_2026",
+      "venue": "パシフィコ横浜 国立大ホール",
+      "performanceAt": "2026-06-19T18:30:00+09:00",
+      "doorOpenAt": "2026-06-19T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_kanagawa_0620",
+      "tourId": "hana_born_to_bloom_2026",
+      "venue": "パシフィコ横浜 国立大ホール",
+      "performanceAt": "2026-06-20T17:00:00+09:00",
+      "doorOpenAt": "2026-06-20T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_kyoto_0626",
+      "tourId": "hana_born_to_bloom_2026",
+      "venue": "ロームシアター京都 メインホール",
+      "performanceAt": "2026-06-26T18:30:00+09:00",
+      "doorOpenAt": "2026-06-26T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_tokyo_0711",
+      "tourId": "hana_born_to_bloom_2026",
+      "venue": "東京ガーデンシアター",
+      "performanceAt": "2026-07-11T13:00:00+09:00",
+      "doorOpenAt": "2026-07-11T12:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_tokyo_0712",
+      "tourId": "hana_born_to_bloom_2026",
+      "venue": "東京ガーデンシアター",
+      "performanceAt": "2026-07-12T13:00:00+09:00",
+      "doorOpenAt": "2026-07-12T12:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_ishikawa_0718",
+      "tourId": "hana_born_to_bloom_2026",
+      "venue": "本多の森ホクデンホール",
+      "performanceAt": "2026-07-18T18:00:00+09:00",
+      "doorOpenAt": "2026-07-18T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_niigata_0720",
+      "tourId": "hana_born_to_bloom_2026",
+      "venue": "新潟テルサ",
+      "performanceAt": "2026-07-20T18:00:00+09:00",
+      "doorOpenAt": "2026-07-20T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_add_osaka_0916",
+      "tourId": "hana_born_to_bloom_2026_add",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-09-16T18:00:00+09:00",
+      "doorOpenAt": "2026-09-16T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/260612/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_add_osaka_0917",
+      "tourId": "hana_born_to_bloom_2026_add",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-09-17T18:00:00+09:00",
+      "doorOpenAt": "2026-09-17T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/260612/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_add_tokyo_1029",
+      "tourId": "hana_born_to_bloom_2026_add",
+      "venue": "日本武道館",
+      "performanceAt": "2026-10-29T18:00:00+09:00",
+      "doorOpenAt": "2026-10-29T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/260612/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_add_tokyo_1030",
+      "tourId": "hana_born_to_bloom_2026_add",
+      "venue": "日本武道館",
+      "performanceAt": "2026-10-30T18:00:00+09:00",
+      "doorOpenAt": "2026-10-30T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/260612/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_add_tokyo_1031",
+      "tourId": "hana_born_to_bloom_2026_add",
+      "venue": "日本武道館",
+      "performanceAt": "2026-10-31T16:30:00+09:00",
+      "doorOpenAt": "2026-10-31T15:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/260612/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_fes_2026_niigata_0829",
+      "tourId": "hana_fes_2026_niigata",
+      "venue": "HARD OFF ECOスタジアム新潟",
+      "performanceAt": "2026-08-29T11:00:00+09:00",
+      "doorOpenAt": "2026-08-29T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "音楽と髭達2026 -TIME MACHINE-",
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/260501/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_fes_2026_chiba_0920",
+      "tourId": "hana_fes_2026_chiba",
+      "venue": "Chiba City Soga Sports Park",
+      "performanceAt": "2026-09-20T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "ROCK IN JAPAN FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_fes_2026_summersonic_tokyo_0815",
+      "tourId": "hana_fes_2026_summersonic_tokyo",
+      "venue": "ZOZOマリンスタジアム＆幕張メッセ",
+      "performanceAt": "2026-08-15T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "SUMMER SONIC 2026",
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/260417/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_fes_2026_summersonic_osaka_0816",
+      "tourId": "hana_fes_2026_summersonic_osaka",
+      "venue": "万博記念公園",
+      "performanceAt": "2026-08-16T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "SUMMER SONIC 2026",
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/260417/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_fes_2026_inkigayo_tokyo_0922",
+      "tourId": "hana_fes_2026_inkigayo_tokyo",
+      "venue": "ベルーナドーム",
+      "performanceAt": "2026-09-22T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "INKIGAYO LIVE in TOKYO",
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/260626/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_fes_2026_incheon_pentaport_0802",
+      "tourId": "hana_fes_2026_incheon_pentaport",
+      "venue": "Songdo Moonlight Festival Park",
+      "performanceAt": "2026-08-02T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "Incheon Pentaport Rock Festival 2026",
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/260629/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "hana_fes_2026_bmsg_1010",
+      "tourId": "hana_fes_2026_bmsg",
+      "venue": "お台場BMSG FES特設会場",
+      "performanceAt": "2026-10-10T15:00:00+09:00",
+      "doorOpenAt": "2026-10-10T13:00:00+09:00",
+      "kind": "fes",
+      "eventName": "BMSG FES'26",
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/260630-2/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "hana_fes_2026_bmsg_1011",
+      "tourId": "hana_fes_2026_bmsg",
+      "venue": "お台場BMSG FES特設会場",
+      "performanceAt": "2026-10-11T15:00:00+09:00",
+      "doorOpenAt": "2026-10-11T13:00:00+09:00",
+      "kind": "fes",
+      "eventName": "BMSG FES'26",
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/260630-2/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "hana_fes_2026_bmsg_1012",
+      "tourId": "hana_fes_2026_bmsg",
+      "venue": "お台場BMSG FES特設会場",
+      "performanceAt": "2026-10-12T15:00:00+09:00",
+      "doorOpenAt": "2026-10-12T13:00:00+09:00",
+      "kind": "fes",
+      "eventName": "BMSG FES'26",
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/260630-2/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "hana_born_to_bloom_2026_add_ticketboard",
+      "tourId": "hana_born_to_bloom_2026_add",
+      "type": "ticket board先行",
+      "entryStartAt": "2026-05-30T18:00:00+09:00",
+      "entryEndAt": "2026-06-07T23:59:00+09:00",
+      "resultAt": "2026-06-13T12:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hana_born_to_bloom_2026_add_osaka_0916",
+        "hana_born_to_bloom_2026_add_osaka_0917",
+        "hana_born_to_bloom_2026_add_tokyo_1029",
+        "hana_born_to_bloom_2026_add_tokyo_1030",
+        "hana_born_to_bloom_2026_add_tokyo_1031"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/260612/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_add_fc_final",
+      "tourId": "hana_born_to_bloom_2026_add",
+      "type": "FC最終先行",
+      "entryStartAt": "2026-06-13T18:00:00+09:00",
+      "entryEndAt": "2026-06-21T23:59:00+09:00",
+      "resultAt": "2026-06-27T12:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hana_born_to_bloom_2026_add_osaka_0916",
+        "hana_born_to_bloom_2026_add_osaka_0917",
+        "hana_born_to_bloom_2026_add_tokyo_1029",
+        "hana_born_to_bloom_2026_add_tokyo_1030",
+        "hana_born_to_bloom_2026_add_tokyo_1031"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/260612/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hana_fes_2026_bmsg_architect",
+      "tourId": "hana_fes_2026_bmsg",
+      "type": "B-Town〈Architect〉会員先行",
+      "entryStartAt": "2026-07-01T18:00:00+09:00",
+      "entryEndAt": "2026-07-08T23:59:00+09:00",
+      "resultAt": "2026-07-15T17:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hana_fes_2026_bmsg_1010",
+        "hana_fes_2026_bmsg_1011",
+        "hana_fes_2026_bmsg_1012"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/260630-2/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "hana_fes_2026_bmsg_fc_resident",
+      "tourId": "hana_fes_2026_bmsg",
+      "type": "B-Town〈Resident〉/ FC会員先行",
+      "entryStartAt": "2026-07-15T18:00:00+09:00",
+      "entryEndAt": "2026-07-20T23:59:00+09:00",
+      "resultAt": "2026-08-01T17:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hana_fes_2026_bmsg_1010",
+        "hana_fes_2026_bmsg_1011",
+        "hana_fes_2026_bmsg_1012"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/260630-2/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ]
+}

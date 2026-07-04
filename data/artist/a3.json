@@ -1,0 +1,93 @@
+{
+  "artistId": "a3",
+  "tours": [
+    {
+      "id": "a3_act3_aw2027",
+      "artistId": "a3",
+      "title": "MANKAI STAGE『A3!』ACT3! ～AUTUMN & WINTER 2027～",
+      "startDate": "2027-01-01T00:00:00+09:00",
+      "endDate": "2027-02-28T00:00:00+09:00",
+      "prices": [
+        {"label": "全席指定", "amount": 12800}
+      ],
+      "source": "system",
+      "sourceUrl": "https://mankai-stage.jp/act3-2/aw2027/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "a3_act3_aw2027_tokyo_0101",
+      "tourId": "a3_act3_aw2027",
+      "venue": "東京（会場未発表）",
+      "performanceAt": "2027-01-01T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://mankai-stage.jp/act3-2/aw2027/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "a3_act3_aw2027_shizuoka_0101",
+      "tourId": "a3_act3_aw2027",
+      "venue": "静岡（会場未発表）",
+      "performanceAt": "2027-01-01T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://mankai-stage.jp/act3-2/aw2027/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "a3_act3_aw2027_kagawa_0101",
+      "tourId": "a3_act3_aw2027",
+      "venue": "香川（会場未発表）",
+      "performanceAt": "2027-01-01T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://mankai-stage.jp/act3-2/aw2027/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "a3_act3_aw2027_aichi_0101",
+      "tourId": "a3_act3_aw2027",
+      "venue": "愛知（会場未発表）",
+      "performanceAt": "2027-01-01T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://mankai-stage.jp/act3-2/aw2027/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "a3_act3_aw2027_yamaguchi_0101",
+      "tourId": "a3_act3_aw2027",
+      "venue": "山口（会場未発表）",
+      "performanceAt": "2027-01-01T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://mankai-stage.jp/act3-2/aw2027/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "a3_act3_aw2027_osaka_0101",
+      "tourId": "a3_act3_aw2027",
+      "venue": "大阪（会場未発表）",
+      "performanceAt": "2027-01-01T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://mankai-stage.jp/act3-2/aw2027/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ],
+  "lotteries": []
+}

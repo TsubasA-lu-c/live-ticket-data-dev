@@ -1,0 +1,191 @@
+{
+  "artistId": "ini",
+  "tours": [
+    {
+      "id": "ini_5th_anniversary_dome_2026",
+      "artistId": "ini",
+      "title": "2026 INI 5TH ANNIVERSARY DOME TOUR [CITY OF LIGHTS]",
+      "startDate": "2026-09-16T00:00:00+09:00",
+      "endDate": "2026-11-15T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 14300
+        },
+        {
+          "label": "アップグレード席",
+          "amount": 24200
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/feature/2026_dome_tour",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "ini_5th_anniversary_dome_2026_tokyo_0916",
+      "tourId": "ini_5th_anniversary_dome_2026",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-09-16T18:30:00+09:00",
+      "doorOpenAt": "2026-09-16T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/feature/2026_dome_tour",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "ini_5th_anniversary_dome_2026_tokyo_0917",
+      "tourId": "ini_5th_anniversary_dome_2026",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-09-17T14:30:00+09:00",
+      "doorOpenAt": "2026-09-17T12:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/feature/2026_dome_tour",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "ini_5th_anniversary_dome_2026_osaka_1114",
+      "tourId": "ini_5th_anniversary_dome_2026",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2026-11-14T18:30:00+09:00",
+      "doorOpenAt": "2026-11-14T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/feature/2026_dome_tour",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "ini_5th_anniversary_dome_2026_osaka_1115",
+      "tourId": "ini_5th_anniversary_dome_2026",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2026-11-15T14:30:00+09:00",
+      "doorOpenAt": "2026-11-15T12:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/feature/2026_dome_tour",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "ini_5th_anniversary_dome_2026_fc_supersonic",
+      "tourId": "ini_5th_anniversary_dome_2026",
+      "type": "FC超最速先行",
+      "entryStartAt": "2026-04-28T21:00:00+09:00",
+      "entryEndAt": "2026-05-17T23:59:00+09:00",
+      "resultAt": "2026-05-23T20:00:00+09:00",
+      "paymentStartAt": "2026-05-23T20:00:00+09:00",
+      "paymentEndAt": "2026-05-27T23:59:00+09:00",
+      "performanceIds": [
+        "ini_5th_anniversary_dome_2026_tokyo_0916",
+        "ini_5th_anniversary_dome_2026_tokyo_0917",
+        "ini_5th_anniversary_dome_2026_osaka_1114",
+        "ini_5th_anniversary_dome_2026_osaka_1115"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/feature/2026_dome_tour",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "ini_5th_anniversary_dome_2026_fc_member",
+      "tourId": "ini_5th_anniversary_dome_2026",
+      "type": "FC会員先行",
+      "entryStartAt": "2026-05-18T00:00:00+09:00",
+      "entryEndAt": "2026-05-31T23:59:00+09:00",
+      "resultAt": "2026-06-06T20:00:00+09:00",
+      "paymentStartAt": "2026-06-06T20:00:00+09:00",
+      "paymentEndAt": "2026-06-09T23:59:00+09:00",
+      "performanceIds": [
+        "ini_5th_anniversary_dome_2026_tokyo_0916",
+        "ini_5th_anniversary_dome_2026_tokyo_0917",
+        "ini_5th_anniversary_dome_2026_osaka_1114",
+        "ini_5th_anniversary_dome_2026_osaka_1115"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/feature/2026_dome_tour",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "ini_5th_anniversary_dome_2026_commune",
+      "tourId": "ini_5th_anniversary_dome_2026",
+      "type": "INI COMMUNE先行",
+      "entryStartAt": "2026-06-01T00:00:00+09:00",
+      "entryEndAt": "2026-06-14T23:59:00+09:00",
+      "resultAt": "2026-06-20T20:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ini_5th_anniversary_dome_2026_tokyo_0916",
+        "ini_5th_anniversary_dome_2026_tokyo_0917",
+        "ini_5th_anniversary_dome_2026_osaka_1114",
+        "ini_5th_anniversary_dome_2026_osaka_1115"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/feature/2026_dome_tour",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "ini_5th_anniversary_dome_2026_lenc_member",
+      "tourId": "ini_5th_anniversary_dome_2026",
+      "type": "ローソンチケット LEncore会員限定先行",
+      "entryStartAt": "2026-06-15T00:00:00+09:00",
+      "entryEndAt": "2026-06-23T23:59:00+09:00",
+      "resultAt": "2026-06-27T20:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ini_5th_anniversary_dome_2026_tokyo_0916",
+        "ini_5th_anniversary_dome_2026_tokyo_0917",
+        "ini_5th_anniversary_dome_2026_osaka_1114",
+        "ini_5th_anniversary_dome_2026_osaka_1115"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/feature/2026_dome_tour",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "ini_5th_anniversary_dome_2026_hvm_member",
+      "tourId": "ini_5th_anniversary_dome_2026",
+      "type": "ローソンチケット HMVプレミアム会員限定先行",
+      "entryStartAt": "2026-06-15T00:00:00+09:00",
+      "entryEndAt": "2026-06-23T23:59:00+09:00",
+      "resultAt": "2026-06-27T20:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ini_5th_anniversary_dome_2026_tokyo_0916",
+        "ini_5th_anniversary_dome_2026_tokyo_0917",
+        "ini_5th_anniversary_dome_2026_osaka_1114",
+        "ini_5th_anniversary_dome_2026_osaka_1115"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/feature/2026_dome_tour",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "ini_5th_anniversary_dome_2026_ltike_prerequest",
+      "tourId": "ini_5th_anniversary_dome_2026",
+      "type": "ローソンチケット プレリクエスト先行",
+      "entryStartAt": "2026-06-24T12:00:00+09:00",
+      "entryEndAt": "2026-07-06T23:59:00+09:00",
+      "resultAt": "2026-07-11T20:00:00+09:00",
+      "paymentStartAt": "2026-07-11T20:00:00+09:00",
+      "paymentEndAt": "2026-07-14T23:59:00+09:00",
+      "performanceIds": [
+        "ini_5th_anniversary_dome_2026_tokyo_0916",
+        "ini_5th_anniversary_dome_2026_tokyo_0917",
+        "ini_5th_anniversary_dome_2026_osaka_1114",
+        "ini_5th_anniversary_dome_2026_osaka_1115"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/feature/2026_dome_tour",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ]
+}

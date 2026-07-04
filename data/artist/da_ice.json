@@ -1,0 +1,81 @@
+{
+  "artistId": "da_ice",
+  "tours": [
+    {
+      "id": "da_ice_dome_phase_2027",
+      "artistId": "da_ice",
+      "title": "Da-iCE DAY DOME PHASE 2027",
+      "startDate": "2027-02-04T00:00:00+09:00",
+      "endDate": "2027-02-14T00:00:00+09:00",
+      "prices": [
+        {"label": "一般指定席", "amount": 15000},
+        {"label": "一般指定席（アクリルプレートパス付）", "amount": 17200},
+        {"label": "U-18指定席", "amount": 13000},
+        {"label": "U-18指定席（アクリルプレートパス付）", "amount": 15200},
+        {"label": "着席指定席", "amount": 17000},
+        {"label": "着席指定席（アクリルプレートパス付）", "amount": 19200}
+      ],
+      "source": "system",
+      "sourceUrl": "https://da-ice.jp/en/schedule/tour.php?id=1003011&fdate=2027-02-04&ldate=2027-02-14",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "da_ice_dome_phase_2027_tokyo_dome_0204",
+      "tourId": "da_ice_dome_phase_2027",
+      "venue": "東京ドーム",
+      "performanceAt": "2027-02-04T18:00:00+09:00",
+      "doorOpenAt": "2027-02-04T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://da-ice.jp/schedule/tour.php?id=1003011",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "da_ice_dome_phase_2027_kyocera_0213",
+      "tourId": "da_ice_dome_phase_2027",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2027-02-13T17:00:00+09:00",
+      "doorOpenAt": "2027-02-13T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://da-ice.jp/schedule/tour.php?id=1003011",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "da_ice_dome_phase_2027_kyocera_0214",
+      "tourId": "da_ice_dome_phase_2027",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2027-02-14T15:00:00+09:00",
+      "doorOpenAt": "2027-02-14T13:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://da-ice.jp/schedule/tour.php?id=1003011",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "da_ice_dome_phase_2027_playguide_先行",
+      "tourId": "da_ice_dome_phase_2027",
+      "type": "プレイガイド先行",
+      "entryStartAt": "2026-06-26T15:00:00+09:00",
+      "entryEndAt": "2026-07-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "da_ice_dome_phase_2027_tokyo_dome_0204",
+        "da_ice_dome_phase_2027_kyocera_0213",
+        "da_ice_dome_phase_2027_kyocera_0214"
+      ],
+      "source": "system",
+      "sourceUrl": "https://da-ice.jp/schedule/tour.php?id=1003011",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ]
+}

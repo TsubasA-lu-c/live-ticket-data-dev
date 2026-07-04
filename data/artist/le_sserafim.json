@@ -1,0 +1,154 @@
+{
+  "artistId": "le_sserafim",
+  "tours": [
+    {
+      "id": "le_sserafim_pureflow_2026",
+      "artistId": "le_sserafim",
+      "title": "2026 LE SSERAFIM TOUR 'PUREFLOW' IN JAPAN",
+      "startDate": "2026-07-25T00:00:00+09:00",
+      "endDate": "2026-09-03T00:00:00+09:00",
+      "prices": [
+        {"label": "指定席", "amount": 16500},
+        {"label": "VIP席", "amount": 27500}
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/news/51726af4dd90",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "le_sserafim_pureflow_2026_osaka_0725",
+      "tourId": "le_sserafim_pureflow_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-07-25T18:00:00+09:00",
+      "doorOpenAt": "2026-07-25T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/news/51726af4dd90",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_pureflow_2026_osaka_0726",
+      "tourId": "le_sserafim_pureflow_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-07-26T16:00:00+09:00",
+      "doorOpenAt": "2026-07-26T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/news/51726af4dd90",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_pureflow_2026_yokohama_0730",
+      "tourId": "le_sserafim_pureflow_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-07-30T18:30:00+09:00",
+      "doorOpenAt": "2026-07-30T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/news/51726af4dd90",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_pureflow_2026_yokohama_0801",
+      "tourId": "le_sserafim_pureflow_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-08-01T18:00:00+09:00",
+      "doorOpenAt": "2026-08-01T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/news/51726af4dd90",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_pureflow_2026_yokohama_0802",
+      "tourId": "le_sserafim_pureflow_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-08-02T16:00:00+09:00",
+      "doorOpenAt": "2026-08-02T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/news/51726af4dd90",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_pureflow_2026_shizuoka_0808",
+      "tourId": "le_sserafim_pureflow_2026",
+      "venue": "エコパアリーナ",
+      "performanceAt": "2026-08-08T18:00:00+09:00",
+      "doorOpenAt": "2026-08-08T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/news/51726af4dd90",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_pureflow_2026_shizuoka_0809",
+      "tourId": "le_sserafim_pureflow_2026",
+      "venue": "エコパアリーナ",
+      "performanceAt": "2026-08-09T16:00:00+09:00",
+      "doorOpenAt": "2026-08-09T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/news/51726af4dd90",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_pureflow_2026_miyagi_0818",
+      "tourId": "le_sserafim_pureflow_2026",
+      "venue": "セキスイハイムスーパーアリーナ",
+      "performanceAt": "2026-08-18T18:00:00+09:00",
+      "doorOpenAt": "2026-08-18T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/news/51726af4dd90",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_pureflow_2026_miyagi_0819",
+      "tourId": "le_sserafim_pureflow_2026",
+      "venue": "セキスイハイムスーパーアリーナ",
+      "performanceAt": "2026-08-19T18:00:00+09:00",
+      "doorOpenAt": "2026-08-19T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/news/51726af4dd90",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_pureflow_2026_fukuoka_0902",
+      "tourId": "le_sserafim_pureflow_2026",
+      "venue": "マリンメッセ福岡Aホール",
+      "performanceAt": "2026-09-02T18:30:00+09:00",
+      "doorOpenAt": "2026-09-02T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/news/51726af4dd90",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_pureflow_2026_fukuoka_0903",
+      "tourId": "le_sserafim_pureflow_2026",
+      "venue": "マリンメッセ福岡Aホール",
+      "performanceAt": "2026-09-03T18:30:00+09:00",
+      "doorOpenAt": "2026-09-03T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/news/51726af4dd90",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ],
+  "lotteries": []
+}

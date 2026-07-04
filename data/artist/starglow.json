@@ -1,0 +1,359 @@
+{
+  "artistId": "starglow",
+  "tours": [
+    {
+      "id": "starglow_star_cruise_2026",
+      "artistId": "starglow",
+      "title": "STARGLOW 1st Fan Meeting -STAR CRUISE-",
+      "startDate": "2026-04-10T00:00:00+09:00",
+      "endDate": "2026-07-25T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 9900
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://starcruise2026.starglow.tokyo/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_star_cruise_special_2026",
+      "artistId": "starglow",
+      "title": "STARGLOW 1st Fan Meeting -STAR CRUISE Special Edition-",
+      "startDate": "2026-08-01T00:00:00+09:00",
+      "endDate": "2026-08-09T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 9900
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://starcruise2026.starglow.tokyo/news/specialedition",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_fes_2026_bmsg",
+      "artistId": "starglow",
+      "title": "BMSG FES'26",
+      "startDate": "2026-10-10T00:00:00+09:00",
+      "endDate": "2026-10-12T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://bmsgfes.tokyo/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "starglow_star_cruise_2026_chiba_0410",
+      "tourId": "starglow_star_cruise_2026",
+      "venue": "森のホール21",
+      "performanceAt": "2026-04-10T18:00:00+09:00",
+      "doorOpenAt": "2026-04-10T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starcruise2026.starglow.tokyo/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_star_cruise_2026_tochigi_0425",
+      "tourId": "starglow_star_cruise_2026",
+      "venue": "栃木総合文化センター メインホール",
+      "performanceAt": "2026-04-25T17:30:00+09:00",
+      "doorOpenAt": "2026-04-25T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starcruise2026.starglow.tokyo/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_star_cruise_2026_shizuoka_0429",
+      "tourId": "starglow_star_cruise_2026",
+      "venue": "アクトシティ浜松大ホール",
+      "performanceAt": "2026-04-29T17:30:00+09:00",
+      "doorOpenAt": "2026-04-29T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starcruise2026.starglow.tokyo/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_star_cruise_2026_aichi_0501",
+      "tourId": "starglow_star_cruise_2026",
+      "venue": "Niterra日本特殊陶業市民会館 フォレストホール",
+      "performanceAt": "2026-05-01T18:00:00+09:00",
+      "doorOpenAt": "2026-05-01T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starcruise2026.starglow.tokyo/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_star_cruise_2026_kyoto_0502",
+      "tourId": "starglow_star_cruise_2026",
+      "venue": "ロームシアター京都 メインホール",
+      "performanceAt": "2026-05-02T17:30:00+09:00",
+      "doorOpenAt": "2026-05-02T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starcruise2026.starglow.tokyo/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_star_cruise_2026_miyagi_0504",
+      "tourId": "starglow_star_cruise_2026",
+      "venue": "仙台サンプラザホール",
+      "performanceAt": "2026-05-04T17:30:00+09:00",
+      "doorOpenAt": "2026-05-04T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starcruise2026.starglow.tokyo/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_star_cruise_2026_tokyo_0510",
+      "tourId": "starglow_star_cruise_2026",
+      "venue": "LINE CUBE SHIBUYA",
+      "performanceAt": "2026-05-10T18:00:00+09:00",
+      "doorOpenAt": "2026-05-10T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starcruise2026.starglow.tokyo/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_star_cruise_2026_hokkaido_0531",
+      "tourId": "starglow_star_cruise_2026",
+      "venue": "札幌文化芸術劇場hitaru",
+      "performanceAt": "2026-05-31T18:00:00+09:00",
+      "doorOpenAt": "2026-05-31T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starcruise2026.starglow.tokyo/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_star_cruise_2026_osaka_0610",
+      "tourId": "starglow_star_cruise_2026",
+      "venue": "オリックス劇場",
+      "performanceAt": "2026-06-10T18:00:00+09:00",
+      "doorOpenAt": "2026-06-10T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starcruise2026.starglow.tokyo/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_star_cruise_2026_hyogo_0612",
+      "tourId": "starglow_star_cruise_2026",
+      "venue": "神戸国際会館こくさいホール",
+      "performanceAt": "2026-06-12T18:00:00+09:00",
+      "doorOpenAt": "2026-06-12T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starcruise2026.starglow.tokyo/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_star_cruise_2026_kagawa_0614",
+      "tourId": "starglow_star_cruise_2026",
+      "venue": "レクザムホール 大ホール",
+      "performanceAt": "2026-06-14T17:30:00+09:00",
+      "doorOpenAt": "2026-06-14T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starcruise2026.starglow.tokyo/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_star_cruise_2026_fukuoka_0620",
+      "tourId": "starglow_star_cruise_2026",
+      "venue": "福岡市民ホール 大ホール",
+      "performanceAt": "2026-06-20T17:30:00+09:00",
+      "doorOpenAt": "2026-06-20T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starcruise2026.starglow.tokyo/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_star_cruise_2026_niigata_0705",
+      "tourId": "starglow_star_cruise_2026",
+      "venue": "新潟テルサ",
+      "performanceAt": "2026-07-05T17:30:00+09:00",
+      "doorOpenAt": "2026-07-05T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starcruise2026.starglow.tokyo/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_star_cruise_2026_hiroshima_0710",
+      "tourId": "starglow_star_cruise_2026",
+      "venue": "広島上野学園ホール",
+      "performanceAt": "2026-07-10T18:00:00+09:00",
+      "doorOpenAt": "2026-07-10T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starcruise2026.starglow.tokyo/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_star_cruise_2026_okayama_0711",
+      "tourId": "starglow_star_cruise_2026",
+      "venue": "岡山芸術創造劇場ハレノワ 大劇場",
+      "performanceAt": "2026-07-11T17:30:00+09:00",
+      "doorOpenAt": "2026-07-11T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starcruise2026.starglow.tokyo/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_star_cruise_2026_ishikawa_0719",
+      "tourId": "starglow_star_cruise_2026",
+      "venue": "本多の森 北電ホール",
+      "performanceAt": "2026-07-19T17:30:00+09:00",
+      "doorOpenAt": "2026-07-19T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starcruise2026.starglow.tokyo/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_star_cruise_2026_okinawa_0725",
+      "tourId": "starglow_star_cruise_2026",
+      "venue": "那覇文化芸術劇場なはーと 大劇場",
+      "performanceAt": "2026-07-25T17:30:00+09:00",
+      "doorOpenAt": "2026-07-25T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starcruise2026.starglow.tokyo/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_star_cruise_special_2026_kanagawa_0801",
+      "tourId": "starglow_star_cruise_special_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-08-01T17:30:00+09:00",
+      "doorOpenAt": "2026-08-01T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starcruise2026.starglow.tokyo/news/specialedition",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_star_cruise_special_2026_kanagawa_0802",
+      "tourId": "starglow_star_cruise_special_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-08-02T17:30:00+09:00",
+      "doorOpenAt": "2026-08-02T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starcruise2026.starglow.tokyo/news/specialedition",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_star_cruise_special_2026_hyogo_0808",
+      "tourId": "starglow_star_cruise_special_2026",
+      "venue": "GLION ARENA KOBE",
+      "performanceAt": "2026-08-08T17:30:00+09:00",
+      "doorOpenAt": "2026-08-08T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starcruise2026.starglow.tokyo/news/specialedition",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_star_cruise_special_2026_hyogo_0809",
+      "tourId": "starglow_star_cruise_special_2026",
+      "venue": "GLION ARENA KOBE",
+      "performanceAt": "2026-08-09T17:30:00+09:00",
+      "doorOpenAt": "2026-08-09T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starcruise2026.starglow.tokyo/news/specialedition",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_fes_2026_bmsg_1010",
+      "tourId": "starglow_fes_2026_bmsg",
+      "venue": "お台場BMSG FES特設会場",
+      "performanceAt": "2026-10-10T15:00:00+09:00",
+      "doorOpenAt": "2026-10-10T13:00:00+09:00",
+      "kind": "fes",
+      "eventName": "BMSG FES'26",
+      "source": "system",
+      "sourceUrl": "https://bmsgfes.tokyo/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_fes_2026_bmsg_1011",
+      "tourId": "starglow_fes_2026_bmsg",
+      "venue": "お台場BMSG FES特設会場",
+      "performanceAt": "2026-10-11T15:00:00+09:00",
+      "doorOpenAt": "2026-10-11T13:00:00+09:00",
+      "kind": "fes",
+      "eventName": "BMSG FES'26",
+      "source": "system",
+      "sourceUrl": "https://bmsgfes.tokyo/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_fes_2026_bmsg_1012",
+      "tourId": "starglow_fes_2026_bmsg",
+      "venue": "お台場BMSG FES特設会場",
+      "performanceAt": "2026-10-12T15:00:00+09:00",
+      "doorOpenAt": "2026-10-12T13:00:00+09:00",
+      "kind": "fes",
+      "eventName": "BMSG FES'26",
+      "source": "system",
+      "sourceUrl": "https://bmsgfes.tokyo/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "starglow_star_cruise_special_2026_upgrade",
+      "tourId": "starglow_star_cruise_special_2026",
+      "type": "アップグレード抽選",
+      "entryStartAt": "2026-06-30T15:00:00+09:00",
+      "entryEndAt": "2026-07-06T23:59:00+09:00",
+      "resultAt": "2026-07-15T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "starglow_star_cruise_special_2026_kanagawa_0801",
+        "starglow_star_cruise_special_2026_kanagawa_0802",
+        "starglow_star_cruise_special_2026_hyogo_0808",
+        "starglow_star_cruise_special_2026_hyogo_0809"
+      ],
+      "source": "system",
+      "sourceUrl": "https://starglow.tokyo/news/live/1214/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ]
+}

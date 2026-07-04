@@ -1,0 +1,266 @@
+{
+  "artistId": "fujii_kaze",
+  "tours": [
+    {
+      "id": "fujii_kaze_pre_prema_2026",
+      "artistId": "fujii_kaze",
+      "title": "Pre: Prema Tour",
+      "startDate": "2026-07-16T00:00:00+09:00",
+      "endDate": "2026-08-05T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_prema_world_2026",
+      "artistId": "fujii_kaze",
+      "title": "Prema World Tour",
+      "startDate": "2026-11-14T00:00:00+09:00",
+      "endDate": "2026-12-20T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "fujii_kaze_pre_prema_2026_hokkaido_0716",
+      "tourId": "fujii_kaze_pre_prema_2026",
+      "venue": "真駒内セキスイハイムアイスアリーナ",
+      "performanceAt": "2026-07-16T19:00:00+09:00",
+      "doorOpenAt": "2026-07-16T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_pre_prema_2026_hokkaido_0717",
+      "tourId": "fujii_kaze_pre_prema_2026",
+      "venue": "真駒内セキスイハイムアイスアリーナ",
+      "performanceAt": "2026-07-17T19:00:00+09:00",
+      "doorOpenAt": "2026-07-17T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_pre_prema_2026_hiroshima_0728",
+      "tourId": "fujii_kaze_pre_prema_2026",
+      "venue": "広島グリーンアリーナ",
+      "performanceAt": "2026-07-28T19:00:00+09:00",
+      "doorOpenAt": "2026-07-28T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_pre_prema_2026_hiroshima_0729",
+      "tourId": "fujii_kaze_pre_prema_2026",
+      "venue": "広島グリーンアリーナ",
+      "performanceAt": "2026-07-29T19:00:00+09:00",
+      "doorOpenAt": "2026-07-29T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_pre_prema_2026_fukui_0804",
+      "tourId": "fujii_kaze_pre_prema_2026",
+      "venue": "サンドーム福井",
+      "performanceAt": "2026-08-04T19:00:00+09:00",
+      "doorOpenAt": "2026-08-04T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_pre_prema_2026_fukui_0805",
+      "tourId": "fujii_kaze_pre_prema_2026",
+      "venue": "サンドーム福井",
+      "performanceAt": "2026-08-05T19:00:00+09:00",
+      "doorOpenAt": "2026-08-05T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_prema_world_2026_fukuoka_1114",
+      "tourId": "fujii_kaze_prema_world_2026",
+      "venue": "みずほPayPayドーム福岡",
+      "performanceAt": "2026-11-14T18:00:00+09:00",
+      "doorOpenAt": "2026-11-14T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_prema_world_2026_fukuoka_1115",
+      "tourId": "fujii_kaze_prema_world_2026",
+      "venue": "みずほPayPayドーム福岡",
+      "performanceAt": "2026-11-15T18:00:00+09:00",
+      "doorOpenAt": "2026-11-15T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_prema_world_2026_osaka_1210",
+      "tourId": "fujii_kaze_prema_world_2026",
+      "venue": "KYOCERA DOME OSAKA",
+      "performanceAt": "2026-12-10T19:00:00+09:00",
+      "doorOpenAt": "2026-12-10T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_prema_world_2026_osaka_1212",
+      "tourId": "fujii_kaze_prema_world_2026",
+      "venue": "KYOCERA DOME OSAKA",
+      "performanceAt": "2026-12-12T18:00:00+09:00",
+      "doorOpenAt": "2026-12-12T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_prema_world_2026_osaka_1213",
+      "tourId": "fujii_kaze_prema_world_2026",
+      "venue": "KYOCERA DOME OSAKA",
+      "performanceAt": "2026-12-13T18:00:00+09:00",
+      "doorOpenAt": "2026-12-13T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_prema_world_2026_tokyo_1219",
+      "tourId": "fujii_kaze_prema_world_2026",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-12-19T18:00:00+09:00",
+      "doorOpenAt": "2026-12-19T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_prema_world_2026_tokyo_1220",
+      "tourId": "fujii_kaze_prema_world_2026",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-12-20T18:00:00+09:00",
+      "doorOpenAt": "2026-12-20T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_prema_world_2026_kaohsiung_1031",
+      "tourId": "fujii_kaze_prema_world_2026",
+      "venue": "Kaohsiung National Stadium",
+      "performanceAt": "2026-10-31T19:00:00+09:00",
+      "doorOpenAt": "2026-10-31T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_prema_world_2026_bangkok_1226",
+      "tourId": "fujii_kaze_prema_world_2026",
+      "venue": "Supachalasai National Stadium",
+      "performanceAt": "2026-12-26T19:00:00+09:00",
+      "doorOpenAt": "2026-12-26T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_prema_world_2026_seoul_0109",
+      "tourId": "fujii_kaze_prema_world_2026",
+      "venue": "Gocheok Sky Dome",
+      "performanceAt": "2027-01-09T18:00:00+09:00",
+      "doorOpenAt": "2027-01-09T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "fujii_kaze_pre_prema_2026_general",
+      "tourId": "fujii_kaze_pre_prema_2026",
+      "type": "一般抽選",
+      "entryStartAt": "2026-04-24T12:00:00+09:00",
+      "entryEndAt": "2026-05-06T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fujii_kaze_pre_prema_2026_hokkaido_0716",
+        "fujii_kaze_pre_prema_2026_hokkaido_0717",
+        "fujii_kaze_pre_prema_2026_hiroshima_0728",
+        "fujii_kaze_pre_prema_2026_hiroshima_0729",
+        "fujii_kaze_pre_prema_2026_fukui_0804",
+        "fujii_kaze_pre_prema_2026_fukui_0805"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_prema_world_2026_general",
+      "tourId": "fujii_kaze_prema_world_2026",
+      "type": "一般抽選",
+      "entryStartAt": "2026-04-24T12:00:00+09:00",
+      "entryEndAt": "2026-05-06T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fujii_kaze_prema_world_2026_fukuoka_1114",
+        "fujii_kaze_prema_world_2026_fukuoka_1115",
+        "fujii_kaze_prema_world_2026_osaka_1210",
+        "fujii_kaze_prema_world_2026_osaka_1212",
+        "fujii_kaze_prema_world_2026_osaka_1213",
+        "fujii_kaze_prema_world_2026_tokyo_1219",
+        "fujii_kaze_prema_world_2026_tokyo_1220"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ]
+}

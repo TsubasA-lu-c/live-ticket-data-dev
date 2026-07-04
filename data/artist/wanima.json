@@ -1,0 +1,293 @@
+{
+  "artistId": "wanima",
+  "tours": [
+    {
+      "id": "wanima_1chance_fes_2026",
+      "artistId": "wanima",
+      "title": "WANIMA presents 1CHANCE FESTIVAL 2026",
+      "startDate": "2026-09-26T00:00:00+09:00",
+      "endDate": "2026-09-27T00:00:00+09:00",
+      "prices": [
+        {"label": "1日券", "amount": 12000},
+        {"label": "2日券", "amount": 23000},
+        {"label": "1日券（小人・高校生以下）", "amount": 9500},
+        {"label": "2日券（小人・高校生以下）", "amount": 18000}
+      ],
+      "source": "system",
+      "sourceUrl": "https://1chancefes.com/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "wanima_fes_2026",
+      "artistId": "wanima",
+      "title": "WANIMA 2026年夏秋フェス出演",
+      "startDate": "2026-08-02T00:00:00+09:00",
+      "endDate": "2026-10-17T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://wanima.net/contents/live",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "wanima_1chance_fes_2026_kumamoto_0926",
+      "tourId": "wanima_1chance_fes_2026",
+      "venue": "熊本県農業公園カントリーパーク",
+      "performanceAt": "2026-09-26T11:30:00+09:00",
+      "doorOpenAt": "2026-09-26T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "1CHANCE FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://1chancefes.com/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "wanima_1chance_fes_2026_kumamoto_0927",
+      "tourId": "wanima_1chance_fes_2026",
+      "venue": "熊本県農業公園カントリーパーク",
+      "performanceAt": "2026-09-27T11:30:00+09:00",
+      "doorOpenAt": "2026-09-27T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "1CHANCE FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://1chancefes.com/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "wanima_fes_2026_numbershot_0802",
+      "tourId": "wanima_fes_2026",
+      "venue": "みずほPayPayドーム福岡",
+      "performanceAt": "2026-08-02T10:30:00+09:00",
+      "doorOpenAt": "2026-08-02T08:30:00+09:00",
+      "kind": "fes",
+      "eventName": "NUMBER SHOT 2026",
+      "source": "system",
+      "sourceUrl": "https://numbershot.jp/2026/",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "wanima_fes_2026_summersonic_osaka_0814",
+      "tourId": "wanima_fes_2026",
+      "venue": "万博記念公園",
+      "performanceAt": "2026-08-14T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "SUMMER SONIC 2026 OSAKA",
+      "source": "system",
+      "sourceUrl": "https://www.summersonic.com/",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "wanima_fes_2026_summersonic_tokyo_0816",
+      "tourId": "wanima_fes_2026",
+      "venue": "ZOZOマリンスタジアム・幕張メッセ",
+      "performanceAt": "2026-08-16T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "SUMMER SONIC 2026 TOKYO",
+      "source": "system",
+      "sourceUrl": "https://www.summersonic.com/",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "wanima_fes_2026_wildbunch_0823",
+      "tourId": "wanima_fes_2026",
+      "venue": "山口きらら博記念公園",
+      "performanceAt": "2026-08-23T11:30:00+09:00",
+      "doorOpenAt": "2026-08-23T10:00:00+09:00",
+      "kind": "fes",
+      "eventName": "WILD BUNCH FEST. 2026",
+      "source": "system",
+      "sourceUrl": "https://www.wildbunchfest.jp/",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "wanima_fes_2026_sweetloveshower_0829",
+      "tourId": "wanima_fes_2026",
+      "venue": "山中湖交流プラザ きらら",
+      "performanceAt": "2026-08-29T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "SWEET LOVE SHOWER 2026",
+      "source": "system",
+      "sourceUrl": "https://2026.sweetloveshower.com/",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "wanima_fes_2026_rijfes_0920",
+      "tourId": "wanima_fes_2026",
+      "venue": "千葉市蘇我スポーツ公園",
+      "performanceAt": "2026-09-20T11:45:00+09:00",
+      "doorOpenAt": "2026-09-20T08:30:00+09:00",
+      "kind": "fes",
+      "eventName": "ROCK IN JAPAN FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://rijfes.jp/",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "wanima_fes_2026_liveazuma_1017",
+      "tourId": "wanima_fes_2026",
+      "venue": "あづま総合運動公園 / 福島あづま球場",
+      "performanceAt": "2026-10-17T11:00:00+09:00",
+      "doorOpenAt": "2026-10-17T10:00:00+09:00",
+      "kind": "fes",
+      "eventName": "LIVE AZUMA 2026",
+      "source": "system",
+      "sourceUrl": "https://liveazuma.jp/",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "wanima_1chance_fes_2026_fc",
+      "tourId": "wanima_1chance_fes_2026",
+      "type": "FC先行",
+      "entryStartAt": "2026-04-11T21:00:00+09:00",
+      "entryEndAt": "2026-04-19T23:59:00+09:00",
+      "resultAt": "2026-04-24T00:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "wanima_1chance_fes_2026_kumamoto_0926",
+        "wanima_1chance_fes_2026_kumamoto_0927"
+      ],
+      "source": "system",
+      "sourceUrl": "https://wanima.net/contents/1064730",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "wanima_1chance_fes_2026_1st",
+      "tourId": "wanima_1chance_fes_2026",
+      "type": "オフィシャル1次先行",
+      "entryStartAt": "2026-04-30T21:00:00+09:00",
+      "entryEndAt": "2026-05-06T23:59:00+09:00",
+      "resultAt": "2026-05-13T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "wanima_1chance_fes_2026_kumamoto_0926",
+        "wanima_1chance_fes_2026_kumamoto_0927"
+      ],
+      "source": "system",
+      "sourceUrl": "https://1chancefes.com/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "wanima_1chance_fes_2026_2nd",
+      "tourId": "wanima_1chance_fes_2026",
+      "type": "オフィシャル2次先行",
+      "entryStartAt": "2026-05-16T19:00:00+09:00",
+      "entryEndAt": "2026-05-24T23:59:00+09:00",
+      "resultAt": "2026-05-29T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "wanima_1chance_fes_2026_kumamoto_0926",
+        "wanima_1chance_fes_2026_kumamoto_0927"
+      ],
+      "source": "system",
+      "sourceUrl": "https://1chancefes.com/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "wanima_1chance_fes_2026_3rd",
+      "tourId": "wanima_1chance_fes_2026",
+      "type": "3次先行抽選",
+      "entryStartAt": "2026-07-01T19:00:00+09:00",
+      "entryEndAt": "2026-07-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "wanima_1chance_fes_2026_kumamoto_0926",
+        "wanima_1chance_fes_2026_kumamoto_0927"
+      ],
+      "source": "system",
+      "sourceUrl": "https://1chancefes.com/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "wanima_fes_2026_numbershot_general",
+      "tourId": "wanima_fes_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-07-04T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "wanima_fes_2026_numbershot_0802"
+      ],
+      "source": "system",
+      "sourceUrl": "https://numbershot.jp/2026/",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "wanima_fes_2026_summersonic_general",
+      "tourId": "wanima_fes_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-05-30T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "wanima_fes_2026_summersonic_osaka_0814",
+        "wanima_fes_2026_summersonic_tokyo_0816"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.summersonic.com/tickets/tokyo/",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "wanima_fes_2026_wildbunch_3rd",
+      "tourId": "wanima_fes_2026",
+      "type": "セブン-イレブン先着先行3次",
+      "entryStartAt": "2026-06-16T12:00:00+09:00",
+      "entryEndAt": "2026-06-28T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "wanima_fes_2026_wildbunch_0823"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.wildbunchfest.jp/tickets/",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "wanima_fes_2026_rijfes_resale",
+      "tourId": "wanima_fes_2026",
+      "type": "オフィシャルリセール",
+      "entryStartAt": null,
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "wanima_fes_2026_rijfes_0920"
+      ],
+      "source": "system",
+      "sourceUrl": "https://rijfes.jp/2026/ticket/",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "wanima_fes_2026_liveazuma_ep",
+      "tourId": "wanima_fes_2026",
+      "type": "先着先行",
+      "entryStartAt": "2026-06-19T12:00:00+09:00",
+      "entryEndAt": "2026-06-30T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "wanima_fes_2026_liveazuma_1017"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/live-azuma/",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    }
+  ]
+}

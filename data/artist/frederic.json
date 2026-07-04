@@ -1,0 +1,249 @@
+{
+  "artistId": "frederic",
+  "tours": [
+    {
+      "id": "frederic_umimoyasu_20262027_move",
+      "artistId": "frederic",
+      "title": "UMIMOYASU 2026-2027 MOVE",
+      "startDate": "2026-04-18T00:00:00+09:00",
+      "endDate": "2027-01-17T00:00:00+09:00",
+      "prices": [
+        {"label": "スタンディング", "amount": 6600}
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_fes_2026",
+      "artistId": "frederic",
+      "title": "2026年フェス出演",
+      "startDate": "2026-07-11T00:00:00+09:00",
+      "endDate": "2026-09-21T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "frederic_umimoyasu_20262027_move_zepp_yokohama_0418",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "venue": "KT Zepp Yokohama",
+      "performanceAt": "2026-04-18T18:00:00+09:00",
+      "doorOpenAt": "2026-04-18T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_zepp_haneda_0526",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "venue": "Zepp Haneda（TOKYO）",
+      "performanceAt": "2026-05-26T19:00:00+09:00",
+      "doorOpenAt": "2026-05-26T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_zepp_haneda_0712",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "venue": "Zepp Haneda（TOKYO）",
+      "performanceAt": "2026-07-12T18:00:00+09:00",
+      "doorOpenAt": "2026-07-12T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_zepp_haneda_1012",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "venue": "Zepp Haneda（TOKYO）",
+      "performanceAt": "2026-10-12T18:00:00+09:00",
+      "doorOpenAt": "2026-10-12T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_zepp_haneda_0117",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "venue": "Zepp Haneda（TOKYO）",
+      "performanceAt": "2027-01-17T18:00:00+09:00",
+      "doorOpenAt": "2027-01-17T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_fes_2026_talkingrockfes_yokohama_0711",
+      "tourId": "frederic_fes_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-07-11T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "Talking Rock! FES.2026 <<横浜編>>",
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3657",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_fes_2026_singershigh_nagoya_0722",
+      "tourId": "frederic_fes_2026",
+      "venue": "名古屋ダイアモンドホール",
+      "performanceAt": "2026-07-22T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "Singer's High pre. \"Battle Frontier tour 2026\"",
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3632",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_fes_2026_jiga_osaka_0726",
+      "tourId": "frederic_fes_2026",
+      "venue": "大阪・舞洲スポーツアイランド ジャイガ特設会場",
+      "performanceAt": "2026-07-26T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "OSAKA GIGANTIC MUSIC FESTIVAL 2026 -THANKS 10TH GIGA-",
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3648",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_fes_2026_talkingrockfes_kobe_0809",
+      "tourId": "frederic_fes_2026",
+      "venue": "神戸ワールド記念ホール",
+      "performanceAt": "2026-08-09T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "Talking Rock! FES.2026 <<神戸編>>",
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3630",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_fes_2026_luckyfes_hitachi_0811",
+      "tourId": "frederic_fes_2026",
+      "venue": "国営ひたち海浜公園",
+      "performanceAt": "2026-08-11T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "LuckyFes'26",
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3620",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_fes_2026_sls_yamanashi_0829",
+      "tourId": "frederic_fes_2026",
+      "venue": "山梨・山中湖交流プラザ きらら",
+      "performanceAt": "2026-08-29T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "SPACE SHOWER SWEET LOVE SHOWER 2026",
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3631",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_fes_2026_treasure05x_aichi_0912",
+      "tourId": "frederic_fes_2026",
+      "venue": "愛知・蒲郡ラグーナビーチ",
+      "performanceAt": "2026-09-12T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "TREASURE05X 2026 \"LAND OF THE FREE- LAGUNA FINAL-\"",
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3658",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_fes_2026_rij_soga_0920",
+      "tourId": "frederic_fes_2026",
+      "venue": "千葉市蘇我スポーツ公園",
+      "performanceAt": "2026-09-20T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "ROCK IN JAPAN FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3668",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_fes_2026_inazuma_kusatsu_0921",
+      "tourId": "frederic_fes_2026",
+      "venue": "滋賀県草津市烏丸半島芝生広場",
+      "performanceAt": "2026-09-21T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "FEST. INAZUMA 2026",
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3682",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "frederic_umimoyasu_20262027_move_fc_1st_1012",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "type": "フレハウス+一次抽選",
+      "entryStartAt": "2026-04-06T18:00:00+09:00",
+      "entryEndAt": "2026-04-12T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_haneda_1012"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_fc_2nd_1012",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "type": "フレハウス+二次抽選",
+      "entryStartAt": "2026-04-17T18:00:00+09:00",
+      "entryEndAt": "2026-04-26T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_haneda_1012"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_preorder_1012",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "type": "プレオーダー",
+      "entryStartAt": "2026-06-26T18:00:00+09:00",
+      "entryEndAt": "2026-07-05T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_haneda_1012"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    }
+  ]
+}

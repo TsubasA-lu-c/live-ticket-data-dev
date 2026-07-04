@@ -1,0 +1,239 @@
+{
+  "artistId": "yuuri",
+  "tours": [
+    {
+      "id": "yuuri_asia_tour_gomen_2026",
+      "artistId": "yuuri",
+      "title": "YUURI ASIA TOUR 2025で行けなくてごめんね2026",
+      "startDate": "2026-05-12T00:00:00+09:00",
+      "endDate": "2026-10-06T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 8500
+        },
+        {
+          "label": "ゆーりんちの席（FC限定）",
+          "amount": 12000
+        },
+        {
+          "label": "ゆーりんちの席ファミリーシート（着席指定・2枚組）",
+          "amount": 24000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://yuurinchi.com/contents/1047040",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_ichifuji_nikatagi_2026",
+      "artistId": "yuuri",
+      "title": "一富士二鷹三優里 -せめて茄子にはならせてくれよ-",
+      "startDate": "2026-09-05T00:00:00+09:00",
+      "endDate": "2026-09-06T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 8500
+        },
+        {
+          "label": "ゆーりんちの席（FC限定）",
+          "amount": 12000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/3413260010",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_fes_2026_joinalive",
+      "artistId": "yuuri",
+      "title": "JOIN ALIVE 2026",
+      "startDate": "2026-07-18T18:20:00+09:00",
+      "endDate": "2026-07-18T18:20:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://joinalive.jp/2026/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_fes_2026_osakagigantic",
+      "artistId": "yuuri",
+      "title": "OSAKA GIGANTIC MUSIC FESTIVAL 2026",
+      "startDate": "2026-07-25T12:00:00+09:00",
+      "endDate": "2026-07-25T12:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/2249550001",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_fes_2026_numbershot",
+      "artistId": "yuuri",
+      "title": "NUMBER SHOT 2026",
+      "startDate": "2026-08-01T00:00:00+09:00",
+      "endDate": "2026-08-01T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://numbershot.jp/2026/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_fes_2026_otohige",
+      "artistId": "yuuri",
+      "title": "音楽と髭達2026 -TIME MACHINE-",
+      "startDate": "2026-08-29T00:00:00+09:00",
+      "endDate": "2026-08-29T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://otohige.com/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_fes_2026_rijfes",
+      "artistId": "yuuri",
+      "title": "ROCK IN JAPAN FESTIVAL 2026",
+      "startDate": "2026-09-13T00:00:00+09:00",
+      "endDate": "2026-09-13T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://rijfes.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "yuuri_asia_tour_gomen_2026_sendai_0512",
+      "tourId": "yuuri_asia_tour_gomen_2026",
+      "venue": "仙台サンプラザホール",
+      "performanceAt": "2026-05-12T19:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://yuurinchi.com/contents/1047040",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_asia_tour_gomen_2026_aomori_0513",
+      "tourId": "yuuri_asia_tour_gomen_2026",
+      "venue": "リンクステーションホール青森",
+      "performanceAt": "2026-05-13T19:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://yuurinchi.com/contents/1047040",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_asia_tour_gomen_2026_kagawa_1005",
+      "tourId": "yuuri_asia_tour_gomen_2026",
+      "venue": "レクザムホール",
+      "performanceAt": "2026-10-05T19:00:00+09:00",
+      "doorOpenAt": "2026-10-05T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/yuri/info/583830",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_asia_tour_gomen_2026_ehime_1006",
+      "tourId": "yuuri_asia_tour_gomen_2026",
+      "venue": "愛媛県県民文化会館（主ホール）",
+      "performanceAt": "2026-10-06T19:30:00+09:00",
+      "doorOpenAt": "2026-10-06T18:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/yuri/info/583830",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_ichifuji_nikatagi_2026_fujikyu_0905",
+      "tourId": "yuuri_ichifuji_nikatagi_2026",
+      "venue": "富士急ハイランド・コニファーフォレスト",
+      "performanceAt": "2026-09-05T17:30:00+09:00",
+      "doorOpenAt": "2026-09-05T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/3413260010",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_ichifuji_nikatagi_2026_fujikyu_0906",
+      "tourId": "yuuri_ichifuji_nikatagi_2026",
+      "venue": "富士急ハイランド・コニファーフォレスト",
+      "performanceAt": "2026-09-06T17:30:00+09:00",
+      "doorOpenAt": "2026-09-06T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/3413260010",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_fes_2026_joinalive_0718",
+      "tourId": "yuuri_fes_2026_joinalive",
+      "venue": "山麓公園",
+      "performanceAt": "2026-07-18T18:20:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "JOIN ALIVE 2026",
+      "source": "system",
+      "sourceUrl": "https://joinalive.jp/2026/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_fes_2026_osakagigantic_0725",
+      "tourId": "yuuri_fes_2026_osakagigantic",
+      "venue": "舞洲スポーツアイランド",
+      "performanceAt": "2026-07-25T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "OSAKA GIGANTIC MUSIC FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/2249550001",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_fes_2026_numbershot_0801",
+      "tourId": "yuuri_fes_2026_numbershot",
+      "venue": "みずほPayPayドーム福岡",
+      "performanceAt": "2026-08-01T10:30:00+09:00",
+      "doorOpenAt": "2026-08-01T08:30:00+09:00",
+      "kind": "fes",
+      "eventName": "NUMBER SHOT 2026",
+      "source": "system",
+      "sourceUrl": "https://numbershot.jp/2026/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_fes_2026_otohige_0829",
+      "tourId": "yuuri_fes_2026_otohige",
+      "venue": "HARD OFF ECOスタジアム新潟",
+      "performanceAt": "2026-08-29T11:00:00+09:00",
+      "doorOpenAt": "2026-08-29T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "音楽と髭達2026 -TIME MACHINE-",
+      "source": "system",
+      "sourceUrl": "https://otohige.com/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_fes_2026_rijfes_0913",
+      "tourId": "yuuri_fes_2026_rijfes",
+      "venue": "千葉市蘇我スポーツ公園",
+      "performanceAt": "2026-09-13T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "ROCK IN JAPAN FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://rijfes.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ],
+  "lotteries": []
+}

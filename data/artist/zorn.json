@@ -1,0 +1,76 @@
+{
+  "artistId": "zorn",
+  "tours": [
+    {
+      "id": "zorn_jimotelove_oneman_2026",
+      "artistId": "zorn",
+      "title": "ZORN ONEMAN LIVE「地元LOVE」",
+      "startDate": "2026-07-30T00:00:00+09:00",
+      "endDate": "2026-07-30T00:00:00+09:00",
+      "prices": [
+        {"label": "全席指定", "amount": 7800}
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/1343970001-P0030010P021001",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "zorn_jimotelove_oneman_2026_katsushikashills_0730",
+      "tourId": "zorn_jimotelove_oneman_2026",
+      "venue": "かつしかシンフォニーヒルズ モーツァルトホール",
+      "performanceAt": "2026-07-30T18:45:00+09:00",
+      "doorOpenAt": "2026-07-30T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/1343970001-P0030010P021001",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "zorn_jimotelove_oneman_2026_fc_1st",
+      "tourId": "zorn_jimotelove_oneman_2026",
+      "type": "FC先行",
+      "entryStartAt": "2026-02-16T22:00:00+09:00",
+      "entryEndAt": "2026-02-23T23:59:00+09:00",
+      "resultAt": "2026-02-26T13:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-02-28T21:00:00+09:00",
+      "performanceIds": ["zorn_jimotelove_oneman_2026_katsushikashills_0730"],
+      "source": "system",
+      "sourceUrl": "https://fc.zorn.tokyo/news/?id=470",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "zorn_jimotelove_oneman_2026_fc_2nd",
+      "tourId": "zorn_jimotelove_oneman_2026",
+      "type": "FC先行（第2次）",
+      "entryStartAt": "2026-03-02T18:00:00+09:00",
+      "entryEndAt": "2026-03-08T23:59:00+09:00",
+      "resultAt": "2026-03-11T13:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-03-11T18:00:00+09:00",
+      "performanceIds": ["zorn_jimotelove_oneman_2026_katsushikashills_0730"],
+      "source": "system",
+      "sourceUrl": "https://fc.zorn.tokyo/news/?id=475",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "zorn_jimotelove_oneman_2026_ippan_sakigake",
+      "tourId": "zorn_jimotelove_oneman_2026",
+      "type": "一般抽選先行",
+      "entryStartAt": "2026-03-02T18:00:00+09:00",
+      "entryEndAt": "2026-03-08T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["zorn_jimotelove_oneman_2026_katsushikashills_0730"],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/1343970001-P0030010P021001",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ]
+}

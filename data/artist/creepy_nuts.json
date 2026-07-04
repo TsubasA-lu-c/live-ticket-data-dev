@@ -1,0 +1,147 @@
+{
+  "artistId": "creepy_nuts",
+  "tours": [
+    {
+      "id": "creepy_nuts_fes_2026_ogmf",
+      "artistId": "creepy_nuts",
+      "title": "OSAKA GIGANTIC MUSIC FESTIVAL 2026 -THANKS 10TH GIGA-",
+      "startDate": "2026-07-25T12:00:00+09:00",
+      "endDate": "2026-07-25T12:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/word/0000081866",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "creepy_nuts_fes_2026_ogmf_0801",
+      "artistId": "creepy_nuts",
+      "title": "OSAKA GIGANTIC MUSIC FESTIVAL 2026 -THANKS 10TH GIGA-",
+      "startDate": "2026-08-01T12:00:00+09:00",
+      "endDate": "2026-08-01T12:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://giga-osaka.com/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "creepy_nuts_fes_2026_rsr",
+      "artistId": "creepy_nuts",
+      "title": "RISING SUN ROCK FESTIVAL 2026 in EZO",
+      "startDate": "2026-08-14T14:00:00+09:00",
+      "endDate": "2026-08-14T23:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://rsr.wess.co.jp/2026/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "creepy_nuts_taiban_2026_weeknd_belluna",
+      "artistId": "creepy_nuts",
+      "title": "The Weeknd After Hours Til Dawn Tour（スペシャルゲスト出演）",
+      "startDate": "2026-09-19T17:00:00+09:00",
+      "endDate": "2026-09-20T17:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://natalie.mu/music/news/671518",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "creepy_nuts_taiban_2026_weeknd_kl",
+      "artistId": "creepy_nuts",
+      "title": "The Weeknd After Hours Til Dawn Tour - Kuala Lumpur（スペシャルゲスト出演）",
+      "startDate": "2026-11-04T20:30:00+09:00",
+      "endDate": "2026-11-05T20:30:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.livenation.my/event/the-weeknd-after-hours-til-dawn-tour-kuala-lumpur-tickets-edp1672816",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "creepy_nuts_fes_2026_ogmf",
+      "tourId": "creepy_nuts_fes_2026_ogmf",
+      "venue": "舞洲スポーツアイランド",
+      "performanceAt": "2026-07-25T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "OSAKA GIGANTIC MUSIC FESTIVAL 2026 -THANKS 10TH GIGA-",
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/word/0000081866",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "creepy_nuts_fes_2026_ogmf_0801_maishima_0801",
+      "tourId": "creepy_nuts_fes_2026_ogmf_0801",
+      "venue": "舞洲スポーツアイランド",
+      "performanceAt": "2026-08-01T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "OSAKA GIGANTIC MUSIC FESTIVAL 2026 -THANKS 10TH GIGA-",
+      "source": "system",
+      "sourceUrl": "https://giga-osaka.com/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "creepy_nuts_fes_2026_rsr_ishikari_0814",
+      "tourId": "creepy_nuts_fes_2026_rsr",
+      "venue": "石狩湾新港樽川ふ頭横野外特設ステージ",
+      "performanceAt": "2026-08-14T14:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "RISING SUN ROCK FESTIVAL 2026 in EZO",
+      "source": "system",
+      "sourceUrl": "https://rsr.wess.co.jp/2026/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "creepy_nuts_taiban_2026_weeknd_belluna_0919",
+      "tourId": "creepy_nuts_taiban_2026_weeknd_belluna",
+      "venue": "ベルーナドーム",
+      "performanceAt": "2026-09-19T17:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "eventName": "The Weeknd After Hours Til Dawn Tour",
+      "source": "system",
+      "sourceUrl": "https://natalie.mu/music/news/671518",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "creepy_nuts_taiban_2026_weeknd_belluna_0920",
+      "tourId": "creepy_nuts_taiban_2026_weeknd_belluna",
+      "venue": "ベルーナドーム",
+      "performanceAt": "2026-09-20T17:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "eventName": "The Weeknd After Hours Til Dawn Tour",
+      "source": "system",
+      "sourceUrl": "https://natalie.mu/music/news/671518",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "creepy_nuts_taiban_2026_weeknd_kl_1104",
+      "tourId": "creepy_nuts_taiban_2026_weeknd_kl",
+      "venue": "TM National Stadium（クアラルンプール）",
+      "performanceAt": "2026-11-04T20:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "eventName": "The Weeknd After Hours Til Dawn Tour",
+      "source": "system",
+      "sourceUrl": "https://www.livenation.my/event/the-weeknd-after-hours-til-dawn-tour-kuala-lumpur-tickets-edp1672816",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "creepy_nuts_taiban_2026_weeknd_kl_1105",
+      "tourId": "creepy_nuts_taiban_2026_weeknd_kl",
+      "venue": "TM National Stadium（クアラルンプール）",
+      "performanceAt": "2026-11-05T20:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "eventName": "The Weeknd After Hours Til Dawn Tour",
+      "source": "system",
+      "sourceUrl": "https://www.livenation.my/event/the-weeknd-after-hours-til-dawn-tour-kuala-lumpur-tickets-edp1672816",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ],
+  "lotteries": []
+}

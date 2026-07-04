@@ -1,0 +1,249 @@
+{
+  "artistId": "milet",
+  "tours": [
+    {
+      "id": "milet_hall_tour_2026",
+      "artistId": "milet",
+      "title": "milet Hall Tour 2026",
+      "startDate": "2026-09-12T00:00:00+09:00",
+      "endDate": "2026-11-22T00:00:00+09:00",
+      "prices": [
+        {"label": "指定席", "amount": 8800}
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/milet_music/info/581683",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "milet_hall_tour_2026_morinohole21_0912",
+      "tourId": "milet_hall_tour_2026",
+      "venue": "森のホール21 大ホール",
+      "performanceAt": "2026-09-12T17:00:00+09:00",
+      "doorOpenAt": "2026-09-12T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/milet_music/info/581683",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "milet_hall_tour_2026_karutsukawasakl_0918",
+      "tourId": "milet_hall_tour_2026",
+      "venue": "カルッツかわさき",
+      "performanceAt": "2026-09-18T18:30:00+09:00",
+      "doorOpenAt": "2026-09-18T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/milet_music/info/581683",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "milet_hall_tour_2026_omiyasonic_0921",
+      "tourId": "milet_hall_tour_2026",
+      "venue": "大宮ソニックシティ 大ホール",
+      "performanceAt": "2026-09-21T17:00:00+09:00",
+      "doorOpenAt": "2026-09-21T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/milet_music/info/581683",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "milet_hall_tour_2026_sunporthall_0923",
+      "tourId": "milet_hall_tour_2026",
+      "venue": "サンポートホール高松 大ホール",
+      "performanceAt": "2026-09-23T17:00:00+09:00",
+      "doorOpenAt": "2026-09-23T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/milet_music/info/581683",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "milet_hall_tour_2026_rohmtheater_0926",
+      "tourId": "milet_hall_tour_2026",
+      "venue": "ロームシアター京都 メインホール",
+      "performanceAt": "2026-09-26T17:00:00+09:00",
+      "doorOpenAt": "2026-09-26T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/milet_music/info/581683",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "milet_hall_tour_2026_marinart_0927",
+      "tourId": "milet_hall_tour_2026",
+      "venue": "静岡市清水文化会館 マリナート 大ホール",
+      "performanceAt": "2026-09-27T16:00:00+09:00",
+      "doorOpenAt": "2026-09-27T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/milet_music/info/581683",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "milet_hall_tour_2026_hbghall_1003",
+      "tourId": "milet_hall_tour_2026",
+      "venue": "広島文化学園HBGホール",
+      "performanceAt": "2026-10-03T17:00:00+09:00",
+      "doorOpenAt": "2026-10-03T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/milet_music/info/581683",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "milet_hall_tour_2026_kurashikikouminhall_1004",
+      "tourId": "milet_hall_tour_2026",
+      "venue": "倉敷市民会館",
+      "performanceAt": "2026-10-04T17:00:00+09:00",
+      "doorOpenAt": "2026-10-04T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/milet_music/info/581683",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "milet_hall_tour_2026_hondanomori_1010",
+      "tourId": "milet_hall_tour_2026",
+      "venue": "本多の森 北電ホール",
+      "performanceAt": "2026-10-10T17:00:00+09:00",
+      "doorOpenAt": "2026-10-10T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/milet_music/info/581683",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "milet_hall_tour_2026_gardentheater_1017",
+      "tourId": "milet_hall_tour_2026",
+      "venue": "東京ガーデンシアター",
+      "performanceAt": "2026-10-17T18:00:00+09:00",
+      "doorOpenAt": "2026-10-17T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/milet_music/info/581683",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "milet_hall_tour_2026_sendaisunplaza_1024",
+      "tourId": "milet_hall_tour_2026",
+      "venue": "仙台サンプラザホール",
+      "performanceAt": "2026-10-24T17:30:00+09:00",
+      "doorOpenAt": "2026-10-24T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/milet_music/info/581683",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "milet_hall_tour_2026_tohomin_1025",
+      "tourId": "milet_hall_tour_2026",
+      "venue": "とうほう みんなの文化センター 大ホール",
+      "performanceAt": "2026-10-25T17:00:00+09:00",
+      "doorOpenAt": "2026-10-25T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/milet_music/info/581683",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "milet_hall_tour_2026_festivalhall_1101",
+      "tourId": "milet_hall_tour_2026",
+      "venue": "フェスティバルホール",
+      "performanceAt": "2026-11-01T17:00:00+09:00",
+      "doorOpenAt": "2026-11-01T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/milet_music/info/581683",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "milet_hall_tour_2026_festivalhall_1102",
+      "tourId": "milet_hall_tour_2026",
+      "venue": "フェスティバルホール",
+      "performanceAt": "2026-11-02T19:00:00+09:00",
+      "doorOpenAt": "2026-11-02T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/milet_music/info/581683",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "milet_hall_tour_2026_nhkhall_1105",
+      "tourId": "milet_hall_tour_2026",
+      "venue": "NHKホール",
+      "performanceAt": "2026-11-05T18:30:00+09:00",
+      "doorOpenAt": "2026-11-05T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/milet_music/info/581683",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "milet_hall_tour_2026_niterrashimin_1108",
+      "tourId": "milet_hall_tour_2026",
+      "venue": "Niterra日本特殊陶業市民会館 フォレストホール",
+      "performanceAt": "2026-11-08T17:00:00+09:00",
+      "doorOpenAt": "2026-11-08T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/milet_music/info/581683",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "milet_hall_tour_2026_hitaru_1113",
+      "tourId": "milet_hall_tour_2026",
+      "venue": "札幌文化芸術劇場hitaru",
+      "performanceAt": "2026-11-13T19:00:00+09:00",
+      "doorOpenAt": "2026-11-13T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/milet_music/info/581683",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "milet_hall_tour_2026_fukuokasunpalace_1121",
+      "tourId": "milet_hall_tour_2026",
+      "venue": "福岡サンパレスホテル＆ホール",
+      "performanceAt": "2026-11-21T17:00:00+09:00",
+      "doorOpenAt": "2026-11-21T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/milet_music/info/581683",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "milet_hall_tour_2026_iichikograntheatre_1122",
+      "tourId": "milet_hall_tour_2026",
+      "venue": "iichikoグランシアタ",
+      "performanceAt": "2026-11-22T17:00:00+09:00",
+      "doorOpenAt": "2026-11-22T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/milet_music/info/581683",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    }
+  ],
+  "lotteries": []
+}

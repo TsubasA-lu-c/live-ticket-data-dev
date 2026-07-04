@@ -1,0 +1,96 @@
+{
+  "artistId": "babymetal",
+  "tours": [
+    {
+      "id": "babymetal_cannonball_gaiden_2026",
+      "artistId": "babymetal",
+      "title": "CANNONBALL 外伝",
+      "startDate": "2026-08-09T00:00:00+09:00",
+      "endDate": "2026-08-11T00:00:00+09:00",
+      "prices": [
+        {"label": "アリーナスタンディング", "amount": 9900},
+        {"label": "指定席", "amount": 10900}
+      ],
+      "source": "system",
+      "sourceUrl": "https://cannonball-live.jp/",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "babymetal_luckyfes_2026",
+      "artistId": "babymetal",
+      "title": "LuckyFes'26",
+      "startDate": "2026-08-08T00:00:00+09:00",
+      "endDate": "2026-08-11T00:00:00+09:00",
+      "prices": [
+        {"label": "1日券", "amount": 14000},
+        {"label": "3日通し券", "amount": 28000},
+        {"label": "4日通し券", "amount": 38000}
+      ],
+      "source": "system",
+      "sourceUrl": "https://gekirock.com/news/2026/03/luckyfes26_1st_lineup.php",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "babymetal_summer_sonic_2026",
+      "artistId": "babymetal",
+      "title": "SUMMER SONIC 2026",
+      "startDate": "2026-08-14T00:00:00+09:00",
+      "endDate": "2026-08-16T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://www.summersonic.com/",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "babymetal_cannonball_gaiden_2026_tokyo_0810",
+      "tourId": "babymetal_cannonball_gaiden_2026",
+      "venue": "有明アリーナ",
+      "performanceAt": "2026-08-10T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "CANNONBALL 外伝",
+      "source": "system",
+      "sourceUrl": "https://cannonball-live.jp/",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "babymetal_luckyfes_2026_ibaraki_0809",
+      "tourId": "babymetal_luckyfes_2026",
+      "venue": "国営ひたち海浜公園",
+      "performanceAt": "2026-08-09T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "LuckyFes'26",
+      "source": "system",
+      "sourceUrl": "https://gekirock.com/news/2026/03/luckyfes26_1st_lineup.php",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "babymetal_summer_sonic_2026_osaka_0814",
+      "tourId": "babymetal_summer_sonic_2026",
+      "venue": "EXPO'70 COMMEMORATIVE PARK",
+      "performanceAt": "2026-08-14T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "SUMMER SONIC 2026",
+      "source": "system",
+      "sourceUrl": "https://www.summersonic.com/",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "babymetal_summer_sonic_2026_tokyo_0816",
+      "tourId": "babymetal_summer_sonic_2026",
+      "venue": "ZOZOMARINE STADIUM & MAKUHARI MESSE",
+      "performanceAt": "2026-08-16T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "SUMMER SONIC 2026",
+      "source": "system",
+      "sourceUrl": "https://www.summersonic.com/",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    }
+  ],
+  "lotteries": []
+}

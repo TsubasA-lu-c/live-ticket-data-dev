@@ -1,0 +1,78 @@
+{
+  "artistId": "mizuki_nana",
+  "tours": [
+    {
+      "id": "mizuki_nana_live_grace_2026",
+      "artistId": "mizuki_nana",
+      "title": "NANA MIZUKI LIVE GRACE 2026 -OPUS Ⅳ-",
+      "startDate": "2026-09-22T00:00:00+09:00",
+      "endDate": "2026-09-23T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.mizukinana.jp/schedule/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "mizuki_nana_live_grace_2026_tokyo_0922",
+      "tourId": "mizuki_nana_live_grace_2026",
+      "venue": "国立代々木競技場第一体育館",
+      "performanceAt": "2026-09-22T18:00:00+09:00",
+      "doorOpenAt": null,
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.livefans.jp/groups/271085",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "mizuki_nana_live_grace_2026_tokyo_0923",
+      "tourId": "mizuki_nana_live_grace_2026",
+      "venue": "国立代々木競技場第一体育館",
+      "performanceAt": "2026-09-23T16:00:00+09:00",
+      "doorOpenAt": null,
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.livefans.jp/groups/271085",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00",
+      "kind": "oneman"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "mizuki_nana_live_grace_2026_fc_1st",
+      "tourId": "mizuki_nana_live_grace_2026",
+      "type": "FC先行（S.C. NANA NET会員）",
+      "entryStartAt": "2026-05-29T18:00:00+09:00",
+      "entryEndAt": "2026-06-15T15:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mizuki_nana_live_grace_2026_tokyo_0922",
+        "mizuki_nana_live_grace_2026_tokyo_0923"
+      ],
+      "source": "system",
+      "sourceUrl": "https://fanclub.mizukinana.jp/info/6410",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "mizuki_nana_live_grace_2026_animelo",
+      "tourId": "mizuki_nana_live_grace_2026",
+      "type": "animelo mix/animelo+ 会員先行",
+      "entryStartAt": "2026-06-24T00:00:00+09:00",
+      "entryEndAt": "2026-06-29T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mizuki_nana_live_grace_2026_tokyo_0922",
+        "mizuki_nana_live_grace_2026_tokyo_0923"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.mizukinana.jp/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ]
+}

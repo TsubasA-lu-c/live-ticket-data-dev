@@ -1,0 +1,1238 @@
+[
+  {
+    "id": "golden_bomber",
+    "name": "ゴールデンボンバー",
+    "aliases": [
+      "金爆"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://pc.goldenbomber.jp/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "yonezu_kenshi",
+    "name": "米津玄師",
+    "aliases": [
+      "ヨネズケンシ"
+    ],
+    "genre": "ソロ",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "mizuki_nana",
+    "name": "水樹奈々",
+    "aliases": [
+      "ミズキナナ"
+    ],
+    "genre": "声優",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.mizukinana.jp/schedule/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "iris",
+    "name": "i☆Ris",
+    "aliases": [
+      "アイリス"
+    ],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://iris.dive2ent.com/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "mr_children",
+    "name": "Mr.Children",
+    "aliases": [
+      "ミスチル",
+      "ミスターチルドレン"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.mrchildren.jp/",
+    "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+  },
+  {
+    "id": "official_hige_dandism",
+    "name": "Official髭男dism",
+    "aliases": [
+      "ヒゲダン",
+      "オフィシャルヒゲダンディズム"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "back_number",
+    "name": "back number",
+    "aliases": [
+      "バックナンバー"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://backnumber.info/feature/stadiumtour2026",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "ado",
+    "name": "Ado",
+    "aliases": [
+      "アド"
+    ],
+    "genre": "ソロ",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.universal-music.co.jp/ado/news/2025-11-23/",
+    "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+  },
+  {
+    "id": "yoasobi",
+    "name": "YOASOBI",
+    "aliases": [
+      "ヨアソビ"
+    ],
+    "genre": "ユニット",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
+    "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+  },
+  {
+    "id": "nogizaka46",
+    "name": "乃木坂46",
+    "aliases": [
+      "ノギザカ",
+      "ノギザカフォーティーシックス"
+    ],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "hinatazaka46",
+    "name": "日向坂46",
+    "aliases": [
+      "ヒナタザカ",
+      "ヒナタザカフォーティーシックス"
+    ],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00800",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "aimyon",
+    "name": "あいみょん",
+    "aliases": [
+      "アイミョン"
+    ],
+    "genre": "ソロ",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.aimyong.net/feature/tententen_koshien",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "creepy_nuts",
+    "name": "Creepy Nuts",
+    "aliases": [
+      "クリーピーナッツ"
+    ],
+    "genre": "ヒップホップ",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://creepynuts.com/",
+    "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+  },
+  {
+    "id": "sakanaction",
+    "name": "サカナクション",
+    "aliases": [],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://sakanaction.jp/feature/tour2026_ticket",
+    "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+  },
+  {
+    "id": "larc_en_ciel",
+    "name": "L'Arc~en~Ciel",
+    "aliases": [
+      "ラルク",
+      "ラルクアンシエル"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13399",
+    "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+  },
+  {
+    "id": "king_gnu",
+    "name": "King Gnu",
+    "aliases": [
+      "キングヌー"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.sonymusic.co.jp/artist/kinggnu/info/577778",
+    "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+  },
+  {
+    "id": "hoshino_gen",
+    "name": "星野源",
+    "aliases": [
+      "ホシノゲン"
+    ],
+    "genre": "ソロ",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.hoshinogen.com/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "vaundy",
+    "name": "Vaundy",
+    "aliases": [
+      "バウンディ"
+    ],
+    "genre": "ソロ",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://vaundy.jp/news/detail/11144",
+    "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+  },
+  {
+    "id": "fujii_kaze",
+    "name": "藤井風",
+    "aliases": [
+      "フジイカゼ"
+    ],
+    "genre": "ソロ",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "spitz",
+    "name": "スピッツ",
+    "aliases": [
+      "SPITZ"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://spitz-web.com/live/",
+    "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+  },
+  {
+    "id": "lisa",
+    "name": "LiSA",
+    "aliases": [
+      "リサ"
+    ],
+    "genre": "ソロ",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://eplus.jp/sf/detail/0534530001",
+    "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+  },
+  {
+    "id": "hana",
+    "name": "HANA",
+    "aliases": [
+      "ハナ"
+    ],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://hana.b-rave.tokyo/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "snow_man",
+    "name": "Snow Man",
+    "aliases": [
+      "スノーマン"
+    ],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://mentrecording.jp/snowman/",
+    "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+  },
+  {
+    "id": "sixtones",
+    "name": "SixTONES",
+    "aliases": [
+      "ストーンズ"
+    ],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.sixtones.jp/",
+    "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+  },
+  {
+    "id": "one_ok_rock",
+    "name": "ONE OK ROCK",
+    "aliases": [
+      "ワンオク",
+      "ワンオクロック"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
+    "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+  },
+  {
+    "id": "radwimps",
+    "name": "RADWIMPS",
+    "aliases": [
+      "ラッドウィンプス"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://radwimps.jp/yurinchi/",
+    "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+  },
+  {
+    "id": "ryokuoushoku_shakai",
+    "name": "緑黄色社会",
+    "aliases": [
+      "リョクシャカ",
+      "緑黄色社会"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.ryokushaka.com/daiyasai2026/",
+    "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+  },
+  {
+    "id": "aimer",
+    "name": "Aimer",
+    "aliases": [
+      "エメ"
+    ],
+    "genre": "ソロ",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.aimer-web.jp/",
+    "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+  },
+  {
+    "id": "yuuri",
+    "name": "優里",
+    "aliases": [
+      "ユウリ"
+    ],
+    "genre": "ソロ",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://eplus.jp/sf/detail/3413260010",
+    "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+  },
+  {
+    "id": "naniwa_danshi",
+    "name": "なにわ男子",
+    "aliases": [
+      "ナニワダンシ"
+    ],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://fan.books.rakuten.co.jp/articles/6966",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "hey_say_jump",
+    "name": "Hey! Say! JUMP",
+    "aliases": [
+      "ヘイセイジャンプ",
+      "HSJ"
+    ],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://live-events.a-jp.org/soko/a/30.html",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "travis_japan",
+    "name": "Travis Japan",
+    "aliases": [
+      "トラジャ",
+      "トラビスジャパン"
+    ],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://fan.books.rakuten.co.jp/articles/3892",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "twice",
+    "name": "TWICE",
+    "aliases": [
+      "トゥワイス"
+    ],
+    "genre": "K-POP",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.twicejapan.com/feature/6thworldtour_thisisfor_stadium",
+    "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+  },
+  {
+    "id": "seventeen",
+    "name": "SEVENTEEN",
+    "aliases": [
+      "セブンティーン",
+      "セブチ"
+    ],
+    "genre": "K-POP",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.seventeen-17.jp/statics/2026_yakusoku",
+    "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+  },
+  {
+    "id": "sky_hi",
+    "name": "SKY-HI",
+    "aliases": [
+      "スカイハイ",
+      "日高光啓"
+    ],
+    "genre": "ヒップホップ",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://bmsg.tokyo/live/skyhi-tour2026/",
+    "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+  },
+  {
+    "id": "tennimu",
+    "name": "テニスの王子様 Musical",
+    "aliases": [
+      "テニミュ",
+      "ミュージカルテニスの王子様"
+    ],
+    "genre": "アニメ・2.5次元",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.tennimu.com/4th_2026rikkai_1/ticket/",
+    "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+  },
+  {
+    "id": "touken_ranbu_musical",
+    "name": "刀剣男士（刀ミュ）",
+    "aliases": [
+      "刀ミュ",
+      "ミュージカル刀剣乱舞",
+      "とうけんだんし"
+    ],
+    "genre": "アニメ・2.5次元",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "zutomayo",
+    "name": "ずっと真夜中でいいのに。",
+    "aliases": [
+      "ずとまよ",
+      "ZUTOMAYO"
+    ],
+    "genre": "ユニット",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://zutomayo.net/intense2/",
+    "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+  },
+  {
+    "id": "momoiro_clover_z",
+    "name": "ももいろクローバーZ",
+    "aliases": [
+      "ももクロ",
+      "モモクロ"
+    ],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.momoclo.net/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "macaroni_empitsu",
+    "name": "マカロニえんぴつ",
+    "aliases": [
+      "マカえん"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://macaroniempitsu.com/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "sakurazaka46",
+    "name": "櫻坂46",
+    "aliases": [
+      "サクラザカ",
+      "サクラザカフォーティーシックス"
+    ],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://sakurazaka46.com/s/s46/page/nationaltour2026",
+    "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+  },
+  {
+    "id": "babymetal",
+    "name": "BABYMETAL",
+    "aliases": [
+      "ベビーメタル"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://babymetal.com/",
+    "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+  },
+  {
+    "id": "mrs_green_apple",
+    "name": "Mrs. GREEN APPLE",
+    "aliases": [
+      "ミセス",
+      "ミセスグリーンアップル"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://mrsgreenapple.com/feature/zenjinmito_2026",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "be_first",
+    "name": "BE:FIRST",
+    "aliases": [
+      "ビーファースト"
+    ],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://befirst.tokyo/",
+    "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+  },
+  {
+    "id": "glay",
+    "name": "GLAY",
+    "aliases": [],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "yuzu",
+    "name": "ゆず",
+    "aliases": [],
+    "genre": "ユニット",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://yuzu-official.com/pages/yuzu_arenatour2026/",
+    "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+  },
+  {
+    "id": "koda_kumi",
+    "name": "倖田來未",
+    "aliases": [
+      "こうだくみ",
+      "コウダクミ"
+    ],
+    "genre": "ソロ",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://rhythmzone.net/koda/",
+    "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+  },
+  {
+    "id": "kobukuro",
+    "name": "コブクロ",
+    "aliases": [],
+    "genre": "ユニット",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://kobukuro.com/feature/kobukuro_tour2026",
+    "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+  },
+  {
+    "id": "number_i",
+    "name": "Number_i",
+    "aliases": [
+      "ナンバーアイ"
+    ],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://tobe-official.jp/artists/number_i",
+    "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+  },
+  {
+    "id": "king_and_prince",
+    "name": "King & Prince",
+    "aliases": [
+      "キングアンドプリンス",
+      "キンプリ"
+    ],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://kingandprince7th.jp/",
+    "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+  },
+  {
+    "id": "timelesz",
+    "name": "timelesz",
+    "aliases": [
+      "タイムレス",
+      "旧Sexy Zone"
+    ],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://ovtp.jp/timelesz/live-stage",
+    "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+  },
+  {
+    "id": "milk",
+    "name": "M!LK",
+    "aliases": [
+      "ミルク"
+    ],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://sd-milk.com/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "bump_of_chicken",
+    "name": "BUMP OF CHICKEN",
+    "aliases": [
+      "バンプ",
+      "バンプオブチキン"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.bumpofchicken.com/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "bz",
+    "name": "B'z",
+    "aliases": [
+      "ビーズ"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://bz-vermillion.com/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "ae_group",
+    "name": "Aぇ! group",
+    "aliases": [
+      "エーグループ",
+      "えーぐるーぷ"
+    ],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://starto.jp/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "novelbright",
+    "name": "Novelbright",
+    "aliases": [
+      "ノーベルブライト"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://novelbright.jp/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "04_limited_sazabys",
+    "name": "04 Limited Sazabys",
+    "aliases": [
+      "フォーリミ",
+      "フォーリミテッドサザビーズ"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.04limitedsazabys.com/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "frederic",
+    "name": "フレデリック",
+    "aliases": [
+      "FREDERIC"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://frederic-official.com/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "fruits_zipper",
+    "name": "FRUITS ZIPPER",
+    "aliases": [
+      "フルーツジッパー"
+    ],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://fruitszipper.asobisystem.com/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "cutie_street",
+    "name": "CUTIE STREET",
+    "aliases": [
+      "きゅーすと",
+      "キューティーストリート"
+    ],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://cutiestreet.asobisystem.com/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "monaki",
+    "name": "モナキ",
+    "aliases": [
+      "MONAKI"
+    ],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://monaki.fanpla.jp/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "equal_love",
+    "name": "=LOVE",
+    "aliases": [
+      "イコールラブ",
+      "イコラブ"
+    ],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://equal-love.jp/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "super_beaver",
+    "name": "SUPER BEAVER",
+    "aliases": [
+      "スーパービーバー"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://sp.super-beaver.com/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "wanima",
+    "name": "WANIMA",
+    "aliases": [
+      "ワニマ"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://wanima.net/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "yabai_tshirts_yasan",
+    "name": "ヤバイTシャツ屋さん",
+    "aliases": [
+      "ヤバT",
+      "やばいてぃーしゃつやさん"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://yabaitshirtsyasan.com/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "10_feet",
+    "name": "10-FEET",
+    "aliases": [
+      "テンフィート"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://10-feet.kyoto/",
+    "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+  },
+  {
+    "id": "the_oral_cigarettes",
+    "name": "The Oral Cigarettes",
+    "aliases": [
+      "オーラル",
+      "ジオーラルシガレッツ"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://theoralcigarettes.com/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "utada_hikaru",
+    "name": "宇多田ヒカル",
+    "aliases": [
+      "ウタダヒカル",
+      "Hikaru Utada"
+    ],
+    "genre": "ソロ",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.utadahikaru.jp/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "kroi",
+    "name": "Kroi",
+    "aliases": [
+      "クロイ"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://special.kroi.net/",
+    "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+  },
+  {
+    "id": "hitsuji_bungaku",
+    "name": "羊文学",
+    "aliases": [
+      "ヒツジブンガク"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/",
+    "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+  },
+  {
+    "id": "milet",
+    "name": "milet",
+    "aliases": [
+      "ミレイ"
+    ],
+    "genre": "ソロ",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://milet.net/",
+    "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+  },
+  {
+    "id": "miura_daichi",
+    "name": "三浦大知",
+    "aliases": [
+      "ミウラダイチ"
+    ],
+    "genre": "ソロ",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://daichi-miura.jp/",
+    "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+  },
+  {
+    "id": "kurayamisaka",
+    "name": "kurayamisaka",
+    "aliases": [
+      "くらやみざか"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://eplus.jp/sf/word/0000158088",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "starglow",
+    "name": "STARGLOW",
+    "aliases": [
+      "スターグロウ"
+    ],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://starglow.tokyo/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "ini",
+    "name": "INI",
+    "aliases": [
+      "アイエヌアイ"
+    ],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://ini-official.com/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "jo1",
+    "name": "JO1",
+    "aliases": [
+      "ジェイオーワン"
+    ],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://jo1.jp/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "imp",
+    "name": "IMP.",
+    "aliases": [
+      "アイエムピー"
+    ],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://tobe-official.jp/artists/imp",
+    "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+  },
+  {
+    "id": "mazzel",
+    "name": "MAZZEL",
+    "aliases": [
+      "マゼル"
+    ],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://mazzel.tokyo/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "not_equal_me",
+    "name": "≠ME",
+    "aliases": [
+      "ノットイコールミー",
+      "ノイミー"
+    ],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://not-equal-me.jp/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "boku_aozora",
+    "name": "僕が見たかった青空",
+    "aliases": [
+      "僕青",
+      "ぼくあおぞら"
+    ],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://bokuao.com/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "da_ice",
+    "name": "Da-iCE",
+    "aliases": [
+      "ダイス"
+    ],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://da-ice.jp/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "bts",
+    "name": "BTS",
+    "aliases": [
+      "防弾少年団",
+      "ビーティーエス"
+    ],
+    "genre": "K-POP",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://bts-official.jp/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "stray_kids",
+    "name": "Stray Kids",
+    "aliases": [
+      "ストレイキッズ",
+      "スキズ"
+    ],
+    "genre": "K-POP",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.straykidsjapan.com/runitjapan/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "enhypen",
+    "name": "ENHYPEN",
+    "aliases": [
+      "エンハイフン"
+    ],
+    "genre": "K-POP",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
+    "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+  },
+  {
+    "id": "ive",
+    "name": "IVE",
+    "aliases": [
+      "アイヴ"
+    ],
+    "genre": "K-POP",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://ive-official.jp/mob/news/newsShw.php?site=DIVE&cd=OF10325",
+    "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+  },
+  {
+    "id": "aespa",
+    "name": "aespa",
+    "aliases": [
+      "エスパ"
+    ],
+    "genre": "K-POP",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://aespa-official.jp/news/fanmeeting2026-myclassmaete/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "le_sserafim",
+    "name": "LE SSERAFIM",
+    "aliases": [
+      "ルセラフィム"
+    ],
+    "genre": "K-POP",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.le-sserafim.jp/news/51726af4dd90",
+    "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+  },
+  {
+    "id": "tomorrow_x_together",
+    "name": "TOMORROW X TOGETHER",
+    "aliases": [
+      "TXT",
+      "トゥモロー バイ トゥゲザー"
+    ],
+    "genre": "K-POP",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://txt-official.jp/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "shinee",
+    "name": "SHINee",
+    "aliases": [
+      "シャイニー"
+    ],
+    "genre": "K-POP",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://shinee.jp/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "sandaime_j_soul_brothers",
+    "name": "三代目 J SOUL BROTHERS from EXILE TRIBE",
+    "aliases": [
+      "三代目",
+      "JSB",
+      "J SOUL BROTHERS",
+      "サンダイメジェイソウルブラザーズ",
+      "サンダイメ"
+    ],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/40856/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "zorn",
+    "name": "ZORN",
+    "aliases": [
+      "ゾーン"
+    ],
+    "genre": "ヒップホップ",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://zorn.tokyo/",
+    "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+  },
+  {
+    "id": "hypnosis_mic",
+    "name": "ヒプノシスマイク -Division Rap Battle-",
+    "aliases": [
+      "ヒプマイ",
+      "HypMic"
+    ],
+    "genre": "声優",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://hypnosismic.com/",
+    "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+  },
+  {
+    "id": "uta_no_prince_sama",
+    "name": "うたの☆プリンスさまっ♪",
+    "aliases": [
+      "うたプリ",
+      "ウタノプリンスサマ"
+    ],
+    "genre": "声優",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://utapri.com/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "idolish7",
+    "name": "IDOLiSH7",
+    "aliases": [
+      "アイドリッシュセブン",
+      "アイナナ"
+    ],
+    "genre": "声優",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://idolish7.com/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "a3",
+    "name": "A3!",
+    "aliases": [
+      "エースリー",
+      "MANKAI STAGE"
+    ],
+    "genre": "声優",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://mankai-stage.jp/",
+    "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+  },
+  {
+    "id": "gre4n_boyz",
+    "name": "GRe4N BOYZ",
+    "aliases": [
+      "グリーンボーイズ",
+      "GReeeeN"
+    ],
+    "genre": "ユニット",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://gre4n-boyz.com/",
+    "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+  },
+  {
+    "id": "ikimonogakari",
+    "name": "いきものがかり",
+    "aliases": [
+      "イキモノガカリ"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://ikimonogakari.com/",
+    "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+  },
+  {
+    "id": "and_team",
+    "name": "&TEAM",
+    "aliases": [
+      "アンドチーム"
+    ],
+    "genre": "K-POP",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.andteam-official.jp/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "aina_the_end",
+    "name": "アイナ・ジ・エンド",
+    "aliases": [
+      "アイナジエンド",
+      "AiNA THE END"
+    ],
+    "genre": "ソロ",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://ainatheend.jp/",
+    "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+  },
+  {
+    "id": "yorushika",
+    "name": "ヨルシカ",
+    "aliases": [
+      "yorushika"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://yorushika.com/",
+    "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+  }
+]

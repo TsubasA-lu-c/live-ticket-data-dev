@@ -1,0 +1,193 @@
+{
+  "artistId": "sandaime_j_soul_brothers",
+  "tours": [
+    {
+      "id": "sandaime_j_soul_brothers_jsb_land_forever_2026",
+      "artistId": "sandaime_j_soul_brothers",
+      "title": "三代目 J SOUL BROTHERS PRESENTS \"JSB LAND ～FOREVER～\"",
+      "startDate": "2026-06-06T00:00:00+09:00",
+      "endDate": "2026-08-09T00:00:00+09:00",
+      "prices": [
+        {"label": "全席指定", "amount": 14300},
+        {"label": "プレミアムチケット", "amount": 21450},
+        {"label": "プレミアムチケット（グッズ付き）", "amount": 28600}
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/40856/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "sandaime_j_soul_brothers_jsb_land_forever_2026_fukuoka_0606",
+      "tourId": "sandaime_j_soul_brothers_jsb_land_forever_2026",
+      "venue": "みずほPayPayドーム福岡",
+      "performanceAt": "2026-06-06T17:00:00+09:00",
+      "doorOpenAt": "2026-06-06T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/40856/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_jsb_land_forever_2026_tokyo_0627",
+      "tourId": "sandaime_j_soul_brothers_jsb_land_forever_2026",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-06-27T18:00:00+09:00",
+      "doorOpenAt": "2026-06-27T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/40856/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_jsb_land_forever_2026_tokyo_0628",
+      "tourId": "sandaime_j_soul_brothers_jsb_land_forever_2026",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-06-28T17:00:00+09:00",
+      "doorOpenAt": "2026-06-28T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/40856/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_jsb_land_forever_2026_osaka_0701",
+      "tourId": "sandaime_j_soul_brothers_jsb_land_forever_2026",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2026-07-01T18:30:00+09:00",
+      "doorOpenAt": "2026-07-01T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/40856/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_jsb_land_forever_2026_osaka_0702",
+      "tourId": "sandaime_j_soul_brothers_jsb_land_forever_2026",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2026-07-02T18:30:00+09:00",
+      "doorOpenAt": "2026-07-02T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/40856/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_jsb_land_forever_2026_nagoya_0809",
+      "tourId": "sandaime_j_soul_brothers_jsb_land_forever_2026",
+      "venue": "バンテリンドーム ナゴヤ",
+      "performanceAt": "2026-08-09T16:00:00+09:00",
+      "doorOpenAt": "2026-08-09T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/40856/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "sandaime_j_soul_brothers_jsb_land_forever_2026_fc先行",
+      "tourId": "sandaime_j_soul_brothers_jsb_land_forever_2026",
+      "type": "FC先行",
+      "entryStartAt": "2026-03-02T12:00:00+09:00",
+      "entryEndAt": "2026-03-08T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_fukuoka_0606",
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_tokyo_0627",
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_tokyo_0628",
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_osaka_0701",
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_osaka_0702",
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_nagoya_0809"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/40856/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_jsb_land_forever_2026_tribe_fc先行",
+      "tourId": "sandaime_j_soul_brothers_jsb_land_forever_2026",
+      "type": "EXILE TRIBE FC先行",
+      "entryStartAt": "2026-03-11T12:00:00+09:00",
+      "entryEndAt": "2026-03-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_fukuoka_0606",
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_tokyo_0627",
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_tokyo_0628",
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_osaka_0701",
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_osaka_0702",
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_nagoya_0809"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/40856/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_jsb_land_forever_2026_一般発売",
+      "tourId": "sandaime_j_soul_brothers_jsb_land_forever_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-05-16T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_fukuoka_0606",
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_tokyo_0627",
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_tokyo_0628",
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_osaka_0701",
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_osaka_0702",
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_nagoya_0809"
+      ],
+      "source": "system",
+      "sourceUrl": "https://e-ticketbook.com/3jsb-jsbland-forever/2603-tb/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_jsb_land_forever_2026_tokyo直前販売",
+      "tourId": "sandaime_j_soul_brothers_jsb_land_forever_2026",
+      "type": "直前販売",
+      "entryStartAt": "2026-06-26T19:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_tokyo_0627",
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_tokyo_0628"
+      ],
+      "source": "system",
+      "sourceUrl": "https://jsb3.exfamily.jp/s/ldh02/ticket/list?ima=0000&ct=main",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_jsb_land_forever_2026_osaka直前販売",
+      "tourId": "sandaime_j_soul_brothers_jsb_land_forever_2026",
+      "type": "直前販売",
+      "entryStartAt": "2026-06-30T19:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_osaka_0701",
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_osaka_0702"
+      ],
+      "source": "system",
+      "sourceUrl": "https://e-ticketbook.com/3jsb-jsbland-forever/2603-tb/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ]
+}

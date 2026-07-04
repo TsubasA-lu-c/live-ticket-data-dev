@@ -1,0 +1,230 @@
+{
+  "artistId": "aimyon",
+  "tours": [
+    {
+      "id": "aimyon_10th_koshien_2026",
+      "artistId": "aimyon",
+      "title": "AIMYON 10th anniversary LIVE 2026「、、、」IN 阪神甲子園球場",
+      "startDate": "2026-07-14T00:00:00+09:00",
+      "endDate": "2026-07-15T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 12000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tententen_koshien",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "aimyon_fes_2026_join_alive",
+      "artistId": "aimyon",
+      "title": "JOIN ALIVE 2026",
+      "startDate": "2026-07-19T12:00:00+09:00",
+      "endDate": "2026-07-19T12:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://joinalive.jp/2026/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "aimyon_fes_2026_sweet_love_shower",
+      "artistId": "aimyon",
+      "title": "SPACE SHOWER SWEET LOVE SHOWER 2026",
+      "startDate": "2026-08-28T12:00:00+09:00",
+      "endDate": "2026-08-28T12:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://2026.sweetloveshower.com/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "aimyon_fes_2026_otohige",
+      "artistId": "aimyon",
+      "title": "音楽と髭達2026-TIME MACHINE-",
+      "startDate": "2026-08-29T11:00:00+09:00",
+      "endDate": "2026-08-29T11:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/news/detail/3324",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "aimyon_fes_2026_hosomichi",
+      "artistId": "aimyon",
+      "title": "ロックのほそ道2026 ～15th Anniversary Special～",
+      "startDate": "2026-08-30T17:00:00+09:00",
+      "endDate": "2026-08-30T17:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/news/detail/3358",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "aimyon_fes_2026_rijf",
+      "artistId": "aimyon",
+      "title": "rockin'on presents ROCK IN JAPAN FESTIVAL 2026",
+      "startDate": "2026-09-20T11:45:00+09:00",
+      "endDate": "2026-09-20T11:45:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/news/detail/3368",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "aimyon_10th_koshien_2026_hyogo_0714",
+      "tourId": "aimyon_10th_koshien_2026",
+      "venue": "阪神甲子園球場",
+      "performanceAt": "2026-07-14T18:30:00+09:00",
+      "doorOpenAt": "2026-07-14T16:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tententen_koshien",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_10th_koshien_2026_hyogo_0715",
+      "tourId": "aimyon_10th_koshien_2026",
+      "venue": "阪神甲子園球場",
+      "performanceAt": "2026-07-15T18:30:00+09:00",
+      "doorOpenAt": "2026-07-15T16:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tententen_koshien",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_fes_2026_join_alive_0719",
+      "tourId": "aimyon_fes_2026_join_alive",
+      "venue": "北海道いわみざわ公園",
+      "performanceAt": "2026-07-19T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "JOIN ALIVE 2026",
+      "source": "system",
+      "sourceUrl": "https://joinalive.jp/2026/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "aimyon_fes_2026_sweet_love_shower_0828",
+      "tourId": "aimyon_fes_2026_sweet_love_shower",
+      "venue": "山中湖交流プラザきらら",
+      "performanceAt": "2026-08-28T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "SPACE SHOWER SWEET LOVE SHOWER 2026",
+      "source": "system",
+      "sourceUrl": "https://2026.sweetloveshower.com/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "aimyon_fes_2026_otohige_0829",
+      "tourId": "aimyon_fes_2026_otohige",
+      "venue": "HARD OFF ECO スタジアム新潟",
+      "performanceAt": "2026-08-29T11:00:00+09:00",
+      "doorOpenAt": "2026-08-29T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "音楽と髭達2026-TIME MACHINE-",
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/news/detail/3324",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "aimyon_fes_2026_hosomichi_0830",
+      "tourId": "aimyon_fes_2026_hosomichi",
+      "venue": "ゼビオアリーナ仙台",
+      "performanceAt": "2026-08-30T17:00:00+09:00",
+      "doorOpenAt": "2026-08-30T16:00:00+09:00",
+      "kind": "fes",
+      "eventName": "ロックのほそ道2026 ～15th Anniversary Special～",
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/news/detail/3358",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "aimyon_fes_2026_rijf_0920",
+      "tourId": "aimyon_fes_2026_rijf",
+      "venue": "千葉市蘇我スポーツ公園",
+      "performanceAt": "2026-09-20T11:45:00+09:00",
+      "doorOpenAt": "2026-09-20T08:30:00+09:00",
+      "kind": "fes",
+      "eventName": "rockin'on presents ROCK IN JAPAN FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/news/detail/3368",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "aimyon_10th_koshien_2026_aim_1st",
+      "tourId": "aimyon_10th_koshien_2026",
+      "type": "AIM会員 1次先行",
+      "entryStartAt": "2026-01-24T12:00:00+09:00",
+      "entryEndAt": "2026-02-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aimyon_10th_koshien_2026_hyogo_0714",
+        "aimyon_10th_koshien_2026_hyogo_0715"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tententen_koshien",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "aimyon_10th_koshien_2026_aim_2nd",
+      "tourId": "aimyon_10th_koshien_2026",
+      "type": "AIM会員 2次先行",
+      "entryStartAt": "2026-02-16T12:00:00+09:00",
+      "entryEndAt": "2026-03-04T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aimyon_10th_koshien_2026_hyogo_0714",
+        "aimyon_10th_koshien_2026_hyogo_0715"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tententen_koshien",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "aimyon_10th_koshien_2026_official_hp",
+      "tourId": "aimyon_10th_koshien_2026",
+      "type": "オフィシャルHP/SNS先行",
+      "entryStartAt": "2026-03-06T12:00:00+09:00",
+      "entryEndAt": "2026-03-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aimyon_10th_koshien_2026_hyogo_0714",
+        "aimyon_10th_koshien_2026_hyogo_0715"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tententen_koshien",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "aimyon_10th_koshien_2026_lawson",
+      "tourId": "aimyon_10th_koshien_2026",
+      "type": "ローソンチケット先行",
+      "entryStartAt": "2026-03-20T12:00:00+09:00",
+      "entryEndAt": "2026-04-12T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aimyon_10th_koshien_2026_hyogo_0714",
+        "aimyon_10th_koshien_2026_hyogo_0715"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tententen_koshien",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ]
+}

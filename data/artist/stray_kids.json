@@ -1,0 +1,123 @@
+{
+  "artistId": "stray_kids",
+  "tours": [
+    {
+      "id": "stray_kids_run_it_japan_2026",
+      "artistId": "stray_kids",
+      "title": "Stray Kids World Tour <RUN IT JAPAN>",
+      "startDate": "2026-08-29T00:00:00+09:00",
+      "endDate": "2026-10-24T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 15500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.straykidsjapan.com/runitjapan/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "stray_kids_run_it_japan_2026_national_stadium_0829",
+      "tourId": "stray_kids_run_it_japan_2026",
+      "venue": "MUFG STADIUM（国立競技場）",
+      "performanceAt": "2026-08-29T17:30:00+09:00",
+      "doorOpenAt": "2026-08-29T15:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.straykidsjapan.com/runitjapan/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_japan_2026_national_stadium_0830",
+      "tourId": "stray_kids_run_it_japan_2026",
+      "venue": "MUFG STADIUM（国立競技場）",
+      "performanceAt": "2026-08-30T17:00:00+09:00",
+      "doorOpenAt": "2026-08-30T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.straykidsjapan.com/runitjapan/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_japan_2026_banterinodome_0905",
+      "tourId": "stray_kids_run_it_japan_2026",
+      "venue": "バンテリンドームナゴヤ",
+      "performanceAt": "2026-09-05T18:30:00+09:00",
+      "doorOpenAt": "2026-09-05T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.straykidsjapan.com/runitjapan/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_japan_2026_banterinodome_0906",
+      "tourId": "stray_kids_run_it_japan_2026",
+      "venue": "バンテリンドームナゴヤ",
+      "performanceAt": "2026-09-06T16:00:00+09:00",
+      "doorOpenAt": "2026-09-06T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.straykidsjapan.com/runitjapan/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_japan_2026_kyoseradome_0919",
+      "tourId": "stray_kids_run_it_japan_2026",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2026-09-19T18:30:00+09:00",
+      "doorOpenAt": "2026-09-19T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.straykidsjapan.com/runitjapan/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_japan_2026_kyoseradome_0920",
+      "tourId": "stray_kids_run_it_japan_2026",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2026-09-20T16:00:00+09:00",
+      "doorOpenAt": "2026-09-20T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.straykidsjapan.com/runitjapan/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_japan_2026_mizuhopaypaydome_1024",
+      "tourId": "stray_kids_run_it_japan_2026",
+      "venue": "みずほPayPayドーム福岡",
+      "performanceAt": "2026-10-24T18:30:00+09:00",
+      "doorOpenAt": "2026-10-24T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.straykidsjapan.com/runitjapan/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "stray_kids_run_it_japan_2026_w_member_1st",
+      "tourId": "stray_kids_run_it_japan_2026",
+      "type": "W会員最速先行",
+      "entryStartAt": "2026-07-02T17:00:00+09:00",
+      "entryEndAt": "2026-07-13T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://w.pia.jp/v/s-kids26w-rslt/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ]
+}

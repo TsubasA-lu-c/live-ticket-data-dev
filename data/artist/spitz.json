@@ -1,0 +1,136 @@
+{
+  "artistId": "spitz",
+  "tours": [
+    {
+      "id": "spitz_events_2026_miyagi",
+      "artistId": "spitz",
+      "title": "ロックのほそ道2026 〜15th Anniversary Special〜",
+      "startDate": "2026-08-29T17:00:00+09:00",
+      "endDate": "2026-08-30T17:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/news/7996/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_events_2026_tokyo",
+      "artistId": "spitz",
+      "title": "Spitz × VINTAGE ROCK std. presents 有明サンセット 2026",
+      "startDate": "2026-09-02T18:00:00+09:00",
+      "endDate": "2026-09-03T18:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/news/7996/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_events_2026_osaka",
+      "artistId": "spitz",
+      "title": "ロックロックこんにちは！Ver.28 〜にゃーロック！ホームズ〜",
+      "startDate": "2026-09-17T17:45:00+09:00",
+      "endDate": "2026-09-18T17:45:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/news/7996/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_events_2026_tokyo_2",
+      "artistId": "spitz",
+      "title": "ロク漫祭 ～SPITZ 草野マサムネのロック大陸漫遊祭り～",
+      "startDate": "2026-09-22T16:00:00+09:00",
+      "endDate": "2026-09-22T16:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/news/7996/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "spitz_events_2026_miyagi_0829",
+      "tourId": "spitz_events_2026_miyagi",
+      "venue": "ゼビオアリーナ仙台",
+      "performanceAt": "2026-08-29T17:00:00+09:00",
+      "doorOpenAt": "2026-08-29T16:00:00+09:00",
+      "kind": "fes",
+      "eventName": "ロックのほそ道2026 〜15th Anniversary Special〜",
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/news/7996/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_events_2026_miyagi_0830",
+      "tourId": "spitz_events_2026_miyagi",
+      "venue": "ゼビオアリーナ仙台",
+      "performanceAt": "2026-08-30T17:00:00+09:00",
+      "doorOpenAt": "2026-08-30T16:00:00+09:00",
+      "kind": "fes",
+      "eventName": "ロックのほそ道2026 〜15th Anniversary Special〜",
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/news/7996/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_events_2026_tokyo_0902",
+      "tourId": "spitz_events_2026_tokyo",
+      "venue": "SGC HALL ARIAKE",
+      "performanceAt": "2026-09-02T18:00:00+09:00",
+      "doorOpenAt": "2026-09-02T17:00:00+09:00",
+      "kind": "fes",
+      "eventName": "Spitz × VINTAGE ROCK std. presents 有明サンセット 2026",
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/news/7996/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_events_2026_tokyo_0903",
+      "tourId": "spitz_events_2026_tokyo",
+      "venue": "SGC HALL ARIAKE",
+      "performanceAt": "2026-09-03T18:00:00+09:00",
+      "doorOpenAt": "2026-09-03T17:00:00+09:00",
+      "kind": "fes",
+      "eventName": "Spitz × VINTAGE ROCK std. presents 有明サンセット 2026",
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/news/7996/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_events_2026_osaka_0917",
+      "tourId": "spitz_events_2026_osaka",
+      "venue": "Zepp Namba(OSAKA)",
+      "performanceAt": "2026-09-17T17:45:00+09:00",
+      "doorOpenAt": "2026-09-17T17:00:00+09:00",
+      "kind": "fes",
+      "eventName": "ロックロックこんにちは！Ver.28 〜にゃーロック！ホームズ〜",
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/news/7996/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_events_2026_osaka_0918",
+      "tourId": "spitz_events_2026_osaka",
+      "venue": "Zepp Namba(OSAKA)",
+      "performanceAt": "2026-09-18T17:45:00+09:00",
+      "doorOpenAt": "2026-09-18T17:00:00+09:00",
+      "kind": "fes",
+      "eventName": "ロックロックこんにちは！Ver.28 〜にゃーロック！ホームズ〜",
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/news/7996/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_events_2026_tokyo_0922",
+      "tourId": "spitz_events_2026_tokyo_2",
+      "venue": "有明アリーナ",
+      "performanceAt": "2026-09-22T16:00:00+09:00",
+      "doorOpenAt": "2026-09-22T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "ロク漫祭 ～SPITZ 草野マサムネのロック大陸漫遊祭り～",
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/live/2026others/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ],
+  "lotteries": []
+}

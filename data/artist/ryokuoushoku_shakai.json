@@ -1,0 +1,182 @@
+{
+  "artistId": "ryokuoushoku_shakai",
+  "tours": [
+    {
+      "id": "ryokuoushoku_shakai_arena_2026",
+      "artistId": "ryokuoushoku_shakai",
+      "title": "ARENA TOUR 2026 \"あたまご\"",
+      "startDate": "2026-09-19T00:00:00+09:00",
+      "endDate": "2026-12-06T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席（一般）",
+          "amount": 11000
+        },
+        {
+          "label": "指定席（学割）",
+          "amount": 9000
+        },
+        {
+          "label": "親子席（親）",
+          "amount": 11000
+        },
+        {
+          "label": "親子席（子）",
+          "amount": 8000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.ryokushaka.com/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_chiba_0919",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "venue": "LaLa arena TOKYO-BAY",
+      "performanceAt": "2026-09-19T18:00:00+09:00",
+      "doorOpenAt": "2026-09-19T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.ryokushaka.com/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_chiba_0920",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "venue": "LaLa arena TOKYO-BAY",
+      "performanceAt": "2026-09-20T16:00:00+09:00",
+      "doorOpenAt": "2026-09-20T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.ryokushaka.com/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_fukuoka_1010",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "venue": "マリンメッセ福岡A館",
+      "performanceAt": "2026-10-10T18:00:00+09:00",
+      "doorOpenAt": "2026-10-10T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.ryokushaka.com/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_fukuoka_1011",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "venue": "マリンメッセ福岡A館",
+      "performanceAt": "2026-10-11T16:00:00+09:00",
+      "doorOpenAt": "2026-10-11T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.ryokushaka.com/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_osaka_1023",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-10-23T19:00:00+09:00",
+      "doorOpenAt": "2026-10-23T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://kyodo-osaka.co.jp/search/detail/12737",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_osaka_1024",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-10-24T16:00:00+09:00",
+      "doorOpenAt": "2026-10-24T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://kyodo-osaka.co.jp/search/detail/12737",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_aichi_1113",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "venue": "IGアリーナ",
+      "performanceAt": "2026-11-13T19:00:00+09:00",
+      "doorOpenAt": "2026-11-13T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.ryokushaka.com/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_aichi_1114",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "venue": "IGアリーナ",
+      "performanceAt": "2026-11-14T16:00:00+09:00",
+      "doorOpenAt": "2026-11-14T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.ryokushaka.com/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_kanagawa_1205",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-12-05T18:00:00+09:00",
+      "doorOpenAt": "2026-12-05T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.ryokushaka.com/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_kanagawa_1206",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-12-06T16:00:00+09:00",
+      "doorOpenAt": "2026-12-06T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.ryokushaka.com/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_fc",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "type": "FC先行",
+      "entryStartAt": "2026-03-29T12:00:00+09:00",
+      "entryEndAt": "2026-04-05T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ryokuoushoku_shakai_arena_2026_chiba_0919",
+        "ryokuoushoku_shakai_arena_2026_chiba_0920",
+        "ryokuoushoku_shakai_arena_2026_fukuoka_1010",
+        "ryokuoushoku_shakai_arena_2026_fukuoka_1011",
+        "ryokuoushoku_shakai_arena_2026_osaka_1023",
+        "ryokuoushoku_shakai_arena_2026_osaka_1024",
+        "ryokuoushoku_shakai_arena_2026_aichi_1113",
+        "ryokuoushoku_shakai_arena_2026_aichi_1114",
+        "ryokuoushoku_shakai_arena_2026_kanagawa_1205",
+        "ryokuoushoku_shakai_arena_2026_kanagawa_1206"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.ryokushaka.com/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ]
+}

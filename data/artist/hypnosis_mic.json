@@ -1,0 +1,216 @@
+{
+  "artistId": "hypnosis_mic",
+  "tours": [
+    {
+      "id": "hypnosis_mic_djt3_2026",
+      "artistId": "hypnosis_mic",
+      "title": "ヒプノシスマイク -Division Rap Battle- Rule the Stage《Division Jam Tour》vol.3",
+      "startDate": "2026-07-23T00:00:00+09:00",
+      "endDate": "2026-08-22T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://hypster-fc.com/news/2?lang=ja",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hypnosis_mic_9th_anniv_2026",
+      "artistId": "hypnosis_mic",
+      "title": "ヒプノシスマイク -Division Rap Battle- 9th Anniversary Party",
+      "startDate": "2026-09-05T00:00:00+09:00",
+      "endDate": "2026-09-05T00:00:00+09:00",
+      "prices": [
+        { "label": "全席指定", "amount": 8800 }
+      ],
+      "source": "system",
+      "sourceUrl": "https://hypnosismic.com/news/hm260612-2/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "hypnosis_mic_djt3_2026_divercity_0723",
+      "tourId": "hypnosis_mic_djt3_2026",
+      "venue": "Zepp DiverCity TOKYO",
+      "performanceAt": "2026-07-23T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hypster-fc.com/news/2?lang=ja",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hypnosis_mic_djt3_2026_divercity_0724",
+      "tourId": "hypnosis_mic_djt3_2026",
+      "venue": "Zepp DiverCity TOKYO",
+      "performanceAt": "2026-07-24T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hypster-fc.com/news/2?lang=ja",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hypnosis_mic_djt3_2026_divercity_fc_0724",
+      "tourId": "hypnosis_mic_djt3_2026",
+      "venue": "Zepp DiverCity TOKYO",
+      "performanceAt": "2026-07-24T14:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "会員限定公演",
+      "source": "system",
+      "sourceUrl": "https://hypster-fc.com/news/2?lang=ja",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hypnosis_mic_djt3_2026_namba_0814",
+      "tourId": "hypnosis_mic_djt3_2026",
+      "venue": "Zepp Namba（OSAKA）",
+      "performanceAt": "2026-08-14T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hypster-fc.com/news/2?lang=ja",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hypnosis_mic_djt3_2026_namba_fc_0814",
+      "tourId": "hypnosis_mic_djt3_2026",
+      "venue": "Zepp Namba（OSAKA）",
+      "performanceAt": "2026-08-14T19:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "会員限定公演",
+      "source": "system",
+      "sourceUrl": "https://hypster-fc.com/news/2?lang=ja",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hypnosis_mic_djt3_2026_namba_0815",
+      "tourId": "hypnosis_mic_djt3_2026",
+      "venue": "Zepp Namba（OSAKA）",
+      "performanceAt": "2026-08-15T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hypster-fc.com/news/2?lang=ja",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hypnosis_mic_djt3_2026_sapporo_0821",
+      "tourId": "hypnosis_mic_djt3_2026",
+      "venue": "Zepp Sapporo",
+      "performanceAt": "2026-08-21T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hypster-fc.com/news/2?lang=ja",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hypnosis_mic_djt3_2026_sapporo_fc_0821",
+      "tourId": "hypnosis_mic_djt3_2026",
+      "venue": "Zepp Sapporo",
+      "performanceAt": "2026-08-21T19:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "会員限定公演",
+      "source": "system",
+      "sourceUrl": "https://hypster-fc.com/news/2?lang=ja",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hypnosis_mic_djt3_2026_sapporo_0822",
+      "tourId": "hypnosis_mic_djt3_2026",
+      "venue": "Zepp Sapporo",
+      "performanceAt": "2026-08-22T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hypster-fc.com/news/2?lang=ja",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hypnosis_mic_9th_anniv_2026_berth_0905_day",
+      "tourId": "hypnosis_mic_9th_anniv_2026",
+      "venue": "ベルサール高田馬場",
+      "performanceAt": "2026-09-05T15:00:00+09:00",
+      "doorOpenAt": "2026-09-05T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "昼の部",
+      "source": "system",
+      "sourceUrl": "https://hypnosismic.com/news/hm260612-2/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hypnosis_mic_9th_anniv_2026_berth_0905_eve",
+      "tourId": "hypnosis_mic_9th_anniv_2026",
+      "venue": "ベルサール高田馬場",
+      "performanceAt": "2026-09-05T18:30:00+09:00",
+      "doorOpenAt": "2026-09-05T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "夜の部",
+      "source": "system",
+      "sourceUrl": "https://hypnosismic.com/news/hm260612-2/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "hypnosis_mic_9th_anniv_2026_hypster_fc",
+      "tourId": "hypnosis_mic_9th_anniv_2026",
+      "type": "FC先行",
+      "entryStartAt": "2026-06-12T21:00:00+09:00",
+      "entryEndAt": "2026-06-21T23:59:00+09:00",
+      "resultAt": "2026-06-29T12:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hypnosis_mic_9th_anniv_2026_berth_0905_day",
+        "hypnosis_mic_9th_anniv_2026_berth_0905_eve"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hypnosismic.com/news/hm260612-2/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hypnosis_mic_9th_anniv_2026_cd_prior",
+      "tourId": "hypnosis_mic_9th_anniv_2026",
+      "type": "CD先行",
+      "entryStartAt": "2026-07-01T18:00:00+09:00",
+      "entryEndAt": "2026-07-05T23:59:00+09:00",
+      "resultAt": "2026-07-10T12:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hypnosis_mic_9th_anniv_2026_berth_0905_day",
+        "hypnosis_mic_9th_anniv_2026_berth_0905_eve"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hypnosismic.com/news/hm260612-2/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hypnosis_mic_9th_anniv_2026_general",
+      "tourId": "hypnosis_mic_9th_anniv_2026",
+      "type": "一般先着",
+      "entryStartAt": "2026-08-22T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hypnosis_mic_9th_anniv_2026_berth_0905_day",
+        "hypnosis_mic_9th_anniv_2026_berth_0905_eve"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hypnosismic.com/news/hm260612-2/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ]
+}

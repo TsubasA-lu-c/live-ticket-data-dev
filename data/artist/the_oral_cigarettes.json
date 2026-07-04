@@ -1,0 +1,193 @@
+{
+  "artistId": "the_oral_cigarettes",
+  "tours": [
+    {
+      "id": "the_oral_cigarettes_homesweethome_2026",
+      "artistId": "the_oral_cigarettes",
+      "title": "Home Sweet Home TOUR 2026",
+      "startDate": "2026-07-08T00:00:00+09:00",
+      "endDate": "2026-09-12T00:00:00+09:00",
+      "prices": [
+        {"label": "指定席", "amount": 7300},
+        {"label": "着席指定席", "amount": 7300}
+      ],
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/detail/3101",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "the_oral_cigarettes_homesweethome_2026_orix_0708",
+      "tourId": "the_oral_cigarettes_homesweethome_2026",
+      "venue": "オリックス劇場",
+      "performanceAt": "2026-07-08T19:00:00+09:00",
+      "doorOpenAt": "2026-07-08T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/detail/3101",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_homesweethome_2026_aichigeidai_0716",
+      "tourId": "the_oral_cigarettes_homesweethome_2026",
+      "venue": "愛知県芸術劇場 大ホール",
+      "performanceAt": "2026-07-16T19:00:00+09:00",
+      "doorOpenAt": "2026-07-16T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/detail/3101",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_homesweethome_2026_lexam_0718",
+      "tourId": "the_oral_cigarettes_homesweethome_2026",
+      "venue": "レクザムホール 大ホール",
+      "performanceAt": "2026-07-18T18:00:00+09:00",
+      "doorOpenAt": "2026-07-18T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/detail/3101",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_homesweethome_2026_tgt_0722",
+      "tourId": "the_oral_cigarettes_homesweethome_2026",
+      "venue": "東京ガーデンシアター",
+      "performanceAt": "2026-07-22T19:00:00+09:00",
+      "doorOpenAt": "2026-07-22T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/detail/3101",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_homesweethome_2026_tgt_0723",
+      "tourId": "the_oral_cigarettes_homesweethome_2026",
+      "venue": "東京ガーデンシアター",
+      "performanceAt": "2026-07-23T19:00:00+09:00",
+      "doorOpenAt": "2026-07-23T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/detail/3101",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_homesweethome_2026_tehm_0805",
+      "tourId": "the_oral_cigarettes_homesweethome_2026",
+      "venue": "東京エレクトロンホール宮城",
+      "performanceAt": "2026-08-05T19:00:00+09:00",
+      "doorOpenAt": "2026-08-05T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/detail/3101",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_homesweethome_2026_niigatakenmin_0807",
+      "tourId": "the_oral_cigarettes_homesweethome_2026",
+      "venue": "新潟県民会館 大ホール",
+      "performanceAt": "2026-08-07T19:00:00+09:00",
+      "doorOpenAt": "2026-08-07T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/detail/3101",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_homesweethome_2026_hbg_0812",
+      "tourId": "the_oral_cigarettes_homesweethome_2026",
+      "venue": "広島文化学園HBGホール",
+      "performanceAt": "2026-08-12T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/detail/3101",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_homesweethome_2026_sunpalace_0814",
+      "tourId": "the_oral_cigarettes_homesweethome_2026",
+      "venue": "福岡サンパレス",
+      "performanceAt": "2026-08-14T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/detail/3101",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_homesweethome_2026_kumamotojohall_0816",
+      "tourId": "the_oral_cigarettes_homesweethome_2026",
+      "venue": "熊本城ホール メインホール",
+      "performanceAt": "2026-08-16T18:00:00+09:00",
+      "doorOpenAt": "2026-08-16T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/detail/3101",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_homesweethome_2026_nara100_0906",
+      "tourId": "the_oral_cigarettes_homesweethome_2026",
+      "venue": "なら100年会館 大ホール",
+      "performanceAt": "2026-09-06T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/detail/3101",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_homesweethome_2026_mieculture_0908",
+      "tourId": "the_oral_cigarettes_homesweethome_2026",
+      "venue": "三重文化会館 大ホール",
+      "performanceAt": "2026-09-08T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/detail/3101",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_homesweethome_2026_kanamoto_0912",
+      "tourId": "the_oral_cigarettes_homesweethome_2026",
+      "venue": "札幌カナモトホール",
+      "performanceAt": "2026-09-12T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/detail/3101",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "the_oral_cigarettes_homesweethome_2026_fc",
+      "tourId": "the_oral_cigarettes_homesweethome_2026",
+      "type": "FC先行",
+      "entryStartAt": "2025-12-19T19:00:00+09:00",
+      "entryEndAt": "2026-01-06T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/detail/3086",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ]
+}

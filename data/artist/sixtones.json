@@ -1,0 +1,106 @@
+{
+  "artistId": "sixtones",
+  "tours": [
+    {
+      "id": "sixtones_milesixtones_stadium_2026",
+      "artistId": "sixtones",
+      "title": "SixTONES LIVE TOUR 2026「MILESixTONES」スタジアムツアー",
+      "startDate": "2026-09-19T00:00:00+09:00",
+      "endDate": "2026-11-22T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.sixtones.jp/live",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "sixtones_milesixtones_stadium_2026_ajinomoto_0919",
+      "tourId": "sixtones_milesixtones_stadium_2026",
+      "venue": "味の素スタジアム",
+      "performanceAt": "2026-09-19T17:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sixtones.jp/live",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "sixtones_milesixtones_stadium_2026_ajinomoto_0920",
+      "tourId": "sixtones_milesixtones_stadium_2026",
+      "venue": "味の素スタジアム",
+      "performanceAt": "2026-09-20T17:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sixtones.jp/live",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "sixtones_milesixtones_stadium_2026_yanmar_1107",
+      "tourId": "sixtones_milesixtones_stadium_2026",
+      "venue": "ヤンマースタジアム長居",
+      "performanceAt": "2026-11-07T17:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sixtones.jp/live",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "sixtones_milesixtones_stadium_2026_yanmar_1108",
+      "tourId": "sixtones_milesixtones_stadium_2026",
+      "venue": "ヤンマースタジアム長居",
+      "performanceAt": "2026-11-08T17:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sixtones.jp/live",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "sixtones_milesixtones_stadium_2026_nissan_1121",
+      "tourId": "sixtones_milesixtones_stadium_2026",
+      "venue": "日産スタジアム",
+      "performanceAt": "2026-11-21T16:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sixtones.jp/live",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "sixtones_milesixtones_stadium_2026_nissan_1122",
+      "tourId": "sixtones_milesixtones_stadium_2026",
+      "venue": "日産スタジアム",
+      "performanceAt": "2026-11-22T16:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sixtones.jp/live",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "sixtones_milesixtones_stadium_2026_fc_1st",
+      "tourId": "sixtones_milesixtones_stadium_2026",
+      "type": "FC先行（Johnny's net）",
+      "entryStartAt": "2026-06-14T19:00:00+09:00",
+      "entryEndAt": "2026-06-30T12:00:00+09:00",
+      "resultAt": "2026-07-24T00:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-07-28T23:59:00+09:00",
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://www.sixtones.jp/live",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ]
+}

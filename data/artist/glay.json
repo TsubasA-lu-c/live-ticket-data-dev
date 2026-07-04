@@ -1,0 +1,538 @@
+{
+  "artistId": "glay",
+  "tours": [
+    {
+      "id": "glay_zeppy_swing_2026",
+      "artistId": "glay",
+      "title": "GLAY SPECIAL LIVE We♡Zeppy Swing",
+      "startDate": "2026-07-27T00:00:00+09:00",
+      "endDate": "2026-07-27T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 8800
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10174",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "glay_wehappyswing_vol4_2026",
+      "artistId": "glay",
+      "title": "HAPPY SWING 30th Anniversary GLAY SPECIAL LIVE We♡Happy Swing Vol.4 ～Promise The Venezia～",
+      "startDate": "2026-07-31T00:00:00+09:00",
+      "endDate": "2026-08-01T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/live",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "glay_happy_swing_festa_2026",
+      "artistId": "glay",
+      "title": "HAPPY SWING FESTA 2026",
+      "startDate": "2026-07-31T00:00:00+09:00",
+      "endDate": "2026-08-01T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "展示エリア入場券",
+          "amount": 2200
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10157",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "glay_fes_2026_puffy_pfes",
+      "artistId": "glay",
+      "title": "PUFFYの\"P\"FES",
+      "startDate": "2026-07-20T13:00:00+09:00",
+      "endDate": "2026-07-20T13:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10119",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "glay_fes_2026_otohige",
+      "artistId": "glay",
+      "title": "音楽と髭達2026-TIME MACHINE",
+      "startDate": "2026-08-29T12:00:00+09:00",
+      "endDate": "2026-08-29T12:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10087",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "glay_exofire_2026",
+      "artistId": "glay",
+      "title": "GLAY ARENA TOUR 2026-2027 \"EXOFIRE\"",
+      "startDate": "2026-11-07T00:00:00+09:00",
+      "endDate": "2027-02-21T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "S席",
+          "amount": 11000
+        },
+        {
+          "label": "A席",
+          "amount": 9000
+        },
+        {
+          "label": "着席指定席",
+          "amount": 11000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "glay_zeppy_swing_2026_divercity_0727",
+      "tourId": "glay_zeppy_swing_2026",
+      "venue": "Zepp DiverCity",
+      "performanceAt": "2026-07-27T18:00:00+09:00",
+      "doorOpenAt": "2026-07-27T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "GLAY SPECIAL LIVE We♡Zeppy Swing",
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10174",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "glay_wehappyswing_vol4_2026_makuhari_0731",
+      "tourId": "glay_wehappyswing_vol4_2026",
+      "venue": "幕張メッセ国際展示場1・2・3ホール",
+      "performanceAt": "2026-07-31T18:00:00+09:00",
+      "doorOpenAt": "2026-07-31T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "HAPPY SWING 30th Anniversary GLAY SPECIAL LIVE We♡Happy Swing Vol.4 ～Promise The Venezia～",
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/live",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "glay_wehappyswing_vol4_2026_makuhari_0801",
+      "tourId": "glay_wehappyswing_vol4_2026",
+      "venue": "幕張メッセ国際展示場1・2・3ホール",
+      "performanceAt": "2026-08-01T16:00:00+09:00",
+      "doorOpenAt": "2026-08-01T14:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "HAPPY SWING 30th Anniversary GLAY SPECIAL LIVE We♡Happy Swing Vol.4 ～Promise The Venezia～",
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/live",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "glay_happy_swing_festa_2026_makuhari_0731",
+      "tourId": "glay_happy_swing_festa_2026",
+      "venue": "幕張メッセ国際展示場9ホール",
+      "performanceAt": "2026-07-31T10:00:00+09:00",
+      "doorOpenAt": "2026-07-31T09:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "HAPPY SWING FESTA 2026",
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10157",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "glay_happy_swing_festa_2026_makuhari_0801",
+      "tourId": "glay_happy_swing_festa_2026",
+      "venue": "幕張メッセ国際展示場9ホール",
+      "performanceAt": "2026-08-01T08:30:00+09:00",
+      "doorOpenAt": "2026-08-01T08:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "HAPPY SWING FESTA 2026",
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10157",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "glay_fes_2026_puffy_pfes_0720",
+      "tourId": "glay_fes_2026_puffy_pfes",
+      "venue": "東急ドレッセとどろきアリーナ",
+      "performanceAt": "2026-07-20T13:00:00+09:00",
+      "doorOpenAt": "2026-07-20T11:30:00+09:00",
+      "kind": "fes",
+      "eventName": "PUFFYの\"P\"FES",
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10119",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "glay_fes_2026_otohige_0829",
+      "tourId": "glay_fes_2026_otohige",
+      "venue": "HARD OFF ECO スタジアム新潟",
+      "performanceAt": "2026-08-29T11:00:00+09:00",
+      "doorOpenAt": "2026-08-29T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "音楽と髭達2026-TIME MACHINE",
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10087",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_osaka_1107",
+      "tourId": "glay_exofire_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-11-07T18:00:00+09:00",
+      "doorOpenAt": "2026-11-07T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_osaka_1108",
+      "tourId": "glay_exofire_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-11-08T18:00:00+09:00",
+      "doorOpenAt": "2026-11-08T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_miyagi_1121",
+      "tourId": "glay_exofire_2026",
+      "venue": "ゼビオアリーナ仙台",
+      "performanceAt": "2026-11-21T18:00:00+09:00",
+      "doorOpenAt": "2026-11-21T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_miyagi_1122",
+      "tourId": "glay_exofire_2026",
+      "venue": "ゼビオアリーナ仙台",
+      "performanceAt": "2026-11-22T18:00:00+09:00",
+      "doorOpenAt": "2026-11-22T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_tokyo_1128",
+      "tourId": "glay_exofire_2026",
+      "venue": "有明アリーナ",
+      "performanceAt": "2026-11-28T18:00:00+09:00",
+      "doorOpenAt": "2026-11-28T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_tokyo_1129",
+      "tourId": "glay_exofire_2026",
+      "venue": "有明アリーナ",
+      "performanceAt": "2026-11-29T18:00:00+09:00",
+      "doorOpenAt": "2026-11-29T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_niigata_1205",
+      "tourId": "glay_exofire_2026",
+      "venue": "朱鷺メッセ",
+      "performanceAt": "2026-12-05T18:00:00+09:00",
+      "doorOpenAt": "2026-12-05T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_hokkaido_1212",
+      "tourId": "glay_exofire_2026",
+      "venue": "北海きたえーる",
+      "performanceAt": "2026-12-12T18:00:00+09:00",
+      "doorOpenAt": "2026-12-12T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_hokkaido_1213",
+      "tourId": "glay_exofire_2026",
+      "venue": "北海きたえーる",
+      "performanceAt": "2026-12-13T18:00:00+09:00",
+      "doorOpenAt": "2026-12-13T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_fukuoka_1219",
+      "tourId": "glay_exofire_2026",
+      "venue": "マリンメッセ福岡A館",
+      "performanceAt": "2026-12-19T18:00:00+09:00",
+      "doorOpenAt": "2026-12-19T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_fukuoka_1220",
+      "tourId": "glay_exofire_2026",
+      "venue": "マリンメッセ福岡A館",
+      "performanceAt": "2026-12-20T18:00:00+09:00",
+      "doorOpenAt": "2026-12-20T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_hyogo_0116",
+      "tourId": "glay_exofire_2026",
+      "venue": "GLION ARENA KOBE",
+      "performanceAt": "2027-01-16T17:00:00+09:00",
+      "doorOpenAt": "2027-01-16T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_hyogo_0117",
+      "tourId": "glay_exofire_2026",
+      "venue": "GLION ARENA KOBE",
+      "performanceAt": "2027-01-17T16:00:00+09:00",
+      "doorOpenAt": "2027-01-17T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_hiroshima_0130",
+      "tourId": "glay_exofire_2026",
+      "venue": "広島グリーンアリーナ",
+      "performanceAt": "2027-01-30T17:00:00+09:00",
+      "doorOpenAt": "2027-01-30T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_hiroshima_0131",
+      "tourId": "glay_exofire_2026",
+      "venue": "広島グリーンアリーナ",
+      "performanceAt": "2027-01-31T16:00:00+09:00",
+      "doorOpenAt": "2027-01-31T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_aichi_0206",
+      "tourId": "glay_exofire_2026",
+      "venue": "Aichi Sky Expo ホールA",
+      "performanceAt": "2027-02-06T17:00:00+09:00",
+      "doorOpenAt": "2027-02-06T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_aichi_0207",
+      "tourId": "glay_exofire_2026",
+      "venue": "Aichi Sky Expo ホールA",
+      "performanceAt": "2027-02-07T16:00:00+09:00",
+      "doorOpenAt": "2027-02-07T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_hakodate_0211",
+      "tourId": "glay_exofire_2026",
+      "venue": "函館サーモン・まるなまアリーナ",
+      "performanceAt": "2027-02-11T17:00:00+09:00",
+      "doorOpenAt": "2027-02-11T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_hakodate_0213",
+      "tourId": "glay_exofire_2026",
+      "venue": "函館サーモン・まるなまアリーナ",
+      "performanceAt": "2027-02-13T17:00:00+09:00",
+      "doorOpenAt": "2027-02-13T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_hakodate_0214",
+      "tourId": "glay_exofire_2026",
+      "venue": "函館サーモン・まるなまアリーナ",
+      "performanceAt": "2027-02-14T16:00:00+09:00",
+      "doorOpenAt": "2027-02-14T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_yokohama_0220",
+      "tourId": "glay_exofire_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2027-02-20T17:00:00+09:00",
+      "doorOpenAt": "2027-02-20T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_yokohama_0221",
+      "tourId": "glay_exofire_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2027-02-21T16:00:00+09:00",
+      "doorOpenAt": "2027-02-21T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "glay_zeppy_swing_2026_glay_app",
+      "tourId": "glay_zeppy_swing_2026",
+      "type": "GLAY APP有料会員先行抽選",
+      "entryStartAt": "2026-07-06T15:00:00+09:00",
+      "entryEndAt": "2026-07-13T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_zeppy_swing_2026_divercity_0727"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10174",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "glay_wehappyswing_vol4_2026_happy_swing_2nd",
+      "tourId": "glay_wehappyswing_vol4_2026",
+      "type": "HAPPY SWING 2次先行抽選",
+      "entryStartAt": "2026-06-18T15:00:00+09:00",
+      "entryEndAt": "2026-06-24T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_wehappyswing_vol4_2026_makuhari_0731",
+        "glay_wehappyswing_vol4_2026_makuhari_0801"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/live",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "glay_wehappyswing_vol4_2026_glay_mobile_2nd",
+      "tourId": "glay_wehappyswing_vol4_2026",
+      "type": "GLAY MOBILE 2次受付",
+      "entryStartAt": "2026-07-01T15:00:00+09:00",
+      "entryEndAt": "2026-07-05T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_wehappyswing_vol4_2026_makuhari_0731"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/live",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "glay_happy_swing_festa_2026_happy_swing_2nd",
+      "tourId": "glay_happy_swing_festa_2026",
+      "type": "HAPPY SWING会員先行（2次）",
+      "entryStartAt": "2026-06-19T15:00:00+09:00",
+      "entryEndAt": "2026-06-28T23:59:00+09:00",
+      "resultAt": "2026-07-02T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_happy_swing_festa_2026_makuhari_0731",
+        "glay_happy_swing_festa_2026_makuhari_0801"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10157",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_lawson_fastest",
+      "tourId": "glay_exofire_2026",
+      "type": "ローチケ・プレイガイド最速先行",
+      "entryStartAt": "2026-06-08T15:00:00+09:00",
+      "entryEndAt": "2026-06-22T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_exofire_2026_osaka_1107",
+        "glay_exofire_2026_osaka_1108",
+        "glay_exofire_2026_miyagi_1121",
+        "glay_exofire_2026_miyagi_1122",
+        "glay_exofire_2026_tokyo_1128",
+        "glay_exofire_2026_tokyo_1129",
+        "glay_exofire_2026_niigata_1205",
+        "glay_exofire_2026_hokkaido_1212",
+        "glay_exofire_2026_hokkaido_1213",
+        "glay_exofire_2026_fukuoka_1219",
+        "glay_exofire_2026_fukuoka_1220"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ]
+}

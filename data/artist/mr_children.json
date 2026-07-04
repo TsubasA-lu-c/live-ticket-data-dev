@@ -1,0 +1,541 @@
+{
+  "artistId": "mr_children",
+  "tours": [
+    {
+      "id": "mr_children_saturday_park_2026",
+      "artistId": "mr_children",
+      "title": "Mr.Children Tour 2026 \"Saturday in the park\"",
+      "startDate": "2026-04-04T00:00:00+09:00",
+      "endDate": "2026-12-03T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 14300
+        },
+        {
+          "label": "注釈付指定席",
+          "amount": 12100
+        },
+        {
+          "label": "後方立見",
+          "amount": 11000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "mr_children_saturday_park_2026_chiba_0404",
+      "tourId": "mr_children_saturday_park_2026",
+      "venue": "ららアリーナ東京ベイ",
+      "performanceAt": "2026-04-04T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_chiba_0405",
+      "tourId": "mr_children_saturday_park_2026",
+      "venue": "ららアリーナ東京ベイ",
+      "performanceAt": "2026-04-05T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_yokohama_0411",
+      "tourId": "mr_children_saturday_park_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-04-11T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_yokohama_0412",
+      "tourId": "mr_children_saturday_park_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-04-12T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_aichi_0425",
+      "tourId": "mr_children_saturday_park_2026",
+      "venue": "日本ガイシホール",
+      "performanceAt": "2026-04-25T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_aichi_0426",
+      "tourId": "mr_children_saturday_park_2026",
+      "venue": "日本ガイシホール",
+      "performanceAt": "2026-04-26T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_miyagi_0509",
+      "tourId": "mr_children_saturday_park_2026",
+      "venue": "セキスイハイムスーパーアリーナ",
+      "performanceAt": "2026-05-09T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_miyagi_0510",
+      "tourId": "mr_children_saturday_park_2026",
+      "venue": "セキスイハイムスーパーアリーナ",
+      "performanceAt": "2026-05-10T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_fukuoka_0516",
+      "tourId": "mr_children_saturday_park_2026",
+      "venue": "マリンメッセ福岡A館",
+      "performanceAt": "2026-05-16T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_fukuoka_0517",
+      "tourId": "mr_children_saturday_park_2026",
+      "venue": "マリンメッセ福岡A館",
+      "performanceAt": "2026-05-17T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_kagawa_0613",
+      "tourId": "mr_children_saturday_park_2026",
+      "venue": "あなぶきアリーナ香川",
+      "performanceAt": "2026-06-13T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_kagawa_0614",
+      "tourId": "mr_children_saturday_park_2026",
+      "venue": "あなぶきアリーナ香川",
+      "performanceAt": "2026-06-14T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_kanagawa_0620",
+      "tourId": "mr_children_saturday_park_2026",
+      "venue": "ぴあアリーナMM",
+      "performanceAt": "2026-06-20T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_kanagawa_0621",
+      "tourId": "mr_children_saturday_park_2026",
+      "venue": "ぴあアリーナMM",
+      "performanceAt": "2026-06-21T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_hokkaido_0627",
+      "tourId": "mr_children_saturday_park_2026",
+      "venue": "北海道立総合体育センター 北海きたえーる",
+      "performanceAt": "2026-06-27T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_hokkaido_0628",
+      "tourId": "mr_children_saturday_park_2026",
+      "venue": "北海道立総合体育センター 北海きたえーる",
+      "performanceAt": "2026-06-28T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_fukui_1003",
+      "tourId": "mr_children_saturday_park_2026",
+      "venue": "サンドーム福井",
+      "performanceAt": "2026-10-03T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_fukui_1004",
+      "tourId": "mr_children_saturday_park_2026",
+      "venue": "サンドーム福井",
+      "performanceAt": "2026-10-04T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_osaka_1014",
+      "tourId": "mr_children_saturday_park_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-10-14T18:30:00+09:00",
+      "doorOpenAt": "2026-10-14T17:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_osaka_1015",
+      "tourId": "mr_children_saturday_park_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-10-15T18:30:00+09:00",
+      "doorOpenAt": "2026-10-15T17:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_shizuoka_1024",
+      "tourId": "mr_children_saturday_park_2026",
+      "venue": "静岡エコパアリーナ",
+      "performanceAt": "2026-10-24T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_shizuoka_1025",
+      "tourId": "mr_children_saturday_park_2026",
+      "venue": "静岡エコパアリーナ",
+      "performanceAt": "2026-10-25T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_tokyo_1031",
+      "tourId": "mr_children_saturday_park_2026",
+      "venue": "有明アリーナ",
+      "performanceAt": "2026-10-31T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_tokyo_1101",
+      "tourId": "mr_children_saturday_park_2026",
+      "venue": "有明アリーナ",
+      "performanceAt": "2026-11-01T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_fukuoka_1107",
+      "tourId": "mr_children_saturday_park_2026",
+      "venue": "マリンメッセ福岡A館",
+      "performanceAt": "2026-11-07T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_fukuoka_1108",
+      "tourId": "mr_children_saturday_park_2026",
+      "venue": "マリンメッセ福岡A館",
+      "performanceAt": "2026-11-08T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_saga_1114",
+      "tourId": "mr_children_saturday_park_2026",
+      "venue": "SAGAアリーナ",
+      "performanceAt": "2026-11-14T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_saga_1115",
+      "tourId": "mr_children_saturday_park_2026",
+      "venue": "SAGAアリーナ",
+      "performanceAt": "2026-11-15T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_hiroshima_1121",
+      "tourId": "mr_children_saturday_park_2026",
+      "venue": "広島グリーンアリーナ",
+      "performanceAt": "2026-11-21T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_hiroshima_1122",
+      "tourId": "mr_children_saturday_park_2026",
+      "venue": "広島グリーンアリーナ",
+      "performanceAt": "2026-11-22T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_kanagawa_1202",
+      "tourId": "mr_children_saturday_park_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-12-02T18:30:00+09:00",
+      "doorOpenAt": "2026-12-02T17:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_kanagawa_1203",
+      "tourId": "mr_children_saturday_park_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-12-03T18:30:00+09:00",
+      "doorOpenAt": "2026-12-03T17:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "mr_children_saturday_park_2026_presale_official",
+      "tourId": "mr_children_saturday_park_2026",
+      "type": "公式最速先行抽選",
+      "entryStartAt": "2026-03-23T18:00:00+09:00",
+      "entryEndAt": "2026-04-05T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mr_children_saturday_park_2026_fukui_1003",
+        "mr_children_saturday_park_2026_fukui_1004",
+        "mr_children_saturday_park_2026_osaka_1014",
+        "mr_children_saturday_park_2026_osaka_1015",
+        "mr_children_saturday_park_2026_shizuoka_1024",
+        "mr_children_saturday_park_2026_shizuoka_1025",
+        "mr_children_saturday_park_2026_tokyo_1031",
+        "mr_children_saturday_park_2026_tokyo_1101",
+        "mr_children_saturday_park_2026_fukuoka_1107",
+        "mr_children_saturday_park_2026_fukuoka_1108",
+        "mr_children_saturday_park_2026_saga_1114",
+        "mr_children_saturday_park_2026_saga_1115",
+        "mr_children_saturday_park_2026_hiroshima_1121",
+        "mr_children_saturday_park_2026_hiroshima_1122",
+        "mr_children_saturday_park_2026_kanagawa_1202",
+        "mr_children_saturday_park_2026_kanagawa_1203"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_final_fukuoka",
+      "tourId": "mr_children_saturday_park_2026",
+      "type": "最終抽選（福岡公演）",
+      "entryStartAt": "2026-04-24T19:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mr_children_saturday_park_2026_fukuoka_0516",
+        "mr_children_saturday_park_2026_fukuoka_0517"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_presale_saga_2nd",
+      "tourId": "mr_children_saturday_park_2026",
+      "type": "公式2次先行抽選",
+      "entryStartAt": "2026-05-13T19:00:00+09:00",
+      "entryEndAt": "2026-05-24T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mr_children_saturday_park_2026_saga_1114",
+        "mr_children_saturday_park_2026_saga_1115"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_final_kagawa",
+      "tourId": "mr_children_saturday_park_2026",
+      "type": "最終抽選（香川公演）",
+      "entryStartAt": "2026-05-22T19:00:00+09:00",
+      "entryEndAt": "2026-06-07T23:59:00+09:00",
+      "resultAt": "2026-06-12T20:30:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mr_children_saturday_park_2026_kagawa_0613",
+        "mr_children_saturday_park_2026_kagawa_0614"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_final_kanagawa",
+      "tourId": "mr_children_saturday_park_2026",
+      "type": "最終抽選（神奈川・ぴあアリーナMM）",
+      "entryStartAt": "2026-05-29T19:00:00+09:00",
+      "entryEndAt": "2026-06-14T23:59:00+09:00",
+      "resultAt": "2026-06-19T20:30:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mr_children_saturday_park_2026_kanagawa_0620",
+        "mr_children_saturday_park_2026_kanagawa_0621"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_hokkaido_final",
+      "tourId": "mr_children_saturday_park_2026",
+      "type": "最終抽選（北海道公演）",
+      "entryStartAt": "2026-06-10T00:00:00+09:00",
+      "entryEndAt": "2026-06-22T23:59:00+09:00",
+      "resultAt": "2026-06-26T20:30:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mr_children_saturday_park_2026_hokkaido_0627",
+        "mr_children_saturday_park_2026_hokkaido_0628"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_repl_priority",
+      "tourId": "mr_children_saturday_park_2026",
+      "type": "振替・追加公演 元チケット優先申込",
+      "entryStartAt": "2026-06-09T18:00:00+09:00",
+      "entryEndAt": "2026-06-18T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mr_children_saturday_park_2026_osaka_1014",
+        "mr_children_saturday_park_2026_osaka_1015",
+        "mr_children_saturday_park_2026_fukuoka_1107",
+        "mr_children_saturday_park_2026_fukuoka_1108",
+        "mr_children_saturday_park_2026_kanagawa_1202",
+        "mr_children_saturday_park_2026_kanagawa_1203"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_fm_additional",
+      "tourId": "mr_children_saturday_park_2026",
+      "type": "追加公演 FATHER&MOTHER会員先行",
+      "entryStartAt": "2026-06-09T18:00:00+09:00",
+      "entryEndAt": "2026-06-22T18:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mr_children_saturday_park_2026_fukuoka_1107",
+        "mr_children_saturday_park_2026_fukuoka_1108",
+        "mr_children_saturday_park_2026_kanagawa_1202",
+        "mr_children_saturday_park_2026_kanagawa_1203"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ]
+}

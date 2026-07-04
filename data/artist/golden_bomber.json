@@ -1,0 +1,397 @@
+{
+  "artistId": "golden_bomber",
+  "tours": [
+    {
+      "id": "golden_bomber_asuto_music_park_2026",
+      "artistId": "golden_bomber",
+      "title": "ASUTO MUSIC PARK 2026",
+      "startDate": "2026-09-05T00:00:00+09:00",
+      "endDate": "2026-09-05T00:00:00+09:00",
+      "prices": [
+        {"label": "一般1日券", "amount": 9900},
+        {"label": "2日間通し券", "amount": 18000},
+        {"label": "中学生1日券", "amount": 6900},
+        {"label": "中学生2日間通し券", "amount": 12000}
+      ],
+      "source": "system",
+      "sourceUrl": "https://asutomusicpark.com/",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
+    {
+      "id": "gb_choyakusen_2026",
+      "artistId": "golden_bomber",
+      "title": "ファンクラブ限定ライブツアー2026 ～超厄年祭～",
+      "startDate": "2026-07-30T00:00:00+09:00",
+      "endDate": "2026-09-25T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 8800
+        },
+        {
+          "label": "着席指定席",
+          "amount": 9900
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1018840",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "golden_bomber_asuto_music_park_2026_sendai_0905",
+      "tourId": "golden_bomber_asuto_music_park_2026",
+      "venue": "ゼビオアリーナ仙台",
+      "performanceAt": "2026-09-05T11:00:00+09:00",
+      "doorOpenAt": "2026-09-05T10:00:00+09:00",
+      "kind": "fes",
+      "eventName": "ASUTO MUSIC PARK 2026",
+      "source": "system",
+      "sourceUrl": "https://asutomusicpark.com/",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
+    {
+      "id": "gb_choyakusen_tokyo_0730",
+      "tourId": "gb_choyakusen_2026",
+      "venue": "LINE CUBE SHIBUYA（渋谷公会堂）",
+      "performanceAt": "2026-07-30T18:30:00+09:00",
+      "doorOpenAt": "2026-07-30T17:45:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1018840",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "gb_choyakusen_tokyo_0731",
+      "tourId": "gb_choyakusen_2026",
+      "venue": "LINE CUBE SHIBUYA（渋谷公会堂）",
+      "performanceAt": "2026-07-31T18:30:00+09:00",
+      "doorOpenAt": "2026-07-31T17:45:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1018840",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "gb_choyakusen_niigata_0811",
+      "tourId": "gb_choyakusen_2026",
+      "venue": "新潟県民会館",
+      "performanceAt": "2026-08-11T17:00:00+09:00",
+      "doorOpenAt": "2026-08-11T16:15:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1018840",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "gb_choyakusen_hokkaido_0821",
+      "tourId": "gb_choyakusen_2026",
+      "venue": "カナモトホール（札幌市民ホール）",
+      "performanceAt": "2026-08-21T18:30:00+09:00",
+      "doorOpenAt": "2026-08-21T17:45:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1020270",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "gb_choyakusen_hokkaido_0822",
+      "tourId": "gb_choyakusen_2026",
+      "venue": "カナモトホール（札幌市民ホール）",
+      "performanceAt": "2026-08-22T16:00:00+09:00",
+      "doorOpenAt": "2026-08-22T15:15:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1020270",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "gb_choyakusen_osaka_0911",
+      "tourId": "gb_choyakusen_2026",
+      "venue": "グランキューブ大阪（大阪国際会議場）",
+      "performanceAt": "2026-09-11T18:30:00+09:00",
+      "doorOpenAt": "2026-09-11T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1018840",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "gb_choyakusen_osaka_0912",
+      "tourId": "gb_choyakusen_2026",
+      "venue": "グランキューブ大阪（大阪国際会議場）",
+      "performanceAt": "2026-09-12T17:00:00+09:00",
+      "doorOpenAt": "2026-09-12T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1018840",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "gb_choyakusen_aichi_0915",
+      "tourId": "gb_choyakusen_2026",
+      "venue": "Niterra日本特殊陶業市民会館 フォレストホール",
+      "performanceAt": "2026-09-15T18:30:00+09:00",
+      "doorOpenAt": "2026-09-15T17:45:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1018840",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "gb_choyakusen_aichi_0916",
+      "tourId": "gb_choyakusen_2026",
+      "venue": "Niterra日本特殊陶業市民会館 フォレストホール",
+      "performanceAt": "2026-09-16T18:30:00+09:00",
+      "doorOpenAt": "2026-09-16T17:45:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1018840",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "gb_choyakusen_miyagi_0920",
+      "tourId": "gb_choyakusen_2026",
+      "venue": "東京エレクトロンホール宮城",
+      "performanceAt": "2026-09-20T17:00:00+09:00",
+      "doorOpenAt": "2026-09-20T16:15:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1020282",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "gb_choyakusen_fukuoka_0925",
+      "tourId": "gb_choyakusen_2026",
+      "venue": "福岡市民ホール 大ホール",
+      "performanceAt": "2026-09-25T18:30:00+09:00",
+      "doorOpenAt": "2026-09-25T17:45:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1018840",
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "gb_asuto_2026_senko_1st",
+      "tourId": "golden_bomber_asuto_music_park_2026",
+      "type": "先行受付（第1次）",
+      "entryStartAt": "2026-06-01T10:00:00+09:00",
+      "entryEndAt": "2026-06-17T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "golden_bomber_asuto_music_park_2026_sendai_0905"
+      ],
+      "source": "system",
+      "sourceUrl": "https://l-tike.com/concert/mevent/?mid=751273",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
+    {
+      "id": "gb_asuto_2026_senko_2nd",
+      "tourId": "golden_bomber_asuto_music_park_2026",
+      "type": "先行受付（第2次）",
+      "entryStartAt": "2026-06-19T10:00:00+09:00",
+      "entryEndAt": "2026-07-05T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "golden_bomber_asuto_music_park_2026_sendai_0905"
+      ],
+      "source": "system",
+      "sourceUrl": "https://l-tike.com/concert/mevent/?mid=751273",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
+    {
+      "id": "golden_bomber_choyakusen_2026_fc_senten",
+      "tourId": "gb_choyakusen_2026",
+      "type": "FC先着販売",
+      "entryStartAt": null,
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "gb_choyakusen_niigata_0811",
+        "gb_choyakusen_hokkaido_0821",
+        "gb_choyakusen_hokkaido_0822",
+        "gb_choyakusen_osaka_0911",
+        "gb_choyakusen_osaka_0912",
+        "gb_choyakusen_aichi_0915",
+        "gb_choyakusen_aichi_0916",
+        "gb_choyakusen_miyagi_0920"
+      ],
+      "source": "system",
+      "sourceUrl": "https://gbmarukin.com/contents/2488",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "gb_choyakusen_2026_fc_1st",
+      "tourId": "gb_choyakusen_2026",
+      "type": "FC抽選（1次受付）",
+      "entryStartAt": null,
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "gb_choyakusen_tokyo_0730",
+        "gb_choyakusen_tokyo_0731",
+        "gb_choyakusen_niigata_0811",
+        "gb_choyakusen_hokkaido_0821",
+        "gb_choyakusen_hokkaido_0822",
+        "gb_choyakusen_osaka_0911",
+        "gb_choyakusen_osaka_0912",
+        "gb_choyakusen_aichi_0915",
+        "gb_choyakusen_aichi_0916",
+        "gb_choyakusen_miyagi_0920",
+        "gb_choyakusen_fukuoka_0925"
+      ],
+      "source": "system",
+      "sourceUrl": "https://gbmarukin.com/contents/2488",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "gb_choyakusen_2026_fc_2nd",
+      "tourId": "gb_choyakusen_2026",
+      "type": "FC抽選（2次受付）",
+      "entryStartAt": null,
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "gb_choyakusen_tokyo_0730",
+        "gb_choyakusen_tokyo_0731",
+        "gb_choyakusen_niigata_0811",
+        "gb_choyakusen_hokkaido_0821",
+        "gb_choyakusen_hokkaido_0822",
+        "gb_choyakusen_osaka_0911",
+        "gb_choyakusen_osaka_0912",
+        "gb_choyakusen_aichi_0915",
+        "gb_choyakusen_aichi_0916",
+        "gb_choyakusen_miyagi_0920",
+        "gb_choyakusen_fukuoka_0925"
+      ],
+      "source": "system",
+      "sourceUrl": "https://gbmarukin.com/contents/2488",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "gb_choyakusen_2026_fc_3rd",
+      "tourId": "gb_choyakusen_2026",
+      "type": "FC抽選（3次受付）",
+      "entryStartAt": null,
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "gb_choyakusen_tokyo_0730",
+        "gb_choyakusen_tokyo_0731",
+        "gb_choyakusen_niigata_0811",
+        "gb_choyakusen_hokkaido_0821",
+        "gb_choyakusen_hokkaido_0822",
+        "gb_choyakusen_osaka_0911",
+        "gb_choyakusen_osaka_0912",
+        "gb_choyakusen_aichi_0915",
+        "gb_choyakusen_aichi_0916",
+        "gb_choyakusen_miyagi_0920",
+        "gb_choyakusen_fukuoka_0925"
+      ],
+      "source": "system",
+      "sourceUrl": "https://gbmarukin.com/contents/2488",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "gb_choyakusen_2026_fc_4th",
+      "tourId": "gb_choyakusen_2026",
+      "type": "FC抽選（4次受付）",
+      "entryStartAt": null,
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "gb_choyakusen_tokyo_0730",
+        "gb_choyakusen_tokyo_0731",
+        "gb_choyakusen_niigata_0811",
+        "gb_choyakusen_hokkaido_0821",
+        "gb_choyakusen_hokkaido_0822",
+        "gb_choyakusen_osaka_0911",
+        "gb_choyakusen_osaka_0912",
+        "gb_choyakusen_aichi_0915",
+        "gb_choyakusen_aichi_0916",
+        "gb_choyakusen_miyagi_0920",
+        "gb_choyakusen_fukuoka_0925"
+      ],
+      "source": "system",
+      "sourceUrl": "https://gbmarukin.com/contents/2488",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "gb_choyakusen_2026_fc_5th",
+      "tourId": "gb_choyakusen_2026",
+      "type": "FC抽選（5次受付）",
+      "entryStartAt": null,
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "gb_choyakusen_tokyo_0730",
+        "gb_choyakusen_tokyo_0731",
+        "gb_choyakusen_niigata_0811",
+        "gb_choyakusen_hokkaido_0821",
+        "gb_choyakusen_hokkaido_0822",
+        "gb_choyakusen_osaka_0911",
+        "gb_choyakusen_osaka_0912",
+        "gb_choyakusen_aichi_0915",
+        "gb_choyakusen_aichi_0916",
+        "gb_choyakusen_miyagi_0920",
+        "gb_choyakusen_fukuoka_0925"
+      ],
+      "source": "system",
+      "sourceUrl": "https://gbmarukin.com/contents/2488",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "gb_choyakusen_2026_fc_6th",
+      "tourId": "gb_choyakusen_2026",
+      "type": "FC抽選（6次受付）",
+      "entryStartAt": "2026-06-09T15:00:00+09:00",
+      "entryEndAt": "2026-06-21T23:59:00+09:00",
+      "resultAt": "2026-06-30T15:00:00+09:00",
+      "paymentStartAt": "2026-06-30T15:00:00+09:00",
+      "paymentEndAt": "2026-07-05T23:00:00+09:00",
+      "performanceIds": [
+        "gb_choyakusen_niigata_0811",
+        "gb_choyakusen_hokkaido_0821",
+        "gb_choyakusen_hokkaido_0822",
+        "gb_choyakusen_osaka_0911",
+        "gb_choyakusen_osaka_0912",
+        "gb_choyakusen_aichi_0915",
+        "gb_choyakusen_aichi_0916",
+        "gb_choyakusen_miyagi_0920"
+      ],
+      "source": "system",
+      "sourceUrl": "https://gbmarukin.com/contents/2488",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ]
+}

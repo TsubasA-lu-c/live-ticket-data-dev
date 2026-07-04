@@ -1,0 +1,207 @@
+{
+  "artistId": "hitsuji_bungaku",
+  "tours": [
+    {
+      "id": "hitsuji_bungaku_su_ha_2026",
+      "artistId": "hitsuji_bungaku",
+      "title": "羊文学 TOUR 2026 \"すーーーはーーー\"",
+      "startDate": "2026-09-04T00:00:00+09:00",
+      "endDate": "2026-11-11T00:00:00+09:00",
+      "prices": [
+        { "label": "全席指定", "amount": 7500 },
+        { "label": "全席指定（東京）", "amount": 8800 }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/581948",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "hitsuji_bungaku_su_ha_2026_niigata_0904",
+      "tourId": "hitsuji_bungaku_su_ha_2026",
+      "venue": "新潟テルサ",
+      "performanceAt": "2026-09-04T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/581948",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "hitsuji_bungaku_su_ha_2026_sendai_0906",
+      "tourId": "hitsuji_bungaku_su_ha_2026",
+      "venue": "仙台サンプラザホール",
+      "performanceAt": "2026-09-06T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/581948",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "hitsuji_bungaku_su_ha_2026_kyoto_0911",
+      "tourId": "hitsuji_bungaku_su_ha_2026",
+      "venue": "ロームシアター京都",
+      "performanceAt": "2026-09-11T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/581948",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "hitsuji_bungaku_su_ha_2026_nagoya_0913",
+      "tourId": "hitsuji_bungaku_su_ha_2026",
+      "venue": "Niterra日本特殊陶業市民会館",
+      "performanceAt": "2026-09-13T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/581948",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "hitsuji_bungaku_su_ha_2026_fukuoka_0920",
+      "tourId": "hitsuji_bungaku_su_ha_2026",
+      "venue": "福岡サンパレス",
+      "performanceAt": "2026-09-20T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/581948",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "hitsuji_bungaku_su_ha_2026_okayama_0921",
+      "tourId": "hitsuji_bungaku_su_ha_2026",
+      "venue": "岡山芸術創造劇場 ハレノワ",
+      "performanceAt": "2026-09-21T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/581948",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "hitsuji_bungaku_su_ha_2026_kanazawa_0926",
+      "tourId": "hitsuji_bungaku_su_ha_2026",
+      "venue": "金沢本多の森 北電ホール",
+      "performanceAt": "2026-09-26T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/581948",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "hitsuji_bungaku_su_ha_2026_osaka_0928",
+      "tourId": "hitsuji_bungaku_su_ha_2026",
+      "venue": "フェスティバルホール",
+      "performanceAt": "2026-09-28T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/581948",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "hitsuji_bungaku_su_ha_2026_sapporo_1001",
+      "tourId": "hitsuji_bungaku_su_ha_2026",
+      "venue": "札幌文化芸術劇場 hitaru",
+      "performanceAt": "2026-10-01T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/581948",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "hitsuji_bungaku_su_ha_2026_tokyo_1110",
+      "tourId": "hitsuji_bungaku_su_ha_2026",
+      "venue": "国立代々木競技場 第一体育館",
+      "performanceAt": "2026-11-10T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/581948",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "hitsuji_bungaku_su_ha_2026_tokyo_1111",
+      "tourId": "hitsuji_bungaku_su_ha_2026",
+      "venue": "国立代々木競技場 第一体育館",
+      "performanceAt": "2026-11-11T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/581948",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "hitsuji_bungaku_su_ha_2026_official_final",
+      "tourId": "hitsuji_bungaku_su_ha_2026",
+      "type": "オフィシャル最終先行",
+      "entryStartAt": "2026-06-01T00:00:00+09:00",
+      "entryEndAt": "2026-06-30T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hitsuji_bungaku_su_ha_2026_niigata_0904",
+        "hitsuji_bungaku_su_ha_2026_sendai_0906",
+        "hitsuji_bungaku_su_ha_2026_kyoto_0911",
+        "hitsuji_bungaku_su_ha_2026_nagoya_0913",
+        "hitsuji_bungaku_su_ha_2026_fukuoka_0920",
+        "hitsuji_bungaku_su_ha_2026_okayama_0921",
+        "hitsuji_bungaku_su_ha_2026_kanazawa_0926",
+        "hitsuji_bungaku_su_ha_2026_osaka_0928",
+        "hitsuji_bungaku_su_ha_2026_sapporo_1001",
+        "hitsuji_bungaku_su_ha_2026_tokyo_1110",
+        "hitsuji_bungaku_su_ha_2026_tokyo_1111"
+      ],
+      "source": "system",
+      "sourceUrl": "https://smash-jpn.com/live/?id=4667",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "hitsuji_bungaku_su_ha_2026_general",
+      "tourId": "hitsuji_bungaku_su_ha_2026",
+      "type": "一般",
+      "entryStartAt": "2026-07-11T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hitsuji_bungaku_su_ha_2026_niigata_0904",
+        "hitsuji_bungaku_su_ha_2026_sendai_0906",
+        "hitsuji_bungaku_su_ha_2026_kyoto_0911",
+        "hitsuji_bungaku_su_ha_2026_nagoya_0913",
+        "hitsuji_bungaku_su_ha_2026_fukuoka_0920",
+        "hitsuji_bungaku_su_ha_2026_okayama_0921",
+        "hitsuji_bungaku_su_ha_2026_kanazawa_0926",
+        "hitsuji_bungaku_su_ha_2026_osaka_0928",
+        "hitsuji_bungaku_su_ha_2026_sapporo_1001",
+        "hitsuji_bungaku_su_ha_2026_tokyo_1110",
+        "hitsuji_bungaku_su_ha_2026_tokyo_1111"
+      ],
+      "source": "system",
+      "sourceUrl": "https://smash-jpn.com/live/?id=4667",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    }
+  ]
+}

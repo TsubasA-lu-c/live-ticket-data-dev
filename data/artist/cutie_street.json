@@ -1,0 +1,387 @@
+{
+  "artistId": "cutie_street",
+  "tours": [
+    {
+      "id": "cutie_street_2nd_anniversary_2026",
+      "artistId": "cutie_street",
+      "title": "CUTIE STREET 2nd ANNIVERSARY LIVE 2026",
+      "startDate": "2026-08-25T00:00:00+09:00",
+      "endDate": "2026-08-26T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "一般指定席",
+          "amount": 10000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/feature/2ndanniversarylive",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_fes_kawaii_lab_sendai_2026",
+      "artistId": "cutie_street",
+      "title": "KAWAII LAB. SESSION in SENDAI",
+      "startDate": "2026-07-05T00:00:00+09:00",
+      "endDate": "2026-07-05T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/live_information/detail/81089",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_fes_kawaii_lab_summer_2026",
+      "artistId": "cutie_street",
+      "title": "KAWAII LAB. SESSION 2026 SUMMER",
+      "startDate": "2026-07-10T00:00:00+09:00",
+      "endDate": "2026-07-11T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/live_information/detail/81821",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_fes_live_in_korea_2026_summer",
+      "artistId": "cutie_street",
+      "title": "CUTIE STREET Live in Korea 2026 SUMMER",
+      "startDate": "2026-07-25T00:00:00+09:00",
+      "endDate": "2026-07-26T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/43664",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_japan_arena_tour_2026_autumn",
+      "artistId": "cutie_street",
+      "title": "CUTIE STREET JAPAN ARENA TOUR 2026 -AUTUMN-",
+      "startDate": "2026-09-23T00:00:00+09:00",
+      "endDate": "2026-11-29T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 10000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/feature/autumntour",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "cutie_street_2nd_anniversary_2026_budokan_0825",
+      "tourId": "cutie_street_2nd_anniversary_2026",
+      "venue": "日本武道館",
+      "performanceAt": "2026-08-25T18:00:00+09:00",
+      "doorOpenAt": "2026-08-25T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "CUTIE STREET 2nd ANNIVERSARY LIVE 2026",
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/feature/2ndanniversarylive",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_2nd_anniversary_2026_budokan_0826",
+      "tourId": "cutie_street_2nd_anniversary_2026",
+      "venue": "日本武道館",
+      "performanceAt": "2026-08-26T17:00:00+09:00",
+      "doorOpenAt": "2026-08-26T15:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "CUTIE STREET 2nd ANNIVERSARY LIVE 2026",
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/feature/2ndanniversarylive",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_fes_kawaii_lab_sendai_2026_zevioarena_0705",
+      "tourId": "cutie_street_fes_kawaii_lab_sendai_2026",
+      "venue": "ゼビオアリーナ仙台",
+      "performanceAt": "2026-07-05T16:00:00+09:00",
+      "doorOpenAt": "2026-07-05T14:30:00+09:00",
+      "kind": "fes",
+      "eventName": "KAWAII LAB. SESSION in SENDAI",
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/live_information/detail/81089",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_fes_kawaii_lab_summer_2026_yoyogi_0710",
+      "tourId": "cutie_street_fes_kawaii_lab_summer_2026",
+      "venue": "国立代々木競技場 第一体育館",
+      "performanceAt": "2026-07-10T18:00:00+09:00",
+      "doorOpenAt": "2026-07-10T16:00:00+09:00",
+      "kind": "fes",
+      "eventName": "KAWAII LAB. SESSION 2026 SUMMER",
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/live_information/detail/81821",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_fes_kawaii_lab_summer_2026_yoyogi_0711",
+      "tourId": "cutie_street_fes_kawaii_lab_summer_2026",
+      "venue": "国立代々木競技場 第一体育館",
+      "performanceAt": "2026-07-11T17:00:00+09:00",
+      "doorOpenAt": "2026-07-11T15:00:00+09:00",
+      "kind": "fes",
+      "eventName": "KAWAII LAB. SESSION 2026 SUMMER",
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/live_information/detail/81821",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_fes_live_in_korea_2026_summer_sejong_0725",
+      "tourId": "cutie_street_fes_live_in_korea_2026_summer",
+      "venue": "世宗大学 大洋ホール",
+      "performanceAt": "2026-07-25T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "CUTIE STREET Live in Korea 2026 SUMMER",
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/43664",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_fes_live_in_korea_2026_summer_sejong_0726",
+      "tourId": "cutie_street_fes_live_in_korea_2026_summer",
+      "venue": "世宗大学 大洋ホール",
+      "performanceAt": "2026-07-26T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "CUTIE STREET Live in Korea 2026 SUMMER",
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/43664",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_japan_arena_tour_2026_autumn_yokohama_arena_0923",
+      "tourId": "cutie_street_japan_arena_tour_2026_autumn",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-09-23T17:00:00+09:00",
+      "doorOpenAt": "2026-09-23T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/feature/autumntour",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_japan_arena_tour_2026_autumn_ariake_arena_0929",
+      "tourId": "cutie_street_japan_arena_tour_2026_autumn",
+      "venue": "有明アリーナ",
+      "performanceAt": "2026-09-29T18:00:00+09:00",
+      "doorOpenAt": "2026-09-29T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/feature/autumntour",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_japan_arena_tour_2026_autumn_ariake_arena_0930",
+      "tourId": "cutie_street_japan_arena_tour_2026_autumn",
+      "venue": "有明アリーナ",
+      "performanceAt": "2026-09-30T17:30:00+09:00",
+      "doorOpenAt": "2026-09-30T15:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/feature/autumntour",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_japan_arena_tour_2026_autumn_sekisui_super_arena_1003",
+      "tourId": "cutie_street_japan_arena_tour_2026_autumn",
+      "venue": "セキスイハイムスーパーアリーナ",
+      "performanceAt": "2026-10-03T18:00:00+09:00",
+      "doorOpenAt": "2026-10-03T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/feature/autumntour",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_japan_arena_tour_2026_autumn_sekisui_super_arena_1004",
+      "tourId": "cutie_street_japan_arena_tour_2026_autumn",
+      "venue": "セキスイハイムスーパーアリーナ",
+      "performanceAt": "2026-10-04T17:00:00+09:00",
+      "doorOpenAt": "2026-10-04T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/feature/autumntour",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_japan_arena_tour_2026_autumn_marine_messe_fukuoka_1028",
+      "tourId": "cutie_street_japan_arena_tour_2026_autumn",
+      "venue": "マリンメッセ福岡A館",
+      "performanceAt": "2026-10-28T18:00:00+09:00",
+      "doorOpenAt": "2026-10-28T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/feature/autumntour",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_japan_arena_tour_2026_autumn_marine_messe_fukuoka_1029",
+      "tourId": "cutie_street_japan_arena_tour_2026_autumn",
+      "venue": "マリンメッセ福岡A館",
+      "performanceAt": "2026-10-29T17:00:00+09:00",
+      "doorOpenAt": "2026-10-29T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/feature/autumntour",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_japan_arena_tour_2026_autumn_kobe_world_1031",
+      "tourId": "cutie_street_japan_arena_tour_2026_autumn",
+      "venue": "神戸ワールド記念ホール",
+      "performanceAt": "2026-10-31T18:00:00+09:00",
+      "doorOpenAt": "2026-10-31T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/feature/autumntour",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_japan_arena_tour_2026_autumn_kobe_world_1101",
+      "tourId": "cutie_street_japan_arena_tour_2026_autumn",
+      "venue": "神戸ワールド記念ホール",
+      "performanceAt": "2026-11-01T16:30:00+09:00",
+      "doorOpenAt": "2026-11-01T14:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/feature/autumntour",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_japan_arena_tour_2026_autumn_hiroshima_green_arena_1114",
+      "tourId": "cutie_street_japan_arena_tour_2026_autumn",
+      "venue": "広島グリーンアリーナ",
+      "performanceAt": "2026-11-14T18:00:00+09:00",
+      "doorOpenAt": "2026-11-14T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/feature/autumntour",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_japan_arena_tour_2026_autumn_hiroshima_green_arena_1115",
+      "tourId": "cutie_street_japan_arena_tour_2026_autumn",
+      "venue": "広島グリーンアリーナ",
+      "performanceAt": "2026-11-15T16:30:00+09:00",
+      "doorOpenAt": "2026-11-15T14:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/feature/autumntour",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_japan_arena_tour_2026_autumn_ig_arena_1128",
+      "tourId": "cutie_street_japan_arena_tour_2026_autumn",
+      "venue": "IGアリーナ",
+      "performanceAt": "2026-11-28T18:00:00+09:00",
+      "doorOpenAt": "2026-11-28T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/feature/autumntour",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_japan_arena_tour_2026_autumn_ig_arena_1129",
+      "tourId": "cutie_street_japan_arena_tour_2026_autumn",
+      "venue": "IGアリーナ",
+      "performanceAt": "2026-11-29T16:30:00+09:00",
+      "doorOpenAt": "2026-11-29T14:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/feature/autumntour",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "cutie_street_2nd_anniversary_2026_pg_fastest",
+      "tourId": "cutie_street_2nd_anniversary_2026",
+      "type": "プレイガイド最速先行",
+      "entryStartAt": "2026-04-19T18:00:00+09:00",
+      "entryEndAt": "2026-05-06T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "cutie_street_2nd_anniversary_2026_budokan_0825",
+        "cutie_street_2nd_anniversary_2026_budokan_0826"
+      ],
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/feature/2ndanniversarylive",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_japan_arena_tour_2026_autumn_fc_1st",
+      "tourId": "cutie_street_japan_arena_tour_2026_autumn",
+      "type": "FC先行",
+      "entryStartAt": "2026-06-01T12:00:00+09:00",
+      "entryEndAt": "2026-06-17T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "cutie_street_japan_arena_tour_2026_autumn_yokohama_arena_0923",
+        "cutie_street_japan_arena_tour_2026_autumn_ariake_arena_0929",
+        "cutie_street_japan_arena_tour_2026_autumn_ariake_arena_0930",
+        "cutie_street_japan_arena_tour_2026_autumn_sekisui_super_arena_1003",
+        "cutie_street_japan_arena_tour_2026_autumn_sekisui_super_arena_1004",
+        "cutie_street_japan_arena_tour_2026_autumn_marine_messe_fukuoka_1028",
+        "cutie_street_japan_arena_tour_2026_autumn_marine_messe_fukuoka_1029",
+        "cutie_street_japan_arena_tour_2026_autumn_kobe_world_1031",
+        "cutie_street_japan_arena_tour_2026_autumn_kobe_world_1101",
+        "cutie_street_japan_arena_tour_2026_autumn_hiroshima_green_arena_1114",
+        "cutie_street_japan_arena_tour_2026_autumn_hiroshima_green_arena_1115",
+        "cutie_street_japan_arena_tour_2026_autumn_ig_arena_1128",
+        "cutie_street_japan_arena_tour_2026_autumn_ig_arena_1129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/43664",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_japan_arena_tour_2026_autumn_all_membership",
+      "tourId": "cutie_street_japan_arena_tour_2026_autumn",
+      "type": "全会費コース会員先行",
+      "entryStartAt": "2026-06-28T12:00:00+09:00",
+      "entryEndAt": "2026-07-12T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "cutie_street_japan_arena_tour_2026_autumn_yokohama_arena_0923",
+        "cutie_street_japan_arena_tour_2026_autumn_ariake_arena_0929",
+        "cutie_street_japan_arena_tour_2026_autumn_ariake_arena_0930",
+        "cutie_street_japan_arena_tour_2026_autumn_sekisui_super_arena_1003",
+        "cutie_street_japan_arena_tour_2026_autumn_sekisui_super_arena_1004",
+        "cutie_street_japan_arena_tour_2026_autumn_marine_messe_fukuoka_1028",
+        "cutie_street_japan_arena_tour_2026_autumn_marine_messe_fukuoka_1029",
+        "cutie_street_japan_arena_tour_2026_autumn_kobe_world_1031",
+        "cutie_street_japan_arena_tour_2026_autumn_kobe_world_1101",
+        "cutie_street_japan_arena_tour_2026_autumn_hiroshima_green_arena_1114",
+        "cutie_street_japan_arena_tour_2026_autumn_hiroshima_green_arena_1115",
+        "cutie_street_japan_arena_tour_2026_autumn_ig_arena_1128",
+        "cutie_street_japan_arena_tour_2026_autumn_ig_arena_1129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/feature/autumntour",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ]
+}

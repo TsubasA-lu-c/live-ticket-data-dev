@@ -1,0 +1,75 @@
+{
+  "artistId": "boku_aozora",
+  "tours": [
+    {
+      "id": "boku_aozora_summer_fes_2026",
+      "artistId": "boku_aozora",
+      "title": "アオゾラサマーフェスティバル2026",
+      "startDate": "2026-08-30T00:00:00+09:00",
+      "endDate": "2026-08-30T00:00:00+09:00",
+      "prices": [
+        {"label": "プレミアムエリア", "amount": 15000},
+        {"label": "僕青撮影部エリア", "amount": 10000},
+        {"label": "一般エリア", "amount": 8300},
+        {"label": "女性エリア", "amount": 8300},
+        {"label": "ファミリーエリア", "amount": 8300}
+      ],
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/news/detail/5405",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "boku_aozora_last_live_2026",
+      "artistId": "boku_aozora",
+      "title": "2026年ラストライブ",
+      "startDate": "2026-12-14T00:00:00+09:00",
+      "endDate": "2026-12-14T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000021.000115239.html",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "boku_aozora_summer_fes_2026_toyosupit_0830",
+      "tourId": "boku_aozora_summer_fes_2026",
+      "venue": "豊洲PIT",
+      "performanceAt": "2026-08-30T17:00:00+09:00",
+      "doorOpenAt": "2026-08-30T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "アオゾラサマーフェスティバル2026",
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/news/detail/5405",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "boku_aozora_last_live_2026_kanadevia_1214",
+      "tourId": "boku_aozora_last_live_2026",
+      "venue": "Kanadevia Hall",
+      "performanceAt": "2026-12-14T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000021.000115239.html",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "boku_aozora_summer_fes_2026_fc",
+      "tourId": "boku_aozora_summer_fes_2026",
+      "type": "FC先行",
+      "entryStartAt": "2026-06-20T19:00:00+09:00",
+      "entryEndAt": "2026-06-28T23:59:00+09:00",
+      "resultAt": "2026-07-03T12:00:00+09:00",
+      "paymentStartAt": "2026-07-03T12:00:00+09:00",
+      "paymentEndAt": "2026-07-06T23:59:00+09:00",
+      "performanceIds": ["boku_aozora_summer_fes_2026_toyosupit_0830"],
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/news/detail/5405",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ]
+}

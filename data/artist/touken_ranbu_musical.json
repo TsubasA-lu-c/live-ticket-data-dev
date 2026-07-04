@@ -1,0 +1,203 @@
+{
+  "artistId": "touken_ranbu_musical",
+  "tours": [
+    {
+      "id": "touken_ranbu_musical_tsukiyo_ichiru_2026",
+      "artistId": "touken_ranbu_musical",
+      "title": "ミュージカル『刀剣乱舞』～月夜一縷～",
+      "startDate": "2026-09-07T00:00:00+09:00",
+      "endDate": "2026-10-25T00:00:00+09:00",
+      "prices": [
+        {"label": "S席", "amount": 14800},
+        {"label": "A席", "amount": 12800}
+      ],
+      "source": "system",
+      "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_tokyo_0907",
+      "tourId": "touken_ranbu_musical_tsukiyo_ichiru_2026",
+      "venue": "Kanadevia Hall",
+      "performanceAt": "2026-09-07T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ミュージカル『刀剣乱舞』～月夜一縷～",
+      "source": "system",
+      "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_tokyo_0913",
+      "tourId": "touken_ranbu_musical_tsukiyo_ichiru_2026",
+      "venue": "Kanadevia Hall",
+      "performanceAt": "2026-09-13T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ミュージカル『刀剣乱舞』～月夜一縷～",
+      "source": "system",
+      "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_osaka_0920",
+      "tourId": "touken_ranbu_musical_tsukiyo_ichiru_2026",
+      "venue": "東京建物 Brillia HALL 箕面 大ホール",
+      "performanceAt": "2026-09-20T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ミュージカル『刀剣乱舞』～月夜一縷～",
+      "source": "system",
+      "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_osaka_0927",
+      "tourId": "touken_ranbu_musical_tsukiyo_ichiru_2026",
+      "venue": "東京建物 Brillia HALL 箕面 大ホール",
+      "performanceAt": "2026-09-27T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ミュージカル『刀剣乱舞』～月夜一縷～",
+      "source": "system",
+      "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_aichi_1003",
+      "tourId": "touken_ranbu_musical_tsukiyo_ichiru_2026",
+      "venue": "アイプラザ豊橋",
+      "performanceAt": "2026-10-03T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ミュージカル『刀剣乱舞』～月夜一縷～",
+      "source": "system",
+      "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_aichi_1011",
+      "tourId": "touken_ranbu_musical_tsukiyo_ichiru_2026",
+      "venue": "アイプラザ豊橋",
+      "performanceAt": "2026-10-11T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ミュージカル『刀剣乱舞』～月夜一縷～",
+      "source": "system",
+      "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_tokyo2_1017",
+      "tourId": "touken_ranbu_musical_tsukiyo_ichiru_2026",
+      "venue": "Kanadevia Hall",
+      "performanceAt": "2026-10-17T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ミュージカル『刀剣乱舞』～月夜一縷～",
+      "source": "system",
+      "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_tokyo2_1025",
+      "tourId": "touken_ranbu_musical_tsukiyo_ichiru_2026",
+      "venue": "Kanadevia Hall",
+      "performanceAt": "2026-10-25T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ミュージカル『刀剣乱舞』～月夜一縷～",
+      "source": "system",
+      "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_fc_premium",
+      "tourId": "touken_ranbu_musical_tsukiyo_ichiru_2026",
+      "type": "公式ファンサイト プレミアム会員先行",
+      "entryStartAt": "2026-06-15T12:00:00+09:00",
+      "entryEndAt": "2026-06-21T23:59:00+09:00",
+      "resultAt": "2026-06-26T15:00:00+09:00",
+      "paymentStartAt": "2026-06-26T15:00:00+09:00",
+      "paymentEndAt": "2026-06-29T23:59:00+09:00",
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_cd_gen",
+      "tourId": "touken_ranbu_musical_tsukiyo_ichiru_2026",
+      "type": "シングルCD購入者限定先行",
+      "entryStartAt": "2026-06-23T12:00:00+09:00",
+      "entryEndAt": "2026-06-28T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_lawson",
+      "tourId": "touken_ranbu_musical_tsukiyo_ichiru_2026",
+      "type": "ローソンチケット LEncore抽選先行",
+      "entryStartAt": "2026-07-10T12:00:00+09:00",
+      "entryEndAt": "2026-07-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_prereq",
+      "tourId": "touken_ranbu_musical_tsukiyo_ichiru_2026",
+      "type": "プレリクエスト抽選先行",
+      "entryStartAt": "2026-07-17T12:00:00+09:00",
+      "entryEndAt": "2026-07-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_game_dmm",
+      "tourId": "touken_ranbu_musical_tsukiyo_ichiru_2026",
+      "type": "ゲーム内・ネルケハ・DMMプレミアム等先行",
+      "entryStartAt": "2026-07-01T12:00:00+09:00",
+      "entryEndAt": "2026-07-09T12:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_ippan",
+      "tourId": "touken_ranbu_musical_tsukiyo_ichiru_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-08-08T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ]
+}

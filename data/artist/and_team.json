@@ -1,0 +1,401 @@
+{
+  "artistId": "and_team",
+  "tours": [
+    {
+      "id": "and_team_blaze_the_way_2026",
+      "artistId": "and_team",
+      "title": "2026 &TEAM CONCERT TOUR 'BLAZE THE WAY' in JAPAN",
+      "startDate": "2026-05-13T00:00:00+09:00",
+      "endDate": "2026-07-26T00:00:00+09:00",
+      "prices": [
+        {"label": "指定席", "amount": 16500},
+        {"label": "スタンドアリーナ/ステージサイド", "amount": 14500},
+        {"label": "プレミアムシート（会員限定アップグレード）", "amount": 27500}
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/andteam_blaze_the_way",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_encore_2026",
+      "artistId": "and_team",
+      "title": "2026 &TEAM CONCERT TOUR 'BLAZE THE WAY' ENCORE in BELLUNA DOME",
+      "startDate": "2026-09-05T00:00:00+09:00",
+      "endDate": "2026-09-06T00:00:00+09:00",
+      "prices": [
+        {"label": "指定席", "amount": 16500},
+        {"label": "プレミアムシート（会員限定アップグレード）", "amount": 27500}
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/andteam_blaze_the_way_encore",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_liveviewing_2026",
+      "artistId": "and_team",
+      "title": "2026 &TEAM CONCERT TOUR 'BLAZE THE WAY' in JAPAN ライブビューイング",
+      "startDate": "2026-07-26T00:00:00+09:00",
+      "endDate": "2026-07-26T00:00:00+09:00",
+      "prices": [
+        {"label": "全席指定", "amount": 5500}
+      ],
+      "source": "system",
+      "sourceUrl": "https://api-liveviewing.com/andteam-blaze-the-way/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "and_team_blaze_the_way_2026_karena_0513",
+      "tourId": "and_team_blaze_the_way_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-05-13T18:30:00+09:00",
+      "doorOpenAt": "2026-05-13T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/andteam_blaze_the_way",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_2026_karena_0514",
+      "tourId": "and_team_blaze_the_way_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-05-14T18:00:00+09:00",
+      "doorOpenAt": "2026-05-14T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/andteam_blaze_the_way",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_2026_anabuki_0523",
+      "tourId": "and_team_blaze_the_way_2026",
+      "venue": "あなぶきアリーナ香川",
+      "performanceAt": "2026-05-23T17:00:00+09:00",
+      "doorOpenAt": "2026-05-23T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/andteam_blaze_the_way",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_2026_anabuki_0524",
+      "tourId": "and_team_blaze_the_way_2026",
+      "venue": "あなぶきアリーナ香川",
+      "performanceAt": "2026-05-24T16:00:00+09:00",
+      "doorOpenAt": "2026-05-24T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/andteam_blaze_the_way",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_2026_igarena_0530",
+      "tourId": "and_team_blaze_the_way_2026",
+      "venue": "IGアリーナ",
+      "performanceAt": "2026-05-30T17:00:00+09:00",
+      "doorOpenAt": "2026-05-30T15:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/andteam_blaze_the_way",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_2026_igarena_0531",
+      "tourId": "and_team_blaze_the_way_2026",
+      "venue": "IGアリーナ",
+      "performanceAt": "2026-05-31T16:00:00+09:00",
+      "doorOpenAt": "2026-05-31T14:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/andteam_blaze_the_way",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_2026_kitakyushu_0613",
+      "tourId": "and_team_blaze_the_way_2026",
+      "venue": "北九州メッセ",
+      "performanceAt": "2026-06-13T17:00:00+09:00",
+      "doorOpenAt": "2026-06-13T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/andteam_blaze_the_way",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_2026_kitakyushu_0614",
+      "tourId": "and_team_blaze_the_way_2026",
+      "venue": "北九州メッセ",
+      "performanceAt": "2026-06-14T16:00:00+09:00",
+      "doorOpenAt": "2026-06-14T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/andteam_blaze_the_way",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_2026_kobe_0627",
+      "tourId": "and_team_blaze_the_way_2026",
+      "venue": "GLION ARENA KOBE",
+      "performanceAt": "2026-06-27T17:00:00+09:00",
+      "doorOpenAt": "2026-06-27T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/andteam_blaze_the_way",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_2026_kobe_0628",
+      "tourId": "and_team_blaze_the_way_2026",
+      "venue": "GLION ARENA KOBE",
+      "performanceAt": "2026-06-28T16:00:00+09:00",
+      "doorOpenAt": "2026-06-28T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/andteam_blaze_the_way",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_2026_lala_0725",
+      "tourId": "and_team_blaze_the_way_2026",
+      "venue": "LaLa arena TOKYO-BAY",
+      "performanceAt": "2026-07-25T17:00:00+09:00",
+      "doorOpenAt": "2026-07-25T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/andteam_blaze_the_way",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_2026_lala_0726",
+      "tourId": "and_team_blaze_the_way_2026",
+      "venue": "LaLa arena TOKYO-BAY",
+      "performanceAt": "2026-07-26T16:00:00+09:00",
+      "doorOpenAt": "2026-07-26T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/andteam_blaze_the_way",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_encore_2026_belluna_0905",
+      "tourId": "and_team_blaze_the_way_encore_2026",
+      "venue": "ベルーナドーム",
+      "performanceAt": "2026-09-05T17:00:00+09:00",
+      "doorOpenAt": "2026-09-05T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/andteam_blaze_the_way_encore",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_encore_2026_belluna_0906",
+      "tourId": "and_team_blaze_the_way_encore_2026",
+      "venue": "ベルーナドーム",
+      "performanceAt": "2026-09-06T16:00:00+09:00",
+      "doorOpenAt": "2026-09-06T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/andteam_blaze_the_way_encore",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_liveviewing_2026_cinema_0726",
+      "tourId": "and_team_blaze_the_way_liveviewing_2026",
+      "venue": "全国映画館",
+      "performanceAt": "2026-07-26T16:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "2026 &TEAM CONCERT TOUR 'BLAZE THE WAY' in JAPAN ライブビューイング",
+      "source": "system",
+      "sourceUrl": "https://api-liveviewing.com/andteam-blaze-the-way/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "and_team_blaze_the_way_2026_lune1st",
+      "tourId": "and_team_blaze_the_way_2026",
+      "type": "LUNÉ Membership 1次先行",
+      "entryStartAt": "2026-02-24T00:00:00+09:00",
+      "entryEndAt": "2026-03-08T23:59:00+09:00",
+      "resultAt": "2026-03-13T00:00:00+09:00",
+      "paymentStartAt": "2026-03-13T00:00:00+09:00",
+      "paymentEndAt": "2026-03-16T23:59:00+09:00",
+      "performanceIds": [
+        "and_team_blaze_the_way_2026_karena_0513",
+        "and_team_blaze_the_way_2026_karena_0514",
+        "and_team_blaze_the_way_2026_anabuki_0523",
+        "and_team_blaze_the_way_2026_anabuki_0524",
+        "and_team_blaze_the_way_2026_igarena_0530",
+        "and_team_blaze_the_way_2026_igarena_0531",
+        "and_team_blaze_the_way_2026_kitakyushu_0613",
+        "and_team_blaze_the_way_2026_kitakyushu_0614",
+        "and_team_blaze_the_way_2026_kobe_0627",
+        "and_team_blaze_the_way_2026_kobe_0628",
+        "and_team_blaze_the_way_2026_lala_0725",
+        "and_team_blaze_the_way_2026_lala_0726"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/kmubos",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_2026_lune2nd",
+      "tourId": "and_team_blaze_the_way_2026",
+      "type": "LUNÉ Membership 2次先行",
+      "entryStartAt": "2026-03-14T00:00:00+09:00",
+      "entryEndAt": "2026-03-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "and_team_blaze_the_way_2026_karena_0513",
+        "and_team_blaze_the_way_2026_karena_0514",
+        "and_team_blaze_the_way_2026_anabuki_0523",
+        "and_team_blaze_the_way_2026_anabuki_0524",
+        "and_team_blaze_the_way_2026_igarena_0530",
+        "and_team_blaze_the_way_2026_igarena_0531",
+        "and_team_blaze_the_way_2026_kitakyushu_0613",
+        "and_team_blaze_the_way_2026_kitakyushu_0614",
+        "and_team_blaze_the_way_2026_kobe_0627",
+        "and_team_blaze_the_way_2026_kobe_0628",
+        "and_team_blaze_the_way_2026_lala_0725",
+        "and_team_blaze_the_way_2026_lala_0726"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/andteam_blaze_the_way",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_encore_2026_lune1st",
+      "tourId": "and_team_blaze_the_way_encore_2026",
+      "type": "LUNÉ Membership 1次先行",
+      "entryStartAt": "2026-05-15T13:00:00+09:00",
+      "entryEndAt": "2026-05-31T23:59:00+09:00",
+      "resultAt": "2026-06-05T11:00:00+09:00",
+      "paymentStartAt": "2026-06-05T11:00:00+09:00",
+      "paymentEndAt": "2026-06-09T23:00:00+09:00",
+      "performanceIds": [
+        "and_team_blaze_the_way_encore_2026_belluna_0905",
+        "and_team_blaze_the_way_encore_2026_belluna_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/3d672e7c5b00",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_encore_2026_lune2nd",
+      "tourId": "and_team_blaze_the_way_encore_2026",
+      "type": "LUNÉ Membership 2次先行",
+      "entryStartAt": "2026-06-10T13:00:00+09:00",
+      "entryEndAt": "2026-06-14T23:59:00+09:00",
+      "resultAt": "2026-06-19T00:00:00+09:00",
+      "paymentStartAt": "2026-06-19T00:00:00+09:00",
+      "paymentEndAt": null,
+      "performanceIds": [
+        "and_team_blaze_the_way_encore_2026_belluna_0905",
+        "and_team_blaze_the_way_encore_2026_belluna_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/bd7825aff96c",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_encore_2026_lawson",
+      "tourId": "and_team_blaze_the_way_encore_2026",
+      "type": "ローチケ先行",
+      "entryStartAt": "2026-06-19T13:00:00+09:00",
+      "entryEndAt": "2026-06-29T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "and_team_blaze_the_way_encore_2026_belluna_0905",
+        "and_team_blaze_the_way_encore_2026_belluna_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/andteam_blaze_the_way_encore",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_encore_2026_playguide",
+      "tourId": "and_team_blaze_the_way_encore_2026",
+      "type": "プレイガイド先着先行",
+      "entryStartAt": "2026-07-03T13:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "and_team_blaze_the_way_encore_2026_belluna_0905",
+        "and_team_blaze_the_way_encore_2026_belluna_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/andteam_blaze_the_way_encore",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_liveviewing_2026_lune",
+      "tourId": "and_team_blaze_the_way_liveviewing_2026",
+      "type": "LUNÉ Membership先行",
+      "entryStartAt": "2026-06-05T14:00:00+09:00",
+      "entryEndAt": "2026-06-14T23:59:00+09:00",
+      "resultAt": "2026-07-17T15:00:00+09:00",
+      "paymentStartAt": "2026-07-17T15:00:00+09:00",
+      "paymentEndAt": "2026-07-20T23:00:00+09:00",
+      "performanceIds": [
+        "and_team_blaze_the_way_liveviewing_2026_cinema_0726"
+      ],
+      "source": "system",
+      "sourceUrl": "https://api-liveviewing.com/andteam-blaze-the-way/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_liveviewing_2026_prereq",
+      "tourId": "and_team_blaze_the_way_liveviewing_2026",
+      "type": "プレリクエスト先行",
+      "entryStartAt": "2026-06-15T12:00:00+09:00",
+      "entryEndAt": "2026-06-21T23:59:00+09:00",
+      "resultAt": "2026-07-17T15:00:00+09:00",
+      "paymentStartAt": "2026-07-17T15:00:00+09:00",
+      "paymentEndAt": "2026-07-20T23:00:00+09:00",
+      "performanceIds": [
+        "and_team_blaze_the_way_liveviewing_2026_cinema_0726"
+      ],
+      "source": "system",
+      "sourceUrl": "https://api-liveviewing.com/andteam-blaze-the-way/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_liveviewing_2026_prereq_senchaku",
+      "tourId": "and_team_blaze_the_way_liveviewing_2026",
+      "type": "プレリクエスト先着",
+      "entryStartAt": "2026-07-17T18:00:00+09:00",
+      "entryEndAt": "2026-07-23T22:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "and_team_blaze_the_way_liveviewing_2026_cinema_0726"
+      ],
+      "source": "system",
+      "sourceUrl": "https://api-liveviewing.com/andteam-blaze-the-way/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ]
+}

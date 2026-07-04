@@ -1,0 +1,199 @@
+{
+  "artistId": "kroi",
+  "tours": [
+    {
+      "id": "kroi_jungle_2026",
+      "artistId": "kroi",
+      "title": "Kroi Live Tour 2026 \"JUNGLE\"",
+      "startDate": "2026-08-10T00:00:00+09:00",
+      "endDate": "2026-09-23T00:00:00+09:00",
+      "prices": [
+        {"label": "1階スタンディング", "amount": 7000},
+        {"label": "2階指定席", "amount": 8000}
+      ],
+      "source": "system",
+      "sourceUrl": "https://special.kroi.net/tour/",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "kroi_jungle_2026_kt_zepp_yokohama_0810",
+      "tourId": "kroi_jungle_2026",
+      "venue": "KT Zepp Yokohama",
+      "performanceAt": "2026-08-10T19:00:00+09:00",
+      "doorOpenAt": "2026-08-10T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://special.kroi.net/tour/",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "kroi_jungle_2026_zepp_nagoya_0820",
+      "tourId": "kroi_jungle_2026",
+      "venue": "Zepp Nagoya",
+      "performanceAt": "2026-08-20T19:00:00+09:00",
+      "doorOpenAt": "2026-08-20T18:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "Kroi Live Tour 2026 \"JUNGLE\" -Dig the Deep Vol.5- w/レキシ",
+      "source": "system",
+      "sourceUrl": "https://special.kroi.net/tour/",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "kroi_jungle_2026_zepp_nagoya_0821",
+      "tourId": "kroi_jungle_2026",
+      "venue": "Zepp Nagoya",
+      "performanceAt": "2026-08-21T19:00:00+09:00",
+      "doorOpenAt": "2026-08-21T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://special.kroi.net/tour/",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "kroi_jungle_2026_zepp_sapporo_0829",
+      "tourId": "kroi_jungle_2026",
+      "venue": "Zepp Sapporo",
+      "performanceAt": "2026-08-29T18:00:00+09:00",
+      "doorOpenAt": "2026-08-29T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://special.kroi.net/tour/",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "kroi_jungle_2026_zepp_fukuoka_0904",
+      "tourId": "kroi_jungle_2026",
+      "venue": "Zepp Fukuoka",
+      "performanceAt": "2026-09-04T19:00:00+09:00",
+      "doorOpenAt": "2026-09-04T18:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "Kroi Live Tour 2026 \"JUNGLE\" -Dig the Deep Vol.5- w/iri",
+      "source": "system",
+      "sourceUrl": "https://special.kroi.net/tour/",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "kroi_jungle_2026_zepp_fukuoka_0905",
+      "tourId": "kroi_jungle_2026",
+      "venue": "Zepp Fukuoka",
+      "performanceAt": "2026-09-05T17:30:00+09:00",
+      "doorOpenAt": "2026-09-05T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://special.kroi.net/tour/",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "kroi_jungle_2026_zepp_osaka_bayside_0918",
+      "tourId": "kroi_jungle_2026",
+      "venue": "Zepp Osaka Bayside",
+      "performanceAt": "2026-09-18T19:00:00+09:00",
+      "doorOpenAt": "2026-09-18T18:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "Kroi Live Tour 2026 \"JUNGLE\" -Dig the Deep Vol.5- w/KIRINJI",
+      "source": "system",
+      "sourceUrl": "https://special.kroi.net/tour/",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "kroi_jungle_2026_zepp_osaka_bayside_0919",
+      "tourId": "kroi_jungle_2026",
+      "venue": "Zepp Osaka Bayside",
+      "performanceAt": "2026-09-19T17:30:00+09:00",
+      "doorOpenAt": "2026-09-19T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://special.kroi.net/tour/",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "kroi_jungle_2026_zepp_haneda_0922",
+      "tourId": "kroi_jungle_2026",
+      "venue": "Zepp Haneda",
+      "performanceAt": "2026-09-22T18:00:00+09:00",
+      "doorOpenAt": "2026-09-22T17:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "Kroi Live Tour 2026 \"JUNGLE\" -Dig the Deep Vol.5- w/東京スカパラダイスオーケストラ",
+      "source": "system",
+      "sourceUrl": "https://special.kroi.net/tour/",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "kroi_jungle_2026_zepp_haneda_0923",
+      "tourId": "kroi_jungle_2026",
+      "venue": "Zepp Haneda",
+      "performanceAt": "2026-09-23T18:00:00+09:00",
+      "doorOpenAt": "2026-09-23T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://special.kroi.net/tour/",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "kroi_jungle_2026_fc_senko",
+      "tourId": "kroi_jungle_2026",
+      "type": "FC先行",
+      "entryStartAt": "2026-01-23T21:00:00+09:00",
+      "entryEndAt": "2026-02-08T23:59:00+09:00",
+      "resultAt": "2026-02-11T00:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-02-15T23:59:00+09:00",
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://special.kroi.net/tour/",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "kroi_jungle_2026_official_senko",
+      "tourId": "kroi_jungle_2026",
+      "type": "オフィシャル先行",
+      "entryStartAt": "2026-02-09T18:00:00+09:00",
+      "entryEndAt": "2026-02-23T23:59:00+09:00",
+      "resultAt": "2026-02-26T00:00:00+09:00",
+      "paymentStartAt": "2026-02-26T18:00:00+09:00",
+      "paymentEndAt": "2026-03-02T23:59:00+09:00",
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://special.kroi.net/tour/",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "kroi_jungle_2026_pia_saisoku",
+      "tourId": "kroi_jungle_2026",
+      "type": "ぴあ最速先行",
+      "entryStartAt": "2026-02-27T12:00:00+09:00",
+      "entryEndAt": "2026-03-08T23:59:00+09:00",
+      "resultAt": "2026-03-11T00:00:00+09:00",
+      "paymentStartAt": "2026-03-11T18:00:00+09:00",
+      "paymentEndAt": "2026-03-15T23:59:00+09:00",
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://special.kroi.net/tour/",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "kroi_jungle_2026_official_senko_2ji",
+      "tourId": "kroi_jungle_2026",
+      "type": "オフィシャル先行2次",
+      "entryStartAt": "2026-03-16T20:00:00+09:00",
+      "entryEndAt": "2026-04-12T23:59:00+09:00",
+      "resultAt": "2026-04-16T18:00:00+09:00",
+      "paymentStartAt": "2026-04-16T18:00:00+09:00",
+      "paymentEndAt": "2026-04-20T23:59:00+09:00",
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://special.kroi.net/tour/",
+      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    }
+  ]
+}

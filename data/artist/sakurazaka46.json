@@ -1,0 +1,354 @@
+{
+  "artistId": "sakurazaka46",
+  "tours": [
+    {
+      "id": "sakurazaka46_arena_tour_2026",
+      "artistId": "sakurazaka46",
+      "title": "Sakurazaka46 ARENA TOUR 2026 -What's lonesome?-",
+      "startDate": "2026-07-23T00:00:00+09:00",
+      "endDate": "2026-08-30T00:00:00+09:00",
+      "prices": [
+        {"label": "Leminoスペシャルシート", "amount": 17000},
+        {"label": "全席指定", "amount": 11000},
+        {"label": "親子・女性エリア", "amount": 11000}
+      ],
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/page/nationaltour2026",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_6th_anniversary_2026",
+      "artistId": "sakurazaka46",
+      "title": "櫻坂46「6th YEAR ANNIVERSARY LIVE」",
+      "startDate": "2026-11-14T00:00:00+09:00",
+      "endDate": "2026-11-15T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00619",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_backslive_15th_2026",
+      "artistId": "sakurazaka46",
+      "title": "櫻坂46「15th Single BACKS LIVE!!」",
+      "startDate": "2026-09-29T00:00:00+09:00",
+      "endDate": "2026-09-30T00:00:00+09:00",
+      "prices": [
+        {"label": "Leminoスペシャルシート", "amount": 15800},
+        {"label": "全席指定", "amount": 9800},
+        {"label": "親子・女性エリア", "amount": 9800}
+      ],
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/page/backslive_15th",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "sakurazaka46_arena_tour_2026_shizuoka_0723",
+      "tourId": "sakurazaka46_arena_tour_2026",
+      "venue": "エコパアリーナ",
+      "performanceAt": "2026-07-23T18:30:00+09:00",
+      "doorOpenAt": "2026-07-23T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/page/nationaltour2026",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_arena_tour_2026_shizuoka_0724",
+      "tourId": "sakurazaka46_arena_tour_2026",
+      "venue": "エコパアリーナ",
+      "performanceAt": "2026-07-24T18:30:00+09:00",
+      "doorOpenAt": "2026-07-24T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/page/nationaltour2026",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_arena_tour_2026_hyogo_0728",
+      "tourId": "sakurazaka46_arena_tour_2026",
+      "venue": "神戸ワールド記念ホール",
+      "performanceAt": "2026-07-28T18:30:00+09:00",
+      "doorOpenAt": "2026-07-28T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/page/nationaltour2026",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_arena_tour_2026_hyogo_0729",
+      "tourId": "sakurazaka46_arena_tour_2026",
+      "venue": "神戸ワールド記念ホール",
+      "performanceAt": "2026-07-29T18:30:00+09:00",
+      "doorOpenAt": "2026-07-29T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/page/nationaltour2026",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_arena_tour_2026_hiroshima_0808",
+      "tourId": "sakurazaka46_arena_tour_2026",
+      "venue": "広島グリーンアリーナ",
+      "performanceAt": "2026-08-08T17:30:00+09:00",
+      "doorOpenAt": "2026-08-08T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/page/nationaltour2026",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_arena_tour_2026_hiroshima_0809",
+      "tourId": "sakurazaka46_arena_tour_2026",
+      "venue": "広島グリーンアリーナ",
+      "performanceAt": "2026-08-09T17:30:00+09:00",
+      "doorOpenAt": "2026-08-09T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/page/nationaltour2026",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_arena_tour_2026_chiba_0815",
+      "tourId": "sakurazaka46_arena_tour_2026",
+      "venue": "LaLa arena TOKYO-BAY",
+      "performanceAt": "2026-08-15T17:30:00+09:00",
+      "doorOpenAt": "2026-08-15T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/page/nationaltour2026",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_arena_tour_2026_chiba_0816",
+      "tourId": "sakurazaka46_arena_tour_2026",
+      "venue": "LaLa arena TOKYO-BAY",
+      "performanceAt": "2026-08-16T17:30:00+09:00",
+      "doorOpenAt": "2026-08-16T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/page/nationaltour2026",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_arena_tour_2026_miyagi_0822",
+      "tourId": "sakurazaka46_arena_tour_2026",
+      "venue": "セキスイハイムスーパーアリーナ",
+      "performanceAt": "2026-08-22T17:30:00+09:00",
+      "doorOpenAt": "2026-08-22T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/page/nationaltour2026",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_arena_tour_2026_miyagi_0823",
+      "tourId": "sakurazaka46_arena_tour_2026",
+      "venue": "セキスイハイムスーパーアリーナ",
+      "performanceAt": "2026-08-23T17:30:00+09:00",
+      "doorOpenAt": "2026-08-23T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/page/nationaltour2026",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_arena_tour_2026_kagawa_0829",
+      "tourId": "sakurazaka46_arena_tour_2026",
+      "venue": "あなぶきアリーナ香川",
+      "performanceAt": "2026-08-29T17:30:00+09:00",
+      "doorOpenAt": "2026-08-29T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/page/nationaltour2026",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_arena_tour_2026_kagawa_0830",
+      "tourId": "sakurazaka46_arena_tour_2026",
+      "venue": "あなぶきアリーナ香川",
+      "performanceAt": "2026-08-30T17:30:00+09:00",
+      "doorOpenAt": "2026-08-30T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/page/nationaltour2026",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_backslive_15th_2026_tokyo_0929",
+      "tourId": "sakurazaka46_backslive_15th_2026",
+      "venue": "TOYOTA ARENA TOKYO",
+      "performanceAt": "2026-09-29T18:30:00+09:00",
+      "doorOpenAt": "2026-09-29T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/page/backslive_15th",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_backslive_15th_2026_tokyo_0930",
+      "tourId": "sakurazaka46_backslive_15th_2026",
+      "venue": "TOYOTA ARENA TOKYO",
+      "performanceAt": "2026-09-30T18:30:00+09:00",
+      "doorOpenAt": "2026-09-30T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "増本綺良卒業セレモニー",
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/page/backslive_15th",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_6th_anniversary_2026_chiba_1114",
+      "tourId": "sakurazaka46_6th_anniversary_2026",
+      "venue": "ZOZOマリンスタジアム",
+      "performanceAt": "2026-11-14T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00619",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_6th_anniversary_2026_chiba_1115",
+      "tourId": "sakurazaka46_6th_anniversary_2026",
+      "venue": "ZOZOマリンスタジアム",
+      "performanceAt": "2026-11-15T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00619",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "sakurazaka46_backslive_15th_2026_lemino_1st",
+      "tourId": "sakurazaka46_backslive_15th_2026",
+      "type": "Leminoスペシャルシート先行",
+      "entryStartAt": "2026-06-10T22:00:00+09:00",
+      "entryEndAt": "2026-06-30T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sakurazaka46_backslive_15th_2026_tokyo_0929",
+        "sakurazaka46_backslive_15th_2026_tokyo_0930"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/page/backslive_15th",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_backslive_15th_2026_fc_1st",
+      "tourId": "sakurazaka46_backslive_15th_2026",
+      "type": "FC先行",
+      "entryStartAt": "2026-06-10T22:00:00+09:00",
+      "entryEndAt": "2026-06-30T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sakurazaka46_backslive_15th_2026_tokyo_0929",
+        "sakurazaka46_backslive_15th_2026_tokyo_0930"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/page/backslive_15th",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_backslive_15th_2026_fc_2nd",
+      "tourId": "sakurazaka46_backslive_15th_2026",
+      "type": "FC2次先行",
+      "entryStartAt": "2026-07-19T12:00:00+09:00",
+      "entryEndAt": "2026-07-26T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sakurazaka46_backslive_15th_2026_tokyo_0929",
+        "sakurazaka46_backslive_15th_2026_tokyo_0930"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/page/backslive_15th",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_backslive_15th_2026_official_1st",
+      "tourId": "sakurazaka46_backslive_15th_2026",
+      "type": "オフィシャル先行",
+      "entryStartAt": "2026-08-04T12:00:00+09:00",
+      "entryEndAt": "2026-08-11T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sakurazaka46_backslive_15th_2026_tokyo_0929",
+        "sakurazaka46_backslive_15th_2026_tokyo_0930"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/page/backslive_15th",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_backslive_15th_2026_aeon_1st",
+      "tourId": "sakurazaka46_backslive_15th_2026",
+      "type": "イオンカード先行",
+      "entryStartAt": "2026-08-19T12:00:00+09:00",
+      "entryEndAt": "2026-08-25T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sakurazaka46_backslive_15th_2026_tokyo_0929",
+        "sakurazaka46_backslive_15th_2026_tokyo_0930"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/page/backslive_15th",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_arena_tour_2026_official_2nd",
+      "tourId": "sakurazaka46_arena_tour_2026",
+      "type": "オフィシャル2次先行",
+      "entryStartAt": "2026-06-13T12:00:00+09:00",
+      "entryEndAt": "2026-06-21T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sakurazaka46_arena_tour_2026_shizuoka_0723",
+        "sakurazaka46_arena_tour_2026_shizuoka_0724",
+        "sakurazaka46_arena_tour_2026_hyogo_0728",
+        "sakurazaka46_arena_tour_2026_hyogo_0729",
+        "sakurazaka46_arena_tour_2026_hiroshima_0808",
+        "sakurazaka46_arena_tour_2026_hiroshima_0809",
+        "sakurazaka46_arena_tour_2026_chiba_0815",
+        "sakurazaka46_arena_tour_2026_chiba_0816",
+        "sakurazaka46_arena_tour_2026_miyagi_0822",
+        "sakurazaka46_arena_tour_2026_miyagi_0823",
+        "sakurazaka46_arena_tour_2026_kagawa_0829",
+        "sakurazaka46_arena_tour_2026_kagawa_0830"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00629",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    }
+  ]
+}

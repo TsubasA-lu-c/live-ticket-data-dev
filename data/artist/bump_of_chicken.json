@@ -1,0 +1,303 @@
+{
+  "artistId": "bump_of_chicken",
+  "tours": [
+    {
+      "id": "bump_of_chicken_tour_2026",
+      "artistId": "bump_of_chicken",
+      "title": "BUMP OF CHICKEN TOUR 2026",
+      "startDate": "2026-10-03T00:00:00+09:00",
+      "endDate": "2026-12-20T00:00:00+09:00",
+      "prices": [
+        {"label": "アリーナS指定", "amount": 16500},
+        {"label": "スタンドA指定・着席指定・車椅子指定", "amount": 13200},
+        {"label": "スタンドBステージサイド指定", "amount": 8800}
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/2800",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_rijf2026",
+      "artistId": "bump_of_chicken",
+      "title": "ROCK IN JAPAN FESTIVAL 2026",
+      "startDate": "2026-09-13T00:00:00+09:00",
+      "endDate": "2026-09-13T00:00:00+09:00",
+      "prices": [
+        {"label": "1日券", "amount": 16000}
+      ],
+      "source": "system",
+      "sourceUrl": "https://rijfes.jp/2026/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "bump_of_chicken_tour_2026_miyagi_1003",
+      "tourId": "bump_of_chicken_tour_2026",
+      "venue": "ゼビオアリーナ仙台",
+      "performanceAt": "2026-10-03T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/2800",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_tour_2026_miyagi_1004",
+      "tourId": "bump_of_chicken_tour_2026",
+      "venue": "ゼビオアリーナ仙台",
+      "performanceAt": "2026-10-04T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/2800",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_tour_2026_hokkaido_1017",
+      "tourId": "bump_of_chicken_tour_2026",
+      "venue": "北海きたえーる",
+      "performanceAt": "2026-10-17T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/2800",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_tour_2026_hokkaido_1018",
+      "tourId": "bump_of_chicken_tour_2026",
+      "venue": "北海きたえーる",
+      "performanceAt": "2026-10-18T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/2800",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_tour_2026_tokyo_1027",
+      "tourId": "bump_of_chicken_tour_2026",
+      "venue": "有明アリーナ",
+      "performanceAt": "2026-10-27T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/2800",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_tour_2026_tokyo_1028",
+      "tourId": "bump_of_chicken_tour_2026",
+      "venue": "有明アリーナ",
+      "performanceAt": "2026-10-28T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/2800",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_tour_2026_hyogo_1107",
+      "tourId": "bump_of_chicken_tour_2026",
+      "venue": "GLION ARENA KOBE",
+      "performanceAt": "2026-11-07T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/2800",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_tour_2026_hyogo_1108",
+      "tourId": "bump_of_chicken_tour_2026",
+      "venue": "GLION ARENA KOBE",
+      "performanceAt": "2026-11-08T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/2800",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_tour_2026_kagawa_1121",
+      "tourId": "bump_of_chicken_tour_2026",
+      "venue": "あなぶきアリーナ香川",
+      "performanceAt": "2026-11-21T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/2800",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_tour_2026_kagawa_1122",
+      "tourId": "bump_of_chicken_tour_2026",
+      "venue": "あなぶきアリーナ香川",
+      "performanceAt": "2026-11-22T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/2800",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_tour_2026_hiroshima_1128",
+      "tourId": "bump_of_chicken_tour_2026",
+      "venue": "広島グリーンアリーナ",
+      "performanceAt": "2026-11-28T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/2800",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_tour_2026_hiroshima_1129",
+      "tourId": "bump_of_chicken_tour_2026",
+      "venue": "広島グリーンアリーナ",
+      "performanceAt": "2026-11-29T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/2800",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_tour_2026_fukuoka_1212",
+      "tourId": "bump_of_chicken_tour_2026",
+      "venue": "マリンメッセ福岡A館",
+      "performanceAt": "2026-12-12T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/2800",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_tour_2026_fukuoka_1213",
+      "tourId": "bump_of_chicken_tour_2026",
+      "venue": "マリンメッセ福岡A館",
+      "performanceAt": "2026-12-13T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/2800",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_tour_2026_aichi_1219",
+      "tourId": "bump_of_chicken_tour_2026",
+      "venue": "IGアリーナ",
+      "performanceAt": "2026-12-19T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/2800",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_tour_2026_aichi_1220",
+      "tourId": "bump_of_chicken_tour_2026",
+      "venue": "IGアリーナ",
+      "performanceAt": "2026-12-20T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/2800",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_tour_2026_osaka_0123",
+      "tourId": "bump_of_chicken_tour_2026",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2027-01-23T18:00:00+09:00",
+      "doorOpenAt": "2027-01-23T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/live_information/2799",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_tour_2026_osaka_0124",
+      "tourId": "bump_of_chicken_tour_2026",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2027-01-24T18:00:00+09:00",
+      "doorOpenAt": "2027-01-24T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/live_information/2799",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_tour_2026_tokyo_0206",
+      "tourId": "bump_of_chicken_tour_2026",
+      "venue": "東京ドーム",
+      "performanceAt": "2027-02-06T18:00:00+09:00",
+      "doorOpenAt": "2027-02-06T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/live_information/2799",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_tour_2026_tokyo_0207",
+      "tourId": "bump_of_chicken_tour_2026",
+      "venue": "東京ドーム",
+      "performanceAt": "2027-02-07T18:00:00+09:00",
+      "doorOpenAt": "2027-02-07T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/live_information/2799",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_rijf2026_chiba_0913",
+      "tourId": "bump_of_chicken_rijf2026",
+      "venue": "千葉市蘇我スポーツ公園",
+      "performanceAt": "2026-09-13T18:45:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "ROCK IN JAPAN FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/3520",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "bump_of_chicken_rijf2026_3rd_lottery",
+      "tourId": "bump_of_chicken_rijf2026",
+      "type": "一般先行（第3次抽選）",
+      "entryStartAt": "2026-06-17T12:15:00+09:00",
+      "entryEndAt": "2026-06-23T16:00:00+09:00",
+      "resultAt": "2026-06-26T16:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-06-29T16:00:00+09:00",
+      "performanceIds": ["bump_of_chicken_rijf2026_chiba_0913"],
+      "source": "system",
+      "sourceUrl": "https://rijfes.jp/2026/ticket/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ]
+}

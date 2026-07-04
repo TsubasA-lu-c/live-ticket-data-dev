@@ -1,0 +1,196 @@
+{
+  "artistId": "number_i",
+  "tours": [
+    {
+      "id": "number_i_fes_rijf_2026",
+      "artistId": "number_i",
+      "title": "ROCK IN JAPAN FESTIVAL 2026",
+      "startDate": "2026-09-19T00:00:00+09:00",
+      "endDate": "2026-09-19T00:00:00+09:00",
+      "prices": [
+        {"label": "1日券", "amount": 16000}
+      ],
+      "source": "system",
+      "sourceUrl": "https://rijfes.jp/2026/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "number_i_fanmeeting_2026",
+      "artistId": "number_i",
+      "title": "Number_i ファンミーティング 2026",
+      "startDate": "2026-07-21T00:00:00+09:00",
+      "endDate": "2026-08-27T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "number_i_fes_rijf_2026_soga_0919",
+      "tourId": "number_i_fes_rijf_2026",
+      "venue": "千葉市蘇我スポーツ公園",
+      "performanceAt": "2026-09-19T12:00:00+09:00",
+      "doorOpenAt": "2026-09-19T08:30:00+09:00",
+      "kind": "fes",
+      "eventName": "ROCK IN JAPAN FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://rijfes.jp/2026/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "number_i_fanmeeting_2026_osaka_0721",
+      "tourId": "number_i_fanmeeting_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-07-21T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "Number_i ファンミーティング 2026",
+      "source": "system",
+      "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "number_i_fanmeeting_2026_osaka_0722_1st",
+      "tourId": "number_i_fanmeeting_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-07-22T14:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "Number_i ファンミーティング 2026",
+      "source": "system",
+      "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "number_i_fanmeeting_2026_osaka_0722_2nd",
+      "tourId": "number_i_fanmeeting_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-07-22T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "Number_i ファンミーティング 2026",
+      "source": "system",
+      "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "number_i_fanmeeting_2026_tokyo_0825_1st",
+      "tourId": "number_i_fanmeeting_2026",
+      "venue": "TOYOTA ARENA TOKYO",
+      "performanceAt": "2026-08-25T14:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "Number_i ファンミーティング 2026",
+      "source": "system",
+      "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "number_i_fanmeeting_2026_tokyo_0825_2nd",
+      "tourId": "number_i_fanmeeting_2026",
+      "venue": "TOYOTA ARENA TOKYO",
+      "performanceAt": "2026-08-25T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "Number_i ファンミーティング 2026",
+      "source": "system",
+      "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "number_i_fanmeeting_2026_tokyo_0826",
+      "tourId": "number_i_fanmeeting_2026",
+      "venue": "TOYOTA ARENA TOKYO",
+      "performanceAt": "2026-08-26T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "Number_i ファンミーティング 2026",
+      "source": "system",
+      "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "number_i_fanmeeting_2026_tokyo_0827_1st",
+      "tourId": "number_i_fanmeeting_2026",
+      "venue": "TOYOTA ARENA TOKYO",
+      "performanceAt": "2026-08-27T14:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "Number_i ファンミーティング 2026",
+      "source": "system",
+      "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "number_i_fanmeeting_2026_tokyo_0827_2nd",
+      "tourId": "number_i_fanmeeting_2026",
+      "venue": "TOYOTA ARENA TOKYO",
+      "performanceAt": "2026-08-27T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "Number_i ファンミーティング 2026",
+      "source": "system",
+      "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "number_i_fes_rijf_2026_jfes_1st",
+      "tourId": "number_i_fes_rijf_2026",
+      "type": "第1次抽選先行（Jフェスアプリ）",
+      "entryStartAt": "2026-05-20T12:15:00+09:00",
+      "entryEndAt": "2026-05-26T16:00:00+09:00",
+      "resultAt": "2026-05-29T16:00:00+09:00",
+      "paymentStartAt": "2026-05-29T16:00:00+09:00",
+      "paymentEndAt": "2026-06-01T16:00:00+09:00",
+      "performanceIds": [
+        "number_i_fes_rijf_2026_soga_0919"
+      ],
+      "source": "system",
+      "sourceUrl": "https://rijfes.jp/2026/ticket/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "number_i_fes_rijf_2026_jfes_2nd",
+      "tourId": "number_i_fes_rijf_2026",
+      "type": "第2次抽選先行（Jフェスアプリ）",
+      "entryStartAt": "2026-06-03T12:15:00+09:00",
+      "entryEndAt": "2026-06-09T16:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "number_i_fes_rijf_2026_soga_0919"
+      ],
+      "source": "system",
+      "sourceUrl": "https://rijfes.jp/2026/ticket/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "number_i_fanmeeting_2026_ilys_fc_senko",
+      "tourId": "number_i_fanmeeting_2026",
+      "type": "iLYs FC会員先行",
+      "entryStartAt": "2026-05-10T00:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": "2026-06-12T00:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "number_i_fanmeeting_2026_osaka_0721",
+        "number_i_fanmeeting_2026_osaka_0722_1st",
+        "number_i_fanmeeting_2026_osaka_0722_2nd",
+        "number_i_fanmeeting_2026_tokyo_0825_1st",
+        "number_i_fanmeeting_2026_tokyo_0825_2nd",
+        "number_i_fanmeeting_2026_tokyo_0826",
+        "number_i_fanmeeting_2026_tokyo_0827_1st",
+        "number_i_fanmeeting_2026_tokyo_0827_2nd"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ]
+}

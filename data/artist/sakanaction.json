@@ -1,0 +1,327 @@
+{
+  "artistId": "sakanaction",
+  "tours": [
+    {
+      "id": "sakanaction_fes_2026_joinalive",
+      "artistId": "sakanaction",
+      "title": "JOIN ALIVE 2026",
+      "startDate": "2026-07-19T12:00:00+09:00",
+      "endDate": "2026-07-19T12:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://sakanaction.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "sakanaction_fes_2026_fujirock",
+      "artistId": "sakanaction",
+      "title": "FUJI ROCK FESTIVAL 2026",
+      "startDate": "2026-07-24T00:00:00+09:00",
+      "endDate": "2026-07-26T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://sakanaction.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "sakanaction_fes_2026_summersonic",
+      "artistId": "sakanaction",
+      "title": "SUMMER SONIC 2026",
+      "startDate": "2026-08-15T12:00:00+09:00",
+      "endDate": "2026-08-16T12:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://sakanaction.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "sakanaction_sakanaquarium_2026",
+      "artistId": "sakanaction",
+      "title": "SAKANAQUARIUM 2026 \"透明\"",
+      "startDate": "2026-09-08T00:00:00+09:00",
+      "endDate": "2026-10-04T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "アリーナSS指定",
+          "amount": 16500
+        },
+        {
+          "label": "S指定",
+          "amount": 13200
+        },
+        {
+          "label": "A指定",
+          "amount": 8800
+        },
+        {
+          "label": "B指定",
+          "amount": 6000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://sakanaction.jp/feature/tour2026_ticket",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "sakanaction_fes_2026_joinalive_0719",
+      "tourId": "sakanaction_fes_2026_joinalive",
+      "venue": "いわみざわ公園",
+      "performanceAt": "2026-07-19T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "JOIN ALIVE 2026",
+      "source": "system",
+      "sourceUrl": "https://sakanaction.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "sakanaction_fes_2026_fujirock_0726",
+      "tourId": "sakanaction_fes_2026_fujirock",
+      "venue": "Naeba Ski Resort",
+      "performanceAt": "2026-07-26T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "FUJI ROCK FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://sakanaction.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "sakanaction_fes_2026_summersonic_tokyo_0815",
+      "tourId": "sakanaction_fes_2026_summersonic",
+      "venue": "ZOZOマリンスタジアム / 幕張メッセ",
+      "performanceAt": "2026-08-15T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "SUMMER SONIC 2026",
+      "source": "system",
+      "sourceUrl": "https://sakanaction.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "sakanaction_fes_2026_summersonic_osaka_0816",
+      "tourId": "sakanaction_fes_2026_summersonic",
+      "venue": "万博記念公園",
+      "performanceAt": "2026-08-16T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "SUMMER SONIC 2026",
+      "source": "system",
+      "sourceUrl": "https://sakanaction.jp/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "sakanaction_sakanaquarium_2026_budokan_0908",
+      "tourId": "sakanaction_sakanaquarium_2026",
+      "venue": "日本武道館",
+      "performanceAt": "2026-09-08T18:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://sakanaction.jp/feature/tour2026_ticket",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "sakanaction_sakanaquarium_2026_budokan_0909",
+      "tourId": "sakanaction_sakanaquarium_2026",
+      "venue": "日本武道館",
+      "performanceAt": "2026-09-09T18:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://sakanaction.jp/feature/tour2026_ticket",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "sakanaction_sakanaquarium_2026_osakajyo_0912",
+      "tourId": "sakanaction_sakanaquarium_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-09-12T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://sakanaction.jp/feature/tour2026_ticket",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "sakanaction_sakanaquarium_2026_osakajyo_0913",
+      "tourId": "sakanaction_sakanaquarium_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-09-13T17:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://sakanaction.jp/feature/tour2026_ticket",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "sakanaction_sakanaquarium_2026_budokan_0918",
+      "tourId": "sakanaction_sakanaquarium_2026",
+      "venue": "日本武道館",
+      "performanceAt": "2026-09-18T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://sakanaction.jp/feature/tour2026_ticket",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "sakanaction_sakanaquarium_2026_budokan_0919",
+      "tourId": "sakanaction_sakanaquarium_2026",
+      "venue": "日本武道館",
+      "performanceAt": "2026-09-19T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://sakanaction.jp/feature/tour2026_ticket",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "sakanaction_sakanaquarium_2026_kobe_0929",
+      "tourId": "sakanaction_sakanaquarium_2026",
+      "venue": "GLION ARENA KOBE",
+      "performanceAt": "2026-09-29T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://sakanaction.jp/feature/tour2026_ticket",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "sakanaction_sakanaquarium_2026_kobe_0930",
+      "tourId": "sakanaction_sakanaquarium_2026",
+      "venue": "GLION ARENA KOBE",
+      "performanceAt": "2026-09-30T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://sakanaction.jp/feature/tour2026_ticket",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "sakanaction_sakanaquarium_2026_budokan_1003",
+      "tourId": "sakanaction_sakanaquarium_2026",
+      "venue": "日本武道館",
+      "performanceAt": "2026-10-03T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://sakanaction.jp/feature/tour2026_ticket",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "sakanaction_sakanaquarium_2026_budokan_1004",
+      "tourId": "sakanaction_sakanaquarium_2026",
+      "venue": "日本武道館",
+      "performanceAt": "2026-10-04T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://sakanaction.jp/feature/tour2026_ticket",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "sakanaction_sakanaquarium_2026_nf_depth",
+      "tourId": "sakanaction_sakanaquarium_2026",
+      "type": "NF member 深海限定抽選",
+      "entryStartAt": "2026-05-11T18:00:00+09:00",
+      "entryEndAt": "2026-05-17T23:59:00+09:00",
+      "resultAt": "2026-05-23T12:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-05-25T21:00:00+09:00",
+      "performanceIds": [
+        "sakanaction_sakanaquarium_2026_budokan_0908",
+        "sakanaction_sakanaquarium_2026_budokan_0909",
+        "sakanaction_sakanaquarium_2026_osakajyo_0912",
+        "sakanaction_sakanaquarium_2026_osakajyo_0913",
+        "sakanaction_sakanaquarium_2026_budokan_0918",
+        "sakanaction_sakanaquarium_2026_budokan_0919",
+        "sakanaction_sakanaquarium_2026_kobe_0929",
+        "sakanaction_sakanaquarium_2026_kobe_0930",
+        "sakanaction_sakanaquarium_2026_budokan_1003",
+        "sakanaction_sakanaquarium_2026_budokan_1004"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sakanaction.jp/faq/detail/173",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "sakanaction_sakanaquarium_2026_nf_1st",
+      "tourId": "sakanaction_sakanaquarium_2026",
+      "type": "NF member 一次抽選",
+      "entryStartAt": "2026-05-23T18:00:00+09:00",
+      "entryEndAt": "2026-05-31T23:59:00+09:00",
+      "resultAt": "2026-06-06T13:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-06-08T21:00:00+09:00",
+      "performanceIds": [
+        "sakanaction_sakanaquarium_2026_budokan_0908",
+        "sakanaction_sakanaquarium_2026_budokan_0909",
+        "sakanaction_sakanaquarium_2026_osakajyo_0912",
+        "sakanaction_sakanaquarium_2026_osakajyo_0913",
+        "sakanaction_sakanaquarium_2026_budokan_0918",
+        "sakanaction_sakanaquarium_2026_budokan_0919",
+        "sakanaction_sakanaquarium_2026_kobe_0929",
+        "sakanaction_sakanaquarium_2026_kobe_0930",
+        "sakanaction_sakanaquarium_2026_budokan_1003",
+        "sakanaction_sakanaquarium_2026_budokan_1004"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sakanaction.jp/faq/detail/173",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "sakanaction_sakanaquarium_2026_nf_2nd",
+      "tourId": "sakanaction_sakanaquarium_2026",
+      "type": "NF member 二次抽選",
+      "entryStartAt": "2026-06-06T18:00:00+09:00",
+      "entryEndAt": "2026-06-14T23:59:00+09:00",
+      "resultAt": "2026-06-20T13:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-06-22T21:00:00+09:00",
+      "performanceIds": [
+        "sakanaction_sakanaquarium_2026_budokan_0908",
+        "sakanaction_sakanaquarium_2026_budokan_0909",
+        "sakanaction_sakanaquarium_2026_osakajyo_0912",
+        "sakanaction_sakanaquarium_2026_osakajyo_0913",
+        "sakanaction_sakanaquarium_2026_budokan_0918",
+        "sakanaction_sakanaquarium_2026_budokan_0919",
+        "sakanaction_sakanaquarium_2026_kobe_0929",
+        "sakanaction_sakanaquarium_2026_kobe_0930",
+        "sakanaction_sakanaquarium_2026_budokan_1003",
+        "sakanaction_sakanaquarium_2026_budokan_1004"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sakanaction.jp/faq/detail/173",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "sakanaction_sakanaquarium_2026_eplus_general",
+      "tourId": "sakanaction_sakanaquarium_2026",
+      "type": "e+一般先行（抽選）",
+      "entryStartAt": "2026-07-04T18:00:00+09:00",
+      "entryEndAt": "2026-07-12T23:59:00+09:00",
+      "resultAt": "2026-07-18T13:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://sakanaction.jp/feature/tour2026_ticket",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ]
+}

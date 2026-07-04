@@ -1,0 +1,141 @@
+{
+  "artistId": "enhypen",
+  "tours": [
+    {
+      "id": "enhypen_blood_saga_japan_2026",
+      "artistId": "enhypen",
+      "title": "ENHYPEN WORLD TOUR 'BLOOD SAGA' IN JAPAN",
+      "startDate": "2026-12-01T00:00:00+09:00",
+      "endDate": "2027-02-20T00:00:00+09:00",
+      "prices": [
+        {"label": "指定席", "amount": 17000}
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "enhypen_blood_saga_japan_2026_tokyo_1201",
+      "tourId": "enhypen_blood_saga_japan_2026",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-12-01T18:30:00+09:00",
+      "doorOpenAt": "2026-12-01T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "enhypen_blood_saga_japan_2026_tokyo_1202",
+      "tourId": "enhypen_blood_saga_japan_2026",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-12-02T16:00:00+09:00",
+      "doorOpenAt": "2026-12-02T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "enhypen_blood_saga_japan_2026_nagoya_1226",
+      "tourId": "enhypen_blood_saga_japan_2026",
+      "venue": "バンテリンドーム ナゴヤ",
+      "performanceAt": "2026-12-26T17:00:00+09:00",
+      "doorOpenAt": "2026-12-26T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "enhypen_blood_saga_japan_2026_nagoya_1227",
+      "tourId": "enhypen_blood_saga_japan_2026",
+      "venue": "バンテリンドーム ナゴヤ",
+      "performanceAt": "2026-12-27T16:00:00+09:00",
+      "doorOpenAt": "2026-12-27T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "enhypen_blood_saga_japan_2026_fukuoka_0206",
+      "tourId": "enhypen_blood_saga_japan_2026",
+      "venue": "みずほPayPayドーム福岡",
+      "performanceAt": "2027-02-06T17:00:00+09:00",
+      "doorOpenAt": "2027-02-06T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "enhypen_blood_saga_japan_2026_fukuoka_0207",
+      "tourId": "enhypen_blood_saga_japan_2026",
+      "venue": "みずほPayPayドーム福岡",
+      "performanceAt": "2027-02-07T16:00:00+09:00",
+      "doorOpenAt": "2027-02-07T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "enhypen_blood_saga_japan_2026_osaka_0219",
+      "tourId": "enhypen_blood_saga_japan_2026",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2027-02-19T18:00:00+09:00",
+      "doorOpenAt": "2027-02-19T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "enhypen_blood_saga_japan_2026_osaka_0220",
+      "tourId": "enhypen_blood_saga_japan_2026",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2027-02-20T16:00:00+09:00",
+      "doorOpenAt": "2027-02-20T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "enhypen_blood_saga_japan_2026_engene_jp_2nd",
+      "tourId": "enhypen_blood_saga_japan_2026",
+      "type": "ENGENE Membership (JP) 2次先行",
+      "entryStartAt": "2026-06-10T17:00:00+09:00",
+      "entryEndAt": "2026-07-06T23:59:00+09:00",
+      "resultAt": "2026-07-15T19:00:00+09:00",
+      "paymentStartAt": "2026-07-15T19:00:00+09:00",
+      "paymentEndAt": "2026-07-21T23:59:00+09:00",
+      "performanceIds": [
+        "enhypen_blood_saga_japan_2026_tokyo_1201",
+        "enhypen_blood_saga_japan_2026_tokyo_1202",
+        "enhypen_blood_saga_japan_2026_nagoya_1226",
+        "enhypen_blood_saga_japan_2026_nagoya_1227",
+        "enhypen_blood_saga_japan_2026_fukuoka_0206",
+        "enhypen_blood_saga_japan_2026_fukuoka_0207",
+        "enhypen_blood_saga_japan_2026_osaka_0219",
+        "enhypen_blood_saga_japan_2026_osaka_0220"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ]
+}

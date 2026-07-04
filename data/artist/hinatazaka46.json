@@ -1,0 +1,285 @@
+{
+  "artistId": "hinatazaka46",
+  "tours": [
+    {
+      "id": "hinatazaka46_hinata_fes_2026",
+      "artistId": "hinatazaka46",
+      "title": "ひなたフェス 2026",
+      "startDate": "2026-09-05T00:00:00+09:00",
+      "endDate": "2026-09-06T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1日券",
+          "amount": 12000
+        },
+        {
+          "label": "2日通し券",
+          "amount": 22000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00800",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_gokisei_live_2026",
+      "artistId": "hinatazaka46",
+      "title": "日向坂46 五期生 LIVE",
+      "startDate": "2026-07-15T00:00:00+09:00",
+      "endDate": "2026-07-16T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 9800
+        },
+        {
+          "label": "Leminoスペシャルシート",
+          "amount": 15800
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/5th_generation_live/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_sankisei_live_2026",
+      "artistId": "hinatazaka46",
+      "title": "日向坂46 三期生 LIVE",
+      "startDate": "2026-08-05T00:00:00+09:00",
+      "endDate": "2026-08-23T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 9800
+        },
+        {
+          "label": "Leminoスペシャルシート",
+          "amount": 15800
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/3rd_live2026/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "hinatazaka46_hinata_fes_2026_miyazaki_0905",
+      "tourId": "hinatazaka46_hinata_fes_2026",
+      "venue": "ひなたサンマリンスタジアム宮崎",
+      "performanceAt": "2026-09-05T16:30:00+09:00",
+      "doorOpenAt": "2026-09-05T14:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00800",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "fes",
+      "eventName": "ひなたフェス 2026"
+    },
+    {
+      "id": "hinatazaka46_hinata_fes_2026_miyazaki_0906",
+      "tourId": "hinatazaka46_hinata_fes_2026",
+      "venue": "ひなたサンマリンスタジアム宮崎",
+      "performanceAt": "2026-09-06T16:30:00+09:00",
+      "doorOpenAt": "2026-09-06T14:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00800",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "fes",
+      "eventName": "ひなたフェス 2026"
+    },
+    {
+      "id": "hinatazaka46_gokisei_live_2026_piaarena_0715",
+      "tourId": "hinatazaka46_gokisei_live_2026",
+      "venue": "ぴあアリーナMM",
+      "performanceAt": "2026-07-15T19:00:00+09:00",
+      "doorOpenAt": "2026-07-15T17:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/5th_generation_live/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null
+    },
+    {
+      "id": "hinatazaka46_gokisei_live_2026_piaarena_0716",
+      "tourId": "hinatazaka46_gokisei_live_2026",
+      "venue": "ぴあアリーナMM",
+      "performanceAt": "2026-07-16T19:00:00+09:00",
+      "doorOpenAt": "2026-07-16T17:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/5th_generation_live/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null
+    },
+    {
+      "id": "hinatazaka46_sankisei_live_2026_zepposaka_0805",
+      "tourId": "hinatazaka46_sankisei_live_2026",
+      "venue": "Zepp Osaka Bayside",
+      "performanceAt": "2026-08-05T18:30:00+09:00",
+      "doorOpenAt": "2026-08-05T17:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/3rd_live2026/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null
+    },
+    {
+      "id": "hinatazaka46_sankisei_live_2026_zeppnagoya_0806",
+      "tourId": "hinatazaka46_sankisei_live_2026",
+      "venue": "Zepp Nagoya",
+      "performanceAt": "2026-08-06T18:30:00+09:00",
+      "doorOpenAt": "2026-08-06T17:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/3rd_live2026/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null
+    },
+    {
+      "id": "hinatazaka46_sankisei_live_2026_zeppnagoya_0815",
+      "tourId": "hinatazaka46_sankisei_live_2026",
+      "venue": "Zepp Nagoya",
+      "performanceAt": "2026-08-15T17:30:00+09:00",
+      "doorOpenAt": "2026-08-15T16:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/3rd_live2026/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null
+    },
+    {
+      "id": "hinatazaka46_sankisei_live_2026_zepposaka_0816",
+      "tourId": "hinatazaka46_sankisei_live_2026",
+      "venue": "Zepp Osaka Bayside",
+      "performanceAt": "2026-08-16T17:30:00+09:00",
+      "doorOpenAt": "2026-08-16T16:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/3rd_live2026/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null
+    },
+    {
+      "id": "hinatazaka46_sankisei_live_2026_zepphaneda_0817",
+      "tourId": "hinatazaka46_sankisei_live_2026",
+      "venue": "Zepp Haneda(TOKYO)",
+      "performanceAt": "2026-08-17T18:30:00+09:00",
+      "doorOpenAt": "2026-08-17T17:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/3rd_live2026/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null
+    },
+    {
+      "id": "hinatazaka46_sankisei_live_2026_zepphaneda_0818",
+      "tourId": "hinatazaka46_sankisei_live_2026",
+      "venue": "Zepp Haneda(TOKYO)",
+      "performanceAt": "2026-08-18T18:30:00+09:00",
+      "doorOpenAt": "2026-08-18T17:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/3rd_live2026/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null
+    },
+    {
+      "id": "hinatazaka46_sankisei_live_2026_zepphaneda_0823",
+      "tourId": "hinatazaka46_sankisei_live_2026",
+      "venue": "Zepp Haneda(TOKYO)",
+      "performanceAt": "2026-08-23T17:30:00+09:00",
+      "doorOpenAt": "2026-08-23T16:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/3rd_live2026/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "hinatazaka46_gokisei_live_2026_general",
+      "tourId": "hinatazaka46_gokisei_live_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-06-27T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/5th_generation_live/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_hinata_fes_2026_fc_1st",
+      "tourId": "hinatazaka46_hinata_fes_2026",
+      "type": "FC先行（1次）",
+      "entryStartAt": "2026-04-25T12:00:00+09:00",
+      "entryEndAt": "2026-05-17T23:59:00+09:00",
+      "resultAt": "2026-05-23T17:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hinatazaka46_hinata_fes_2026_miyazaki_0905",
+        "hinatazaka46_hinata_fes_2026_miyazaki_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00824",
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_hinata_fes_2026_lawson_3rd",
+      "tourId": "hinatazaka46_hinata_fes_2026",
+      "type": "ローソンチケット先行（3次）",
+      "entryStartAt": "2026-06-21T12:00:00+09:00",
+      "entryEndAt": "2026-07-05T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hinatazaka46_hinata_fes_2026_miyazaki_0905",
+        "hinatazaka46_hinata_fes_2026_miyazaki_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00800",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_sankisei_live_2026_official",
+      "tourId": "hinatazaka46_sankisei_live_2026",
+      "type": "オフィシャル先行",
+      "entryStartAt": "2026-06-26T12:00:00+09:00",
+      "entryEndAt": "2026-07-01T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hinatazaka46_sankisei_live_2026_zepposaka_0805",
+        "hinatazaka46_sankisei_live_2026_zeppnagoya_0806",
+        "hinatazaka46_sankisei_live_2026_zeppnagoya_0815",
+        "hinatazaka46_sankisei_live_2026_zepposaka_0816",
+        "hinatazaka46_sankisei_live_2026_zepphaneda_0817",
+        "hinatazaka46_sankisei_live_2026_zepphaneda_0818",
+        "hinatazaka46_sankisei_live_2026_zepphaneda_0823"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/3rd_live2026/",
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_sankisei_live_2026_general",
+      "tourId": "hinatazaka46_sankisei_live_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-07-12T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/3rd_live2026/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ]
+}

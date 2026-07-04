@@ -1,0 +1,80 @@
+{
+  "artistId": "sky_hi",
+  "tours": [
+    {
+      "id": "sky_hi_fes_2026",
+      "artistId": "sky_hi",
+      "title": "s**t kingz Fes 2026 会社",
+      "startDate": "2026-07-26T00:00:00+09:00",
+      "endDate": "2026-07-26T00:00:00+09:00",
+      "prices": [
+        {"label": "全席指定", "amount": 15000}
+      ],
+      "source": "system",
+      "sourceUrl": "https://shitkingz.jp/s/stkgzfes2026/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_toyosu_pit_2026",
+      "artistId": "sky_hi",
+      "title": "SKY-HI 豊洲PIT 3DAYS",
+      "startDate": "2026-12-11T00:00:00+09:00",
+      "endDate": "2026-12-13T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "sky_hi_fes_2026_stkgz_0726",
+      "tourId": "sky_hi_fes_2026",
+      "venue": "ぴあアリーナMM",
+      "performanceAt": "2026-07-26T12:00:00+09:00",
+      "doorOpenAt": "2026-07-26T16:00:00+09:00",
+      "kind": "fes",
+      "eventName": "s**t kingz Fes 2026 会社",
+      "source": "system",
+      "sourceUrl": "https://shitkingz.jp/s/stkgzfes2026/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_toyosu_pit_2026_1211",
+      "tourId": "sky_hi_toyosu_pit_2026",
+      "venue": "豊洲PIT",
+      "performanceAt": "2026-12-11T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_toyosu_pit_2026_1212",
+      "tourId": "sky_hi_toyosu_pit_2026",
+      "venue": "豊洲PIT",
+      "performanceAt": "2026-12-12T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_toyosu_pit_2026_1213",
+      "tourId": "sky_hi_toyosu_pit_2026",
+      "venue": "豊洲PIT",
+      "performanceAt": "2026-12-13T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    }
+  ],
+  "lotteries": []
+}
