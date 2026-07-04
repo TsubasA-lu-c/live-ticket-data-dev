@@ -462,7 +462,7 @@ data/
 
 5. 全グループ完了後:
    python3 tools/update_manifest.py → commit & push
-   git add cache/source_hashes.json && git commit -m "update: source hash cache" && git push origin dev
+   git add cache/source_hashes.json && git commit -m "update: source hash cache" && git push origin main
 ```
 
 **注意事項:**
