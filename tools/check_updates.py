@@ -26,7 +26,8 @@ WATCH_URLS_FILE = Path("cache/watch_urls.json")
 
 
 class _TextExtractor(HTMLParser):
-    """HTMLからテキストを抽出（script/style/noscriptタグを除外）"""
+    """HTML/XMLからテキストを抽出（script/style/noscriptタグを除外）。
+    RSS/AtomフィードのXMLもそのまま処理できる（タグ間のテキストを拾う）。"""
 
     def __init__(self):
         super().__init__()
@@ -44,6 +45,14 @@ class _TextExtractor(HTMLParser):
     def handle_data(self, data):
         if not self._skip:
             text = data.strip()
+            if text:
+                self._parts.append(text)
+
+    def unknown_decl(self, data):
+        # RSS/Atomフィードの <![CDATA[...]]> 内テキストもハッシュ対象に含める
+        # （html.parser は CDATA を handle_data ではなくここに渡すため）
+        if not self._skip and data.startswith("CDATA["):
+            text = data[len("CDATA["):].strip()
             if text:
                 self._parts.append(text)
 

@@ -8,7 +8,12 @@ check_updates.py はデフォルトで artists.json の sourceUrl（公式TOPペ
 の更新を見落とすことがある。本スクリプトは、その見落としを減らすために
 TOPページ内の実在リンク（<a href>）から関連ページを発見して登録する。
 
-**URLのパス推測は絶対禁止。** 必ず取得したHTML内の <a href> から抽出したURLのみを使う。
+RSS/Atomフィード（<link rel="alternate" type="application/rss+xml|atom+xml">）も
+抽出して**最優先**で登録する。JSレンダリングのサイトは静的HTMLがほぼ変化せず
+更新検知から漏れるため、サーバー生成のフィードを監視できると検知精度が上がる。
+
+**URLのパス推測は絶対禁止。** 必ず取得したHTML内の <a href> / <link href> から
+抽出したURLのみを使う。
 
 使い方:
   python3 tools/discover_watch_urls.py                 # 全アーティストを対象
@@ -44,11 +49,13 @@ SNS_HOST_KEYWORDS = [
 
 
 class _LinkExtractor(HTMLParser):
-    """<a href> とそのリンクテキストのペアを抽出する"""
+    """<a href> とそのリンクテキストのペア、および
+    <link rel="alternate"> の RSS/Atom フィードURLを抽出する"""
 
     def __init__(self):
         super().__init__()
         self.links: List[Tuple[str, str]] = []
+        self.feeds: List[str] = []
         self._current_href: Optional[str] = None
         self._current_text_parts: List[str] = []
 
@@ -58,6 +65,17 @@ class _LinkExtractor(HTMLParser):
             if href:
                 self._current_href = href
                 self._current_text_parts = []
+        elif tag == "link":
+            d = dict(attrs)
+            rel = (d.get("rel") or "").lower()
+            link_type = (d.get("type") or "").lower()
+            href = d.get("href")
+            if (
+                href
+                and "alternate" in rel.split()
+                and ("rss+xml" in link_type or "atom+xml" in link_type)
+            ):
+                self.feeds.append(href)
 
     def handle_endtag(self, tag):
         if tag == "a" and self._current_href is not None:
@@ -83,46 +101,84 @@ def _fetch_html(url: str) -> Optional[str]:
         return None
 
 
+def _feed_alive(url: str) -> bool:
+    """フィードURLが実際に取得可能（HTTP 200）か確認する。
+    <link rel="alternate"> で宣言されていても実体が404のサイトがあり、
+    死んだURLを登録すると check_updates.py が取得失敗を「変化あり」と
+    扱うため恒久的な誤検知になる。登録前に必ず生存確認する。"""
+    headers = {"User-Agent": USER_AGENT}
+    try:
+        req = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(req, timeout=FETCH_TIMEOUT_SEC) as resp:
+            resp.read(1024)  # 先頭だけ読めれば十分
+            return resp.status == 200
+    except Exception:
+        return False
+
+
 def _is_excluded_scheme(href: str) -> bool:
     low = href.strip().lower()
     return low.startswith("mailto:") or low.startswith("tel:") or low.startswith("javascript:") or low == "#" or low.startswith("#")
 
 
-def extract_candidates(html: str, source_url: str) -> List[str]:
-    """HTML内の<a href>からNEWS/LIVE系ページの候補URLを抽出する（実在リンクのみ、推測なし）。
-    同一ホストまたはそのサブドメインに限定し、優先度順（news > live/tour/schedule > その他）で
-    最大 MAX_URLS_PER_ARTIST 件に絞って返す。"""
+def _normalize_same_host(href: str, source_url: str, source_host: str) -> Optional[str]:
+    """href を絶対URL化し、同一ホスト（サブドメイン含む）の http(s) URLなら
+    フラグメント除去済みURLを返す。対象外なら None。"""
+    href = href.strip()
+    if not href or _is_excluded_scheme(href):
+        return None
+
+    abs_url = urljoin(source_url, href)
+    parsed = urlparse(abs_url)
+    if parsed.scheme not in ("http", "https"):
+        return None
+
+    host = parsed.netloc.lower()
+    if host != source_host and not host.endswith("." + source_host):
+        return None
+    if any(sns in host for sns in SNS_HOST_KEYWORDS):
+        return None
+
+    return parsed._replace(fragment="").geturl()
+
+
+def extract_candidates(html: str, source_url: str, feed_validator=None) -> List[str]:
+    """HTML内の<a href>・<link rel="alternate">からNEWS/LIVE系ページ・RSS/Atomフィードの
+    候補URLを抽出する（実在リンクのみ、推測なし）。
+    同一ホストまたはそのサブドメインに限定し、優先度順
+    （RSS/Atomフィード > news > live/tour/schedule > その他）で
+    最大 MAX_URLS_PER_ARTIST 件に絞って返す。
+    feed_validator: フィードURLの生存確認コールバック（url -> bool）。
+    None の場合は確認しない（ユニットテスト用）。"""
     parser = _LinkExtractor()
     parser.feed(html)
 
-    source_parsed = urlparse(source_url)
-    source_host = source_parsed.netloc.lower()
+    source_host = urlparse(source_url).netloc.lower()
     source_norm = source_url.rstrip("/")
 
     candidates: List[Tuple[int, str]] = []
     seen = set()
 
+    # RSS/Atomフィードは最優先（tier -1）。JSレンダリングサイトでも
+    # サーバー生成のフィードなら更新を検知できるため
+    for href in parser.feeds:
+        norm_url = _normalize_same_host(href, source_url, source_host)
+        if norm_url is None or norm_url.rstrip("/") == source_norm or norm_url in seen:
+            continue
+        # 宣言されていても実体が404のフィードがあるため、登録前に生存確認する
+        if feed_validator is not None and not feed_validator(norm_url):
+            print(f"    [WARN] フィード宣言はあるが取得不可のため除外: {norm_url}", file=sys.stderr)
+            seen.add(norm_url)
+            continue
+        seen.add(norm_url)
+        candidates.append((-1, norm_url))
+
     for href, text in parser.links:
-        href = href.strip()
-        if not href or _is_excluded_scheme(href):
+        norm_url = _normalize_same_host(href, source_url, source_host)
+        if norm_url is None or norm_url.rstrip("/") == source_norm or norm_url in seen:
             continue
 
-        abs_url = urljoin(source_url, href)
-        parsed = urlparse(abs_url)
-        if parsed.scheme not in ("http", "https"):
-            continue
-
-        host = parsed.netloc.lower()
-        if host != source_host and not host.endswith("." + source_host):
-            continue
-        if any(sns in host for sns in SNS_HOST_KEYWORDS):
-            continue
-
-        norm_url = parsed._replace(fragment="").geturl()
-        if norm_url.rstrip("/") == source_norm:
-            continue
-
-        haystack = (parsed.path + " " + text).lower()
+        haystack = (urlparse(norm_url).path + " " + text).lower()
         if any(k in haystack for k in KEYWORDS_TIER0):
             tier = 0
         elif any(k in haystack for k in KEYWORDS_TIER1):
@@ -132,8 +188,6 @@ def extract_candidates(html: str, source_url: str) -> List[str]:
         else:
             continue
 
-        if norm_url in seen:
-            continue
         seen.add(norm_url)
         candidates.append((tier, norm_url))
 
@@ -146,7 +200,7 @@ def discover_for_artist(source_url: str) -> List[str]:
     html = _fetch_html(source_url)
     if html is None:
         return []
-    return extract_candidates(html, source_url)
+    return extract_candidates(html, source_url, feed_validator=_feed_alive)
 
 
 def main() -> None:

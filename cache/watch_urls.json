@@ -38,12 +38,14 @@
   "ado": [
     "https://www.universal-music.co.jp/news/",
     "https://www.universal-music.co.jp/ado/news/",
-    "https://www.universal-music.co.jp/ado/news/2025-11-22/"
+    "https://www.universal-music.co.jp/ado/news/2025-11-22/",
+    "https://www.universal-music.co.jp/ado/news/2025-11-23/feed/"
   ],
   "nogizaka46": [
     "https://www.nogizaka46.com/s/n46/news/detail/102002",
     "https://www.nogizaka46.com/s/n46/news/detail/102004",
-    "https://www.nogizaka46.com/s/n46/news/detail/102062?ima=3750"
+    "https://www.nogizaka46.com/s/n46/news/detail/102062?ima=3750",
+    "https://www.nogizaka46.com/s/n46/news/detail/102062?ima=5116"
   ],
   "hinatazaka46": [
     "https://www.hinatazaka46.com/s/official/news/list?ima=0000&dy=202607",
@@ -55,7 +57,8 @@
     "https://sakanaction.jp/feature/tour2026_ticket_overseas"
   ],
   "larc_en_ciel": [
-    "https://larc-en-ciel.com/s/n137/news/list?ima=3753"
+    "https://larc-en-ciel.com/s/n137/news/list?ima=3753",
+    "https://larc-en-ciel.com/s/n137/news/list?ima=5120"
   ],
   "king_gnu": [
     "https://www.sonymusic.co.jp/artist/kinggnu/info/",
@@ -132,7 +135,10 @@
   ],
   "sky_hi": [
     "https://bmsg.tokyo/news",
-    "https://bmsg.tokyo/category/live/"
+    "https://bmsg.tokyo/category/live/",
+    "https://bmsg.tokyo/feed/",
+    "https://bmsg.tokyo/comments/feed/",
+    "https://bmsg.tokyo/live/skyhi-tour2026/feed/"
   ],
   "tennimu": [
     "https://www.tennimu.com/4th_2026rikkai_1/news/",
@@ -161,7 +167,10 @@
   "babymetal": [
     "https://babymetal.com/mob/news/diarKiji.php?site=TO&ima=3813&cd=NEWS_TO&lang=en",
     "https://babymetal.com/mob/news/diarKiji.php?site=TO&ima=3813&cd=TOUR_TO&so=a&lang=en",
-    "https://babymetal.com/mob/news/diarKiji.php?site=TO&ima=3813&cd=BIOGRAPHY_TO&lang=en"
+    "https://babymetal.com/mob/news/diarKiji.php?site=TO&ima=3813&cd=BIOGRAPHY_TO&lang=en",
+    "https://babymetal.com/mob/news/diarKiji.php?site=TO&ima=5144&cd=NEWS_TO&lang=en",
+    "https://babymetal.com/mob/news/diarKiji.php?site=TO&ima=5144&cd=TOUR_TO&so=a&lang=en",
+    "https://babymetal.com/mob/news/diarKiji.php?site=TO&ima=5144&cd=BIOGRAPHY_TO&lang=en"
   ],
   "mrs_green_apple": [
     "https://mrsgreenapple.com/feature/zenjinmito_2026_news",
@@ -169,7 +178,10 @@
     "https://mrsgreenapple.com/feature/zenjinmito_2026_live_viewing"
   ],
   "be_first": [
-    "https://befirst.tokyo/news"
+    "https://befirst.tokyo/news",
+    "https://befirst.tokyo/feed/",
+    "https://befirst.tokyo/comments/feed/",
+    "https://befirst.tokyo/sample-page/feed/"
   ],
   "glay": [
     "https://www.glay.co.jp/feature/HS30thLive",
@@ -193,7 +205,9 @@
     "https://kingandprince7th.jp/reera_dvd/"
   ],
   "timelesz": [
-    "https://ovtp.jp/news"
+    "https://ovtp.jp/news",
+    "https://ovtp.jp/feed",
+    "https://ovtp.jp/comments/feed"
   ],
   "milk": [
     "https://sd-milk.com/contents/news",
@@ -213,7 +227,10 @@
   "ae_group": [
     "https://starto.jp/s/p/news/list?ima=3653",
     "https://starto.jp/s/p/artist/12?ima=3653",
-    "https://starto.jp/s/p/live/10507?ima=3653"
+    "https://starto.jp/s/p/live/10507?ima=3653",
+    "https://starto.jp/s/p/news/list?ima=5153",
+    "https://starto.jp/s/p/artist/12?ima=5153",
+    "https://starto.jp/s/p/live/10507?ima=5153"
   ],
   "novelbright": [
     "https://novelbright.jp/news/1/",
@@ -307,7 +324,9 @@
   "mazzel": [
     "https://mazzel.tokyo/news/5366/",
     "https://mazzel.tokyo/news/536/",
-    "https://mazzel.tokyo/news/5452/"
+    "https://mazzel.tokyo/news/5452/",
+    "https://mazzel.tokyo/feed/",
+    "https://mazzel.tokyo/comments/feed/"
   ],
   "not_equal_me": [
     "https://not-equal-me.jp/news/1",
@@ -335,7 +354,10 @@
   "ive": [
     "https://ive-official.jp/mob/news/newsLis.php?site=DIVE&ima=3847",
     "https://ive-official.jp/mob/news/diarKiji.php?site=DIVE&ima=3847&cd=DISCOGRAPHY",
-    "https://ive-official.jp/mob/news/diarKiji.php?site=DIVE&ima=3847&cd=SCHEDULE"
+    "https://ive-official.jp/mob/news/diarKiji.php?site=DIVE&ima=3847&cd=SCHEDULE",
+    "https://ive-official.jp/mob/news/newsLis.php?site=DIVE&ima=5223",
+    "https://ive-official.jp/mob/news/diarKiji.php?site=DIVE&ima=5223&cd=DISCOGRAPHY",
+    "https://ive-official.jp/mob/news/diarKiji.php?site=DIVE&ima=5223&cd=SCHEDULE"
   ],
   "aespa": [
     "https://aespa-official.jp/news",
@@ -359,11 +381,14 @@
   "sandaime_j_soul_brothers": [
     "https://www.ldh-liveschedule.jp/sys/news/43936?lang=ja",
     "https://www.ldh-liveschedule.jp/sys/news/43853?lang=ja",
-    "https://www.ldh-liveschedule.jp/sys/news/43713?lang=ja"
+    "https://www.ldh-liveschedule.jp/sys/news/43713?lang=ja",
+    "https://www.ldh-liveschedule.jp/sys/tour/40856/feed/"
   ],
   "zorn": [
     "https://zorn.tokyo/category/news/",
-    "https://zorn.tokyo/live-at-saitama-super-arena/"
+    "https://zorn.tokyo/live-at-saitama-super-arena/",
+    "https://zorn.tokyo/feed/",
+    "https://zorn.tokyo/comments/feed/"
   ],
   "hypnosis_mic": [
     "https://hypnosismic.com/news/"
