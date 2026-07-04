@@ -38,6 +38,100 @@
       "source": "system",
       "sourceUrl": "https://newacousticcamp.com/ticket/",
       "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_fes_skyjamboree_2026",
+      "artistId": "ellegarden",
+      "title": "Sky Jamboree 2026",
+      "startDate": "2026-08-22T00:00:00+09:00",
+      "endDate": "2026-08-22T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.skyj.jp/",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_fes_monsterbash_2026",
+      "artistId": "ellegarden",
+      "title": "MONSTER baSH 2026",
+      "startDate": "2026-08-23T00:00:00+09:00",
+      "endDate": "2026-08-23T00:00:00+09:00",
+      "prices": [
+        {"label": "1日券", "amount": 13000},
+        {"label": "2日通し券", "amount": 23000}
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.monsterbash.jp/",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_fes_rushball_2026",
+      "artistId": "ellegarden",
+      "title": "RUSH BALL 2026",
+      "startDate": "2026-08-30T00:00:00+09:00",
+      "endDate": "2026-08-30T00:00:00+09:00",
+      "prices": [
+        {"label": "1DAY一般", "amount": 8800},
+        {"label": "1DAYキッズ", "amount": 4400},
+        {"label": "2DAYS一般", "amount": 16500}
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.rushball.com/",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_event_2026",
+      "artistId": "ellegarden",
+      "title": "ZASSO.2026",
+      "startDate": "2026-09-22T00:00:00+09:00",
+      "endDate": "2026-09-22T00:00:00+09:00",
+      "prices": [
+        {"label": "アリーナスタンディング自由&スタンド自由席", "amount": 8900},
+        {"label": "スタンド指定席", "amount": 11900},
+        {"label": "Zassoプレミアム指定席(おみやげ付き)", "amount": 16900}
+      ],
+      "source": "system",
+      "sourceUrl": "https://kyodo-osaka.co.jp/search/detail/12752",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_event_2026_02",
+      "artistId": "ellegarden",
+      "title": "ETERNAL FIGHTER TAKERU DEEPEST RESPECT",
+      "startDate": "2026-09-24T00:00:00+09:00",
+      "endDate": "2026-09-24T00:00:00+09:00",
+      "prices": [
+        {"label": "スタンディング", "amount": 5900}
+      ],
+      "source": "system",
+      "sourceUrl": "https://eternalfightertakeru.com/",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_fes_miyakoislandrock_2026",
+      "artistId": "ellegarden",
+      "title": "MIYAKO ISLAND ROCK FESTIVAL 2026",
+      "startDate": "2026-10-17T00:00:00+09:00",
+      "endDate": "2026-10-17T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://mirf.jp/",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_fes_wonderfulworld_2026",
+      "artistId": "ellegarden",
+      "title": "MONGOL800 ga FESTIVAL What a Wonderful World!! 26",
+      "startDate": "2026-11-07T00:00:00+09:00",
+      "endDate": "2026-11-08T00:00:00+09:00",
+      "prices": [
+        {"label": "1日券", "amount": 12000},
+        {"label": "2日通し券", "amount": 22000},
+        {"label": "中高生券", "amount": 5500}
+      ],
+      "source": "system",
+      "sourceUrl": "https://www800.asia/2026/",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -76,6 +170,102 @@
       "source": "system",
       "sourceUrl": "https://newacousticcamp.com/artist/ellegarden/",
       "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_fes_skyjamboree_2026_inasayama_0822",
+      "tourId": "ellegarden_fes_skyjamboree_2026",
+      "venue": "長崎市稲佐山公園野外ステージ",
+      "performanceAt": "2026-08-22T12:00:00+09:00",
+      "doorOpenAt": "2026-08-22T10:00:00+09:00",
+      "kind": "fes",
+      "eventName": "Sky Jamboree 2026",
+      "source": "system",
+      "sourceUrl": "https://ellegarden.jp/live.html",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_fes_monsterbash_2026_mannou_0823",
+      "tourId": "ellegarden_fes_monsterbash_2026",
+      "venue": "国営讃岐まんのう公園",
+      "performanceAt": "2026-08-23T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "MONSTER baSH 2026",
+      "source": "system",
+      "sourceUrl": "https://ellegarden.jp/live.html",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_fes_rushball_2026_izumiotsu_0830",
+      "tourId": "ellegarden_fes_rushball_2026",
+      "venue": "泉大津フェニックス",
+      "performanceAt": "2026-08-30T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "RUSH BALL 2026",
+      "source": "system",
+      "sourceUrl": "https://ellegarden.jp/live.html",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_event_2026_zasso_0922",
+      "tourId": "ellegarden_event_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-09-22T14:00:00+09:00",
+      "doorOpenAt": "2026-09-22T13:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "ZASSO.2026",
+      "source": "system",
+      "sourceUrl": "https://ellegarden.jp/live.html",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_event_2026_02_toyosu_0924",
+      "tourId": "ellegarden_event_2026_02",
+      "venue": "豊洲PIT",
+      "performanceAt": "2026-09-24T19:00:00+09:00",
+      "doorOpenAt": "2026-09-24T18:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "ETERNAL FIGHTER TAKERU DEEPEST RESPECT",
+      "source": "system",
+      "sourceUrl": "https://ellegarden.jp/live.html",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_fes_miyakoislandrock_2026_miyako_1017",
+      "tourId": "ellegarden_fes_miyakoislandrock_2026",
+      "venue": "宮古島トゥリバー地区 ヘッドランド特設会場",
+      "performanceAt": "2026-10-17T12:00:00+09:00",
+      "doorOpenAt": "2026-10-17T10:00:00+09:00",
+      "kind": "fes",
+      "eventName": "MIYAKO ISLAND ROCK FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://ellegarden.jp/live.html",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_fes_wonderfulworld_2026_ginowan_1107",
+      "tourId": "ellegarden_fes_wonderfulworld_2026",
+      "venue": "宜野湾港マリーナ・トロピカルビーチ特設会場",
+      "performanceAt": "2026-11-07T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "MONGOL800 ga FESTIVAL What a Wonderful World!! 26",
+      "source": "system",
+      "sourceUrl": "https://ellegarden.jp/live.html",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_fes_wonderfulworld_2026_ginowan_1108",
+      "tourId": "ellegarden_fes_wonderfulworld_2026",
+      "venue": "宜野湾港マリーナ・トロピカルビーチ特設会場",
+      "performanceAt": "2026-11-08T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "MONGOL800 ga FESTIVAL What a Wonderful World!! 26",
+      "source": "system",
+      "sourceUrl": "https://ellegarden.jp/live.html",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -105,6 +295,174 @@
       "performanceIds": ["ellegarden_fes_newacousticcamp_2026_minakami_0919"],
       "source": "system",
       "sourceUrl": "https://newacousticcamp.com/ticket/",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_fes_skyjamboree_2026_ippan",
+      "tourId": "ellegarden_fes_skyjamboree_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-06-21T10:00:00+09:00",
+      "entryEndAt": "2026-08-21T18:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["ellegarden_fes_skyjamboree_2026_inasayama_0822"],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/0159160001",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_fes_monsterbash_2026_ippan",
+      "tourId": "ellegarden_fes_monsterbash_2026",
+      "type": "一般発売",
+      "entryStartAt": null,
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["ellegarden_fes_monsterbash_2026_mannou_0823"],
+      "source": "system",
+      "sourceUrl": "https://www.monsterbash.jp/tickets.html",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_fes_rushball_2026_ippan",
+      "tourId": "ellegarden_fes_rushball_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-07-04T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["ellegarden_fes_rushball_2026_izumiotsu_0830"],
+      "source": "system",
+      "sourceUrl": "https://www.rushball.com/ticket/",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_event_2026_0ji",
+      "tourId": "ellegarden_event_2026",
+      "type": "抽選0次先行",
+      "entryStartAt": "2026-01-25T18:00:00+09:00",
+      "entryEndAt": "2026-02-08T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["ellegarden_event_2026_zasso_0922"],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/2458830001",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_event_2026_1ji",
+      "tourId": "ellegarden_event_2026",
+      "type": "抽選1次先行",
+      "entryStartAt": "2026-02-28T18:00:00+09:00",
+      "entryEndAt": "2026-03-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["ellegarden_event_2026_zasso_0922"],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/2458830001",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_event_2026_02_1ji",
+      "tourId": "ellegarden_event_2026_02",
+      "type": "オフィシャル1次先行",
+      "entryStartAt": "2026-06-24T18:00:00+09:00",
+      "entryEndAt": "2026-07-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["ellegarden_event_2026_02_toyosu_0924"],
+      "source": "system",
+      "sourceUrl": "https://eternalfightertakeru.com/",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_event_2026_02_2ji",
+      "tourId": "ellegarden_event_2026_02",
+      "type": "オフィシャル2次先行",
+      "entryStartAt": "2026-07-18T18:00:00+09:00",
+      "entryEndAt": "2026-08-03T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["ellegarden_event_2026_02_toyosu_0924"],
+      "source": "system",
+      "sourceUrl": "https://eternalfightertakeru.com/",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_event_2026_02_prereserve",
+      "tourId": "ellegarden_event_2026_02",
+      "type": "プレリザーブ",
+      "entryStartAt": "2026-08-06T18:00:00+09:00",
+      "entryEndAt": "2026-08-18T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["ellegarden_event_2026_02_toyosu_0924"],
+      "source": "system",
+      "sourceUrl": "https://eternalfightertakeru.com/",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_event_2026_02_ippan",
+      "tourId": "ellegarden_event_2026_02",
+      "type": "一般発売",
+      "entryStartAt": "2026-08-30T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["ellegarden_event_2026_02_toyosu_0924"],
+      "source": "system",
+      "sourceUrl": "https://eternalfightertakeru.com/",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_fes_miyakoislandrock_2026_eplus",
+      "tourId": "ellegarden_fes_miyakoislandrock_2026",
+      "type": "イープラス先行",
+      "entryStartAt": "2026-05-20T10:00:00+09:00",
+      "entryEndAt": "2026-06-08T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["ellegarden_fes_miyakoislandrock_2026_miyako_1017"],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/0401040001",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_fes_miyakoislandrock_2026_famima",
+      "tourId": "ellegarden_fes_miyakoislandrock_2026",
+      "type": "ファミリーマート先行",
+      "entryStartAt": "2026-06-17T10:00:00+09:00",
+      "entryEndAt": "2026-06-30T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["ellegarden_fes_miyakoislandrock_2026_miyako_1017"],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/0401040001",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_fes_wonderfulworld_2026_2ji",
+      "tourId": "ellegarden_fes_wonderfulworld_2026",
+      "type": "オフィシャル2次先行",
+      "entryStartAt": "2026-05-15T19:00:00+09:00",
+      "entryEndAt": "2026-05-24T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["ellegarden_fes_wonderfulworld_2026_ginowan_1107", "ellegarden_fes_wonderfulworld_2026_ginowan_1108"],
+      "source": "system",
+      "sourceUrl": "https://www800.asia/2026/ticket",
       "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
     }
   ]
