@@ -17,7 +17,8 @@ $ARGUMENTS … 収集するアーティスト名（1組）
 4. スキーマ（docs参照: data-model.md準拠）に変換し、data/*.json に追記
 5. data/manifest.json の version を +1、hash を更新
 6. 品質チェック（COLLECTION_RULES.md §7）を全て通す
-7. git add / commit / push
+7. `python3 tools/discover_watch_urls.py {id}` で監視URLを登録（/refresh-smart の見落とし防止）
+8. git add / commit / push（cache/watch_urls.json も含める）
 
 ## 完了報告
 - 追加/更新した アーティスト/公演/抽選 の数

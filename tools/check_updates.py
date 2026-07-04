@@ -3,6 +3,11 @@
 各アーティストのソースURLを確認し、前回から変更があったアーティストIDを stdout に1行ずつ出力する。
 cache/source_hashes.json にフィンガープリントを保存して差分検出に使う。
 
+監視対象URLは基本的に artists.json の sourceUrl（公式サイトTOP）1本だが、
+cache/watch_urls.json（discover_watch_urls.py が生成）にNEWS/LIVE系ページが
+登録されているアーティストは、それらのURLも追加で監視する（TOPページのみの
+監視だと別ページの更新を見落とす可能性があるため）。
+
 使い方:
   python3 tools/check_updates.py              # 全アーティストをチェック
   python3 tools/check_updates.py yuzu milk    # 指定アーティストのみ
@@ -17,6 +22,7 @@ from typing import Dict, List, Optional
 CACHE_FILE = Path("cache/source_hashes.json")
 ARTISTS_FILE = Path("data/artists.json")
 ARTIST_DIR = Path("data/artist")
+WATCH_URLS_FILE = Path("cache/watch_urls.json")
 
 
 class _TextExtractor(HTMLParser):
@@ -84,15 +90,36 @@ def _fingerprint_changed(new_fp: Dict, old_fp: Optional[Dict]) -> bool:
     return True
 
 
-def _get_artist_urls(artist_id: str, artists_json: List) -> List[str]:
+def _load_watch_urls() -> Dict[str, List[str]]:
+    """cache/watch_urls.json（{artist_id: [追加監視URL, ...]}）を読み込む。
+    ファイルが存在しない場合は空dictを返す（従来通りsourceUrlのみの動作）。"""
+    if not WATCH_URLS_FILE.exists():
+        return {}
+    try:
+        return json.loads(WATCH_URLS_FILE.read_text())
+    except json.JSONDecodeError:
+        return {}
+
+
+def _get_artist_urls(artist_id: str, artists_json: List, watch_urls: Optional[Dict[str, List[str]]] = None) -> List[str]:
     """アーティストの監視対象URLを返す。
-    artists.json の sourceUrl（公式サイト）のみを使用する。
+    基本は artists.json の sourceUrl（公式サイト）。
     個別イベントページは公式発表後ほぼ変化せず、サードパーティURL（livefans等）は
-    動的生成で毎回ハッシュが変わるため、公式サイト1本に絞る。"""
+    動的生成で毎回ハッシュが変わるため対象外とする。
+    cache/watch_urls.json に discover_watch_urls.py が発見した NEWS/LIVE 系ページが
+    登録されている場合は、それらも監視対象に追加する（重複除去）。"""
+    watch_urls = watch_urls or {}
+    urls: List[str] = []
     for a in artists_json:
         if a["id"] == artist_id and a.get("sourceUrl"):
-            return [a["sourceUrl"]]
-    return []
+            urls.append(a["sourceUrl"])
+            break
+
+    for extra in watch_urls.get(artist_id, []):
+        if extra not in urls:
+            urls.append(extra)
+
+    return urls
 
 
 def main() -> None:
@@ -103,6 +130,7 @@ def main() -> None:
 
     artists_json: list = json.loads(ARTISTS_FILE.read_text())
     cache: dict = json.loads(CACHE_FILE.read_text()) if CACHE_FILE.exists() else {}
+    watch_urls = _load_watch_urls()
 
     target_ids = args.artist_ids if args.artist_ids else [a["id"] for a in artists_json]
 
@@ -112,7 +140,7 @@ def main() -> None:
     print(f"=== {len(target_ids)}組をチェック中 ===", file=sys.stderr)
 
     for i, aid in enumerate(target_ids, 1):
-        urls = _get_artist_urls(aid, artists_json)
+        urls = _get_artist_urls(aid, artists_json, watch_urls)
         artist_changed = False
 
         print(f"  [{i}/{len(target_ids)}] {aid} ({len(urls)}URL) ...", file=sys.stderr, end=" ")

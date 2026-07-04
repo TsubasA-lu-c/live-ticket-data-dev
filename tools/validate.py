@@ -12,7 +12,7 @@ import json
 import os
 import sys
 import hashlib
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 
 # リポジトリルートを基準にする
@@ -567,6 +567,247 @@ def check_l_data_freshness(artist_files_data):
         print(f"[WARNING] データ鮮度 — {warn_count}件が古くなっています")
 
 
+def _parse_dt(value):
+    """ISO8601文字列をパースして aware datetime を返す。失敗時は None（check_iで別途報告済み）"""
+    if not value:
+        return None
+    try:
+        return datetime.fromisoformat(value)
+    except (ValueError, TypeError):
+        return None
+
+
+# ===== チェック M: 意味的整合性（日付の前後関係） =====
+def check_m_semantic_dates(artists_data, artist_files_data):
+    """
+    日時フィールド同士の前後関係が意味的に矛盾していないかチェックする。
+    null のフィールドはチェック対象外（未発表情報のため）。
+    """
+    if artist_files_data is None:
+        return
+
+    now = datetime.now().astimezone()
+    future_limit = now + timedelta(days=1)
+    err_count = 0
+    warn_count = 0
+
+    def check_future(label, ident, val, aid):
+        nonlocal warn_count
+        dt = _parse_dt(val)
+        if dt is None:
+            return
+        try:
+            if dt > future_limit:
+                add_warning(f"lastVerifiedAt未来日: {label} '{ident}' の lastVerifiedAt '{val}' が未来の日付です ({aid})")
+                warn_count += 1
+        except TypeError:
+            pass  # aware/naive比較不能。check_iで別途報告済みのため無視
+
+    # artists.json の lastVerifiedAt
+    if artists_data is not None:
+        for entry in artists_data:
+            check_future("artist", entry.get("id", "???"), entry.get("lastVerifiedAt"), entry.get("id", "???"))
+
+    for aid, data in artist_files_data.items():
+        if data is None:
+            continue
+
+        tours_by_id = {t.get("id"): t for t in data.get("tours", []) if t.get("id")}
+
+        for tour in data.get("tours", []):
+            tid = tour.get("id", "???")
+            check_future("tour", tid, tour.get("lastVerifiedAt"), aid)
+
+        for perf in data.get("performances", []):
+            pid = perf.get("id", "???")
+            check_future("performance", pid, perf.get("lastVerifiedAt"), aid)
+
+            door = _parse_dt(perf.get("doorOpenAt"))
+            start = _parse_dt(perf.get("performanceAt"))
+            try:
+                if door is not None and start is not None and door > start:
+                    add_error(f"意味的整合性: performance '{pid}' の doorOpenAt がperformanceAtより後です ({aid})")
+                    err_count += 1
+            except TypeError:
+                pass
+
+            # 所属ツアーの開催期間との整合性（endDateは日付のみの場合があるため+1日許容）
+            tour = tours_by_id.get(perf.get("tourId"))
+            if tour is not None and start is not None:
+                tour_start = _parse_dt(tour.get("startDate"))
+                tour_end = _parse_dt(tour.get("endDate"))
+                try:
+                    if tour_start is not None and start < tour_start:
+                        add_warning(
+                            f"公演日がツアー期間外: performance '{pid}' の performanceAt がtour '{tour.get('id')}' の startDateより前です ({aid})"
+                        )
+                        warn_count += 1
+                    elif tour_end is not None and start > tour_end + timedelta(days=1):
+                        add_warning(
+                            f"公演日がツアー期間外: performance '{pid}' の performanceAt がtour '{tour.get('id')}' の endDate+1日より後です ({aid})"
+                        )
+                        warn_count += 1
+                except TypeError:
+                    pass
+
+        for lottery in data.get("lotteries", []):
+            lid = lottery.get("id", "???")
+            check_future("lottery", lid, lottery.get("lastVerifiedAt"), aid)
+
+            entry_start = _parse_dt(lottery.get("entryStartAt"))
+            entry_end = _parse_dt(lottery.get("entryEndAt"))
+            result_at = _parse_dt(lottery.get("resultAt"))
+            payment_start = _parse_dt(lottery.get("paymentStartAt"))
+            payment_end = _parse_dt(lottery.get("paymentEndAt"))
+
+            try:
+                if entry_start is not None and entry_end is not None and entry_start > entry_end:
+                    add_error(f"意味的整合性: lottery '{lid}' の entryStartAt がentryEndAtより後です ({aid})")
+                    err_count += 1
+                if result_at is not None and entry_end is not None and result_at < entry_end:
+                    add_error(f"意味的整合性: lottery '{lid}' の resultAt がentryEndAtより前です（当落発表が締切より前）({aid})")
+                    err_count += 1
+                if payment_start is not None and payment_end is not None and payment_start > payment_end:
+                    add_error(f"意味的整合性: lottery '{lid}' の paymentStartAt がpaymentEndAtより後です ({aid})")
+                    err_count += 1
+                if payment_end is not None and result_at is not None and payment_end < result_at:
+                    add_error(f"意味的整合性: lottery '{lid}' の paymentEndAt がresultAtより前です（入金締切が当落発表より前）({aid})")
+                    err_count += 1
+            except TypeError:
+                pass
+
+    if err_count == 0:
+        print(f"[OK] 意味的整合性（日付の前後関係）")
+    else:
+        print(f"[FAIL] 意味的整合性（日付の前後関係） — {err_count}件のエラー")
+    if warn_count:
+        print(f"[WARNING] 意味的整合性（日付の前後関係）関連 — {warn_count}件の警告")
+
+
+# ===== チェック N: 抜け漏れ検出（カバレッジ） =====
+def check_n_coverage(artist_files_data):
+    """
+    収集漏れの可能性がある箇所を検出する（すべてWARNING。誤検知の可能性があるため要目視確認）。
+    """
+    if artist_files_data is None:
+        return
+
+    now = datetime.now().astimezone()
+    warn_count = 0
+
+    for aid, data in artist_files_data.items():
+        if data is None:
+            continue
+
+        tours = data.get("tours", [])
+        performances = data.get("performances", [])
+        lotteries = data.get("lotteries", [])
+
+        perf_by_id = {p.get("id"): p for p in performances if p.get("id")}
+        tour_ids_with_lottery = {lot.get("tourId") for lot in lotteries if lot.get("tourId")}
+
+        # 未来の公演を持つツアーにLotteryが1件もない
+        # ※ 未来公演が全て kind=="fes"（フェス出演のみ）のツアーは対象外
+        #   （フェス出演にはアーティスト個別の先行抽選が存在しないのが通常のため）
+        for tour in tours:
+            tid = tour.get("id")
+            if not tid:
+                continue
+            future_perfs = []
+            for p in performances:
+                if p.get("tourId") != tid:
+                    continue
+                dt = _parse_dt(p.get("performanceAt"))
+                if dt is not None and dt > now:
+                    future_perfs.append(p)
+            has_non_fes_future = any(p.get("kind") != "fes" for p in future_perfs)
+            if future_perfs and has_non_fes_future and tid not in tour_ids_with_lottery:
+                add_warning(
+                    f"収集漏れ疑い: tour '{tid}' は未来の公演があるのに抽選情報の収集漏れの可能性（一般発売のみの場合は無視可） ({aid})"
+                )
+                warn_count += 1
+
+        # 未来の公演でvenueがnull
+        for perf in performances:
+            dt = _parse_dt(perf.get("performanceAt"))
+            if dt is not None and dt > now and perf.get("venue") is None:
+                add_warning(
+                    f"収集漏れ疑い: performance '{perf.get('id', '???')}' は会場未収集（フェス公式・チケットサイトで要確認） ({aid})"
+                )
+                warn_count += 1
+
+        # 受付終了日が未来なのに対象公演が全て過去
+        for lottery in lotteries:
+            lid = lottery.get("id", "???")
+            entry_end = _parse_dt(lottery.get("entryEndAt"))
+            if entry_end is None or entry_end <= now:
+                continue
+
+            pids = lottery.get("performanceIds")
+            if pids is None:
+                targets = [p for p in performances if p.get("tourId") == lottery.get("tourId")]
+            elif isinstance(pids, list):
+                targets = [perf_by_id[pid] for pid in pids if pid in perf_by_id]
+            else:
+                targets = []
+
+            if not targets:
+                continue
+
+            all_past = True
+            for t in targets:
+                dt = _parse_dt(t.get("performanceAt"))
+                if dt is None or dt > now:
+                    all_past = False
+                    break
+
+            if all_past:
+                add_warning(
+                    f"日程矛盾疑い: lottery '{lid}' はentryEndAtが未来なのに対象公演が全て終了しています ({aid})"
+                )
+                warn_count += 1
+
+    if warn_count == 0:
+        print("[OK] 抜け漏れ検出（カバレッジ）")
+    else:
+        print(f"[WARNING] 抜け漏れ検出（カバレッジ） — {warn_count}件の警告")
+
+
+# ===== チェック O: 料金の妥当性 =====
+def check_o_prices(artist_files_data):
+    """Tour.prices の amount が整数かつ妥当な範囲（500〜100000円）か"""
+    if artist_files_data is None:
+        return
+
+    PRICE_MIN = 500
+    PRICE_MAX = 100000
+    warn_count = 0
+
+    for aid, data in artist_files_data.items():
+        if data is None:
+            continue
+
+        for tour in data.get("tours", []):
+            tid = tour.get("id", "???")
+            for price in tour.get("prices", []) or []:
+                amount = price.get("amount")
+                if amount is None:
+                    continue
+                if not isinstance(amount, int) or isinstance(amount, bool):
+                    add_warning(f"料金不正: tour '{tid}' の price '{price.get('label', '???')}' のamountが整数ではありません ({aid})")
+                    warn_count += 1
+                elif amount < PRICE_MIN or amount > PRICE_MAX:
+                    add_warning(
+                        f"料金範囲外: tour '{tid}' の price '{price.get('label', '???')}' のamount {amount}円 が {PRICE_MIN}〜{PRICE_MAX}円の範囲外です ({aid})"
+                    )
+                    warn_count += 1
+
+    if warn_count == 0:
+        print("[OK] 料金の妥当性")
+    else:
+        print(f"[WARNING] 料金の妥当性 — {warn_count}件の警告")
+
+
 # ===== メイン =====
 def main():
     print("=== validate.py ===")
@@ -611,6 +852,15 @@ def main():
 
     # L: データ鮮度チェック
     check_l_data_freshness(artist_files_data)
+
+    # M: 意味的整合性（日付の前後関係）
+    check_m_semantic_dates(artists_data, artist_files_data)
+
+    # N: 抜け漏れ検出（カバレッジ）
+    check_n_coverage(artist_files_data)
+
+    # O: 料金の妥当性
+    check_o_prices(artist_files_data)
 
     print()
 

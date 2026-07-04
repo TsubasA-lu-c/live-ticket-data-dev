@@ -31,7 +31,8 @@
 
 1. /refresh-smart（推奨・毎週）
    公式サイトに変化があったアーティストのみ更新。セッション消費が少ない。
-   ※ 公式TOPページのみ監視のため、別ページに情報がある場合は見落としの可能性あり。
+   ※ 公式TOP＋cache/watch_urls.json に登録した NEWS/LIVE ページを監視。
+     未登録ページに情報がある場合は見落としの可能性あり。
 
 2. /refresh-hot（週次フォールバック）
    抽選締切が90日以内のアーティストのみ更新。差分チェックなしで直接取得するため精度高め。
@@ -75,9 +76,14 @@
    python3 tools/update_manifest.py
    ```
 
-7. **commit & push**
+7. **監視URL登録**（必須・/refresh-smart の見落とし防止）
    ```
-   git add data/artist/{id}.json data/artists.json data/manifest.json
+   python3 tools/discover_watch_urls.py {id}
+   ```
+
+8. **commit & push**
+   ```
+   git add data/artist/{id}.json data/artists.json data/manifest.json cache/watch_urls.json
    git commit -m "add: {アーティスト名}を追加"
    git push origin main
    ```
@@ -128,6 +134,7 @@
 - サブは `run_in_background: true` で5つ同時起動する
 - artists.jsonの更新は**グループ全員完了後に一括で**行う（途中更新は不整合の原因）
 - manifest更新（`update_manifest.py`）は**全グループ完了後に1回だけ**
+- **メインは commit 前に各サブの根拠引用と JSON 入力値を照合する**（引用がない・引用と食い違う日程は null に修正するか再収集を指示。validate.py の WARNING も「抜け漏れの疑い」として内容確認してから push）
 
 ### サブエージェントへの指示テンプレート
 
@@ -136,6 +143,10 @@
 - 実施内容（追加 or 更新 or 更新+終了掃除）
 - **`data/artist/{id}.json` のみ書くこと（artists.json/manifest.json は触らない）**
 - 完了後に `lastVerifiedAt`（更新日時）と参照URLを報告すること
+- **完了報告に以下を必ず含めること（COLLECTION_RULES.md §2.5「根拠引用の義務」）:**
+  - 確認したページのURL一覧（LIVE/TOURページ・NEWSページ・辿った個別記事・チケットサイト）
+  - 収集・更新した各抽選日程の**根拠引用**（取得ページ内の日程が書かれている一文＋URL）。引用できない日程は入力せず null にする
+  - 発見したライブ関連イベント数と収集したイベント数（差があれば理由を明記）
 - validate.py は**実行しない**（メインが一括で行う）
 - **情報収集の注意点（必ず守ること）:**
   - 公式サイトの schedule・news 一覧ページを確認したら、個別記事リンク（`/news/detail/*` 等）も必ずWebFetchで開いて詳細を確認する
