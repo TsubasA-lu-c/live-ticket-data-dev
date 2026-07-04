@@ -2,6 +2,19 @@
   "artistId": "golden_bomber",
   "tours": [
     {
+      "id": "gb_test_live_2026",
+      "artistId": "golden_bomber",
+      "title": "【テスト】チケノート動作確認用ライブ",
+      "startDate": "2026-07-20T00:00:00+09:00",
+      "endDate": "2026-07-20T00:00:00+09:00",
+      "prices": [
+        {"label": "テスト席", "amount": 1000}
+      ],
+      "source": "system",
+      "sourceUrl": "https://example.com/test",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
+    {
       "id": "golden_bomber_asuto_music_park_2026",
       "artistId": "golden_bomber",
       "title": "ASUTO MUSIC PARK 2026",
@@ -39,6 +52,18 @@
     }
   ],
   "performances": [
+    {
+      "id": "gb_test_live_2026_tokyo",
+      "tourId": "gb_test_live_2026",
+      "venue": "【テスト会場】チケノートホール",
+      "performanceAt": "2026-07-20T18:00:00+09:00",
+      "doorOpenAt": "2026-07-20T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://example.com/test",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
     {
       "id": "golden_bomber_asuto_music_park_2026_sendai_0905",
       "tourId": "golden_bomber_asuto_music_park_2026",
@@ -185,6 +210,22 @@
     }
   ],
   "lotteries": [
+    {
+      "id": "gb_test_live_2026_lottery",
+      "tourId": "gb_test_live_2026",
+      "type": "テスト抽選",
+      "entryStartAt": "2026-07-04T00:00:00+09:00",
+      "entryEndAt": "2026-07-10T23:59:00+09:00",
+      "resultAt": "2026-07-12T12:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "gb_test_live_2026_tokyo"
+      ],
+      "source": "system",
+      "sourceUrl": "https://example.com/test",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
     {
       "id": "gb_asuto_2026_senko_1st",
       "tourId": "golden_bomber_asuto_music_park_2026",
