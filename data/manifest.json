@@ -1,9 +1,9 @@
 {
-  "version": 64,
-  "updatedAt": "2026-07-04T15:52:16+09:00",
+  "version": 65,
+  "updatedAt": "2026-07-08T15:14:29+09:00",
   "files": {
     "artists": {
-      "hash": "55964591b1c089a6"
+      "hash": "7e202ca9bbf8d728"
     }
   },
   "artists": {
@@ -309,6 +309,9 @@
     },
     "ellegarden": {
       "hash": "2ad38834f86c8606"
+    },
+    "urashimasakatasen": {
+      "hash": "dc43a101766c3b94"
     }
   }
 }
