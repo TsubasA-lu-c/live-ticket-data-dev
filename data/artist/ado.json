@@ -54,6 +54,26 @@
       "source": "system",
       "sourceUrl": "https://www.rockinjapan.com/",
       "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "ado_event_2026",
+      "artistId": "ado",
+      "title": "Adoのドキドキ秘密基地有料会員様限定LIVE",
+      "startDate": "2026-10-24T00:00:00+09:00",
+      "endDate": "2026-10-25T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 15000
+        },
+        {
+          "label": "車椅子席",
+          "amount": 15000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.universal-music.co.jp/ado/news/2026-07-03-3/",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -104,7 +124,49 @@
       "source": "system",
       "sourceUrl": "https://www.rockinjapan.com/",
       "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "ado_event_2026_dokidoki_1024",
+      "tourId": "ado_event_2026",
+      "venue": "国立代々木競技場 第一体育館",
+      "performanceAt": "2026-10-24T17:00:00+09:00",
+      "doorOpenAt": "2026-10-24T15:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "Adoのドキドキ秘密基地有料会員様限定LIVE",
+      "source": "system",
+      "sourceUrl": "https://www.universal-music.co.jp/ado/news/2026-07-03-3/",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "ado_event_2026_dokidoki_1025",
+      "tourId": "ado_event_2026",
+      "venue": "国立代々木競技場 第一体育館",
+      "performanceAt": "2026-10-25T16:00:00+09:00",
+      "doorOpenAt": "2026-10-25T14:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "Adoのドキドキ秘密基地有料会員様限定LIVE",
+      "source": "system",
+      "sourceUrl": "https://www.universal-music.co.jp/ado/news/2026-07-03-3/",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
   ],
-  "lotteries": []
+  "lotteries": [
+    {
+      "id": "ado_event_2026_fc",
+      "tourId": "ado_event_2026",
+      "type": "FC会員先行",
+      "entryStartAt": "2026-07-05T22:00:00+09:00",
+      "entryEndAt": "2026-07-26T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ado_event_2026_dokidoki_1024",
+        "ado_event_2026_dokidoki_1025"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.universal-music.co.jp/ado/news/2026-07-03-3/",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    }
+  ]
 }
