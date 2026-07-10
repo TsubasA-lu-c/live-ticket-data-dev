@@ -2,17 +2,6 @@
   "artistId": "yabai_tshirts_yasan",
   "tours": [
     {
-      "id": "yabai_tshirts_yasan_fes_kyotodaisakusen_2026",
-      "artistId": "yabai_tshirts_yasan",
-      "title": "京都大作戦2026〜夏フェスキックオフ！情熱のパスを繋ぎな祭〜",
-      "startDate": "2026-07-04T00:00:00+09:00",
-      "endDate": "2026-07-04T00:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://yabaitshirtsyasan.com/",
-      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
-    },
-    {
       "id": "yabai_tshirts_yasan_fes_talkingrockfes_2026",
       "artistId": "yabai_tshirts_yasan",
       "title": "30th Anniversary Special Talking Rock! FES.2026 横浜編",
@@ -21,7 +10,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://yabaitshirtsyasan.com/",
-      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "yabai_tshirts_yasan_fes_oganamahage_2026",
@@ -68,7 +57,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://yabaitshirtsyasan.com/mtp_tour/",
-      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "yabai_tshirts_yasan_fes_gfest_2026",
@@ -106,18 +95,6 @@
   ],
   "performances": [
     {
-      "id": "yabai_tshirts_yasan_fes_kyotodaisakusen_2026_kd_0704",
-      "tourId": "yabai_tshirts_yasan_fes_kyotodaisakusen_2026",
-      "venue": "京都府立山城総合運動公園 太陽が丘特設野外ステージ",
-      "performanceAt": "2026-07-04T12:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "京都大作戦2026〜夏フェスキックオフ！情熱のパスを繋ぎな祭〜",
-      "source": "system",
-      "sourceUrl": "https://yabaitshirtsyasan.com/",
-      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
-    },
-    {
       "id": "yabai_tshirts_yasan_fes_talkingrockfes_2026_tr_0712",
       "tourId": "yabai_tshirts_yasan_fes_talkingrockfes_2026",
       "venue": "横浜アリーナ",
@@ -127,7 +104,7 @@
       "eventName": "30th Anniversary Special Talking Rock! FES.2026 横浜編",
       "source": "system",
       "sourceUrl": "https://yabaitshirtsyasan.com/",
-      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "yabai_tshirts_yasan_fes_oganamahage_2026_on_0724",
@@ -491,7 +468,7 @@
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://yabaitshirtsyasan.com/mtp_tour/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
   ]
 }
