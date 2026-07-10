@@ -12,10 +12,214 @@
       ],
       "source": "system",
       "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     }
   ],
   "performances": [
+    {
+      "id": "ikimonogakari_angyar_2026_kanagawa_0418",
+      "tourId": "ikimonogakari_angyar_2026",
+      "venue": "厚木市文化会館",
+      "performanceAt": "2026-04-18T17:00:00+09:00",
+      "doorOpenAt": "2026-04-18T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_chiba_0426",
+      "tourId": "ikimonogakari_angyar_2026",
+      "venue": "市川市文化会館 大ホール",
+      "performanceAt": "2026-04-26T17:00:00+09:00",
+      "doorOpenAt": "2026-04-26T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_gunma_0429",
+      "tourId": "ikimonogakari_angyar_2026",
+      "venue": "高崎芸術劇場 大劇場",
+      "performanceAt": "2026-04-29T17:00:00+09:00",
+      "doorOpenAt": "2026-04-29T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_okayama_0523",
+      "tourId": "ikimonogakari_angyar_2026",
+      "venue": "岡山芸術創造劇場 ハレノワ 大劇場",
+      "performanceAt": "2026-05-23T17:00:00+09:00",
+      "doorOpenAt": "2026-05-23T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_tottori_0524",
+      "tourId": "ikimonogakari_angyar_2026",
+      "venue": "米子コンベンションセンター",
+      "performanceAt": "2026-05-24T17:00:00+09:00",
+      "doorOpenAt": "2026-05-24T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_fukuoka_0718",
+      "tourId": "ikimonogakari_angyar_2026",
+      "venue": "福岡サンパレス ホテル＆ホール",
+      "performanceAt": "2026-07-18T17:00:00+09:00",
+      "doorOpenAt": "2026-07-18T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_kumamoto_0719",
+      "tourId": "ikimonogakari_angyar_2026",
+      "venue": "熊本城ホール メインホール",
+      "performanceAt": "2026-07-19T17:00:00+09:00",
+      "doorOpenAt": "2026-07-19T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_nagasaki_0801",
+      "tourId": "ikimonogakari_angyar_2026",
+      "venue": "ベネックス長崎ブリックホール",
+      "performanceAt": "2026-08-01T17:00:00+09:00",
+      "doorOpenAt": "2026-08-01T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_oita_0802",
+      "tourId": "ikimonogakari_angyar_2026",
+      "venue": "iichikoグランシアタ",
+      "performanceAt": "2026-08-02T17:00:00+09:00",
+      "doorOpenAt": "2026-08-02T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_yamagata_0809",
+      "tourId": "ikimonogakari_angyar_2026",
+      "venue": "やまぎん県民ホール",
+      "performanceAt": "2026-08-09T17:00:00+09:00",
+      "doorOpenAt": "2026-08-09T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_shiga_0829",
+      "tourId": "ikimonogakari_angyar_2026",
+      "venue": "大津市民会館 大ホール",
+      "performanceAt": "2026-08-29T17:00:00+09:00",
+      "doorOpenAt": "2026-08-29T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_shimane_1003",
+      "tourId": "ikimonogakari_angyar_2026",
+      "venue": "島根県芸術文化センターグラントワ",
+      "performanceAt": "2026-10-03T17:00:00+09:00",
+      "doorOpenAt": "2026-10-03T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_hiroshima_1004",
+      "tourId": "ikimonogakari_angyar_2026",
+      "venue": "広島文化学園HBGホール",
+      "performanceAt": "2026-10-04T17:00:00+09:00",
+      "doorOpenAt": "2026-10-04T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_kagawa_1010",
+      "tourId": "ikimonogakari_angyar_2026",
+      "venue": "レクザムホール・大ホール",
+      "performanceAt": "2026-10-10T17:00:00+09:00",
+      "doorOpenAt": "2026-10-10T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_ehime_1011",
+      "tourId": "ikimonogakari_angyar_2026",
+      "venue": "松山市民会館・大ホール",
+      "performanceAt": "2026-10-11T17:00:00+09:00",
+      "doorOpenAt": "2026-10-11T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_aomori_1016",
+      "tourId": "ikimonogakari_angyar_2026",
+      "venue": "リンクステーションホール青森",
+      "performanceAt": "2026-10-16T17:00:00+09:00",
+      "doorOpenAt": "2026-10-16T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_hokkaido_1103",
+      "tourId": "ikimonogakari_angyar_2026",
+      "venue": "札幌文化芸術劇場hitaru",
+      "performanceAt": "2026-11-03T17:00:00+09:00",
+      "doorOpenAt": "2026-11-03T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
     {
       "id": "ikimonogakari_angyar_2026_yamaguchi_0822",
       "tourId": "ikimonogakari_angyar_2026",
@@ -26,7 +230,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "ikimonogakari_angyar_2026_niigata_1115",
@@ -38,7 +242,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "ikimonogakari_angyar_2026_wakayama_1123",
@@ -50,7 +254,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "ikimonogakari_angyar_2026_sendai_0207",
@@ -62,7 +266,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "ikimonogakari_angyar_2026_fukui_0227",
@@ -74,7 +278,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "ikimonogakari_angyar_2026_toyama_0228",
@@ -86,7 +290,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "ikimonogakari_angyar_2026_nara_0306",
@@ -98,7 +302,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "ikimonogakari_angyar_2026_kyoto_0307",
@@ -110,7 +314,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "ikimonogakari_angyar_2026_aichi1_0320",
@@ -122,7 +326,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "ikimonogakari_angyar_2026_aichi2_0321",
@@ -134,7 +338,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "ikimonogakari_angyar_2026_okinawa_0327",
@@ -146,7 +350,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "ikimonogakari_angyar_2026_ishikawa_0403",
@@ -158,7 +362,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "ikimonogakari_angyar_2026_nagano_0404",
@@ -170,7 +374,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "ikimonogakari_angyar_2026_tokyo_0410",
@@ -182,7 +386,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "ikimonogakari_angyar_2026_tochigi_0424",
@@ -194,7 +398,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "ikimonogakari_angyar_2026_saitama_0425",
@@ -206,7 +410,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -239,7 +443,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "ikimonogakari_angyar_2026_line_sen",
@@ -259,7 +463,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     }
   ]
 }
