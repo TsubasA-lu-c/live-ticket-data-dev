@@ -8,12 +8,29 @@
       "startDate": "2026-03-07T00:00:00+09:00",
       "endDate": "2026-07-12T00:00:00+09:00",
       "prices": [
-        {"label": "ファミリークラブ会員チケット", "amount": 9800},
-        {"label": "一般チケット", "amount": 10300}
+        {
+          "label": "ファミリークラブ会員チケット",
+          "amount": 9800
+        },
+        {
+          "label": "一般チケット",
+          "amount": 10300
+        }
       ],
       "source": "system",
       "sourceUrl": "https://starto.jp/s/p/live/10403",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "ae_group_fes_kamigata_2026",
+      "artistId": "ae_group",
+      "title": "KAMIGATA EXPO PARK FES 2026",
+      "startDate": "2026-10-31T00:00:00+09:00",
+      "endDate": "2026-11-01T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10545",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -376,6 +393,30 @@
       "source": "system",
       "sourceUrl": "https://starto.jp/s/p/live/10403",
       "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "ae_group_fes_kamigata_2026_osaka_1031",
+      "tourId": "ae_group_fes_kamigata_2026",
+      "venue": "万博記念公園",
+      "performanceAt": "2026-10-31T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "KAMIGATA EXPO PARK FES 2026",
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10545",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "ae_group_fes_kamigata_2026_osaka_1101",
+      "tourId": "ae_group_fes_kamigata_2026",
+      "venue": "万博記念公園",
+      "performanceAt": "2026-11-01T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "KAMIGATA EXPO PARK FES 2026",
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10545",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
   ],
   "lotteries": [

@@ -7,10 +7,19 @@
       "title": "TMG LIVE 2026 \"SAYONARA\"",
       "startDate": "2026-10-05T00:00:00+09:00",
       "endDate": "2026-10-23T00:00:00+09:00",
-      "prices": null,
+      "prices": [
+        {
+          "label": "Zepp公演 指定席",
+          "amount": 20000
+        },
+        {
+          "label": "東京ガーデンシアター 指定席",
+          "amount": 16000
+        }
+      ],
       "source": "system",
       "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -136,7 +145,7 @@
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "bz_tmg_sayonara_2026_ticket_2nd",
@@ -150,7 +159,7 @@
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "bz_tmg_sayonara_2026_ticket_3rd",
@@ -164,7 +173,49 @@
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "bz_tmg_sayonara_2026_ponta",
+      "tourId": "bz_tmg_sayonara_2026",
+      "type": "Pontaパス会員先行",
+      "entryStartAt": "2026-07-23T12:00:00+09:00",
+      "entryEndAt": "2026-08-02T23:59:00+09:00",
+      "resultAt": "2026-08-06T20:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "bz_tmg_sayonara_2026_pia",
+      "tourId": "bz_tmg_sayonara_2026",
+      "type": "いち早プレリザーブ先行（ぴあカード会員）",
+      "entryStartAt": "2026-08-03T12:00:00+09:00",
+      "entryEndAt": "2026-08-16T23:59:00+09:00",
+      "resultAt": "2026-08-20T20:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "bz_tmg_sayonara_2026_seven_eleven",
+      "tourId": "bz_tmg_sayonara_2026",
+      "type": "セブン-イレブン抽選",
+      "entryStartAt": "2026-08-17T12:00:00+09:00",
+      "entryEndAt": "2026-08-30T23:59:00+09:00",
+      "resultAt": "2026-09-03T20:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
   ]
 }

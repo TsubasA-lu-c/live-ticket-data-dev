@@ -38,7 +38,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://novelbright.jp/news/detail/2430",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "novelbright_fes_anisonlegends_2026",
@@ -423,7 +423,7 @@
       "eventName": "Novelbright ASIA TOUR 2026 〜PYRAMID〜 IN SEOUL",
       "source": "system",
       "sourceUrl": "https://novelbright.jp/news/detail/2430",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "novelbright_asia_2026_singapore_0818",
@@ -435,7 +435,19 @@
       "eventName": "Novelbright ASIA TOUR 2026 〜PYRAMID〜 IN SINGAPORE",
       "source": "system",
       "sourceUrl": "https://novelbright.jp/news/detail/2430",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "novelbright_asia_2026_hongkong_0825",
+      "tourId": "novelbright_asia_2026",
+      "venue": "MacPherson Stadium",
+      "performanceAt": "2026-08-25T19:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "Novelbright ASIA TOUR 2026 〜PYRAMID〜 in Hong Kong",
+      "source": "system",
+      "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "novelbright_asia_2026_hongkong_0826",
@@ -446,8 +458,8 @@
       "kind": "oneman",
       "eventName": "Novelbright ASIA TOUR 2026 〜PYRAMID〜 in Hong Kong",
       "source": "system",
-      "sourceUrl": "https://novelbright.jp/news/detail/2405",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "novelbright_asia_2026_taipei_1024",
@@ -459,7 +471,7 @@
       "eventName": "Novelbright ASIA TOUR 2026 〜PYRAMID〜 IN TAIPEI",
       "source": "system",
       "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "novelbright_fes_anisonlegends_2026_0704",
