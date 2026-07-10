@@ -73,8 +73,14 @@
       "startDate": "2026-08-02T00:00:00+09:00",
       "endDate": "2026-10-10T00:00:00+09:00",
       "prices": [
-        {"label": "スタンディング（8/2〜9/27）", "amount": 8000},
-        {"label": "全席指定（10/10）", "amount": 8800}
+        {
+          "label": "スタンディング（8/2〜9/27）",
+          "amount": 8000
+        },
+        {
+          "label": "全席指定（10/10）",
+          "amount": 8800
+        }
       ],
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
@@ -87,12 +93,29 @@
       "startDate": "2026-12-06T00:00:00+09:00",
       "endDate": "2027-02-14T00:00:00+09:00",
       "prices": [
-        {"label": "スタンディング（大阪〜愛知）", "amount": 8000},
-        {"label": "全席指定（東京）", "amount": 8800}
+        {
+          "label": "スタンディング（大阪〜愛知）",
+          "amount": 8000
+        },
+        {
+          "label": "全席指定（東京）",
+          "amount": 8800
+        }
       ],
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133054",
       "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+    },
+    {
+      "id": "iris_welcome_to_azatosa_world_release_event_2026",
+      "artistId": "iris",
+      "title": "i☆Ris 27thシングル「Welcome to あざとさワールド」発売記念リリースイベント",
+      "startDate": "2026-07-04T00:00:00+09:00",
+      "endDate": "2026-08-08T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133396",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -602,6 +625,42 @@
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133054",
       "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "iris_welcome_to_azatosa_world_release_event_2026_tokyo_0704",
+      "tourId": "iris_welcome_to_azatosa_world_release_event_2026",
+      "venue": "東京都新宿区（会場詳細はメール案内）",
+      "performanceAt": "2026-07-04T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "i☆Ris 27thシングル「Welcome to あざとさワールド」発売記念リリースイベント",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133396",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "iris_welcome_to_azatosa_world_release_event_2026_osaka_0725",
+      "tourId": "iris_welcome_to_azatosa_world_release_event_2026",
+      "venue": "ヨドバシカメラマルチメディア梅田 B2F ヨドバシホール",
+      "performanceAt": "2026-07-25T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "i☆Ris 27thシングル「Welcome to あざとさワールド」発売記念リリースイベント",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133396",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "iris_welcome_to_azatosa_world_release_event_2026_tokyo_0808",
+      "tourId": "iris_welcome_to_azatosa_world_release_event_2026",
+      "venue": "東京都新宿区（会場詳細はメール案内）",
+      "performanceAt": "2026-08-08T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "i☆Ris 27thシングル「Welcome to あざとさワールド」発売記念リリースイベント",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133396",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -722,6 +781,20 @@
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133855",
       "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "iris_welcome_to_azatosa_world_release_event_2026_purchase",
+      "tourId": "iris_welcome_to_azatosa_world_release_event_2026",
+      "type": "商品購入特典",
+      "entryStartAt": null,
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133396",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
   ]
 }

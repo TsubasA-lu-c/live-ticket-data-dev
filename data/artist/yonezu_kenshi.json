@@ -236,6 +236,35 @@
       "source": "system",
       "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
       "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "yonezu_kenshi_ghost_2026_general",
+      "tourId": "yonezu_kenshi_ghost_2026",
+      "type": "一般販売（抽選）",
+      "entryStartAt": "2026-07-07T18:00:00+09:00",
+      "entryEndAt": "2026-07-26T23:59:00+09:00",
+      "resultAt": "2026-08-12T12:00:00+09:00",
+      "paymentStartAt": "2026-08-12T12:00:00+09:00",
+      "paymentEndAt": "2026-08-23T23:59:00+09:00",
+      "performanceIds": [
+        "yonezu_kenshi_ghost_2026_nagano_1106",
+        "yonezu_kenshi_ghost_2026_nagano_1107",
+        "yonezu_kenshi_ghost_2026_kanagawa_1111",
+        "yonezu_kenshi_ghost_2026_kanagawa_1112",
+        "yonezu_kenshi_ghost_2026_osaka_1118",
+        "yonezu_kenshi_ghost_2026_osaka_1119",
+        "yonezu_kenshi_ghost_2026_fukuoka_1127",
+        "yonezu_kenshi_ghost_2026_fukuoka_1128",
+        "yonezu_kenshi_ghost_2026_miyagi_1203",
+        "yonezu_kenshi_ghost_2026_miyagi_1204",
+        "yonezu_kenshi_ghost_2026_aichi_1208",
+        "yonezu_kenshi_ghost_2026_aichi_1209",
+        "yonezu_kenshi_ghost_2026_kanagawa_1216",
+        "yonezu_kenshi_ghost_2026_kanagawa_1217"
+      ],
+      "source": "system",
+      "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
   ]
 }
