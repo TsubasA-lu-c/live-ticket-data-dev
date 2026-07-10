@@ -235,5 +235,106 @@
       "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     }
   ],
-  "lotteries": []
+  "lotteries": [
+    {
+      "id": "yuuri_asia_tour_gomen_2026_official_1st",
+      "tourId": "yuuri_asia_tour_gomen_2026",
+      "type": "オフィシャル1次抽選先行",
+      "entryStartAt": "2026-07-06T18:00:00+09:00",
+      "entryEndAt": "2026-07-12T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yuuri_asia_tour_gomen_2026_kagawa_1005",
+        "yuuri_asia_tour_gomen_2026_ehime_1006"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/3413260010",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_ichifuji_nikatagi_2026_official_1st",
+      "tourId": "yuuri_ichifuji_nikatagi_2026",
+      "type": "オフィシャル1次抽選先行",
+      "entryStartAt": "2026-03-13T18:00:00+09:00",
+      "entryEndAt": "2026-03-22T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yuuri_ichifuji_nikatagi_2026_fujikyu_0905",
+        "yuuri_ichifuji_nikatagi_2026_fujikyu_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/3413260010",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_ichifuji_nikatagi_2026_official_2nd",
+      "tourId": "yuuri_ichifuji_nikatagi_2026",
+      "type": "オフィシャル2次抽選先行",
+      "entryStartAt": "2026-03-27T18:00:00+09:00",
+      "entryEndAt": "2026-04-05T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yuuri_ichifuji_nikatagi_2026_fujikyu_0905",
+        "yuuri_ichifuji_nikatagi_2026_fujikyu_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/3413260010",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_ichifuji_nikatagi_2026_official_early",
+      "tourId": "yuuri_ichifuji_nikatagi_2026",
+      "type": "オフィシャル先着先行",
+      "entryStartAt": "2026-04-14T18:00:00+09:00",
+      "entryEndAt": "2026-05-10T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yuuri_ichifuji_nikatagi_2026_fujikyu_0905",
+        "yuuri_ichifuji_nikatagi_2026_fujikyu_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/3413260010",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_ichifuji_nikatagi_2026_general_0905",
+      "tourId": "yuuri_ichifuji_nikatagi_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-05-16T10:00:00+09:00",
+      "entryEndAt": "2026-09-04T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yuuri_ichifuji_nikatagi_2026_fujikyu_0905"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/3413260010",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_ichifuji_nikatagi_2026_general_0906",
+      "tourId": "yuuri_ichifuji_nikatagi_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-05-16T10:00:00+09:00",
+      "entryEndAt": "2026-09-05T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yuuri_ichifuji_nikatagi_2026_fujikyu_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/3413260010",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    }
+  ]
 }
