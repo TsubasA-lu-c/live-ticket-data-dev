@@ -9,8 +9,8 @@
       "endDate": "2026-08-22T00:00:00+09:00",
       "prices": null,
       "source": "system",
-      "sourceUrl": "https://hypster-fc.com/news/2?lang=ja",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "sourceUrl": "https://hypster-fc.com/news/2",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "hypnosis_mic_9th_anniv_2026",
@@ -23,7 +23,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://hypnosismic.com/news/hm260612-2/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -37,7 +37,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hypster-fc.com/news/2?lang=ja",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "hypnosis_mic_djt3_2026_divercity_0724",
@@ -49,7 +49,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hypster-fc.com/news/2?lang=ja",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "hypnosis_mic_djt3_2026_divercity_fc_0724",
@@ -61,7 +61,7 @@
       "eventName": "会員限定公演",
       "source": "system",
       "sourceUrl": "https://hypster-fc.com/news/2?lang=ja",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "hypnosis_mic_djt3_2026_namba_0814",
@@ -73,7 +73,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hypster-fc.com/news/2?lang=ja",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "hypnosis_mic_djt3_2026_namba_fc_0814",
@@ -85,7 +85,7 @@
       "eventName": "会員限定公演",
       "source": "system",
       "sourceUrl": "https://hypster-fc.com/news/2?lang=ja",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "hypnosis_mic_djt3_2026_namba_0815",
@@ -97,7 +97,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hypster-fc.com/news/2?lang=ja",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "hypnosis_mic_djt3_2026_sapporo_0821",
@@ -109,7 +109,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hypster-fc.com/news/2?lang=ja",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "hypnosis_mic_djt3_2026_sapporo_fc_0821",
@@ -121,7 +121,7 @@
       "eventName": "会員限定公演",
       "source": "system",
       "sourceUrl": "https://hypster-fc.com/news/2?lang=ja",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "hypnosis_mic_djt3_2026_sapporo_0822",
@@ -133,7 +133,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hypster-fc.com/news/2?lang=ja",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "hypnosis_mic_9th_anniv_2026_berth_0905_day",
@@ -145,7 +145,7 @@
       "eventName": "昼の部",
       "source": "system",
       "sourceUrl": "https://hypnosismic.com/news/hm260612-2/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "hypnosis_mic_9th_anniv_2026_berth_0905_eve",
@@ -157,10 +157,24 @@
       "eventName": "夜の部",
       "source": "system",
       "sourceUrl": "https://hypnosismic.com/news/hm260612-2/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     }
   ],
   "lotteries": [
+    {
+      "id": "hypnosis_mic_djt3_2026_hypster_fc",
+      "tourId": "hypnosis_mic_djt3_2026",
+      "type": "FC先行",
+      "entryStartAt": null,
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://hypster-fc.com/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
     {
       "id": "hypnosis_mic_9th_anniv_2026_hypster_fc",
       "tourId": "hypnosis_mic_9th_anniv_2026",
@@ -176,7 +190,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://hypnosismic.com/news/hm260612-2/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "hypnosis_mic_9th_anniv_2026_cd_prior",
@@ -193,7 +207,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://hypnosismic.com/news/hm260612-2/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "hypnosis_mic_9th_anniv_2026_general",
@@ -210,7 +224,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://hypnosismic.com/news/hm260612-2/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     }
   ]
 }
