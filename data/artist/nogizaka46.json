@@ -19,7 +19,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "nogizaka46_tif_2026",
@@ -247,6 +247,25 @@
   ],
   "lotteries": [
     {
+      "id": "nogizaka46_manatsu_2026_general_osaka_hiroshima",
+      "tourId": "nogizaka46_manatsu_2026",
+      "type": "一般先着チケット（広島・大阪）",
+      "entryStartAt": "2026-06-20T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nogizaka46_manatsu_2026_hiroshima_0711",
+        "nogizaka46_manatsu_2026_hiroshima_0712",
+        "nogizaka46_manatsu_2026_osaka_0715",
+        "nogizaka46_manatsu_2026_osaka_0716"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
       "id": "nogizaka46_manatsu_2026_mobile_1st",
       "tourId": "nogizaka46_manatsu_2026",
       "type": "モバイル会員先行（1次）",
@@ -398,6 +417,59 @@
       "source": "system",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
       "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_manatsu_2026_osaka_venue_additional",
+      "tourId": "nogizaka46_manatsu_2026",
+      "type": "会場チケット追加販売（大阪）",
+      "entryStartAt": "2026-07-06T18:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nogizaka46_manatsu_2026_osaka_0715",
+        "nogizaka46_manatsu_2026_osaka_0716"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102067",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_manatsu_2026_hiroshima_kizai",
+      "tourId": "nogizaka46_manatsu_2026",
+      "type": "機材席開放（広島公演）",
+      "entryStartAt": "2026-07-10T19:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nogizaka46_manatsu_2026_hiroshima_0711",
+        "nogizaka46_manatsu_2026_hiroshima_0712"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102077",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_manatsu_2026_miyagi_fukuoka_venue_general",
+      "tourId": "nogizaka46_manatsu_2026",
+      "type": "会場チケット一般発売（宮城・福岡）",
+      "entryStartAt": "2026-07-11T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nogizaka46_manatsu_2026_miyagi_0725",
+        "nogizaka46_manatsu_2026_miyagi_0726",
+        "nogizaka46_manatsu_2026_fukuoka_0808",
+        "nogizaka46_manatsu_2026_fukuoka_0809"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102075",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
   ]
 }
