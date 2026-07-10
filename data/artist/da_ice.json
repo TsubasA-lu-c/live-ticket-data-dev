@@ -2,6 +2,17 @@
   "artistId": "da_ice",
   "tours": [
     {
+      "id": "da_ice_fes_2026",
+      "artistId": "da_ice",
+      "title": "2026年フェス出演",
+      "startDate": "2026-10-03T00:00:00+09:00",
+      "endDate": "2026-10-17T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://da-ice.jp/schedule/tour.php?id=1003011",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
       "id": "da_ice_dome_phase_2027",
       "artistId": "da_ice",
       "title": "Da-iCE DAY DOME PHASE 2027",
@@ -17,10 +28,34 @@
       ],
       "source": "system",
       "sourceUrl": "https://da-ice.jp/en/schedule/tour.php?id=1003011&fdate=2027-02-04&ldate=2027-02-14",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     }
   ],
   "performances": [
+    {
+      "id": "da_ice_fes_2026_magurock_1003",
+      "tourId": "da_ice_fes_2026",
+      "venue": "清水マリンパーク",
+      "performanceAt": "2026-10-03T11:00:00+09:00",
+      "doorOpenAt": "2026-10-03T10:00:00+09:00",
+      "kind": "fes",
+      "eventName": "マグロック&ポップ 2026",
+      "source": "system",
+      "sourceUrl": "https://da-ice.jp/schedule/live.php?id=1116291",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "da_ice_fes_2026_azuma_1017",
+      "tourId": "da_ice_fes_2026",
+      "venue": "福島あづま球場",
+      "performanceAt": "2026-10-17T11:00:00+09:00",
+      "doorOpenAt": "2026-10-17T10:00:00+09:00",
+      "kind": "fes",
+      "eventName": "LIVE AZUMA 2026",
+      "source": "system",
+      "sourceUrl": "https://da-ice.jp/schedule/live.php?id=1117543",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
     {
       "id": "da_ice_dome_phase_2027_tokyo_dome_0204",
       "tourId": "da_ice_dome_phase_2027",
@@ -31,7 +66,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://da-ice.jp/schedule/tour.php?id=1003011",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "da_ice_dome_phase_2027_kyocera_0213",
@@ -43,7 +78,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://da-ice.jp/schedule/tour.php?id=1003011",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "da_ice_dome_phase_2027_kyocera_0214",
@@ -55,14 +90,14 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://da-ice.jp/schedule/tour.php?id=1003011",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     }
   ],
   "lotteries": [
     {
-      "id": "da_ice_dome_phase_2027_playguide_先行",
+      "id": "da_ice_dome_phase_2027_playguide_1st",
       "tourId": "da_ice_dome_phase_2027",
-      "type": "プレイガイド先行",
+      "type": "プレイガイド先行（1次）",
       "entryStartAt": "2026-06-26T15:00:00+09:00",
       "entryEndAt": "2026-07-09T23:59:00+09:00",
       "resultAt": null,
@@ -75,7 +110,25 @@
       ],
       "source": "system",
       "sourceUrl": "https://da-ice.jp/schedule/tour.php?id=1003011",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "da_ice_dome_phase_2027_playguide_2nd",
+      "tourId": "da_ice_dome_phase_2027",
+      "type": "プレイガイド先行（2次）",
+      "entryStartAt": "2026-07-10T15:00:00+09:00",
+      "entryEndAt": "2026-07-22T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "da_ice_dome_phase_2027_tokyo_dome_0204",
+        "da_ice_dome_phase_2027_kyocera_0213",
+        "da_ice_dome_phase_2027_kyocera_0214"
+      ],
+      "source": "system",
+      "sourceUrl": "https://da-ice.jp/schedule/tour.php?id=1003011",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     }
   ]
 }

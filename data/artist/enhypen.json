@@ -12,7 +12,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -26,7 +26,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "enhypen_blood_saga_japan_2026_tokyo_1202",
@@ -38,7 +38,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "enhypen_blood_saga_japan_2026_nagoya_1226",
@@ -50,7 +50,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "enhypen_blood_saga_japan_2026_nagoya_1227",
@@ -62,7 +62,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "enhypen_blood_saga_japan_2026_fukuoka_0206",
@@ -74,7 +74,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "enhypen_blood_saga_japan_2026_fukuoka_0207",
@@ -86,7 +86,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "enhypen_blood_saga_japan_2026_osaka_0219",
@@ -98,7 +98,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "enhypen_blood_saga_japan_2026_osaka_0220",
@@ -110,10 +110,33 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     }
   ],
   "lotteries": [
+    {
+      "id": "enhypen_blood_saga_japan_2026_engene_jp_fastest",
+      "tourId": "enhypen_blood_saga_japan_2026",
+      "type": "ENGENE Membership (JP) 最速先行",
+      "entryStartAt": "2026-04-23T16:00:00+09:00",
+      "entryEndAt": "2026-05-14T23:59:00+09:00",
+      "resultAt": "2026-05-26T11:00:00+09:00",
+      "paymentStartAt": "2026-05-26T11:00:00+09:00",
+      "paymentEndAt": "2026-06-01T23:00:00+09:00",
+      "performanceIds": [
+        "enhypen_blood_saga_japan_2026_tokyo_1201",
+        "enhypen_blood_saga_japan_2026_tokyo_1202",
+        "enhypen_blood_saga_japan_2026_nagoya_1226",
+        "enhypen_blood_saga_japan_2026_nagoya_1227",
+        "enhypen_blood_saga_japan_2026_fukuoka_0206",
+        "enhypen_blood_saga_japan_2026_fukuoka_0207",
+        "enhypen_blood_saga_japan_2026_osaka_0219",
+        "enhypen_blood_saga_japan_2026_osaka_0220"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
     {
       "id": "enhypen_blood_saga_japan_2026_engene_jp_2nd",
       "tourId": "enhypen_blood_saga_japan_2026",
@@ -135,7 +158,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     }
   ]
 }
