@@ -7,21 +7,34 @@
       "title": "Pre: Prema Tour",
       "startDate": "2026-07-16T00:00:00+09:00",
       "endDate": "2026-08-05T00:00:00+09:00",
-      "prices": null,
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 13000
+        },
+        {
+          "label": "親子席",
+          "amount": 13000
+        },
+        {
+          "label": "カインド席",
+          "amount": 13000
+        }
+      ],
       "source": "system",
       "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "fujii_kaze_prema_world_2026",
       "artistId": "fujii_kaze",
       "title": "Prema World Tour",
-      "startDate": "2026-11-14T00:00:00+09:00",
-      "endDate": "2026-12-20T00:00:00+09:00",
+      "startDate": "2026-10-31T00:00:00+09:00",
+      "endDate": "2027-01-09T00:00:00+09:00",
       "prices": null,
       "source": "system",
       "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
   ],
   "performances": [

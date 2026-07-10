@@ -14,7 +14,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/kinggnu/info/577778",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -465,6 +465,20 @@
       "source": "system",
       "sourceUrl": "https://www.red-hot.ne.jp/play/detail.php?pid=py27705",
       "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "king_gnu_central_2026_resale",
+      "tourId": "king_gnu_central_2026",
+      "type": "国内公演 リセール受付",
+      "entryStartAt": "2026-06-30T18:00:00+09:00",
+      "entryEndAt": "2026-07-05T23:59:00+09:00",
+      "resultAt": "2026-07-09T12:00:00+09:00",
+      "paymentStartAt": "2026-07-09T12:00:00+09:00",
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://clubgnu.com/central_tour2026/",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
   ]
 }
