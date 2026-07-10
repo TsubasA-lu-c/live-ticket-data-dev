@@ -12,7 +12,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "frederic_fes_2026",
@@ -23,7 +23,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://frederic-official.com/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -232,9 +232,9 @@
     {
       "id": "frederic_umimoyasu_20262027_move_preorder_1012",
       "tourId": "frederic_umimoyasu_20262027_move",
-      "type": "プレオーダー",
-      "entryStartAt": "2026-06-26T18:00:00+09:00",
-      "entryEndAt": "2026-07-05T23:59:00+09:00",
+      "type": "プレオーダー先行",
+      "entryStartAt": "2026-07-06T18:00:00+09:00",
+      "entryEndAt": "2026-07-12T23:59:00+09:00",
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
@@ -242,8 +242,8 @@
         "frederic_umimoyasu_20262027_move_zepp_haneda_1012"
       ],
       "source": "system",
-      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "sourceUrl": "https://frederic-official.com/news/detail/3717",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
   ]
 }

@@ -12,7 +12,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.04limitedsazabys.com/feature/tour2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "04_limited_sazabys_fes_2026_summer",
@@ -23,7 +23,20 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://www.04limitedsazabys.com/news/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_event_2026_yontown_anniversary",
+      "artistId": "04_limited_sazabys",
+      "title": "YON TOWN 8th Anniversary 〜真夏の町民女祭り・男祭り〜",
+      "startDate": "2026-08-08T00:00:00+09:00",
+      "endDate": "2026-08-08T00:00:00+09:00",
+      "prices": [
+        {"label": "チケット", "amount": 5555}
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/feature/yontownlive2026",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "04_limited_sazabys_fes_2026_autumn",
@@ -34,7 +47,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://www.04limitedsazabys.com/news/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -385,6 +398,30 @@
       "source": "system",
       "sourceUrl": "https://www.04limitedsazabys.com/news/detail/2342",
       "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_yontown_anniversary_onna_0808",
+      "tourId": "04_limited_sazabys_event_2026_yontown_anniversary",
+      "venue": "COMTEC PORTBASE",
+      "performanceAt": "2026-08-08T18:00:00+09:00",
+      "doorOpenAt": "2026-08-08T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "YON TOWN 8th Anniversary 〜真夏の町民女祭り〜",
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/feature/yontownlive2026",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_yontown_anniversary_otoko_0808",
+      "tourId": "04_limited_sazabys_event_2026_yontown_anniversary",
+      "venue": "COMTEC PORTBASE",
+      "performanceAt": "2026-08-08T18:00:00+09:00",
+      "doorOpenAt": "2026-08-08T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "YON TOWN 8th Anniversary 〜真夏の町民男祭り〜",
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/feature/yontownlive2026",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -410,7 +447,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.04limitedsazabys.com/feature/tour2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
   ]
 }

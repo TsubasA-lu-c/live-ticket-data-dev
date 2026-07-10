@@ -10,7 +10,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://monaki.jp/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "monaki_fes_8fes_2026",
@@ -21,7 +21,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://monaki.jp/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "monaki_event_boatrace_2026",
@@ -73,8 +73,8 @@
         }
       ],
       "source": "system",
-      "sourceUrl": "https://monaki.fanpla.jp/news/detail/78925",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "sourceUrl": "https://monaki.jp/news/detail/78925",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -171,8 +171,8 @@
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://monaki.fanpla.jp/news/detail/78925",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "sourceUrl": "https://monaki.jp/news/detail/78925",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "monaki_1st_tour_2026_zeppnagoya_0819",
@@ -183,8 +183,8 @@
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://monaki.fanpla.jp/news/detail/78925",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "sourceUrl": "https://monaki.jp/news/detail/78925",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "monaki_1st_tour_2026_zepphaneda_0824",
@@ -195,11 +195,29 @@
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://monaki.fanpla.jp/news/detail/78925",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "sourceUrl": "https://monaki.jp/news/detail/78925",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
   ],
   "lotteries": [
+    {
+      "id": "monaki_release_2026_livepocket",
+      "tourId": "monaki_release_2026",
+      "type": "抽選",
+      "entryStartAt": "2026-05-21T18:00:00+09:00",
+      "entryEndAt": "2026-05-26T23:59:00+09:00",
+      "resultAt": "2026-05-27T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "monaki_release_2026_sumida_0602",
+        "monaki_release_2026_emiterrace_0607",
+        "monaki_release_2026_shinrifu_0723"
+      ],
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/news/detail/79963",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
     {
       "id": "monaki_1st_tour_2026_fc先行",
       "tourId": "monaki_1st_tour_2026",
@@ -215,8 +233,8 @@
         "monaki_1st_tour_2026_zepphaneda_0824"
       ],
       "source": "system",
-      "sourceUrl": "https://monaki.fanpla.jp/news/detail/78925",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "sourceUrl": "https://monaki.jp/news/detail/78925",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "monaki_event_2shot_2026_抽選",
@@ -231,8 +249,8 @@
         "monaki_event_2shot_2026_2shot_0810"
       ],
       "source": "system",
-      "sourceUrl": "https://monaki.fanpla.jp/news/detail/82529",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "sourceUrl": "https://monaki.jp/news/detail/82529",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
   ]
 }
