@@ -2,55 +2,147 @@
   "golden_bomber": {
     "https://pc.goldenbomber.jp/": {
       "type": "hash",
-      "hash": "95afe353a20ab639c60c00f63563a60c"
+      "hash": "b36c9414e2a180a42c4475b082f2ba6f"
+    },
+    "https://pc.goldenbomber.jp/contents/1018840": {
+      "type": "hash",
+      "hash": "401b44705db61992864a7fd4564f4aed"
+    },
+    "https://pc.goldenbomber.jp/contents/live_event": {
+      "type": "hash",
+      "hash": "51064729fa6fbfff2c308fea0de12dd0"
+    },
+    "https://pc.goldenbomber.jp/contents/70363": {
+      "type": "hash",
+      "hash": "df830c473d2449c662c2a12f7cb54fdf"
     }
   },
   "yuzu": {
     "https://yuzu-official.com/pages/yuzu_arenatour2026/": {
       "type": "hash",
       "hash": "45aca1da7ed0495bd74b613a4a6fb6cd"
+    },
+    "https://yuzu-official.com/contents/information/34674919-757a-4dc6-b08b-4b62ea6f5243": {
+      "type": "hash",
+      "hash": "24fd47c9cac66cb948ab1f98eaee6cc1"
     }
   },
   "yonezu_kenshi": {
     "https://reissuerecords.net/2025/08/08/2026-tour-ghost/": {
       "type": "hash",
-      "hash": "8d09b3559f6bfc8f9d27a1c4097ef461"
+      "hash": "434482cb6c1c70e051d9e1e938ea58ef"
+    },
+    "https://reissuerecords.net/news/": {
+      "type": "hash",
+      "hash": "28b9c1ed4842752fccd6cce7e2cccc67"
+    },
+    "https://reissuerecords.net/live/": {
+      "type": "hash",
+      "hash": "60af01c4c016f3b0039ae78622cc953d"
+    },
+    "https://reissuerecords.net/live": {
+      "type": "hash",
+      "hash": "60af01c4c016f3b0039ae78622cc953d"
     }
   },
   "mizuki_nana": {
     "https://www.mizukinana.jp/schedule/": {
       "type": "hash",
-      "hash": "b19f4cb2a64474f86931f41fa9ca6ca4"
+      "hash": "04255bc8ab5d33bff38d4eca25fcd9c8"
+    },
+    "https://www.mizukinana.jp/news/": {
+      "type": "hash",
+      "hash": "7906e722eb1c17a64acf832928646f45"
+    },
+    "https://www.mizukinana.jp/biography/": {
+      "type": "hash",
+      "hash": "ed42ed8ba86a102a6b2a60e3c52d7efa"
     }
   },
   "iris": {
     "https://iris.dive2ent.com/": {
       "type": "hash",
-      "hash": "48432413dbd5492b18f851a600f9bf12"
+      "hash": "660353a82e0bc33eb2843f6fc4bb7e1a"
+    },
+    "https://iris.dive2ent.com/news/": {
+      "type": "hash",
+      "hash": "46fa57c924568e1d22ce4b340a1fd154"
+    },
+    "https://iris.dive2ent.com/news/detail.php?id=1133209": {
+      "type": "hash",
+      "hash": "1bda2617ca62e02d3cf33fa7ecb7274f"
+    },
+    "https://iris.dive2ent.com/news/detail.php?id=1134477": {
+      "type": "hash",
+      "hash": "30a626762a2bf3ee81f9a5849ecb703c"
     }
   },
   "mr_children": {
     "https://www.mrchildren.jp/": {
       "type": "hash",
       "hash": "3da78fedb334abb17467569d56b41634"
+    },
+    "https://www.mrchildren.jp/news/": {
+      "type": "hash",
+      "hash": "d73c9c067d3e58a91a576ce5f6a867f8"
     }
   },
   "official_hige_dandism": {
     "https://event.higedan.com/feature/zepp2025_hall2026": {
       "type": "hash",
-      "hash": "28e2ea8a56ede4e65d765dcc27fcdde2"
+      "hash": "41ec9363b7991bf23a5d05e8077158f8"
+    },
+    "https://event.higedan.com/feature/contact@mountalive.com": {
+      "type": "hash",
+      "hash": "df4a8345ca81a9bc9310a7a68b307978"
+    },
+    "https://event.higedan.com/feature/onemantour-2026-fce?_normalbrowse_=1": {
+      "type": "hash",
+      "hash": "0c39e54ae2b35019d2efb9961b5c13ba"
+    },
+    "https://event.higedan.com/feature/onemantour-2026-fcos?_normalbrowse_=1": {
+      "type": "hash",
+      "hash": "c5384845791e10e33bdf1d3e5a156753"
     }
   },
   "back_number": {
     "https://backnumber.info/feature/stadiumtour2026": {
       "type": "hash",
-      "hash": "a070f65b9505185e919ab402afbf17c6"
+      "hash": "64bbe6ee28b1f922736ef813626600f8"
+    },
+    "https://backnumber.info/feature/stadiumtour2026_news": {
+      "type": "hash",
+      "hash": "27e13500b794f24e5cf3a38e578a6f87"
+    },
+    "https://backnumber.info/feature/stadiumtour2026_schedule": {
+      "type": "hash",
+      "hash": "6bc08cfc6dcaf14001823ef433c63f35"
+    },
+    "https://backnumber.info/feature/stadiumtour2026_ticket": {
+      "type": "hash",
+      "hash": "5ec9f8b6223318e355d7498a03cc9743"
     }
   },
   "ado": {
     "https://www.universal-music.co.jp/ado/news/2025-11-23/": {
       "type": "hash",
       "hash": "a458f96a1700c00c7988139e52beeaa9"
+    },
+    "https://www.universal-music.co.jp/news/": {
+      "type": "hash",
+      "hash": "9d34c0ba65d5a2fce63e9991f0a9267a"
+    },
+    "https://www.universal-music.co.jp/ado/news/": {
+      "type": "hash",
+      "hash": "e8bb0b9c8266710103b6f0b40e9d5370"
+    },
+    "https://www.universal-music.co.jp/ado/news/2025-11-22/": {
+      "type": "hash",
+      "hash": "0cfd5674f71a62e0c94382e734052730"
+    },
+    "https://www.universal-music.co.jp/ado/news/2025-11-23/feed/": {
+      "type": "hash",
+      "hash": "367d153595ba07e08cbc106b6f224ff6"
     }
   },
   "yoasobi": {
@@ -62,19 +154,47 @@
   "nogizaka46": {
     "https://www.nogizaka46.com/s/n46/page/summer_tour2026": {
       "type": "hash",
-      "hash": "537172c4aa56c6fc88d8eec0e0744fcd"
+      "hash": "2b97a1bdfff7130748e7f9d382e0669e"
+    },
+    "https://www.nogizaka46.com/s/n46/news/detail/102002": {
+      "type": "hash",
+      "hash": "e9018c10b3c17aa85b58e6309a8664a4"
+    },
+    "https://www.nogizaka46.com/s/n46/news/detail/102004": {
+      "type": "hash",
+      "hash": "101c9aa6eae1e19cf8f7a9725215e091"
+    },
+    "https://www.nogizaka46.com/s/n46/news/detail/102062?ima=3750": {
+      "type": "hash",
+      "hash": "345a7b41be3cd79696d3515cd8a6acd7"
+    },
+    "https://www.nogizaka46.com/s/n46/news/detail/102062?ima=5116": {
+      "type": "hash",
+      "hash": "345a7b41be3cd79696d3515cd8a6acd7"
     }
   },
   "hinatazaka46": {
     "https://www.hinatazaka46.com/s/official/news/detail/E00800": {
       "type": "hash",
-      "hash": "eeda4cdbf09f087f2f7008b00286d439"
+      "hash": "146e515ef96187e292f36aefd9c1f4de"
+    },
+    "https://www.hinatazaka46.com/s/official/news/list?ima=0000&dy=202607": {
+      "type": "hash",
+      "hash": "9327641b5366c04cecf7eb1d18713bd3"
+    },
+    "https://www.hinatazaka46.com/s/official/news/list?ima=0000&cd=shakehands&dy=202607": {
+      "type": "hash",
+      "hash": "d8a5e527158409954ce4776d247b4b3e"
+    },
+    "https://www.hinatazaka46.com/s/official/news/list?ima=0000&cd=event&dy=202607": {
+      "type": "hash",
+      "hash": "822ff9038b6f05fb5da104b11e4eebe0"
     }
   },
   "aimyon": {
     "https://www.aimyong.net/feature/tententen_koshien": {
       "type": "hash",
-      "hash": "754320233dad29988bf652cb6127333c"
+      "hash": "7c2f96491d9c6468e9ee28fb99a60788"
     }
   },
   "creepy_nuts": {
@@ -87,204 +207,532 @@
     "https://sakanaction.jp/feature/tour2026_ticket": {
       "type": "hash",
       "hash": "688988ec8f1c6aab28539512cc30069a"
+    },
+    "https://sakanaction.jp/feature/tour2026_ticket_available": {
+      "type": "hash",
+      "hash": "1b6ea7207b3038fce250734ffb053b6a"
+    },
+    "https://sakanaction.jp/feature/tour2026_ticket_overseas": {
+      "type": "hash",
+      "hash": "fef39a7b9b9ef6009ef6e6395e0efa55"
     }
   },
   "larc_en_ciel": {
     "https://larc-en-ciel.com/s/n137/news/detail/13399": {
       "type": "hash",
       "hash": "3c302791b1caf523da6476105c57aa71"
+    },
+    "https://larc-en-ciel.com/s/n137/news/list?ima=3753": {
+      "type": "hash",
+      "hash": "06b3a26ca24b24fb70ce661586b3a30b"
+    },
+    "https://larc-en-ciel.com/s/n137/news/list?ima=5120": {
+      "type": "hash",
+      "hash": "06b3a26ca24b24fb70ce661586b3a30b"
     }
   },
   "king_gnu": {
     "https://www.sonymusic.co.jp/artist/kinggnu/info/577778": {
       "type": "hash",
       "hash": "e77f1b07b5d8babc2944360840a2335c"
+    },
+    "https://www.sonymusic.co.jp/artist/kinggnu/info/": {
+      "type": "hash",
+      "hash": "25671b3b5ffece3a9afd7b66caa42efb"
+    },
+    "https://www.sonymusic.co.jp/artist/kinggnu/live/": {
+      "type": "hash",
+      "hash": "300885b9c631f0dafd8b3df11f002189"
     }
   },
   "hoshino_gen": {
     "https://www.hoshinogen.com/": {
       "type": "hash",
-      "hash": "fb64fa741ac87f16c440812a5fda32f4"
+      "hash": "d5039f02a9558ede5109e83e16dd6c0e"
+    },
+    "https://www.hoshinogen.com/news/": {
+      "type": "hash",
+      "hash": "a95030c61e8806cca8ae889be5c88463"
+    },
+    "https://www.hoshinogen.com/news/detail/?id=118": {
+      "type": "hash",
+      "hash": "d0a513dab175336cd925379d9d738de7"
+    },
+    "https://www.hoshinogen.com/news/detail/?id=117": {
+      "type": "hash",
+      "hash": "2da803731a985023e0ac68c67a9596de"
     }
   },
   "vaundy": {
     "https://vaundy.jp/news/detail/11144": {
       "type": "hash",
       "hash": "d1638ce3ecdded4c1dfc690ca4d14f5d"
+    },
+    "https://vaundy.jp/news/1": {
+      "type": "hash",
+      "hash": "45023f7ea2dd4e58343d5cd490c37d53"
+    },
+    "https://vaundy.jp/news/2": {
+      "type": "hash",
+      "hash": "d00d9ba95436bd5f88a0bb333c73ac16"
+    },
+    "https://vaundy.jp/news/3": {
+      "type": "hash",
+      "hash": "186749ab5805bf73d263d8fc4588013e"
     }
   },
   "fujii_kaze": {
     "https://hehn.fujiikaze.com/pwt/": {
       "type": "hash",
-      "hash": "966b9a0e21abc296880441a9e20eca25"
+      "hash": "090b6a1afdf0f3e06442559b257736fe"
     }
   },
   "spitz": {
     "https://spitz-web.com/live/": {
       "type": "hash",
       "hash": "367ddaa1658594ab8ce82ac432dba557"
+    },
+    "https://spitz-web.com/news/": {
+      "type": "hash",
+      "hash": "80823716259a8ab02d31e29f97bb6adc"
+    },
+    "https://spitz-web.com/live/2026others/": {
+      "type": "hash",
+      "hash": "9d45f8e7ba37cf0a88f0e67363ebd405"
+    },
+    "https://spitz-web.com/live/202601/": {
+      "type": "hash",
+      "hash": "73bbd4d3de1b93ca3146165e621cd9cd"
     }
   },
   "lisa": {
     "https://eplus.jp/sf/detail/0534530001": {
       "type": "hash",
       "hash": "135f149c97c92ec365644a9df3d40f6a"
+    },
+    "https://eplus.jp/touroku": {
+      "type": "hash",
+      "hash": "2fd1a5b2e164c00f0824895e36019cd9"
     }
   },
   "hana": {
     "https://hana.b-rave.tokyo/": {
       "type": "hash",
-      "hash": "6d71a93bbd3dadd505253307cf98864c"
+      "hash": "68ee3f0d4d048470be451195da346c74"
+    },
+    "https://hana.b-rave.tokyo/news/": {
+      "type": "hash",
+      "hash": "782d43b91583d9b193f7797cc0acdb38"
+    },
+    "https://hana.b-rave.tokyo/news/260630/": {
+      "type": "hash",
+      "hash": "c7b22c4b4dad4a67bdbafd69f3238e8c"
+    },
+    "https://hana.b-rave.tokyo/live/260630-2/": {
+      "type": "hash",
+      "hash": "5b67d23b927918c5584e75895723a62b"
     }
   },
   "snow_man": {
     "https://mentrecording.jp/snowman/": {
       "type": "hash",
-      "hash": "b547f0c2ddec6b023f16118ab7861acb"
+      "hash": "ffba89c1987c1d0ebd7ed4725ce7970f"
+    },
+    "https://mentrecording.jp/snowman/news/": {
+      "type": "hash",
+      "hash": "475f30fec6fa8f2f04681f80e0f95eda"
+    },
+    "https://mentrecording.jp/snowman/news/detail.php?id=1134126": {
+      "type": "hash",
+      "hash": "a02fc8f7b9047f2588be7921e64127b5"
+    },
+    "https://mentrecording.jp/snowman/news/detail.php?id=1133666": {
+      "type": "hash",
+      "hash": "7cc507ae095504cb810738f36ec02030"
     }
   },
   "sixtones": {
     "https://www.sixtones.jp/": {
       "type": "hash",
-      "hash": "bde74b3e02edfbbe0937d3e9fc36387e"
+      "hash": "300d0e97640e7f9f8adc29260a87b096"
+    },
+    "https://www.sixtones.jp/news/132": {
+      "type": "hash",
+      "hash": "ad7f47b784e011bccb799deaf152c6b7"
+    },
+    "https://www.sixtones.jp/news": {
+      "type": "hash",
+      "hash": "b5eaab549fa8c18188fd0b7a9c103eb1"
+    },
+    "https://www.sixtones.jp/news/469": {
+      "type": "hash",
+      "hash": "53f9692ae90af49f4344bb395bd77ef1"
     }
   },
   "one_ok_rock": {
     "https://oneokrock-pf.com/feature/detoxjapantourfinal": {
       "type": "hash",
-      "hash": "adf3e097785b9d6203d78c4e3dec1568"
+      "hash": "0076fd481f8e834cdb71f39b515a3a59"
     }
   },
   "radwimps": {
     "https://radwimps.jp/yurinchi/": {
       "type": "hash",
-      "hash": "75a870438e42ab2e1f84c28a8249def6"
+      "hash": "e0f164bee9732766a5cc4367934123c8"
     }
   },
   "ryokuoushoku_shakai": {
     "https://www.ryokushaka.com/daiyasai2026/": {
       "type": "hash",
       "hash": "24116c8e8118150c93139ac30c696a03"
+    },
+    "https://www.ryokushaka.com/daiyasai2026/news": {
+      "type": "hash",
+      "hash": "fb39b3af4cf1299d881aa266be17900e"
+    },
+    "https://www.ryokushaka.com/daiyasai2026/ticket": {
+      "type": "hash",
+      "hash": "e2c08e08d87ec763051792bc3480a5e4"
+    },
+    "https://www.ryokushaka.com/daiyasai2026/event": {
+      "type": "hash",
+      "hash": "33b7a4a3971800e23964ba4d581724c1"
     }
   },
   "aimer": {
     "https://www.aimer-web.jp/": {
       "type": "hash",
       "hash": "c8c89d8221e7e9a3a5d4def223d550b7"
+    },
+    "https://www.aimer-web.jp/news/archive/?577612": {
+      "type": "hash",
+      "hash": "9c25f9a049c72d2854ea6922b0c9344a"
+    },
+    "https://www.aimer-web.jp/news/archive/?575012": {
+      "type": "hash",
+      "hash": "9c25f9a049c72d2854ea6922b0c9344a"
+    },
+    "https://www.aimer-web.jp/news/": {
+      "type": "hash",
+      "hash": "02b52589e6885b273eed6e94366a71ed"
     }
   },
   "yuuri": {
     "https://eplus.jp/sf/detail/3413260010": {
       "type": "hash",
-      "hash": "252080a49838afbd87fc519028c1b3cc"
+      "hash": "904e785c68e6f55e32663eeaf6f43e27"
+    },
+    "https://eplus.jp/touroku": {
+      "type": "hash",
+      "hash": "2fd1a5b2e164c00f0824895e36019cd9"
     }
   },
   "naniwa_danshi": {
     "https://fan.books.rakuten.co.jp/articles/6966": {
       "type": "hash",
-      "hash": "8c764e1ac3287978536a6688528216ad"
+      "hash": "d79804d5ee48dfd21cdc5c9c1ae52f14"
+    },
+    "https://fan.books.rakuten.co.jp/articles/8735": {
+      "type": "hash",
+      "hash": "97a10aa1c7d957e899c59661e968cccc"
+    },
+    "https://starto.jp/s/p/live/10489": {
+      "type": "hash",
+      "hash": "9eb0083adb220e862d2d639afe993e56"
     }
   },
   "hey_say_jump": {
     "https://live-events.a-jp.org/soko/a/30.html": {
       "type": "hash",
-      "hash": "f1da917328e1b7ac7393fac091023522"
+      "hash": "635537742fe71230872416b4664a3897"
+    },
+    "https://live-events.a-jp.org/soko/a/85.html": {
+      "type": "hash",
+      "hash": "8b80bb2ad56637fdaa102679a34ef2e3"
+    },
+    "https://live-events.a-jp.org/": {
+      "type": "hash",
+      "hash": "da90dc0c49b628ebdbdef94b2731f054"
+    },
+    "https://live-events.a-jp.org/soko/pickup/e/12080.html": {
+      "type": "hash",
+      "hash": "aee2995e1dd373a83859128e98ef7243"
     }
   },
   "travis_japan": {
     "https://fan.books.rakuten.co.jp/articles/3892": {
       "type": "hash",
-      "hash": "2e9ed6b7fbc72feb7298ae7eff34804f"
+      "hash": "1a59a394b72592dcd861e892f4adb3e8"
+    },
+    "https://fan.books.rakuten.co.jp/articles/8735": {
+      "type": "hash",
+      "hash": "97a10aa1c7d957e899c59661e968cccc"
     }
   },
   "twice": {
     "https://www.twicejapan.com/feature/6thworldtour_thisisfor_stadium": {
       "type": "hash",
       "hash": "6303a97da8d3f04d91760460e7ddcccb"
+    },
+    "https://www.twicejapan.com/news/detail/1981": {
+      "type": "hash",
+      "hash": "9345fc95de4d5a7d866df836e80df9ef"
     }
   },
   "seventeen": {
     "https://www.seventeen-17.jp/statics/2026_yakusoku": {
       "type": "hash",
       "hash": "883f40556bf89588e14241b84bea19c7"
+    },
+    "https://www.seventeen-17.jp/posts/information/pdizms": {
+      "type": "hash",
+      "hash": "e5f2d946307081a6e5d00d97978b83c6"
+    },
+    "https://www.seventeen-17.jp/posts/information/buzeto": {
+      "type": "hash",
+      "hash": "cf9e045233d464abf98c9adca063fff3"
+    },
+    "https://www.seventeen-17.jp/posts/information/cphjai": {
+      "type": "hash",
+      "hash": "3b3c105333645bc971603e84b4b9b48a"
     }
   },
   "sky_hi": {
     "https://bmsg.tokyo/live/skyhi-tour2026/": {
       "type": "hash",
       "hash": "f6edec5262058cd4abd80f634192e55a"
+    },
+    "https://bmsg.tokyo/news": {
+      "type": "hash",
+      "hash": "c356ff0a907005aede15a1139f41936b"
+    },
+    "https://bmsg.tokyo/category/live/": {
+      "type": "hash",
+      "hash": "b9ece721cef851587e2b48e5bfa097eb"
+    },
+    "https://bmsg.tokyo/feed/": {
+      "type": "hash",
+      "hash": "31f8a1d0c81579b7dcde0fc35129885b"
+    },
+    "https://bmsg.tokyo/comments/feed/": {
+      "type": "hash",
+      "hash": "3d5db3dcaca6ea633d6ff92b4296dd2a"
+    },
+    "https://bmsg.tokyo/live/skyhi-tour2026/feed/": {
+      "type": "hash",
+      "hash": "c1411ea3e01afa38167334e00ef21f8a"
     }
   },
   "tennimu": {
     "https://www.tennimu.com/4th_2026rikkai_1/ticket/": {
       "type": "hash",
       "hash": "b5e20fdfbdbc149383e4fb0d45a06158"
+    },
+    "https://www.tennimu.com/4th_2026rikkai_1/news/": {
+      "type": "hash",
+      "hash": "3be6562216c5e9f17de96562e4190081"
+    },
+    "https://www.tennimu.com/4th_2026rikkai_1/news": {
+      "type": "hash",
+      "hash": "3be6562216c5e9f17de96562e4190081"
+    },
+    "https://www.tennimu.com/4th_2026rikkai_1/streaming/": {
+      "type": "hash",
+      "hash": "ac8cf30fce6d3311841b451f74680e94"
     }
   },
   "touken_ranbu_musical": {
     "https://musical-toukenranbu.jp/pages/autumn2026": {
       "type": "hash",
       "hash": "a630d8ea8e3dc82a5f498b878f6625e1"
+    },
+    "https://musical-toukenranbu.jp/contents/preticket/preticket_autumn2026": {
+      "type": "hash",
+      "hash": "231955c8e6e1969c6d73cb11c07edb3a"
+    },
+    "https://musical-toukenranbu.jp/contents/1081530": {
+      "type": "hash",
+      "hash": "4658c8409e736b69f51dc8af7f5f4d02"
     }
   },
   "zutomayo": {
     "https://zutomayo.net/intense2/": {
       "type": "hash",
       "hash": "c5d4341956d5698ed53ff87c23e7673d"
+    },
+    "https://zutomayo.net/news/": {
+      "type": "hash",
+      "hash": "e06d18d2e858c81464ee034324d2d0b0"
+    },
+    "https://zutomayo.net/news/562/": {
+      "type": "hash",
+      "hash": "8f032b1d5fb8473c9b31c66a23c1e3f1"
+    },
+    "https://zutomayo.net/news/577/": {
+      "type": "hash",
+      "hash": "887eb7ae0b49a12f03b994e784ed55ee"
     }
   },
   "momoiro_clover_z": {
     "https://www.momoclo.net/": {
       "type": "hash",
-      "hash": "f9dd52326e5e17ee804c4d936df48bce"
+      "hash": "b9927b668e771d37bd03104960814c18"
+    },
+    "https://www.momoclo.net/news": {
+      "type": "hash",
+      "hash": "bf3174e600c16e2f3e15bb3b91a7ee71"
+    },
+    "https://www.momoclo.net/archives/news/260601_02": {
+      "type": "hash",
+      "hash": "4cbb30dfb170b352dc7b2ef3f6ad818e"
+    },
+    "https://www.momoclo.net/archives/news/260604_01": {
+      "type": "hash",
+      "hash": "1dd1fae06140b66358443928f68043bc"
     }
   },
   "macaroni_empitsu": {
     "https://macaroniempitsu.com/": {
       "type": "hash",
-      "hash": "cbd0ee291f06944ff61b93c25f5c242d"
+      "hash": "9f2afd59b4d4ce78fa2b4c4c2977ac1b"
+    },
+    "https://macaroniempitsu.com/news": {
+      "type": "hash",
+      "hash": "1949961f25fcd4f1f3d7779f84d2ed0b"
+    },
+    "https://macaroniempitsu.com/news/": {
+      "type": "hash",
+      "hash": "1949961f25fcd4f1f3d7779f84d2ed0b"
+    },
+    "https://macaroniempitsu.com/news/20386.html": {
+      "type": "hash",
+      "hash": "1028f6d71f9e66ae587b2447a42486d2"
     }
   },
   "sakurazaka46": {
     "https://sakurazaka46.com/s/s46/page/nationaltour2026": {
       "type": "hash",
-      "hash": "18097e7f36fa9fd9c75f9b18711d6211"
+      "hash": "3cf77e553a5cf49b6f5ae5ff1d2b3fb6"
     }
   },
   "babymetal": {
     "https://babymetal.com/": {
       "type": "hash",
       "hash": "eaf8bce9e3ce0647234e9ffb171c8fe9"
+    },
+    "https://babymetal.com/mob/news/diarKiji.php?site=TO&ima=3813&cd=NEWS_TO&lang=en": {
+      "type": "hash",
+      "hash": "2761e886d547a8e5fdbad6aaf2d19d4f"
+    },
+    "https://babymetal.com/mob/news/diarKiji.php?site=TO&ima=3813&cd=TOUR_TO&so=a&lang=en": {
+      "type": "hash",
+      "hash": "5bc05358c16443a86b2d88baf0bfaeab"
+    },
+    "https://babymetal.com/mob/news/diarKiji.php?site=TO&ima=3813&cd=BIOGRAPHY_TO&lang=en": {
+      "type": "hash",
+      "hash": "cfba1dd3347bf3d681c4d6722c67aa8f"
+    },
+    "https://babymetal.com/mob/news/diarKiji.php?site=TO&ima=5144&cd=NEWS_TO&lang=en": {
+      "type": "hash",
+      "hash": "2761e886d547a8e5fdbad6aaf2d19d4f"
+    },
+    "https://babymetal.com/mob/news/diarKiji.php?site=TO&ima=5144&cd=TOUR_TO&so=a&lang=en": {
+      "type": "hash",
+      "hash": "5bc05358c16443a86b2d88baf0bfaeab"
+    },
+    "https://babymetal.com/mob/news/diarKiji.php?site=TO&ima=5144&cd=BIOGRAPHY_TO&lang=en": {
+      "type": "hash",
+      "hash": "cfba1dd3347bf3d681c4d6722c67aa8f"
     }
   },
   "mrs_green_apple": {
     "https://mrsgreenapple.com/feature/zenjinmito_2026": {
       "type": "hash",
-      "hash": "ce52fb741e71ccdcf968a339bd6dcdcb"
+      "hash": "6dc06abff2b2177a8763d0111107e837"
+    },
+    "https://mrsgreenapple.com/feature/zenjinmito_2026_news": {
+      "type": "hash",
+      "hash": "7943a8cc751cbc3f0b43a11dfe025af2"
+    },
+    "https://mrsgreenapple.com/feature/zenjinmito_2026_live_waiting": {
+      "type": "hash",
+      "hash": "36d94e235a52a8a802ac76ffeec472b6"
+    },
+    "https://mrsgreenapple.com/feature/zenjinmito_2026_live_viewing": {
+      "type": "hash",
+      "hash": "fea784cefdd5ade5b9e4586c9b1a775e"
     }
   },
   "be_first": {
     "https://befirst.tokyo/": {
       "type": "hash",
       "hash": "35cf0e1b95cf2187f697bd46ea32b969"
+    },
+    "https://befirst.tokyo/news": {
+      "type": "hash",
+      "hash": "e6f7a9293df055041a799f6f0052da92"
+    },
+    "https://befirst.tokyo/feed/": {
+      "type": "hash",
+      "hash": "fa81bfa9f6fcb00a0d71668f5c6b6880"
+    },
+    "https://befirst.tokyo/comments/feed/": {
+      "type": "hash",
+      "hash": "636b8a30158282f6e7463bce8c86707a"
+    },
+    "https://befirst.tokyo/sample-page/feed/": {
+      "type": "hash",
+      "hash": "969c13e6c1541fb1a153a4da53a1975c"
     }
   },
   "glay": {
     "https://www.glay.co.jp/feature/arenatour2026_27": {
       "type": "hash",
       "hash": "0d1f9cd098fe12fc1780b5af72f5a93b"
+    },
+    "https://www.glay.co.jp/feature/HS30thLive": {
+      "type": "hash",
+      "hash": "baca8bcf81e1df4bc18865ab5dffd55e"
+    },
+    "https://www.glay.co.jp/feature/venezia_live": {
+      "type": "hash",
+      "hash": "c3dc797ae389ba14a71503bd50651297"
     }
   },
   "koda_kumi": {
     "https://rhythmzone.net/koda/": {
       "type": "hash",
       "hash": "7b633bc8c40242443042d19925f8a581"
+    },
+    "https://rhythmzone.net/koda/news/": {
+      "type": "hash",
+      "hash": "51c25e898ddcf9e37df343b7d69ecc46"
+    },
+    "https://rhythmzone.net/koda/news/detail.php?id=1132655": {
+      "type": "hash",
+      "hash": "673357a7dcfc4dba973e1e91626a13df"
+    },
+    "https://rhythmzone.net/koda/news/detail.php?id=1130900": {
+      "type": "hash",
+      "hash": "65a76848055116799d2b4831e4e61e6c"
     }
   },
   "kobukuro": {
     "https://kobukuro.com/feature/kobukuro_tour2026": {
       "type": "hash",
       "hash": "2c04c67faf4c3fc09917b4b86a1a8f85"
+    },
+    "https://kobukuro.com/feature/tour2026_news": {
+      "type": "hash",
+      "hash": "2e5883afe745c2203701f4d6bb4832c9"
+    },
+    "https://kobukuro.com/feature/tour2026_schedule": {
+      "type": "hash",
+      "hash": "c088a4402aa510d04e052f77f2e16bcd"
+    },
+    "https://kobukuro.com/feature/tour2026_ticket": {
+      "type": "hash",
+      "hash": "24e27fdbc3c90513d1356e58e345fcb3"
     }
   },
   "number_i": {
@@ -296,97 +744,297 @@
   "king_and_prince": {
     "https://kingandprince7th.jp/": {
       "type": "hash",
-      "hash": "296b5c0c644487d4482c73b81fb0dadf"
+      "hash": "7edf2276ff6a36fe9147ef02f199a240"
+    },
+    "https://kingandprince7th.jp/STARRING/DOME_tour/": {
+      "type": "hash",
+      "hash": "1de2982bb195ec11524a6e1e5fc45f93"
+    },
+    "https://kingandprince7th.jp/reera_dvd/": {
+      "type": "hash",
+      "hash": "588a9074a19b759173c6779b2d40fb65"
     }
   },
   "timelesz": {
     "https://ovtp.jp/timelesz/live-stage": {
       "type": "hash",
       "hash": "a9bfea45294aa289cd37d568138c606b"
+    },
+    "https://ovtp.jp/news": {
+      "type": "hash",
+      "hash": "4b134e2e381c9f56642684d6171681fd"
+    },
+    "https://ovtp.jp/feed": {
+      "type": "hash",
+      "hash": "8d2c44ea79be9c4e7ca113e6ad9618e4"
+    },
+    "https://ovtp.jp/comments/feed": {
+      "type": "hash",
+      "hash": "f8f2f5c37938e241fd423de9f9857e15"
     }
   },
   "milk": {
     "https://sd-milk.com/": {
       "type": "hash",
-      "hash": "6af6cf69e1c94f7418422745ad213780"
+      "hash": "c087e99daf57654032dd08a386debb98"
+    },
+    "https://sd-milk.com/contents/news": {
+      "type": "hash",
+      "hash": "605cc01dc123837d51ae2cc0823314d4"
+    },
+    "https://sd-milk.com/contents/news/ticket": {
+      "type": "hash",
+      "hash": "45c41d91c91f4cccf4b429c706e2c539"
+    },
+    "https://sd-milk.com/contents/1088624": {
+      "type": "hash",
+      "hash": "afbc935a153b70b62a686437d21fedc3"
     }
   },
   "bump_of_chicken": {
     "https://www.bumpofchicken.com/": {
       "type": "hash",
-      "hash": "6b535e0a274b7a21b6e561d66d915bb2"
+      "hash": "16ae8aba348ead048199a207ad048b40"
+    },
+    "https://www.bumpofchicken.com/news/news/3588": {
+      "type": "hash",
+      "hash": "2d5ab86414f0f3ea55699c6da69c7559"
+    },
+    "https://www.bumpofchicken.com/news/news/3586": {
+      "type": "hash",
+      "hash": "5f9b1b12e2b1e5848f656e2c18bd3fae"
+    },
+    "https://www.bumpofchicken.com/news/news/3555": {
+      "type": "hash",
+      "hash": "42fd4c94af6059a477ca6812f63a8b6d"
     }
   },
   "bz": {
     "https://bz-vermillion.com/": {
       "type": "hash",
-      "hash": "a800808f00701d9e2635e8a730243b2d"
+      "hash": "2d94d6ee44be78a62fed7706c9b29ed8"
+    },
+    "https://bz-vermillion.com/news/": {
+      "type": "hash",
+      "hash": "fed847fd8cfa9b556d930f75df557f8e"
+    },
+    "https://bz-vermillion.com/news/260414.html": {
+      "type": "hash",
+      "hash": "1e81fcf8bf6919d6d47a39f58b23c26f"
+    },
+    "https://bz-vermillion.com/news/260304.html": {
+      "type": "hash",
+      "hash": "dae3fee7410f78bf35debb33d33a4e04"
     }
   },
   "ae_group": {
     "https://starto.jp/": {
       "type": "hash",
-      "hash": "8279945292b3b06a1f581064416df486"
+      "hash": "518707e8660aa0e46ea26eceaafd6125"
+    },
+    "https://starto.jp/s/p/news/list?ima=3653": {
+      "type": "hash",
+      "hash": "bb287ea004e18391bf489249abff3d46"
+    },
+    "https://starto.jp/s/p/artist/12?ima=3653": {
+      "type": "hash",
+      "hash": "9c829d2d8f9ab1d1c8c291e1c3c7ea15"
+    },
+    "https://starto.jp/s/p/live/10507?ima=3653": {
+      "type": "hash",
+      "hash": "368227b29196ed22ebcb9e0f740c52a4"
+    },
+    "https://starto.jp/s/p/news/list?ima=5153": {
+      "type": "hash",
+      "hash": "bb287ea004e18391bf489249abff3d46"
+    },
+    "https://starto.jp/s/p/artist/12?ima=5153": {
+      "type": "hash",
+      "hash": "9c829d2d8f9ab1d1c8c291e1c3c7ea15"
+    },
+    "https://starto.jp/s/p/live/10507?ima=5153": {
+      "type": "hash",
+      "hash": "368227b29196ed22ebcb9e0f740c52a4"
     }
   },
   "novelbright": {
     "https://novelbright.jp/": {
       "type": "hash",
-      "hash": "417b6bf92b6f11abb6699d123263ee30"
+      "hash": "4c8a52ff9875b951c0ca13439da27073"
+    },
+    "https://novelbright.jp/news/1/": {
+      "type": "hash",
+      "hash": "b256356e610545cd4c4cd62189a118d5"
+    },
+    "https://novelbright.jp/news/13": {
+      "type": "hash",
+      "hash": "199e35e271d0794cf5531b4043348873"
+    },
+    "https://novelbright.jp/news/detail/2398": {
+      "type": "hash",
+      "hash": "acaef5210367b77bc419c05a004ecfa4"
     }
   },
   "04_limited_sazabys": {
     "https://www.04limitedsazabys.com/": {
       "type": "hash",
-      "hash": "1ae453728db7b4ba4c754a2c3d886e16"
+      "hash": "9426120c4e46ae96b712b78ab5f92660"
+    },
+    "https://www.04limitedsazabys.com/news/list/16/17/": {
+      "type": "hash",
+      "hash": "18021db73ece7717438de867a0823c81"
+    },
+    "https://www.04limitedsazabys.com/news/5/?range=future_event_end_time&sort=asc": {
+      "type": "hash",
+      "hash": "c717829b11dc3e8026882233d35420b2"
+    },
+    "https://www.04limitedsazabys.com/news/12/": {
+      "type": "hash",
+      "hash": "340de9728c53c3ee7b125e71e940ac99"
     }
   },
   "frederic": {
     "https://frederic-official.com/": {
       "type": "hash",
-      "hash": "ce2f3663d5c032b4b5b8675a8ded5f35"
+      "hash": "d534c735dd38bad376a74b6af9e4e7f8"
+    },
+    "https://frederic-official.com/news/1": {
+      "type": "hash",
+      "hash": "5f668c12015902370e5adb5f69f8bf13"
+    },
+    "https://frederic-official.com/news/3?range=future_event_end_time&sort=asc": {
+      "type": "hash",
+      "hash": "03e3c88091ac137b53c119ed2c2f039f"
+    },
+    "https://frederic-official.com/news/5?range=future_event_end_time&sort=asc": {
+      "type": "hash",
+      "hash": "f4a0c7daee0c1a7b684215f84706ab4a"
     }
   },
   "fruits_zipper": {
     "https://fruitszipper.asobisystem.com/": {
       "type": "hash",
-      "hash": "103a90cb00dc1246ec02182ccf6c4f69"
+      "hash": "ff85f3a23160d1613f2809fa935ab506"
+    },
+    "https://fruitszipper.asobisystem.com/news/1": {
+      "type": "hash",
+      "hash": "a377e5e9a791fb7002937fe2175e3120"
+    },
+    "https://fruitszipper.asobisystem.com/news/2": {
+      "type": "hash",
+      "hash": "3a5a2e49da2e1eeef209493a6c3dba8f"
+    },
+    "https://fruitszipper.asobisystem.com/news/4": {
+      "type": "hash",
+      "hash": "fd2ce2fc71a80b94c0d5d0a48078f7d5"
     }
   },
   "cutie_street": {
     "https://cutiestreet.asobisystem.com/": {
       "type": "hash",
-      "hash": "ed931caf5babb3f64ca419d2e8cc4f10"
+      "hash": "be7fe5165e3c4ba69857de0ba451fcec"
+    },
+    "https://cutiestreet.asobisystem.com/news/1": {
+      "type": "hash",
+      "hash": "d0ac578bfc20609740afcde4501d2729"
+    },
+    "https://cutiestreet.asobisystem.com/news/2": {
+      "type": "hash",
+      "hash": "ad663d316fe68047d968019a2c3ce3dc"
+    },
+    "https://cutiestreet.asobisystem.com/news/4": {
+      "type": "hash",
+      "hash": "55fe7147e11fa0af9a75e5a270bb79cb"
     }
   },
   "monaki": {
     "https://monaki.fanpla.jp/": {
       "type": "hash",
-      "hash": "1965edf577efd5c72e55dbdc813c5f9d"
+      "hash": "b817262b8f19741e9edf99f98854bf19"
+    },
+    "https://monaki.fanpla.jp/news/1": {
+      "type": "hash",
+      "hash": "49d5d28ceac58d1443ac33580d55c8f4"
+    },
+    "https://monaki.fanpla.jp/news/2": {
+      "type": "hash",
+      "hash": "749b74e9ee4fb2fe1bdf79cc4a885ed9"
+    },
+    "https://monaki.fanpla.jp/news/4": {
+      "type": "hash",
+      "hash": "33549191aab4eb48e4e012a333f1a81c"
     }
   },
   "equal_love": {
     "https://equal-love.jp/": {
       "type": "hash",
-      "hash": "1d272d55fc3bf6f354c56c82368ae34c"
+      "hash": "b4b2ee2f42a628a53e2b261e79626116"
+    },
+    "https://equal-love.jp/news": {
+      "type": "hash",
+      "hash": "ae886c64347ecd44c320836b45e7d2d2"
+    },
+    "https://equal-love.jp/news/detail/11612": {
+      "type": "hash",
+      "hash": "ad8ec43f3d18e62177c3ec52bc9f11e4"
+    },
+    "https://equal-love.jp/news/detail/11672": {
+      "type": "hash",
+      "hash": "920e77bd7f0df71c175c4e992d658516"
     }
   },
   "super_beaver": {
     "https://sp.super-beaver.com/": {
       "type": "hash",
-      "hash": "a3ca59fa85bfbc06c92e24974589e751"
+      "hash": "cd6c31ee93aa5d2966d0e857c2b9e823"
+    },
+    "https://sp.super-beaver.com/news/": {
+      "type": "hash",
+      "hash": "b4454ca1fd56460899e717ad04d2bad6"
+    },
+    "https://sp.super-beaver.com/news/list/6": {
+      "type": "hash",
+      "hash": "abca88130a6c4f9f7fe4c4a81afe4a78"
+    },
+    "https://sp.super-beaver.com/news/list/14": {
+      "type": "hash",
+      "hash": "b01dbec14139c3cf0f2c67c07096e1d3"
     }
   },
   "wanima": {
     "https://wanima.net/": {
       "type": "hash",
-      "hash": "42c29c3f8f53090ea0d2ed5d51063148"
+      "hash": "8d2b8337a82c5846569fac4c2d87d69c"
+    },
+    "https://wanima.net/contents/news": {
+      "type": "hash",
+      "hash": "f22a04601a4ce48dacb3cc879eaa6dee"
+    },
+    "https://wanima.net/contents/live": {
+      "type": "hash",
+      "hash": "629951d381f40b865ad106cbc07437a4"
+    },
+    "https://wanima.net/contents/365695": {
+      "type": "hash",
+      "hash": "646f0ad12228e83c5fbdf5931c58cdbc"
     }
   },
   "yabai_tshirts_yasan": {
     "https://yabaitshirtsyasan.com/": {
       "type": "hash",
-      "hash": "33421531dc90844853dbe6c94106fb98"
+      "hash": "0383b5eb11cd51054f8fc6291a327127"
+    },
+    "https://yabaitshirtsyasan.com/news/": {
+      "type": "hash",
+      "hash": "82a959e5ce9537beb35fb423e5f7457a"
+    },
+    "https://yabaitshirtsyasan.com/news/258998/": {
+      "type": "hash",
+      "hash": "f5d94fff7998f29e4c4ce555c2c9a429"
+    },
+    "https://yabaitshirtsyasan.com/news/273095/": {
+      "type": "hash",
+      "hash": "4c077c54ee287951e2eeda5cbe453b13"
     }
   },
   "10_feet": {
@@ -398,13 +1046,37 @@
   "the_oral_cigarettes": {
     "https://theoralcigarettes.com/": {
       "type": "hash",
-      "hash": "eff9e00f23b0990922a3cf79d9c9ab22"
+      "hash": "2a849f1a4c3f389bcc15069b24ec63e6"
+    },
+    "https://theoralcigarettes.com/news/list/2": {
+      "type": "hash",
+      "hash": "756f41689b46d84318a7ea3f4f136386"
+    },
+    "https://theoralcigarettes.com/news/list/3?range=future_event_end_time&sort=asc": {
+      "type": "hash",
+      "hash": "4671cca1ea7820791601d5624b0470ef"
+    },
+    "https://theoralcigarettes.com/news/list/4": {
+      "type": "hash",
+      "hash": "79cf8c06c64d0533bcf1c7049c08e887"
     }
   },
   "utada_hikaru": {
     "https://www.utadahikaru.jp/": {
       "type": "hash",
       "hash": "de5e75eb6593fc626c04a671ce0eb842"
+    },
+    "https://www.utadahikaru.jp/news/dq_2t-d4x/": {
+      "type": "hash",
+      "hash": "ffe10e7e46c94f63d953e6b711f704c7"
+    },
+    "https://www.utadahikaru.jp/news/": {
+      "type": "hash",
+      "hash": "b5d2a12571424f30b0053f3d402d05bd"
+    },
+    "https://www.utadahikaru.jp/news/category/info/": {
+      "type": "hash",
+      "hash": "65883a4c84c47ce5d0d1b0b510fc12af"
     }
   },
   "kroi": {
@@ -417,6 +1089,14 @@
     "https://www.sonymusic.co.jp/artist/hitsujibungaku/": {
       "type": "hash",
       "hash": "e71dbc27b566549067a465b0620ef12e"
+    },
+    "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/": {
+      "type": "hash",
+      "hash": "b88f4a129e28177bab331abe007f2323"
+    },
+    "https://www.sonymusic.co.jp/artist/hitsujibungaku/live/": {
+      "type": "hash",
+      "hash": "d0de674782d3acc47bc56ba9e02f7e8c"
     }
   },
   "milet": {
@@ -429,30 +1109,86 @@
     "https://daichi-miura.jp/": {
       "type": "hash",
       "hash": "5d7b42a63bfb21f0dcda38ecb44b2e60"
+    },
+    "https://daichi-miura.jp/news/1/": {
+      "type": "hash",
+      "hash": "919881abd0e6d31b046fa9f1bfb4f426"
+    },
+    "https://daichi-miura.jp/news/4/": {
+      "type": "hash",
+      "hash": "4e9b7f7254c3f386a5a4e29d18ca6f46"
+    },
+    "https://daichi-miura.jp/news/list/6/7/": {
+      "type": "hash",
+      "hash": "df54eb8ffd072baa9774022b3c7baed4"
     }
   },
   "kurayamisaka": {
     "https://eplus.jp/sf/word/0000158088": {
       "type": "hash",
       "hash": "72e019e53a34c936339f09d281e82d06"
+    },
+    "https://eplus.jp/touroku": {
+      "type": "hash",
+      "hash": "2fd1a5b2e164c00f0824895e36019cd9"
+    },
+    "https://eplus.jp/": {
+      "type": "hash",
+      "hash": "8b0b00b02192b504f8b52edf87f036af"
     }
   },
   "starglow": {
     "https://starglow.tokyo/": {
       "type": "hash",
-      "hash": "402c47307d7d90b1d5c3c4994834f99a"
+      "hash": "6ca17c19c12ba4967cb584c8cb0642b5"
+    },
+    "https://starglow.tokyo/news": {
+      "type": "hash",
+      "hash": "943ce9763e8a2bfbdd4a85ce6dd89f93"
+    },
+    "https://starglow.tokyo/news/media/1233/": {
+      "type": "hash",
+      "hash": "35f86aa1f1f1467dbcad09c720a1cffd"
+    },
+    "https://starglow.tokyo/news/media/1231/": {
+      "type": "hash",
+      "hash": "14adae53726a694b67cbb2e81fa0ae89"
     }
   },
   "ini": {
     "https://ini-official.com/": {
       "type": "hash",
-      "hash": "9ec570bd9a747e1e5df622e1075277f3"
+      "hash": "9a075ecd0cb368624a1553bf7566965d"
+    },
+    "https://ini-official.com/news/1": {
+      "type": "hash",
+      "hash": "3409ca0504f58f83a30e00abf9507c6f"
+    },
+    "https://ini-official.com/news/list/12/13/": {
+      "type": "hash",
+      "hash": "83c97b46e21b53e6f9fc2dee1f63d0f9"
+    },
+    "https://ini-official.com/news/detail/4199": {
+      "type": "hash",
+      "hash": "2730f0787c49dafbade80da111bb80d6"
     }
   },
   "jo1": {
     "https://jo1.jp/": {
       "type": "hash",
-      "hash": "626498ff764a9436bc9d4347abdf939b"
+      "hash": "e678f7930ef488c5d2cf58463fe3cf25"
+    },
+    "https://jo1.jp/news/list/1/3/": {
+      "type": "hash",
+      "hash": "db97b1c10834dc5f7dbdba2a86984193"
+    },
+    "https://jo1.jp/news/list/12/13/": {
+      "type": "hash",
+      "hash": "a90746371f15dc750a80d3ddf0a1d608"
+    },
+    "https://jo1.jp/news/list/1/2/": {
+      "type": "hash",
+      "hash": "3245da86dcf8b72f43f7509c332b25b7"
     }
   },
   "imp": {
@@ -464,31 +1200,99 @@
   "mazzel": {
     "https://mazzel.tokyo/": {
       "type": "hash",
-      "hash": "35c96e9f9380a1abd9c72754ad33f203"
+      "hash": "f13203b86631eb2674e64f33161f4008"
+    },
+    "https://mazzel.tokyo/news/5366/": {
+      "type": "hash",
+      "hash": "e19434eca669a18eb3c569dc5e2ad9c3"
+    },
+    "https://mazzel.tokyo/news/536/": {
+      "type": "hash",
+      "hash": "cdc8ddc919569c15d04fe543619cfb16"
+    },
+    "https://mazzel.tokyo/news/5452/": {
+      "type": "hash",
+      "hash": "e6f103010f1c3d8649a296743d49858e"
+    },
+    "https://mazzel.tokyo/feed/": {
+      "type": "hash",
+      "hash": "af19e37c2b77280514c8202c4c42cb5f"
+    },
+    "https://mazzel.tokyo/comments/feed/": {
+      "type": "hash",
+      "hash": "73fe6a9d7c12dd4f2319b5278ddf4a5d"
     }
   },
   "not_equal_me": {
     "https://not-equal-me.jp/": {
       "type": "hash",
-      "hash": "c35f345ae3228a952f1ed3279e1d5a31"
+      "hash": "2644f67ac2325f3559a588a95e49be77"
+    },
+    "https://not-equal-me.jp/news/1": {
+      "type": "hash",
+      "hash": "328cd33d6165d1d54db1d68c43453db1"
+    },
+    "https://not-equal-me.jp/news/detail/7319": {
+      "type": "hash",
+      "hash": "371290d52291f53803ab4bff58f7c805"
+    },
+    "https://not-equal-me.jp/news/detail/7589": {
+      "type": "hash",
+      "hash": "acb1558701396febbf19c5437de8319c"
     }
   },
   "boku_aozora": {
     "https://bokuao.com/": {
       "type": "hash",
-      "hash": "acda72044a020bd98502c67d8ff10b46"
+      "hash": "805d1f4d685cc5d9b8ca8a76967bbdfd"
+    },
+    "https://bokuao.com/news/1/": {
+      "type": "hash",
+      "hash": "63db94b633fd05bf2ec1a66b7a895e70"
+    },
+    "https://bokuao.com/news/13/": {
+      "type": "hash",
+      "hash": "a77aae113e5ad4489944b2183cb7a4a4"
+    },
+    "https://bokuao.com/news/list/23/24/": {
+      "type": "hash",
+      "hash": "d34820b2ef3c7b8a7475828adbce55c5"
     }
   },
   "da_ice": {
     "https://da-ice.jp/": {
       "type": "hash",
-      "hash": "dd7baa08e2d5385fbe3f016931f49473"
+      "hash": "ccff8df0a1128bc26cec16d9fa0ec0ad"
+    },
+    "https://da-ice.jp/news/": {
+      "type": "hash",
+      "hash": "488f4165bdbdbf0b4813c0f6683e7888"
+    },
+    "https://da-ice.jp/news/detail.php?id=1133028": {
+      "type": "hash",
+      "hash": "19c68fdfd795acb248ccba94478fb0d3"
+    },
+    "https://da-ice.jp/news/detail.php?id=1129485": {
+      "type": "hash",
+      "hash": "cdb492cf3fac728a6f114d857442faa2"
     }
   },
   "bts": {
     "https://bts-official.jp/": {
       "type": "hash",
-      "hash": "5ed88604fa51825a41a37a064de4f6af"
+      "hash": "2461214497484b675b41b6d7cf6147fe"
+    },
+    "https://bts-official.jp/news": {
+      "type": "hash",
+      "hash": "9dab17e9c1d6af0b269373b5c07e3c8e"
+    },
+    "https://bts-official.jp/news/8873070ceb9f": {
+      "type": "hash",
+      "hash": "21496b2dd8f0de5e4b99b3b9ef7839a6"
+    },
+    "https://bts-official.jp/news/31c4eeded33b": {
+      "type": "hash",
+      "hash": "03756e018552d06ebb4320d3cc56b879"
     }
   },
   "stray_kids": {
@@ -500,97 +1304,321 @@
   "enhypen": {
     "https://www.hybejapan-concert.com/statics/enhypen_blood_saga": {
       "type": "hash",
-      "hash": "d6c53e5c401052dcd881a3d25a0813be"
+      "hash": "a4e8edd9b253cc3eb37855c88a0673ee"
+    },
+    "https://www.hybejapan-concert.com": {
+      "type": "hash",
+      "hash": "6f6e57935b0d1c8ebcdc9596ae857018"
     }
   },
   "ive": {
     "https://ive-official.jp/mob/news/newsShw.php?site=DIVE&cd=OF10325": {
       "type": "hash",
       "hash": "7b670d58639d55f100bd0a83d9ceab87"
+    },
+    "https://ive-official.jp/mob/news/newsLis.php?site=DIVE&ima=3847": {
+      "type": "hash",
+      "hash": "b08e27971bee7c6d820cd7f1c86e1f74"
+    },
+    "https://ive-official.jp/mob/news/diarKiji.php?site=DIVE&ima=3847&cd=DISCOGRAPHY": {
+      "type": "hash",
+      "hash": "1749cd05267ce6cdca1144bcbf30a8a0"
+    },
+    "https://ive-official.jp/mob/news/diarKiji.php?site=DIVE&ima=3847&cd=SCHEDULE": {
+      "type": "hash",
+      "hash": "afc1b176b671785adaf933dc07a5035b"
+    },
+    "https://ive-official.jp/mob/news/newsLis.php?site=DIVE&ima=5223": {
+      "type": "hash",
+      "hash": "b08e27971bee7c6d820cd7f1c86e1f74"
+    },
+    "https://ive-official.jp/mob/news/diarKiji.php?site=DIVE&ima=5223&cd=DISCOGRAPHY": {
+      "type": "hash",
+      "hash": "1749cd05267ce6cdca1144bcbf30a8a0"
+    },
+    "https://ive-official.jp/mob/news/diarKiji.php?site=DIVE&ima=5223&cd=SCHEDULE": {
+      "type": "hash",
+      "hash": "afc1b176b671785adaf933dc07a5035b"
     }
   },
   "aespa": {
     "https://aespa-official.jp/news/fanmeeting2026-myclassmaete/": {
       "type": "hash",
       "hash": "59c91861042f64398a67c4315cd91b5f"
+    },
+    "https://aespa-official.jp/news": {
+      "type": "hash",
+      "hash": "98044c5cb13df5fdec9e42d5e22cc43c"
+    },
+    "https://aespa-official.jp/schedule": {
+      "type": "hash",
+      "hash": "be0d05c15a89946810097e7289d836ca"
     }
   },
   "le_sserafim": {
     "https://www.le-sserafim.jp/news/51726af4dd90": {
       "type": "hash",
       "hash": "42310ba8599a358c94134f97a8f0b415"
+    },
+    "https://www.le-sserafim.jp/news": {
+      "type": "hash",
+      "hash": "be3390a4cd491d5336dba1ca0ab49c9a"
+    },
+    "https://www.le-sserafim.jp/news/3929eeedcc30": {
+      "type": "hash",
+      "hash": "5f9541562a89309bd540c8b18c4c9a6e"
+    },
+    "https://www.le-sserafim.jp/schedule": {
+      "type": "hash",
+      "hash": "8a2097c50d5756c7d4d9e1a3d735ace3"
     }
   },
   "tomorrow_x_together": {
     "https://txt-official.jp/": {
       "type": "hash",
-      "hash": "557ce37eb5444d381a31f17af6ade750"
+      "hash": "46eb2d211f33236b398b353926dcfe7c"
+    },
+    "https://txt-official.jp/news": {
+      "type": "hash",
+      "hash": "204d4e7173ffd069f2e38358a1d2f67e"
+    },
+    "https://txt-official.jp/news/cf400a45eb61": {
+      "type": "hash",
+      "hash": "0abf62c0f35681b8c12a6353e67a9eba"
+    },
+    "https://txt-official.jp/news/d3d4a6c832d5": {
+      "type": "hash",
+      "hash": "214b56dad6a39202f53e401a784fd0fe"
     }
   },
   "shinee": {
     "https://shinee.jp/": {
       "type": "hash",
       "hash": "b941e9685800c5616870a1c2528efd12"
+    },
+    "https://shinee.jp/news/": {
+      "type": "hash",
+      "hash": "bcc50cf5bc1d0f3dff4bcaa9bf884a6c"
+    },
+    "https://shinee.jp/news/2026/0629_2428.html": {
+      "type": "hash",
+      "hash": "88408d3a34ff9800b36951b54a4ad0c6"
+    },
+    "https://shinee.jp/news/2026/0608_2418.html": {
+      "type": "hash",
+      "hash": "60c9b6d762d3e772aa07a6728b35059e"
     }
   },
   "sandaime_j_soul_brothers": {
     "https://www.ldh-liveschedule.jp/sys/tour/40856/": {
       "type": "hash",
       "hash": "4e2237ff29065a740787241a79df420f"
+    },
+    "https://www.ldh-liveschedule.jp/sys/news/43936?lang=ja": {
+      "type": "hash",
+      "hash": "bf64f6fd7bc0a833ee608fcf8a39f40c"
+    },
+    "https://www.ldh-liveschedule.jp/sys/news/43853?lang=ja": {
+      "type": "hash",
+      "hash": "1b17fcd97677ca15d9ffeb5dd55761d6"
+    },
+    "https://www.ldh-liveschedule.jp/sys/news/43713?lang=ja": {
+      "type": "hash",
+      "hash": "ccbddebb2a4bc1f28fe55df79a95a57e"
+    },
+    "https://www.ldh-liveschedule.jp/sys/tour/40856/feed/": {
+      "type": "hash",
+      "hash": "a4f7508fcbe0f5494323f860a498424a"
     }
   },
   "zorn": {
     "https://zorn.tokyo/": {
       "type": "hash",
       "hash": "6f8064f72358f5af9ddaf5031d0deeac"
+    },
+    "https://zorn.tokyo/category/news/": {
+      "type": "hash",
+      "hash": "63979b0dc6b6026fa538cd60eb109a52"
+    },
+    "https://zorn.tokyo/live-at-saitama-super-arena/": {
+      "type": "hash",
+      "hash": "676ebe474103025240827639ebcaf8ec"
+    },
+    "https://zorn.tokyo/feed/": {
+      "type": "hash",
+      "hash": "3bfc201db706185113739ad9c2ee69c3"
+    },
+    "https://zorn.tokyo/comments/feed/": {
+      "type": "hash",
+      "hash": "354aa69c6afb2baee826a8ab862a2b76"
     }
   },
   "hypnosis_mic": {
     "https://hypnosismic.com/": {
       "type": "hash",
       "hash": "73c346ebb915ae7e1712e45fae1bb815"
+    },
+    "https://hypnosismic.com/news/": {
+      "type": "hash",
+      "hash": "6d19a962ad07076ed6a223b5a99582ce"
     }
   },
   "idolish7": {
     "https://idolish7.com/": {
       "type": "hash",
-      "hash": "ed3077542b6851c8b401319db4ec3ced"
+      "hash": "f95d84c6ccac29cf903faff726af7d65"
+    },
+    "https://idolish7.com/news": {
+      "type": "hash",
+      "hash": "09616aded22318826beff8541424f7bb"
+    },
+    "https://idolish7.com/news/2026/19803": {
+      "type": "hash",
+      "hash": "89d349c056154019ef9545e20050a858"
+    },
+    "https://idolish7.com/news/2026/19774": {
+      "type": "hash",
+      "hash": "7d6289ee264842118079170ee7ec3fc3"
     }
   },
   "a3": {
     "https://mankai-stage.jp/": {
       "type": "hash",
-      "hash": "151328c0ded8a10343a57c39dacbc3a0"
+      "hash": "8761b5eaa9fd2731580d7851fd16d289"
+    },
+    "https://www.mankai-stage.jp/news": {
+      "type": "hash",
+      "hash": "3430680b83d454a41a000194f5a30e4c"
+    },
+    "https://www.mankai-stage.jp/news/15919/": {
+      "type": "hash",
+      "hash": "1d6f34c16b74163821ab95cd7f6da71f"
+    },
+    "https://www.mankai-stage.jp/news/15739/": {
+      "type": "hash",
+      "hash": "3052a591f96a9d43d03c6810d8c9f302"
     }
   },
   "gre4n_boyz": {
     "https://gre4n-boyz.com/": {
       "type": "hash",
-      "hash": "bd289e6d19530b9673474db4fca6e6ed"
+      "hash": "4bc3da2b58f572e7ddd022316f8dee79"
+    },
+    "https://gre4n-boyz.com/news/": {
+      "type": "hash",
+      "hash": "6314cd07a8fcd2e0f277c286d8e75142"
+    },
+    "https://gre4n-boyz.com/crew-news/209": {
+      "type": "hash",
+      "hash": "87cdf154bf59c9af5bbc9c94de904c75"
+    },
+    "https://gre4n-boyz.com/news/231": {
+      "type": "hash",
+      "hash": "441dcd81f544c2f0dbe6e79736871787"
     }
   },
   "ikimonogakari": {
     "https://ikimonogakari.com/": {
       "type": "hash",
-      "hash": "a15a097eb88745a8647559260fc2ac4b"
+      "hash": "4b493a05267a9b280ac9624a8efd47c9"
+    },
+    "https://ikimonogakari.com/news/": {
+      "type": "hash",
+      "hash": "448a431a3041d4d631f89ce0b2eb665f"
+    },
+    "https://ikimonogakari.com/news/release/20251226-1": {
+      "type": "hash",
+      "hash": "8099f5390979b8837e3061297f0fc1af"
+    },
+    "https://ikimonogakari.com/news/release/20250925-1": {
+      "type": "hash",
+      "hash": "0cce9bd4433e3e991bbc74b8824a591c"
     }
   },
   "and_team": {
     "https://www.andteam-official.jp/": {
       "type": "hash",
-      "hash": "9334f769b350410f072b5fc0c8bcb716"
+      "hash": "7520b1f952df9f8d9b9b48121eaaf1a4"
+    },
+    "https://www.andteam-official.jp/news": {
+      "type": "hash",
+      "hash": "a7a1c2506bddc6771e8fe9cc4bd8cf9b"
+    },
+    "https://www.andteam-official.jp/news/31cfe06bdc82": {
+      "type": "hash",
+      "hash": "78dd334d13806f8a0df699c216d7bbc6"
+    },
+    "https://www.andteam-official.jp/news/8c0da093cc1f": {
+      "type": "hash",
+      "hash": "d2aa464377edd6a4e69c4ddd4d5a6adb"
     }
   },
   "aina_the_end": {
     "https://ainatheend.jp/": {
       "type": "hash",
-      "hash": "a02ceedc6d00de42fc879731d7a384d6"
+      "hash": "ad280881ac045fcd3ccfac1e85c19610"
+    },
+    "https://ainatheend.jp/news/": {
+      "type": "hash",
+      "hash": "401957cb5e14368d8556d5d277b7cd80"
+    },
+    "https://ainatheend.jp/news/detail.php?id=1133946": {
+      "type": "hash",
+      "hash": "ab4736fd166c10106b9267c65b74742b"
+    },
+    "https://ainatheend.jp/news/detail.php?id=1130314": {
+      "type": "hash",
+      "hash": "2e9adbd65ee71324eb50efd4813ada0c"
     }
   },
   "yorushika": {
     "https://yorushika.com/": {
       "type": "hash",
       "hash": "0cbf435c3e4b6f3d1fabceeb74c3c1bd"
+    },
+    "https://yorushika.com/news/5": {
+      "type": "hash",
+      "hash": "99d52e580160e7099f2d1b70d807a76e"
+    },
+    "https://yorushika.com/news/11": {
+      "type": "hash",
+      "hash": "00c0a13a816d750c3f4e19ddaba349f4"
+    },
+    "https://yorushika.com/news/9": {
+      "type": "hash",
+      "hash": "b613f8e39a1ac03a5deaaed11b69e3b1"
+    }
+  },
+  "ellegarden": {
+    "https://ellegarden.jp/": {
+      "type": "hash",
+      "hash": "669ce338e679e18d47ffadf696d6aeb3"
+    },
+    "https://ellegarden.jp/news.html": {
+      "type": "hash",
+      "hash": "3679a49494e78a6db92a29a6224917fa"
+    },
+    "https://ellegarden.jp/live.html": {
+      "type": "hash",
+      "hash": "669ce338e679e18d47ffadf696d6aeb3"
+    }
+  },
+  "urashimasakatasen": {
+    "https://urashimasakatasen.com/": {
+      "type": "hash",
+      "hash": "d596910fcad65225785532edeae6290f"
+    },
+    "https://urashimasakatasen.com/news": {
+      "type": "hash",
+      "hash": "43cbab825cf08a36aee665daa16dfd65"
+    },
+    "https://urashimasakatasen.com/live/taboo": {
+      "type": "hash",
+      "hash": "1a4a3eb423bd3f3e76e2a0e2fc08084b"
+    },
+    "https://urashimasakatasen.com/goods/summer2026": {
+      "type": "hash",
+      "hash": "7cbd6f4e8824cce55193a4f5b3ed486a"
     }
   }
 }
