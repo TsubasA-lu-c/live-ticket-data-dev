@@ -13,7 +13,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -27,7 +27,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "jo1_eien_2026_tokyo_0409",
@@ -39,7 +39,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "jo1_eien_2026_osaka_0422",
@@ -51,7 +51,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "jo1_eien_2026_osaka_0423",
@@ -63,7 +63,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "jo1_eien_2026_vantelin_0719",
@@ -75,7 +75,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://jo1.jp/news/detail/5966",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "jo1_eien_2026_vantelin_0720",
@@ -87,7 +87,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://jo1.jp/news/detail/5966",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "jo1_eien_2026_seoul_0926",
@@ -99,7 +99,7 @@
       "eventName": "JO1DER SHOW 2026 'EIEN 永縁' LIMITED EDITION IN SEOUL",
       "source": "system",
       "sourceUrl": "https://cloud.jo1.jp/news/detail/6203",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "jo1_eien_2026_seoul_0927",
@@ -111,7 +111,7 @@
       "eventName": "JO1DER SHOW 2026 'EIEN 永縁' LIMITED EDITION IN SEOUL",
       "source": "system",
       "sourceUrl": "https://cloud.jo1.jp/news/detail/6203",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -127,7 +127,7 @@
       "performanceIds": ["jo1_eien_2026_tokyo_0408", "jo1_eien_2026_tokyo_0409"],
       "source": "system",
       "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "jo1_eien_2026_tokyo_fc2",
@@ -141,7 +141,7 @@
       "performanceIds": ["jo1_eien_2026_tokyo_0408", "jo1_eien_2026_tokyo_0409"],
       "source": "system",
       "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "jo1_eien_2026_osaka_fc1",
@@ -155,7 +155,7 @@
       "performanceIds": ["jo1_eien_2026_osaka_0422", "jo1_eien_2026_osaka_0423"],
       "source": "system",
       "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "jo1_eien_2026_osaka_fc2",
@@ -169,7 +169,7 @@
       "performanceIds": ["jo1_eien_2026_osaka_0422", "jo1_eien_2026_osaka_0423"],
       "source": "system",
       "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "jo1_eien_2026_nagoya_fc",
@@ -183,7 +183,7 @@
       "performanceIds": ["jo1_eien_2026_vantelin_0719", "jo1_eien_2026_vantelin_0720"],
       "source": "system",
       "sourceUrl": "https://jo1.jp/news/detail/5966",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "jo1_eien_2026_seoul_fc",
@@ -197,7 +197,7 @@
       "performanceIds": ["jo1_eien_2026_seoul_0926", "jo1_eien_2026_seoul_0927"],
       "source": "system",
       "sourceUrl": "https://cloud.jo1.jp/news/detail/6203",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "jo1_eien_2026_seoul_general",
@@ -211,7 +211,7 @@
       "performanceIds": ["jo1_eien_2026_seoul_0926", "jo1_eien_2026_seoul_0927"],
       "source": "system",
       "sourceUrl": "https://cloud.jo1.jp/news/detail/6203",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     }
   ]
 }

@@ -10,7 +10,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/news/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "mazzel_play_at_the_muzeum2_2026",
@@ -24,7 +24,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -38,7 +38,7 @@
       "eventName": "BMSG FES'26",
       "source": "system",
       "sourceUrl": "https://bmsgfes.tokyo/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "mazzel_fes_bmsg_2026_bmsg_1011",
@@ -50,7 +50,7 @@
       "eventName": "BMSG FES'26",
       "source": "system",
       "sourceUrl": "https://bmsgfes.tokyo/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "mazzel_fes_bmsg_2026_bmsg_1012",
@@ -62,7 +62,7 @@
       "eventName": "BMSG FES'26",
       "source": "system",
       "sourceUrl": "https://bmsgfes.tokyo/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "mazzel_play_at_the_muzeum2_2026_line_cube_1022",
@@ -74,7 +74,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "mazzel_play_at_the_muzeum2_2026_kanamoto_1024",
@@ -86,7 +86,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "mazzel_play_at_the_muzeum2_2026_hakodate_1025",
@@ -98,19 +98,19 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "mazzel_play_at_the_muzeum2_2026_fukushima_1102",
       "tourId": "mazzel_play_at_the_muzeum2_2026",
-      "venue": "東邦みんなの文化センター（福島市音楽堂）",
+      "venue": "とうほう・みんなの文化センター（福島県文化センター）大ホール",
       "performanceAt": "2026-11-02T18:00:00+09:00",
       "doorOpenAt": "2026-11-02T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "mazzel_play_at_the_muzeum2_2026_miyagi_1103",
@@ -122,7 +122,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "mazzel_play_at_the_muzeum2_2026_niigata_1107",
@@ -134,7 +134,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "mazzel_play_at_the_muzeum2_2026_pacifico_1110",
@@ -146,7 +146,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "mazzel_play_at_the_muzeum2_2026_kurashiki_1117",
@@ -158,7 +158,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "mazzel_play_at_the_muzeum2_2026_hiroshima_1118",
@@ -170,7 +170,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "mazzel_play_at_the_muzeum2_2026_kobe_1125a",
@@ -182,7 +182,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "mazzel_play_at_the_muzeum2_2026_kobe_1125b",
@@ -194,19 +194,19 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "mazzel_play_at_the_muzeum2_2026_osaka_1126",
       "tourId": "mazzel_play_at_the_muzeum2_2026",
-      "venue": "大阪国際会議場（グランキューブ大阪）",
+      "venue": "大阪国際会議場 メインホール",
       "performanceAt": "2026-11-26T18:00:00+09:00",
       "doorOpenAt": "2026-11-26T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "mazzel_play_at_the_muzeum2_2026_omiya_1201",
@@ -218,55 +218,55 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "mazzel_play_at_the_muzeum2_2026_gunma_1203",
       "tourId": "mazzel_play_at_the_muzeum2_2026",
-      "venue": "Gメッセ群馬",
+      "venue": "Gメッセ群馬 展示ホールA・B",
       "performanceAt": "2026-12-03T18:00:00+09:00",
       "doorOpenAt": "2026-12-03T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "mazzel_play_at_the_muzeum2_2026_utsunomiya_1204",
       "tourId": "mazzel_play_at_the_muzeum2_2026",
-      "venue": "宇都宮文化会館",
+      "venue": "宇都宮市文化会館 大ホール",
       "performanceAt": "2026-12-04T18:00:00+09:00",
       "doorOpenAt": "2026-12-04T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "mazzel_play_at_the_muzeum2_2026_fukuoka_1207a",
       "tourId": "mazzel_play_at_the_muzeum2_2026",
-      "venue": "福岡サンパレスホテル＆ホール",
+      "venue": "福岡サンパレス",
       "performanceAt": "2026-12-07T15:00:00+09:00",
       "doorOpenAt": "2026-12-07T14:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "mazzel_play_at_the_muzeum2_2026_fukuoka_1207b",
       "tourId": "mazzel_play_at_the_muzeum2_2026",
-      "venue": "福岡サンパレスホテル＆ホール",
+      "venue": "福岡サンパレス",
       "performanceAt": "2026-12-07T19:00:00+09:00",
       "doorOpenAt": "2026-12-07T18:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "mazzel_play_at_the_muzeum2_2026_aichi_1211",
@@ -278,31 +278,31 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "mazzel_play_at_the_muzeum2_2026_kagawa_1215",
       "tourId": "mazzel_play_at_the_muzeum2_2026",
-      "venue": "レクザムホール（香川県民ホール）",
+      "venue": "レクザムホール・大ホール",
       "performanceAt": "2026-12-15T18:00:00+09:00",
       "doorOpenAt": "2026-12-15T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "mazzel_play_at_the_muzeum2_2026_kochi_1216",
       "tourId": "mazzel_play_at_the_muzeum2_2026",
-      "venue": "高知新来島どっく産業文化ホール",
+      "venue": "新来島高知重工ホール・オレンジホール",
       "performanceAt": "2026-12-16T18:00:00+09:00",
       "doorOpenAt": "2026-12-16T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "mazzel_play_at_the_muzeum2_2026_hamamatsu_1221",
@@ -314,7 +314,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "mazzel_play_at_the_muzeum2_2026_kumamoto_1223",
@@ -326,7 +326,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -365,7 +365,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/news/1/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "mazzel_play_at_the_muzeum2_2026_resident_先行",
@@ -402,7 +402,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/news/1/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     }
   ]
 }

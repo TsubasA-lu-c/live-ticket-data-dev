@@ -8,13 +8,22 @@
       "startDate": "2026-05-04T00:00:00+09:00",
       "endDate": "2026-07-18T00:00:00+09:00",
       "prices": [
-        {"label": "通常チケット", "amount": 9900},
-        {"label": "プレミアムチケット（限定グッズ＋センター席）", "amount": 24800},
-        {"label": "2公演通し券（7/18昼夜）", "amount": 19800}
+        {
+          "label": "通常チケット",
+          "amount": 9900
+        },
+        {
+          "label": "プレミアムチケット（限定グッズ＋センター席）",
+          "amount": 24800
+        },
+        {
+          "label": "2公演通し券（7/18昼夜）",
+          "amount": 19800
+        }
       ],
       "source": "system",
       "sourceUrl": "https://not-equal-me.jp/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -28,7 +37,7 @@
       "eventName": "昼の部",
       "source": "system",
       "sourceUrl": "https://not-equal-me.jp/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "not_equal_me_kassai_parade_2026_tokyo_garden_0504_e",
@@ -40,7 +49,7 @@
       "eventName": "夜の部",
       "source": "system",
       "sourceUrl": "https://not-equal-me.jp/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "not_equal_me_kassai_parade_2026_kobe_world_0516_m",
@@ -52,7 +61,7 @@
       "eventName": "昼の部",
       "source": "system",
       "sourceUrl": "https://kyodo-osaka.co.jp/search/detail/12845",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "not_equal_me_kassai_parade_2026_kobe_world_0516_e",
@@ -64,7 +73,7 @@
       "eventName": "夜の部",
       "source": "system",
       "sourceUrl": "https://kyodo-osaka.co.jp/search/detail/12845",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "not_equal_me_kassai_parade_2026_hiroshima_sunplaza_0530_m",
@@ -76,7 +85,7 @@
       "eventName": "昼の部",
       "source": "system",
       "sourceUrl": "https://kyodo-osaka.co.jp/search/detail/12845",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "not_equal_me_kassai_parade_2026_hiroshima_sunplaza_0530_e",
@@ -88,7 +97,7 @@
       "eventName": "夜の部",
       "source": "system",
       "sourceUrl": "https://kyodo-osaka.co.jp/search/detail/12845",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "not_equal_me_kassai_parade_2026_zebio_sendai_0627_m",
@@ -100,7 +109,7 @@
       "eventName": "昼の部",
       "source": "system",
       "sourceUrl": "https://not-equal-me.jp/news/detail/7343",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "not_equal_me_kassai_parade_2026_zebio_sendai_0627_e",
@@ -112,7 +121,7 @@
       "eventName": "夜の部",
       "source": "system",
       "sourceUrl": "https://not-equal-me.jp/news/detail/7343",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "not_equal_me_kassai_parade_2026_yokohama_arena_0717",
@@ -124,7 +133,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.yokohama-arena.co.jp/event/detail/%E2%89%A0me-%E3%82%A2%E3%83%AA%E3%83%BC%E3%83%8A%E3%83%84%E3%82%A2%E3%83%BC2026%E3%80%8C%E5%96%9D%E9%87%87%E3%83%91%E3%83%AC%E3%83%BC%E3%83%89%E3%80%8D",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "not_equal_me_kassai_parade_2026_yokohama_arena_0718_m",
@@ -136,7 +145,7 @@
       "eventName": "昼の部",
       "source": "system",
       "sourceUrl": "https://www.yokohama-arena.co.jp/event/detail/%E2%89%A0me-%E3%82%A2%E3%83%AA%E3%83%BC%E3%83%8A%E3%83%84%E3%82%A2%E3%83%BC2026%E3%80%8C%E5%96%9D%E9%87%87%E3%83%91%E3%83%AC%E3%83%BC%E3%83%89%E3%80%8D",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "not_equal_me_kassai_parade_2026_yokohama_arena_0718_e",
@@ -148,7 +157,7 @@
       "eventName": "夜の部",
       "source": "system",
       "sourceUrl": "https://www.yokohama-arena.co.jp/event/detail/%E2%89%A0me-%E3%82%A2%E3%83%AA%E3%83%BC%E3%83%8A%E3%83%84%E3%82%A2%E3%83%BC2026%E3%80%8C%E5%96%9D%E9%87%87%E3%83%91%E3%83%AC%E3%83%BC%E3%83%89%E3%80%8D",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     }
   ],
   "lotteries": []
