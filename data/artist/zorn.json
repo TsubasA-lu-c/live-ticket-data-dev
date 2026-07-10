@@ -12,7 +12,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/1343970001-P0030010P021001",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -26,7 +26,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/1343970001-P0030010P021001",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -42,7 +42,7 @@
       "performanceIds": ["zorn_jimotelove_oneman_2026_katsushikashills_0730"],
       "source": "system",
       "sourceUrl": "https://fc.zorn.tokyo/news/?id=470",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "zorn_jimotelove_oneman_2026_fc_2nd",
@@ -56,7 +56,7 @@
       "performanceIds": ["zorn_jimotelove_oneman_2026_katsushikashills_0730"],
       "source": "system",
       "sourceUrl": "https://fc.zorn.tokyo/news/?id=475",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     },
     {
       "id": "zorn_jimotelove_oneman_2026_ippan_sakigake",
@@ -70,7 +70,7 @@
       "performanceIds": ["zorn_jimotelove_oneman_2026_katsushikashills_0730"],
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/1343970001-P0030010P021001",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
     }
   ]
 }

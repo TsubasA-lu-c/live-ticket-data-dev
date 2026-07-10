@@ -150,5 +150,58 @@
       "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     }
   ],
-  "lotteries": []
+  "lotteries": [
+    {
+      "id": "le_sserafim_pureflow_2026_fearnot",
+      "tourId": "le_sserafim_pureflow_2026",
+      "type": "FEARNOT Membership (JP)会員先行抽選",
+      "entryStartAt": "2026-04-28T13:00:00+09:00",
+      "entryEndAt": "2026-05-06T23:59:00+09:00",
+      "resultAt": "2026-05-15T19:00:00+09:00",
+      "paymentStartAt": "2026-05-15T19:00:00+09:00",
+      "paymentEndAt": "2026-05-20T23:00:00+09:00",
+      "performanceIds": [
+        "le_sserafim_pureflow_2026_osaka_0725",
+        "le_sserafim_pureflow_2026_osaka_0726",
+        "le_sserafim_pureflow_2026_yokohama_0730",
+        "le_sserafim_pureflow_2026_yokohama_0801",
+        "le_sserafim_pureflow_2026_yokohama_0802",
+        "le_sserafim_pureflow_2026_shizuoka_0808",
+        "le_sserafim_pureflow_2026_shizuoka_0809",
+        "le_sserafim_pureflow_2026_miyagi_0818",
+        "le_sserafim_pureflow_2026_miyagi_0819",
+        "le_sserafim_pureflow_2026_fukuoka_0902",
+        "le_sserafim_pureflow_2026_fukuoka_0903"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/news/51726af4dd90",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_pureflow_2026_lawson",
+      "tourId": "le_sserafim_pureflow_2026",
+      "type": "ローソンチケット先行抽選",
+      "entryStartAt": "2026-05-22T17:00:00+09:00",
+      "entryEndAt": "2026-06-01T23:59:00+09:00",
+      "resultAt": "2026-06-05T11:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "le_sserafim_pureflow_2026_osaka_0725",
+        "le_sserafim_pureflow_2026_osaka_0726",
+        "le_sserafim_pureflow_2026_yokohama_0730",
+        "le_sserafim_pureflow_2026_yokohama_0801",
+        "le_sserafim_pureflow_2026_yokohama_0802",
+        "le_sserafim_pureflow_2026_shizuoka_0808",
+        "le_sserafim_pureflow_2026_shizuoka_0809",
+        "le_sserafim_pureflow_2026_miyagi_0818",
+        "le_sserafim_pureflow_2026_miyagi_0819",
+        "le_sserafim_pureflow_2026_fukuoka_0902",
+        "le_sserafim_pureflow_2026_fukuoka_0903"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/news/feaecc1349e6",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    }
+  ]
 }
