@@ -8,13 +8,33 @@
       "startDate": "2026-10-10T00:00:00+09:00",
       "endDate": "2026-10-11T00:00:00+09:00",
       "prices": [
-        {"label": "スタンダードエリア", "amount": 12000},
-        {"label": "バックフリーエリア", "amount": 6500},
-        {"label": "バックフリーエリア（奈良県民）", "amount": 5500}
+        {
+          "label": "スタンダードエリア",
+          "amount": 12000
+        },
+        {
+          "label": "バックフリーエリア",
+          "amount": 6500
+        },
+        {
+          "label": "バックフリーエリア（奈良県民）",
+          "amount": 5500
+        }
       ],
       "source": "system",
       "sourceUrl": "https://zutomayo.net/live/58/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_fes_2026",
+      "artistId": "zutomayo",
+      "title": "2026年フェス出演",
+      "startDate": "2026-07-25T00:00:00+09:00",
+      "endDate": "2026-09-19T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/live/",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -28,7 +48,7 @@
       "eventName": "特別公演祭 LEGACY ZOMBIE LABO「文禍伝雷」奈良・平城京",
       "source": "system",
       "sourceUrl": "https://zutomayo.net/live/58/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "zutomayo_legacyzombie_2026_nara_1011",
@@ -40,7 +60,67 @@
       "eventName": "特別公演祭 LEGACY ZOMBIE LABO「文禍伝雷」奈良・平城京",
       "source": "system",
       "sourceUrl": "https://zutomayo.net/live/58/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_fujirock_2026_0725",
+      "tourId": "zutomayo_fes_2026",
+      "venue": "FUJI ROCK FESTIVAL '26",
+      "performanceAt": "2026-07-25T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "FUJI ROCK FESTIVAL '26",
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/live/",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_osakagiga_2026_0802",
+      "tourId": "zutomayo_fes_2026",
+      "venue": "OSAKA GIGANTIC MUSIC FESTIVAL 2026",
+      "performanceAt": "2026-08-02T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "OSAKA GIGANTIC MUSIC FESTIVAL 2026 -THANKS 10TH GIGA-",
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/live/",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_wildbunch_2026_0822",
+      "tourId": "zutomayo_fes_2026",
+      "venue": "山口きらら博記念公園",
+      "performanceAt": "2026-08-22T11:30:00+09:00",
+      "doorOpenAt": "2026-08-22T10:00:00+09:00",
+      "kind": "fes",
+      "eventName": "WILD BUNCH FEST. 2026",
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/live/54/",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_soundplanet_2026_0906",
+      "tourId": "zutomayo_fes_2026",
+      "venue": "SOUND PLANET FESTIVAL",
+      "performanceAt": "2026-09-06T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "SOUND PLANET FESTIVAL",
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/live/",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_rockinJapan_2026_0919",
+      "tourId": "zutomayo_fes_2026",
+      "venue": "ROCK IN JAPAN FESTIVAL 2026",
+      "performanceAt": "2026-09-19T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "ROCK IN JAPAN FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/live/",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -59,7 +139,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://zutomayo.net/live/58/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "zutomayo_legacyzombie_2026_fc2",
@@ -76,7 +156,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://zutomayo.net/live/58/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "zutomayo_legacyzombie_2026_gen1",
@@ -93,7 +173,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://zutomayo.net/live/58/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "zutomayo_legacyzombie_2026_upgrade",
@@ -110,76 +190,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://zutomayo.net/live/58/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
-    }
-  ],
-  "festivals": [
-    {
-      "id": "zutomayo_fes_2026",
-      "tourId": "zutomayo_fes_2026",
-      "title": "2026年フェス出演",
-      "performances": [
-        {
-          "id": "zutomayo_fujirock_2026_0725",
-          "tourId": "zutomayo_fes_2026",
-          "venue": "FUJI ROCK FESTIVAL '26",
-          "performanceAt": "2026-07-25T12:00:00+09:00",
-          "doorOpenAt": null,
-          "kind": "fes",
-          "eventName": "FUJI ROCK FESTIVAL '26",
-          "source": "system",
-          "sourceUrl": "https://zutomayo.net/live/",
-          "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-        },
-        {
-          "id": "zutomayo_osakagiga_2026_0802",
-          "tourId": "zutomayo_fes_2026",
-          "venue": "OSAKA GIGANTIC MUSIC FESTIVAL 2026",
-          "performanceAt": "2026-08-02T12:00:00+09:00",
-          "doorOpenAt": null,
-          "kind": "fes",
-          "eventName": "OSAKA GIGANTIC MUSIC FESTIVAL 2026 -THANKS 10TH GIGA-",
-          "source": "system",
-          "sourceUrl": "https://zutomayo.net/live/",
-          "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-        },
-        {
-          "id": "zutomayo_wildbunch_2026_0822",
-          "tourId": "zutomayo_fes_2026",
-          "venue": "山口きらら博記念公園",
-          "performanceAt": "2026-08-22T11:30:00+09:00",
-          "doorOpenAt": "2026-08-22T10:00:00+09:00",
-          "kind": "fes",
-          "eventName": "WILD BUNCH FEST. 2026",
-          "source": "system",
-          "sourceUrl": "https://zutomayo.net/live/54/",
-          "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-        },
-        {
-          "id": "zutomayo_soundplanet_2026_0906",
-          "tourId": "zutomayo_fes_2026",
-          "venue": "SOUND PLANET FESTIVAL",
-          "performanceAt": "2026-09-06T12:00:00+09:00",
-          "doorOpenAt": null,
-          "kind": "fes",
-          "eventName": "SOUND PLANET FESTIVAL",
-          "source": "system",
-          "sourceUrl": "https://zutomayo.net/live/",
-          "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-        },
-        {
-          "id": "zutomayo_rockinJapan_2026_0919",
-          "tourId": "zutomayo_fes_2026",
-          "venue": "ROCK IN JAPAN FESTIVAL 2026",
-          "performanceAt": "2026-09-19T12:00:00+09:00",
-          "doorOpenAt": null,
-          "kind": "fes",
-          "eventName": "ROCK IN JAPAN FESTIVAL 2026",
-          "source": "system",
-          "sourceUrl": "https://zutomayo.net/live/",
-          "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-        }
-      ]
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
   ]
 }
