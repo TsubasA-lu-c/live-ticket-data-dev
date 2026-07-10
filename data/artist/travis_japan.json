@@ -10,21 +10,33 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://www.summersonic.com/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
   ],
   "performances": [
     {
-      "id": "travis_japan_fes_2026_summersonic_0816",
+      "id": "travis_japan_fes_2026_summersonic_0815",
       "tourId": "travis_japan_fes_2026",
-      "venue": "幕張メッセ / ZOZOマリンスタジアム",
-      "performanceAt": "2026-08-16T12:00:00+09:00",
+      "venue": "万博記念公園",
+      "performanceAt": "2026-08-15T18:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "SUMMER SONIC 2026",
       "source": "system",
       "sourceUrl": "https://www.summersonic.com/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "travis_japan_fes_2026_summersonic_0816",
+      "tourId": "travis_japan_fes_2026",
+      "venue": "幕張メッセ / ZOZOマリンスタジアム",
+      "performanceAt": "2026-08-16T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "SUMMER SONIC 2026",
+      "source": "system",
+      "sourceUrl": "https://www.summersonic.com/",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
   ],
   "lotteries": []
