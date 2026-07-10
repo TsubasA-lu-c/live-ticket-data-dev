@@ -2,28 +2,6 @@
   "artistId": "monaki",
   "tours": [
     {
-      "id": "monaki_fes_weekend_korea_2026",
-      "artistId": "monaki",
-      "title": "週末KOREA ハップルフェス in 大阪",
-      "startDate": "2026-07-04T00:00:00+09:00",
-      "endDate": "2026-07-04T00:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://monaki.jp/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
-    },
-    {
-      "id": "monaki_fes_8fes_2026",
-      "artistId": "monaki",
-      "title": "８FES 2026",
-      "startDate": "2026-07-05T00:00:00+09:00",
-      "endDate": "2026-07-05T00:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://monaki.jp/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
-    },
-    {
       "id": "monaki_event_boatrace_2026",
       "artistId": "monaki",
       "title": "GⅢオールレディース ジュエルセブンカップ ステージイベント",
@@ -78,30 +56,6 @@
     }
   ],
   "performances": [
-    {
-      "id": "monaki_fes_weekend_korea_2026_osaka_0704",
-      "tourId": "monaki_fes_weekend_korea_2026",
-      "venue": null,
-      "performanceAt": "2026-07-04T18:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "週末KOREA ハップルフェス in 大阪",
-      "source": "system",
-      "sourceUrl": "https://monaki.jp/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
-    },
-    {
-      "id": "monaki_fes_8fes_2026_suzuka_0705",
-      "tourId": "monaki_fes_8fes_2026",
-      "venue": "鈴鹿サーキット",
-      "performanceAt": "2026-07-05T18:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "８FES 2026",
-      "source": "system",
-      "sourceUrl": "https://monaki.jp/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
-    },
     {
       "id": "monaki_release_2026_sumida_0602",
       "tourId": "monaki_release_2026",

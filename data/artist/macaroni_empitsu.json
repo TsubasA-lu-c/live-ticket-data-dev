@@ -22,28 +22,6 @@
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
-      "id": "macaroni_empitsu_fes_2026_kyototaisaku",
-      "artistId": "macaroni_empitsu",
-      "title": "京都大作戦2026",
-      "startDate": "2026-07-04T12:00:00+09:00",
-      "endDate": "2026-07-05T12:00:00+09:00",
-      "prices": [],
-      "source": "system",
-      "sourceUrl": "https://macaroniempitsu.com/live",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
-    },
-    {
-      "id": "macaroni_empitsu_fes_2026_starijam",
-      "artistId": "macaroni_empitsu",
-      "title": "THE STAR JAM 2026",
-      "startDate": "2026-07-06T12:00:00+09:00",
-      "endDate": "2026-07-06T12:00:00+09:00",
-      "prices": [],
-      "source": "system",
-      "sourceUrl": "https://macaroniempitsu.com/live",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
-    },
-    {
       "id": "macaroni_empitsu_fes_2026_eightjam",
       "artistId": "macaroni_empitsu",
       "title": "EIGHT-JAM FES 2026",
@@ -344,30 +322,6 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://macaroniempitsu.com/live/19676.html",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
-    },
-    {
-      "id": "macaroni_empitsu_fes_2026_kyototaisaku_0704",
-      "tourId": "macaroni_empitsu_fes_2026_kyototaisaku",
-      "venue": "京都府立山城総合運動公園",
-      "performanceAt": "2026-07-04T12:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "京都大作戦2026",
-      "source": "system",
-      "sourceUrl": "https://macaroniempitsu.com/live",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
-    },
-    {
-      "id": "macaroni_empitsu_fes_2026_starijam_0706",
-      "tourId": "macaroni_empitsu_fes_2026_starijam",
-      "venue": "東京ガーデンシアター",
-      "performanceAt": "2026-07-06T12:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "THE STAR JAM 2026",
-      "source": "system",
-      "sourceUrl": "https://macaroniempitsu.com/live",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {

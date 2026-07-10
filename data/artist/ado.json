@@ -2,38 +2,6 @@
   "artistId": "ado",
   "tours": [
     {
-      "id": "ado_stadium_ao_2026",
-      "artistId": "ado",
-      "title": "Ado STADIUM LIVE 2026「Ao」",
-      "startDate": "2026-07-04T00:00:00+09:00",
-      "endDate": "2026-07-05T00:00:00+09:00",
-      "prices": [
-        {
-          "label": "VIP席",
-          "amount": 30000
-        },
-        {
-          "label": "SS席",
-          "amount": 20000
-        },
-        {
-          "label": "S席",
-          "amount": 15000
-        },
-        {
-          "label": "A席",
-          "amount": 10000
-        },
-        {
-          "label": "B席",
-          "amount": 7000
-        }
-      ],
-      "source": "system",
-      "sourceUrl": "https://www.universal-music.co.jp/ado/news/2025-11-23/",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
-    },
-    {
       "id": "ado_summer_sonic_tokyo",
       "artistId": "ado",
       "title": "Summer Sonic 2026",
@@ -77,30 +45,6 @@
     }
   ],
   "performances": [
-    {
-      "id": "ado_stadium_ao_2026_kanagawa_0704",
-      "tourId": "ado_stadium_ao_2026",
-      "venue": "日産スタジアム",
-      "performanceAt": "2026-07-04T18:00:00+09:00",
-      "doorOpenAt": "2026-07-04T16:00:00+09:00",
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://www.universal-music.co.jp/ado/news/2025-11-23/",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
-    },
-    {
-      "id": "ado_stadium_ao_2026_kanagawa_0705",
-      "tourId": "ado_stadium_ao_2026",
-      "venue": "日産スタジアム",
-      "performanceAt": "2026-07-05T18:00:00+09:00",
-      "doorOpenAt": "2026-07-05T16:00:00+09:00",
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://www.universal-music.co.jp/ado/news/2025-11-23/",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
-    },
     {
       "id": "ado_summer_sonic_tokyo_2026",
       "tourId": "ado_summer_sonic_tokyo",

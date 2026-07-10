@@ -8,24 +8,13 @@
       "startDate": "2026-05-25T00:00:00+09:00",
       "endDate": "2026-09-16T00:00:00+09:00",
       "prices": [
-        {"label": "全席指定", "amount": 4800}
+        {
+          "label": "全席指定",
+          "amount": 4800
+        }
       ],
       "source": "system",
       "sourceUrl": "https://10-feet.kyoto/pages/kowaretekierumade",
-      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
-    },
-    {
-      "id": "10_feet_fes_kyotodai_2026",
-      "artistId": "10_feet",
-      "title": "京都大作戦2026〜夏フェスキックオフ！情熱のパスを繋ぎな祭〜",
-      "startDate": "2026-07-04T00:00:00+09:00",
-      "endDate": "2026-07-05T00:00:00+09:00",
-      "prices": [
-        {"label": "1日券", "amount": 11000},
-        {"label": "2日通し券", "amount": 22000}
-      ],
-      "source": "system",
-      "sourceUrl": "https://10-feet.kyoto/contents/1049474",
       "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
     },
     {
@@ -57,7 +46,10 @@
       "startDate": "2026-07-25T00:00:00+09:00",
       "endDate": "2026-07-25T00:00:00+09:00",
       "prices": [
-        {"label": "一般指定席（前売）", "amount": 18000}
+        {
+          "label": "一般指定席（前売）",
+          "amount": 18000
+        }
       ],
       "source": "system",
       "sourceUrl": "https://10-feet.kyoto/contents/1057032",
@@ -70,7 +62,10 @@
       "startDate": "2026-09-21T00:00:00+09:00",
       "endDate": "2026-09-21T00:00:00+09:00",
       "prices": [
-        {"label": "1日券", "amount": 15000}
+        {
+          "label": "1日券",
+          "amount": 15000
+        }
       ],
       "source": "system",
       "sourceUrl": "https://rijfes.jp/",
@@ -83,8 +78,14 @@
       "startDate": "2026-11-07T00:00:00+09:00",
       "endDate": "2026-11-07T00:00:00+09:00",
       "prices": [
-        {"label": "アリーナスタンディング", "amount": 13500},
-        {"label": "スタンド指定席", "amount": 13500}
+        {
+          "label": "アリーナスタンディング",
+          "amount": 13500
+        },
+        {
+          "label": "スタンド指定席",
+          "amount": 13500
+        }
       ],
       "source": "system",
       "sourceUrl": "https://airjam.jp/",
@@ -97,7 +98,10 @@
       "startDate": "2026-11-02T00:00:00+09:00",
       "endDate": "2026-11-02T00:00:00+09:00",
       "prices": [
-        {"label": "スタンディング（税込）", "amount": 4610}
+        {
+          "label": "スタンディング（税込）",
+          "amount": 4610
+        }
       ],
       "source": "system",
       "sourceUrl": "https://rotten-g.com/contents/50",
@@ -250,30 +254,6 @@
       "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
     },
     {
-      "id": "10_feet_fes_kyotodai_2026_kyotodai_0704",
-      "tourId": "10_feet_fes_kyotodai_2026",
-      "venue": "京都府立山城総合運動公園 太陽が丘特設野外ステージ",
-      "performanceAt": "2026-07-04T12:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "京都大作戦2026〜夏フェスキックオフ！情熱のパスを繋ぎな祭〜",
-      "source": "system",
-      "sourceUrl": "https://10-feet.kyoto/contents/1049474",
-      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
-    },
-    {
-      "id": "10_feet_fes_kyotodai_2026_kyotodai_0705",
-      "tourId": "10_feet_fes_kyotodai_2026",
-      "venue": "京都府立山城総合運動公園 太陽が丘特設野外ステージ",
-      "performanceAt": "2026-07-05T12:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "京都大作戦2026〜夏フェスキックオフ！情熱のパスを繋ぎな祭〜",
-      "source": "system",
-      "sourceUrl": "https://10-feet.kyoto/contents/1049475",
-      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
-    },
-    {
       "id": "10_feet_fes_talkingrockfes_2026_yokohama_0712",
       "tourId": "10_feet_fes_talkingrockfes_2026",
       "venue": "横浜アリーナ",
@@ -401,34 +381,6 @@
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://10-feet.kyoto/pages/kowaretekierumade",
-      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
-    },
-    {
-      "id": "10_feet_fes_kyotodai_2026_mobile_senko",
-      "tourId": "10_feet_fes_kyotodai_2026",
-      "type": "10-FEET MOBILE会員先行",
-      "entryStartAt": "2026-02-10T12:00:00+09:00",
-      "entryEndAt": null,
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": null,
-      "source": "system",
-      "sourceUrl": "https://10-feet.kyoto/contents/1043429",
-      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
-    },
-    {
-      "id": "10_feet_fes_kyotodai_2026_lawson_3ji",
-      "tourId": "10_feet_fes_kyotodai_2026",
-      "type": "ローソンチケット3次先行",
-      "entryStartAt": null,
-      "entryEndAt": null,
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": null,
-      "source": "system",
-      "sourceUrl": "https://10-feet.kyoto/contents/1049215",
       "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
     },
     {

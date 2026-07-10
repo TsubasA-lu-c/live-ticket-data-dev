@@ -18,17 +18,6 @@
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
-      "id": "cutie_street_fes_kawaii_lab_sendai_2026",
-      "artistId": "cutie_street",
-      "title": "KAWAII LAB. SESSION in SENDAI",
-      "startDate": "2026-07-05T00:00:00+09:00",
-      "endDate": "2026-07-05T00:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://cutiestreet.asobisystem.com/live_information/detail/81089",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
-    },
-    {
       "id": "cutie_street_fes_kawaii_lab_summer_2026",
       "artistId": "cutie_street",
       "title": "KAWAII LAB. SESSION 2026 SUMMER",
@@ -90,18 +79,6 @@
       "eventName": "CUTIE STREET 2nd ANNIVERSARY LIVE 2026",
       "source": "system",
       "sourceUrl": "https://cutiestreet.asobisystem.com/feature/2ndanniversarylive",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
-    },
-    {
-      "id": "cutie_street_fes_kawaii_lab_sendai_2026_zevioarena_0705",
-      "tourId": "cutie_street_fes_kawaii_lab_sendai_2026",
-      "venue": "ゼビオアリーナ仙台",
-      "performanceAt": "2026-07-05T16:00:00+09:00",
-      "doorOpenAt": "2026-07-05T14:30:00+09:00",
-      "kind": "fes",
-      "eventName": "KAWAII LAB. SESSION in SENDAI",
-      "source": "system",
-      "sourceUrl": "https://cutiestreet.asobisystem.com/live_information/detail/81089",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
