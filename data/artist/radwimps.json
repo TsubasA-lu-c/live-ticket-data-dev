@@ -15,7 +15,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://radwimps.jp/yurinchi/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -29,7 +29,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://radwimps.jp/yurinchi/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "radwimps_yurinchi_fc_tour_2026_nagoya_0723",
@@ -41,7 +41,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://radwimps.jp/yurinchi/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "radwimps_yurinchi_fc_tour_2026_fukuoka_0727",
@@ -53,7 +53,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://radwimps.jp/yurinchi/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "radwimps_yurinchi_fc_tour_2026_fukuoka_0728",
@@ -65,7 +65,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://radwimps.jp/yurinchi/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "radwimps_yurinchi_fc_tour_2026_osaka_0803",
@@ -77,7 +77,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://radwimps.jp/yurinchi/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "radwimps_yurinchi_fc_tour_2026_osaka_0804",
@@ -89,7 +89,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://radwimps.jp/yurinchi/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "radwimps_yurinchi_fc_tour_2026_haneda_0812",
@@ -101,7 +101,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://radwimps.jp/yurinchi/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "radwimps_yurinchi_fc_tour_2026_haneda_0813",
@@ -113,7 +113,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://radwimps.jp/yurinchi/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "radwimps_yurinchi_fc_tour_2026_sapporo_0825",
@@ -125,10 +125,24 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://radwimps.jp/yurinchi/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
   ],
   "lotteries": [
+    {
+      "id": "radwimps_yurinchi_fc_tour_2026_fc_1st",
+      "tourId": "radwimps_yurinchi_fc_tour_2026",
+      "type": "ボクンチ会員限定先行（1次受付）",
+      "entryStartAt": "2026-05-29T12:00:00+09:00",
+      "entryEndAt": "2026-06-03T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://radwimps.jp/yurinchi/",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
     {
       "id": "radwimps_yurinchi_fc_tour_2026_fc_2nd",
       "tourId": "radwimps_yurinchi_fc_tour_2026",
@@ -141,7 +155,7 @@
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://radwimps.jp/yurinchi/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
   ]
 }
