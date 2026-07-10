@@ -7,10 +7,10 @@
       "title": "BE:FIRST WORLD SHOWCASE 2026",
       "startDate": "2026-09-25T00:00:00+09:00",
       "endDate": "2026-10-23T00:00:00+09:00",
-      "prices": [],
+      "prices": null,
       "source": "system",
       "sourceUrl": "https://befirst.tokyo/global2026/showcase",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "be_first_fes_summer_sonic",
@@ -72,7 +72,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://befirst.tokyo/global2026/showcase",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "be_first_world_showcase_taipei_0927",
@@ -84,7 +84,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://befirst.tokyo/global2026/showcase",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "be_first_world_showcase_manila_1003",
@@ -96,7 +96,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://befirst.tokyo/global2026/showcase",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "be_first_world_showcase_ny_1023",
@@ -108,7 +108,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://befirst.tokyo/global2026/showcase",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "be_first_dome_tour_2027_tokyodome_0111",
@@ -281,7 +281,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://befirst.tokyo/tour/dometour2027/",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
   ]
 }
