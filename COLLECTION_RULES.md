@@ -152,6 +152,22 @@
 
 ---
 
+## 2.7. 【重要】sourceUrl と監視URLの区別（見落とし防止）
+
+> 2026-07にサカナクションのツアー拡大情報を見落とした事例から追加。
+> 原因: `artists.json` の `sourceUrl` がツアー特設ページ（例: `/feature/tour2026_ticket`）を指しており、
+> `discover_watch_urls.py` がそのページ内のリンクしか辿れず、公式TOPページのナビゲーションにある
+> NEWS一覧ページを発見できていなかった。加えて、収集エージェント自身もNEWSページを確認しなかった。
+
+### ルール
+- `artists.json` の `sourceUrl` は**そのアーティストの情報源として最も信頼できるページ**を指してよい（特設ページ・ニュース記事等でも可）。これは変更不要。
+- ただし `cache/watch_urls.json` には、**`sourceUrl` のドメインの公式TOPページ、または公式NEWS一覧ページを必ず1件は含める**こと。特設ページのリンクだけでは不十分。
+  - `discover_watch_urls.py` は `sourceUrl` を起点にリンクを辿るため、`sourceUrl` が深い特設ページの場合はTOPページの中身が拾えない。**そのアーティストの公式ドメインのルート（例: `https://example.jp/`）に対しても `discover_watch_urls.py` 相当の抽出を1回実行し、NEWS一覧ページを見つけて登録すること**（同一アーティストへの追加登録として `cache/watch_urls.json` に追記する。既存の `sourceUrl` は変更しない）。
+  - 複数アーティストが同居するレーベル/事務所サイト（例: `sonymusic.co.jp`, `tobe-official.jp`, `rhythmzone.net`, `mentrecording.jp` 等）では、ドメインルートではなく**そのアーティスト専用のパス階層**（例: `sonymusic.co.jp/artist/{slug}/`）をTOP候補として使うこと。ドメインルートは他アーティストの更新まで拾ってノイズになる。
+- **NEWSページの確認は完了報告で必須項目**（§4手順3）。確認したURL一覧に **NEWSページのURLが含まれていない完了報告は不完全とみなし、メインエージェントは再収集を指示すること**。「LIVE/TOURページのみ確認してNEWSページを確認していない」ケースが実際に発生したため、レビュー時に必ずチェックする。
+
+---
+
 ## 3. データ形式
 
 > スキーマは アプリ側 `docs/design/data-model.md` に準拠（system層）。
