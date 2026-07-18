@@ -10,7 +10,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://www.summersonic.com/en/",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "ado_rock_in_japan",
@@ -21,7 +21,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://www.rockinjapan.com/",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "ado_event_2026",
@@ -48,8 +48,8 @@
     {
       "id": "ado_summer_sonic_tokyo_2026",
       "tourId": "ado_summer_sonic_tokyo",
-      "venue": "Summer Sonic Tokyo",
-      "performanceAt": "2026-08-15T11:00:00+09:00",
+      "venue": "ZOZOマリンスタジアム＆幕張メッセ",
+      "performanceAt": "2026-08-15T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "Summer Sonic 2026",
@@ -60,14 +60,14 @@
     {
       "id": "ado_rock_in_japan_2026",
       "tourId": "ado_rock_in_japan",
-      "venue": "Chiba Soga Sports Park",
+      "venue": "千葉市蘇我スポーツ公園",
       "performanceAt": "2026-09-21T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "Rock in Japan Festival 2026",
       "source": "system",
       "sourceUrl": "https://www.rockinjapan.com/",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "ado_event_2026_dokidoki_1024",
@@ -79,7 +79,7 @@
       "eventName": "Adoのドキドキ秘密基地有料会員様限定LIVE",
       "source": "system",
       "sourceUrl": "https://www.universal-music.co.jp/ado/news/2026-07-03-3/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "ado_event_2026_dokidoki_1025",
@@ -91,7 +91,7 @@
       "eventName": "Adoのドキドキ秘密基地有料会員様限定LIVE",
       "source": "system",
       "sourceUrl": "https://www.universal-music.co.jp/ado/news/2026-07-03-3/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -110,7 +110,55 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.universal-music.co.jp/ado/news/2026-07-03-3/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "ado_rock_in_japan_2026_preorder_1",
+      "tourId": "ado_rock_in_japan",
+      "type": "第1次抽選先行",
+      "entryStartAt": "2026-05-20T12:15:00+09:00",
+      "entryEndAt": "2026-05-26T16:00:00+09:00",
+      "resultAt": "2026-05-29T16:00:00+09:00",
+      "paymentStartAt": "2026-05-29T16:00:00+09:00",
+      "paymentEndAt": "2026-06-01T16:00:00+09:00",
+      "performanceIds": [
+        "ado_rock_in_japan_2026"
+      ],
+      "source": "system",
+      "sourceUrl": "https://rijfes.jp/2026/ticket/preorder01/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "ado_rock_in_japan_2026_preorder_2",
+      "tourId": "ado_rock_in_japan",
+      "type": "第2次抽選先行",
+      "entryStartAt": "2026-06-03T12:15:00+09:00",
+      "entryEndAt": "2026-06-09T16:00:00+09:00",
+      "resultAt": "2026-06-12T16:00:00+09:00",
+      "paymentStartAt": "2026-06-12T16:00:00+09:00",
+      "paymentEndAt": "2026-06-15T16:00:00+09:00",
+      "performanceIds": [
+        "ado_rock_in_japan_2026"
+      ],
+      "source": "system",
+      "sourceUrl": "https://rijfes.jp/2026/ticket/preorder02/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "ado_rock_in_japan_2026_preorder_3",
+      "tourId": "ado_rock_in_japan",
+      "type": "第3次抽選先行",
+      "entryStartAt": "2026-06-17T12:15:00+09:00",
+      "entryEndAt": "2026-06-23T16:00:00+09:00",
+      "resultAt": "2026-06-26T16:00:00+09:00",
+      "paymentStartAt": "2026-06-26T16:00:00+09:00",
+      "paymentEndAt": "2026-06-29T16:00:00+09:00",
+      "performanceIds": [
+        "ado_rock_in_japan_2026"
+      ],
+      "source": "system",
+      "sourceUrl": "https://rijfes.jp/2026/ticket/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ]
 }

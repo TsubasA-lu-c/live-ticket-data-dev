@@ -31,6 +31,38 @@
       "source": "system",
       "sourceUrl": "https://starto.jp/s/p/live/10545",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "ae_group_event_kojiken_2026",
+      "artistId": "ae_group",
+      "title": "テレビ朝日・六本木ヒルズ SUMMER FES 2026「こじ研」",
+      "startDate": "2026-07-24T00:00:00+09:00",
+      "endDate": "2026-07-25T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "一般",
+          "amount": 9000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.tv-asahi.co.jp/summerstation/ex-theater/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "ae_group_event_qa_wanganfes_2026",
+      "artistId": "ae_group",
+      "title": "Aぇ! groupのQ&Aぇ! presents 視聴者からの“Q” & 時間が許す限り“Aぇ!”",
+      "startDate": "2026-08-06T00:00:00+09:00",
+      "endDate": "2026-08-06T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "一般",
+          "amount": 7000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.fujitv.co.jp/wanganfes/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -417,6 +449,66 @@
       "source": "system",
       "sourceUrl": "https://starto.jp/s/p/live/10545",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "ae_group_event_kojiken_2026_roppongi_0724a",
+      "tourId": "ae_group_event_kojiken_2026",
+      "venue": "EX THEATER ROPPONGI",
+      "performanceAt": "2026-07-24T15:00:00+09:00",
+      "doorOpenAt": "2026-07-24T14:15:00+09:00",
+      "kind": "oneman",
+      "eventName": "こじ研",
+      "source": "system",
+      "sourceUrl": "https://www.tv-asahi.co.jp/summerstation/ex-theater/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "ae_group_event_kojiken_2026_roppongi_0724b",
+      "tourId": "ae_group_event_kojiken_2026",
+      "venue": "EX THEATER ROPPONGI",
+      "performanceAt": "2026-07-24T19:00:00+09:00",
+      "doorOpenAt": "2026-07-24T18:15:00+09:00",
+      "kind": "oneman",
+      "eventName": "こじ研",
+      "source": "system",
+      "sourceUrl": "https://www.tv-asahi.co.jp/summerstation/ex-theater/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "ae_group_event_kojiken_2026_roppongi_0725a",
+      "tourId": "ae_group_event_kojiken_2026",
+      "venue": "EX THEATER ROPPONGI",
+      "performanceAt": "2026-07-25T13:00:00+09:00",
+      "doorOpenAt": "2026-07-25T12:15:00+09:00",
+      "kind": "oneman",
+      "eventName": "こじ研",
+      "source": "system",
+      "sourceUrl": "https://www.tv-asahi.co.jp/summerstation/ex-theater/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "ae_group_event_kojiken_2026_roppongi_0725b",
+      "tourId": "ae_group_event_kojiken_2026",
+      "venue": "EX THEATER ROPPONGI",
+      "performanceAt": "2026-07-25T17:00:00+09:00",
+      "doorOpenAt": "2026-07-25T16:15:00+09:00",
+      "kind": "oneman",
+      "eventName": "こじ研",
+      "source": "system",
+      "sourceUrl": "https://www.tv-asahi.co.jp/summerstation/ex-theater/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "ae_group_event_qa_wanganfes_2026_toyosu_0806",
+      "tourId": "ae_group_event_qa_wanganfes_2026",
+      "venue": "豊洲PIT",
+      "performanceAt": "2026-08-06T11:00:00+09:00",
+      "doorOpenAt": "2026-08-06T10:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "Aぇ! groupのQ&Aぇ! presents 視聴者からの“Q” & 時間が許す限り“Aぇ!”",
+      "source": "system",
+      "sourceUrl": "https://www.fujitv.co.jp/wanganfes/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -464,6 +556,41 @@
       "source": "system",
       "sourceUrl": "https://starto.jp/s/p/live/10403",
       "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "ae_group_event_kojiken_2026_general",
+      "tourId": "ae_group_event_kojiken_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-07-18T19:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ae_group_event_kojiken_2026_roppongi_0724a",
+        "ae_group_event_kojiken_2026_roppongi_0724b",
+        "ae_group_event_kojiken_2026_roppongi_0725a",
+        "ae_group_event_kojiken_2026_roppongi_0725b"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.tv-asahi.co.jp/summerstation/ex-theater/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "ae_group_event_qa_wanganfes_2026_general",
+      "tourId": "ae_group_event_qa_wanganfes_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-07-30T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ae_group_event_qa_wanganfes_2026_toyosu_0806"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.fujitv.co.jp/wanganfes/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ]
 }
