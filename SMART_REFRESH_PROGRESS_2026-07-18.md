@@ -1,13 +1,13 @@
 # /refresh-smart 進捗（2026-07-18）
 
-最終更新: 2026-07-18T19:20:04+09:00
+最終更新: 2026-07-18T19:32:26+09:00
 
 ## 現在地
 
 - 全102組をhash比較し、82組を変更ありと判定。
-- 25組は収集・validate・hash accept・manifest更新・commit・pushまで完了。
-- 第5論理バッチまで配信反映済み。manifestはv75、未処理は57組。
-- ユーザー指示により、この論理5組の境界で停止。次回は`naniwa_danshi`から再開。
+- 30組は収集・validate・hash accept・manifest更新・commit・pushまで完了。
+- 第6論理バッチまで配信反映済み。manifestはv76、未処理は52組。
+- 次回は`sky_hi`から再開。
 - 未追跡のユーザーファイル `x_thread_artists.md` は変更・削除・commit禁止。
 
 ## 重要なチェックポイント運用
@@ -75,7 +75,7 @@ IDs: `aimyon`, `sakanaction`, `larc_en_ciel`, `king_gnu`, `vaundy`
 
 第4バッチはmanifest込みでpush済み。
 
-## 第5バッチ（配信反映済み・停止地点）
+## 第5バッチ（配信反映済み）
 
 - `a219f36 refresh: SixTONESなど5組を更新`（manifest v75）
 
@@ -87,16 +87,22 @@ IDs: `sixtones`, `one_ok_rock`, `radwimps`, `ryokuoushoku_shakai`, `yuuri`
 - 緑黄色社会: 既存10公演を照合し、席種2件を追加。販売元未確認の先行2件は未追加。
 - 優里: ロサンゼルス1公演、台北2公演を追加。
 - validate成功、hash accept・manifest v75更新・commit・pushまで完了。
-- ここで停止。次回は下記未処理順の先頭 `naniwa_danshi` から開始する。
 
-## 第5バッチ後の未処理順（57組）
+## 第6バッチ（配信反映済み・停止地点）
+
+IDs: `naniwa_danshi`, `hey_say_jump`, `travis_japan`, `twice`, `seventeen`
+
+- なにわ男子: ND⁵を45公演へ拡充し、KAMIGATA EXPO PARK FES 2026を追加。FC受付2件とぴあ一般発売2件を整理。
+- Hey! Say! JUMP: 山田涼介ドーム/アジアツアー、ミュージカル『ジョセフ』の3ツアー・35公演・7受付を追加。`百鬼夜行鏡`は月のみ公表で未収集。
+- Travis Japan: SUMMER SONIC大阪出演日を8/14へ修正し、`けるとめる in めざましWANGANフェス`を追加。WANGANフェスは受付期間未確認のため抽選未作成。
+- TWICE: 将来公演なし。国立競技場3公演は終了済みのため空配列を維持して確認日更新。
+- SEVENTEEN: 将来公演なし。DxS/YAKUSOKUは終了済みのため空配列を維持して確認日更新。
+- validate成功、hash accept・manifest v76更新・commit・pushまで完了。
+- ここで停止。次回は下記未処理順の先頭 `sky_hi` から開始する。
+
+## 第6バッチ後の未処理順（52組）
 
 ```text
-naniwa_danshi
-hey_say_jump
-travis_japan
-twice
-seventeen
 sky_hi
 tennimu
 touken_ranbu_musical
@@ -160,6 +166,8 @@ urashimasakatasen
 - LiSAアジアツアーは公開ページで抽選日程を確認できず、抽選ゼロWARNINGを現時点で許容。
 - 藤井風のハート席（こども）0円は公式料金どおりで、料金範囲WARNINGを許容。
 - 優里のLA・台北公演は公開ページに抽選日程がないため、抽選ゼロWARNINGを現時点で許容。
+- Travis JapanのWANGANフェスは公式・ぴあで抽選受付期間を確認できないため抽選ゼロWARNINGを現時点で許容。
+- Hey! Say! JUMPのYES24／Thai Ticket Majorは直接取得が応答待ち。受付日時は公式アジアツアー特設ページ本文で確認。
 
 ## 全組完了後
 

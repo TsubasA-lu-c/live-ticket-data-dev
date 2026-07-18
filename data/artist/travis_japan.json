@@ -10,21 +10,37 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://www.summersonic.com/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "travis_japan_event_kerutomeru_wangan_fes_2026",
+      "artistId": "travis_japan",
+      "title": "けるとめる in めざましWANGANフェス",
+      "startDate": "2026-08-06T00:00:00+09:00",
+      "endDate": "2026-08-06T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "オールスタンディング（整理番号）",
+          "amount": 7000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.fujitv.co.jp/wanganfes/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ],
   "performances": [
     {
-      "id": "travis_japan_fes_2026_summersonic_0815",
+      "id": "travis_japan_fes_2026_summersonic_0814",
       "tourId": "travis_japan_fes_2026",
       "venue": "万博記念公園",
-      "performanceAt": "2026-08-15T18:00:00+09:00",
+      "performanceAt": "2026-08-14T18:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "SUMMER SONIC 2026",
       "source": "system",
       "sourceUrl": "https://www.summersonic.com/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "travis_japan_fes_2026_summersonic_0816",
@@ -36,7 +52,19 @@
       "eventName": "SUMMER SONIC 2026",
       "source": "system",
       "sourceUrl": "https://www.summersonic.com/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "travis_japan_event_kerutomeru_wangan_fes_2026_toyosu_0806",
+      "tourId": "travis_japan_event_kerutomeru_wangan_fes_2026",
+      "venue": "豊洲PIT",
+      "performanceAt": "2026-08-06T15:30:00+09:00",
+      "doorOpenAt": "2026-08-06T14:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "けるとめる in めざましWANGANフェス",
+      "source": "system",
+      "sourceUrl": "https://www.fujitv.co.jp/wanganfes/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ],
   "lotteries": []

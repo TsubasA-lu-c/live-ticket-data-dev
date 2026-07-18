@@ -670,39 +670,63 @@
     },
     "https://fan.books.rakuten.co.jp/articles/8735": {
       "type": "hash",
-      "hash": "97a10aa1c7d957e899c59661e968cccc"
+      "hash": "57ed2623b8179d137437f156cac428e2"
     },
     "https://starto.jp/s/p/live/10489": {
       "type": "hash",
-      "hash": "9eb0083adb220e862d2d639afe993e56"
+      "hash": "c9aa4f5492cc7e11693b6eabf8af3180"
+    },
+    "https://starto.jp/s/p/artist/56": {
+      "type": "hash",
+      "hash": "924007d3b4cc0afc1f88258d2d85639b"
+    },
+    "https://starto.jp/s/p/news/list?ima=2052&tag=56&list[]=56&artist=56": {
+      "type": "hash",
+      "hash": "64200c9ef15110433316f7a3eb386c8b"
     }
   },
   "hey_say_jump": {
     "https://live-events.a-jp.org/soko/a/30.html": {
       "type": "hash",
-      "hash": "635537742fe71230872416b4664a3897"
+      "hash": "1385da46ecf2c5fc9379fa46f62f8b79"
     },
     "https://live-events.a-jp.org/soko/a/85.html": {
       "type": "hash",
-      "hash": "8b80bb2ad56637fdaa102679a34ef2e3"
+      "hash": "fabe0e2e8ec656abe48f7fdaae00e0bc"
     },
     "https://live-events.a-jp.org/": {
       "type": "hash",
-      "hash": "da90dc0c49b628ebdbdef94b2731f054"
+      "hash": "e8aaecdb366527c30ab1f10a9a39a6db"
     },
     "https://live-events.a-jp.org/soko/pickup/e/12080.html": {
       "type": "hash",
-      "hash": "aee2995e1dd373a83859128e98ef7243"
+      "hash": "4496cfef9e7e78b562e17a6f5d60b0d3"
+    },
+    "https://starto.jp/s/p/artist/15": {
+      "type": "hash",
+      "hash": "c024e6fcddc530088107b55403872167"
+    },
+    "https://starto.jp/s/p/news/list?ima=2312&tag=15&list[]=15&artist=15": {
+      "type": "hash",
+      "hash": "cd6e53dab0dbacbefaf82b620a80ad79"
     }
   },
   "travis_japan": {
     "https://fan.books.rakuten.co.jp/articles/3892": {
       "type": "hash",
-      "hash": "1a59a394b72592dcd861e892f4adb3e8"
+      "hash": "5f6f239b51c498c8f8c54cdb5ac810f3"
     },
     "https://fan.books.rakuten.co.jp/articles/8735": {
       "type": "hash",
-      "hash": "97a10aa1c7d957e899c59661e968cccc"
+      "hash": "57ed2623b8179d137437f156cac428e2"
+    },
+    "https://starto.jp/s/p/artist/60": {
+      "type": "hash",
+      "hash": "233e691279f47ebad8c6c1456e500b0c"
+    },
+    "https://starto.jp/s/p/news/list?ima=2311&tag=60&list[]=60&artist=60": {
+      "type": "hash",
+      "hash": "1df9045874b0916bb8e60786fa19b97f"
     }
   },
   "twice": {
@@ -713,6 +737,22 @@
     "https://www.twicejapan.com/news/detail/1981": {
       "type": "hash",
       "hash": "9345fc95de4d5a7d866df836e80df9ef"
+    },
+    "https://www.twicejapan.com/": {
+      "type": "hash",
+      "hash": "308d78c820f742750ca92ce1caa0c3df"
+    },
+    "https://www.twicejapan.com/news": {
+      "type": "hash",
+      "hash": "742b963d404996d63d26a38f97c618ec"
+    },
+    "https://www.twicejapan.com/news/detail/2014": {
+      "type": "hash",
+      "hash": "719d4a422dc2d08ba76e35b0fde7e344"
+    },
+    "https://www.twicejapan.com/news/detail/2013": {
+      "type": "hash",
+      "hash": "d77a6f8bdc83d1dbde228bda25fa6699"
     }
   },
   "seventeen": {
@@ -731,6 +771,22 @@
     "https://www.seventeen-17.jp/posts/information/cphjai": {
       "type": "hash",
       "hash": "3b3c105333645bc971603e84b4b9b48a"
+    },
+    "https://www.seventeen-17.jp/": {
+      "type": "hash",
+      "hash": "35f72d77619313998033e402a9d5d449"
+    },
+    "https://www.seventeen-17.jp/posts/information": {
+      "type": "hash",
+      "hash": "37d6e6802ed10e901e5d091af4718c45"
+    },
+    "https://www.seventeen-17.jp/posts/schedule": {
+      "type": "hash",
+      "hash": "257d71482d0d00ac1128372ecc3d9cb3"
+    },
+    "https://www.seventeen-17.jp/pages/live_event": {
+      "type": "hash",
+      "hash": "4a3ce578af0f1a9df5ddab2123edffdc"
     }
   },
   "sky_hi": {
