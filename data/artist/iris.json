@@ -665,6 +665,54 @@
   ],
   "lotteries": [
     {
+      "id": "iris_11th_live_tour_2026_eventer",
+      "tourId": "iris_11th_live_tour_2026",
+      "type": "イベンター先行",
+      "entryStartAt": "2026-02-18T15:00:00+09:00",
+      "entryEndAt": "2026-03-03T23:59:00+09:00",
+      "resultAt": "2026-03-06T13:00:00+09:00",
+      "paymentStartAt": "2026-03-06T13:00:00+09:00",
+      "paymentEndAt": "2026-03-09T23:00:00+09:00",
+      "performanceIds": [
+        "iris_11th_live_tour_2026_saitama_0502",
+        "iris_11th_live_tour_2026_fukuoka_0504",
+        "iris_11th_live_tour_2026_aichi_0509",
+        "iris_11th_live_tour_2026_hokkaido_0516",
+        "iris_11th_live_tour_2026_osaka_0524",
+        "iris_11th_live_tour_2026_miyagi_0530",
+        "iris_11th_live_tour_2026_kanagawa_0531",
+        "iris_11th_live_tour_2026_tokyo_0719_day",
+        "iris_11th_live_tour_2026_tokyo_0719_night"
+      ],
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1131556",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "iris_11th_live_tour_2026_fc_2nd",
+      "tourId": "iris_11th_live_tour_2026",
+      "type": "ファンクラブ2次先行",
+      "entryStartAt": "2026-02-04T15:00:00+09:00",
+      "entryEndAt": "2026-02-15T23:59:00+09:00",
+      "resultAt": "2026-02-18T13:00:00+09:00",
+      "paymentStartAt": "2026-02-18T13:00:00+09:00",
+      "paymentEndAt": "2026-02-21T23:00:00+09:00",
+      "performanceIds": [
+        "iris_11th_live_tour_2026_saitama_0502",
+        "iris_11th_live_tour_2026_fukuoka_0504",
+        "iris_11th_live_tour_2026_aichi_0509",
+        "iris_11th_live_tour_2026_hokkaido_0516",
+        "iris_11th_live_tour_2026_osaka_0524",
+        "iris_11th_live_tour_2026_miyagi_0530",
+        "iris_11th_live_tour_2026_kanagawa_0531",
+        "iris_11th_live_tour_2026_tokyo_0719_day",
+        "iris_11th_live_tour_2026_tokyo_0719_night"
+      ],
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1131258",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
       "id": "iris_wakaii_yuki_live_tour_2026_fc",
       "tourId": "iris_wakaii_yuki_live_tour_2026",
       "type": "虹会FC先行",
