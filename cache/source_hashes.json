@@ -145,6 +145,22 @@
     "https://backnumber.info/feature/stadiumtour2026_ticket": {
       "type": "hash",
       "hash": "5ec9f8b6223318e355d7498a03cc9743"
+    },
+    "https://backnumber.info/": {
+      "type": "hash",
+      "hash": "985dba3d66e8afa208fd9fcc3b0dedfa"
+    },
+    "https://backnumber.info/news/list/6": {
+      "type": "hash",
+      "hash": "e111e6d2e7c8cde8605c1568f07ab26c"
+    },
+    "https://backnumber.info/news/list/7?range=future_event_end_time&sort=asc&tag=live/event": {
+      "type": "hash",
+      "hash": "49479a06a18a5db383348ee55c0a0488"
+    },
+    "https://backnumber.info/news/list/8?tag=": {
+      "type": "hash",
+      "hash": "20c5c6c7f57950133e439d333da3227c"
     }
   },
   "ado": {
@@ -154,7 +170,7 @@
     },
     "https://www.universal-music.co.jp/news/": {
       "type": "hash",
-      "hash": "a3569c1f8c0210d0247e0ec51c670cd5"
+      "hash": "e6787a096d660b1fc267ee21834b98ad"
     },
     "https://www.universal-music.co.jp/ado/news/": {
       "type": "hash",
@@ -181,38 +197,58 @@
     "https://www.yoasobi-music.jp/live/54776": {
       "type": "hash",
       "hash": "ae6197ee37e1c015d3a5800e84e8aab9"
+    },
+    "https://www.yoasobi-music.jp/": {
+      "type": "hash",
+      "hash": "ae6197ee37e1c015d3a5800e84e8aab9"
     }
   },
   "nogizaka46": {
     "https://www.nogizaka46.com/s/n46/page/summer_tour2026": {
       "type": "hash",
-      "hash": "2b97a1bdfff7130748e7f9d382e0669e"
+      "hash": "2deef419c955ff9392ff19fca2c5f485"
     },
     "https://www.nogizaka46.com/s/n46/news/detail/102002": {
       "type": "hash",
-      "hash": "e9018c10b3c17aa85b58e6309a8664a4"
+      "hash": "0cdaafee63f8ee7e46e69e42c5e224bd"
     },
     "https://www.nogizaka46.com/s/n46/news/detail/102004": {
       "type": "hash",
-      "hash": "101c9aa6eae1e19cf8f7a9725215e091"
+      "hash": "5e6676b1bf57d1a3eb2f70313205b5da"
     },
     "https://www.nogizaka46.com/s/n46/news/detail/102062?ima=3750": {
       "type": "hash",
-      "hash": "345a7b41be3cd79696d3515cd8a6acd7"
+      "hash": "e96eae27ca05cd7716a5dbeb8d9d5627"
     },
     "https://www.nogizaka46.com/s/n46/news/detail/102062?ima=5116": {
       "type": "hash",
-      "hash": "345a7b41be3cd79696d3515cd8a6acd7"
+      "hash": "e96eae27ca05cd7716a5dbeb8d9d5627"
+    },
+    "https://www.nogizaka46.com/": {
+      "type": "hash",
+      "hash": "d4ea6bc26d678f320917ad9b79256fbc"
+    },
+    "https://www.nogizaka46.com/s/n46/news/list?ima=1259&dy=202607": {
+      "type": "hash",
+      "hash": "a322b5fc19a29dd769bd98362eefa2e0"
+    },
+    "https://www.nogizaka46.com/s/n46/news/detail/102054?ima=1259": {
+      "type": "hash",
+      "hash": "8ef3b29c0df94e8dc340f9d86ea22a93"
+    },
+    "https://www.nogizaka46.com/s/n46/news/detail/102079?ima=1259&pri1=202607": {
+      "type": "hash",
+      "hash": "8fd1ee07003480c17b8c339bf0c652c4"
     }
   },
   "hinatazaka46": {
     "https://www.hinatazaka46.com/s/official/news/detail/E00800": {
       "type": "hash",
-      "hash": "146e515ef96187e292f36aefd9c1f4de"
+      "hash": "b618392406f44881b3847983bc83a112"
     },
     "https://www.hinatazaka46.com/s/official/news/list?ima=0000&dy=202607": {
       "type": "hash",
-      "hash": "9327641b5366c04cecf7eb1d18713bd3"
+      "hash": "ba2df3cb6cf8f55f53d248af6ffb1381"
     },
     "https://www.hinatazaka46.com/s/official/news/list?ima=0000&cd=shakehands&dy=202607": {
       "type": "hash",
@@ -220,7 +256,19 @@
     },
     "https://www.hinatazaka46.com/s/official/news/list?ima=0000&cd=event&dy=202607": {
       "type": "hash",
-      "hash": "822ff9038b6f05fb5da104b11e4eebe0"
+      "hash": "fbe3ff277d5c278c364a5ba3d76d9ec2"
+    },
+    "https://www.hinatazaka46.com/": {
+      "type": "hash",
+      "hash": "573db8414143034127a855d6420ea82d"
+    },
+    "https://www.hinatazaka46.com/s/official/news/detail/M02748?ima=0000": {
+      "type": "hash",
+      "hash": "5060de4626f858c520e98acab70cbd20"
+    },
+    "https://www.hinatazaka46.com/s/official/news/detail/G00225?ima=0000": {
+      "type": "hash",
+      "hash": "54b2b46edf11de226d8c4cebadb557f9"
     }
   },
   "aimyon": {
