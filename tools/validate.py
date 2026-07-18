@@ -44,7 +44,10 @@ def sha256_hex16(path: Path) -> str:
 def check_iso8601(value: str, context: str) -> bool:
     """ISO8601 形式かどうか検証する。不正なら error を追加して False を返す"""
     try:
-        datetime.fromisoformat(value)
+        parsed = datetime.fromisoformat(value)
+        if parsed.utcoffset() is None:
+            add_error(f"日時オフセット不足: '{value}' にタイムゾーンがありません ({context})")
+            return False
         return True
     except (ValueError, TypeError):
         add_error(f"日時フォーマット不正: '{value}' は ISO8601 でパースできません ({context})")
@@ -158,6 +161,11 @@ def check_d_artist_structure(artist_files_data):
             elif not isinstance(data[field], expected_type):
                 add_error(f"artist/{aid}.json: '{field}' の型が不正 (期待: {expected_type.__name__})")
                 err_count += 1
+        if data.get("artistId") != aid:
+            add_error(
+                f"artist/{aid}.json: artistId '{data.get('artistId')}' がファイル名 '{aid}' と一致しません"
+            )
+            err_count += 1
 
     if err_count == 0:
         print(f"[OK] artist/{{id}}.json の構造 ({len(artist_files_data)}件)")
@@ -195,6 +203,7 @@ def check_f_performance_required(artist_files_data):
     REQUIRED_EXIST = ["id", "tourId", "venue", "performanceAt", "source"]
     # null 不可（ID・親参照・日時の根幹はnull禁止）
     REQUIRED_NONNULL = ["id", "tourId", "performanceAt", "source"]
+    VALID_KINDS = {"oneman", "fes", "taiban"}
 
     if artist_files_data is None:
         return
@@ -214,6 +223,17 @@ def check_f_performance_required(artist_files_data):
                 if perf.get(field) is None:
                     add_error(f"Performance 必須フィールド: performance id='{perf.get('id', '???')}' の '{field}' が null です ({aid})")
                     err_count += 1
+            kind = perf.get("kind")
+            if kind not in VALID_KINDS:
+                add_error(
+                    f"Performance kind不正: performance id='{perf.get('id', '???')}' の kind '{kind}' は使用できません ({aid})"
+                )
+                err_count += 1
+            if kind in {"fes", "taiban"} and not perf.get("eventName"):
+                add_error(
+                    f"Performance eventName不足: performance id='{perf.get('id', '???')}' は kind='{kind}' なのに eventName がありません ({aid})"
+                )
+                err_count += 1
 
     if err_count == 0:
         print(f"[OK] Performance 必須フィールド ({total}件)")
@@ -279,6 +299,9 @@ def check_h_id_references(artists_data, artist_files_data):
             if tid:
                 tour_ids.add(tid)
             art_id = tour.get("artistId")
+            if art_id != aid:
+                add_error(f"ID参照整合性: tour '{tid}' の artistId '{art_id}' が所属ファイル '{aid}' と一致しません")
+                err_count += 1
             if art_id and art_id not in artist_ids:
                 add_error(f"ID参照整合性: tour '{tid}' の artistId '{art_id}' が artists.json に存在しません ({aid})")
                 err_count += 1

@@ -182,11 +182,16 @@
    - サブエージェント（haiku）を5つ同時起動（background）→ 全完了を待つ
    - `data/artists.json` の `lastVerifiedAt` を5組分一括更新
    - `python3 tools/validate.py`（エラーがあれば修正）
+   - 収集・validate成功済みの5組に限り `python3 tools/check_updates.py --accept {id1} ... {id5}` で監視hashを確定
    - `git add data/artist/... data/artists.json && git commit -m "refresh: {アーティスト名}など" && git push origin main`
 4. 全グループ完了後:
    - `python3 tools/cleanup_past.py` → `git add data/artist/*.json && git commit -m "cleanup: 終了ツアー削除" && git push origin main`
    - `python3 tools/update_manifest.py` → `git add data/manifest.json && git commit -m "update: manifest" && git push origin main`
    - `git add cache/source_hashes.json && git commit -m "update: source hash cache" && git push origin main`
+
+`check_updates.py` が検出した新hashは `cache/source_hashes.pending.json`
+（git管理外）に保留される。収集やvalidateが失敗したIDには `--accept`
+を実行せず、次回も差分検出対象に残すこと。
 
 ---
 

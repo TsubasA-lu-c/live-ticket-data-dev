@@ -501,6 +501,7 @@ data/
 4. グループごとに1組×5並列で起動
    - 各サブ: §4 の収集手順を実施（終了ツアー掃除は不要、変化があった分のみ）
    - 全完了後: artists.json の lastVerifiedAt を更新 → validate.py → commit & push
+   - 収集・validate成功済みIDだけ `python3 tools/check_updates.py --accept {id...}` を実行
 
 5. 全グループ完了後:
    python3 tools/update_manifest.py → commit & push
@@ -509,6 +510,7 @@ data/
 
 **注意事項:**
 - `cache/source_hashes.json` は git 管理する（次回チェックの基準点）
+- 差分検出直後の新hashは `cache/source_hashes.pending.json`（git管理外）に保留される。収集・validateが失敗したIDは `--accept` せず、次回の再試行対象に残す
 - 公式サイトを更新していないアーティストは出力されないため、スキップして正しい
 - 公式サイトが存在しない（sourceUrl が null）アーティストは常に"変化あり"扱いとなる
 

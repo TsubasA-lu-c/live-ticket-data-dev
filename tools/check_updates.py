@@ -11,6 +11,8 @@ cache/watch_urls.json（discover_watch_urls.py が生成）にNEWS/LIVE系ペー
 使い方:
   python3 tools/check_updates.py              # 全アーティストをチェック
   python3 tools/check_updates.py yuzu milk    # 指定アーティストのみ
+  python3 tools/check_updates.py --accept yuzu milk
+                                              # 収集・検証成功後に新hashを確定
   python3 tools/check_updates.py --no-cache   # cache更新しない（テスト用）
 """
 import argparse, hashlib, json, re, sys, time
@@ -20,6 +22,7 @@ from pathlib import Path
 from typing import Dict, List, Optional
 
 CACHE_FILE = Path("cache/source_hashes.json")
+PENDING_CACHE_FILE = Path("cache/source_hashes.pending.json")
 ARTISTS_FILE = Path("data/artists.json")
 ARTIST_DIR = Path("data/artist")
 WATCH_URLS_FILE = Path("cache/watch_urls.json")
@@ -110,6 +113,44 @@ def _load_watch_urls() -> Dict[str, List[str]]:
         return {}
 
 
+def _load_json_object(path: Path) -> Dict:
+    if not path.exists():
+        return {}
+    try:
+        value = json.loads(path.read_text())
+        return value if isinstance(value, dict) else {}
+    except json.JSONDecodeError:
+        return {}
+
+
+def _write_json_object(path: Path, value: Dict) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n")
+
+
+def _accept_pending(artist_ids: List[str]) -> None:
+    """収集とvalidateが成功したアーティストの指紋だけを正式cacheへ昇格する。"""
+    cache = _load_json_object(CACHE_FILE)
+    pending = _load_json_object(PENDING_CACHE_FILE)
+    missing = [aid for aid in artist_ids if aid not in pending]
+    if missing:
+        raise ValueError(
+            "pending hashがありません: " + ", ".join(missing)
+        )
+
+    for aid in artist_ids:
+        fingerprints = pending.pop(aid)
+        if not isinstance(fingerprints, dict):
+            raise ValueError(f"pending hashの形式が不正です: {aid}")
+        cache.setdefault(aid, {}).update(fingerprints)
+
+    _write_json_object(CACHE_FILE, cache)
+    if pending:
+        _write_json_object(PENDING_CACHE_FILE, pending)
+    elif PENDING_CACHE_FILE.exists():
+        PENDING_CACHE_FILE.unlink()
+
+
 def _get_artist_urls(artist_id: str, artists_json: List, watch_urls: Optional[Dict[str, List[str]]] = None) -> List[str]:
     """アーティストの監視対象URLを返す。
     基本は artists.json の sourceUrl（公式サイト）。
@@ -135,22 +176,39 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="ソースURL差分チェック")
     parser.add_argument("artist_ids", nargs="*", help="対象アーティストID（省略時は全件）")
     parser.add_argument("--no-cache", action="store_true", help="cache/source_hashes.json を更新しない")
+    parser.add_argument(
+        "--accept",
+        action="store_true",
+        help="収集・validate成功済みIDのpending hashを正式cacheへ反映",
+    )
     args = parser.parse_args()
 
+    if args.accept:
+        if args.no_cache:
+            parser.error("--accept と --no-cache は同時に使えません")
+        if not args.artist_ids:
+            parser.error("--accept には1件以上のアーティストIDが必要です")
+        try:
+            _accept_pending(args.artist_ids)
+        except ValueError as e:
+            parser.error(str(e))
+        print(f"[INFO] source hashを確定: {', '.join(args.artist_ids)}", file=sys.stderr)
+        return
+
     artists_json: list = json.loads(ARTISTS_FILE.read_text())
-    cache: dict = json.loads(CACHE_FILE.read_text()) if CACHE_FILE.exists() else {}
+    cache = _load_json_object(CACHE_FILE)
+    pending = _load_json_object(PENDING_CACHE_FILE)
     watch_urls = _load_watch_urls()
 
     target_ids = args.artist_ids if args.artist_ids else [a["id"] for a in artists_json]
 
     changed: List[str] = []
-    new_cache = dict(cache)
-
     print(f"=== {len(target_ids)}組をチェック中 ===", file=sys.stderr)
 
     for i, aid in enumerate(target_ids, 1):
         urls = _get_artist_urls(aid, artists_json, watch_urls)
         artist_changed = False
+        fetched_fingerprints: Dict[str, Dict] = {}
 
         print(f"  [{i}/{len(target_ids)}] {aid} ({len(urls)}URL) ...", file=sys.stderr, end=" ")
 
@@ -163,14 +221,18 @@ def main() -> None:
                 artist_changed = True
             elif _fingerprint_changed(fp, old_fp):
                 artist_changed = True
-                if not args.no_cache:
-                    new_cache.setdefault(aid, {})[url] = fp
+            if fp is not None:
+                fetched_fingerprints[url] = fp
 
         status = "変更あり" if artist_changed else "変化なし"
         print(status, file=sys.stderr)
 
         if artist_changed:
             changed.append(aid)
+            if not args.no_cache:
+                pending[aid] = fetched_fingerprints
+        elif not args.no_cache:
+            pending.pop(aid, None)
 
         time.sleep(0.3)  # サーバー負荷軽減
 
@@ -178,11 +240,17 @@ def main() -> None:
     for aid in changed:
         print(aid)
 
-    # cache更新
+    # 新しい指紋はまだ正式cacheにせず、収集成功後の --accept まで保留する。
     if not args.no_cache:
-        CACHE_FILE.parent.mkdir(parents=True, exist_ok=True)
-        CACHE_FILE.write_text(json.dumps(new_cache, ensure_ascii=False, indent=2))
-        print(f"\n[INFO] cache/source_hashes.json を更新しました", file=sys.stderr)
+        if pending:
+            _write_json_object(PENDING_CACHE_FILE, pending)
+        elif PENDING_CACHE_FILE.exists():
+            PENDING_CACHE_FILE.unlink()
+        print(
+            "\n[INFO] 新hashはpending保存しました。"
+            "収集・validate成功後に --accept ID... で確定してください",
+            file=sys.stderr,
+        )
 
     print(
         f"\n=== 完了: 変更あり {len(changed)}/{len(target_ids)}組 ===",
