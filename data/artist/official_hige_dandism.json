@@ -10,7 +10,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/asiatour2026",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026",
@@ -30,7 +30,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -44,7 +44,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/asiatour2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_asia_tour_2026_seoul_0809",
@@ -56,7 +56,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/asiatour2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_asia_tour_2026_singapore_0821",
@@ -68,7 +68,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/asiatour2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_asia_tour_2026_taipei_0829",
@@ -80,7 +80,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/asiatour2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_asia_tour_2026_taipei_0830",
@@ -92,7 +92,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/asiatour2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_asia_tour_2026_bangkok_0906",
@@ -104,326 +104,326 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/asiatour2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_miyagi_0404",
       "tourId": "official_hige_dandism_tour_2026",
       "venue": "仙台サンプラザホール",
-      "performanceAt": "2026-04-04T17:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-04-04T18:00:00+09:00",
+      "doorOpenAt": "2026-04-04T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_miyagi_0405",
       "tourId": "official_hige_dandism_tour_2026",
       "venue": "仙台サンプラザホール",
       "performanceAt": "2026-04-05T18:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-04-05T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_fukuoka_0417",
       "tourId": "official_hige_dandism_tour_2026",
       "venue": "福岡サンパレス",
-      "performanceAt": "2026-04-17T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-04-17T19:00:00+09:00",
+      "doorOpenAt": "2026-04-17T18:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_fukuoka_0418",
       "tourId": "official_hige_dandism_tour_2026",
       "venue": "福岡サンパレス",
       "performanceAt": "2026-04-18T19:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-04-18T18:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_kochi_0425",
       "tourId": "official_hige_dandism_tour_2026",
-      "venue": "高知県立文化劇場",
-      "performanceAt": "2026-04-25T17:30:00+09:00",
-      "doorOpenAt": null,
+      "venue": "高知県立県民文化ホール オレンジホール",
+      "performanceAt": "2026-04-25T18:00:00+09:00",
+      "doorOpenAt": "2026-04-25T17:30:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_ehime_0427",
       "tourId": "official_hige_dandism_tour_2026",
-      "venue": "愛媛県立文化劇場",
-      "performanceAt": "2026-04-27T18:00:00+09:00",
-      "doorOpenAt": null,
+      "venue": "愛媛県県民文化会館 メインホール",
+      "performanceAt": "2026-04-27T19:00:00+09:00",
+      "doorOpenAt": "2026-04-27T18:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_niigata_0503",
       "tourId": "official_hige_dandism_tour_2026",
-      "venue": "新潟市民会館",
-      "performanceAt": "2026-05-03T17:00:00+09:00",
-      "doorOpenAt": null,
+      "venue": "新潟県民会館 大ホール",
+      "performanceAt": "2026-05-03T18:00:00+09:00",
+      "doorOpenAt": "2026-05-03T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_niigata_0504",
       "tourId": "official_hige_dandism_tour_2026",
-      "venue": "新潟市民会館",
+      "venue": "新潟県民会館 大ホール",
       "performanceAt": "2026-05-04T18:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-05-04T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_oita_0510",
       "tourId": "official_hige_dandism_tour_2026",
-      "venue": "いいちこグランシアター",
-      "performanceAt": "2026-05-10T17:00:00+09:00",
-      "doorOpenAt": null,
+      "venue": "iichikoグランシアタ",
+      "performanceAt": "2026-05-10T18:00:00+09:00",
+      "doorOpenAt": "2026-05-10T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_nagasaki_0512",
       "tourId": "official_hige_dandism_tour_2026",
-      "venue": "アルカスSASEBO",
-      "performanceAt": "2026-05-12T18:00:00+09:00",
-      "doorOpenAt": null,
+      "venue": "アルカスSASEBO 大ホール",
+      "performanceAt": "2026-05-12T19:00:00+09:00",
+      "doorOpenAt": "2026-05-12T18:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_yamagata_0521",
       "tourId": "official_hige_dandism_tour_2026",
-      "venue": "山形市民会館",
-      "performanceAt": "2026-05-21T18:00:00+09:00",
-      "doorOpenAt": null,
+      "venue": "やまぎん県民ホール",
+      "performanceAt": "2026-05-21T19:00:00+09:00",
+      "doorOpenAt": "2026-05-21T18:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_akita_0523",
       "tourId": "official_hige_dandism_tour_2026",
-      "venue": "秋田アートホール",
-      "performanceAt": "2026-05-23T17:00:00+09:00",
-      "doorOpenAt": null,
+      "venue": "あきた芸術劇場ミルハス 大ホール",
+      "performanceAt": "2026-05-23T18:00:00+09:00",
+      "doorOpenAt": "2026-05-23T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_hiroshima_0530",
       "tourId": "official_hige_dandism_tour_2026",
-      "venue": "広島文化学園ホール",
-      "performanceAt": "2026-05-30T17:00:00+09:00",
-      "doorOpenAt": null,
+      "venue": "広島文化学園HBGホール",
+      "performanceAt": "2026-05-30T18:00:00+09:00",
+      "doorOpenAt": "2026-05-30T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_hiroshima_0531",
       "tourId": "official_hige_dandism_tour_2026",
-      "venue": "広島文化学園ホール",
+      "venue": "広島文化学園HBGホール",
       "performanceAt": "2026-05-31T18:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-05-31T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_hokkaido_obihiro_0611",
       "tourId": "official_hige_dandism_tour_2026",
-      "venue": "帯広市民会館",
-      "performanceAt": "2026-06-11T18:00:00+09:00",
-      "doorOpenAt": null,
+      "venue": "帯広市民文化ホール",
+      "performanceAt": "2026-06-11T19:00:00+09:00",
+      "doorOpenAt": "2026-06-11T18:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_hokkaido_kushiro_0613",
       "tourId": "official_hige_dandism_tour_2026",
-      "venue": "釧路文化ホール",
-      "performanceAt": "2026-06-13T17:00:00+09:00",
-      "doorOpenAt": null,
+      "venue": "コーチャンフォー釧路文化ホール",
+      "performanceAt": "2026-06-13T18:00:00+09:00",
+      "doorOpenAt": "2026-06-13T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_hokkaido_sapporo_0620",
       "tourId": "official_hige_dandism_tour_2026",
       "venue": "札幌文化芸術劇場 hitaru",
-      "performanceAt": "2026-06-20T17:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-06-20T18:00:00+09:00",
+      "doorOpenAt": "2026-06-20T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_hokkaido_sapporo_0621",
       "tourId": "official_hige_dandism_tour_2026",
       "venue": "札幌文化芸術劇場 hitaru",
       "performanceAt": "2026-06-21T18:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-06-21T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_aichi_0703",
       "tourId": "official_hige_dandism_tour_2026",
       "venue": "Niterra日本特殊陶業市民会館 フォレストホール",
-      "performanceAt": "2026-07-03T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-07-03T19:00:00+09:00",
+      "doorOpenAt": "2026-07-03T18:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_aichi_0704",
       "tourId": "official_hige_dandism_tour_2026",
       "venue": "Niterra日本特殊陶業市民会館 フォレストホール",
       "performanceAt": "2026-07-04T19:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-07-04T18:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_tokyo_0711",
       "tourId": "official_hige_dandism_tour_2026",
       "venue": "SGC HALL ARIAKE",
-      "performanceAt": "2026-07-11T17:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-07-11T18:00:00+09:00",
+      "doorOpenAt": "2026-07-11T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_tokyo_0712",
       "tourId": "official_hige_dandism_tour_2026",
       "venue": "SGC HALL ARIAKE",
       "performanceAt": "2026-07-12T18:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-07-12T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_osaka_0718",
       "tourId": "official_hige_dandism_tour_2026",
       "venue": "大阪城ホール",
-      "performanceAt": "2026-07-18T17:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-07-18T18:00:00+09:00",
+      "doorOpenAt": "2026-07-18T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_osaka_0719",
       "tourId": "official_hige_dandism_tour_2026",
       "venue": "大阪城ホール",
       "performanceAt": "2026-07-19T18:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-07-19T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_kanagawa_0725",
       "tourId": "official_hige_dandism_tour_2026",
       "venue": "Kアリーナ横浜",
-      "performanceAt": "2026-07-25T16:30:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-07-25T18:00:00+09:00",
+      "doorOpenAt": "2026-07-25T16:30:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_kanagawa_0726",
       "tourId": "official_hige_dandism_tour_2026",
       "venue": "Kアリーナ横浜",
       "performanceAt": "2026-07-26T18:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-07-26T16:30:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ],
   "lotteries": [
     {
       "id": "official_hige_dandism_asia_tour_2026_fc",
       "tourId": "official_hige_dandism_asia_tour_2026",
-      "type": "FC先行（抽選）",
+      "type": "年・月会員先行（抽選受付）",
       "entryStartAt": "2026-03-31T12:00:00+09:00",
       "entryEndAt": "2026-04-06T23:59:00+09:00",
       "resultAt": "2026-04-13T18:00:00+09:00",
@@ -439,7 +439,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/asiatour2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_w_member",
@@ -480,7 +480,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_annual_member",
@@ -521,7 +521,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_official_hp",
@@ -562,7 +562,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_lawson_1st",
@@ -603,7 +603,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_lawson_2nd",
@@ -619,32 +619,15 @@
         "official_hige_dandism_tour_2026_miyagi_0405",
         "official_hige_dandism_tour_2026_fukuoka_0417",
         "official_hige_dandism_tour_2026_fukuoka_0418",
-        "official_hige_dandism_tour_2026_kochi_0425",
-        "official_hige_dandism_tour_2026_ehime_0427",
-        "official_hige_dandism_tour_2026_niigata_0503",
-        "official_hige_dandism_tour_2026_niigata_0504",
         "official_hige_dandism_tour_2026_oita_0510",
-        "official_hige_dandism_tour_2026_nagasaki_0512",
-        "official_hige_dandism_tour_2026_yamagata_0521",
-        "official_hige_dandism_tour_2026_akita_0523",
-        "official_hige_dandism_tour_2026_hiroshima_0530",
-        "official_hige_dandism_tour_2026_hiroshima_0531",
-        "official_hige_dandism_tour_2026_hokkaido_obihiro_0611",
-        "official_hige_dandism_tour_2026_hokkaido_kushiro_0613",
         "official_hige_dandism_tour_2026_hokkaido_sapporo_0620",
         "official_hige_dandism_tour_2026_hokkaido_sapporo_0621",
         "official_hige_dandism_tour_2026_aichi_0703",
-        "official_hige_dandism_tour_2026_aichi_0704",
-        "official_hige_dandism_tour_2026_tokyo_0711",
-        "official_hige_dandism_tour_2026_tokyo_0712",
-        "official_hige_dandism_tour_2026_osaka_0718",
-        "official_hige_dandism_tour_2026_osaka_0719",
-        "official_hige_dandism_tour_2026_kanagawa_0725",
-        "official_hige_dandism_tour_2026_kanagawa_0726"
+        "official_hige_dandism_tour_2026_aichi_0704"
       ],
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_additional",
@@ -656,26 +639,6 @@
       "paymentStartAt": null,
       "paymentEndAt": null,
       "performanceIds": [
-        "official_hige_dandism_tour_2026_miyagi_0404",
-        "official_hige_dandism_tour_2026_miyagi_0405",
-        "official_hige_dandism_tour_2026_fukuoka_0417",
-        "official_hige_dandism_tour_2026_fukuoka_0418",
-        "official_hige_dandism_tour_2026_kochi_0425",
-        "official_hige_dandism_tour_2026_ehime_0427",
-        "official_hige_dandism_tour_2026_niigata_0503",
-        "official_hige_dandism_tour_2026_niigata_0504",
-        "official_hige_dandism_tour_2026_oita_0510",
-        "official_hige_dandism_tour_2026_nagasaki_0512",
-        "official_hige_dandism_tour_2026_yamagata_0521",
-        "official_hige_dandism_tour_2026_akita_0523",
-        "official_hige_dandism_tour_2026_hiroshima_0530",
-        "official_hige_dandism_tour_2026_hiroshima_0531",
-        "official_hige_dandism_tour_2026_hokkaido_obihiro_0611",
-        "official_hige_dandism_tour_2026_hokkaido_kushiro_0613",
-        "official_hige_dandism_tour_2026_hokkaido_sapporo_0620",
-        "official_hige_dandism_tour_2026_hokkaido_sapporo_0621",
-        "official_hige_dandism_tour_2026_aichi_0703",
-        "official_hige_dandism_tour_2026_aichi_0704",
         "official_hige_dandism_tour_2026_tokyo_0711",
         "official_hige_dandism_tour_2026_tokyo_0712",
         "official_hige_dandism_tour_2026_osaka_0718",
@@ -685,7 +648,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ]
 }

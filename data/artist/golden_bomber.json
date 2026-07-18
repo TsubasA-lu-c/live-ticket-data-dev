@@ -15,7 +15,51 @@
       ],
       "source": "system",
       "sourceUrl": "https://asutomusicpark.com/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "golden_bomber_luckyfes_2026",
+      "artistId": "golden_bomber",
+      "title": "LuckyFes'26",
+      "startDate": "2026-08-08T00:00:00+09:00",
+      "endDate": "2026-08-08T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1日券（大人）",
+          "amount": 14000
+        },
+        {
+          "label": "1日券（中高生）",
+          "amount": 7000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://luckyfes.com/en",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "golden_bomber_kishidan_banpaku_2026",
+      "artistId": "golden_bomber",
+      "title": "サントリー オールフリー presents 氣志團万博2026 ～房総爆音リゾート～",
+      "startDate": "2026-11-07T00:00:00+09:00",
+      "endDate": "2026-11-07T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1日入場券",
+          "amount": 16000
+        },
+        {
+          "label": "2日通し入場券",
+          "amount": 29000
+        },
+        {
+          "label": "青春18入場券",
+          "amount": 10000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1087806",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "gb_choyakusen_2026",
@@ -35,7 +79,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://pc.goldenbomber.jp/contents/1018840",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -49,7 +93,31 @@
       "eventName": "ASUTO MUSIC PARK 2026",
       "source": "system",
       "sourceUrl": "https://asutomusicpark.com/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "golden_bomber_luckyfes_2026_hitachinaka_0808",
+      "tourId": "golden_bomber_luckyfes_2026",
+      "venue": "国営ひたち海浜公園",
+      "performanceAt": "2026-08-08T11:05:00+09:00",
+      "doorOpenAt": "2026-08-08T08:00:00+09:00",
+      "kind": "fes",
+      "eventName": "LuckyFes'26",
+      "source": "system",
+      "sourceUrl": "https://luckyfes.com/en/lineup",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "golden_bomber_kishidan_banpaku_2026_makuhari_1107",
+      "tourId": "golden_bomber_kishidan_banpaku_2026",
+      "venue": "幕張メッセ国際展示場 4～7ホール",
+      "performanceAt": "2026-11-07T12:00:00+09:00",
+      "doorOpenAt": "2026-11-07T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "サントリー オールフリー presents 氣志團万博2026 ～房総爆音リゾート～",
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1087806",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "gb_choyakusen_tokyo_0730",
@@ -61,7 +129,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://pc.goldenbomber.jp/contents/1018840",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "gb_choyakusen_tokyo_0731",
@@ -73,7 +141,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://pc.goldenbomber.jp/contents/1018840",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "gb_choyakusen_niigata_0811",
@@ -85,7 +153,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://pc.goldenbomber.jp/contents/1018840",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "gb_choyakusen_hokkaido_0821",
@@ -97,7 +165,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://pc.goldenbomber.jp/contents/1020270",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "gb_choyakusen_hokkaido_0822",
@@ -109,7 +177,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://pc.goldenbomber.jp/contents/1020270",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "gb_choyakusen_osaka_0911",
@@ -121,7 +189,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://pc.goldenbomber.jp/contents/1018840",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "gb_choyakusen_osaka_0912",
@@ -133,7 +201,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://pc.goldenbomber.jp/contents/1018840",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "gb_choyakusen_aichi_0915",
@@ -145,7 +213,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://pc.goldenbomber.jp/contents/1018840",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "gb_choyakusen_aichi_0916",
@@ -157,7 +225,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://pc.goldenbomber.jp/contents/1018840",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "gb_choyakusen_miyagi_0920",
@@ -169,7 +237,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://pc.goldenbomber.jp/contents/1020282",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "gb_choyakusen_fukuoka_0925",
@@ -181,7 +249,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://pc.goldenbomber.jp/contents/1018840",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -199,7 +267,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://l-tike.com/concert/mevent/?mid=751273",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "gb_asuto_2026_senko_2nd",
@@ -215,7 +283,40 @@
       ],
       "source": "system",
       "sourceUrl": "https://l-tike.com/concert/mevent/?mid=751273",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "gb_choyakusen_2026_fc_tokyo_additional",
+      "tourId": "gb_choyakusen_2026",
+      "type": "FC東京公演追加抽選受付",
+      "entryStartAt": "2026-07-11T15:00:00+09:00",
+      "entryEndAt": "2026-07-14T23:59:00+09:00",
+      "resultAt": "2026-07-18T15:00:00+09:00",
+      "paymentStartAt": "2026-07-18T15:00:00+09:00",
+      "paymentEndAt": "2026-07-21T23:59:00+09:00",
+      "performanceIds": [
+        "gb_choyakusen_tokyo_0730",
+        "gb_choyakusen_tokyo_0731"
+      ],
+      "source": "system",
+      "sourceUrl": "https://gbmarukin.com/contents/2488",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "golden_bomber_kishidan_banpaku_2026_hp_first_come",
+      "tourId": "golden_bomber_kishidan_banpaku_2026",
+      "type": "氣志團オフィシャルHP最速先行受付（先着）",
+      "entryStartAt": "2026-07-01T12:00:00+09:00",
+      "entryEndAt": "2026-07-20T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "golden_bomber_kishidan_banpaku_2026_makuhari_1107"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/kishidanbanpaku26/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "golden_bomber_choyakusen_2026_fc_senten",
@@ -238,7 +339,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://gbmarukin.com/contents/2488",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "gb_choyakusen_2026_fc_1st",
@@ -264,7 +365,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://gbmarukin.com/contents/2488",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "gb_choyakusen_2026_fc_2nd",
@@ -290,7 +391,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://gbmarukin.com/contents/2488",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "gb_choyakusen_2026_fc_3rd",
@@ -316,7 +417,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://gbmarukin.com/contents/2488",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "gb_choyakusen_2026_fc_4th",
@@ -342,7 +443,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://gbmarukin.com/contents/2488",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "gb_choyakusen_2026_fc_5th",
@@ -368,7 +469,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://gbmarukin.com/contents/2488",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "gb_choyakusen_2026_fc_6th",
@@ -391,7 +492,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://gbmarukin.com/contents/2488",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ]
 }

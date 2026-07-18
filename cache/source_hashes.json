@@ -2,15 +2,15 @@
   "golden_bomber": {
     "https://pc.goldenbomber.jp/": {
       "type": "hash",
-      "hash": "b36c9414e2a180a42c4475b082f2ba6f"
+      "hash": "d8dfef39fdfd2504e3e268dc02840277"
     },
     "https://pc.goldenbomber.jp/contents/1018840": {
       "type": "hash",
-      "hash": "401b44705db61992864a7fd4564f4aed"
+      "hash": "0957a712ac1a5bbb6f0dc441c11d6b5d"
     },
     "https://pc.goldenbomber.jp/contents/live_event": {
       "type": "hash",
-      "hash": "51064729fa6fbfff2c308fea0de12dd0"
+      "hash": "f1ab488ae5bdfb33e244e3494c72f164"
     },
     "https://pc.goldenbomber.jp/contents/70363": {
       "type": "hash",
@@ -34,7 +34,7 @@
     },
     "https://reissuerecords.net/news/": {
       "type": "hash",
-      "hash": "28b9c1ed4842752fccd6cce7e2cccc67"
+      "hash": "ae2321c7bd79e3f8329e76eec200a44c"
     },
     "https://reissuerecords.net/live/": {
       "type": "hash",
@@ -43,12 +43,16 @@
     "https://reissuerecords.net/live": {
       "type": "hash",
       "hash": "60af01c4c016f3b0039ae78622cc953d"
+    },
+    "https://reissuerecords.net/": {
+      "type": "hash",
+      "hash": "dcbe900af9ec084959e877261f3af114"
     }
   },
   "mizuki_nana": {
     "https://www.mizukinana.jp/schedule/": {
       "type": "hash",
-      "hash": "04255bc8ab5d33bff38d4eca25fcd9c8"
+      "hash": "946f4575184d3b2989bb91cf3416ffce"
     },
     "https://www.mizukinana.jp/news/": {
       "type": "hash",
@@ -57,24 +61,28 @@
     "https://www.mizukinana.jp/biography/": {
       "type": "hash",
       "hash": "ed42ed8ba86a102a6b2a60e3c52d7efa"
+    },
+    "https://www.mizukinana.jp/": {
+      "type": "hash",
+      "hash": "3ae1a32ba2fdae02f166b703620b6046"
     }
   },
   "iris": {
     "https://iris.dive2ent.com/": {
       "type": "hash",
-      "hash": "660353a82e0bc33eb2843f6fc4bb7e1a"
+      "hash": "5c10553e58666dbbe30697a718e70519"
     },
     "https://iris.dive2ent.com/news/": {
       "type": "hash",
-      "hash": "46fa57c924568e1d22ce4b340a1fd154"
+      "hash": "012e4644c11a73c29d73bf6366c0f36b"
     },
     "https://iris.dive2ent.com/news/detail.php?id=1133209": {
       "type": "hash",
-      "hash": "1bda2617ca62e02d3cf33fa7ecb7274f"
+      "hash": "24461643cec3e3a464fa99bf7a64e77c"
     },
     "https://iris.dive2ent.com/news/detail.php?id=1134477": {
       "type": "hash",
-      "hash": "30a626762a2bf3ee81f9a5849ecb703c"
+      "hash": "75ee3f9c72d0b071f3d76f6b6e49909f"
     }
   },
   "mr_children": {
@@ -103,6 +111,22 @@
     "https://event.higedan.com/feature/onemantour-2026-fcos?_normalbrowse_=1": {
       "type": "hash",
       "hash": "c5384845791e10e33bdf1d3e5a156753"
+    },
+    "https://event.higedan.com/": {
+      "type": "hash",
+      "hash": "568e0579bbf5c998046a4e50cde68067"
+    },
+    "https://event.higedan.com/news/detail/101670": {
+      "type": "hash",
+      "hash": "e6d037049ab912119e4731055d584f23"
+    },
+    "https://event.higedan.com/news/detail/101656": {
+      "type": "hash",
+      "hash": "8ecaae15bac7887e63c51dd49f25ba97"
+    },
+    "https://event.higedan.com/news/detail/101655": {
+      "type": "hash",
+      "hash": "913881374154e60b78b6c331516c78e3"
     }
   },
   "back_number": {

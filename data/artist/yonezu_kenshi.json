@@ -13,13 +13,25 @@
           "amount": 9900
         },
         {
-          "label": "ファミリー席（お子様）",
+          "label": "注釈付指定席",
+          "amount": 9900
+        },
+        {
+          "label": "立見（長野／大阪／福岡／宮城）",
+          "amount": 9900
+        },
+        {
+          "label": "ファミリー席（大人）",
+          "amount": 9900
+        },
+        {
+          "label": "ファミリー席（お子様3歳～15歳）",
           "amount": 7500
         }
       ],
       "source": "system",
-      "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "sourceUrl": "https://reissuerecords.net/2026/07/03/2026-tour-ghost/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -27,154 +39,154 @@
       "id": "yonezu_kenshi_ghost_2026_nagano_1106",
       "tourId": "yonezu_kenshi_ghost_2026",
       "venue": "長野ビッグハット",
-      "performanceAt": "2026-11-06T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-11-06T18:30:00+09:00",
+      "doorOpenAt": "2026-11-06T17:00:00+09:00",
       "source": "system",
-      "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00",
+      "sourceUrl": "https://reissuerecords.net/2026/07/03/2026-tour-ghost/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
       "kind": "oneman"
     },
     {
       "id": "yonezu_kenshi_ghost_2026_nagano_1107",
       "tourId": "yonezu_kenshi_ghost_2026",
       "venue": "長野ビッグハット",
-      "performanceAt": "2026-11-07T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-11-07T17:00:00+09:00",
+      "doorOpenAt": "2026-11-07T15:30:00+09:00",
       "source": "system",
-      "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00",
+      "sourceUrl": "https://reissuerecords.net/2026/07/03/2026-tour-ghost/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
       "kind": "oneman"
     },
     {
       "id": "yonezu_kenshi_ghost_2026_kanagawa_1111",
       "tourId": "yonezu_kenshi_ghost_2026",
       "venue": "K-Arena Yokohama",
-      "performanceAt": "2026-11-11T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-11-11T18:30:00+09:00",
+      "doorOpenAt": "2026-11-11T17:00:00+09:00",
       "source": "system",
-      "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00",
+      "sourceUrl": "https://reissuerecords.net/2026/07/03/2026-tour-ghost/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
       "kind": "oneman"
     },
     {
       "id": "yonezu_kenshi_ghost_2026_kanagawa_1112",
       "tourId": "yonezu_kenshi_ghost_2026",
       "venue": "K-Arena Yokohama",
-      "performanceAt": "2026-11-12T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-11-12T18:30:00+09:00",
+      "doorOpenAt": "2026-11-12T17:00:00+09:00",
       "source": "system",
-      "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00",
+      "sourceUrl": "https://reissuerecords.net/2026/07/03/2026-tour-ghost/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
       "kind": "oneman"
     },
     {
       "id": "yonezu_kenshi_ghost_2026_osaka_1118",
       "tourId": "yonezu_kenshi_ghost_2026",
       "venue": "大阪城ホール",
-      "performanceAt": "2026-11-18T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-11-18T18:30:00+09:00",
+      "doorOpenAt": "2026-11-18T17:00:00+09:00",
       "source": "system",
-      "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00",
+      "sourceUrl": "https://reissuerecords.net/2026/07/03/2026-tour-ghost/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
       "kind": "oneman"
     },
     {
       "id": "yonezu_kenshi_ghost_2026_osaka_1119",
       "tourId": "yonezu_kenshi_ghost_2026",
       "venue": "大阪城ホール",
-      "performanceAt": "2026-11-19T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-11-19T18:30:00+09:00",
+      "doorOpenAt": "2026-11-19T17:00:00+09:00",
       "source": "system",
-      "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00",
+      "sourceUrl": "https://reissuerecords.net/2026/07/03/2026-tour-ghost/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
       "kind": "oneman"
     },
     {
       "id": "yonezu_kenshi_ghost_2026_fukuoka_1127",
       "tourId": "yonezu_kenshi_ghost_2026",
       "venue": "マリンメッセ福岡A館",
-      "performanceAt": "2026-11-27T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-11-27T18:30:00+09:00",
+      "doorOpenAt": "2026-11-27T17:00:00+09:00",
       "source": "system",
-      "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00",
+      "sourceUrl": "https://reissuerecords.net/2026/07/03/2026-tour-ghost/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
       "kind": "oneman"
     },
     {
       "id": "yonezu_kenshi_ghost_2026_fukuoka_1128",
       "tourId": "yonezu_kenshi_ghost_2026",
       "venue": "マリンメッセ福岡A館",
-      "performanceAt": "2026-11-28T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-11-28T17:00:00+09:00",
+      "doorOpenAt": "2026-11-28T15:30:00+09:00",
       "source": "system",
-      "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00",
+      "sourceUrl": "https://reissuerecords.net/2026/07/03/2026-tour-ghost/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
       "kind": "oneman"
     },
     {
       "id": "yonezu_kenshi_ghost_2026_miyagi_1203",
       "tourId": "yonezu_kenshi_ghost_2026",
       "venue": "宮城セキスイハイムスーパーアリーナ",
-      "performanceAt": "2026-12-03T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-12-03T18:30:00+09:00",
+      "doorOpenAt": "2026-12-03T17:00:00+09:00",
       "source": "system",
-      "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00",
+      "sourceUrl": "https://reissuerecords.net/2026/07/03/2026-tour-ghost/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
       "kind": "oneman"
     },
     {
       "id": "yonezu_kenshi_ghost_2026_miyagi_1204",
       "tourId": "yonezu_kenshi_ghost_2026",
       "venue": "宮城セキスイハイムスーパーアリーナ",
-      "performanceAt": "2026-12-04T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-12-04T18:30:00+09:00",
+      "doorOpenAt": "2026-12-04T17:00:00+09:00",
       "source": "system",
-      "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00",
+      "sourceUrl": "https://reissuerecords.net/2026/07/03/2026-tour-ghost/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
       "kind": "oneman"
     },
     {
       "id": "yonezu_kenshi_ghost_2026_aichi_1208",
       "tourId": "yonezu_kenshi_ghost_2026",
       "venue": "ポートメッセなごや第1展示館",
-      "performanceAt": "2026-12-08T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-12-08T18:30:00+09:00",
+      "doorOpenAt": "2026-12-08T17:00:00+09:00",
       "source": "system",
-      "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00",
+      "sourceUrl": "https://reissuerecords.net/2026/07/03/2026-tour-ghost/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
       "kind": "oneman"
     },
     {
       "id": "yonezu_kenshi_ghost_2026_aichi_1209",
       "tourId": "yonezu_kenshi_ghost_2026",
       "venue": "ポートメッセなごや第1展示館",
-      "performanceAt": "2026-12-09T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-12-09T18:30:00+09:00",
+      "doorOpenAt": "2026-12-09T17:00:00+09:00",
       "source": "system",
-      "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00",
+      "sourceUrl": "https://reissuerecords.net/2026/07/03/2026-tour-ghost/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
       "kind": "oneman"
     },
     {
       "id": "yonezu_kenshi_ghost_2026_kanagawa_1216",
       "tourId": "yonezu_kenshi_ghost_2026",
       "venue": "K-Arena Yokohama",
-      "performanceAt": "2026-12-16T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-12-16T18:30:00+09:00",
+      "doorOpenAt": "2026-12-16T17:00:00+09:00",
       "source": "system",
-      "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00",
+      "sourceUrl": "https://reissuerecords.net/2026/07/03/2026-tour-ghost/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
       "kind": "oneman"
     },
     {
       "id": "yonezu_kenshi_ghost_2026_kanagawa_1217",
       "tourId": "yonezu_kenshi_ghost_2026",
       "venue": "K-Arena Yokohama",
-      "performanceAt": "2026-12-17T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-12-17T18:30:00+09:00",
+      "doorOpenAt": "2026-12-17T17:00:00+09:00",
       "source": "system",
-      "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00",
+      "sourceUrl": "https://reissuerecords.net/2026/07/03/2026-tour-ghost/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
       "kind": "oneman"
     }
   ],
@@ -182,7 +194,7 @@
     {
       "id": "yonezu_kenshi_ghost_2026_cd_1st",
       "tourId": "yonezu_kenshi_ghost_2026",
-      "type": "最速先行（シングル「Plazma / BOW AND ARROW」封入）",
+      "type": "1次先行 Single「Plazma / BOW AND ARROW」CD封入シリアルナンバー受付（抽選）",
       "entryStartAt": "2025-06-10T12:00:00+09:00",
       "entryEndAt": "2025-06-15T23:59:00+09:00",
       "resultAt": "2025-07-04T12:00:00+09:00",
@@ -205,13 +217,13 @@
         "yonezu_kenshi_ghost_2026_kanagawa_1217"
       ],
       "source": "system",
-      "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "sourceUrl": "https://reissuerecords.net/2026/07/03/2026-tour-ghost/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "yonezu_kenshi_ghost_2026_cd_2nd",
       "tourId": "yonezu_kenshi_ghost_2026",
-      "type": "2次先行（シングル「IRIS OUT / JANE DOE」封入）",
+      "type": "2次先行 Single「IRIS OUT / JANE DOE」CD封入シリアルナンバー受付（抽選）",
       "entryStartAt": "2025-09-22T12:00:00+09:00",
       "entryEndAt": "2025-09-28T23:59:00+09:00",
       "resultAt": "2025-10-17T12:00:00+09:00",
@@ -234,8 +246,8 @@
         "yonezu_kenshi_ghost_2026_kanagawa_1217"
       ],
       "source": "system",
-      "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "sourceUrl": "https://reissuerecords.net/2026/07/03/2026-tour-ghost/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "yonezu_kenshi_ghost_2026_general",
@@ -263,8 +275,8 @@
         "yonezu_kenshi_ghost_2026_kanagawa_1217"
       ],
       "source": "system",
-      "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "sourceUrl": "https://reissuerecords.net/2026/07/03/2026-tour-ghost/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ]
 }
