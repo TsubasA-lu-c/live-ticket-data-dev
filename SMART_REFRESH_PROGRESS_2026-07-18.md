@@ -1,12 +1,12 @@
 # /refresh-smart 進捗（2026-07-18）
 
-最終更新: 2026-07-18T18:55:00+09:00
+最終更新: 2026-07-18T18:57:00+09:00
 
 ## 現在地
 
 - 全102組をhash比較し、82組を変更ありと判定。
-- 15組は収集・validate・hash accept・manifest更新・commit・pushまで完了。
-- 第4論理バッチ5組は収集・validate・hash accept・manifest v74まで完了。commit・push待ち。
+- 20組は収集・validate・hash accept・manifest更新・commit・pushまで完了。
+- 次は第5論理バッチ（`sixtones`から`yuuri`まで）。
 - 未追跡のユーザーファイル `x_thread_artists.md` は変更・削除・commit禁止。
 
 ## 重要なチェックポイント運用
@@ -54,13 +54,15 @@ IDs: `aimyon`, `sakanaction`, `larc_en_ciel`, `king_gnu`, `vaundy`
 - King Gnu: 10周年KICKOFF 4公演。
 - Vaundy: 新規4公演・3抽選、既存時刻・会場補完。
 
-## 作業中: 第4バッチ
+## 第4バッチ（配信反映済み）
 
-1. `fujii_kaze` — validate・accept・manifest v74完了、未commit
-2. `spitz` — validate・accept・manifest v74完了、未commit
-3. `lisa` — validate・accept・manifest v74完了、未commit
-4. `hana` — validate・accept・manifest v74完了、未commit
-5. `snow_man` — validate・accept・manifest v74完了、未commit
+- `eb52173 refresh: 藤井風など5組を更新`（manifest v74）
+
+1. `fujii_kaze`
+2. `spitz`
+3. `lisa`
+4. `hana`
+5. `snow_man`
 
 確認済み差分:
 
@@ -70,7 +72,7 @@ IDs: `aimyon`, `sakanaction`, `larc_en_ciel`, `king_gnu`, `vaundy`
 - HANA: `WANIMA presents 1CHANCE FESTIVAL 2026`とBorn to Bloomの終了済み抽選8件を追加。
 - Snow Man: 将来の有観客ライブなし。空配列を維持して確認日更新。
 
-再開時は5組のartists同期を確認し、上のチェックポイント手順でmanifest込みpushする。
+第4バッチはmanifest込みでpush済み。再開時は第5バッチから開始する。
 
 ## 第4バッチ後の未処理順（62組）
 
