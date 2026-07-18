@@ -420,7 +420,11 @@
   "fujii_kaze": {
     "https://hehn.fujiikaze.com/pwt/": {
       "type": "hash",
-      "hash": "090b6a1afdf0f3e06442559b257736fe"
+      "hash": "8351e74ee01ab1b70d768c7a4da609f8"
+    },
+    "https://hehn.fujiikaze.com/": {
+      "type": "hash",
+      "hash": "5c0ab68f95527b999244901cc487d10a"
     }
   },
   "spitz": {
@@ -430,7 +434,7 @@
     },
     "https://spitz-web.com/news/": {
       "type": "hash",
-      "hash": "80823716259a8ab02d31e29f97bb6adc"
+      "hash": "9af16c83e47f715692dbcd26ac24fff5"
     },
     "https://spitz-web.com/live/2026others/": {
       "type": "hash",
@@ -439,6 +443,18 @@
     "https://spitz-web.com/live/202601/": {
       "type": "hash",
       "hash": "73bbd4d3de1b93ca3146165e621cd9cd"
+    },
+    "https://spitz-web.com/": {
+      "type": "hash",
+      "hash": "2870fd3533ddaef57ed15c70350aa474"
+    },
+    "https://spitz-web.com/news/8062/": {
+      "type": "hash",
+      "hash": "c96a009d0ad0aff2badb3e596e946dd8"
+    },
+    "https://spitz-web.com/news/8061/": {
+      "type": "hash",
+      "hash": "5acb332dde0c3c9660303aec292ca064"
     }
   },
   "lisa": {
@@ -449,16 +465,36 @@
     "https://eplus.jp/touroku": {
       "type": "hash",
       "hash": "2fd1a5b2e164c00f0824895e36019cd9"
+    },
+    "https://www.lxixsxa.com/": {
+      "type": "hash",
+      "hash": "4a28150decfb6c63af5a0eb59e95f783"
+    },
+    "https://eplus.jp/sf/live": {
+      "type": "hash",
+      "hash": "a5e925abca102fff99a20775a7c93ded"
+    },
+    "https://eplus.jp/sf/live/j-pop": {
+      "type": "hash",
+      "hash": "d8fbdeacf13e6888c2277650b0272aa2"
+    },
+    "https://www.lxixsxa.com/info/": {
+      "type": "hash",
+      "hash": "e18f9dd967a370a2e6e42160d9dc4277"
+    },
+    "https://www.lxixsxa.com/live/": {
+      "type": "hash",
+      "hash": "f8f550f82334bf46bc090af7d82a879e"
     }
   },
   "hana": {
     "https://hana.b-rave.tokyo/": {
       "type": "hash",
-      "hash": "68ee3f0d4d048470be451195da346c74"
+      "hash": "918e47c773fa913e9bf790d15f8738c7"
     },
     "https://hana.b-rave.tokyo/news/": {
       "type": "hash",
-      "hash": "782d43b91583d9b193f7797cc0acdb38"
+      "hash": "411f35328a339e8a8d8bfdc5c78eedf6"
     },
     "https://hana.b-rave.tokyo/news/260630/": {
       "type": "hash",
@@ -472,19 +508,27 @@
   "snow_man": {
     "https://mentrecording.jp/snowman/": {
       "type": "hash",
-      "hash": "ffba89c1987c1d0ebd7ed4725ce7970f"
+      "hash": "031547e19123fde32aa9dd54b96bd233"
     },
     "https://mentrecording.jp/snowman/news/": {
       "type": "hash",
-      "hash": "475f30fec6fa8f2f04681f80e0f95eda"
+      "hash": "34e5489dca4797affa493564fa05aa76"
     },
     "https://mentrecording.jp/snowman/news/detail.php?id=1134126": {
       "type": "hash",
-      "hash": "a02fc8f7b9047f2588be7921e64127b5"
+      "hash": "8c9340810f58c2f6af14816d4b5fb9b3"
     },
     "https://mentrecording.jp/snowman/news/detail.php?id=1133666": {
       "type": "hash",
-      "hash": "7cc507ae095504cb810738f36ec02030"
+      "hash": "c0d80f8c91352c34ecb27b3a44f2221c"
+    },
+    "https://mentrecording.jp/snowman/news/detail.php?id=1134656": {
+      "type": "hash",
+      "hash": "8c7cde74c16e5025b85f0eddb0727a8a"
+    },
+    "https://mentrecording.jp/snowman/news/detail.php?id=1134572": {
+      "type": "hash",
+      "hash": "7c727de84a98ae5610fd4c9aa9b30c19"
     }
   },
   "sixtones": {

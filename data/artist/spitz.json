@@ -10,7 +10,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://spitz-web.com/news/7996/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "spitz_events_2026_tokyo",
@@ -21,7 +21,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://spitz-web.com/news/7996/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "spitz_events_2026_osaka",
@@ -29,10 +29,19 @@
       "title": "ロックロックこんにちは！Ver.28 〜にゃーロック！ホームズ〜",
       "startDate": "2026-09-17T17:45:00+09:00",
       "endDate": "2026-09-18T17:45:00+09:00",
-      "prices": null,
+      "prices": [
+        {
+          "label": "1Fスタンディング",
+          "amount": 9300
+        },
+        {
+          "label": "2F指定席",
+          "amount": 9300
+        }
+      ],
       "source": "system",
       "sourceUrl": "https://spitz-web.com/news/7996/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "spitz_events_2026_tokyo_2",
@@ -40,10 +49,19 @@
       "title": "ロク漫祭 ～SPITZ 草野マサムネのロック大陸漫遊祭り～",
       "startDate": "2026-09-22T16:00:00+09:00",
       "endDate": "2026-09-22T16:00:00+09:00",
-      "prices": null,
+      "prices": [
+        {
+          "label": "全席指定席",
+          "amount": 19000
+        },
+        {
+          "label": "スタンディングエリア アップグレード券 / スピッツ",
+          "amount": 3500
+        }
+      ],
       "source": "system",
       "sourceUrl": "https://spitz-web.com/news/7996/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -57,7 +75,7 @@
       "eventName": "ロックのほそ道2026 〜15th Anniversary Special〜",
       "source": "system",
       "sourceUrl": "https://spitz-web.com/news/7996/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "spitz_events_2026_miyagi_0830",
@@ -69,7 +87,7 @@
       "eventName": "ロックのほそ道2026 〜15th Anniversary Special〜",
       "source": "system",
       "sourceUrl": "https://spitz-web.com/news/7996/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "spitz_events_2026_tokyo_0902",
@@ -81,7 +99,7 @@
       "eventName": "Spitz × VINTAGE ROCK std. presents 有明サンセット 2026",
       "source": "system",
       "sourceUrl": "https://spitz-web.com/news/7996/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "spitz_events_2026_tokyo_0903",
@@ -93,7 +111,7 @@
       "eventName": "Spitz × VINTAGE ROCK std. presents 有明サンセット 2026",
       "source": "system",
       "sourceUrl": "https://spitz-web.com/news/7996/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "spitz_events_2026_osaka_0917",
@@ -105,7 +123,7 @@
       "eventName": "ロックロックこんにちは！Ver.28 〜にゃーロック！ホームズ〜",
       "source": "system",
       "sourceUrl": "https://spitz-web.com/news/7996/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "spitz_events_2026_osaka_0918",
@@ -117,7 +135,7 @@
       "eventName": "ロックロックこんにちは！Ver.28 〜にゃーロック！ホームズ〜",
       "source": "system",
       "sourceUrl": "https://spitz-web.com/news/7996/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "spitz_events_2026_tokyo_0922",
@@ -129,7 +147,7 @@
       "eventName": "ロク漫祭 ～SPITZ 草野マサムネのロック大陸漫遊祭り～",
       "source": "system",
       "sourceUrl": "https://spitz-web.com/live/2026others/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -140,12 +158,12 @@
       "entryStartAt": "2026-07-01T18:00:00+09:00",
       "entryEndAt": "2026-07-08T23:59:00+09:00",
       "resultAt": "2026-07-11T13:00:00+09:00",
-      "paymentStartAt": null,
-      "paymentEndAt": null,
+      "paymentStartAt": "2026-07-11T13:00:00+09:00",
+      "paymentEndAt": "2026-07-13T21:00:00+09:00",
       "performanceIds": ["spitz_events_2026_osaka_0917", "spitz_events_2026_osaka_0918"],
       "source": "system",
       "sourceUrl": "https://rrkonnichiwa.com/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "spitz_events_2026_tokyo_2_general",
@@ -159,7 +177,7 @@
       "performanceIds": ["spitz_events_2026_tokyo_0922"],
       "source": "system",
       "sourceUrl": "https://rockmansai.com/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ]
 }

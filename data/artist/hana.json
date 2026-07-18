@@ -15,7 +15,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_born_to_bloom_2026_add",
@@ -31,7 +31,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/260612/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_fes_2026_summersonic_tokyo",
@@ -42,7 +42,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/260417/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_fes_2026_summersonic_osaka",
@@ -53,7 +53,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/260417/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_fes_2026_niigata",
@@ -64,7 +64,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/260501/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_fes_2026_chiba",
@@ -75,7 +75,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_fes_2026_inkigayo_tokyo",
@@ -86,7 +86,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/260626/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_fes_2026_incheon_pentaport",
@@ -97,7 +97,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/260629/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_fes_2026_bmsg",
@@ -113,7 +113,18 @@
       ],
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/260630-2/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "hana_fes_2026_1chance",
+      "artistId": "hana",
+      "title": "WANIMA presents 1CHANCE FESTIVAL 2026",
+      "startDate": "2026-09-27T12:00:00+09:00",
+      "endDate": "2026-09-27T12:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/260516/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -127,7 +138,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_born_to_bloom_2026_aichi_0308",
@@ -139,7 +150,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_born_to_bloom_2026_ibaraki_0321",
@@ -151,7 +162,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_born_to_bloom_2026_tokyo_0329",
@@ -163,7 +174,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_born_to_bloom_2026_fukuoka_0403",
@@ -175,7 +186,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_born_to_bloom_2026_fukuoka_0404",
@@ -187,7 +198,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_born_to_bloom_2026_hiroshima_0410",
@@ -199,7 +210,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_born_to_bloom_2026_okayama_0412",
@@ -211,7 +222,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_born_to_bloom_2026_osaka_0418",
@@ -223,7 +234,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_born_to_bloom_2026_osaka_0419",
@@ -235,7 +246,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_born_to_bloom_2026_kagawa_0426",
@@ -247,7 +258,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_born_to_bloom_2026_hokkaido_0502",
@@ -259,7 +270,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_born_to_bloom_2026_miyagi_0505",
@@ -271,7 +282,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_born_to_bloom_2026_miyagi_0506",
@@ -283,7 +294,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_born_to_bloom_2026_chiba_0509",
@@ -295,7 +306,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_born_to_bloom_2026_hyogo_0522",
@@ -307,7 +318,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_born_to_bloom_2026_hyogo_0523",
@@ -319,7 +330,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_born_to_bloom_2026_shizuoka_0607",
@@ -331,7 +342,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_born_to_bloom_2026_kanagawa_0619",
@@ -343,7 +354,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_born_to_bloom_2026_kanagawa_0620",
@@ -355,7 +366,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_born_to_bloom_2026_kyoto_0626",
@@ -367,7 +378,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_born_to_bloom_2026_tokyo_0711",
@@ -379,7 +390,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_born_to_bloom_2026_tokyo_0712",
@@ -391,7 +402,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_born_to_bloom_2026_ishikawa_0718",
@@ -403,7 +414,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_born_to_bloom_2026_niigata_0720",
@@ -415,7 +426,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_born_to_bloom_2026_add_osaka_0916",
@@ -427,7 +438,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/260612/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_born_to_bloom_2026_add_osaka_0917",
@@ -439,7 +450,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/260612/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_born_to_bloom_2026_add_tokyo_1029",
@@ -451,7 +462,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/260612/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_born_to_bloom_2026_add_tokyo_1030",
@@ -463,7 +474,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/260612/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_born_to_bloom_2026_add_tokyo_1031",
@@ -475,7 +486,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/260612/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_fes_2026_niigata_0829",
@@ -487,7 +498,7 @@
       "eventName": "音楽と髭達2026 -TIME MACHINE-",
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/260501/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_fes_2026_chiba_0920",
@@ -499,7 +510,7 @@
       "eventName": "ROCK IN JAPAN FESTIVAL 2026",
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_fes_2026_summersonic_tokyo_0815",
@@ -511,7 +522,7 @@
       "eventName": "SUMMER SONIC 2026",
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/260417/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_fes_2026_summersonic_osaka_0816",
@@ -523,7 +534,7 @@
       "eventName": "SUMMER SONIC 2026",
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/260417/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_fes_2026_inkigayo_tokyo_0922",
@@ -535,7 +546,7 @@
       "eventName": "INKIGAYO LIVE in TOKYO",
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/260626/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_fes_2026_incheon_pentaport_0802",
@@ -547,7 +558,7 @@
       "eventName": "Incheon Pentaport Rock Festival 2026",
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/260629/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_fes_2026_bmsg_1010",
@@ -559,7 +570,7 @@
       "eventName": "BMSG FES'26",
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/260630-2/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_fes_2026_bmsg_1011",
@@ -571,7 +582,7 @@
       "eventName": "BMSG FES'26",
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/260630-2/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_fes_2026_bmsg_1012",
@@ -583,7 +594,19 @@
       "eventName": "BMSG FES'26",
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/260630-2/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "hana_fes_2026_1chance_0927",
+      "tourId": "hana_fes_2026_1chance",
+      "venue": "熊本県農業公園カントリーパーク",
+      "performanceAt": "2026-09-27T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "WANIMA presents 1CHANCE FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/260516/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -605,7 +628,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/260612/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_born_to_bloom_2026_add_fc_final",
@@ -625,7 +648,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/260612/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_fes_2026_bmsg_architect",
@@ -643,7 +666,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/260630-2/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_fes_2026_bmsg_fc_resident",
@@ -661,7 +684,327 @@
       ],
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/260630-2/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_fc_1st",
+      "tourId": "hana_born_to_bloom_2026",
+      "type": "HANA Official Fan Club 1次先行",
+      "entryStartAt": "2025-12-16T18:00:00+09:00",
+      "entryEndAt": "2025-12-21T23:59:00+09:00",
+      "resultAt": "2025-12-27T12:00:00+09:00",
+      "paymentStartAt": "2025-12-27T12:00:00+09:00",
+      "paymentEndAt": "2025-12-31T23:59:00+09:00",
+      "performanceIds": [
+        "hana_born_to_bloom_2026_aichi_0307",
+        "hana_born_to_bloom_2026_aichi_0308",
+        "hana_born_to_bloom_2026_ibaraki_0321",
+        "hana_born_to_bloom_2026_tokyo_0329",
+        "hana_born_to_bloom_2026_fukuoka_0403",
+        "hana_born_to_bloom_2026_fukuoka_0404",
+        "hana_born_to_bloom_2026_hiroshima_0410",
+        "hana_born_to_bloom_2026_okayama_0412",
+        "hana_born_to_bloom_2026_osaka_0418",
+        "hana_born_to_bloom_2026_osaka_0419",
+        "hana_born_to_bloom_2026_kagawa_0426",
+        "hana_born_to_bloom_2026_hokkaido_0502",
+        "hana_born_to_bloom_2026_miyagi_0505",
+        "hana_born_to_bloom_2026_miyagi_0506",
+        "hana_born_to_bloom_2026_chiba_0509",
+        "hana_born_to_bloom_2026_hyogo_0522",
+        "hana_born_to_bloom_2026_hyogo_0523",
+        "hana_born_to_bloom_2026_shizuoka_0607",
+        "hana_born_to_bloom_2026_kanagawa_0619",
+        "hana_born_to_bloom_2026_kanagawa_0620",
+        "hana_born_to_bloom_2026_kyoto_0626",
+        "hana_born_to_bloom_2026_tokyo_0711",
+        "hana_born_to_bloom_2026_tokyo_0712",
+        "hana_born_to_bloom_2026_ishikawa_0718",
+        "hana_born_to_bloom_2026_niigata_0720"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_btown_1st",
+      "tourId": "hana_born_to_bloom_2026",
+      "type": "B-Town〈Architect / Resident〉1次先行",
+      "entryStartAt": "2025-12-16T18:00:00+09:00",
+      "entryEndAt": "2025-12-21T23:59:00+09:00",
+      "resultAt": "2025-12-27T12:00:00+09:00",
+      "paymentStartAt": "2025-12-27T12:00:00+09:00",
+      "paymentEndAt": "2025-12-31T23:59:00+09:00",
+      "performanceIds": [
+        "hana_born_to_bloom_2026_aichi_0307",
+        "hana_born_to_bloom_2026_aichi_0308",
+        "hana_born_to_bloom_2026_ibaraki_0321",
+        "hana_born_to_bloom_2026_tokyo_0329",
+        "hana_born_to_bloom_2026_fukuoka_0403",
+        "hana_born_to_bloom_2026_fukuoka_0404",
+        "hana_born_to_bloom_2026_hiroshima_0410",
+        "hana_born_to_bloom_2026_okayama_0412",
+        "hana_born_to_bloom_2026_osaka_0418",
+        "hana_born_to_bloom_2026_osaka_0419",
+        "hana_born_to_bloom_2026_kagawa_0426",
+        "hana_born_to_bloom_2026_hokkaido_0502",
+        "hana_born_to_bloom_2026_miyagi_0505",
+        "hana_born_to_bloom_2026_miyagi_0506",
+        "hana_born_to_bloom_2026_chiba_0509",
+        "hana_born_to_bloom_2026_hyogo_0522",
+        "hana_born_to_bloom_2026_hyogo_0523",
+        "hana_born_to_bloom_2026_shizuoka_0607",
+        "hana_born_to_bloom_2026_kanagawa_0619",
+        "hana_born_to_bloom_2026_kanagawa_0620",
+        "hana_born_to_bloom_2026_kyoto_0626",
+        "hana_born_to_bloom_2026_tokyo_0711",
+        "hana_born_to_bloom_2026_tokyo_0712",
+        "hana_born_to_bloom_2026_ishikawa_0718",
+        "hana_born_to_bloom_2026_niigata_0720"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_fc_2nd",
+      "tourId": "hana_born_to_bloom_2026",
+      "type": "HANA Official Fan Club 2次先行",
+      "entryStartAt": "2025-12-22T22:00:00+09:00",
+      "entryEndAt": "2026-01-04T23:59:00+09:00",
+      "resultAt": "2026-01-14T12:00:00+09:00",
+      "paymentStartAt": "2026-01-14T12:00:00+09:00",
+      "paymentEndAt": "2026-01-18T23:59:00+09:00",
+      "performanceIds": [
+        "hana_born_to_bloom_2026_aichi_0307",
+        "hana_born_to_bloom_2026_aichi_0308",
+        "hana_born_to_bloom_2026_ibaraki_0321",
+        "hana_born_to_bloom_2026_tokyo_0329",
+        "hana_born_to_bloom_2026_fukuoka_0403",
+        "hana_born_to_bloom_2026_fukuoka_0404",
+        "hana_born_to_bloom_2026_hiroshima_0410",
+        "hana_born_to_bloom_2026_okayama_0412",
+        "hana_born_to_bloom_2026_osaka_0418",
+        "hana_born_to_bloom_2026_osaka_0419",
+        "hana_born_to_bloom_2026_kagawa_0426",
+        "hana_born_to_bloom_2026_hokkaido_0502",
+        "hana_born_to_bloom_2026_miyagi_0505",
+        "hana_born_to_bloom_2026_miyagi_0506",
+        "hana_born_to_bloom_2026_chiba_0509",
+        "hana_born_to_bloom_2026_hyogo_0522",
+        "hana_born_to_bloom_2026_hyogo_0523",
+        "hana_born_to_bloom_2026_shizuoka_0607",
+        "hana_born_to_bloom_2026_kanagawa_0619",
+        "hana_born_to_bloom_2026_kanagawa_0620",
+        "hana_born_to_bloom_2026_kyoto_0626",
+        "hana_born_to_bloom_2026_tokyo_0711",
+        "hana_born_to_bloom_2026_tokyo_0712",
+        "hana_born_to_bloom_2026_ishikawa_0718",
+        "hana_born_to_bloom_2026_niigata_0720"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_btown_2nd",
+      "tourId": "hana_born_to_bloom_2026",
+      "type": "B-Town〈Architect / Resident〉2次先行",
+      "entryStartAt": "2025-12-22T22:00:00+09:00",
+      "entryEndAt": "2026-01-04T23:59:00+09:00",
+      "resultAt": "2026-01-14T12:00:00+09:00",
+      "paymentStartAt": "2026-01-14T12:00:00+09:00",
+      "paymentEndAt": "2026-01-18T23:59:00+09:00",
+      "performanceIds": [
+        "hana_born_to_bloom_2026_aichi_0307",
+        "hana_born_to_bloom_2026_aichi_0308",
+        "hana_born_to_bloom_2026_ibaraki_0321",
+        "hana_born_to_bloom_2026_tokyo_0329",
+        "hana_born_to_bloom_2026_fukuoka_0403",
+        "hana_born_to_bloom_2026_fukuoka_0404",
+        "hana_born_to_bloom_2026_hiroshima_0410",
+        "hana_born_to_bloom_2026_okayama_0412",
+        "hana_born_to_bloom_2026_osaka_0418",
+        "hana_born_to_bloom_2026_osaka_0419",
+        "hana_born_to_bloom_2026_kagawa_0426",
+        "hana_born_to_bloom_2026_hokkaido_0502",
+        "hana_born_to_bloom_2026_miyagi_0505",
+        "hana_born_to_bloom_2026_miyagi_0506",
+        "hana_born_to_bloom_2026_chiba_0509",
+        "hana_born_to_bloom_2026_hyogo_0522",
+        "hana_born_to_bloom_2026_hyogo_0523",
+        "hana_born_to_bloom_2026_shizuoka_0607",
+        "hana_born_to_bloom_2026_kanagawa_0619",
+        "hana_born_to_bloom_2026_kanagawa_0620",
+        "hana_born_to_bloom_2026_kyoto_0626",
+        "hana_born_to_bloom_2026_tokyo_0711",
+        "hana_born_to_bloom_2026_tokyo_0712",
+        "hana_born_to_bloom_2026_ishikawa_0718",
+        "hana_born_to_bloom_2026_niigata_0720"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_ticketboard",
+      "tourId": "hana_born_to_bloom_2026",
+      "type": "ticket board先行",
+      "entryStartAt": "2026-01-06T18:00:00+09:00",
+      "entryEndAt": "2026-01-19T23:59:00+09:00",
+      "resultAt": "2026-01-28T12:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hana_born_to_bloom_2026_aichi_0307",
+        "hana_born_to_bloom_2026_aichi_0308",
+        "hana_born_to_bloom_2026_ibaraki_0321",
+        "hana_born_to_bloom_2026_tokyo_0329",
+        "hana_born_to_bloom_2026_fukuoka_0403",
+        "hana_born_to_bloom_2026_fukuoka_0404",
+        "hana_born_to_bloom_2026_hiroshima_0410",
+        "hana_born_to_bloom_2026_okayama_0412",
+        "hana_born_to_bloom_2026_osaka_0418",
+        "hana_born_to_bloom_2026_osaka_0419",
+        "hana_born_to_bloom_2026_kagawa_0426",
+        "hana_born_to_bloom_2026_hokkaido_0502",
+        "hana_born_to_bloom_2026_miyagi_0505",
+        "hana_born_to_bloom_2026_miyagi_0506",
+        "hana_born_to_bloom_2026_chiba_0509",
+        "hana_born_to_bloom_2026_hyogo_0522",
+        "hana_born_to_bloom_2026_hyogo_0523",
+        "hana_born_to_bloom_2026_shizuoka_0607",
+        "hana_born_to_bloom_2026_kanagawa_0619",
+        "hana_born_to_bloom_2026_kanagawa_0620",
+        "hana_born_to_bloom_2026_kyoto_0626",
+        "hana_born_to_bloom_2026_tokyo_0711",
+        "hana_born_to_bloom_2026_tokyo_0712",
+        "hana_born_to_bloom_2026_ishikawa_0718",
+        "hana_born_to_bloom_2026_niigata_0720"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_familymart",
+      "tourId": "hana_born_to_bloom_2026",
+      "type": "ファミリーマート先行",
+      "entryStartAt": "2026-01-06T18:00:00+09:00",
+      "entryEndAt": "2026-01-19T23:59:00+09:00",
+      "resultAt": "2026-01-28T12:00:00+09:00",
+      "paymentStartAt": "2026-01-28T12:00:00+09:00",
+      "paymentEndAt": "2026-01-31T23:59:00+09:00",
+      "performanceIds": [
+        "hana_born_to_bloom_2026_aichi_0307",
+        "hana_born_to_bloom_2026_aichi_0308",
+        "hana_born_to_bloom_2026_ibaraki_0321",
+        "hana_born_to_bloom_2026_tokyo_0329",
+        "hana_born_to_bloom_2026_fukuoka_0403",
+        "hana_born_to_bloom_2026_fukuoka_0404",
+        "hana_born_to_bloom_2026_hiroshima_0410",
+        "hana_born_to_bloom_2026_okayama_0412",
+        "hana_born_to_bloom_2026_osaka_0418",
+        "hana_born_to_bloom_2026_osaka_0419",
+        "hana_born_to_bloom_2026_kagawa_0426",
+        "hana_born_to_bloom_2026_hokkaido_0502",
+        "hana_born_to_bloom_2026_miyagi_0505",
+        "hana_born_to_bloom_2026_miyagi_0506",
+        "hana_born_to_bloom_2026_chiba_0509",
+        "hana_born_to_bloom_2026_hyogo_0522",
+        "hana_born_to_bloom_2026_hyogo_0523",
+        "hana_born_to_bloom_2026_shizuoka_0607",
+        "hana_born_to_bloom_2026_kanagawa_0619",
+        "hana_born_to_bloom_2026_kanagawa_0620",
+        "hana_born_to_bloom_2026_kyoto_0626",
+        "hana_born_to_bloom_2026_tokyo_0711",
+        "hana_born_to_bloom_2026_tokyo_0712",
+        "hana_born_to_bloom_2026_ishikawa_0718",
+        "hana_born_to_bloom_2026_niigata_0720"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_fc_final",
+      "tourId": "hana_born_to_bloom_2026",
+      "type": "HANA Official Fan Club最終先行",
+      "entryStartAt": "2026-01-24T18:00:00+09:00",
+      "entryEndAt": "2026-02-01T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hana_born_to_bloom_2026_aichi_0307",
+        "hana_born_to_bloom_2026_aichi_0308",
+        "hana_born_to_bloom_2026_ibaraki_0321",
+        "hana_born_to_bloom_2026_tokyo_0329",
+        "hana_born_to_bloom_2026_fukuoka_0403",
+        "hana_born_to_bloom_2026_fukuoka_0404",
+        "hana_born_to_bloom_2026_hiroshima_0410",
+        "hana_born_to_bloom_2026_okayama_0412",
+        "hana_born_to_bloom_2026_osaka_0418",
+        "hana_born_to_bloom_2026_osaka_0419",
+        "hana_born_to_bloom_2026_kagawa_0426",
+        "hana_born_to_bloom_2026_hokkaido_0502",
+        "hana_born_to_bloom_2026_miyagi_0505",
+        "hana_born_to_bloom_2026_miyagi_0506",
+        "hana_born_to_bloom_2026_chiba_0509",
+        "hana_born_to_bloom_2026_hyogo_0522",
+        "hana_born_to_bloom_2026_hyogo_0523",
+        "hana_born_to_bloom_2026_shizuoka_0607",
+        "hana_born_to_bloom_2026_kanagawa_0619",
+        "hana_born_to_bloom_2026_kanagawa_0620",
+        "hana_born_to_bloom_2026_kyoto_0626",
+        "hana_born_to_bloom_2026_tokyo_0711",
+        "hana_born_to_bloom_2026_tokyo_0712",
+        "hana_born_to_bloom_2026_ishikawa_0718",
+        "hana_born_to_bloom_2026_niigata_0720"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_btown_final",
+      "tourId": "hana_born_to_bloom_2026",
+      "type": "B-Town〈Architect / Resident〉最終先行",
+      "entryStartAt": "2026-01-24T18:00:00+09:00",
+      "entryEndAt": "2026-02-01T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hana_born_to_bloom_2026_aichi_0307",
+        "hana_born_to_bloom_2026_aichi_0308",
+        "hana_born_to_bloom_2026_ibaraki_0321",
+        "hana_born_to_bloom_2026_tokyo_0329",
+        "hana_born_to_bloom_2026_fukuoka_0403",
+        "hana_born_to_bloom_2026_fukuoka_0404",
+        "hana_born_to_bloom_2026_hiroshima_0410",
+        "hana_born_to_bloom_2026_okayama_0412",
+        "hana_born_to_bloom_2026_osaka_0418",
+        "hana_born_to_bloom_2026_osaka_0419",
+        "hana_born_to_bloom_2026_kagawa_0426",
+        "hana_born_to_bloom_2026_hokkaido_0502",
+        "hana_born_to_bloom_2026_miyagi_0505",
+        "hana_born_to_bloom_2026_miyagi_0506",
+        "hana_born_to_bloom_2026_chiba_0509",
+        "hana_born_to_bloom_2026_hyogo_0522",
+        "hana_born_to_bloom_2026_hyogo_0523",
+        "hana_born_to_bloom_2026_shizuoka_0607",
+        "hana_born_to_bloom_2026_kanagawa_0619",
+        "hana_born_to_bloom_2026_kanagawa_0620",
+        "hana_born_to_bloom_2026_kyoto_0626",
+        "hana_born_to_bloom_2026_tokyo_0711",
+        "hana_born_to_bloom_2026_tokyo_0712",
+        "hana_born_to_bloom_2026_ishikawa_0718",
+        "hana_born_to_bloom_2026_niigata_0720"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ]
 }

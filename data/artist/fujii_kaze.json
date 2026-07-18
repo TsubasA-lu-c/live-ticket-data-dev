@@ -13,17 +13,41 @@
           "amount": 13000
         },
         {
-          "label": "親子席",
+          "label": "親子席（親）",
           "amount": 13000
+        },
+        {
+          "label": "親子席（こども）",
+          "amount": 6500
         },
         {
           "label": "カインド席",
           "amount": 13000
+        },
+        {
+          "label": "ハート席（大人）",
+          "amount": 6500
+        },
+        {
+          "label": "ハート席（こども）",
+          "amount": 0
+        },
+        {
+          "label": "車いす席",
+          "amount": 13000
+        },
+        {
+          "label": "注釈付き指定席",
+          "amount": 12000
+        },
+        {
+          "label": "立見指定",
+          "amount": 11000
         }
       ],
       "source": "system",
       "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "fujii_kaze_prema_world_2026",
@@ -31,10 +55,43 @@
       "title": "Prema World Tour",
       "startDate": "2026-10-31T00:00:00+09:00",
       "endDate": "2027-01-09T00:00:00+09:00",
-      "prices": null,
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 15000
+        },
+        {
+          "label": "注釈付き指定席",
+          "amount": 15000
+        },
+        {
+          "label": "親子席（親）",
+          "amount": 15000
+        },
+        {
+          "label": "親子席（こども）",
+          "amount": 7500
+        },
+        {
+          "label": "カインド席",
+          "amount": 15000
+        },
+        {
+          "label": "ハート席（大人）",
+          "amount": 7500
+        },
+        {
+          "label": "ハート席（こども）",
+          "amount": 0
+        },
+        {
+          "label": "車いす席",
+          "amount": 15000
+        }
+      ],
       "source": "system",
       "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -48,7 +105,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "fujii_kaze_pre_prema_2026_hokkaido_0717",
@@ -60,7 +117,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "fujii_kaze_pre_prema_2026_hiroshima_0728",
@@ -72,7 +129,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "fujii_kaze_pre_prema_2026_hiroshima_0729",
@@ -84,7 +141,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "fujii_kaze_pre_prema_2026_fukui_0804",
@@ -96,7 +153,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "fujii_kaze_pre_prema_2026_fukui_0805",
@@ -108,7 +165,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "fujii_kaze_prema_world_2026_fukuoka_1114",
@@ -120,7 +177,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "fujii_kaze_prema_world_2026_fukuoka_1115",
@@ -132,7 +189,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "fujii_kaze_prema_world_2026_osaka_1210",
@@ -144,7 +201,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "fujii_kaze_prema_world_2026_osaka_1212",
@@ -156,7 +213,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "fujii_kaze_prema_world_2026_osaka_1213",
@@ -168,7 +225,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "fujii_kaze_prema_world_2026_tokyo_1219",
@@ -180,7 +237,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "fujii_kaze_prema_world_2026_tokyo_1220",
@@ -192,31 +249,31 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "fujii_kaze_prema_world_2026_kaohsiung_1031",
       "tourId": "fujii_kaze_prema_world_2026",
       "venue": "Kaohsiung National Stadium",
-      "performanceAt": "2026-10-31T19:00:00+09:00",
-      "doorOpenAt": "2026-10-31T16:00:00+09:00",
+      "performanceAt": "2026-10-31T20:00:00+09:00",
+      "doorOpenAt": "2026-10-31T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "fujii_kaze_prema_world_2026_bangkok_1226",
       "tourId": "fujii_kaze_prema_world_2026",
       "venue": "Supachalasai National Stadium",
-      "performanceAt": "2026-12-26T19:00:00+09:00",
-      "doorOpenAt": "2026-12-26T16:00:00+09:00",
+      "performanceAt": "2026-12-26T21:00:00+09:00",
+      "doorOpenAt": "2026-12-26T18:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "fujii_kaze_prema_world_2026_seoul_0109",
@@ -228,7 +285,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -251,7 +308,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "fujii_kaze_prema_world_2026_general",
@@ -273,7 +330,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ]
 }
