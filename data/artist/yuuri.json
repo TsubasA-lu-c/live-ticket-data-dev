@@ -23,7 +23,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://yuurinchi.com/contents/1047040",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "yuuri_ichifuji_nikatagi_2026",
@@ -43,7 +43,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/3413260010",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "yuuri_fes_2026_joinalive",
@@ -54,7 +54,7 @@
       "prices": [],
       "source": "system",
       "sourceUrl": "https://joinalive.jp/2026/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "yuuri_fes_2026_osakagigantic",
@@ -65,7 +65,7 @@
       "prices": [],
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/2249550001",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "yuuri_fes_2026_numbershot",
@@ -76,7 +76,7 @@
       "prices": [],
       "source": "system",
       "sourceUrl": "https://numbershot.jp/2026/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "yuuri_fes_2026_otohige",
@@ -87,7 +87,7 @@
       "prices": [],
       "source": "system",
       "sourceUrl": "https://otohige.com/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "yuuri_fes_2026_rijfes",
@@ -98,7 +98,29 @@
       "prices": [],
       "source": "system",
       "sourceUrl": "https://rijfes.jp/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_live_los_angeles_2026",
+      "artistId": "yuuri",
+      "title": "YUURI Live in Los Angeles",
+      "startDate": "2026-09-26T20:00:00+09:00",
+      "endDate": "2026-09-26T20:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/yuri/live/55540",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_live_taipei_2026",
+      "artistId": "yuuri",
+      "title": "YUURI 2026 LIVE IN TAIPEI",
+      "startDate": "2026-10-09T18:00:00+09:00",
+      "endDate": "2026-10-10T18:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/yuri/live/55543",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -112,7 +134,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://yuurinchi.com/contents/1047040",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "yuuri_asia_tour_gomen_2026_aomori_0513",
@@ -124,7 +146,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://yuurinchi.com/contents/1047040",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "yuuri_asia_tour_gomen_2026_kagawa_1005",
@@ -136,7 +158,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/yuri/info/583830",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "yuuri_asia_tour_gomen_2026_ehime_1006",
@@ -148,7 +170,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/yuri/info/583830",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "yuuri_ichifuji_nikatagi_2026_fujikyu_0905",
@@ -160,7 +182,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/3413260010",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "yuuri_ichifuji_nikatagi_2026_fujikyu_0906",
@@ -172,7 +194,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/3413260010",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "yuuri_fes_2026_joinalive_0718",
@@ -184,7 +206,7 @@
       "eventName": "JOIN ALIVE 2026",
       "source": "system",
       "sourceUrl": "https://joinalive.jp/2026/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "yuuri_fes_2026_osakagigantic_0725",
@@ -196,7 +218,7 @@
       "eventName": "OSAKA GIGANTIC MUSIC FESTIVAL 2026",
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/2249550001",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "yuuri_fes_2026_numbershot_0801",
@@ -208,7 +230,7 @@
       "eventName": "NUMBER SHOT 2026",
       "source": "system",
       "sourceUrl": "https://numbershot.jp/2026/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "yuuri_fes_2026_otohige_0829",
@@ -220,7 +242,7 @@
       "eventName": "音楽と髭達2026 -TIME MACHINE-",
       "source": "system",
       "sourceUrl": "https://otohige.com/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "yuuri_fes_2026_rijfes_0913",
@@ -232,7 +254,43 @@
       "eventName": "ROCK IN JAPAN FESTIVAL 2026",
       "source": "system",
       "sourceUrl": "https://rijfes.jp/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_live_los_angeles_2026_0926",
+      "tourId": "yuuri_live_los_angeles_2026",
+      "venue": "Los Angeles・The Wiltern",
+      "performanceAt": "2026-09-26T20:00:00+09:00",
+      "doorOpenAt": "2026-09-26T19:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/yuri/live/55540",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_live_taipei_2026_1009",
+      "tourId": "yuuri_live_taipei_2026",
+      "venue": "台北・TAIPEI ARENA",
+      "performanceAt": "2026-10-09T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/yuri/live/55543",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_live_taipei_2026_1010",
+      "tourId": "yuuri_live_taipei_2026",
+      "venue": "台北・TAIPEI ARENA",
+      "performanceAt": "2026-10-10T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/yuri/live/55544",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -251,7 +309,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/3413260010",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "yuuri_ichifuji_nikatagi_2026_official_1st",
@@ -268,7 +326,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/3413260010",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "yuuri_ichifuji_nikatagi_2026_official_2nd",
@@ -285,7 +343,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/3413260010",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "yuuri_ichifuji_nikatagi_2026_official_early",
@@ -302,7 +360,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/3413260010",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "yuuri_ichifuji_nikatagi_2026_general_0905",
@@ -318,7 +376,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/3413260010",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "yuuri_ichifuji_nikatagi_2026_general_0906",
@@ -334,7 +392,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/3413260010",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ]
 }

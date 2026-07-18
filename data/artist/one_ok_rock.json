@@ -14,7 +14,21 @@
       ],
       "source": "system",
       "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "one_ok_rock_1_chance_festival_2026",
+      "artistId": "one_ok_rock",
+      "title": "1 CHANCE FESTIVAL 2026",
+      "startDate": "2026-09-27T00:00:00+09:00",
+      "endDate": "2026-09-27T00:00:00+09:00",
+      "prices": [
+        {"label": "1日券", "amount": 12000},
+        {"label": "2日券", "amount": 23000}
+      ],
+      "source": "system",
+      "sourceUrl": "https://1chancefes.com/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -28,7 +42,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "one_ok_rock_detox_japan_tour_final_2026_ig_arena_0812",
@@ -40,7 +54,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "one_ok_rock_detox_japan_tour_final_2026_marine_messe_0818",
@@ -52,7 +66,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "one_ok_rock_detox_japan_tour_final_2026_marine_messe_0819",
@@ -64,7 +78,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "one_ok_rock_detox_japan_tour_final_2026_miyagi_0825",
@@ -76,7 +90,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "one_ok_rock_detox_japan_tour_final_2026_miyagi_0826",
@@ -88,7 +102,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "one_ok_rock_detox_japan_tour_final_2026_zozo_0905",
@@ -100,7 +114,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "one_ok_rock_detox_japan_tour_final_2026_zozo_0906",
@@ -112,7 +126,19 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "one_ok_rock_1_chance_festival_2026_kumamoto_0927",
+      "tourId": "one_ok_rock_1_chance_festival_2026",
+      "venue": "熊本県農業公園 カントリーパーク",
+      "performanceAt": "2026-09-27T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "1 CHANCE FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://oneokrock-pf.com/news/detail/163",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -128,7 +154,7 @@
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "one_ok_rock_detox_japan_tour_final_2026_official_hp_senko",
@@ -142,7 +168,7 @@
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "one_ok_rock_detox_japan_tour_final_2026_pia_saisoku",
@@ -156,7 +182,61 @@
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://pia.jp/v/oor-djtf26pgf/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "one_ok_rock_1_chance_festival_2026_general_sale",
+      "tourId": "one_ok_rock_1_chance_festival_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-07-18T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "one_ok_rock_1_chance_festival_2026_kumamoto_0927"
+      ],
+      "source": "system",
+      "sourceUrl": "https://1chancefes.com/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "one_ok_rock_detox_japan_tour_final_2026_general_aichi_fukuoka_miyagi",
+      "tourId": "one_ok_rock_detox_japan_tour_final_2026",
+      "type": "一般発売（愛知・福岡・宮城公演）",
+      "entryStartAt": "2026-07-25T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "one_ok_rock_detox_japan_tour_final_2026_ig_arena_0811",
+        "one_ok_rock_detox_japan_tour_final_2026_ig_arena_0812",
+        "one_ok_rock_detox_japan_tour_final_2026_marine_messe_0818",
+        "one_ok_rock_detox_japan_tour_final_2026_marine_messe_0819",
+        "one_ok_rock_detox_japan_tour_final_2026_miyagi_0825",
+        "one_ok_rock_detox_japan_tour_final_2026_miyagi_0826"
+      ],
+      "source": "system",
+      "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "one_ok_rock_detox_japan_tour_final_2026_general_chiba",
+      "tourId": "one_ok_rock_detox_japan_tour_final_2026",
+      "type": "一般発売（千葉公演・2026年8月22日開始）",
+      "entryStartAt": null,
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "one_ok_rock_detox_japan_tour_final_2026_zozo_0905",
+        "one_ok_rock_detox_japan_tour_final_2026_zozo_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ]
 }

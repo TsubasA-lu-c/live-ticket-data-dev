@@ -534,7 +534,7 @@
   "sixtones": {
     "https://www.sixtones.jp/": {
       "type": "hash",
-      "hash": "300d0e97640e7f9f8adc29260a87b096"
+      "hash": "8ac74f7e0f848eb86eea14d45992beb3"
     },
     "https://www.sixtones.jp/news/132": {
       "type": "hash",
@@ -542,7 +542,7 @@
     },
     "https://www.sixtones.jp/news": {
       "type": "hash",
-      "hash": "b5eaab549fa8c18188fd0b7a9c103eb1"
+      "hash": "d4b1de456d5839a9fa3d08e09c04e539"
     },
     "https://www.sixtones.jp/news/469": {
       "type": "hash",
@@ -552,13 +552,45 @@
   "one_ok_rock": {
     "https://oneokrock-pf.com/feature/detoxjapantourfinal": {
       "type": "hash",
-      "hash": "0076fd481f8e834cdb71f39b515a3a59"
+      "hash": "eb06d05c08191ca3e28d4df16fbcc25b"
+    },
+    "https://oneokrock-pf.com/": {
+      "type": "hash",
+      "hash": "ae2d42f8c3656c0da3ecdfdbbd0d8a67"
+    },
+    "https://oneokrock-pf.com/news/1/": {
+      "type": "hash",
+      "hash": "c81f37f2d8f484fb648e52513cba4aae"
+    },
+    "https://oneokrock-pf.com/news/1": {
+      "type": "hash",
+      "hash": "c81f37f2d8f484fb648e52513cba4aae"
+    },
+    "https://oneokrock-pf.com/news/detail/162": {
+      "type": "hash",
+      "hash": "eb82aa12e2886a8c629416edf203144b"
     }
   },
   "radwimps": {
     "https://radwimps.jp/yurinchi/": {
       "type": "hash",
       "hash": "e0f164bee9732766a5cc4367934123c8"
+    },
+    "https://radwimps.jp/": {
+      "type": "hash",
+      "hash": "8150826d0f920326cab4e120aadaa5bf"
+    },
+    "https://radwimps.jp/news/": {
+      "type": "hash",
+      "hash": "a96e03e1929db67dcd7580b0306c9801"
+    },
+    "https://radwimps.jp/news/16470/": {
+      "type": "hash",
+      "hash": "c0073a544e395099a0bf6c0e22427ec4"
+    },
+    "https://radwimps.jp/news/16468/": {
+      "type": "hash",
+      "hash": "9b2a99bf337df902920af01d0bca24e4"
     }
   },
   "ryokuoushoku_shakai": {
@@ -577,6 +609,18 @@
     "https://www.ryokushaka.com/daiyasai2026/event": {
       "type": "hash",
       "hash": "33b7a4a3971800e23964ba4d581724c1"
+    },
+    "https://www.ryokushaka.com/": {
+      "type": "hash",
+      "hash": "62dce65840c1360d7d9ca6e91a793bcb"
+    },
+    "https://www.ryokushaka.com/news": {
+      "type": "hash",
+      "hash": "fc9a355e4070ec72e846dba616e81869"
+    },
+    "https://www.ryokushaka.com/live": {
+      "type": "hash",
+      "hash": "f4ed656e363e9b3a2eb56d9e1060d46e"
     }
   },
   "aimer": {
@@ -605,6 +649,18 @@
     "https://eplus.jp/touroku": {
       "type": "hash",
       "hash": "2fd1a5b2e164c00f0824895e36019cd9"
+    },
+    "https://www.yuuriweb.com/": {
+      "type": "hash",
+      "hash": "9186d105e600a7d0ef5cda7fa2487acb"
+    },
+    "https://eplus.jp/sf/live/j-pop": {
+      "type": "hash",
+      "hash": "d8fbdeacf13e6888c2277650b0272aa2"
+    },
+    "https://yuurinchi.com/": {
+      "type": "hash",
+      "hash": "db391c2f7974247376fd14cfdd8933fe"
     }
   },
   "naniwa_danshi": {
