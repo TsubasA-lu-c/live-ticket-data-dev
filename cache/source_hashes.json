@@ -796,7 +796,7 @@
     },
     "https://bmsg.tokyo/news": {
       "type": "hash",
-      "hash": "c356ff0a907005aede15a1139f41936b"
+      "hash": "a8972d291fddfa9d97aff09ce7130c2e"
     },
     "https://bmsg.tokyo/category/live/": {
       "type": "hash",
@@ -804,7 +804,7 @@
     },
     "https://bmsg.tokyo/feed/": {
       "type": "hash",
-      "hash": "31f8a1d0c81579b7dcde0fc35129885b"
+      "hash": "26753503b01e416ddaca11b10c4b445a"
     },
     "https://bmsg.tokyo/comments/feed/": {
       "type": "hash",
@@ -813,6 +813,10 @@
     "https://bmsg.tokyo/live/skyhi-tour2026/feed/": {
       "type": "hash",
       "hash": "c1411ea3e01afa38167334e00ef21f8a"
+    },
+    "https://bmsg.tokyo/": {
+      "type": "hash",
+      "hash": "ea76c9990d710b9b15573edc07617238"
     }
   },
   "tennimu": {
@@ -831,6 +835,14 @@
     "https://www.tennimu.com/4th_2026rikkai_1/streaming/": {
       "type": "hash",
       "hash": "ac8cf30fce6d3311841b451f74680e94"
+    },
+    "https://www.tennimu.com/": {
+      "type": "hash",
+      "hash": "5c6f74073a179c0d4c7b73207b1eb8d8"
+    },
+    "https://www.tennimu.com/news/": {
+      "type": "hash",
+      "hash": "eed1bed8bb8b656beab579bd983285a4"
     }
   },
   "touken_ranbu_musical": {
@@ -845,34 +857,62 @@
     "https://musical-toukenranbu.jp/contents/1081530": {
       "type": "hash",
       "hash": "4658c8409e736b69f51dc8af7f5f4d02"
+    },
+    "https://musical-toukenranbu.jp/": {
+      "type": "hash",
+      "hash": "4dc8310ccac15cf93e6aa4461831d4e0"
+    },
+    "https://musical-toukenranbu.jp/contents/liveviewing": {
+      "type": "hash",
+      "hash": "f084a0d5a5e1ca59a288b566dbe7cffd"
+    },
+    "https://musical-toukenranbu.jp/calendar": {
+      "type": "hash",
+      "hash": "c388671003bd3dea91ed17f30f89abd6"
+    },
+    "https://musical-toukenranbu.jp/contents/goods/kashusololive2026": {
+      "type": "hash",
+      "hash": "e04d566d3fef6832b8c2e66aaf4e6a5c"
     }
   },
   "zutomayo": {
     "https://zutomayo.net/intense2/": {
       "type": "hash",
-      "hash": "c5d4341956d5698ed53ff87c23e7673d"
+      "hash": "41d265c02c9a73c7a9eb44d14a0133ae"
     },
     "https://zutomayo.net/news/": {
       "type": "hash",
-      "hash": "e06d18d2e858c81464ee034324d2d0b0"
+      "hash": "0a9c11474078f56010857b40e117d3cf"
     },
     "https://zutomayo.net/news/562/": {
       "type": "hash",
-      "hash": "8f032b1d5fb8473c9b31c66a23c1e3f1"
+      "hash": "0a115a8fbd00a0af2eb24c441ea37c13"
     },
     "https://zutomayo.net/news/577/": {
       "type": "hash",
-      "hash": "887eb7ae0b49a12f03b994e784ed55ee"
+      "hash": "70bfa5b2ecc584bfb6a1a5d9f04bfad1"
+    },
+    "https://zutomayo.net/": {
+      "type": "hash",
+      "hash": "fa4c74bbd521a939ddbafdb203bc7d16"
+    },
+    "https://zutomayo.net/news/636": {
+      "type": "hash",
+      "hash": "7fdec25a6574dfd2f54620c62a999a0d"
+    },
+    "https://zutomayo.net/news/635": {
+      "type": "hash",
+      "hash": "a1e9511869f027214db7fdbe564d3df5"
     }
   },
   "momoiro_clover_z": {
     "https://www.momoclo.net/": {
       "type": "hash",
-      "hash": "b9927b668e771d37bd03104960814c18"
+      "hash": "3e3301939c4e214ee01c32bc817fc039"
     },
     "https://www.momoclo.net/news": {
       "type": "hash",
-      "hash": "bf3174e600c16e2f3e15bb3b91a7ee71"
+      "hash": "7f5d331a4fe5d851ee61c482fb39313e"
     },
     "https://www.momoclo.net/archives/news/260601_02": {
       "type": "hash",

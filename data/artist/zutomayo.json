@@ -13,6 +13,10 @@
           "amount": 12000
         },
         {
+          "label": "Premium Area Upgrade",
+          "amount": 3000
+        },
+        {
           "label": "バックフリーエリア",
           "amount": 6500
         },
@@ -22,8 +26,8 @@
         }
       ],
       "source": "system",
-      "sourceUrl": "https://zutomayo.net/live/58/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "sourceUrl": "https://zutomayo.net/bunka-denrai/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "zutomayo_fes_2026",
@@ -31,96 +35,96 @@
       "title": "2026年フェス出演",
       "startDate": "2026-07-25T00:00:00+09:00",
       "endDate": "2026-09-19T00:00:00+09:00",
-      "prices": [],
+      "prices": null,
       "source": "system",
       "sourceUrl": "https://zutomayo.net/live/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ],
   "performances": [
     {
       "id": "zutomayo_legacyzombie_2026_nara_1010",
       "tourId": "zutomayo_legacyzombie_2026",
-      "venue": "平城京跡歴史公園",
+      "venue": "平城宮跡歴史公園 中央区朝堂院 特設野外会場",
       "performanceAt": "2026-10-10T17:30:00+09:00",
       "doorOpenAt": "2026-10-10T15:30:00+09:00",
       "kind": "oneman",
       "eventName": "特別公演祭 LEGACY ZOMBIE LABO「文禍伝雷」奈良・平城京",
       "source": "system",
-      "sourceUrl": "https://zutomayo.net/live/58/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "sourceUrl": "https://zutomayo.net/bunka-denrai/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "zutomayo_legacyzombie_2026_nara_1011",
       "tourId": "zutomayo_legacyzombie_2026",
-      "venue": "平城京跡歴史公園",
+      "venue": "平城宮跡歴史公園 中央区朝堂院 特設野外会場",
       "performanceAt": "2026-10-11T17:30:00+09:00",
       "doorOpenAt": "2026-10-11T15:30:00+09:00",
       "kind": "oneman",
       "eventName": "特別公演祭 LEGACY ZOMBIE LABO「文禍伝雷」奈良・平城京",
       "source": "system",
-      "sourceUrl": "https://zutomayo.net/live/58/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "sourceUrl": "https://zutomayo.net/bunka-denrai/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "zutomayo_fujirock_2026_0725",
       "tourId": "zutomayo_fes_2026",
-      "venue": "FUJI ROCK FESTIVAL '26",
+      "venue": "新潟県湯沢町 苗場スキー場",
       "performanceAt": "2026-07-25T18:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "FUJI ROCK FESTIVAL '26",
       "source": "system",
-      "sourceUrl": "https://zutomayo.net/live/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "sourceUrl": "https://zutomayo.net/live/57/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "zutomayo_osakagiga_2026_0802",
       "tourId": "zutomayo_fes_2026",
-      "venue": "OSAKA GIGANTIC MUSIC FESTIVAL 2026",
-      "performanceAt": "2026-08-02T18:00:00+09:00",
-      "doorOpenAt": null,
+      "venue": "大阪舞洲スポーツアイランド ジャイガ特設会場",
+      "performanceAt": "2026-08-02T19:25:00+09:00",
+      "doorOpenAt": "2026-08-02T09:30:00+09:00",
       "kind": "fes",
       "eventName": "OSAKA GIGANTIC MUSIC FESTIVAL 2026 -THANKS 10TH GIGA-",
       "source": "system",
-      "sourceUrl": "https://zutomayo.net/live/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "sourceUrl": "https://zutomayo.net/live/53/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "zutomayo_wildbunch_2026_0822",
       "tourId": "zutomayo_fes_2026",
       "venue": "山口きらら博記念公園",
-      "performanceAt": "2026-08-22T11:30:00+09:00",
+      "performanceAt": "2026-08-22T19:00:00+09:00",
       "doorOpenAt": "2026-08-22T10:00:00+09:00",
       "kind": "fes",
       "eventName": "WILD BUNCH FEST. 2026",
       "source": "system",
       "sourceUrl": "https://zutomayo.net/live/54/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "zutomayo_soundplanet_2026_0906",
       "tourId": "zutomayo_fes_2026",
-      "venue": "SOUND PLANET FESTIVAL",
+      "venue": "韓国 PARADISE CITY",
       "performanceAt": "2026-09-06T18:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-09-06T10:00:00+09:00",
       "kind": "fes",
       "eventName": "SOUND PLANET FESTIVAL",
       "source": "system",
-      "sourceUrl": "https://zutomayo.net/live/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "sourceUrl": "https://zutomayo.net/live/55/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "zutomayo_rockinJapan_2026_0919",
       "tourId": "zutomayo_fes_2026",
-      "venue": "ROCK IN JAPAN FESTIVAL 2026",
-      "performanceAt": "2026-09-19T18:00:00+09:00",
-      "doorOpenAt": null,
+      "venue": "千葉市蘇我スポーツ公園",
+      "performanceAt": "2026-09-19T18:45:00+09:00",
+      "doorOpenAt": "2026-09-19T08:30:00+09:00",
       "kind": "fes",
       "eventName": "ROCK IN JAPAN FESTIVAL 2026",
       "source": "system",
-      "sourceUrl": "https://zutomayo.net/live/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "sourceUrl": "https://zutomayo.net/live/56/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -138,8 +142,8 @@
         "zutomayo_legacyzombie_2026_nara_1011"
       ],
       "source": "system",
-      "sourceUrl": "https://zutomayo.net/live/58/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "sourceUrl": "https://zutomayo.net/bunka-denrai/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "zutomayo_legacyzombie_2026_fc2",
@@ -155,8 +159,8 @@
         "zutomayo_legacyzombie_2026_nara_1011"
       ],
       "source": "system",
-      "sourceUrl": "https://zutomayo.net/live/58/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "sourceUrl": "https://zutomayo.net/bunka-denrai/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "zutomayo_legacyzombie_2026_gen1",
@@ -172,8 +176,8 @@
         "zutomayo_legacyzombie_2026_nara_1011"
       ],
       "source": "system",
-      "sourceUrl": "https://zutomayo.net/live/58/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "sourceUrl": "https://zutomayo.net/bunka-denrai/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "zutomayo_legacyzombie_2026_upgrade",
@@ -189,8 +193,8 @@
         "zutomayo_legacyzombie_2026_nara_1011"
       ],
       "source": "system",
-      "sourceUrl": "https://zutomayo.net/live/58/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "sourceUrl": "https://zutomayo.net/bunka-denrai/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ]
 }

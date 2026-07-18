@@ -1,13 +1,13 @@
 # /refresh-smart 進捗（2026-07-18）
 
-最終更新: 2026-07-18T19:32:26+09:00
+最終更新: 2026-07-18T20:01:24+09:00
 
 ## 現在地
 
 - 全102組をhash比較し、82組を変更ありと判定。
-- 30組は収集・validate・hash accept・manifest更新・commit・pushまで完了。
-- 第6論理バッチまで配信反映済み。manifestはv76、未処理は52組。
-- 次回は`sky_hi`から再開。
+- 35組は収集・validate・hash accept・manifest更新・commit・pushまで完了。
+- 第7論理バッチまで配信反映済み。manifestはv77、未処理は47組。
+- 次回は`macaroni_empitsu`から再開。
 - 未追跡のユーザーファイル `x_thread_artists.md` は変更・削除・commit禁止。
 
 ## 重要なチェックポイント運用
@@ -88,7 +88,7 @@ IDs: `sixtones`, `one_ok_rock`, `radwimps`, `ryokuoushoku_shakai`, `yuuri`
 - 優里: ロサンゼルス1公演、台北2公演を追加。
 - validate成功、hash accept・manifest v75更新・commit・pushまで完了。
 
-## 第6バッチ（配信反映済み・停止地点）
+## 第6バッチ（配信反映済み）
 
 IDs: `naniwa_danshi`, `hey_say_jump`, `travis_japan`, `twice`, `seventeen`
 
@@ -98,16 +98,22 @@ IDs: `naniwa_danshi`, `hey_say_jump`, `travis_japan`, `twice`, `seventeen`
 - TWICE: 将来公演なし。国立競技場3公演は終了済みのため空配列を維持して確認日更新。
 - SEVENTEEN: 将来公演なし。DxS/YAKUSOKUは終了済みのため空配列を維持して確認日更新。
 - validate成功、hash accept・manifest v76更新・commit・pushまで完了。
-- ここで停止。次回は下記未処理順の先頭 `sky_hi` から開始する。
 
-## 第6バッチ後の未処理順（52組）
+## 第7バッチ（配信反映済み・停止地点）
+
+IDs: `sky_hi`, `tennimu`, `touken_ranbu_musical`, `zutomayo`, `momoiro_clover_z`
+
+- SKY-HI: `BMSG FES’26` 3公演と抽選2件を追加。`s**t kingz Fes 2026 会社`のFLYERS先行を補完。
+- テニミュ: `The Final Stage`のTSC先行・モバイル先行を追加。7/18大阪公演時刻を17:30へ訂正。
+- 刀ミュ: `刀剣乱舞 - ICE BLADE -` 2公演と抽選10種を追加。`月夜一縷`プレリク当落日時を補完。
+- ずとまよ: 既存6イベントを公式照合し、フェス会場・出演時刻を補正。抽選4件は公式特設で根拠確認済み。
+- ももクロ: 11イベント・15公演・8抽選へ整理。TIF優先エリア、桃神祭プレオーダー等を追加。
+- validate成功、hash accept・manifest v77更新・commit・pushまで完了。
+- ここで停止。次回は下記未処理順の先頭 `macaroni_empitsu` から開始する。
+
+## 第7バッチ後の未処理順（47組）
 
 ```text
-sky_hi
-tennimu
-touken_ranbu_musical
-zutomayo
-momoiro_clover_z
 macaroni_empitsu
 sakurazaka46
 babymetal
@@ -168,6 +174,10 @@ urashimasakatasen
 - 優里のLA・台北公演は公開ページに抽選日程がないため、抽選ゼロWARNINGを現時点で許容。
 - Travis JapanのWANGANフェスは公式・ぴあで抽選受付期間を確認できないため抽選ゼロWARNINGを現時点で許容。
 - Hey! Say! JUMPのYES24／Thai Ticket Majorは直接取得が応答待ち。受付日時は公式アジアツアー特設ページ本文で確認。
+- テニミュ立海前編は未来公演あり・抽選ゼロWARNING継続。今回確認範囲ではFinal Stage先行のみ日程根拠あり。
+- ももクロXmas/歌合戦はチケット詳細未発表のため抽選ゼロWARNINGを現時点で許容。
+- ももクロ立飛フェスの入場0円は公式無料入場どおりで料金範囲WARNINGを許容。
+- 刀ミュICE BLADEの刀ステFC／ゲーム内／DMMプレミアム／2.5フレンズ先行は種別リンクのみで日時未確認のため日時null。
 
 ## 全組完了後
 

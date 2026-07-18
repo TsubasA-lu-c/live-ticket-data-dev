@@ -12,7 +12,22 @@
       ],
       "source": "system",
       "sourceUrl": "https://shitkingz.jp/s/stkgzfes2026/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_fes_bmsg_fes_2026",
+      "artistId": "sky_hi",
+      "title": "BMSG FES’26",
+      "startDate": "2026-10-10T00:00:00+09:00",
+      "endDate": "2026-10-12T00:00:00+09:00",
+      "prices": [
+        {"label": "SS指定席（特典付きプレミアム席）", "amount": 30000},
+        {"label": "S指定席（特典付きプレミアム席）", "amount": 25000},
+        {"label": "一般指定席", "amount": 20000}
+      ],
+      "source": "system",
+      "sourceUrl": "https://bmsgfes.tokyo/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -26,8 +41,87 @@
       "eventName": "s**t kingz Fes 2026 会社",
       "source": "system",
       "sourceUrl": "https://shitkingz.jp/s/stkgzfes2026/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_fes_bmsg_fes_2026_odaiba_1010",
+      "tourId": "sky_hi_fes_bmsg_fes_2026",
+      "venue": "お台場BMSG FES特設会場",
+      "performanceAt": "2026-10-10T15:00:00+09:00",
+      "doorOpenAt": "2026-10-10T13:00:00+09:00",
+      "kind": "fes",
+      "eventName": "BMSG FES’26",
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/live/2026/2112",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_fes_bmsg_fes_2026_odaiba_1011",
+      "tourId": "sky_hi_fes_bmsg_fes_2026",
+      "venue": "お台場BMSG FES特設会場",
+      "performanceAt": "2026-10-11T15:00:00+09:00",
+      "doorOpenAt": "2026-10-11T13:00:00+09:00",
+      "kind": "fes",
+      "eventName": "BMSG FES’26",
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/live/2026/2112",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_fes_bmsg_fes_2026_odaiba_1012",
+      "tourId": "sky_hi_fes_bmsg_fes_2026",
+      "venue": "お台場BMSG FES特設会場",
+      "performanceAt": "2026-10-12T15:00:00+09:00",
+      "doorOpenAt": "2026-10-12T13:00:00+09:00",
+      "kind": "fes",
+      "eventName": "BMSG FES’26",
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/live/2026/2112",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ],
-  "lotteries": []
+  "lotteries": [
+    {
+      "id": "sky_hi_fes_2026_flyers",
+      "tourId": "sky_hi_fes_2026",
+      "type": "FC先行（FLYERS）",
+      "entryStartAt": "2026-05-16T21:00:00+09:00",
+      "entryEndAt": "2026-05-24T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["sky_hi_fes_2026_stkgz_0726"],
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/live/2026/2058",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_fes_bmsg_fes_2026_btown_architect",
+      "tourId": "sky_hi_fes_bmsg_fes_2026",
+      "type": "B-Town〈Architect〉会員先行",
+      "entryStartAt": "2026-07-01T18:00:00+09:00",
+      "entryEndAt": "2026-07-08T23:59:00+09:00",
+      "resultAt": "2026-07-15T17:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/news/2109",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_fes_bmsg_fes_2026_flyers_resident",
+      "tourId": "sky_hi_fes_bmsg_fes_2026",
+      "type": "FC・B-Town〈Resident〉会員先行",
+      "entryStartAt": "2026-07-15T18:00:00+09:00",
+      "entryEndAt": "2026-07-20T23:59:00+09:00",
+      "resultAt": "2026-08-01T17:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/news/2109",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    }
+  ]
 }
