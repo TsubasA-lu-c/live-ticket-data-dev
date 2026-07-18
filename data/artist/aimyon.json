@@ -15,7 +15,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.aimyong.net/feature/tententen_koshien",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "aimyon_fes_2026_join_alive",
@@ -26,7 +26,7 @@
       "prices": [],
       "source": "system",
       "sourceUrl": "https://joinalive.jp/2026/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "aimyon_fes_2026_sweet_love_shower",
@@ -37,7 +37,7 @@
       "prices": [],
       "source": "system",
       "sourceUrl": "https://2026.sweetloveshower.com/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "aimyon_fes_2026_otohige",
@@ -48,7 +48,7 @@
       "prices": [],
       "source": "system",
       "sourceUrl": "https://www.aimyong.net/news/detail/3324",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "aimyon_fes_2026_hosomichi",
@@ -59,7 +59,7 @@
       "prices": [],
       "source": "system",
       "sourceUrl": "https://www.aimyong.net/news/detail/3358",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "aimyon_fes_2026_rijf",
@@ -70,7 +70,36 @@
       "prices": [],
       "source": "system",
       "sourceUrl": "https://www.aimyong.net/news/detail/3368",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    }
+    ,
+    {
+      "id": "aimyon_10th_budokan_2026",
+      "artistId": "aimyon",
+      "title": "AIMYON 10th anniversary LIVE 2026「、、、」IN 日本武道館",
+      "startDate": "2026-11-30T00:00:00+09:00",
+      "endDate": "2026-12-01T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 12000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tententen_budokan",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    }
+    ,
+    {
+      "id": "aimyon_tour_2027",
+      "artistId": "aimyon",
+      "title": "AIMYON TOUR 2027",
+      "startDate": "2027-02-06T00:00:00+09:00",
+      "endDate": "2027-07-11T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tour2027",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -82,7 +111,7 @@
       "doorOpenAt": "2026-07-14T16:30:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.aimyong.net/feature/tententen_koshien",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
       "kind": "oneman"
     },
     {
@@ -93,7 +122,7 @@
       "doorOpenAt": "2026-07-15T16:30:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.aimyong.net/feature/tententen_koshien",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
       "kind": "oneman"
     },
     {
@@ -106,7 +135,7 @@
       "eventName": "JOIN ALIVE 2026",
       "source": "system",
       "sourceUrl": "https://joinalive.jp/2026/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "aimyon_fes_2026_sweet_love_shower_0828",
@@ -118,7 +147,7 @@
       "eventName": "SPACE SHOWER SWEET LOVE SHOWER 2026",
       "source": "system",
       "sourceUrl": "https://2026.sweetloveshower.com/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "aimyon_fes_2026_otohige_0829",
@@ -130,7 +159,7 @@
       "eventName": "音楽と髭達2026-TIME MACHINE-",
       "source": "system",
       "sourceUrl": "https://www.aimyong.net/news/detail/3324",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "aimyon_fes_2026_hosomichi_0830",
@@ -142,7 +171,7 @@
       "eventName": "ロックのほそ道2026 ～15th Anniversary Special～",
       "source": "system",
       "sourceUrl": "https://www.aimyong.net/news/detail/3358",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "aimyon_fes_2026_rijf_0920",
@@ -154,7 +183,425 @@
       "eventName": "rockin'on presents ROCK IN JAPAN FESTIVAL 2026",
       "source": "system",
       "sourceUrl": "https://www.aimyong.net/news/detail/3368",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "aimyon_10th_budokan_2026_tokyo_1130",
+      "tourId": "aimyon_10th_budokan_2026",
+      "venue": "日本武道館",
+      "performanceAt": "2026-11-30T18:30:00+09:00",
+      "doorOpenAt": "2026-11-30T17:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tententen_budokan",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_10th_budokan_2026_tokyo_1201",
+      "tourId": "aimyon_10th_budokan_2026",
+      "venue": "日本武道館",
+      "performanceAt": "2026-12-01T18:30:00+09:00",
+      "doorOpenAt": "2026-12-01T17:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tententen_budokan",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_tour_2027_kanagawa_pia_0206",
+      "tourId": "aimyon_tour_2027",
+      "venue": "ぴあアリーナMM",
+      "performanceAt": "2027-02-06T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tour2027",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_tour_2027_kanagawa_pia_0207",
+      "tourId": "aimyon_tour_2027",
+      "venue": "ぴあアリーナMM",
+      "performanceAt": "2027-02-07T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tour2027",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_tour_2027_fukui_0213",
+      "tourId": "aimyon_tour_2027",
+      "venue": "サンドーム福井",
+      "performanceAt": "2027-02-13T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tour2027",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_tour_2027_fukui_0214",
+      "tourId": "aimyon_tour_2027",
+      "venue": "サンドーム福井",
+      "performanceAt": "2027-02-14T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tour2027",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_tour_2027_niigata_0220",
+      "tourId": "aimyon_tour_2027",
+      "venue": "朱鷺メッセ・新潟コンベンションセンター",
+      "performanceAt": "2027-02-20T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tour2027",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_tour_2027_niigata_0221",
+      "tourId": "aimyon_tour_2027",
+      "venue": "朱鷺メッセ・新潟コンベンションセンター",
+      "performanceAt": "2027-02-21T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tour2027",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_tour_2027_kanagawa_karena_mar_0313",
+      "tourId": "aimyon_tour_2027",
+      "venue": "K-Arena Yokohama",
+      "performanceAt": "2027-03-13T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tour2027",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_tour_2027_kanagawa_karena_mar_0314",
+      "tourId": "aimyon_tour_2027",
+      "venue": "K-Arena Yokohama",
+      "performanceAt": "2027-03-14T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tour2027",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_tour_2027_miyagi_0320",
+      "tourId": "aimyon_tour_2027",
+      "venue": "セキスイハイムスーパーアリーナ",
+      "performanceAt": "2027-03-20T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tour2027",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_tour_2027_miyagi_0321",
+      "tourId": "aimyon_tour_2027",
+      "venue": "セキスイハイムスーパーアリーナ",
+      "performanceAt": "2027-03-21T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tour2027",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_tour_2027_tokyo_0331",
+      "tourId": "aimyon_tour_2027",
+      "venue": "国立代々木競技場第一体育館",
+      "performanceAt": "2027-03-31T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tour2027",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_tour_2027_tokyo_0401",
+      "tourId": "aimyon_tour_2027",
+      "venue": "国立代々木競技場第一体育館",
+      "performanceAt": "2027-04-01T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tour2027",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_tour_2027_hyogo_apr_0417",
+      "tourId": "aimyon_tour_2027",
+      "venue": "GLION ARENA KOBE",
+      "performanceAt": "2027-04-17T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tour2027",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_tour_2027_hyogo_apr_0418",
+      "tourId": "aimyon_tour_2027",
+      "venue": "GLION ARENA KOBE",
+      "performanceAt": "2027-04-18T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tour2027",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_tour_2027_aichi_apr_0421",
+      "tourId": "aimyon_tour_2027",
+      "venue": "クロコくんホール(旧日本ガイシホール)",
+      "performanceAt": "2027-04-21T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tour2027",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_tour_2027_aichi_apr_0422",
+      "tourId": "aimyon_tour_2027",
+      "venue": "クロコくんホール(旧日本ガイシホール)",
+      "performanceAt": "2027-04-22T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tour2027",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_tour_2027_shizuoka_0428",
+      "tourId": "aimyon_tour_2027",
+      "venue": "エコパアリーナ",
+      "performanceAt": "2027-04-28T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tour2027",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_tour_2027_shizuoka_0429",
+      "tourId": "aimyon_tour_2027",
+      "venue": "エコパアリーナ",
+      "performanceAt": "2027-04-29T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tour2027",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_tour_2027_kanagawa_karena_may_0502",
+      "tourId": "aimyon_tour_2027",
+      "venue": "K-Arena Yokohama",
+      "performanceAt": "2027-05-02T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tour2027",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_tour_2027_kanagawa_karena_may_0503",
+      "tourId": "aimyon_tour_2027",
+      "venue": "K-Arena Yokohama",
+      "performanceAt": "2027-05-03T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tour2027",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_tour_2027_osaka_0512",
+      "tourId": "aimyon_tour_2027",
+      "venue": "大阪城ホール",
+      "performanceAt": "2027-05-12T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tour2027",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_tour_2027_osaka_0513",
+      "tourId": "aimyon_tour_2027",
+      "venue": "大阪城ホール",
+      "performanceAt": "2027-05-13T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tour2027",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_tour_2027_kagawa_0529",
+      "tourId": "aimyon_tour_2027",
+      "venue": "あなぶきアリーナ香川",
+      "performanceAt": "2027-05-29T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tour2027",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_tour_2027_kagawa_0530",
+      "tourId": "aimyon_tour_2027",
+      "venue": "あなぶきアリーナ香川",
+      "performanceAt": "2027-05-30T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tour2027",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_tour_2027_aichi_jun_0605",
+      "tourId": "aimyon_tour_2027",
+      "venue": "クロコくんホール(旧日本ガイシホール)",
+      "performanceAt": "2027-06-05T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tour2027",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_tour_2027_aichi_jun_0606",
+      "tourId": "aimyon_tour_2027",
+      "venue": "クロコくんホール(旧日本ガイシホール)",
+      "performanceAt": "2027-06-06T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tour2027",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_tour_2027_hokkaido_0612",
+      "tourId": "aimyon_tour_2027",
+      "venue": "真駒内セキスイハイムアイスアリーナ",
+      "performanceAt": "2027-06-12T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tour2027",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_tour_2027_hokkaido_0613",
+      "tourId": "aimyon_tour_2027",
+      "venue": "真駒内セキスイハイムアイスアリーナ",
+      "performanceAt": "2027-06-13T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tour2027",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_tour_2027_hyogo_jun_0622",
+      "tourId": "aimyon_tour_2027",
+      "venue": "GLION ARENA KOBE",
+      "performanceAt": "2027-06-22T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tour2027",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_tour_2027_hyogo_jun_0623",
+      "tourId": "aimyon_tour_2027",
+      "venue": "GLION ARENA KOBE",
+      "performanceAt": "2027-06-23T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tour2027",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_tour_2027_hiroshima_0626",
+      "tourId": "aimyon_tour_2027",
+      "venue": "広島グリーンアリーナ",
+      "performanceAt": "2027-06-26T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tour2027",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_tour_2027_hiroshima_0627",
+      "tourId": "aimyon_tour_2027",
+      "venue": "広島グリーンアリーナ",
+      "performanceAt": "2027-06-27T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tour2027",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_tour_2027_fukuoka_0703",
+      "tourId": "aimyon_tour_2027",
+      "venue": "マリンメッセ福岡A館",
+      "performanceAt": "2027-07-03T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tour2027",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_tour_2027_fukuoka_0704",
+      "tourId": "aimyon_tour_2027",
+      "venue": "マリンメッセ福岡A館",
+      "performanceAt": "2027-07-04T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tour2027",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_tour_2027_okinawa_0710",
+      "tourId": "aimyon_tour_2027",
+      "venue": "沖縄サントリーアリーナ",
+      "performanceAt": "2027-07-10T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tour2027",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "aimyon_tour_2027_okinawa_0711",
+      "tourId": "aimyon_tour_2027",
+      "venue": "沖縄サントリーアリーナ",
+      "performanceAt": "2027-07-11T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tour2027",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "kind": "oneman"
     }
   ],
   "lotteries": [
@@ -173,7 +620,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.aimyong.net/feature/tententen_koshien",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "aimyon_10th_koshien_2026_aim_2nd",
@@ -190,7 +637,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.aimyong.net/feature/tententen_koshien",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "aimyon_10th_koshien_2026_official_hp",
@@ -207,7 +654,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.aimyong.net/feature/tententen_koshien",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "aimyon_10th_koshien_2026_lawson",
@@ -224,7 +671,24 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.aimyong.net/feature/tententen_koshien",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "aimyon_10th_budokan_2026_aim_1st",
+      "tourId": "aimyon_10th_budokan_2026",
+      "type": "AIM会員優先1次予約",
+      "entryStartAt": "2026-07-18T12:00:00+09:00",
+      "entryEndAt": "2026-08-03T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aimyon_10th_budokan_2026_tokyo_1130",
+        "aimyon_10th_budokan_2026_tokyo_1201"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tententen_budokan",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ]
 }

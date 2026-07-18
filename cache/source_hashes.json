@@ -274,7 +274,23 @@
   "aimyon": {
     "https://www.aimyong.net/feature/tententen_koshien": {
       "type": "hash",
-      "hash": "7c2f96491d9c6468e9ee28fb99a60788"
+      "hash": "66187ecf627e5673346cbd59e04e75b2"
+    },
+    "https://www.aimyong.net/": {
+      "type": "hash",
+      "hash": "a9a24de71e7618f8531f8ee67858f85c"
+    },
+    "https://www.aimyong.net/news/1/": {
+      "type": "hash",
+      "hash": "4cb55b00888d89d03d72156ee07229d7"
+    },
+    "https://www.aimyong.net/news/5/?range=future_event_end_time&sort=asc": {
+      "type": "hash",
+      "hash": "c3132a3407fb3dc1b5586bea56334eff"
+    },
+    "https://www.aimyong.net/news/3/?range=future_event_end_time&sort=asc": {
+      "type": "hash",
+      "hash": "972e9feab2b5725045154d9978e72b9f"
     }
   },
   "creepy_nuts": {
@@ -295,6 +311,22 @@
     "https://sakanaction.jp/feature/tour2026_ticket_overseas": {
       "type": "hash",
       "hash": "fef39a7b9b9ef6009ef6e6395e0efa55"
+    },
+    "https://sakanaction.jp/": {
+      "type": "hash",
+      "hash": "ec84f20e9ccc11a0ebdb55bd5d4c54d8"
+    },
+    "https://sakanaction.jp/news/?lang=ja": {
+      "type": "hash",
+      "hash": "fb88d392dfda9e405048041d2144749e"
+    },
+    "https://sakanaction.jp/news/detail/3293?categoryId=1,2": {
+      "type": "hash",
+      "hash": "003a7afd400f1a0115adb9bf13baf8e1"
+    },
+    "https://sakanaction.jp/news/detail/3292?categoryId=1,2": {
+      "type": "hash",
+      "hash": "8c753d3ecf34f884809d4d340ecf55ba"
     }
   },
   "larc_en_ciel": {
@@ -304,11 +336,27 @@
     },
     "https://larc-en-ciel.com/s/n137/news/list?ima=3753": {
       "type": "hash",
-      "hash": "06b3a26ca24b24fb70ce661586b3a30b"
+      "hash": "4adf6b3eb33f17ecbc4f72966fd3f8d7"
     },
     "https://larc-en-ciel.com/s/n137/news/list?ima=5120": {
       "type": "hash",
-      "hash": "06b3a26ca24b24fb70ce661586b3a30b"
+      "hash": "4adf6b3eb33f17ecbc4f72966fd3f8d7"
+    },
+    "https://larc-en-ciel.com/": {
+      "type": "hash",
+      "hash": "cb441b6c95e2909650cea16ee5f5ce63"
+    },
+    "https://larc-en-ciel.com/s/n137/news/list?ima=1304": {
+      "type": "hash",
+      "hash": "4adf6b3eb33f17ecbc4f72966fd3f8d7"
+    },
+    "https://larc-en-ciel.com/s/n137/news/detail/13266?ima=1304": {
+      "type": "hash",
+      "hash": "4672d274805c4fd73cae3de52f4b0704"
+    },
+    "https://larc-en-ciel.com/s/n137/news/detail/13453?ima=1304": {
+      "type": "hash",
+      "hash": "2902d3569ea8d3746e8ead3771767506"
     }
   },
   "king_gnu": {
@@ -323,6 +371,10 @@
     "https://www.sonymusic.co.jp/artist/kinggnu/live/": {
       "type": "hash",
       "hash": "300885b9c631f0dafd8b3df11f002189"
+    },
+    "https://www.sonymusic.co.jp/artist/kinggnu/": {
+      "type": "hash",
+      "hash": "30b934786f08621a062ab8fbb28c4777"
     }
   },
   "hoshino_gen": {
@@ -350,7 +402,7 @@
     },
     "https://vaundy.jp/news/1": {
       "type": "hash",
-      "hash": "45023f7ea2dd4e58343d5cd490c37d53"
+      "hash": "a5f51e3c7e92cae0fd1856809189cbba"
     },
     "https://vaundy.jp/news/2": {
       "type": "hash",
@@ -359,6 +411,10 @@
     "https://vaundy.jp/news/3": {
       "type": "hash",
       "hash": "186749ab5805bf73d263d8fc4588013e"
+    },
+    "https://vaundy.jp/": {
+      "type": "hash",
+      "hash": "031ab8338248c85812eff0abf24bb772"
     }
   },
   "fujii_kaze": {

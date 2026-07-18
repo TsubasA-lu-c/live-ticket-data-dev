@@ -15,7 +15,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11144",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728",
@@ -35,7 +35,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_fes_2026_osaka",
@@ -46,7 +46,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_fes_2026_hokkaido",
@@ -57,7 +57,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_fes_2026_miyagi",
@@ -68,7 +68,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_fes_2026_ibaraki",
@@ -79,7 +79,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_fes_2026_tokyo",
@@ -90,7 +90,44 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "vaundy_fes_numbershot_2026",
+      "artistId": "vaundy",
+      "title": "NUMBER SHOT2026",
+      "startDate": "2026-08-01T19:00:00+09:00",
+      "endDate": "2026-08-01T19:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://vaundy.jp/news/detail/11181",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "vaundy_vaws_zepp_sapporo_2026",
+      "artistId": "vaundy",
+      "title": "Vaundy VAWS one man live 2026 at Zepp Sapporo",
+      "startDate": "2026-08-12T00:00:00+09:00",
+      "endDate": "2026-08-13T00:00:00+09:00",
+      "prices": [
+        {"label": "1階スタンディング", "amount": 9900},
+        {"label": "2階指定席", "amount": 9900},
+        {"label": "2階後方立見", "amount": 9900}
+      ],
+      "source": "system",
+      "sourceUrl": "https://vaundy.jp/news/detail/11070",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "vaundy_fes_sweet_love_shower_2026",
+      "artistId": "vaundy",
+      "title": "SWEET LOVE SHOWER 2026",
+      "startDate": "2026-08-30T19:10:00+09:00",
+      "endDate": "2026-08-30T19:10:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://vaundy.jp/news/detail/11186",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -104,7 +141,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11144",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_horo_2026_chiba_0906",
@@ -116,7 +153,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11144",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_horo_2026_fukuoka_1024",
@@ -128,7 +165,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11144",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_horo_2026_fukuoka_1025",
@@ -140,451 +177,451 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11144",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_horo_2026_seoul_0919",
       "tourId": "vaundy_horo_2026",
       "venue": "INSPIRE ARENA",
-      "performanceAt": "2026-09-19T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-09-19T17:00:00+09:00",
+      "doorOpenAt": "2026-09-19T15:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11144",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_horo_2026_seoul_0920",
       "tourId": "vaundy_horo_2026",
       "venue": "INSPIRE ARENA",
-      "performanceAt": "2026-09-20T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-09-20T16:00:00+09:00",
+      "doorOpenAt": "2026-09-20T14:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11144",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_horo_2026_hongkong_1003",
       "tourId": "vaundy_horo_2026",
       "venue": "AsiaWorld-Arena",
-      "performanceAt": "2026-10-03T12:00:00+09:00",
+      "performanceAt": "2026-10-03T18:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11144",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_horo_2026_taipei_1031",
       "tourId": "vaundy_horo_2026",
       "venue": "Taipei Arena",
-      "performanceAt": "2026-10-31T12:00:00+09:00",
+      "performanceAt": "2026-10-31T18:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11144",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_horo_2026_taipei_1101",
       "tourId": "vaundy_horo_2026",
       "venue": "Taipei Arena",
-      "performanceAt": "2026-11-01T12:00:00+09:00",
+      "performanceAt": "2026-11-01T18:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11144",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_horo_2026_shanghai_1114",
       "tourId": "vaundy_horo_2026",
       "venue": null,
-      "performanceAt": "2026-11-14T12:00:00+09:00",
+      "performanceAt": "2026-11-14T18:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11144",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_horo_2026_shanghai_1115",
       "tourId": "vaundy_horo_2026",
       "venue": null,
-      "performanceAt": "2026-11-15T12:00:00+09:00",
+      "performanceAt": "2026-11-15T18:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11144",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_hyogo_0814",
       "tourId": "vaundy_japan_arena_2728",
       "venue": "GLION ARENA KOBE",
-      "performanceAt": "2027-08-14T00:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2027-08-14T18:00:00+09:00",
+      "doorOpenAt": "2027-08-14T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_hyogo_0815",
       "tourId": "vaundy_japan_arena_2728",
       "venue": "GLION ARENA KOBE",
-      "performanceAt": "2027-08-15T00:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2027-08-15T16:00:00+09:00",
+      "doorOpenAt": "2027-08-15T15:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_aichi_0828",
       "tourId": "vaundy_japan_arena_2728",
       "venue": "日本ガイシホール",
-      "performanceAt": "2027-08-28T00:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2027-08-28T18:00:00+09:00",
+      "doorOpenAt": "2027-08-28T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_aichi_0829",
       "tourId": "vaundy_japan_arena_2728",
       "venue": "日本ガイシホール",
-      "performanceAt": "2027-08-29T00:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2027-08-29T16:00:00+09:00",
+      "doorOpenAt": "2027-08-29T15:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_fukuoka_0919",
       "tourId": "vaundy_japan_arena_2728",
       "venue": "マリンメッセ福岡A館",
-      "performanceAt": "2027-09-19T00:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2027-09-19T18:00:00+09:00",
+      "doorOpenAt": "2027-09-19T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_fukuoka_0920",
       "tourId": "vaundy_japan_arena_2728",
       "venue": "マリンメッセ福岡A館",
-      "performanceAt": "2027-09-20T00:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2027-09-20T16:00:00+09:00",
+      "doorOpenAt": "2027-09-20T15:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_hokkaido_0925",
       "tourId": "vaundy_japan_arena_2728",
       "venue": "真駒内セキスイハイムアイスアリーナ",
-      "performanceAt": "2027-09-25T00:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2027-09-25T18:00:00+09:00",
+      "doorOpenAt": "2027-09-25T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_hokkaido_0926",
       "tourId": "vaundy_japan_arena_2728",
       "venue": "真駒内セキスイハイムアイスアリーナ",
-      "performanceAt": "2027-09-26T00:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2027-09-26T16:00:00+09:00",
+      "doorOpenAt": "2027-09-26T15:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_osaka_1002",
       "tourId": "vaundy_japan_arena_2728",
       "venue": "大阪城ホール",
-      "performanceAt": "2027-10-02T00:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2027-10-02T18:00:00+09:00",
+      "doorOpenAt": "2027-10-02T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_osaka_1003",
       "tourId": "vaundy_japan_arena_2728",
       "venue": "大阪城ホール",
-      "performanceAt": "2027-10-03T00:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2027-10-03T16:00:00+09:00",
+      "doorOpenAt": "2027-10-03T15:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_hiroshima_1016",
       "tourId": "vaundy_japan_arena_2728",
       "venue": "広島グリーンアリーナ",
-      "performanceAt": "2027-10-16T00:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2027-10-16T18:00:00+09:00",
+      "doorOpenAt": "2027-10-16T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_hiroshima_1017",
       "tourId": "vaundy_japan_arena_2728",
       "venue": "広島グリーンアリーナ",
-      "performanceAt": "2027-10-17T00:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2027-10-17T16:00:00+09:00",
+      "doorOpenAt": "2027-10-17T15:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_niigata_1023",
       "tourId": "vaundy_japan_arena_2728",
-      "venue": "朱鷺メッセ",
-      "performanceAt": "2027-10-23T00:00:00+09:00",
-      "doorOpenAt": null,
+      "venue": "朱鷺メッセ・新潟コンベンションセンター",
+      "performanceAt": "2027-10-23T18:00:00+09:00",
+      "doorOpenAt": "2027-10-23T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_niigata_1024",
       "tourId": "vaundy_japan_arena_2728",
-      "venue": "朱鷺メッセ",
-      "performanceAt": "2027-10-24T00:00:00+09:00",
-      "doorOpenAt": null,
+      "venue": "朱鷺メッセ・新潟コンベンションセンター",
+      "performanceAt": "2027-10-24T16:00:00+09:00",
+      "doorOpenAt": "2027-10-24T15:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_iwate_1120",
       "tourId": "vaundy_japan_arena_2728",
       "venue": "盛岡タカヤアリーナ",
-      "performanceAt": "2027-11-20T00:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2027-11-20T18:00:00+09:00",
+      "doorOpenAt": "2027-11-20T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_iwate_1121",
       "tourId": "vaundy_japan_arena_2728",
       "venue": "盛岡タカヤアリーナ",
-      "performanceAt": "2027-11-21T00:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2027-11-21T16:00:00+09:00",
+      "doorOpenAt": "2027-11-21T15:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_kanagawa_1127",
       "tourId": "vaundy_japan_arena_2728",
-      "venue": null,
-      "performanceAt": "2027-11-27T00:00:00+09:00",
+      "venue": "横浜某所",
+      "performanceAt": "2027-11-27T18:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_kanagawa_1128",
       "tourId": "vaundy_japan_arena_2728",
-      "venue": null,
-      "performanceAt": "2027-11-28T00:00:00+09:00",
+      "venue": "横浜某所",
+      "performanceAt": "2027-11-28T18:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_fukui_1211",
       "tourId": "vaundy_japan_arena_2728",
       "venue": "サンドーム福井",
-      "performanceAt": "2027-12-11T00:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2027-12-11T18:00:00+09:00",
+      "doorOpenAt": "2027-12-11T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_fukui_1212",
       "tourId": "vaundy_japan_arena_2728",
       "venue": "サンドーム福井",
-      "performanceAt": "2027-12-12T00:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2027-12-12T16:00:00+09:00",
+      "doorOpenAt": "2027-12-12T15:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_osaka_0109",
       "tourId": "vaundy_japan_arena_2728",
       "venue": "大阪城ホール",
-      "performanceAt": "2028-01-09T00:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2028-01-09T18:00:00+09:00",
+      "doorOpenAt": "2028-01-09T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_osaka_0110",
       "tourId": "vaundy_japan_arena_2728",
       "venue": "大阪城ホール",
-      "performanceAt": "2028-01-10T00:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2028-01-10T16:00:00+09:00",
+      "doorOpenAt": "2028-01-10T15:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_aichi_0115",
       "tourId": "vaundy_japan_arena_2728",
       "venue": "IGアリーナ",
-      "performanceAt": "2028-01-15T00:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2028-01-15T18:00:00+09:00",
+      "doorOpenAt": "2028-01-15T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_aichi_0116",
       "tourId": "vaundy_japan_arena_2728",
       "venue": "IGアリーナ",
-      "performanceAt": "2028-01-16T00:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2028-01-16T16:00:00+09:00",
+      "doorOpenAt": "2028-01-16T15:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_kumamoto_0122",
       "tourId": "vaundy_japan_arena_2728",
       "venue": "グランメッセ熊本",
-      "performanceAt": "2028-01-22T00:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2028-01-22T18:00:00+09:00",
+      "doorOpenAt": "2028-01-22T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_kumamoto_0123",
       "tourId": "vaundy_japan_arena_2728",
       "venue": "グランメッセ熊本",
-      "performanceAt": "2028-01-23T00:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2028-01-23T16:00:00+09:00",
+      "doorOpenAt": "2028-01-23T15:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_kagawa_0205",
       "tourId": "vaundy_japan_arena_2728",
       "venue": "あなぶきアリーナ香川",
-      "performanceAt": "2028-02-05T00:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2028-02-05T18:00:00+09:00",
+      "doorOpenAt": "2028-02-05T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_kagawa_0206",
       "tourId": "vaundy_japan_arena_2728",
       "venue": "あなぶきアリーナ香川",
-      "performanceAt": "2028-02-06T00:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2028-02-06T16:00:00+09:00",
+      "doorOpenAt": "2028-02-06T15:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_miyagi_0226",
       "tourId": "vaundy_japan_arena_2728",
       "venue": "ゼビオアリーナ仙台",
-      "performanceAt": "2028-02-26T00:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2028-02-26T18:00:00+09:00",
+      "doorOpenAt": "2028-02-26T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_miyagi_0227",
       "tourId": "vaundy_japan_arena_2728",
       "venue": "ゼビオアリーナ仙台",
-      "performanceAt": "2028-02-27T00:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2028-02-27T16:00:00+09:00",
+      "doorOpenAt": "2028-02-27T15:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_fes_2026_osaka_0802",
@@ -596,7 +633,7 @@
       "eventName": "OSAKA GIGANTIC MUSIC FESTIVAL 2026",
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_fes_2026_hokkaido_0815",
@@ -608,7 +645,7 @@
       "eventName": "RISING SUN ROCK FESTIVAL 2026 in EZO",
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_fes_2026_miyagi_0829",
@@ -620,7 +657,7 @@
       "eventName": "音楽と髭達2026 -TIME MACHINE-",
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_fes_2026_ibaraki_0912",
@@ -632,7 +669,7 @@
       "eventName": "ROCK IN JAPAN FESTIVAL 2026",
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_fes_2026_tokyo_0923",
@@ -644,7 +681,55 @@
       "eventName": "熱闘甲子園 presents 熱闘 JAM 2026",
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "vaundy_fes_numbershot_2026_0801",
+      "tourId": "vaundy_fes_numbershot_2026",
+      "venue": "福岡PayPayドーム・シーサイドももち海浜公園地行浜ビーチ",
+      "performanceAt": "2026-08-01T19:00:00+09:00",
+      "doorOpenAt": "2026-08-01T08:30:00+09:00",
+      "kind": "fes",
+      "eventName": "NUMBER SHOT2026",
+      "source": "system",
+      "sourceUrl": "https://vaundy.jp/news/detail/11181",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "vaundy_vaws_zepp_sapporo_2026_0812",
+      "tourId": "vaundy_vaws_zepp_sapporo_2026",
+      "venue": "Zepp Sapporo",
+      "performanceAt": "2026-08-12T19:00:00+09:00",
+      "doorOpenAt": "2026-08-12T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "Vaundy VAWS one man live 2026 at Zepp Sapporo",
+      "source": "system",
+      "sourceUrl": "https://vaundy.jp/news/detail/11070",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "vaundy_vaws_zepp_sapporo_2026_0813",
+      "tourId": "vaundy_vaws_zepp_sapporo_2026",
+      "venue": "Zepp Sapporo",
+      "performanceAt": "2026-08-13T19:00:00+09:00",
+      "doorOpenAt": "2026-08-13T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "Vaundy VAWS one man live 2026 at Zepp Sapporo",
+      "source": "system",
+      "sourceUrl": "https://vaundy.jp/news/detail/11071",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "vaundy_fes_sweet_love_shower_2026_0830",
+      "tourId": "vaundy_fes_sweet_love_shower_2026",
+      "venue": "山中湖交流プラザ きらら",
+      "performanceAt": "2026-08-30T19:10:00+09:00",
+      "doorOpenAt": "2026-08-30T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "SWEET LOVE SHOWER 2026",
+      "source": "system",
+      "sourceUrl": "https://vaundy.jp/news/detail/11186",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -665,7 +750,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://t.pia.jp/en/pia/event/event.do?eventBundleCd=b2666477",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_pia2",
@@ -698,7 +783,82 @@
       ],
       "source": "system",
       "sourceUrl": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2666592",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "vaundy_vaws_zepp_sapporo_2026_vaws_special",
+      "tourId": "vaundy_vaws_zepp_sapporo_2026",
+      "type": "VAWS先行（札幌文化芸術劇場hitaruチケット所有者）",
+      "entryStartAt": "2026-01-01T00:00:00+09:00",
+      "entryEndAt": "2026-01-06T23:59:00+09:00",
+      "resultAt": "2026-01-16T18:00:00+09:00",
+      "paymentStartAt": "2026-01-16T18:00:00+09:00",
+      "paymentEndAt": "2026-01-19T23:59:00+09:00",
+      "performanceIds": [
+        "vaundy_vaws_zepp_sapporo_2026_0812",
+        "vaundy_vaws_zepp_sapporo_2026_0813"
+      ],
+      "source": "system",
+      "sourceUrl": "https://vaundy.jp/news/detail/11070",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "vaundy_vaws_zepp_sapporo_2026_vaws_2nd",
+      "tourId": "vaundy_vaws_zepp_sapporo_2026",
+      "type": "VAWS先行2次",
+      "entryStartAt": "2026-01-19T12:00:00+09:00",
+      "entryEndAt": "2026-01-25T23:59:00+09:00",
+      "resultAt": "2026-01-30T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "vaundy_vaws_zepp_sapporo_2026_0812",
+        "vaundy_vaws_zepp_sapporo_2026_0813"
+      ],
+      "source": "system",
+      "sourceUrl": "https://vaundy.jp/news/detail/11070",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "vaundy_japan_arena_2728_pia_lottery_0716",
+      "tourId": "vaundy_japan_arena_2728",
+      "type": "ぴあ抽選先行",
+      "entryStartAt": "2026-07-16T12:00:00+09:00",
+      "entryEndAt": "2026-08-02T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "vaundy_japan_arena_2728_hyogo_0814",
+        "vaundy_japan_arena_2728_hyogo_0815",
+        "vaundy_japan_arena_2728_aichi_0828",
+        "vaundy_japan_arena_2728_aichi_0829",
+        "vaundy_japan_arena_2728_fukuoka_0919",
+        "vaundy_japan_arena_2728_fukuoka_0920",
+        "vaundy_japan_arena_2728_hokkaido_0925",
+        "vaundy_japan_arena_2728_hokkaido_0926",
+        "vaundy_japan_arena_2728_osaka_1002",
+        "vaundy_japan_arena_2728_osaka_1003",
+        "vaundy_japan_arena_2728_hiroshima_1016",
+        "vaundy_japan_arena_2728_hiroshima_1017",
+        "vaundy_japan_arena_2728_iwate_1120",
+        "vaundy_japan_arena_2728_iwate_1121",
+        "vaundy_japan_arena_2728_fukui_1211",
+        "vaundy_japan_arena_2728_fukui_1212",
+        "vaundy_japan_arena_2728_osaka_0109",
+        "vaundy_japan_arena_2728_osaka_0110",
+        "vaundy_japan_arena_2728_aichi_0115",
+        "vaundy_japan_arena_2728_aichi_0116",
+        "vaundy_japan_arena_2728_kumamoto_0122",
+        "vaundy_japan_arena_2728_kumamoto_0123",
+        "vaundy_japan_arena_2728_kagawa_0205",
+        "vaundy_japan_arena_2728_kagawa_0206",
+        "vaundy_japan_arena_2728_miyagi_0226",
+        "vaundy_japan_arena_2728_miyagi_0227"
+      ],
+      "source": "system",
+      "sourceUrl": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2666592",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ]
 }
