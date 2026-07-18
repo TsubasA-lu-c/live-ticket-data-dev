@@ -130,11 +130,11 @@
     },
     "https://www.universal-music.co.jp/news/": {
       "type": "hash",
-      "hash": "9d34c0ba65d5a2fce63e9991f0a9267a"
+      "hash": "a3569c1f8c0210d0247e0ec51c670cd5"
     },
     "https://www.universal-music.co.jp/ado/news/": {
       "type": "hash",
-      "hash": "e8bb0b9c8266710103b6f0b40e9d5370"
+      "hash": "bb9d4e9dc4a961abb7b67c22471110ae"
     },
     "https://www.universal-music.co.jp/ado/news/2025-11-22/": {
       "type": "hash",
@@ -143,6 +143,14 @@
     "https://www.universal-music.co.jp/ado/news/2025-11-23/feed/": {
       "type": "hash",
       "hash": "367d153595ba07e08cbc106b6f224ff6"
+    },
+    "https://www.universal-music.co.jp/ado/news/cat/topics": {
+      "type": "hash",
+      "hash": "7f33bca1ec2086b48895b2bef1c4868a"
+    },
+    "https://www.universal-music.co.jp/ado/news/cat/media": {
+      "type": "hash",
+      "hash": "a45b306f97a4ce944ab8704e4ffd6b04"
     }
   },
   "yoasobi": {
@@ -830,31 +838,31 @@
   "ae_group": {
     "https://starto.jp/": {
       "type": "hash",
-      "hash": "518707e8660aa0e46ea26eceaafd6125"
+      "hash": "334e4f657c543d9ca601bcc20045f88a"
     },
     "https://starto.jp/s/p/news/list?ima=3653": {
       "type": "hash",
-      "hash": "bb287ea004e18391bf489249abff3d46"
+      "hash": "1c5e44564375330c7779e90db09e99b9"
     },
     "https://starto.jp/s/p/artist/12?ima=3653": {
       "type": "hash",
-      "hash": "9c829d2d8f9ab1d1c8c291e1c3c7ea15"
+      "hash": "78bfa1d61e46c8d569cd77ed828ddf43"
     },
     "https://starto.jp/s/p/live/10507?ima=3653": {
       "type": "hash",
-      "hash": "368227b29196ed22ebcb9e0f740c52a4"
+      "hash": "7f764c19b6f7261ff9393eb7fa2e20d3"
     },
     "https://starto.jp/s/p/news/list?ima=5153": {
       "type": "hash",
-      "hash": "bb287ea004e18391bf489249abff3d46"
+      "hash": "1c5e44564375330c7779e90db09e99b9"
     },
     "https://starto.jp/s/p/artist/12?ima=5153": {
       "type": "hash",
-      "hash": "9c829d2d8f9ab1d1c8c291e1c3c7ea15"
+      "hash": "78bfa1d61e46c8d569cd77ed828ddf43"
     },
     "https://starto.jp/s/p/live/10507?ima=5153": {
       "type": "hash",
-      "hash": "368227b29196ed22ebcb9e0f740c52a4"
+      "hash": "7f764c19b6f7261ff9393eb7fa2e20d3"
     }
   },
   "novelbright": {
@@ -878,11 +886,11 @@
   "04_limited_sazabys": {
     "https://www.04limitedsazabys.com/": {
       "type": "hash",
-      "hash": "9426120c4e46ae96b712b78ab5f92660"
+      "hash": "7176b7fc818be07532480196fabeb91e"
     },
     "https://www.04limitedsazabys.com/news/list/16/17/": {
       "type": "hash",
-      "hash": "18021db73ece7717438de867a0823c81"
+      "hash": "8b94d285ab3f826eca3ef8816622ce99"
     },
     "https://www.04limitedsazabys.com/news/5/?range=future_event_end_time&sort=asc": {
       "type": "hash",
@@ -1299,6 +1307,14 @@
     "https://www.straykidsjapan.com/runitjapan/": {
       "type": "hash",
       "hash": "c42676dc29017c1cdffc00600d012ac3"
+    },
+    "https://www.straykidsjapan.com/": {
+      "type": "hash",
+      "hash": "da45f360093af1a962bbe3ade1a254ee"
+    },
+    "https://www.straykidsjapan.com/live/": {
+      "type": "hash",
+      "hash": "b69864954681a01acdc8e0f9c75c8ec2"
     }
   },
   "enhypen": {
