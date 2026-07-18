@@ -1,13 +1,13 @@
 # /refresh-smart 進捗（2026-07-18）
 
-最終更新: 2026-07-18T19:14:00+09:00
+最終更新: 2026-07-18T19:20:04+09:00
 
 ## 現在地
 
 - 全102組をhash比較し、82組を変更ありと判定。
-- 20組は収集・validate・hash accept・manifest更新・commit・pushまで完了。
-- 第5論理バッチ5組は収集・validate・hash accept・manifest v75まで完了。commit・push待ち。
-- この第5バッチのpush後に停止する。次回は`naniwa_danshi`から再開。
+- 25組は収集・validate・hash accept・manifest更新・commit・pushまで完了。
+- 第5論理バッチまで配信反映済み。manifestはv75、未処理は57組。
+- ユーザー指示により、この論理5組の境界で停止。次回は`naniwa_danshi`から再開。
 - 未追跡のユーザーファイル `x_thread_artists.md` は変更・削除・commit禁止。
 
 ## 重要なチェックポイント運用
@@ -73,9 +73,11 @@ IDs: `aimyon`, `sakanaction`, `larc_en_ciel`, `king_gnu`, `vaundy`
 - HANA: `WANIMA presents 1CHANCE FESTIVAL 2026`とBorn to Bloomの終了済み抽選8件を追加。
 - Snow Man: 将来の有観客ライブなし。空配列を維持して確認日更新。
 
-第4バッチはmanifest込みでpush済み。再開時は第5バッチから開始する。
+第4バッチはmanifest込みでpush済み。
 
-## 第5バッチ（checkpoint処理中）
+## 第5バッチ（配信反映済み・停止地点）
+
+- `a219f36 refresh: SixTONESなど5組を更新`（manifest v75）
 
 IDs: `sixtones`, `one_ok_rock`, `radwimps`, `ryokuoushoku_shakai`, `yuuri`
 
@@ -84,7 +86,8 @@ IDs: `sixtones`, `one_ok_rock`, `radwimps`, `ryokuoushoku_shakai`, `yuuri`
 - RADWIMPS: 既存1ツアー・9公演・2抽選を公式照合。
 - 緑黄色社会: 既存10公演を照合し、席種2件を追加。販売元未確認の先行2件は未追加。
 - 優里: ロサンゼルス1公演、台北2公演を追加。
-- validate成功、hash accept済み、manifest v75更新済み。commit・push後に停止する。
+- validate成功、hash accept・manifest v75更新・commit・pushまで完了。
+- ここで停止。次回は下記未処理順の先頭 `naniwa_danshi` から開始する。
 
 ## 第5バッチ後の未処理順（57組）
 
