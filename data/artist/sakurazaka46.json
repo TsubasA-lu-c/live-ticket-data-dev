@@ -14,7 +14,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://sakurazaka46.com/s/s46/page/nationaltour2026",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "sakurazaka46_6th_anniversary_2026",
@@ -238,6 +238,25 @@
     }
   ],
   "lotteries": [
+    {
+      "id": "sakurazaka46_arena_tour_2026_general_hiroshima_chiba",
+      "tourId": "sakurazaka46_arena_tour_2026",
+      "type": "一般発売（広島・千葉公演）",
+      "entryStartAt": "2026-07-18T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sakurazaka46_arena_tour_2026_hiroshima_0808",
+        "sakurazaka46_arena_tour_2026_hiroshima_0809",
+        "sakurazaka46_arena_tour_2026_chiba_0815",
+        "sakurazaka46_arena_tour_2026_chiba_0816"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00657?ima=0000",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
     {
       "id": "sakurazaka46_backslive_15th_2026_lemino_1st",
       "tourId": "sakurazaka46_backslive_15th_2026",

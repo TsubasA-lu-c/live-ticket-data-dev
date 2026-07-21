@@ -10,7 +10,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://befirst.tokyo/global2026/showcase",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "be_first_fes_summer_sonic",
@@ -43,7 +43,8 @@
       "prices": [
         {"label": "SS席", "amount": 31500},
         {"label": "一般指定席", "amount": 16500},
-        {"label": "着席指定席", "amount": 16500}
+        {"label": "着席指定席", "amount": 16500},
+        {"label": "注釈付き指定席", "amount": 15500}
       ],
       "source": "system",
       "sourceUrl": "https://befirst.tokyo/tour/dometour2027/",

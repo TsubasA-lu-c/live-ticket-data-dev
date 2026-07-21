@@ -1,13 +1,13 @@
 # /refresh-smart 進捗（2026-07-18）
 
-最終更新: 2026-07-18T20:01:24+09:00
+最終更新: 2026-07-22T08:38:07+09:00
 
 ## 現在地
 
 - 全102組をhash比較し、82組を変更ありと判定。
-- 35組は収集・validate・hash accept・manifest更新・commit・pushまで完了。
-- 第7論理バッチまで配信反映済み。manifestはv77、未処理は47組。
-- 次回は`macaroni_empitsu`から再開。
+- 40組は収集・validate・hash accept・manifest更新・commit・pushまで完了。
+- 第8論理バッチまで配信反映済み。manifestはv78、未処理は42組。
+- 次回は`glay`から再開。
 - 未追跡のユーザーファイル `x_thread_artists.md` は変更・削除・commit禁止。
 
 ## 重要なチェックポイント運用
@@ -111,14 +111,21 @@ IDs: `sky_hi`, `tennimu`, `touken_ranbu_musical`, `zutomayo`, `momoiro_clover_z`
 - validate成功、hash accept・manifest v77更新・commit・pushまで完了。
 - ここで停止。次回は下記未処理順の先頭 `macaroni_empitsu` から開始する。
 
-## 第7バッチ後の未処理順（47組）
+## 第8バッチ（配信反映済み・停止地点）
+
+IDs: `macaroni_empitsu`, `sakurazaka46`, `babymetal`, `mrs_green_apple`, `be_first`
+
+- マカロニえんぴつ: マカロックツアーvol.22の12/26名古屋公演に重複していた誤レコードを除去し、紐づく3受付の対象公演IDを修正。
+- 櫻坂46: ARENA TOUR広島・千葉4公演の一般発売（7/18 12:00開始、先着）を追加。BACKS LIVE FC2次先行とNEWSを公式照合。
+- BABYMETAL: 公式TOP・NEWS・TOURを確認。CANNONBALL外伝ほか既存予定を維持。
+- Mrs. GREEN APPLE: SHADOWS全28公演とFC+CD予約購入者限定2次先行を公式記事で再照合。
+- BE:FIRST: ドームツアー料金に注釈付き指定席15,500円を追加。WORLD SHOWCASEは公開済みの4都市以外のチケット詳細未発表を確認。
+- validate成功、hash accept・manifest v78更新・commit・pushまで完了。
+- ここで停止。次回は下記未処理順の先頭 `glay` から開始する。
+
+## 第8バッチ後の未処理順（42組）
 
 ```text
-macaroni_empitsu
-sakurazaka46
-babymetal
-mrs_green_apple
-be_first
 glay
 yuzu
 koda_kumi
