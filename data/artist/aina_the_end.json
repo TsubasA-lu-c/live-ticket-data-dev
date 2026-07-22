@@ -65,6 +65,39 @@
       "source": "system",
       "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1132558",
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_one_piece_day_2026",
+      "artistId": "aina_the_end",
+      "title": "ONE PIECE DAY'26",
+      "startDate": "2026-08-23T00:00:00+09:00",
+      "endDate": "2026-08-23T00:00:00+09:00",
+      "prices": [{"label": "入場チケット（来場者特典付き）", "amount": 1980}],
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/media/detail.php?id=1117724",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_sweet_love_shower_2026",
+      "artistId": "aina_the_end",
+      "title": "SPACE SHOWER SWEET LOVE SHOWER 2026",
+      "startDate": "2026-08-30T00:00:00+09:00",
+      "endDate": "2026-08-30T00:00:00+09:00",
+      "prices": [{"label": "1日券", "amount": 15000}],
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1132738",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_rock_in_japan_2026",
+      "artistId": "aina_the_end",
+      "title": "ROCK IN JAPAN FESTIVAL 2026",
+      "startDate": "2026-09-12T00:00:00+09:00",
+      "endDate": "2026-09-12T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1133511",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -126,6 +159,42 @@
       "eventName": "SUMMER SONIC 2026 OSAKA",
       "source": "system",
       "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1132558",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_one_piece_day_2026_makuhari_0823",
+      "tourId": "aina_the_end_one_piece_day_2026",
+      "venue": "幕張メッセ 国際展示場 展示ホール4〜6",
+      "performanceAt": "2026-08-23T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "ONE PIECE DAY'26",
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/media/detail.php?id=1117724",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_sweet_love_shower_2026_yamanakako_0830",
+      "tourId": "aina_the_end_sweet_love_shower_2026",
+      "venue": "山中湖交流プラザ きらら",
+      "performanceAt": "2026-08-30T10:00:00+09:00",
+      "doorOpenAt": "2026-08-30T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "SPACE SHOWER SWEET LOVE SHOWER 2026",
+      "source": "system",
+      "sourceUrl": "https://2026.sweetloveshower.com/contents/guide/sweetloveshower2026",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_rock_in_japan_2026_soga_0912",
+      "tourId": "aina_the_end_rock_in_japan_2026",
+      "venue": "千葉市蘇我スポーツ公園",
+      "performanceAt": "2026-09-12T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "ROCK IN JAPAN FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1133511",
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
   ],
@@ -192,6 +261,34 @@
       ],
       "source": "system",
       "sourceUrl": "https://1chancefes.com/",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_one_piece_day_2026_priority_2nd",
+      "tourId": "aina_the_end_one_piece_day_2026",
+      "type": "先行販売2次",
+      "entryStartAt": null,
+      "entryEndAt": "2026-07-20T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["aina_the_end_one_piece_day_2026_makuhari_0823"],
+      "source": "system",
+      "sourceUrl": "https://onepiece-day.onepiece-base.com/ticket",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_sweet_love_shower_2026_jcom",
+      "tourId": "aina_the_end_sweet_love_shower_2026",
+      "type": "J:COM加入者限定抽選",
+      "entryStartAt": "2026-06-08T18:00:00+09:00",
+      "entryEndAt": "2026-06-21T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["aina_the_end_sweet_love_shower_2026_yamanakako_0830"],
+      "source": "system",
+      "sourceUrl": "https://2026.sweetloveshower.com/contents/ticket/admission",
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
   ]
