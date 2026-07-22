@@ -8,11 +8,11 @@
       "startDate": "2026-07-30T00:00:00+09:00",
       "endDate": "2026-07-30T00:00:00+09:00",
       "prices": [
-        {"label": "全席指定", "amount": 7800}
+        {"label": "全席指定", "amount": 6800}
       ],
       "source": "system",
-      "sourceUrl": "https://eplus.jp/sf/detail/1343970001-P0030010P021001",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "sourceUrl": "https://zorn.tokyo/zorn%e3%80%81%e5%ae%a2%e6%bc%94%e3%81%ab%e5%be%8c%e8%97%a4%e7%9c%9f%e5%b8%8c%e3%82%92%e6%8b%9b%e3%81%84%e3%81%9f%e6%96%b0%e6%9b%b2%e3%80%8c%e5%9c%b0%e5%85%83love-feat-%e5%be%8c%e8%97%a4%e7%9c%9f/",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -25,8 +25,8 @@
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://eplus.jp/sf/detail/1343970001-P0030010P021001",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "sourceUrl": "https://zorn.tokyo/zorn%e3%80%81%e5%ae%a2%e6%bc%94%e3%81%ab%e5%be%8c%e8%97%a4%e7%9c%9f%e5%b8%8c%e3%82%92%e6%8b%9b%e3%81%84%e3%81%9f%e6%96%b0%e6%9b%b2%e3%80%8c%e5%9c%b0%e5%85%83love-feat-%e5%be%8c%e8%97%a4%e7%9c%9f/",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -42,7 +42,7 @@
       "performanceIds": ["zorn_jimotelove_oneman_2026_katsushikashills_0730"],
       "source": "system",
       "sourceUrl": "https://fc.zorn.tokyo/news/?id=470",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "zorn_jimotelove_oneman_2026_fc_2nd",
@@ -56,7 +56,7 @@
       "performanceIds": ["zorn_jimotelove_oneman_2026_katsushikashills_0730"],
       "source": "system",
       "sourceUrl": "https://fc.zorn.tokyo/news/?id=475",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "zorn_jimotelove_oneman_2026_ippan_sakigake",
@@ -70,7 +70,7 @@
       "performanceIds": ["zorn_jimotelove_oneman_2026_katsushikashills_0730"],
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/1343970001-P0030010P021001",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
   ]
 }

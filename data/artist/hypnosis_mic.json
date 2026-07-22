@@ -24,6 +24,17 @@
       "source": "system",
       "sourceUrl": "https://hypnosismic.com/news/hm260612-2/",
       "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "hypnosis_mic_12th_live_2026",
+      "artistId": "hypnosis_mic",
+      "title": "ヒプノシスマイク -Division Rap Battle- 12th LIVE ≪MIC AS ONE≫",
+      "startDate": "2026-10-03T00:00:00+09:00",
+      "endDate": "2026-10-04T00:00:00+09:00",
+      "prices": [{"label": "全席指定", "amount": 13500}],
+      "source": "system",
+      "sourceUrl": "https://hypnosismic.com/news/hmlive260710/",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -158,6 +169,30 @@
       "source": "system",
       "sourceUrl": "https://hypnosismic.com/news/hm260612-2/",
       "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "hypnosis_mic_12th_live_2026_piaarena_1003",
+      "tourId": "hypnosis_mic_12th_live_2026",
+      "venue": "ぴあアリーナMM",
+      "performanceAt": "2026-10-03T18:00:00+09:00",
+      "doorOpenAt": "2026-10-03T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hypnosismic.com/news/hmlive260710/",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "hypnosis_mic_12th_live_2026_piaarena_1004",
+      "tourId": "hypnosis_mic_12th_live_2026",
+      "venue": "ぴあアリーナMM",
+      "performanceAt": "2026-10-04T18:00:00+09:00",
+      "doorOpenAt": "2026-10-04T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hypnosismic.com/news/hmlive260710/",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -225,6 +260,49 @@
       "source": "system",
       "sourceUrl": "https://hypnosismic.com/news/hm260612-2/",
       "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "hypnosis_mic_12th_live_2026_hypster_1st",
+      "tourId": "hypnosis_mic_12th_live_2026",
+      "type": "HYPSTER 1次先行",
+      "entryStartAt": "2026-07-10T21:00:00+09:00",
+      "entryEndAt": "2026-07-20T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": "2026-07-30T15:00:00+09:00",
+      "paymentEndAt": "2026-08-02T23:00:00+09:00",
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://hypnosismic.com/news/hmlive260710/",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "hypnosis_mic_12th_live_2026_hypster_2nd",
+      "tourId": "hypnosis_mic_12th_live_2026",
+      "type": "HYPSTER 2次先行",
+      "entryStartAt": "2026-07-31T21:00:00+09:00",
+      "entryEndAt": "2026-08-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": "2026-08-20T15:00:00+09:00",
+      "paymentEndAt": "2026-08-23T23:00:00+09:00",
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://hypnosismic.com/news/hmlive260710/",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "hypnosis_mic_12th_live_2026_general_lottery",
+      "tourId": "hypnosis_mic_12th_live_2026",
+      "type": "一般抽選受付",
+      "entryStartAt": "2026-08-21T21:00:00+09:00",
+      "entryEndAt": "2026-08-30T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": "2026-09-04T15:00:00+09:00",
+      "paymentEndAt": "2026-09-07T23:00:00+09:00",
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://hypnosismic.com/news/hmlive260710/",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
-  ]
+  ],
+  "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
 }

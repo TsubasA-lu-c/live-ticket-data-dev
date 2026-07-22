@@ -14,7 +14,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/40856/",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -28,7 +28,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/40856/",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "sandaime_j_soul_brothers_jsb_land_forever_2026_tokyo_0627",
@@ -40,7 +40,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/40856/",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "sandaime_j_soul_brothers_jsb_land_forever_2026_tokyo_0628",
@@ -52,7 +52,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/40856/",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "sandaime_j_soul_brothers_jsb_land_forever_2026_osaka_0701",
@@ -64,7 +64,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/40856/",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "sandaime_j_soul_brothers_jsb_land_forever_2026_osaka_0702",
@@ -76,7 +76,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/40856/",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "sandaime_j_soul_brothers_jsb_land_forever_2026_nagoya_0809",
@@ -88,7 +88,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/40856/",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -111,14 +111,14 @@
       ],
       "source": "system",
       "sourceUrl": "https://e-ticketbook.com/3jsb-jsbland-forever/2603-tb/",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "sandaime_j_soul_brothers_jsb_land_forever_2026_fc先行",
       "tourId": "sandaime_j_soul_brothers_jsb_land_forever_2026",
       "type": "FC先行",
-      "entryStartAt": "2026-03-02T12:00:00+09:00",
-      "entryEndAt": "2026-03-08T23:59:00+09:00",
+      "entryStartAt": "2026-03-02T15:00:00+09:00",
+      "entryEndAt": "2026-03-08T23:00:00+09:00",
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
@@ -132,14 +132,56 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/40856/",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_jsb_land_forever_2026_premium_ticket",
+      "tourId": "sandaime_j_soul_brothers_jsb_land_forever_2026",
+      "type": "プレミアムチケット抽選受付",
+      "entryStartAt": "2026-03-17T15:00:00+09:00",
+      "entryEndAt": "2026-03-22T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_fukuoka_0606",
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_tokyo_0627",
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_tokyo_0628",
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_osaka_0701",
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_osaka_0702",
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_nagoya_0809"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/40856/",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_jsb_land_forever_2026_lawson_presale",
+      "tourId": "sandaime_j_soul_brothers_jsb_land_forever_2026",
+      "type": "ローソンチケット先行",
+      "entryStartAt": "2026-03-16T15:00:00+09:00",
+      "entryEndAt": "2026-03-22T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_fukuoka_0606",
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_tokyo_0627",
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_tokyo_0628",
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_osaka_0701",
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_osaka_0702",
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_nagoya_0809"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/40856/",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "sandaime_j_soul_brothers_jsb_land_forever_2026_tribe_fc先行",
       "tourId": "sandaime_j_soul_brothers_jsb_land_forever_2026",
       "type": "EXILE TRIBE FC先行",
-      "entryStartAt": "2026-03-11T12:00:00+09:00",
-      "entryEndAt": "2026-03-15T23:59:00+09:00",
+      "entryStartAt": "2026-03-11T15:00:00+09:00",
+      "entryEndAt": "2026-03-15T23:00:00+09:00",
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
@@ -153,7 +195,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/40856/",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "sandaime_j_soul_brothers_jsb_land_forever_2026_ticketbook_2nd_presale",
@@ -174,7 +216,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://e-ticketbook.com/3jsb-jsbland-forever/2603-tb/",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "sandaime_j_soul_brothers_jsb_land_forever_2026_一般発売",
@@ -195,13 +237,13 @@
       ],
       "source": "system",
       "sourceUrl": "https://e-ticketbook.com/3jsb-jsbland-forever/2603-tb/",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "sandaime_j_soul_brothers_jsb_land_forever_2026_tokyo直前販売",
       "tourId": "sandaime_j_soul_brothers_jsb_land_forever_2026",
       "type": "直前販売",
-      "entryStartAt": "2026-06-26T19:00:00+09:00",
+      "entryStartAt": "2026-06-26T18:00:00+09:00",
       "entryEndAt": null,
       "resultAt": null,
       "paymentStartAt": null,
@@ -211,8 +253,8 @@
         "sandaime_j_soul_brothers_jsb_land_forever_2026_tokyo_0628"
       ],
       "source": "system",
-      "sourceUrl": "https://jsb3.exfamily.jp/s/ldh02/ticket/list?ima=0000&ct=main",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/news/43713/?lang=ja",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "sandaime_j_soul_brothers_jsb_land_forever_2026_osaka直前販売",
@@ -229,7 +271,24 @@
       ],
       "source": "system",
       "sourceUrl": "https://e-ticketbook.com/3jsb-jsbland-forever/2603-tb/",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_jsb_land_forever_2026_osaka_fc直前販売",
+      "tourId": "sandaime_j_soul_brothers_jsb_land_forever_2026",
+      "type": "FC直前販売",
+      "entryStartAt": "2026-06-30T18:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_osaka_0701",
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_osaka_0702"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/news/43936/?lang=ja",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
   ]
 }

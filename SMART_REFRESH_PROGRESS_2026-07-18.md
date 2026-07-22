@@ -5,9 +5,9 @@
 ## 現在地
 
 - 全102組をhash比較し、82組を変更ありと判定。
-- 70組は収集・validate・hash accept・manifest更新・commit・pushまで完了。
-- 第14論理バッチまで配信反映済み。manifestはv84、未処理は12組。
-- 次回は`le_sserafim`から再開。
+- 75組は収集・validate・hash accept・manifest更新・commit・pushまで完了。
+- 第15論理バッチまで配信反映済み。manifestはv85、未処理は7組。
+- 次回は`uta_no_prince_sama`から再開。
 - 未追跡のユーザーファイル `x_thread_artists.md` は変更・削除・commit禁止。
 
 ## 重要なチェックポイント運用
@@ -185,14 +185,20 @@ IDs: `da_ice`, `bts`, `enhypen`, `ive`, `aespa`
 - validate成功、hash accept・manifest v84更新・commit・pushまで完了。
 - ここで停止。次回は下記未処理順の先頭 `le_sserafim` から開始する。
 
-## 第14バッチ後の未処理順（12組）
+## 第15バッチ（配信反映済み）
+
+IDs: `le_sserafim`, `tomorrow_x_together`, `sandaime_j_soul_brothers`, `zorn`, `hypnosis_mic`
+
+- LE SSERAFIM: SUMMER SONIC 2026の大阪・東京出演と朝イチ整理券抽選、PUREFLOWのFC2次・VIP先行を追加。
+- TOMORROW X TOGETHER: VR CONCERT、プレミアムライブ、ミート＆グリートを追加。
+- 三代目 J SOUL BROTHERS: JSB LANDの先行日程を補正・追加。
+- ZORN: 「地元LOVE」公演を確認し、既存先行・料金を補正。
+- ヒプノシスマイク: 12th LIVE≪MIC AS ONE≫の2公演とHYPSTER 1・2次、一般抽選を追加。
+- validate成功、hash accept・manifest v85更新・commit・pushまで完了。
+
+## 第15バッチ後の未処理順（7組）
 
 ```text
-le_sserafim
-tomorrow_x_together
-sandaime_j_soul_brothers
-zorn
-hypnosis_mic
 uta_no_prince_sama
 gre4n_boyz
 ikimonogakari
