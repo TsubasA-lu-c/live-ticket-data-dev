@@ -1,13 +1,13 @@
 # /refresh-smart 進捗（2026-07-18）
 
-最終更新: 2026-07-22T09:08:05+09:00
+最終更新: 2026-07-22T09:09:46+09:00
 
 ## 現在地
 
 - 全102組をhash比較し、82組を変更ありと判定。
-- 45組は収集・validate・hash accept・manifest更新・commit・pushまで完了。
-- 第9論理バッチまで配信反映済み。manifestはv79、未処理は37組。
-- 次回は`milk`から再開。
+- 50組は収集・validate・hash accept・manifest更新・commit・pushまで完了。
+- 第10論理バッチまで配信反映済み。manifestはv80、未処理は32組。
+- 次回は`cutie_street`から再開。
 - 未追跡のユーザーファイル `x_thread_artists.md` は変更・削除・commit禁止。
 
 ## 重要なチェックポイント運用
@@ -135,14 +135,19 @@ IDs: `glay`, `yuzu`, `koda_kumi`, `kobukuro`, `timelesz`
 - validate成功、hash accept・manifest v79更新・commit・pushまで完了。
 - ここで停止。次回は下記未処理順の先頭 `milk` から開始する。
 
-## 第9バッチ後の未処理順（37組）
+## 第10バッチ（配信反映済み・停止地点）
+
+IDs: `milk`, `bump_of_chicken`, `novelbright`, `frederic`, `fruits_zipper`
+
+- BUMP OF CHICKEN: Ratio Clavis追加プレオーダー1次が7/26 23:59までであることを公式NEWSで確認。
+- Novelbright: 姫路9/26公演の各プレイガイド抽選先行（7/14 13:00〜7/21 23:59）を追加。
+- M!LK、フレデリック、FRUITS ZIPPER: TOP・NEWSを確認し、公開済み以外の新規受付なし。
+- validate成功、hash accept・manifest v80更新・commit・pushまで完了。
+- ここで停止。次回は下記未処理順の先頭 `cutie_street` から開始する。
+
+## 第10バッチ後の未処理順（32組）
 
 ```text
-milk
-bump_of_chicken
-novelbright
-frederic
-fruits_zipper
 cutie_street
 monaki
 equal_love

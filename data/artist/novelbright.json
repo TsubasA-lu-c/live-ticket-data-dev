@@ -436,7 +436,7 @@
       "eventName": "Novelbright ASIA TOUR 2026 〜PYRAMID〜 in Hong Kong",
       "source": "system",
       "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "novelbright_asia_2026_hongkong_0826",
@@ -464,6 +464,20 @@
     }
   ],
   "lotteries": [
+    {
+      "id": "novelbright_pyramid_2026_playguide_himeji",
+      "tourId": "novelbright_pyramid_2026",
+      "type": "各プレイガイド抽選先行（姫路）",
+      "entryStartAt": "2026-07-14T13:00:00+09:00",
+      "entryEndAt": "2026-07-21T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["novelbright_pyramid_2026_hyogo_0926"],
+      "source": "system",
+      "sourceUrl": "https://novelbright.jp/news/detail/2441",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
     {
       "id": "novelbright_pyramid_2026_novelcity_himeji",
       "tourId": "novelbright_pyramid_2026",
