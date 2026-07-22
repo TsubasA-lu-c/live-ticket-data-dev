@@ -88,7 +88,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -442,6 +442,32 @@
     }
   ],
   "lotteries": [
+    {
+      "id": "glay_exofire_2026_lawson",
+      "tourId": "glay_exofire_2026",
+      "type": "ローソンチケット・LEncore会員先行",
+      "entryStartAt": "2026-07-01T15:00:00+09:00",
+      "entryEndAt": "2026-07-13T23:00:00+09:00",
+      "resultAt": "2026-07-17T15:00:00+09:00",
+      "paymentStartAt": "2026-07-17T15:00:00+09:00",
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_exofire_2026_niigata_1205",
+        "glay_exofire_2026_hokkaido_1212",
+        "glay_exofire_2026_hokkaido_1213",
+        "glay_exofire_2026_fukuoka_1219",
+        "glay_exofire_2026_fukuoka_1220",
+        "glay_exofire_2026_hyogo_0116",
+        "glay_exofire_2026_hyogo_0117",
+        "glay_exofire_2026_hiroshima_0130",
+        "glay_exofire_2026_hiroshima_0131",
+        "glay_exofire_2026_aichi_0206",
+        "glay_exofire_2026_aichi_0207"
+      ],
+      "source": "system",
+      "sourceUrl": "https://l-tike.com/concert/glay-lt-2026-2027/",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
     {
       "id": "glay_zeppy_swing_2026_glay_app",
       "tourId": "glay_zeppy_swing_2026",

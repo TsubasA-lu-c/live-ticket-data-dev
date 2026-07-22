@@ -1,13 +1,13 @@
 # /refresh-smart 進捗（2026-07-18）
 
-最終更新: 2026-07-22T08:38:07+09:00
+最終更新: 2026-07-22T09:08:05+09:00
 
 ## 現在地
 
 - 全102組をhash比較し、82組を変更ありと判定。
-- 40組は収集・validate・hash accept・manifest更新・commit・pushまで完了。
-- 第8論理バッチまで配信反映済み。manifestはv78、未処理は42組。
-- 次回は`glay`から再開。
+- 45組は収集・validate・hash accept・manifest更新・commit・pushまで完了。
+- 第9論理バッチまで配信反映済み。manifestはv79、未処理は37組。
+- 次回は`milk`から再開。
 - 未追跡のユーザーファイル `x_thread_artists.md` は変更・削除・commit禁止。
 
 ## 重要なチェックポイント運用
@@ -123,14 +123,21 @@ IDs: `macaroni_empitsu`, `sakurazaka46`, `babymetal`, `mrs_green_apple`, `be_fir
 - validate成功、hash accept・manifest v78更新・commit・pushまで完了。
 - ここで停止。次回は下記未処理順の先頭 `glay` から開始する。
 
-## 第8バッチ後の未処理順（42組）
+## 第9バッチ（配信反映済み・停止地点）
+
+IDs: `glay`, `yuzu`, `koda_kumi`, `kobukuro`, `timelesz`
+
+- GLAY: EXOFIREのローソンチケット・LEncore会員先行を追加（対象11公演、7/1 15:00〜7/13 23:00、結果/決済7/17 15:00〜）。
+- ゆず: 心音および30周年ライブのNEWS/TICKETを確認。新規受付はなし。
+- 倖田來未: Live Tour 2026 Kingdomの全公演延期と払い戻しを公式確認。将来公演なしを維持。
+- コブクロ: 霞日和の石川公演チケット表示・公式リセール開始を確認。新規受付はなし。
+- timelesz: MOMENTUMの一般チケット発売中および千秋楽生配信を確認。生配信の視聴券詳細は未発表。
+- validate成功、hash accept・manifest v79更新・commit・pushまで完了。
+- ここで停止。次回は下記未処理順の先頭 `milk` から開始する。
+
+## 第9バッチ後の未処理順（37組）
 
 ```text
-glay
-yuzu
-koda_kumi
-kobukuro
-timelesz
 milk
 bump_of_chicken
 novelbright
