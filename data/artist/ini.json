@@ -19,7 +19,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://ini-official.com/feature/2026_dome_tour",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -210,7 +210,7 @@
       "id": "ini_5th_anniversary_dome_2026_upgrade_seat",
       "tourId": "ini_5th_anniversary_dome_2026",
       "type": "アップグレード席抽選",
-      "entryStartAt": "2026-07-14T00:00:00+09:00",
+      "entryStartAt": "2026-07-14T12:00:00+09:00",
       "entryEndAt": "2026-07-20T23:59:00+09:00",
       "resultAt": "2026-07-25T20:00:00+09:00",
       "paymentStartAt": "2026-07-25T20:00:00+09:00",
@@ -222,8 +222,8 @@
         "ini_5th_anniversary_dome_2026_osaka_1115"
       ],
       "source": "system",
-      "sourceUrl": "https://ini-official.com/feature/2026_dome_tour",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "sourceUrl": "https://ini-official.com/news/detail/4284",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
   ]
 }

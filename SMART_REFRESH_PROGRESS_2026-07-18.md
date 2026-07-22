@@ -1,13 +1,13 @@
 # /refresh-smart 進捗（2026-07-18）
 
-最終更新: 2026-07-22T09:16:17+09:00
+最終更新: 2026-07-22T09:50:47+09:00
 
 ## 現在地
 
 - 全102組をhash比較し、82組を変更ありと判定。
-- 60組は収集・validate・hash accept・manifest更新・commit・pushまで完了。
-- 第12論理バッチまで配信反映済み。manifestはv82、未処理は22組。
-- 次回は`ini`から再開。
+- 65組は収集・validate・hash accept・manifest更新・commit・pushまで完了。
+- 第13論理バッチまで配信反映済み。manifestはv83、未処理は17組。
+- 次回は`da_ice`から再開。
 - 未追跡のユーザーファイル `x_thread_artists.md` は変更・削除・commit禁止。
 
 ## 重要なチェックポイント運用
@@ -165,14 +165,18 @@ IDs: `yabai_tshirts_yasan`, `the_oral_cigarettes`, `miura_daichi`, `kurayamisaka
 - validate成功、hash accept・manifest v82更新・commit・pushまで完了。
 - ここで停止。次回は下記未処理順の先頭 `ini` から開始する。
 
-## 第12バッチ後の未処理順（22組）
+## 第13バッチ（配信反映済み・停止地点）
+
+IDs: `ini`, `jo1`, `mazzel`, `not_equal_me`, `boku_aozora`
+
+- INI: ドームツアーのアップグレード席抽選について、受付開始時刻を公式告知どおり7/14 12:00に補正。
+- JO1: ソウル公演のFC先行・一般販売は延期。新規受付は追加せず既存情報を維持。
+- MAZZEL、≠ME、僕が見たかった青空: 公式TOP・NEWS・既存チケット情報を再照合。新規受付なし。
+- validate成功、hash accept・manifest v83更新・commit・pushまで完了。
+
+## 第13バッチ後の未処理順（17組）
 
 ```text
-ini
-jo1
-mazzel
-not_equal_me
-boku_aozora
 da_ice
 bts
 enhypen

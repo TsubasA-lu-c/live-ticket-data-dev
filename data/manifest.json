@@ -1,9 +1,9 @@
 {
-  "version": 82,
-  "updatedAt": "2026-07-22T09:16:17+09:00",
+  "version": 83,
+  "updatedAt": "2026-07-22T09:50:47+09:00",
   "files": {
     "artists": {
-      "hash": "ffd4afeb12eeb020"
+      "hash": "10c77a92d69c2cd3"
     }
   },
   "artists": {
@@ -200,7 +200,7 @@
       "hash": "c923d635f16c39ec"
     },
     "boku_aozora": {
-      "hash": "3e5d7ce08d38b908"
+      "hash": "81c6fd862ba816ea"
     },
     "bts": {
       "hash": "599b1cc200562016"
@@ -218,13 +218,13 @@
       "hash": "968d3198254b2ee3"
     },
     "ini": {
-      "hash": "9a8872de74def607"
+      "hash": "da92696c2079c2de"
     },
     "ive": {
       "hash": "df714ad1d54f76e3"
     },
     "jo1": {
-      "hash": "85f7e1ede801c897"
+      "hash": "3017c61b73115464"
     },
     "kroi": {
       "hash": "510aa99545493d50"
@@ -236,7 +236,7 @@
       "hash": "d0dcb5e5174345d2"
     },
     "mazzel": {
-      "hash": "c7ed1c0d4344a6b8"
+      "hash": "dedf5c41c69c895f"
     },
     "milet": {
       "hash": "8d703f239dbd3271"
@@ -245,7 +245,7 @@
       "hash": "005ea9497343451d"
     },
     "not_equal_me": {
-      "hash": "c363f2c955525992"
+      "hash": "d36f1544b53bd29d"
     },
     "starglow": {
       "hash": "0ecf41969ca01941"
