@@ -15,7 +15,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://cutiestreet.asobisystem.com/feature/2ndanniversarylive",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "cutie_street_fes_kawaii_lab_summer_2026",
@@ -287,6 +287,23 @@
     }
   ],
   "lotteries": [
+    {
+      "id": "cutie_street_2nd_anniversary_2026_upgrade",
+      "tourId": "cutie_street_2nd_anniversary_2026",
+      "type": "アップグレード抽選",
+      "entryStartAt": "2026-07-09T18:00:00+09:00",
+      "entryEndAt": "2026-07-14T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "cutie_street_2nd_anniversary_2026_budokan_0825",
+        "cutie_street_2nd_anniversary_2026_budokan_0826"
+      ],
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/84129",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
     {
       "id": "cutie_street_2nd_anniversary_2026_pg_fastest",
       "tourId": "cutie_street_2nd_anniversary_2026",

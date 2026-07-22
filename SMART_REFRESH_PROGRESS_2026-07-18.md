@@ -1,13 +1,13 @@
 # /refresh-smart 進捗（2026-07-18）
 
-最終更新: 2026-07-22T09:09:46+09:00
+最終更新: 2026-07-22T09:14:15+09:00
 
 ## 現在地
 
 - 全102組をhash比較し、82組を変更ありと判定。
-- 50組は収集・validate・hash accept・manifest更新・commit・pushまで完了。
-- 第10論理バッチまで配信反映済み。manifestはv80、未処理は32組。
-- 次回は`cutie_street`から再開。
+- 55組は収集・validate・hash accept・manifest更新・commit・pushまで完了。
+- 第11論理バッチまで配信反映済み。manifestはv81、未処理は27組。
+- 次回は`yabai_tshirts_yasan`から再開。
 - 未追跡のユーザーファイル `x_thread_artists.md` は変更・削除・commit禁止。
 
 ## 重要なチェックポイント運用
@@ -145,14 +145,20 @@ IDs: `milk`, `bump_of_chicken`, `novelbright`, `frederic`, `fruits_zipper`
 - validate成功、hash accept・manifest v80更新・commit・pushまで完了。
 - ここで停止。次回は下記未処理順の先頭 `cutie_street` から開始する。
 
-## 第10バッチ後の未処理順（32組）
+## 第11バッチ（配信反映済み・停止地点）
+
+IDs: `cutie_street`, `monaki`, `equal_love`, `super_beaver`, `wanima`
+
+- CUTIE STREET: 日本武道館2周年公演のアップグレード抽選（7/9 18:00〜7/14 23:59）を追加。
+- モナキ: 10/27豊洲PIT「ハロウィンやで☆しらんけど」とFC先行（7/16 12:00〜7/26 23:59）を追加。
+- =LOVE: 9周年コンサートの公式料金・開場時刻を補完し、FC長期会員先行（会員＋会員）の開始時刻と根拠URLを補正。
+- SUPER BEAVER、WANIMA: TOP・NEWS・既存チケット情報を再照合。新規受付なし。
+- validate成功、hash accept・manifest v81更新・commit・pushまで完了。
+- ここで停止。次回は下記未処理順の先頭 `yabai_tshirts_yasan` から開始する。
+
+## 第11バッチ後の未処理順（27組）
 
 ```text
-cutie_street
-monaki
-equal_love
-super_beaver
-wanima
 yabai_tshirts_yasan
 the_oral_cigarettes
 miura_daichi

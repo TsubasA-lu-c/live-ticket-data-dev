@@ -69,10 +69,19 @@
       "title": "=LOVE 9th ANNIVERSARY PREMIUM CONCERT",
       "startDate": "2026-10-15T00:00:00+09:00",
       "endDate": "2026-10-16T00:00:00+09:00",
-      "prices": null,
+      "prices": [
+        {
+          "label": "プレミアム席",
+          "amount": 29800
+        },
+        {
+          "label": "通常席",
+          "amount": 11000
+        }
+      ],
       "source": "system",
-      "sourceUrl": "https://news.joysound.com/article/677115",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "sourceUrl": "https://equal-love.jp/news/detail/11763",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "equal_love_tokyo_dome_2027",
@@ -164,24 +173,24 @@
       "tourId": "equal_love_9th_anniversary_2026",
       "venue": "TOYOTA ARENA TOKYO",
       "performanceAt": "2026-10-15T18:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-10-15T16:30:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://news.joysound.com/article/677115",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "sourceUrl": "https://equal-love.jp/news/detail/11763",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "equal_love_9th_anniversary_2026_toyota_1016",
       "tourId": "equal_love_9th_anniversary_2026",
       "venue": "TOYOTA ARENA TOKYO",
       "performanceAt": "2026-10-16T18:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-10-16T16:30:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://news.joysound.com/article/677115",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "sourceUrl": "https://equal-love.jp/news/detail/11763",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "equal_love_tokyo_dome_2027_dome_0119",
@@ -260,8 +269,8 @@
     {
       "id": "equal_love_9th_anniversary_2026_fc_choki",
       "tourId": "equal_love_9th_anniversary_2026",
-      "type": "FC長期会員先行",
-      "entryStartAt": "2026-07-21T00:00:00+09:00",
+      "type": "FC長期会員先行（会員＋会員）",
+      "entryStartAt": "2026-07-21T17:00:00+09:00",
       "entryEndAt": "2026-07-26T23:59:00+09:00",
       "resultAt": null,
       "paymentStartAt": null,
@@ -271,8 +280,8 @@
         "equal_love_9th_anniversary_2026_toyota_1016"
       ],
       "source": "system",
-      "sourceUrl": "https://news.joysound.com/article/677115",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "sourceUrl": "https://equal-love.jp/news/detail/11763",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "equal_love_tokyo_dome_2027_fc_saisoku",

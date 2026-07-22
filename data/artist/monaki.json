@@ -53,6 +53,22 @@
       "source": "system",
       "sourceUrl": "https://monaki.jp/news/detail/78925",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_halloween_2026",
+      "artistId": "monaki",
+      "title": "ハロウィンやで☆しらんけど",
+      "startDate": "2026-10-27T00:00:00+09:00",
+      "endDate": "2026-10-27T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "スタンディング",
+          "amount": 6600
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/news/detail/84518",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -151,6 +167,18 @@
       "source": "system",
       "sourceUrl": "https://monaki.jp/news/detail/78925",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_halloween_2026_toyosu_1027",
+      "tourId": "monaki_halloween_2026",
+      "venue": "豊洲PIT",
+      "performanceAt": "2026-10-27T19:00:00+09:00",
+      "doorOpenAt": "2026-10-27T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "ハロウィンやで☆しらんけど",
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/news/detail/84518",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -205,6 +233,22 @@
       "source": "system",
       "sourceUrl": "https://monaki.jp/news/detail/82529",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_halloween_2026_fc",
+      "tourId": "monaki_halloween_2026",
+      "type": "FC先行",
+      "entryStartAt": "2026-07-16T12:00:00+09:00",
+      "entryEndAt": "2026-07-26T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "monaki_halloween_2026_toyosu_1027"
+      ],
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/news/detail/84518",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
   ]
 }
