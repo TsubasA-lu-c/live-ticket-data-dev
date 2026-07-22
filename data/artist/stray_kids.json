@@ -16,22 +16,6 @@
       "source": "system",
       "sourceUrl": "https://www.straykidsjapan.com/runitjapan/",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-    },
-    {
-      "id": "stray_kids_event_domin_ate_japan_vr_osaka_2026",
-      "artistId": "stray_kids",
-      "title": "LYNKPOP : Stray Kids World Tour <dominATE JAPAN> VR",
-      "startDate": "2026-07-11T00:00:00+09:00",
-      "endDate": "2026-09-06T00:00:00+09:00",
-      "prices": [
-        {
-          "label": "日時指定入場券",
-          "amount": 4400
-        }
-      ],
-      "source": "system",
-      "sourceUrl": "https://www.ticketport.co.jp/lp/skz-vr/index.html",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -118,18 +102,6 @@
       "source": "system",
       "sourceUrl": "https://www.straykidsjapan.com/runitjapan/",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-    },
-    {
-      "id": "stray_kids_event_domin_ate_japan_vr_osaka_2026_osaka_0711",
-      "tourId": "stray_kids_event_domin_ate_japan_vr_osaka_2026",
-      "venue": "グランフロント大阪 北館 B1階 ナレッジキャピタル イベントラボ",
-      "performanceAt": "2026-07-11T10:30:00+09:00",
-      "doorOpenAt": null,
-      "kind": "oneman",
-      "eventName": "LYNKPOP : Stray Kids World Tour <dominATE JAPAN> VR",
-      "source": "system",
-      "sourceUrl": "https://www.ticketport.co.jp/lp/skz-vr/index.html",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -187,20 +159,6 @@
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/StrayKids/info/584723",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-    },
-    {
-      "id": "stray_kids_event_domin_ate_japan_vr_osaka_2026_fc",
-      "tourId": "stray_kids_event_domin_ate_japan_vr_osaka_2026",
-      "type": "オフィシャルファンクラブ会員先行",
-      "entryStartAt": "2026-05-11T12:00:00+09:00",
-      "entryEndAt": "2026-05-17T23:59:00+09:00",
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": null,
-      "source": "system",
-      "sourceUrl": "https://www.ticketport.co.jp/lp/skz-vr/index.html",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ]

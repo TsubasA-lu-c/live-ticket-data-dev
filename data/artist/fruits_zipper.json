@@ -2,42 +2,6 @@
   "artistId": "fruits_zipper",
   "tours": [
     {
-      "id": "fruits_zipper_kawaii_lab_session_summer_2026",
-      "artistId": "fruits_zipper",
-      "title": "KAWAII LAB. SESSION 2026 SUMMER",
-      "startDate": "2026-07-10T00:00:00+09:00",
-      "endDate": "2026-07-11T00:00:00+09:00",
-      "prices": [
-        {
-          "label": "一般指定席",
-          "amount": 10000
-        },
-        {
-          "label": "アップグレード指定席",
-          "amount": 15000
-        }
-      ],
-      "source": "system",
-      "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/81818",
-      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
-    },
-    {
-      "id": "fruits_zipper_dream_with_in_2026",
-      "artistId": "fruits_zipper",
-      "title": "FRUITS ZIPPER 4TH ANNIVERSARY ARENA TOUR「DREAM WITH IN」",
-      "startDate": "2026-04-24T00:00:00+09:00",
-      "endDate": "2026-07-15T00:00:00+09:00",
-      "prices": [
-        {
-          "label": "指定席",
-          "amount": 10600
-        }
-      ],
-      "source": "system",
-      "sourceUrl": "https://fruitszipper.asobisystem.com/feature/4th_arena_tour",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
-    },
-    {
       "id": "fruits_zipper_japan_tour_2026_autumn",
       "artistId": "fruits_zipper",
       "title": "FRUITS ZIPPER JAPAN TOUR 2026 - AUTUMN -",
@@ -55,102 +19,6 @@
     }
   ],
   "performances": [
-    {
-      "id": "fruits_zipper_kawaii_lab_session_summer_2026_yoyogi_0710",
-      "tourId": "fruits_zipper_kawaii_lab_session_summer_2026",
-      "venue": "国立代々木競技場 第一体育館",
-      "performanceAt": "2026-07-10T18:00:00+09:00",
-      "doorOpenAt": "2026-07-10T16:00:00+09:00",
-      "kind": "fes",
-      "eventName": "KAWAII LAB. SESSION 2026 SUMMER",
-      "source": "system",
-      "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/81818",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
-    },
-    {
-      "id": "fruits_zipper_kawaii_lab_session_summer_2026_yoyogi_0711",
-      "tourId": "fruits_zipper_kawaii_lab_session_summer_2026",
-      "venue": "国立代々木競技場 第一体育館",
-      "performanceAt": "2026-07-11T17:00:00+09:00",
-      "doorOpenAt": "2026-07-11T15:00:00+09:00",
-      "kind": "fes",
-      "eventName": "KAWAII LAB. SESSION 2026 SUMMER",
-      "source": "system",
-      "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/81818",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
-    },
-    {
-      "id": "fruits_zipper_dream_with_in_2026_ig_arena_0624",
-      "tourId": "fruits_zipper_dream_with_in_2026",
-      "venue": "IGアリーナ",
-      "performanceAt": "2026-06-24T18:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://fruitszipper.asobisystem.com/feature/4th_arena_tour",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
-    },
-    {
-      "id": "fruits_zipper_dream_with_in_2026_ig_arena_0625",
-      "tourId": "fruits_zipper_dream_with_in_2026",
-      "venue": "IGアリーナ",
-      "performanceAt": "2026-06-25T18:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://fruitszipper.asobisystem.com/feature/4th_arena_tour",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
-    },
-    {
-      "id": "fruits_zipper_dream_with_in_2026_glion_arena_kobe_0703",
-      "tourId": "fruits_zipper_dream_with_in_2026",
-      "venue": "GLION ARENA KOBE",
-      "performanceAt": "2026-07-03T18:00:00+09:00",
-      "doorOpenAt": "2026-07-03T16:00:00+09:00",
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://fruitszipper.asobisystem.com/feature/4th_arena_tour",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
-    },
-    {
-      "id": "fruits_zipper_dream_with_in_2026_glion_arena_kobe_0704",
-      "tourId": "fruits_zipper_dream_with_in_2026",
-      "venue": "GLION ARENA KOBE",
-      "performanceAt": "2026-07-04T16:00:00+09:00",
-      "doorOpenAt": "2026-07-04T14:00:00+09:00",
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://fruitszipper.asobisystem.com/feature/4th_arena_tour",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
-    },
-    {
-      "id": "fruits_zipper_dream_with_in_2026_marine_messe_fukuoka_0714",
-      "tourId": "fruits_zipper_dream_with_in_2026",
-      "venue": "マリンメッセ福岡A館",
-      "performanceAt": "2026-07-14T18:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://fruitszipper.asobisystem.com/feature/4th_arena_tour",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
-    },
-    {
-      "id": "fruits_zipper_dream_with_in_2026_marine_messe_fukuoka_0715",
-      "tourId": "fruits_zipper_dream_with_in_2026",
-      "venue": "マリンメッセ福岡A館",
-      "performanceAt": "2026-07-15T18:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://fruitszipper.asobisystem.com/feature/4th_arena_tour",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
-    },
     {
       "id": "fruits_zipper_japan_tour_2026_autumn_yokosuka_0903",
       "tourId": "fruits_zipper_japan_tour_2026_autumn",
@@ -429,23 +297,6 @@
     }
   ],
   "lotteries": [
-    {
-      "id": "fruits_zipper_kawaii_lab_session_summer_2026_upgrade",
-      "tourId": "fruits_zipper_kawaii_lab_session_summer_2026",
-      "type": "アップグレード抽選",
-      "entryStartAt": "2026-06-13T18:00:00+09:00",
-      "entryEndAt": "2026-06-21T23:59:00+09:00",
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": [
-        "fruits_zipper_kawaii_lab_session_summer_2026_yoyogi_0710",
-        "fruits_zipper_kawaii_lab_session_summer_2026_yoyogi_0711"
-      ],
-      "source": "system",
-      "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/81818",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
-    },
     {
       "id": "fruits_zipper_japan_tour_2026_autumn_fc_1st",
       "tourId": "fruits_zipper_japan_tour_2026_autumn",

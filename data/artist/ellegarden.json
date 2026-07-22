@@ -8,21 +8,13 @@
       "startDate": "2026-07-25T00:00:00+09:00",
       "endDate": "2026-07-25T00:00:00+09:00",
       "prices": [
-        {"label": "1日券(前売)", "amount": 10000}
+        {
+          "label": "1日券(前売)",
+          "amount": 10000
+        }
       ],
       "source": "system",
       "sourceUrl": "https://onrf.jp/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
-    },
-    {
-      "id": "ellegarden_fes_joinalive_2026",
-      "artistId": "ellegarden",
-      "title": "JOIN ALIVE 2026",
-      "startDate": "2026-07-19T00:00:00+09:00",
-      "endDate": "2026-07-19T00:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://joinalive.jp/2026/artist/9496/",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
@@ -32,8 +24,14 @@
       "startDate": "2026-09-19T00:00:00+09:00",
       "endDate": "2026-09-19T00:00:00+09:00",
       "prices": [
-        {"label": "1日入場券(9/19)", "amount": 15000},
-        {"label": "2日通し入場券", "amount": 24000}
+        {
+          "label": "1日入場券(9/19)",
+          "amount": 15000
+        },
+        {
+          "label": "2日通し入場券",
+          "amount": 24000
+        }
       ],
       "source": "system",
       "sourceUrl": "https://newacousticcamp.com/ticket/",
@@ -57,8 +55,14 @@
       "startDate": "2026-08-23T00:00:00+09:00",
       "endDate": "2026-08-23T00:00:00+09:00",
       "prices": [
-        {"label": "1日券", "amount": 13000},
-        {"label": "2日通し券", "amount": 23000}
+        {
+          "label": "1日券",
+          "amount": 13000
+        },
+        {
+          "label": "2日通し券",
+          "amount": 23000
+        }
       ],
       "source": "system",
       "sourceUrl": "https://www.monsterbash.jp/",
@@ -71,9 +75,18 @@
       "startDate": "2026-08-30T00:00:00+09:00",
       "endDate": "2026-08-30T00:00:00+09:00",
       "prices": [
-        {"label": "1DAY一般", "amount": 8800},
-        {"label": "1DAYキッズ", "amount": 4400},
-        {"label": "2DAYS一般", "amount": 16500}
+        {
+          "label": "1DAY一般",
+          "amount": 8800
+        },
+        {
+          "label": "1DAYキッズ",
+          "amount": 4400
+        },
+        {
+          "label": "2DAYS一般",
+          "amount": 16500
+        }
       ],
       "source": "system",
       "sourceUrl": "https://www.rushball.com/",
@@ -86,9 +99,18 @@
       "startDate": "2026-09-22T00:00:00+09:00",
       "endDate": "2026-09-22T00:00:00+09:00",
       "prices": [
-        {"label": "アリーナスタンディング自由&スタンド自由席", "amount": 8900},
-        {"label": "スタンド指定席", "amount": 11900},
-        {"label": "Zassoプレミアム指定席(おみやげ付き)", "amount": 16900}
+        {
+          "label": "アリーナスタンディング自由&スタンド自由席",
+          "amount": 8900
+        },
+        {
+          "label": "スタンド指定席",
+          "amount": 11900
+        },
+        {
+          "label": "Zassoプレミアム指定席(おみやげ付き)",
+          "amount": 16900
+        }
       ],
       "source": "system",
       "sourceUrl": "https://kyodo-osaka.co.jp/search/detail/12752",
@@ -101,7 +123,10 @@
       "startDate": "2026-09-24T00:00:00+09:00",
       "endDate": "2026-09-24T00:00:00+09:00",
       "prices": [
-        {"label": "スタンディング", "amount": 5900}
+        {
+          "label": "スタンディング",
+          "amount": 5900
+        }
       ],
       "source": "system",
       "sourceUrl": "https://eternalfightertakeru.com/",
@@ -125,9 +150,18 @@
       "startDate": "2026-11-07T00:00:00+09:00",
       "endDate": "2026-11-08T00:00:00+09:00",
       "prices": [
-        {"label": "1日券", "amount": 12000},
-        {"label": "2日通し券", "amount": 22000},
-        {"label": "中高生券", "amount": 5500}
+        {
+          "label": "1日券",
+          "amount": 12000
+        },
+        {
+          "label": "2日通し券",
+          "amount": 22000
+        },
+        {
+          "label": "中高生券",
+          "amount": 5500
+        }
       ],
       "source": "system",
       "sourceUrl": "https://www800.asia/2026/",
@@ -145,18 +179,6 @@
       "eventName": "OGA NAMAHAGE ROCK FESTIVAL vol.15",
       "source": "system",
       "sourceUrl": "https://onrf.jp/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
-    },
-    {
-      "id": "ellegarden_fes_joinalive_2026_iwamizawa_0719",
-      "tourId": "ellegarden_fes_joinalive_2026",
-      "venue": "いわみざわ公園野外音楽堂キタオン",
-      "performanceAt": "2026-07-19T18:20:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "JOIN ALIVE 2026",
-      "source": "system",
-      "sourceUrl": "https://joinalive.jp/2026/artist/9496/",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
@@ -278,7 +300,9 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["ellegarden_fes_oganamahage_2026_oga_0725"],
+      "performanceIds": [
+        "ellegarden_fes_oganamahage_2026_oga_0725"
+      ],
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/0406230001-P0030020P021001?P1=0175",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
@@ -292,7 +316,9 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["ellegarden_fes_newacousticcamp_2026_minakami_0919"],
+      "performanceIds": [
+        "ellegarden_fes_newacousticcamp_2026_minakami_0919"
+      ],
       "source": "system",
       "sourceUrl": "https://newacousticcamp.com/ticket/",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
@@ -306,7 +332,9 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["ellegarden_fes_skyjamboree_2026_inasayama_0822"],
+      "performanceIds": [
+        "ellegarden_fes_skyjamboree_2026_inasayama_0822"
+      ],
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/0159160001",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
@@ -320,7 +348,9 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["ellegarden_fes_monsterbash_2026_mannou_0823"],
+      "performanceIds": [
+        "ellegarden_fes_monsterbash_2026_mannou_0823"
+      ],
       "source": "system",
       "sourceUrl": "https://www.monsterbash.jp/tickets.html",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
@@ -334,7 +364,9 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["ellegarden_fes_rushball_2026_izumiotsu_0830"],
+      "performanceIds": [
+        "ellegarden_fes_rushball_2026_izumiotsu_0830"
+      ],
       "source": "system",
       "sourceUrl": "https://www.rushball.com/ticket/",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
@@ -348,7 +380,9 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["ellegarden_event_2026_zasso_0922"],
+      "performanceIds": [
+        "ellegarden_event_2026_zasso_0922"
+      ],
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/2458830001",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
@@ -362,7 +396,9 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["ellegarden_event_2026_zasso_0922"],
+      "performanceIds": [
+        "ellegarden_event_2026_zasso_0922"
+      ],
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/2458830001",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
@@ -376,7 +412,9 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["ellegarden_event_2026_02_toyosu_0924"],
+      "performanceIds": [
+        "ellegarden_event_2026_02_toyosu_0924"
+      ],
       "source": "system",
       "sourceUrl": "https://eternalfightertakeru.com/",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
@@ -390,7 +428,9 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["ellegarden_event_2026_02_toyosu_0924"],
+      "performanceIds": [
+        "ellegarden_event_2026_02_toyosu_0924"
+      ],
       "source": "system",
       "sourceUrl": "https://eternalfightertakeru.com/",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
@@ -404,7 +444,9 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["ellegarden_event_2026_02_toyosu_0924"],
+      "performanceIds": [
+        "ellegarden_event_2026_02_toyosu_0924"
+      ],
       "source": "system",
       "sourceUrl": "https://eternalfightertakeru.com/",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
@@ -418,7 +460,9 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["ellegarden_event_2026_02_toyosu_0924"],
+      "performanceIds": [
+        "ellegarden_event_2026_02_toyosu_0924"
+      ],
       "source": "system",
       "sourceUrl": "https://eternalfightertakeru.com/",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
@@ -432,7 +476,9 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["ellegarden_fes_miyakoislandrock_2026_miyako_1017"],
+      "performanceIds": [
+        "ellegarden_fes_miyakoislandrock_2026_miyako_1017"
+      ],
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/0401040001",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
@@ -446,7 +492,9 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["ellegarden_fes_miyakoislandrock_2026_miyako_1017"],
+      "performanceIds": [
+        "ellegarden_fes_miyakoislandrock_2026_miyako_1017"
+      ],
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/0401040001",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
@@ -460,7 +508,10 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["ellegarden_fes_wonderfulworld_2026_ginowan_1107", "ellegarden_fes_wonderfulworld_2026_ginowan_1108"],
+      "performanceIds": [
+        "ellegarden_fes_wonderfulworld_2026_ginowan_1107",
+        "ellegarden_fes_wonderfulworld_2026_ginowan_1108"
+      ],
       "source": "system",
       "sourceUrl": "https://www800.asia/2026/ticket",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"

@@ -2,26 +2,16 @@
   "artistId": "kurayamisaka",
   "tours": [
     {
-      "id": "kurayamisaka_tte_doko_7_2026",
-      "artistId": "kurayamisaka",
-      "title": "kurayamisaka tte, doko? #7「くらやみざかより愛を込めてツアー2」",
-      "startDate": "2026-05-09T00:00:00+09:00",
-      "endDate": "2026-07-11T00:00:00+09:00",
-      "prices": [
-        {"label": "スタンディング", "amount": 5000}
-      ],
-      "source": "system",
-      "sourceUrl": "https://eplus.jp/sf/word/0000158088",
-      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
-    },
-    {
       "id": "kurayamisaka_tte_doko_8_2026",
       "artistId": "kurayamisaka",
       "title": "kurayamisaka tte, doko? #8「GORILLA HALL OSAKA 単独公演編」",
       "startDate": "2026-10-17T00:00:00+09:00",
       "endDate": "2026-10-25T00:00:00+09:00",
       "prices": [
-        {"label": "スタンディング", "amount": 5000}
+        {
+          "label": "スタンディング",
+          "amount": 5000
+        }
       ],
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/4146610001-P0030018P021001",
@@ -34,7 +24,10 @@
       "startDate": "2026-12-26T00:00:00+09:00",
       "endDate": "2027-02-20T00:00:00+09:00",
       "prices": [
-        {"label": "スタンディング", "amount": 5000}
+        {
+          "label": "スタンディング",
+          "amount": 5000
+        }
       ],
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/word/0000158088",
@@ -42,78 +35,6 @@
     }
   ],
   "performances": [
-    {
-      "id": "kurayamisaka_tte_doko_7_2026_sapporo_0509",
-      "tourId": "kurayamisaka_tte_doko_7_2026",
-      "venue": "札幌近松",
-      "performanceAt": "2026-05-09T18:00:00+09:00",
-      "doorOpenAt": "2026-05-09T17:30:00+09:00",
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://eplus.jp/sf/word/0000158088",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
-    },
-    {
-      "id": "kurayamisaka_tte_doko_7_2026_fukuoka_0530",
-      "tourId": "kurayamisaka_tte_doko_7_2026",
-      "venue": "FUKUOKA LIVE HOUSE CB",
-      "performanceAt": "2026-05-30T18:00:00+09:00",
-      "doorOpenAt": "2026-05-30T17:30:00+09:00",
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://eplus.jp/sf/word/0000158088",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
-    },
-    {
-      "id": "kurayamisaka_tte_doko_7_2026_nagoya_0613",
-      "tourId": "kurayamisaka_tte_doko_7_2026",
-      "venue": "JAMMIN'",
-      "performanceAt": "2026-06-13T18:00:00+09:00",
-      "doorOpenAt": "2026-06-13T17:30:00+09:00",
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://eplus.jp/sf/word/0000158088",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
-    },
-    {
-      "id": "kurayamisaka_tte_doko_7_2026_osaka_0614",
-      "tourId": "kurayamisaka_tte_doko_7_2026",
-      "venue": "Yogibo META VALLEY",
-      "performanceAt": "2026-06-14T18:00:00+09:00",
-      "doorOpenAt": "2026-06-14T17:00:00+09:00",
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://eplus.jp/sf/word/0000158088",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
-    },
-    {
-      "id": "kurayamisaka_tte_doko_7_2026_tokyo_0625",
-      "tourId": "kurayamisaka_tte_doko_7_2026",
-      "venue": "LIQUIDROOM",
-      "performanceAt": "2026-06-25T19:00:00+09:00",
-      "doorOpenAt": "2026-06-25T18:00:00+09:00",
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://eplus.jp/sf/word/0000158088",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
-    },
-    {
-      "id": "kurayamisaka_tte_doko_7_2026_sendai_0711",
-      "tourId": "kurayamisaka_tte_doko_7_2026",
-      "venue": "仙台MACANA",
-      "performanceAt": "2026-07-11T18:00:00+09:00",
-      "doorOpenAt": "2026-07-11T17:30:00+09:00",
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://eplus.jp/sf/word/0000158088",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
-    },
     {
       "id": "kurayamisaka_tte_doko_8_2026_tokyozepp_1017",
       "tourId": "kurayamisaka_tte_doko_8_2026",
@@ -245,7 +166,9 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["kurayamisaka_tte_doko_8_2026_gorillahall_1025"],
+      "performanceIds": [
+        "kurayamisaka_tte_doko_8_2026_gorillahall_1025"
+      ],
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/4146610001-P0030018P021001",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"

@@ -17,7 +17,54 @@
       ],
       "source": "system",
       "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1134281",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_1chance_festival_2026",
+      "artistId": "aina_the_end",
+      "title": "1CHANCE FESTIVAL 2026",
+      "startDate": "2026-09-26T00:00:00+09:00",
+      "endDate": "2026-09-26T00:00:00+09:00",
+      "prices": [
+        { "label": "1日券", "amount": 12000 },
+        { "label": "小人1日券", "amount": 9500 },
+        { "label": "2日券", "amount": 23000 },
+        { "label": "小人2日券", "amount": 18000 }
+      ],
+      "source": "system",
+      "sourceUrl": "https://1chancefes.com/",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_music_expo_live_2026",
+      "artistId": "aina_the_end",
+      "title": "MUSIC EXPO LIVE 2026 in TAIPEI",
+      "startDate": "2026-10-24T00:00:00+09:00",
+      "endDate": "2026-10-24T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://musicexpolive.com/",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_summer_sonic_2026",
+      "artistId": "aina_the_end",
+      "title": "SUMMER SONIC 2026",
+      "startDate": "2026-08-14T00:00:00+09:00",
+      "endDate": "2026-08-15T00:00:00+09:00",
+      "prices": [
+        { "label": "TOKYO 1DAYチケット", "amount": 21000 },
+        { "label": "TOKYO 3DAYチケット", "amount": 59000 },
+        { "label": "TOKYO プラチナチケット", "amount": 35000 },
+        { "label": "TOKYO 3DAYプラチナチケット", "amount": 100000 },
+        { "label": "OSAKA 1DAYチケット", "amount": 19000 },
+        { "label": "OSAKA 3DAYチケット", "amount": 54000 },
+        { "label": "OSAKA プラチナチケット", "amount": 31000 },
+        { "label": "OSAKA 3DAYプラチナチケット", "amount": 90000 }
+      ],
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1132558",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -31,7 +78,55 @@
       "eventName": "SOUND CONNECTION -Mirroring Lights-",
       "source": "system",
       "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1134281",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_1chance_festival_2026_kumamoto_0926",
+      "tourId": "aina_the_end_1chance_festival_2026",
+      "venue": "熊本県農業公園 カントリーパーク",
+      "performanceAt": "2026-09-26T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "1CHANCE FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://1chancefes.com/",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_music_expo_live_2026_taipei_1024",
+      "tourId": "aina_the_end_music_expo_live_2026",
+      "venue": "TAIPEI ARENA",
+      "performanceAt": "2026-10-24T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "MUSIC EXPO LIVE 2026 in TAIPEI DAY1",
+      "source": "system",
+      "sourceUrl": "https://musicexpolive.com/",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_summer_sonic_2026_tokyo_0814",
+      "tourId": "aina_the_end_summer_sonic_2026",
+      "venue": "ZOZOマリンスタジアム＆幕張メッセ",
+      "performanceAt": "2026-08-14T11:00:00+09:00",
+      "doorOpenAt": "2026-08-14T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "SUMMER SONIC 2026 TOKYO",
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1132558",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_summer_sonic_2026_osaka_0815",
+      "tourId": "aina_the_end_summer_sonic_2026",
+      "venue": "万博記念公園",
+      "performanceAt": "2026-08-15T11:00:00+09:00",
+      "doorOpenAt": "2026-08-15T10:00:00+09:00",
+      "kind": "fes",
+      "eventName": "SUMMER SONIC 2026 OSAKA",
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1132558",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -49,7 +144,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1134281",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "aina_the_end_sound_connection_2026_official_senko",
@@ -65,7 +160,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1134281",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "aina_the_end_sound_connection_2026_familymart",
@@ -81,7 +176,23 @@
       ],
       "source": "system",
       "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1134281",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_1chance_festival_2026_general",
+      "tourId": "aina_the_end_1chance_festival_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-07-18T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aina_the_end_1chance_festival_2026_kumamoto_0926"
+      ],
+      "source": "system",
+      "sourceUrl": "https://1chancefes.com/",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
   ]
 }

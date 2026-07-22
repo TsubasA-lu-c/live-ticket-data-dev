@@ -22,26 +22,6 @@
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
-      "id": "hinatazaka46_gokisei_live_2026",
-      "artistId": "hinatazaka46",
-      "title": "日向坂46 五期生 LIVE",
-      "startDate": "2026-07-15T00:00:00+09:00",
-      "endDate": "2026-07-16T00:00:00+09:00",
-      "prices": [
-        {
-          "label": "全席指定",
-          "amount": 9800
-        },
-        {
-          "label": "Leminoスペシャルシート",
-          "amount": 15800
-        }
-      ],
-      "source": "system",
-      "sourceUrl": "https://www.hinatazaka46.com/5th_generation_live/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-    },
-    {
       "id": "hinatazaka46_sankisei_live_2026",
       "artistId": "hinatazaka46",
       "title": "日向坂46 三期生 LIVE",
@@ -97,30 +77,6 @@
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
       "kind": "fes",
       "eventName": "ひなたフェス 2026"
-    },
-    {
-      "id": "hinatazaka46_gokisei_live_2026_piaarena_0715",
-      "tourId": "hinatazaka46_gokisei_live_2026",
-      "venue": "ぴあアリーナMM",
-      "performanceAt": "2026-07-15T19:00:00+09:00",
-      "doorOpenAt": "2026-07-15T17:30:00+09:00",
-      "source": "system",
-      "sourceUrl": "https://www.hinatazaka46.com/5th_generation_live/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
-      "kind": "oneman",
-      "eventName": null
-    },
-    {
-      "id": "hinatazaka46_gokisei_live_2026_piaarena_0716",
-      "tourId": "hinatazaka46_gokisei_live_2026",
-      "venue": "ぴあアリーナMM",
-      "performanceAt": "2026-07-16T19:00:00+09:00",
-      "doorOpenAt": "2026-07-16T17:30:00+09:00",
-      "source": "system",
-      "sourceUrl": "https://www.hinatazaka46.com/5th_generation_live/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
-      "kind": "oneman",
-      "eventName": null
     },
     {
       "id": "hinatazaka46_sankisei_live_2026_zepposaka_0805",
@@ -235,20 +191,6 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00858",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-    },
-    {
-      "id": "hinatazaka46_gokisei_live_2026_general",
-      "tourId": "hinatazaka46_gokisei_live_2026",
-      "type": "一般発売",
-      "entryStartAt": "2026-06-27T12:00:00+09:00",
-      "entryEndAt": null,
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": null,
-      "source": "system",
-      "sourceUrl": "https://www.hinatazaka46.com/5th_generation_live/",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {

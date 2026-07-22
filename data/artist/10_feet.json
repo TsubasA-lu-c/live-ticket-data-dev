@@ -18,28 +18,6 @@
       "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
     },
     {
-      "id": "10_feet_fes_talkingrockfes_2026",
-      "artistId": "10_feet",
-      "title": "30th Anniversary Special Talking Rock! FES.2026 横浜編",
-      "startDate": "2026-07-12T00:00:00+09:00",
-      "endDate": "2026-07-12T00:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://10-feet.kyoto/contents/1063683",
-      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
-    },
-    {
-      "id": "10_feet_fes_joinalive_2026",
-      "artistId": "10_feet",
-      "title": "JOIN ALIVE 2026",
-      "startDate": "2026-07-18T00:00:00+09:00",
-      "endDate": "2026-07-18T00:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://joinalive.jp/2026/",
-      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
-    },
-    {
       "id": "10_feet_fes_hoteifes_2026",
       "artistId": "10_feet",
       "title": "HOTEI FES",
@@ -254,30 +232,6 @@
       "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
     },
     {
-      "id": "10_feet_fes_talkingrockfes_2026_yokohama_0712",
-      "tourId": "10_feet_fes_talkingrockfes_2026",
-      "venue": "横浜アリーナ",
-      "performanceAt": "2026-07-12T12:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "30th Anniversary Special Talking Rock! FES.2026 横浜編",
-      "source": "system",
-      "sourceUrl": "https://10-feet.kyoto/contents/1063683",
-      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
-    },
-    {
-      "id": "10_feet_fes_joinalive_2026_iwamizawa_0718",
-      "tourId": "10_feet_fes_joinalive_2026",
-      "venue": "いわみざわ公園",
-      "performanceAt": "2026-07-18T12:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "JOIN ALIVE 2026",
-      "source": "system",
-      "sourceUrl": "https://joinalive.jp/2026/",
-      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
-    },
-    {
       "id": "10_feet_fes_hoteifes_2026_gmesse_0725",
       "tourId": "10_feet_fes_hoteifes_2026",
       "venue": "Gメッセ群馬",
@@ -381,22 +335,6 @@
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://10-feet.kyoto/pages/kowaretekierumade",
-      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
-    },
-    {
-      "id": "10_feet_fes_talkingrockfes_2026_official_2ji",
-      "tourId": "10_feet_fes_talkingrockfes_2026",
-      "type": "オフィシャル2次先行",
-      "entryStartAt": null,
-      "entryEndAt": "2026-04-26T23:59:00+09:00",
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": [
-        "10_feet_fes_talkingrockfes_2026_yokohama_0712"
-      ],
-      "source": "system",
-      "sourceUrl": "https://10-feet.kyoto/contents/1063683",
       "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
     },
     {

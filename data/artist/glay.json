@@ -45,17 +45,6 @@
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
-      "id": "glay_fes_2026_puffy_pfes",
-      "artistId": "glay",
-      "title": "PUFFYの\"P\"FES",
-      "startDate": "2026-07-20T13:00:00+09:00",
-      "endDate": "2026-07-20T13:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://www.glay.co.jp/news/detail/10119",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
-    },
-    {
       "id": "glay_fes_2026_otohige",
       "artistId": "glay",
       "title": "音楽と髭達2026-TIME MACHINE",
@@ -150,18 +139,6 @@
       "eventName": "HAPPY SWING FESTA 2026",
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/news/detail/10157",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
-    },
-    {
-      "id": "glay_fes_2026_puffy_pfes_0720",
-      "tourId": "glay_fes_2026_puffy_pfes",
-      "venue": "東急ドレッセとどろきアリーナ",
-      "performanceAt": "2026-07-20T13:00:00+09:00",
-      "doorOpenAt": "2026-07-20T11:30:00+09:00",
-      "kind": "fes",
-      "eventName": "PUFFYの\"P\"FES",
-      "source": "system",
-      "sourceUrl": "https://www.glay.co.jp/news/detail/10119",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {

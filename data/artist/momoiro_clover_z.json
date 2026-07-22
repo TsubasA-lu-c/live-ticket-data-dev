@@ -2,23 +2,21 @@
   "artistId": "momoiro_clover_z",
   "tours": [
     {
-      "id": "momoiro_clover_z_momota_sunny_party_2026",
-      "artistId": "momoiro_clover_z",
-      "title": "百田夏菜子「32！SUNNY PARTY〜！！」",
-      "startDate": "2026-07-20T00:00:00+09:00",
-      "endDate": "2026-07-20T00:00:00+09:00",
-      "prices": [{"label": "指定席", "amount": 9700}, {"label": "注釈付き指定席", "amount": 9700}],
-      "source": "system",
-      "sourceUrl": "https://www.momoclo.net/archives/news/260618_04",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-    },
-    {
       "id": "momoiro_clover_z_fes_hotei_fes_2026",
       "artistId": "momoiro_clover_z",
       "title": "HOTEI FES",
       "startDate": "2026-07-25T00:00:00+09:00",
       "endDate": "2026-07-25T00:00:00+09:00",
-      "prices": [{"label": "一般指定席", "amount": 18000}, {"label": "VIPアップグレードシート", "amount": 12000}],
+      "prices": [
+        {
+          "label": "一般指定席",
+          "amount": 18000
+        },
+        {
+          "label": "VIPアップグレードシート",
+          "amount": 12000
+        }
+      ],
       "source": "system",
       "sourceUrl": "https://hotei-fes.com",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
@@ -29,7 +27,12 @@
       "title": "TACHI FES 2026～音楽を好きになる街へ～",
       "startDate": "2026-07-31T00:00:00+09:00",
       "endDate": "2026-07-31T00:00:00+09:00",
-      "prices": [{"label": "入場", "amount": 0}],
+      "prices": [
+        {
+          "label": "入場",
+          "amount": 0
+        }
+      ],
       "source": "system",
       "sourceUrl": "https://event.tachihi.co.jp/tachifes/",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
@@ -62,7 +65,20 @@
       "title": "高城れに「33 SAMBA to ボンボンDANCE ～まるごとれにちゃん祭り 2026～」",
       "startDate": "2026-08-14T00:00:00+09:00",
       "endDate": "2026-08-14T00:00:00+09:00",
-      "prices": [{"label": "1Fスタンディング", "amount": 9700}, {"label": "2F着席指定席", "amount": 10700}, {"label": "お子様ファミリー席", "amount": 10700}],
+      "prices": [
+        {
+          "label": "1Fスタンディング",
+          "amount": 9700
+        },
+        {
+          "label": "2F着席指定席",
+          "amount": 10700
+        },
+        {
+          "label": "お子様ファミリー席",
+          "amount": 10700
+        }
+      ],
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260713_05",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
@@ -73,7 +89,20 @@
       "title": "FEST. INAZUMA 2026",
       "startDate": "2026-09-19T00:00:00+09:00",
       "endDate": "2026-09-19T00:00:00+09:00",
-      "prices": [{"label": "GA 19日券", "amount": 15000}, {"label": "VIP 19日券", "amount": 33000}, {"label": "VVIP 19日券", "amount": 38000}],
+      "prices": [
+        {
+          "label": "GA 19日券",
+          "amount": 15000
+        },
+        {
+          "label": "VIP 19日券",
+          "amount": 33000
+        },
+        {
+          "label": "VVIP 19日券",
+          "amount": 38000
+        }
+      ],
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260508_01",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
@@ -84,7 +113,32 @@
       "title": "ももクロ秋の桃神祭2026",
       "startDate": "2026-10-17T00:00:00+09:00",
       "endDate": "2026-10-18T00:00:00+09:00",
-      "prices": [{"label": "スタンディング", "amount": 10000}, {"label": "女性限定スタンディング", "amount": 10000}, {"label": "指定席", "amount": 11000}, {"label": "着席指定席", "amount": 13000}, {"label": "お子様ファミリー席（大人）", "amount": 10000}, {"label": "お子様ファミリー席（子供）", "amount": 2500}],
+      "prices": [
+        {
+          "label": "スタンディング",
+          "amount": 10000
+        },
+        {
+          "label": "女性限定スタンディング",
+          "amount": 10000
+        },
+        {
+          "label": "指定席",
+          "amount": 11000
+        },
+        {
+          "label": "着席指定席",
+          "amount": 13000
+        },
+        {
+          "label": "お子様ファミリー席（大人）",
+          "amount": 10000
+        },
+        {
+          "label": "お子様ファミリー席（子供）",
+          "amount": 2500
+        }
+      ],
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260718_02",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
@@ -124,30 +178,292 @@
     }
   ],
   "performances": [
-    {"id": "momoiro_clover_z_momota_sunny_party_2026_yokohama_0720", "tourId": "momoiro_clover_z_momota_sunny_party_2026", "venue": "パシフィコ横浜 国立大ホール", "performanceAt": "2026-07-20T17:00:00+09:00", "doorOpenAt": "2026-07-20T16:00:00+09:00", "kind": "oneman", "eventName": "百田夏菜子「32！SUNNY PARTY〜！！」", "source": "system", "sourceUrl": "https://www.momoclo.net/archives/news/260618_04", "lastVerifiedAt": "2026-07-18T00:00:00+09:00"},
-    {"id": "momoiro_clover_z_fes_hotei_fes_2026_gunma_0725", "tourId": "momoiro_clover_z_fes_hotei_fes_2026", "venue": "Gメッセ群馬", "performanceAt": "2026-07-25T18:00:00+09:00", "doorOpenAt": "2026-07-25T12:30:00+09:00", "kind": "fes", "eventName": "HOTEI FES", "source": "system", "sourceUrl": "https://hotei-fes.com", "lastVerifiedAt": "2026-07-18T00:00:00+09:00"},
-    {"id": "momoiro_clover_z_fes_tachi_fes_2026_tachikawa_0731", "tourId": "momoiro_clover_z_fes_tachi_fes_2026", "venue": "TACHIKAWA STAGE GARDEN", "performanceAt": "2026-07-31T18:30:00+09:00", "doorOpenAt": "2026-07-31T17:30:00+09:00", "kind": "fes", "eventName": "TACHI FES 2026～音楽を好きになる街へ～", "source": "system", "sourceUrl": "https://event.tachihi.co.jp/tachifes/", "lastVerifiedAt": "2026-07-18T00:00:00+09:00"},
-    {"id": "momoiro_clover_z_fes_tif_2026_odaiba_0731_1", "tourId": "momoiro_clover_z_fes_tif_2026", "venue": "SMILE GARDEN（お台場・青海周辺エリア）", "performanceAt": "2026-07-31T10:00:00+09:00", "doorOpenAt": null, "kind": "fes", "eventName": "TOKYO IDOL FESTIVAL 2026", "source": "system", "sourceUrl": "https://www.momoclo.net/archives/news/260707_01", "lastVerifiedAt": "2026-07-18T00:00:00+09:00"},
-    {"id": "momoiro_clover_z_fes_tif_2026_odaiba_0731_2", "tourId": "momoiro_clover_z_fes_tif_2026", "venue": "SMILE GARDEN（お台場・青海周辺エリア）", "performanceAt": "2026-07-31T12:50:00+09:00", "doorOpenAt": null, "kind": "fes", "eventName": "灼熱！真夏のアイドルメドレー 〜A-RIN BEYOND THE LIMIT〜", "source": "system", "sourceUrl": "https://www.momoclo.net/archives/news/260707_01", "lastVerifiedAt": "2026-07-18T00:00:00+09:00"},
-    {"id": "momoiro_clover_z_fes_nack_keyaki_ondo_2026_saitama_0801", "tourId": "momoiro_clover_z_fes_nack_keyaki_ondo_2026", "venue": "さいたま新都心 GMOアリーナ隣接 けやきひろば", "performanceAt": "2026-08-01T16:00:00+09:00", "doorOpenAt": null, "kind": "fes", "eventName": "Carro presents NACK KEYAKI ON-DO ～ON the music, DO the dance～", "source": "system", "sourceUrl": "https://www.nackkeyaki-ondo.jp/", "lastVerifiedAt": "2026-07-18T00:00:00+09:00"},
-    {"id": "momoiro_clover_z_reni_bonbon_2026_yokohama_0814_1", "tourId": "momoiro_clover_z_reni_bonbon_2026", "venue": "KT Zepp Yokohama", "performanceAt": "2026-08-14T14:30:00+09:00", "doorOpenAt": "2026-08-14T13:30:00+09:00", "kind": "oneman", "eventName": "第一部：ボンボン公演", "source": "system", "sourceUrl": "https://www.momoclo.net/archives/news/260713_05", "lastVerifiedAt": "2026-07-18T00:00:00+09:00"},
-    {"id": "momoiro_clover_z_reni_bonbon_2026_yokohama_0814_2", "tourId": "momoiro_clover_z_reni_bonbon_2026", "venue": "KT Zepp Yokohama", "performanceAt": "2026-08-14T19:30:00+09:00", "doorOpenAt": "2026-08-14T18:30:00+09:00", "kind": "oneman", "eventName": "第二部：サンバ公演", "source": "system", "sourceUrl": "https://www.momoclo.net/archives/news/260713_05", "lastVerifiedAt": "2026-07-18T00:00:00+09:00"},
-    {"id": "momoiro_clover_z_fes_fest_inazuma_2026_kusatsu_0919", "tourId": "momoiro_clover_z_fes_fest_inazuma_2026", "venue": "滋賀県草津市 烏丸半島芝生広場", "performanceAt": "2026-09-19T11:30:00+09:00", "doorOpenAt": "2026-09-19T10:00:00+09:00", "kind": "fes", "eventName": "FEST. INAZUMA 2026", "source": "system", "sourceUrl": "https://www.momoclo.net/archives/news/260508_01", "lastVerifiedAt": "2026-07-18T00:00:00+09:00"},
-    {"id": "momoiro_clover_z_akimonoshinsai_2026_chiba_1017", "tourId": "momoiro_clover_z_akimonoshinsai_2026", "venue": "尼ケ台総合公園", "performanceAt": "2026-10-17T15:00:00+09:00", "doorOpenAt": "2026-10-17T13:30:00+09:00", "kind": "oneman", "eventName": "DAY1 ～鬼になった桃神様～", "source": "system", "sourceUrl": "https://www.momoclo.net/archives/news/260718_02", "lastVerifiedAt": "2026-07-18T00:00:00+09:00"},
-    {"id": "momoiro_clover_z_akimonoshinsai_2026_chiba_1018", "tourId": "momoiro_clover_z_akimonoshinsai_2026", "venue": "尼ケ台総合公園", "performanceAt": "2026-10-18T15:00:00+09:00", "doorOpenAt": "2026-10-18T13:30:00+09:00", "kind": "oneman", "eventName": "DAY2 ～祀れ、われらの偶像～", "source": "system", "sourceUrl": "https://www.momoclo.net/archives/news/260718_02", "lastVerifiedAt": "2026-07-18T00:00:00+09:00"},
-    {"id": "momoiro_clover_z_fes_kishidanbanpaku_2026_makuhari_1108", "tourId": "momoiro_clover_z_fes_kishidanbanpaku_2026", "venue": "幕張メッセ国際展示場 4～7ホール", "performanceAt": "2026-11-08T10:30:00+09:00", "doorOpenAt": "2026-11-08T09:00:00+09:00", "kind": "fes", "eventName": "サントリー オールフリー presents 氣志團万博2026 〜房総爆音リゾート〜", "source": "system", "sourceUrl": "https://www.momoclo.net/archives/news/260701_01", "lastVerifiedAt": "2026-07-18T00:00:00+09:00"},
-    {"id": "momoiro_clover_z_xmas_2026_tokyo_1212", "tourId": "momoiro_clover_z_xmas_2026", "venue": "SGC HALL ARIAKE", "performanceAt": "2026-12-12T18:00:00+09:00", "doorOpenAt": null, "kind": "oneman", "eventName": null, "source": "system", "sourceUrl": "https://www.momoclo.net/archives/news/251221_01", "lastVerifiedAt": "2026-07-18T00:00:00+09:00"},
-    {"id": "momoiro_clover_z_xmas_2026_tokyo_1213", "tourId": "momoiro_clover_z_xmas_2026", "venue": "SGC HALL ARIAKE", "performanceAt": "2026-12-13T18:00:00+09:00", "doorOpenAt": null, "kind": "oneman", "eventName": null, "source": "system", "sourceUrl": "https://www.momoclo.net/archives/news/251221_01", "lastVerifiedAt": "2026-07-18T00:00:00+09:00"},
-    {"id": "momoiro_clover_z_utagassen_10th_tokyo_1231", "tourId": "momoiro_clover_z_utagassen_10th", "venue": "有明アリーナ", "performanceAt": "2026-12-31T18:00:00+09:00", "doorOpenAt": null, "kind": "oneman", "eventName": "第10回 ももいろ歌合戦", "source": "system", "sourceUrl": "https://www.momoclo.net/archives/news/251221_01", "lastVerifiedAt": "2026-07-18T00:00:00+09:00"}
+    {
+      "id": "momoiro_clover_z_fes_hotei_fes_2026_gunma_0725",
+      "tourId": "momoiro_clover_z_fes_hotei_fes_2026",
+      "venue": "Gメッセ群馬",
+      "performanceAt": "2026-07-25T18:00:00+09:00",
+      "doorOpenAt": "2026-07-25T12:30:00+09:00",
+      "kind": "fes",
+      "eventName": "HOTEI FES",
+      "source": "system",
+      "sourceUrl": "https://hotei-fes.com",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_fes_tachi_fes_2026_tachikawa_0731",
+      "tourId": "momoiro_clover_z_fes_tachi_fes_2026",
+      "venue": "TACHIKAWA STAGE GARDEN",
+      "performanceAt": "2026-07-31T18:30:00+09:00",
+      "doorOpenAt": "2026-07-31T17:30:00+09:00",
+      "kind": "fes",
+      "eventName": "TACHI FES 2026～音楽を好きになる街へ～",
+      "source": "system",
+      "sourceUrl": "https://event.tachihi.co.jp/tachifes/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_fes_tif_2026_odaiba_0731_1",
+      "tourId": "momoiro_clover_z_fes_tif_2026",
+      "venue": "SMILE GARDEN（お台場・青海周辺エリア）",
+      "performanceAt": "2026-07-31T10:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "TOKYO IDOL FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260707_01",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_fes_tif_2026_odaiba_0731_2",
+      "tourId": "momoiro_clover_z_fes_tif_2026",
+      "venue": "SMILE GARDEN（お台場・青海周辺エリア）",
+      "performanceAt": "2026-07-31T12:50:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "灼熱！真夏のアイドルメドレー 〜A-RIN BEYOND THE LIMIT〜",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260707_01",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_fes_nack_keyaki_ondo_2026_saitama_0801",
+      "tourId": "momoiro_clover_z_fes_nack_keyaki_ondo_2026",
+      "venue": "さいたま新都心 GMOアリーナ隣接 けやきひろば",
+      "performanceAt": "2026-08-01T16:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "Carro presents NACK KEYAKI ON-DO ～ON the music, DO the dance～",
+      "source": "system",
+      "sourceUrl": "https://www.nackkeyaki-ondo.jp/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_reni_bonbon_2026_yokohama_0814_1",
+      "tourId": "momoiro_clover_z_reni_bonbon_2026",
+      "venue": "KT Zepp Yokohama",
+      "performanceAt": "2026-08-14T14:30:00+09:00",
+      "doorOpenAt": "2026-08-14T13:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "第一部：ボンボン公演",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260713_05",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_reni_bonbon_2026_yokohama_0814_2",
+      "tourId": "momoiro_clover_z_reni_bonbon_2026",
+      "venue": "KT Zepp Yokohama",
+      "performanceAt": "2026-08-14T19:30:00+09:00",
+      "doorOpenAt": "2026-08-14T18:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "第二部：サンバ公演",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260713_05",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_fes_fest_inazuma_2026_kusatsu_0919",
+      "tourId": "momoiro_clover_z_fes_fest_inazuma_2026",
+      "venue": "滋賀県草津市 烏丸半島芝生広場",
+      "performanceAt": "2026-09-19T11:30:00+09:00",
+      "doorOpenAt": "2026-09-19T10:00:00+09:00",
+      "kind": "fes",
+      "eventName": "FEST. INAZUMA 2026",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260508_01",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_akimonoshinsai_2026_chiba_1017",
+      "tourId": "momoiro_clover_z_akimonoshinsai_2026",
+      "venue": "尼ケ台総合公園",
+      "performanceAt": "2026-10-17T15:00:00+09:00",
+      "doorOpenAt": "2026-10-17T13:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "DAY1 ～鬼になった桃神様～",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260718_02",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_akimonoshinsai_2026_chiba_1018",
+      "tourId": "momoiro_clover_z_akimonoshinsai_2026",
+      "venue": "尼ケ台総合公園",
+      "performanceAt": "2026-10-18T15:00:00+09:00",
+      "doorOpenAt": "2026-10-18T13:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "DAY2 ～祀れ、われらの偶像～",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260718_02",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_fes_kishidanbanpaku_2026_makuhari_1108",
+      "tourId": "momoiro_clover_z_fes_kishidanbanpaku_2026",
+      "venue": "幕張メッセ国際展示場 4～7ホール",
+      "performanceAt": "2026-11-08T10:30:00+09:00",
+      "doorOpenAt": "2026-11-08T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "サントリー オールフリー presents 氣志團万博2026 〜房総爆音リゾート〜",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260701_01",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_xmas_2026_tokyo_1212",
+      "tourId": "momoiro_clover_z_xmas_2026",
+      "venue": "SGC HALL ARIAKE",
+      "performanceAt": "2026-12-12T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/251221_01",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_xmas_2026_tokyo_1213",
+      "tourId": "momoiro_clover_z_xmas_2026",
+      "venue": "SGC HALL ARIAKE",
+      "performanceAt": "2026-12-13T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/251221_01",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_utagassen_10th_tokyo_1231",
+      "tourId": "momoiro_clover_z_utagassen_10th",
+      "venue": "有明アリーナ",
+      "performanceAt": "2026-12-31T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "第10回 ももいろ歌合戦",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/251221_01",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    }
   ],
   "lotteries": [
-    {"id": "momoiro_clover_z_fes_hotei_fes_2026_general", "tourId": "momoiro_clover_z_fes_hotei_fes_2026", "type": "一般発売（抽選・ローソンチケット）", "entryStartAt": "2026-05-30T12:00:00+09:00", "entryEndAt": "2026-06-02T23:59:00+09:00", "resultAt": null, "paymentStartAt": null, "paymentEndAt": null, "performanceIds": ["momoiro_clover_z_fes_hotei_fes_2026_gunma_0725"], "source": "system", "sourceUrl": "https://1link.jp/hotei_fes", "lastVerifiedAt": "2026-07-18T00:00:00+09:00"},
-    {"id": "momoiro_clover_z_momota_sunny_party_2026_fc", "tourId": "momoiro_clover_z_momota_sunny_party_2026", "type": "FC先行（ANGEL EYES会員）", "entryStartAt": "2026-04-17T19:00:00+09:00", "entryEndAt": "2026-04-21T23:59:00+09:00", "resultAt": "2026-04-29T13:00:00+09:00", "paymentStartAt": "2026-04-29T13:00:00+09:00", "paymentEndAt": "2026-05-03T23:59:00+09:00", "performanceIds": ["momoiro_clover_z_momota_sunny_party_2026_yokohama_0720"], "source": "system", "sourceUrl": "https://www.momoclo.net/archives/news/260417_01", "lastVerifiedAt": "2026-07-18T00:00:00+09:00"},
-    {"id": "momoiro_clover_z_reni_bonbon_2026_fc", "tourId": "momoiro_clover_z_reni_bonbon_2026", "type": "FC先行（ANGEL EYES会員）", "entryStartAt": "2026-04-29T21:00:00+09:00", "entryEndAt": "2026-05-06T23:59:00+09:00", "resultAt": "2026-05-14T13:00:00+09:00", "paymentStartAt": "2026-05-14T13:00:00+09:00", "paymentEndAt": "2026-05-17T23:59:00+09:00", "performanceIds": ["momoiro_clover_z_reni_bonbon_2026_yokohama_0814_1", "momoiro_clover_z_reni_bonbon_2026_yokohama_0814_2"], "source": "system", "sourceUrl": "https://www.momoclo.net/archives/news/260429_01", "lastVerifiedAt": "2026-07-18T00:00:00+09:00"},
-    {"id": "momoiro_clover_z_reni_bonbon_2026_eplus", "tourId": "momoiro_clover_z_reni_bonbon_2026", "type": "一般抽選（イープラス）", "entryStartAt": "2026-05-28T18:00:00+09:00", "entryEndAt": "2026-05-31T23:59:00+09:00", "resultAt": "2026-06-04T13:00:00+09:00", "paymentStartAt": "2026-06-04T13:00:00+09:00", "paymentEndAt": "2026-06-08T21:00:00+09:00", "performanceIds": ["momoiro_clover_z_reni_bonbon_2026_yokohama_0814_1", "momoiro_clover_z_reni_bonbon_2026_yokohama_0814_2"], "source": "system", "sourceUrl": "https://www.momoclo.net/archives/news/260528_01", "lastVerifiedAt": "2026-07-18T00:00:00+09:00"},
-    {"id": "momoiro_clover_z_fes_fest_inazuma_2026_fastest", "tourId": "momoiro_clover_z_fes_fest_inazuma_2026", "type": "オフィシャル最速先行（イープラス）", "entryStartAt": "2026-05-08T17:00:00+09:00", "entryEndAt": "2026-05-24T23:59:00+09:00", "resultAt": null, "paymentStartAt": null, "paymentEndAt": null, "performanceIds": ["momoiro_clover_z_fes_fest_inazuma_2026_kusatsu_0919"], "source": "system", "sourceUrl": "https://www.momoclo.net/archives/news/260508_01", "lastVerifiedAt": "2026-07-18T00:00:00+09:00"},
-    {"id": "momoiro_clover_z_fes_tif_2026_mashimashi", "tourId": "momoiro_clover_z_fes_tif_2026", "type": "優先エリア入場券マシマシチケット（抽選・ローソンチケット）", "entryStartAt": "2026-07-17T12:00:00+09:00", "entryEndAt": "2026-07-21T23:59:00+09:00", "resultAt": "2026-07-28T15:00:00+09:00", "paymentStartAt": null, "paymentEndAt": null, "performanceIds": ["momoiro_clover_z_fes_tif_2026_odaiba_0731_1", "momoiro_clover_z_fes_tif_2026_odaiba_0731_2"], "source": "system", "sourceUrl": "https://official.idolfes.com/s/tif2026/news/detail/10085?ima=0000", "lastVerifiedAt": "2026-07-18T00:00:00+09:00"},
-    {"id": "momoiro_clover_z_akimonoshinsai_2026_fc", "tourId": "momoiro_clover_z_akimonoshinsai_2026", "type": "FC先行（ANGEL EYES会員）", "entryStartAt": "2026-06-15T13:00:00+09:00", "entryEndAt": "2026-06-21T23:59:00+09:00", "resultAt": "2026-06-27T13:00:00+09:00", "paymentStartAt": "2026-06-27T13:00:00+09:00", "paymentEndAt": "2026-07-02T23:59:00+09:00", "performanceIds": ["momoiro_clover_z_akimonoshinsai_2026_chiba_1017", "momoiro_clover_z_akimonoshinsai_2026_chiba_1018"], "source": "system", "sourceUrl": "https://www.momoclo.net/archives/news/260615_01", "lastVerifiedAt": "2026-07-18T00:00:00+09:00"},
-    {"id": "momoiro_clover_z_akimonoshinsai_2026_eplus", "tourId": "momoiro_clover_z_akimonoshinsai_2026", "type": "プレオーダー（イープラス）", "entryStartAt": "2026-07-18T15:00:00+09:00", "entryEndAt": "2026-07-22T23:59:00+09:00", "resultAt": "2026-07-25T13:00:00+09:00", "paymentStartAt": "2026-07-25T13:00:00+09:00", "paymentEndAt": "2026-07-28T21:00:00+09:00", "performanceIds": ["momoiro_clover_z_akimonoshinsai_2026_chiba_1017", "momoiro_clover_z_akimonoshinsai_2026_chiba_1018"], "source": "system", "sourceUrl": "https://www.momoclo.net/archives/news/260718_02", "lastVerifiedAt": "2026-07-18T00:00:00+09:00"}
+    {
+      "id": "momoiro_clover_z_fes_hotei_fes_2026_general",
+      "tourId": "momoiro_clover_z_fes_hotei_fes_2026",
+      "type": "一般発売（抽選・ローソンチケット）",
+      "entryStartAt": "2026-05-30T12:00:00+09:00",
+      "entryEndAt": "2026-06-02T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "momoiro_clover_z_fes_hotei_fes_2026_gunma_0725"
+      ],
+      "source": "system",
+      "sourceUrl": "https://1link.jp/hotei_fes",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_reni_bonbon_2026_fc",
+      "tourId": "momoiro_clover_z_reni_bonbon_2026",
+      "type": "FC先行（ANGEL EYES会員）",
+      "entryStartAt": "2026-04-29T21:00:00+09:00",
+      "entryEndAt": "2026-05-06T23:59:00+09:00",
+      "resultAt": "2026-05-14T13:00:00+09:00",
+      "paymentStartAt": "2026-05-14T13:00:00+09:00",
+      "paymentEndAt": "2026-05-17T23:59:00+09:00",
+      "performanceIds": [
+        "momoiro_clover_z_reni_bonbon_2026_yokohama_0814_1",
+        "momoiro_clover_z_reni_bonbon_2026_yokohama_0814_2"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260429_01",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_reni_bonbon_2026_eplus",
+      "tourId": "momoiro_clover_z_reni_bonbon_2026",
+      "type": "一般抽選（イープラス）",
+      "entryStartAt": "2026-05-28T18:00:00+09:00",
+      "entryEndAt": "2026-05-31T23:59:00+09:00",
+      "resultAt": "2026-06-04T13:00:00+09:00",
+      "paymentStartAt": "2026-06-04T13:00:00+09:00",
+      "paymentEndAt": "2026-06-08T21:00:00+09:00",
+      "performanceIds": [
+        "momoiro_clover_z_reni_bonbon_2026_yokohama_0814_1",
+        "momoiro_clover_z_reni_bonbon_2026_yokohama_0814_2"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260528_01",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_fes_fest_inazuma_2026_fastest",
+      "tourId": "momoiro_clover_z_fes_fest_inazuma_2026",
+      "type": "オフィシャル最速先行（イープラス）",
+      "entryStartAt": "2026-05-08T17:00:00+09:00",
+      "entryEndAt": "2026-05-24T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "momoiro_clover_z_fes_fest_inazuma_2026_kusatsu_0919"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260508_01",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_fes_tif_2026_mashimashi",
+      "tourId": "momoiro_clover_z_fes_tif_2026",
+      "type": "優先エリア入場券マシマシチケット（抽選・ローソンチケット）",
+      "entryStartAt": "2026-07-17T12:00:00+09:00",
+      "entryEndAt": "2026-07-21T23:59:00+09:00",
+      "resultAt": "2026-07-28T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "momoiro_clover_z_fes_tif_2026_odaiba_0731_1",
+        "momoiro_clover_z_fes_tif_2026_odaiba_0731_2"
+      ],
+      "source": "system",
+      "sourceUrl": "https://official.idolfes.com/s/tif2026/news/detail/10085?ima=0000",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_akimonoshinsai_2026_fc",
+      "tourId": "momoiro_clover_z_akimonoshinsai_2026",
+      "type": "FC先行（ANGEL EYES会員）",
+      "entryStartAt": "2026-06-15T13:00:00+09:00",
+      "entryEndAt": "2026-06-21T23:59:00+09:00",
+      "resultAt": "2026-06-27T13:00:00+09:00",
+      "paymentStartAt": "2026-06-27T13:00:00+09:00",
+      "paymentEndAt": "2026-07-02T23:59:00+09:00",
+      "performanceIds": [
+        "momoiro_clover_z_akimonoshinsai_2026_chiba_1017",
+        "momoiro_clover_z_akimonoshinsai_2026_chiba_1018"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260615_01",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_akimonoshinsai_2026_eplus",
+      "tourId": "momoiro_clover_z_akimonoshinsai_2026",
+      "type": "プレオーダー（イープラス）",
+      "entryStartAt": "2026-07-18T15:00:00+09:00",
+      "entryEndAt": "2026-07-22T23:59:00+09:00",
+      "resultAt": "2026-07-25T13:00:00+09:00",
+      "paymentStartAt": "2026-07-25T13:00:00+09:00",
+      "paymentEndAt": "2026-07-28T21:00:00+09:00",
+      "performanceIds": [
+        "momoiro_clover_z_akimonoshinsai_2026_chiba_1017",
+        "momoiro_clover_z_akimonoshinsai_2026_chiba_1018"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260718_02",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    }
   ]
 }

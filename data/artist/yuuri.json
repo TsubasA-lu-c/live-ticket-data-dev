@@ -46,17 +46,6 @@
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
-      "id": "yuuri_fes_2026_joinalive",
-      "artistId": "yuuri",
-      "title": "JOIN ALIVE 2026",
-      "startDate": "2026-07-18T18:20:00+09:00",
-      "endDate": "2026-07-18T18:20:00+09:00",
-      "prices": [],
-      "source": "system",
-      "sourceUrl": "https://joinalive.jp/2026/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-    },
-    {
       "id": "yuuri_fes_2026_osakagigantic",
       "artistId": "yuuri",
       "title": "OSAKA GIGANTIC MUSIC FESTIVAL 2026",
@@ -194,18 +183,6 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/3413260010",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-    },
-    {
-      "id": "yuuri_fes_2026_joinalive_0718",
-      "tourId": "yuuri_fes_2026_joinalive",
-      "venue": "山麓公園",
-      "performanceAt": "2026-07-18T18:20:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "JOIN ALIVE 2026",
-      "source": "system",
-      "sourceUrl": "https://joinalive.jp/2026/",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {

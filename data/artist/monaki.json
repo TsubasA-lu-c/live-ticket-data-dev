@@ -2,17 +2,6 @@
   "artistId": "monaki",
   "tours": [
     {
-      "id": "monaki_event_boatrace_2026",
-      "artistId": "monaki",
-      "title": "GⅢオールレディース ジュエルセブンカップ ステージイベント",
-      "startDate": "2026-07-20T00:00:00+09:00",
-      "endDate": "2026-07-20T00:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://monaki.fanpla.jp/news/detail/82706",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
-    },
-    {
       "id": "monaki_event_2shot_2026",
       "artistId": "monaki",
       "title": "メンバー個別 2ショット撮影会",
@@ -106,18 +95,6 @@
       "eventName": "デビューシングル「ほんまやで☆なんでやねん☆しらんけど」発売記念リリースイベント",
       "source": "system",
       "sourceUrl": "https://monaki.fanpla.jp/news/detail/82354",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
-    },
-    {
-      "id": "monaki_event_boatrace_2026_boatrace_0720",
-      "tourId": "monaki_event_boatrace_2026",
-      "venue": "ボートレース下関",
-      "performanceAt": "2026-07-20T00:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "GⅢオールレディース ジュエルセブンカップ",
-      "source": "system",
-      "sourceUrl": "https://monaki.fanpla.jp/news/detail/82706",
       "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {

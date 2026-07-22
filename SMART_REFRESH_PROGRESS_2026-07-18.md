@@ -5,9 +5,9 @@
 ## 現在地
 
 - 全102組をhash比較し、82組を変更ありと判定。
-- 80組は収集・validate・hash accept・manifest更新・commit・pushまで完了。
-- 第16論理バッチまで配信反映済み。manifestはv86、未処理は2組。
-- 次回は`aina_the_end`から再開。
+- 82組は収集・validate・hash accept・manifest更新・commit・pushまで完了。
+- 全82組の差分更新が完了。manifestはv87、未処理は0組。
+- /refresh-smart 完了。
 - 未追跡のユーザーファイル `x_thread_artists.md` は変更・削除・commit禁止。
 
 ## 重要なチェックポイント運用

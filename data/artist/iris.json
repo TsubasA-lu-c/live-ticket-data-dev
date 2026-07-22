@@ -2,22 +2,6 @@
   "artistId": "iris",
   "tours": [
     {
-      "id": "iris_11th_live_tour_2026",
-      "artistId": "iris",
-      "title": "i☆Ris 11th Live Tour 2026 ～VINTAGEイイ味出てます～",
-      "startDate": "2026-05-02T00:00:00+09:00",
-      "endDate": "2026-07-19T00:00:00+09:00",
-      "prices": [
-        {
-          "label": "全席指定",
-          "amount": 9200
-        }
-      ],
-      "source": "system",
-      "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-    },
-    {
       "id": "iris_14th_anniversary_live_2026",
       "artistId": "iris",
       "title": "i☆Ris 14th Anniversary Live",
@@ -31,17 +15,6 @@
       ],
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133209",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-    },
-    {
-      "id": "iris_fes_2026_animelo",
-      "artistId": "iris",
-      "title": "Animelo Summer Live 2026 -Messenger-",
-      "startDate": "2026-07-12T12:00:00+09:00",
-      "endDate": "2026-07-12T12:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://anisama.tv/2026/en/",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
@@ -120,105 +93,6 @@
   ],
   "performances": [
     {
-      "id": "iris_11th_live_tour_2026_saitama_0502",
-      "tourId": "iris_11th_live_tour_2026",
-      "venue": "三郷市文化会館",
-      "performanceAt": "2026-05-02T00:00:00+09:00",
-      "doorOpenAt": null,
-      "source": "system",
-      "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
-      "kind": "oneman"
-    },
-    {
-      "id": "iris_11th_live_tour_2026_fukuoka_0504",
-      "tourId": "iris_11th_live_tour_2026",
-      "venue": "Zepp Fukuoka",
-      "performanceAt": "2026-05-04T00:00:00+09:00",
-      "doorOpenAt": null,
-      "source": "system",
-      "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
-      "kind": "oneman"
-    },
-    {
-      "id": "iris_11th_live_tour_2026_aichi_0509",
-      "tourId": "iris_11th_live_tour_2026",
-      "venue": "Niterra日本特殊陶業市民会館 ビレッジホール",
-      "performanceAt": "2026-05-09T00:00:00+09:00",
-      "doorOpenAt": null,
-      "source": "system",
-      "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
-      "kind": "oneman"
-    },
-    {
-      "id": "iris_11th_live_tour_2026_hokkaido_0516",
-      "tourId": "iris_11th_live_tour_2026",
-      "venue": "Zepp Sapporo",
-      "performanceAt": "2026-05-16T00:00:00+09:00",
-      "doorOpenAt": null,
-      "source": "system",
-      "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
-      "kind": "oneman"
-    },
-    {
-      "id": "iris_11th_live_tour_2026_osaka_0524",
-      "tourId": "iris_11th_live_tour_2026",
-      "venue": "Zepp Namba",
-      "performanceAt": "2026-05-24T00:00:00+09:00",
-      "doorOpenAt": null,
-      "source": "system",
-      "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
-      "kind": "oneman"
-    },
-    {
-      "id": "iris_11th_live_tour_2026_miyagi_0530",
-      "tourId": "iris_11th_live_tour_2026",
-      "venue": "仙台PIT",
-      "performanceAt": "2026-05-30T00:00:00+09:00",
-      "doorOpenAt": null,
-      "source": "system",
-      "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
-      "kind": "oneman"
-    },
-    {
-      "id": "iris_11th_live_tour_2026_kanagawa_0531",
-      "tourId": "iris_11th_live_tour_2026",
-      "venue": "KT Zepp Yokohama",
-      "performanceAt": "2026-05-31T00:00:00+09:00",
-      "doorOpenAt": null,
-      "source": "system",
-      "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
-      "kind": "oneman"
-    },
-    {
-      "id": "iris_11th_live_tour_2026_tokyo_0719_day",
-      "tourId": "iris_11th_live_tour_2026",
-      "venue": "立川ステージガーデン",
-      "performanceAt": "2026-07-19T00:00:00+09:00",
-      "doorOpenAt": null,
-      "source": "system",
-      "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
-      "kind": "oneman"
-    },
-    {
-      "id": "iris_11th_live_tour_2026_tokyo_0719_night",
-      "tourId": "iris_11th_live_tour_2026",
-      "venue": "立川ステージガーデン",
-      "performanceAt": "2026-07-19T00:00:00+09:00",
-      "doorOpenAt": null,
-      "source": "system",
-      "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
-      "kind": "oneman"
-    },
-    {
       "id": "iris_14th_anniversary_live_2026_yokohama_1103",
       "tourId": "iris_14th_anniversary_live_2026",
       "venue": "横浜アリーナ",
@@ -228,18 +102,6 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133209",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-    },
-    {
-      "id": "iris_fes_2026_animelo_0712",
-      "tourId": "iris_fes_2026_animelo",
-      "venue": "幕張メッセ",
-      "performanceAt": "2026-07-12T15:00:00+09:00",
-      "doorOpenAt": "2026-07-12T13:00:00+09:00",
-      "kind": "fes",
-      "eventName": "Animelo Summer Live 2026 -Messenger-",
-      "source": "system",
-      "sourceUrl": "https://anisama.tv/2026/",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
@@ -664,54 +526,6 @@
     }
   ],
   "lotteries": [
-    {
-      "id": "iris_11th_live_tour_2026_eventer",
-      "tourId": "iris_11th_live_tour_2026",
-      "type": "イベンター先行",
-      "entryStartAt": "2026-02-18T15:00:00+09:00",
-      "entryEndAt": "2026-03-03T23:59:00+09:00",
-      "resultAt": "2026-03-06T13:00:00+09:00",
-      "paymentStartAt": "2026-03-06T13:00:00+09:00",
-      "paymentEndAt": "2026-03-09T23:00:00+09:00",
-      "performanceIds": [
-        "iris_11th_live_tour_2026_saitama_0502",
-        "iris_11th_live_tour_2026_fukuoka_0504",
-        "iris_11th_live_tour_2026_aichi_0509",
-        "iris_11th_live_tour_2026_hokkaido_0516",
-        "iris_11th_live_tour_2026_osaka_0524",
-        "iris_11th_live_tour_2026_miyagi_0530",
-        "iris_11th_live_tour_2026_kanagawa_0531",
-        "iris_11th_live_tour_2026_tokyo_0719_day",
-        "iris_11th_live_tour_2026_tokyo_0719_night"
-      ],
-      "source": "system",
-      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1131556",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-    },
-    {
-      "id": "iris_11th_live_tour_2026_fc_2nd",
-      "tourId": "iris_11th_live_tour_2026",
-      "type": "ファンクラブ2次先行",
-      "entryStartAt": "2026-02-04T15:00:00+09:00",
-      "entryEndAt": "2026-02-15T23:59:00+09:00",
-      "resultAt": "2026-02-18T13:00:00+09:00",
-      "paymentStartAt": "2026-02-18T13:00:00+09:00",
-      "paymentEndAt": "2026-02-21T23:00:00+09:00",
-      "performanceIds": [
-        "iris_11th_live_tour_2026_saitama_0502",
-        "iris_11th_live_tour_2026_fukuoka_0504",
-        "iris_11th_live_tour_2026_aichi_0509",
-        "iris_11th_live_tour_2026_hokkaido_0516",
-        "iris_11th_live_tour_2026_osaka_0524",
-        "iris_11th_live_tour_2026_miyagi_0530",
-        "iris_11th_live_tour_2026_kanagawa_0531",
-        "iris_11th_live_tour_2026_tokyo_0719_day",
-        "iris_11th_live_tour_2026_tokyo_0719_night"
-      ],
-      "source": "system",
-      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1131258",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-    },
     {
       "id": "iris_wakaii_yuki_live_tour_2026_fc",
       "tourId": "iris_wakaii_yuki_live_tour_2026",

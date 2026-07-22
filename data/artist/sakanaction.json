@@ -2,17 +2,6 @@
   "artistId": "sakanaction",
   "tours": [
     {
-      "id": "sakanaction_fes_2026_joinalive",
-      "artistId": "sakanaction",
-      "title": "JOIN ALIVE 2026",
-      "startDate": "2026-07-19T12:00:00+09:00",
-      "endDate": "2026-07-19T12:00:00+09:00",
-      "prices": [],
-      "source": "system",
-      "sourceUrl": "https://sakanaction.jp/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-    },
-    {
       "id": "sakanaction_fes_2026_fujirock",
       "artistId": "sakanaction",
       "title": "FUJI ROCK FESTIVAL 2026",
@@ -64,18 +53,6 @@
     }
   ],
   "performances": [
-    {
-      "id": "sakanaction_fes_2026_joinalive_0719",
-      "tourId": "sakanaction_fes_2026_joinalive",
-      "venue": "いわみざわ公園",
-      "performanceAt": "2026-07-19T12:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "JOIN ALIVE 2026",
-      "source": "system",
-      "sourceUrl": "https://sakanaction.jp/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-    },
     {
       "id": "sakanaction_fes_2026_fujirock_0726",
       "tourId": "sakanaction_fes_2026_fujirock",

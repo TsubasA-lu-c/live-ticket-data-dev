@@ -22,17 +22,6 @@
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
-      "id": "macaroni_empitsu_fes_2026_eightjam",
-      "artistId": "macaroni_empitsu",
-      "title": "EIGHT-JAM FES 2026",
-      "startDate": "2026-07-11T12:00:00+09:00",
-      "endDate": "2026-07-12T12:00:00+09:00",
-      "prices": [],
-      "source": "system",
-      "sourceUrl": "https://macaroniempitsu.com/live",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
-    },
-    {
       "id": "macaroni_empitsu_fes_2026_numbershot",
       "artistId": "macaroni_empitsu",
       "title": "NUMBER SHOT2026",
@@ -310,18 +299,6 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://macaroniempitsu.com/live/19676.html",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
-    },
-    {
-      "id": "macaroni_empitsu_fes_2026_eightjam_0712",
-      "tourId": "macaroni_empitsu_fes_2026_eightjam",
-      "venue": "ノエビアスタジアム神戸",
-      "performanceAt": "2026-07-12T12:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "EIGHT-JAM FES 2026",
-      "source": "system",
-      "sourceUrl": "https://macaroniempitsu.com/live",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
