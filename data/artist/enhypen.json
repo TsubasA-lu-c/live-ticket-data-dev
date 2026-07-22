@@ -8,11 +8,35 @@
       "startDate": "2026-12-01T00:00:00+09:00",
       "endDate": "2027-02-20T00:00:00+09:00",
       "prices": [
-        {"label": "指定席", "amount": 17000}
+        {"label": "指定席", "amount": 17000},
+        {"label": "S席（アップグレードチケット）", "amount": 24000},
+        {"label": "VIP席（アップグレードチケット）", "amount": 28000}
       ],
       "source": "system",
       "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T10:06:57+09:00"
+    },
+    {
+      "id": "enhypen_the_sin_bliss_showcase_2026",
+      "artistId": "enhypen",
+      "title": "ENHYPEN 8th Mini Album『THE SIN : BLISS』発売記念ファンショーケース",
+      "startDate": "2026-09-04T00:00:00+09:00",
+      "endDate": "2026-09-04T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://enhypen-jp.weverse.io/news/747c3d04d6cb",
+      "lastVerifiedAt": "2026-07-22T10:06:57+09:00"
+    },
+    {
+      "id": "enhypen_the_sin_bliss_meet_greet_2026",
+      "artistId": "enhypen",
+      "title": "ENHYPEN 8th Mini Album『THE SIN : BLISS』ミート＆グリートイベント",
+      "startDate": "2026-09-05T00:00:00+09:00",
+      "endDate": "2026-09-05T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://enhypen-jp.weverse.io/news/b8c6629ddc6a",
+      "lastVerifiedAt": "2026-07-22T10:06:57+09:00"
     }
   ],
   "performances": [
@@ -26,7 +50,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T10:06:57+09:00"
     },
     {
       "id": "enhypen_blood_saga_japan_2026_tokyo_1202",
@@ -38,7 +62,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T10:06:57+09:00"
     },
     {
       "id": "enhypen_blood_saga_japan_2026_nagoya_1226",
@@ -50,7 +74,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T10:06:57+09:00"
     },
     {
       "id": "enhypen_blood_saga_japan_2026_nagoya_1227",
@@ -62,7 +86,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T10:06:57+09:00"
     },
     {
       "id": "enhypen_blood_saga_japan_2026_fukuoka_0206",
@@ -74,7 +98,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T10:06:57+09:00"
     },
     {
       "id": "enhypen_blood_saga_japan_2026_fukuoka_0207",
@@ -86,7 +110,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T10:06:57+09:00"
     },
     {
       "id": "enhypen_blood_saga_japan_2026_osaka_0219",
@@ -98,7 +122,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T10:06:57+09:00"
     },
     {
       "id": "enhypen_blood_saga_japan_2026_osaka_0220",
@@ -110,7 +134,31 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T10:06:57+09:00"
+    },
+    {
+      "id": "enhypen_the_sin_bliss_showcase_2026_toyosu_0904",
+      "tourId": "enhypen_the_sin_bliss_showcase_2026",
+      "venue": "豊洲PIT",
+      "performanceAt": "2026-09-04T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://enhypen-jp.weverse.io/news/747c3d04d6cb",
+      "lastVerifiedAt": "2026-07-22T10:06:57+09:00"
+    },
+    {
+      "id": "enhypen_the_sin_bliss_meet_greet_2026_kanto_0905",
+      "tourId": "enhypen_the_sin_bliss_meet_greet_2026",
+      "venue": "関東某所",
+      "performanceAt": "2026-09-05T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://enhypen-jp.weverse.io/news/b8c6629ddc6a",
+      "lastVerifiedAt": "2026-07-22T10:06:57+09:00"
     }
   ],
   "lotteries": [
@@ -135,7 +183,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T10:06:57+09:00"
     },
     {
       "id": "enhypen_blood_saga_japan_2026_engene_jp_2nd",
@@ -158,7 +206,91 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T10:06:57+09:00"
+    },
+    {
+      "id": "enhypen_blood_saga_japan_2026_engene_global_us",
+      "tourId": "enhypen_blood_saga_japan_2026",
+      "type": "ENGENE Membership (GLOBAL/US) 会員先行",
+      "entryStartAt": "2026-06-19T13:00:00+09:00",
+      "entryEndAt": "2026-06-28T23:59:00+09:00",
+      "resultAt": "2026-07-02T11:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://weverse.io/enhypen/notice/36566?hl=ja",
+      "lastVerifiedAt": "2026-07-22T10:06:57+09:00"
+    },
+    {
+      "id": "enhypen_the_sin_bliss_showcase_2026_sendoff_special",
+      "tourId": "enhypen_the_sin_bliss_showcase_2026",
+      "type": "お見送り会付きスペシャル枠",
+      "entryStartAt": "2026-07-13T11:00:00+09:00",
+      "entryEndAt": "2026-07-15T23:59:00+09:00",
+      "resultAt": "2026-07-24T20:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["enhypen_the_sin_bliss_showcase_2026_toyosu_0904"],
+      "source": "system",
+      "sourceUrl": "https://enhypen-jp.weverse.io/news/747c3d04d6cb",
+      "lastVerifiedAt": "2026-07-22T10:06:57+09:00"
+    },
+    {
+      "id": "enhypen_the_sin_bliss_showcase_2026_general_1st",
+      "tourId": "enhypen_the_sin_bliss_showcase_2026",
+      "type": "一般応募枠 第1回",
+      "entryStartAt": "2026-07-13T11:00:00+09:00",
+      "entryEndAt": "2026-07-15T23:59:00+09:00",
+      "resultAt": "2026-07-24T20:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["enhypen_the_sin_bliss_showcase_2026_toyosu_0904"],
+      "source": "system",
+      "sourceUrl": "https://enhypen-jp.weverse.io/news/747c3d04d6cb",
+      "lastVerifiedAt": "2026-07-22T10:06:57+09:00"
+    },
+    {
+      "id": "enhypen_the_sin_bliss_showcase_2026_general_2nd",
+      "tourId": "enhypen_the_sin_bliss_showcase_2026",
+      "type": "一般応募枠 第2回",
+      "entryStartAt": "2026-07-16T00:00:00+09:00",
+      "entryEndAt": "2026-07-28T17:59:00+09:00",
+      "resultAt": "2026-08-05T20:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["enhypen_the_sin_bliss_showcase_2026_toyosu_0904"],
+      "source": "system",
+      "sourceUrl": "https://enhypen-jp.weverse.io/news/747c3d04d6cb",
+      "lastVerifiedAt": "2026-07-22T10:06:57+09:00"
+    },
+    {
+      "id": "enhypen_the_sin_bliss_meet_greet_2026_1st",
+      "tourId": "enhypen_the_sin_bliss_meet_greet_2026",
+      "type": "シリアルナンバー特典 第1回",
+      "entryStartAt": "2026-08-25T11:00:00+09:00",
+      "entryEndAt": "2026-08-27T10:00:00+09:00",
+      "resultAt": "2026-08-28T20:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["enhypen_the_sin_bliss_meet_greet_2026_kanto_0905"],
+      "source": "system",
+      "sourceUrl": "https://enhypen-jp.weverse.io/news/b8c6629ddc6a",
+      "lastVerifiedAt": "2026-07-22T10:06:57+09:00"
+    },
+    {
+      "id": "enhypen_the_sin_bliss_meet_greet_2026_2nd",
+      "tourId": "enhypen_the_sin_bliss_meet_greet_2026",
+      "type": "シリアルナンバー特典 第2回",
+      "entryStartAt": "2026-08-27T11:00:00+09:00",
+      "entryEndAt": "2026-09-01T10:00:00+09:00",
+      "resultAt": "2026-09-03T20:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["enhypen_the_sin_bliss_meet_greet_2026_kanto_0905"],
+      "source": "system",
+      "sourceUrl": "https://enhypen-jp.weverse.io/news/b8c6629ddc6a",
+      "lastVerifiedAt": "2026-07-22T10:06:57+09:00"
     }
   ]
 }

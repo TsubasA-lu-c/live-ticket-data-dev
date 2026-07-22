@@ -5,9 +5,9 @@
 ## 現在地
 
 - 全102組をhash比較し、82組を変更ありと判定。
-- 65組は収集・validate・hash accept・manifest更新・commit・pushまで完了。
-- 第13論理バッチまで配信反映済み。manifestはv83、未処理は17組。
-- 次回は`da_ice`から再開。
+- 70組は収集・validate・hash accept・manifest更新・commit・pushまで完了。
+- 第14論理バッチまで配信反映済み。manifestはv84、未処理は12組。
+- 次回は`le_sserafim`から再開。
 - 未追跡のユーザーファイル `x_thread_artists.md` は変更・削除・commit禁止。
 
 ## 重要なチェックポイント運用
@@ -174,14 +174,20 @@ IDs: `ini`, `jo1`, `mazzel`, `not_equal_me`, `boku_aozora`
 - MAZZEL、≠ME、僕が見たかった青空: 公式TOP・NEWS・既存チケット情報を再照合。新規受付なし。
 - validate成功、hash accept・manifest v83更新・commit・pushまで完了。
 
-## 第13バッチ後の未処理順（17組）
+## 第14バッチ（配信反映済み）
+
+IDs: `da_ice`, `bts`, `enhypen`, `ive`, `aespa`
+
+- Da-iCE: 8件のフェス・イベント出演と花村想太ソロツアー3公演を追加。J-WAVE PIANOMEN、JET STREAMの先行を追加。
+- BTS、IVE: 公式TOP・NEWS・SCHEDULEを再照合。将来の有料ライブ・先行は未発表。
+- ENHYPEN: `THE SIN : BLISS`のショーケースとミート＆グリートを追加し、応募枠5件を収集。ドームツアーのGLOBAL/US会員先行とアップグレード料金も反映。
+- aespa: 終了した7月ファンミーティングを削除し、8月韓国公演2件とライブビューイング、プレリクエスト先行を追加。
+- validate成功、hash accept・manifest v84更新・commit・pushまで完了。
+- ここで停止。次回は下記未処理順の先頭 `le_sserafim` から開始する。
+
+## 第14バッチ後の未処理順（12組）
 
 ```text
-da_ice
-bts
-enhypen
-ive
-aespa
 le_sserafim
 tomorrow_x_together
 sandaime_j_soul_brothers

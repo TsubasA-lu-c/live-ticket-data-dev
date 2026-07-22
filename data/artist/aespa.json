@@ -2,157 +2,87 @@
   "artistId": "aespa",
   "tours": [
     {
-      "id": "aespa_myclassmaete_2026",
+      "id": "aespa_synk_complaexity_2026",
       "artistId": "aespa",
-      "title": "MY-J presents aespa JAPAN FANMEETING 2026 \"MY CLASSMaeTE\"",
-      "startDate": "2026-07-18T00:00:00+09:00",
-      "endDate": "2026-07-20T00:00:00+09:00",
+      "title": "2026-27 aespa LIVE TOUR – SYNK : COMPLaeXITY",
+      "startDate": "2026-08-07T00:00:00+09:00",
+      "endDate": "2026-08-08T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://aespa-official.jp/news/complaexity-liveviewing/",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "aespa_synk_complaexity_liveviewing_2026",
+      "artistId": "aespa",
+      "title": "2026-27 aespa LIVE TOUR – SYNK : COMPLaeXITY LIVE VIEWING",
+      "startDate": "2026-08-07T00:00:00+09:00",
+      "endDate": "2026-08-07T00:00:00+09:00",
       "prices": [
-        {"label": "FC先行指定席", "amount": 12800},
-        {"label": "一般指定席", "amount": 14800}
+        {
+          "label": "全席指定",
+          "amount": 5000
+        }
       ],
       "source": "system",
-      "sourceUrl": "https://aespa-official.jp/news/fanmeeting2026-myclassmaete/",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "sourceUrl": "https://liveviewing.jp/aespa2026-27/",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
   ],
   "performances": [
     {
-      "id": "aespa_myclassmaete_2026_keioarena_0718a",
-      "tourId": "aespa_myclassmaete_2026",
-      "venue": "京王アリーナTOKYO",
-      "performanceAt": "2026-07-18T14:00:00+09:00",
-      "doorOpenAt": "2026-07-18T13:00:00+09:00",
+      "id": "aespa_synk_complaexity_2026_korea_0807",
+      "tourId": "aespa_synk_complaexity_2026",
+      "venue": null,
+      "performanceAt": "2026-08-07T19:00:00+09:00",
+      "doorOpenAt": null,
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://aespa-official.jp/news/fanmeeting2026-myclassmaete/",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "sourceUrl": "https://aespa-official.jp/news/complaexity-liveviewing/",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
-      "id": "aespa_myclassmaete_2026_keioarena_0718b",
-      "tourId": "aespa_myclassmaete_2026",
-      "venue": "京王アリーナTOKYO",
-      "performanceAt": "2026-07-18T18:30:00+09:00",
-      "doorOpenAt": "2026-07-18T17:30:00+09:00",
+      "id": "aespa_synk_complaexity_2026_korea_0808",
+      "tourId": "aespa_synk_complaexity_2026",
+      "venue": null,
+      "performanceAt": "2026-08-08T19:00:00+09:00",
+      "doorOpenAt": null,
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://aespa-official.jp/news/fanmeeting2026-myclassmaete/",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "sourceUrl": "https://aespa-official.jp/news/complaexity-liveviewing/",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
-      "id": "aespa_myclassmaete_2026_keioarena_0719a",
-      "tourId": "aespa_myclassmaete_2026",
-      "venue": "京王アリーナTOKYO",
-      "performanceAt": "2026-07-19T13:00:00+09:00",
-      "doorOpenAt": "2026-07-19T12:00:00+09:00",
+      "id": "aespa_synk_complaexity_liveviewing_2026_cinemas_0807",
+      "tourId": "aespa_synk_complaexity_liveviewing_2026",
+      "venue": null,
+      "performanceAt": "2026-08-07T19:00:00+09:00",
+      "doorOpenAt": null,
       "kind": "oneman",
-      "eventName": null,
+      "eventName": "2026-27 aespa LIVE TOUR – SYNK : COMPLaeXITY LIVE VIEWING",
       "source": "system",
-      "sourceUrl": "https://aespa-official.jp/news/fanmeeting2026-myclassmaete/",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
-    },
-    {
-      "id": "aespa_myclassmaete_2026_keioarena_0719b",
-      "tourId": "aespa_myclassmaete_2026",
-      "venue": "京王アリーナTOKYO",
-      "performanceAt": "2026-07-19T17:30:00+09:00",
-      "doorOpenAt": "2026-07-19T16:30:00+09:00",
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://aespa-official.jp/news/fanmeeting2026-myclassmaete/",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
-    },
-    {
-      "id": "aespa_myclassmaete_2026_keioarena_0720a",
-      "tourId": "aespa_myclassmaete_2026",
-      "venue": "京王アリーナTOKYO",
-      "performanceAt": "2026-07-20T13:00:00+09:00",
-      "doorOpenAt": "2026-07-20T12:00:00+09:00",
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://aespa-official.jp/news/fanmeeting2026-myclassmaete/",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
-    },
-    {
-      "id": "aespa_myclassmaete_2026_keioarena_0720b",
-      "tourId": "aespa_myclassmaete_2026",
-      "venue": "京王アリーナTOKYO",
-      "performanceAt": "2026-07-20T17:30:00+09:00",
-      "doorOpenAt": "2026-07-20T16:30:00+09:00",
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://aespa-official.jp/news/fanmeeting2026-myclassmaete/",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "sourceUrl": "https://liveviewing.jp/aespa2026-27/",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
   ],
   "lotteries": [
     {
-      "id": "aespa_myclassmaete_2026_fc_first",
-      "tourId": "aespa_myclassmaete_2026",
-      "type": "FC先行",
-      "entryStartAt": "2026-04-25T21:30:00+09:00",
-      "entryEndAt": "2026-05-12T23:59:00+09:00",
-      "resultAt": "2026-05-20T20:00:00+09:00",
-      "paymentStartAt": "2026-05-20T20:00:00+09:00",
-      "paymentEndAt": "2026-05-26T23:59:00+09:00",
+      "id": "aespa_synk_complaexity_liveviewing_2026_prerequest",
+      "tourId": "aespa_synk_complaexity_liveviewing_2026",
+      "type": "プレリクエスト先行",
+      "entryStartAt": "2026-07-25T12:00:00+09:00",
+      "entryEndAt": "2026-07-28T12:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
       "performanceIds": [
-        "aespa_myclassmaete_2026_keioarena_0718a",
-        "aespa_myclassmaete_2026_keioarena_0718b",
-        "aespa_myclassmaete_2026_keioarena_0719a",
-        "aespa_myclassmaete_2026_keioarena_0719b",
-        "aespa_myclassmaete_2026_keioarena_0720a",
-        "aespa_myclassmaete_2026_keioarena_0720b"
+        "aespa_synk_complaexity_liveviewing_2026_cinemas_0807"
       ],
       "source": "system",
-      "sourceUrl": "https://aespa-official.jp/news/fanmeeting2026-myclassmaete/",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
-    },
-    {
-      "id": "aespa_myclassmaete_2026_fc_second",
-      "tourId": "aespa_myclassmaete_2026",
-      "type": "FC先行",
-      "entryStartAt": "2026-05-25T18:00:00+09:00",
-      "entryEndAt": "2026-06-10T23:59:00+09:00",
-      "resultAt": "2026-06-18T20:00:00+09:00",
-      "paymentStartAt": "2026-06-18T20:00:00+09:00",
-      "paymentEndAt": "2026-06-23T23:59:00+09:00",
-      "performanceIds": [
-        "aespa_myclassmaete_2026_keioarena_0718a",
-        "aespa_myclassmaete_2026_keioarena_0718b",
-        "aespa_myclassmaete_2026_keioarena_0719a",
-        "aespa_myclassmaete_2026_keioarena_0719b",
-        "aespa_myclassmaete_2026_keioarena_0720a",
-        "aespa_myclassmaete_2026_keioarena_0720b"
-      ],
-      "source": "system",
-      "sourceUrl": "https://aespa-official.jp/news/fanmeeting2026-myclassmaete2/",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
-    },
-    {
-      "id": "aespa_myclassmaete_2026_general",
-      "tourId": "aespa_myclassmaete_2026",
-      "type": "一般先行",
-      "entryStartAt": "2026-06-19T18:00:00+09:00",
-      "entryEndAt": "2026-06-22T23:59:00+09:00",
-      "resultAt": "2026-06-27T20:00:00+09:00",
-      "paymentStartAt": "2026-06-27T20:00:00+09:00",
-      "paymentEndAt": "2026-07-01T23:59:00+09:00",
-      "performanceIds": [
-        "aespa_myclassmaete_2026_keioarena_0718a",
-        "aespa_myclassmaete_2026_keioarena_0718b",
-        "aespa_myclassmaete_2026_keioarena_0719a",
-        "aespa_myclassmaete_2026_keioarena_0719b",
-        "aespa_myclassmaete_2026_keioarena_0720a",
-        "aespa_myclassmaete_2026_keioarena_0720b"
-      ],
-      "source": "system",
-      "sourceUrl": "https://aespa-official.jp/news/fanmeeting2026-myclassmaete3/",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "sourceUrl": "https://liveviewing.jp/aespa2026-27/",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
   ]
 }

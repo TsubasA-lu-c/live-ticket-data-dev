@@ -5,12 +5,12 @@
       "id": "da_ice_fes_2026",
       "artistId": "da_ice",
       "title": "2026年フェス出演",
-      "startDate": "2026-10-03T00:00:00+09:00",
-      "endDate": "2026-10-17T00:00:00+09:00",
+      "startDate": "2026-08-02T00:00:00+09:00",
+      "endDate": "2026-10-18T00:00:00+09:00",
       "prices": null,
       "source": "system",
       "sourceUrl": "https://da-ice.jp/schedule/tour.php?id=1003011",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T10:07:01+09:00"
     },
     {
       "id": "da_ice_dome_phase_2027",
@@ -28,7 +28,18 @@
       ],
       "source": "system",
       "sourceUrl": "https://da-ice.jp/en/schedule/tour.php?id=1003011&fdate=2027-02-04&ldate=2027-02-14",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T10:07:01+09:00"
+    },
+    {
+      "id": "da_ice_sota_asceeension_2026",
+      "artistId": "da_ice",
+      "title": "SOTA HANAMURA Live Tour 2026 -ASCEEENSION-",
+      "startDate": "2026-07-24T00:00:00+09:00",
+      "endDate": "2026-08-17T00:00:00+09:00",
+      "prices": [{"label": "全席指定（ラミネートパス付き）", "amount": 12100}, {"label": "全席指定", "amount": 11000}, {"label": "注釈付き指定席", "amount": 11000}],
+      "source": "system",
+      "sourceUrl": "https://da-ice.jp/schedule/tour.php?id=1002946",
+      "lastVerifiedAt": "2026-07-22T10:07:01+09:00"
     }
   ],
   "performances": [
@@ -42,7 +53,7 @@
       "eventName": "マグロック&ポップ 2026",
       "source": "system",
       "sourceUrl": "https://da-ice.jp/schedule/live.php?id=1116291",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T10:07:01+09:00"
     },
     {
       "id": "da_ice_fes_2026_azuma_1017",
@@ -54,7 +65,7 @@
       "eventName": "LIVE AZUMA 2026",
       "source": "system",
       "sourceUrl": "https://da-ice.jp/schedule/live.php?id=1117543",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T10:07:01+09:00"
     },
     {
       "id": "da_ice_dome_phase_2027_tokyo_dome_0204",
@@ -66,7 +77,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://da-ice.jp/schedule/tour.php?id=1003011",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T10:07:01+09:00"
     },
     {
       "id": "da_ice_dome_phase_2027_kyocera_0213",
@@ -78,7 +89,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://da-ice.jp/schedule/tour.php?id=1003011",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T10:07:01+09:00"
     },
     {
       "id": "da_ice_dome_phase_2027_kyocera_0214",
@@ -90,7 +101,127 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://da-ice.jp/schedule/tour.php?id=1003011",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T10:07:01+09:00"
+    },
+    {
+      "id": "da_ice_fes_2026_rock_in_japan_0913",
+      "tourId": "da_ice_fes_2026",
+      "venue": "千葉市蘇我スポーツ公園",
+      "performanceAt": "2026-09-13T11:45:00+09:00",
+      "doorOpenAt": "2026-09-13T08:30:00+09:00",
+      "kind": "fes",
+      "eventName": "rockin'on presents ROCK IN JAPAN FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://da-ice.jp/news/detail.php?id=1133494",
+      "lastVerifiedAt": "2026-07-22T10:07:01+09:00"
+    },
+    {
+      "id": "da_ice_fes_2026_giga_0802",
+      "tourId": "da_ice_fes_2026",
+      "venue": "舞洲スポーツアイランド ジャイガ特設会場",
+      "performanceAt": "2026-08-02T11:00:00+09:00",
+      "doorOpenAt": "2026-08-02T09:30:00+09:00",
+      "kind": "fes",
+      "eventName": "OSAKA GIGANTIC MUSIC FESTIVAL 2026 -THANKS 10TH GIGA-",
+      "source": "system",
+      "sourceUrl": "https://da-ice.jp/schedule/detail.php?id=1116031",
+      "lastVerifiedAt": "2026-07-22T10:07:01+09:00"
+    },
+    {
+      "id": "da_ice_fes_2026_inazuma_0920",
+      "tourId": "da_ice_fes_2026",
+      "venue": "烏丸半島芝生広場",
+      "performanceAt": "2026-09-20T11:30:00+09:00",
+      "doorOpenAt": "2026-09-20T10:00:00+09:00",
+      "kind": "fes",
+      "eventName": "FEST. INAZUMA 2026",
+      "source": "system",
+      "sourceUrl": "https://da-ice.jp/news/detail.php?id=1133909",
+      "lastVerifiedAt": "2026-07-22T10:07:01+09:00"
+    },
+    {
+      "id": "da_ice_fes_2026_nettojam_0922",
+      "tourId": "da_ice_fes_2026",
+      "venue": "GLION ARENA KOBE",
+      "performanceAt": "2026-09-22T16:00:00+09:00",
+      "doorOpenAt": "2026-09-22T15:00:00+09:00",
+      "kind": "fes",
+      "eventName": "熱闘甲子園 presents 熱闘JAM 2026",
+      "source": "system",
+      "sourceUrl": "https://da-ice.jp/news/detail.php?id=1132974",
+      "lastVerifiedAt": "2026-07-22T10:07:01+09:00"
+    },
+    {
+      "id": "da_ice_fes_2026_1chance_0926",
+      "tourId": "da_ice_fes_2026",
+      "venue": "熊本県農業公園カントリーパーク",
+      "performanceAt": "2026-09-26T11:30:00+09:00",
+      "doorOpenAt": "2026-09-26T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "WANIMA presents 1CHANCE FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://da-ice.jp/news/detail.php?id=1133440",
+      "lastVerifiedAt": "2026-07-22T10:07:01+09:00"
+    },
+    {
+      "id": "da_ice_fes_2026_jwave_pianomen_1008",
+      "tourId": "da_ice_fes_2026",
+      "venue": "SGCホール有明",
+      "performanceAt": "2026-10-08T19:00:00+09:00",
+      "doorOpenAt": "2026-10-08T18:00:00+09:00",
+      "kind": "fes",
+      "eventName": "J-WAVE PIANOMEN（大野雄大・花村想太出演）",
+      "source": "system",
+      "sourceUrl": "https://da-ice.jp/news/detail.php?id=1134875",
+      "lastVerifiedAt": "2026-07-22T10:07:01+09:00"
+    },
+    {
+      "id": "da_ice_fes_2026_jet_stream_1018",
+      "tourId": "da_ice_fes_2026",
+      "venue": "LINE CUBE SHIBUYA",
+      "performanceAt": "2026-10-18T19:00:00+09:00",
+      "doorOpenAt": "2026-10-18T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "JET STREAM LIVE 2026 in 渋谷音楽祭（大野雄大ゲスト出演）",
+      "source": "system",
+      "sourceUrl": "https://da-ice.jp/news/detail.php?id=1134701",
+      "lastVerifiedAt": "2026-07-22T10:07:01+09:00"
+    },
+    {
+      "id": "da_ice_sota_asceeension_2026_aichi_0724",
+      "tourId": "da_ice_sota_asceeension_2026",
+      "venue": "愛知県芸術劇場 大ホール",
+      "performanceAt": "2026-07-24T19:00:00+09:00",
+      "doorOpenAt": "2026-07-24T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://da-ice.jp/schedule/tour.php?id=1002946",
+      "lastVerifiedAt": "2026-07-22T10:07:01+09:00"
+    },
+    {
+      "id": "da_ice_sota_asceeension_2026_fukuoka_0810",
+      "tourId": "da_ice_sota_asceeension_2026",
+      "venue": "福岡サンパレス ホテル＆ホール",
+      "performanceAt": "2026-08-10T19:00:00+09:00",
+      "doorOpenAt": "2026-08-10T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://da-ice.jp/schedule/tour.php?id=1002946",
+      "lastVerifiedAt": "2026-07-22T10:07:01+09:00"
+    },
+    {
+      "id": "da_ice_sota_asceeension_2026_budokan_0817",
+      "tourId": "da_ice_sota_asceeension_2026",
+      "venue": "日本武道館",
+      "performanceAt": "2026-08-17T18:30:00+09:00",
+      "doorOpenAt": "2026-08-17T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "SOTA HANAMURA Live Tour 2026 -ASCEEENSION- Special Edition",
+      "source": "system",
+      "sourceUrl": "https://da-ice.jp/schedule/detail.php?id=1115572",
+      "lastVerifiedAt": "2026-07-22T10:07:01+09:00"
     }
   ],
   "lotteries": [
@@ -110,7 +241,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://da-ice.jp/schedule/tour.php?id=1003011",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T10:07:01+09:00"
     },
     {
       "id": "da_ice_dome_phase_2027_playguide_2nd",
@@ -128,7 +259,35 @@
       ],
       "source": "system",
       "sourceUrl": "https://da-ice.jp/schedule/tour.php?id=1003011",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T10:07:01+09:00"
+    },
+    {
+      "id": "da_ice_fes_2026_jwave_pianomen_ai",
+      "tourId": "da_ice_fes_2026",
+      "type": "a-i先行",
+      "entryStartAt": "2026-07-21T18:00:00+09:00",
+      "entryEndAt": "2026-07-27T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["da_ice_fes_2026_jwave_pianomen_1008"],
+      "source": "system",
+      "sourceUrl": "https://da-ice.jp/news/detail.php?id=1134875",
+      "lastVerifiedAt": "2026-07-22T10:07:01+09:00"
+    },
+    {
+      "id": "da_ice_fes_2026_jet_stream_fastest",
+      "tourId": "da_ice_fes_2026",
+      "type": "最速先行",
+      "entryStartAt": "2026-07-18T12:00:00+09:00",
+      "entryEndAt": "2026-07-26T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["da_ice_fes_2026_jet_stream_1018"],
+      "source": "system",
+      "sourceUrl": "https://da-ice.jp/news/detail.php?id=1134701",
+      "lastVerifiedAt": "2026-07-22T10:07:01+09:00"
     }
   ]
 }
