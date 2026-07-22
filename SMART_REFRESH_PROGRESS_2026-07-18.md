@@ -6,7 +6,7 @@
 
 - 全102組をhash比較し、82組を変更ありと判定。
 - 82組は収集・validate・hash accept・manifest更新・commit・pushまで完了。
-- 全82組の差分更新が完了。manifestはv87、未処理は0組。
+- 全82組の差分更新が完了。manifestはv88、未処理は0組。
 - /refresh-smart 完了。
 - 未追跡のユーザーファイル `x_thread_artists.md` は変更・削除・commit禁止。
 
@@ -223,6 +223,7 @@ IDs: `uta_no_prince_sama`, `gre4n_boyz`, `ikimonogakari`, `and_team`, `aina_the_
 
 - ヨルシカ: 一人称ツアーの横浜・同行者非会員FC先行を公式確認。
 - `d54e6a2 refresh: 残り2組の更新と終了ツアー整理`（manifest v87）で全82組の差分更新と終了済み26ツアーのcleanupを完了。
+- `8413daa fix: ヨルシカ先行と最終進捗を補完`（manifest v88）で最終確認内容を反映。
 - validate成功。未追跡のユーザーファイル `x_thread_artists.md` は変更・commitしていない。
 
 ## Sol再照合（アイナ・ジ・エンド）
