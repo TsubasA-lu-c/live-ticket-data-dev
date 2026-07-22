@@ -208,6 +208,29 @@ yorushika
 urashimasakatasen
 ```
 
+## 第16バッチ（配信反映済み）
+
+IDs: `uta_no_prince_sama`, `gre4n_boyz`, `ikimonogakari`, `and_team`, `aina_the_end`
+
+- うたの☆プリンスさまっ♪: 夏祭り先行3件とALL STAR STAGE -BEGINNING-全12公演を公式照合。
+- GRE4N BOYZ: The ZA全43公演・既存5受付を公式一次情報で再照合。
+- いきものがかり: 33公演の時刻・青森日程を補正し、FC/LINE先行6件を追加。
+- &TEAM: LA、台北、刻印ロングトーク会、VR CONCERTとベルーナアップグレード先行を追加。
+- アイナ・ジ・エンド: SOUND CONNECTION、SUMMER SONIC、1CHANCE FESTIVAL、台北MUSIC EXPOを反映。
+- `2355714 refresh: うたの☆プリンスさまっ♪など5組を更新`（manifest v86）
+
+## 最終バッチ・全体整理（配信反映済み）
+
+- ヨルシカ: 一人称ツアーの横浜・同行者非会員FC先行を公式確認。
+- `d54e6a2 refresh: 残り2組の更新と終了ツアー整理`（manifest v87）で全82組の差分更新と終了済み26ツアーのcleanupを完了。
+- validate成功。未追跡のユーザーファイル `x_thread_artists.md` は変更・commitしていない。
+
+## Sol再照合（アイナ・ジ・エンド）
+
+- ONE PIECE DAY'26（8/23）: 幕張メッセ国際展示場展示ホール4〜6、入場チケット1,980円、先行販売2次は7/20 23:59までを公式で確認。アイナ個別の出演時刻は未発表。
+- SPACE SHOWER SWEET LOVE SHOWER（8/30）: 山中湖交流プラザきらら、開場9:00／開演10:00予定、1日券15,000円を公式で確認。アイナ個別の出演時刻は未発表。
+- ROCK IN JAPAN FESTIVAL（9/12）: 千葉市蘇我スポーツ公園、アイナ出演日を公式で確認。開場・開演、個別出演時刻、公式チケット詳細は引き続き要確認。
+
 ## WARNINGと要確認
 
 - manifest更新前のhash WARNINGは予定どおり。update後に消えることを確認する。

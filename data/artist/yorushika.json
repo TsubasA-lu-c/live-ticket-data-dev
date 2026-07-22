@@ -8,11 +8,26 @@
       "startDate": "2026-03-21T00:00:00+09:00",
       "endDate": "2026-09-16T00:00:00+09:00",
       "prices": [
-        {"label": "S席", "amount": 12000},
-        {"label": "A席", "amount": 10500},
-        {"label": "B席", "amount": 9000},
-        {"label": "注釈付き指定席", "amount": 8500},
-        {"label": "立ち見", "amount": 8500}
+        {
+          "label": "S席",
+          "amount": 12000
+        },
+        {
+          "label": "A席",
+          "amount": 10500
+        },
+        {
+          "label": "B席",
+          "amount": 9000
+        },
+        {
+          "label": "注釈付き指定席",
+          "amount": 8500
+        },
+        {
+          "label": "立ち見",
+          "amount": 8500
+        }
       ],
       "source": "system",
       "sourceUrl": "https://yorushika.com/feature/livetour2026_ichininsho",
@@ -30,7 +45,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://yorushika.com/feature/livetour2026_ichininsho",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "yorushika_ichininsho_2026_sendai_0322",
@@ -42,7 +57,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://yorushika.com/feature/livetour2026_ichininsho",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "yorushika_ichininsho_2026_osaka_0418",
@@ -54,7 +69,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://yorushika.com/feature/livetour2026_ichininsho",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "yorushika_ichininsho_2026_osaka_0419",
@@ -66,7 +81,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://yorushika.com/feature/livetour2026_ichininsho",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "yorushika_ichininsho_2026_nagoya_0530",
@@ -78,7 +93,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://yorushika.com/feature/livetour2026_ichininsho",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "yorushika_ichininsho_2026_nagoya_0531",
@@ -90,7 +105,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://yorushika.com/feature/livetour2026_ichininsho",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "yorushika_ichininsho_2026_yokohama_0729",
@@ -102,7 +117,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://yorushika.com/feature/livetour2026_ichininsho",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "yorushika_ichininsho_2026_yokohama_0730",
@@ -114,7 +129,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://yorushika.com/feature/livetour2026_ichininsho",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "yorushika_ichininsho_2026_fukuoka_0804",
@@ -126,7 +141,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://yorushika.com/feature/livetour2026_ichininsho",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "yorushika_ichininsho_2026_fukuoka_0805",
@@ -138,7 +153,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://yorushika.com/feature/livetour2026_ichininsho",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "yorushika_ichininsho_2026_chiba_0915",
@@ -150,7 +165,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://yorushika.com/feature/livetour2026_ichininsho",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "yorushika_ichininsho_2026_chiba_0916",
@@ -162,7 +177,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://yorushika.com/feature/livetour2026_ichininsho",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -189,7 +204,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://l-tike.com/st1/yorushika2026-atogaki/mypage",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "yorushika_ichininsho_2026_atogaki_nonmember",
@@ -214,7 +229,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://l-tike.com/st1/yorushika2026-atogaki2",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "yorushika_ichininsho_2026_official_10venues",
@@ -239,7 +254,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://l-tike.com/yorushika/",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "yorushika_ichininsho_2026_inbound_10venues",
@@ -264,7 +279,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://l-tike.com/st1/yorushika2026-occ",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "yorushika_ichininsho_2026_lencore_10venues",
@@ -289,7 +304,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://l-tike.com/yorushika/",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "yorushika_ichininsho_2026_ippan_senmiya",
@@ -310,7 +325,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://l-tike.com/yorushika/",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "yorushika_ichininsho_2026_atogaki_yokohama",
@@ -327,7 +342,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://l-tike.com/st1/yorushika2026-atogaki/mypage",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "yorushika_ichininsho_2026_official_yokohama",
@@ -344,7 +359,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://l-tike.com/yorushika/",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "yorushika_ichininsho_2026_inbound_yokohama",
@@ -361,7 +376,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://l-tike.com/st1/yorushika2026-occ",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "yorushika_ichininsho_2026_lencore_yokohama",
@@ -378,7 +393,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://l-tike.com/yorushika/",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "yorushika_ichininsho_2026_ippan_yokohama_fukuoka",
@@ -397,7 +412,24 @@
       ],
       "source": "system",
       "sourceUrl": "https://l-tike.com/yorushika/",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "yorushika_ichininsho_2026_atogaki_nonmember_yokohama",
+      "tourId": "yorushika_ichininsho_2026",
+      "type": "FC先行（同行者非会員）",
+      "entryStartAt": "2026-03-12T18:00:00+09:00",
+      "entryEndAt": "2026-03-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yorushika_ichininsho_2026_yokohama_0729",
+        "yorushika_ichininsho_2026_yokohama_0730"
+      ],
+      "source": "system",
+      "sourceUrl": "https://yorushika.com/feature/livetour2026_ichininsho",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
   ]
 }
