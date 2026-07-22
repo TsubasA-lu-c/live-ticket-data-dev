@@ -5,9 +5,9 @@
 ## 現在地
 
 - 全102組をhash比較し、82組を変更ありと判定。
-- 75組は収集・validate・hash accept・manifest更新・commit・pushまで完了。
-- 第15論理バッチまで配信反映済み。manifestはv85、未処理は7組。
-- 次回は`uta_no_prince_sama`から再開。
+- 80組は収集・validate・hash accept・manifest更新・commit・pushまで完了。
+- 第16論理バッチまで配信反映済み。manifestはv86、未処理は2組。
+- 次回は`aina_the_end`から再開。
 - 未追跡のユーザーファイル `x_thread_artists.md` は変更・削除・commit禁止。
 
 ## 重要なチェックポイント運用

@@ -42,6 +42,53 @@
       "source": "system",
       "sourceUrl": "https://api-liveviewing.com/andteam-blaze-the-way/",
       "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_event_global_spin_live_2026",
+      "artistId": "and_team",
+      "title": "Global Spin Live: &TEAM",
+      "startDate": "2026-08-12T00:00:00+09:00",
+      "endDate": "2026-08-12T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/d72068a797b2",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_fes_music_expo_live_2026_taipei",
+      "artistId": "and_team",
+      "title": "MUSIC EXPO LIVE 2026 in TAIPEI",
+      "startDate": "2026-10-25T00:00:00+09:00",
+      "endDate": "2026-10-25T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://musicexpolive.com/",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_event_mark_on_me_talk_2026",
+      "artistId": "and_team",
+      "title": "&TEAM KR 2nd Mini Album 'Mark on Me' 刻印個別ロングトーク会",
+      "startDate": "2026-11-17T00:00:00+09:00",
+      "endDate": "2027-01-30T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/f905e8f20837",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_vr_concert_boundless_2026",
+      "artistId": "and_team",
+      "title": "&TEAM VR CONCERT：BOUNDLESS",
+      "startDate": "2026-07-21T00:00:00+09:00",
+      "endDate": "2026-08-13T00:00:00+09:00",
+      "prices": [
+        {"label": "一般・指定席", "amount": 4400},
+        {"label": "109シネマズプレミアム新宿", "amount": 5000}
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/8c0da093cc1f",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -224,6 +271,102 @@
       "source": "system",
       "sourceUrl": "https://api-liveviewing.com/andteam-blaze-the-way/",
       "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_event_global_spin_live_2026_los_angeles_0812",
+      "tourId": "and_team_event_global_spin_live_2026",
+      "venue": "Grammy Museum LA Live",
+      "performanceAt": "2026-08-13T11:30:00+09:00",
+      "doorOpenAt": "2026-08-13T11:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "Global Spin Live: &TEAM",
+      "source": "system",
+      "sourceUrl": "https://grammymuseum.org/event/global-spin-live-team/",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_fes_music_expo_live_2026_taipei_1025",
+      "tourId": "and_team_fes_music_expo_live_2026_taipei",
+      "venue": "TAIPEI ARENA",
+      "performanceAt": "2026-10-25T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "MUSIC EXPO LIVE 2026 in TAIPEI",
+      "source": "system",
+      "sourceUrl": "https://musicexpolive.com/",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_event_mark_on_me_talk_2026_kyoto_1117",
+      "tourId": "and_team_event_mark_on_me_talk_2026",
+      "venue": null,
+      "performanceAt": "2026-11-17T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "&TEAM KR 2nd Mini Album 'Mark on Me' 刻印個別ロングトーク会",
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/f905e8f20837",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_event_mark_on_me_talk_2026_kanagawa_0112",
+      "tourId": "and_team_event_mark_on_me_talk_2026",
+      "venue": null,
+      "performanceAt": "2027-01-12T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "&TEAM KR 2nd Mini Album 'Mark on Me' 刻印個別ロングトーク会",
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/f905e8f20837",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_event_mark_on_me_talk_2026_aichi_0130",
+      "tourId": "and_team_event_mark_on_me_talk_2026",
+      "venue": null,
+      "performanceAt": "2027-01-30T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "&TEAM KR 2nd Mini Album 'Mark on Me' 刻印個別ロングトーク会",
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/f905e8f20837",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_vr_concert_boundless_2026_yokohama_0721",
+      "tourId": "and_team_vr_concert_boundless_2026",
+      "venue": "横浜ブルク13",
+      "performanceAt": "2026-07-21T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "&TEAM VR CONCERT：BOUNDLESS",
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/8c0da093cc1f",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_vr_concert_boundless_2026_shinjuku_0720",
+      "tourId": "and_team_vr_concert_boundless_2026",
+      "venue": "109シネマズプレミアム新宿",
+      "performanceAt": "2026-07-20T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "&TEAM VR CONCERT：BOUNDLESS",
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/fe8c56842f54",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_vr_concert_boundless_2026_miyagi_0731",
+      "tourId": "and_team_vr_concert_boundless_2026",
+      "venue": "109シネマズ富谷",
+      "performanceAt": "2026-07-31T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "&TEAM VR CONCERT：BOUNDLESS",
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/8c0da093cc1f",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -396,6 +539,65 @@
       "source": "system",
       "sourceUrl": "https://api-liveviewing.com/andteam-blaze-the-way/",
       "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_encore_2026_premium_upgrade",
+      "tourId": "and_team_blaze_the_way_encore_2026",
+      "type": "LUNÉ Membership会員プレミアムシートアップグレード抽選",
+      "entryStartAt": "2026-07-22T13:00:00+09:00",
+      "entryEndAt": "2026-07-26T23:59:00+09:00",
+      "resultAt": "2026-07-31T11:00:00+09:00",
+      "paymentStartAt": "2026-07-31T11:00:00+09:00",
+      "paymentEndAt": "2026-08-03T23:00:00+09:00",
+      "performanceIds": [
+        "and_team_blaze_the_way_encore_2026_belluna_0905",
+        "and_team_blaze_the_way_encore_2026_belluna_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/5c4f47e75926",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_event_mark_on_me_talk_2026_round1",
+      "tourId": "and_team_event_mark_on_me_talk_2026",
+      "type": "刻印個別ロングトーク会 第1回抽選",
+      "entryStartAt": "2026-07-17T12:00:00+09:00",
+      "entryEndAt": "2026-07-21T10:59:00+09:00",
+      "resultAt": "2026-07-24T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/f905e8f20837",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_event_mark_on_me_talk_2026_round2",
+      "tourId": "and_team_event_mark_on_me_talk_2026",
+      "type": "刻印個別ロングトーク会 第2回抽選",
+      "entryStartAt": "2026-07-21T11:00:00+09:00",
+      "entryEndAt": "2026-07-27T10:59:00+09:00",
+      "resultAt": "2026-07-31T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/f905e8f20837",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_vr_concert_boundless_2026_lawson",
+      "tourId": "and_team_vr_concert_boundless_2026",
+      "type": "ローチケ先行販売",
+      "entryStartAt": "2026-06-04T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/8c0da093cc1f",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
   ]
 }
