@@ -206,5 +206,28 @@
       "sourceUrl": "https://kobayasisaburo.com/6004/",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1679278167",
+      "title": "アイドル",
+      "albumTitle": "アイドル - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f0/db/16/f0db16be-457e-f10f-98b6-f30b11de34e4/mzaf_5189430943078523093.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/3a/17/eb/3a17eb30-eacb-82eb-51df-d1321dbb55bc/197188492205.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1490256995",
+      "title": "夜に駆ける",
+      "albumTitle": "夜に駆ける - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/78/0f/7f/780f7f48-d8f7-afcc-0cd1-7dc1bd7ee044/mzaf_1302732050487874408.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/fe/58/79/fe58795c-1628-230a-9ffe-300c04b6627c/194491717186.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1544083979",
+      "title": "怪物",
+      "albumTitle": "怪物 - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ed/35/8f/ed358f20-baf2-7b27-d1e5-eeb9fa4f4498/mzaf_2838285223197932486.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9e/ab/2c/9eab2c24-8289-1bd7-548d-e6b871fcf169/195497732630.jpg/{w}x{h}bb.jpg"
+    }
   ]
 }

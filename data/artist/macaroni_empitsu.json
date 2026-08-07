@@ -541,5 +541,28 @@
       "sourceUrl": "https://macaroniempitsu.com/news/20381.html",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1591370660",
+      "title": "なんでもないよ、",
+      "albumTitle": "なんでもないよ、 - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fd/6e/a6/fd6ea6cc-fc36-1e8b-b0d4-4f8bc661e655/mzaf_15019166332417443604.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d7/54/f7/d754f7c0-e818-a551-3584-545300336f3c/4517331073000.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1660847079",
+      "title": "リンジュー・ラヴ",
+      "albumTitle": "リンジュー・ラヴ - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/cf/98/c0/cf98c03d-1a74-46a2-f4ee-34e15537138d/mzaf_14955086849877822224.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/70/c9/3d/70c93dc5-bd8f-b769-4b59-a853b671197d/4517331075363.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1496731154",
+      "title": "恋人ごっこ",
+      "albumTitle": "恋人ごっこ - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/24/1d/67/241d67b6-a182-4a2e-7a2b-86f7402ed5a2/mzaf_13329407722501148333.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/87/88/05/8788059e-117b-439e-f3f1-e0e2da15db31/bigup13058482.jpg/{w}x{h}bb.jpg"
+    }
   ]
 }

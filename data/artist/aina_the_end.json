@@ -8,12 +8,30 @@
       "startDate": "2026-10-27T00:00:00+09:00",
       "endDate": "2026-10-27T00:00:00+09:00",
       "prices": [
-        { "label": "S指定席", "amount": 11000 },
-        { "label": "指定席", "amount": 8800 },
-        { "label": "ファミリー指定席", "amount": 8800 },
-        { "label": "グッズ付きS指定席", "amount": 13500 },
-        { "label": "グッズ付き指定席", "amount": 11300 },
-        { "label": "グッズ付きファミリー指定席", "amount": 11300 }
+        {
+          "label": "S指定席",
+          "amount": 11000
+        },
+        {
+          "label": "指定席",
+          "amount": 8800
+        },
+        {
+          "label": "ファミリー指定席",
+          "amount": 8800
+        },
+        {
+          "label": "グッズ付きS指定席",
+          "amount": 13500
+        },
+        {
+          "label": "グッズ付き指定席",
+          "amount": 11300
+        },
+        {
+          "label": "グッズ付きファミリー指定席",
+          "amount": 11300
+        }
       ],
       "source": "system",
       "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1134281",
@@ -26,10 +44,22 @@
       "startDate": "2026-09-26T00:00:00+09:00",
       "endDate": "2026-09-26T00:00:00+09:00",
       "prices": [
-        { "label": "1日券", "amount": 12000 },
-        { "label": "小人1日券", "amount": 9500 },
-        { "label": "2日券", "amount": 23000 },
-        { "label": "小人2日券", "amount": 18000 }
+        {
+          "label": "1日券",
+          "amount": 12000
+        },
+        {
+          "label": "小人1日券",
+          "amount": 9500
+        },
+        {
+          "label": "2日券",
+          "amount": 23000
+        },
+        {
+          "label": "小人2日券",
+          "amount": 18000
+        }
       ],
       "source": "system",
       "sourceUrl": "https://1chancefes.com/",
@@ -53,14 +83,38 @@
       "startDate": "2026-08-14T00:00:00+09:00",
       "endDate": "2026-08-15T00:00:00+09:00",
       "prices": [
-        { "label": "TOKYO 1DAYチケット", "amount": 21000 },
-        { "label": "TOKYO 3DAYチケット", "amount": 59000 },
-        { "label": "TOKYO プラチナチケット", "amount": 35000 },
-        { "label": "TOKYO 3DAYプラチナチケット", "amount": 100000 },
-        { "label": "OSAKA 1DAYチケット", "amount": 19000 },
-        { "label": "OSAKA 3DAYチケット", "amount": 54000 },
-        { "label": "OSAKA プラチナチケット", "amount": 31000 },
-        { "label": "OSAKA 3DAYプラチナチケット", "amount": 90000 }
+        {
+          "label": "TOKYO 1DAYチケット",
+          "amount": 21000
+        },
+        {
+          "label": "TOKYO 3DAYチケット",
+          "amount": 59000
+        },
+        {
+          "label": "TOKYO プラチナチケット",
+          "amount": 35000
+        },
+        {
+          "label": "TOKYO 3DAYプラチナチケット",
+          "amount": 100000
+        },
+        {
+          "label": "OSAKA 1DAYチケット",
+          "amount": 19000
+        },
+        {
+          "label": "OSAKA 3DAYチケット",
+          "amount": 54000
+        },
+        {
+          "label": "OSAKA プラチナチケット",
+          "amount": 31000
+        },
+        {
+          "label": "OSAKA 3DAYプラチナチケット",
+          "amount": 90000
+        }
       ],
       "source": "system",
       "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1132558",
@@ -72,7 +126,12 @@
       "title": "ONE PIECE DAY'26",
       "startDate": "2026-08-23T00:00:00+09:00",
       "endDate": "2026-08-23T00:00:00+09:00",
-      "prices": [{"label": "入場チケット（来場者特典付き）", "amount": 1980}],
+      "prices": [
+        {
+          "label": "入場チケット（来場者特典付き）",
+          "amount": 1980
+        }
+      ],
       "source": "system",
       "sourceUrl": "https://ainatheend.jp/media/detail.php?id=1117724",
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
@@ -83,7 +142,12 @@
       "title": "SPACE SHOWER SWEET LOVE SHOWER 2026",
       "startDate": "2026-08-30T00:00:00+09:00",
       "endDate": "2026-08-30T00:00:00+09:00",
-      "prices": [{"label": "1日券", "amount": 15000}],
+      "prices": [
+        {
+          "label": "1日券",
+          "amount": 15000
+        }
+      ],
       "source": "system",
       "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1132738",
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
@@ -272,7 +336,9 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["aina_the_end_one_piece_day_2026_makuhari_0823"],
+      "performanceIds": [
+        "aina_the_end_one_piece_day_2026_makuhari_0823"
+      ],
       "source": "system",
       "sourceUrl": "https://onepiece-day.onepiece-base.com/ticket",
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
@@ -286,10 +352,35 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["aina_the_end_sweet_love_shower_2026_yamanakako_0830"],
+      "performanceIds": [
+        "aina_the_end_sweet_love_shower_2026_yamanakako_0830"
+      ],
       "source": "system",
       "sourceUrl": "https://2026.sweetloveshower.com/contents/ticket/admission",
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1821087731",
+      "title": "革命道中 - On The Way",
+      "albumTitle": "革命道中 - On The Way - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b2/16/74/b216741b-f849-0422-068d-0da28092e35b/mzaf_15399691944161663134.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0d/3a/cf/0d3acf31-2a58-aa41-f3f1-ea26926bbda6/ANTCD-A0000017039.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1680651245",
+      "title": "Red:birthmark",
+      "albumTitle": "Red:birthmark - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/d1/36/a4/d136a441-d248-045b-cbba-08bb89c3aec6/mzaf_8494667275724335841.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/11/20/82/1120829c-5f76-b880-57bf-e6eb77285b2b/ANTCD-A0000009781.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1712079509",
+      "title": "アイコトバ",
+      "albumTitle": "アイコトバ - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/3f/a9/e7/3fa9e760-77e9-f9fc-35a7-685bab31874f/mzaf_7189744353091982349.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/10/f8/69/10f86923-4915-0f17-6b76-88670df8871f/ANTCD-A0000011832.jpg/{w}x{h}bb.jpg"
     }
   ]
 }

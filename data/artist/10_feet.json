@@ -385,5 +385,28 @@
       "sourceUrl": "https://rotten-g.com/contents/50",
       "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
     }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1652587504",
+      "title": "第ゼロ感",
+      "albumTitle": "第ゼロ感 - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3b/2e/4b/3b2e4b07-23f5-fe1f-1117-678a1e6f689d/mzaf_13515127015760753156.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/27/00/69/27006904-8a8c-7802-65fa-c41ad71bb634/22UM1IM11789.rgb.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1657617958",
+      "title": "第ゼロ感",
+      "albumTitle": "コリンズ",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4b/40/79/4b407914-5e28-fefa-ab34-5e30933f0e28/mzaf_11259834245995733268.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/bf/6d/49/bf6d4998-ce18-3a31-ab66-2fe77e824a0f/22UM1IM37952.rgb.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "147556686",
+      "title": "RIVER",
+      "albumTitle": "RIVER - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f2/2a/85/f22a8581-0621-0ff9-2bbf-c4297033360f/mzaf_14681100518913585373.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/69/e3/70/mzi.bbhpovwj.jpg/{w}x{h}bb.jpg"
+    }
   ]
 }

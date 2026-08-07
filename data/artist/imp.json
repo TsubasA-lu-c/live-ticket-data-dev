@@ -27,5 +27,28 @@
       "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     }
   ],
-  "lotteries": []
+  "lotteries": [],
+  "appleMusicTracks": [
+    {
+      "songId": "1710197719",
+      "title": "SWITCHing",
+      "albumTitle": "SWITCHing - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/75/99/81/759981d2-5357-fb36-de14-58eeac9b102e/mzaf_15989977244271325041.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/06/b5/ae/06b5aedc-9941-fdf4-8f86-c41656ea98f8/4570199890066.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1717537530",
+      "title": "I Got It",
+      "albumTitle": "I Got It - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/54/b9/34/54b934df-80b0-bbdc-1362-e2ca0d1fe968/mzaf_5216916080865204987.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/46/6f/26/466f2617-6da9-d3e5-2541-a1fc7a809b1c/4570199890127.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1732966696",
+      "title": "FLOW",
+      "albumTitle": "FLOW - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/48/09/a4/4809a433-98e9-d1b8-397d-399eadc360ce/mzaf_6223904567712663728.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/ab/ad/42/abad429f-7585-a538-8f9d-01e3dbac63a9/4570199890301.jpg/{w}x{h}bb.jpg"
+    }
+  ]
 }

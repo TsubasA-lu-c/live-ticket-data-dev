@@ -332,5 +332,28 @@
       "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1564752145",
+      "title": "きらり",
+      "albumTitle": "きらり - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/2b/4d/a2/2b4da202-71db-39f6-0430-b09db41dce7c/mzaf_14562628887257430347.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/d6/75/4f/d6754fcb-b2e8-db66-b51f-8b142ac75132/21UMGIM23568.rgb.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1648420333",
+      "title": "grace",
+      "albumTitle": "grace - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/35/30/64/35306410-014f-9450-739d-3f6b5382fe35/mzaf_4905964540563590074.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/df/0d/75/df0d7525-f161-3b6c-0580-f1b39c134d9c/22UMGIM87538.rgb.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1505498779",
+      "title": "優しさ",
+      "albumTitle": "HELP EVER HURT NEVER",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/6c/62/d1/6c62d175-f400-64dc-b243-bdae1ddce2c5/mzaf_11120157850861371188.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/96/4e/5b/964e5b6e-4766-63ba-7e50-9f8a5bd0569e/20UMGIM17280.rgb.jpg/{w}x{h}bb.jpg"
+    }
   ]
 }

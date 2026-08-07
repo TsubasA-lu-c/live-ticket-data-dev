@@ -225,5 +225,28 @@
       "sourceUrl": "https://ini-official.com/news/detail/4284",
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1586324151",
+      "title": "Rocketeer",
+      "albumTitle": "A (Special Edition) - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ac/35/94/ac359404-25b9-ee1a-91ee-e61f8b67945c/mzaf_5726870671449142652.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/bf/c9/40/bfc94014-4880-3489-e51f-eed873b3c33a/21UM1IM09325.rgb.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1751436060",
+      "title": "LOUD",
+      "albumTitle": "THE FRAME - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cf/ec/0d/cfec0dae-d310-6cf5-5a93-131132b6fa03/mzaf_5973008592078719287.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/cb/5c/7ecb5c82-d758-3d2d-ccd5-5c7094c2f115/24UMGIM53607.rgb.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1586324152",
+      "title": "Brighter",
+      "albumTitle": "A (Special Edition) - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0e/77/d0/0e77d0b2-8538-7dd5-7098-0fa52875ba56/mzaf_15696616756836646612.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/bf/c9/40/bfc94014-4880-3489-e51f-eed873b3c33a/21UM1IM09325.rgb.jpg/{w}x{h}bb.jpg"
+    }
   ]
 }

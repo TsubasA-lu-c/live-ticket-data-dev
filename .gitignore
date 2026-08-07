@@ -1,3 +1,8 @@
 .DS_Store
 __pycache__/
 cache/source_hashes.pending.json
+
+# 照合ツールの一時生成物（再生成可能）
+cache/*.log
+cache/apple_music_review_sheet.html
+tools/__pycache__/

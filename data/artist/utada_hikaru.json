@@ -3,5 +3,28 @@
   "tours": [],
   "performances": [],
   "lotteries": [],
-  "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+  "lastVerifiedAt": "2026-07-10T00:00:00+09:00",
+  "appleMusicTracks": [
+    {
+      "songId": "1542953977",
+      "title": "One Last Kiss",
+      "albumTitle": "One Last Kiss",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/61/f6/4a/61f64a1f-48c6-9392-65ed-7d6fa8e3b339/mzaf_5486859673915829767.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e2/2c/0d/e22c0db8-27f6-7dc3-2d49-3a6e95e827fb/4547366488920.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1592431974",
+      "title": "君に夢中",
+      "albumTitle": "君に夢中 - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/43/8d/3b/438d3b26-43b1-a5fa-d610-14efa847da7c/mzaf_17986544908702645727.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/92/4c/50/924c5022-8d08-cd51-0a1f-015027f1a354/4547366538199.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1840081736",
+      "title": "JANE DOE",
+      "albumTitle": "JANE DOE - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e5/62/c4/e562c413-da81-e035-012b-4b66a15905f3/mzaf_11070624371709155420.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/73/91/aa/7391aabc-81d8-2bcb-3b0f-8e24bc855745/4547366775211.jpg/{w}x{h}bb.jpg"
+    }
+  ]
 }

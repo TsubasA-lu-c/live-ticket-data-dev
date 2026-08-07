@@ -8,8 +8,14 @@
       "startDate": "2026-08-10T00:00:00+09:00",
       "endDate": "2026-09-23T00:00:00+09:00",
       "prices": [
-        {"label": "1階スタンディング", "amount": 7000},
-        {"label": "2階指定席", "amount": 8000}
+        {
+          "label": "1階スタンディング",
+          "amount": 7000
+        },
+        {
+          "label": "2階指定席",
+          "amount": 8000
+        }
       ],
       "source": "system",
       "sourceUrl": "https://special.kroi.net/tour/",
@@ -22,9 +28,18 @@
       "startDate": "2026-07-25T00:00:00+09:00",
       "endDate": "2026-07-25T00:00:00+09:00",
       "prices": [
-        {"label": "1日券", "amount": 26000},
-        {"label": "1日券 Under 22", "amount": 18000},
-        {"label": "1日券 Under 17", "amount": 9000}
+        {
+          "label": "1日券",
+          "amount": 26000
+        },
+        {
+          "label": "1日券 Under 22",
+          "amount": 18000
+        },
+        {
+          "label": "1日券 Under 17",
+          "amount": 9000
+        }
       ],
       "source": "system",
       "sourceUrl": "https://fujirockfestival.com/",
@@ -37,9 +52,18 @@
       "startDate": "2026-08-28T00:00:00+09:00",
       "endDate": "2026-08-28T00:00:00+09:00",
       "prices": [
-        {"label": "1日券", "amount": 15000},
-        {"label": "2日通し券", "amount": 27000},
-        {"label": "3日通し券", "amount": 39000}
+        {
+          "label": "1日券",
+          "amount": 15000
+        },
+        {
+          "label": "2日通し券",
+          "amount": 27000
+        },
+        {
+          "label": "3日通し券",
+          "amount": 39000
+        }
       ],
       "source": "system",
       "sourceUrl": "https://2026.sweetloveshower.com/contents/ticket/admission",
@@ -251,63 +275,218 @@
     },
     {
       "id": "kroi_jungle_2026_general_0810",
-      "tourId": "kroi_jungle_2026", "type": "一般発売", "entryStartAt": null, "entryEndAt": "2026-07-30T23:59:00+09:00", "resultAt": null, "paymentStartAt": null, "paymentEndAt": null,
-      "performanceIds": ["kroi_jungle_2026_kt_zepp_yokohama_0810"], "source": "system", "sourceUrl": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2665378", "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "tourId": "kroi_jungle_2026",
+      "type": "一般発売",
+      "entryStartAt": null,
+      "entryEndAt": "2026-07-30T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kroi_jungle_2026_kt_zepp_yokohama_0810"
+      ],
+      "source": "system",
+      "sourceUrl": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2665378",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "kroi_jungle_2026_general_0820",
-      "tourId": "kroi_jungle_2026", "type": "一般発売", "entryStartAt": null, "entryEndAt": "2026-08-11T23:59:00+09:00", "resultAt": null, "paymentStartAt": null, "paymentEndAt": null,
-      "performanceIds": ["kroi_jungle_2026_zepp_nagoya_0820"], "source": "system", "sourceUrl": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2665378", "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "tourId": "kroi_jungle_2026",
+      "type": "一般発売",
+      "entryStartAt": null,
+      "entryEndAt": "2026-08-11T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kroi_jungle_2026_zepp_nagoya_0820"
+      ],
+      "source": "system",
+      "sourceUrl": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2665378",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "kroi_jungle_2026_general_0821",
-      "tourId": "kroi_jungle_2026", "type": "一般発売", "entryStartAt": "2026-07-11T10:00:00+09:00", "entryEndAt": "2026-08-11T23:59:00+09:00", "resultAt": null, "paymentStartAt": null, "paymentEndAt": null,
-      "performanceIds": ["kroi_jungle_2026_zepp_nagoya_0821"], "source": "system", "sourceUrl": "https://t.pia.jp/pia/ticketInformation.do?eventCd=2604795&rlsCd=002", "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "tourId": "kroi_jungle_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-07-11T10:00:00+09:00",
+      "entryEndAt": "2026-08-11T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kroi_jungle_2026_zepp_nagoya_0821"
+      ],
+      "source": "system",
+      "sourceUrl": "https://t.pia.jp/pia/ticketInformation.do?eventCd=2604795&rlsCd=002",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "kroi_jungle_2026_general_0829",
-      "tourId": "kroi_jungle_2026", "type": "一般発売", "entryStartAt": null, "entryEndAt": "2026-08-20T23:59:00+09:00", "resultAt": null, "paymentStartAt": null, "paymentEndAt": null,
-      "performanceIds": ["kroi_jungle_2026_zepp_sapporo_0829"], "source": "system", "sourceUrl": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2665378", "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "tourId": "kroi_jungle_2026",
+      "type": "一般発売",
+      "entryStartAt": null,
+      "entryEndAt": "2026-08-20T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kroi_jungle_2026_zepp_sapporo_0829"
+      ],
+      "source": "system",
+      "sourceUrl": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2665378",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "kroi_jungle_2026_general_0904",
-      "tourId": "kroi_jungle_2026", "type": "一般発売", "entryStartAt": null, "entryEndAt": "2026-08-26T23:59:00+09:00", "resultAt": null, "paymentStartAt": null, "paymentEndAt": null,
-      "performanceIds": ["kroi_jungle_2026_zepp_fukuoka_0904"], "source": "system", "sourceUrl": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2665378", "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "tourId": "kroi_jungle_2026",
+      "type": "一般発売",
+      "entryStartAt": null,
+      "entryEndAt": "2026-08-26T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kroi_jungle_2026_zepp_fukuoka_0904"
+      ],
+      "source": "system",
+      "sourceUrl": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2665378",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "kroi_jungle_2026_general_0905",
-      "tourId": "kroi_jungle_2026", "type": "一般発売", "entryStartAt": null, "entryEndAt": "2026-08-27T23:59:00+09:00", "resultAt": null, "paymentStartAt": null, "paymentEndAt": null,
-      "performanceIds": ["kroi_jungle_2026_zepp_fukuoka_0905"], "source": "system", "sourceUrl": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2665378", "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "tourId": "kroi_jungle_2026",
+      "type": "一般発売",
+      "entryStartAt": null,
+      "entryEndAt": "2026-08-27T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kroi_jungle_2026_zepp_fukuoka_0905"
+      ],
+      "source": "system",
+      "sourceUrl": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2665378",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "kroi_jungle_2026_general_0918",
-      "tourId": "kroi_jungle_2026", "type": "一般発売", "entryStartAt": null, "entryEndAt": "2026-09-09T23:59:00+09:00", "resultAt": null, "paymentStartAt": null, "paymentEndAt": null,
-      "performanceIds": ["kroi_jungle_2026_zepp_osaka_bayside_0918"], "source": "system", "sourceUrl": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2665378", "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "tourId": "kroi_jungle_2026",
+      "type": "一般発売",
+      "entryStartAt": null,
+      "entryEndAt": "2026-09-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kroi_jungle_2026_zepp_osaka_bayside_0918"
+      ],
+      "source": "system",
+      "sourceUrl": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2665378",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "kroi_jungle_2026_general_0919",
-      "tourId": "kroi_jungle_2026", "type": "一般発売", "entryStartAt": null, "entryEndAt": "2026-09-09T23:59:00+09:00", "resultAt": null, "paymentStartAt": null, "paymentEndAt": null,
-      "performanceIds": ["kroi_jungle_2026_zepp_osaka_bayside_0919"], "source": "system", "sourceUrl": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2665378", "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "tourId": "kroi_jungle_2026",
+      "type": "一般発売",
+      "entryStartAt": null,
+      "entryEndAt": "2026-09-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kroi_jungle_2026_zepp_osaka_bayside_0919"
+      ],
+      "source": "system",
+      "sourceUrl": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2665378",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "kroi_jungle_2026_general_0922",
-      "tourId": "kroi_jungle_2026", "type": "一般発売", "entryStartAt": null, "entryEndAt": "2026-09-13T23:59:00+09:00", "resultAt": null, "paymentStartAt": null, "paymentEndAt": null,
-      "performanceIds": ["kroi_jungle_2026_zepp_haneda_0922"], "source": "system", "sourceUrl": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2665378", "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "tourId": "kroi_jungle_2026",
+      "type": "一般発売",
+      "entryStartAt": null,
+      "entryEndAt": "2026-09-13T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kroi_jungle_2026_zepp_haneda_0922"
+      ],
+      "source": "system",
+      "sourceUrl": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2665378",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "kroi_jungle_2026_general_0923",
-      "tourId": "kroi_jungle_2026", "type": "一般発売", "entryStartAt": null, "entryEndAt": "2026-09-14T23:59:00+09:00", "resultAt": null, "paymentStartAt": null, "paymentEndAt": null,
-      "performanceIds": ["kroi_jungle_2026_zepp_haneda_0923"], "source": "system", "sourceUrl": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2665378", "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "tourId": "kroi_jungle_2026",
+      "type": "一般発売",
+      "entryStartAt": null,
+      "entryEndAt": "2026-09-14T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kroi_jungle_2026_zepp_haneda_0923"
+      ],
+      "source": "system",
+      "sourceUrl": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2665378",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "kroi_fes_fuji_rock_2026_general",
-      "tourId": "kroi_fes_fuji_rock_2026", "type": "一般発売", "entryStartAt": "2026-05-16T10:00:00+09:00", "entryEndAt": null, "resultAt": null, "paymentStartAt": null, "paymentEndAt": null,
-      "performanceIds": ["kroi_fes_fuji_rock_2026_naeba_0725"], "source": "system", "sourceUrl": "https://fujirockfestival.com/ticket/index", "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "tourId": "kroi_fes_fuji_rock_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-05-16T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kroi_fes_fuji_rock_2026_naeba_0725"
+      ],
+      "source": "system",
+      "sourceUrl": "https://fujirockfestival.com/ticket/index",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "kroi_fes_sweet_love_shower_2026_general",
-      "tourId": "kroi_fes_sweet_love_shower_2026", "type": "一般発売", "entryStartAt": "2026-06-27T10:00:00+09:00", "entryEndAt": null, "resultAt": null, "paymentStartAt": null, "paymentEndAt": null,
-      "performanceIds": ["kroi_fes_sweet_love_shower_2026_yamanakako_0828"], "source": "system", "sourceUrl": "https://2026.sweetloveshower.com/contents/ticket/admission", "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "tourId": "kroi_fes_sweet_love_shower_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-06-27T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kroi_fes_sweet_love_shower_2026_yamanakako_0828"
+      ],
+      "source": "system",
+      "sourceUrl": "https://2026.sweetloveshower.com/contents/ticket/admission",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1708528256",
+      "title": "Hyper",
+      "albumTitle": "Hyper - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/1e/f0/70/1ef0705c-de6e-101b-ce62-1f16e222ea90/mzaf_13393946633084150125.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/70/9d/2b/709d2b1f-6b72-a050-157f-27163840e83b/PCCA_70564_A.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1567376744",
+      "title": "Balmy Life",
+      "albumTitle": "LENS",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ad/52/1a/ad521a98-99c3-3726-6377-ec12cb400e26/mzaf_11412814726034273104.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/82/ac/b7/82acb7c1-cc7e-d51e-7b84-d51a254a798d/PCCA_06045_A.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1721303275",
+      "title": "Sesame",
+      "albumTitle": "Sesame - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/d1/40/27/d1402766-c633-d0ac-f1a0-de62baf9c203/mzaf_18111164588552081204.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d3/4f/8d/d34f8de5-f48b-be26-74b5-d2e2d039ac34/PCCA_70568_A.jpg/{w}x{h}bb.jpg"
     }
   ]
 }

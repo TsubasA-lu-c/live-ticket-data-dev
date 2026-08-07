@@ -3,5 +3,28 @@
   "tours": [],
   "performances": [],
   "lotteries": [],
-  "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+  "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+  "appleMusicTracks": [
+    {
+      "songId": "1831676531",
+      "title": "カリスマックス",
+      "albumTitle": "カリスマックス - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3a/25/a1/3a25a18a-a0b0-ed7c-ab6f-41bfade43e59/mzaf_535155992320896176.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a3/3d/b9/a33db9e9-1d2a-1d9c-38e5-327e6f6b7146/ANTCD-A0000017755.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "6785411720",
+      "title": "グッタイム",
+      "albumTitle": "グッタイム - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/77/4b/33/774b33f9-76c3-74dc-7624-e5a0e98f612f/mzaf_5260857341269243626.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a5/42/4b/a5424b45-7eca-05af-0e20-e93539e193dd/ANTCD-A0000020458.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1872285102",
+      "title": "STARS",
+      "albumTitle": "STARS - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1f/ff/21/1fff213e-2fc4-2de1-1cf3-7236c829097f/mzaf_18198562926584925878.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c4/30/9b/c4309bd9-d3f8-1e3c-9942-25fa60d00ee4/ANTCD-A0000019243.jpg/{w}x{h}bb.jpg"
+    }
+  ]
 }

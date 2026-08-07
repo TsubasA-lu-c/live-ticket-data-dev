@@ -8,10 +8,22 @@
       "startDate": "2026-08-21T00:00:00+09:00",
       "endDate": "2026-09-13T00:00:00+09:00",
       "prices": [
-        {"label": "限定グッズ付S席", "amount": 14000},
-        {"label": "S席", "amount": 10000},
-        {"label": "限定グッズ付A席", "amount": 13000},
-        {"label": "A席", "amount": 9000}
+        {
+          "label": "限定グッズ付S席",
+          "amount": 14000
+        },
+        {
+          "label": "S席",
+          "amount": 10000
+        },
+        {
+          "label": "限定グッズ付A席",
+          "amount": 13000
+        },
+        {
+          "label": "A席",
+          "amount": 9000
+        }
       ],
       "source": "system",
       "sourceUrl": "https://idolish7.com/4j/",
@@ -272,6 +284,29 @@
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/2231800002",
       "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1813817600",
+      "title": "UNFOLDiNG HARMONY",
+      "albumTitle": "UNFOLDiNG HARMONY - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/20/4c/0d/204c0db0-74b3-7210-f4d7-76543039ebdc/mzaf_4459370037340530403.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/0c/05/070c0555-1937-fbef-d8bd-08ece4efb8d8/4540774744398.png/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1826515815",
+      "title": "STARDOM GENIUS",
+      "albumTitle": "STARDOM GENIUS - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/af/62/fc/af62fc1a-8c70-dcff-b928-df5b3fb03a6d/mzaf_2068657355843153338.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a4/24/71/a424710b-1936-0fdf-aa3b-760fdc1ede2d/4540774745173.png/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1775167860",
+      "title": "Crz Love",
+      "albumTitle": "LEADiNG TONE",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f9/b4/bf/f9b4bf49-6c53-1ef5-9bbe-3cf90e32f49d/mzaf_11307368155317408062.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/b1/9e/34b19ea6-64e7-fc94-ffc7-d835f76f7b68/4540774251179.png/{w}x{h}bb.jpg"
     }
   ]
 }

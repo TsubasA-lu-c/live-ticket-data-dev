@@ -8,9 +8,18 @@
       "startDate": "2026-06-06T00:00:00+09:00",
       "endDate": "2026-08-09T00:00:00+09:00",
       "prices": [
-        {"label": "全席指定", "amount": 14300},
-        {"label": "プレミアムチケット", "amount": 21450},
-        {"label": "プレミアムチケット（グッズ付き）", "amount": 28600}
+        {
+          "label": "全席指定",
+          "amount": 14300
+        },
+        {
+          "label": "プレミアムチケット",
+          "amount": 21450
+        },
+        {
+          "label": "プレミアムチケット（グッズ付き）",
+          "amount": 28600
+        }
       ],
       "source": "system",
       "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/40856/",
@@ -289,6 +298,29 @@
       "source": "system",
       "sourceUrl": "https://www.ldh-liveschedule.jp/sys/news/43936/?lang=ja",
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "887795535",
+      "title": "R.Y.U.S.E.I.",
+      "albumTitle": "R.Y.U.S.E.I. - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1d/71/79/1d71792c-5de9-f8d5-3487-3d52d958b701/mzaf_4574671235977174414.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e8/4c/f8/e84cf883-6ac3-9326-1ff3-57fb5780c541/RZCD-59631.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "545612830",
+      "title": "花火",
+      "albumTitle": "0〜ZERO〜 - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/6f/45/ce/6f45ce69-e750-bb10-2f31-d727cb8d543d/mzaf_14686009494146861704.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/53/62/a0/5362a0b3-ecc0-c578-adb0-09436d50fc57/RZCD-59171.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1011660750",
+      "title": "Summer Madness feat. Afrojack",
+      "albumTitle": "Summer Madness - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/05/59/94/0559941a-742d-825b-c32f-a8168cf3a072/mzaf_10642610001912062661.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/f7/11/21/f711213b-68d7-b129-243a-a622938423d4/RZCD-59923.jpg/{w}x{h}bb.jpg"
     }
   ]
 }

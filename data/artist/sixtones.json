@@ -102,5 +102,28 @@
       "sourceUrl": "https://www.sixtones.jp/live",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "6785734870",
+      "title": "マイオンリー",
+      "albumTitle": "マイオンリー - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/48/6f/0a/486f0a25-098b-3f82-16bb-544bf4d0a9ea/mzaf_1946888034491322432.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/be/28/43/be284309-bce7-bfc4-a1a8-90a6712b1b8f/4547366834611.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1823132191",
+      "title": "Stargaze",
+      "albumTitle": "Stargaze - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7f/72/31/7f7231e3-dbf2-ab1f-98c6-c05d60ca264e/mzaf_4819875056302047349.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/17/c6/ba/17c6bab5-42eb-0443-ba52-008c1fa470b4/4547366759204.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "6780773162",
+      "title": "Dance Forever",
+      "albumTitle": "Dance Forever - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/21/77/30/217730c2-f297-7418-4223-0122f07a39f2/mzaf_12177079309282283002.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/66/5c/99/665c990f-c72d-81d4-0c3e-600fd28d4327/4547366830583.jpg/{w}x{h}bb.jpg"
+    }
   ]
 }

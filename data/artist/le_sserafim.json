@@ -8,8 +8,14 @@
       "startDate": "2026-07-25T00:00:00+09:00",
       "endDate": "2026-09-03T00:00:00+09:00",
       "prices": [
-        {"label": "指定席", "amount": 16500},
-        {"label": "VIP席", "amount": 27500}
+        {
+          "label": "指定席",
+          "amount": 16500
+        },
+        {
+          "label": "VIP席",
+          "amount": 27500
+        }
       ],
       "source": "system",
       "sourceUrl": "https://www.le-sserafim.jp/news/51726af4dd90",
@@ -22,8 +28,14 @@
       "startDate": "2026-08-14T00:00:00+09:00",
       "endDate": "2026-08-16T00:00:00+09:00",
       "prices": [
-        {"label": "大阪1DAYチケット", "amount": 19000},
-        {"label": "東京1DAYチケット", "amount": 21000}
+        {
+          "label": "大阪1DAYチケット",
+          "amount": 19000
+        },
+        {
+          "label": "東京1DAYチケット",
+          "amount": 21000
+        }
       ],
       "source": "system",
       "sourceUrl": "https://www.summersonic.com/",
@@ -313,7 +325,9 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["le_sserafim_fes_summer_sonic_2026_osaka_0814"],
+      "performanceIds": [
+        "le_sserafim_fes_summer_sonic_2026_osaka_0814"
+      ],
       "source": "system",
       "sourceUrl": "https://www.summersonic.com/tickets/osaka/",
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
@@ -327,7 +341,9 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["le_sserafim_fes_summer_sonic_2026_osaka_0814"],
+      "performanceIds": [
+        "le_sserafim_fes_summer_sonic_2026_osaka_0814"
+      ],
       "source": "system",
       "sourceUrl": "https://www.summersonic.com/tickets/osaka/",
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
@@ -341,7 +357,9 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["le_sserafim_fes_summer_sonic_2026_tokyo_0816"],
+      "performanceIds": [
+        "le_sserafim_fes_summer_sonic_2026_tokyo_0816"
+      ],
       "source": "system",
       "sourceUrl": "https://www.summersonic.com/tickets/tokyo/",
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
@@ -355,10 +373,35 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["le_sserafim_fes_summer_sonic_2026_tokyo_0816"],
+      "performanceIds": [
+        "le_sserafim_fes_summer_sonic_2026_tokyo_0816"
+      ],
       "source": "system",
       "sourceUrl": "https://www.summersonic.com/tickets/tokyo/",
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1713266694",
+      "title": "Perfect Night",
+      "albumTitle": "Perfect Night - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/db/f5/da/dbf5da33-bfce-719c-e53e-b9d5ae104fd7/mzaf_16185830484473233385.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/da/27/3a/da273ad3-72c6-92e2-e4c6-c7f7a62d76f4/23UM1IM27721.rgb.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1621419675",
+      "title": "FEARLESS",
+      "albumTitle": "FEARLESS - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/97/df/6c/97df6c24-c213-d6a8-5aff-6668ef8d896d/mzaf_7536290938402082395.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/77/5f/12/775f1245-eb8e-994a-19c8-2137a0374f92/22UMGIM45949.rgb.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1684417810",
+      "title": "UNFORGIVEN",
+      "albumTitle": "UNFORGIVEN",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b3/0b/db/b30bdb6d-0c4f-376b-8922-597b881dc670/mzaf_464576596730193948.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/42/50/28/425028e8-d8da-5298-4f1e-74d6240ff94b/23UMGIM43940.rgb.jpg/{w}x{h}bb.jpg"
     }
   ]
 }

@@ -8,11 +8,26 @@
       "startDate": "2026-08-30T00:00:00+09:00",
       "endDate": "2026-08-30T00:00:00+09:00",
       "prices": [
-        {"label": "プレミアムエリア", "amount": 15000},
-        {"label": "僕青撮影部エリア", "amount": 10000},
-        {"label": "一般エリア", "amount": 8300},
-        {"label": "女性エリア", "amount": 8300},
-        {"label": "ファミリーエリア", "amount": 8300}
+        {
+          "label": "プレミアムエリア",
+          "amount": 15000
+        },
+        {
+          "label": "僕青撮影部エリア",
+          "amount": 10000
+        },
+        {
+          "label": "一般エリア",
+          "amount": 8300
+        },
+        {
+          "label": "女性エリア",
+          "amount": 8300
+        },
+        {
+          "label": "ファミリーエリア",
+          "amount": 8300
+        }
       ],
       "source": "system",
       "sourceUrl": "https://bokuao.com/news/detail/5405",
@@ -66,7 +81,9 @@
       "resultAt": "2026-07-03T12:00:00+09:00",
       "paymentStartAt": "2026-07-03T12:00:00+09:00",
       "paymentEndAt": "2026-07-06T23:59:00+09:00",
-      "performanceIds": ["boku_aozora_summer_fes_2026_toyosupit_0830"],
+      "performanceIds": [
+        "boku_aozora_summer_fes_2026_toyosupit_0830"
+      ],
       "source": "system",
       "sourceUrl": "https://bokuao.com/news/detail/5405",
       "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
@@ -80,10 +97,35 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["boku_aozora_summer_fes_2026_toyosupit_0830"],
+      "performanceIds": [
+        "boku_aozora_summer_fes_2026_toyosupit_0830"
+      ],
       "source": "system",
       "sourceUrl": "https://bokuao.com/news/detail/5405",
       "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1694252176",
+      "title": "青空について考える",
+      "albumTitle": "青空について考える - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/dc/85/11/dc8511d8-98a2-7141-d375-ae203b7cb978/mzaf_12624903469735398549.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/5d/6f/b3/5d6fb3a2-d871-8d90-04c1-ba2fe637fbe3/ANTCD-A0000010717.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1701375862",
+      "title": "青空について考える",
+      "albumTitle": "青空について考える(Special Edition) - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/69/a6/21/69a62115-a21d-35c0-decf-fc02c925254a/mzaf_6678829808464544040.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f9/02/13/f90213fe-5f37-14b1-1ea6-e0f41c5ca538/ANTCD-A0000011124.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1720324451",
+      "title": "卒業まで",
+      "albumTitle": "卒業まで - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/19/74/4c/19744c16-00fa-62ec-869b-df67d0b2eb21/mzaf_13955726751283938372.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6e/74/2e/6e742e2f-f559-0f0d-0874-679734d3e794/ANTCD-A0000012263.jpg/{w}x{h}bb.jpg"
     }
   ]
 }

@@ -19,7 +19,10 @@
       "startDate": "2026-09-05T00:00:00+09:00",
       "endDate": "2026-09-05T00:00:00+09:00",
       "prices": [
-        { "label": "全席指定", "amount": 8800 }
+        {
+          "label": "全席指定",
+          "amount": 8800
+        }
       ],
       "source": "system",
       "sourceUrl": "https://hypnosismic.com/news/hm260612-2/",
@@ -31,7 +34,12 @@
       "title": "ヒプノシスマイク -Division Rap Battle- 12th LIVE ≪MIC AS ONE≫",
       "startDate": "2026-10-03T00:00:00+09:00",
       "endDate": "2026-10-04T00:00:00+09:00",
-      "prices": [{"label": "全席指定", "amount": 13500}],
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 13500
+        }
+      ],
       "source": "system",
       "sourceUrl": "https://hypnosismic.com/news/hmlive260710/",
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
@@ -304,5 +312,28 @@
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
   ],
-  "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+  "lastVerifiedAt": "2026-07-22T00:00:00+09:00",
+  "appleMusicTracks": [
+    {
+      "songId": "1373593398",
+      "title": "ヒプノシスマイク -Division Battle Anthem-",
+      "albumTitle": "ヒプノシスマイク -Division Battle Anthem- - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/87/aa/ad/87aaad02-de79-2e58-e5ee-8fd076ff6547/mzaf_17851241594798893586.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/66/09/2d/66092deb-cbf6-cdd4-8e8f-76917b5aca78/NOPA-1728_1400_72.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1297889689",
+      "title": "ヒプノシスマイク -Division Rap Battle-",
+      "albumTitle": "ヒプノシスマイク -Division Rap Battle- - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/62/2f/80/622f8034-9680-6aef-467a-38e4d0b3c850/mzaf_14858811591756625170.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/49/30/97/493097a3-57b8-c8ee-9559-f578ffdd032d/NOPA-1650_1400_72.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1480639086",
+      "title": "ヒプノシスマイク -Division Rap Battle- +",
+      "albumTitle": "ヒプノシスマイク -Division Rap Battle- + - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/41/86/2b/41862b3a-9509-182a-b391-060b08f541ae/mzaf_11930003570161363594.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ed/d1/ac/edd1ac80-3b84-a77a-3e8f-285f537397ad/NOPA-2157.jpg/{w}x{h}bb.jpg"
+    }
+  ]
 }

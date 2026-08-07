@@ -8,7 +8,10 @@
       "startDate": "2026-07-04T00:00:00+09:00",
       "endDate": "2026-08-30T00:00:00+09:00",
       "prices": [
-        {"label": "全席指定", "amount": 7800}
+        {
+          "label": "全席指定",
+          "amount": 7800
+        }
       ],
       "source": "system",
       "sourceUrl": "https://www.tennimu.com/4th_2026rikkai_1/ticket/",
@@ -21,8 +24,14 @@
       "startDate": "2026-10-02T00:00:00+09:00",
       "endDate": "2026-11-15T00:00:00+09:00",
       "prices": [
-        {"label": "S席", "amount": 9500},
-        {"label": "A席", "amount": 7500}
+        {
+          "label": "S席",
+          "amount": 9500
+        },
+        {
+          "label": "A席",
+          "amount": 7500
+        }
       ],
       "source": "system",
       "sourceUrl": "https://www.tennimu.com/tennimu2_2026/ticket/",

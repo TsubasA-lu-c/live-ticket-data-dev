@@ -516,5 +516,28 @@
       "sourceUrl": "https://www800.asia/2026/ticket",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "126117708",
+      "title": "Missing",
+      "albumTitle": "RIOT ON THE GRILL",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/43/95/08/439508df-4189-40d5-c5e9-3ffca577daef/mzaf_3140552369352068954.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/4e/83/67/mzi.htmusnpd.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "126114654",
+      "title": "Red Hot",
+      "albumTitle": "RIOT ON THE GRILL",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c1/69/60/c1696039-5931-0e54-c1a3-f5fec00a4e50/mzaf_1441297048951110738.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/4e/83/67/mzi.htmusnpd.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "307081196",
+      "title": "ジターバグ",
+      "albumTitle": "BRING YOUR BOARD!!",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/Music/v4/6e/a7/c7/6ea7c7f9-f34e-e1fd-d844-7443f3481475/mzaf_8290533635118442437.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/7d/ce/fd/mzi.djsfforx.jpg/{w}x{h}bb.jpg"
+    }
   ]
 }

@@ -3,5 +3,28 @@
   "tours": [],
   "performances": [],
   "lotteries": [],
-  "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+  "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+  "appleMusicTracks": [
+    {
+      "songId": "1130828898",
+      "title": "VERY NICE",
+      "albumTitle": "Love&Letter",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9a/e9/7a/9ae97a20-1d23-7e32-6250-348bc30c24a5/mzaf_16842603062944248890.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/32/cb/c4/32cbc434-82b9-6b8e-8cc8-752b554b49f9/cover-.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1239346065",
+      "title": "Don't Wanna Cry",
+      "albumTitle": "Al1",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0e/d3/70/0ed3705f-4129-2fe1-d498-0616631ebbf5/mzaf_7220601219983848184.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7e/93/76/7e937672-f339-eda1-8d7b-708a0c16acc4/cover-.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "999645578",
+      "title": "Adore U",
+      "albumTitle": "17 CARAT",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/05/25/5c/05255c3e-9a2f-6969-13d6-a045222e15bf/mzaf_6972253023391534690.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/75/7d/b9/757db928-7365-3af7-4a95-22c430d2c10d/cover-.jpg/{w}x{h}bb.jpg"
+    }
+  ]
 }

@@ -8,7 +8,10 @@
       "startDate": "2026-09-22T00:00:00+09:00",
       "endDate": "2026-09-23T00:00:00+09:00",
       "prices": [
-        {"label": "全席指定", "amount": 13000}
+        {
+          "label": "全席指定",
+          "amount": 13000
+        }
       ],
       "source": "system",
       "sourceUrl": "https://www.mizukinana.jp/special/2026_livegrace_4/ticket.html",
@@ -92,6 +95,29 @@
       "source": "system",
       "sourceUrl": "https://www.mizukinana.jp/special/2026_livegrace_4/ticket.html",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "719326250",
+      "title": "革命デュアリズム",
+      "albumTitle": "革命デュアリズム Type-A(初回生産盤) - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/73/1e/73/731e73f7-96de-7b42-8b41-a2e2609fb2d4/mzaf_5675389745869153140.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/21/4c/49/214c4997-ca5c-e4ed-e790-63e81475c6ee/KICM-91471.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "489753197",
+      "title": "Synchrogazer",
+      "albumTitle": "Synchrogazer - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/24/17/fd/2417fd92-ae11-b3d2-6a35-31ed27d7a83a/mzaf_445118202600554577.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/6c/37/5c/mzi.zonrkieb.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "667194814",
+      "title": "不死鳥のフランメ",
+      "albumTitle": "戦姫絶唱シンフォギアG キャラクターソング1 - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview71/v4/d2/d4/11/d2d4115d-d5ce-5520-20cc-247f5971c68a/mzaf_2895731322574397397.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/5c/e4/5d/5ce45dab-5d07-47f2-2ccd-0535d7bebec4/0625AM10_KICM-3257_G_1.jpg/{w}x{h}bb.jpg"
     }
   ]
 }

@@ -3,5 +3,28 @@
   "tours": [],
   "performances": [],
   "lotteries": [],
-  "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+  "lastVerifiedAt": "2026-07-10T00:00:00+09:00",
+  "appleMusicTracks": [
+    {
+      "songId": "76023176",
+      "title": "Butterfly",
+      "albumTitle": "Butterfly - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ce/c1/50/cec15058-a2cd-7edb-c575-a9bdad1742c5/mzaf_5689567136886618792.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/y2005/m07/d21/h14/mzi.tqohoimf.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "391459278",
+      "title": "好きで、好きで、好きで。",
+      "albumTitle": "好きで、好きで、好きで。 / あなただけが - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/17/ab/f1/17abf19d-9002-45ac-acb0-f986142a82e1/mzaf_17998120172388054204.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/e0/91/d3/mzi.cqnnnrbj.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "291497231",
+      "title": "Moon Crying",
+      "albumTitle": "MOON",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/35/12/f6/3512f60f-ff1d-a288-1e8b-e32d4bb7837e/mzaf_13322782469213822663.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/94/7b/ec/mzi.pszddcuq.jpg/{w}x{h}bb.jpg"
+    }
+  ]
 }

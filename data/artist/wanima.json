@@ -8,10 +8,22 @@
       "startDate": "2026-09-26T00:00:00+09:00",
       "endDate": "2026-09-27T00:00:00+09:00",
       "prices": [
-        {"label": "1日券", "amount": 12000},
-        {"label": "2日券", "amount": 23000},
-        {"label": "1日券（小人・高校生以下）", "amount": 9500},
-        {"label": "2日券（小人・高校生以下）", "amount": 18000}
+        {
+          "label": "1日券",
+          "amount": 12000
+        },
+        {
+          "label": "2日券",
+          "amount": 23000
+        },
+        {
+          "label": "1日券（小人・高校生以下）",
+          "amount": 9500
+        },
+        {
+          "label": "2日券（小人・高校生以下）",
+          "amount": 18000
+        }
       ],
       "source": "system",
       "sourceUrl": "https://1chancefes.com/",
@@ -288,6 +300,29 @@
       "source": "system",
       "sourceUrl": "https://eplus.jp/live-azuma/",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1319369012",
+      "title": "シグナル",
+      "albumTitle": "Everybody!!",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/64/9c/89/649c89d1-4888-d13b-a9eb-921a1d301354/mzaf_10352236902933879789.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/95/47/d6/9547d65b-8bb3-b7cc-4b6e-fbab8747530f/190295700706.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1450541509",
+      "title": "アゲイン",
+      "albumTitle": "Good Job!! - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c4/87/57/c48757b3-b21a-65ee-8614-a77733448d15/mzaf_7208976376040064275.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4c/b9/49/4cb949a8-b0cf-f6f9-a551-d4dc563b1f1e/190295476403.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1373695359",
+      "title": "Drive",
+      "albumTitle": "Drive - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c8/a4/af/c8a4af0e-8f56-2df3-e8a9-3abb983c920d/mzaf_7355133562069196345.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/ca/92/fe/ca92fe3f-5eee-6b30-4153-f9d501240502/190295636579.jpg/{w}x{h}bb.jpg"
     }
   ]
 }

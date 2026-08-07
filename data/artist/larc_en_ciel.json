@@ -345,5 +345,28 @@
       "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13433",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1536362482",
+      "title": "Driver's High",
+      "albumTitle": "The Best of L'Arc-en-Ciel 1998-2000",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e5/d1/35/e5d135b9-b871-d93c-4586-172be16b21ae/mzaf_6395834284423640963.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/98/e1/58/98e15805-0b89-b9f2-0d50-a490d06894b5/jacket_KSCL00537B00Z_550.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1536362474",
+      "title": "HONEY",
+      "albumTitle": "The Best of L'Arc-en-Ciel 1998-2000",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ef/34/af/ef34af1b-1aa3-8ec5-e9df-09be95646027/mzaf_8249711097492972163.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/98/e1/58/98e15805-0b89-b9f2-0d50-a490d06894b5/jacket_KSCL00537B00Z_550.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1536362454",
+      "title": "winter fall",
+      "albumTitle": "The Best of L'Arc-en-Ciel 1994-1998",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9b/58/fa/9b58fa61-208d-6be6-4feb-8d38417e4967/mzaf_619492577353919748.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ca/16/3d/ca163d48-819b-0019-4ddb-3166a7b4303f/jacket_KSCL00536B00Z_550.jpg/{w}x{h}bb.jpg"
+    }
   ]
 }

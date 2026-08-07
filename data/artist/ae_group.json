@@ -167,5 +167,28 @@
       "sourceUrl": "https://www.fujitv.co.jp/wanganfes/",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "6774074646",
+      "title": "でこぼこライフ",
+      "albumTitle": "でこぼこライフ (Special Edition) - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/77/bf/35/77bf3591-f5fc-e39c-8786-dbfdd9ffdcbc/mzaf_6443520961157163774.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/96/e5/14/96e514c7-4f4c-9cb1-f880-c0196ce589cf/26UMGIM64067.rgb.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "6763232616",
+      "title": "でこぼこライフ",
+      "albumTitle": "でこぼこライフ - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e8/76/7b/e8767be8-6bf1-76a0-ec7a-2ff78c3a5b03/mzaf_14494653969292349583.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bf/c3/cb/bfc3cbfb-f06a-52cb-3817-324a6413629b/26UMGIM29835.rgb.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "6774074650",
+      "title": "PRIDE",
+      "albumTitle": "でこぼこライフ (Special Edition) - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/67/3c/f3/673cf34a-7863-3b87-0939-864b2c3a96f2/mzaf_4477114340849419636.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/96/e5/14/96e514c7-4f4c-9cb1-f880-c0196ce589cf/26UMGIM64067.rgb.jpg/{w}x{h}bb.jpg"
+    }
   ]
 }

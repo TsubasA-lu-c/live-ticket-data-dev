@@ -559,5 +559,28 @@
       "sourceUrl": "https://www.aimyong.net/feature/tententen_budokan",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1402042897",
+      "title": "マリーゴールド",
+      "albumTitle": "マリーゴールド - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fb/c3/0e/fbc30e54-8e82-8a7d-e3b7-aebefe322b9b/mzaf_1812139024199870103.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/67/34/90/67349087-0609-2be4-4963-fd4682ae8c46/190295600341.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1508133095",
+      "title": "裸の心",
+      "albumTitle": "裸の心 - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bf/02/83/bf02835a-8f27-b7da-8b6d-38ef30e65a7a/mzaf_3887989323330368152.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/85/0b/1b/850b1b4c-f529-6828-4b2b-a5a187ec61c6/190295235017.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1455341000",
+      "title": "ハルノヒ",
+      "albumTitle": "ハルノヒ - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5a/9d/e0/5a9de088-ed9f-c416-ebeb-aacf894dc391/mzaf_10702430299075903317.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c6/17/ad/c617ad80-bf5c-64f1-0d52-f19cb1c04efd/190295450946.jpg/{w}x{h}bb.jpg"
+    }
   ]
 }

@@ -278,5 +278,28 @@
       "sourceUrl": "https://reissuerecords.net/2026/07/03/2026-tour-ghost/",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1263790415",
+      "title": "打上花火",
+      "albumTitle": "打上花火 - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/47/9c/b8/479cb85c-545f-1ca6-099c-3cae5431e320/mzaf_2306011953211059359.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a8/cf/1f/a8cf1f9a-d988-7c3d-b618-6ab53d12bc0d/TFCC-89632WW.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1648272180",
+      "title": "KICK BACK",
+      "albumTitle": "KICK BACK - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/ef/35/15/ef3515d7-ec49-a0d5-5941-b312a31d89f9/mzaf_6584056106462089749.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/4e/a8/75/4ea875d1-bdb6-9b83-185a-646391cbffbd/4547366589849.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1568993237",
+      "title": "Pale Blue",
+      "albumTitle": "Pale Blue - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/27/4e/76/274e7650-42bb-af1d-ee1e-3b09d3223b46/mzaf_16742189625222262270.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7b/8f/5e/7b8f5e3b-17f0-4b0c-8c80-c4491a5991a7/4547366515183.jpg/{w}x{h}bb.jpg"
+    }
   ]
 }

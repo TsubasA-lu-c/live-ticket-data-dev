@@ -8,9 +8,18 @@
       "startDate": "2026-07-23T00:00:00+09:00",
       "endDate": "2026-08-30T00:00:00+09:00",
       "prices": [
-        {"label": "Leminoスペシャルシート", "amount": 17000},
-        {"label": "全席指定", "amount": 11000},
-        {"label": "親子・女性エリア", "amount": 11000}
+        {
+          "label": "Leminoスペシャルシート",
+          "amount": 17000
+        },
+        {
+          "label": "全席指定",
+          "amount": 11000
+        },
+        {
+          "label": "親子・女性エリア",
+          "amount": 11000
+        }
       ],
       "source": "system",
       "sourceUrl": "https://sakurazaka46.com/s/s46/page/nationaltour2026",
@@ -34,9 +43,18 @@
       "startDate": "2026-09-29T00:00:00+09:00",
       "endDate": "2026-09-30T00:00:00+09:00",
       "prices": [
-        {"label": "Leminoスペシャルシート", "amount": 15800},
-        {"label": "全席指定", "amount": 9800},
-        {"label": "親子・女性エリア", "amount": 9800}
+        {
+          "label": "Leminoスペシャルシート",
+          "amount": 15800
+        },
+        {
+          "label": "全席指定",
+          "amount": 9800
+        },
+        {
+          "label": "親子・女性エリア",
+          "amount": 9800
+        }
       ],
       "source": "system",
       "sourceUrl": "https://sakurazaka46.com/s/s46/page/backslive_15th",
@@ -547,6 +565,29 @@
       "source": "system",
       "sourceUrl": "https://sakurazaka46.com/s/s46/page/nationaltour2026",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1561101129",
+      "title": "BAN",
+      "albumTitle": "BAN (Special Edition)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/b3/84/d4/b384d427-3dc7-5122-7060-d7c47e918667/mzaf_8469928925179711286.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ae/8c/2b/ae8c2b0f-46a0-bb4c-6009-bc1166321638/4547366507638.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1588194497",
+      "title": "流れ弾",
+      "albumTitle": "流れ弾 (Special Edition)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c8/be/47/c8be478b-534e-18d3-202f-9f2a3b207f76/mzaf_10840435775511530610.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a9/c0/fb/a9c0fb10-c171-d553-68d1-c360df469498/4547366533088.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1542000907",
+      "title": "Nobody's fault",
+      "albumTitle": "Nobody's fault (Special Edition)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/4f/2c/5d/4f2c5da1-72c7-9524-bfee-5bd7c4f0fbc9/mzaf_13771591576506175796.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/36/1c/e5/361ce506-7948-1d49-6765-7335cbfc4b2f/4547366487862.jpg/{w}x{h}bb.jpg"
     }
   ]
 }

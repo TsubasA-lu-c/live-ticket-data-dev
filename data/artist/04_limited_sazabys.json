@@ -8,7 +8,10 @@
       "startDate": "2026-10-02T00:00:00+09:00",
       "endDate": "2026-11-05T00:00:00+09:00",
       "prices": [
-        {"label": "スタンディング", "amount": 6600}
+        {
+          "label": "スタンディング",
+          "amount": 6600
+        }
       ],
       "source": "system",
       "sourceUrl": "https://www.04limitedsazabys.com/feature/tour2026",
@@ -32,7 +35,10 @@
       "startDate": "2026-08-08T00:00:00+09:00",
       "endDate": "2026-08-08T00:00:00+09:00",
       "prices": [
-        {"label": "チケット", "amount": 5555}
+        {
+          "label": "チケット",
+          "amount": 5555
+        }
       ],
       "source": "system",
       "sourceUrl": "https://www.04limitedsazabys.com/feature/yontownlive2026",
@@ -56,7 +62,10 @@
       "startDate": "2026-10-14T00:00:00+09:00",
       "endDate": "2026-10-14T00:00:00+09:00",
       "prices": [
-        {"label": "チケット", "amount": 5500}
+        {
+          "label": "チケット",
+          "amount": 5500
+        }
       ],
       "source": "system",
       "sourceUrl": "https://www.04limitedsazabys.com/news/detail/2349",
@@ -69,8 +78,14 @@
       "startDate": "2026-11-28T00:00:00+09:00",
       "endDate": "2026-11-28T00:00:00+09:00",
       "prices": [
-        {"label": "1DAY", "amount": 8800},
-        {"label": "2DAY", "amount": 15000}
+        {
+          "label": "1DAY",
+          "amount": 8800
+        },
+        {
+          "label": "2DAY",
+          "amount": 15000
+        }
       ],
       "source": "system",
       "sourceUrl": "https://w.pia.jp/t/masterpiece-26/",
@@ -83,8 +98,14 @@
       "startDate": "2026-12-12T00:00:00+09:00",
       "endDate": "2026-12-13T00:00:00+09:00",
       "prices": [
-        {"label": "1日券", "amount": 9610},
-        {"label": "2日券", "amount": 18610}
+        {
+          "label": "1日券",
+          "amount": 9610
+        },
+        {
+          "label": "2日券",
+          "amount": 18610
+        }
       ],
       "source": "system",
       "sourceUrl": "https://kue.rotten-g.com/26/",
@@ -575,6 +596,29 @@
       "source": "system",
       "sourceUrl": "https://kue.rotten-g.com/26/ticket/",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "930768911",
+      "title": "swim",
+      "albumTitle": "YON - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/bd/1f/96/bd1f969b-5422-8ae0-a219-01f0a8051d72/mzaf_1947755852342546810.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/95/8d/4e/958d4eb5-a9f7-e736-03d3-b216c678bf88/NBDL-22.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "808636737",
+      "title": "monolith",
+      "albumTitle": "monolith",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/30/c7/d4/30c7d4cd-e6df-fe26-cba2-7f0f58130b6b/mzaf_12878526129931287443.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/83/33/bc/8333bc93-876d-f6c4-d0bd-ce131f257bce/COKM-32348.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1268992778",
+      "title": "Squall",
+      "albumTitle": "Squall - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/41/d2/21/41d22143-c0b7-2a8c-e971-2f3de46e8f38/mzaf_13395248608815146660.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/ef/37/78/ef37787d-dde5-bbcc-78c1-8c2fa72d3ee3/COCA-17323.jpg/{w}x{h}bb.jpg"
     }
   ]
 }

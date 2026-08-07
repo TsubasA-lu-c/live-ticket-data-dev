@@ -8,7 +8,10 @@
       "startDate": "2026-07-25T00:00:00+09:00",
       "endDate": "2026-07-26T00:00:00+09:00",
       "prices": [
-        {"label": "全席指定", "amount": 15000}
+        {
+          "label": "全席指定",
+          "amount": 15000
+        }
       ],
       "source": "system",
       "sourceUrl": "https://shitkingz.jp/s/stkgzfes2026/",
@@ -21,9 +24,18 @@
       "startDate": "2026-10-10T00:00:00+09:00",
       "endDate": "2026-10-12T00:00:00+09:00",
       "prices": [
-        {"label": "SS指定席（特典付きプレミアム席）", "amount": 30000},
-        {"label": "S指定席（特典付きプレミアム席）", "amount": 25000},
-        {"label": "一般指定席", "amount": 20000}
+        {
+          "label": "SS指定席（特典付きプレミアム席）",
+          "amount": 30000
+        },
+        {
+          "label": "S指定席（特典付きプレミアム席）",
+          "amount": 25000
+        },
+        {
+          "label": "一般指定席",
+          "amount": 20000
+        }
       ],
       "source": "system",
       "sourceUrl": "https://bmsgfes.tokyo/",
@@ -90,7 +102,9 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["sky_hi_fes_2026_stkgz_0726"],
+      "performanceIds": [
+        "sky_hi_fes_2026_stkgz_0726"
+      ],
       "source": "system",
       "sourceUrl": "https://skyhi.tokyo/live/2026/2058",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
@@ -122,6 +136,29 @@
       "source": "system",
       "sourceUrl": "https://skyhi.tokyo/news/2109",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1739518712",
+      "title": "Stormy",
+      "albumTitle": "Stormy - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/89/c0/e0/89c0e035-6adb-0cf8-020c-9be1243713d1/mzaf_14640403897449602339.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0c/04/cd/0c04cd4c-124f-b4bf-51d0-e20c16958672/4540774610723.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1361462053",
+      "title": "Diver's High",
+      "albumTitle": "Diver's High - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/10/8f/db/108fdb19-af3f-32ea-86c5-87c917d9258b/mzaf_17977960890194717509.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b5/5e/0f/b55e0f5e-f877-b0e9-f1a5-1755cca08b49/ANTCD-27441.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1562778792",
+      "title": "To The First",
+      "albumTitle": "To The First - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/87/a3/fc/87a3fcf2-e142-104e-2784-974b1887df83/mzaf_6231148540015613317.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/5d/ca/2e/5dca2e97-2c4a-e886-fbbc-bef157de5ed3/ANTCD-A0000003995.jpg/{w}x{h}bb.jpg"
     }
   ]
 }

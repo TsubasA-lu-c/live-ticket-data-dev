@@ -650,5 +650,28 @@
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1459216694",
+      "title": "Pretender",
+      "albumTitle": "Pretender - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ce/0f/9c/ce0f9cf6-edfd-d964-317a-56781936a96b/mzaf_10158629645505453806.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/1f/b6/36/1fb6364f-77fc-7653-3750-811631832ee9/PCCA_04785.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1492963535",
+      "title": "I LOVE...",
+      "albumTitle": "I LOVE... - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/cf/ca/fa/cfcafa45-cb05-7f87-8701-d8b0557eca74/mzaf_3044102232634889311.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d9/e4/02/d9e4021a-2f24-b25a-925f-b35d78fb9c52/PCCA_70549.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1648108988",
+      "title": "Subtitle",
+      "albumTitle": "Subtitle - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e1/e1/78/e1e1784d-ec42-bdc5-b40a-9eedda88668d/mzaf_1015486412126374844.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/53/0c/17/530c1752-6dce-d4bc-98d1-784141b1703e/PCSP_04565_A.jpg/{w}x{h}bb.jpg"
+    }
   ]
 }

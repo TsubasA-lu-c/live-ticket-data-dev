@@ -84,5 +84,28 @@
       "sourceUrl": "https://liveviewing.jp/aespa2026-27/",
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1587844525",
+      "title": "Savage",
+      "albumTitle": "Savage - The 1st Mini Album - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9c/d5/ad/9cd5ad86-f09f-3422-6c99-42577c976b47/mzaf_3749214757514845374.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/51/f7/85/51f7852b-7602-136b-ac15-8b3878260c64/4000aespa_M01_Savage_DC.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1567326688",
+      "title": "Next Level",
+      "albumTitle": "Next Level - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/43/1e/0a/431e0a24-2c04-e738-2632-87462a20984d/mzaf_3158159453623406671.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/60/8d/ac/608dacc2-d6d6-462d-26f0-d693e4364751/artwork.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1540251305",
+      "title": "Black Mamba",
+      "albumTitle": "Black Mamba - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a0/80/06/a08006a0-18a6-30cc-ac9a-49f2ae18786f/mzaf_6859696801975044217.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/1f/53/e2/1f53e291-df44-bb66-1c29-6e74c2b0eab0/aespa_BlackMamba_final.png/{w}x{h}bb.jpg"
+    }
   ]
 }

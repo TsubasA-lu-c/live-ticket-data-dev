@@ -8,9 +8,18 @@
       "startDate": "2026-09-26T00:00:00+09:00",
       "endDate": "2027-01-17T00:00:00+09:00",
       "prices": [
-        {"label": "指定席", "amount": 11500},
-        {"label": "ファミリー席", "amount": 11500},
-        {"label": "着席指定席", "amount": 11500}
+        {
+          "label": "指定席",
+          "amount": 11500
+        },
+        {
+          "label": "ファミリー席",
+          "amount": 11500
+        },
+        {
+          "label": "着席指定席",
+          "amount": 11500
+        }
       ],
       "source": "system",
       "sourceUrl": "https://sd-milk.com/pages/shakarikirevolution",
@@ -23,7 +32,10 @@
       "startDate": "2026-05-06T00:00:00+09:00",
       "endDate": "2026-07-27T00:00:00+09:00",
       "prices": [
-        {"label": "全席指定", "amount": 8900}
+        {
+          "label": "全席指定",
+          "amount": 8900
+        }
       ],
       "source": "system",
       "sourceUrl": "https://sd-milk.com/contents/pages/kanshasai2026",
@@ -47,7 +59,10 @@
       "startDate": "2026-08-13T00:00:00+09:00",
       "endDate": "2026-08-16T00:00:00+09:00",
       "prices": [
-        {"label": "指定席", "amount": 15000}
+        {
+          "label": "指定席",
+          "amount": 15000
+        }
       ],
       "source": "system",
       "sourceUrl": "https://sd-milk.com/contents/1081642",
@@ -646,6 +661,29 @@
       "source": "system",
       "sourceUrl": "https://sd-milk.com/contents/pages/kanshasai2026",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1846753946",
+      "title": "好きすぎて滅!",
+      "albumTitle": "好きすぎて滅! - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f0/9d/69/f09d6967-c8fa-a7a5-3fb2-8331c7aa0dee/mzaf_7054323923297483009.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/f9/1b/d4f91bfd-6176-4733-113f-b72f6095d5df/VEATP-44481.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1869537742",
+      "title": "爆裂愛してる",
+      "albumTitle": "爆裂愛してる / 好きすぎて滅! - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cb/c3/54/cbc3541b-2393-5351-15b4-1f7d250944fd/mzaf_9181455807724732503.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/45/b1/53/45b153d5-e943-6cd9-620e-0a4c66b7525b/VEATP-45199.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "6793456212",
+      "title": "罪と罰と雨とキス (佐野勇斗&吉田仁人)",
+      "albumTitle": "罪と罰と雨とキス (佐野勇斗&吉田仁人) - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a7/5d/c8/a75dc810-d043-811e-e733-6f7e9e303c23/mzaf_18446293147873935686.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bd/11/7d/bd117d15-042d-c606-6e45-2bc5a14a96d4/VEATP-45813.jpg/{w}x{h}bb.jpg"
     }
   ]
 }

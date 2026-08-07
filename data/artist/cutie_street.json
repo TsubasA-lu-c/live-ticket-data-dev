@@ -342,5 +342,28 @@
       "sourceUrl": "https://cutiestreet.asobisystem.com/feature/autumntour",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1804686358",
+      "title": "かわいいだけじゃだめですか?",
+      "albumTitle": "かわいいだけじゃだめですか? - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/46/34/25/46342518-97f2-de40-6aa7-aeddaab11c87/mzaf_5811406392003407472.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/a6/91/71a691bc-b5a6-7903-4b13-608611c2f2b3/4580789670411.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "6764039229",
+      "title": "キュートなキューたい",
+      "albumTitle": "キュートなキューたい / ナイスだね",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/49/94/78/4994784f-1a31-b3fe-1bf6-9f3ef66e8dc2/mzaf_8452585145955842238.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/77/6d/b7/776db75a-b60f-6398-58a3-2074a0e39061/820233147354.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1834638032",
+      "title": "かわいいさがしてくれますか?",
+      "albumTitle": "かわいいさがしてくれますか? / きゅーすとのうた - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4b/d5/02/4bd50216-53b4-aa2c-2cf3-242670bbd0c8/mzaf_15243570438569328312.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d1/69/1f/d1691f30-ba88-fd0f-2b68-afc85832bf94/199538602296.jpg/{w}x{h}bb.jpg"
+    }
   ]
 }

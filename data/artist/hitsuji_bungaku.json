@@ -8,8 +8,14 @@
       "startDate": "2026-09-04T00:00:00+09:00",
       "endDate": "2026-11-11T00:00:00+09:00",
       "prices": [
-        { "label": "全席指定", "amount": 7500 },
-        { "label": "全席指定（東京）", "amount": 8800 }
+        {
+          "label": "全席指定",
+          "amount": 7500
+        },
+        {
+          "label": "全席指定（東京）",
+          "amount": 8800
+        }
       ],
       "source": "system",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/581948",
@@ -202,6 +208,29 @@
       "source": "system",
       "sourceUrl": "https://smash-jpn.com/live/?id=4667",
       "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1702627144",
+      "title": "more than words",
+      "albumTitle": "more than words - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/50/75/90/5075902c-9f2a-2cc3-78eb-93b34653048c/mzaf_5747242474621568451.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ff/6b/19/ff6b1924-6db1-3151-a724-8d00c0f4c204/4547366642537.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1599222565",
+      "title": "光るとき",
+      "albumTitle": "光るとき - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/03/e0/a2/03e0a2c3-9d75-52ea-1c20-0b70ff26d5dd/mzaf_13177153993779777698.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7c/b2/cd/7cb2cd47-e482-b0fb-1b94-9f302b06fd01/4547366543896.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1753851098",
+      "title": "Burning",
+      "albumTitle": "Burning - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2a/7b/4e/2a7b4e34-cf34-4c6c-c227-51ab881413dc/mzaf_11933565659885023259.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ed/78/c8/ed78c8ce-7982-912a-12e4-8d7d049049f0/4547366693959.jpg/{w}x{h}bb.jpg"
     }
   ]
 }

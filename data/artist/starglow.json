@@ -457,5 +457,28 @@
       "sourceUrl": "https://starglow.tokyo/news/live/1214/",
       "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "6781148832",
+      "title": "Drivin' My Life",
+      "albumTitle": "Drivin' My Life - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b3/a4/83/b3a483ac-9bd9-bcf3-57fb-b1dc6979724d/mzaf_3954042155226262349.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/c0/8f/17c08fff-42ba-36a2-2129-4b6bb1540c4e/ANTCD-A0000020356.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1880013737",
+      "title": "USOTSUKI",
+      "albumTitle": "USOTSUKI - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/01/32/ae/0132ae7a-1763-4765-0912-1392899beabc/mzaf_6129374168657994601.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/63/2b/10/632b10f8-c5d9-16fc-6b12-ca8b46de163d/ANTCD-A0000019439.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1838693328",
+      "title": "Moonchaser",
+      "albumTitle": "Moonchaser - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ce/7b/de/ce7bde36-6241-7ab8-54cf-630d88c63394/mzaf_307244089055076155.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1f/8c/e6/1f8ce600-1213-272c-139a-606868ef7ff2/ANTCD-A0000018045.jpg/{w}x{h}bb.jpg"
+    }
   ]
 }

@@ -8,7 +8,10 @@
       "startDate": "2026-07-25T00:00:00+09:00",
       "endDate": "2026-11-01T00:00:00+09:00",
       "prices": [
-        {"label": "全席指定", "amount": 9600}
+        {
+          "label": "全席指定",
+          "amount": 9600
+        }
       ],
       "source": "system",
       "sourceUrl": "https://kobukuro.com/feature/kobukuro_tour2026",
@@ -318,6 +321,29 @@
       "source": "system",
       "sourceUrl": "https://kobukuro.com/feature/kobukuro_tour2026",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "401570168",
+      "title": "流星",
+      "albumTitle": "流星 - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/49/b9/7e/49b97e6a-06d8-b0f0-78d1-5aa6847599e0/mzaf_11356111021675657607.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/da/f4/98/daf498f4-b256-1796-ded6-621f2bafe90f/mzi.kcrinphh.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "255910572",
+      "title": "Winding Road",
+      "albumTitle": "WINDING ROAD - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/0f/3c/a5/0f3ca5dd-137f-14e4-8dc1-f73b286d422d/mzaf_993409106932218688.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/12/2e/9b/122e9b4c-1d3b-9245-9eb6-2a825a654300/dj.aakyqdbk.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "291873807",
+      "title": "蕾(つぼみ)",
+      "albumTitle": "5296",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/95/9e/21/959e2139-aff6-bc00-78ae-a777c3418bad/mzaf_5278662213891079911.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/db/1b/c7/db1bc72a-b760-43a3-4511-c9b768ae0a38/mzi.dndhxbnz.jpg/{w}x{h}bb.jpg"
     }
   ]
 }

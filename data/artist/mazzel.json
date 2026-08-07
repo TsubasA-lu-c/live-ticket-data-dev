@@ -19,8 +19,14 @@
       "startDate": "2026-10-22T00:00:00+09:00",
       "endDate": "2026-12-23T00:00:00+09:00",
       "prices": [
-        {"label": "SS指定席(アップグレード)", "amount": 17500},
-        {"label": "一般指定席", "amount": 12500}
+        {
+          "label": "SS指定席(アップグレード)",
+          "amount": 17500
+        },
+        {
+          "label": "一般指定席",
+          "amount": 12500
+        }
       ],
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/",
@@ -403,6 +409,29 @@
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/news/1/",
       "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1684185026",
+      "title": "Vivid",
+      "albumTitle": "Vivid - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ce/9e/12/ce9e127b-f339-6f15-4a3a-f95afcdfb11d/mzaf_16859534589773727579.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/10/20/61/10206187-d683-3f66-7565-68bd3ada8273/23UMGIM35714.rgb.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1677704122",
+      "title": "MISSION",
+      "albumTitle": "MISSION - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a4/e5/03/a4e5036b-a842-b004-f0fd-5b59fc440e32/mzaf_14489402384328118443.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/68/f5/bd/68f5bd60-08b8-8ee2-7770-608c3584b83a/23UMGIM18500.rgb.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1766262003",
+      "title": "Memoria (feat. Aile The Shota, BE:FIRST, MAZZEL, edhiii boi & KANON)",
+      "albumTitle": "Memoria (feat. Aile The Shota, BE:FIRST, MAZZEL, edhiii boi & KANON) - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e3/b0/6b/e3b06b04-ce9f-8041-5ecd-d18a1b129c04/mzaf_2230775455035282177.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/20/db/8e/20db8ea6-1d83-b2b8-4dd0-4917c3c5fc85/ANTCD-58985.jpg/{w}x{h}bb.jpg"
     }
   ]
 }

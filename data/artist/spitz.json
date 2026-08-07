@@ -160,7 +160,10 @@
       "resultAt": "2026-07-11T13:00:00+09:00",
       "paymentStartAt": "2026-07-11T13:00:00+09:00",
       "paymentEndAt": "2026-07-13T21:00:00+09:00",
-      "performanceIds": ["spitz_events_2026_osaka_0917", "spitz_events_2026_osaka_0918"],
+      "performanceIds": [
+        "spitz_events_2026_osaka_0917",
+        "spitz_events_2026_osaka_0918"
+      ],
       "source": "system",
       "sourceUrl": "https://rrkonnichiwa.com/",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
@@ -174,10 +177,35 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["spitz_events_2026_tokyo_0922"],
+      "performanceIds": [
+        "spitz_events_2026_tokyo_0922"
+      ],
       "source": "system",
       "sourceUrl": "https://rockmansai.com/",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1680093755",
+      "title": "美しい鰭",
+      "albumTitle": "美しい鰭 - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/3f/eb/aa/3febaa17-3c32-782f-74cf-ec30be0227df/mzaf_13242793414957588195.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/73/b3/87/73b387a0-bfc3-999b-6c80-079a4666be94/23UMGIM27688.rgb.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1466912193",
+      "title": "優しいあの子",
+      "albumTitle": "優しいあの子 - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fe/4e/ca/fe4ecafd-8f25-77ca-a947-4119a07050f0/mzaf_173375211800432407.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/07/11/a2/0711a210-dd5d-06bf-cc51-c4d7c1deddaa/19UMGIM30522.rgb.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1440863568",
+      "title": "ロビンソン",
+      "albumTitle": "CYCLE HIT 1991-1997 Spitz Complete Single Collection",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/16/c5/da/16c5da67-2d5b-5d58-7e3e-c3c4b671390f/mzaf_3931477327000470742.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9a/26/3b/9a263bc6-cebd-04df-c362-2a0868d277dd/00602557728743.rgb.jpg/{w}x{h}bb.jpg"
     }
   ]
 }

@@ -8,9 +8,18 @@
       "startDate": "2026-12-01T00:00:00+09:00",
       "endDate": "2027-02-20T00:00:00+09:00",
       "prices": [
-        {"label": "指定席", "amount": 17000},
-        {"label": "S席（アップグレードチケット）", "amount": 24000},
-        {"label": "VIP席（アップグレードチケット）", "amount": 28000}
+        {
+          "label": "指定席",
+          "amount": 17000
+        },
+        {
+          "label": "S席（アップグレードチケット）",
+          "amount": 24000
+        },
+        {
+          "label": "VIP席（アップグレードチケット）",
+          "amount": 28000
+        }
       ],
       "source": "system",
       "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
@@ -231,7 +240,9 @@
       "resultAt": "2026-07-24T20:00:00+09:00",
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["enhypen_the_sin_bliss_showcase_2026_toyosu_0904"],
+      "performanceIds": [
+        "enhypen_the_sin_bliss_showcase_2026_toyosu_0904"
+      ],
       "source": "system",
       "sourceUrl": "https://enhypen-jp.weverse.io/news/747c3d04d6cb",
       "lastVerifiedAt": "2026-07-22T10:06:57+09:00"
@@ -245,7 +256,9 @@
       "resultAt": "2026-07-24T20:00:00+09:00",
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["enhypen_the_sin_bliss_showcase_2026_toyosu_0904"],
+      "performanceIds": [
+        "enhypen_the_sin_bliss_showcase_2026_toyosu_0904"
+      ],
       "source": "system",
       "sourceUrl": "https://enhypen-jp.weverse.io/news/747c3d04d6cb",
       "lastVerifiedAt": "2026-07-22T10:06:57+09:00"
@@ -259,7 +272,9 @@
       "resultAt": "2026-08-05T20:00:00+09:00",
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["enhypen_the_sin_bliss_showcase_2026_toyosu_0904"],
+      "performanceIds": [
+        "enhypen_the_sin_bliss_showcase_2026_toyosu_0904"
+      ],
       "source": "system",
       "sourceUrl": "https://enhypen-jp.weverse.io/news/747c3d04d6cb",
       "lastVerifiedAt": "2026-07-22T10:06:57+09:00"
@@ -273,7 +288,9 @@
       "resultAt": "2026-08-28T20:00:00+09:00",
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["enhypen_the_sin_bliss_meet_greet_2026_kanto_0905"],
+      "performanceIds": [
+        "enhypen_the_sin_bliss_meet_greet_2026_kanto_0905"
+      ],
       "source": "system",
       "sourceUrl": "https://enhypen-jp.weverse.io/news/b8c6629ddc6a",
       "lastVerifiedAt": "2026-07-22T10:06:57+09:00"
@@ -287,10 +304,35 @@
       "resultAt": "2026-09-03T20:00:00+09:00",
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["enhypen_the_sin_bliss_meet_greet_2026_kanto_0905"],
+      "performanceIds": [
+        "enhypen_the_sin_bliss_meet_greet_2026_kanto_0905"
+      ],
       "source": "system",
       "sourceUrl": "https://enhypen-jp.weverse.io/news/b8c6629ddc6a",
       "lastVerifiedAt": "2026-07-22T10:06:57+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1564018836",
+      "title": "Drunk-Dazed",
+      "albumTitle": "BORDER : CARNIVAL - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f5/a8/22/f5a82202-9726-027b-d040-1eb662af4b86/mzaf_5740090107280536039.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/69/f4/14/69f41462-aa1e-79ba-6352-c76edb06c876/21UMGIM30119.rgb.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1688525704",
+      "title": "Bite Me",
+      "albumTitle": "DARK BLOOD - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bc/17/85/bc178500-389c-117f-65aa-03762c6d12d3/mzaf_1413109197840793531.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b6/f8/06/b6f806c8-90a7-5a0f-6cd1-ce627ec84f20/23UMGIM53623.rgb.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1606842575",
+      "title": "Always",
+      "albumTitle": "Always - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/e9/a0/9a/e9a09a1d-d4a5-df7e-4b82-9c3a735682bd/mzaf_12141314248659141689.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ea/d7/62/ead762a6-7f7d-0e01-69e4-58c737b7d373/22UMGIM01949.rgb.jpg/{w}x{h}bb.jpg"
     }
   ]
 }

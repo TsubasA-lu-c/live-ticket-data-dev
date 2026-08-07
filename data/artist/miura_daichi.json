@@ -8,7 +8,10 @@
       "startDate": "2026-09-12T00:00:00+09:00",
       "endDate": "2026-12-20T00:00:00+09:00",
       "prices": [
-        {"label": "全席指定", "amount": 9900}
+        {
+          "label": "全席指定",
+          "amount": 9900
+        }
       ],
       "source": "system",
       "sourceUrl": "https://daichi-miura.jp/news/detail/913",
@@ -390,6 +393,29 @@
       "source": "system",
       "sourceUrl": "https://daichi-miura.jp/news/detail/1011",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1192558515",
+      "title": "EXCITE",
+      "albumTitle": "EXCITE(仮面ライダーエグゼイド テレビ主題歌) - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/90/21/ef/9021efb1-cfe9-c377-432f-21720b51b50d/mzaf_15275451433900454756.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/41/26/ec/4126ecf4-dba9-31cd-c670-2aa5129bc236/AVCD-16740.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1440448453",
+      "title": "Blizzard",
+      "albumTitle": "Blizzard - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f7/f7/2b/f7f72b50-21b4-2f0b-c8f9-981cff19e049/mzaf_16036660072955245535.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/73/d8/a8/73d8a81a-592d-aeda-6601-9254f6862637/ANTCD-29678.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "932313575",
+      "title": "ふれあうだけで ~Always with you~",
+      "albumTitle": "ふれあうだけで ~Always with you~ - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8d/ba/25/8dba25c3-b022-25c2-3604-79e76cbbfa6f/mzaf_5515178011899895505.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/77/df/13/77df135f-014c-cadd-83ba-cd7b117cd349/ANTCD-12722.jpg/{w}x{h}bb.jpg"
     }
   ]
 }

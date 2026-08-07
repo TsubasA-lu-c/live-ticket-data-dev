@@ -8,7 +8,10 @@
       "startDate": "2026-07-30T00:00:00+09:00",
       "endDate": "2026-07-30T00:00:00+09:00",
       "prices": [
-        {"label": "全席指定", "amount": 6800}
+        {
+          "label": "全席指定",
+          "amount": 6800
+        }
       ],
       "source": "system",
       "sourceUrl": "https://zorn.tokyo/zorn%e3%80%81%e5%ae%a2%e6%bc%94%e3%81%ab%e5%be%8c%e8%97%a4%e7%9c%9f%e5%b8%8c%e3%82%92%e6%8b%9b%e3%81%84%e3%81%9f%e6%96%b0%e6%9b%b2%e3%80%8c%e5%9c%b0%e5%85%83love-feat-%e5%be%8c%e8%97%a4%e7%9c%9f/",
@@ -39,7 +42,9 @@
       "resultAt": "2026-02-26T13:00:00+09:00",
       "paymentStartAt": null,
       "paymentEndAt": "2026-02-28T21:00:00+09:00",
-      "performanceIds": ["zorn_jimotelove_oneman_2026_katsushikashills_0730"],
+      "performanceIds": [
+        "zorn_jimotelove_oneman_2026_katsushikashills_0730"
+      ],
       "source": "system",
       "sourceUrl": "https://fc.zorn.tokyo/news/?id=470",
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
@@ -53,7 +58,9 @@
       "resultAt": "2026-03-11T13:00:00+09:00",
       "paymentStartAt": null,
       "paymentEndAt": "2026-03-11T18:00:00+09:00",
-      "performanceIds": ["zorn_jimotelove_oneman_2026_katsushikashills_0730"],
+      "performanceIds": [
+        "zorn_jimotelove_oneman_2026_katsushikashills_0730"
+      ],
       "source": "system",
       "sourceUrl": "https://fc.zorn.tokyo/news/?id=475",
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
@@ -67,10 +74,35 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["zorn_jimotelove_oneman_2026_katsushikashills_0730"],
+      "performanceIds": [
+        "zorn_jimotelove_oneman_2026_katsushikashills_0730"
+      ],
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/1343970001-P0030010P021001",
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1403739564",
+      "title": "Walk This Way (feat. AKLO)",
+      "albumTitle": "Walk This Way (feat. AKLO) - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ea/b0/a7/eab0a7fa-caee-1bf7-ca87-e553e8673e54/mzaf_3119072098310437458.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4e/0c/a1/4e0ca1dc-4358-7fab-13c5-43853b1f839b/walkthisway_H1_thumb.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1465564893",
+      "title": "All My Homies",
+      "albumTitle": "LOVE",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/8c/33/7d/8c337de8-e227-6c7e-bb6f-4a8b8c21860a/mzaf_18192245819485220013.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/3f/38/08/3f380832-48d1-1591-9e97-1159fb4c246f/SHWR-0082_ZORN_L.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "988305184",
+      "title": "My life",
+      "albumTitle": "The Downtown",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/Music7/v4/e5/1f/17/e51f1770-8f1c-7ae0-e4c7-74baaba4e3a6/mzaf_5481264733138733780.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/de/22/de/de22ded8-001b-5e0e-3d29-29075017badb/SHWR0038_H1.jpg/{w}x{h}bb.jpg"
     }
   ]
 }

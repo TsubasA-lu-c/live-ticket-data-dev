@@ -257,5 +257,28 @@
       "sourceUrl": "https://equal-love.jp/news/detail/11613",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1794066813",
+      "title": "とくべチュ、して",
+      "albumTitle": "とくべチュ、して - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a8/ac/1c/a8ac1ce4-2de4-66ed-9f7a-da6da0f2cabf/mzaf_4035307830877418488.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/64/7f/83/647f8398-9ac9-21f6-49cc-bec4e9723637/4547366732757.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1623575132",
+      "title": "あの子コンプレックス",
+      "albumTitle": "あの子コンプレックス",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/35/58/c8/3558c800-8744-2f91-9908-f3eb789ec3dc/mzaf_12503371179104847628.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c5/85/f6/c585f634-da3e-008e-a80b-e44d4cebcbbd/4547366565256.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1538731638",
+      "title": "青春\"サブリミナル\"",
+      "albumTitle": "青春\"サブリミナル\"",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e8/64/83/e8648394-7a7e-9f6d-aef8-981e609e13f1/mzaf_2868995426176315955.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/33/0d/32/330d326a-ee6d-7d8b-8c12-fd9875c8a53e/4547366484090.jpg/{w}x{h}bb.jpg"
+    }
   ]
 }

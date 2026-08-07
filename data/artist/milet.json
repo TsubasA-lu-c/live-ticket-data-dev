@@ -8,7 +8,10 @@
       "startDate": "2026-09-12T00:00:00+09:00",
       "endDate": "2026-11-22T00:00:00+09:00",
       "prices": [
-        {"label": "指定席", "amount": 8800}
+        {
+          "label": "指定席",
+          "amount": 8800
+        }
       ],
       "source": "system",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/milet_music/info/581683",
@@ -245,5 +248,28 @@
       "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
     }
   ],
-  "lotteries": []
+  "lotteries": [],
+  "appleMusicTracks": [
+    {
+      "songId": "1678949889",
+      "title": "絆ノ奇跡",
+      "albumTitle": "絆ノ奇跡 / コイコガレ - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/91/16/b0/9116b06c-5978-170f-6ff9-ff7ab00226fc/mzaf_10588592498668393218.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ea/50/a1/ea50a147-5c73-a762-0650-d2a285d6fabd/4547366615807.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1678949894",
+      "title": "コイコガレ",
+      "albumTitle": "絆ノ奇跡 / コイコガレ - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/36/bb/7a/36bb7a0b-70e1-06e0-5760-46923bf83722/mzaf_12793548665223773236.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ea/50/a1/ea50a147-5c73-a762-0650-d2a285d6fabd/4547366615807.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1598330658",
+      "title": "おもかげ (produced by Vaundy)",
+      "albumTitle": "おもかげ (produced by Vaundy) - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/fa/4b/a3/fa4ba33a-7435-8b11-d2cc-63ebc5c3e1f3/mzaf_8614088786959759312.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ec/1d/a0/ec1da08d-502e-9d7e-10d5-2dd301a0314f/4547366542912.jpg/{w}x{h}bb.jpg"
+    }
+  ]
 }

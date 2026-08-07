@@ -347,5 +347,28 @@
       "sourceUrl": "https://backnumber.info/feature/stadiumtour2026_ticket",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1579439168",
+      "title": "水平線",
+      "albumTitle": "水平線 - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/11/78/5a/11785ae7-ddbb-1d3c-2cdf-a0c53c67af0c/mzaf_16516140352826179688.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bd/d6/8f/bdd68f1b-8588-3e91-faab-ab9d7ca35c2f/21UMGIM28078.rgb.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1423381463",
+      "title": "大不正解",
+      "albumTitle": "大不正解 - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/bb/13/16/bb1316ea-ac97-6ca6-fd27-17530511e579/mzaf_6890252849470774792.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/6b/be/20/6bbe2088-2a55-2c88-2907-214fcbf49446/00602567912880.rgb.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1566811795",
+      "title": "怪盗",
+      "albumTitle": "怪盗 - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/eb/53/97/eb539752-8526-dd7a-e006-48a5544b3ca4/mzaf_14287412132148384920.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e9/ec/a9/e9eca935-092d-f3b0-3ff9-1f8f556b16e9/21UMGIM27264.rgb.jpg/{w}x{h}bb.jpg"
+    }
   ]
 }

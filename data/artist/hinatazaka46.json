@@ -263,5 +263,28 @@
       "sourceUrl": "https://www.hinatazaka46.com/3rd_live2026/",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1567332154",
+      "title": "君しか勝たん",
+      "albumTitle": "君しか勝たん (Special Edition)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/08/7e/60/087e60ed-5d9f-19ae-7309-89a3e55b535c/mzaf_18116105891037177649.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e6/e4/f9/e6e4f9ed-15b4-3535-af24-c818f6f85ce2/4547366513080.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1590075756",
+      "title": "ってか",
+      "albumTitle": "ってか (Special Edition)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/49/c2/d2/49c2d2d1-4bcd-ff7e-680c-de77fe27d40a/mzaf_16405937297665957859.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/db/36/79/db3679d3-e832-9de2-f9df-a4701716811c/4547366535655.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1530889892",
+      "title": "アザトカワイイ",
+      "albumTitle": "ひなたざか (Complete Edition)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/bc/a2/fd/bca2fd4b-5fdb-5b0e-deb0-21200e555d7e/mzaf_5531613339660253008.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/01/b9/1c/01b91c88-87f0-d7b3-4377-573e0938dbc2/4547366474060.jpg/{w}x{h}bb.jpg"
+    }
   ]
 }

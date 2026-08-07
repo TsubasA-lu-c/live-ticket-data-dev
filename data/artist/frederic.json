@@ -8,7 +8,10 @@
       "startDate": "2026-04-18T00:00:00+09:00",
       "endDate": "2027-01-17T00:00:00+09:00",
       "prices": [
-        {"label": "スタンディング", "amount": 6600}
+        {
+          "label": "スタンディング",
+          "amount": 6600
+        }
       ],
       "source": "system",
       "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
@@ -244,6 +247,29 @@
       "source": "system",
       "sourceUrl": "https://frederic-official.com/news/detail/3717",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1838917575",
+      "title": "オドループ",
+      "albumTitle": "oddloop",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c8/cf/ac/c8cfaca5-4d80-3145-149e-c7160e0a639e/mzaf_953086377828387713.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b9/ba/09/b9ba092b-03b4-d3c0-a818-13f1ff8c714d/25UMGIM92926.rgb.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1675026826",
+      "title": "瞳のランデヴー",
+      "albumTitle": "瞳のランデヴー - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/68/ce/f2/68cef263-e4f1-63c1-7365-3929f6bc1067/mzaf_6864967396859779366.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/0b/00/fd/0b00fd1c-3019-f29c-47ba-8ff05f65f78c/4547366612387.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "6781633176",
+      "title": "ナンセンスナンセンス",
+      "albumTitle": "ナンセンスナンセンス - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/15/d1/78/15d178fb-1b88-f5df-a4eb-0db86169befb/mzaf_13567979351636120999.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a7/b8/85/a7b88561-3eab-dc8b-88d3-b9a58df80243/26UMGIM74089.rgb.jpg/{w}x{h}bb.jpg"
     }
   ]
 }

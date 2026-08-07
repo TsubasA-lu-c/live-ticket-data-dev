@@ -3,5 +3,28 @@
   "tours": [],
   "performances": [],
   "lotteries": [],
-  "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+  "lastVerifiedAt": "2026-07-10T00:00:00+09:00",
+  "appleMusicTracks": [
+    {
+      "songId": "1594814706",
+      "title": "残響散歌",
+      "albumTitle": "残響散歌 / 朝が来る - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e7/65/bc/e765bc4b-7710-5c13-c35d-8cd30d7bcacd/mzaf_5473058310448658183.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c9/40/9e/c9409e84-c0ea-c389-3be3-2343ec3dfb3b/4547366539806.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1594814709",
+      "title": "朝が来る",
+      "albumTitle": "残響散歌 / 朝が来る - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/29/d3/f4/29d3f4e4-3748-c717-0f83-acda2b6f10bd/mzaf_14063698990827666586.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c9/40/9e/c9409e84-c0ea-c389-3be3-2343ec3dfb3b/4547366539806.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1598330658",
+      "title": "おもかげ (produced by Vaundy)",
+      "albumTitle": "おもかげ (produced by Vaundy) - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/fa/4b/a3/fa4ba33a-7435-8b11-d2cc-63ebc5c3e1f3/mzaf_8614088786959759312.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ec/1d/a0/ec1da08d-502e-9d7e-10d5-2dd301a0314f/4547366542912.jpg/{w}x{h}bb.jpg"
+    }
+  ]
 }

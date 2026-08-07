@@ -3,5 +3,28 @@
   "tours": [],
   "performances": [],
   "lotteries": [],
-  "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+  "lastVerifiedAt": "2026-07-10T00:00:00+09:00",
+  "appleMusicTracks": [
+    {
+      "songId": "1860159898",
+      "title": "Theater",
+      "albumTitle": "STARRING",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d4/8f/9e/d48f9eb8-219b-1c45-c070-9a4a1f40b1c7/mzaf_14551613910142238121.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/40/7c/34/407c34d1-7097-9eb3-f75b-290437577c7b/25UM2IM01022.rgb.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1796301111",
+      "title": "HEART",
+      "albumTitle": "HEART - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d9/a7/35/d9a73576-d26d-3818-81e8-933f8840db28/mzaf_9849479106188657220.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/27/76/98/277698be-7fda-7896-d712-8883630c2a08/25UMGIM06862.rgb.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1745614685",
+      "title": "moooove!!",
+      "albumTitle": "halfmoon / moooove!! (Special Edition) - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1f/23/0e/1f230e27-b61b-96ae-b6b2-345784a97b9f/mzaf_1700182457032824345.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a5/9c/9d/a59c9d80-83ad-83a6-b091-3da063fd276b/24UMGIM48699.rgb.jpg/{w}x{h}bb.jpg"
+    }
+  ]
 }

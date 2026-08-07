@@ -3,5 +3,28 @@
   "tours": [],
   "performances": [],
   "lotteries": [],
-  "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+  "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+  "appleMusicTracks": [
+    {
+      "songId": "1242967505",
+      "title": "TT -Japanese ver.-",
+      "albumTitle": "#TWICE - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/24/40/77/24407710-aacb-6969-9011-68f2617a33d5/mzaf_6185098814897681226.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ec/5d/d5/ec5dd57e-5575-0a52-a1ab-23daf2dd67eb/190295788520.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1479865077",
+      "title": "Feel Special",
+      "albumTitle": "Feel Special",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7b/2f/dc/7b2fdc24-8b82-ab9b-e479-1859fc67e298/mzaf_10342181652441693387.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/58/c7/dd/58c7dda7-3efa-c773-ced7-7e131b13c133/190295344245.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1593668430",
+      "title": "The Feels",
+      "albumTitle": "Formula of Love: O+T=<3",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5f/4a/ad/5f4aad01-5f0a-060e-4de8-6206d8e01f10/mzaf_17293098058643878092.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8d/12/fe/8d12fef6-623d-29c2-beed-04d6c40f89e0/190296364419.jpg/{w}x{h}bb.jpg"
+    }
+  ]
 }

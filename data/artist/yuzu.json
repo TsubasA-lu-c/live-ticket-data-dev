@@ -8,12 +8,30 @@
       "startDate": "2026-10-23T00:00:00+09:00",
       "endDate": "2026-10-25T00:00:00+09:00",
       "prices": [
-        {"label": "YZ席", "amount": 21800},
-        {"label": "着席指定席", "amount": 15800},
-        {"label": "指定席", "amount": 12800},
-        {"label": "車椅子席", "amount": 12800},
-        {"label": "親子席", "amount": 9900},
-        {"label": "U-18席", "amount": 7700}
+        {
+          "label": "YZ席",
+          "amount": 21800
+        },
+        {
+          "label": "着席指定席",
+          "amount": 15800
+        },
+        {
+          "label": "指定席",
+          "amount": 12800
+        },
+        {
+          "label": "車椅子席",
+          "amount": 12800
+        },
+        {
+          "label": "親子席",
+          "amount": 9900
+        },
+        {
+          "label": "U-18席",
+          "amount": 7700
+        }
       ],
       "source": "system",
       "sourceUrl": "https://yuzu-official.com/contents/information/a567b0d2-f59d-45fd-8e12-5d2bd69f2664",
@@ -26,14 +44,38 @@
       "startDate": "2026-05-04T00:00:00+09:00",
       "endDate": "2026-07-26T00:00:00+09:00",
       "prices": [
-        {"label": "S席", "amount": 18800},
-        {"label": "着席指定席", "amount": 15000},
-        {"label": "指定席", "amount": 11000},
-        {"label": "アリーナサイド席", "amount": 12800},
-        {"label": "ステージサイド席", "amount": 11000},
-        {"label": "親子席", "amount": 9900},
-        {"label": "U-18席", "amount": 7700},
-        {"label": "車椅子席", "amount": 11000}
+        {
+          "label": "S席",
+          "amount": 18800
+        },
+        {
+          "label": "着席指定席",
+          "amount": 15000
+        },
+        {
+          "label": "指定席",
+          "amount": 11000
+        },
+        {
+          "label": "アリーナサイド席",
+          "amount": 12800
+        },
+        {
+          "label": "ステージサイド席",
+          "amount": 11000
+        },
+        {
+          "label": "親子席",
+          "amount": 9900
+        },
+        {
+          "label": "U-18席",
+          "amount": 7700
+        },
+        {
+          "label": "車椅子席",
+          "amount": 11000
+        }
       ],
       "source": "system",
       "sourceUrl": "https://yuzu-official.com/pages/yuzu_arenatour2026/",
@@ -536,6 +578,29 @@
       "source": "system",
       "sourceUrl": "https://yuzu-official.com/pages/yuzu_arenatour2026/",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "422542826",
+      "title": "栄光の架橋",
+      "albumTitle": "1 ~ONE~",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/eb/6d/8a/eb6d8a53-7aad-2d1b-d8f3-8506f39d3e5e/mzaf_14251938876799067433.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/c2/0b/7b/mzi.nnnmthmk.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "424185595",
+      "title": "栄光の架橋",
+      "albumTitle": "栄光の架橋 - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/45/4e/8c/454e8c77-8314-8f35-4c32-64b6f72930fe/mzaf_6769731247029760262.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/24/05/c4/mzi.wyjzyljh.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "422250979",
+      "title": "夏色",
+      "albumTitle": "ゆず一家",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4e/41/f7/4e41f7b3-cad3-7a8d-7651-b5bed20907bc/mzaf_794689730057257458.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b5/5f/90/b55f90b8-ab04-5706-4351-ff08766c27cc/mzi.lagpuavg.jpg/{w}x{h}bb.jpg"
     }
   ]
 }

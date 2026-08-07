@@ -479,5 +479,28 @@
       "sourceUrl": "https://yabaitshirtsyasan.com/news/288512/",
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1441063491",
+      "title": "かわE",
+      "albumTitle": "かわE - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b4/0f/30/b40f309b-a0ed-4865-b6bd-3e21749c67bd/mzaf_408475003747876590.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/17/b0/60/17b060cc-cf6a-6386-645a-6ff5f3ad06cf/00602577230103.rgb.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1440913859",
+      "title": "ハッピーウェディング前ソング",
+      "albumTitle": "Galaxy of the Tank-top",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/da/ae/9e/daae9ec2-1af3-3b36-6efe-915abcbab478/mzaf_11263487806283189416.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/37/5e/77/375e774e-aecb-2037-ad0e-6822048f75b0/17UM1IM63298.rgb.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1440626963",
+      "title": "あつまれ!パーティーピーポー",
+      "albumTitle": "We love Tank-top",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/f7/6c/93/f76c932b-fb91-0d40-b7ee-00687379c304/mzaf_2292485519657356729.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/67/17/bb/6717bb3e-a1f3-d34f-84d3-05842ec893c3/16UMGIM68374.rgb.jpg/{w}x{h}bb.jpg"
+    }
   ]
 }

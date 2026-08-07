@@ -227,5 +227,28 @@
       "sourceUrl": "https://monaki.jp/news/detail/84518",
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1878548880",
+      "title": "ほんまやで☆なんでやねん☆しらんけど",
+      "albumTitle": "ほんまやで☆なんでやねん☆しらんけど/ねがい (Bタイプ) - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/d7/be/2fd7be0d-3d16-3bf5-1320-d38f46885ab9/mzaf_8811468558659674583.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c4/07/2a/c4072a49-f887-f95d-fad5-7aa51720bf4d/CRCN-8830.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1878551058",
+      "title": "ほんまやで☆なんでやねん☆しらんけど",
+      "albumTitle": "ほんまやで☆なんでやねん☆しらんけど/こんなもんじゃねぇ (Aタイプ) - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/80/a0/f3/80a0f3e8-18a7-1ebb-43b6-cbdebe81d989/mzaf_15305680269455079184.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/47/70/40/477040c8-00d6-2335-28c2-31797e61335d/CRCN-8829.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "6789401029",
+      "title": "すみなすものは心なりけり",
+      "albumTitle": "ほんまやで☆なんでやねん☆しらんけど/すみなすものは心なりけり(Cタイプ) - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/73/8e/48/738e484f-6603-2609-ad02-f38f1af5abd9/mzaf_7697000351212757799.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/89/d8/d0/89d8d0e5-0fbb-5cde-e291-f3547bfa484c/CRCN-8849.jpg/{w}x{h}bb.jpg"
+    }
   ]
 }

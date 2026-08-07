@@ -8,9 +8,18 @@
       "startDate": "2026-08-11T00:00:00+09:00",
       "endDate": "2026-09-06T00:00:00+09:00",
       "prices": [
-        {"label": "アリーナスタンディングブロック指定", "amount": 14000},
-        {"label": "スタンド指定席", "amount": 14000},
-        {"label": "スタンド注釈付き指定席", "amount": 14000}
+        {
+          "label": "アリーナスタンディングブロック指定",
+          "amount": 14000
+        },
+        {
+          "label": "スタンド指定席",
+          "amount": 14000
+        },
+        {
+          "label": "スタンド注釈付き指定席",
+          "amount": 14000
+        }
       ],
       "source": "system",
       "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
@@ -23,8 +32,14 @@
       "startDate": "2026-09-27T00:00:00+09:00",
       "endDate": "2026-09-27T00:00:00+09:00",
       "prices": [
-        {"label": "1日券", "amount": 12000},
-        {"label": "2日券", "amount": 23000}
+        {
+          "label": "1日券",
+          "amount": 12000
+        },
+        {
+          "label": "2日券",
+          "amount": 23000
+        }
       ],
       "source": "system",
       "sourceUrl": "https://1chancefes.com/",
@@ -237,6 +252,29 @@
       "source": "system",
       "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1561751239",
+      "title": "Renegades",
+      "albumTitle": "Renegades - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4c/1e/00/4c1e00db-3649-9f09-f45f-0fa3fda78f41/mzaf_16863042858997851049.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cf/32/48/cf32481d-5341-18d9-6518-66779c98afba/075679785442.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1569004619",
+      "title": "Broken Heart of Gold",
+      "albumTitle": "Broken Heart of Gold - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8e/01/75/8e017541-1748-8cd5-91be-b85b1b206020/mzaf_2524819800161834536.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/18/5e/10/185e1074-024d-7ed7-1f83-4e1202d42c49/075679781079.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1703323320",
+      "title": "Make It Out Alive",
+      "albumTitle": "Make It Out Alive - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9b/fb/7c/9bfb7c06-f8f7-b274-5b7f-2efcf42672e8/mzaf_3456976923762121028.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/37/21/36/3721362a-e5e7-266a-3e56-d03c271f2b0b/075679674906.jpg/{w}x{h}bb.jpg"
     }
   ]
 }

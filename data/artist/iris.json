@@ -658,5 +658,28 @@
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133396",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "906256336",
+      "title": "Make it!",
+      "albumTitle": "Make it! - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/85/ce/d4/85ced4e9-3832-547a-552f-e8c7cec408b0/mzaf_5031317401398037934.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e9/23/e2/e923e2ae-b0fe-3e29-5f80-a53d7a7a0404/AVCA-74516.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "963997684",
+      "title": "Realize!",
+      "albumTitle": "Realize! - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e7/1a/55/e71a5575-6bbd-4075-fcb7-7ee9718ca5b2/mzaf_1906837562206884649.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/d8/b0/8a/d8b08ad6-616c-f812-1910-8bb52f675c83/EYCA-10264.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1011644048",
+      "title": "ドリームパレード",
+      "albumTitle": "ドリームパレード - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e3/43/b0/e343b075-3292-5153-6df7-ee17228e82e0/mzaf_10906541938074067187.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/96/38/b7/9638b7b8-4427-f4bb-33f7-f9fabbc81880/EYCA-10504.jpg/{w}x{h}bb.jpg"
+    }
   ]
 }

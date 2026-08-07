@@ -556,5 +556,28 @@
       "sourceUrl": "https://tour.mrchildren.jp/",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1332963179",
+      "title": "here comes my love",
+      "albumTitle": "here comes my love - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/a6/94/cf/a694cf6d-c2f0-be0e-eb85-44eabacd7e29/mzaf_5320598603353959869.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fe/af/62/feaf6243-d7d0-b56f-a50a-fb9352fd5133/dj.tareyqlo.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "876212154",
+      "title": "放たれる",
+      "albumTitle": "放たれる - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/Music6/v4/85/69/2b/85692ba6-d051-74d1-e2f3-7953a9767ce7/mzaf_3246638925166206567.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/e1/4e/70e14ebf-063a-42f5-b415-b00aafeda1a8/dj.xixmrqfm.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1082741563",
+      "title": "奇跡の地球",
+      "albumTitle": "TOP OF THE POPS",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a4/6c/7b/a46c7ba6-bb78-338b-6f12-deb6eb0f6d6a/mzaf_14367688111362677529.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/af/6e/f7/af6ef729-85d7-a622-38aa-4a6b4090d25c/VEATP-30982.jpg/{w}x{h}bb.jpg"
+    }
   ]
 }

@@ -63,5 +63,28 @@
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
   ],
-  "lotteries": []
+  "lotteries": [],
+  "appleMusicTracks": [
+    {
+      "songId": "1600395740",
+      "title": "逆夢",
+      "albumTitle": "逆夢 - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/d5/33/51/d5335173-b035-01ce-9659-98ead37b18fa/mzaf_4181316216994006192.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c6/17/d9/c617d968-ed91-81c0-8a2a-1dc4edb46110/4547366544121.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1597279110",
+      "title": "一途",
+      "albumTitle": "一途 - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/16/d0/4c/16d04c0d-5f12-7175-0500-89597e57d382/mzaf_13675840853692910453.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/64/d7/73/64d77339-d682-5903-611f-cf59ab928750/4547366542400.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1609217181",
+      "title": "カメレオン",
+      "albumTitle": "カメレオン - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/bd/03/d8/bd03d872-effa-f036-2aa9-7aa04c825fec/mzaf_5762328705092293188.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/28/5e/6a/285e6aab-fb7d-aca7-2cd0-7d0502cabdde/4547366552881.jpg/{w}x{h}bb.jpg"
+    }
+  ]
 }

@@ -190,7 +190,9 @@
       "resultAt": "2026-07-13T20:00:00+09:00",
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["tomorrow_x_together_event_setsuna_hanabi_premium_live_2026_tokyo_garden_theater_0819"],
+      "performanceIds": [
+        "tomorrow_x_together_event_setsuna_hanabi_premium_live_2026_tokyo_garden_theater_0819"
+      ],
       "source": "system",
       "sourceUrl": "https://txt-official.jp/news/39932a772e7f",
       "lastVerifiedAt": "2026-07-22T10:26:13+09:00"
@@ -204,7 +206,9 @@
       "resultAt": "2026-07-13T20:00:00+09:00",
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["tomorrow_x_together_event_setsuna_hanabi_premium_live_2026_tokyo_garden_theater_0819"],
+      "performanceIds": [
+        "tomorrow_x_together_event_setsuna_hanabi_premium_live_2026_tokyo_garden_theater_0819"
+      ],
       "source": "system",
       "sourceUrl": "https://txt-official.jp/news/39932a772e7f",
       "lastVerifiedAt": "2026-07-22T10:26:13+09:00"
@@ -218,7 +222,9 @@
       "resultAt": "2026-07-27T20:00:00+09:00",
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["tomorrow_x_together_event_setsuna_hanabi_premium_live_2026_tokyo_garden_theater_0819"],
+      "performanceIds": [
+        "tomorrow_x_together_event_setsuna_hanabi_premium_live_2026_tokyo_garden_theater_0819"
+      ],
       "source": "system",
       "sourceUrl": "https://txt-official.jp/news/39932a772e7f",
       "lastVerifiedAt": "2026-07-22T10:26:13+09:00"
@@ -232,7 +238,9 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["tomorrow_x_together_event_setsuna_hanabi_premium_live_2026_tokyo_garden_theater_0819"],
+      "performanceIds": [
+        "tomorrow_x_together_event_setsuna_hanabi_premium_live_2026_tokyo_garden_theater_0819"
+      ],
       "source": "system",
       "sourceUrl": "https://txt-official.jp/news/39932a772e7f",
       "lastVerifiedAt": "2026-07-22T10:26:13+09:00"
@@ -246,11 +254,36 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["tomorrow_x_together_event_setsuna_hanabi_premium_live_2026_tokyo_garden_theater_0819"],
+      "performanceIds": [
+        "tomorrow_x_together_event_setsuna_hanabi_premium_live_2026_tokyo_garden_theater_0819"
+      ],
       "source": "system",
       "sourceUrl": "https://txt-official.jp/news/74adcbf73687",
       "lastVerifiedAt": "2026-07-22T10:26:13+09:00"
     }
   ],
-  "lastVerifiedAt": "2026-07-22T10:26:13+09:00"
+  "lastVerifiedAt": "2026-07-22T10:26:13+09:00",
+  "appleMusicTracks": [
+    {
+      "songId": "1545560231",
+      "title": "Force",
+      "albumTitle": "STILL DREAMING",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/32/8a/09/328a09f3-584e-5356-d495-a195849d28fb/mzaf_12006344487011563432.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/10/11/d0/1011d05f-97fa-0582-39d1-e28b4375fab2/20UM1IM15086.rgb.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1718526128",
+      "title": "LEveL (feat. TOMORROW X TOGETHER)",
+      "albumTitle": "LEveL (feat. TOMORROW X TOGETHER) - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/6d/df/a9/6ddfa9b7-f458-22a2-29c3-2050476c3ab0/mzaf_13263819982288638930.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c5/84/f5/c584f538-7562-d76a-f303-fd471bc1a98e/4547366658231.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1454642556",
+      "title": "CROWN",
+      "albumTitle": "The Dream Chapter: STAR - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/37/53/43/375343e0-7846-2065-004b-dfd5810365a0/mzaf_36513217756418181.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/8c/35/0e/8c350e83-68d7-2518-dd47-d7b9933b4f0f/00602577569197.rgb.jpg/{w}x{h}bb.jpg"
+    }
+  ]
 }

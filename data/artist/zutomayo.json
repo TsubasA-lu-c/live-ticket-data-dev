@@ -196,5 +196,28 @@
       "sourceUrl": "https://zutomayo.net/bunka-denrai/",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1570795403",
+      "title": "あいつら全員同窓会",
+      "albumTitle": "あいつら全員同窓会 - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/59/b3/c0/59b3c065-7f86-0bd8-9092-e37eb1264fc7/mzaf_7237440632771344128.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d6/57/e2/d657e297-1bd1-423d-9062-b4cf4e554d2b/21UMGIM47219.rgb.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1428083880",
+      "title": "秒針を噛む",
+      "albumTitle": "秒針を噛む - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ef/14/70/ef1470b6-06b5-220c-6c98-5858fe01ff31/mzaf_7007747304664325773.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/38/2c/03/382c0375-11db-242e-4bf0-4e2e31380d74/00602567952343.rgb.jpg/{w}x{h}bb.jpg"
+    },
+    {
+      "songId": "1543162548",
+      "title": "正しくなれない",
+      "albumTitle": "正しくなれない - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/95/8b/32/958b32b2-5b0f-3922-f32b-3c8e35cc561d/mzaf_10346604115790381699.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/fa/22/7e/fa227e7a-a1dd-5631-be96-e7e896daaa18/20UM1IM11050.rgb.jpg/{w}x{h}bb.jpg"
+    }
   ]
 }
