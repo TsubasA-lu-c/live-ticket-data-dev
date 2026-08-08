@@ -1,9 +1,51 @@
 {
   "artistId": "king_and_prince",
-  "tours": [],
-  "performances": [],
-  "lotteries": [],
-  "lastVerifiedAt": "2026-07-10T00:00:00+09:00",
+  "tours": [
+    {
+      "id": "king_and_prince_music_expo_live_2026_taipei",
+      "artistId": "king_and_prince",
+      "title": "MUSIC EXPO LIVE 2026 in TAIPEI",
+      "startDate": "2026-10-24T00:00:00+09:00",
+      "endDate": "2026-10-24T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://musicexpolive.com/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "king_and_prince_music_expo_live_2026_taipei_1024",
+      "tourId": "king_and_prince_music_expo_live_2026_taipei",
+      "venue": "TAIPEI ARENA（台北アリーナ）",
+      "performanceAt": "2026-10-24T19:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "MUSIC EXPO LIVE 2026 in TAIPEI",
+      "source": "system",
+      "sourceUrl": "https://musicexpolive.com/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "king_and_prince_music_expo_live_2026_taipei_general",
+      "tourId": "king_and_prince_music_expo_live_2026_taipei",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-07-28T13:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "king_and_prince_music_expo_live_2026_taipei_1024"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1CXNJEX&tapeID=en04LRFru",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
   "appleMusicTracks": [
     {
       "songId": "1860159898",
