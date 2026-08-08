@@ -37,8 +37,16 @@
           "amount": 12000
         },
         {
+          "label": "1日券(小人)",
+          "amount": 9500
+        },
+        {
           "label": "2日券",
           "amount": 23000
+        },
+        {
+          "label": "2日券(小人)",
+          "amount": 18000
         }
       ],
       "source": "system",
@@ -203,8 +211,8 @@
       "id": "one_ok_rock_1_chance_festival_2026_general_sale",
       "tourId": "one_ok_rock_1_chance_festival_2026",
       "type": "一般発売",
-      "entryStartAt": "2026-07-18T10:00:00+09:00",
-      "entryEndAt": null,
+      "entryStartAt": null,
+      "entryEndAt": "2026-09-17T23:59:00+09:00",
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
@@ -212,7 +220,7 @@
         "one_ok_rock_1_chance_festival_2026_kumamoto_0927"
       ],
       "source": "system",
-      "sourceUrl": "https://1chancefes.com/",
+      "sourceUrl": "https://t.pia.jp/pia/artist/artists.do?artistsCd=66140024",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
