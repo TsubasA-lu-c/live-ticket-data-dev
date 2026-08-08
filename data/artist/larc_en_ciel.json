@@ -7,10 +7,27 @@
       "title": "SUMMER SONIC 2026",
       "startDate": "2026-08-14T00:00:00+09:00",
       "endDate": "2026-08-16T00:00:00+09:00",
-      "prices": null,
+      "prices": [
+        {
+          "label": "東京1DAYチケット",
+          "amount": 21000
+        },
+        {
+          "label": "東京プラチナチケット",
+          "amount": 35000
+        },
+        {
+          "label": "大阪1DAYチケット",
+          "amount": 19000
+        },
+        {
+          "label": "大阪プラチナチケット",
+          "amount": 31000
+        }
+      ],
       "source": "system",
-      "sourceUrl": "https://barks.jp/news/1043028/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://larc-en-ciel.com/s/n137en/news/detail/13408?ima=0000&link=ROBO004",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "larc_en_ciel_35th_lanniversary_2026",
@@ -29,8 +46,8 @@
         }
       ],
       "source": "system",
-      "sourceUrl": "https://larc-en-ciel.com/s/n137en/news/detail/11381?ima=0000&link=ROBO004",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://le-ciel.com/s/n107/page/L35_live?ima=1903",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -38,25 +55,25 @@
       "id": "larc_en_ciel_fes_2026_osaka_0814",
       "tourId": "larc_en_ciel_fes_2026",
       "venue": "万博記念公園",
-      "performanceAt": "2026-08-14T12:00:00+09:00",
+      "performanceAt": "2026-08-14T19:20:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "SUMMER SONIC 2026",
       "source": "system",
-      "sourceUrl": "https://barks.jp/news/1043028/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://www.summersonic.com/tt/osaka-day1/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "larc_en_ciel_fes_2026_tokyo_0816",
       "tourId": "larc_en_ciel_fes_2026",
       "venue": "ZOZOマリンスタジアム & 幕張メッセ",
-      "performanceAt": "2026-08-16T12:00:00+09:00",
+      "performanceAt": "2026-08-16T19:20:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "SUMMER SONIC 2026",
       "source": "system",
-      "sourceUrl": "https://barks.jp/news/1043028/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://www.summersonic.com/tt/tokyo-day3/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "larc_en_ciel_35th_lanniversary_2026_yoyogi_1009",
@@ -67,8 +84,8 @@
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://larc-en-ciel.com/s/n137en/news/detail/11381?ima=0000&link=ROBO004",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://le-ciel.com/s/n107/page/L35_live?ima=1903",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "larc_en_ciel_35th_lanniversary_2026_yoyogi_1011",
@@ -79,8 +96,8 @@
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://larc-en-ciel.com/s/n137en/news/detail/11381?ima=0000&link=ROBO004",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://le-ciel.com/s/n107/page/L35_live?ima=1903",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "larc_en_ciel_35th_lanniversary_2026_yoyogi_1012",
@@ -91,8 +108,8 @@
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://larc-en-ciel.com/s/n137en/news/detail/11381?ima=0000&link=ROBO004",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://le-ciel.com/s/n107/page/L35_live?ima=1903",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "larc_en_ciel_35th_lanniversary_2026_fukuoka_1031",
@@ -103,8 +120,8 @@
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://larc-en-ciel.com/s/n137en/news/detail/11381?ima=0000&link=ROBO004",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://le-ciel.com/s/n107/page/L35_live?ima=1903",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "larc_en_ciel_35th_lanniversary_2026_fukuoka_1101",
@@ -115,8 +132,8 @@
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://larc-en-ciel.com/s/n137en/news/detail/11381?ima=0000&link=ROBO004",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://le-ciel.com/s/n107/page/L35_live?ima=1903",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "larc_en_ciel_35th_lanniversary_2026_nagoya_1121",
@@ -127,8 +144,8 @@
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://larc-en-ciel.com/s/n137en/news/detail/11381?ima=0000&link=ROBO004",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://le-ciel.com/s/n107/page/L35_live?ima=1903",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "larc_en_ciel_35th_lanniversary_2026_nagoya_1122",
@@ -139,8 +156,8 @@
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://larc-en-ciel.com/s/n137en/news/detail/11381?ima=0000&link=ROBO004",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://le-ciel.com/s/n107/page/L35_live?ima=1903",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "larc_en_ciel_35th_lanniversary_2026_yokohama_1128",
@@ -151,8 +168,8 @@
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://larc-en-ciel.com/s/n137en/news/detail/11381?ima=0000&link=ROBO004",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://le-ciel.com/s/n107/page/L35_live?ima=1903",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "larc_en_ciel_35th_lanniversary_2026_yokohama_1129",
@@ -163,8 +180,8 @@
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://larc-en-ciel.com/s/n137en/news/detail/11381?ima=0000&link=ROBO004",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://le-ciel.com/s/n107/page/L35_live?ima=1903",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "larc_en_ciel_35th_lanniversary_2026_chiba_1212",
@@ -175,8 +192,8 @@
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://larc-en-ciel.com/s/n137en/news/detail/11381?ima=0000&link=ROBO004",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://le-ciel.com/s/n107/page/L35_live?ima=1903",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "larc_en_ciel_35th_lanniversary_2026_chiba_1213",
@@ -187,8 +204,8 @@
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://larc-en-ciel.com/s/n137en/news/detail/11381?ima=0000&link=ROBO004",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://le-ciel.com/s/n107/page/L35_live?ima=1903",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "larc_en_ciel_35th_lanniversary_2026_osaka_1216",
@@ -199,8 +216,8 @@
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://larc-en-ciel.com/s/n137en/news/detail/11381?ima=0000&link=ROBO004",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://le-ciel.com/s/n107/page/L35_live?ima=1903",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "larc_en_ciel_35th_lanniversary_2026_osaka_1217",
@@ -211,8 +228,8 @@
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://larc-en-ciel.com/s/n137en/news/detail/11381?ima=0000&link=ROBO004",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://le-ciel.com/s/n107/page/L35_live?ima=1903",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "larc_en_ciel_35th_lanniversary_2026_ariake_1224",
@@ -223,8 +240,8 @@
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://larc-en-ciel.com/s/n137en/news/detail/11381?ima=0000&link=ROBO004",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://le-ciel.com/s/n107/page/L35_live?ima=1903",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "larc_en_ciel_35th_lanniversary_2026_ariake_1226",
@@ -235,8 +252,8 @@
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://larc-en-ciel.com/s/n137en/news/detail/11381?ima=0000&link=ROBO004",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://le-ciel.com/s/n107/page/L35_live?ima=1903",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "larc_en_ciel_35th_lanniversary_2026_ariake_1227",
@@ -247,8 +264,8 @@
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://larc-en-ciel.com/s/n137en/news/detail/11381?ima=0000&link=ROBO004",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://le-ciel.com/s/n107/page/L35_live?ima=1903",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "lotteries": [
