@@ -104,11 +104,13 @@
 
 ---
 
-## バッチ実行方式（C・D・E 共通）
+## バッチ実行方式（全更新処理共通）
 
-標準は1組×5並列、5組完了ごとにcommit & pushとする。ユーザーがコスト優先・直列を指定した場合は、**1組ずつ実行し、10組完了ごとにcommit & push**する方式を選択できる。
+標準は1組×5並列、5組完了ごとにcommit & pushとする。ユーザーがコスト優先・直列を指定した場合は、`/refresh-smart`・`/refresh-hot`・`/refresh-all`・`/add-artists` 等の更新処理を問わず、**1組ずつ実行し、10組完了ごとにcommit & push**する方式を選択できる。
 
 直列方式では、各組の収集成功後に `data/artist/{id}.json` と `data/artists.json` の該当エントリを同期更新し、10組単位で `validate.py`・`update_manifest.py`・source hash確定を行い、`data/artists.json`・対象JSON・`data/manifest.json`・必要なcacheを同じcommit & pushに含める。最後の端数も必ずまとめて反映する。失敗・未確認IDは `artists.json` の成功扱いにせず、source hashも確定しない。
+
+並列方式でも、各5組バッチの完了ごとに `update_manifest.py` を実行し、`data/manifest.json` を対象JSON・`data/artists.json`・必要なcacheと同じcommit & pushに含める。全バッチ完了後にmanifestだけをまとめてpushしない。
 
 ### 役割分担（違反厳禁）
 
@@ -124,16 +126,16 @@
   ↓
 【グループ①】1組×5つのサブを同時起動（run_in_background: true）
   ↓ 全5つの完了通知を待つ
-メイン: data/artists.json を5組分一括更新 → validate.py → commit & push
+メイン: data/artists.json を5組分一括更新 → validate.py → update_manifest.py → manifestを同梱してcommit & push
   ↓
 【グループ②】次の5組で同様に繰り返し
   ↓ …繰り返し…
-全グループ完了後: update_manifest.py → commit & push
+各グループ完了後: update_manifest.py → manifestを同梱してcommit & push
 ```
 
 - サブは `run_in_background: true` で5つ同時起動する
 - artists.jsonの更新は**グループ全員完了後に一括で**行う（途中更新は不整合の原因）
-- manifest更新（`update_manifest.py`）は**全グループ完了後に1回だけ**
+- manifest更新（`update_manifest.py`）は**各グループ完了後に実行し、各pushへ同梱する**
 - **メインは commit 前に各サブの根拠引用と JSON 入力値を照合する**（引用がない・引用と食い違う日程は null に修正するか再収集を指示。validate.py の WARNING も「抜け漏れの疑い」として内容確認してから push）
 - **メインは commit 前に各サブの「確認したページのURL一覧」に NEWS ページが含まれているか必ず確認する**（2026-07にサカナクションのツアー拡大情報がNEWSページ未確認により見落とされた事例あり。LIVE/TOURページのみの報告は不完全とみなし、そのアーティストだけ再収集を指示する。COLLECTION_RULES.md §2.7参照）
 
@@ -203,8 +205,9 @@ Hot tier（3ヶ月以内に抽選締切があるアーティスト）のみを�
    - サブエージェント（haiku）を5つ同時起動（background）→ 全完了を待つ
    - `data/artists.json` の `lastVerifiedAt` を5組分一括更新
    - `python3 tools/validate.py`（エラーがあれば修正）
-   - `git add data/artist/... data/artists.json && git commit -m "refresh: Hot tier {アーティスト名}など" && git push origin main`
-4. 全グループ完了後:
+   - `python3 tools/update_manifest.py`
+   - `git add data/artist/... data/artists.json data/manifest.json && git commit -m "refresh: Hot tier {アーティスト名}など" && git push origin main`
+4. 全グループ完了後（最終確認で差分が出た場合のみ）:
    - `python3 tools/cleanup_past.py` → `git add data/artist/*.json && git commit -m "cleanup: 終了ツアー削除" && git push origin main`
    - `python3 tools/update_manifest.py` → `git add data/manifest.json && git commit -m "update: manifest" && git push origin main`
 
@@ -220,8 +223,9 @@ Hot tier（3ヶ月以内に抽選締切があるアーティスト）のみを�
    - サブエージェント（haiku）を5つ同時起動（background）→ 全完了を待つ
    - `data/artists.json` の `lastVerifiedAt` を5組分一括更新
    - `python3 tools/validate.py`（エラーがあれば修正）
-   - `git add data/artist/... data/artists.json && git commit -m "refresh: {アーティスト名}など更新" && git push origin main`
-4. 全グループ完了後:
+   - `python3 tools/update_manifest.py`
+   - `git add data/artist/... data/artists.json data/manifest.json && git commit -m "refresh: {アーティスト名}など更新" && git push origin main`
+4. 全グループ完了後（最終確認で差分が出た場合のみ）:
    - `python3 tools/cleanup_past.py` → `git add data/artist/*.json && git commit -m "cleanup: 終了ツアー削除" && git push origin main`
    - `python3 tools/update_manifest.py` → `git add data/manifest.json && git commit -m "update: manifest" && git push origin main`
 
@@ -235,8 +239,9 @@ Hot tier（3ヶ月以内に抽選締切があるアーティスト）のみを�
    - サブエージェント（sonnet）を5つ同時起動（background）→ 全完了を待つ
    - `data/artists.json` に5組のエントリを一括追記
    - `python3 tools/validate.py`（エラーがあれば修正）
-   - `git add data/artist/... data/artists.json && git commit -m "add: {アーティスト名}など" && git push origin main`
-4. 全グループ完了後: `python3 tools/update_manifest.py` → `git add data/manifest.json && git commit -m "update: manifest" && git push origin main`
+   - `python3 tools/update_manifest.py`
+   - `git add data/artist/... data/artists.json data/manifest.json && git commit -m "add: {アーティスト名}など" && git push origin main`
+4. 最終確認でmanifest差分が出た場合のみ: `python3 tools/update_manifest.py` → `git add data/manifest.json && git commit -m "update: manifest" && git push origin main`
 
 ---
 

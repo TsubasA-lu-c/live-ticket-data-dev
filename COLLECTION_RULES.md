@@ -597,30 +597,32 @@ Apple Music の公開ページの構造に依存しているため、Apple 側�
 
 #### 実行の原則（競合回避・リミット対策）
 
-標準方式は **1組×5並列、5組完了ごとにcommit** とする。ただし、ユーザーがコスト優先・直列実行を指定した場合は、次の代替方式を選択できる。
+標準方式は **1組×5並列、5組完了ごとにcommit & push** とする。ただし、ユーザーがコスト優先・直列実行を指定した場合は、更新処理の種類を問わず（`/refresh-smart`・`/refresh-hot`・`/refresh-all`・`/add-artists` 等）、次の代替方式を選択できる。
+
+方式に関係なく、各commit/push単位で `python3 tools/update_manifest.py` を実行し、生成・更新された `data/manifest.json` を対象JSON・`data/artists.json`・必要なcacheと同じcommitに含める。全対象の処理が終わった後にmanifestだけをまとめてpushする運用にはしない（最終確認で差分が出た場合を除く）。
 
 **直列・10組バッチ方式（ユーザー指定時）**
 
 - 1組ずつ順番に収集する（同時実行しない）
 - 各アーティストの収集成功後、`data/artist/{id}.json` と `data/artists.json` の該当エントリ（`lastVerifiedAt` 等）を同期更新する
-- 成功したアーティストを10組蓄積してから `validate.py` → `update_manifest.py` → source hash確定 → `data/artists.json`・対象アーティストJSON・`data/manifest.json`・必要なcacheをまとめてcommit & pushする
+- 成功したアーティストを10組蓄積してから `validate.py` → `update_manifest.py` → source hash確定 → `data/artists.json`・対象アーティストJSON・`data/manifest.json`・必要なcacheをまとめてcommit & pushする（`refresh-smart` に限らず、選択した全更新処理で同じ手順）
 - 10組未満で全対象が終了した場合も、最後に残った組をまとめてcommit & pushする
 - 失敗・未確認のIDは `data/artists.json` を成功扱いに更新せず、source hashも確定しない
 
 **並列・5組バッチ方式（標準）**
 
 - **バッチサブエージェント**: 1組を1エージェントが担当。`data/artist/{担当id}.json` のみ書く。`artists.json` / `manifest.json` には触らない
-- **メインエージェント**: 5組完了後に `data/artists.json` を一括更新 → `validate.py` → `update_manifest.py` → commit & push。`data/manifest.json` も各バッチのpushに含める
+- **メインエージェント**: 5組完了後に `data/artists.json` を一括更新 → `validate.py` → `update_manifest.py` → commit & push。`data/manifest.json` は並列の各バッチのpushにも必ず含める
 - 5組完了ごとに push することで、途中でリミットに達しても完了分は確定する
 
 ```
 グループ①: 5つのサブ（各1組）を同時起動（background）
   ↓ 全5つの完了を待つ
-メイン: artists.json を5組分一括更新 → validate.py → commit & push
+メイン: artists.json を5組分一括更新 → validate.py → update_manifest.py → manifestを同梱してcommit & push
   ↓
 グループ②: 次の5組で繰り返し
-  ↓ 全グループ完了
-メイン: update_manifest.py → commit & push
+  ↓ 各グループ完了後
+メイン: update_manifest.py → commit & push（manifestを同梱）
 ```
 
 #### /refresh-smart の手順
@@ -644,8 +646,9 @@ Apple Music の公開ページの構造に依存しているため、Apple 側�
    - バッチ完了後: `validate.py` → `update_manifest.py` → 収集・validate成功済みIDだけ `python3 tools/check_updates.py --accept {id...}` → `data/artists.json`・対象JSON・`data/manifest.json`・必要なcacheをcommit & push
 
 5. 全グループ完了後:
-   python3 tools/update_manifest.py → commit & push
-   git add cache/source_hashes.json && git commit -m "update: source hash cache" && git push origin main
+   各バッチでmanifestを反映済みであることを確認する。最終確認で差分が出た場合のみ
+   python3 tools/update_manifest.py → `data/manifest.json` を同じcommitに含めてpushする。
+   `git add cache/source_hashes.json` に未反映差分がある場合は、対象ファイルとmanifestをまとめてcommit & pushする。
 ```
 
 **注意事項:**
@@ -662,15 +665,15 @@ Apple Music の公開ページの構造に依存しているため、Apple 側�
 #### /refresh-hot の手順
 1. 全 `data/artist/{id}.json` を読み込み、Hot tier アーティストを抽出
    - 判定: `lotteries[].entryEndAt` が今日から90日以内かつ未来のものが1件以上あるか
-2. 5組ずつのグループに分割し、グループごとに1組×5並列で起動
-3. グループごとに全完了後、メインが `artists.json` の `lastVerifiedAt` を更新 → validate → commit & push
-4. 全グループ完了後: `python3 tools/update_manifest.py` → commit & push
+2. 指定がなければ5組ずつのグループに分割し、グループごとに1組×5並列で起動。直列指定時は1組ずつ実行し、10組ごとにまとめる
+3. 各バッチ完了後、メインが `artists.json` の `lastVerifiedAt` を更新 → validate → `update_manifest.py` → `data/manifest.json` を同梱してcommit & push
+4. 最終確認でmanifest差分が出た場合のみ、manifestを更新して同じcommitに含める
 
 #### /refresh-all の手順
-1. 全アーティストを5組ずつのグループに分割し、グループごとに1組×5並列で起動
+1. 指定がなければ全アーティストを5組ずつのグループに分割し、グループごとに1組×5並列で起動。直列指定時は1組ずつ実行し、10組ごとにまとめる
    - 各サブ: §4 の収集手順 + 終了ツアーの掃除（§5.1）を実施
-2. グループごとに全完了後、メインが `artists.json` の `lastVerifiedAt` を更新 → validate → commit & push
-3. 全グループ完了後: `python3 tools/update_manifest.py` → commit & push
+2. 各バッチ完了後、メインが `artists.json` の `lastVerifiedAt` を更新 → validate → `update_manifest.py` → `data/manifest.json` を同梱してcommit & push
+3. 最終確認でmanifest差分が出た場合のみ、manifestを更新して同じcommitに含める
 
 #### アーティスト追加ペース（目安）
 - 月20〜30組バッチで `/add-artists` を実行
