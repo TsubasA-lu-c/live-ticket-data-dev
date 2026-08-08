@@ -38,6 +38,46 @@
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
+      "id": "ado_summer_sonic_osaka",
+      "artistId": "ado",
+      "title": "Summer Sonic 2026",
+      "startDate": "2026-08-16T11:00:00+09:00",
+      "endDate": "2026-08-16T11:00:00+09:00",
+      "prices": [
+        {
+          "label": "1 Day Ticket",
+          "amount": 19000
+        },
+        {
+          "label": "Platinum Ticket",
+          "amount": 31000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.summersonic.com/en/tickets/osaka/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ado_inkigayo_live_tokyo_2026",
+      "artistId": "ado",
+      "title": "INKIGAYO LIVE in TOKYO",
+      "startDate": "2026-09-23T18:00:00+09:00",
+      "endDate": "2026-09-23T18:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定 (単日券)",
+          "amount": 18000
+        },
+        {
+          "label": "VIP席アップグレード (単日券)",
+          "amount": 12000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://inkigayo-live.jp/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
       "id": "ado_event_2026",
       "artistId": "ado",
       "title": "Adoのドキドキ秘密基地有料会員様限定LIVE",
@@ -81,6 +121,30 @@
       "eventName": "Rock in Japan Festival 2026",
       "source": "system",
       "sourceUrl": "https://rijfes.jp/2026/home/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ado_summer_sonic_osaka_2026",
+      "tourId": "ado_summer_sonic_osaka",
+      "venue": "万博記念公園",
+      "performanceAt": "2026-08-16T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "Summer Sonic 2026",
+      "source": "system",
+      "sourceUrl": "https://www.summersonic.com/en/lineup/osaka-day3/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ado_inkigayo_live_tokyo_2026_0923",
+      "tourId": "ado_inkigayo_live_tokyo_2026",
+      "venue": "ベルーナドーム",
+      "performanceAt": "2026-09-23T18:00:00+09:00",
+      "doorOpenAt": "2026-09-23T16:00:00+09:00",
+      "kind": "fes",
+      "eventName": "INKIGAYO LIVE in TOKYO",
+      "source": "system",
+      "sourceUrl": "https://inkigayo-live.jp/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
@@ -172,6 +236,38 @@
       ],
       "source": "system",
       "sourceUrl": "https://rijfes.jp/2026/ticket/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ado_inkigayo_live_tokyo_2026_official_3",
+      "tourId": "ado_inkigayo_live_tokyo_2026",
+      "type": "オフィシャル3次先行",
+      "entryStartAt": "2026-08-07T17:00:00+09:00",
+      "entryEndAt": "2026-08-17T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ado_inkigayo_live_tokyo_2026_0923"
+      ],
+      "source": "system",
+      "sourceUrl": "https://inkigayo-live.jp/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ado_inkigayo_live_tokyo_2026_vip_upgrade",
+      "tourId": "ado_inkigayo_live_tokyo_2026",
+      "type": "VIP席アップグレード抽選",
+      "entryStartAt": "2026-08-05T18:00:00+09:00",
+      "entryEndAt": "2026-08-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ado_inkigayo_live_tokyo_2026_0923"
+      ],
+      "source": "system",
+      "sourceUrl": "https://inkigayo-live.jp/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
