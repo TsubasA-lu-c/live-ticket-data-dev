@@ -104,20 +104,20 @@
 
 ---
 
-## 1組×5並列、5組完了ごとにcommit（C・D・E 共通）
+## バッチ実行方式（C・D・E 共通）
 
-**1つのサブエージェントが1組を担当し、5つを同時起動（background）する。**
-5組全完了後にartists.jsonを一括更新してcommit & push。これを繰り返す。
-途中でセッションリミットに達しても、完了済みグループはpush済みのため損失は最大5組分。
+標準は1組×5並列、5組完了ごとにcommit & pushとする。ユーザーがコスト優先・直列を指定した場合は、**1組ずつ実行し、10組完了ごとにcommit & push**する方式を選択できる。
+
+直列方式では、各組の収集成功後に `data/artist/{id}.json` と `data/artists.json` の該当エントリを同期更新し、10組単位で `validate.py`・source hash確定・commit & pushを行う。最後の端数も必ずまとめて反映する。失敗・未確認IDは `artists.json` の成功扱いにせず、source hashも確定しない。
 
 ### 役割分担（違反厳禁）
 
 | 役割 | 書いてよいファイル | 触ってはいけないファイル |
 |---|---|---|
 | **サブエージェント（1組担当）** | `data/artist/{担当id}.json` のみ | `data/artists.json` / `data/manifest.json` / 他アーティストのファイル |
-| **メインエージェント** | `data/artists.json` / `data/manifest.json` | （グループ全完了後のみ操作） |
+| **メインエージェント** | `data/artists.json` / `data/manifest.json` | （選択したバッチの成功組を確定後に操作。直列方式では成功ごとに作業ツリーを同期し、commit & pushは10組後） |
 
-### 実行フロー
+### 標準の並列実行フロー
 
 ```
 メイン: 対象アーティストを5組ずつのグループに分割
@@ -177,14 +177,12 @@
 公式サイトに変化があったアーティストだけを自動検出して更新する。
 
 1. `python3 tools/check_updates.py 2>/dev/null > /tmp/changed.txt` を実行
-2. `/tmp/changed.txt` を読み込み、対象IDを5組ずつグループに分割
-3. グループごとに1組×5並列で実行:
-   - サブエージェント（haiku）を5つ同時起動（background）→ 全完了を待つ
-   - `data/artists.json` の `lastVerifiedAt` を5組分一括更新
-   - `python3 tools/validate.py`（エラーがあれば修正）
-   - 収集・validate成功済みの5組に限り `python3 tools/check_updates.py --accept {id1} ... {id5}` で監視hashを確定
-   - `git add data/artist/... data/artists.json && git commit -m "refresh: {アーティスト名}など" && git push origin main`
-4. 全グループ完了後:
+2. `/tmp/changed.txt` を読み込み、対象IDと実行方式を確認
+3. 実行方式を選択して収集:
+   - 標準: 対象IDを5組ずつに分割し、1組×5並列で実行。各バッチ完了後に `data/artists.json` を5組分更新 → validate → hash確定 → commit & push
+   - ユーザーがコスト優先・直列を指定: 1組ずつ実行。成功ごとに `data/artists.json` の該当エントリを同期し、成功10組ごとに validate → hash確定 → commit & push。最後の端数もまとめて反映
+   - いずれの方式でも、失敗・未確認IDは成功扱いで `artists.json` を更新せず、source hashも確定しない
+4. 全対象の収集完了後:
    - `python3 tools/cleanup_past.py` → `git add data/artist/*.json && git commit -m "cleanup: 終了ツアー削除" && git push origin main`
    - `python3 tools/update_manifest.py` → `git add data/manifest.json && git commit -m "update: manifest" && git push origin main`
    - `git add cache/source_hashes.json && git commit -m "update: source hash cache" && git push origin main`

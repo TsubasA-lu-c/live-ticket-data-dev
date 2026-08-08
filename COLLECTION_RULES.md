@@ -597,10 +597,20 @@ Apple Music の公開ページの構造に依存しているため、Apple 側�
 
 #### 実行の原則（競合回避・リミット対策）
 
-**1組×5並列、5組完了ごとにcommit** の方式を使う。
+標準方式は **1組×5並列、5組完了ごとにcommit** とする。ただし、ユーザーがコスト優先・直列実行を指定した場合は、次の代替方式を選択できる。
+
+**直列・10組バッチ方式（ユーザー指定時）**
+
+- 1組ずつ順番に収集する（同時実行しない）
+- 各アーティストの収集成功後、`data/artist/{id}.json` と `data/artists.json` の該当エントリ（`lastVerifiedAt` 等）を同期更新する
+- 成功したアーティストを10組蓄積してから `validate.py` → source hash確定 → commit & push を1回行う
+- 10組未満で全対象が終了した場合も、最後に残った組をまとめてcommit & pushする
+- 失敗・未確認のIDは `data/artists.json` を成功扱いに更新せず、source hashも確定しない
+
+**並列・5組バッチ方式（標準）**
 
 - **バッチサブエージェント**: 1組を1エージェントが担当。`data/artist/{担当id}.json` のみ書く。`artists.json` / `manifest.json` には触らない
-- **メインエージェント**: 5組完了後に `artists.json` を一括更新 → `validate.py` → commit & push。全バッチ完了後に `update_manifest.py` → commit & push
+- **メインエージェント**: 5組完了後に `data/artists.json` を一括更新 → `validate.py` → commit & push。全バッチ完了後に `update_manifest.py` → commit & push
 - 5組完了ごとに push することで、途中でリミットに達しても完了分は確定する
 
 ```
@@ -624,12 +634,14 @@ Apple Music の公開ページの構造に依存しているため、Apple 側�
 
 2. cat /tmp/changed.txt で対象IDを確認する
 
-3. 対象IDを5組ずつのグループに分割
+3. 実行方式を選択
+   - 指定がなければ5組並列・5組バッチ
+   - ユーザーがコスト優先で直列を指定した場合は1組ずつ実行・10組バッチ
 
-4. グループごとに1組×5並列で起動
+4. 選択した方式で収集
    - 各サブ: §4 の収集手順を実施（終了ツアー掃除は不要、変化があった分のみ）
-   - 全完了後: artists.json の lastVerifiedAt を更新 → validate.py → commit & push
-   - 収集・validate成功済みIDだけ `python3 tools/check_updates.py --accept {id...}` を実行
+   - 成功した各IDについて `data/artist/{id}.json` と `data/artists.json` の該当エントリを同期更新
+   - バッチ完了後: `validate.py` → 収集・validate成功済みIDだけ `python3 tools/check_updates.py --accept {id...}` → commit & push
 
 5. 全グループ完了後:
    python3 tools/update_manifest.py → commit & push
