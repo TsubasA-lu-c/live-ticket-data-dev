@@ -25,6 +25,22 @@
     "https://yuzu-official.com/contents/information/34674919-757a-4dc6-b08b-4b62ea6f5243": {
       "type": "hash",
       "hash": "24fd47c9cac66cb948ab1f98eaee6cc1"
+    },
+    "https://yuzu-official.com/": {
+      "type": "hash",
+      "hash": "088ffa86fef5ad6d3900dc811739280c"
+    },
+    "https://yuzu-official.com/pages/yuzu_arenatour2026": {
+      "type": "hash",
+      "hash": "45aca1da7ed0495bd74b613a4a6fb6cd"
+    },
+    "https://yuzu-official.com/pages/livefilms_zukan/": {
+      "type": "hash",
+      "hash": "f1c24bf433eceefe4c6aa02bdebd3fc2"
+    },
+    "https://yuzu-official.com/contents/information": {
+      "type": "hash",
+      "hash": "986dd34d935fd530115b7fb4d0f203a1"
     }
   },
   "yonezu_kenshi": {
@@ -1052,19 +1068,35 @@
   "kobukuro": {
     "https://kobukuro.com/feature/kobukuro_tour2026": {
       "type": "hash",
-      "hash": "2c04c67faf4c3fc09917b4b86a1a8f85"
+      "hash": "b8b024944e597f407cabfb322667d08d"
     },
     "https://kobukuro.com/feature/tour2026_news": {
       "type": "hash",
-      "hash": "2e5883afe745c2203701f4d6bb4832c9"
+      "hash": "0dea2415e0a13db71ba9d760755f73db"
     },
     "https://kobukuro.com/feature/tour2026_schedule": {
       "type": "hash",
-      "hash": "c088a4402aa510d04e052f77f2e16bcd"
+      "hash": "6d074c07ddd23d1cdeaf235693ff3669"
     },
     "https://kobukuro.com/feature/tour2026_ticket": {
       "type": "hash",
-      "hash": "24e27fdbc3c90513d1356e58e345fcb3"
+      "hash": "40393359af42671b671c86072e2c070e"
+    },
+    "https://kobukuro.com/": {
+      "type": "hash",
+      "hash": "812bdd3e798fed7cce7d59ec20d57a48"
+    },
+    "https://www.kobukuro.com/news/1?_normalbrowse_=1": {
+      "type": "hash",
+      "hash": "84db716c62f8d00470d38c044ad35d07"
+    },
+    "https://www.kobukuro.com/news/2?_normalbrowse_=1": {
+      "type": "hash",
+      "hash": "4990676720e3dbf6b908324e46a68595"
+    },
+    "https://www.kobukuro.com/news/3?_normalbrowse_=1": {
+      "type": "hash",
+      "hash": "f4ae0ad9bc8aa966baa928ed3c47674e"
     }
   },
   "number_i": {
@@ -1192,11 +1224,11 @@
   "novelbright": {
     "https://novelbright.jp/": {
       "type": "hash",
-      "hash": "4c8a52ff9875b951c0ca13439da27073"
+      "hash": "34c83de3ce3a3373da32f8302aca6808"
     },
     "https://novelbright.jp/news/1/": {
       "type": "hash",
-      "hash": "b256356e610545cd4c4cd62189a118d5"
+      "hash": "00010897e0e0739b30dd24d049db6609"
     },
     "https://novelbright.jp/news/13": {
       "type": "hash",
@@ -1210,11 +1242,11 @@
   "04_limited_sazabys": {
     "https://www.04limitedsazabys.com/": {
       "type": "hash",
-      "hash": "7176b7fc818be07532480196fabeb91e"
+      "hash": "22e795a4e7e76f03fa805805a974198a"
     },
     "https://www.04limitedsazabys.com/news/list/16/17/": {
       "type": "hash",
-      "hash": "8b94d285ab3f826eca3ef8816622ce99"
+      "hash": "500c6c9de09ac543960bfaa79d28c2f9"
     },
     "https://www.04limitedsazabys.com/news/5/?range=future_event_end_time&sort=asc": {
       "type": "hash",
@@ -1228,29 +1260,29 @@
   "frederic": {
     "https://frederic-official.com/": {
       "type": "hash",
-      "hash": "d534c735dd38bad376a74b6af9e4e7f8"
+      "hash": "b8b28cc1beed7c35674e47e2c4f0db44"
     },
     "https://frederic-official.com/news/1": {
       "type": "hash",
-      "hash": "5f668c12015902370e5adb5f69f8bf13"
+      "hash": "d3b594e93d44b6e8f18c3dda0f48c579"
     },
     "https://frederic-official.com/news/3?range=future_event_end_time&sort=asc": {
       "type": "hash",
-      "hash": "03e3c88091ac137b53c119ed2c2f039f"
+      "hash": "2aaf6fcd45990387948585275dca921e"
     },
     "https://frederic-official.com/news/5?range=future_event_end_time&sort=asc": {
       "type": "hash",
-      "hash": "f4a0c7daee0c1a7b684215f84706ab4a"
+      "hash": "f206cfa021853bdaff2665a4d7b2ef16"
     }
   },
   "fruits_zipper": {
     "https://fruitszipper.asobisystem.com/": {
       "type": "hash",
-      "hash": "ff85f3a23160d1613f2809fa935ab506"
+      "hash": "ddfa27976b5151c802b32fcce4097cbc"
     },
     "https://fruitszipper.asobisystem.com/news/1": {
       "type": "hash",
-      "hash": "a377e5e9a791fb7002937fe2175e3120"
+      "hash": "eb889a2965235ce157b5e11184958b2f"
     },
     "https://fruitszipper.asobisystem.com/news/2": {
       "type": "hash",
@@ -1258,17 +1290,17 @@
     },
     "https://fruitszipper.asobisystem.com/news/4": {
       "type": "hash",
-      "hash": "fd2ce2fc71a80b94c0d5d0a48078f7d5"
+      "hash": "cccfa90401cb4e66ea28ed034fe10a89"
     }
   },
   "cutie_street": {
     "https://cutiestreet.asobisystem.com/": {
       "type": "hash",
-      "hash": "be7fe5165e3c4ba69857de0ba451fcec"
+      "hash": "34ecfe2654100290db125377aa416c0a"
     },
     "https://cutiestreet.asobisystem.com/news/1": {
       "type": "hash",
-      "hash": "d0ac578bfc20609740afcde4501d2729"
+      "hash": "1deb5638f097821ca1733ba8fa2fe6f2"
     },
     "https://cutiestreet.asobisystem.com/news/2": {
       "type": "hash",
@@ -1276,35 +1308,35 @@
     },
     "https://cutiestreet.asobisystem.com/news/4": {
       "type": "hash",
-      "hash": "55fe7147e11fa0af9a75e5a270bb79cb"
+      "hash": "6cb9587b10c7bfed655d1edd6f66fe24"
     }
   },
   "monaki": {
     "https://monaki.fanpla.jp/": {
       "type": "hash",
-      "hash": "b817262b8f19741e9edf99f98854bf19"
+      "hash": "d7a3c9a31a64e71a79eb9cd0fb28af38"
     },
     "https://monaki.fanpla.jp/news/1": {
       "type": "hash",
-      "hash": "49d5d28ceac58d1443ac33580d55c8f4"
+      "hash": "7e2e1ffbab86be96e9d08cf0fa619e07"
     },
     "https://monaki.fanpla.jp/news/2": {
       "type": "hash",
-      "hash": "749b74e9ee4fb2fe1bdf79cc4a885ed9"
+      "hash": "45fb9ff054d9a71b410499184058e4d1"
     },
     "https://monaki.fanpla.jp/news/4": {
       "type": "hash",
-      "hash": "33549191aab4eb48e4e012a333f1a81c"
+      "hash": "0a904aba2f5acbcef18059b1b6d97c10"
     }
   },
   "equal_love": {
     "https://equal-love.jp/": {
       "type": "hash",
-      "hash": "b4b2ee2f42a628a53e2b261e79626116"
+      "hash": "22739f46b40abd036842ce9cad356b65"
     },
     "https://equal-love.jp/news": {
       "type": "hash",
-      "hash": "ae886c64347ecd44c320836b45e7d2d2"
+      "hash": "bb6ab6fb2c7f884097889d4848f8e5d7"
     },
     "https://equal-love.jp/news/detail/11612": {
       "type": "hash",

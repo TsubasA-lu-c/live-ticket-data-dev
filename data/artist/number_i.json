@@ -15,7 +15,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://rijfes.jp/2026/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "number_i_fanmeeting_2026",
@@ -26,7 +26,18 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "number_i_live_tour_no_iii_2026_2027",
+      "artistId": "number_i",
+      "title": "Number_i LIVE TOUR No.III",
+      "startDate": "2026-10-24T00:00:00+09:00",
+      "endDate": "2027-01-17T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://wmg.jp/number-i/news/92727",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -40,7 +51,7 @@
       "eventName": "ROCK IN JAPAN FESTIVAL 2026",
       "source": "system",
       "sourceUrl": "https://rijfes.jp/2026/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "number_i_fanmeeting_2026_osaka_0721",
@@ -52,7 +63,7 @@
       "eventName": "Number_i ファンミーティング 2026",
       "source": "system",
       "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "number_i_fanmeeting_2026_osaka_0722_1st",
@@ -64,7 +75,7 @@
       "eventName": "Number_i ファンミーティング 2026",
       "source": "system",
       "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "number_i_fanmeeting_2026_osaka_0722_2nd",
@@ -76,7 +87,7 @@
       "eventName": "Number_i ファンミーティング 2026",
       "source": "system",
       "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "number_i_fanmeeting_2026_tokyo_0825_1st",
@@ -88,7 +99,7 @@
       "eventName": "Number_i ファンミーティング 2026",
       "source": "system",
       "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "number_i_fanmeeting_2026_tokyo_0825_2nd",
@@ -100,7 +111,7 @@
       "eventName": "Number_i ファンミーティング 2026",
       "source": "system",
       "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "number_i_fanmeeting_2026_tokyo_0826",
@@ -112,7 +123,7 @@
       "eventName": "Number_i ファンミーティング 2026",
       "source": "system",
       "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "number_i_fanmeeting_2026_tokyo_0827_1st",
@@ -124,7 +135,7 @@
       "eventName": "Number_i ファンミーティング 2026",
       "source": "system",
       "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "number_i_fanmeeting_2026_tokyo_0827_2nd",
@@ -136,7 +147,127 @@
       "eventName": "Number_i ファンミーティング 2026",
       "source": "system",
       "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "number_i_live_tour_no_iii_2026_2027_sapporo_1024",
+      "tourId": "number_i_live_tour_no_iii_2026_2027",
+      "venue": "大和ハウス プレミストドーム（札幌ドーム）",
+      "performanceAt": "2026-10-24T16:00:00+09:00",
+      "doorOpenAt": "2026-10-24T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "Number_i LIVE TOUR No.III",
+      "source": "system",
+      "sourceUrl": "https://wmg.jp/number-i/news/92727",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "number_i_live_tour_no_iii_2026_2027_osaka_1202",
+      "tourId": "number_i_live_tour_no_iii_2026_2027",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2026-12-02T18:30:00+09:00",
+      "doorOpenAt": "2026-12-02T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "Number_i LIVE TOUR No.III",
+      "source": "system",
+      "sourceUrl": "https://wmg.jp/number-i/news/92727",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "number_i_live_tour_no_iii_2026_2027_tokyo_1209",
+      "tourId": "number_i_live_tour_no_iii_2026_2027",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-12-09T18:30:00+09:00",
+      "doorOpenAt": "2026-12-09T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "Number_i LIVE TOUR No.III",
+      "source": "system",
+      "sourceUrl": "https://wmg.jp/number-i/news/92727",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "number_i_live_tour_no_iii_2026_2027_tokyo_1210",
+      "tourId": "number_i_live_tour_no_iii_2026_2027",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-12-10T18:30:00+09:00",
+      "doorOpenAt": "2026-12-10T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "Number_i LIVE TOUR No.III",
+      "source": "system",
+      "sourceUrl": "https://wmg.jp/number-i/news/92727",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "number_i_live_tour_no_iii_2026_2027_nagoya_0109",
+      "tourId": "number_i_live_tour_no_iii_2026_2027",
+      "venue": "バンテリンドーム ナゴヤ",
+      "performanceAt": "2027-01-09T17:00:00+09:00",
+      "doorOpenAt": "2027-01-09T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "Number_i LIVE TOUR No.III",
+      "source": "system",
+      "sourceUrl": "https://wmg.jp/number-i/news/92727",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "number_i_live_tour_no_iii_2026_2027_nagoya_0110_1st",
+      "tourId": "number_i_live_tour_no_iii_2026_2027",
+      "venue": "バンテリンドーム ナゴヤ",
+      "performanceAt": "2027-01-10T12:30:00+09:00",
+      "doorOpenAt": "2027-01-10T10:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "Number_i LIVE TOUR No.III",
+      "source": "system",
+      "sourceUrl": "https://wmg.jp/number-i/news/92727",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "number_i_live_tour_no_iii_2026_2027_nagoya_0110_2nd",
+      "tourId": "number_i_live_tour_no_iii_2026_2027",
+      "venue": "バンテリンドーム ナゴヤ",
+      "performanceAt": "2027-01-10T19:00:00+09:00",
+      "doorOpenAt": "2027-01-10T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "Number_i LIVE TOUR No.III",
+      "source": "system",
+      "sourceUrl": "https://wmg.jp/number-i/news/92727",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "number_i_live_tour_no_iii_2026_2027_nagoya_0111",
+      "tourId": "number_i_live_tour_no_iii_2026_2027",
+      "venue": "バンテリンドーム ナゴヤ",
+      "performanceAt": "2027-01-11T17:00:00+09:00",
+      "doorOpenAt": "2027-01-11T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "Number_i LIVE TOUR No.III",
+      "source": "system",
+      "sourceUrl": "https://wmg.jp/number-i/news/92727",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "number_i_live_tour_no_iii_2026_2027_fukuoka_0116",
+      "tourId": "number_i_live_tour_no_iii_2026_2027",
+      "venue": "みずほPayPayドーム福岡",
+      "performanceAt": "2027-01-16T17:00:00+09:00",
+      "doorOpenAt": "2027-01-16T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "Number_i LIVE TOUR No.III",
+      "source": "system",
+      "sourceUrl": "https://wmg.jp/number-i/news/92727",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "number_i_live_tour_no_iii_2026_2027_fukuoka_0117",
+      "tourId": "number_i_live_tour_no_iii_2026_2027",
+      "venue": "みずほPayPayドーム福岡",
+      "performanceAt": "2027-01-17T17:00:00+09:00",
+      "doorOpenAt": "2027-01-17T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "Number_i LIVE TOUR No.III",
+      "source": "system",
+      "sourceUrl": "https://wmg.jp/number-i/news/92727",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -154,7 +285,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://rijfes.jp/2026/ticket/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "number_i_fes_rijf_2026_jfes_2nd",
@@ -170,7 +301,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://rijfes.jp/2026/ticket/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "number_i_fanmeeting_2026_ilys_fc_senko",
@@ -193,7 +324,32 @@
       ],
       "source": "system",
       "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "number_i_live_tour_no_iii_2026_2027_fc_senko",
+      "tourId": "number_i_live_tour_no_iii_2026_2027",
+      "type": "Number_iファンクラブ先行",
+      "entryStartAt": "2026-08-10T16:00:00+09:00",
+      "entryEndAt": "2026-08-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "number_i_live_tour_no_iii_2026_2027_sapporo_1024",
+        "number_i_live_tour_no_iii_2026_2027_osaka_1202",
+        "number_i_live_tour_no_iii_2026_2027_tokyo_1209",
+        "number_i_live_tour_no_iii_2026_2027_tokyo_1210",
+        "number_i_live_tour_no_iii_2026_2027_nagoya_0109",
+        "number_i_live_tour_no_iii_2026_2027_nagoya_0110_1st",
+        "number_i_live_tour_no_iii_2026_2027_nagoya_0110_2nd",
+        "number_i_live_tour_no_iii_2026_2027_nagoya_0111",
+        "number_i_live_tour_no_iii_2026_2027_fukuoka_0116",
+        "number_i_live_tour_no_iii_2026_2027_fukuoka_0117"
+      ],
+      "source": "system",
+      "sourceUrl": "https://wmg.jp/number-i/news/92727",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
