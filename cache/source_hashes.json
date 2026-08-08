@@ -1771,28 +1771,6 @@
       "hash": "a4f7508fcbe0f5494323f860a498424a"
     }
   },
-  "zorn": {
-    "https://zorn.tokyo/": {
-      "type": "hash",
-      "hash": "6f8064f72358f5af9ddaf5031d0deeac"
-    },
-    "https://zorn.tokyo/category/news/": {
-      "type": "hash",
-      "hash": "63979b0dc6b6026fa538cd60eb109a52"
-    },
-    "https://zorn.tokyo/live-at-saitama-super-arena/": {
-      "type": "hash",
-      "hash": "676ebe474103025240827639ebcaf8ec"
-    },
-    "https://zorn.tokyo/feed/": {
-      "type": "hash",
-      "hash": "3bfc201db706185113739ad9c2ee69c3"
-    },
-    "https://zorn.tokyo/comments/feed/": {
-      "type": "hash",
-      "hash": "354aa69c6afb2baee826a8ab862a2b76"
-    }
-  },
   "hypnosis_mic": {
     "https://hypnosismic.com/": {
       "type": "hash",

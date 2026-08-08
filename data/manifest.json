@@ -1,9 +1,9 @@
 {
-  "version": 92,
-  "updatedAt": "2026-08-08T09:34:25+09:00",
+  "version": 93,
+  "updatedAt": "2026-08-09T00:48:38+09:00",
   "files": {
     "artists": {
-      "hash": "3971a902d5f24c6f"
+      "hash": "4b63ff8a26891c5b"
     }
   },
   "artists": {
@@ -279,9 +279,6 @@
     },
     "tomorrow_x_together": {
       "hash": "3c6d9544bff56671"
-    },
-    "zorn": {
-      "hash": "b9f150751bdaf04f"
     },
     "a3": {
       "hash": "f3d2208be817be59"
