@@ -75,6 +75,26 @@
       "source": "system",
       "sourceUrl": "https://www.hinatazaka46.com/s/official/page/hinachri2026",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_fes_2026_idol_runway",
+      "artistId": "hinatazaka46",
+      "title": "第4回 IDOL RUNWAY COLLECTION 2026 AUTUMN/WINTER Supported by TGC",
+      "startDate": "2026-09-20T00:00:00+09:00",
+      "endDate": "2026-09-20T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "一般指定席（先行）",
+          "amount": 8000
+        },
+        {
+          "label": "一般指定席（一般販売）",
+          "amount": 8500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://idolrunwaycollection.jp/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -305,6 +325,18 @@
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
       "kind": "oneman",
       "eventName": null
+    },
+    {
+      "id": "hinatazaka46_fes_2026_idol_runway_yokohama_0920",
+      "tourId": "hinatazaka46_fes_2026_idol_runway",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-09-20T12:00:00+09:00",
+      "doorOpenAt": "2026-09-20T11:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://idolrunwaycollection.jp/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kind": "fes",
+      "eventName": "第4回 IDOL RUNWAY COLLECTION 2026 AUTUMN/WINTER Supported by TGC"
     }
   ],
   "lotteries": [
@@ -482,6 +514,118 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.hinatazaka46.com/s/official/page/hinachri2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_fes_2026_idol_runway_irc_app",
+      "tourId": "hinatazaka46_fes_2026_idol_runway",
+      "type": "IRC APP会員共通先行（抽選）",
+      "entryStartAt": "2026-06-25T11:30:00+09:00",
+      "entryEndAt": "2026-07-12T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hinatazaka46_fes_2026_idol_runway_yokohama_0920"
+      ],
+      "source": "system",
+      "sourceUrl": "https://idolrunwaycollection.jp/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_fes_2026_idol_runway_ticketboard",
+      "tourId": "hinatazaka46_fes_2026_idol_runway",
+      "type": "ticket board先行（抽選）",
+      "entryStartAt": "2026-07-18T12:00:00+09:00",
+      "entryEndAt": "2026-07-27T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hinatazaka46_fes_2026_idol_runway_yokohama_0920"
+      ],
+      "source": "system",
+      "sourceUrl": "https://idolrunwaycollection.jp/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_fes_2026_idol_runway_general",
+      "tourId": "hinatazaka46_fes_2026_idol_runway",
+      "type": "一般販売（先着）",
+      "entryStartAt": "2026-08-08T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hinatazaka46_fes_2026_idol_runway_yokohama_0920"
+      ],
+      "source": "system",
+      "sourceUrl": "https://idolrunwaycollection.jp/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_fes_2026_idol_runway_upgrade_gold",
+      "tourId": "hinatazaka46_fes_2026_idol_runway",
+      "type": "アップグレード抽選（IRC APP Gold会員）",
+      "entryStartAt": "2026-07-28T18:00:00+09:00",
+      "entryEndAt": "2026-08-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hinatazaka46_fes_2026_idol_runway_yokohama_0920"
+      ],
+      "source": "system",
+      "sourceUrl": "https://idolrunwaycollection.jp/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_fes_2026_idol_runway_upgrade_silver",
+      "tourId": "hinatazaka46_fes_2026_idol_runway",
+      "type": "アップグレード抽選（IRC APP Silver会員以上）",
+      "entryStartAt": "2026-08-10T18:00:00+09:00",
+      "entryEndAt": "2026-08-17T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hinatazaka46_fes_2026_idol_runway_yokohama_0920"
+      ],
+      "source": "system",
+      "sourceUrl": "https://idolrunwaycollection.jp/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_fes_2026_idol_runway_upgrade_bronze",
+      "tourId": "hinatazaka46_fes_2026_idol_runway",
+      "type": "アップグレード抽選（IRC APP Bronze会員以上）",
+      "entryStartAt": "2026-08-18T18:00:00+09:00",
+      "entryEndAt": "2026-08-24T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hinatazaka46_fes_2026_idol_runway_yokohama_0920"
+      ],
+      "source": "system",
+      "sourceUrl": "https://idolrunwaycollection.jp/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_fes_2026_idol_runway_upgrade_regular",
+      "tourId": "hinatazaka46_fes_2026_idol_runway",
+      "type": "アップグレード抽選（IRC APP Regular会員以上）",
+      "entryStartAt": "2026-08-25T18:00:00+09:00",
+      "entryEndAt": "2026-08-31T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hinatazaka46_fes_2026_idol_runway_yokohama_0920"
+      ],
+      "source": "system",
+      "sourceUrl": "https://idolrunwaycollection.jp/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
