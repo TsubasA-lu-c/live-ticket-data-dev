@@ -34,12 +34,23 @@ USER_AGENT = "Mozilla/5.0 (compatible; live-ticket-data/1.0)"
 FETCH_TIMEOUT_SEC = 20
 MAX_BYTES = 512 * 1024
 SLEEP_SEC = 0.3
-MAX_URLS_PER_ARTIST = 3
+MAX_URLS_PER_ARTIST = 5
 
 # NEWS/LIVE系ページ判定キーワード（優先度: TIER0 > TIER1 > TIER2）
 KEYWORDS_TIER0 = ["news", "ニュース"]
 KEYWORDS_TIER1 = ["live", "tour", "schedule", "ライブ", "スケジュール"]
 KEYWORDS_TIER2 = ["event", "ticket", "information", "チケット", "公演"]
+
+# LIVE/TOUR系（TIER1）は必ず1枠確保する。
+# BUMP OF CHICKEN のように**TOPページが個別ニュース記事を7本並べる**サイトでは、
+# それだけで枠が埋まり、安定して見るべき /live_information が一度も登録されない。
+# しかも個別記事URLは新しい記事が出た瞬間に陳腐化する（2026-08 に発覚）。
+RESERVED_TIER1_SLOTS = 1
+
+# 個別記事URLの上限。
+# **記事は新しいものが出れば入れ替わる**ので、枠を埋め尽くさせない。
+# 一覧が無いサイトでも更新は検知したいので、ゼロにはしない。
+MAX_ARTICLE_URLS = 2
 
 # 同一ホストでも監視対象から除外するSNS等のホストキーワード
 SNS_HOST_KEYWORDS = [
@@ -142,6 +153,20 @@ def _normalize_same_host(href: str, source_url: str, source_host: str) -> Option
     return parsed._replace(fragment="").geturl()
 
 
+def _is_article_url(url: str) -> bool:
+    """個別記事っぽいURLか。
+
+    **一覧ページを優先して登録したい。** 個別記事は新しい記事が出れば
+    リンクから外れ、監視URLとして陳腐化する。
+    末尾が数字のパス（/news/news/3757, /news/detail/1234/）を記事とみなす。
+    """
+    path = urlparse(url).path.rstrip("/")
+    if not path:
+        return False
+    last = path.rsplit("/", 1)[-1]
+    return last.isdigit()
+
+
 def extract_candidates(html: str, source_url: str, feed_validator=None) -> List[str]:
     """HTML内の<a href>・<link rel="alternate">からNEWS/LIVE系ページ・RSS/Atomフィードの
     候補URLを抽出する（実在リンクのみ、推測なし）。
@@ -156,7 +181,8 @@ def extract_candidates(html: str, source_url: str, feed_validator=None) -> List[
     source_host = urlparse(source_url).netloc.lower()
     source_norm = source_url.rstrip("/")
 
-    candidates: List[Tuple[int, str]] = []
+    # (tier, 記事なら1, url)。同じ tier なら一覧ページを先に置く
+    candidates: List[Tuple[int, int, str]] = []
     seen = set()
 
     # RSS/Atomフィードは最優先（tier -1）。JSレンダリングサイトでも
@@ -171,7 +197,7 @@ def extract_candidates(html: str, source_url: str, feed_validator=None) -> List[
             seen.add(norm_url)
             continue
         seen.add(norm_url)
-        candidates.append((-1, norm_url))
+        candidates.append((-1, 0, norm_url))
 
     for href, text in parser.links:
         norm_url = _normalize_same_host(href, source_url, source_host)
@@ -189,11 +215,32 @@ def extract_candidates(html: str, source_url: str, feed_validator=None) -> List[
             continue
 
         seen.add(norm_url)
-        candidates.append((tier, norm_url))
+        candidates.append((tier, 1 if _is_article_url(norm_url) else 0, norm_url))
 
-    # 優先度（tier昇順）でソートし、発見順を保つ（Pythonのsortは安定ソート）
-    candidates.sort(key=lambda c: c[0])
-    return [url for _, url in candidates[:MAX_URLS_PER_ARTIST]]
+    # 優先度（tier昇順 → 一覧ページ優先）でソートし、発見順を保つ
+    # （Pythonのsortは安定ソート）
+    candidates.sort(key=lambda c: (c[0], c[1]))
+
+    # 記事は数を絞る。残りの枠は動かないページに使う
+    chosen: List[Tuple[int, int, str]] = []
+    articles = 0
+    for candidate in candidates:
+        if len(chosen) >= MAX_URLS_PER_ARTIST:
+            break
+        if candidate[1] == 1:
+            if articles >= MAX_ARTICLE_URLS:
+                continue
+            articles += 1
+        chosen.append(candidate)
+
+    # **LIVE/TOUR系を必ず1件は入れる。**
+    # ニュース記事だけで枠が埋まると、公演日程のページを永久に見に行かない
+    if not any(c[0] == 1 for c in chosen):
+        live = next((c for c in candidates if c[0] == 1), None)
+        if live is not None:
+            chosen = chosen[: MAX_URLS_PER_ARTIST - RESERVED_TIER1_SLOTS] + [live]
+
+    return [url for _, _, url in chosen]
 
 
 def discover_for_artist(source_url: str) -> List[str]:
