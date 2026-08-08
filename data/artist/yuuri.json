@@ -110,6 +110,26 @@
       "source": "system",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/yuri/live/55543",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_yurin_live_2026",
+      "artistId": "yuuri",
+      "title": "YURIN LIVE Vol.4 / Vol.5",
+      "startDate": "2026-10-27T00:00:00+09:00",
+      "endDate": "2026-10-28T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 9500
+        },
+        {
+          "label": "GOLD指定席",
+          "amount": 13000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://yuurinchi.com/contents/1095413",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -268,6 +288,30 @@
       "source": "system",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/yuri/live/55544",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_yurin_live_2026_osaka_1027",
+      "tourId": "yuuri_yurin_live_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-10-27T19:00:00+09:00",
+      "doorOpenAt": "2026-10-27T18:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "YURIN LIVE Vol.4（GUEST：コブクロ）",
+      "source": "system",
+      "sourceUrl": "https://yuurinchi.com/contents/1095413",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_yurin_live_2026_osaka_1028",
+      "tourId": "yuuri_yurin_live_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-10-28T18:30:00+09:00",
+      "doorOpenAt": "2026-10-28T17:30:00+09:00",
+      "kind": "taiban",
+      "eventName": "YURIN LIVE Vol.5（GUEST：UVERworld）",
+      "source": "system",
+      "sourceUrl": "https://yuurinchi.com/contents/1095413",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -370,6 +414,23 @@
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/3413260010",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_yurin_live_2026_fc_fastest",
+      "tourId": "yuuri_yurin_live_2026",
+      "type": "ゆーりんち限定最速先行（抽選）",
+      "entryStartAt": "2026-07-25T21:00:00+09:00",
+      "entryEndAt": "2026-08-02T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yuuri_yurin_live_2026_osaka_1027",
+        "yuuri_yurin_live_2026_osaka_1028"
+      ],
+      "source": "system",
+      "sourceUrl": "https://yuurinchi.com/contents/1095413",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
