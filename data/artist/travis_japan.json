@@ -7,10 +7,27 @@
       "title": "SUMMER SONIC 2026",
       "startDate": "2026-08-14T00:00:00+09:00",
       "endDate": "2026-08-16T00:00:00+09:00",
-      "prices": null,
+      "prices": [
+        {
+          "label": "大阪 1DAYチケット",
+          "amount": 19000
+        },
+        {
+          "label": "大阪 プラチナチケット",
+          "amount": 31000
+        },
+        {
+          "label": "東京 1DAYチケット",
+          "amount": 21000
+        },
+        {
+          "label": "東京 プラチナチケット",
+          "amount": 35000
+        }
+      ],
       "source": "system",
-      "sourceUrl": "https://www.summersonic.com/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://www.summersonic.com/tickets/osaka/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "travis_japan_event_kerutomeru_wangan_fes_2026",
@@ -26,7 +43,18 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.fujitv.co.jp/wanganfes/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "travis_japan_event_j_lions_2026",
+      "artistId": "travis_japan",
+      "title": "2026 J-LIONS「非・日常」",
+      "startDate": "2026-08-22T00:00:00+09:00",
+      "endDate": "2026-08-22T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.universal-music.co.jp/travisjapan/news/2026-07-21/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -39,8 +67,8 @@
       "kind": "fes",
       "eventName": "SUMMER SONIC 2026",
       "source": "system",
-      "sourceUrl": "https://www.summersonic.com/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://www.summersonic.com/lineup/osaka-day1/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "travis_japan_fes_2026_summersonic_0816",
@@ -51,8 +79,8 @@
       "kind": "fes",
       "eventName": "SUMMER SONIC 2026",
       "source": "system",
-      "sourceUrl": "https://www.summersonic.com/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://www.summersonic.com/lineup/tokyo-day3/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "travis_japan_event_kerutomeru_wangan_fes_2026_toyosu_0806",
@@ -64,7 +92,19 @@
       "eventName": "けるとめる in めざましWANGANフェス",
       "source": "system",
       "sourceUrl": "https://www.fujitv.co.jp/wanganfes/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "travis_japan_event_j_lions_2026_taipei_0822",
+      "tourId": "travis_japan_event_j_lions_2026",
+      "venue": "台北ドーム",
+      "performanceAt": "2026-08-22T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "2026 J-LIONS「非・日常」",
+      "source": "system",
+      "sourceUrl": "https://www.universal-music.co.jp/travisjapan/news/2026-07-21/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "lotteries": [],
