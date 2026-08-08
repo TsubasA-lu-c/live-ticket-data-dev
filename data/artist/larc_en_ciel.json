@@ -297,8 +297,8 @@
         "larc_en_ciel_35th_lanniversary_2026_ariake_1227"
       ],
       "source": "system",
-      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13433",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://le-ciel.com/s/n107/page/L35_live?ima=3804",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "larc_en_ciel_35th_lanniversary_2026_fc_2nd",
@@ -328,8 +328,8 @@
         "larc_en_ciel_35th_lanniversary_2026_ariake_1227"
       ],
       "source": "system",
-      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13433",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://le-ciel.com/s/n107/page/L35_live?ima=3804",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "larc_en_ciel_35th_lanniversary_2026_fc_3rd",
@@ -359,8 +359,70 @@
         "larc_en_ciel_35th_lanniversary_2026_ariake_1227"
       ],
       "source": "system",
-      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13433",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://le-ciel.com/s/n107/page/L35_live?ima=3804",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "larc_en_ciel_35th_lanniversary_2026_ticket_board",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "type": "ticket board会員受付（抽選）",
+      "entryStartAt": "2026-06-22T12:00:00+09:00",
+      "entryEndAt": "2026-06-28T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "larc_en_ciel_35th_lanniversary_2026_yoyogi_1009",
+        "larc_en_ciel_35th_lanniversary_2026_yoyogi_1011",
+        "larc_en_ciel_35th_lanniversary_2026_yoyogi_1012",
+        "larc_en_ciel_35th_lanniversary_2026_fukuoka_1031",
+        "larc_en_ciel_35th_lanniversary_2026_fukuoka_1101",
+        "larc_en_ciel_35th_lanniversary_2026_nagoya_1121",
+        "larc_en_ciel_35th_lanniversary_2026_nagoya_1122",
+        "larc_en_ciel_35th_lanniversary_2026_yokohama_1128",
+        "larc_en_ciel_35th_lanniversary_2026_yokohama_1129",
+        "larc_en_ciel_35th_lanniversary_2026_chiba_1212",
+        "larc_en_ciel_35th_lanniversary_2026_chiba_1213",
+        "larc_en_ciel_35th_lanniversary_2026_osaka_1216",
+        "larc_en_ciel_35th_lanniversary_2026_osaka_1217",
+        "larc_en_ciel_35th_lanniversary_2026_ariake_1224",
+        "larc_en_ciel_35th_lanniversary_2026_ariake_1226",
+        "larc_en_ciel_35th_lanniversary_2026_ariake_1227"
+      ],
+      "source": "system",
+      "sourceUrl": "https://le-ciel.com/s/n107/page/L35_live?ima=3804",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "larc_en_ciel_35th_lanniversary_2026_playguide",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "type": "プレイガイド受付（抽選）",
+      "entryStartAt": "2026-06-29T12:00:00+09:00",
+      "entryEndAt": "2026-07-05T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "larc_en_ciel_35th_lanniversary_2026_yoyogi_1009",
+        "larc_en_ciel_35th_lanniversary_2026_yoyogi_1011",
+        "larc_en_ciel_35th_lanniversary_2026_yoyogi_1012",
+        "larc_en_ciel_35th_lanniversary_2026_fukuoka_1031",
+        "larc_en_ciel_35th_lanniversary_2026_fukuoka_1101",
+        "larc_en_ciel_35th_lanniversary_2026_nagoya_1121",
+        "larc_en_ciel_35th_lanniversary_2026_nagoya_1122",
+        "larc_en_ciel_35th_lanniversary_2026_yokohama_1128",
+        "larc_en_ciel_35th_lanniversary_2026_yokohama_1129",
+        "larc_en_ciel_35th_lanniversary_2026_chiba_1212",
+        "larc_en_ciel_35th_lanniversary_2026_chiba_1213",
+        "larc_en_ciel_35th_lanniversary_2026_osaka_1216",
+        "larc_en_ciel_35th_lanniversary_2026_osaka_1217",
+        "larc_en_ciel_35th_lanniversary_2026_ariake_1224",
+        "larc_en_ciel_35th_lanniversary_2026_ariake_1226",
+        "larc_en_ciel_35th_lanniversary_2026_ariake_1227"
+      ],
+      "source": "system",
+      "sourceUrl": "https://le-ciel.com/s/n107/page/L35_live?ima=3804",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
