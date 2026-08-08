@@ -133,15 +133,31 @@
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
+      "id": "ellegarden_event_2026_03",
+      "artistId": "ellegarden",
+      "title": "AUDIO 20th Anniversary AUDIOLOCKS",
+      "startDate": "2026-11-11T00:00:00+09:00",
+      "endDate": "2026-11-11T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://ellegarden.jp/live.html",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
       "id": "ellegarden_fes_miyakoislandrock_2026",
       "artistId": "ellegarden",
       "title": "MIYAKO ISLAND ROCK FESTIVAL 2026",
       "startDate": "2026-10-17T00:00:00+09:00",
       "endDate": "2026-10-17T00:00:00+09:00",
-      "prices": null,
+      "prices": [
+        {
+          "label": "前売り券",
+          "amount": 9000
+        }
+      ],
       "source": "system",
       "sourceUrl": "https://mirf.jp/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "ellegarden_fes_wonderfulworld_2026",
@@ -186,48 +202,48 @@
       "tourId": "ellegarden_fes_newacousticcamp_2026",
       "venue": "水上高原リゾート200",
       "performanceAt": "2026-09-19T12:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-09-19T08:00:00+09:00",
       "kind": "fes",
       "eventName": "New Acoustic Camp 2026",
       "source": "system",
       "sourceUrl": "https://newacousticcamp.com/artist/ellegarden/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "ellegarden_fes_skyjamboree_2026_inasayama_0822",
       "tourId": "ellegarden_fes_skyjamboree_2026",
       "venue": "長崎市稲佐山公園野外ステージ",
-      "performanceAt": "2026-08-22T12:00:00+09:00",
+      "performanceAt": "2026-08-22T11:00:00+09:00",
       "doorOpenAt": "2026-08-22T10:00:00+09:00",
       "kind": "fes",
       "eventName": "Sky Jamboree 2026",
       "source": "system",
       "sourceUrl": "https://ellegarden.jp/live.html",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "ellegarden_fes_monsterbash_2026_mannou_0823",
       "tourId": "ellegarden_fes_monsterbash_2026",
       "venue": "国営讃岐まんのう公園",
-      "performanceAt": "2026-08-23T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-08-23T11:00:00+09:00",
+      "doorOpenAt": "2026-08-23T09:00:00+09:00",
       "kind": "fes",
       "eventName": "MONSTER baSH 2026",
       "source": "system",
       "sourceUrl": "https://ellegarden.jp/live.html",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "ellegarden_fes_rushball_2026_izumiotsu_0830",
       "tourId": "ellegarden_fes_rushball_2026",
       "venue": "泉大津フェニックス",
-      "performanceAt": "2026-08-30T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-08-30T11:00:00+09:00",
+      "doorOpenAt": "2026-08-30T09:30:00+09:00",
       "kind": "fes",
       "eventName": "RUSH BALL 2026",
       "source": "system",
       "sourceUrl": "https://ellegarden.jp/live.html",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "ellegarden_event_2026_zasso_0922",
@@ -257,37 +273,49 @@
       "id": "ellegarden_fes_miyakoislandrock_2026_miyako_1017",
       "tourId": "ellegarden_fes_miyakoislandrock_2026",
       "venue": "宮古島トゥリバー地区 ヘッドランド特設会場",
-      "performanceAt": "2026-10-17T12:00:00+09:00",
+      "performanceAt": "2026-10-17T11:00:00+09:00",
       "doorOpenAt": "2026-10-17T10:00:00+09:00",
       "kind": "fes",
       "eventName": "MIYAKO ISLAND ROCK FESTIVAL 2026",
       "source": "system",
       "sourceUrl": "https://ellegarden.jp/live.html",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "ellegarden_fes_wonderfulworld_2026_ginowan_1107",
       "tourId": "ellegarden_fes_wonderfulworld_2026",
       "venue": "宜野湾港マリーナ・トロピカルビーチ特設会場",
-      "performanceAt": "2026-11-07T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-11-07T13:00:00+09:00",
+      "doorOpenAt": "2026-11-07T11:00:00+09:00",
       "kind": "fes",
       "eventName": "MONGOL800 ga FESTIVAL What a Wonderful World!! 26",
       "source": "system",
       "sourceUrl": "https://ellegarden.jp/live.html",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "ellegarden_fes_wonderfulworld_2026_ginowan_1108",
       "tourId": "ellegarden_fes_wonderfulworld_2026",
       "venue": "宜野湾港マリーナ・トロピカルビーチ特設会場",
-      "performanceAt": "2026-11-08T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-11-08T13:00:00+09:00",
+      "doorOpenAt": "2026-11-08T11:00:00+09:00",
       "kind": "fes",
       "eventName": "MONGOL800 ga FESTIVAL What a Wonderful World!! 26",
       "source": "system",
       "sourceUrl": "https://ellegarden.jp/live.html",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_event_2026_03_takamatsu_1111",
+      "tourId": "ellegarden_event_2026_03",
+      "venue": "高松festhalle",
+      "performanceAt": "2026-11-11T18:30:00+09:00",
+      "doorOpenAt": "2026-11-11T17:30:00+09:00",
+      "kind": "taiban",
+      "eventName": "AUDIO 20th Anniversary AUDIOLOCKS",
+      "source": "system",
+      "sourceUrl": "https://ellegarden.jp/live.html",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -515,6 +543,22 @@
       "source": "system",
       "sourceUrl": "https://www800.asia/2026/ticket",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_event_2026_03_official",
+      "tourId": "ellegarden_event_2026_03",
+      "type": "オフィシャル抽選受付",
+      "entryStartAt": "2026-08-01T12:00:00+09:00",
+      "entryEndAt": "2026-08-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ellegarden_event_2026_03_takamatsu_1111"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/4579330001",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

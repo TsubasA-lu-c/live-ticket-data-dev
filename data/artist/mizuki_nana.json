@@ -15,7 +15,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.mizukinana.jp/special/2026_livegrace_4/ticket.html",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -28,7 +28,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.mizukinana.jp/special/2026_livegrace_4/ticket.html",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
       "kind": "oneman"
     },
     {
@@ -40,7 +40,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.mizukinana.jp/special/2026_livegrace_4/ticket.html",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
       "kind": "oneman"
     }
   ],
@@ -60,7 +60,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.mizukinana.jp/special/2026_livegrace_4/ticket.html",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "mizuki_nana_live_grace_2026_animelo",
@@ -77,7 +77,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.mizukinana.jp/special/2026_livegrace_4/ticket.html",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "mizuki_nana_live_grace_2026_familymart",
@@ -94,7 +94,24 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.mizukinana.jp/special/2026_livegrace_4/ticket.html",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "mizuki_nana_live_grace_2026_playguide",
+      "tourId": "mizuki_nana_live_grace_2026",
+      "type": "プレイガイド先行",
+      "entryStartAt": "2026-07-30T12:00:00+09:00",
+      "entryEndAt": "2026-08-16T23:59:00+09:00",
+      "resultAt": "2026-08-19T13:00:00+09:00",
+      "paymentStartAt": "2026-08-19T13:00:00+09:00",
+      "paymentEndAt": "2026-08-21T21:00:00+09:00",
+      "performanceIds": [
+        "mizuki_nana_live_grace_2026_tokyo_0922",
+        "mizuki_nana_live_grace_2026_tokyo_0923"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/mizukinana/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
