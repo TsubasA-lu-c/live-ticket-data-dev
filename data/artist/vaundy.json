@@ -35,7 +35,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "vaundy_fes_2026_osaka",
@@ -868,6 +868,20 @@
       "source": "system",
       "sourceUrl": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2666592",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "vaundy_japan_arena_2728_pia_prereserve_0803",
+      "tourId": "vaundy_japan_arena_2728",
+      "type": "ぴあプレリザーブ",
+      "entryStartAt": "2026-08-03T12:00:00+09:00",
+      "entryEndAt": "2026-08-19T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://vaundy.jp/news/detail/11145",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
