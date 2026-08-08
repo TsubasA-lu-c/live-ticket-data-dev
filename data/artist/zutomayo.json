@@ -27,7 +27,18 @@
       ],
       "source": "system",
       "sourceUrl": "https://zutomayo.net/bunka-denrai/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_event_youtubemusicweekend12_2026",
+      "artistId": "zutomayo",
+      "title": "YouTube Music Weekend12.0",
+      "startDate": "2026-08-23T00:00:00+09:00",
+      "endDate": "2026-08-23T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/news/640/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "zutomayo_fes_2026",
@@ -38,7 +49,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://zutomayo.net/live/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -52,7 +63,7 @@
       "eventName": "特別公演祭 LEGACY ZOMBIE LABO「文禍伝雷」奈良・平城京",
       "source": "system",
       "sourceUrl": "https://zutomayo.net/bunka-denrai/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "zutomayo_legacyzombie_2026_nara_1011",
@@ -64,7 +75,7 @@
       "eventName": "特別公演祭 LEGACY ZOMBIE LABO「文禍伝雷」奈良・平城京",
       "source": "system",
       "sourceUrl": "https://zutomayo.net/bunka-denrai/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "zutomayo_fujirock_2026_0725",
@@ -76,7 +87,7 @@
       "eventName": "FUJI ROCK FESTIVAL '26",
       "source": "system",
       "sourceUrl": "https://zutomayo.net/live/57/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "zutomayo_osakagiga_2026_0802",
@@ -88,7 +99,7 @@
       "eventName": "OSAKA GIGANTIC MUSIC FESTIVAL 2026 -THANKS 10TH GIGA-",
       "source": "system",
       "sourceUrl": "https://zutomayo.net/live/53/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "zutomayo_wildbunch_2026_0822",
@@ -100,7 +111,7 @@
       "eventName": "WILD BUNCH FEST. 2026",
       "source": "system",
       "sourceUrl": "https://zutomayo.net/live/54/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "zutomayo_soundplanet_2026_0906",
@@ -112,7 +123,7 @@
       "eventName": "SOUND PLANET FESTIVAL",
       "source": "system",
       "sourceUrl": "https://zutomayo.net/live/55/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "zutomayo_rockinJapan_2026_0919",
@@ -124,7 +135,7 @@
       "eventName": "ROCK IN JAPAN FESTIVAL 2026",
       "source": "system",
       "sourceUrl": "https://zutomayo.net/live/56/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -143,7 +154,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://zutomayo.net/bunka-denrai/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "zutomayo_legacyzombie_2026_fc2",
@@ -160,7 +171,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://zutomayo.net/bunka-denrai/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "zutomayo_legacyzombie_2026_gen1",
@@ -177,7 +188,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://zutomayo.net/bunka-denrai/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "zutomayo_legacyzombie_2026_upgrade",
@@ -194,7 +205,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://zutomayo.net/bunka-denrai/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

@@ -31,10 +31,23 @@
       "title": "櫻坂46「6th YEAR ANNIVERSARY LIVE」",
       "startDate": "2026-11-14T00:00:00+09:00",
       "endDate": "2026-11-15T00:00:00+09:00",
-      "prices": null,
+      "prices": [
+        {
+          "label": "Leminoスペシャルシート",
+          "amount": 18000
+        },
+        {
+          "label": "全席指定",
+          "amount": 12000
+        },
+        {
+          "label": "親子・女性エリア",
+          "amount": 12000
+        }
+      ],
       "source": "system",
-      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00619",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00665?ima=0000",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "sakurazaka46_backslive_15th_2026",
@@ -234,25 +247,25 @@
       "id": "sakurazaka46_6th_anniversary_2026_chiba_1114",
       "tourId": "sakurazaka46_6th_anniversary_2026",
       "venue": "ZOZOマリンスタジアム",
-      "performanceAt": "2026-11-14T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-11-14T17:30:00+09:00",
+      "doorOpenAt": "2026-11-14T15:30:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00619",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00665?ima=0000",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "sakurazaka46_6th_anniversary_2026_chiba_1115",
       "tourId": "sakurazaka46_6th_anniversary_2026",
       "venue": "ZOZOマリンスタジアム",
-      "performanceAt": "2026-11-15T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-11-15T17:30:00+09:00",
+      "doorOpenAt": "2026-11-15T15:30:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00619",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00665?ima=0000",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "lotteries": [

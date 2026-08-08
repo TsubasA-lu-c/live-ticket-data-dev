@@ -19,7 +19,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://cannonball-live.jp/",
-      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "babymetal_luckyfes_2026",
@@ -43,7 +43,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://gekirock.com/news/2026/03/luckyfes26_1st_lineup.php",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "babymetal_summer_sonic_2026",
@@ -54,7 +54,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://www.summersonic.com/tickets/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -68,7 +68,7 @@
       "eventName": "CANNONBALL 外伝",
       "source": "system",
       "sourceUrl": "https://cannonball-live.jp/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "babymetal_luckyfes_2026_ibaraki_0809",
@@ -80,7 +80,7 @@
       "eventName": "LuckyFes'26",
       "source": "system",
       "sourceUrl": "https://gekirock.com/news/2026/03/luckyfes26_1st_lineup.php",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "babymetal_summer_sonic_2026_osaka_0814",
@@ -92,7 +92,7 @@
       "eventName": "SUMMER SONIC 2026",
       "source": "system",
       "sourceUrl": "https://www.summersonic.com/tickets/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "babymetal_summer_sonic_2026_tokyo_0816",
@@ -104,7 +104,7 @@
       "eventName": "SUMMER SONIC 2026",
       "source": "system",
       "sourceUrl": "https://www.summersonic.com/tickets/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -120,7 +120,7 @@
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://gekirock.com/news/2026/03/luckyfes26_1st_lineup.php",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "babymetal_cannonball_gaiden_2026_general",
@@ -134,7 +134,7 @@
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://cannonball-live.jp/tickets",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "babymetal_summer_sonic_2026_general",
@@ -148,7 +148,7 @@
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://www.summersonic.com/tickets/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
