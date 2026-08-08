@@ -7,10 +7,19 @@
       "title": "Summer Sonic 2026",
       "startDate": "2026-08-15T11:00:00+09:00",
       "endDate": "2026-08-15T11:00:00+09:00",
-      "prices": null,
+      "prices": [
+        {
+          "label": "1 Day Ticket",
+          "amount": 21000
+        },
+        {
+          "label": "Platinum Ticket",
+          "amount": 35000
+        }
+      ],
       "source": "system",
       "sourceUrl": "https://www.summersonic.com/en/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "ado_rock_in_japan",
@@ -18,10 +27,15 @@
       "title": "Rock in Japan Festival 2026",
       "startDate": "2026-09-21T12:00:00+09:00",
       "endDate": "2026-09-21T12:00:00+09:00",
-      "prices": null,
+      "prices": [
+        {
+          "label": "1日券",
+          "amount": 16000
+        }
+      ],
       "source": "system",
-      "sourceUrl": "https://www.rockinjapan.com/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://rijfes.jp/2026/home/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "ado_event_2026",
@@ -41,7 +55,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.universal-music.co.jp/ado/news/2026-07-03-3/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -55,7 +69,7 @@
       "eventName": "Summer Sonic 2026",
       "source": "system",
       "sourceUrl": "https://www.summersonic.com/en/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "ado_rock_in_japan_2026",
@@ -66,8 +80,8 @@
       "kind": "fes",
       "eventName": "Rock in Japan Festival 2026",
       "source": "system",
-      "sourceUrl": "https://www.rockinjapan.com/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://rijfes.jp/2026/home/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "ado_event_2026_dokidoki_1024",
@@ -79,7 +93,7 @@
       "eventName": "Adoのドキドキ秘密基地有料会員様限定LIVE",
       "source": "system",
       "sourceUrl": "https://www.universal-music.co.jp/ado/news/2026-07-03-3/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "ado_event_2026_dokidoki_1025",
@@ -91,7 +105,7 @@
       "eventName": "Adoのドキドキ秘密基地有料会員様限定LIVE",
       "source": "system",
       "sourceUrl": "https://www.universal-music.co.jp/ado/news/2026-07-03-3/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -110,7 +124,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.universal-music.co.jp/ado/news/2026-07-03-3/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "ado_rock_in_japan_2026_preorder_1",
@@ -126,7 +140,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://rijfes.jp/2026/ticket/preorder01/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "ado_rock_in_japan_2026_preorder_2",
@@ -142,7 +156,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://rijfes.jp/2026/ticket/preorder02/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "ado_rock_in_japan_2026_preorder_3",
@@ -158,7 +172,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://rijfes.jp/2026/ticket/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

@@ -11,11 +11,30 @@
         {
           "label": "指定席",
           "amount": 14000
+        },
+        {
+          "label": "ファミリーチケット・大人［着席指定］",
+          "amount": 14000
+        },
+        {
+          "label": "ファミリーチケット・子供［着席指定］",
+          "amount": 8000
         }
       ],
       "source": "system",
       "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yoasobi_north_america_2026",
+      "artistId": "yoasobi",
+      "title": "YOASOBI NORTH AMERICA TOUR 2026 “NEVER ENDING STORIES”",
+      "startDate": "2026-07-31T00:00:00+09:00",
+      "endDate": "2026-08-16T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.yoasobi-music.jp/live/55188",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -27,7 +46,7 @@
       "doorOpenAt": "2026-10-24T15:30:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
       "kind": "oneman"
     },
     {
@@ -38,7 +57,7 @@
       "doorOpenAt": "2026-10-25T14:30:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
       "kind": "oneman"
     },
     {
@@ -49,7 +68,7 @@
       "doorOpenAt": "2026-11-07T15:30:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
       "kind": "oneman"
     },
     {
@@ -60,7 +79,7 @@
       "doorOpenAt": "2026-11-08T14:30:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
       "kind": "oneman"
     },
     {
@@ -71,7 +90,7 @@
       "doorOpenAt": "2026-11-14T15:30:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
       "kind": "oneman"
     },
     {
@@ -82,7 +101,7 @@
       "doorOpenAt": "2026-11-15T14:30:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
       "kind": "oneman"
     },
     {
@@ -93,7 +112,7 @@
       "doorOpenAt": "2026-11-28T15:30:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
       "kind": "oneman"
     },
     {
@@ -104,7 +123,7 @@
       "doorOpenAt": "2026-11-29T14:30:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
       "kind": "oneman"
     },
     {
@@ -115,7 +134,7 @@
       "doorOpenAt": "2026-12-05T15:30:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
       "kind": "oneman"
     },
     {
@@ -126,7 +145,95 @@
       "doorOpenAt": "2026-12-06T14:30:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "yoasobi_north_america_2026_montreal_0731",
+      "tourId": "yoasobi_north_america_2026",
+      "venue": "Parc Jean-Drapeau",
+      "performanceAt": "2026-07-31T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.yoasobi-music.jp/live/55188",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kind": "fes",
+      "eventName": "OSHEAGA 2026"
+    },
+    {
+      "id": "yoasobi_north_america_2026_chicago_0802",
+      "tourId": "yoasobi_north_america_2026",
+      "venue": "Grant Park",
+      "performanceAt": "2026-08-02T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.yoasobi-music.jp/live/55188",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kind": "fes",
+      "eventName": "Lollapalooza 2026"
+    },
+    {
+      "id": "yoasobi_north_america_2026_boston_0804",
+      "tourId": "yoasobi_north_america_2026",
+      "venue": "TD Garden",
+      "performanceAt": "2026-08-04T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.yoasobi-music.jp/live/55188",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "yoasobi_north_america_2026_brooklyn_0806",
+      "tourId": "yoasobi_north_america_2026",
+      "venue": "Barclays Center",
+      "performanceAt": "2026-08-06T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.yoasobi-music.jp/live/55188",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "yoasobi_north_america_2026_hamilton_0808",
+      "tourId": "yoasobi_north_america_2026",
+      "venue": "TD Coliseum",
+      "performanceAt": "2026-08-08T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.yoasobi-music.jp/live/55188",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "yoasobi_north_america_2026_seattle_0812",
+      "tourId": "yoasobi_north_america_2026",
+      "venue": "Climate Pledge Arena",
+      "performanceAt": "2026-08-12T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.yoasobi-music.jp/live/55188",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "yoasobi_north_america_2026_oakland_0814",
+      "tourId": "yoasobi_north_america_2026",
+      "venue": "Oakland Arena",
+      "performanceAt": "2026-08-14T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "yoasobi_north_america_2026_los_angeles_0816",
+      "tourId": "yoasobi_north_america_2026",
+      "venue": "Hollywood Bowl",
+      "performanceAt": "2026-08-16T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
       "kind": "oneman"
     }
   ],
@@ -154,7 +261,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://yoasobi-fc.com/s/n135/ticket/detail/ticket_260104",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "yoasobi_asia_dome_2026_official_2nd",
@@ -179,7 +286,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "yoasobi_asia_dome_2026_fc_2nd",
@@ -204,7 +311,103 @@
       ],
       "source": "system",
       "sourceUrl": "https://kobayasisaburo.com/6004/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yoasobi_asia_dome_2026_official_4th",
+      "tourId": "yoasobi_asia_dome_2026",
+      "type": "オフィシャル4次先行（国内／海外）",
+      "entryStartAt": "2026-07-15T20:00:00+09:00",
+      "entryEndAt": "2026-08-17T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yoasobi_asia_dome_2026_osaka_1024",
+        "yoasobi_asia_dome_2026_osaka_1025",
+        "yoasobi_asia_dome_2026_aichi_1107",
+        "yoasobi_asia_dome_2026_aichi_1108",
+        "yoasobi_asia_dome_2026_hokkaido_1114",
+        "yoasobi_asia_dome_2026_hokkaido_1115",
+        "yoasobi_asia_dome_2026_fukuoka_1128",
+        "yoasobi_asia_dome_2026_fukuoka_1129",
+        "yoasobi_asia_dome_2026_tokyo_1205",
+        "yoasobi_asia_dome_2026_tokyo_1206"
+      ],
+      "source": "system",
+      "sourceUrl": "https://l-tike.com/concert/mevent/?mid=530064",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yoasobi_asia_dome_2026_suntory_can_campaign",
+      "tourId": "yoasobi_asia_dome_2026",
+      "type": "サントリー翠ジンソーダ×YOASOBI コラボキャンペーン（缶購入・8缶コース）",
+      "entryStartAt": "2026-06-23T09:00:00+09:00",
+      "entryEndAt": "2026-09-07T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yoasobi_asia_dome_2026_osaka_1024",
+        "yoasobi_asia_dome_2026_osaka_1025",
+        "yoasobi_asia_dome_2026_aichi_1107",
+        "yoasobi_asia_dome_2026_aichi_1108",
+        "yoasobi_asia_dome_2026_hokkaido_1114",
+        "yoasobi_asia_dome_2026_hokkaido_1115",
+        "yoasobi_asia_dome_2026_fukuoka_1128",
+        "yoasobi_asia_dome_2026_fukuoka_1129",
+        "yoasobi_asia_dome_2026_tokyo_1205",
+        "yoasobi_asia_dome_2026_tokyo_1206"
+      ],
+      "source": "system",
+      "sourceUrl": "https://mobile.suntory.co.jp/cpn/wnb/suigin/20260623/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yoasobi_asia_dome_2026_suntory_restaurant_campaign",
+      "tourId": "yoasobi_asia_dome_2026",
+      "type": "サントリー翠ジンソーダ×YOASOBI コラボキャンペーン（飲食店・3ポイントコース）",
+      "entryStartAt": "2026-06-23T09:00:00+09:00",
+      "entryEndAt": "2026-08-31T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yoasobi_asia_dome_2026_osaka_1024",
+        "yoasobi_asia_dome_2026_osaka_1025",
+        "yoasobi_asia_dome_2026_aichi_1107",
+        "yoasobi_asia_dome_2026_aichi_1108",
+        "yoasobi_asia_dome_2026_hokkaido_1114",
+        "yoasobi_asia_dome_2026_hokkaido_1115",
+        "yoasobi_asia_dome_2026_fukuoka_1128",
+        "yoasobi_asia_dome_2026_fukuoka_1129",
+        "yoasobi_asia_dome_2026_tokyo_1205",
+        "yoasobi_asia_dome_2026_tokyo_1206"
+      ],
+      "source": "system",
+      "sourceUrl": "https://mobile.suntory.co.jp/cpn/wnb/suigin/20260623/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yoasobi_north_america_2026_official_presale",
+      "tourId": "yoasobi_north_america_2026",
+      "type": "YOASOBIオフィシャル先行販売",
+      "entryStartAt": null,
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yoasobi_north_america_2026_boston_0804",
+        "yoasobi_north_america_2026_brooklyn_0806",
+        "yoasobi_north_america_2026_hamilton_0808",
+        "yoasobi_north_america_2026_seattle_0812",
+        "yoasobi_north_america_2026_oakland_0814",
+        "yoasobi_north_america_2026_los_angeles_0816"
+      ],
+      "source": "system",
+      "sourceUrl": "https://forms.sonymusicfans.com/campaign/never-ending-stories/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
