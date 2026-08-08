@@ -95,6 +95,55 @@
       "source": "system",
       "sourceUrl": "https://www.mizukinana.jp/special/2026_livegrace_4/ticket.html",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "mizuki_nana_live_grace_2026_playguide",
+      "tourId": "mizuki_nana_live_grace_2026",
+      "type": "プレイガイド先行",
+      "entryStartAt": "2026-07-30T12:00:00+09:00",
+      "entryEndAt": "2026-08-16T23:59:00+09:00",
+      "resultAt": "2026-08-19T13:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-08-21T21:00:00+09:00",
+      "performanceIds": [
+        "mizuki_nana_live_grace_2026_tokyo_0922",
+        "mizuki_nana_live_grace_2026_tokyo_0923"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.mizukinana.jp/special/2026_livegrace_4/ticket.html",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "mizuki_nana_live_grace_2026_docomo_greeting",
+      "tourId": "mizuki_nana_live_grace_2026",
+      "type": "ドコモMAX/ドコモポイ活MAX BACK STAGE PASS付グリーティング抽選",
+      "entryStartAt": "2026-08-07T12:00:00+09:00",
+      "entryEndAt": "2026-08-23T23:59:00+09:00",
+      "resultAt": "2026-08-28T14:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mizuki_nana_live_grace_2026_tokyo_0923"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ssw.web.docomo.ne.jp/max/cp/anime/nanamizuki_livegrace2026/index.html",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "mizuki_nana_live_grace_2026_docomo_ticket",
+      "tourId": "mizuki_nana_live_grace_2026",
+      "type": "ドコモMAX/ドコモポイ活MAX ライブ鑑賞チケット抽選",
+      "entryStartAt": "2026-08-07T12:00:00+09:00",
+      "entryEndAt": "2026-08-23T23:59:00+09:00",
+      "resultAt": "2026-08-28T14:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mizuki_nana_live_grace_2026_tokyo_0923"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ssw.web.docomo.ne.jp/max/cp/anime/nanamizuki_livegrace2026/index.html",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

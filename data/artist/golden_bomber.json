@@ -334,24 +334,22 @@
       "id": "golden_bomber_choyakusen_2026_fc_senten",
       "tourId": "gb_choyakusen_2026",
       "type": "FC先着販売",
-      "entryStartAt": null,
+      "entryStartAt": "2026-07-11T15:00:00+09:00",
       "entryEndAt": null,
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
       "performanceIds": [
-        "gb_choyakusen_niigata_0811",
         "gb_choyakusen_hokkaido_0821",
         "gb_choyakusen_hokkaido_0822",
         "gb_choyakusen_osaka_0911",
         "gb_choyakusen_osaka_0912",
         "gb_choyakusen_aichi_0915",
-        "gb_choyakusen_aichi_0916",
-        "gb_choyakusen_miyagi_0920"
+        "gb_choyakusen_aichi_0916"
       ],
       "source": "system",
       "sourceUrl": "https://gbmarukin.com/contents/2488",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "gb_choyakusen_2026_fc_1st",

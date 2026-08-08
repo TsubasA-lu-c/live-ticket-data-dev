@@ -110,11 +110,15 @@
         {
           "label": "Zassoプレミアム指定席(おみやげ付き)",
           "amount": 16900
+        },
+        {
+          "label": "学割チケット(アリーナスタンディング自由&スタンド自由席)",
+          "amount": 2000
         }
       ],
       "source": "system",
       "sourceUrl": "https://kyodo-osaka.co.jp/search/detail/12752",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "ellegarden_event_2026_02",
@@ -515,6 +519,71 @@
       "source": "system",
       "sourceUrl": "https://www800.asia/2026/ticket",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_event_2026_zasso_additional_seats",
+      "tourId": "ellegarden_event_2026",
+      "type": "先着追加席販売",
+      "entryStartAt": "2026-04-18T18:00:00+09:00",
+      "entryEndAt": "2026-09-19T18:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ellegarden_event_2026_zasso_0922"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/2458830001?P6=001&P1=0402&P59=1",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_fes_miyakoislandrock_2026_ippan",
+      "tourId": "ellegarden_fes_miyakoislandrock_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-07-17T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ellegarden_fes_miyakoislandrock_2026_miyako_1017"
+      ],
+      "source": "system",
+      "sourceUrl": "https://mirf.jp/tickets/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_fes_wonderfulworld_2026_3ji",
+      "tourId": "ellegarden_fes_wonderfulworld_2026",
+      "type": "オフィシャル3次先行",
+      "entryStartAt": "2026-07-04T19:00:00+09:00",
+      "entryEndAt": "2026-07-12T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ellegarden_fes_wonderfulworld_2026_ginowan_1107",
+        "ellegarden_fes_wonderfulworld_2026_ginowan_1108"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www800.asia/2026/ticket-senko3-end/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_fes_newacousticcamp_2026_ippan",
+      "tourId": "ellegarden_fes_newacousticcamp_2026",
+      "type": "一般発売",
+      "entryStartAt": null,
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ellegarden_fes_newacousticcamp_2026_minakami_0919"
+      ],
+      "source": "system",
+      "sourceUrl": "https://newacousticcamp.com/ticket/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
