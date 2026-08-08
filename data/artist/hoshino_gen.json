@@ -6,25 +6,25 @@
   "lastVerifiedAt": "2026-07-10T00:00:00+09:00",
   "appleMusicTracks": [
     {
+      "songId": "6794274433",
+      "title": "好き",
+      "albumTitle": "好き - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/28/e4/63/28e46329-88c9-cdfe-72d3-7053e46ccd27/mzaf_10057515166473309892.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/99/90/da/9990daa6-f93f-1363-37b6-f3079c8610a6/VEATP-45853.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1264566029",
+      "title": "Family Song",
+      "albumTitle": "Family Song - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/3e/0e/d2/3e0ed243-7a54-933b-8752-b9d853115509/mzaf_9042334820153636085.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/df/b4/c4/dfb4c4c5-80fd-d037-37de-42d5b905a5e5/VEATP-34499.jpg/{w}x{h}{c}.{f}"
+    },
+    {
       "songId": "1156375396",
       "title": "恋",
       "albumTitle": "恋 - EP",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/ce/63/46/ce63465e-d75b-7cd4-0808-0bea84875ebf/mzaf_354710301589870496.plus.aac.p.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/bd/a2/fd/bda2fd49-c3cc-af75-d435-9d1e57de5759/VEATP-33775.jpg/{w}x{h}bb.jpg"
-    },
-    {
-      "songId": "1003258781",
-      "title": "SUN",
-      "albumTitle": "SUN - EP",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/53/de/ab/53deabbe-9ae6-c513-d1f0-d3796a1ef95d/mzaf_53409824513323909.plus.aac.p.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/99/7c/62/997c622d-be20-ddfc-3594-6eb883107245/VEATP-32693.jpg/{w}x{h}bb.jpg"
-    },
-    {
-      "songId": "1417065830",
-      "title": "アイデア",
-      "albumTitle": "アイデア - Single",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1c/c4/8e/1cc48eca-0067-1e09-826f-02c0577aec62/mzaf_8577175356375638504.plus.aac.p.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/41/2c/3d412cbd-fdb1-5484-cc88-13dd867bbc23/VEATP-35678.jpg/{w}x{h}bb.jpg"
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/ce/63/46/ce63465e-d75b-7cd4-0808-0bea84875ebf/mzaf_6729661915002228140.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/bd/a2/fd/bda2fd49-c3cc-af75-d435-9d1e57de5759/VEATP-33775.jpg/{w}x{h}{c}.{f}"
     }
   ]
 }

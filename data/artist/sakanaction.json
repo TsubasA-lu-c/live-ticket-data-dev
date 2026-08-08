@@ -699,25 +699,25 @@
   ],
   "appleMusicTracks": [
     {
+      "songId": "604748203",
+      "title": "夜の踊り子",
+      "albumTitle": "sakanaction",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/49/e7/01/49e70166-715b-1626-432c-cd6cd18ee854/mzaf_2256953608997733244.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/60/9b/bb/609bbb5d-96eb-ae16-f08a-81a3223deb24/VICL-63999.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1795905600",
+      "title": "怪獣",
+      "albumTitle": "怪獣 - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/06/6d/74/066d7479-0637-3ca1-5cae-b6c02c05f37c/mzaf_1644493782188766328.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/44/35/c7/4435c703-3647-654b-16a7-ab74885f71da/VEATP-43484.jpg/{w}x{h}{c}.{f}"
+    },
+    {
       "songId": "1039793121",
       "title": "新宝島",
       "albumTitle": "新宝島 - EP",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fe/91/03/fe910368-717a-3af0-f729-fcdb147f4088/mzaf_14529813096642593575.plus.aac.p.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/05/c2/69/05c269d6-377b-7a00-965a-215a8e51b831/VEATP-32901.jpg/{w}x{h}bb.jpg"
-    },
-    {
-      "songId": "552294051",
-      "title": "夜の踊り子",
-      "albumTitle": "夜の踊り子",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/08/31/b6/0831b645-f6af-bc4d-973c-1340e05881c7/mzaf_16365908014849826433.plus.aac.p.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/f6/29/bc/f629bc6d-54b3-6d26-81db-cde7c26e3bd1/VICL-36718.jpg/{w}x{h}bb.jpg"
-    },
-    {
-      "songId": "604748202",
-      "title": "ミュージック",
-      "albumTitle": "sakanaction",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1a/a8/00/1aa800e3-4fe3-b964-7e4b-7c207c5bd621/mzaf_2972995720188796978.plus.aac.p.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/60/9b/bb/609bbb5d-96eb-ae16-f08a-81a3223deb24/VICL-63999.jpg/{w}x{h}bb.jpg"
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fe/91/03/fe910368-717a-3af0-f729-fcdb147f4088/mzaf_15114996800849473538.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/05/c2/69/05c269d6-377b-7a00-965a-215a8e51b831/VEATP-32901.jpg/{w}x{h}{c}.{f}"
     }
   ]
 }

@@ -519,25 +519,25 @@
   ],
   "appleMusicTracks": [
     {
-      "songId": "126117708",
-      "title": "Missing",
-      "albumTitle": "RIOT ON THE GRILL",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/43/95/08/439508df-4189-40d5-c5e9-3ffca577daef/mzaf_3140552369352068954.plus.aac.p.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/4e/83/67/mzi.htmusnpd.jpg/{w}x{h}bb.jpg"
+      "songId": "1831200054",
+      "title": "カーマイン",
+      "albumTitle": "カーマイン - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/94/61/aa/9461aa59-cecc-8c92-3112-2635f0928ea7/mzaf_16004804360473729788.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/00/f0/fa/00f0fa68-fc01-bda9-c3d2-945a304d08be/25UM1IM00592.rgb.jpg/{w}x{h}{c}.{f}"
     },
     {
-      "songId": "126114654",
-      "title": "Red Hot",
-      "albumTitle": "RIOT ON THE GRILL",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c1/69/60/c1696039-5931-0e54-c1a3-f5fec00a4e50/mzaf_1441297048951110738.plus.aac.p.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/4e/83/67/mzi.htmusnpd.jpg/{w}x{h}bb.jpg"
-    },
-    {
-      "songId": "307081196",
+      "songId": "1058308969",
       "title": "ジターバグ",
-      "albumTitle": "BRING YOUR BOARD!!",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/Music/v4/6e/a7/c7/6ea7c7f9-f34e-e1fd-d844-7443f3481475/mzaf_8290533635118442437.plus.aac.p.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/7d/ce/fd/mzi.djsfforx.jpg/{w}x{h}bb.jpg"
+      "albumTitle": "ELLEGARDEN BEST1999-2008",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/0b/7a/f6/0b7af678-e7bd-68be-a894-34fb65da62f7/mzaf_7400664662643897650.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ad/79/4c/ad794c1f-3b0e-4afc-7c8d-d12b79addbf3/mzm.mvmlfdmr.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1058308972",
+      "title": "Supernova",
+      "albumTitle": "ELLEGARDEN BEST1999-2008",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/46/03/de/4603de9a-9672-3ee5-b3bd-0796b3268fbf/mzaf_16762291771436997967.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ad/79/4c/ad794c1f-3b0e-4afc-7c8d-d12b79addbf3/mzm.mvmlfdmr.jpg/{w}x{h}{c}.{f}"
     }
   ]
 }

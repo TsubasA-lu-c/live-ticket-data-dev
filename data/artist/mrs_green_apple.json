@@ -446,25 +446,25 @@
   ],
   "appleMusicTracks": [
     {
+      "songId": "6788211810",
+      "title": "Brand New",
+      "albumTitle": "Brand New - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/86/b9/e2/86b9e295-d9f1-d53d-c4f5-5335ac7127b2/mzaf_736825768192849552.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/41/a0/b6/41a0b6b9-a720-25e5-fc69-7e9c3ca1296e/26UMGIM73217.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1739088799",
+      "title": "ライラック",
+      "albumTitle": "ライラック - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ea/85/6f/ea856fc0-9b40-44ab-d534-2fa2ceba7f3e/mzaf_8275914662716208388.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4c/3b/b2/4c3bb247-3be8-0c57-aa9a-7f1775a7b7a8/24UMGIM32931.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
       "songId": "1408505264",
       "title": "青と夏",
       "albumTitle": "青と夏 - EP",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f5/3b/d0/f53bd0e2-b10f-c1f6-41c4-743fa1d042de/mzaf_18355465102728204177.plus.aac.p.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/34/27/08/3427087f-2d39-4847-9b19-052dd3589014/18UMGIM36633.rgb.jpg/{w}x{h}bb.jpg"
-    },
-    {
-      "songId": "1623304209",
-      "title": "ダンスホール",
-      "albumTitle": "ダンスホール - Single",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/42/16/29/421629e5-2a90-27f6-f6de-e2813f805534/mzaf_14805277918451456600.plus.aac.p.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b7/20/05/b7200500-e97d-8c79-7cf2-99a6fb1aaf4d/22UMGIM50592.rgb.jpg/{w}x{h}bb.jpg"
-    },
-    {
-      "songId": "1471459432",
-      "title": "インフェルノ",
-      "albumTitle": "インフェルノ - Single",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/70/25/37/70253773-995d-296e-19db-6a2457b9f3db/mzaf_2716666302310961916.plus.aac.p.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/d6/9e/54/d69e54ca-2d82-f291-d745-9a706aa26940/19UMGIM59475.rgb.jpg/{w}x{h}bb.jpg"
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f5/3b/d0/f53bd0e2-b10f-c1f6-41c4-743fa1d042de/mzaf_15799394685823525150.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/34/27/08/3427087f-2d39-4847-9b19-052dd3589014/18UMGIM36633.rgb.jpg/{w}x{h}{c}.{f}"
     }
   ]
 }

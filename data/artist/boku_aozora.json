@@ -107,25 +107,25 @@
   ],
   "appleMusicTracks": [
     {
+      "songId": "6767154107",
+      "title": "FUNKY SUMMER",
+      "albumTitle": "FUNKY SUMMER (Special Edition) - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1b/e8/ae/1be8aeed-c0ab-2fce-6038-cf9cc4bb438d/mzaf_16818314388345718872.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/95/43/cd/9543cdc2-f507-44f0-5e97-76175ad638a4/ANTCD-A0000020052.jpg/{w}x{h}{c}.{f}"
+    },
+    {
       "songId": "1694252176",
       "title": "青空について考える",
       "albumTitle": "青空について考える - Single",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/dc/85/11/dc8511d8-98a2-7141-d375-ae203b7cb978/mzaf_12624903469735398549.plus.aac.p.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/5d/6f/b3/5d6fb3a2-d871-8d90-04c1-ba2fe637fbe3/ANTCD-A0000010717.jpg/{w}x{h}bb.jpg"
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/dc/85/11/dc8511d8-98a2-7141-d375-ae203b7cb978/mzaf_3965499044144084393.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/5d/6f/b3/5d6fb3a2-d871-8d90-04c1-ba2fe637fbe3/ANTCD-A0000010717.jpg/{w}x{h}{c}.{f}"
     },
     {
-      "songId": "1701375862",
-      "title": "青空について考える",
-      "albumTitle": "青空について考える(Special Edition) - EP",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/69/a6/21/69a62115-a21d-35c0-decf-fc02c925254a/mzaf_6678829808464544040.plus.aac.p.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f9/02/13/f90213fe-5f37-14b1-1ea6-e0f41c5ca538/ANTCD-A0000011124.jpg/{w}x{h}bb.jpg"
-    },
-    {
-      "songId": "1720324451",
-      "title": "卒業まで",
-      "albumTitle": "卒業まで - Single",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/19/74/4c/19744c16-00fa-62ec-869b-df67d0b2eb21/mzaf_13955726751283938372.plus.aac.p.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6e/74/2e/6e742e2f-f559-0f0d-0874-679734d3e794/ANTCD-A0000012263.jpg/{w}x{h}bb.jpg"
+      "songId": "1770246150",
+      "title": "空色の水しぶき",
+      "albumTitle": "空色の水しぶき - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0b/4c/82/0b4c828d-01f9-0a63-522f-95ef51422b7d/mzaf_4348555399158745595.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/3d/81/c53d81ce-b57f-793b-9981-4ad543030f50/ANTCD-A0000014658.jpg/{w}x{h}{c}.{f}"
     }
   ]
 }

@@ -163,25 +163,25 @@
   ],
   "appleMusicTracks": [
     {
+      "songId": "6793398196",
+      "title": "モンストロ",
+      "albumTitle": "モンストロ - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/47/73/89/477389a8-b095-2bbd-d3f3-301fb658ad4d/mzaf_2079844690053602476.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/aa/c4/ab/aac4ab69-4af5-db18-4ffd-0199ae43188c/26UMGIM92689.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
       "songId": "1704093812",
       "title": "唱",
       "albumTitle": "唱 - Single",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cb/3c/81/cb3c81aa-7e19-61a3-5aaa-fc521b81d27a/mzaf_11772413152923766264.plus.aac.p.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/80/e8/82/80e8826c-f877-9a74-0e7b-a142108feda0/23UMGIM92958.rgb.jpg/{w}x{h}bb.jpg"
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cb/3c/81/cb3c81aa-7e19-61a3-5aaa-fc521b81d27a/mzaf_7023121005511854955.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/80/e8/82/80e8826c-f877-9a74-0e7b-a142108feda0/23UMGIM92958.rgb.jpg/{w}x{h}{c}.{f}"
     },
     {
-      "songId": "1636446946",
-      "title": "新時代",
-      "albumTitle": "ウタの歌 ONE PIECE FILM RED",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ba/99/c7/ba99c7c7-e89f-925f-3a40-6b078f3dd182/mzaf_9096013844103066202.plus.aac.p.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/42/a3/cc/42a3cc35-fdb7-2ae7-02f3-e5a90f32eb8e/22UMGIM74128.rgb.jpg/{w}x{h}bb.jpg"
-    },
-    {
-      "songId": "1535123742",
-      "title": "うっせぇわ",
-      "albumTitle": "うっせぇわ - Single",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0c/8d/33/0c8d339b-db50-ce5a-8f20-bdbec6df3f6c/mzaf_10409401370931580642.plus.aac.p.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cb/82/41/cb8241a3-5324-bbaa-8da2-33c5b29b1c7d/20UMGIM76771.rgb.jpg/{w}x{h}bb.jpg"
+      "songId": "1799216471",
+      "title": "わたしに花束",
+      "albumTitle": "わたしに花束 - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/50/19/4f/50194fc2-c96e-2e29-968d-1e45ac6f7c0b/mzaf_9269391638941738369.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/0d/4f/050d4fcb-ea6f-9d0a-1216-e17e38fc7aa4/25UMGIM33373.rgb.jpg/{w}x{h}{c}.{f}"
     }
   ]
 }

@@ -600,25 +600,25 @@
   ],
   "appleMusicTracks": [
     {
-      "songId": "930768911",
+      "songId": "977103841",
       "title": "swim",
-      "albumTitle": "YON - EP",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/bd/1f/96/bd1f969b-5422-8ae0-a219-01f0a8051d72/mzaf_1947755852342546810.plus.aac.p.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/95/8d/4e/958d4eb5-a9f7-e736-03d3-b216c678bf88/NBDL-22.jpg/{w}x{h}bb.jpg"
+      "albumTitle": "CAVU",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/3f/89/8f/3f898f6d-2f39-90c2-ec07-5103651bdc7a/mzaf_11417777417977664943.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f8/65/74/f8657453-bbb0-3981-d338-3512ca87b8b1/COCP-39047.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1644049141",
+      "title": "Keep going",
+      "albumTitle": "Harvest",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/d9/e5/20/d9e520d5-5d2b-24ac-70ba-0c0fa3f98509/mzaf_18139889055251963328.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/5f/e5/a0/5fe5a092-f772-5193-63bd-df0acb41a8ab/COKM-44074.jpg/{w}x{h}{c}.{f}"
     },
     {
       "songId": "808636737",
       "title": "monolith",
       "albumTitle": "monolith",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/30/c7/d4/30c7d4cd-e6df-fe26-cba2-7f0f58130b6b/mzaf_12878526129931287443.plus.aac.p.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/83/33/bc/8333bc93-876d-f6c4-d0bd-ce131f257bce/COKM-32348.jpg/{w}x{h}bb.jpg"
-    },
-    {
-      "songId": "1268992778",
-      "title": "Squall",
-      "albumTitle": "Squall - Single",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/41/d2/21/41d22143-c0b7-2a8c-e971-2f3de46e8f38/mzaf_13395248608815146660.plus.aac.p.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/ef/37/78/ef37787d-dde5-bbcc-78c1-8c2fa72d3ee3/COCA-17323.jpg/{w}x{h}bb.jpg"
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/30/c7/d4/30c7d4cd-e6df-fe26-cba2-7f0f58130b6b/mzaf_17282496702561495860.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/83/33/bc/8333bc93-876d-f6c4-d0bd-ce131f257bce/COKM-32348.jpg/{w}x{h}{c}.{f}"
     }
   ]
 }

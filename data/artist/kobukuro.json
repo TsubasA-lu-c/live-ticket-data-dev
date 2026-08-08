@@ -325,25 +325,25 @@
   ],
   "appleMusicTracks": [
     {
-      "songId": "401570168",
-      "title": "流星",
-      "albumTitle": "流星 - Single",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/49/b9/7e/49b97e6a-06d8-b0f0-78d1-5aa6847599e0/mzaf_11356111021675657607.plus.aac.p.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/da/f4/98/daf498f4-b256-1796-ded6-621f2bafe90f/mzi.kcrinphh.jpg/{w}x{h}bb.jpg"
-    },
-    {
-      "songId": "255910572",
-      "title": "Winding Road",
-      "albumTitle": "WINDING ROAD - Single",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/0f/3c/a5/0f3ca5dd-137f-14e4-8dc1-f73b286d422d/mzaf_993409106932218688.plus.aac.p.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/12/2e/9b/122e9b4c-1d3b-9245-9eb6-2a825a654300/dj.aakyqdbk.jpg/{w}x{h}bb.jpg"
-    },
-    {
       "songId": "291873807",
       "title": "蕾(つぼみ)",
       "albumTitle": "5296",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/95/9e/21/959e2139-aff6-bc00-78ae-a777c3418bad/mzaf_5278662213891079911.plus.aac.p.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/db/1b/c7/db1bc72a-b760-43a3-4511-c9b768ae0a38/mzi.dndhxbnz.jpg/{w}x{h}bb.jpg"
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/95/9e/21/959e2139-aff6-bc00-78ae-a777c3418bad/mzaf_3527877192548658589.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/db/1b/c7/db1bc72a-b760-43a3-4511-c9b768ae0a38/mzi.dndhxbnz.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "305785884",
+      "title": "赤い糸",
+      "albumTitle": "時の足音",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/ee/1d/31/ee1d31ec-9036-c0f4-1299-94ecc458faaf/mzaf_15934701830488402354.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/d8/f9/05/mzi.ggdrxfyf.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1121427874",
+      "title": "未来",
+      "albumTitle": "TIMELESS WORLD",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/05/c9/06/05c90685-7b22-daea-7cab-8730619834db/mzaf_14710109956506874354.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music30/v4/a8/67/96/a86796e2-bc82-914b-ede2-ef9b34d38a7c/190295947200.jpg/{w}x{h}{c}.{f}"
     }
   ]
 }

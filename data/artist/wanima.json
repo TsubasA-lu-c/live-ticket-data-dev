@@ -304,25 +304,25 @@
   ],
   "appleMusicTracks": [
     {
+      "songId": "1718754202",
+      "title": "ともに",
+      "albumTitle": "JUICE UP!! - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/45/85/83/458583b1-c00b-41c1-15f2-f401bdb73eff/mzaf_14091955336471183456.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/06/5b/56/065b5617-f180-5e7a-2a1e-a4c2d446246a/23UM1IM58426.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "6791418471",
+      "title": "またな",
+      "albumTitle": "またな - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1b/a1/81/1ba18182-fddc-b013-5251-6277a08e1a2d/mzaf_14761102834590331862.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a5/93/5b/a5935bf4-8e1f-b356-9e12-15d568d4d706/1200214604950.jpg/{w}x{h}{c}.{f}"
+    },
+    {
       "songId": "1319369012",
       "title": "シグナル",
       "albumTitle": "Everybody!!",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/64/9c/89/649c89d1-4888-d13b-a9eb-921a1d301354/mzaf_10352236902933879789.plus.aac.p.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/95/47/d6/9547d65b-8bb3-b7cc-4b6e-fbab8747530f/190295700706.jpg/{w}x{h}bb.jpg"
-    },
-    {
-      "songId": "1450541509",
-      "title": "アゲイン",
-      "albumTitle": "Good Job!! - Single",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c4/87/57/c48757b3-b21a-65ee-8614-a77733448d15/mzaf_7208976376040064275.plus.aac.p.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4c/b9/49/4cb949a8-b0cf-f6f9-a551-d4dc563b1f1e/190295476403.jpg/{w}x{h}bb.jpg"
-    },
-    {
-      "songId": "1373695359",
-      "title": "Drive",
-      "albumTitle": "Drive - Single",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c8/a4/af/c8a4af0e-8f56-2df3-e8a9-3abb983c920d/mzaf_7355133562069196345.plus.aac.p.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/ca/92/fe/ca92fe3f-5eee-6b30-4153-f9d501240502/190295636579.jpg/{w}x{h}bb.jpg"
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/64/9c/89/649c89d1-4888-d13b-a9eb-921a1d301354/mzaf_4365674576793374365.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/95/47/d6/9547d65b-8bb3-b7cc-4b6e-fbab8747530f/190295700706.jpg/{w}x{h}{c}.{f}"
     }
   ]
 }

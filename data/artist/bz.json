@@ -220,25 +220,25 @@
   ],
   "appleMusicTracks": [
     {
+      "songId": "1560106178",
+      "title": "ultra soul",
+      "albumTitle": "ultra soul - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/eb/e7/ee/ebe7eefb-faae-7d36-ab9b-359f15ae3971/mzaf_13852249689083481612.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/80/64/09/80640970-b505-048f-67d5-bd5a04a69f15/dj.dylqjhgn.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1560085807",
+      "title": "LOVE PHANTOM",
+      "albumTitle": "LOVE PHANTOM - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/40/c3/1d/40c31d11-2609-5079-e880-113fafbcd16b/mzaf_2451233120845757875.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7d/37/35/7d373515-f7d4-4d67-d97b-a4a6235cf027/BMDR-2001.jpg/{w}x{h}{c}.{f}"
+    },
+    {
       "songId": "327351449",
       "title": "イチブトゼンブ",
       "albumTitle": "イチブトゼンブ / DIVE - EP",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/fe/42/b4/fe42b427-014b-c8d8-d8b2-b5f6114c26c0/mzaf_1505587108767984009.plus.aac.p.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/a9/e1/db/a9e1dbc7-9f3f-3999-c87e-836a1cc16d6c/dj.tarbdgit.jpg/{w}x{h}bb.jpg"
-    },
-    {
-      "songId": "283000191",
-      "title": "ultra soul",
-      "albumTitle": "B'z The Best “ULTRA Pleasure”",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/8b/21/dc/8b21dcb3-f557-9832-2a34-3cc8e1db8868/mzaf_14521386775521914886.plus.aac.p.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c8/33/0f/c8330fd7-b55f-adf3-5eac-70785a8eee75/BMCV_8022.jpg/{w}x{h}bb.jpg"
-    },
-    {
-      "songId": "283000158",
-      "title": "LOVE PHANTOM",
-      "albumTitle": "B'z The Best “ULTRA Pleasure”",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/48/7d/19/487d192f-ae8f-18af-4126-80671fa0cd8a/mzaf_5936532717698931733.plus.aac.p.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c8/33/0f/c8330fd7-b55f-adf3-5eac-70785a8eee75/BMCV_8022.jpg/{w}x{h}bb.jpg"
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/fe/42/b4/fe42b427-014b-c8d8-d8b2-b5f6114c26c0/mzaf_7306253910788140685.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/a9/e1/db/a9e1dbc7-9f3f-3999-c87e-836a1cc16d6c/dj.tarbdgit.jpg/{w}x{h}{c}.{f}"
     }
   ]
 }

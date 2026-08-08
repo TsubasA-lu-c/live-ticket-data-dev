@@ -466,25 +466,25 @@
   ],
   "appleMusicTracks": [
     {
+      "songId": "1538286723",
+      "title": "紅蓮華",
+      "albumTitle": "紅蓮華 - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bf/18/a3/bf18a344-fc40-17b4-28fc-c82ecb193c5a/mzaf_1099803857382256837.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b3/ae/3b/b3ae3bd0-47cc-6349-1d0d-a01928796a62/jacket_VVXX00432B00Z_550.jpg/{w}x{h}{c}.{f}"
+    },
+    {
       "songId": "1531847485",
       "title": "炎",
       "albumTitle": "炎 - EP",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/97/b4/d8/97b4d8da-c602-e20f-8610-3723d0462228/mzaf_7955202439623877924.plus.aac.p.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/88/ce/67/88ce6774-3358-e238-5244-1b0788adea50/4547366475562.jpg/{w}x{h}bb.jpg"
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/97/b4/d8/97b4d8da-c602-e20f-8610-3723d0462228/mzaf_10842110137510106955.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/88/ce/67/88ce6774-3358-e238-5244-1b0788adea50/4547366475562.jpg/{w}x{h}{c}.{f}"
     },
     {
-      "songId": "1589411366",
-      "title": "明け星",
-      "albumTitle": "明け星 - Single",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/3b/ed/22/3bed221c-076d-6a4d-12a8-1cffb0f351b1/mzaf_17839830955687314321.plus.aac.p.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/19/2e/b5/192eb584-d5c2-33bd-5aa1-b709f370bd70/4547366532999.jpg/{w}x{h}bb.jpg"
-    },
-    {
-      "songId": "1537406658",
-      "title": "再会 (produced by Ayase)",
-      "albumTitle": "再会 (produced by Ayase) - Single",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/06/61/d4/0661d4de-f7e8-b86d-7c94-789d31e67840/mzaf_13820263773982561143.plus.aac.p.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/51/12/97/51129738-167b-cadc-522d-f80842fdc5f9/4547366483376.jpg/{w}x{h}bb.jpg"
+      "songId": "1827140040",
+      "title": "残酷な夜に輝け - Shine in the Cruel Night",
+      "albumTitle": "残酷な夜に輝け - Shine in the Cruel Night - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f4/5e/fa/f45efacf-45ba-9610-96a5-24039c3d289c/mzaf_12426759625491999824.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/71/31/0f/71310f7d-0cfd-d2b9-3daa-93a1a722e576/4547366759624.jpg/{w}x{h}{c}.{f}"
     }
   ]
 }
