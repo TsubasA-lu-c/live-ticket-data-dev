@@ -7,10 +7,15 @@
       "title": "SixTONES LIVE TOUR 2026「MILESixTONES」スタジアムツアー",
       "startDate": "2026-09-19T00:00:00+09:00",
       "endDate": "2026-11-22T00:00:00+09:00",
-      "prices": null,
+      "prices": [
+        {
+          "label": "ファミリークラブ会員チケット",
+          "amount": 10500
+        }
+      ],
       "source": "system",
-      "sourceUrl": "https://www.sixtones.jp/live",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://starto.jp/s/p/live/10499",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -24,7 +29,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.sixtones.jp/live",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "sixtones_milesixtones_stadium_2026_ajinomoto_0920",
@@ -36,7 +41,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.sixtones.jp/live",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "sixtones_milesixtones_stadium_2026_yanmar_1107",
@@ -48,7 +53,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.sixtones.jp/live",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "sixtones_milesixtones_stadium_2026_yanmar_1108",
@@ -60,7 +65,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.sixtones.jp/live",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "sixtones_milesixtones_stadium_2026_nissan_1121",
@@ -72,7 +77,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.sixtones.jp/live",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "sixtones_milesixtones_stadium_2026_nissan_1122",
@@ -84,14 +89,14 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.sixtones.jp/live",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "lotteries": [
     {
       "id": "sixtones_milesixtones_stadium_2026_fc_1st",
       "tourId": "sixtones_milesixtones_stadium_2026",
-      "type": "FC先行（Johnny's net）",
+      "type": "FC先行（ファミリークラブ）",
       "entryStartAt": "2026-06-14T19:00:00+09:00",
       "entryEndAt": "2026-06-30T12:00:00+09:00",
       "resultAt": "2026-07-24T00:00:00+09:00",
@@ -99,8 +104,8 @@
       "paymentEndAt": "2026-07-28T23:59:00+09:00",
       "performanceIds": null,
       "source": "system",
-      "sourceUrl": "https://www.sixtones.jp/live",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "sourceUrl": "https://starto.jp/s/p/live/10499",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

@@ -11,6 +11,18 @@
         {
           "label": "指定席",
           "amount": 10890
+        },
+        {
+          "label": "注釈付指定席",
+          "amount": 10890
+        },
+        {
+          "label": "東京公演のみ 立見（立ち位置指定）",
+          "amount": 10890
+        },
+        {
+          "label": "大阪公演のみ 立見（整理番号順入場）",
+          "amount": 10890
         }
       ],
       "source": "system",
@@ -67,10 +79,27 @@
       "title": "INKIGAYO LIVE in TOKYO",
       "startDate": "2026-09-22T00:00:00+09:00",
       "endDate": "2026-09-23T00:00:00+09:00",
-      "prices": null,
+      "prices": [
+        {
+          "label": "全席指定 (2日通し券)",
+          "amount": 33000
+        },
+        {
+          "label": "VIP席アップグレードチケット (2日通し券)",
+          "amount": 24000
+        },
+        {
+          "label": "全席指定 (単日券)",
+          "amount": 18000
+        },
+        {
+          "label": "VIP席アップグレードチケット (単日券)",
+          "amount": 12000
+        }
+      ],
       "source": "system",
-      "sourceUrl": "https://hana.b-rave.tokyo/live/260626/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://inkigayo-live.jp/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "hana_fes_2026_incheon_pentaport",
@@ -93,6 +122,14 @@
         {
           "label": "一般指定席",
           "amount": 20000
+        },
+        {
+          "label": "SS指定席（特典付きプレミアム席）",
+          "amount": 30000
+        },
+        {
+          "label": "S指定席（特典付きプレミアム席）",
+          "amount": 25000
         }
       ],
       "source": "system",
@@ -105,7 +142,24 @@
       "title": "WANIMA presents 1CHANCE FESTIVAL 2026",
       "startDate": "2026-09-27T12:00:00+09:00",
       "endDate": "2026-09-27T12:00:00+09:00",
-      "prices": null,
+      "prices": [
+        {
+          "label": "1日券",
+          "amount": 12000
+        },
+        {
+          "label": "小人1日券",
+          "amount": 9500
+        },
+        {
+          "label": "2日券",
+          "amount": 23000
+        },
+        {
+          "label": "小人2日券",
+          "amount": 18000
+        }
+      ],
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/260516/",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
@@ -224,13 +278,13 @@
       "id": "hana_fes_2026_inkigayo_tokyo_0922",
       "tourId": "hana_fes_2026_inkigayo_tokyo",
       "venue": "ベルーナドーム",
-      "performanceAt": "2026-09-22T18:00:00+09:00",
+      "performanceAt": "2026-09-23T18:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "INKIGAYO LIVE in TOKYO",
       "source": "system",
-      "sourceUrl": "https://hana.b-rave.tokyo/live/260626/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://inkigayo-live.jp/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "hana_fes_2026_incheon_pentaport_0802",
@@ -369,6 +423,38 @@
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/260630-2/",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "hana_fes_2026_inkigayo_tokyo_vip_upgrade",
+      "tourId": "hana_fes_2026_inkigayo_tokyo",
+      "type": "VIP席アップグレード抽選",
+      "entryStartAt": "2026-08-05T18:00:00+09:00",
+      "entryEndAt": "2026-08-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hana_fes_2026_inkigayo_tokyo_0922"
+      ],
+      "source": "system",
+      "sourceUrl": "https://inkigayo-live.jp/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "hana_fes_2026_inkigayo_tokyo_official_3rd",
+      "tourId": "hana_fes_2026_inkigayo_tokyo",
+      "type": "オフィシャル3次先行（Lencore/プレリクエスト・ローチケHMVプレミアム）",
+      "entryStartAt": "2026-08-07T17:00:00+09:00",
+      "entryEndAt": "2026-08-17T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hana_fes_2026_inkigayo_tokyo_0922"
+      ],
+      "source": "system",
+      "sourceUrl": "https://inkigayo-live.jp/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
