@@ -53,7 +53,23 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/news/detail/10087",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "glay_hakodate_art_exhibition_2026",
+      "artistId": "glay",
+      "title": "HAKODATE ART EXHIBITION 2026 Vol.3 \"旧市街\" TERU SPECIAL LIVE",
+      "startDate": "2026-08-01T00:00:00+09:00",
+      "endDate": "2026-08-11T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "展覧会電子チケット（スペシャルライブ招待抽選対象）",
+          "amount": 4000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/hakodateart_vol3",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026",
@@ -77,7 +93,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -151,7 +167,19 @@
       "eventName": "音楽と髭達2026-TIME MACHINE",
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/news/detail/10087",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "glay_hakodate_art_exhibition_2026_special_live_0811",
+      "tourId": "glay_hakodate_art_exhibition_2026",
+      "venue": "函館市内某所",
+      "performanceAt": "2026-08-11T18:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "HAKODATE ART EXHIBITION 2026 Vol.3 \"旧市街\" スペシャルライブ",
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10271",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_osaka_1107",
@@ -443,7 +471,87 @@
       ],
       "source": "system",
       "sourceUrl": "https://l-tike.com/concert/glay-lt-2026-2027/",
-      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_pia_0719",
+      "tourId": "glay_exofire_2026",
+      "type": "チケットぴあ プレリザーブ",
+      "entryStartAt": "2026-07-19T12:00:00+09:00",
+      "entryEndAt": "2026-07-26T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_exofire_2026_niigata_1205",
+        "glay_exofire_2026_hokkaido_1213"
+      ],
+      "source": "system",
+      "sourceUrl": "https://t.pia.jp/pia/event/event.do?eventCd=2627147",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_pia_current",
+      "tourId": "glay_exofire_2026",
+      "type": "チケットぴあ プレリザーブ（ぴあカードで確率UP）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-08-11T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_exofire_2026_niigata_1205",
+        "glay_exofire_2026_hokkaido_1213"
+      ],
+      "source": "system",
+      "sourceUrl": "https://t.pia.jp/pia/event/event.do?eventCd=2627147",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_eplus_0719",
+      "tourId": "glay_exofire_2026",
+      "type": "イープラス プレオーダー",
+      "entryStartAt": "2026-07-19T12:00:00+09:00",
+      "entryEndAt": "2026-07-26T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_exofire_2026_niigata_1205",
+        "glay_exofire_2026_hokkaido_1213",
+        "glay_exofire_2026_fukuoka_1219",
+        "glay_exofire_2026_fukuoka_1220",
+        "glay_exofire_2026_hiroshima_0130",
+        "glay_exofire_2026_hiroshima_0131",
+        "glay_exofire_2026_aichi_0206",
+        "glay_exofire_2026_aichi_0207"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/0003580001?P6=001&P1=0402",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_eplus_0807",
+      "tourId": "glay_exofire_2026",
+      "type": "イープラス プレオーダー",
+      "entryStartAt": "2026-08-07T12:00:00+09:00",
+      "entryEndAt": "2026-08-13T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_exofire_2026_niigata_1205",
+        "glay_exofire_2026_hokkaido_1213",
+        "glay_exofire_2026_fukuoka_1219",
+        "glay_exofire_2026_fukuoka_1220",
+        "glay_exofire_2026_hiroshima_0130",
+        "glay_exofire_2026_hiroshima_0131",
+        "glay_exofire_2026_aichi_0206",
+        "glay_exofire_2026_aichi_0207"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/0003580001?P6=001&P1=0402",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "glay_zeppy_swing_2026_glay_app",
@@ -536,6 +644,22 @@
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "glay_hakodate_art_exhibition_2026_special_live_lottery",
+      "tourId": "glay_hakodate_art_exhibition_2026",
+      "type": "TERU SPECIAL LIVE招待抽選（展覧会チケット購入者対象）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-08-07T18:00:00+09:00",
+      "resultAt": "2026-08-10T12:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_hakodate_art_exhibition_2026_special_live_0811"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10271",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
