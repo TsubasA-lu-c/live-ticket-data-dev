@@ -1126,39 +1126,47 @@
     },
     "https://ovtp.jp/news": {
       "type": "hash",
-      "hash": "4b134e2e381c9f56642684d6171681fd"
+      "hash": "a2f149d8edc648670904f833e5aa19ba"
     },
     "https://ovtp.jp/feed": {
       "type": "hash",
-      "hash": "8d2c44ea79be9c4e7ca113e6ad9618e4"
+      "hash": "41bc3336a00d1817e982a14ef4231b36"
     },
     "https://ovtp.jp/comments/feed": {
       "type": "hash",
-      "hash": "f8f2f5c37938e241fd423de9f9857e15"
+      "hash": "7f9783548055f8fc5e9baf91b40a1314"
+    },
+    "https://ovtp.jp/": {
+      "type": "hash",
+      "hash": "2a758e724cee0f12c99271c692155b45"
     }
   },
   "milk": {
     "https://sd-milk.com/": {
       "type": "hash",
-      "hash": "c087e99daf57654032dd08a386debb98"
+      "hash": "6ddcbb7ba9b56dfe9a19db6894dd3c89"
     },
     "https://sd-milk.com/contents/news": {
       "type": "hash",
-      "hash": "605cc01dc123837d51ae2cc0823314d4"
+      "hash": "bcd8ffc1af85dc520318abd93ddbe701"
     },
     "https://sd-milk.com/contents/news/ticket": {
       "type": "hash",
-      "hash": "45c41d91c91f4cccf4b429c706e2c539"
+      "hash": "f416ee889dae3440cb75b6f6d27f6629"
     },
     "https://sd-milk.com/contents/1088624": {
       "type": "hash",
       "hash": "afbc935a153b70b62a686437d21fedc3"
+    },
+    "https://sd-milk.com/contents/1090885": {
+      "type": "hash",
+      "hash": "bee5064b75682583a57c6cffe8121ec3"
     }
   },
   "bump_of_chicken": {
     "https://www.bumpofchicken.com/": {
       "type": "hash",
-      "hash": "16ae8aba348ead048199a207ad048b40"
+      "hash": "3d2bb00cdbc026a897eee8c17358af26"
     },
     "https://www.bumpofchicken.com/news/news/3588": {
       "type": "hash",
@@ -1176,11 +1184,11 @@
   "bz": {
     "https://bz-vermillion.com/": {
       "type": "hash",
-      "hash": "2d94d6ee44be78a62fed7706c9b29ed8"
+      "hash": "b73f607995d8ca739174887e2c1ef20f"
     },
     "https://bz-vermillion.com/news/": {
       "type": "hash",
-      "hash": "fed847fd8cfa9b556d930f75df557f8e"
+      "hash": "242078ae47db3217e52571f15f0f4092"
     },
     "https://bz-vermillion.com/news/260414.html": {
       "type": "hash",
@@ -1194,31 +1202,31 @@
   "ae_group": {
     "https://starto.jp/": {
       "type": "hash",
-      "hash": "334e4f657c543d9ca601bcc20045f88a"
+      "hash": "640b217b584433df414a86339a424edc"
     },
     "https://starto.jp/s/p/news/list?ima=3653": {
       "type": "hash",
-      "hash": "1c5e44564375330c7779e90db09e99b9"
+      "hash": "a7aad9f2f450b3b54d505fcb3035d28c"
     },
     "https://starto.jp/s/p/artist/12?ima=3653": {
       "type": "hash",
-      "hash": "78bfa1d61e46c8d569cd77ed828ddf43"
+      "hash": "761b673ff6c325062f2b13ca2ffae62a"
     },
     "https://starto.jp/s/p/live/10507?ima=3653": {
       "type": "hash",
-      "hash": "7f764c19b6f7261ff9393eb7fa2e20d3"
+      "hash": "8f93a53326cd3213a2f2bc0594a9dc78"
     },
     "https://starto.jp/s/p/news/list?ima=5153": {
       "type": "hash",
-      "hash": "1c5e44564375330c7779e90db09e99b9"
+      "hash": "a7aad9f2f450b3b54d505fcb3035d28c"
     },
     "https://starto.jp/s/p/artist/12?ima=5153": {
       "type": "hash",
-      "hash": "78bfa1d61e46c8d569cd77ed828ddf43"
+      "hash": "761b673ff6c325062f2b13ca2ffae62a"
     },
     "https://starto.jp/s/p/live/10507?ima=5153": {
       "type": "hash",
-      "hash": "7f764c19b6f7261ff9393eb7fa2e20d3"
+      "hash": "8f93a53326cd3213a2f2bc0594a9dc78"
     }
   },
   "novelbright": {

@@ -64,6 +64,98 @@
       "source": "system",
       "sourceUrl": "https://rijfes.jp/2026/",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_join_alive_2026",
+      "artistId": "bump_of_chicken",
+      "title": "JOIN ALIVE 2026",
+      "startDate": "2026-07-18T00:00:00+09:00",
+      "endDate": "2026-07-18T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "18日入場券",
+          "amount": 14500
+        },
+        {
+          "label": "19日入場券",
+          "amount": 14500
+        },
+        {
+          "label": "通し入場券",
+          "amount": 27000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/3383",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_numbershot_2026",
+      "artistId": "bump_of_chicken",
+      "title": "NUMBER SHOT2026",
+      "startDate": "2026-08-01T00:00:00+09:00",
+      "endDate": "2026-08-01T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "単日指定席",
+          "amount": 13000
+        },
+        {
+          "label": "単日指定席(Tシャツ付き)",
+          "amount": 15500
+        },
+        {
+          "label": "両日通し指定席",
+          "amount": 24000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/3588",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_summer_sonic_2026",
+      "artistId": "bump_of_chicken",
+      "title": "SUMMER SONIC 2026",
+      "startDate": "2026-08-14T00:00:00+09:00",
+      "endDate": "2026-08-14T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "東京1DAYチケット",
+          "amount": 21000
+        },
+        {
+          "label": "東京プラチナチケット",
+          "amount": 35000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/3677",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_rush_ball_2026",
+      "artistId": "bump_of_chicken",
+      "title": "RUSH BALL 2026",
+      "startDate": "2026-08-29T00:00:00+09:00",
+      "endDate": "2026-08-29T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1DAY一般",
+          "amount": 8800
+        },
+        {
+          "label": "1DAYキッズ",
+          "amount": 4400
+        },
+        {
+          "label": "2DAYS一般",
+          "amount": 16500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/3678",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -318,6 +410,54 @@
       "source": "system",
       "sourceUrl": "https://www.bumpofchicken.com/news/news/3520",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_join_alive_2026_hokkaido_0718",
+      "tourId": "bump_of_chicken_join_alive_2026",
+      "venue": "いわみざわ公園 野外音楽堂キタオン",
+      "performanceAt": "2026-07-18T20:05:00+09:00",
+      "doorOpenAt": "2026-07-18T09:30:00+09:00",
+      "kind": "fes",
+      "eventName": "JOIN ALIVE 2026",
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/3383",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_numbershot_2026_fukuoka_0801",
+      "tourId": "bump_of_chicken_numbershot_2026",
+      "venue": "みずほPayPayドーム福岡",
+      "performanceAt": "2026-08-01T20:00:00+09:00",
+      "doorOpenAt": "2026-08-01T08:30:00+09:00",
+      "kind": "fes",
+      "eventName": "NUMBER SHOT2026",
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/3588",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_summer_sonic_2026_tokyo_0814",
+      "tourId": "bump_of_chicken_summer_sonic_2026",
+      "venue": "ZOZOマリンスタジアム",
+      "performanceAt": "2026-08-14T17:20:00+09:00",
+      "doorOpenAt": "2026-08-14T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "SUMMER SONIC 2026",
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/3677",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_rush_ball_2026_osaka_0829",
+      "tourId": "bump_of_chicken_rush_ball_2026",
+      "venue": "泉大津フェニックス",
+      "performanceAt": "2026-08-29T20:00:00+09:00",
+      "doorOpenAt": "2026-08-29T09:30:00+09:00",
+      "kind": "fes",
+      "eventName": "RUSH BALL 2026",
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/3678",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -336,6 +476,34 @@
       "source": "system",
       "sourceUrl": "https://rijfes.jp/2026/ticket/",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_tour_2026_2027_ratio_clavis_additional_preorder_1",
+      "tourId": "bump_of_chicken_tour_2026_2027_ratio_clavis",
+      "type": "追加プレオーダー（1次）",
+      "entryStartAt": "2026-07-17T18:00:00+09:00",
+      "entryEndAt": "2026-07-26T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/web/live/irg/boc2026-2027/select",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_tour_2026_2027_ratio_clavis_additional_preorder_2",
+      "tourId": "bump_of_chicken_tour_2026_2027_ratio_clavis",
+      "type": "追加プレオーダー（2次）",
+      "entryStartAt": "2026-07-31T18:00:00+09:00",
+      "entryEndAt": "2026-08-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/web/live/irg/boc2026-2027/select",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

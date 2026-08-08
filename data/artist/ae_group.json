@@ -7,10 +7,15 @@
       "title": "KAMIGATA EXPO PARK FES 2026",
       "startDate": "2026-10-31T00:00:00+09:00",
       "endDate": "2026-11-01T00:00:00+09:00",
-      "prices": null,
+      "prices": [
+        {
+          "label": "1日券",
+          "amount": 16000
+        }
+      ],
       "source": "system",
       "sourceUrl": "https://starto.jp/s/p/live/10545",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "ae_group_event_kojiken_2026",
@@ -50,25 +55,25 @@
       "id": "ae_group_fes_kamigata_2026_osaka_1031",
       "tourId": "ae_group_fes_kamigata_2026",
       "venue": "万博記念公園",
-      "performanceAt": "2026-10-31T18:00:00+09:00",
+      "performanceAt": "2026-10-31T17:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "KAMIGATA EXPO PARK FES 2026",
       "source": "system",
       "sourceUrl": "https://starto.jp/s/p/live/10545",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "ae_group_fes_kamigata_2026_osaka_1101",
       "tourId": "ae_group_fes_kamigata_2026",
       "venue": "万博記念公園",
-      "performanceAt": "2026-11-01T18:00:00+09:00",
+      "performanceAt": "2026-11-01T17:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "KAMIGATA EXPO PARK FES 2026",
       "source": "system",
       "sourceUrl": "https://starto.jp/s/p/live/10545",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "ae_group_event_kojiken_2026_roppongi_0724a",
@@ -132,6 +137,23 @@
     }
   ],
   "lotteries": [
+    {
+      "id": "ae_group_fes_kamigata_2026_fc",
+      "tourId": "ae_group_fes_kamigata_2026",
+      "type": "ファミリークラブ会員先行（抽選）",
+      "entryStartAt": "2026-07-28T13:00:00+09:00",
+      "entryEndAt": "2026-08-03T12:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ae_group_fes_kamigata_2026_osaka_1031",
+        "ae_group_fes_kamigata_2026_osaka_1101"
+      ],
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10545",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
     {
       "id": "ae_group_event_kojiken_2026_general",
       "tourId": "ae_group_event_kojiken_2026",
