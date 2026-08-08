@@ -603,14 +603,14 @@ Apple Music の公開ページの構造に依存しているため、Apple 側�
 
 - 1組ずつ順番に収集する（同時実行しない）
 - 各アーティストの収集成功後、`data/artist/{id}.json` と `data/artists.json` の該当エントリ（`lastVerifiedAt` 等）を同期更新する
-- 成功したアーティストを10組蓄積してから `validate.py` → source hash確定 → commit & push を1回行う
+- 成功したアーティストを10組蓄積してから `validate.py` → `update_manifest.py` → source hash確定 → `data/artists.json`・対象アーティストJSON・`data/manifest.json`・必要なcacheをまとめてcommit & pushする
 - 10組未満で全対象が終了した場合も、最後に残った組をまとめてcommit & pushする
 - 失敗・未確認のIDは `data/artists.json` を成功扱いに更新せず、source hashも確定しない
 
 **並列・5組バッチ方式（標準）**
 
 - **バッチサブエージェント**: 1組を1エージェントが担当。`data/artist/{担当id}.json` のみ書く。`artists.json` / `manifest.json` には触らない
-- **メインエージェント**: 5組完了後に `data/artists.json` を一括更新 → `validate.py` → commit & push。全バッチ完了後に `update_manifest.py` → commit & push
+- **メインエージェント**: 5組完了後に `data/artists.json` を一括更新 → `validate.py` → `update_manifest.py` → commit & push。`data/manifest.json` も各バッチのpushに含める
 - 5組完了ごとに push することで、途中でリミットに達しても完了分は確定する
 
 ```
@@ -641,7 +641,7 @@ Apple Music の公開ページの構造に依存しているため、Apple 側�
 4. 選択した方式で収集
    - 各サブ: §4 の収集手順を実施（終了ツアー掃除は不要、変化があった分のみ）
    - 成功した各IDについて `data/artist/{id}.json` と `data/artists.json` の該当エントリを同期更新
-   - バッチ完了後: `validate.py` → 収集・validate成功済みIDだけ `python3 tools/check_updates.py --accept {id...}` → commit & push
+   - バッチ完了後: `validate.py` → `update_manifest.py` → 収集・validate成功済みIDだけ `python3 tools/check_updates.py --accept {id...}` → `data/artists.json`・対象JSON・`data/manifest.json`・必要なcacheをcommit & push
 
 5. 全グループ完了後:
    python3 tools/update_manifest.py → commit & push

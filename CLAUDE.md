@@ -108,7 +108,7 @@
 
 標準は1組×5並列、5組完了ごとにcommit & pushとする。ユーザーがコスト優先・直列を指定した場合は、**1組ずつ実行し、10組完了ごとにcommit & push**する方式を選択できる。
 
-直列方式では、各組の収集成功後に `data/artist/{id}.json` と `data/artists.json` の該当エントリを同期更新し、10組単位で `validate.py`・source hash確定・commit & pushを行う。最後の端数も必ずまとめて反映する。失敗・未確認IDは `artists.json` の成功扱いにせず、source hashも確定しない。
+直列方式では、各組の収集成功後に `data/artist/{id}.json` と `data/artists.json` の該当エントリを同期更新し、10組単位で `validate.py`・`update_manifest.py`・source hash確定を行い、`data/artists.json`・対象JSON・`data/manifest.json`・必要なcacheを同じcommit & pushに含める。最後の端数も必ずまとめて反映する。失敗・未確認IDは `artists.json` の成功扱いにせず、source hashも確定しない。
 
 ### 役割分担（違反厳禁）
 
@@ -179,13 +179,12 @@
 1. `python3 tools/check_updates.py 2>/dev/null > /tmp/changed.txt` を実行
 2. `/tmp/changed.txt` を読み込み、対象IDと実行方式を確認
 3. 実行方式を選択して収集:
-   - 標準: 対象IDを5組ずつに分割し、1組×5並列で実行。各バッチ完了後に `data/artists.json` を5組分更新 → validate → hash確定 → commit & push
-   - ユーザーがコスト優先・直列を指定: 1組ずつ実行。成功ごとに `data/artists.json` の該当エントリを同期し、成功10組ごとに validate → hash確定 → commit & push。最後の端数もまとめて反映
+   - 標準: 対象IDを5組ずつに分割し、1組×5並列で実行。各バッチ完了後に `data/artists.json` を5組分更新 → validate → `update_manifest.py` → hash確定 → 対象JSON・`data/artists.json`・`data/manifest.json`・必要なcacheをcommit & push
+   - ユーザーがコスト優先・直列を指定: 1組ずつ実行。成功ごとに `data/artists.json` の該当エントリを同期し、成功10組ごとに validate → `update_manifest.py` → hash確定 → 対象JSON・`data/artists.json`・`data/manifest.json`・必要なcacheをcommit & push。最後の端数もまとめて反映
    - いずれの方式でも、失敗・未確認IDは成功扱いで `artists.json` を更新せず、source hashも確定しない
 4. 全対象の収集完了後:
-   - `python3 tools/cleanup_past.py` → `git add data/artist/*.json && git commit -m "cleanup: 終了ツアー削除" && git push origin main`
-   - `python3 tools/update_manifest.py` → `git add data/manifest.json && git commit -m "update: manifest" && git push origin main`
-   - `git add cache/source_hashes.json && git commit -m "update: source hash cache" && git push origin main`
+   - `python3 tools/cleanup_past.py` を実行し、必要ならcleanup分をcommit & push
+   - 最終バッチ後に `python3 tools/update_manifest.py` とsource hash更新を確認し、未反映分があればcommit & push
 
 `check_updates.py` が検出した新hashは `cache/source_hashes.pending.json`
 （git管理外）に保留される。収集やvalidateが失敗したIDには `--accept`
