@@ -33,17 +33,6 @@
       "source": "system",
       "sourceUrl": "https://treasure05x.jp/",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-    },
-    {
-      "id": "lisa_live_is_smile_always_15_asia_2026",
-      "artistId": "lisa",
-      "title": "LiVE is Smile Always～15～ Asia Tour",
-      "startDate": "2026-06-19T00:00:00+09:00",
-      "endDate": "2026-08-02T00:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://k.lxixsxa.com/s/n29/news/detail/11232?ima=0000&link=ROBO004",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -298,66 +287,6 @@
       "source": "system",
       "sourceUrl": "https://treasure05x.jp/",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-    },
-    {
-      "id": "lisa_live_is_smile_always_15_asia_2026_taipei_0619",
-      "tourId": "lisa_live_is_smile_always_15_asia_2026",
-      "venue": "Taipei Arena",
-      "performanceAt": "2026-06-19T18:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://k.lxixsxa.com/s/n29/news/detail/11232?ima=0000&link=ROBO004",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "lisa_live_is_smile_always_15_asia_2026_taipei_0620",
-      "tourId": "lisa_live_is_smile_always_15_asia_2026",
-      "venue": "Taipei Arena",
-      "performanceAt": "2026-06-20T18:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://k.lxixsxa.com/s/n29/news/detail/11232?ima=0000&link=ROBO004",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "lisa_live_is_smile_always_15_asia_2026_hongkong_0718",
-      "tourId": "lisa_live_is_smile_always_15_asia_2026",
-      "venue": "AsiaWorld-Arena",
-      "performanceAt": "2026-07-18T18:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://k.lxixsxa.com/s/n29/news/detail/11232?ima=0000&link=ROBO004",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "lisa_live_is_smile_always_15_asia_2026_seoul_0801",
-      "tourId": "lisa_live_is_smile_always_15_asia_2026",
-      "venue": "Olympic Hall",
-      "performanceAt": "2026-08-01T18:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://k.lxixsxa.com/s/n29/news/detail/11232?ima=0000&link=ROBO004",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "lisa_live_is_smile_always_15_asia_2026_seoul_0802",
-      "tourId": "lisa_live_is_smile_always_15_asia_2026",
-      "venue": "Olympic Hall",
-      "performanceAt": "2026-08-02T18:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://k.lxixsxa.com/s/n29/news/detail/11232?ima=0000&link=ROBO004",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -462,6 +391,32 @@
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/0534530001",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "lisa_lace_up_2026_eplus_2nd",
+      "tourId": "lisa_lace_up_2026",
+      "type": "イープラス2次プレオーダー",
+      "entryStartAt": "2026-08-01T12:00:00+09:00",
+      "entryEndAt": "2026-08-11T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "lisa_lace_up_2026_oita_1103",
+        "lisa_lace_up_2026_hokkaido_1113",
+        "lisa_lace_up_2026_hokkaido_1115",
+        "lisa_lace_up_2026_kagawa_1121",
+        "lisa_lace_up_2026_ehime_1123",
+        "lisa_lace_up_2026_hiroshima_1218",
+        "lisa_lace_up_2026_tottori_1220",
+        "lisa_lace_up_2026_tokyo_0109",
+        "lisa_lace_up_2026_tokyo_0110",
+        "lisa_lace_up_2026_miyagi_0116",
+        "lisa_lace_up_2026_iwate_0117"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/0534530001",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

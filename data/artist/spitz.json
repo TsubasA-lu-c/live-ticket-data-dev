@@ -7,9 +7,14 @@
       "title": "ロックのほそ道2026 〜15th Anniversary Special〜",
       "startDate": "2026-08-29T17:00:00+09:00",
       "endDate": "2026-08-30T17:00:00+09:00",
-      "prices": null,
+      "prices": [
+        { "label": "アリーナスタンディング", "amount": 10000 },
+        { "label": "スタンド指定席", "amount": 11000 },
+        { "label": "スタンド立見(立ち位置指定)", "amount": 9000 },
+        { "label": "車椅子席", "amount": 11000 }
+      ],
       "source": "system",
-      "sourceUrl": "https://spitz-web.com/news/7996/",
+      "sourceUrl": "https://www.rocknohosomichi.com/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
@@ -18,9 +23,14 @@
       "title": "Spitz × VINTAGE ROCK std. presents 有明サンセット 2026",
       "startDate": "2026-09-02T18:00:00+09:00",
       "endDate": "2026-09-03T18:00:00+09:00",
-      "prices": null,
+      "prices": [
+        { "label": "1Fスタンディング", "amount": 6900 },
+        { "label": "スタンドA指定席", "amount": 7800 },
+        { "label": "スタンドB指定席", "amount": 7300 },
+        { "label": "車椅子席", "amount": 7300 }
+      ],
       "source": "system",
-      "sourceUrl": "https://spitz-web.com/news/7996/",
+      "sourceUrl": "https://sun-set.info/about/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
@@ -40,7 +50,7 @@
         }
       ],
       "source": "system",
-      "sourceUrl": "https://spitz-web.com/news/7996/",
+      "sourceUrl": "https://rrkonnichiwa.com/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
@@ -60,7 +70,7 @@
         }
       ],
       "source": "system",
-      "sourceUrl": "https://spitz-web.com/news/7996/",
+      "sourceUrl": "https://rockmansai.com/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
@@ -74,7 +84,7 @@
       "kind": "fes",
       "eventName": "ロックのほそ道2026 〜15th Anniversary Special〜",
       "source": "system",
-      "sourceUrl": "https://spitz-web.com/news/7996/",
+      "sourceUrl": "https://www.rocknohosomichi.com/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
@@ -86,7 +96,7 @@
       "kind": "fes",
       "eventName": "ロックのほそ道2026 〜15th Anniversary Special〜",
       "source": "system",
-      "sourceUrl": "https://spitz-web.com/news/7996/",
+      "sourceUrl": "https://www.rocknohosomichi.com/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
@@ -98,7 +108,7 @@
       "kind": "fes",
       "eventName": "Spitz × VINTAGE ROCK std. presents 有明サンセット 2026",
       "source": "system",
-      "sourceUrl": "https://spitz-web.com/news/7996/",
+      "sourceUrl": "https://sun-set.info/about/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
@@ -110,7 +120,7 @@
       "kind": "fes",
       "eventName": "Spitz × VINTAGE ROCK std. presents 有明サンセット 2026",
       "source": "system",
-      "sourceUrl": "https://spitz-web.com/news/7996/",
+      "sourceUrl": "https://sun-set.info/about/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
@@ -122,7 +132,7 @@
       "kind": "fes",
       "eventName": "ロックロックこんにちは！Ver.28 〜にゃーロック！ホームズ〜",
       "source": "system",
-      "sourceUrl": "https://spitz-web.com/news/7996/",
+      "sourceUrl": "https://rrkonnichiwa.com/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
@@ -134,8 +144,8 @@
       "kind": "fes",
       "eventName": "ロックロックこんにちは！Ver.28 〜にゃーロック！ホームズ〜",
       "source": "system",
-      "sourceUrl": "https://spitz-web.com/news/7996/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://rrkonnichiwa.com/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "spitz_events_2026_tokyo_0922",
@@ -146,11 +156,179 @@
       "kind": "oneman",
       "eventName": "ロク漫祭 ～SPITZ 草野マサムネのロック大陸漫遊祭り～",
       "source": "system",
-      "sourceUrl": "https://spitz-web.com/live/2026others/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://rockmansai.com/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "lotteries": [
+    {
+      "id": "spitz_events_2026_miyagi_general",
+      "tourId": "spitz_events_2026_miyagi",
+      "type": "一般販売",
+      "entryStartAt": "2026-07-25T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["spitz_events_2026_miyagi_0829", "spitz_events_2026_miyagi_0830"],
+      "source": "system",
+      "sourceUrl": "https://www.rocknohosomichi.com/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_events_2026_miyagi_pia_pre_reserve_2",
+      "tourId": "spitz_events_2026_miyagi",
+      "type": "ぴあ プレリザーブ2次",
+      "entryStartAt": "2026-07-15T18:00:00+09:00",
+      "entryEndAt": "2026-07-20T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["spitz_events_2026_miyagi_0829", "spitz_events_2026_miyagi_0830"],
+      "source": "system",
+      "sourceUrl": "https://www.rocknohosomichi.com/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_events_2026_miyagi_eplus_preorder",
+      "tourId": "spitz_events_2026_miyagi",
+      "type": "e＋ プレオーダー",
+      "entryStartAt": "2026-07-02T12:00:00+09:00",
+      "entryEndAt": "2026-07-14T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["spitz_events_2026_miyagi_0829", "spitz_events_2026_miyagi_0830"],
+      "source": "system",
+      "sourceUrl": "https://www.rocknohosomichi.com/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_events_2026_miyagi_pia_seven_eleven",
+      "tourId": "spitz_events_2026_miyagi",
+      "type": "ぴあ セブン‐イレブン先行",
+      "entryStartAt": "2026-07-01T11:00:00+09:00",
+      "entryEndAt": "2026-07-12T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["spitz_events_2026_miyagi_0829", "spitz_events_2026_miyagi_0830"],
+      "source": "system",
+      "sourceUrl": "https://www.rocknohosomichi.com/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_events_2026_miyagi_pia_pre_reserve",
+      "tourId": "spitz_events_2026_miyagi",
+      "type": "ぴあ プレリザーブ",
+      "entryStartAt": "2026-06-26T11:00:00+09:00",
+      "entryEndAt": "2026-07-01T11:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["spitz_events_2026_miyagi_0829", "spitz_events_2026_miyagi_0830"],
+      "source": "system",
+      "sourceUrl": "https://www.rocknohosomichi.com/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_events_2026_miyagi_pia_early_pre_reserve",
+      "tourId": "spitz_events_2026_miyagi",
+      "type": "ぴあ いち早プレリザーブ",
+      "entryStartAt": "2026-06-23T11:00:00+09:00",
+      "entryEndAt": "2026-06-28T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["spitz_events_2026_miyagi_0829", "spitz_events_2026_miyagi_0830"],
+      "source": "system",
+      "sourceUrl": "https://www.rocknohosomichi.com/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_events_2026_miyagi_official_2",
+      "tourId": "spitz_events_2026_miyagi",
+      "type": "オフィシャル2次先行",
+      "entryStartAt": "2026-06-10T12:00:00+09:00",
+      "entryEndAt": "2026-06-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["spitz_events_2026_miyagi_0829", "spitz_events_2026_miyagi_0830"],
+      "source": "system",
+      "sourceUrl": "https://www.rocknohosomichi.com/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_events_2026_miyagi_official",
+      "tourId": "spitz_events_2026_miyagi",
+      "type": "オフィシャル先行",
+      "entryStartAt": "2026-05-15T18:00:00+09:00",
+      "entryEndAt": "2026-05-24T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["spitz_events_2026_miyagi_0829", "spitz_events_2026_miyagi_0830"],
+      "source": "system",
+      "sourceUrl": "https://www.rocknohosomichi.com/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_events_2026_tokyo_final",
+      "tourId": "spitz_events_2026_tokyo",
+      "type": "ファイナルエントリー",
+      "entryStartAt": "2026-07-30T12:00:00+09:00",
+      "entryEndAt": "2026-08-03T23:59:00+09:00",
+      "resultAt": "2026-08-06T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["spitz_events_2026_tokyo_0902", "spitz_events_2026_tokyo_0903"],
+      "source": "system",
+      "sourceUrl": "https://sun-set.info/ticket/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_events_2026_tokyo_general",
+      "tourId": "spitz_events_2026_tokyo",
+      "type": "ファイナルエントリー",
+      "entryStartAt": "2026-07-01T12:00:00+09:00",
+      "entryEndAt": "2026-07-06T23:59:00+09:00",
+      "resultAt": "2026-07-10T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-07-13T23:59:00+09:00",
+      "performanceIds": ["spitz_events_2026_tokyo_0902", "spitz_events_2026_tokyo_0903"],
+      "source": "system",
+      "sourceUrl": "https://sun-set.info/ticket/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_events_2026_tokyo_second",
+      "tourId": "spitz_events_2026_tokyo",
+      "type": "セカンドエントリー",
+      "entryStartAt": "2026-06-18T12:00:00+09:00",
+      "entryEndAt": "2026-06-23T23:59:00+09:00",
+      "resultAt": "2026-06-27T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-06-30T23:59:00+09:00",
+      "performanceIds": ["spitz_events_2026_tokyo_0902", "spitz_events_2026_tokyo_0903"],
+      "source": "system",
+      "sourceUrl": "https://sun-set.info/ticket/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_events_2026_tokyo_first",
+      "tourId": "spitz_events_2026_tokyo",
+      "type": "ファーストエントリー",
+      "entryStartAt": "2026-05-27T12:00:00+09:00",
+      "entryEndAt": "2026-06-08T23:59:00+09:00",
+      "resultAt": "2026-06-12T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-06-15T23:59:00+09:00",
+      "performanceIds": ["spitz_events_2026_tokyo_0902", "spitz_events_2026_tokyo_0903"],
+      "source": "system",
+      "sourceUrl": "https://sun-set.info/ticket/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
     {
       "id": "spitz_events_2026_osaka_general",
       "tourId": "spitz_events_2026_osaka",
@@ -160,13 +338,10 @@
       "resultAt": "2026-07-11T13:00:00+09:00",
       "paymentStartAt": "2026-07-11T13:00:00+09:00",
       "paymentEndAt": "2026-07-13T21:00:00+09:00",
-      "performanceIds": [
-        "spitz_events_2026_osaka_0917",
-        "spitz_events_2026_osaka_0918"
-      ],
+      "performanceIds": ["spitz_events_2026_osaka_0917", "spitz_events_2026_osaka_0918"],
       "source": "system",
       "sourceUrl": "https://rrkonnichiwa.com/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "spitz_events_2026_tokyo_2_general",
@@ -177,12 +352,10 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": [
-        "spitz_events_2026_tokyo_0922"
-      ],
+      "performanceIds": ["spitz_events_2026_tokyo_0922"],
       "source": "system",
       "sourceUrl": "https://rockmansai.com/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
