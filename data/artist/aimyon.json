@@ -557,7 +557,24 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.aimyong.net/feature/tententen_budokan",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "aimyon_10th_budokan_2026_aim_2nd",
+      "tourId": "aimyon_10th_budokan_2026",
+      "type": "AIM会員優先2次予約",
+      "entryStartAt": "2026-08-08T12:00:00+09:00",
+      "entryEndAt": "2026-08-17T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aimyon_10th_budokan_2026_tokyo_1130",
+        "aimyon_10th_budokan_2026_tokyo_1201"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tententen_budokan",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

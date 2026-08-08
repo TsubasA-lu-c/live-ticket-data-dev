@@ -50,6 +50,38 @@
       "source": "system",
       "sourceUrl": "https://sakanaction.jp/feature/tour2026-2027",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "sakanaction_event_2026_unite2026",
+      "artistId": "sakanaction",
+      "title": "水曜どうでしょう祭UNITE2026",
+      "startDate": "2026-09-04T00:00:00+09:00",
+      "endDate": "2026-09-06T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "前売アリーナ通し券",
+          "amount": 24200
+        },
+        {
+          "label": "前売アリーナ1日券",
+          "amount": 12100
+        },
+        {
+          "label": "前売スタンド通し券",
+          "amount": 19800
+        },
+        {
+          "label": "前売スタンド1日券",
+          "amount": 9900
+        },
+        {
+          "label": "前売前日祭入場券",
+          "amount": 1100
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.htb.co.jp/unite2026/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -460,6 +492,18 @@
       "source": "system",
       "sourceUrl": "https://sakanaction.jp/feature/tour2026-2027",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "sakanaction_event_2026_unite2026_0906",
+      "tourId": "sakanaction_event_2026_unite2026",
+      "venue": "大和ハウス プレミストドーム",
+      "performanceAt": "2026-09-06T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "eventName": "水曜どうでしょう祭UNITE2026",
+      "source": "system",
+      "sourceUrl": "https://www.htb.co.jp/unite2026/enjoy/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -541,7 +585,7 @@
     {
       "id": "sakanaction_sakanaquarium_2026_eplus_general",
       "tourId": "sakanaction_sakanaquarium_2026",
-      "type": "e+一般先行（抽選）",
+      "type": "イープラス 二次プレオーダー（一般抽選）",
       "entryStartAt": "2026-07-04T18:00:00+09:00",
       "entryEndAt": "2026-07-12T23:59:00+09:00",
       "resultAt": "2026-07-18T13:00:00+09:00",
@@ -551,6 +595,20 @@
       "source": "system",
       "sourceUrl": "https://sakanaction.jp/feature/tour2026_ticket",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "sakanaction_sakanaquarium_2026_eplus_preorder",
+      "tourId": "sakanaction_sakanaquarium_2026",
+      "type": "イープラス プレオーダー（一般抽選）",
+      "entryStartAt": "2026-06-20T18:00:00+09:00",
+      "entryEndAt": "2026-06-28T23:59:00+09:00",
+      "resultAt": "2026-07-04T13:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-07-06T21:00:00+09:00",
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://sakanaction.jp/feature/tour2026_ticket",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "sakanaction_sakanaquarium_2026_2027_nf_shinkai",
@@ -695,6 +753,86 @@
       "source": "system",
       "sourceUrl": "https://sakanaction.jp/feature/tour2027_ticket",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "sakanaction_event_2026_unite2026_thankcue",
+      "tourId": "sakanaction_event_2026_unite2026",
+      "type": "ThankCUE+先行（抽選）",
+      "entryStartAt": "2026-04-03T12:00:00+09:00",
+      "entryEndAt": "2026-04-06T23:59:00+09:00",
+      "resultAt": "2026-04-10T15:00:00+09:00",
+      "paymentStartAt": "2026-04-10T15:00:00+09:00",
+      "paymentEndAt": "2026-04-13T23:59:00+09:00",
+      "performanceIds": [
+        "sakanaction_event_2026_unite2026_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.htb.co.jp/unite2026/ticket/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "sakanaction_event_2026_unite2026_hod",
+      "tourId": "sakanaction_event_2026_unite2026",
+      "type": "藤やんとうれしー先行（抽選）",
+      "entryStartAt": "2026-04-03T12:00:00+09:00",
+      "entryEndAt": "2026-04-06T23:59:00+09:00",
+      "resultAt": "2026-04-10T15:00:00+09:00",
+      "paymentStartAt": "2026-04-10T15:00:00+09:00",
+      "paymentEndAt": "2026-04-13T23:59:00+09:00",
+      "performanceIds": [
+        "sakanaction_event_2026_unite2026_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.htb.co.jp/unite2026/ticket/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "sakanaction_event_2026_unite2026_jtb",
+      "tourId": "sakanaction_event_2026_unite2026",
+      "type": "JTB入場チケット付きオフィシャルツアー先行（抽選）",
+      "entryStartAt": "2026-04-10T16:00:00+09:00",
+      "entryEndAt": "2026-04-14T23:59:00+09:00",
+      "resultAt": "2026-04-21T21:00:00+09:00",
+      "paymentStartAt": "2026-04-21T21:00:00+09:00",
+      "paymentEndAt": "2026-04-27T23:59:00+09:00",
+      "performanceIds": [
+        "sakanaction_event_2026_unite2026_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.htb.co.jp/unite2026/ticket/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "sakanaction_event_2026_unite2026_lencore",
+      "tourId": "sakanaction_event_2026_unite2026",
+      "type": "ローチケ Lencore会員先行（抽選）",
+      "entryStartAt": "2026-04-22T12:00:00+09:00",
+      "entryEndAt": "2026-04-26T23:59:00+09:00",
+      "resultAt": "2026-04-29T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sakanaction_event_2026_unite2026_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.htb.co.jp/unite2026/ticket/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "sakanaction_event_2026_unite2026_prelive",
+      "tourId": "sakanaction_event_2026_unite2026",
+      "type": "ローチケ プレリク先行（抽選）",
+      "entryStartAt": "2026-04-24T12:00:00+09:00",
+      "entryEndAt": "2026-04-29T23:59:00+09:00",
+      "resultAt": "2026-05-02T15:00:00+09:00",
+      "paymentStartAt": "2026-05-02T15:00:00+09:00",
+      "paymentEndAt": "2026-05-06T23:00:00+09:00",
+      "performanceIds": [
+        "sakanaction_event_2026_unite2026_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.htb.co.jp/unite2026/ticket/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
