@@ -24,7 +24,11 @@
   "iris": [
     "https://iris.dive2ent.com/news/",
     "https://iris.dive2ent.com/news/detail.php?id=1133209",
-    "https://iris.dive2ent.com/news/detail.php?id=1134477"
+    "https://iris.dive2ent.com/news/detail.php?id=1134477",
+    "https://iris.dive2ent.com/news/detail.php?id=1135228",
+    "https://iris.dive2ent.com/news/detail.php?id=1134983",
+    "https://iris.dive2ent.com/news/detail.php?id=1134894",
+    "https://iris.dive2ent.com/liveevent/"
   ],
   "mr_children": [
     "https://www.mrchildren.jp/news/"
@@ -45,7 +49,9 @@
     "https://backnumber.info/",
     "https://backnumber.info/news/list/6",
     "https://backnumber.info/news/list/7?range=future_event_end_time&sort=asc&tag=live/event",
-    "https://backnumber.info/news/list/8?tag="
+    "https://backnumber.info/news/list/8?tag=",
+    "https://backnumber.info/feature/stadiumtour2026_goods",
+    "https://backnumber.info/feature/stadiumtour2026_access"
   ],
   "ado": [
     "https://www.universal-music.co.jp/news/",
@@ -53,7 +59,8 @@
     "https://www.universal-music.co.jp/ado/news/2025-11-22/",
     "https://www.universal-music.co.jp/ado/news/2025-11-23/feed/",
     "https://www.universal-music.co.jp/ado/news/cat/topics",
-    "https://www.universal-music.co.jp/ado/news/cat/media"
+    "https://www.universal-music.co.jp/ado/news/cat/media",
+    "https://www.universal-music.co.jp/ado/news/2025-11-25/"
   ],
   "nogizaka46": [
     "https://www.nogizaka46.com/s/n46/news/detail/102002",
@@ -63,7 +70,8 @@
     "https://www.nogizaka46.com/",
     "https://www.nogizaka46.com/s/n46/news/list?ima=1259&dy=202607",
     "https://www.nogizaka46.com/s/n46/news/detail/102054?ima=1259",
-    "https://www.nogizaka46.com/s/n46/news/detail/102079?ima=1259&pri1=202607"
+    "https://www.nogizaka46.com/s/n46/news/detail/102079?ima=1259&pri1=202607",
+    "https://www.nogizaka46.com/s/n46/page/summer_tour2026_bf?ima=4615"
   ],
   "hinatazaka46": [
     "https://www.hinatazaka46.com/s/official/news/list?ima=0000&dy=202607",
@@ -71,7 +79,12 @@
     "https://www.hinatazaka46.com/s/official/news/list?ima=0000&cd=event&dy=202607",
     "https://www.hinatazaka46.com/",
     "https://www.hinatazaka46.com/s/official/news/detail/M02748?ima=0000",
-    "https://www.hinatazaka46.com/s/official/news/detail/G00225?ima=0000"
+    "https://www.hinatazaka46.com/s/official/news/detail/G00225?ima=0000",
+    "https://www.hinatazaka46.com/s/official/news/list?ima=0000&dy=202608",
+    "https://www.hinatazaka46.com/s/official/news/list?ima=0000&cd=shakehands&dy=202608",
+    "https://www.hinatazaka46.com/s/official/news/list?ima=0000&cd=event&dy=202608",
+    "https://www.hinatazaka46.com/s/official/news/list?ima=0000&cd=goods&dy=202608",
+    "https://www.hinatazaka46.com/s/official/media/list?ima=0000&dy=202608"
   ],
   "sakanaction": [
     "https://sakanaction.jp/feature/tour2026_ticket_available",
@@ -87,7 +100,8 @@
     "https://larc-en-ciel.com/",
     "https://larc-en-ciel.com/s/n137/news/list?ima=1304",
     "https://larc-en-ciel.com/s/n137/news/detail/13266?ima=1304",
-    "https://larc-en-ciel.com/s/n137/news/detail/13453?ima=1304"
+    "https://larc-en-ciel.com/s/n137/news/detail/13453?ima=1304",
+    "https://larc-en-ciel.com/s/n137/news/list?ima=4618"
   ],
   "king_gnu": [
     "https://www.sonymusic.co.jp/artist/kinggnu/info/",
@@ -97,13 +111,16 @@
   "hoshino_gen": [
     "https://www.hoshinogen.com/news/",
     "https://www.hoshinogen.com/news/detail/?id=118",
-    "https://www.hoshinogen.com/news/detail/?id=117"
+    "https://www.hoshinogen.com/news/detail/?id=117",
+    "https://www.hoshinogen.com/news/detail/?id=120",
+    "https://www.hoshinogen.com/news/detail/?id=119"
   ],
   "vaundy": [
     "https://vaundy.jp/news/1",
     "https://vaundy.jp/news/2",
     "https://vaundy.jp/news/3",
-    "https://vaundy.jp/"
+    "https://vaundy.jp/",
+    "https://member.vaundy.jp/feature/livestreaming"
   ],
   "spitz": [
     "https://spitz-web.com/news/",
@@ -111,7 +128,10 @@
     "https://spitz-web.com/live/202601/",
     "https://spitz-web.com/",
     "https://spitz-web.com/news/8062/",
-    "https://spitz-web.com/news/8061/"
+    "https://spitz-web.com/news/8061/",
+    "https://spitz-web.com/live/2025others/",
+    "https://spitz-web.com/live/2024others/",
+    "https://spitz-web.com/live/2023others/"
   ],
   "lisa": [
     "https://eplus.jp/touroku",
@@ -124,7 +144,10 @@
   "hana": [
     "https://hana.b-rave.tokyo/news/",
     "https://hana.b-rave.tokyo/news/260630/",
-    "https://hana.b-rave.tokyo/live/260630-2/"
+    "https://hana.b-rave.tokyo/live/260630-2/",
+    "https://hana.b-rave.tokyo/news/260722/",
+    "https://hana.b-rave.tokyo/goods/260501-2/",
+    "https://hana.b-rave.tokyo/goods/260708/"
   ],
   "snow_man": [
     "https://mentrecording.jp/snowman/news/",
@@ -132,12 +155,17 @@
     "https://mentrecording.jp/snowman/news/detail.php?id=1133666",
     "https://mentrecording.jp/snowman/",
     "https://mentrecording.jp/snowman/news/detail.php?id=1134656",
-    "https://mentrecording.jp/snowman/news/detail.php?id=1134572"
+    "https://mentrecording.jp/snowman/news/detail.php?id=1134572",
+    "https://mentrecording.jp/snowman/news/detail.php?id=1135256",
+    "https://mentrecording.jp/snowman/news/detail.php?id=1134672",
+    "https://mentrecording.jp/snowman/live/"
   ],
   "sixtones": [
     "https://www.sixtones.jp/news/132",
     "https://www.sixtones.jp/news",
-    "https://www.sixtones.jp/news/469"
+    "https://www.sixtones.jp/news/469",
+    "https://www.sixtones.jp/news/474",
+    "https://www.sixtones.jp/live"
   ],
   "ryokuoushoku_shakai": [
     "https://www.ryokushaka.com/daiyasai2026/news",
@@ -150,31 +178,48 @@
   "aimer": [
     "https://www.aimer-web.jp/news/archive/?577612",
     "https://www.aimer-web.jp/news/archive/?575012",
-    "https://www.aimer-web.jp/news/"
+    "https://www.aimer-web.jp/news/",
+    "https://www.aimer-web.jp/live-at-anywhere/"
   ],
   "yuuri": [
     "https://eplus.jp/touroku",
     "https://eplus.jp/sf/live",
     "https://eplus.jp/sf/live/j-pop",
     "https://yuurinchi.com/",
-    "https://www.yuuriweb.com/"
+    "https://www.yuuriweb.com/",
+    "https://www.yuuriweb.com/news/",
+    "https://www.yuuriweb.com/live/"
   ],
   "naniwa_danshi": [
     "https://fan.books.rakuten.co.jp/articles/8735",
     "https://starto.jp/s/p/artist/56",
-    "https://starto.jp/s/p/news/list?ima=2052&tag=56&list[]=56&artist=56"
+    "https://starto.jp/s/p/news/list?ima=2052&tag=56&list[]=56&artist=56",
+    "https://starto.jp/s/p/news/list?ima=4627",
+    "https://starto.jp/s/p/artist/12?ima=4627",
+    "https://starto.jp/s/p/media/list?ima=4627",
+    "https://starto.jp/s/p/live?ima=4627"
   ],
   "hey_say_jump": [
     "https://live-events.a-jp.org/soko/a/85.html",
     "https://live-events.a-jp.org/",
     "https://live-events.a-jp.org/soko/pickup/e/12080.html",
     "https://starto.jp/s/p/artist/15",
-    "https://starto.jp/s/p/news/list?ima=2312&tag=15&list[]=15&artist=15"
+    "https://starto.jp/s/p/news/list?ima=2312&tag=15&list[]=15&artist=15",
+    "https://starto.jp/s/p/news/list?ima=4628",
+    "https://starto.jp/s/p/news/list?ima=4628&tag=15&list[]=15&artist=15",
+    "https://starto.jp/s/p/artist/12?ima=4628",
+    "https://starto.jp/s/p/media/list?ima=4628",
+    "https://starto.jp/s/p/live?ima=4628"
   ],
   "travis_japan": [
     "https://fan.books.rakuten.co.jp/articles/8735",
     "https://starto.jp/s/p/artist/60",
-    "https://starto.jp/s/p/news/list?ima=2311&tag=60&list[]=60&artist=60"
+    "https://starto.jp/s/p/news/list?ima=2311&tag=60&list[]=60&artist=60",
+    "https://starto.jp/s/p/news/list?ima=4629",
+    "https://starto.jp/s/p/news/list?ima=4629&tag=60&list[]=60&artist=60",
+    "https://starto.jp/s/p/artist/12?ima=4629",
+    "https://starto.jp/s/p/media/list?ima=4629",
+    "https://starto.jp/s/p/live?ima=4629"
   ],
   "twice": [
     "https://www.twicejapan.com/news/detail/1981",
@@ -190,7 +235,9 @@
     "https://www.seventeen-17.jp/",
     "https://www.seventeen-17.jp/posts/information",
     "https://www.seventeen-17.jp/posts/schedule",
-    "https://www.seventeen-17.jp/pages/live_event"
+    "https://www.seventeen-17.jp/pages/live_event",
+    "https://www.seventeen-17.jp/posts/information/dbbpls",
+    "https://www.seventeen-17.jp/posts/information/aatoey"
   ],
   "sky_hi": [
     "https://bmsg.tokyo/news",
@@ -198,14 +245,21 @@
     "https://bmsg.tokyo/feed/",
     "https://bmsg.tokyo/comments/feed/",
     "https://bmsg.tokyo/live/skyhi-tour2026/feed/",
-    "https://bmsg.tokyo/"
+    "https://bmsg.tokyo/",
+    "https://skyhi.tokyo/feed",
+    "https://skyhi.tokyo/comments/feed",
+    "https://skyhi.tokyo/news",
+    "https://skyhi.tokyo/news/2109",
+    "https://skyhi.tokyo/live"
   ],
   "tennimu": [
     "https://www.tennimu.com/4th_2026rikkai_1/news/",
     "https://www.tennimu.com/4th_2026rikkai_1/news",
     "https://www.tennimu.com/4th_2026rikkai_1/streaming/",
     "https://www.tennimu.com/",
-    "https://www.tennimu.com/news/"
+    "https://www.tennimu.com/news/",
+    "https://www.tennimu.com/4th_2026rikkai_1/",
+    "https://www.tennimu.com/4th_2026rikkai_1/goods/"
   ],
   "touken_ranbu_musical": [
     "https://musical-toukenranbu.jp/contents/preticket/preticket_autumn2026",
@@ -213,7 +267,10 @@
     "https://musical-toukenranbu.jp/",
     "https://musical-toukenranbu.jp/contents/liveviewing",
     "https://musical-toukenranbu.jp/calendar",
-    "https://musical-toukenranbu.jp/contents/goods/kashusololive2026"
+    "https://musical-toukenranbu.jp/contents/goods/kashusololive2026",
+    "https://musical-toukenranbu.jp/contents/liveviewing/autumn2026",
+    "https://musical-toukenranbu.jp/contents/1097904",
+    "https://musical-toukenranbu.jp/contents/1097873"
   ],
   "zutomayo": [
     "https://zutomayo.net/news/",
@@ -221,17 +278,27 @@
     "https://zutomayo.net/news/577/",
     "https://zutomayo.net/",
     "https://zutomayo.net/news/636",
-    "https://zutomayo.net/news/635"
+    "https://zutomayo.net/news/635",
+    "https://zutomayo.net/news/update2026",
+    "https://zutomayo.net/recommendnews/",
+    "https://zutomayo.net/news/640",
+    "https://zutomayo.net/live/"
   ],
   "momoiro_clover_z": [
     "https://www.momoclo.net/news",
     "https://www.momoclo.net/archives/news/260601_02",
-    "https://www.momoclo.net/archives/news/260604_01"
+    "https://www.momoclo.net/archives/news/260604_01",
+    "https://www.momoclo.net/archives/news/260727_03",
+    "https://www.momoclo.net/archives/news/260730_04",
+    "https://www.momoclo.net/schedule"
   ],
   "macaroni_empitsu": [
     "https://macaroniempitsu.com/news",
     "https://macaroniempitsu.com/news/",
-    "https://macaroniempitsu.com/news/20386.html"
+    "https://macaroniempitsu.com/news/20386.html",
+    "https://macaroniempitsu.com/news/20564.html",
+    "https://macaroniempitsu.com/news/20546.html",
+    "https://macaroniempitsu.com/live"
   ],
   "babymetal": [
     "https://babymetal.com/mob/news/diarKiji.php?site=TO&ima=3813&cd=NEWS_TO&lang=en",
@@ -239,7 +306,12 @@
     "https://babymetal.com/mob/news/diarKiji.php?site=TO&ima=3813&cd=BIOGRAPHY_TO&lang=en",
     "https://babymetal.com/mob/news/diarKiji.php?site=TO&ima=5144&cd=NEWS_TO&lang=en",
     "https://babymetal.com/mob/news/diarKiji.php?site=TO&ima=5144&cd=TOUR_TO&so=a&lang=en",
-    "https://babymetal.com/mob/news/diarKiji.php?site=TO&ima=5144&cd=BIOGRAPHY_TO&lang=en"
+    "https://babymetal.com/mob/news/diarKiji.php?site=TO&ima=5144&cd=BIOGRAPHY_TO&lang=en",
+    "https://babymetal.com/mob/news/diarKiji.php?site=TO&ima=4638&cd=NEWS_TO&lang=en",
+    "https://babymetal.com/mob/news/diarKiji.php?site=TO&ima=4638&cd=TOUR_TO&so=a&lang=en",
+    "https://babymetal.com/mob/news/diarKiji.php?site=TO&ima=4638&cd=BIOGRAPHY_TO&lang=en",
+    "https://babymetal.com/mob/news/diarKijiShw.php?site=TO&ima=5744&id=307292&lang=en",
+    "https://www.babymetal.com/tour"
   ],
   "mrs_green_apple": [
     "https://mrsgreenapple.com/feature/zenjinmito_2026_news",
@@ -248,13 +320,20 @@
     "https://mrsgreenapple.com/",
     "https://mrsgreenapple.com/news/1/",
     "https://mrsgreenapple.com/news/21/",
-    "https://mrsgreenapple.com/news/detail/22777"
+    "https://mrsgreenapple.com/news/detail/22777",
+    "https://mrsgreenapple.com/feature/zenjinmito_2026_ticket",
+    "https://mrsgreenapple.com/redirect/mobadmin/event_path/cmn_sugoroku/1"
   ],
   "be_first": [
     "https://befirst.tokyo/news",
     "https://befirst.tokyo/feed/",
     "https://befirst.tokyo/comments/feed/",
-    "https://befirst.tokyo/sample-page/feed/"
+    "https://befirst.tokyo/sample-page/feed/",
+    "https://befirst.tokyo/top/feed/",
+    "https://befirst.tokyo/news/",
+    "https://befirst.tokyo/news/announcement/",
+    "https://befirst.tokyo/news/260729-news/",
+    "https://befirst.tokyo/dvd-blu-ray/260730-stadium/"
   ],
   "glay": [
     "https://www.glay.co.jp/feature/HS30thLive",
@@ -275,7 +354,10 @@
     "https://rhythmzone.net/koda/news/",
     "https://rhythmzone.net/koda/news/detail.php?id=1132655",
     "https://rhythmzone.net/koda/news/detail.php?id=1130900",
-    "https://rhythmzone.net/koda/"
+    "https://rhythmzone.net/koda/",
+    "https://rhythmzone.net/koda/news/detail.php?id=1134835",
+    "https://rhythmzone.net/koda/news/detail.php?id=1126135",
+    "https://rhythmzone.net/koda/schedule/"
   ],
   "kobukuro": [
     "https://kobukuro.com/feature/tour2026_news",
@@ -284,11 +366,14 @@
     "https://kobukuro.com/",
     "https://www.kobukuro.com/news/1?_normalbrowse_=1",
     "https://www.kobukuro.com/news/2?_normalbrowse_=1",
-    "https://www.kobukuro.com/news/3?_normalbrowse_=1"
+    "https://www.kobukuro.com/news/3?_normalbrowse_=1",
+    "https://kobukuro.com/feature/tour2026_trade",
+    "https://kobukuro.com/feature/tour2026_goods"
   ],
   "king_and_prince": [
     "https://kingandprince7th.jp/STARRING/DOME_tour/",
-    "https://kingandprince7th.jp/reera_dvd/"
+    "https://kingandprince7th.jp/reera_dvd/",
+    "https://musicexpolive.com/2025/"
   ],
   "timelesz": [
     "https://ovtp.jp/news",
@@ -300,7 +385,10 @@
     "https://sd-milk.com/contents/news",
     "https://sd-milk.com/contents/news/ticket",
     "https://sd-milk.com/contents/1088624",
-    "https://sd-milk.com/contents/1090885"
+    "https://sd-milk.com/contents/1090885",
+    "https://sd-milk.com/contents/schedule?data=media",
+    "https://sd-milk.com/contents/schedule?data=live",
+    "https://sd-milk.com/contents/1086020"
   ],
   "bump_of_chicken": [
     "https://www.bumpofchicken.com/news/news/3757",
@@ -310,7 +398,9 @@
   "bz": [
     "https://bz-vermillion.com/news/",
     "https://bz-vermillion.com/news/260414.html",
-    "https://bz-vermillion.com/news/260304.html"
+    "https://bz-vermillion.com/news/260304.html",
+    "https://bz-vermillion.com/news/260601.html",
+    "https://bz-vermillion.com/en5/"
   ],
   "ae_group": [
     "https://starto.jp/s/p/news/list?ima=3653",
@@ -318,57 +408,84 @@
     "https://starto.jp/s/p/live/10507?ima=3653",
     "https://starto.jp/s/p/news/list?ima=5153",
     "https://starto.jp/s/p/artist/12?ima=5153",
-    "https://starto.jp/s/p/live/10507?ima=5153"
+    "https://starto.jp/s/p/live/10507?ima=5153",
+    "https://starto.jp/s/p/news/list?ima=4646",
+    "https://starto.jp/s/p/artist/12?ima=4646",
+    "https://starto.jp/s/p/live/10507?tab=ticket",
+    "https://starto.jp/s/p/media/list?ima=4646",
+    "https://starto.jp/s/p/live?ima=4646"
   ],
   "novelbright": [
     "https://novelbright.jp/news/1/",
     "https://novelbright.jp/news/13",
-    "https://novelbright.jp/news/detail/2398"
+    "https://novelbright.jp/news/detail/2398",
+    "https://novelbright.jp/schedule/list/",
+    "https://novelbright.jp/feature/hall_arenatour2026?_normalbrowse_=1",
+    "https://novelbright.jp/schedule/list/?range=future"
   ],
   "04_limited_sazabys": [
     "https://www.04limitedsazabys.com/news/list/16/17/",
     "https://www.04limitedsazabys.com/news/5/?range=future_event_end_time&sort=asc",
-    "https://www.04limitedsazabys.com/news/12/"
+    "https://www.04limitedsazabys.com/news/12/",
+    "https://www.04limitedsazabys.com/live_information/list/?range=future&sort=asc"
   ],
   "frederic": [
     "https://frederic-official.com/news/1",
     "https://frederic-official.com/news/3?range=future_event_end_time&sort=asc",
-    "https://frederic-official.com/news/5?range=future_event_end_time&sort=asc"
+    "https://frederic-official.com/news/5?range=future_event_end_time&sort=asc",
+    "https://frederic-official.com/feature/homepartytour_2026"
   ],
   "fruits_zipper": [
     "https://fruitszipper.asobisystem.com/news/1",
     "https://fruitszipper.asobisystem.com/news/2",
-    "https://fruitszipper.asobisystem.com/news/4"
+    "https://fruitszipper.asobisystem.com/news/4",
+    "https://fruitszipper.asobisystem.com/live_information/schedule/list",
+    "https://fruitszipper.asobisystem.com/feature/2026tour_autumn?_normalbrowse_=1"
   ],
   "cutie_street": [
     "https://cutiestreet.asobisystem.com/news/1",
     "https://cutiestreet.asobisystem.com/news/2",
-    "https://cutiestreet.asobisystem.com/news/4"
+    "https://cutiestreet.asobisystem.com/news/4",
+    "https://cutiestreet.asobisystem.com/live_information/schedule/list",
+    "https://cutiestreet.asobisystem.com/feature/autumntour?_normalbrowse_=1",
+    "https://cutiestreet.asobisystem.com/feature/2ndanniversarylive"
   ],
   "monaki": [
     "https://monaki.fanpla.jp/news/1",
     "https://monaki.fanpla.jp/news/2",
-    "https://monaki.fanpla.jp/news/4"
+    "https://monaki.fanpla.jp/news/4",
+    "https://monaki.fanpla.jp/live_information/schedule/list",
+    "https://monaki.fanpla.jp/live_information/schedule/list/"
   ],
   "equal_love": [
     "https://equal-love.jp/news",
     "https://equal-love.jp/news/detail/11612",
-    "https://equal-love.jp/news/detail/11672"
+    "https://equal-love.jp/news/detail/11672",
+    "https://equal-love.jp/news/",
+    "https://equal-love.jp/news/detail/11805",
+    "https://equal-love.jp/news/detail/11830",
+    "https://equal-love.jp/schedule"
   ],
   "super_beaver": [
     "https://sp.super-beaver.com/news/",
     "https://sp.super-beaver.com/news/list/6",
-    "https://sp.super-beaver.com/news/list/14"
+    "https://sp.super-beaver.com/news/list/14",
+    "https://sp.super-beaver.com/live_information/list/?range=future&sort=asc",
+    "https://sp.super-beaver.com/feature/dometour2026?_normalbrowse_=1"
   ],
   "wanima": [
     "https://wanima.net/contents/news",
     "https://wanima.net/contents/live",
-    "https://wanima.net/contents/365695"
+    "https://wanima.net/contents/365695",
+    "https://wanima.net/contents/ticket"
   ],
   "yabai_tshirts_yasan": [
     "https://yabaitshirtsyasan.com/news/",
     "https://yabaitshirtsyasan.com/news/258998/",
-    "https://yabaitshirtsyasan.com/news/273095/"
+    "https://yabaitshirtsyasan.com/news/273095/",
+    "https://yabaitshirtsyasan.com/news",
+    "https://yabaitshirtsyasan.com/news/289915/",
+    "https://yabaitshirtsyasan.com/schedules/"
   ],
   "the_oral_cigarettes": [
     "https://theoralcigarettes.com/news/list/2",
@@ -378,7 +495,9 @@
   "utada_hikaru": [
     "https://www.utadahikaru.jp/news/dq_2t-d4x/",
     "https://www.utadahikaru.jp/news/",
-    "https://www.utadahikaru.jp/news/category/info/"
+    "https://www.utadahikaru.jp/news/category/info/",
+    "https://www.utadahikaru.jp/news/category/release/",
+    "https://www.utadahikaru.jp/live/"
   ],
   "hitsuji_bungaku": [
     "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/",
@@ -392,49 +511,71 @@
   ],
   "kurayamisaka": [
     "https://eplus.jp/kurayamisaka/",
-    "https://smash-jpn.com/new/"
+    "https://smash-jpn.com/new/",
+    "https://eplus.jp/touroku",
+    "https://eplus.jp/sf/live",
+    "https://eplus.jp/",
+    "https://eplus.jp/sf/event",
+    "https://eplus.jp/sf/detail/4146610001-P0030017P0030018"
   ],
   "starglow": [
     "https://starglow.tokyo/news",
     "https://starglow.tokyo/news/media/1233/",
-    "https://starglow.tokyo/news/media/1231/"
+    "https://starglow.tokyo/news/media/1231/",
+    "https://starglow.tokyo/news/media/1328/",
+    "https://starglow.tokyo/news/live/1327/"
   ],
   "ini": [
     "https://ini-official.com/news/1",
     "https://ini-official.com/news/list/12/13/",
-    "https://ini-official.com/news/detail/4199"
+    "https://ini-official.com/news/detail/4199",
+    "https://ini-official.com/schedule/list/",
+    "https://ini-official.com/feature/2026_dome_tour",
+    "https://ini-official.com/feature/xquare_masterpiece_livefilm"
   ],
   "jo1": [
     "https://jo1.jp/news/list/1/3/",
     "https://jo1.jp/news/list/12/13/",
-    "https://jo1.jp/news/list/1/2/"
+    "https://jo1.jp/news/list/1/2/",
+    "https://jo1.jp/schedule/list/"
   ],
   "mazzel": [
     "https://mazzel.tokyo/news/5366/",
     "https://mazzel.tokyo/news/536/",
     "https://mazzel.tokyo/news/5452/",
     "https://mazzel.tokyo/feed/",
-    "https://mazzel.tokyo/comments/feed/"
+    "https://mazzel.tokyo/comments/feed/",
+    "https://mazzel.tokyo/category/news/",
+    "https://mazzel.tokyo/tour/play_at_the_muzeum2/"
   ],
   "not_equal_me": [
     "https://not-equal-me.jp/news/1",
     "https://not-equal-me.jp/news/detail/7319",
-    "https://not-equal-me.jp/news/detail/7589"
+    "https://not-equal-me.jp/news/detail/7589",
+    "https://not-equal-me.jp/news/detail/7656",
+    "https://not-equal-me.jp/schedule"
   ],
   "boku_aozora": [
     "https://bokuao.com/news/1/",
     "https://bokuao.com/news/13/",
-    "https://bokuao.com/news/list/23/24/"
+    "https://bokuao.com/news/list/23/24/",
+    "https://bokuao.com/schedule/list/"
   ],
   "da_ice": [
     "https://da-ice.jp/news/",
     "https://da-ice.jp/news/detail.php?id=1133028",
-    "https://da-ice.jp/news/detail.php?id=1129485"
+    "https://da-ice.jp/news/detail.php?id=1129485",
+    "https://da-ice.jp/news/detail.php?id=1131985",
+    "https://da-ice.jp/schedule/"
   ],
   "bts": [
     "https://bts-official.jp/news",
     "https://bts-official.jp/news/8873070ceb9f",
-    "https://bts-official.jp/news/31c4eeded33b"
+    "https://bts-official.jp/news/31c4eeded33b",
+    "https://bts-official.jp/news/3fc64e7d26b8",
+    "https://bts-official.jp/news/01d2f7e80203",
+    "https://bts-official.jp/news/397b040f7113",
+    "https://bts-official.jp/schedule"
   ],
   "enhypen": [
     "https://www.hybejapan-concert.com",
@@ -450,7 +591,11 @@
     "https://ive-official.jp/",
     "https://ive-official.jp/mob/news/newsLis.php?site=DIVE&ima=1322",
     "https://ive-official.jp/mob/news/diarKiji.php?site=DIVE&ima=1322&cd=DISCOGRAPHY",
-    "https://ive-official.jp/mob/news/diarKiji.php?site=DIVE&ima=1322&cd=SCHEDULE"
+    "https://ive-official.jp/mob/news/diarKiji.php?site=DIVE&ima=1322&cd=SCHEDULE",
+    "https://ive-official.jp/mob/news/newsLis.php?site=DIVE&ima=4712",
+    "https://ive-official.jp/mob/news/diarKiji.php?site=DIVE&ima=4712&cd=DISCOGRAPHY",
+    "https://ive-official.jp/mob/news/diarKiji.php?site=DIVE&ima=4712&cd=SCHEDULE",
+    "https://ive-official.jp/mob/news/diarKiji.php?site=DIVE&ima=4712&cd=MAIN"
   ],
   "aespa": [
     "https://aespa-official.jp/news",
@@ -465,17 +610,25 @@
     "https://www.le-sserafim.jp/schedule",
     "https://www.le-sserafim.jp/",
     "https://www.le-sserafim.jp/news/0e77ae2b8dd9",
-    "https://www.le-sserafim.jp/news/efb2083aa029"
+    "https://www.le-sserafim.jp/news/efb2083aa029",
+    "https://www.le-sserafim.jp/ticket",
+    "https://www.le-sserafim.jp/ticket/0b525b11937b"
   ],
   "tomorrow_x_together": [
     "https://txt-official.jp/news",
     "https://txt-official.jp/news/cf400a45eb61",
-    "https://txt-official.jp/news/d3d4a6c832d5"
+    "https://txt-official.jp/news/d3d4a6c832d5",
+    "https://txt-official.jp/news/fde1a1e590f0",
+    "https://txt-official.jp/news/dbc5c566b4aa",
+    "https://txt-official.jp/news/718ac5099f55",
+    "https://txt-official.jp/schedule"
   ],
   "shinee": [
     "https://shinee.jp/news/",
     "https://shinee.jp/news/2026/0629_2428.html",
-    "https://shinee.jp/news/2026/0608_2418.html"
+    "https://shinee.jp/news/2026/0608_2418.html",
+    "https://shinee.jp/news/2026/0604_2417.html",
+    "https://shinee.jp/live/"
   ],
   "sandaime_j_soul_brothers": [
     "https://www.ldh-liveschedule.jp/sys/news/43936?lang=ja",
@@ -485,7 +638,10 @@
     "https://www.ldh-liveschedule.jp/",
     "https://www.ldh-liveschedule.jp/sys/news/44231?lang=ja",
     "https://www.ldh-liveschedule.jp/sys/news/44186?lang=ja",
-    "https://www.ldh-liveschedule.jp/sys/news/44184?lang=ja"
+    "https://www.ldh-liveschedule.jp/sys/news/44184?lang=ja",
+    "https://www.ldh-liveschedule.jp/sys/newslist/?t=40856&lang=ja",
+    "https://www.ldh-liveschedule.jp/sys/news/44839?lang=ja",
+    "https://www.ldh-liveschedule.jp/sys/news/44964?lang=ja"
   ],
   "hypnosis_mic": [
     "https://hypnosismic.com/news/"
@@ -493,42 +649,61 @@
   "idolish7": [
     "https://idolish7.com/news",
     "https://idolish7.com/news/2026/19803",
-    "https://idolish7.com/news/2026/19774"
+    "https://idolish7.com/news/2026/19774",
+    "https://idolish7.com/news/2026/19812",
+    "https://idolish7.com/event"
   ],
   "a3": [
     "https://www.mankai-stage.jp/news",
     "https://www.mankai-stage.jp/news/15919/",
-    "https://www.mankai-stage.jp/news/15739/"
+    "https://www.mankai-stage.jp/news/15739/",
+    "https://www.mankai-stage.jp/news/15935/",
+    "https://www.mankai-stage.jp/latest_stage",
+    "https://www.mankai-stage.jp/past_stage"
   ],
   "gre4n_boyz": [
     "https://gre4n-boyz.com/news/",
     "https://gre4n-boyz.com/crew-news/209",
-    "https://gre4n-boyz.com/news/231"
+    "https://gre4n-boyz.com/news/231",
+    "https://gre4n-boyz.com/live/",
+    "https://gre4n-boyz.com/schedule/"
   ],
   "ikimonogakari": [
     "https://ikimonogakari.com/news/",
     "https://ikimonogakari.com/news/release/20251226-1",
-    "https://ikimonogakari.com/news/release/20250925-1"
+    "https://ikimonogakari.com/news/release/20250925-1",
+    "https://ikimonogakari.com/news/live/20260807-1",
+    "https://ikimonogakari.com/tour2026-2027/"
   ],
   "and_team": [
     "https://www.andteam-official.jp/news",
     "https://www.andteam-official.jp/news/31cfe06bdc82",
-    "https://www.andteam-official.jp/news/8c0da093cc1f"
+    "https://www.andteam-official.jp/news/8c0da093cc1f",
+    "https://www.andteam-official.jp/news/6d124a193bdb",
+    "https://www.andteam-official.jp/news/e876289bc8f9",
+    "https://www.andteam-official.jp/news/5d365b5bde32",
+    "https://www.andteam-official.jp/schedule"
   ],
   "aina_the_end": [
     "https://ainatheend.jp/news/",
     "https://ainatheend.jp/news/detail.php?id=1133946",
-    "https://ainatheend.jp/news/detail.php?id=1130314"
+    "https://ainatheend.jp/news/detail.php?id=1130314",
+    "https://ainatheend.jp/news/detail.php?id=1135300",
+    "https://ainatheend.jp/news/detail.php?id=1134782",
+    "https://ainatheend.jp/schedule/"
   ],
   "yorushika": [
     "https://yorushika.com/news/5",
     "https://yorushika.com/news/11",
-    "https://yorushika.com/news/9"
+    "https://yorushika.com/news/9",
+    "https://yorushika.com/feature/livetour2026_ichininsho"
   ],
   "urashimasakatasen": [
     "https://urashimasakatasen.com/news",
     "https://urashimasakatasen.com/live/taboo",
-    "https://urashimasakatasen.com/goods/summer2026"
+    "https://urashimasakatasen.com/goods/summer2026",
+    "https://urashimasakatasen.com/uratanuki/goods2026",
+    "https://urashimasakatasen.com/senra/"
   ],
   "yoasobi": [
     "https://www.yoasobi-music.jp/"
@@ -558,7 +733,11 @@
     "https://sakurazaka46.com/",
     "https://sakurazaka46.com/s/s46/news/list?ima=0000&dy=202607",
     "https://sakurazaka46.com/s/s46/group/list?ima=0000&dy=202607",
-    "https://sakurazaka46.com/s/s46/news/detail/E00619"
+    "https://sakurazaka46.com/s/s46/news/detail/E00619",
+    "https://sakurazaka46.com/s/s46/page/nationaltour2026_quiz?ima=0000",
+    "https://sakurazaka46.com/s/s46/page/nationaltour2026_mypage?ima=0000",
+    "https://sakurazaka46.com/s/s46/diary/detail/70443?ima=0000&cd=nt2026_cont",
+    "https://sakurazaka46.com/s/s46/diary/detail/70128?ima=0000&cd=nt2026_cont"
   ],
   "stray_kids": [
     "https://www.straykidsjapan.com/",
