@@ -20,6 +20,39 @@
       "source": "system",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/581948",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "hitsuji_bungaku_fes_summer_sonic_2026",
+      "artistId": "hitsuji_bungaku",
+      "title": "SUMMER SONIC 2026",
+      "startDate": "2026-08-15T00:00:00+09:00",
+      "endDate": "2026-08-16T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/585209",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "hitsuji_bungaku_fes_sweet_love_shower_2026",
+      "artistId": "hitsuji_bungaku",
+      "title": "SPACE SHOWER SWEET LOVE SHOWER 2026",
+      "startDate": "2026-08-29T00:00:00+09:00",
+      "endDate": "2026-08-29T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/582487",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "hitsuji_bungaku_fes_jujutsu_fes_2026",
+      "artistId": "hitsuji_bungaku",
+      "title": "呪術廻戦 じゅじゅフェス 2026 -5th anniversary-",
+      "startDate": "2026-08-30T00:00:00+09:00",
+      "endDate": "2026-08-30T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/582173",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -154,6 +187,66 @@
       "source": "system",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/581948",
       "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "hitsuji_bungaku_su_ha_2026_kaohsiung_1024",
+      "tourId": "hitsuji_bungaku_su_ha_2026",
+      "venue": "LIVE WAREHOUSE",
+      "performanceAt": "2026-10-24T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ssl.sme.co.jp/artist/hitsujibungaku/info/584586",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "hitsuji_bungaku_fes_summer_sonic_2026_tokyo_0815",
+      "tourId": "hitsuji_bungaku_fes_summer_sonic_2026",
+      "venue": "ZOZOマリンスタジアム & 幕張メッセ",
+      "performanceAt": "2026-08-15T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "SUMMER SONIC 2026",
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/585209",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "hitsuji_bungaku_fes_summer_sonic_2026_osaka_0816",
+      "tourId": "hitsuji_bungaku_fes_summer_sonic_2026",
+      "venue": "万博記念公園",
+      "performanceAt": "2026-08-16T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "SUMMER SONIC 2026",
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/585209",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "hitsuji_bungaku_fes_sweet_love_shower_2026_0829",
+      "tourId": "hitsuji_bungaku_fes_sweet_love_shower_2026",
+      "venue": "山中湖交流プラザ きらら",
+      "performanceAt": "2026-08-29T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "SPACE SHOWER SWEET LOVE SHOWER 2026",
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/582487",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "hitsuji_bungaku_fes_jujutsu_fes_2026_0830",
+      "tourId": "hitsuji_bungaku_fes_jujutsu_fes_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-08-30T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "呪術廻戦 じゅじゅフェス 2026 -5th anniversary-",
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/582173",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "lotteries": [

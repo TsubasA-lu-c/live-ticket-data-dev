@@ -20,6 +20,17 @@
       "source": "system",
       "sourceUrl": "https://ini-official.com/feature/2026_dome_tour",
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "ini_2026_live_events",
+      "artistId": "ini",
+      "title": "INI 2026 LIVE/EVENT",
+      "startDate": "2026-08-13T00:00:00+09:00",
+      "endDate": "2026-10-31T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/schedule/list/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -34,6 +45,66 @@
       "source": "system",
       "sourceUrl": "https://ini-official.com/feature/2026_dome_tour",
       "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "ini_2026_live_events_wangan_0813",
+      "tourId": "ini_2026_live_events",
+      "venue": "東京ガーデンシアター",
+      "performanceAt": "2026-08-13T17:30:00+09:00",
+      "doorOpenAt": "2026-08-13T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "めざましWANGANフェス～人気バラエティと夏の最強コラボ～",
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/schedule/detail/4155",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ini_2026_live_events_asian_games_torch_0822",
+      "tourId": "ini_2026_live_events",
+      "venue": null,
+      "performanceAt": "2026-08-22T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "第20回アジア競技大会 聖火リレー 名古屋採火式",
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/schedule/detail/4296",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ini_2026_live_events_cdtv_0912",
+      "tourId": "ini_2026_live_events",
+      "venue": "東京ガーデンシアター",
+      "performanceAt": "2026-09-12T18:00:00+09:00",
+      "doorOpenAt": "2026-09-12T16:30:00+09:00",
+      "kind": "fes",
+      "eventName": "CDTVライブ！ライブ！秋の大感謝祭2026",
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/news/detail/4293",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ini_2026_live_events_rock_in_japan_0921",
+      "tourId": "ini_2026_live_events",
+      "venue": "千葉市蘇我スポーツ公園",
+      "performanceAt": "2026-09-21T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "ROCK IN JAPAN FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/news/detail/4146",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ini_2026_live_events_from_ini_1031",
+      "tourId": "ini_2026_live_events",
+      "venue": null,
+      "performanceAt": "2026-10-31T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "9TH SINGLE『ANTHEM』リリース＆INIデビュー5周年記念スペシャル「From INI」公開収録イベント",
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/news/detail/4219",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "ini_5th_anniversary_dome_2026_tokyo_0917",
@@ -224,6 +295,74 @@
       "source": "system",
       "sourceUrl": "https://ini-official.com/news/detail/4284",
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "ini_5th_anniversary_dome_2026_ltike_prerequest_2",
+      "tourId": "ini_5th_anniversary_dome_2026",
+      "type": "ローソンチケット プレリクエスト先行2次",
+      "entryStartAt": "2026-08-03T12:00:00+09:00",
+      "entryEndAt": "2026-08-16T23:59:00+09:00",
+      "resultAt": "2026-08-21T20:00:00+09:00",
+      "paymentStartAt": "2026-08-21T20:00:00+09:00",
+      "paymentEndAt": "2026-08-24T23:59:00+09:00",
+      "performanceIds": [
+        "ini_5th_anniversary_dome_2026_tokyo_0916",
+        "ini_5th_anniversary_dome_2026_tokyo_0917",
+        "ini_5th_anniversary_dome_2026_osaka_1114",
+        "ini_5th_anniversary_dome_2026_osaka_1115"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/special_site/2026_dome_tour/detail/89",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ini_5th_anniversary_dome_2026_mitsui_shopping_park",
+      "tourId": "ini_5th_anniversary_dome_2026",
+      "type": "三井ショッピングパーク先行",
+      "entryStartAt": "2026-07-25T12:00:00+09:00",
+      "entryEndAt": "2026-08-02T23:59:00+09:00",
+      "resultAt": "2026-08-07T20:00:00+09:00",
+      "paymentStartAt": "2026-08-07T20:00:00+09:00",
+      "paymentEndAt": "2026-08-10T23:59:00+09:00",
+      "performanceIds": [
+        "ini_5th_anniversary_dome_2026_tokyo_0916",
+        "ini_5th_anniversary_dome_2026_tokyo_0917"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/news/detail/4297",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ini_2026_live_events_cdtv_fc",
+      "tourId": "ini_2026_live_events",
+      "type": "INI OFFICIAL FANCLUB先行",
+      "entryStartAt": "2026-07-28T10:00:00+09:00",
+      "entryEndAt": "2026-08-09T23:59:00+09:00",
+      "resultAt": "2026-08-15T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ini_2026_live_events_cdtv_0912"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/news/detail/4293",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ini_2026_live_events_from_ini_store",
+      "tourId": "ini_2026_live_events",
+      "type": "INI OFFICIAL STORE購入者抽選招待",
+      "entryStartAt": "2026-06-15T10:00:00+09:00",
+      "entryEndAt": "2026-08-09T23:59:00+09:00",
+      "resultAt": "2026-08-21T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ini_2026_live_events_from_ini_1031"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/news/detail/4219",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

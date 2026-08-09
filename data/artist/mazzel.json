@@ -31,6 +31,39 @@
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/",
       "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "mazzel_asuto_music_park_2026",
+      "artistId": "mazzel",
+      "title": "ASUTO MUSIC PARK 2026",
+      "startDate": "2026-09-05T00:00:00+09:00",
+      "endDate": "2026-09-05T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://mazzel.tokyo/live/5398/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "mazzel_cdtv_autumn_2026",
+      "artistId": "mazzel",
+      "title": "CDTV ライブ！ライブ！秋の大感謝祭2026",
+      "startDate": "2026-09-13T00:00:00+09:00",
+      "endDate": "2026-09-13T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://mazzel.tokyo/live/5468/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "mazzel_fest_inazuma_2026",
+      "artistId": "mazzel",
+      "title": "FEST. INAZUMA 2026",
+      "startDate": "2026-09-19T00:00:00+09:00",
+      "endDate": "2026-09-19T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://mazzel.tokyo/news/5362/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -333,6 +366,42 @@
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/",
       "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "mazzel_asuto_music_park_2026_0905",
+      "tourId": "mazzel_asuto_music_park_2026",
+      "venue": "ゼビオアリーナ仙台",
+      "performanceAt": "2026-09-05T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "ASUTO MUSIC PARK 2026",
+      "source": "system",
+      "sourceUrl": "https://mazzel.tokyo/live/5398/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "mazzel_cdtv_autumn_2026_0913",
+      "tourId": "mazzel_cdtv_autumn_2026",
+      "venue": "東京ガーデンシアター",
+      "performanceAt": "2026-09-13T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "CDTV ライブ！ライブ！秋の大感謝祭2026",
+      "source": "system",
+      "sourceUrl": "https://mazzel.tokyo/live/5468/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "mazzel_fest_inazuma_2026_0919",
+      "tourId": "mazzel_fest_inazuma_2026",
+      "venue": "滋賀県草津市 烏丸半島芝生広場",
+      "performanceAt": "2026-09-19T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "FEST. INAZUMA 2026",
+      "source": "system",
+      "sourceUrl": "https://mazzel.tokyo/news/5362/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "lotteries": [
