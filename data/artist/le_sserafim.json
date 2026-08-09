@@ -124,8 +124,8 @@
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://www.le-sserafim.jp/news/51726af4dd90",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "sourceUrl": "https://www.le-sserafim.jp/schedule/b0d0a8482d26",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "le_sserafim_pureflow_2026_miyagi_0818",
@@ -136,8 +136,8 @@
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://www.le-sserafim.jp/news/51726af4dd90",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "sourceUrl": "https://www.le-sserafim.jp/schedule/d92459ce0aa3",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "le_sserafim_pureflow_2026_miyagi_0819",
@@ -148,8 +148,8 @@
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://www.le-sserafim.jp/news/51726af4dd90",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "sourceUrl": "https://www.le-sserafim.jp/schedule/1fc6d0d187f5",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "le_sserafim_pureflow_2026_fukuoka_0902",
@@ -160,8 +160,8 @@
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://www.le-sserafim.jp/news/51726af4dd90",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "sourceUrl": "https://www.le-sserafim.jp/schedule/2d80a4a36ff6",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "le_sserafim_pureflow_2026_fukuoka_0903",
@@ -172,32 +172,32 @@
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://www.le-sserafim.jp/news/51726af4dd90",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "sourceUrl": "https://www.le-sserafim.jp/schedule/99e18e89321a",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "le_sserafim_fes_summer_sonic_2026_osaka_0814",
       "tourId": "le_sserafim_fes_summer_sonic_2026",
       "venue": "万博記念公園 AIR STAGE",
-      "performanceAt": "2026-08-14T12:00:00+09:00",
+      "performanceAt": "2026-08-14T18:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "SUMMER SONIC 2026",
       "source": "system",
-      "sourceUrl": "https://www.summersonic.com/lineup/osaka-day1/",
-      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+      "sourceUrl": "https://www.le-sserafim.jp/schedule/yefbqx",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "le_sserafim_fes_summer_sonic_2026_tokyo_0816",
       "tourId": "le_sserafim_fes_summer_sonic_2026",
       "venue": "ZOZOマリンスタジアム MARINE STAGE",
-      "performanceAt": "2026-08-16T12:00:00+09:00",
+      "performanceAt": "2026-08-16T18:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "SUMMER SONIC 2026",
       "source": "system",
-      "sourceUrl": "https://www.summersonic.com/lineup/tokyo-day3/",
-      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+      "sourceUrl": "https://www.le-sserafim.jp/schedule/uhegth",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "lotteries": [
