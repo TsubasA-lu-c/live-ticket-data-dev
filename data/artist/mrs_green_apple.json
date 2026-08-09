@@ -8,14 +8,18 @@
       "startDate": "2026-09-30T00:00:00+09:00",
       "endDate": "2026-12-28T00:00:00+09:00",
       "prices": [
-        {
-          "label": "指定席",
-          "amount": 15000
-        }
+      {
+        "label": "指定席",
+        "amount": 15000
+      },
+      {
+        "label": "着席指定席",
+        "amount": 15000
+      }
       ],
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -107,8 +111,8 @@
       "id": "mrs_green_apple_ringojam_shadows_2026_hokkaido_1024",
       "tourId": "mrs_green_apple_ringojam_shadows_2026",
       "venue": "Makomanai Sekisui Heim Ice Arena",
-      "performanceAt": "2026-10-24T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-10-24T17:00:00+09:00",
+      "doorOpenAt": "2026-10-24T16:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
@@ -364,7 +368,7 @@
       "entryStartAt": "2026-06-19T16:00:00+09:00",
       "entryEndAt": "2026-07-01T05:00:00+09:00",
       "resultAt": "2026-07-15T14:00:00+09:00",
-      "paymentStartAt": null,
+      "paymentStartAt": "2026-07-15T14:00:00+09:00",
       "paymentEndAt": "2026-07-20T23:59:00+09:00",
       "performanceIds": [
         "mrs_green_apple_ringojam_shadows_2026_kagawa_0930",
@@ -397,8 +401,8 @@
         "mrs_green_apple_ringojam_shadows_2026_aichi_1228"
       ],
       "source": "system",
-      "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    "sourceUrl": "https://mrsgreenapple.com/feature/fc4054f116b8397bb92be09792603aab?_normalbrowse_=1",
+    "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "mrs_green_apple_ringojam_shadows_2026_fc_2nd",
@@ -407,7 +411,7 @@
       "entryStartAt": "2026-07-17T15:00:00+09:00",
       "entryEndAt": "2026-07-28T05:00:00+09:00",
       "resultAt": "2026-08-11T14:00:00+09:00",
-      "paymentStartAt": null,
+      "paymentStartAt": "2026-08-11T14:00:00+09:00",
       "paymentEndAt": "2026-08-15T23:59:00+09:00",
       "performanceIds": [
         "mrs_green_apple_ringojam_shadows_2026_kagawa_0930",
@@ -440,8 +444,8 @@
         "mrs_green_apple_ringojam_shadows_2026_aichi_1228"
       ],
       "source": "system",
-      "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    "sourceUrl": "https://mrsgreenapple.com/feature/2b5417173d53785481b4bce82e8099e2?_normalbrowse_=1",
+    "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
