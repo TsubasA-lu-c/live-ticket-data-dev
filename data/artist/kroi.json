@@ -19,31 +19,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://special.kroi.net/tour/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-    },
-    {
-      "id": "kroi_fes_fuji_rock_2026",
-      "artistId": "kroi",
-      "title": "FUJI ROCK FESTIVAL'26",
-      "startDate": "2026-07-25T00:00:00+09:00",
-      "endDate": "2026-07-25T00:00:00+09:00",
-      "prices": [
-        {
-          "label": "1日券",
-          "amount": 26000
-        },
-        {
-          "label": "1日券 Under 22",
-          "amount": 18000
-        },
-        {
-          "label": "1日券 Under 17",
-          "amount": 9000
-        }
-      ],
-      "source": "system",
-      "sourceUrl": "https://fujirockfestival.com/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "kroi_fes_sweet_love_shower_2026",
@@ -67,7 +43,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://2026.sweetloveshower.com/contents/ticket/admission",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -81,7 +57,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://special.kroi.net/tour/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "kroi_jungle_2026_zepp_nagoya_0820",
@@ -93,7 +69,7 @@
       "eventName": "Kroi Live Tour 2026 \"JUNGLE\" -Dig the Deep Vol.5- w/レキシ",
       "source": "system",
       "sourceUrl": "https://special.kroi.net/tour/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "kroi_jungle_2026_zepp_nagoya_0821",
@@ -105,7 +81,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://special.kroi.net/tour/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "kroi_jungle_2026_zepp_sapporo_0829",
@@ -117,7 +93,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://special.kroi.net/tour/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "kroi_jungle_2026_zepp_fukuoka_0904",
@@ -129,7 +105,7 @@
       "eventName": "Kroi Live Tour 2026 \"JUNGLE\" -Dig the Deep Vol.5- w/iri",
       "source": "system",
       "sourceUrl": "https://special.kroi.net/tour/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "kroi_jungle_2026_zepp_fukuoka_0905",
@@ -141,7 +117,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://special.kroi.net/tour/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "kroi_jungle_2026_zepp_osaka_bayside_0918",
@@ -153,7 +129,7 @@
       "eventName": "Kroi Live Tour 2026 \"JUNGLE\" -Dig the Deep Vol.5- w/KIRINJI",
       "source": "system",
       "sourceUrl": "https://special.kroi.net/tour/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "kroi_jungle_2026_zepp_osaka_bayside_0919",
@@ -165,7 +141,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://special.kroi.net/tour/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "kroi_jungle_2026_zepp_haneda_0922",
@@ -177,19 +153,7 @@
       "eventName": "Kroi Live Tour 2026 \"JUNGLE\" -Dig the Deep Vol.5- w/東京スカパラダイスオーケストラ",
       "source": "system",
       "sourceUrl": "https://special.kroi.net/tour/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-    },
-    {
-      "id": "kroi_fes_fuji_rock_2026_naeba_0725",
-      "tourId": "kroi_fes_fuji_rock_2026",
-      "venue": "苗場スキー場",
-      "performanceAt": "2026-07-25T15:30:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "FUJI ROCK FESTIVAL'26",
-      "source": "system",
-      "sourceUrl": "https://kroi.net/live_information/detail/33370",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "kroi_fes_sweet_love_shower_2026_yamanakako_0828",
@@ -201,7 +165,7 @@
       "eventName": "SWEET LOVE SHOWER 2026",
       "source": "system",
       "sourceUrl": "https://kroi.net/live_information/detail/37665",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "kroi_jungle_2026_zepp_haneda_0923",
@@ -213,7 +177,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://special.kroi.net/tour/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -431,22 +395,6 @@
       ],
       "source": "system",
       "sourceUrl": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2665378",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-    },
-    {
-      "id": "kroi_fes_fuji_rock_2026_general",
-      "tourId": "kroi_fes_fuji_rock_2026",
-      "type": "一般発売",
-      "entryStartAt": "2026-05-16T10:00:00+09:00",
-      "entryEndAt": null,
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": [
-        "kroi_fes_fuji_rock_2026_naeba_0725"
-      ],
-      "source": "system",
-      "sourceUrl": "https://fujirockfestival.com/ticket/index",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
