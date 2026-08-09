@@ -325,10 +325,6 @@
     "https://mrsgreenapple.com/redirect/mobadmin/event_path/cmn_sugoroku/1"
   ],
   "be_first": [
-    "https://befirst.tokyo/news",
-    "https://befirst.tokyo/feed/",
-    "https://befirst.tokyo/comments/feed/",
-    "https://befirst.tokyo/sample-page/feed/",
     "https://befirst.tokyo/top/feed/",
     "https://befirst.tokyo/news/",
     "https://befirst.tokyo/news/announcement/",
@@ -748,5 +744,10 @@
   ],
   "imp": [
     "https://tobe-official.jp/artists/imp"
+  ],
+  "uta_no_prince_sama": [
+    "https://www.utapri.com/news.php",
+    "https://www.utapri.com/app/live_emotion/",
+    "https://www.utapri.com/grandshop/"
   ]
 }
