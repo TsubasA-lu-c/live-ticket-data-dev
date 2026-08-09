@@ -16,6 +16,7 @@ cache/watch_urls.json（discover_watch_urls.py が生成）にNEWS/LIVE系ペー
   python3 tools/check_updates.py --no-cache   # cache更新しない（テスト用）
 """
 import argparse, hashlib, json, re, sys, time
+from urllib.parse import urlparse
 import urllib.error, urllib.request
 from html.parser import HTMLParser
 from pathlib import Path
@@ -75,6 +76,31 @@ def _content_hash(html_bytes: bytes) -> str:
     except Exception:
         text = html_bytes.decode("utf-8", errors="replace")
     return hashlib.md5(text.encode()).hexdigest()
+
+
+# 同じホストへ連投しない。
+#
+# **1アーティストの監視URLはほぼ同じホスト**なので、無停止で回すと
+# 5〜6本を一気に叩くことになる。2026-08 の実測では、これで 503 を返す
+# サイトが複数あった（`contents/` 系のCMS・eplus 等）。落ちているのでは
+# なく弾かれているだけで、間隔をあければ 200 が返る。
+HOST_INTERVAL_SEC = 1.5
+_last_hit: Dict[str, float] = {}
+
+
+def _pace(url: str) -> None:
+    """同じホストへの前回アクセスから `HOST_INTERVAL_SEC` あける。
+
+    別ホストなら待たない。**待つ必要が無いところで待たない**（全体で
+    数十分変わる）。
+    """
+    host = urlparse(url).netloc.lower()
+    last = _last_hit.get(host)
+    if last is not None:
+        wait = HOST_INTERVAL_SEC - (time.time() - last)
+        if wait > 0:
+            time.sleep(wait)
+    _last_hit[host] = time.time()
 
 
 def _fetch_fingerprint(url: str) -> Optional[Dict]:
@@ -213,6 +239,7 @@ def main() -> None:
         print(f"  [{i}/{len(target_ids)}] {aid} ({len(urls)}URL) ...", file=sys.stderr, end=" ")
 
         for url in urls:
+            _pace(url)
             fp = _fetch_fingerprint(url)
             old_fp = cache.get(aid, {}).get(url)
 
@@ -234,7 +261,7 @@ def main() -> None:
         elif not args.no_cache:
             pending.pop(aid, None)
 
-        time.sleep(0.3)  # サーバー負荷軽減
+        # アーティスト間の待ちは `_pace` がホストごとに面倒を見る
 
     # 変化ありアーティストを stdout に出力（メインエージェントが使う）
     for aid in changed:
