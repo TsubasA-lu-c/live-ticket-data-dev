@@ -6,7 +6,7 @@
       "artistId": "fujii_kaze",
       "title": "Prema World Tour",
       "startDate": "2026-10-31T00:00:00+09:00",
-      "endDate": "2027-01-09T00:00:00+09:00",
+      "endDate": null,
       "prices": [
         {
           "label": "指定席",
@@ -169,6 +169,28 @@
     }
   ],
   "lotteries": [
+    {
+      "id": "fujii_kaze_prema_world_2026_cd_lp_fastest",
+      "tourId": "fujii_kaze_prema_world_2026",
+      "type": "チケット最速先行（CD/LP封入特典）",
+      "entryStartAt": "2025-12-05T18:00:00+09:00",
+      "entryEndAt": "2026-01-05T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fujii_kaze_prema_world_2026_fukuoka_1114",
+        "fujii_kaze_prema_world_2026_fukuoka_1115",
+        "fujii_kaze_prema_world_2026_osaka_1210",
+        "fujii_kaze_prema_world_2026_osaka_1212",
+        "fujii_kaze_prema_world_2026_osaka_1213",
+        "fujii_kaze_prema_world_2026_tokyo_1219",
+        "fujii_kaze_prema_world_2026_tokyo_1220"
+      ],
+      "source": "system",
+      "sourceUrl": "https://fujiikaze.com/news-article/news251205/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
     {
       "id": "fujii_kaze_prema_world_2026_general",
       "tourId": "fujii_kaze_prema_world_2026",

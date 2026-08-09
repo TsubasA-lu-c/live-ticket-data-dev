@@ -41,14 +41,53 @@
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
-      "id": "zutomayo_fes_2026",
+      "id": "zutomayo_fes_wildbunch_2026",
       "artistId": "zutomayo",
-      "title": "2026年フェス出演",
-      "startDate": "2026-07-25T00:00:00+09:00",
+      "title": "WILD BUNCH FEST. 2026",
+      "startDate": "2026-08-22T00:00:00+09:00",
+      "endDate": "2026-08-22T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1日券（8/22）",
+          "amount": 13000
+        },
+        {
+          "label": "2日通し券（8/21・8/22）",
+          "amount": 23000
+        },
+        {
+          "label": "2日通し券（8/22・8/23）",
+          "amount": 23000
+        },
+        {
+          "label": "3日通し券",
+          "amount": 30000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/live/54/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_fes_soundplanet_2026",
+      "artistId": "zutomayo",
+      "title": "SOUND PLANET FESTIVAL 2026",
+      "startDate": "2026-09-06T00:00:00+09:00",
+      "endDate": "2026-09-06T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/live/55/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_fes_rockinjapan_2026",
+      "artistId": "zutomayo",
+      "title": "ROCK IN JAPAN FESTIVAL 2026",
+      "startDate": "2026-09-19T00:00:00+09:00",
       "endDate": "2026-09-19T00:00:00+09:00",
       "prices": null,
       "source": "system",
-      "sourceUrl": "https://zutomayo.net/live/",
+      "sourceUrl": "https://zutomayo.net/live/56/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
@@ -78,32 +117,20 @@
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
-      "id": "zutomayo_fujirock_2026_0725",
-      "tourId": "zutomayo_fes_2026",
-      "venue": "新潟県湯沢町 苗場スキー場",
-      "performanceAt": "2026-07-25T18:00:00+09:00",
+      "id": "zutomayo_event_youtubemusicweekend12_2026_0823",
+      "tourId": "zutomayo_event_youtubemusicweekend12_2026",
+      "venue": "YouTube（プレミア公開）",
+      "performanceAt": "2026-08-23T21:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
-      "eventName": "FUJI ROCK FESTIVAL '26",
+      "eventName": "YouTube Music Weekend12.0",
       "source": "system",
-      "sourceUrl": "https://zutomayo.net/live/57/",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "zutomayo_osakagiga_2026_0802",
-      "tourId": "zutomayo_fes_2026",
-      "venue": "大阪舞洲スポーツアイランド ジャイガ特設会場",
-      "performanceAt": "2026-08-02T19:25:00+09:00",
-      "doorOpenAt": "2026-08-02T09:30:00+09:00",
-      "kind": "fes",
-      "eventName": "OSAKA GIGANTIC MUSIC FESTIVAL 2026 -THANKS 10TH GIGA-",
-      "source": "system",
-      "sourceUrl": "https://zutomayo.net/live/53/",
+      "sourceUrl": "https://zutomayo.net/news/640/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "zutomayo_wildbunch_2026_0822",
-      "tourId": "zutomayo_fes_2026",
+      "tourId": "zutomayo_fes_wildbunch_2026",
       "venue": "山口きらら博記念公園",
       "performanceAt": "2026-08-22T19:00:00+09:00",
       "doorOpenAt": "2026-08-22T10:00:00+09:00",
@@ -115,19 +142,19 @@
     },
     {
       "id": "zutomayo_soundplanet_2026_0906",
-      "tourId": "zutomayo_fes_2026",
+      "tourId": "zutomayo_fes_soundplanet_2026",
       "venue": "韓国 PARADISE CITY",
       "performanceAt": "2026-09-06T18:00:00+09:00",
       "doorOpenAt": "2026-09-06T10:00:00+09:00",
       "kind": "fes",
-      "eventName": "SOUND PLANET FESTIVAL",
+      "eventName": "SOUND PLANET FESTIVAL 2026",
       "source": "system",
       "sourceUrl": "https://zutomayo.net/live/55/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "zutomayo_rockinJapan_2026_0919",
-      "tourId": "zutomayo_fes_2026",
+      "tourId": "zutomayo_fes_rockinjapan_2026",
       "venue": "千葉市蘇我スポーツ公園",
       "performanceAt": "2026-09-19T18:45:00+09:00",
       "doorOpenAt": "2026-09-19T08:30:00+09:00",
@@ -205,6 +232,22 @@
       ],
       "source": "system",
       "sourceUrl": "https://zutomayo.net/bunka-denrai/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_fes_wildbunch_2026_trade",
+      "tourId": "zutomayo_fes_wildbunch_2026",
+      "type": "公式トレード（購入抽選）",
+      "entryStartAt": "2026-08-01T12:00:00+09:00",
+      "entryEndAt": "2026-08-17T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "zutomayo_wildbunch_2026_0822"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.wildbunchfest.jp/tickets/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],

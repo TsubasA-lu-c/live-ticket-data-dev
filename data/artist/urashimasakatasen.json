@@ -16,6 +16,22 @@
       "source": "system",
       "sourceUrl": "https://urashimasakatasen.com/live/taboo/",
       "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "urashimasakatasen_halloweeeen_2026",
+      "artistId": "urashimasakatasen",
+      "title": "Happy Halloweeeen 浦島坂田幽霊船 ～ぼくたち魔法少年うしさせいんと☆みるきぃず 超特大しゅうぱぁまっくすだいだいだいしゅきぱわぁ chuuuuuuuuuu…にゅ？い、いかん！魔力が足りぬ！「えむピくれぴ♡んぅう満ちち☆彡」～",
+      "startDate": "2026-10-10T00:00:00+09:00",
+      "endDate": "2026-10-25T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "公演別特典付 指定席",
+          "amount": 9200
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://urashimasakatasen.com/halloweeeen/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -30,6 +46,54 @@
       "source": "system",
       "sourceUrl": "https://eplus.jp/usss_tbo/",
       "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "urashimasakatasen_halloweeeen_2026_tokyo_1010",
+      "tourId": "urashimasakatasen_halloweeeen_2026",
+      "venue": "有明アリーナ",
+      "performanceAt": "2026-10-10T17:00:00+09:00",
+      "doorOpenAt": "2026-10-10T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/s/page/irg/usss_hw26mg_saisoku",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "urashimasakatasen_halloweeeen_2026_tokyo_1011",
+      "tourId": "urashimasakatasen_halloweeeen_2026",
+      "venue": "有明アリーナ",
+      "performanceAt": "2026-10-11T15:00:00+09:00",
+      "doorOpenAt": "2026-10-11T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/s/page/irg/usss_hw26mg_saisoku",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "urashimasakatasen_halloweeeen_2026_hyogo_1024",
+      "tourId": "urashimasakatasen_halloweeeen_2026",
+      "venue": "神戸ワールド記念ホール",
+      "performanceAt": "2026-10-24T17:00:00+09:00",
+      "doorOpenAt": "2026-10-24T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/s/page/irg/usss_hw26mg_saisoku",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "urashimasakatasen_halloweeeen_2026_hyogo_1025",
+      "tourId": "urashimasakatasen_halloweeeen_2026",
+      "venue": "神戸ワールド記念ホール",
+      "performanceAt": "2026-10-25T15:00:00+09:00",
+      "doorOpenAt": "2026-10-25T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/s/page/irg/usss_hw26mg_saisoku",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "urashimasakatasen_ta13oo_2026_hyogo_0719",
@@ -168,6 +232,20 @@
       "source": "system",
       "sourceUrl": "https://eplus.jp/usss_tbo/",
       "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "urashimasakatasen_halloweeeen_2026_saisoku",
+      "tourId": "urashimasakatasen_halloweeeen_2026",
+      "type": "最速先行（プレオーダー抽選）",
+      "entryStartAt": "2026-07-20T21:00:00+09:00",
+      "entryEndAt": "2026-08-02T23:59:00+09:00",
+      "resultAt": "2026-08-08T13:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-08-10T21:00:00+09:00",
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/s/page/irg/usss_hw26mg_saisoku",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

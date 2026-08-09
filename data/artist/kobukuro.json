@@ -16,6 +16,48 @@
       "source": "system",
       "sourceUrl": "https://kobukuro.com/feature/kobukuro_tour2026",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "kobukuro_fes_expo_beat_jam_2026",
+      "artistId": "kobukuro",
+      "title": "1st Anniversary EXPO 2025 『EXPO Beat Jam』",
+      "startDate": "2026-10-13T00:00:00+09:00",
+      "endDate": "2026-10-13T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://kobukuro.com/news/detail/105175",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "kobukuro_event_yurin_live_vol4_2026",
+      "artistId": "kobukuro",
+      "title": "YURIN LIVE vol.4",
+      "startDate": "2026-10-27T00:00:00+09:00",
+      "endDate": "2026-10-27T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "GOLD指定席",
+          "amount": 13000
+        },
+        {
+          "label": "指定席",
+          "amount": 9500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://kobukuro.com/news/detail/105153",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "kobukuro_event_kasumibiyori_serial_campaign_2026",
+      "artistId": "kobukuro",
+      "title": "「霞日和／Starry Smile Story」発売記念 豪華シリアルキャンペーンイベント",
+      "startDate": "2026-11-23T00:00:00+09:00",
+      "endDate": "2026-12-06T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://kobukuro.com/feature/kobukuro_kasumibiyori",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -282,18 +324,104 @@
       "source": "system",
       "sourceUrl": "https://kobukuro.com/feature/tour2026_schedule",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "kobukuro_fes_expo_beat_jam_2026_osaka_1013",
+      "tourId": "kobukuro_fes_expo_beat_jam_2026",
+      "venue": "ユニバーサル・スタジオ・ジャパン グラマシーパーク",
+      "performanceAt": "2026-10-13T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "1st Anniversary EXPO 2025 『EXPO Beat Jam』",
+      "source": "system",
+      "sourceUrl": "https://kobukuro.com/news/detail/105175",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "kobukuro_event_yurin_live_vol4_2026_osaka_1027",
+      "tourId": "kobukuro_event_yurin_live_vol4_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-10-27T19:00:00+09:00",
+      "doorOpenAt": "2026-10-27T18:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "YURIN LIVE vol.4",
+      "source": "system",
+      "sourceUrl": "https://kobukuro.com/news/detail/105174",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "kobukuro_event_kasumibiyori_serial_campaign_2026_tokyo_1123",
+      "tourId": "kobukuro_event_kasumibiyori_serial_campaign_2026",
+      "venue": "東京ポートシティ竹芝 ポートホール",
+      "performanceAt": "2026-11-23T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "「霞日和／Starry Smile Story」発売記念 豪華シリアルキャンペーンイベント",
+      "source": "system",
+      "sourceUrl": "https://kobukuro.com/feature/kobukuro_kasumibiyori",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "kobukuro_event_kasumibiyori_serial_campaign_2026_osaka_1206",
+      "tourId": "kobukuro_event_kasumibiyori_serial_campaign_2026",
+      "venue": "Minaさかい（堺市市民交流広場）",
+      "performanceAt": "2026-12-06T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "「霞日和／Starry Smile Story」発売記念 豪華シリアルキャンペーンイベント",
+      "source": "system",
+      "sourceUrl": "https://kobukuro.com/feature/kobukuro_kasumibiyori",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "lotteries": [
     {
-      "id": "kobukuro_kasumibiyori_2026_official_hp_sns_senko",
+      "id": "kobukuro_kasumibiyori_2026_arena_member_1st",
       "tourId": "kobukuro_kasumibiyori_2026",
-      "type": "オフィシャルHP・SNS先行",
-      "entryStartAt": "2026-05-14T14:00:00+09:00",
-      "entryEndAt": "2026-05-24T14:00:00+09:00",
-      "resultAt": "2026-05-28T14:00:00+09:00",
-      "paymentStartAt": "2026-05-28T14:00:00+09:00",
-      "paymentEndAt": "2026-05-31T23:59:00+09:00",
+      "type": "【アリーナ会場】会員一次先行",
+      "entryStartAt": "2026-03-25T14:00:00+09:00",
+      "entryEndAt": "2026-03-31T14:00:00+09:00",
+      "resultAt": "2026-04-07T14:00:00+09:00",
+      "paymentStartAt": "2026-04-07T14:00:00+09:00",
+      "paymentEndAt": "2026-04-12T23:59:00+09:00",
+      "performanceIds": [
+        "kobukuro_kasumibiyori_2026_osaka_arena_1006",
+        "kobukuro_kasumibiyori_2026_osaka_arena_1007",
+        "kobukuro_kasumibiyori_2026_kanagawa_1031",
+        "kobukuro_kasumibiyori_2026_kanagawa_1101"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kobukuro.com/feature/tour2026_ticket",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "kobukuro_kasumibiyori_2026_arena_member_2nd",
+      "tourId": "kobukuro_kasumibiyori_2026",
+      "type": "【アリーナ会場】会員二次先行",
+      "entryStartAt": "2026-04-08T14:00:00+09:00",
+      "entryEndAt": "2026-04-13T14:00:00+09:00",
+      "resultAt": "2026-04-17T14:00:00+09:00",
+      "paymentStartAt": "2026-04-17T14:00:00+09:00",
+      "paymentEndAt": "2026-04-22T23:59:00+09:00",
+      "performanceIds": [
+        "kobukuro_kasumibiyori_2026_osaka_arena_1006",
+        "kobukuro_kasumibiyori_2026_osaka_arena_1007",
+        "kobukuro_kasumibiyori_2026_kanagawa_1031",
+        "kobukuro_kasumibiyori_2026_kanagawa_1101"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kobukuro.com/feature/tour2026_ticket",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "kobukuro_kasumibiyori_2026_national_member_1st",
+      "tourId": "kobukuro_kasumibiyori_2026",
+      "type": "【全国】会員一次先行",
+      "entryStartAt": "2026-04-08T14:00:00+09:00",
+      "entryEndAt": "2026-04-13T14:00:00+09:00",
+      "resultAt": "2026-04-17T14:00:00+09:00",
+      "paymentStartAt": "2026-04-17T14:00:00+09:00",
+      "paymentEndAt": "2026-04-22T23:59:00+09:00",
       "performanceIds": [
         "kobukuro_kasumibiyori_2026_tokyo_0725",
         "kobukuro_kasumibiyori_2026_tokyo_0726",
@@ -312,6 +440,60 @@
         "kobukuro_kasumibiyori_2026_kagawa_0924",
         "kobukuro_kasumibiyori_2026_kagawa_0925",
         "kobukuro_kasumibiyori_2026_hokkaido_0929",
+        "kobukuro_kasumibiyori_2026_hokkaido_0930"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kobukuro.com/feature/tour2026_ticket",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "kobukuro_kasumibiyori_2026_national_member_2nd",
+      "tourId": "kobukuro_kasumibiyori_2026",
+      "type": "【全国】会員二次先行",
+      "entryStartAt": "2026-04-17T18:00:00+09:00",
+      "entryEndAt": "2026-04-22T14:00:00+09:00",
+      "resultAt": "2026-04-29T14:00:00+09:00",
+      "paymentStartAt": "2026-04-29T14:00:00+09:00",
+      "paymentEndAt": "2026-05-04T23:59:00+09:00",
+      "performanceIds": [
+        "kobukuro_kasumibiyori_2026_ishikawa_0731",
+        "kobukuro_kasumibiyori_2026_ishikawa_0801",
+        "kobukuro_kasumibiyori_2026_fukuoka_0815",
+        "kobukuro_kasumibiyori_2026_fukuoka_0816",
+        "kobukuro_kasumibiyori_2026_miyagi_0822",
+        "kobukuro_kasumibiyori_2026_miyagi_0823",
+        "kobukuro_kasumibiyori_2026_hiroshima_0904",
+        "kobukuro_kasumibiyori_2026_aichi_0915",
+        "kobukuro_kasumibiyori_2026_aichi_0916",
+        "kobukuro_kasumibiyori_2026_kagawa_0924",
+        "kobukuro_kasumibiyori_2026_kagawa_0925",
+        "kobukuro_kasumibiyori_2026_hokkaido_0929",
+        "kobukuro_kasumibiyori_2026_hokkaido_0930"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kobukuro.com/feature/tour2026_ticket",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "kobukuro_kasumibiyori_2026_live_member",
+      "tourId": "kobukuro_kasumibiyori_2026",
+      "type": "コブクロライブ会員先行",
+      "entryStartAt": "2026-05-01T18:00:00+09:00",
+      "entryEndAt": "2026-05-07T14:00:00+09:00",
+      "resultAt": "2026-05-13T14:00:00+09:00",
+      "paymentStartAt": "2026-05-13T14:00:00+09:00",
+      "paymentEndAt": "2026-05-17T23:59:00+09:00",
+      "performanceIds": [
+        "kobukuro_kasumibiyori_2026_ishikawa_0731",
+        "kobukuro_kasumibiyori_2026_ishikawa_0801",
+        "kobukuro_kasumibiyori_2026_fukuoka_0815",
+        "kobukuro_kasumibiyori_2026_fukuoka_0816",
+        "kobukuro_kasumibiyori_2026_miyagi_0822",
+        "kobukuro_kasumibiyori_2026_miyagi_0823",
+        "kobukuro_kasumibiyori_2026_hiroshima_0904",
+        "kobukuro_kasumibiyori_2026_kagawa_0924",
+        "kobukuro_kasumibiyori_2026_kagawa_0925",
+        "kobukuro_kasumibiyori_2026_hokkaido_0929",
         "kobukuro_kasumibiyori_2026_hokkaido_0930",
         "kobukuro_kasumibiyori_2026_osaka_arena_1006",
         "kobukuro_kasumibiyori_2026_osaka_arena_1007",
@@ -319,7 +501,199 @@
         "kobukuro_kasumibiyori_2026_kanagawa_1101"
       ],
       "source": "system",
-      "sourceUrl": "https://kobukuro.com/feature/kobukuro_tour2026",
+      "sourceUrl": "https://kobukuro.com/feature/tour2026_ticket",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "kobukuro_kasumibiyori_2026_lticket_fastest",
+      "tourId": "kobukuro_kasumibiyori_2026",
+      "type": "ローチケ最速抽選先行",
+      "entryStartAt": "2026-05-01T14:00:00+09:00",
+      "entryEndAt": "2026-05-07T23:59:00+09:00",
+      "resultAt": "2026-05-09T15:00:00+09:00",
+      "paymentStartAt": "2026-05-09T15:00:00+09:00",
+      "paymentEndAt": "2026-05-12T23:00:00+09:00",
+      "performanceIds": [
+        "kobukuro_kasumibiyori_2026_ishikawa_0731",
+        "kobukuro_kasumibiyori_2026_ishikawa_0801",
+        "kobukuro_kasumibiyori_2026_fukuoka_0815",
+        "kobukuro_kasumibiyori_2026_fukuoka_0816",
+        "kobukuro_kasumibiyori_2026_miyagi_0822",
+        "kobukuro_kasumibiyori_2026_miyagi_0823",
+        "kobukuro_kasumibiyori_2026_hiroshima_0904",
+        "kobukuro_kasumibiyori_2026_aichi_0915",
+        "kobukuro_kasumibiyori_2026_kagawa_0924",
+        "kobukuro_kasumibiyori_2026_kagawa_0925",
+        "kobukuro_kasumibiyori_2026_hokkaido_0929",
+        "kobukuro_kasumibiyori_2026_hokkaido_0930",
+        "kobukuro_kasumibiyori_2026_osaka_arena_1006",
+        "kobukuro_kasumibiyori_2026_osaka_arena_1007",
+        "kobukuro_kasumibiyori_2026_kanagawa_1031",
+        "kobukuro_kasumibiyori_2026_kanagawa_1101"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kobukuro.com/feature/tour2026_ticket",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "kobukuro_kasumibiyori_2026_lticket_lottery",
+      "tourId": "kobukuro_kasumibiyori_2026",
+      "type": "ローチケ抽選先行",
+      "entryStartAt": "2026-05-12T12:00:00+09:00",
+      "entryEndAt": "2026-05-18T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://kobukuro.com/feature/tour2026_ticket",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "kobukuro_kasumibiyori_2026_official_hp_sns_senko",
+      "tourId": "kobukuro_kasumibiyori_2026",
+      "type": "オフィシャルHP・SNS先行",
+      "entryStartAt": "2026-05-14T14:00:00+09:00",
+      "entryEndAt": "2026-05-24T14:00:00+09:00",
+      "resultAt": "2026-05-28T14:00:00+09:00",
+      "paymentStartAt": "2026-05-28T14:00:00+09:00",
+      "paymentEndAt": "2026-05-31T23:59:00+09:00",
+      "performanceIds": [
+        "kobukuro_kasumibiyori_2026_ishikawa_0731",
+        "kobukuro_kasumibiyori_2026_ishikawa_0801",
+        "kobukuro_kasumibiyori_2026_fukuoka_0815",
+        "kobukuro_kasumibiyori_2026_fukuoka_0816",
+        "kobukuro_kasumibiyori_2026_miyagi_0822",
+        "kobukuro_kasumibiyori_2026_miyagi_0823",
+        "kobukuro_kasumibiyori_2026_hiroshima_0904",
+        "kobukuro_kasumibiyori_2026_kagawa_0924",
+        "kobukuro_kasumibiyori_2026_kagawa_0925",
+        "kobukuro_kasumibiyori_2026_hokkaido_0929",
+        "kobukuro_kasumibiyori_2026_hokkaido_0930",
+        "kobukuro_kasumibiyori_2026_osaka_arena_1006",
+        "kobukuro_kasumibiyori_2026_osaka_arena_1007",
+        "kobukuro_kasumibiyori_2026_kanagawa_1031",
+        "kobukuro_kasumibiyori_2026_kanagawa_1101"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kobukuro.com/feature/tour2026_ticket",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "kobukuro_kasumibiyori_2026_miyagi_general",
+      "tourId": "kobukuro_kasumibiyori_2026",
+      "type": "宮城8月23日公演 一般販売（先着）",
+      "entryStartAt": "2026-06-20T10:00:00+09:00",
+      "entryEndAt": "2026-08-22T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kobukuro_kasumibiyori_2026_miyagi_0823"
+      ],
+      "source": "system",
+      "sourceUrl": "https://l-tike.com/order/?gLcode=22359",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "kobukuro_kasumibiyori_2026_hokkaido_general",
+      "tourId": "kobukuro_kasumibiyori_2026",
+      "type": "北海道公演 一般販売（先着）",
+      "entryStartAt": "2026-07-25T10:00:00+09:00",
+      "entryEndAt": "2026-09-17T22:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kobukuro_kasumibiyori_2026_hokkaido_0929",
+        "kobukuro_kasumibiyori_2026_hokkaido_0930"
+      ],
+      "source": "system",
+      "sourceUrl": "https://l-tike.com/order/?gLcode=12287",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "kobukuro_kasumibiyori_2026_osaka_arena_prerequest",
+      "tourId": "kobukuro_kasumibiyori_2026",
+      "type": "大阪城ホール公演 プレリク先行（抽選）",
+      "entryStartAt": "2026-07-27T12:00:00+09:00",
+      "entryEndAt": "2026-08-11T23:59:00+09:00",
+      "resultAt": "2026-08-14T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kobukuro_kasumibiyori_2026_osaka_arena_1006",
+        "kobukuro_kasumibiyori_2026_osaka_arena_1007"
+      ],
+      "source": "system",
+      "sourceUrl": "https://l-tike.com/order/?gLcode=57360",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "kobukuro_kasumibiyori_2026_kanagawa_prerequest",
+      "tourId": "kobukuro_kasumibiyori_2026",
+      "type": "ぴあアリーナMM公演 プレリク先行（抽選）",
+      "entryStartAt": "2026-08-05T12:00:00+09:00",
+      "entryEndAt": "2026-08-16T23:59:00+09:00",
+      "resultAt": "2026-08-19T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kobukuro_kasumibiyori_2026_kanagawa_1031",
+        "kobukuro_kasumibiyori_2026_kanagawa_1101"
+      ],
+      "source": "system",
+      "sourceUrl": "https://l-tike.com/order/?gLcode=72889",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "kobukuro_event_yurin_live_vol4_2026_fc_fastest",
+      "tourId": "kobukuro_event_yurin_live_vol4_2026",
+      "type": "TEAM KOBUKURO／CLASS KOBUKURO 最速抽選先行",
+      "entryStartAt": "2026-07-25T21:00:00+09:00",
+      "entryEndAt": "2026-08-02T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kobukuro_event_yurin_live_vol4_2026_osaka_1027"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kobukuro.com/news/detail/105153",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "kobukuro_event_kasumibiyori_serial_campaign_2026_1st",
+      "tourId": "kobukuro_event_kasumibiyori_serial_campaign_2026",
+      "type": "豪華シリアルキャンペーン 第1弾",
+      "entryStartAt": "2026-07-21T18:00:00+09:00",
+      "entryEndAt": "2026-09-06T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kobukuro_event_kasumibiyori_serial_campaign_2026_tokyo_1123",
+        "kobukuro_event_kasumibiyori_serial_campaign_2026_osaka_1206"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kobukuro.com/feature/kobukuro_kasumibiyori",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "kobukuro_event_kasumibiyori_serial_campaign_2026_2nd",
+      "tourId": "kobukuro_event_kasumibiyori_serial_campaign_2026",
+      "type": "豪華シリアルキャンペーン 第2弾",
+      "entryStartAt": "2026-09-15T12:00:00+09:00",
+      "entryEndAt": "2026-11-03T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kobukuro_event_kasumibiyori_serial_campaign_2026_tokyo_1123",
+        "kobukuro_event_kasumibiyori_serial_campaign_2026_osaka_1206"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kobukuro.com/feature/kobukuro_kasumibiyori",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],

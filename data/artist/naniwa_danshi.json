@@ -19,7 +19,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://starto.jp/s/p/live/10489",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "naniwa_danshi_fes_kamigata_expo_park_2026",
@@ -27,10 +27,15 @@
       "title": "KAMIGATA EXPO PARK FES 2026",
       "startDate": "2026-10-31T00:00:00+09:00",
       "endDate": "2026-11-01T00:00:00+09:00",
-      "prices": null,
+      "prices": [
+        {
+          "label": "ファミリークラブ会員チケット（1日券）",
+          "amount": 16000
+        }
+      ],
       "source": "system",
       "sourceUrl": "https://starto.jp/s/p/live/10545",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -578,25 +583,25 @@
       "id": "naniwa_danshi_fes_kamigata_expo_park_2026_banpaku_1031",
       "tourId": "naniwa_danshi_fes_kamigata_expo_park_2026",
       "venue": "万博記念公園",
-      "performanceAt": "2026-10-31T18:00:00+09:00",
+      "performanceAt": "2026-10-31T17:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "KAMIGATA EXPO PARK FES 2026",
       "source": "system",
-      "sourceUrl": "https://starto.jp/s/p/live/10545",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://2026.kamigataboyz.com/1-1",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "naniwa_danshi_fes_kamigata_expo_park_2026_banpaku_1101",
       "tourId": "naniwa_danshi_fes_kamigata_expo_park_2026",
       "venue": "万博記念公園",
-      "performanceAt": "2026-11-01T18:00:00+09:00",
+      "performanceAt": "2026-11-01T17:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "KAMIGATA EXPO PARK FES 2026",
       "source": "system",
-      "sourceUrl": "https://starto.jp/s/p/live/10545",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://2026.kamigataboyz.com/1-1",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -720,6 +725,45 @@
       "source": "system",
       "sourceUrl": "https://w.pia.jp/p/naniwadanshi26ip-ok/",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "naniwa_danshi_nd5_2026_general_mo",
+      "tourId": "naniwa_danshi_nd5_2026",
+      "type": "一般発売（宮城・8月大阪公演、先着）",
+      "entryStartAt": "2026-08-01T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "naniwa_danshi_nd5_2026_miyagi_0815_1330",
+        "naniwa_danshi_nd5_2026_miyagi_0815_1800",
+        "naniwa_danshi_nd5_2026_miyagi_0816_1300",
+        "naniwa_danshi_nd5_2026_miyagi_0816_1730",
+        "naniwa_danshi_nd5_2026_osaka_0825_1800",
+        "naniwa_danshi_nd5_2026_osaka_0826_1330",
+        "naniwa_danshi_nd5_2026_osaka_0826_1800"
+      ],
+      "source": "system",
+      "sourceUrl": "https://w.pia.jp/p/naniwadanshi26ip-mo/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "naniwa_danshi_fes_kamigata_expo_park_2026_fc_1st",
+      "tourId": "naniwa_danshi_fes_kamigata_expo_park_2026",
+      "type": "ファミリークラブ会員受付（1日券）",
+      "entryStartAt": "2026-07-28T13:00:00+09:00",
+      "entryEndAt": "2026-08-03T12:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "naniwa_danshi_fes_kamigata_expo_park_2026_banpaku_1031",
+        "naniwa_danshi_fes_kamigata_expo_park_2026_banpaku_1101"
+      ],
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10545?tab=ticket",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

@@ -9,12 +9,28 @@
       "endDate": "2026-08-16T00:00:00+09:00",
       "prices": [
         {
+          "label": "大阪 3DAYチケット",
+          "amount": 54000
+        },
+        {
+          "label": "大阪 プラチナ3DAYチケット",
+          "amount": 90000
+        },
+        {
           "label": "大阪 1DAYチケット",
           "amount": 19000
         },
         {
           "label": "大阪 プラチナチケット",
           "amount": 31000
+        },
+        {
+          "label": "東京 3DAYチケット",
+          "amount": 59000
+        },
+        {
+          "label": "東京 プラチナ3DAYチケット",
+          "amount": 100000
         },
         {
           "label": "東京 1DAYチケット",
@@ -26,7 +42,7 @@
         }
       ],
       "source": "system",
-      "sourceUrl": "https://www.summersonic.com/tickets/osaka/",
+      "sourceUrl": "https://www.summersonic.com/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
@@ -45,25 +61,25 @@
     {
       "id": "travis_japan_fes_2026_summersonic_0814",
       "tourId": "travis_japan_fes_2026",
-      "venue": "万博記念公園",
-      "performanceAt": "2026-08-14T18:00:00+09:00",
-      "doorOpenAt": null,
+      "venue": "万博記念公園 桜の流れ（MASSIVE STAGE）",
+      "performanceAt": "2026-08-14T16:50:00+09:00",
+      "doorOpenAt": "2026-08-14T10:00:00+09:00",
       "kind": "fes",
       "eventName": "SUMMER SONIC 2026",
       "source": "system",
-      "sourceUrl": "https://www.summersonic.com/lineup/osaka-day1/",
+      "sourceUrl": "https://www.summersonic.com/tt/osaka-day1/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "travis_japan_fes_2026_summersonic_0816",
       "tourId": "travis_japan_fes_2026",
-      "venue": "幕張メッセ / ZOZOマリンスタジアム",
-      "performanceAt": "2026-08-16T18:00:00+09:00",
-      "doorOpenAt": null,
+      "venue": "幕張メッセ 国際展示場8ホール（PACIFIC STAGE）",
+      "performanceAt": "2026-08-16T15:25:00+09:00",
+      "doorOpenAt": "2026-08-16T09:00:00+09:00",
       "kind": "fes",
       "eventName": "SUMMER SONIC 2026",
       "source": "system",
-      "sourceUrl": "https://www.summersonic.com/lineup/tokyo-day3/",
+      "sourceUrl": "https://www.summersonic.com/tt/tokyo-day3/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
@@ -79,7 +95,168 @@
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
-  "lotteries": [],
+  "lotteries": [
+    {
+      "id": "travis_japan_fes_2026_osaka_general",
+      "tourId": "travis_japan_fes_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-05-30T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "travis_japan_fes_2026_summersonic_0814"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.summersonic.com/tickets/osaka/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "travis_japan_fes_2026_tokyo_general",
+      "tourId": "travis_japan_fes_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-05-30T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "travis_japan_fes_2026_summersonic_0816"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.summersonic.com/tickets/tokyo/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "travis_japan_fes_2026_osaka_morning_1st",
+      "tourId": "travis_japan_fes_2026",
+      "type": "朝イチ整理券 第1弾抽選",
+      "entryStartAt": "2026-07-21T12:00:00+09:00",
+      "entryEndAt": "2026-07-27T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "travis_japan_fes_2026_summersonic_0814"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.summersonic.com/tickets/osaka/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "travis_japan_fes_2026_osaka_morning_2nd",
+      "tourId": "travis_japan_fes_2026",
+      "type": "朝イチ整理券 第2弾抽選",
+      "entryStartAt": "2026-07-28T12:00:00+09:00",
+      "entryEndAt": "2026-08-03T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "travis_japan_fes_2026_summersonic_0814"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.summersonic.com/tickets/osaka/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "travis_japan_fes_2026_tokyo_morning_1st",
+      "tourId": "travis_japan_fes_2026",
+      "type": "朝イチ整理券 第1弾抽選",
+      "entryStartAt": "2026-07-21T12:00:00+09:00",
+      "entryEndAt": "2026-07-27T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "travis_japan_fes_2026_summersonic_0816"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.summersonic.com/tickets/tokyo/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "travis_japan_fes_2026_tokyo_morning_2nd",
+      "tourId": "travis_japan_fes_2026",
+      "type": "朝イチ整理券 第2弾抽選",
+      "entryStartAt": "2026-07-28T12:00:00+09:00",
+      "entryEndAt": "2026-08-03T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "travis_japan_fes_2026_summersonic_0816"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.summersonic.com/tickets/tokyo/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "travis_japan_event_j_lions_2026_season_ticket_priority",
+      "tourId": "travis_japan_event_j_lions_2026",
+      "type": "2026豪華季票優先購票",
+      "entryStartAt": "2026-07-15T13:00:00+09:00",
+      "entryEndAt": "2026-07-15T18:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "travis_japan_event_j_lions_2026_taipei_0822"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39760",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "travis_japan_event_j_lions_2026_lions_card_plus_priority",
+      "tourId": "travis_japan_event_j_lions_2026",
+      "type": "2026獅卡PLUS優先購票",
+      "entryStartAt": "2026-07-15T19:00:00+09:00",
+      "entryEndAt": "2026-07-16T18:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "travis_japan_event_j_lions_2026_taipei_0822"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39760",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "travis_japan_event_j_lions_2026_mega_card_priority",
+      "tourId": "travis_japan_event_j_lions_2026",
+      "type": "兆豐聯名卡優先購票",
+      "entryStartAt": "2026-07-16T19:00:00+09:00",
+      "entryEndAt": "2026-07-17T18:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "travis_japan_event_j_lions_2026_taipei_0822"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39760",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "travis_japan_event_j_lions_2026_general",
+      "tourId": "travis_japan_event_j_lions_2026",
+      "type": "全面開賣（一般発売）",
+      "entryStartAt": "2026-07-17T19:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "travis_japan_event_j_lions_2026_taipei_0822"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ticket.ibon.com.tw/ActivityInfo/Details/39760",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
   "appleMusicTracks": [
     {
       "songId": "6791038155",

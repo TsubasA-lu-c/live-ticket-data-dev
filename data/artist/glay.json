@@ -7,9 +7,34 @@
       "title": "音楽と髭達2026-TIME MACHINE",
       "startDate": "2026-08-29T11:00:00+09:00",
       "endDate": "2026-08-29T11:00:00+09:00",
-      "prices": null,
+      "prices": [
+        {
+          "label": "グッズ付きチケット（大人）",
+          "amount": 15000
+        },
+        {
+          "label": "グッズ付きチケット（中高生）",
+          "amount": 8000
+        },
+        {
+          "label": "グッズ付きチケット（小学生）",
+          "amount": 5000
+        },
+        {
+          "label": "通常チケット（大人）",
+          "amount": 13000
+        },
+        {
+          "label": "通常チケット（中高生）",
+          "amount": 6000
+        },
+        {
+          "label": "通常チケット（小学生）",
+          "amount": 3000
+        }
+      ],
       "source": "system",
-      "sourceUrl": "https://www.glay.co.jp/news/detail/10087",
+      "sourceUrl": "https://otohige.com/ticket.html",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
@@ -82,133 +107,133 @@
       "id": "glay_exofire_2026_osaka_1107",
       "tourId": "glay_exofire_2026",
       "venue": "大阪城ホール",
-      "performanceAt": "2026-11-07T18:00:00+09:00",
+      "performanceAt": "2026-11-07T17:00:00+09:00",
       "doorOpenAt": "2026-11-07T16:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_osaka_1108",
       "tourId": "glay_exofire_2026",
       "venue": "大阪城ホール",
-      "performanceAt": "2026-11-08T18:00:00+09:00",
+      "performanceAt": "2026-11-08T16:00:00+09:00",
       "doorOpenAt": "2026-11-08T15:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_miyagi_1121",
       "tourId": "glay_exofire_2026",
       "venue": "ゼビオアリーナ仙台",
-      "performanceAt": "2026-11-21T18:00:00+09:00",
+      "performanceAt": "2026-11-21T17:00:00+09:00",
       "doorOpenAt": "2026-11-21T16:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_miyagi_1122",
       "tourId": "glay_exofire_2026",
       "venue": "ゼビオアリーナ仙台",
-      "performanceAt": "2026-11-22T18:00:00+09:00",
+      "performanceAt": "2026-11-22T16:00:00+09:00",
       "doorOpenAt": "2026-11-22T15:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_tokyo_1128",
       "tourId": "glay_exofire_2026",
       "venue": "有明アリーナ",
-      "performanceAt": "2026-11-28T18:00:00+09:00",
+      "performanceAt": "2026-11-28T17:00:00+09:00",
       "doorOpenAt": "2026-11-28T16:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_tokyo_1129",
       "tourId": "glay_exofire_2026",
       "venue": "有明アリーナ",
-      "performanceAt": "2026-11-29T18:00:00+09:00",
+      "performanceAt": "2026-11-29T16:00:00+09:00",
       "doorOpenAt": "2026-11-29T15:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_niigata_1205",
       "tourId": "glay_exofire_2026",
       "venue": "朱鷺メッセ",
-      "performanceAt": "2026-12-05T18:00:00+09:00",
+      "performanceAt": "2026-12-05T17:00:00+09:00",
       "doorOpenAt": "2026-12-05T16:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_hokkaido_1212",
       "tourId": "glay_exofire_2026",
       "venue": "北海きたえーる",
-      "performanceAt": "2026-12-12T18:00:00+09:00",
+      "performanceAt": "2026-12-12T17:00:00+09:00",
       "doorOpenAt": "2026-12-12T16:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_hokkaido_1213",
       "tourId": "glay_exofire_2026",
       "venue": "北海きたえーる",
-      "performanceAt": "2026-12-13T18:00:00+09:00",
+      "performanceAt": "2026-12-13T16:00:00+09:00",
       "doorOpenAt": "2026-12-13T15:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_fukuoka_1219",
       "tourId": "glay_exofire_2026",
       "venue": "マリンメッセ福岡A館",
-      "performanceAt": "2026-12-19T18:00:00+09:00",
+      "performanceAt": "2026-12-19T17:00:00+09:00",
       "doorOpenAt": "2026-12-19T16:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_fukuoka_1220",
       "tourId": "glay_exofire_2026",
       "venue": "マリンメッセ福岡A館",
-      "performanceAt": "2026-12-20T18:00:00+09:00",
+      "performanceAt": "2026-12-20T16:00:00+09:00",
       "doorOpenAt": "2026-12-20T15:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_hyogo_0116",
@@ -220,7 +245,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_hyogo_0117",
@@ -232,7 +257,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_hiroshima_0130",
@@ -244,7 +269,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_hiroshima_0131",
@@ -256,7 +281,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_aichi_0206",
@@ -268,7 +293,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_aichi_0207",
@@ -280,7 +305,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_hakodate_0211",
@@ -292,7 +317,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_hakodate_0213",
@@ -304,7 +329,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_hakodate_0214",
@@ -316,7 +341,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_yokohama_0220",
@@ -328,7 +353,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_yokohama_0221",
@@ -340,10 +365,54 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "lotteries": [
+    {
+      "id": "glay_fes_2026_otohige_general_lottery",
+      "tourId": "glay_fes_2026_otohige",
+      "type": "チケプラ 一般販売（抽選）",
+      "entryStartAt": "2026-07-05T10:00:00+09:00",
+      "entryEndAt": "2026-07-05T23:59:00+09:00",
+      "resultAt": "2026-07-07T18:00:00+09:00",
+      "paymentStartAt": "2026-07-07T18:00:00+09:00",
+      "paymentEndAt": "2026-07-12T23:00:00+09:00",
+      "performanceIds": [
+        "glay_fes_2026_otohige_0829"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tixplus.jp/feature/otohige/2026/ticket/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_happy_swing",
+      "tourId": "glay_exofire_2026",
+      "type": "HAPPY SWINGチケット先行抽選予約",
+      "entryStartAt": null,
+      "entryEndAt": "2026-04-20T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/news/detail/9891",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_glay_mobile",
+      "tourId": "glay_exofire_2026",
+      "type": "GLAY MOBILEチケット先行抽選予約",
+      "entryStartAt": "2026-04-24T15:00:00+09:00",
+      "entryEndAt": "2026-05-11T23:00:00+09:00",
+      "resultAt": "2026-05-15T15:00:00+09:00",
+      "paymentStartAt": "2026-05-15T15:00:00+09:00",
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://sp.glaymobile.jp/feature/ticket_arena2627",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
     {
       "id": "glay_exofire_2026_lawson",
       "tourId": "glay_exofire_2026",
@@ -360,6 +429,30 @@
         "glay_exofire_2026_fukuoka_1219",
         "glay_exofire_2026_fukuoka_1220",
         "glay_exofire_2026_hyogo_0116",
+        "glay_exofire_2026_hyogo_0117",
+        "glay_exofire_2026_hiroshima_0130",
+        "glay_exofire_2026_hiroshima_0131",
+        "glay_exofire_2026_aichi_0206",
+        "glay_exofire_2026_aichi_0207"
+      ],
+      "source": "system",
+      "sourceUrl": "https://l-tike.com/concert/glay-lt-2026-2027/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_lawson_0727",
+      "tourId": "glay_exofire_2026",
+      "type": "ローソンチケット先行",
+      "entryStartAt": "2026-07-27T15:00:00+09:00",
+      "entryEndAt": "2026-08-11T23:00:00+09:00",
+      "resultAt": "2026-08-14T15:00:00+09:00",
+      "paymentStartAt": "2026-08-14T15:00:00+09:00",
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_exofire_2026_niigata_1205",
+        "glay_exofire_2026_hokkaido_1213",
+        "glay_exofire_2026_fukuoka_1219",
+        "glay_exofire_2026_fukuoka_1220",
         "glay_exofire_2026_hyogo_0117",
         "glay_exofire_2026_hiroshima_0130",
         "glay_exofire_2026_hiroshima_0131",
@@ -390,7 +483,7 @@
     {
       "id": "glay_exofire_2026_pia_current",
       "tourId": "glay_exofire_2026",
-      "type": "チケットぴあ プレリザーブ（ぴあカードで確率UP）",
+      "type": "チケットぴあ プレリザーブ",
       "entryStartAt": null,
       "entryEndAt": "2026-08-11T23:59:00+09:00",
       "resultAt": null,
@@ -398,10 +491,16 @@
       "paymentEndAt": null,
       "performanceIds": [
         "glay_exofire_2026_niigata_1205",
-        "glay_exofire_2026_hokkaido_1213"
+        "glay_exofire_2026_hokkaido_1213",
+        "glay_exofire_2026_fukuoka_1219",
+        "glay_exofire_2026_fukuoka_1220",
+        "glay_exofire_2026_hiroshima_0130",
+        "glay_exofire_2026_hiroshima_0131",
+        "glay_exofire_2026_aichi_0206",
+        "glay_exofire_2026_aichi_0207"
       ],
       "source": "system",
-      "sourceUrl": "https://t.pia.jp/pia/event/event.do?eventCd=2627147",
+      "sourceUrl": "https://w.pia.jp/t/glay-tour26-27/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
@@ -474,7 +573,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "glay_hakodate_art_exhibition_2026_special_live_lottery",

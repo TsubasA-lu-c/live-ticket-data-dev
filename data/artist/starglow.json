@@ -29,6 +29,17 @@
       "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
+      "id": "starglow_fes_2026_mtv_vmaj",
+      "artistId": "starglow",
+      "title": "MTV VMAJ 2026",
+      "startDate": "2026-10-29T00:00:00+09:00",
+      "endDate": "2026-10-29T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://starglow.tokyo/news/media/1328/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
       "id": "starglow_event_2026_rakuten_girls_award",
       "artistId": "starglow",
       "title": "Rakuten GirlsAward 2026 AUTUMN/WINTER",
@@ -135,6 +146,18 @@
       "source": "system",
       "sourceUrl": "https://bmsgfes.tokyo/",
       "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_fes_2026_mtv_vmaj_1029",
+      "tourId": "starglow_fes_2026_mtv_vmaj",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-10-29T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "MTV VMAJ 2026",
+      "source": "system",
+      "sourceUrl": "https://starglow.tokyo/news/media/1328/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "starglow_event_2026_rakuten_girls_award_0926",

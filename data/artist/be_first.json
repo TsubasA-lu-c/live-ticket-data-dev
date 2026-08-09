@@ -79,49 +79,49 @@
       "id": "be_first_world_showcase_bangkok_0925",
       "tourId": "be_first_world_showcase_2026",
       "venue": "Samyan Mitrtown Hall",
-      "performanceAt": "2026-09-25T12:00:00+09:00",
+      "performanceAt": "2026-09-25T18:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://befirst.tokyo/global2026/showcase",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "be_first_world_showcase_taipei_0927",
       "tourId": "be_first_world_showcase_2026",
       "venue": "Legacy TERA",
-      "performanceAt": "2026-09-27T12:00:00+09:00",
+      "performanceAt": "2026-09-27T18:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://befirst.tokyo/global2026/showcase",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "be_first_world_showcase_manila_1003",
       "tourId": "be_first_world_showcase_2026",
       "venue": "New Frontier Theater",
-      "performanceAt": "2026-10-03T12:00:00+09:00",
+      "performanceAt": "2026-10-03T18:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://befirst.tokyo/global2026/showcase",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "be_first_world_showcase_ny_1023",
       "tourId": "be_first_world_showcase_2026",
       "venue": "Gramercy Theatre",
-      "performanceAt": "2026-10-23T12:00:00+09:00",
+      "performanceAt": "2026-10-23T18:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://befirst.tokyo/global2026/showcase",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "be_first_dome_tour_2027_tokyodome_0111",
@@ -199,37 +199,37 @@
       "id": "be_first_fes_summer_sonic_0815",
       "tourId": "be_first_fes_summer_sonic",
       "venue": "ZOZOマリンスタジアム＆幕張メッセ",
-      "performanceAt": "2026-08-15T12:00:00+09:00",
+      "performanceAt": "2026-08-15T18:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "SUMMER SONIC 2026",
       "source": "system",
       "sourceUrl": "https://befirst.tokyo/category/live/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "be_first_fes_lalalala_0823",
       "tourId": "be_first_fes_lalalala",
       "venue": "Jakarta International Expo",
-      "performanceAt": "2026-08-23T12:00:00+09:00",
+      "performanceAt": "2026-08-23T18:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "LaLaLa Fest 2026",
       "source": "system",
       "sourceUrl": "https://befirst.tokyo/category/live/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "be_first_fes_music_and_beards_0829",
       "tourId": "be_first_fes_music_and_beards",
       "venue": "HARD OFF ECO スタジアム新潟",
-      "performanceAt": "2026-08-29T12:00:00+09:00",
+      "performanceAt": "2026-08-29T18:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "音楽と髭達2026",
       "source": "system",
       "sourceUrl": "https://befirst.tokyo/category/live/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "lotteries": [

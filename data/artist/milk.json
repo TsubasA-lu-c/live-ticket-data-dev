@@ -46,10 +46,44 @@
         {
           "label": "指定席",
           "amount": 15000
+        },
+        {
+          "label": "ファミリー(号車)席",
+          "amount": 15000
+        },
+        {
+          "label": "注釈付指定席",
+          "amount": 15000
+        },
+        {
+          "label": "完全見切れ席",
+          "amount": 14500
         }
       ],
       "source": "system",
-      "sourceUrl": "https://sd-milk.com/contents/1081642",
+      "sourceUrl": "https://ebidan.jp/feature/ebidan_live2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "milk_love_engine_release_event_2026",
+      "artistId": "milk",
+      "title": "『LOVE ENG!NE』発売日記念スペシャルイベント",
+      "startDate": "2026-09-16T00:00:00+09:00",
+      "endDate": "2026-09-16T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1098310",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "milk_love_engine_6shot_sendoff_2026",
+      "artistId": "milk",
+      "title": "『LOVE ENG!NE』発売記念 6SHOT撮影会＆メンバー全員お見送り会",
+      "startDate": "2026-09-16T00:00:00+09:00",
+      "endDate": "2026-09-16T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1098315",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
@@ -341,6 +375,30 @@
       "source": "system",
       "sourceUrl": "https://sd-milk.com/contents/1081642",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "milk_love_engine_release_event_2026_tokyo_0916",
+      "tourId": "milk_love_engine_release_event_2026",
+      "venue": "東京都内某所",
+      "performanceAt": "2026-09-16T19:00:00+09:00",
+      "doorOpenAt": "2026-09-16T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "『LOVE ENG!NE』発売日記念スペシャルイベント",
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1098310",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "milk_love_engine_6shot_sendoff_2026_tokyo_0916",
+      "tourId": "milk_love_engine_6shot_sendoff_2026",
+      "venue": "東京都内某所",
+      "performanceAt": "2026-09-16T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "『LOVE ENG!NE』発売記念 6SHOT撮影会＆メンバー全員お見送り会",
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1098315",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -426,6 +484,204 @@
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://sd-milk.com/pages/shakarikirevolution",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "milk_ebidan_live_2026_fc_stardust",
+      "tourId": "milk_ebidan_live_2026",
+      "type": "各オフィシャルファンクラブ・スターダストチャンネル会員限定先行",
+      "entryStartAt": "2026-04-09T15:15:00+09:00",
+      "entryEndAt": "2026-04-19T23:59:00+09:00",
+      "resultAt": "2026-05-01T20:00:00+09:00",
+      "paymentStartAt": "2026-05-01T20:00:00+09:00",
+      "paymentEndAt": "2026-05-05T23:59:00+09:00",
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://ebidan.jp/feature/ebidan_live2026_ticket",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "milk_ebidan_live_2026_kirari",
+      "tourId": "milk_ebidan_live_2026",
+      "type": "国内・海外在住＋KIRARI会員限定先行",
+      "entryStartAt": "2026-05-01T20:00:00+09:00",
+      "entryEndAt": "2026-05-07T23:59:00+09:00",
+      "resultAt": "2026-05-20T20:00:00+09:00",
+      "paymentStartAt": "2026-05-20T20:00:00+09:00",
+      "paymentEndAt": "2026-05-24T23:59:00+09:00",
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://ebidan.jp/feature/ebidan_live2026_ticket",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "milk_ebidan_live_2026_cd_serial",
+      "tourId": "milk_ebidan_live_2026",
+      "type": "EBiDAN 15周年 Single『Yes! 東京』CDシリアル先行",
+      "entryStartAt": "2026-05-20T20:00:00+09:00",
+      "entryEndAt": "2026-05-31T23:59:00+09:00",
+      "resultAt": "2026-06-10T20:00:00+09:00",
+      "paymentStartAt": "2026-06-10T20:00:00+09:00",
+      "paymentEndAt": "2026-06-14T23:59:00+09:00",
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://ebidan.jp/feature/ebidan_live2026_ticket",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "milk_ebidan_live_2026_upgrade",
+      "tourId": "milk_ebidan_live_2026",
+      "type": "アップグレードチケット受付",
+      "entryStartAt": "2026-06-23T20:00:00+09:00",
+      "entryEndAt": "2026-06-28T23:59:00+09:00",
+      "resultAt": "2026-07-04T20:00:00+09:00",
+      "paymentStartAt": "2026-07-04T20:00:00+09:00",
+      "paymentEndAt": "2026-07-07T23:59:00+09:00",
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://ebidan.jp/feature/ebidan_live2026_ticket",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "milk_ebidan_live_2026_general",
+      "tourId": "milk_ebidan_live_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-08-01T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1096772",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "milk_ebidan_live_2026_trade_0813",
+      "tourId": "milk_ebidan_live_2026",
+      "type": "定価トレード（8月13日公演・先着）",
+      "entryStartAt": "2026-08-05T21:00:00+09:00",
+      "entryEndAt": "2026-08-12T18:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_ebidan_live_2026_yoyogi_0813"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1098046",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "milk_ebidan_live_2026_trade_0814",
+      "tourId": "milk_ebidan_live_2026",
+      "type": "定価トレード（8月14日公演・先着）",
+      "entryStartAt": "2026-08-05T21:00:00+09:00",
+      "entryEndAt": "2026-08-13T18:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_ebidan_live_2026_yoyogi_0814"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1098046",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "milk_ebidan_live_2026_trade_0815",
+      "tourId": "milk_ebidan_live_2026",
+      "type": "定価トレード（8月15日公演・先着）",
+      "entryStartAt": "2026-08-05T21:00:00+09:00",
+      "entryEndAt": "2026-08-14T18:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_ebidan_live_2026_yoyogi_0815"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1098046",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "milk_ebidan_live_2026_trade_0816",
+      "tourId": "milk_ebidan_live_2026",
+      "type": "定価トレード（8月16日公演・先着）",
+      "entryStartAt": "2026-08-05T21:00:00+09:00",
+      "entryEndAt": "2026-08-15T18:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_ebidan_live_2026_yoyogi_0816"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1098046",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "milk_love_engine_release_event_2026_premium_milk",
+      "tourId": "milk_love_engine_release_event_2026",
+      "type": "PREMIUM MILK会員 リリースイベント観覧申込",
+      "entryStartAt": "2026-08-05T17:00:00+09:00",
+      "entryEndAt": "2026-08-10T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_love_engine_release_event_2026_tokyo_0916"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1098310",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "milk_love_engine_release_event_2026_general",
+      "tourId": "milk_love_engine_release_event_2026",
+      "type": "一般 リリースイベント観覧申込",
+      "entryStartAt": "2026-08-11T18:00:00+09:00",
+      "entryEndAt": "2026-08-17T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_love_engine_release_event_2026_tokyo_0916"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1098310",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "milk_love_engine_6shot_sendoff_2026_6shot",
+      "tourId": "milk_love_engine_6shot_sendoff_2026",
+      "type": "PREMIUM MILK会員限定 6SHOT撮影会抽選",
+      "entryStartAt": "2026-08-06T17:00:00+09:00",
+      "entryEndAt": "2026-08-17T16:59:00+09:00",
+      "resultAt": "2026-08-20T17:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_love_engine_6shot_sendoff_2026_tokyo_0916"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1098315",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "milk_love_engine_6shot_sendoff_2026_sendoff",
+      "tourId": "milk_love_engine_6shot_sendoff_2026",
+      "type": "メンバー全員お見送り会抽選",
+      "entryStartAt": "2026-08-06T17:00:00+09:00",
+      "entryEndAt": "2026-08-17T16:59:00+09:00",
+      "resultAt": "2026-08-20T17:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_love_engine_6shot_sendoff_2026_tokyo_0916"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1098315",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],

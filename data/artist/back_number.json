@@ -348,6 +348,57 @@
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
+      "id": "back_number_grateful_yesterdays_2026_taipei_local_lottery",
+      "tourId": "back_number_grateful_yesterdays_2026",
+      "type": "台北公演 現地登記抽選",
+      "entryStartAt": "2026-04-20T14:00:00+09:00",
+      "entryEndAt": "2026-04-22T14:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "back_number_grateful_yesterdays_2026_taipei_0822",
+        "back_number_grateful_yesterdays_2026_taipei_0823"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ticketplus.com.tw/activity/255cce9d593d4a27db01f64072f4b94c",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "back_number_grateful_yesterdays_2026_seoul_general",
+      "tourId": "back_number_grateful_yesterdays_2026",
+      "type": "ソウル公演 一般販売（先着）",
+      "entryStartAt": "2026-04-22T19:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "back_number_grateful_yesterdays_2026_seoul_0912",
+        "back_number_grateful_yesterdays_2026_seoul_0913"
+      ],
+      "source": "system",
+      "sourceUrl": "https://m.ticket.yes24.com/Notice/Detail.aspx?bid=17720",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "back_number_grateful_yesterdays_2026_hongkong_general",
+      "tourId": "back_number_grateful_yesterdays_2026",
+      "type": "香港公演 現地一般販売（先着）",
+      "entryStartAt": "2026-05-21T13:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "back_number_grateful_yesterdays_2026_hongkong_0926",
+        "back_number_grateful_yesterdays_2026_hongkong_0927"
+      ],
+      "source": "system",
+      "sourceUrl": "https://backnumber.info/special_site/stadiumtour2026/detail/329",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
       "id": "back_number_grateful_yesterdays_2026_kumamoto_same_day_ticket",
       "tourId": "back_number_grateful_yesterdays_2026",
       "type": "熊本公演 当日引き換えチケット受付（抽選制）",
@@ -362,6 +413,23 @@
       ],
       "source": "system",
       "sourceUrl": "https://backnumber.info/feature/stadiumtour2026_ticket",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "back_number_grateful_yesterdays_2026_taipei_additional_sale",
+      "tourId": "back_number_grateful_yesterdays_2026",
+      "type": "台北公演 追加販売（先着）",
+      "entryStartAt": "2026-08-08T13:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "back_number_grateful_yesterdays_2026_taipei_0822",
+        "back_number_grateful_yesterdays_2026_taipei_0823"
+      ],
+      "source": "system",
+      "sourceUrl": "https://backnumber.info/special_site/stadiumtour2026/detail/348?lang=en",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],

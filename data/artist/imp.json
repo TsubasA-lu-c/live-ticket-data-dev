@@ -7,10 +7,10 @@
       "title": "ROCK IN JAPAN FESTIVAL 2026",
       "startDate": "2026-09-13T00:00:00+09:00",
       "endDate": "2026-09-13T00:00:00+09:00",
-      "prices": [],
+      "prices": null,
       "source": "system",
-      "sourceUrl": "https://rijfes.jp/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "sourceUrl": "https://rijfes.jp/2026/home/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -19,12 +19,12 @@
       "tourId": "imp_fes_rock_in_japan_2026",
       "venue": "千葉市蘇我スポーツ公園",
       "performanceAt": "2026-09-13T18:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-09-13T08:30:00+09:00",
       "kind": "fes",
       "eventName": "ROCK IN JAPAN FESTIVAL 2026",
       "source": "system",
-      "sourceUrl": "https://rijfes.jp/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "sourceUrl": "https://rijfes.jp/2026/artist/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "lotteries": [],
