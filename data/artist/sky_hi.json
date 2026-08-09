@@ -2,22 +2,6 @@
   "artistId": "sky_hi",
   "tours": [
     {
-      "id": "sky_hi_fes_2026",
-      "artistId": "sky_hi",
-      "title": "s**t kingz Fes 2026 会社",
-      "startDate": "2026-07-25T00:00:00+09:00",
-      "endDate": "2026-07-26T00:00:00+09:00",
-      "prices": [
-        {
-          "label": "全席指定",
-          "amount": 15000
-        }
-      ],
-      "source": "system",
-      "sourceUrl": "https://shitkingz.jp/s/stkgzfes2026/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-    },
-    {
       "id": "sky_hi_fes_bmsg_fes_2026",
       "artistId": "sky_hi",
       "title": "BMSG FES’26",
@@ -39,22 +23,21 @@
       ],
       "source": "system",
       "sourceUrl": "https://bmsgfes.tokyo/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_event_2026_toyosu_pit",
+      "artistId": "sky_hi",
+      "title": "SKY-HI単独豊洲PIT公演 3DAYS",
+      "startDate": "2026-12-11T00:00:00+09:00",
+      "endDate": "2026-12-13T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/news/2086",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "performances": [
-    {
-      "id": "sky_hi_fes_2026_stkgz_0726",
-      "tourId": "sky_hi_fes_2026",
-      "venue": "ぴあアリーナMM",
-      "performanceAt": "2026-07-26T15:00:00+09:00",
-      "doorOpenAt": "2026-07-26T14:00:00+09:00",
-      "kind": "fes",
-      "eventName": "s**t kingz Fes 2026 会社",
-      "source": "system",
-      "sourceUrl": "https://shitkingz.jp/s/stkgzfes2026/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-    },
     {
       "id": "sky_hi_fes_bmsg_fes_2026_odaiba_1010",
       "tourId": "sky_hi_fes_bmsg_fes_2026",
@@ -65,7 +48,7 @@
       "eventName": "BMSG FES’26",
       "source": "system",
       "sourceUrl": "https://skyhi.tokyo/live/2026/2112",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "sky_hi_fes_bmsg_fes_2026_odaiba_1011",
@@ -77,7 +60,7 @@
       "eventName": "BMSG FES’26",
       "source": "system",
       "sourceUrl": "https://skyhi.tokyo/live/2026/2112",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "sky_hi_fes_bmsg_fes_2026_odaiba_1012",
@@ -89,26 +72,46 @@
       "eventName": "BMSG FES’26",
       "source": "system",
       "sourceUrl": "https://skyhi.tokyo/live/2026/2112",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_event_2026_toyosu_pit_toyosu_1211",
+      "tourId": "sky_hi_event_2026_toyosu_pit",
+      "venue": "豊洲PIT",
+      "performanceAt": "2026-12-11T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SKY-HI単独豊洲PIT公演 3DAYS",
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/news/2086",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_event_2026_toyosu_pit_toyosu_1212",
+      "tourId": "sky_hi_event_2026_toyosu_pit",
+      "venue": "豊洲PIT",
+      "performanceAt": "2026-12-12T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SKY-HI単独豊洲PIT公演 3DAYS",
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/news/2086",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_event_2026_toyosu_pit_toyosu_1213",
+      "tourId": "sky_hi_event_2026_toyosu_pit",
+      "venue": "豊洲PIT",
+      "performanceAt": "2026-12-13T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SKY-HI単独豊洲PIT公演 3DAYS",
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/news/2086",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "lotteries": [
-    {
-      "id": "sky_hi_fes_2026_flyers",
-      "tourId": "sky_hi_fes_2026",
-      "type": "FC先行（FLYERS）",
-      "entryStartAt": "2026-05-16T21:00:00+09:00",
-      "entryEndAt": "2026-05-24T23:59:00+09:00",
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": [
-        "sky_hi_fes_2026_stkgz_0726"
-      ],
-      "source": "system",
-      "sourceUrl": "https://skyhi.tokyo/live/2026/2058",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-    },
     {
       "id": "sky_hi_fes_bmsg_fes_2026_btown_architect",
       "tourId": "sky_hi_fes_bmsg_fes_2026",
@@ -120,8 +123,8 @@
       "paymentEndAt": null,
       "performanceIds": null,
       "source": "system",
-      "sourceUrl": "https://skyhi.tokyo/news/2109",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://bmsgfes.tokyo/news/260629",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "sky_hi_fes_bmsg_fes_2026_flyers_resident",
@@ -134,8 +137,8 @@
       "paymentEndAt": null,
       "performanceIds": null,
       "source": "system",
-      "sourceUrl": "https://skyhi.tokyo/news/2109",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://bmsgfes.tokyo/news/260715",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
