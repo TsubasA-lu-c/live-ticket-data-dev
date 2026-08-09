@@ -203,6 +203,23 @@
       "source": "system",
       "sourceUrl": "https://starglow.tokyo/news/live/1214/",
       "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_star_cruise_special_2026_kobe_additional",
+      "tourId": "starglow_star_cruise_special_2026",
+      "type": "追加機材解放席販売（先着）",
+      "entryStartAt": "2026-08-07T20:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "starglow_star_cruise_special_2026_hyogo_0808",
+        "starglow_star_cruise_special_2026_hyogo_0809"
+      ],
+      "source": "system",
+      "sourceUrl": "https://starglow.tokyo/news/live/1327/",
+      "lastVerifiedAt": "2026-08-10T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

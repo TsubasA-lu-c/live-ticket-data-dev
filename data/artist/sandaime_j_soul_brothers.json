@@ -298,6 +298,22 @@
       "source": "system",
       "sourceUrl": "https://www.ldh-liveschedule.jp/sys/news/43936/?lang=ja",
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_jsb_land_forever_2026_aichi直前販売",
+      "tourId": "sandaime_j_soul_brothers_jsb_land_forever_2026",
+      "type": "直前販売",
+      "entryStartAt": "2026-08-08T18:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_nagoya_0809"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/newslist/?t=40856&lang=ja",
+      "lastVerifiedAt": "2026-08-10T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
