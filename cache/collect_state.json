@@ -1,0 +1,3876 @@
+{
+  "ellegarden": {
+    "urls": {
+      "https://ellegarden.jp/live.html": {
+        "lastFetchedAt": "2026-08-10T07:34:13+09:00",
+        "httpStatus": 200,
+        "contentHash": "aec9f5a8120640943065b71842607900",
+        "normalizedChars": 22,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://ellegarden.jp/news.html": {
+        "lastFetchedAt": "2026-08-10T07:34:16+09:00",
+        "httpStatus": 200,
+        "contentHash": "3a715c3f29ff88c1865b645ac8035aa5",
+        "normalizedChars": 1665,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://ellegarden.jp/": {
+        "lastFetchedAt": "2026-08-10T07:34:19+09:00",
+        "httpStatus": 200,
+        "contentHash": "a98e26f5b86725f28f60928758b5cc3b",
+        "normalizedChars": 155,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:34:19+09:00",
+    "parserEvents": 10,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "golden_bomber": {
+    "urls": {
+      "https://pc.goldenbomber.jp/contents/live_event": {
+        "lastFetchedAt": "2026-08-10T07:14:26+09:00",
+        "httpStatus": 200,
+        "contentHash": "4567d1c2d9aca06a6f4335444289cbab",
+        "normalizedChars": 432,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://pc.goldenbomber.jp/": {
+        "lastFetchedAt": "2026-08-10T07:14:29+09:00",
+        "httpStatus": 200,
+        "contentHash": "2bad16cb11f7b8cd20c04f869ca0fdb4",
+        "normalizedChars": 18825,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://pc.goldenbomber.jp/contents/1018840": {
+        "lastFetchedAt": "2026-08-10T07:14:31+09:00",
+        "httpStatus": 200,
+        "contentHash": "5cf25902d6fb3a67159f8a7a251eaf70",
+        "normalizedChars": 5206,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://pc.goldenbomber.jp/contents/70363": {
+        "lastFetchedAt": "2026-08-10T07:14:34+09:00",
+        "httpStatus": 200,
+        "contentHash": "63062ed68909dddcb26c7f4cf8de9e61",
+        "normalizedChars": 1858,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:14:34+09:00",
+    "parserEvents": 78,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "yonezu_kenshi": {
+    "urls": {
+      "https://reissuerecords.net/live/": {
+        "lastFetchedAt": "2026-08-10T07:14:34+09:00",
+        "httpStatus": 200,
+        "contentHash": "2ef1a8d9cc28481f7f2167e62f975f2e",
+        "normalizedChars": 172,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://reissuerecords.net/news/": {
+        "lastFetchedAt": "2026-08-10T07:14:37+09:00",
+        "httpStatus": 200,
+        "contentHash": "01eb572a67dc3fe07cccab2c1f565698",
+        "normalizedChars": 163,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://reissuerecords.net/2025/08/08/2026-tour-ghost/": {
+        "lastFetchedAt": "2026-08-10T07:14:41+09:00",
+        "httpStatus": 200,
+        "contentHash": "90218d8c74162bf23fc4239068a1d673",
+        "normalizedChars": 1673,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://reissuerecords.net/": {
+        "lastFetchedAt": "2026-08-10T07:14:43+09:00",
+        "httpStatus": 200,
+        "contentHash": "3385c13d33532acff92254a1163837c3",
+        "normalizedChars": 355,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:14:43+09:00",
+    "parserEvents": 8,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "mizuki_nana": {
+    "urls": {
+      "https://www.mizukinana.jp/news/": {
+        "lastFetchedAt": "2026-08-10T07:14:44+09:00",
+        "httpStatus": 200,
+        "contentHash": "6c928c161e39a5eb0ab6970eba919dcd",
+        "normalizedChars": 57,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://www.mizukinana.jp/schedule/": {
+        "lastFetchedAt": "2026-08-10T07:14:47+09:00",
+        "httpStatus": 200,
+        "contentHash": "340360161abe3da70148bdf6922e1dad",
+        "normalizedChars": 981,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.mizukinana.jp/biography/": {
+        "lastFetchedAt": "2026-08-10T07:14:50+09:00",
+        "httpStatus": 200,
+        "contentHash": "92623bf350a0052cc281ebf6a3e12cdc",
+        "normalizedChars": 29417,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.mizukinana.jp/": {
+        "lastFetchedAt": "2026-08-10T07:14:53+09:00",
+        "httpStatus": 200,
+        "contentHash": "db2affe5d751cd7722c1a252be32c238",
+        "normalizedChars": 606,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:14:53+09:00",
+    "parserEvents": 284,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "iris": {
+    "urls": {
+      "https://iris.dive2ent.com/liveevent/": {
+        "lastFetchedAt": "2026-08-10T07:14:53+09:00",
+        "httpStatus": 200,
+        "contentHash": "faf3dd86f9bd6ad59ae01397d2b84a6f",
+        "normalizedChars": 1446,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://iris.dive2ent.com/news/": {
+        "lastFetchedAt": "2026-08-10T07:14:56+09:00",
+        "httpStatus": 200,
+        "contentHash": "6b2c82be8bc9d4e168d4bd31d69abc1e",
+        "normalizedChars": 2075,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://iris.dive2ent.com/": {
+        "lastFetchedAt": "2026-08-10T07:14:59+09:00",
+        "httpStatus": 200,
+        "contentHash": "6f07a2aac8b148ee25a3195903372d07",
+        "normalizedChars": 2446,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:14:59+09:00",
+    "parserEvents": 2,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "mr_children": {
+    "urls": {
+      "https://www.mrchildren.jp/news/": {
+        "lastFetchedAt": "2026-08-10T07:14:59+09:00",
+        "httpStatus": 200,
+        "contentHash": "2892526932c0189b9431178586d60687",
+        "normalizedChars": 8,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://www.mrchildren.jp/": {
+        "lastFetchedAt": "2026-08-10T07:15:02+09:00",
+        "httpStatus": 200,
+        "contentHash": "8a5edab282632443219e051e4ade2d1d",
+        "normalizedChars": 1,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:15:02+09:00",
+    "parserEvents": 0,
+    "aiFallback": "JS_RENDERED"
+  },
+  "official_hige_dandism": {
+    "urls": {
+      "https://event.higedan.com/feature/contact@mountalive.com": {
+        "lastFetchedAt": "2026-08-10T06:59:38+09:00",
+        "httpStatus": 200,
+        "contentHash": "e641e1b6af0e0ccc07c274ccb32148c8",
+        "normalizedChars": 99,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://event.higedan.com/news/detail/101670": {
+        "lastFetchedAt": "2026-08-10T07:15:03+09:00",
+        "httpStatus": 200,
+        "contentHash": "b429d690cbb481def3b28930ee002a26",
+        "normalizedChars": 1319,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://event.higedan.com/feature/zepp2025_hall2026": {
+        "lastFetchedAt": "2026-08-10T07:15:06+09:00",
+        "httpStatus": 200,
+        "contentHash": "4cc011d9d56b8490c6dbd1ff3e6ff9ec",
+        "normalizedChars": 16545,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://event.higedan.com/": {
+        "lastFetchedAt": "2026-08-10T07:15:10+09:00",
+        "httpStatus": 200,
+        "contentHash": "a2ea4d2a9effa9c9f84a98ca1077792e",
+        "normalizedChars": 323,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:15:10+09:00",
+    "parserEvents": 31,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "back_number": {
+    "urls": {
+      "https://backnumber.info/feature/stadiumtour2026_news": {
+        "lastFetchedAt": "2026-08-10T07:15:10+09:00",
+        "httpStatus": 200,
+        "contentHash": "11513d1fd656e0e4c9d524d906fe9270",
+        "normalizedChars": 2308,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://backnumber.info/news/list/6": {
+        "lastFetchedAt": "2026-08-10T07:15:13+09:00",
+        "httpStatus": 200,
+        "contentHash": "4a8286aba4f36bbf0e93bfb4d4bb262d",
+        "normalizedChars": 610,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://backnumber.info/feature/stadiumtour2026": {
+        "lastFetchedAt": "2026-08-10T07:15:16+09:00",
+        "httpStatus": 200,
+        "contentHash": "7ea7ef4b2f3e9db86792a40bd5d9db00",
+        "normalizedChars": 1194,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://backnumber.info/": {
+        "lastFetchedAt": "2026-08-10T07:15:19+09:00",
+        "httpStatus": 200,
+        "contentHash": "551effc9b79ca81d829f722beabeedd2",
+        "normalizedChars": 1701,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:15:19+09:00",
+    "parserEvents": 5,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "ado": {
+    "urls": {
+      "https://www.universal-music.co.jp/ado/news/2025-11-23/feed/": {
+        "lastFetchedAt": "2026-08-10T07:15:20+09:00",
+        "httpStatus": 200,
+        "contentHash": "3ec839c483a059fe8129b98ec55a9ad9",
+        "normalizedChars": 208,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.universal-music.co.jp/news/": {
+        "lastFetchedAt": "2026-08-10T07:15:24+09:00",
+        "httpStatus": 200,
+        "contentHash": "6e22c07a9c977899b4d1e21333ee07cb",
+        "normalizedChars": 542,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.universal-music.co.jp/ado/news/2025-11-23/": {
+        "lastFetchedAt": "2026-08-10T07:15:27+09:00",
+        "httpStatus": 200,
+        "contentHash": "4a3c1a15b77f7976f452ccb54dee3779",
+        "normalizedChars": 887,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:15:27+09:00",
+    "parserEvents": 3,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "yoasobi": {
+    "urls": {
+      "https://www.yoasobi-music.jp/live/54776": {
+        "lastFetchedAt": "2026-08-10T07:15:27+09:00",
+        "httpStatus": 200,
+        "contentHash": "47d2a515ef2f05b87d688656286a61e4",
+        "normalizedChars": 10,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://www.yoasobi-music.jp/": {
+        "lastFetchedAt": "2026-08-10T07:15:30+09:00",
+        "httpStatus": 200,
+        "contentHash": "47d2a515ef2f05b87d688656286a61e4",
+        "normalizedChars": 10,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:15:30+09:00",
+    "parserEvents": 0,
+    "aiFallback": "JS_RENDERED"
+  },
+  "nogizaka46": {
+    "urls": {
+      "https://www.nogizaka46.com/s/n46/page/summer_tour2026_bf?ima=4615": {
+        "lastFetchedAt": "2026-08-10T07:34:19+09:00",
+        "httpStatus": 200,
+        "contentHash": "3518444e5a3455091673ecabb2e232db",
+        "normalizedChars": 1754,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.nogizaka46.com/s/n46/news/list?ima=1259&dy=202607": {
+        "lastFetchedAt": "2026-08-10T07:34:22+09:00",
+        "httpStatus": 200,
+        "contentHash": "0e19ee71f2b65bf7a1c6296913136376",
+        "normalizedChars": 92,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://www.nogizaka46.com/s/n46/page/summer_tour2026": {
+        "lastFetchedAt": "2026-08-10T07:34:25+09:00",
+        "httpStatus": 200,
+        "contentHash": "904bce7fefdf58c8abe043767201d514",
+        "normalizedChars": 6756,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.nogizaka46.com/": {
+        "lastFetchedAt": "2026-08-10T07:34:28+09:00",
+        "httpStatus": 200,
+        "contentHash": "96a8e63270e864db4e564011754c1890",
+        "normalizedChars": 1261,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:34:28+09:00",
+    "parserEvents": 9,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "hinatazaka46": {
+    "urls": {
+      "https://www.hinatazaka46.com/s/official/news/list?ima=0000&cd=event&dy=202607": {
+        "lastFetchedAt": "2026-08-10T07:15:39+09:00",
+        "httpStatus": 200,
+        "contentHash": "835a4e4f5d4c6e62dc6c96bc4a951ba7",
+        "normalizedChars": 852,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.hinatazaka46.com/s/official/news/list?ima=0000&dy=202607": {
+        "lastFetchedAt": "2026-08-10T07:15:42+09:00",
+        "httpStatus": 200,
+        "contentHash": "ce0fb7c1494113fd079aa3c2b25436be",
+        "normalizedChars": 3223,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.hinatazaka46.com/s/official/news/detail/E00800": {
+        "lastFetchedAt": "2026-08-10T07:15:46+09:00",
+        "httpStatus": 200,
+        "contentHash": "639bc7a334c90fb60dfeff812481e6ec",
+        "normalizedChars": 2200,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.hinatazaka46.com/": {
+        "lastFetchedAt": "2026-08-10T07:15:49+09:00",
+        "httpStatus": 200,
+        "contentHash": "aab0648faa3d3628834b0019daa7c821",
+        "normalizedChars": 1031,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.hinatazaka46.com/s/official/media/list?ima=0000&dy=202608": {
+        "lastFetchedAt": "2026-08-10T07:15:52+09:00",
+        "httpStatus": 200,
+        "contentHash": "940d3d441ef67e8e921a7916c5e29662",
+        "normalizedChars": 1064,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:15:52+09:00",
+    "parserEvents": 7,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "aimyon": {
+    "urls": {
+      "https://www.aimyong.net/news/5/?range=future_event_end_time&sort=asc": {
+        "lastFetchedAt": "2026-08-10T07:15:52+09:00",
+        "httpStatus": 200,
+        "contentHash": "5da52188fae55560eaf29168e7afc599",
+        "normalizedChars": 225,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.aimyong.net/news/1/": {
+        "lastFetchedAt": "2026-08-10T07:15:55+09:00",
+        "httpStatus": 200,
+        "contentHash": "3857689fadded679d253dcc77e839378",
+        "normalizedChars": 557,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.aimyong.net/feature/tententen_koshien": {
+        "lastFetchedAt": "2026-08-10T07:15:58+09:00",
+        "httpStatus": 200,
+        "contentHash": "b0fd518a12144ad711f7db5b00706a7b",
+        "normalizedChars": 1395,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.aimyong.net/": {
+        "lastFetchedAt": "2026-08-10T07:16:01+09:00",
+        "httpStatus": 200,
+        "contentHash": "5176ed15623a1f2ae0ad6a22b65dccf1",
+        "normalizedChars": 183,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:16:01+09:00",
+    "parserEvents": 2,
+    "aiFallback": null
+  },
+  "creepy_nuts": {
+    "urls": {
+      "https://creepynuts.com/": {
+        "lastFetchedAt": "2026-08-10T07:16:01+09:00",
+        "httpStatus": 200,
+        "contentHash": "e3b0c44298fc1c149afbf4c8996fb924",
+        "normalizedChars": 0,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:16:01+09:00",
+    "parserEvents": 0,
+    "aiFallback": "JS_RENDERED"
+  },
+  "sakanaction": {
+    "urls": {
+      "https://sakanaction.jp/feature/tour2026_ticket_available": {
+        "lastFetchedAt": "2026-08-10T07:16:01+09:00",
+        "httpStatus": 200,
+        "contentHash": "ba67e6b9a830d5e3623d7832d2ab0cbe",
+        "normalizedChars": 304,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://sakanaction.jp/news/?lang=ja": {
+        "lastFetchedAt": "2026-08-10T07:16:05+09:00",
+        "httpStatus": 200,
+        "contentHash": "053a90ce4d756dc159546239560f879f",
+        "normalizedChars": 1850,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://sakanaction.jp/feature/tour2026_ticket": {
+        "lastFetchedAt": "2026-08-10T07:16:08+09:00",
+        "httpStatus": 200,
+        "contentHash": "9d8982432aa27b2a570d2a48dfaa4aba",
+        "normalizedChars": 183,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://sakanaction.jp/": {
+        "lastFetchedAt": "2026-08-10T07:16:11+09:00",
+        "httpStatus": 200,
+        "contentHash": "dd3901bc5fe39a7ac49b79727015ccff",
+        "normalizedChars": 585,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:16:11+09:00",
+    "parserEvents": 9,
+    "aiFallback": null
+  },
+  "larc_en_ciel": {
+    "urls": {
+      "https://larc-en-ciel.com/s/n137/news/list?ima=3753": {
+        "lastFetchedAt": "2026-08-10T07:16:11+09:00",
+        "httpStatus": 200,
+        "contentHash": "316e2120a9ab72f62df8df81ed666c57",
+        "normalizedChars": 1127,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://larc-en-ciel.com/s/n137/news/detail/13399": {
+        "lastFetchedAt": "2026-08-10T07:16:14+09:00",
+        "httpStatus": 200,
+        "contentHash": "33fe9ea3cb086e41fae59ebd58701d65",
+        "normalizedChars": 492,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://larc-en-ciel.com/": {
+        "lastFetchedAt": "2026-08-10T07:16:17+09:00",
+        "httpStatus": 200,
+        "contentHash": "371469ce11e48c62249d65118d333291",
+        "normalizedChars": 110,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:16:17+09:00",
+    "parserEvents": 15,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "king_gnu": {
+    "urls": {
+      "https://www.sonymusic.co.jp/artist/kinggnu/live/": {
+        "lastFetchedAt": "2026-08-10T07:16:17+09:00",
+        "httpStatus": 200,
+        "contentHash": "e3b0c44298fc1c149afbf4c8996fb924",
+        "normalizedChars": 0,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://www.sonymusic.co.jp/artist/kinggnu/info/": {
+        "lastFetchedAt": "2026-08-10T07:16:20+09:00",
+        "httpStatus": 200,
+        "contentHash": "e3b0c44298fc1c149afbf4c8996fb924",
+        "normalizedChars": 0,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://www.sonymusic.co.jp/artist/kinggnu/info/577778": {
+        "lastFetchedAt": "2026-08-10T07:16:23+09:00",
+        "httpStatus": 200,
+        "contentHash": "950b52c9f78e1e89733776986bc6757d",
+        "normalizedChars": 19222,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.sonymusic.co.jp/artist/kinggnu/": {
+        "lastFetchedAt": "2026-08-10T07:16:26+09:00",
+        "httpStatus": 200,
+        "contentHash": "e3b0c44298fc1c149afbf4c8996fb924",
+        "normalizedChars": 0,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:16:26+09:00",
+    "parserEvents": 91,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "hoshino_gen": {
+    "urls": {
+      "https://www.hoshinogen.com/news/": {
+        "lastFetchedAt": "2026-08-10T07:16:27+09:00",
+        "httpStatus": 200,
+        "contentHash": "1fdc6d630cf2a8fd53da3258abef5398",
+        "normalizedChars": 583,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.hoshinogen.com/": {
+        "lastFetchedAt": "2026-08-10T07:16:30+09:00",
+        "httpStatus": 200,
+        "contentHash": "f8f377fd6ecc51a447749ced0d61386c",
+        "normalizedChars": 586,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:16:30+09:00",
+    "parserEvents": 0,
+    "aiFallback": "PARSER_FAILED"
+  },
+  "vaundy": {
+    "urls": {
+      "https://member.vaundy.jp/feature/livestreaming": {
+        "lastFetchedAt": "2026-08-10T07:16:30+09:00",
+        "httpStatus": 200,
+        "contentHash": "eb2fc7f97689c8be9ba59338dae881a0",
+        "normalizedChars": 341,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://vaundy.jp/news/1": {
+        "lastFetchedAt": "2026-08-10T07:16:31+09:00",
+        "httpStatus": 200,
+        "contentHash": "4f7c25d3215cf5cbb76fea2c74391676",
+        "normalizedChars": 975,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://vaundy.jp/news/detail/11145": {
+        "lastFetchedAt": "2026-08-10T07:16:34+09:00",
+        "httpStatus": 200,
+        "contentHash": "6f8b4aff4ca818d304283623926f4ae8",
+        "normalizedChars": 1675,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://vaundy.jp/": {
+        "lastFetchedAt": "2026-08-10T07:16:37+09:00",
+        "httpStatus": 200,
+        "contentHash": "84728413b20e26af56e42b6146c55b22",
+        "normalizedChars": 326,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:16:37+09:00",
+    "parserEvents": 40,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "fujii_kaze": {
+    "urls": {
+      "https://hehn.fujiikaze.com/pwt/": {
+        "lastFetchedAt": "2026-08-10T07:16:38+09:00",
+        "httpStatus": 200,
+        "contentHash": "fad48533d5577879de4b94efecec163d",
+        "normalizedChars": 10907,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://hehn.fujiikaze.com/": {
+        "lastFetchedAt": "2026-08-10T07:16:41+09:00",
+        "httpStatus": 200,
+        "contentHash": "e3b0c44298fc1c149afbf4c8996fb924",
+        "normalizedChars": 0,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:16:41+09:00",
+    "parserEvents": 20,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "spitz": {
+    "urls": {
+      "https://spitz-web.com/live/2026others/": {
+        "lastFetchedAt": "2026-08-10T07:16:42+09:00",
+        "httpStatus": 200,
+        "contentHash": "3e65d377f04a28016b3bf6cda670a56d",
+        "normalizedChars": 259,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://spitz-web.com/news/": {
+        "lastFetchedAt": "2026-08-10T07:16:45+09:00",
+        "httpStatus": 200,
+        "contentHash": "ecf17aca723d975ef1f5d098606925f0",
+        "normalizedChars": 402,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://spitz-web.com/live/": {
+        "lastFetchedAt": "2026-08-10T07:16:48+09:00",
+        "httpStatus": 200,
+        "contentHash": "80d17258409277e61961193d23f91372",
+        "normalizedChars": 1918,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://spitz-web.com/": {
+        "lastFetchedAt": "2026-08-10T07:16:51+09:00",
+        "httpStatus": 200,
+        "contentHash": "a9b5ddad1dd53cff332a281aa0a001d9",
+        "normalizedChars": 1240,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:16:51+09:00",
+    "parserEvents": 12,
+    "aiFallback": null
+  },
+  "lisa": {
+    "urls": {
+      "https://eplus.jp/touroku": {
+        "lastFetchedAt": "2026-08-10T07:01:30+09:00",
+        "httpStatus": 403,
+        "contentHash": "",
+        "normalizedChars": 0,
+        "diffStatus": "",
+        "jsSuspect": false,
+        "error": "http_403"
+      },
+      "https://www.lxixsxa.com/info/": {
+        "lastFetchedAt": "2026-08-10T07:16:51+09:00",
+        "httpStatus": 200,
+        "contentHash": "03682e88066823112c97d8fb48385726",
+        "normalizedChars": 38,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://www.lxixsxa.com/": {
+        "lastFetchedAt": "2026-08-10T07:16:54+09:00",
+        "httpStatus": 200,
+        "contentHash": "ee616524b6cc35ccc58144363f558c36",
+        "normalizedChars": 834,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:16:54+09:00",
+    "parserEvents": 0,
+    "aiFallback": null
+  },
+  "hana": {
+    "urls": {
+      "https://hana.b-rave.tokyo/live/260630-2/": {
+        "lastFetchedAt": "2026-08-10T07:16:54+09:00",
+        "httpStatus": 200,
+        "contentHash": "ca2235109f74858d7b7b9db5f4d04828",
+        "normalizedChars": 2253,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://hana.b-rave.tokyo/news/": {
+        "lastFetchedAt": "2026-08-10T07:16:57+09:00",
+        "httpStatus": 200,
+        "contentHash": "d4d9dc87f7012469dbe0645237ce4206",
+        "normalizedChars": 655,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://hana.b-rave.tokyo/": {
+        "lastFetchedAt": "2026-08-10T07:17:00+09:00",
+        "httpStatus": 200,
+        "contentHash": "f8b5fa952c0154e66aa582866e68156c",
+        "normalizedChars": 2671,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://hana.b-rave.tokyo/goods/260501-2/": {
+        "lastFetchedAt": "2026-08-10T07:17:03+09:00",
+        "httpStatus": 200,
+        "contentHash": "f3286b5ca10fa5f18fa69b0491beb8a9",
+        "normalizedChars": 1381,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://hana.b-rave.tokyo/goods/260708/": {
+        "lastFetchedAt": "2026-08-10T07:17:06+09:00",
+        "httpStatus": 200,
+        "contentHash": "5d5cf5fcdf6dc8057319bb252d07d5d2",
+        "normalizedChars": 1307,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:17:06+09:00",
+    "parserEvents": 10,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "snow_man": {
+    "urls": {
+      "https://mentrecording.jp/snowman/live/": {
+        "lastFetchedAt": "2026-08-10T07:17:06+09:00",
+        "httpStatus": 200,
+        "contentHash": "278b3e8b507bafe24f394fb1552a8131",
+        "normalizedChars": 504,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://mentrecording.jp/snowman/news/": {
+        "lastFetchedAt": "2026-08-10T07:17:09+09:00",
+        "httpStatus": 200,
+        "contentHash": "8f43b9089771bd2dc9ad69f41499bbc0",
+        "normalizedChars": 1649,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://mentrecording.jp/snowman/": {
+        "lastFetchedAt": "2026-08-10T07:17:12+09:00",
+        "httpStatus": 200,
+        "contentHash": "c4df19182d803b7b39bab81c9ee67cea",
+        "normalizedChars": 1674,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:17:12+09:00",
+    "parserEvents": 4,
+    "aiFallback": null
+  },
+  "sixtones": {
+    "urls": {
+      "https://www.sixtones.jp/live": {
+        "lastFetchedAt": "2026-08-10T07:17:13+09:00",
+        "httpStatus": 200,
+        "contentHash": "f0c0680f9ea52f67e5e52d6077d5a9a2",
+        "normalizedChars": 3346,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.sixtones.jp/news": {
+        "lastFetchedAt": "2026-08-10T07:17:16+09:00",
+        "httpStatus": 200,
+        "contentHash": "c77be0890df9cf7935c7e2bd07be964d",
+        "normalizedChars": 21802,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.sixtones.jp/": {
+        "lastFetchedAt": "2026-08-10T07:17:19+09:00",
+        "httpStatus": 200,
+        "contentHash": "5593eae65fd7466afc3b8b3157567d46",
+        "normalizedChars": 439,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:17:19+09:00",
+    "parserEvents": 75,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "one_ok_rock": {
+    "urls": {
+      "https://oneokrock-pf.com/news/1/": {
+        "lastFetchedAt": "2026-08-10T07:17:19+09:00",
+        "httpStatus": 200,
+        "contentHash": "14db89df78a9ebbcd024b0e61278fdba",
+        "normalizedChars": 569,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://oneokrock-pf.com/feature/detoxjapantourfinal": {
+        "lastFetchedAt": "2026-08-10T07:17:22+09:00",
+        "httpStatus": 200,
+        "contentHash": "252b0d81c6211a1a1c7462730af715b9",
+        "normalizedChars": 1000,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://oneokrock-pf.com/": {
+        "lastFetchedAt": "2026-08-10T07:17:25+09:00",
+        "httpStatus": 200,
+        "contentHash": "7e5dc61e64603263f489343cf9db4808",
+        "normalizedChars": 1033,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:17:25+09:00",
+    "parserEvents": 8,
+    "aiFallback": null
+  },
+  "radwimps": {
+    "urls": {
+      "https://radwimps.jp/news/": {
+        "lastFetchedAt": "2026-08-10T07:17:25+09:00",
+        "httpStatus": 200,
+        "contentHash": "628c2efbc783a71a0004f5fd8936ffc5",
+        "normalizedChars": 729,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://radwimps.jp/yurinchi/": {
+        "lastFetchedAt": "2026-08-10T07:17:28+09:00",
+        "httpStatus": 200,
+        "contentHash": "2ace4ceb64331e4963e9b3732345daac",
+        "normalizedChars": 5447,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://radwimps.jp/": {
+        "lastFetchedAt": "2026-08-10T07:17:31+09:00",
+        "httpStatus": 200,
+        "contentHash": "12e08c3ba04ab27cc36cbdaaa6bedec2",
+        "normalizedChars": 552,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:17:31+09:00",
+    "parserEvents": 20,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "ryokuoushoku_shakai": {
+    "urls": {
+      "https://www.ryokushaka.com/daiyasai2026/event": {
+        "lastFetchedAt": "2026-08-10T07:17:32+09:00",
+        "httpStatus": 200,
+        "contentHash": "6316a91c6e3a3d68dec7464767fa75da",
+        "normalizedChars": 53,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://www.ryokushaka.com/daiyasai2026/news": {
+        "lastFetchedAt": "2026-08-10T07:17:35+09:00",
+        "httpStatus": 200,
+        "contentHash": "d791f93c74efe35653d8de8c5428156c",
+        "normalizedChars": 15,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://www.ryokushaka.com/daiyasai2026/": {
+        "lastFetchedAt": "2026-08-10T07:17:38+09:00",
+        "httpStatus": 200,
+        "contentHash": "ec7c769789d28067b34cbb7a14b7361d",
+        "normalizedChars": 287,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.ryokushaka.com/daiyasai2026/ticket": {
+        "lastFetchedAt": "2026-08-10T07:17:41+09:00",
+        "httpStatus": 200,
+        "contentHash": "e20abb2bf9081a4cf4d3374eda56ef48",
+        "normalizedChars": 136,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://www.ryokushaka.com/": {
+        "lastFetchedAt": "2026-08-10T07:17:44+09:00",
+        "httpStatus": 200,
+        "contentHash": "7e461375198f8b15bb3e3080179aa880",
+        "normalizedChars": 19,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:17:44+09:00",
+    "parserEvents": 0,
+    "aiFallback": "PARSER_FAILED"
+  },
+  "aimer": {
+    "urls": {
+      "https://www.aimer-web.jp/live-at-anywhere/": {
+        "lastFetchedAt": "2026-08-10T07:17:44+09:00",
+        "httpStatus": 200,
+        "contentHash": "e8dd7fcfd0d080e062abb154ffa7d928",
+        "normalizedChars": 3931,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.aimer-web.jp/news/archive/?577612": {
+        "lastFetchedAt": "2026-08-10T07:17:47+09:00",
+        "httpStatus": 200,
+        "contentHash": "922f827b7337d7c7eacb70a326e6a375",
+        "normalizedChars": 24,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://www.aimer-web.jp/": {
+        "lastFetchedAt": "2026-08-10T07:17:50+09:00",
+        "httpStatus": 200,
+        "contentHash": "f075949c3b24802aa626070518775441",
+        "normalizedChars": 168,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:17:50+09:00",
+    "parserEvents": 2,
+    "aiFallback": null
+  },
+  "yuuri": {
+    "urls": {
+      "https://eplus.jp/touroku": {
+        "lastFetchedAt": "2026-08-10T07:02:29+09:00",
+        "httpStatus": 403,
+        "contentHash": "",
+        "normalizedChars": 0,
+        "diffStatus": "",
+        "jsSuspect": false,
+        "error": "http_403"
+      },
+      "https://www.yuuriweb.com/news/": {
+        "lastFetchedAt": "2026-08-10T07:17:50+09:00",
+        "httpStatus": 200,
+        "contentHash": "f3074e2b0f1fd71d17f6789323c7212c",
+        "normalizedChars": 71,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://www.yuuriweb.com/": {
+        "lastFetchedAt": "2026-08-10T07:17:53+09:00",
+        "httpStatus": 200,
+        "contentHash": "b2c36078972481c1b5cb511df566f511",
+        "normalizedChars": 3372,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://yuurinchi.com/": {
+        "lastFetchedAt": "2026-08-10T07:17:55+09:00",
+        "httpStatus": 200,
+        "contentHash": "5257cce022b232cd3325f97f39bee7ed",
+        "normalizedChars": 1116,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:17:55+09:00",
+    "parserEvents": 9,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "naniwa_danshi": {
+    "urls": {
+      "https://starto.jp/s/p/live?ima=4627": {
+        "lastFetchedAt": "2026-08-10T07:17:56+09:00",
+        "httpStatus": 200,
+        "contentHash": "c61cc22a37f2bd48b45819f2a7130f38",
+        "normalizedChars": 1122,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://starto.jp/s/p/news/list?ima=2052&tag=56&list[]=56&artist=56": {
+        "lastFetchedAt": "2026-08-10T07:17:59+09:00",
+        "httpStatus": 200,
+        "contentHash": "2b345a62f492d7f2330af594ad67ce22",
+        "normalizedChars": 849,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://starto.jp/s/p/live/10489": {
+        "lastFetchedAt": "2026-08-10T07:18:02+09:00",
+        "httpStatus": 200,
+        "contentHash": "ea0eba2fd12468553a6a2252b478413a",
+        "normalizedChars": 2361,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://fan.books.rakuten.co.jp/articles/8735": {
+        "lastFetchedAt": "2026-08-10T07:18:03+09:00",
+        "httpStatus": 200,
+        "contentHash": "c2204bc873a1f52e93c70284177818cb",
+        "normalizedChars": 1732,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://starto.jp/s/p/artist/56": {
+        "lastFetchedAt": "2026-08-10T07:18:05+09:00",
+        "httpStatus": 200,
+        "contentHash": "707207ccfc01d3910a93d1fdbfc20d10",
+        "normalizedChars": 1363,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:18:05+09:00",
+    "parserEvents": 7,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "hey_say_jump": {
+    "urls": {
+      "https://starto.jp/s/p/live?ima=4628": {
+        "lastFetchedAt": "2026-08-10T07:18:08+09:00",
+        "httpStatus": 200,
+        "contentHash": "c61cc22a37f2bd48b45819f2a7130f38",
+        "normalizedChars": 1122,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://starto.jp/s/p/news/list?ima=2312&tag=15&list[]=15&artist=15": {
+        "lastFetchedAt": "2026-08-10T07:18:11+09:00",
+        "httpStatus": 200,
+        "contentHash": "2867ce1dba2a35aa1b8fd72871035c04",
+        "normalizedChars": 704,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://starto.jp/s/p/artist/15": {
+        "lastFetchedAt": "2026-08-10T07:18:14+09:00",
+        "httpStatus": 200,
+        "contentHash": "6a3364266e417815501b04a20643cb1d",
+        "normalizedChars": 931,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://live-events.a-jp.org/soko/a/85.html": {
+        "lastFetchedAt": "2026-08-10T07:18:16+09:00",
+        "httpStatus": 200,
+        "contentHash": "dd8fe45511c0c57f581ad78b2a51449d",
+        "normalizedChars": 1189,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://live-events.a-jp.org/": {
+        "lastFetchedAt": "2026-08-10T07:18:18+09:00",
+        "httpStatus": 200,
+        "contentHash": "29f29881f720495fc8ed8a534e83ba2d",
+        "normalizedChars": 242,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:18:18+09:00",
+    "parserEvents": 33,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "travis_japan": {
+    "urls": {
+      "https://starto.jp/s/p/live?ima=4629": {
+        "lastFetchedAt": "2026-08-10T07:18:18+09:00",
+        "httpStatus": 200,
+        "contentHash": "c61cc22a37f2bd48b45819f2a7130f38",
+        "normalizedChars": 1122,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://starto.jp/s/p/news/list?ima=2311&tag=60&list[]=60&artist=60": {
+        "lastFetchedAt": "2026-08-10T07:18:22+09:00",
+        "httpStatus": 200,
+        "contentHash": "5ec777f4f39b84201ad98668239a1986",
+        "normalizedChars": 812,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://starto.jp/s/p/artist/60": {
+        "lastFetchedAt": "2026-08-10T07:18:25+09:00",
+        "httpStatus": 200,
+        "contentHash": "48d27666debbf9de6c11dcbe1883d13e",
+        "normalizedChars": 945,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://fan.books.rakuten.co.jp/articles/8735": {
+        "lastFetchedAt": "2026-08-10T07:18:26+09:00",
+        "httpStatus": 200,
+        "contentHash": "c2204bc873a1f52e93c70284177818cb",
+        "normalizedChars": 1732,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://starto.jp/s/p/artist/12?ima=4629": {
+        "lastFetchedAt": "2026-08-10T07:18:29+09:00",
+        "httpStatus": 200,
+        "contentHash": "e32c3f9371b64637067f6648e9a2dcac",
+        "normalizedChars": 767,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:18:29+09:00",
+    "parserEvents": 3,
+    "aiFallback": null
+  },
+  "twice": {
+    "urls": {
+      "https://www.twicejapan.com/news": {
+        "lastFetchedAt": "2026-08-10T07:18:30+09:00",
+        "httpStatus": 200,
+        "contentHash": "3bd742f9143b324593b0a827b14b4be8",
+        "normalizedChars": 705,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.twicejapan.com/feature/6thworldtour_thisisfor_stadium": {
+        "lastFetchedAt": "2026-08-10T07:18:32+09:00",
+        "httpStatus": 200,
+        "contentHash": "e2e89b03b30080e635afc00c57a76563",
+        "normalizedChars": 16305,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.twicejapan.com/": {
+        "lastFetchedAt": "2026-08-10T07:18:35+09:00",
+        "httpStatus": 200,
+        "contentHash": "d73a0cb948c10cfda94e397df64db5c0",
+        "normalizedChars": 1714,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:18:35+09:00",
+    "parserEvents": 10,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "seventeen": {
+    "urls": {
+      "https://www.seventeen-17.jp/posts/schedule": {
+        "lastFetchedAt": "2026-08-10T07:18:36+09:00",
+        "httpStatus": 200,
+        "contentHash": "da44135d7870178e3453d9e8c511e2d3",
+        "normalizedChars": 303,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.seventeen-17.jp/posts/information/pdizms": {
+        "lastFetchedAt": "2026-08-10T07:18:39+09:00",
+        "httpStatus": 200,
+        "contentHash": "0eee1886984f4c8df02df78b6566437a",
+        "normalizedChars": 5133,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.seventeen-17.jp/statics/2026_yakusoku": {
+        "lastFetchedAt": "2026-08-10T07:18:42+09:00",
+        "httpStatus": 200,
+        "contentHash": "62ce27ec8fb0f4e312586144c2b61774",
+        "normalizedChars": 20559,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.seventeen-17.jp/": {
+        "lastFetchedAt": "2026-08-10T07:18:45+09:00",
+        "httpStatus": 200,
+        "contentHash": "f7581aad8f7a373d3c0d119a5a430fef",
+        "normalizedChars": 1516,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:18:45+09:00",
+    "parserEvents": 14,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "sky_hi": {
+    "urls": {
+      "https://bmsg.tokyo/category/live/": {
+        "lastFetchedAt": "2026-08-10T07:18:45+09:00",
+        "httpStatus": 200,
+        "contentHash": "4ee31a2e5bf28a8f4aaf612fc6906b6c",
+        "normalizedChars": 5931,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://bmsg.tokyo/feed/": {
+        "lastFetchedAt": "2026-08-10T07:18:48+09:00",
+        "httpStatus": 200,
+        "contentHash": "606526b8519a97548eee9eac99bcc566",
+        "normalizedChars": 25775,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://bmsg.tokyo/news": {
+        "lastFetchedAt": "2026-08-10T07:18:51+09:00",
+        "httpStatus": 200,
+        "contentHash": "b708a4cd6c53fd8b93499b5fc9a8405b",
+        "normalizedChars": 3145,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://skyhi.tokyo/": {
+        "lastFetchedAt": "2026-08-10T07:18:52+09:00",
+        "httpStatus": 200,
+        "contentHash": "67c83989ed89815beea98a12edb6b9ec",
+        "normalizedChars": 328,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://bmsg.tokyo/": {
+        "lastFetchedAt": "2026-08-10T07:18:54+09:00",
+        "httpStatus": 200,
+        "contentHash": "8d4b372968ea5f6af2a9fc20916384f0",
+        "normalizedChars": 10,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:18:54+09:00",
+    "parserEvents": 46,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "tennimu": {
+    "urls": {
+      "https://www.tennimu.com/4th_2026rikkai_1/news/": {
+        "lastFetchedAt": "2026-08-10T07:18:54+09:00",
+        "httpStatus": 200,
+        "contentHash": "1ee9122853a0e548a120da078992e847",
+        "normalizedChars": 25,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://www.tennimu.com/4th_2026rikkai_1/ticket/": {
+        "lastFetchedAt": "2026-08-10T07:18:57+09:00",
+        "httpStatus": 200,
+        "contentHash": "f150feb96effdac7ce0e8284b8b2fa35",
+        "normalizedChars": 310,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.tennimu.com/4th_2026rikkai_1/streaming/": {
+        "lastFetchedAt": "2026-08-10T07:19:00+09:00",
+        "httpStatus": 200,
+        "contentHash": "77f221993563cd118d4c34212e7f9b72",
+        "normalizedChars": 745,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.tennimu.com/": {
+        "lastFetchedAt": "2026-08-10T07:19:03+09:00",
+        "httpStatus": 200,
+        "contentHash": "e8af582cd8455e133fafb6e05a7faf94",
+        "normalizedChars": 255,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:19:03+09:00",
+    "parserEvents": 0,
+    "aiFallback": "PARSER_FAILED"
+  },
+  "touken_ranbu_musical": {
+    "urls": {
+      "https://musical-toukenranbu.jp/contents/liveviewing": {
+        "lastFetchedAt": "2026-08-10T07:34:30+09:00",
+        "httpStatus": 200,
+        "contentHash": "ff040a06bfa51228ae286461509eec15",
+        "normalizedChars": 16732,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://musical-toukenranbu.jp/pages/autumn2026": {
+        "lastFetchedAt": "2026-08-10T07:34:31+09:00",
+        "httpStatus": 200,
+        "contentHash": "8ce49ac694094cad2d4f2baf7572906a",
+        "normalizedChars": 6491,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://musical-toukenranbu.jp/contents/preticket/preticket_autumn2026": {
+        "lastFetchedAt": "2026-08-10T07:34:34+09:00",
+        "httpStatus": 200,
+        "contentHash": "22ab02e856eed79517ac86a2f4b4c06d",
+        "normalizedChars": 101,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://musical-toukenranbu.jp/contents/1081530": {
+        "lastFetchedAt": "2026-08-10T07:34:37+09:00",
+        "httpStatus": 200,
+        "contentHash": "b95b790d15d598fd0e950e07d8195808",
+        "normalizedChars": 133,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:34:37+09:00",
+    "parserEvents": 92,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "zutomayo": {
+    "urls": {
+      "https://zutomayo.net/live/": {
+        "lastFetchedAt": "2026-08-10T07:19:13+09:00",
+        "httpStatus": 200,
+        "contentHash": "f63a762f5187c456827e387ae5c0eb7f",
+        "normalizedChars": 2984,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://zutomayo.net/news/": {
+        "lastFetchedAt": "2026-08-10T07:19:16+09:00",
+        "httpStatus": 200,
+        "contentHash": "dae16ae4c7a8215a1669a5d351323304",
+        "normalizedChars": 34816,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://zutomayo.net/": {
+        "lastFetchedAt": "2026-08-10T07:19:19+09:00",
+        "httpStatus": 200,
+        "contentHash": "ac6f4cf6526b4e2f7a043a923a69eedc",
+        "normalizedChars": 236,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:19:19+09:00",
+    "parserEvents": 57,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "momoiro_clover_z": {
+    "urls": {
+      "https://www.momoclo.net/schedule": {
+        "lastFetchedAt": "2026-08-10T07:19:19+09:00",
+        "httpStatus": 200,
+        "contentHash": "916579af1528df1b4a68cba11cb38c43",
+        "normalizedChars": 4848,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.momoclo.net/news": {
+        "lastFetchedAt": "2026-08-10T07:19:22+09:00",
+        "httpStatus": 200,
+        "contentHash": "d8d36d069622a613a2db33a496abfd94",
+        "normalizedChars": 729,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.momoclo.net/": {
+        "lastFetchedAt": "2026-08-10T07:19:25+09:00",
+        "httpStatus": 200,
+        "contentHash": "947af5a73d30ee84e48a585aec09b032",
+        "normalizedChars": 3236,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:19:25+09:00",
+    "parserEvents": 12,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "macaroni_empitsu": {
+    "urls": {
+      "https://macaroniempitsu.com/live": {
+        "lastFetchedAt": "2026-08-10T07:19:26+09:00",
+        "httpStatus": 200,
+        "contentHash": "99463abf4fbdc616441718cfc1bfd170",
+        "normalizedChars": 6274,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://macaroniempitsu.com/news": {
+        "lastFetchedAt": "2026-08-10T07:19:29+09:00",
+        "httpStatus": 200,
+        "contentHash": "e63d33f8505f482387b892fa26e3523b",
+        "normalizedChars": 6996,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://macaroniempitsu.com/": {
+        "lastFetchedAt": "2026-08-10T07:19:32+09:00",
+        "httpStatus": 200,
+        "contentHash": "60056c628c6699ebe724246cdce196db",
+        "normalizedChars": 716,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:19:32+09:00",
+    "parserEvents": 44,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "sakurazaka46": {
+    "urls": {
+      "https://sakurazaka46.com/s/s46/page/nationaltour2026_quiz?ima=0000": {
+        "lastFetchedAt": "2026-08-10T07:19:32+09:00",
+        "httpStatus": 200,
+        "contentHash": "f7d6329f5ea56cfe023e5d01220eca2e",
+        "normalizedChars": 766,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://sakurazaka46.com/s/s46/news/list?ima=0000&dy=202607": {
+        "lastFetchedAt": "2026-08-10T07:19:35+09:00",
+        "httpStatus": 200,
+        "contentHash": "50bf501ffc748d35d3b8c5ee71cb3881",
+        "normalizedChars": 4236,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://sakurazaka46.com/s/s46/page/nationaltour2026": {
+        "lastFetchedAt": "2026-08-10T07:19:38+09:00",
+        "httpStatus": 200,
+        "contentHash": "06d9267f7ce81fb88017a7b78c660e4f",
+        "normalizedChars": 4291,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://sakurazaka46.com/": {
+        "lastFetchedAt": "2026-08-10T07:19:42+09:00",
+        "httpStatus": 200,
+        "contentHash": "bbe55d86cb10a758cc9dab607f563d83",
+        "normalizedChars": 2143,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://sakurazaka46.com/s/s46/group/list?ima=0000&dy=202607": {
+        "lastFetchedAt": "2026-08-10T07:19:44+09:00",
+        "httpStatus": 200,
+        "contentHash": "69005220a5c07890b6c79fa580532a6f",
+        "normalizedChars": 1011,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:19:44+09:00",
+    "parserEvents": 22,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "babymetal": {
+    "urls": {
+      "https://babymetal.com/mob/news/diarKiji.php?site=TO&ima=3813&cd=TOUR_TO&so=a&lang=en": {
+        "lastFetchedAt": "2026-08-10T07:19:45+09:00",
+        "httpStatus": 200,
+        "contentHash": "ae926d9f21c73e1e4a93fab77a4236ff",
+        "normalizedChars": 24,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://babymetal.com/mob/news/diarKiji.php?site=TO&ima=3813&cd=NEWS_TO&lang=en": {
+        "lastFetchedAt": "2026-08-10T07:19:48+09:00",
+        "httpStatus": 200,
+        "contentHash": "46427b2d43f1399310c9ee167d08a134",
+        "normalizedChars": 866,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://babymetal.com/": {
+        "lastFetchedAt": "2026-08-10T07:19:51+09:00",
+        "httpStatus": 200,
+        "contentHash": "1a50fcb548c4bc49acac62369282bdea",
+        "normalizedChars": 286,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:19:51+09:00",
+    "parserEvents": 0,
+    "aiFallback": "PARSER_FAILED"
+  },
+  "mrs_green_apple": {
+    "urls": {
+      "https://mrsgreenapple.com/feature/zenjinmito_2026_live_waiting": {
+        "lastFetchedAt": "2026-08-10T07:51:18+09:00",
+        "httpStatus": 200,
+        "contentHash": "174728c55b6f238c493882360eae9336",
+        "normalizedChars": 169,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://mrsgreenapple.com/feature/zenjinmito_2026_news": {
+        "lastFetchedAt": "2026-08-10T07:51:21+09:00",
+        "httpStatus": 200,
+        "contentHash": "b0e6687f64b334fd00f400371c32d8be",
+        "normalizedChars": 2845,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://mrsgreenapple.com/feature/zenjinmito_2026": {
+        "lastFetchedAt": "2026-08-10T07:51:24+09:00",
+        "httpStatus": 200,
+        "contentHash": "089fa5e9da5aef59d6b70c47ced402ff",
+        "normalizedChars": 290,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://mrsgreenapple.com/": {
+        "lastFetchedAt": "2026-08-10T07:51:27+09:00",
+        "httpStatus": 200,
+        "contentHash": "fe0c995ebd45be31b9bb8343e2176d7e",
+        "normalizedChars": 1427,
+        "diffStatus": "VOLATILE_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://mrsgreenapple.com/feature/zenjinmito_2026_ticket": {
+        "lastFetchedAt": "2026-08-10T07:51:30+09:00",
+        "httpStatus": 200,
+        "contentHash": "decf3cc080efeabe1a772b5492887d09",
+        "normalizedChars": 4701,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastRunAt": "2026-08-10T07:51:30+09:00",
+    "lastResult": "NO_CHANGE",
+    "aiFallback": null
+  },
+  "be_first": {
+    "urls": {
+      "https://befirst.tokyo/top/feed/": {
+        "lastFetchedAt": "2026-08-10T07:20:04+09:00",
+        "httpStatus": 200,
+        "contentHash": "e241cd993004e31adf177517bd0523e4",
+        "normalizedChars": 336,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://befirst.tokyo/news/": {
+        "lastFetchedAt": "2026-08-10T07:20:07+09:00",
+        "httpStatus": 200,
+        "contentHash": "ae2bc09ff1bad71e73cc6a806950b2f3",
+        "normalizedChars": 759,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://befirst.tokyo/": {
+        "lastFetchedAt": "2026-08-10T07:20:10+09:00",
+        "httpStatus": 200,
+        "contentHash": "b9709a2e65275d05eb3c5d236d41ebdf",
+        "normalizedChars": 3321,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://befirst.tokyo/dvd-blu-ray/260730-stadium/": {
+        "lastFetchedAt": "2026-08-10T07:20:13+09:00",
+        "httpStatus": 200,
+        "contentHash": "0b6b29d45867e8a32c19348203d7fc85",
+        "normalizedChars": 1256,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:20:13+09:00",
+    "parserEvents": 5,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "glay": {
+    "urls": {
+      "https://www.glay.co.jp/feature/HS30thLive": {
+        "lastFetchedAt": "2026-08-10T07:20:13+09:00",
+        "httpStatus": 200,
+        "contentHash": "d5bceb2f891ee906e1f5e387ccde0e1c",
+        "normalizedChars": 6807,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.glay.co.jp/news/1": {
+        "lastFetchedAt": "2026-08-10T07:20:17+09:00",
+        "httpStatus": 200,
+        "contentHash": "d51ce7736bb2ab419e305ade6e0e1a93",
+        "normalizedChars": 2138,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.glay.co.jp/feature/arenatour2026_27": {
+        "lastFetchedAt": "2026-08-10T07:20:19+09:00",
+        "httpStatus": 200,
+        "contentHash": "29676fa302dfb7e091a5212e3b4f06fb",
+        "normalizedChars": 5686,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.glay.co.jp/": {
+        "lastFetchedAt": "2026-08-10T07:20:23+09:00",
+        "httpStatus": 200,
+        "contentHash": "8089d609e530f6b6eb7223ed985f1838",
+        "normalizedChars": 1879,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:20:23+09:00",
+    "parserEvents": 28,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "yuzu": {
+    "urls": {
+      "https://yuzu-official.com/pages/yuzu_arenatour2026": {
+        "lastFetchedAt": "2026-08-10T07:34:38+09:00",
+        "httpStatus": 200,
+        "contentHash": "012bd8d2d524112742a6ffb9027acff6",
+        "normalizedChars": 6403,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://yuzu-official.com/contents/information/34674919-757a-4dc6-b08b-4b62ea6f5243": {
+        "lastFetchedAt": "2026-08-10T07:34:41+09:00",
+        "httpStatus": 200,
+        "contentHash": "311d6fb04f0bef8b962253dd2a345421",
+        "normalizedChars": 4602,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://yuzu-official.com/pages/yuzu_arenatour2026/": {
+        "lastFetchedAt": "2026-08-10T07:34:44+09:00",
+        "httpStatus": 200,
+        "contentHash": "012bd8d2d524112742a6ffb9027acff6",
+        "normalizedChars": 6403,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://yuzu-official.com/": {
+        "lastFetchedAt": "2026-08-10T07:34:47+09:00",
+        "httpStatus": 200,
+        "contentHash": "b7769b8a882b3bab0a96ceddfcaab3dd",
+        "normalizedChars": 498,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:34:47+09:00",
+    "parserEvents": 56,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "koda_kumi": {
+    "urls": {
+      "https://rhythmzone.net/koda/schedule/": {
+        "lastFetchedAt": "2026-08-10T07:20:33+09:00",
+        "httpStatus": 200,
+        "contentHash": "5c3ec1cc795a48e339f9280565653172",
+        "normalizedChars": 1436,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://rhythmzone.net/koda/news/": {
+        "lastFetchedAt": "2026-08-10T07:20:35+09:00",
+        "httpStatus": 200,
+        "contentHash": "0529737f551e2f86e93d763f081e20f0",
+        "normalizedChars": 2096,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://rhythmzone.net/koda/": {
+        "lastFetchedAt": "2026-08-10T07:20:39+09:00",
+        "httpStatus": 200,
+        "contentHash": "820234f4e9c1b83cb121537798c43aee",
+        "normalizedChars": 9578,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:20:39+09:00",
+    "parserEvents": 7,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "kobukuro": {
+    "urls": {
+      "https://kobukuro.com/feature/tour2026_news": {
+        "lastFetchedAt": "2026-08-10T07:20:39+09:00",
+        "httpStatus": 200,
+        "contentHash": "2a7d4dcdbcee726de470d7231664f2b5",
+        "normalizedChars": 948,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.kobukuro.com/news/1?_normalbrowse_=1": {
+        "lastFetchedAt": "2026-08-10T07:20:40+09:00",
+        "httpStatus": 200,
+        "contentHash": "308b878e14aed342fc2c6e1d42b81b80",
+        "normalizedChars": 594,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://kobukuro.com/feature/kobukuro_tour2026": {
+        "lastFetchedAt": "2026-08-10T07:20:42+09:00",
+        "httpStatus": 200,
+        "contentHash": "53d3fe892e122b127173ba88746d33de",
+        "normalizedChars": 360,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://kobukuro.com/": {
+        "lastFetchedAt": "2026-08-10T07:20:45+09:00",
+        "httpStatus": 200,
+        "contentHash": "f00769ca562d858db40c0b3eb89c78bc",
+        "normalizedChars": 204,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:20:45+09:00",
+    "parserEvents": 12,
+    "aiFallback": null
+  },
+  "number_i": {
+    "urls": {
+      "https://tobe-official.jp/artists/number_i": {
+        "lastFetchedAt": "2026-08-10T07:20:46+09:00",
+        "httpStatus": 200,
+        "contentHash": "e3b0c44298fc1c149afbf4c8996fb924",
+        "normalizedChars": 0,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:20:46+09:00",
+    "parserEvents": 0,
+    "aiFallback": "JS_RENDERED"
+  },
+  "king_and_prince": {
+    "urls": {
+      "https://kingandprince7th.jp/STARRING/DOME_tour/": {
+        "lastFetchedAt": "2026-08-10T07:20:46+09:00",
+        "httpStatus": 200,
+        "contentHash": "1206318f94965ea519d326a92cbd0d8a",
+        "normalizedChars": 192,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://musicexpolive.com/": {
+        "lastFetchedAt": "2026-08-10T07:20:46+09:00",
+        "httpStatus": 200,
+        "contentHash": "b8744f10f7637016398a69119dfd52b0",
+        "normalizedChars": 874,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://kingandprince7th.jp/reera_dvd/": {
+        "lastFetchedAt": "2026-08-10T07:20:49+09:00",
+        "httpStatus": 200,
+        "contentHash": "4d722ce474e4600737236e95e245e8be",
+        "normalizedChars": 2245,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://musicexpolive.com/2025/": {
+        "lastFetchedAt": "2026-08-10T07:20:49+09:00",
+        "httpStatus": 200,
+        "contentHash": "8620cc71d083b828ff34d4e8de4781f4",
+        "normalizedChars": 2470,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:20:49+09:00",
+    "parserEvents": 20,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "timelesz": {
+    "urls": {
+      "https://ovtp.jp/feed": {
+        "lastFetchedAt": "2026-08-10T07:20:50+09:00",
+        "httpStatus": 200,
+        "contentHash": "8e1a4129c20dcdd6e47a248914a88f2f",
+        "normalizedChars": 5738,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://ovtp.jp/news": {
+        "lastFetchedAt": "2026-08-10T07:20:53+09:00",
+        "httpStatus": 200,
+        "contentHash": "33640cdeb6c66beab583a56444662ff0",
+        "normalizedChars": 19,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://ovtp.jp/timelesz/live-stage": {
+        "lastFetchedAt": "2026-08-10T07:20:56+09:00",
+        "httpStatus": 200,
+        "contentHash": "feb1a7086da8a8394d84d0e63f2f550a",
+        "normalizedChars": 3840,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://ovtp.jp/": {
+        "lastFetchedAt": "2026-08-10T07:20:59+09:00",
+        "httpStatus": 200,
+        "contentHash": "fb1b3a65cac5a0ba2024916f14b2c0c1",
+        "normalizedChars": 1131,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:20:59+09:00",
+    "parserEvents": 98,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "milk": {
+    "urls": {
+      "https://sd-milk.com/contents/schedule?data=media": {
+        "lastFetchedAt": "2026-08-10T07:21:00+09:00",
+        "httpStatus": 200,
+        "contentHash": "0032a8d26c4ea06948087c4eb004b789",
+        "normalizedChars": 539,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://sd-milk.com/contents/news": {
+        "lastFetchedAt": "2026-08-10T07:21:02+09:00",
+        "httpStatus": 200,
+        "contentHash": "8f12fac5a0952d54ff8e36b6ff640b67",
+        "normalizedChars": 720,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://sd-milk.com/": {
+        "lastFetchedAt": "2026-08-10T07:21:05+09:00",
+        "httpStatus": 200,
+        "contentHash": "f6c66b5c90c3117e13e65ba6f0198b9f",
+        "normalizedChars": 1327,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://sd-milk.com/contents/1088624": {
+        "lastFetchedAt": "2026-08-10T07:21:08+09:00",
+        "httpStatus": 200,
+        "contentHash": "1a3adcec2b654387fd1358248eafe6cf",
+        "normalizedChars": 3834,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://sd-milk.com/contents/1090885": {
+        "lastFetchedAt": "2026-08-10T07:21:11+09:00",
+        "httpStatus": 200,
+        "contentHash": "1569f5dd01031dc7f847ea7a008c66db",
+        "normalizedChars": 1155,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:21:11+09:00",
+    "parserEvents": 6,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "bump_of_chicken": {
+    "urls": {
+      "https://www.bumpofchicken.com/live_information": {
+        "lastFetchedAt": "2026-08-10T07:21:11+09:00",
+        "httpStatus": 200,
+        "contentHash": "a726016f4cc4b19f622be4c956f4d369",
+        "normalizedChars": 814,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.bumpofchicken.com/news/news/3757": {
+        "lastFetchedAt": "2026-08-10T07:21:14+09:00",
+        "httpStatus": 200,
+        "contentHash": "175a63a0a10aeaa09c1fbb9514d777c9",
+        "normalizedChars": 225,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.bumpofchicken.com/": {
+        "lastFetchedAt": "2026-08-10T07:21:18+09:00",
+        "httpStatus": 200,
+        "contentHash": "c8a35b9125bc606ecfe74cb8f251fa9c",
+        "normalizedChars": 311,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:21:18+09:00",
+    "parserEvents": 1,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "bz": {
+    "urls": {
+      "https://bz-vermillion.com/news/": {
+        "lastFetchedAt": "2026-08-10T07:21:18+09:00",
+        "httpStatus": 200,
+        "contentHash": "69a5f1ce2f59f19837d8577690379d5c",
+        "normalizedChars": 76934,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://bz-vermillion.com/": {
+        "lastFetchedAt": "2026-08-10T07:21:21+09:00",
+        "httpStatus": 200,
+        "contentHash": "c43945aa62b6b12c3f388d8d7560bfbf",
+        "normalizedChars": 293,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://bz-vermillion.com/en5/": {
+        "lastFetchedAt": "2026-08-10T07:21:24+09:00",
+        "httpStatus": 200,
+        "contentHash": "b0e54b22ab90b8c2003ae4765306eedd",
+        "normalizedChars": 6737,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:21:24+09:00",
+    "parserEvents": 232,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "ae_group": {
+    "urls": {
+      "https://starto.jp/s/p/live?ima=4646": {
+        "lastFetchedAt": "2026-08-10T07:21:24+09:00",
+        "httpStatus": 200,
+        "contentHash": "c61cc22a37f2bd48b45819f2a7130f38",
+        "normalizedChars": 1122,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://starto.jp/s/p/news/list?ima=3653": {
+        "lastFetchedAt": "2026-08-10T07:21:27+09:00",
+        "httpStatus": 200,
+        "contentHash": "7840ec5b9d2974ba9a8ea9cac46c2c57",
+        "normalizedChars": 990,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://starto.jp/": {
+        "lastFetchedAt": "2026-08-10T07:21:30+09:00",
+        "httpStatus": 200,
+        "contentHash": "23c5340461dcdc40ac1d63a046506004",
+        "normalizedChars": 5967,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://starto.jp/s/p/artist/12?ima=3653": {
+        "lastFetchedAt": "2026-08-10T07:21:33+09:00",
+        "httpStatus": 200,
+        "contentHash": "e32c3f9371b64637067f6648e9a2dcac",
+        "normalizedChars": 767,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://starto.jp/s/p/artist/12?ima=5153": {
+        "lastFetchedAt": "2026-08-10T07:21:36+09:00",
+        "httpStatus": 200,
+        "contentHash": "e32c3f9371b64637067f6648e9a2dcac",
+        "normalizedChars": 767,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:21:36+09:00",
+    "parserEvents": 6,
+    "aiFallback": null
+  },
+  "novelbright": {
+    "urls": {
+      "https://novelbright.jp/schedule/list/": {
+        "lastFetchedAt": "2026-08-10T07:21:37+09:00",
+        "httpStatus": 200,
+        "contentHash": "19311e562e033382855d33b8f2741978",
+        "normalizedChars": 573,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://novelbright.jp/news/1/": {
+        "lastFetchedAt": "2026-08-10T07:21:40+09:00",
+        "httpStatus": 200,
+        "contentHash": "baf3bc2b7d2894cd1e8f9d658dfb01ff",
+        "normalizedChars": 723,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://novelbright.jp/": {
+        "lastFetchedAt": "2026-08-10T07:21:42+09:00",
+        "httpStatus": 200,
+        "contentHash": "dc6e0bc77ec2771bdff4a73ddf07a212",
+        "normalizedChars": 161,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:21:42+09:00",
+    "parserEvents": 5,
+    "aiFallback": null
+  },
+  "04_limited_sazabys": {
+    "urls": {
+      "https://www.04limitedsazabys.com/live_information/list/?range=future&sort=asc": {
+        "lastFetchedAt": "2026-08-10T07:21:43+09:00",
+        "httpStatus": 200,
+        "contentHash": "c95d68f805b786e83b9620bd5e9a2cd1",
+        "normalizedChars": 2573,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.04limitedsazabys.com/news/list/16/17/": {
+        "lastFetchedAt": "2026-08-10T07:21:46+09:00",
+        "httpStatus": 200,
+        "contentHash": "0677d0540f298078a0ebb3c00f28fa2a",
+        "normalizedChars": 1645,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.04limitedsazabys.com/": {
+        "lastFetchedAt": "2026-08-10T07:21:49+09:00",
+        "httpStatus": 200,
+        "contentHash": "6e3d8e90d0bd91c360f7291ed2e36291",
+        "normalizedChars": 559,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:21:49+09:00",
+    "parserEvents": 6,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "frederic": {
+    "urls": {
+      "https://frederic-official.com/feature/homepartytour_2026": {
+        "lastFetchedAt": "2026-08-10T07:21:49+09:00",
+        "httpStatus": 200,
+        "contentHash": "51823003182c523e39c8e69ee7f7e053",
+        "normalizedChars": 1429,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://frederic-official.com/news/1": {
+        "lastFetchedAt": "2026-08-10T07:21:52+09:00",
+        "httpStatus": 200,
+        "contentHash": "a43f58e4b5f9537e11f966ad6347d94c",
+        "normalizedChars": 591,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://frederic-official.com/": {
+        "lastFetchedAt": "2026-08-10T07:21:55+09:00",
+        "httpStatus": 200,
+        "contentHash": "00390c8f4bbab5bd0602c226b5fb420e",
+        "normalizedChars": 699,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:21:55+09:00",
+    "parserEvents": 2,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "fruits_zipper": {
+    "urls": {
+      "https://fruitszipper.asobisystem.com/live_information/schedule/list": {
+        "lastFetchedAt": "2026-08-10T07:21:57+09:00",
+        "httpStatus": 200,
+        "contentHash": "9f10b6378e2f92d56c587c775661568d",
+        "normalizedChars": 606,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://fruitszipper.asobisystem.com/news/1": {
+        "lastFetchedAt": "2026-08-10T07:22:00+09:00",
+        "httpStatus": 200,
+        "contentHash": "696f5a9d3ef3d7bcc9348748f391fc8f",
+        "normalizedChars": 658,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://fruitszipper.asobisystem.com/": {
+        "lastFetchedAt": "2026-08-10T07:22:03+09:00",
+        "httpStatus": 200,
+        "contentHash": "9ea983178f7ac707c4327a3dcc898771",
+        "normalizedChars": 1380,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:22:03+09:00",
+    "parserEvents": 3,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "cutie_street": {
+    "urls": {
+      "https://cutiestreet.asobisystem.com/live_information/schedule/list": {
+        "lastFetchedAt": "2026-08-10T07:22:04+09:00",
+        "httpStatus": 200,
+        "contentHash": "8a65c4f6d372db18f6ccab3aff8c3001",
+        "normalizedChars": 476,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://cutiestreet.asobisystem.com/news/1": {
+        "lastFetchedAt": "2026-08-10T07:22:07+09:00",
+        "httpStatus": 200,
+        "contentHash": "9b3249b231092de09a3bf77983eb6c25",
+        "normalizedChars": 628,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://cutiestreet.asobisystem.com/": {
+        "lastFetchedAt": "2026-08-10T07:22:10+09:00",
+        "httpStatus": 200,
+        "contentHash": "e95d4cd818f693817f82ca269715472c",
+        "normalizedChars": 1174,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:22:10+09:00",
+    "parserEvents": 1,
+    "aiFallback": null
+  },
+  "monaki": {
+    "urls": {
+      "https://monaki.fanpla.jp/live_information/schedule/list": {
+        "lastFetchedAt": "2026-08-10T07:22:13+09:00",
+        "httpStatus": 200,
+        "contentHash": "891887683a63db758626021c0af423f5",
+        "normalizedChars": 823,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://monaki.fanpla.jp/news/1": {
+        "lastFetchedAt": "2026-08-10T07:22:16+09:00",
+        "httpStatus": 200,
+        "contentHash": "f3b29843c68dd68150010b18aa74efbb",
+        "normalizedChars": 396,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://monaki.fanpla.jp/": {
+        "lastFetchedAt": "2026-08-10T07:22:19+09:00",
+        "httpStatus": 200,
+        "contentHash": "3c15c386920064f12099daf8490c62f6",
+        "normalizedChars": 1143,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:22:19+09:00",
+    "parserEvents": 1,
+    "aiFallback": null
+  },
+  "equal_love": {
+    "urls": {
+      "https://equal-love.jp/schedule": {
+        "lastFetchedAt": "2026-08-10T07:22:19+09:00",
+        "httpStatus": 200,
+        "contentHash": "e3b0c44298fc1c149afbf4c8996fb924",
+        "normalizedChars": 0,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://equal-love.jp/news": {
+        "lastFetchedAt": "2026-08-10T07:22:22+09:00",
+        "httpStatus": 200,
+        "contentHash": "e3b0c44298fc1c149afbf4c8996fb924",
+        "normalizedChars": 0,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://equal-love.jp/": {
+        "lastFetchedAt": "2026-08-10T07:22:26+09:00",
+        "httpStatus": 200,
+        "contentHash": "e3b0c44298fc1c149afbf4c8996fb924",
+        "normalizedChars": 0,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:22:26+09:00",
+    "parserEvents": 0,
+    "aiFallback": "JS_RENDERED"
+  },
+  "super_beaver": {
+    "urls": {
+      "https://sp.super-beaver.com/live_information/list/?range=future&sort=asc": {
+        "lastFetchedAt": "2026-08-10T07:22:26+09:00",
+        "httpStatus": 200,
+        "contentHash": "e5eec8bc04e3b24fc4e896b49017f61e",
+        "normalizedChars": 472,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://sp.super-beaver.com/news/": {
+        "lastFetchedAt": "2026-08-10T07:22:29+09:00",
+        "httpStatus": 200,
+        "contentHash": "f9897e403c7029463ca165a965b69e65",
+        "normalizedChars": 626,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://sp.super-beaver.com/": {
+        "lastFetchedAt": "2026-08-10T07:22:32+09:00",
+        "httpStatus": 200,
+        "contentHash": "1495f3fc76d58e930d2d2684a8df7bdf",
+        "normalizedChars": 1067,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:22:32+09:00",
+    "parserEvents": 15,
+    "aiFallback": null
+  },
+  "wanima": {
+    "urls": {
+      "https://wanima.net/contents/live": {
+        "lastFetchedAt": "2026-08-10T07:22:35+09:00",
+        "httpStatus": 200,
+        "contentHash": "17186c32cd96a6940357c7a960fe8a94",
+        "normalizedChars": 16,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://wanima.net/contents/news": {
+        "lastFetchedAt": "2026-08-10T07:22:37+09:00",
+        "httpStatus": 200,
+        "contentHash": "1b7e8de7fd736cbdbb8c8d607e909bcd",
+        "normalizedChars": 43,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://wanima.net/": {
+        "lastFetchedAt": "2026-08-10T07:22:41+09:00",
+        "httpStatus": 200,
+        "contentHash": "c209974622e875e2023aaa3ff298b57c",
+        "normalizedChars": 999,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://wanima.net/contents/365695": {
+        "lastFetchedAt": "2026-08-10T07:22:43+09:00",
+        "httpStatus": 200,
+        "contentHash": "2e03d404a51f13aaa200abb1d6d0c337",
+        "normalizedChars": 1375,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://wanima.net/contents/ticket": {
+        "lastFetchedAt": "2026-08-10T07:22:45+09:00",
+        "httpStatus": 200,
+        "contentHash": "4546c94c5f397e67c934d693ad7c1332",
+        "normalizedChars": 9,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:22:45+09:00",
+    "parserEvents": 6,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "yabai_tshirts_yasan": {
+    "urls": {
+      "https://yabaitshirtsyasan.com/schedules/": {
+        "lastFetchedAt": "2026-08-10T07:22:46+09:00",
+        "httpStatus": 200,
+        "contentHash": "1b552da35ae2549ba3025ae9ac7f3e46",
+        "normalizedChars": 223,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://yabaitshirtsyasan.com/news/": {
+        "lastFetchedAt": "2026-08-10T07:22:49+09:00",
+        "httpStatus": 200,
+        "contentHash": "f09460e7325bcde26c2d583900b482f4",
+        "normalizedChars": 660,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://yabaitshirtsyasan.com/": {
+        "lastFetchedAt": "2026-08-10T07:22:52+09:00",
+        "httpStatus": 200,
+        "contentHash": "c3fc2e8cf3ccec4b752b1719fce0a894",
+        "normalizedChars": 415,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:22:52+09:00",
+    "parserEvents": 2,
+    "aiFallback": null
+  },
+  "10_feet": {
+    "urls": {
+      "https://10-feet.kyoto/": {
+        "lastFetchedAt": "2026-08-10T07:22:54+09:00",
+        "httpStatus": 200,
+        "contentHash": "3e5e19785a348aa935bb2531a1e3f0a1",
+        "normalizedChars": 1365,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:22:54+09:00",
+    "parserEvents": 3,
+    "aiFallback": null
+  },
+  "the_oral_cigarettes": {
+    "urls": {
+      "https://theoralcigarettes.com/news/list/3?range=future_event_end_time&sort=asc": {
+        "lastFetchedAt": "2026-08-10T07:22:54+09:00",
+        "httpStatus": 200,
+        "contentHash": "8431b98faab60c8c284908e5c8b01315",
+        "normalizedChars": 532,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://theoralcigarettes.com/news/list/2": {
+        "lastFetchedAt": "2026-08-10T07:22:57+09:00",
+        "httpStatus": 200,
+        "contentHash": "163d9086508a0c2e90c9aa7c0f98dbad",
+        "normalizedChars": 3583,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://theoralcigarettes.com/": {
+        "lastFetchedAt": "2026-08-10T07:23:00+09:00",
+        "httpStatus": 200,
+        "contentHash": "d47673e7f92f8b5669d884ea8d31ace4",
+        "normalizedChars": 210,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:23:00+09:00",
+    "parserEvents": 33,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "utada_hikaru": {
+    "urls": {
+      "https://www.utadahikaru.jp/live/": {
+        "lastFetchedAt": "2026-08-10T07:23:01+09:00",
+        "httpStatus": 200,
+        "contentHash": "7455be9308efcdf6cef27cf85b2af159",
+        "normalizedChars": 1892,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.utadahikaru.jp/news/dq_2t-d4x/": {
+        "lastFetchedAt": "2026-08-10T07:23:04+09:00",
+        "httpStatus": 200,
+        "contentHash": "2c7e0d7e28af4464ca1013428e2c30b8",
+        "normalizedChars": 350,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.utadahikaru.jp/": {
+        "lastFetchedAt": "2026-08-10T07:23:07+09:00",
+        "httpStatus": 200,
+        "contentHash": "ff4c9406c293d42e4f338677b53c3afd",
+        "normalizedChars": 110,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:23:07+09:00",
+    "parserEvents": 16,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "kroi": {
+    "urls": {
+      "https://special.kroi.net/": {
+        "lastFetchedAt": "2026-08-10T07:23:07+09:00",
+        "httpStatus": 200,
+        "contentHash": "e3b0c44298fc1c149afbf4c8996fb924",
+        "normalizedChars": 0,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:23:07+09:00",
+    "parserEvents": 0,
+    "aiFallback": "JS_RENDERED"
+  },
+  "hitsuji_bungaku": {
+    "urls": {
+      "https://www.sonymusic.co.jp/artist/hitsujibungaku/live/": {
+        "lastFetchedAt": "2026-08-10T07:23:07+09:00",
+        "httpStatus": 200,
+        "contentHash": "e3b0c44298fc1c149afbf4c8996fb924",
+        "normalizedChars": 0,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/": {
+        "lastFetchedAt": "2026-08-10T07:23:10+09:00",
+        "httpStatus": 200,
+        "contentHash": "e3b0c44298fc1c149afbf4c8996fb924",
+        "normalizedChars": 0,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://www.sonymusic.co.jp/artist/hitsujibungaku/": {
+        "lastFetchedAt": "2026-08-10T07:23:13+09:00",
+        "httpStatus": 200,
+        "contentHash": "e3b0c44298fc1c149afbf4c8996fb924",
+        "normalizedChars": 0,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:23:13+09:00",
+    "parserEvents": 0,
+    "aiFallback": "JS_RENDERED"
+  },
+  "milet": {
+    "urls": {
+      "https://milet.net/": {
+        "lastFetchedAt": "2026-08-10T07:23:14+09:00",
+        "httpStatus": 200,
+        "contentHash": "e3b0c44298fc1c149afbf4c8996fb924",
+        "normalizedChars": 0,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:23:14+09:00",
+    "parserEvents": 0,
+    "aiFallback": "JS_RENDERED"
+  },
+  "miura_daichi": {
+    "urls": {
+      "https://daichi-miura.jp/news/1/": {
+        "lastFetchedAt": "2026-08-10T07:23:14+09:00",
+        "httpStatus": 200,
+        "contentHash": "f4a9c11632ae60dfc617f79d7156be86",
+        "normalizedChars": 556,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://daichi-miura.jp/": {
+        "lastFetchedAt": "2026-08-10T07:23:17+09:00",
+        "httpStatus": 200,
+        "contentHash": "e6df0567aadb8bf4c301269431274c26",
+        "normalizedChars": 4,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:23:17+09:00",
+    "parserEvents": 0,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "kurayamisaka": {
+    "urls": {
+      "https://eplus.jp/touroku": {
+        "lastFetchedAt": "2026-08-10T07:07:56+09:00",
+        "httpStatus": 403,
+        "contentHash": "",
+        "normalizedChars": 0,
+        "diffStatus": "",
+        "jsSuspect": false,
+        "error": "http_403"
+      },
+      "https://eplus.jp/sf/word/0000158088": {
+        "lastFetchedAt": "2026-08-10T07:23:19+09:00",
+        "httpStatus": 200,
+        "contentHash": "058e3cf37c1968c737940dba8e393b9e",
+        "normalizedChars": 1857,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://eplus.jp/kurayamisaka/": {
+        "lastFetchedAt": "2026-08-10T07:23:21+09:00",
+        "httpStatus": 200,
+        "contentHash": "058e3cf37c1968c737940dba8e393b9e",
+        "normalizedChars": 1857,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://smash-jpn.com/new/": {
+        "lastFetchedAt": "2026-08-10T07:23:21+09:00",
+        "httpStatus": 200,
+        "contentHash": "52a544124b9e23db7f87ec72588ede92",
+        "normalizedChars": 259,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:23:21+09:00",
+    "parserEvents": 11,
+    "aiFallback": null
+  },
+  "ini": {
+    "urls": {
+      "https://ini-official.com/schedule/list/": {
+        "lastFetchedAt": "2026-08-10T07:23:28+09:00",
+        "httpStatus": 200,
+        "contentHash": "e3b0c44298fc1c149afbf4c8996fb924",
+        "normalizedChars": 0,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://ini-official.com/news/1": {
+        "lastFetchedAt": "2026-08-10T07:23:31+09:00",
+        "httpStatus": 200,
+        "contentHash": "e3b0c44298fc1c149afbf4c8996fb924",
+        "normalizedChars": 0,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://ini-official.com/": {
+        "lastFetchedAt": "2026-08-10T07:23:34+09:00",
+        "httpStatus": 200,
+        "contentHash": "e3b0c44298fc1c149afbf4c8996fb924",
+        "normalizedChars": 0,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:23:34+09:00",
+    "parserEvents": 0,
+    "aiFallback": "JS_RENDERED"
+  },
+  "jo1": {
+    "urls": {
+      "https://jo1.jp/schedule/list/": {
+        "lastFetchedAt": "2026-08-10T07:23:35+09:00",
+        "httpStatus": 200,
+        "contentHash": "a57f2f97ee532301c82054acaadf9c53",
+        "normalizedChars": 379,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://jo1.jp/news/list/1/3/": {
+        "lastFetchedAt": "2026-08-10T07:23:38+09:00",
+        "httpStatus": 200,
+        "contentHash": "a0e372a8a96b6d17b5a3acee0574d375",
+        "normalizedChars": 820,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://jo1.jp/": {
+        "lastFetchedAt": "2026-08-10T07:23:41+09:00",
+        "httpStatus": 200,
+        "contentHash": "307d478ff4ab71e7ad9b1861067322b2",
+        "normalizedChars": 1042,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:23:41+09:00",
+    "parserEvents": 1,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "imp": {
+    "urls": {
+      "https://tobe-official.jp/artists/imp": {
+        "lastFetchedAt": "2026-08-10T07:23:41+09:00",
+        "httpStatus": 200,
+        "contentHash": "e3b0c44298fc1c149afbf4c8996fb924",
+        "normalizedChars": 0,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:23:41+09:00",
+    "parserEvents": 0,
+    "aiFallback": "JS_RENDERED"
+  },
+  "mazzel": {
+    "urls": {
+      "https://mazzel.tokyo/tour/play_at_the_muzeum2/": {
+        "lastFetchedAt": "2026-08-10T07:23:41+09:00",
+        "httpStatus": 200,
+        "contentHash": "9a3277f4dbbcde87e3b48be4efc1fb61",
+        "normalizedChars": 6776,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://mazzel.tokyo/feed/": {
+        "lastFetchedAt": "2026-08-10T07:23:44+09:00",
+        "httpStatus": 200,
+        "contentHash": "afee3d29114fabd64cd27db96ab55cd0",
+        "normalizedChars": 7058,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://mazzel.tokyo/category/news/": {
+        "lastFetchedAt": "2026-08-10T07:23:47+09:00",
+        "httpStatus": 200,
+        "contentHash": "5b0bae32770d51ab55fb51e407d86dc7",
+        "normalizedChars": 626,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://mazzel.tokyo/": {
+        "lastFetchedAt": "2026-08-10T07:23:51+09:00",
+        "httpStatus": 200,
+        "contentHash": "1892825684f6543519a8f63d497e202d",
+        "normalizedChars": 1287,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:23:51+09:00",
+    "parserEvents": 26,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "not_equal_me": {
+    "urls": {
+      "https://not-equal-me.jp/schedule": {
+        "lastFetchedAt": "2026-08-10T07:23:51+09:00",
+        "httpStatus": 200,
+        "contentHash": "d276e4e5dbe55d8a175250cdd0e9f624",
+        "normalizedChars": 1023,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://not-equal-me.jp/news/1": {
+        "lastFetchedAt": "2026-08-10T07:23:55+09:00",
+        "httpStatus": 200,
+        "contentHash": "9858a4518ac6f906f10badaa333e1772",
+        "normalizedChars": 796,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://not-equal-me.jp/": {
+        "lastFetchedAt": "2026-08-10T07:23:57+09:00",
+        "httpStatus": 200,
+        "contentHash": "c169f539d7cc0dc30a4c1691610ee2a8",
+        "normalizedChars": 189,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:23:57+09:00",
+    "parserEvents": 0,
+    "aiFallback": "PARSER_FAILED"
+  },
+  "boku_aozora": {
+    "urls": {
+      "https://bokuao.com/schedule/list/": {
+        "lastFetchedAt": "2026-08-10T07:23:58+09:00",
+        "httpStatus": 200,
+        "contentHash": "a8e05a7ebff85eb90f2719a0df5715fa",
+        "normalizedChars": 1290,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://bokuao.com/news/1/": {
+        "lastFetchedAt": "2026-08-10T07:24:01+09:00",
+        "httpStatus": 200,
+        "contentHash": "56307a52b5c508f3ceb5c295bb4428a8",
+        "normalizedChars": 525,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://bokuao.com/": {
+        "lastFetchedAt": "2026-08-10T07:24:04+09:00",
+        "httpStatus": 200,
+        "contentHash": "7267dc4409bd9e9c76af9098508c7051",
+        "normalizedChars": 2335,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:24:04+09:00",
+    "parserEvents": 1,
+    "aiFallback": null
+  },
+  "da_ice": {
+    "urls": {
+      "https://da-ice.jp/schedule/": {
+        "lastFetchedAt": "2026-08-10T07:24:04+09:00",
+        "httpStatus": 200,
+        "contentHash": "392d1ab5d0f41136d3d73af81bc0ef7b",
+        "normalizedChars": 971,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://da-ice.jp/news/": {
+        "lastFetchedAt": "2026-08-10T07:24:08+09:00",
+        "httpStatus": 200,
+        "contentHash": "89e3e09e4b7fe9992392d39121487af8",
+        "normalizedChars": 1892,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://da-ice.jp/": {
+        "lastFetchedAt": "2026-08-10T07:24:11+09:00",
+        "httpStatus": 200,
+        "contentHash": "bb54627c53d15818811f9700794ad6a3",
+        "normalizedChars": 3331,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:24:11+09:00",
+    "parserEvents": 5,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "bts": {
+    "urls": {
+      "https://bts-official.jp/schedule": {
+        "lastFetchedAt": "2026-08-10T07:24:11+09:00",
+        "httpStatus": 200,
+        "contentHash": "019035cd5657e3cb929a41a554afd761",
+        "normalizedChars": 60,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://bts-official.jp/news": {
+        "lastFetchedAt": "2026-08-10T07:24:14+09:00",
+        "httpStatus": 200,
+        "contentHash": "c64cf5b3cb3db4a722f5c95e55e1144d",
+        "normalizedChars": 109,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://bts-official.jp/": {
+        "lastFetchedAt": "2026-08-10T07:24:17+09:00",
+        "httpStatus": 200,
+        "contentHash": "28b2a1ca7b81fb42868815656f6b9ca7",
+        "normalizedChars": 251,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:24:17+09:00",
+    "parserEvents": 0,
+    "aiFallback": "PARSER_FAILED"
+  },
+  "stray_kids": {
+    "urls": {
+      "https://www.straykidsjapan.com/live/": {
+        "lastFetchedAt": "2026-08-10T07:24:17+09:00",
+        "httpStatus": 200,
+        "contentHash": "ff99798f85153d09406c7cb97d4bfd8e",
+        "normalizedChars": 5,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://www.straykidsjapan.com/runitjapan/": {
+        "lastFetchedAt": "2026-08-10T07:24:20+09:00",
+        "httpStatus": 200,
+        "contentHash": "726667c8737b6c4f39ad53f51b57888e",
+        "normalizedChars": 47,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://www.straykidsjapan.com/": {
+        "lastFetchedAt": "2026-08-10T07:24:23+09:00",
+        "httpStatus": 200,
+        "contentHash": "f06e22477c36dc5f449562cefe48eb28",
+        "normalizedChars": 147,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:24:23+09:00",
+    "parserEvents": 0,
+    "aiFallback": "PARSER_FAILED"
+  },
+  "enhypen": {
+    "urls": {
+      "https://www.hybejapan-concert.com/statics/enhypen_blood_saga": {
+        "lastFetchedAt": "2026-08-10T07:24:24+09:00",
+        "httpStatus": 200,
+        "contentHash": "012cadec4d7f17a9fed719a7ff13f6a2",
+        "normalizedChars": 10173,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.hybejapan-concert.com": {
+        "lastFetchedAt": "2026-08-10T07:24:27+09:00",
+        "httpStatus": 200,
+        "contentHash": "2140e0974580aabe4a33401b1c889cb1",
+        "normalizedChars": 385,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.hybejapan-concert.com/": {
+        "lastFetchedAt": "2026-08-10T07:24:30+09:00",
+        "httpStatus": 200,
+        "contentHash": "2140e0974580aabe4a33401b1c889cb1",
+        "normalizedChars": 385,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:24:30+09:00",
+    "parserEvents": 5,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "ive": {
+    "urls": {
+      "https://ive-official.jp/mob/news/diarKiji.php?site=DIVE&ima=3847&cd=SCHEDULE": {
+        "lastFetchedAt": "2026-08-10T07:24:30+09:00",
+        "httpStatus": 200,
+        "contentHash": "f07b6d33b4c4a5e839f481890ab3fe9b",
+        "normalizedChars": 457,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://ive-official.jp/mob/news/newsLis.php?site=DIVE&ima=3847": {
+        "lastFetchedAt": "2026-08-10T07:24:33+09:00",
+        "httpStatus": 200,
+        "contentHash": "7944f8817f1d08f3648aad007e2c5780",
+        "normalizedChars": 660,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://ive-official.jp/mob/news/newsShw.php?site=DIVE&cd=OF10325": {
+        "lastFetchedAt": "2026-08-10T07:24:36+09:00",
+        "httpStatus": 200,
+        "contentHash": "0ae149f05d60e644592bbdfbf7af42b3",
+        "normalizedChars": 5224,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://ive-official.jp/": {
+        "lastFetchedAt": "2026-08-10T07:24:39+09:00",
+        "httpStatus": 200,
+        "contentHash": "2d8405c8814a9539c01ade7fa6a0685a",
+        "normalizedChars": 779,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:24:39+09:00",
+    "parserEvents": 4,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "aespa": {
+    "urls": {
+      "https://aespa-official.jp/schedule": {
+        "lastFetchedAt": "2026-08-10T07:24:40+09:00",
+        "httpStatus": 200,
+        "contentHash": "b8bd90ded11e99d69ba9a880d77c2363",
+        "normalizedChars": 1205,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://aespa-official.jp/news": {
+        "lastFetchedAt": "2026-08-10T07:24:43+09:00",
+        "httpStatus": 200,
+        "contentHash": "d66643684d157d655d16639ba567b807",
+        "normalizedChars": 1473,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://aespa-official.jp/news/fanmeeting2026-myclassmaete/": {
+        "lastFetchedAt": "2026-08-10T07:24:45+09:00",
+        "httpStatus": 200,
+        "contentHash": "cbcf63bf07e56a4a62e5f62449521c0e",
+        "normalizedChars": 7599,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://aespa-official.jp/": {
+        "lastFetchedAt": "2026-08-10T07:24:49+09:00",
+        "httpStatus": 200,
+        "contentHash": "f8e5977b18aebeb29480c22785ce814e",
+        "normalizedChars": 1133,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:24:49+09:00",
+    "parserEvents": 24,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "le_sserafim": {
+    "urls": {
+      "https://www.le-sserafim.jp/schedule": {
+        "lastFetchedAt": "2026-08-10T07:24:49+09:00",
+        "httpStatus": 200,
+        "contentHash": "b24edbedef83506c9b625a06cb7f827a",
+        "normalizedChars": 15,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://www.le-sserafim.jp/news": {
+        "lastFetchedAt": "2026-08-10T07:24:52+09:00",
+        "httpStatus": 200,
+        "contentHash": "8531559bd45a729cd0ec7a6e3f631227",
+        "normalizedChars": 54,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://www.le-sserafim.jp/news/51726af4dd90": {
+        "lastFetchedAt": "2026-08-10T07:24:55+09:00",
+        "httpStatus": 200,
+        "contentHash": "af4cd234b363bcbab8a18ee3515157fa",
+        "normalizedChars": 9125,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.le-sserafim.jp/": {
+        "lastFetchedAt": "2026-08-10T07:24:58+09:00",
+        "httpStatus": 200,
+        "contentHash": "76e309a7f4c1a3c73a60978676b92da2",
+        "normalizedChars": 104,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://www.le-sserafim.jp/ticket": {
+        "lastFetchedAt": "2026-08-10T07:25:01+09:00",
+        "httpStatus": 200,
+        "contentHash": "ba3fce772dbad9a5bc046534f113294f",
+        "normalizedChars": 721,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:25:01+09:00",
+    "parserEvents": 27,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "tomorrow_x_together": {
+    "urls": {
+      "https://txt-official.jp/schedule": {
+        "lastFetchedAt": "2026-08-10T07:25:01+09:00",
+        "httpStatus": 200,
+        "contentHash": "ae834c5e2322cf935db8f03a7c4555b3",
+        "normalizedChars": 55,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://txt-official.jp/news": {
+        "lastFetchedAt": "2026-08-10T07:25:04+09:00",
+        "httpStatus": 200,
+        "contentHash": "dfdd64fa6f9dd2df0804f9474af60f50",
+        "normalizedChars": 54,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://txt-official.jp/": {
+        "lastFetchedAt": "2026-08-10T07:25:07+09:00",
+        "httpStatus": 200,
+        "contentHash": "e0fe0405e91ded3acd7c9d6b7f2cfa26",
+        "normalizedChars": 118,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:25:07+09:00",
+    "parserEvents": 0,
+    "aiFallback": "PARSER_FAILED"
+  },
+  "shinee": {
+    "urls": {
+      "https://shinee.jp/live/": {
+        "lastFetchedAt": "2026-08-10T07:25:08+09:00",
+        "httpStatus": 200,
+        "contentHash": "df9e36424a1f52af3f0eaeae9fc6148c",
+        "normalizedChars": 636,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://shinee.jp/news/": {
+        "lastFetchedAt": "2026-08-10T07:25:12+09:00",
+        "httpStatus": 200,
+        "contentHash": "32c4bb5cc1f2adede2105acbe1a9a4c0",
+        "normalizedChars": 905,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://shinee.jp/": {
+        "lastFetchedAt": "2026-08-10T07:25:14+09:00",
+        "httpStatus": 200,
+        "contentHash": "7c04fc0328d3913c43cb2c6fca043fb3",
+        "normalizedChars": 957,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:25:14+09:00",
+    "parserEvents": 3,
+    "aiFallback": null
+  },
+  "hypnosis_mic": {
+    "urls": {
+      "https://hypnosismic.com/news/": {
+        "lastFetchedAt": "2026-08-10T07:25:25+09:00",
+        "httpStatus": 200,
+        "contentHash": "a8fda70454ed2975750cfd8518861f29",
+        "normalizedChars": 892,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://hypnosismic.com/": {
+        "lastFetchedAt": "2026-08-10T07:25:28+09:00",
+        "httpStatus": 200,
+        "contentHash": "26a49e0267206e386470235d874bac68",
+        "normalizedChars": 48,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:25:28+09:00",
+    "parserEvents": 0,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "uta_no_prince_sama": {
+    "urls": {
+      "https://www.utapri.com/app/live_emotion/": {
+        "lastFetchedAt": "2026-08-10T07:25:28+09:00",
+        "httpStatus": 200,
+        "contentHash": "74dc3beb151c93e8f3e1d7b28910952d",
+        "normalizedChars": 757,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.utapri.com/news.php": {
+        "lastFetchedAt": "2026-08-10T07:25:31+09:00",
+        "httpStatus": 200,
+        "contentHash": "7501b32c6d3fb0d6d61817caf6fbba2b",
+        "normalizedChars": 2987,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.utapri.com/": {
+        "lastFetchedAt": "2026-08-10T07:25:34+09:00",
+        "httpStatus": 200,
+        "contentHash": "99244330617752f267d00b168ab632b6",
+        "normalizedChars": 3530,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.utapri.com/grandshop/": {
+        "lastFetchedAt": "2026-08-10T07:25:37+09:00",
+        "httpStatus": 200,
+        "contentHash": "5ceb6ce0e982d646655e13a721d35dc3",
+        "normalizedChars": 167,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:25:37+09:00",
+    "parserEvents": 1,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "idolish7": {
+    "urls": {
+      "https://idolish7.com/event": {
+        "lastFetchedAt": "2026-08-10T07:25:37+09:00",
+        "httpStatus": 200,
+        "contentHash": "31d4304a8413beeb35ee6e6566a5ecd0",
+        "normalizedChars": 510,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://idolish7.com/news": {
+        "lastFetchedAt": "2026-08-10T07:25:40+09:00",
+        "httpStatus": 200,
+        "contentHash": "0f4bc7c4ea62760bd3d7e1b665193ca7",
+        "normalizedChars": 1532,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://idolish7.com/": {
+        "lastFetchedAt": "2026-08-10T07:25:44+09:00",
+        "httpStatus": 200,
+        "contentHash": "05e4b7ce6ee1d623050d755d077f4290",
+        "normalizedChars": 593,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:25:44+09:00",
+    "parserEvents": 1,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "a3": {
+    "urls": {
+      "https://www.mankai-stage.jp/news": {
+        "lastFetchedAt": "2026-08-10T07:25:45+09:00",
+        "httpStatus": 200,
+        "contentHash": "b1b6b69f9fe6ca6c1118674d1db15bc5",
+        "normalizedChars": 1651,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://mankai-stage.jp/": {
+        "lastFetchedAt": "2026-08-10T07:25:45+09:00",
+        "httpStatus": 200,
+        "contentHash": "f44e7699d7083eec0c873384753f44ec",
+        "normalizedChars": 1046,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.mankai-stage.jp/latest_stage": {
+        "lastFetchedAt": "2026-08-10T07:25:48+09:00",
+        "httpStatus": 200,
+        "contentHash": "59fe21ac3438dd3676a8e110c3f47163",
+        "normalizedChars": 112,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://www.mankai-stage.jp/past_stage": {
+        "lastFetchedAt": "2026-08-10T07:25:51+09:00",
+        "httpStatus": 200,
+        "contentHash": "c1941a4494829c7a9e638d7020f598eb",
+        "normalizedChars": 548,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:25:51+09:00",
+    "parserEvents": 0,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "gre4n_boyz": {
+    "urls": {
+      "https://gre4n-boyz.com/live/": {
+        "lastFetchedAt": "2026-08-10T07:25:51+09:00",
+        "httpStatus": 200,
+        "contentHash": "22e23b0e4993bbf12fbb7150143fd50f",
+        "normalizedChars": 848,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://gre4n-boyz.com/news/": {
+        "lastFetchedAt": "2026-08-10T07:25:54+09:00",
+        "httpStatus": 200,
+        "contentHash": "366acc5641ee7881c938a07286d1ea58",
+        "normalizedChars": 794,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://gre4n-boyz.com/": {
+        "lastFetchedAt": "2026-08-10T07:25:57+09:00",
+        "httpStatus": 200,
+        "contentHash": "e3b0c44298fc1c149afbf4c8996fb924",
+        "normalizedChars": 0,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:25:57+09:00",
+    "parserEvents": 13,
+    "aiFallback": null
+  },
+  "ikimonogakari": {
+    "urls": {
+      "https://ikimonogakari.com/news/live/20260807-1": {
+        "lastFetchedAt": "2026-08-10T07:25:57+09:00",
+        "httpStatus": 200,
+        "contentHash": "326ada949d9fc79ae927a6921b83c0c4",
+        "normalizedChars": 576,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://ikimonogakari.com/news/": {
+        "lastFetchedAt": "2026-08-10T07:26:00+09:00",
+        "httpStatus": 200,
+        "contentHash": "4d2a138dbc819a15fdc679bb06c906b7",
+        "normalizedChars": 1032,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://ikimonogakari.com/": {
+        "lastFetchedAt": "2026-08-10T07:26:03+09:00",
+        "httpStatus": 200,
+        "contentHash": "2f4b2ac18635faefcb6d23c14e93b4eb",
+        "normalizedChars": 2952,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:26:03+09:00",
+    "parserEvents": 3,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "and_team": {
+    "urls": {
+      "https://www.andteam-official.jp/schedule": {
+        "lastFetchedAt": "2026-08-10T07:26:04+09:00",
+        "httpStatus": 200,
+        "contentHash": "b76eb85e7f8a620f3850480208980be6",
+        "normalizedChars": 31,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://www.andteam-official.jp/news": {
+        "lastFetchedAt": "2026-08-10T07:26:07+09:00",
+        "httpStatus": 200,
+        "contentHash": "69c7e13cf503a53dc33ecbbd8afbc9bd",
+        "normalizedChars": 54,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://www.andteam-official.jp/": {
+        "lastFetchedAt": "2026-08-10T07:26:10+09:00",
+        "httpStatus": 200,
+        "contentHash": "02a338a24a51e3a289642595a85f243e",
+        "normalizedChars": 108,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:26:10+09:00",
+    "parserEvents": 0,
+    "aiFallback": "PARSER_FAILED"
+  },
+  "aina_the_end": {
+    "urls": {
+      "https://ainatheend.jp/schedule/": {
+        "lastFetchedAt": "2026-08-10T07:26:10+09:00",
+        "httpStatus": 200,
+        "contentHash": "1ef1fe2b2a6731f4541ae22929177358",
+        "normalizedChars": 201,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://ainatheend.jp/news/": {
+        "lastFetchedAt": "2026-08-10T07:26:13+09:00",
+        "httpStatus": 200,
+        "contentHash": "328af4364064359bafd3b730acf3169b",
+        "normalizedChars": 1844,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://ainatheend.jp/": {
+        "lastFetchedAt": "2026-08-10T07:26:16+09:00",
+        "httpStatus": 200,
+        "contentHash": "8d3bcdb57f99eafce99af9b21a5c3883",
+        "normalizedChars": 1190,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:26:16+09:00",
+    "parserEvents": 4,
+    "aiFallback": null
+  },
+  "yorushika": {
+    "urls": {
+      "https://yorushika.com/feature/livetour2026_ichininsho": {
+        "lastFetchedAt": "2026-08-10T07:26:17+09:00",
+        "httpStatus": 200,
+        "contentHash": "5fb5a37886c945f45eb7ce48c6076f18",
+        "normalizedChars": 1789,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://yorushika.com/news/5": {
+        "lastFetchedAt": "2026-08-10T07:26:20+09:00",
+        "httpStatus": 200,
+        "contentHash": "a49ba2b67d60ad0bb19034402f1adc6c",
+        "normalizedChars": 620,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://yorushika.com/": {
+        "lastFetchedAt": "2026-08-10T07:26:23+09:00",
+        "httpStatus": 200,
+        "contentHash": "c5546b2477343ba8e9d033f6932957a1",
+        "normalizedChars": 237,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:26:23+09:00",
+    "parserEvents": 2,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "urashimasakatasen": {
+    "urls": {
+      "https://urashimasakatasen.com/live/taboo": {
+        "lastFetchedAt": "2026-08-10T07:26:26+09:00",
+        "httpStatus": 200,
+        "contentHash": "6bdcfa9dff00c8dfecb1d0fa4bfec103",
+        "normalizedChars": 19161,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://urashimasakatasen.com/news": {
+        "lastFetchedAt": "2026-08-10T07:26:29+09:00",
+        "httpStatus": 200,
+        "contentHash": "fb75f8ee65af2ff59823b977254bf9f0",
+        "normalizedChars": 11029,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://urashimasakatasen.com/": {
+        "lastFetchedAt": "2026-08-10T07:26:30+09:00",
+        "httpStatus": 200,
+        "contentHash": "6509e12e275a464503a1f935e594861a",
+        "normalizedChars": 445,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://urashimasakatasen.com/goods/summer2026": {
+        "lastFetchedAt": "2026-08-10T07:26:35+09:00",
+        "httpStatus": 200,
+        "contentHash": "1a839bdb63b3852e5125984f0517a7e9",
+        "normalizedChars": 2688,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://urashimasakatasen.com/uratanuki/goods2026": {
+        "lastFetchedAt": "2026-08-10T07:26:38+09:00",
+        "httpStatus": 200,
+        "contentHash": "c5cc70cef6c2bc859267d2ce1bbf6616",
+        "normalizedChars": 1586,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastResult": "NO_CHANGE",
+    "lastRunAt": "2026-08-10T07:26:38+09:00",
+    "parserEvents": 515,
+    "aiFallback": "LOTTERY_TEXT"
+  },
+  "starglow": {
+    "urls": {
+      "https://starglow.tokyo/news/live/1327/": {
+        "lastFetchedAt": "2026-08-10T07:48:07+09:00",
+        "httpStatus": 200,
+        "contentHash": "7e441fa95ec7d591216e461d41ebf137",
+        "normalizedChars": 3534,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://starglow.tokyo/news": {
+        "lastFetchedAt": "2026-08-10T07:48:10+09:00",
+        "httpStatus": 200,
+        "contentHash": "252f1deaf75ea1a37dac806a63f614ae",
+        "normalizedChars": 602,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://starglow.tokyo/": {
+        "lastFetchedAt": "2026-08-10T07:48:13+09:00",
+        "httpStatus": 200,
+        "contentHash": "589028e60a523c61cea31442b0a21d43",
+        "normalizedChars": 2497,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastRunAt": "2026-08-10T07:48:13+09:00",
+    "lastResult": "NO_CHANGE",
+    "aiFallback": null
+  },
+  "sandaime_j_soul_brothers": {
+    "urls": {
+      "https://www.ldh-liveschedule.jp/sys/tour/40856/feed/": {
+        "lastFetchedAt": "2026-08-10T07:46:34+09:00",
+        "httpStatus": 200,
+        "contentHash": "d801cf85fc2defd379157f3b9b6f18d9",
+        "normalizedChars": 144,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": true,
+        "error": null
+      },
+      "https://www.ldh-liveschedule.jp/sys/newslist/?t=40856&lang=ja": {
+        "lastFetchedAt": "2026-08-10T07:46:37+09:00",
+        "httpStatus": 200,
+        "contentHash": "f1c28662c5d3fc354bf998a1b6e4961e",
+        "normalizedChars": 982,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.ldh-liveschedule.jp/sys/tour/40856/": {
+        "lastFetchedAt": "2026-08-10T07:46:40+09:00",
+        "httpStatus": 200,
+        "contentHash": "e1a6e3bb0fef5967807b542c9269b7e5",
+        "normalizedChars": 3984,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      },
+      "https://www.ldh-liveschedule.jp/": {
+        "lastFetchedAt": "2026-08-10T07:46:43+09:00",
+        "httpStatus": 200,
+        "contentHash": "b8838769454f06f4c571fb1fa8812d24",
+        "normalizedChars": 2623,
+        "diffStatus": "NO_CHANGE",
+        "jsSuspect": false,
+        "error": null
+      }
+    },
+    "lastRunAt": "2026-08-10T07:46:43+09:00",
+    "lastResult": "NO_CHANGE",
+    "aiFallback": null
+  }
+}

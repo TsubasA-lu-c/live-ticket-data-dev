@@ -1,0 +1,1139 @@
+{
+  "defaults": {
+    "fetchType": "http",
+    "parserType": "generic"
+  },
+  "artists": {
+    "ellegarden": {
+      "liveUrl": "https://ellegarden.jp/live.html",
+      "newsUrl": "https://ellegarden.jp/news.html",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "golden_bomber": {
+      "liveUrl": "https://pc.goldenbomber.jp/contents/live_event",
+      "newsUrl": null,
+      "feedUrl": null,
+      "extraUrls": [
+        "https://pc.goldenbomber.jp/contents/1018840",
+        "https://pc.goldenbomber.jp/contents/70363"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "yonezu_kenshi": {
+      "liveUrl": "https://reissuerecords.net/live/",
+      "newsUrl": "https://reissuerecords.net/news/",
+      "feedUrl": null,
+      "extraUrls": [
+        "https://reissuerecords.net/"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "mizuki_nana": {
+      "liveUrl": null,
+      "newsUrl": "https://www.mizukinana.jp/news/",
+      "feedUrl": null,
+      "extraUrls": [
+        "https://www.mizukinana.jp/biography/",
+        "https://www.mizukinana.jp/"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "iris": {
+      "liveUrl": "https://iris.dive2ent.com/liveevent/",
+      "newsUrl": "https://iris.dive2ent.com/news/",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "mr_children": {
+      "liveUrl": null,
+      "newsUrl": "https://www.mrchildren.jp/news/",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "official_hige_dandism": {
+      "liveUrl": null,
+      "newsUrl": "https://event.higedan.com/news/detail/101670",
+      "feedUrl": null,
+      "extraUrls": [
+        "https://event.higedan.com/"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "back_number": {
+      "liveUrl": "https://backnumber.info/feature/stadiumtour2026_news",
+      "newsUrl": "https://backnumber.info/news/list/6",
+      "feedUrl": null,
+      "extraUrls": [
+        "https://backnumber.info/"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "ado": {
+      "liveUrl": null,
+      "newsUrl": "https://www.universal-music.co.jp/news/",
+      "feedUrl": "https://www.universal-music.co.jp/ado/news/2025-11-23/feed/",
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "yoasobi": {
+      "liveUrl": null,
+      "newsUrl": null,
+      "feedUrl": null,
+      "extraUrls": [
+        "https://www.yoasobi-music.jp/"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "nogizaka46": {
+      "liveUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026_bf?ima=4615",
+      "newsUrl": "https://www.nogizaka46.com/s/n46/news/list?ima=1259&dy=202607",
+      "feedUrl": null,
+      "extraUrls": [
+        "https://www.nogizaka46.com/"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "hinatazaka46": {
+      "liveUrl": "https://www.hinatazaka46.com/s/official/news/list?ima=0000&cd=event&dy=202607",
+      "newsUrl": "https://www.hinatazaka46.com/s/official/news/list?ima=0000&dy=202607",
+      "feedUrl": null,
+      "extraUrls": [
+        "https://www.hinatazaka46.com/",
+        "https://www.hinatazaka46.com/s/official/media/list?ima=0000&dy=202608"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "aimyon": {
+      "liveUrl": "https://www.aimyong.net/news/5/?range=future_event_end_time&sort=asc",
+      "newsUrl": "https://www.aimyong.net/news/1/",
+      "feedUrl": null,
+      "extraUrls": [
+        "https://www.aimyong.net/"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "creepy_nuts": {
+      "liveUrl": null,
+      "newsUrl": null,
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "sakanaction": {
+      "liveUrl": "https://sakanaction.jp/feature/tour2026_ticket_available",
+      "newsUrl": "https://sakanaction.jp/news/?lang=ja",
+      "feedUrl": null,
+      "extraUrls": [
+        "https://sakanaction.jp/"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "larc_en_ciel": {
+      "liveUrl": null,
+      "newsUrl": "https://larc-en-ciel.com/s/n137/news/list?ima=3753",
+      "feedUrl": null,
+      "extraUrls": [
+        "https://larc-en-ciel.com/"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "king_gnu": {
+      "liveUrl": "https://www.sonymusic.co.jp/artist/kinggnu/live/",
+      "newsUrl": "https://www.sonymusic.co.jp/artist/kinggnu/info/",
+      "feedUrl": null,
+      "extraUrls": [
+        "https://www.sonymusic.co.jp/artist/kinggnu/"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "hoshino_gen": {
+      "liveUrl": null,
+      "newsUrl": "https://www.hoshinogen.com/news/",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "vaundy": {
+      "liveUrl": "https://member.vaundy.jp/feature/livestreaming",
+      "newsUrl": "https://vaundy.jp/news/1",
+      "feedUrl": null,
+      "extraUrls": [
+        "https://vaundy.jp/"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "fujii_kaze": {
+      "liveUrl": null,
+      "newsUrl": null,
+      "feedUrl": null,
+      "extraUrls": [
+        "https://hehn.fujiikaze.com/"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "spitz": {
+      "liveUrl": "https://spitz-web.com/live/2026others/",
+      "newsUrl": "https://spitz-web.com/news/",
+      "feedUrl": null,
+      "extraUrls": [
+        "https://spitz-web.com/"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "lisa": {
+      "liveUrl": null,
+      "newsUrl": "https://www.lxixsxa.com/info/",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "hana": {
+      "liveUrl": "https://hana.b-rave.tokyo/live/260630-2/",
+      "newsUrl": "https://hana.b-rave.tokyo/news/",
+      "feedUrl": null,
+      "extraUrls": [
+        "https://hana.b-rave.tokyo/goods/260501-2/",
+        "https://hana.b-rave.tokyo/goods/260708/"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "snow_man": {
+      "liveUrl": "https://mentrecording.jp/snowman/live/",
+      "newsUrl": "https://mentrecording.jp/snowman/news/",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "sixtones": {
+      "liveUrl": "https://www.sixtones.jp/live",
+      "newsUrl": "https://www.sixtones.jp/news",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "one_ok_rock": {
+      "liveUrl": null,
+      "newsUrl": "https://oneokrock-pf.com/news/1/",
+      "feedUrl": null,
+      "extraUrls": [
+        "https://oneokrock-pf.com/"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "radwimps": {
+      "liveUrl": null,
+      "newsUrl": "https://radwimps.jp/news/",
+      "feedUrl": null,
+      "extraUrls": [
+        "https://radwimps.jp/"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "ryokuoushoku_shakai": {
+      "liveUrl": "https://www.ryokushaka.com/daiyasai2026/event",
+      "newsUrl": "https://www.ryokushaka.com/daiyasai2026/news",
+      "feedUrl": null,
+      "extraUrls": [
+        "https://www.ryokushaka.com/daiyasai2026/ticket",
+        "https://www.ryokushaka.com/"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "aimer": {
+      "liveUrl": "https://www.aimer-web.jp/live-at-anywhere/",
+      "newsUrl": "https://www.aimer-web.jp/news/archive/?577612",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "yuuri": {
+      "liveUrl": null,
+      "newsUrl": "https://www.yuuriweb.com/news/",
+      "feedUrl": null,
+      "extraUrls": [
+        "https://yuurinchi.com/"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "naniwa_danshi": {
+      "liveUrl": "https://starto.jp/s/p/live?ima=4627",
+      "newsUrl": "https://starto.jp/s/p/news/list?ima=2052&tag=56&list[]=56&artist=56",
+      "feedUrl": null,
+      "extraUrls": [
+        "https://fan.books.rakuten.co.jp/articles/8735",
+        "https://starto.jp/s/p/artist/56"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "hey_say_jump": {
+      "liveUrl": "https://starto.jp/s/p/live?ima=4628",
+      "newsUrl": "https://starto.jp/s/p/news/list?ima=2312&tag=15&list[]=15&artist=15",
+      "feedUrl": null,
+      "extraUrls": [
+        "https://live-events.a-jp.org/soko/a/85.html",
+        "https://live-events.a-jp.org/"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "travis_japan": {
+      "liveUrl": "https://starto.jp/s/p/live?ima=4629",
+      "newsUrl": "https://starto.jp/s/p/news/list?ima=2311&tag=60&list[]=60&artist=60",
+      "feedUrl": null,
+      "extraUrls": [
+        "https://fan.books.rakuten.co.jp/articles/8735",
+        "https://starto.jp/s/p/artist/12?ima=4629"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "twice": {
+      "liveUrl": null,
+      "newsUrl": "https://www.twicejapan.com/news",
+      "feedUrl": null,
+      "extraUrls": [
+        "https://www.twicejapan.com/"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "seventeen": {
+      "liveUrl": "https://www.seventeen-17.jp/posts/schedule",
+      "newsUrl": "https://www.seventeen-17.jp/posts/information/pdizms",
+      "feedUrl": null,
+      "extraUrls": [
+        "https://www.seventeen-17.jp/"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "sky_hi": {
+      "liveUrl": "https://bmsg.tokyo/category/live/",
+      "newsUrl": "https://bmsg.tokyo/news",
+      "feedUrl": "https://bmsg.tokyo/feed/",
+      "extraUrls": [
+        "https://bmsg.tokyo/"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "tennimu": {
+      "liveUrl": null,
+      "newsUrl": "https://www.tennimu.com/4th_2026rikkai_1/news/",
+      "feedUrl": null,
+      "extraUrls": [
+        "https://www.tennimu.com/4th_2026rikkai_1/streaming/",
+        "https://www.tennimu.com/"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "touken_ranbu_musical": {
+      "liveUrl": "https://musical-toukenranbu.jp/contents/liveviewing",
+      "newsUrl": null,
+      "feedUrl": null,
+      "extraUrls": [
+        "https://musical-toukenranbu.jp/contents/preticket/preticket_autumn2026",
+        "https://musical-toukenranbu.jp/contents/1081530"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "zutomayo": {
+      "liveUrl": "https://zutomayo.net/live/",
+      "newsUrl": "https://zutomayo.net/news/",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "momoiro_clover_z": {
+      "liveUrl": "https://www.momoclo.net/schedule",
+      "newsUrl": "https://www.momoclo.net/news",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "macaroni_empitsu": {
+      "liveUrl": "https://macaroniempitsu.com/live",
+      "newsUrl": "https://macaroniempitsu.com/news",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "sakurazaka46": {
+      "liveUrl": "https://sakurazaka46.com/s/s46/page/nationaltour2026_quiz?ima=0000",
+      "newsUrl": "https://sakurazaka46.com/s/s46/news/list?ima=0000&dy=202607",
+      "feedUrl": null,
+      "extraUrls": [
+        "https://sakurazaka46.com/",
+        "https://sakurazaka46.com/s/s46/group/list?ima=0000&dy=202607"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "babymetal": {
+      "liveUrl": "https://babymetal.com/mob/news/diarKiji.php?site=TO&ima=3813&cd=TOUR_TO&so=a&lang=en",
+      "newsUrl": "https://babymetal.com/mob/news/diarKiji.php?site=TO&ima=3813&cd=NEWS_TO&lang=en",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "mrs_green_apple": {
+      "liveUrl": "https://mrsgreenapple.com/feature/zenjinmito_2026_live_waiting",
+      "newsUrl": "https://mrsgreenapple.com/feature/zenjinmito_2026_news",
+      "feedUrl": null,
+      "extraUrls": [
+        "https://mrsgreenapple.com/",
+        "https://mrsgreenapple.com/feature/zenjinmito_2026_ticket"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "be_first": {
+      "liveUrl": null,
+      "newsUrl": "https://befirst.tokyo/news/",
+      "feedUrl": "https://befirst.tokyo/top/feed/",
+      "extraUrls": [
+        "https://befirst.tokyo/dvd-blu-ray/260730-stadium/"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "glay": {
+      "liveUrl": "https://www.glay.co.jp/feature/HS30thLive",
+      "newsUrl": "https://www.glay.co.jp/news/1",
+      "feedUrl": null,
+      "extraUrls": [
+        "https://www.glay.co.jp/"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "yuzu": {
+      "liveUrl": "https://yuzu-official.com/pages/yuzu_arenatour2026",
+      "newsUrl": "https://yuzu-official.com/contents/information/34674919-757a-4dc6-b08b-4b62ea6f5243",
+      "feedUrl": null,
+      "extraUrls": [
+        "https://yuzu-official.com/"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "koda_kumi": {
+      "liveUrl": "https://rhythmzone.net/koda/schedule/",
+      "newsUrl": "https://rhythmzone.net/koda/news/",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "kobukuro": {
+      "liveUrl": "https://kobukuro.com/feature/tour2026_news",
+      "newsUrl": "https://www.kobukuro.com/news/1?_normalbrowse_=1",
+      "feedUrl": null,
+      "extraUrls": [
+        "https://kobukuro.com/"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "number_i": {
+      "liveUrl": null,
+      "newsUrl": null,
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "king_and_prince": {
+      "liveUrl": "https://kingandprince7th.jp/STARRING/DOME_tour/",
+      "newsUrl": null,
+      "feedUrl": null,
+      "extraUrls": [
+        "https://kingandprince7th.jp/reera_dvd/",
+        "https://musicexpolive.com/2025/"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "timelesz": {
+      "liveUrl": null,
+      "newsUrl": "https://ovtp.jp/news",
+      "feedUrl": "https://ovtp.jp/feed",
+      "extraUrls": [
+        "https://ovtp.jp/"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "milk": {
+      "liveUrl": "https://sd-milk.com/contents/schedule?data=media",
+      "newsUrl": "https://sd-milk.com/contents/news",
+      "feedUrl": null,
+      "extraUrls": [
+        "https://sd-milk.com/contents/1088624",
+        "https://sd-milk.com/contents/1090885"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "bump_of_chicken": {
+      "liveUrl": "https://www.bumpofchicken.com/live_information",
+      "newsUrl": "https://www.bumpofchicken.com/news/news/3757",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "bz": {
+      "liveUrl": null,
+      "newsUrl": "https://bz-vermillion.com/news/",
+      "feedUrl": null,
+      "extraUrls": [
+        "https://bz-vermillion.com/en5/"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "ae_group": {
+      "liveUrl": "https://starto.jp/s/p/live?ima=4646",
+      "newsUrl": "https://starto.jp/s/p/news/list?ima=3653",
+      "feedUrl": null,
+      "extraUrls": [
+        "https://starto.jp/s/p/artist/12?ima=3653",
+        "https://starto.jp/s/p/artist/12?ima=5153"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "novelbright": {
+      "liveUrl": "https://novelbright.jp/schedule/list/",
+      "newsUrl": "https://novelbright.jp/news/1/",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "04_limited_sazabys": {
+      "liveUrl": "https://www.04limitedsazabys.com/live_information/list/?range=future&sort=asc",
+      "newsUrl": "https://www.04limitedsazabys.com/news/list/16/17/",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "frederic": {
+      "liveUrl": "https://frederic-official.com/feature/homepartytour_2026",
+      "newsUrl": "https://frederic-official.com/news/1",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "fruits_zipper": {
+      "liveUrl": "https://fruitszipper.asobisystem.com/live_information/schedule/list",
+      "newsUrl": "https://fruitszipper.asobisystem.com/news/1",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "cutie_street": {
+      "liveUrl": "https://cutiestreet.asobisystem.com/live_information/schedule/list",
+      "newsUrl": "https://cutiestreet.asobisystem.com/news/1",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "monaki": {
+      "liveUrl": "https://monaki.fanpla.jp/live_information/schedule/list",
+      "newsUrl": "https://monaki.fanpla.jp/news/1",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "equal_love": {
+      "liveUrl": "https://equal-love.jp/schedule",
+      "newsUrl": "https://equal-love.jp/news",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "super_beaver": {
+      "liveUrl": "https://sp.super-beaver.com/live_information/list/?range=future&sort=asc",
+      "newsUrl": "https://sp.super-beaver.com/news/",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "wanima": {
+      "liveUrl": "https://wanima.net/contents/live",
+      "newsUrl": "https://wanima.net/contents/news",
+      "feedUrl": null,
+      "extraUrls": [
+        "https://wanima.net/contents/365695",
+        "https://wanima.net/contents/ticket"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "yabai_tshirts_yasan": {
+      "liveUrl": "https://yabaitshirtsyasan.com/schedules/",
+      "newsUrl": "https://yabaitshirtsyasan.com/news/",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "10_feet": {
+      "liveUrl": null,
+      "newsUrl": null,
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "the_oral_cigarettes": {
+      "liveUrl": "https://theoralcigarettes.com/news/list/3?range=future_event_end_time&sort=asc",
+      "newsUrl": "https://theoralcigarettes.com/news/list/2",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "utada_hikaru": {
+      "liveUrl": "https://www.utadahikaru.jp/live/",
+      "newsUrl": "https://www.utadahikaru.jp/news/dq_2t-d4x/",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "kroi": {
+      "liveUrl": null,
+      "newsUrl": null,
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "hitsuji_bungaku": {
+      "liveUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/live/",
+      "newsUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "milet": {
+      "liveUrl": null,
+      "newsUrl": null,
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "miura_daichi": {
+      "liveUrl": null,
+      "newsUrl": "https://daichi-miura.jp/news/1/",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "kurayamisaka": {
+      "liveUrl": null,
+      "newsUrl": null,
+      "feedUrl": null,
+      "extraUrls": [
+        "https://eplus.jp/kurayamisaka/",
+        "https://smash-jpn.com/new/"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "starglow": {
+      "liveUrl": "https://starglow.tokyo/news/live/1327/",
+      "newsUrl": "https://starglow.tokyo/news",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "ini": {
+      "liveUrl": "https://ini-official.com/schedule/list/",
+      "newsUrl": "https://ini-official.com/news/1",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "jo1": {
+      "liveUrl": "https://jo1.jp/schedule/list/",
+      "newsUrl": "https://jo1.jp/news/list/1/3/",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "imp": {
+      "liveUrl": null,
+      "newsUrl": null,
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "mazzel": {
+      "liveUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/",
+      "newsUrl": "https://mazzel.tokyo/category/news/",
+      "feedUrl": "https://mazzel.tokyo/feed/",
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "not_equal_me": {
+      "liveUrl": "https://not-equal-me.jp/schedule",
+      "newsUrl": "https://not-equal-me.jp/news/1",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "boku_aozora": {
+      "liveUrl": "https://bokuao.com/schedule/list/",
+      "newsUrl": "https://bokuao.com/news/1/",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "da_ice": {
+      "liveUrl": "https://da-ice.jp/schedule/",
+      "newsUrl": "https://da-ice.jp/news/",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "bts": {
+      "liveUrl": "https://bts-official.jp/schedule",
+      "newsUrl": "https://bts-official.jp/news",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "stray_kids": {
+      "liveUrl": "https://www.straykidsjapan.com/live/",
+      "newsUrl": null,
+      "feedUrl": null,
+      "extraUrls": [
+        "https://www.straykidsjapan.com/"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "enhypen": {
+      "liveUrl": null,
+      "newsUrl": null,
+      "feedUrl": null,
+      "extraUrls": [
+        "https://www.hybejapan-concert.com",
+        "https://www.hybejapan-concert.com/"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "ive": {
+      "liveUrl": "https://ive-official.jp/mob/news/diarKiji.php?site=DIVE&ima=3847&cd=SCHEDULE",
+      "newsUrl": "https://ive-official.jp/mob/news/newsLis.php?site=DIVE&ima=3847",
+      "feedUrl": null,
+      "extraUrls": [
+        "https://ive-official.jp/"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "aespa": {
+      "liveUrl": "https://aespa-official.jp/schedule",
+      "newsUrl": "https://aespa-official.jp/news",
+      "feedUrl": null,
+      "extraUrls": [
+        "https://aespa-official.jp/"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "le_sserafim": {
+      "liveUrl": "https://www.le-sserafim.jp/schedule",
+      "newsUrl": "https://www.le-sserafim.jp/news",
+      "feedUrl": null,
+      "extraUrls": [
+        "https://www.le-sserafim.jp/",
+        "https://www.le-sserafim.jp/ticket"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "tomorrow_x_together": {
+      "liveUrl": "https://txt-official.jp/schedule",
+      "newsUrl": "https://txt-official.jp/news",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "shinee": {
+      "liveUrl": "https://shinee.jp/live/",
+      "newsUrl": "https://shinee.jp/news/",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "sandaime_j_soul_brothers": {
+      "liveUrl": null,
+      "newsUrl": "https://www.ldh-liveschedule.jp/sys/newslist/?t=40856&lang=ja",
+      "feedUrl": "https://www.ldh-liveschedule.jp/sys/tour/40856/feed/",
+      "extraUrls": [
+        "https://www.ldh-liveschedule.jp/"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "hypnosis_mic": {
+      "liveUrl": null,
+      "newsUrl": "https://hypnosismic.com/news/",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "uta_no_prince_sama": {
+      "liveUrl": "https://www.utapri.com/app/live_emotion/",
+      "newsUrl": "https://www.utapri.com/news.php",
+      "feedUrl": null,
+      "extraUrls": [
+        "https://www.utapri.com/grandshop/"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "idolish7": {
+      "liveUrl": "https://idolish7.com/event",
+      "newsUrl": "https://idolish7.com/news",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "a3": {
+      "liveUrl": null,
+      "newsUrl": "https://www.mankai-stage.jp/news",
+      "feedUrl": null,
+      "extraUrls": [
+        "https://www.mankai-stage.jp/latest_stage",
+        "https://www.mankai-stage.jp/past_stage"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "gre4n_boyz": {
+      "liveUrl": "https://gre4n-boyz.com/live/",
+      "newsUrl": "https://gre4n-boyz.com/news/",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "ikimonogakari": {
+      "liveUrl": "https://ikimonogakari.com/news/live/20260807-1",
+      "newsUrl": "https://ikimonogakari.com/news/",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "and_team": {
+      "liveUrl": "https://www.andteam-official.jp/schedule",
+      "newsUrl": "https://www.andteam-official.jp/news",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "aina_the_end": {
+      "liveUrl": "https://ainatheend.jp/schedule/",
+      "newsUrl": "https://ainatheend.jp/news/",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "yorushika": {
+      "liveUrl": "https://yorushika.com/feature/livetour2026_ichininsho",
+      "newsUrl": "https://yorushika.com/news/5",
+      "feedUrl": null,
+      "extraUrls": [],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    },
+    "urashimasakatasen": {
+      "liveUrl": "https://urashimasakatasen.com/live/taboo",
+      "newsUrl": "https://urashimasakatasen.com/news",
+      "feedUrl": null,
+      "extraUrls": [
+        "https://urashimasakatasen.com/goods/summer2026",
+        "https://urashimasakatasen.com/uratanuki/goods2026"
+      ],
+      "fetchType": "http",
+      "parserType": "generic",
+      "selector": null,
+      "note": null
+    }
+  }
+}

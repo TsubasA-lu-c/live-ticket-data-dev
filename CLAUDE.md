@@ -29,7 +29,12 @@
 ```
 どの更新方法を使いますか？
 
-1. /refresh-smart（推奨・毎週）
+0. /refresh-machine（推奨・毎週）【2026-08-10 追加】
+   機械収集パイプライン。取得・正規化・差分・公演抽出をPythonで行い、
+   機械で解けなかった分（主に抽選の文言）だけをAIが構造化する。
+   AIにWeb巡回はさせないため、トークン消費が桁で小さい。
+
+1. /refresh-smart（旧方式・比較用）
    公式サイトに変化があったアーティストのみ更新。セッション消費が少ない。
    ※ 公式TOP＋cache/watch_urls.json に登録した NEWS/LIVE ページを監視。
      未登録ページに情報がある場合は見落としの可能性あり。
@@ -174,7 +179,36 @@
 
 ---
 
-### C. スマート差分更新（/refresh-smart）【推奨・毎週】
+### B2. 機械収集（/refresh-machine）【推奨・毎週 / 2026-08-10 追加】
+
+AIに公式サイトを巡回させない収集経路。詳細な手順は
+`.claude/commands/refresh-machine.md`、ルールは COLLECTION_RULES.md §2.4。
+
+```bash
+python3 tools/collect_live_info.py --report /tmp/collect_report.json
+```
+
+- 変化のないアーティストはここで終わる（AIを一切呼ばない）
+- 機械で解けなかった分だけ `cache/ai_queue.json` に積まれる
+- AIはそのキューだけを読んで構造化する。**`WebFetch` / `WebSearch` は使わない**
+- AI出力は `python3 tools/validate_ai_result.py` を通してから配信データへ反映する
+
+| ファイル | 役割 | git |
+|---|---|---|
+| `config/collect_targets.json` | アーティストごとのLIVE/NEWS URL・取得方式 | 追跡する |
+| `cache/collect_state.json` | URLごとの最終取得・ハッシュ・エラー | 追跡する |
+| `cache/normalized/` | 正規化テキストのスナップショット（差分の詳細用） | 追跡しない |
+| `cache/ai_queue.json` | AIへ渡す最小限の材料 | 追跡しない |
+| `cache/collect_metrics.jsonl` | バッチ1回ごとの統計（AI呼び出し数・トークン） | 追跡しない |
+
+`config/collect_targets.json` は初回実行時に `cache/watch_urls.json` から
+自動生成される。うまく取れないサイトはこのファイルに個別設定
+（`liveUrl` / `fetchType` / `parserType` / `selector`）を足して吸収する。
+**最初から全組の専用パーサーは作らない。**
+
+---
+
+### C. スマート差分更新（/refresh-smart）【旧方式・比較用】
 
 公式サイトに変化があったアーティストだけを自動検出して更新する。
 
