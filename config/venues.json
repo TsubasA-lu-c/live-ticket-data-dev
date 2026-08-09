@@ -1,0 +1,2303 @@
+{
+  "venues": [
+    {
+      "name": "109シネマズプレミアム新宿",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "109シネマズ名古屋",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "109シネマズ富谷",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "109シネマズ広島",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "Aichi Sky Expo ホールA",
+      "count": 5,
+      "pref": null
+    },
+    {
+      "name": "Aichi Sky Expo（愛知県国際展示場）",
+      "count": 5,
+      "pref": "愛知県",
+      "aliases": [
+        "Aichi Sky Expo"
+      ]
+    },
+    {
+      "name": "AsiaWorld-Arena",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "AsiaWorld-Expo Hall 10（香港）",
+      "count": 2,
+      "pref": null,
+      "aliases": [
+        "香港・ASIAWORLD-EXPO,HALL10"
+      ],
+      "manual": true
+    },
+    {
+      "name": "AsiaWorld-Expo Hall 10（香港）",
+      "count": 1,
+      "pref": null,
+      "aliases": [
+        "香港・ASIAWORLD-EXPO,HALL10"
+      ],
+      "manual": true
+    },
+    {
+      "name": "BLUE LIVE 広島",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "Barclays Center",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "Capitol Theatre",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "Climate Pledge Arena",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "DRUM Be-1",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "DRUM SON",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "EX THEATER ARIAKE (東京ドリームパーク内)",
+      "count": 26,
+      "pref": null
+    },
+    {
+      "name": "EXシアター有明",
+      "count": 25,
+      "pref": null
+    },
+    {
+      "name": "Fukuoka BEAT STATION",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "GLION ARENA KOBE",
+      "count": 21,
+      "pref": null
+    },
+    {
+      "name": "GORILLA HALL OSAKA",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "Gocheok Sky Dome",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "Gramercy Theatre",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "Grammy Museum LA Live",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "Grant Park",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "Gメッセ群馬",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "Gメッセ群馬 展示ホールA・B",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "HARD OFF ECO スタジアム新潟",
+      "count": 6,
+      "pref": null,
+      "aliases": [
+        "HARD OFF ECOスタジアム新潟"
+      ]
+    },
+    {
+      "name": "HEAVEN'S ROCK 宇都宮 VJ-2",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "HEAVEN'S ROCK 熊谷 VJ-1",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "Hiroshima CAVE-BE",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "Hollywood Bowl",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "IG ARENA",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "IGアリーナ",
+      "count": 10,
+      "pref": "愛知県"
+    },
+    {
+      "name": "INSPIRE ARENA",
+      "count": 2,
+      "pref": null,
+      "aliases": [
+        "ソウル・INSPIRE ARENA"
+      ],
+      "manual": true
+    },
+    {
+      "name": "INSPIRE ARENA",
+      "count": 2,
+      "pref": null,
+      "aliases": [
+        "ソウル・INSPIRE ARENA"
+      ],
+      "manual": true
+    },
+    {
+      "name": "J:COMホール八王子",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "Jakarta International Expo",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "Jangchung Arena",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "K-Arena Yokohama",
+      "count": 8,
+      "pref": null
+    },
+    {
+      "name": "KINTEX Hall 10",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "KINTEX Hall 9A",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "KINTEX ホール9（ソウル）",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "KSPO DOME（ソウル）",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "KT Zepp Yokohama",
+      "count": 9,
+      "pref": null
+    },
+    {
+      "name": "KYOCERA DOME OSAKA",
+      "count": 3,
+      "pref": null
+    },
+    {
+      "name": "Kanadevia Hall",
+      "count": 9,
+      "pref": null
+    },
+    {
+      "name": "Kaohsiung National Stadium",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "Kアリーナ横浜",
+      "count": 9,
+      "pref": "神奈川県"
+    },
+    {
+      "name": "LINE CUBE SHIBUYA",
+      "count": 5,
+      "pref": "東京都",
+      "aliases": [
+        "LINE CUBE SHIBUYA（渋谷公会堂）"
+      ]
+    },
+    {
+      "name": "LIVE WAREHOUSE",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "LaLa arena TOKYO-BAY",
+      "count": 12,
+      "pref": "千葉県"
+    },
+    {
+      "name": "Legacy TERA",
+      "count": 2,
+      "pref": null,
+      "aliases": [
+        "Legacy TERA（台北）"
+      ]
+    },
+    {
+      "name": "Legacy Taichung（台中）",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "Los Angeles・The Wiltern",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "MUFG STADIUM（国立競技場）",
+      "count": 2,
+      "pref": "東京都"
+    },
+    {
+      "name": "MacPherson Stadium",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "Minaさかい（堺市市民交流広場）",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "NHKホール",
+      "count": 1,
+      "pref": "東京都"
+    },
+    {
+      "name": "NHK大阪放送局 T2スタジオ",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "National Stadium（シンガポール）",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "New Frontier Theater",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "New Taipei City Exhibition Hall",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "Niterra日本特殊陶業市民会館",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "Niterra日本特殊陶業市民会館 フォレストホール",
+      "count": 4,
+      "pref": null,
+      "aliases": [
+        "Niterra日本特殊陶業市民会館フォレストホール"
+      ]
+    },
+    {
+      "name": "Oakland Arena",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "PORTAL（香港）",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "Parc Jean-Drapeau",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "Rajamangala National Stadium（バンコク）",
+      "count": 3,
+      "pref": null
+    },
+    {
+      "name": "SAGAアリーナ",
+      "count": 4,
+      "pref": null
+    },
+    {
+      "name": "SG GROUP ホールはちのへ",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "SGC HALL ARIAKE",
+      "count": 8,
+      "pref": null
+    },
+    {
+      "name": "SGCホール有明",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "SPADE BOX",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "Samyan Mitrtown Hall",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "SangSang Madang（ソウル）",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "Seongam Art Hall",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "Shibuya LOVEZ",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "SkyシアターMBS",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "Supachalasai National Stadium",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "TACHIKAWA STAGE GARDEN",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "TAIPEI ARENA",
+      "count": 7,
+      "pref": null,
+      "aliases": [
+        "TAIPEI ARENA（台北アリーナ）",
+        "Taipei Arena",
+        "Taipei Arena（台北）"
+      ]
+    },
+    {
+      "name": "TAIPEI MUSIC CENTER",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "TD Coliseum",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "TD Garden",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "THE WALL（台北）",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "THEATER MILANO-Za",
+      "count": 11,
+      "pref": null
+    },
+    {
+      "name": "TICKETLINK LIVE ARENA（ソウル）",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "TM National Stadium（クアラルンプール）",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "TOYOTA ARENA TOKYO",
+      "count": 12,
+      "pref": null
+    },
+    {
+      "name": "Takamatsu DIME",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "The Star Theatre（シンガポール）",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "Thunder Dome",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "UOB LIVE（バンコク）",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "YCC県民文化ホール 大ホール",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "YOKOHAMA Bay Hall",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "Yogibo HOLY MOUNTAIN",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "Yogibo META VALLEY",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "YouTube（プレミア公開）",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "ZOZOMARINE STADIUM & MAKUHARI MESSE",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "ZOZOマリンスタジアム",
+      "count": 6,
+      "pref": "千葉県",
+      "aliases": [
+        "ZOZOマリンスタジアム（千葉市）"
+      ]
+    },
+    {
+      "name": "ZOZOマリンスタジアム MARINE STAGE",
+      "count": 1,
+      "pref": "千葉県"
+    },
+    {
+      "name": "ZOZOマリンスタジアム＆幕張メッセ",
+      "count": 10,
+      "pref": "千葉県",
+      "aliases": [
+        "ZOZOマリンスタジアム & 幕張メッセ",
+        "ZOZOマリンスタジアム / 幕張メッセ",
+        "ZOZOマリンスタジアム・幕張メッセ"
+      ]
+    },
+    {
+      "name": "Zepp DiverCity",
+      "count": 2,
+      "pref": "東京都"
+    },
+    {
+      "name": "Zepp DiverCity TOKYO",
+      "count": 4,
+      "pref": "東京都"
+    },
+    {
+      "name": "Zepp Fukuoka",
+      "count": 9,
+      "pref": "福岡県"
+    },
+    {
+      "name": "Zepp Haneda Tokyo",
+      "count": 1,
+      "pref": "東京都"
+    },
+    {
+      "name": "Zepp Haneda(TOKYO)",
+      "count": 25,
+      "pref": "東京都",
+      "aliases": [
+        "Zepp Haneda",
+        "Zepp Haneda（TOKYO）"
+      ],
+      "manual": true
+    },
+    {
+      "name": "Zepp Nagoya",
+      "count": 14,
+      "pref": "愛知県"
+    },
+    {
+      "name": "Zepp Namba(OSAKA)",
+      "count": 6,
+      "pref": "大阪府",
+      "aliases": [
+        "Zepp Namba",
+        "Zepp Namba（OSAKA）"
+      ],
+      "manual": true
+    },
+    {
+      "name": "Zepp Osaka Bayside",
+      "count": 11,
+      "pref": "大阪府"
+    },
+    {
+      "name": "Zepp Sapporo",
+      "count": 12,
+      "pref": "北海道"
+    },
+    {
+      "name": "Zepp Shinjuku",
+      "count": 2,
+      "pref": "東京都"
+    },
+    {
+      "name": "enn 3rd",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "iichikoグランシアタ",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "iichiko総合文化センター iichikoグランシアタ",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "iichiko総合文化センター グランシアタ",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "あきた芸術劇場ミルハス 大ホール",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "あづま総合運動公園 / 福島あづま球場",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "あなぶきアリーナ香川",
+      "count": 21,
+      "pref": null
+    },
+    {
+      "name": "いわき芸術文化交流館アリオス",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "いわき芸術文化交流館アリオス アルパイン大ホール",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "いわみざわ公園",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "お台場BMSG FES特設会場",
+      "count": 12,
+      "pref": null
+    },
+    {
+      "name": "お台場a-nation特設会場",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "けんしん郡山文化センター（郡山市民文化センター）大ホール",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "とうほう みんなの文化センター 大ホール",
+      "count": 2,
+      "pref": "福島県",
+      "aliases": [
+        "とうほう・みんなの文化センター（福島県文化センター）大ホール"
+      ]
+    },
+    {
+      "name": "とりぎん文化会館 梨花ホール",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "なら100年会館 大ホール",
+      "count": 3,
+      "pref": null
+    },
+    {
+      "name": "ひなたサンマリンスタジアム宮崎",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "ぴあアリーナMM",
+      "count": 18,
+      "pref": "神奈川県"
+    },
+    {
+      "name": "みずほPayPayドーム福岡",
+      "count": 13,
+      "pref": null
+    },
+    {
+      "name": "みやこめっせ",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "やまぎん県民ホール",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "よこすか芸術劇場",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "ららアリーナ 東京ベイ",
+      "count": 22,
+      "pref": null,
+      "aliases": [
+        "ららアリーナ東京ベイ"
+      ]
+    },
+    {
+      "name": "アイプラザ豊橋",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "アクトシティ浜松 大ホール",
+      "count": 3,
+      "pref": null
+    },
+    {
+      "name": "インテックス大阪 4号館・5号館",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "インテックス大阪5号館",
+      "count": 5,
+      "pref": null
+    },
+    {
+      "name": "エコパアリーナ",
+      "count": 14,
+      "pref": "静岡県",
+      "aliases": [
+        "静岡エコパアリーナ"
+      ],
+      "manual": true
+    },
+    {
+      "name": "エコパアリーナ",
+      "count": 2,
+      "pref": "静岡県",
+      "aliases": [
+        "静岡エコパアリーナ"
+      ],
+      "manual": true
+    },
+    {
+      "name": "エコパスタジアム",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "オアシス21",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "オリックス劇場",
+      "count": 9,
+      "pref": null
+    },
+    {
+      "name": "オンライン配信（Streaming+）",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "オンライン（WithLIVE Meet&Greet）",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "カナモトホール（札幌市民ホール）",
+      "count": 4,
+      "pref": null
+    },
+    {
+      "name": "カルッツかわさき",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "キューアンドエースタジアムみやぎ",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "クロコくんホール(旧日本ガイシホール)",
+      "count": 7,
+      "pref": "愛知県",
+      "aliases": [
+        "クロコくんホール(日本ガイシホール)"
+      ]
+    },
+    {
+      "name": "クロスランドおやべ",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "グランキューブ大阪",
+      "count": 4,
+      "pref": "大阪府",
+      "aliases": [
+        "グランキューブ大阪（大阪国際会議場）"
+      ]
+    },
+    {
+      "name": "グランキューブ大阪メインホール",
+      "count": 4,
+      "pref": null,
+      "aliases": [
+        "グランキューブ大阪 メインホール"
+      ]
+    },
+    {
+      "name": "グランメッセ熊本",
+      "count": 4,
+      "pref": null
+    },
+    {
+      "name": "サンシティ越谷市民ホール サンシティホール",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "サンドーム福井",
+      "count": 12,
+      "pref": "福井県"
+    },
+    {
+      "name": "サンポートホール高松 大ホール",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "シンフォニアテクノロジー響ホール伊勢（伊勢市観光文化会館）",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "シーガイアイベントスクエア（宮崎市）",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "セキスイハイムスーパーアリーナ",
+      "count": 21,
+      "pref": "宮城県",
+      "aliases": [
+        "仙台セキスイハイムスーパーアリーナ",
+        "宮城セキスイハイムスーパーアリーナ"
+      ],
+      "manual": true
+    },
+    {
+      "name": "セキスイハイムスーパーアリーナ",
+      "count": 1,
+      "pref": "宮城県",
+      "aliases": [
+        "仙台セキスイハイムスーパーアリーナ",
+        "宮城セキスイハイムスーパーアリーナ"
+      ],
+      "manual": true
+    },
+    {
+      "name": "セキスイハイムスーパーアリーナ",
+      "count": 4,
+      "pref": "宮城県",
+      "aliases": [
+        "仙台セキスイハイムスーパーアリーナ",
+        "宮城セキスイハイムスーパーアリーナ"
+      ],
+      "manual": true
+    },
+    {
+      "name": "ゼビオアリーナ仙台",
+      "count": 21,
+      "pref": "宮城県"
+    },
+    {
+      "name": "トーサイクラシックホール岩手 大ホール",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "ニテラ日本特殊陶業市民会館",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "バンテリンドーム ナゴヤ",
+      "count": 13,
+      "pref": "愛知県",
+      "aliases": [
+        "バンテリンドームナゴヤ"
+      ]
+    },
+    {
+      "name": "バーチャルサンリオピューロランド（VRChat）",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "パシフィコ横浜 ホールC",
+      "count": 1,
+      "pref": "神奈川県"
+    },
+    {
+      "name": "パシフィコ横浜 国立大ホール",
+      "count": 1,
+      "pref": "神奈川県"
+    },
+    {
+      "name": "フェスティバルホール",
+      "count": 3,
+      "pref": "大阪府"
+    },
+    {
+      "name": "フェニックス・プラザ エルピス",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "フェニーチェ堺 大ホール",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "ベネックス長崎ブリックホール",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "ベネックス長崎ブリックホール 大ホール",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "ベルサール高田馬場",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "ベルーナドーム",
+      "count": 8,
+      "pref": "埼玉県"
+    },
+    {
+      "name": "ポートメッセなごや 第一展示館",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "ポートメッセなごや第1展示館",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "マリンメッセ福岡Aホール",
+      "count": 2,
+      "pref": "福岡県"
+    },
+    {
+      "name": "マリンメッセ福岡A館",
+      "count": 39,
+      "pref": "福岡県",
+      "aliases": [
+        "マリンメッセ福岡 A館"
+      ]
+    },
+    {
+      "name": "マリンメッセ福岡B館",
+      "count": 7,
+      "pref": "福岡県",
+      "aliases": [
+        "マリンメッセ福岡 B館"
+      ]
+    },
+    {
+      "name": "ヤンマースタジアム長居",
+      "count": 4,
+      "pref": null
+    },
+    {
+      "name": "ユナイテッド・シネマ アクアシティお台場",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "ユニバーサル・スタジオ・ジャパン グラマシーパーク",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "リンクステーションホール青森",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "レクザムホール",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "レクザムホール・大ホール",
+      "count": 5,
+      "pref": null,
+      "aliases": [
+        "レクザムホール 大ホール"
+      ]
+    },
+    {
+      "name": "ロフトプラスワン",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "ロームシアター京都",
+      "count": 1,
+      "pref": "京都府"
+    },
+    {
+      "name": "ロームシアター京都 メインホール",
+      "count": 3,
+      "pref": "京都府"
+    },
+    {
+      "name": "万博記念公園",
+      "count": 13,
+      "pref": null
+    },
+    {
+      "name": "万博記念公園 AIR STAGE",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "万博記念公園 桜の流れ（MASSIVE STAGE）",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "三浦海岸特設ステージ",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "三郷市文化会館 大ホール",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "三重県営サンアリーナ",
+      "count": 2,
+      "pref": "三重県"
+    },
+    {
+      "name": "三重県文化会館",
+      "count": 1,
+      "pref": "三重県"
+    },
+    {
+      "name": "三重県文化会館 大ホール",
+      "count": 1,
+      "pref": "三重県"
+    },
+    {
+      "name": "下北沢SHELTER",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "下関市民会館 大ホール",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "中標津町総合文化会館 しるべっとホール",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "中津川公園内特設ステージ（岐阜県中津川市）",
+      "count": 2,
+      "pref": "岐阜県"
+    },
+    {
+      "name": "井頭公園 運動広場（栃木県真岡市）",
+      "count": 1,
+      "pref": "栃木県"
+    },
+    {
+      "name": "京セラドーム大阪",
+      "count": 21,
+      "pref": "大阪府"
+    },
+    {
+      "name": "京都パルスプラザ",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "京都市勧業館 みやこめっせ3F 第3展示場",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "仙台GIGS",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "仙台Rensa",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "仙台イズミティ21",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "仙台サンプラザホール",
+      "count": 12,
+      "pref": null,
+      "aliases": [
+        "仙台サンプラザ ホール"
+      ]
+    },
+    {
+      "name": "代官山Space Odd",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "倉敷市民会館",
+      "count": 5,
+      "pref": null
+    },
+    {
+      "name": "全国の映画館",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "出雲市民会館 大ホール",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "函館サーモンホール（函館市民会館）",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "函館サーモン・まるなまアリーナ",
+      "count": 3,
+      "pref": null
+    },
+    {
+      "name": "函館市内某所",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "函館市民会館",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "刈谷市総合文化センター アイリス 大ホール",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "利根川 水上高原リゾート200",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "北九州メッセ",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "北海きたえーる",
+      "count": 4,
+      "pref": null
+    },
+    {
+      "name": "北海道立総合体育センター 北海きたえーる",
+      "count": 4,
+      "pref": "北海道"
+    },
+    {
+      "name": "北海道立総合体育センター（北海きたえーる）",
+      "count": 3,
+      "pref": "北海道"
+    },
+    {
+      "name": "千葉市蘇我スポーツ公園",
+      "count": 19,
+      "pref": null
+    },
+    {
+      "name": "千葉県文化会館 大ホール",
+      "count": 1,
+      "pref": "千葉県"
+    },
+    {
+      "name": "厚木市文化会館",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "取手市民会館",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "台北アリーナ",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "台北ドーム",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "台北・TAIPEI ARENA",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "名古屋COMTEC PORTBASE",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "名古屋JAMMIN'",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "名古屋ダイアモンドホール",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "呉信用金庫ホール",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "周南市文化会館",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "味の素スタジアム",
+      "count": 2,
+      "pref": "東京都"
+    },
+    {
+      "name": "和光市民文化センター サンアゼリア",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "和歌山ビッグホエール",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "和歌山県民文化会館 大ホール",
+      "count": 1,
+      "pref": "和歌山県"
+    },
+    {
+      "name": "国営ひたち海浜公園",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "国営讃岐まんのう公園",
+      "count": 7,
+      "pref": "香川県",
+      "aliases": [
+        "国営讃岐まんのう公園（香川県仲多度郡まんのう町）",
+        "香川県・国営讃岐まんのう公園"
+      ]
+    },
+    {
+      "name": "国立代々木競技場",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "国立代々木競技場 第一体育館",
+      "count": 24,
+      "pref": null,
+      "aliases": [
+        "国立代々木競技場第一体育館"
+      ]
+    },
+    {
+      "name": "土岐市文化プラザ サンホール",
+      "count": 3,
+      "pref": null
+    },
+    {
+      "name": "大分DRUM Be-0",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "大和ハウスプレミストドーム",
+      "count": 4,
+      "pref": "北海道",
+      "aliases": [
+        "大和ハウス プレミストドーム",
+        "大和ハウス プレミストドーム（札幌ドーム）"
+      ]
+    },
+    {
+      "name": "大和工業アリーナ姫路",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "大宮ソニックシティ",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "大宮ソニックシティ 大ホール",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "大津市民会館 大ホール",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "大阪国際会議場 メインホール",
+      "count": 2,
+      "pref": "大阪府",
+      "aliases": [
+        "大阪国際会議場 メインホール（グランキューブ大阪）"
+      ]
+    },
+    {
+      "name": "大阪城ホール",
+      "count": 53,
+      "pref": "大阪府"
+    },
+    {
+      "name": "大阪城音楽堂",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "奥州市文化会館Zホール",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "女川町総合運動場（宮城県牡鹿郡女川町）",
+      "count": 1,
+      "pref": "宮城県"
+    },
+    {
+      "name": "宇治市文化センター",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "宇都宮市文化会館",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "宇都宮市文化会館 大ホール",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "宜野湾港マリーナ・トロピカルビーチ特設会場",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "宮古島トゥリバー地区 ヘッドランド特設会場",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "富士市文化会館ロゼシアター",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "富士市文化会館ロゼシアター 大ホール",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "富士急ハイランド・コニファーフォレスト",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "尼ケ台総合公園",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "山中湖交流プラザ",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "山中湖交流プラザ きらら",
+      "count": 10,
+      "pref": "山梨県",
+      "aliases": [
+        "山中湖交流プラザ きらら（山梨県南都留郡）",
+        "山中湖交流プラザきらら",
+        "山梨県 山中湖交流プラザ きらら"
+      ]
+    },
+    {
+      "name": "山口きらら博記念公園",
+      "count": 5,
+      "pref": null
+    },
+    {
+      "name": "山梨・山中湖交流プラザ きらら",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "岐阜市文化センター",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "岡山芸術創造劇場 ハレノワ",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "岡山芸術創造劇場 ハレノワ 大劇場",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "島根県芸術文化センターグラントワ",
+      "count": 1,
+      "pref": "島根県"
+    },
+    {
+      "name": "川口総合文化センターリリア メインホール",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "市川市文化会館",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "市川市文化会館 大ホール",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "帯広市民文化ホール 大ホール",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "幕張メッセ",
+      "count": 12,
+      "pref": "千葉県"
+    },
+    {
+      "name": "幕張メッセ ホール11",
+      "count": 1,
+      "pref": "千葉県"
+    },
+    {
+      "name": "幕張メッセ 国際展示場 9・11ホール",
+      "count": 2,
+      "pref": "千葉県"
+    },
+    {
+      "name": "幕張メッセ 国際展示場 展示ホール4〜6",
+      "count": 1,
+      "pref": "千葉県"
+    },
+    {
+      "name": "幕張メッセ 国際展示場1～3",
+      "count": 5,
+      "pref": "千葉県"
+    },
+    {
+      "name": "幕張メッセ 国際展示場8ホール（PACIFIC STAGE）",
+      "count": 1,
+      "pref": "千葉県"
+    },
+    {
+      "name": "幕張メッセ1-3ホール",
+      "count": 1,
+      "pref": "千葉県"
+    },
+    {
+      "name": "幕張メッセ国際展示場 4～7ホール",
+      "count": 5,
+      "pref": "千葉県",
+      "aliases": [
+        "幕張メッセ国際展示場4～7ホール"
+      ]
+    },
+    {
+      "name": "平城宮跡歴史公園 中央区朝堂院 特設野外会場",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "広島CLUB QUATTRO",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "広島JMSアステールプラザ大ホール",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "広島グリーンアリーナ",
+      "count": 18,
+      "pref": "広島県"
+    },
+    {
+      "name": "広島文化学園HBGホール",
+      "count": 12,
+      "pref": null
+    },
+    {
+      "name": "広島県立総合体育館 広島グリーンアリーナ",
+      "count": 2,
+      "pref": "広島県"
+    },
+    {
+      "name": "愛媛県武道館",
+      "count": 1,
+      "pref": "愛媛県"
+    },
+    {
+      "name": "愛媛県民文化会館",
+      "count": 1,
+      "pref": "愛媛県"
+    },
+    {
+      "name": "愛媛県県民文化会館（主ホール）",
+      "count": 1,
+      "pref": "愛媛県"
+    },
+    {
+      "name": "愛知・蒲郡ラグーナビーチ",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "愛知県芸術劇場",
+      "count": 2,
+      "pref": "愛知県"
+    },
+    {
+      "name": "愛知県芸術劇場 大ホール",
+      "count": 9,
+      "pref": "愛知県",
+      "aliases": [
+        "愛知県芸術劇場大ホール"
+      ]
+    },
+    {
+      "name": "戸田市文化会館",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "新代田FEVER",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "新宿村LIVE",
+      "count": 4,
+      "pref": null
+    },
+    {
+      "name": "新川文化ホール 大ホール",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "新来島高知重工ホール・オレンジホール",
+      "count": 2,
+      "pref": "高知県",
+      "aliases": [
+        "新来島高知重工ホール（高知県立県民文化ホール）・オレンジホール"
+      ]
+    },
+    {
+      "name": "新潟LOTS",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "新潟テルサ",
+      "count": 3,
+      "pref": null
+    },
+    {
+      "name": "新潟県民会館",
+      "count": 2,
+      "pref": "新潟県"
+    },
+    {
+      "name": "新潟県民会館 大ホール",
+      "count": 1,
+      "pref": "新潟県"
+    },
+    {
+      "name": "日本ガイシホール",
+      "count": 7,
+      "pref": "愛知県"
+    },
+    {
+      "name": "日本武道館",
+      "count": 14,
+      "pref": "東京都"
+    },
+    {
+      "name": "日本青年館ホール",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "日産スタジアム",
+      "count": 4,
+      "pref": "神奈川県"
+    },
+    {
+      "name": "明治神宮野球場",
+      "count": 4,
+      "pref": "東京都"
+    },
+    {
+      "name": "會津風雅堂",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "有明アリーナ",
+      "count": 22,
+      "pref": "東京都"
+    },
+    {
+      "name": "有楽町よみうりホール",
+      "count": 29,
+      "pref": null
+    },
+    {
+      "name": "本多の森北電ホール",
+      "count": 6,
+      "pref": null,
+      "aliases": [
+        "本多の森 北電ホール"
+      ]
+    },
+    {
+      "name": "札幌KLUB COUNTER ACTION",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "札幌PLANT",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "札幌市民交流プラザ（hitaru）",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "札幌文化芸術劇場 ひたる",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "札幌文化芸術劇場hitaru",
+      "count": 7,
+      "pref": null,
+      "aliases": [
+        "札幌文化芸術劇場 hitaru"
+      ]
+    },
+    {
+      "name": "朱鷺メッセ",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "朱鷺メッセ 新潟コンベンションセンター",
+      "count": 10,
+      "pref": null,
+      "aliases": [
+        "朱鷺メッセ・新潟コンベンションセンター"
+      ]
+    },
+    {
+      "name": "東京エレクトロンホール宮城",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "東京ガーデンシアター",
+      "count": 9,
+      "pref": "東京都"
+    },
+    {
+      "name": "東京ドーム",
+      "count": 27,
+      "pref": "東京都"
+    },
+    {
+      "name": "東京ポートシティ竹芝 ポートホール",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "東京ポートシティ竹芝（ポートホール＋ポートプラザ）",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "東京国際フォーラム ホールA",
+      "count": 3,
+      "pref": "東京都"
+    },
+    {
+      "name": "東京建物 Brillia HALL 箕面 大ホール",
+      "count": 8,
+      "pref": null
+    },
+    {
+      "name": "東京都内某所",
+      "count": 2,
+      "pref": "東京都",
+      "aliases": [
+        "都内某所"
+      ],
+      "manual": true
+    },
+    {
+      "name": "東京都内某所",
+      "count": 1,
+      "pref": "東京都",
+      "aliases": [
+        "都内某所"
+      ],
+      "manual": true
+    },
+    {
+      "name": "松山市民会館",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "松山市民会館大ホール",
+      "count": 2,
+      "pref": null,
+      "aliases": [
+        "松山市民会館・大ホール"
+      ]
+    },
+    {
+      "name": "松戸・森のホール21 大ホール",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "柳ヶ瀬ants",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "栃木県総合文化センター メインホール",
+      "count": 1,
+      "pref": "栃木県"
+    },
+    {
+      "name": "森のホール21 大ホール",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "森のホール21（松戸）",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "横浜F.A.D",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "横浜アリーナ",
+      "count": 44,
+      "pref": "神奈川県"
+    },
+    {
+      "name": "横浜ブルク13",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "横浜某所",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "横浜赤レンガ倉庫 イベント広場",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "正和工業にじいろホール（春日部市民文化会館）",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "水上高原リゾート200",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "水戸LIGHT HOUSE",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "水戸シビックセンター グロービスホール",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "池袋・サンシャインシティ 文化会館ビル4F 展示ホールB",
+      "count": 5,
+      "pref": null
+    },
+    {
+      "name": "沖縄コンベンションセンター",
+      "count": 2,
+      "pref": "沖縄県"
+    },
+    {
+      "name": "沖縄コンベンションセンター劇場棟",
+      "count": 2,
+      "pref": "沖縄県",
+      "aliases": [
+        "沖縄コンベンションセンター 劇場棟"
+      ]
+    },
+    {
+      "name": "沖縄サントリーアリーナ",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "泉大津フェニックス",
+      "count": 6,
+      "pref": "大阪府",
+      "aliases": [
+        "泉大津フェニックス（大阪府泉大津市）"
+      ]
+    },
+    {
+      "name": "清水マリンパーク",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "滋賀県草津市 烏丸半島芝生広場",
+      "count": 3,
+      "pref": "滋賀県",
+      "aliases": [
+        "滋賀県草津市烏丸半島芝生広場"
+      ]
+    },
+    {
+      "name": "烏丸半島芝生広場",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "熊本B.9 V1",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "熊本えがお健康スタジアム",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "熊本城ホール",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "熊本城ホール メインホール",
+      "count": 3,
+      "pref": null
+    },
+    {
+      "name": "熊本県立劇場 演劇ホール",
+      "count": 1,
+      "pref": "熊本県"
+    },
+    {
+      "name": "熊本県農業公園カントリーパーク",
+      "count": 6,
+      "pref": "熊本県",
+      "aliases": [
+        "熊本県農業公園 カントリーパーク"
+      ]
+    },
+    {
+      "name": "猪苗代スキー場 ミネロ（福島県耶麻郡猪苗代町）",
+      "count": 1,
+      "pref": "福島県"
+    },
+    {
+      "name": "盛岡タカヤアリーナ",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "盛岡市民文化ホール",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "盛岡市民文化ホール 大ホール",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "相模原ギオンフィールド",
+      "count": 2,
+      "pref": "神奈川県",
+      "aliases": [
+        "相模原ギオンフィールド（神奈川県相模原市）"
+      ]
+    },
+    {
+      "name": "真駒内セキスイハイムアイスアリーナ",
+      "count": 12,
+      "pref": "北海道"
+    },
+    {
+      "name": "石狩湾新港樽川ふ頭横野外特設ステージ",
+      "count": 3,
+      "pref": null
+    },
+    {
+      "name": "砺波市文化会館",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "神戸ワールド記念ホール",
+      "count": 13,
+      "pref": "兵庫県"
+    },
+    {
+      "name": "神戸国際会館こくさいホール",
+      "count": 6,
+      "pref": null
+    },
+    {
+      "name": "福井フェニックス・プラザ",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "福岡サンパレス",
+      "count": 8,
+      "pref": null
+    },
+    {
+      "name": "福岡サンパレス ホテル&ホール",
+      "count": 7,
+      "pref": null,
+      "aliases": [
+        "福岡サンパレス ホテル＆ホール",
+        "福岡サンパレスホテル＆ホール"
+      ]
+    },
+    {
+      "name": "福岡市民ホール 大ホール",
+      "count": 3,
+      "pref": null
+    },
+    {
+      "name": "福島あづま球場",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "福生市民会館 大ホール",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "稲佐山公園野外ステージ（長崎市）",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "稲毛 K's Dream",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "米子コンベンションセンター",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "米子コンベンションセンター BiG SHiP",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "舞洲スポーツアイランド",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "舞洲スポーツアイランド ジャイガ特設会場",
+      "count": 1,
+      "pref": "大阪府",
+      "aliases": [
+        "大阪・舞洲スポーツアイランド ジャイガ特設会場"
+      ],
+      "manual": true
+    },
+    {
+      "name": "舞洲スポーツアイランド ジャイガ特設会場",
+      "count": 1,
+      "pref": "大阪府",
+      "aliases": [
+        "大阪・舞洲スポーツアイランド ジャイガ特設会場"
+      ],
+      "manual": true
+    },
+    {
+      "name": "舞鶴市総合文化会館",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "苫小牧 キラキラ公園",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "苫小牧市民文化会館",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "荘銀タクト鶴岡（鶴岡市文化会館） 大ホール",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "蒲郡ラグーナビーチ",
+      "count": 5,
+      "pref": "愛知県",
+      "aliases": [
+        "蒲郡ラグーナビーチ（愛知県蒲郡市）"
+      ]
+    },
+    {
+      "name": "西川口Hearts",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "諫早文化会館 大ホール",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "豊洲PIT",
+      "count": 1,
+      "pref": "東京都",
+      "aliases": [
+        "東京・豊洲PIT"
+      ],
+      "manual": true
+    },
+    {
+      "name": "豊洲PIT",
+      "count": 8,
+      "pref": "東京都",
+      "aliases": [
+        "東京・豊洲PIT"
+      ],
+      "manual": true
+    },
+    {
+      "name": "象潟グラウンド",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "金城学院大学 アニー・ランドルフ記念講堂",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "金沢AZ",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "金沢EIGHT HALL",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "金沢本多の森 北電ホール",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "長崎市稲佐山公園野外ステージ",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "長良川国際会議場",
+      "count": 3,
+      "pref": null
+    },
+    {
+      "name": "長良川国際会議場メインホール",
+      "count": 2,
+      "pref": null,
+      "aliases": [
+        "長良川国際会議場 メインホール"
+      ]
+    },
+    {
+      "name": "長野ビッグハット",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "長野市芸術館 メインホール",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "長野市若里多目的スポーツアリーナ（ビッグハット）",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "関東某所",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "阪急西宮ガーデンズ本館4階 スカイガーデン 木の葉のステージ",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "静岡市清水文化会館マリナート 大ホール",
+      "count": 2,
+      "pref": null,
+      "aliases": [
+        "静岡市清水文化会館 マリナート 大ホール"
+      ]
+    },
+    {
+      "name": "韓国 PARADISE CITY",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "音更町文化センター 大ホール",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "駒場公園",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "高周波文化ホール 大ホール",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "高崎club JAMMERS",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "高崎芸術劇場",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "高崎芸術劇場 スタジオシアター",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "高崎芸術劇場 大劇場",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "高知県立県民文化ホール オレンジホール",
+      "count": 1,
+      "pref": "高知県"
+    },
+    {
+      "name": "鹿児島CAPARVO HALL",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "고양종합운동장（韓国・ソウル）",
+      "count": 2,
+      "pref": null
+    },
+    {
+      "name": "Ｔ・ジョイ博多",
+      "count": 1,
+      "pref": null
+    },
+    {
+      "name": "Ｔ・ジョイ梅田",
+      "count": 1,
+      "pref": null
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
-  "version": 123,
-  "updatedAt": "2026-08-10T08:10:59+09:00",
+  "version": 124,
+  "updatedAt": "2026-08-10T08:22:30+09:00",
   "files": {
     "artists": {
       "hash": "feb5f1f2ef4b82f3"
@@ -8,22 +8,22 @@
   },
   "artists": {
     "golden_bomber": {
-      "hash": "137421f5999ad9e8"
+      "hash": "07c98fb3a8b77780"
     },
     "yonezu_kenshi": {
-      "hash": "0472096e2bcd5d15"
+      "hash": "4597744854d58a9a"
     },
     "mizuki_nana": {
-      "hash": "8a1f2b07474d4f7e"
+      "hash": "7e92c8c224c914d8"
     },
     "iris": {
       "hash": "ba2c7198f3efd784"
     },
     "mr_children": {
-      "hash": "caa6ca84d1599d4d"
+      "hash": "7e9fb904f2adf136"
     },
     "official_hige_dandism": {
-      "hash": "6dc5eb4902edd03d"
+      "hash": "2d273d5a33dd90ff"
     },
     "back_number": {
       "hash": "9ad24f1eb6d0f3a9"
@@ -32,16 +32,16 @@
       "hash": "7f1f26b4911dec76"
     },
     "yoasobi": {
-      "hash": "bb2bc0ecf0342835"
+      "hash": "a50431d98443de55"
     },
     "nogizaka46": {
       "hash": "08163570cbd7b480"
     },
     "hinatazaka46": {
-      "hash": "dcc0904647074072"
+      "hash": "a9e70264d5b40fdb"
     },
     "aimyon": {
-      "hash": "889f4c8de93f9a07"
+      "hash": "32fcbda64e506546"
     },
     "creepy_nuts": {
       "hash": "e437b90de4b49f6e"
@@ -53,25 +53,25 @@
       "hash": "fcb70caa7fc0c711"
     },
     "larc_en_ciel": {
-      "hash": "56b1b26fa79e4b66"
+      "hash": "4817b31147853a84"
     },
     "sakanaction": {
-      "hash": "993490c3bdd49a59"
+      "hash": "188639f2913935d0"
     },
     "fujii_kaze": {
       "hash": "9c60f723e49d0377"
     },
     "lisa": {
-      "hash": "b1b5552f56fca5d9"
+      "hash": "27552845e49b017d"
     },
     "spitz": {
       "hash": "ad87705c398a8d7f"
     },
     "vaundy": {
-      "hash": "cdd979c6553c9409"
+      "hash": "d8654937ac0a1270"
     },
     "hana": {
-      "hash": "cc5439e9c816b391"
+      "hash": "6ab7b01f1147e5a0"
     },
     "sixtones": {
       "hash": "7260cb18f24951b0"
@@ -89,7 +89,7 @@
       "hash": "a6b9fa9879008add"
     },
     "one_ok_rock": {
-      "hash": "c93985f9aff7cc92"
+      "hash": "15417e78ddf93d4e"
     },
     "radwimps": {
       "hash": "92b73e48aeca66b6"
@@ -116,7 +116,7 @@
       "hash": "8313c6ee1bd38405"
     },
     "yuuri": {
-      "hash": "b68f0736ddc4255f"
+      "hash": "a673f2a0199816b6"
     },
     "zutomayo": {
       "hash": "e45a5a47442dbfd3"
@@ -131,25 +131,25 @@
       "hash": "a3a2cd8a4ee6ae5e"
     },
     "king_and_prince": {
-      "hash": "793f144c1c9dc18e"
+      "hash": "74850b3cc0328b39"
     },
     "kobukuro": {
-      "hash": "3d70b82a9c19208b"
+      "hash": "094e4b844cb54d12"
     },
     "koda_kumi": {
       "hash": "b1c78e41bc76c9a6"
     },
     "macaroni_empitsu": {
-      "hash": "56094b6df255c3a9"
+      "hash": "a5c853db421903dd"
     },
     "momoiro_clover_z": {
       "hash": "aae7ca527108400c"
     },
     "mrs_green_apple": {
-      "hash": "aeb22ff57ae74f6a"
+      "hash": "c62df2efcf344d17"
     },
     "number_i": {
-      "hash": "a6a58fc819e57a23"
+      "hash": "3c2cdbbbaa817d2c"
     },
     "sakurazaka46": {
       "hash": "202eba8ef06a4fcb"
@@ -161,7 +161,7 @@
       "hash": "90cfb2e122b5ee21"
     },
     "04_limited_sazabys": {
-      "hash": "9c0a20b580ff0ce1"
+      "hash": "d5f596ada9f35606"
     },
     "ae_group": {
       "hash": "95d8d23cee02ea4f"
@@ -170,16 +170,16 @@
       "hash": "55587f7657bd1ac7"
     },
     "bz": {
-      "hash": "558908b37decf292"
+      "hash": "f1d470e0a4443a8d"
     },
     "cutie_street": {
       "hash": "d8ba90b0758df269"
     },
     "frederic": {
-      "hash": "d93d27faca3ab9f8"
+      "hash": "60e44513a9b98a1e"
     },
     "fruits_zipper": {
-      "hash": "4a1ae0972fd2c837"
+      "hash": "366595098fce05cb"
     },
     "milk": {
       "hash": "7ac6e2d65991eafe"
@@ -191,10 +191,10 @@
       "hash": "9a8fa96c75319f92"
     },
     "monaki": {
-      "hash": "cf1d954fba1faa30"
+      "hash": "2a0c2135aec9758c"
     },
     "10_feet": {
-      "hash": "a71b3cec2d4e0d03"
+      "hash": "5bd8023420c663ba"
     },
     "aespa": {
       "hash": "ef14704bd67dbf83"
@@ -206,13 +206,13 @@
       "hash": "40aace1e3667ccbd"
     },
     "da_ice": {
-      "hash": "4e6ec48a099927cb"
+      "hash": "8dead9e03ac9be75"
     },
     "enhypen": {
       "hash": "e1f49f3634448f16"
     },
     "hitsuji_bungaku": {
-      "hash": "3eeb9098c29d0bce"
+      "hash": "1c1412595e2aa1e6"
     },
     "imp": {
       "hash": "fd7471e112aa7e5c"
@@ -227,22 +227,22 @@
       "hash": "ce07aa25a9b7eb75"
     },
     "kroi": {
-      "hash": "4c3e88568fb83e60"
+      "hash": "66664b663e87f14f"
     },
     "kurayamisaka": {
-      "hash": "7853aabe4d18c262"
+      "hash": "4809d531bc8d7718"
     },
     "le_sserafim": {
       "hash": "e54fda68a99e5422"
     },
     "mazzel": {
-      "hash": "6b9b0b11e3038920"
+      "hash": "dbe7707eecc7ee40"
     },
     "milet": {
-      "hash": "9c0c5b35a2f03503"
+      "hash": "df6d9e9c75d96454"
     },
     "miura_daichi": {
-      "hash": "a3d00b5d20822535"
+      "hash": "48d35c3f361854d8"
     },
     "not_equal_me": {
       "hash": "6ed48f137bcd2445"
@@ -251,10 +251,10 @@
       "hash": "148ea85946cb96e2"
     },
     "stray_kids": {
-      "hash": "c0c572a316f7f18a"
+      "hash": "0fcf47ce45c2a8c8"
     },
     "super_beaver": {
-      "hash": "6324e6ad9e510522"
+      "hash": "9dab308232b889e8"
     },
     "the_oral_cigarettes": {
       "hash": "a4227790a783106b"
@@ -263,13 +263,13 @@
       "hash": "2956f04b2bf6dfdb"
     },
     "wanima": {
-      "hash": "d0f0f022eec75db6"
+      "hash": "5f4b6081c275a76f"
     },
     "yabai_tshirts_yasan": {
-      "hash": "ebbc4300373ed147"
+      "hash": "2f2f2b0d30409e6c"
     },
     "hypnosis_mic": {
-      "hash": "42edc869d8006a1d"
+      "hash": "b406b3e76d72574f"
     },
     "sandaime_j_soul_brothers": {
       "hash": "e7aa004fab458047"
@@ -284,19 +284,19 @@
       "hash": "a5881388a4ed5c5e"
     },
     "gre4n_boyz": {
-      "hash": "3e29aff80e80355f"
+      "hash": "3b2934da96af99a9"
     },
     "idolish7": {
       "hash": "b5440ef144e07bde"
     },
     "ikimonogakari": {
-      "hash": "9c1497235cb5918b"
+      "hash": "704376d5e1ebe21c"
     },
     "uta_no_prince_sama": {
       "hash": "9f3530c473a235f7"
     },
     "aina_the_end": {
-      "hash": "2921c642763f728d"
+      "hash": "ab108a2105ad6904"
     },
     "and_team": {
       "hash": "e27b84ba135803a4"
@@ -308,7 +308,7 @@
       "hash": "b2ebd687af99e6be"
     },
     "urashimasakatasen": {
-      "hash": "5c48ca6b9108fe10"
+      "hash": "ee129a41516de48b"
     }
   }
 }

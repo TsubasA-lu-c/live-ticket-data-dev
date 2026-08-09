@@ -19,6 +19,7 @@ from . import extract as extractmod
 from . import merge as mergemod
 from . import normalize as normmod
 from .fetcher import Fetcher, FetchResult
+from .venues import VenueMaster
 from .targets import FETCH_BROWSER, FETCH_SKIP, Target, build_targets
 
 STATE_FILE = Path("cache/collect_state.json")
@@ -146,6 +147,9 @@ class Pipeline:
         self.artist_dir = Path(artist_dir)
         self.today = today or _date.today()
         self.update_cache = update_cache
+        # 抽出した会場名は、既存データに書く前にマスタの正式表記へ寄せる。
+        # 表記ゆれを発生源で潰すのが狙い（マスタに無い会場は素通し）
+        self.venue_master = VenueMaster.load()
         self.state: Dict = _load_json_object(self.state_file)
         self.pending: Dict = _load_json_object(self.pending_state_file)
 
@@ -319,6 +323,9 @@ class Pipeline:
         page.added_lines = d.added
 
         extracted = extractmod.extract(result.text, blocks, url, today=self.today)
+        for ev in extracted.events:
+            ev.venue = self.venue_master.canonical(ev.venue)
+            ev.prefecture = ev.prefecture or self.venue_master.prefecture(ev.venue)
         page.events = extracted.events
         page.unresolved_dates = extracted.date_lines_without_venue[:10]
         # 抽選テキストは**変化した行に載っているものだけ**をAI候補にする

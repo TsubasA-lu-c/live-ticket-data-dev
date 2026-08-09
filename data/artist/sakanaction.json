@@ -77,7 +77,7 @@
     {
       "id": "sakanaction_fes_2026_summersonic_tokyo_0815",
       "tourId": "sakanaction_fes_2026_summersonic",
-      "venue": "ZOZOマリンスタジアム / 幕張メッセ",
+      "venue": "ZOZOマリンスタジアム＆幕張メッセ",
       "performanceAt": "2026-08-15T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
@@ -425,7 +425,7 @@
     {
       "id": "sakanaction_sakanaquarium_2026_fukuoka_0504",
       "tourId": "sakanaction_sakanaquarium_2026",
-      "venue": "マリンメッセ福岡 A館",
+      "venue": "マリンメッセ福岡A館",
       "performanceAt": "2027-05-04T18:00:00+09:00",
       "doorOpenAt": "2027-05-04T17:00:00+09:00",
       "kind": "oneman",
@@ -437,7 +437,7 @@
     {
       "id": "sakanaction_sakanaquarium_2026_fukuoka_0505",
       "tourId": "sakanaction_sakanaquarium_2026",
-      "venue": "マリンメッセ福岡 A館",
+      "venue": "マリンメッセ福岡A館",
       "performanceAt": "2027-05-05T17:00:00+09:00",
       "doorOpenAt": "2027-05-05T16:00:00+09:00",
       "kind": "oneman",
@@ -473,7 +473,7 @@
     {
       "id": "sakanaction_event_2026_unite2026_0906",
       "tourId": "sakanaction_event_2026_unite2026",
-      "venue": "大和ハウス プレミストドーム",
+      "venue": "大和ハウスプレミストドーム",
       "performanceAt": "2026-09-06T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "taiban",

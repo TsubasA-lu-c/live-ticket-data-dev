@@ -216,7 +216,7 @@
     {
       "id": "yuuri_fes_2026_otohige_0829",
       "tourId": "yuuri_fes_2026_otohige",
-      "venue": "HARD OFF ECOスタジアム新潟",
+      "venue": "HARD OFF ECO スタジアム新潟",
       "performanceAt": "2026-08-29T11:00:00+09:00",
       "doorOpenAt": "2026-08-29T09:00:00+09:00",
       "kind": "fes",
@@ -300,7 +300,7 @@
     {
       "id": "yuuri_live_hong_kong_2026_1127",
       "tourId": "yuuri_live_hong_kong_2026",
-      "venue": "香港・ASIAWORLD-EXPO,HALL10",
+      "venue": "AsiaWorld-Expo Hall 10（香港）",
       "performanceAt": "2026-11-27T20:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
@@ -312,7 +312,7 @@
     {
       "id": "yuuri_live_seoul_2026_1205",
       "tourId": "yuuri_live_seoul_2026",
-      "venue": "ソウル・INSPIRE ARENA",
+      "venue": "INSPIRE ARENA",
       "performanceAt": "2026-12-05T18:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
@@ -324,7 +324,7 @@
     {
       "id": "yuuri_live_seoul_2026_1206",
       "tourId": "yuuri_live_seoul_2026",
-      "venue": "ソウル・INSPIRE ARENA",
+      "venue": "INSPIRE ARENA",
       "performanceAt": "2026-12-06T18:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",

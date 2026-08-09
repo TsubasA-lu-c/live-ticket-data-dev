@@ -201,6 +201,26 @@ class ExtractPrimitiveTest(unittest.TestCase):
         self.assertNotEqual(extractmod.normalize_venue("千葉県文化会館"),
                             extractmod.normalize_venue("文化会館"))
 
+    def test_venue_master_canonicalises_and_fills_prefecture(self):
+        from tools.collect.venues import VenueMaster
+        master = VenueMaster([
+            {"name": "Zepp Haneda(TOKYO)", "pref": "東京都",
+             "aliases": ["Zepp Haneda", "Zepp Haneda（TOKYO）"]},
+        ])
+        for written in ("Zepp Haneda", "Zepp Haneda（TOKYO）", "東京都 Zepp Haneda"):
+            self.assertEqual(master.canonical(written), "Zepp Haneda(TOKYO)", msg=written)
+        self.assertEqual(master.prefecture("Zepp Haneda"), "東京都")
+        # マスタに無い会場は素通し。未知の会場でも収集を止めない
+        self.assertEqual(master.canonical("知らないホール"), "知らないホール")
+        self.assertIsNone(master.prefecture("知らないホール"))
+
+    def test_venue_master_build_picks_majority_form(self):
+        from tools.collect.venues import build_from_names
+        venues = build_from_names({"バンテリンドーム ナゴヤ": 9, "バンテリンドームナゴヤ": 4})
+        self.assertEqual(len(venues), 1)
+        self.assertEqual(venues[0]["name"], "バンテリンドーム ナゴヤ")
+        self.assertEqual(venues[0]["aliases"], ["バンテリンドームナゴヤ"])
+
     def test_venue_notation_tolerance(self):
         # 全角/半角・空白・括弧書き・都道府県接頭辞の違いで別公演にしない
         base = extractmod.normalize_venue("マリンメッセ福岡A館")

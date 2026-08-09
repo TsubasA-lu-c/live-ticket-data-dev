@@ -157,7 +157,7 @@
     {
       "id": "monaki_event_2shot_2026_2shot_0810",
       "tourId": "monaki_event_2shot_2026",
-      "venue": "都内某所",
+      "venue": "東京都内某所",
       "performanceAt": "2026-08-10T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
@@ -169,7 +169,7 @@
     {
       "id": "monaki_1st_tour_2026_zeppnamba_0818",
       "tourId": "monaki_1st_tour_2026",
-      "venue": "Zepp Namba（OSAKA）",
+      "venue": "Zepp Namba(OSAKA)",
       "performanceAt": "2026-08-18T18:30:00+09:00",
       "doorOpenAt": "2026-08-18T17:30:00+09:00",
       "kind": "oneman",
@@ -193,7 +193,7 @@
     {
       "id": "monaki_1st_tour_2026_zepphaneda_0824",
       "tourId": "monaki_1st_tour_2026",
-      "venue": "Zepp Haneda（TOKYO）",
+      "venue": "Zepp Haneda(TOKYO)",
       "performanceAt": "2026-08-24T19:00:00+09:00",
       "doorOpenAt": "2026-08-24T18:00:00+09:00",
       "kind": "oneman",
@@ -313,7 +313,7 @@
     {
       "id": "monaki_kishidan_banpaku_2026_makuhari_1107",
       "tourId": "monaki_kishidan_banpaku_2026",
-      "venue": "幕張メッセ国際展示場4～7ホール",
+      "venue": "幕張メッセ国際展示場 4～7ホール",
       "performanceAt": "2026-11-07T10:30:00+09:00",
       "doorOpenAt": "2026-11-07T09:00:00+09:00",
       "kind": "fes",

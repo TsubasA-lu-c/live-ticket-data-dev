@@ -45,7 +45,7 @@
     {
       "id": "frederic_umimoyasu_20262027_move_zepp_haneda_0526",
       "tourId": "frederic_umimoyasu_20262027_move",
-      "venue": "Zepp Haneda（TOKYO）",
+      "venue": "Zepp Haneda(TOKYO)",
       "performanceAt": "2026-05-26T19:00:00+09:00",
       "doorOpenAt": "2026-05-26T18:00:00+09:00",
       "kind": "oneman",
@@ -57,7 +57,7 @@
     {
       "id": "frederic_umimoyasu_20262027_move_zepp_haneda_0712",
       "tourId": "frederic_umimoyasu_20262027_move",
-      "venue": "Zepp Haneda（TOKYO）",
+      "venue": "Zepp Haneda(TOKYO)",
       "performanceAt": "2026-07-12T18:00:00+09:00",
       "doorOpenAt": "2026-07-12T17:00:00+09:00",
       "kind": "oneman",
@@ -69,7 +69,7 @@
     {
       "id": "frederic_umimoyasu_20262027_move_zepp_haneda_1012",
       "tourId": "frederic_umimoyasu_20262027_move",
-      "venue": "Zepp Haneda（TOKYO）",
+      "venue": "Zepp Haneda(TOKYO)",
       "performanceAt": "2026-10-12T18:00:00+09:00",
       "doorOpenAt": "2026-10-12T17:00:00+09:00",
       "kind": "oneman",
@@ -81,7 +81,7 @@
     {
       "id": "frederic_umimoyasu_20262027_move_zepp_haneda_0117",
       "tourId": "frederic_umimoyasu_20262027_move",
-      "venue": "Zepp Haneda（TOKYO）",
+      "venue": "Zepp Haneda(TOKYO)",
       "performanceAt": "2027-01-17T18:00:00+09:00",
       "doorOpenAt": "2027-01-17T17:00:00+09:00",
       "kind": "oneman",
@@ -117,7 +117,7 @@
     {
       "id": "frederic_fes_2026_jiga_osaka_0726",
       "tourId": "frederic_fes_2026",
-      "venue": "大阪・舞洲スポーツアイランド ジャイガ特設会場",
+      "venue": "舞洲スポーツアイランド ジャイガ特設会場",
       "performanceAt": "2026-07-26T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
@@ -189,7 +189,7 @@
     {
       "id": "frederic_fes_2026_inazuma_kusatsu_0921",
       "tourId": "frederic_fes_2026",
-      "venue": "滋賀県草津市烏丸半島芝生広場",
+      "venue": "滋賀県草津市 烏丸半島芝生広場",
       "performanceAt": "2026-09-21T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
