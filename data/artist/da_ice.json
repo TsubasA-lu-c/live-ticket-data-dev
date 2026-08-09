@@ -99,6 +99,18 @@
       "lastVerifiedAt": "2026-07-22T10:07:01+09:00"
     },
     {
+      "id": "da_ice_fes_2026_anation_1004",
+      "tourId": "da_ice_fes_2026",
+      "venue": "お台場a-nation特設会場",
+      "performanceAt": "2026-10-04T13:00:00+09:00",
+      "doorOpenAt": "2026-10-04T12:00:00+09:00",
+      "kind": "fes",
+      "eventName": "a-nation 2026",
+      "source": "system",
+      "sourceUrl": "https://da-ice.jp/news/detail.php?id=1135160",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
       "id": "da_ice_dome_phase_2027_tokyo_dome_0204",
       "tourId": "da_ice_dome_phase_2027",
       "venue": "東京ドーム",
@@ -323,6 +335,38 @@
       "source": "system",
       "sourceUrl": "https://da-ice.jp/news/detail.php?id=1134701",
       "lastVerifiedAt": "2026-07-22T10:07:01+09:00"
+    },
+    {
+      "id": "da_ice_fes_2026_anation_ai",
+      "tourId": "da_ice_fes_2026",
+      "type": "a-i抽選先行",
+      "entryStartAt": "2026-08-07T15:00:00+09:00",
+      "entryEndAt": "2026-08-18T23:59:00+09:00",
+      "resultAt": "2026-08-25T15:00:00+09:00",
+      "paymentStartAt": "2026-08-25T15:00:00+09:00",
+      "paymentEndAt": "2026-08-31T23:59:00+09:00",
+      "performanceIds": [
+        "da_ice_fes_2026_anation_1004"
+      ],
+      "source": "system",
+      "sourceUrl": "https://da-ice.jp/news/detail.php?id=1135160",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "da_ice_fes_2026_anation_official_fastest",
+      "tourId": "da_ice_fes_2026",
+      "type": "オフィシャル最速先行",
+      "entryStartAt": "2026-08-07T15:00:00+09:00",
+      "entryEndAt": "2026-08-18T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "da_ice_fes_2026_anation_1004"
+      ],
+      "source": "system",
+      "sourceUrl": "https://a-nation.net/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
