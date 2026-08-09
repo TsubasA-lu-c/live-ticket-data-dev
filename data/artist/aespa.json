@@ -11,22 +11,6 @@
       "source": "system",
       "sourceUrl": "https://aespa-official.jp/news/complaexity-liveviewing/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "aespa_synk_complaexity_liveviewing_2026",
-      "artistId": "aespa",
-      "title": "2026-27 aespa LIVE TOUR – SYNK : COMPLaeXITY LIVE VIEWING",
-      "startDate": "2026-08-07T00:00:00+09:00",
-      "endDate": "2026-08-07T00:00:00+09:00",
-      "prices": [
-        {
-          "label": "全席指定",
-          "amount": 5000
-        }
-      ],
-      "source": "system",
-      "sourceUrl": "https://liveviewing.jp/aespa2026-27/",
-      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -52,18 +36,6 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://aespa-official.jp/news/complaexity-liveviewing/",
-      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
-    },
-    {
-      "id": "aespa_synk_complaexity_liveviewing_2026_cinemas_0807",
-      "tourId": "aespa_synk_complaexity_liveviewing_2026",
-      "venue": null,
-      "performanceAt": "2026-08-07T19:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "oneman",
-      "eventName": "2026-27 aespa LIVE TOUR – SYNK : COMPLaeXITY LIVE VIEWING",
-      "source": "system",
-      "sourceUrl": "https://liveviewing.jp/aespa2026-27/",
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
@@ -355,24 +327,7 @@
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
-  "lotteries": [
-    {
-      "id": "aespa_synk_complaexity_liveviewing_2026_prerequest",
-      "tourId": "aespa_synk_complaexity_liveviewing_2026",
-      "type": "プレリクエスト先行",
-      "entryStartAt": "2026-07-25T12:00:00+09:00",
-      "entryEndAt": "2026-07-28T12:00:00+09:00",
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": [
-        "aespa_synk_complaexity_liveviewing_2026_cinemas_0807"
-      ],
-      "source": "system",
-      "sourceUrl": "https://liveviewing.jp/aespa2026-27/",
-      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
-    }
-  ],
+  "lotteries": [],
   "appleMusicTracks": [
     {
       "songId": "6790246893",

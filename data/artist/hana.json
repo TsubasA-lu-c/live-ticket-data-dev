@@ -102,17 +102,6 @@
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
-      "id": "hana_fes_2026_incheon_pentaport",
-      "artistId": "hana",
-      "title": "Incheon Pentaport Rock Festival 2026",
-      "startDate": "2026-08-02T00:00:00+09:00",
-      "endDate": "2026-08-02T00:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://hana.b-rave.tokyo/live/260629/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-    },
-    {
       "id": "hana_fes_2026_bmsg",
       "artistId": "hana",
       "title": "BMSG FES'26",
@@ -285,18 +274,6 @@
       "source": "system",
       "sourceUrl": "https://inkigayo-live.jp/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "hana_fes_2026_incheon_pentaport_0802",
-      "tourId": "hana_fes_2026_incheon_pentaport",
-      "venue": "Songdo Moonlight Festival Park",
-      "performanceAt": "2026-08-02T18:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "Incheon Pentaport Rock Festival 2026",
-      "source": "system",
-      "sourceUrl": "https://hana.b-rave.tokyo/live/260629/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
       "id": "hana_fes_2026_bmsg_1010",

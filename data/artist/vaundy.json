@@ -38,17 +38,6 @@
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
-      "id": "vaundy_fes_2026_osaka",
-      "artistId": "vaundy",
-      "title": "OSAKA GIGANTIC MUSIC FESTIVAL 2026",
-      "startDate": "2026-08-02T00:00:00+09:00",
-      "endDate": "2026-08-02T00:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://vaundy.jp/news/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-    },
-    {
       "id": "vaundy_fes_2026_hokkaido",
       "artistId": "vaundy",
       "title": "RISING SUN ROCK FESTIVAL 2026 in EZO",
@@ -90,17 +79,6 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-    },
-    {
-      "id": "vaundy_fes_numbershot_2026",
-      "artistId": "vaundy",
-      "title": "NUMBER SHOT2026",
-      "startDate": "2026-08-01T19:00:00+09:00",
-      "endDate": "2026-08-01T19:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://vaundy.jp/news/detail/11181",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
@@ -633,18 +611,6 @@
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
-      "id": "vaundy_fes_2026_osaka_0802",
-      "tourId": "vaundy_fes_2026_osaka",
-      "venue": "大阪舞洲スポーツアイランド ジャイガ特設会場",
-      "performanceAt": "2026-08-02T00:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "OSAKA GIGANTIC MUSIC FESTIVAL 2026",
-      "source": "system",
-      "sourceUrl": "https://vaundy.jp/news/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-    },
-    {
       "id": "vaundy_fes_2026_hokkaido_0815",
       "tourId": "vaundy_fes_2026_hokkaido",
       "venue": "石狩湾新港樽川ふ頭横野外特設ステージ",
@@ -690,18 +656,6 @@
       "eventName": "熱闘甲子園 presents 熱闘 JAM 2026",
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-    },
-    {
-      "id": "vaundy_fes_numbershot_2026_0801",
-      "tourId": "vaundy_fes_numbershot_2026",
-      "venue": "福岡PayPayドーム・シーサイドももち海浜公園地行浜ビーチ",
-      "performanceAt": "2026-08-01T19:00:00+09:00",
-      "doorOpenAt": "2026-08-01T08:30:00+09:00",
-      "kind": "fes",
-      "eventName": "NUMBER SHOT2026",
-      "source": "system",
-      "sourceUrl": "https://vaundy.jp/news/detail/11181",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {

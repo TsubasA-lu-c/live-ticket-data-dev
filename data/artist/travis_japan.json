@@ -30,22 +30,6 @@
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
-      "id": "travis_japan_event_kerutomeru_wangan_fes_2026",
-      "artistId": "travis_japan",
-      "title": "けるとめる in めざましWANGANフェス",
-      "startDate": "2026-08-06T00:00:00+09:00",
-      "endDate": "2026-08-06T00:00:00+09:00",
-      "prices": [
-        {
-          "label": "オールスタンディング（整理番号）",
-          "amount": 7000
-        }
-      ],
-      "source": "system",
-      "sourceUrl": "https://www.fujitv.co.jp/wanganfes/",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
       "id": "travis_japan_event_j_lions_2026",
       "artistId": "travis_japan",
       "title": "2026 J-LIONS「非・日常」",
@@ -80,18 +64,6 @@
       "eventName": "SUMMER SONIC 2026",
       "source": "system",
       "sourceUrl": "https://www.summersonic.com/lineup/tokyo-day3/",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "travis_japan_event_kerutomeru_wangan_fes_2026_toyosu_0806",
-      "tourId": "travis_japan_event_kerutomeru_wangan_fes_2026",
-      "venue": "豊洲PIT",
-      "performanceAt": "2026-08-06T15:30:00+09:00",
-      "doorOpenAt": "2026-08-06T14:30:00+09:00",
-      "kind": "oneman",
-      "eventName": "けるとめる in めざましWANGANフェス",
-      "source": "system",
-      "sourceUrl": "https://www.fujitv.co.jp/wanganfes/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {

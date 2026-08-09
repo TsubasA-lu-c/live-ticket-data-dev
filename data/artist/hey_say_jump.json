@@ -2,22 +2,6 @@
   "artistId": "hey_say_jump",
   "tours": [
     {
-      "id": "hey_say_jump_ryosuke_yamada_dome_tour_red_y_2026",
-      "artistId": "hey_say_jump",
-      "title": "Ryosuke Yamada DOME TOUR 2026 Are You Red.Y?",
-      "startDate": "2026-06-27T00:00:00+09:00",
-      "endDate": "2026-07-26T00:00:00+09:00",
-      "prices": [
-        {
-          "label": "一般チケット（プレイガイド）",
-          "amount": 11000
-        }
-      ],
-      "source": "system",
-      "sourceUrl": "https://starto.jp/s/p/live/10434?artist=15",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-    },
-    {
       "id": "hey_say_jump_ryosuke_yamada_asia_tour_red_y_2026",
       "artistId": "hey_say_jump",
       "title": "Ryosuke Yamada Asia Tour 2026 Red.Y",
@@ -50,30 +34,6 @@
     }
   ],
   "performances": [
-    {
-      "id": "hey_say_jump_ryosuke_yamada_dome_tour_red_y_2026_tokyo_dome_0725",
-      "tourId": "hey_say_jump_ryosuke_yamada_dome_tour_red_y_2026",
-      "venue": "東京ドーム",
-      "performanceAt": "2026-07-25T18:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://starto.jp/s/p/live/10434?artist=15",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-    },
-    {
-      "id": "hey_say_jump_ryosuke_yamada_dome_tour_red_y_2026_tokyo_dome_0726",
-      "tourId": "hey_say_jump_ryosuke_yamada_dome_tour_red_y_2026",
-      "venue": "東京ドーム",
-      "performanceAt": "2026-07-26T18:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://starto.jp/s/p/live/10434?artist=15",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-    },
     {
       "id": "hey_say_jump_ryosuke_yamada_asia_tour_red_y_2026_taipei_0905",
       "tourId": "hey_say_jump_ryosuke_yamada_asia_tour_red_y_2026",
@@ -472,23 +432,6 @@
     }
   ],
   "lotteries": [
-    {
-      "id": "hey_say_jump_ryosuke_yamada_dome_tour_red_y_2026_general",
-      "tourId": "hey_say_jump_ryosuke_yamada_dome_tour_red_y_2026",
-      "type": "一般発売（先着）",
-      "entryStartAt": "2026-07-04T15:00:00+09:00",
-      "entryEndAt": null,
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": [
-        "hey_say_jump_ryosuke_yamada_dome_tour_red_y_2026_tokyo_dome_0725",
-        "hey_say_jump_ryosuke_yamada_dome_tour_red_y_2026_tokyo_dome_0726"
-      ],
-      "source": "system",
-      "sourceUrl": "https://ticket.pia.jp/sp/lp/event.do?lpPath=ryosukeyamada26ipt",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-    },
     {
       "id": "hey_say_jump_ryosuke_yamada_asia_tour_red_y_2026_taiwan_lottery",
       "tourId": "hey_say_jump_ryosuke_yamada_asia_tour_red_y_2026",

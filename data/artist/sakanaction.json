@@ -2,17 +2,6 @@
   "artistId": "sakanaction",
   "tours": [
     {
-      "id": "sakanaction_fes_2026_fujirock",
-      "artistId": "sakanaction",
-      "title": "FUJI ROCK FESTIVAL 2026",
-      "startDate": "2026-07-24T00:00:00+09:00",
-      "endDate": "2026-07-26T00:00:00+09:00",
-      "prices": [],
-      "source": "system",
-      "sourceUrl": "https://sakanaction.jp/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-    },
-    {
       "id": "sakanaction_fes_2026_summersonic",
       "artistId": "sakanaction",
       "title": "SUMMER SONIC 2026",
@@ -85,18 +74,6 @@
     }
   ],
   "performances": [
-    {
-      "id": "sakanaction_fes_2026_fujirock_0726",
-      "tourId": "sakanaction_fes_2026_fujirock",
-      "venue": "Naeba Ski Resort",
-      "performanceAt": "2026-07-26T18:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "FUJI ROCK FESTIVAL 2026",
-      "source": "system",
-      "sourceUrl": "https://sakanaction.jp/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-    },
     {
       "id": "sakanaction_fes_2026_summersonic_tokyo_0815",
       "tourId": "sakanaction_fes_2026_summersonic",

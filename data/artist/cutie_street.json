@@ -18,17 +18,6 @@
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
-      "id": "cutie_street_fes_live_in_korea_2026_summer",
-      "artistId": "cutie_street",
-      "title": "CUTIE STREET Live in Korea 2026 SUMMER",
-      "startDate": "2026-07-25T00:00:00+09:00",
-      "endDate": "2026-07-26T00:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/43664",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
       "id": "cutie_street_japan_arena_tour_2026_autumn",
       "artistId": "cutie_street",
       "title": "CUTIE STREET JAPAN ARENA TOUR 2026 -AUTUMN-",
@@ -119,30 +108,6 @@
       "eventName": "CUTIE STREET 2nd ANNIVERSARY LIVE 2026",
       "source": "system",
       "sourceUrl": "https://cutiestreet.asobisystem.com/feature/2ndanniversarylive",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "cutie_street_fes_live_in_korea_2026_summer_sejong_0725",
-      "tourId": "cutie_street_fes_live_in_korea_2026_summer",
-      "venue": "世宗大学 大洋ホール",
-      "performanceAt": "2026-07-25T18:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "oneman",
-      "eventName": "CUTIE STREET Live in Korea 2026 SUMMER",
-      "source": "system",
-      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/43664",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "cutie_street_fes_live_in_korea_2026_summer_sejong_0726",
-      "tourId": "cutie_street_fes_live_in_korea_2026_summer",
-      "venue": "世宗大学 大洋ホール",
-      "performanceAt": "2026-07-26T18:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "oneman",
-      "eventName": "CUTIE STREET Live in Korea 2026 SUMMER",
-      "source": "system",
-      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/43664",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
@@ -478,7 +443,9 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["cutie_street_event_2026_ume_miyu_birthday_sgc_0914"],
+      "performanceIds": [
+        "cutie_street_event_2026_ume_miyu_birthday_sgc_0914"
+      ],
       "source": "system",
       "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/84114",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
@@ -492,7 +459,9 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["cutie_street_event_2026_ume_miyu_birthday_sgc_0914"],
+      "performanceIds": [
+        "cutie_street_event_2026_ume_miyu_birthday_sgc_0914"
+      ],
       "source": "system",
       "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/86338",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
@@ -523,7 +492,9 @@
       "resultAt": "2026-08-13T19:00:00+09:00",
       "paymentStartAt": "2026-08-21T20:00:00+09:00",
       "paymentEndAt": "2026-08-23T23:59:00+09:00",
-      "performanceIds": ["cutie_street_live_in_korea_2027_winter_kintax_0123"],
+      "performanceIds": [
+        "cutie_street_live_in_korea_2027_winter_kintax_0123"
+      ],
       "source": "system",
       "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/86456",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"

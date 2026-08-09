@@ -46,28 +46,6 @@
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
-      "id": "yuuri_fes_2026_osakagigantic",
-      "artistId": "yuuri",
-      "title": "OSAKA GIGANTIC MUSIC FESTIVAL 2026",
-      "startDate": "2026-07-25T12:00:00+09:00",
-      "endDate": "2026-07-25T12:00:00+09:00",
-      "prices": [],
-      "source": "system",
-      "sourceUrl": "https://eplus.jp/sf/detail/2249550001",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-    },
-    {
-      "id": "yuuri_fes_2026_numbershot",
-      "artistId": "yuuri",
-      "title": "NUMBER SHOT 2026",
-      "startDate": "2026-08-01T00:00:00+09:00",
-      "endDate": "2026-08-01T00:00:00+09:00",
-      "prices": [],
-      "source": "system",
-      "sourceUrl": "https://numbershot.jp/2026/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-    },
-    {
       "id": "yuuri_fes_2026_otohige",
       "artistId": "yuuri",
       "title": "音楽と髭達2026 -TIME MACHINE-",
@@ -203,30 +181,6 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/3413260010",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-    },
-    {
-      "id": "yuuri_fes_2026_osakagigantic_0725",
-      "tourId": "yuuri_fes_2026_osakagigantic",
-      "venue": "舞洲スポーツアイランド",
-      "performanceAt": "2026-07-25T12:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "OSAKA GIGANTIC MUSIC FESTIVAL 2026",
-      "source": "system",
-      "sourceUrl": "https://eplus.jp/sf/detail/2249550001",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-    },
-    {
-      "id": "yuuri_fes_2026_numbershot_0801",
-      "tourId": "yuuri_fes_2026_numbershot",
-      "venue": "みずほPayPayドーム福岡",
-      "performanceAt": "2026-08-01T10:30:00+09:00",
-      "doorOpenAt": "2026-08-01T08:30:00+09:00",
-      "kind": "fes",
-      "eventName": "NUMBER SHOT 2026",
-      "source": "system",
-      "sourceUrl": "https://numbershot.jp/2026/",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {

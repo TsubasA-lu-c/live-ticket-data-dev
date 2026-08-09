@@ -2,37 +2,6 @@
   "artistId": "equal_love",
   "tours": [
     {
-      "id": "equal_love_gaming_summer_2026",
-      "artistId": "equal_love",
-      "title": "テレビ朝日「アイ＝ラブ！げーみんぐ ～○○さんがオンラインになりました～」サマフェス公開収録2026",
-      "startDate": "2026-07-28T00:00:00+09:00",
-      "endDate": "2026-07-28T00:00:00+09:00",
-      "prices": [
-        {
-          "label": "前方座席",
-          "amount": 5500
-        },
-        {
-          "label": "後方立見",
-          "amount": 4000
-        }
-      ],
-      "source": "system",
-      "sourceUrl": "https://equal-love.jp/news/detail/11623",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "equal_love_tif_2026",
-      "artistId": "equal_love",
-      "title": "TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック",
-      "startDate": "2026-08-01T00:00:00+09:00",
-      "endDate": "2026-08-01T00:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://equal-love.jp/news/detail/11557",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
       "id": "equal_love_21st_single_2026",
       "artistId": "equal_love",
       "title": "=LOVE 21stシングル発売記念スペシャルリリースイベント",
@@ -76,30 +45,6 @@
     }
   ],
   "performances": [
-    {
-      "id": "equal_love_gaming_summer_2026_roppongi_0728",
-      "tourId": "equal_love_gaming_summer_2026",
-      "venue": "SUMMER FES LIVEアリーナ(六本木ヒルズアリーナ)",
-      "performanceAt": "2026-07-28T14:00:00+09:00",
-      "doorOpenAt": "2026-07-28T13:30:00+09:00",
-      "kind": "fes",
-      "eventName": "テレビ朝日「アイ＝ラブ！げーみんぐ ～○○さんがオンラインになりました～」サマフェス公開収録2026",
-      "source": "system",
-      "sourceUrl": "https://equal-love.jp/news/detail/11623",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "equal_love_tif_2026_odaiba_0801",
-      "tourId": "equal_love_tif_2026",
-      "venue": "お台場・青海周辺エリア",
-      "performanceAt": "2026-08-01T12:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック",
-      "source": "system",
-      "sourceUrl": "https://equal-love.jp/news/detail/11557",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
     {
       "id": "equal_love_21st_single_2026_yokohama_0726",
       "tourId": "equal_love_21st_single_2026",
@@ -174,38 +119,6 @@
     }
   ],
   "lotteries": [
-    {
-      "id": "equal_love_gaming_summer_2026_choki",
-      "tourId": "equal_love_gaming_summer_2026",
-      "type": "抽選先行",
-      "entryStartAt": "2026-06-28T03:30:00+09:00",
-      "entryEndAt": "2026-07-07T23:59:00+09:00",
-      "resultAt": "2026-07-10T00:00:00+09:00",
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": [
-        "equal_love_gaming_summer_2026_roppongi_0728"
-      ],
-      "source": "system",
-      "sourceUrl": "https://equal-love.jp/news/detail/11623",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "equal_love_gaming_summer_2026_senkou",
-      "tourId": "equal_love_gaming_summer_2026",
-      "type": "一般先着受付",
-      "entryStartAt": "2026-07-11T12:00:00+09:00",
-      "entryEndAt": "2026-07-27T23:59:00+09:00",
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": [
-        "equal_love_gaming_summer_2026_roppongi_0728"
-      ],
-      "source": "system",
-      "sourceUrl": "https://equal-love.jp/news/detail/11623",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
     {
       "id": "equal_love_9th_anniversary_2026_fc_choki",
       "tourId": "equal_love_9th_anniversary_2026",
