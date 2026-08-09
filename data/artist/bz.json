@@ -9,11 +9,15 @@
       "endDate": "2026-10-23T00:00:00+09:00",
       "prices": [
         {
-          "label": "Zepp公演 指定席",
+          "label": "Zepp公演 1Fスタンディング／2F立見指定",
           "amount": 20000
         },
         {
-          "label": "東京ガーデンシアター 指定席",
+          "label": "東京ガーデンシアター S席",
+          "amount": 20000
+        },
+        {
+          "label": "東京ガーデンシアター A席（5F後方ブロック）",
           "amount": 16000
         }
       ],
@@ -137,9 +141,9 @@
       "id": "bz_tmg_sayonara_2026_ticket_1st",
       "tourId": "bz_tmg_sayonara_2026",
       "type": "B'z TICKET・B'z PARTY先行（1次）",
-      "entryStartAt": "2026-05-13T12:00:00+09:00",
-      "entryEndAt": "2026-05-19T12:00:00+09:00",
-      "resultAt": "2026-05-27T12:00:00+09:00",
+      "entryStartAt": null,
+      "entryEndAt": null,
+      "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
       "performanceIds": null,
@@ -151,9 +155,9 @@
       "id": "bz_tmg_sayonara_2026_ticket_2nd",
       "tourId": "bz_tmg_sayonara_2026",
       "type": "B'z TICKET・B'z PARTY / Club-Gym先行（2次）",
-      "entryStartAt": "2026-06-08T12:00:00+09:00",
-      "entryEndAt": "2026-06-14T12:00:00+09:00",
-      "resultAt": "2026-06-20T12:00:00+09:00",
+      "entryStartAt": null,
+      "entryEndAt": null,
+      "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
       "performanceIds": null,
@@ -165,9 +169,9 @@
       "id": "bz_tmg_sayonara_2026_ticket_3rd",
       "tourId": "bz_tmg_sayonara_2026",
       "type": "B'z TICKET・B'z PARTY / Club-Gym先行（3次）",
-      "entryStartAt": "2026-07-06T12:00:00+09:00",
-      "entryEndAt": "2026-07-14T12:00:00+09:00",
-      "resultAt": "2026-07-23T12:00:00+09:00",
+      "entryStartAt": null,
+      "entryEndAt": null,
+      "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
       "performanceIds": null,
@@ -179,9 +183,9 @@
       "id": "bz_tmg_sayonara_2026_ponta",
       "tourId": "bz_tmg_sayonara_2026",
       "type": "Pontaパス会員先行",
-      "entryStartAt": "2026-07-23T12:00:00+09:00",
-      "entryEndAt": "2026-08-02T23:59:00+09:00",
-      "resultAt": "2026-08-06T20:00:00+09:00",
+      "entryStartAt": null,
+      "entryEndAt": null,
+      "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
       "performanceIds": null,
@@ -192,7 +196,7 @@
     {
       "id": "bz_tmg_sayonara_2026_pia",
       "tourId": "bz_tmg_sayonara_2026",
-      "type": "いち早プレリザーブ先行（ぴあカード会員）",
+      "type": "いち早プレリザーブ先行（ぴあNICOSカード限定）",
       "entryStartAt": "2026-08-03T12:00:00+09:00",
       "entryEndAt": "2026-08-16T23:59:00+09:00",
       "resultAt": "2026-08-20T20:00:00+09:00",
@@ -200,7 +204,29 @@
       "paymentEndAt": null,
       "performanceIds": null,
       "source": "system",
-      "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
+      "sourceUrl": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2669128",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "bz_tmg_sayonara_2026_zigzag",
+      "tourId": "bz_tmg_sayonara_2026",
+      "type": "真天地開闢集団-ジグザグ オフィシャル先行",
+      "entryStartAt": "2026-08-08T12:00:00+09:00",
+      "entryEndAt": "2026-08-16T23:59:00+09:00",
+      "resultAt": "2026-08-22T20:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bz_tmg_sayonara_2026_hokkaido_1009",
+        "bz_tmg_sayonara_2026_osaka_1013",
+        "bz_tmg_sayonara_2026_osaka_1014",
+        "bz_tmg_sayonara_2026_fukuoka_1017",
+        "bz_tmg_sayonara_2026_aichi_1020",
+        "bz_tmg_sayonara_2026_aichi_1021",
+        "bz_tmg_sayonara_2026_tokyo2_1023"
+      ],
+      "source": "system",
+      "sourceUrl": "https://t.pia.jp/pia/ticketInformation.do?lotRlsCd=13220",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
@@ -214,7 +240,7 @@
       "paymentEndAt": null,
       "performanceIds": null,
       "source": "system",
-      "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
+      "sourceUrl": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2669128",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
