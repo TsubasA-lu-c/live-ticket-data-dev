@@ -2,6 +2,17 @@
   "artistId": "kurayamisaka",
   "tours": [
     {
+      "id": "kurayamisaka_fes_2026",
+      "artistId": "kurayamisaka",
+      "title": "2026年フェス出演",
+      "startDate": "2026-08-14T00:00:00+09:00",
+      "endDate": "2026-08-29T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://kurayamisaka.com/live/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
       "id": "kurayamisaka_tte_doko_8_2026",
       "artistId": "kurayamisaka",
       "title": "kurayamisaka tte, doko? #8「GORILLA HALL OSAKA 単独公演編」",
@@ -15,7 +26,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/4146610001-P0030018P021001",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "kurayamisaka_tte_doko_9_2026",
@@ -31,33 +42,81 @@
       ],
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/word/0000158088",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "performances": [
+    {
+      "id": "kurayamisaka_fes_2026_summer_sonic_0814",
+      "tourId": "kurayamisaka_fes_2026",
+      "venue": "ZOZOマリンスタジアム / 幕張メッセ",
+      "performanceAt": "2026-08-14T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "SUMMER SONIC 2026",
+      "source": "system",
+      "sourceUrl": "https://kurayamisaka.com/live/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "kurayamisaka_fes_2026_wild_bunch_0823",
+      "tourId": "kurayamisaka_fes_2026",
+      "venue": "山口きらら博記念公園",
+      "performanceAt": "2026-08-23T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "WILD BUNCH FEST. 2026",
+      "source": "system",
+      "sourceUrl": "https://kurayamisaka.com/live/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "kurayamisaka_fes_2026_monster_bash_0822",
+      "tourId": "kurayamisaka_fes_2026",
+      "venue": "香川県・国営讃岐まんのう公園",
+      "performanceAt": "2026-08-22T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "MONSTER baSH 2026",
+      "source": "system",
+      "sourceUrl": "https://kurayamisaka.com/live/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "kurayamisaka_fes_2026_sweet_love_shower_0829",
+      "tourId": "kurayamisaka_fes_2026",
+      "venue": "山梨県 山中湖交流プラザ きらら",
+      "performanceAt": "2026-08-29T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "SWEET LOVE SHOWER 2026",
+      "source": "system",
+      "sourceUrl": "https://kurayamisaka.com/live/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
     {
       "id": "kurayamisaka_tte_doko_8_2026_tokyozepp_1017",
       "tourId": "kurayamisaka_tte_doko_8_2026",
       "venue": "Zepp DiverCity TOKYO",
       "performanceAt": "2026-10-17T18:00:00+09:00",
-      "doorOpenAt": "2026-10-17T17:00:00+09:00",
+      "doorOpenAt": null,
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/4146610001-P0030018P021001",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "kurayamisaka_tte_doko_8_2026_gorillahall_1025",
       "tourId": "kurayamisaka_tte_doko_8_2026",
       "venue": "GORILLA HALL OSAKA",
       "performanceAt": "2026-10-25T18:00:00+09:00",
-      "doorOpenAt": "2026-10-25T17:00:00+09:00",
+      "doorOpenAt": null,
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/4146610001-P0030018P021001",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "kurayamisaka_tte_doko_9_2026_hongkong_1226",
@@ -69,7 +128,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://natalie.mu/music/news/677825",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "kurayamisaka_tte_doko_9_2026_seoul_0109",
@@ -81,7 +140,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://natalie.mu/music/news/677825",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "kurayamisaka_tte_doko_9_2026_taipei_0117",
@@ -93,7 +152,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://natalie.mu/music/news/677825",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "kurayamisaka_tte_doko_9_2026_yokohama_0124",
@@ -105,7 +164,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/word/0000158088",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "kurayamisaka_tte_doko_9_2026_kanazawa_0130",
@@ -117,7 +176,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/word/0000158088",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "kurayamisaka_tte_doko_9_2026_hiroshima_0213",
@@ -129,7 +188,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/word/0000158088",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "kurayamisaka_tte_doko_9_2026_takamatsu_0214",
@@ -141,7 +200,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/word/0000158088",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "kurayamisaka_tte_doko_9_2026_fukuoka_0220",
@@ -153,7 +212,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/word/0000158088",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "lotteries": [

@@ -16,6 +16,37 @@
       "source": "system",
       "sourceUrl": "https://daichi-miura.jp/news/detail/913",
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_premium_listening_event_2026",
+      "artistId": "miura_daichi",
+      "title": "『I know I don't know』リリース記念 プレミアム・リスニング・イベント",
+      "startDate": "2026-08-09T00:00:00+09:00",
+      "endDate": "2026-08-09T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1028",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_jwave_pianomen_2026",
+      "artistId": "miura_daichi",
+      "title": "J-WAVE \"PIANOMEN\"",
+      "startDate": "2026-10-08T00:00:00+09:00",
+      "endDate": "2026-10-08T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 9500
+        },
+        {
+          "label": "U-22チケット",
+          "amount": 7500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1030",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -270,6 +301,42 @@
       "source": "system",
       "sourceUrl": "https://daichi-miura.jp/news/detail/913",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_premium_listening_event_2026_1",
+      "tourId": "miura_daichi_premium_listening_event_2026",
+      "venue": "ユナイテッド・シネマ アクアシティお台場",
+      "performanceAt": "2026-08-09T14:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "プレミアム・リスニング・イベント 第1部",
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1028",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_premium_listening_event_2026_2",
+      "tourId": "miura_daichi_premium_listening_event_2026",
+      "venue": "ユナイテッド・シネマ アクアシティお台場",
+      "performanceAt": "2026-08-09T16:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "プレミアム・リスニング・イベント 第2部",
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1028",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_jwave_pianomen_2026_ariake_1008",
+      "tourId": "miura_daichi_jwave_pianomen_2026",
+      "venue": "SGC HALL ARIAKE",
+      "performanceAt": "2026-10-08T19:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "J-WAVE \"PIANOMEN\"",
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1030",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -393,6 +460,87 @@
       "source": "system",
       "sourceUrl": "https://daichi-miura.jp/news/detail/1011",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_lawson_nov_dec",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "ローソンチケット先行",
+      "entryStartAt": "2026-07-28T18:00:00+09:00",
+      "entryEndAt": "2026-08-10T23:59:00+09:00",
+      "resultAt": "2026-08-13T18:00:00+09:00",
+      "paymentStartAt": "2026-08-13T18:00:00+09:00",
+      "paymentEndAt": "2026-08-16T23:00:00+09:00",
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_kochi_1106",
+        "miura_daichi_raw_bare_2026_kurashiki_1108",
+        "miura_daichi_raw_bare_2026_yokosuka_1118",
+        "miura_daichi_raw_bare_2026_kobe_1122",
+        "miura_daichi_raw_bare_2026_kobe_1123",
+        "miura_daichi_raw_bare_2026_fukuoka_1127",
+        "miura_daichi_raw_bare_2026_kumamoto_1129",
+        "miura_daichi_raw_bare_2026_aichi_1219",
+        "miura_daichi_raw_bare_2026_aichi_1220"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1038",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_pia_nov_dec",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "ぴあプレリザーブ先行",
+      "entryStartAt": "2026-07-14T18:00:00+09:00",
+      "entryEndAt": "2026-07-27T23:59:00+09:00",
+      "resultAt": "2026-07-30T18:00:00+09:00",
+      "paymentStartAt": "2026-07-30T18:00:00+09:00",
+      "paymentEndAt": "2026-08-02T23:59:00+09:00",
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_kochi_1106",
+        "miura_daichi_raw_bare_2026_kurashiki_1108",
+        "miura_daichi_raw_bare_2026_yokosuka_1118",
+        "miura_daichi_raw_bare_2026_kobe_1122",
+        "miura_daichi_raw_bare_2026_kobe_1123",
+        "miura_daichi_raw_bare_2026_fukuoka_1127",
+        "miura_daichi_raw_bare_2026_kumamoto_1129",
+        "miura_daichi_raw_bare_2026_aichi_1219",
+        "miura_daichi_raw_bare_2026_aichi_1220"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1025",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_premium_listening_event_2026_lottery",
+      "tourId": "miura_daichi_premium_listening_event_2026",
+      "type": "購入者抽選招待",
+      "entryStartAt": "2026-07-15T15:00:00+09:00",
+      "entryEndAt": "2026-07-26T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_premium_listening_event_2026_1",
+        "miura_daichi_premium_listening_event_2026_2"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1028",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_jwave_pianomen_2026_fc",
+      "tourId": "miura_daichi_jwave_pianomen_2026",
+      "type": "FC先行",
+      "entryStartAt": "2026-07-21T18:00:00+09:00",
+      "entryEndAt": "2026-07-27T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_jwave_pianomen_2026_ariake_1008"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1029",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
