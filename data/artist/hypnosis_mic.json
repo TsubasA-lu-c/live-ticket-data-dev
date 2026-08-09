@@ -43,6 +43,17 @@
       "source": "system",
       "sourceUrl": "https://hypnosismic.com/news/hmlive260710/",
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "hypnosis_mic_sanrio_virtual_festival_2026",
+      "artistId": "hypnosis_mic",
+      "title": "Sanrio Virtual Festival 2026 Summer Edition",
+      "startDate": "2026-08-28T00:00:00+09:00",
+      "endDate": "2026-09-06T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://hypnosismic.com/news/hm20260729/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -201,6 +212,18 @@
       "source": "system",
       "sourceUrl": "https://hypnosismic.com/news/hmlive260710/",
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "hypnosis_mic_sanrio_virtual_festival_2026_hyped_up",
+      "tourId": "hypnosis_mic_sanrio_virtual_festival_2026",
+      "venue": "バーチャルサンリオピューロランド（VRChat）",
+      "performanceAt": "2026-08-28T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "ヒプノシスマイク -Division Rap Battle- 3DCG from HYPED-UP",
+      "source": "system",
+      "sourceUrl": "https://hypnosismic.com/news/hm20260729/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -312,7 +335,7 @@
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
   ],
-  "lastVerifiedAt": "2026-07-22T00:00:00+09:00",
+  "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
   "appleMusicTracks": [
     {
       "songId": "1499752465",
