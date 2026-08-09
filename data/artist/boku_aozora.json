@@ -30,19 +30,41 @@
         }
       ],
       "source": "system",
-      "sourceUrl": "https://bokuao.com/news/detail/5405",
-      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+      "sourceUrl": "https://bokuao.com/news/detail/5661",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "boku_aozora_last_live_2026",
       "artistId": "boku_aozora",
-      "title": "2026年ラストライブ",
+      "title": "2026ラストライブ",
       "startDate": "2026-12-14T00:00:00+09:00",
       "endDate": "2026-12-14T00:00:00+09:00",
       "prices": [],
       "source": "system",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000021.000115239.html",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "sourceUrl": "https://bokuao.com/news/detail/5455",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "boku_aozora_kazan_bousai_2026",
+      "artistId": "boku_aozora",
+      "title": "「火山防災の日」普及啓発イベント2026",
+      "startDate": "2026-08-22T00:00:00+09:00",
+      "endDate": "2026-08-22T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/news/detail/5587",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "boku_aozora_kana_radio_2026",
+      "artistId": "boku_aozora",
+      "title": "ニッポン放送『僕が見たかった青空 君と奏でるラジオ』公開収録 at MIURA FUN BEACH",
+      "startDate": "2026-08-09T00:00:00+09:00",
+      "endDate": "2026-08-09T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/schedule/detail/5537",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -55,8 +77,8 @@
       "kind": "oneman",
       "eventName": "アオゾラサマーフェスティバル2026",
       "source": "system",
-      "sourceUrl": "https://bokuao.com/news/detail/5405",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "sourceUrl": "https://bokuao.com/news/detail/5661",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "boku_aozora_last_live_2026_kanadevia_1214",
@@ -67,8 +89,32 @@
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000021.000115239.html",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "sourceUrl": "https://bokuao.com/news/detail/5455",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "boku_aozora_kazan_bousai_2026_event",
+      "tourId": "boku_aozora_kazan_bousai_2026",
+      "venue": null,
+      "performanceAt": "2026-08-22T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "塩釜菜那出演",
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/schedule/detail/5587",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "boku_aozora_kana_radio_2026_event",
+      "tourId": "boku_aozora_kana_radio_2026",
+      "venue": "三浦海岸特設ステージ",
+      "performanceAt": "2026-08-09T15:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ニッポン放送『僕が見たかった青空 君と奏でるラジオ』公開収録 at MIURA FUN BEACH",
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/schedule/detail/5537",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -86,7 +132,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://bokuao.com/news/detail/5405",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "boku_aozora_summer_fes_2026_general",
@@ -101,8 +147,8 @@
         "boku_aozora_summer_fes_2026_toyosupit_0830"
       ],
       "source": "system",
-      "sourceUrl": "https://bokuao.com/news/detail/5405",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "sourceUrl": "https://bokuao.com/news/detail/5661",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
