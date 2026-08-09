@@ -188,13 +188,21 @@ class ExtractResult:
 
 # ---------------------------------------------------------------- 正規化
 
+# 「東京都 日本武道館」のように、区切りを伴う場合だけ落とす地域表記。
+# 区切り無しで落とすと「千葉県文化会館」と「三重県文化会館」が同じキーになり、
+# 別会場を同一公演とみなして新規公演を取りこぼす（2026-08-10 に実データで発覚）。
+_PREF_PREFIX = re.compile(
+    r"^(北海道|東京都|大阪府|京都府|.{2,3}県)[\s　・･,、/／|｜:：]+"
+)
+
+
 def normalize_venue(venue: str) -> str:
     """重複判定用に会場名を丸める。表記ゆれで別公演にしないため。"""
-    v = unicodedata.normalize("NFKC", venue or "").lower()
+    v = unicodedata.normalize("NFKC", venue or "")
+    v = _PREF_PREFIX.sub("", v.strip()).lower()
     v = re.sub(r"[\s　]+", "", v)
     v = re.sub(r"[(（\[【].*?[)）\]】]", "", v)          # 括弧書きの補足を落とす
-    v = re.sub(r"[・･,、/／|｜:：\-−–—~〜]", "", v)
-    v = re.sub(r"^(北海道|東京都|大阪府|京都府|.{2,3}県)", "", v)
+    v = re.sub(r"[・･,、/／|｜:：\-−–—~〜&＆]", "", v)
     for suffix in ("公演", "会場", "にて"):
         if v.endswith(suffix):
             v = v[: -len(suffix)]

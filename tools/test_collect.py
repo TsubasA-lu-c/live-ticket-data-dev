@@ -183,6 +183,24 @@ class ExtractPrimitiveTest(unittest.TestCase):
             extractmod.normalize_venue("さいたまスーパーアリーナ"),
             extractmod.normalize_venue("埼玉県 さいたま スーパーアリーナ（メインアリーナ）"))
 
+    def test_different_venues_sharing_a_suffix_are_not_merged(self):
+        # 県名を無条件に落としていたとき、別会場が同じキーになっていた
+        pairs = [("千葉県文化会館 大ホール", "三重県文化会館 大ホール"),
+                 ("神奈川県民ホール", "愛知県芸術劇場")]
+        for a, b in pairs:
+            self.assertNotEqual(extractmod.normalize_venue(a),
+                                extractmod.normalize_venue(b), msg=f"{a} / {b}")
+
+    def test_prefecture_prefix_dropped_only_with_separator(self):
+        # 区切りがあれば地域表記として落とす
+        self.assertEqual(extractmod.normalize_venue("東京都 日本武道館"),
+                         extractmod.normalize_venue("日本武道館"))
+        self.assertEqual(extractmod.normalize_venue("神奈川県・横浜アリーナ"),
+                         extractmod.normalize_venue("横浜アリーナ"))
+        # 区切りが無ければ会場名の一部として残す
+        self.assertNotEqual(extractmod.normalize_venue("千葉県文化会館"),
+                            extractmod.normalize_venue("文化会館"))
+
     def test_venue_notation_tolerance(self):
         # 全角/半角・空白・括弧書き・都道府県接頭辞の違いで別公演にしない
         base = extractmod.normalize_venue("マリンメッセ福岡A館")
