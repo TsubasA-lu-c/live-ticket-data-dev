@@ -19,7 +19,7 @@ interface LiveExtractRequest {
 const MAX_SNAPSHOT_LENGTH = 60_000;
 const MAX_PERFORMANCES = 200;
 const CACHE_TTL_SECONDS = 24 * 60 * 60;
-const CACHE_SCHEMA_VERSION = "live-extract-v4";
+const CACHE_SCHEMA_VERSION = "live-extract-v5";
 
 const performanceSchema = {
   type: "object",
@@ -212,6 +212,7 @@ function prompt(input: LiveExtractRequest): string {
 - venueTextは会場名だけを入れ、都道府県、(問)以降の問い合わせ先、電話番号、メールアドレス、URLを含めない
 - OPEN/START、地域、会場、問い合わせ先が連続していても、それぞれを別フィールドへ分離する
 - [SCHEDULE ROW]は公演一覧の1行を示す。同じSCHEDULE内の全行を漏れなく抽出し、途中の日程や後半の日程を省略しない
+- [SCHEDULE ROW]を公演情報の正本として扱う。NEWS、受付、当日券などに再掲された同一日付を理由にSCHEDULE ROWを省略・置換しない
 - NEWSや本文に中止・延期の記載があっても、SCHEDULEに残っている公演行は推測で除外せず抽出する。保存するかは利用者が確認する
 
 アーティスト名: ${input.artistName}
