@@ -19,7 +19,7 @@ interface LiveExtractRequest {
 const MAX_SNAPSHOT_LENGTH = 60_000;
 const MAX_PERFORMANCES = 200;
 const CACHE_TTL_SECONDS = 24 * 60 * 60;
-const CACHE_SCHEMA_VERSION = "live-extract-v6";
+const CACHE_SCHEMA_VERSION = "live-extract-v7";
 
 const performanceSchema = {
   type: "object",
@@ -208,6 +208,7 @@ function prompt(input: LiveExtractRequest): string {
 - 文字列フィールドは本文に存在する原文表記をそのまま返す
 - 同じ公演を重複して返さない
 - groupTitleTextは各日程に共通するツアー・ライブ・イベント名。ページタイトル、見出し、画像のaltにある公演名も確認し、各公演へ同じ原文を入れる
+- 行頭のFES、EVENT、TOUR、LIVEはカテゴリ名であり公演名ではない。「FES 2026」のようにカテゴリと日付年を連結せず、日付の後ろにある固有の公演名をgroupTitleTextへ入れる
 - regionTextは都道府県・地域名だけを入れる
 - venueTextは会場名だけを入れ、都道府県、(問)以降の問い合わせ先、電話番号、メールアドレス、URLを含めない
 - OPEN/START、地域、会場、問い合わせ先が連続していても、それぞれを別フィールドへ分離する
