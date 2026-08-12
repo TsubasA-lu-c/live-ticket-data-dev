@@ -18,6 +18,8 @@ interface LiveExtractRequest {
 
 const MAX_SNAPSHOT_LENGTH = 60_000;
 const MAX_PERFORMANCES = 200;
+const CACHE_TTL_SECONDS = 24 * 60 * 60;
+const CACHE_SCHEMA_VERSION = "live-extract-v2";
 
 const performanceSchema = {
   type: "object",
@@ -58,14 +60,87 @@ const responseSchema = {
   },
 };
 
-function json(body: unknown, status = 200): Response {
+function json(
+  body: unknown,
+  status = 200,
+  extraHeaders: Record<string, string> = {},
+): Response {
   return Response.json(body, {
     status,
     headers: {
       "Cache-Control": "no-store",
       "Content-Type": "application/json; charset=utf-8",
+      ...extraHeaders,
     },
   });
+}
+
+function normalizedCacheText(value: string): string {
+  return value.normalize("NFKC").replace(/\s+/g, " ").trim();
+}
+
+function canonicalPageURL(value: string): string {
+  const url = new URL(value);
+  url.hash = "";
+  return url.toString();
+}
+
+async function sha256(value: string): Promise<string> {
+  const digest = await crypto.subtle.digest(
+    "SHA-256",
+    new TextEncoder().encode(value),
+  );
+  return Array.from(new Uint8Array(digest))
+    .map((byte) => byte.toString(16).padStart(2, "0"))
+    .join("");
+}
+
+async function cacheRequest(
+  request: Request,
+  input: LiveExtractRequest,
+  model: string,
+): Promise<Request> {
+  // 本文そのものはキャッシュキーにも保存しない。内容をSHA-256へ変換し、
+  // ページ更新・モデル変更・プロンプト変更のどれでも自動的に別結果として扱う。
+  const fingerprint = await sha256(
+    JSON.stringify({
+      version: CACHE_SCHEMA_VERSION,
+      model,
+      artistName: normalizedCacheText(input.artistName),
+      pageURL: canonicalPageURL(input.pageURL),
+      pageTitle: normalizedCacheText(input.pageTitle),
+      snapshotText: normalizedCacheText(input.snapshotText),
+    }),
+  );
+  const keyURL = new URL(request.url);
+  keyURL.pathname = `/api/live-extract-cache/${fingerprint}`;
+  keyURL.search = "";
+  return new Request(keyURL.toString(), { method: "GET" });
+}
+
+async function readCachedResult(key: Request): Promise<unknown | null> {
+  try {
+    const response = await caches.default.match(key);
+    if (!response) return null;
+    return normalizeAIResult(await response.json());
+  } catch {
+    // キャッシュは最適化なので、障害時もAI解析そのものは継続する。
+    return null;
+  }
+}
+
+async function storeCachedResult(key: Request, value: unknown): Promise<void> {
+  try {
+    const response = Response.json(value, {
+      headers: {
+        "Cache-Control": `public, max-age=${CACHE_TTL_SECONDS}`,
+        "Content-Type": "application/json; charset=utf-8",
+      },
+    });
+    await caches.default.put(key, response);
+  } catch {
+    // AI結果は返し、次回のリクエストで再度キャッシュ保存を試す。
+  }
 }
 
 function parseRequest(value: unknown): LiveExtractRequest | null {
@@ -215,6 +290,12 @@ export async function onRequest(context: {
   }
 
   try {
+    const key = await cacheRequest(request, input, model);
+    const cached = await readCachedResult(key);
+    if (cached) {
+      return json(cached, 200, { "X-Live-Extract-Cache": "HIT" });
+    }
+
     // pageURLをfetchしない。iPhoneが送った現在DOMのSnapshotだけをAIへ渡す。
     const result = await env.AI.run(model, {
       messages: [
@@ -236,7 +317,8 @@ export async function onRequest(context: {
     if (!normalized) {
       return json({ code: "invalid_ai_response", message: "Invalid AI response" }, 502);
     }
-    return json(normalized);
+    await storeCachedResult(key, normalized);
+    return json(normalized, 200, { "X-Live-Extract-Cache": "MISS" });
   } catch (error) {
     const message = error instanceof Error ? error.message.toLowerCase() : "";
     const quota =
