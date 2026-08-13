@@ -211,7 +211,8 @@ test("validateV2ChunkResult uses one unambiguous official heading when rows omit
     ...block, blockId: "tour-title", type: "heading", expectedEvent: false,
     text: "BREAKERZ LIVE TOUR 2026 RETURNZ -GO-",
   };
-  const result = validateV2ChunkResult(validModelResult({ groupTitleText: "" }), [heading, block]);
+  const event = { ...block, sectionPath: [] };
+  const result = validateV2ChunkResult(validModelResult({ groupTitleText: "" }), [heading, event]);
   assert.equal(result?.performances.length, 1);
   assert.equal(result?.groups[0].titleText, "BREAKERZ LIVE TOUR 2026 RETURNZ -GO-");
   assert.equal(result?.groups[0].sourceBlockId, "tour-title");
@@ -221,13 +222,26 @@ test("validateV2ChunkResult does not guess between multiple official headings", 
   const headings = ["TOUR A 2026", "TOUR B 2026"].map((text, index) => ({
     ...block, blockId: `tour-title-${index}`, type: "heading", expectedEvent: false, text,
   }));
-  const result = validateV2ChunkResult(validModelResult({ groupTitleText: "" }), [...headings, block]);
+  const event = { ...block, sectionPath: [] };
+  const result = validateV2ChunkResult(validModelResult({ groupTitleText: "" }), [...headings, event]);
   assert.equal(result?.performances.length, 1);
   assert.equal(result?.groups[0].titleText, "");
 });
 
+test("validateV2ChunkResult grounds a missing title in the event row section path", () => {
+  const event = {
+    ...block,
+    sectionPath: ["UVERworld LIVE “危ない” TOUR 2026"],
+  };
+  const result = validateV2ChunkResult(validModelResult({ groupTitleText: "" }), [event]);
+  assert.equal(result?.performances.length, 1);
+  assert.equal(result?.groups[0].titleText, "UVERworld LIVE “危ない” TOUR 2026");
+  assert.equal(result?.groups[0].sourceBlockId, undefined);
+});
+
 test("validateV2ChunkResult clears an ungrounded title without dropping the performance", () => {
-  const result = validateV2ChunkResult(validModelResult({ groupTitleText: "INVENTED TOUR" }), [block]);
+  const event = { ...block, sectionPath: [] };
+  const result = validateV2ChunkResult(validModelResult({ groupTitleText: "INVENTED TOUR" }), [event]);
   assert.equal(result?.performances.length, 1);
   assert.equal(result?.groups[0].titleText, "");
   assert.equal(result?.performances[0].evidenceText, "2026年8月13日");
@@ -280,6 +294,19 @@ test("validateV2ChunkResult rejects cross-block field mixing", () => {
   const result = validateV2ChunkResult(validModelResult({ dateText: "2026年8月14日" }), [block, other]);
   assert.equal(result?.performances.length, 0);
   assert.match(result?.rejected[0].reason ?? "", /required field is not exact source substring/);
+});
+
+test("validateV2ChunkResult accepts a valid official date with an omitted year", () => {
+  const shortDateBlock = {
+    ...block,
+    text: "8/31（月） 神奈川 新横浜NEW SIDE BEACH!! OPEN 18:00 START 18:30",
+  };
+  const result = validateV2ChunkResult(validModelResult({
+    dateText: "8/31", regionText: "神奈川", venueText: "新横浜NEW SIDE BEACH!!",
+    openTimeText: "18:00", startTimeText: "18:30", groupTitleText: "",
+  }), [shortDateBlock]);
+  assert.equal(result?.performances.length, 1);
+  assert.equal(result?.performances[0].dateText, "8/31");
 });
 
 test("onRequest rejects an oversized Content-Length before parsing JSON", async () => {
@@ -541,7 +568,7 @@ test("v2 invalid structured result does not trigger a second AI call", async () 
   assert.deepEqual(thinking, [false]);
   assert.deepEqual(tokenLimits, [[900, undefined]]);
   assert.equal((await response.json()).code, "invalid_ai_response");
-  assert.equal(response.headers.get("X-Live-Extract-Version"), "live-extract-worker-v2.6.2");
+  assert.equal(response.headers.get("X-Live-Extract-Version"), "live-extract-worker-v2.7.0");
 });
 
 test("v2 invalid response exposes shape diagnostics without response content", async () => {
@@ -571,7 +598,9 @@ test("v2 invalid response exposes shape diagnostics without response content", a
 
 test("v2 keeps an ungrounded-title performance covered with one AI call", async () => {
   let calls = 0;
-  const input = requestWithValidContentHash();
+  const input = requestWithValidContentHash({
+    chunks: [{ chunkId: "chunk-1", blocks: [{ ...block, sectionPath: [] }] }],
+  });
   const response = await onRequest({
     request: new Request("https://worker.example/api/live-extract", {
       method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(input),

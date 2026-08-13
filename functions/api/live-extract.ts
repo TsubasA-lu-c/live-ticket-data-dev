@@ -69,9 +69,9 @@ const MAX_BLOCK_TEXT = 30_000;
 const MAX_TOTAL_BLOCK_TEXT = 500_000;
 const V2_PRIMARY_CONCURRENCY = 2;
 const CACHE_TTL_SECONDS = 24 * 60 * 60;
-const CACHE_SCHEMA_VERSION = "live-extract-v12";
-const V2_SCHEMA_VERSION = "live-extract-contract-v2.6";
-const WORKER_BUILD_VERSION = "live-extract-worker-v2.6.2";
+const CACHE_SCHEMA_VERSION = "live-extract-v13";
+const V2_SCHEMA_VERSION = "live-extract-contract-v2.7";
+const WORKER_BUILD_VERSION = "live-extract-worker-v2.7.0";
 
 const performanceSchema = {
   type: "object",
@@ -547,8 +547,16 @@ function isParseableDate(value: string): boolean {
   const iso = value.match(/(20\d{2})[-\/.](\d{1,2})[-\/.](\d{1,2})/);
   const jp = value.match(/(?:(20\d{2})年)?\s*(\d{1,2})月\s*(\d{1,2})日/);
   const short = value.match(/(?:^|\D)(\d{1,2})[\/.](\d{1,2})(?:\D|$)/);
-  const match = iso ?? jp ?? (short ? [short[0], "", short[1], short[2]] : null);
-  if (!match) return false;
+  const match = iso ?? jp;
+  if (!match) {
+    // Omitted-year rows are valid source evidence, but the Worker must not guess
+    // a year. The iOS review layer keeps it unresolved until deterministic page
+    // context or the user supplies one.
+    if (!short) return false;
+    const month = Number(short[1]), day = Number(short[2]);
+    return month >= 1 && month <= 12 && day >= 1 &&
+      day <= new Date(Date.UTC(2000, month, 0)).getUTCDate();
+  }
   const year = Number(match[1] || 2000), month = Number(match[2]), day = Number(match[3]);
   const date = new Date(Date.UTC(year, month - 1, day));
   return date.getUTCMonth() === month - 1 && date.getUTCDate() === day;
@@ -638,17 +646,35 @@ function completeGroundedTitle(
   return segment;
 }
 
-function titleLikeHeading(block: V2Block): boolean {
-  return !block.expectedEvent && /heading|title/i.test(block.type) && block.text.length <= 1_000 &&
-    /(?:LIVE|TOUR|CONCERT|FESTIVAL|FES|EVENT|ライブ|ツアー|コンサート|フェス)/iu.test(block.text) &&
-    !isParseableDate(block.text);
+function titleLikeText(value: string): boolean {
+  return value.length > 0 && value.length <= 1_000 &&
+    /(?:LIVE|TOUR|CONCERT|FESTIVAL|FES|EVENT|ライブ|ツアー|コンサート|フェス)/iu.test(value) &&
+    !isParseableDate(value);
 }
 
-/** A single unambiguous official heading is safe deterministic fallback context. */
-function fallbackGroupTitle(block: V2Block, blocks: V2Block[]): V2Block | undefined {
+function titleLikeHeading(block: V2Block): boolean {
+  return !block.expectedEvent && /heading|title/i.test(block.type) && titleLikeText(block.text);
+}
+
+interface GroundedGroupTitle { titleText: string; sourceBlockId?: string }
+
+/** The row's own DOM heading path is stronger context than a page-wide search. */
+function fallbackGroupTitle(block: V2Block, blocks: V2Block[]): GroundedGroupTitle | undefined {
+  const pathTitle = [...block.sectionPath].reverse().find(titleLikeText);
+  if (pathTitle) {
+    const heading = blocks.find((candidate) =>
+      candidate.pageURL === block.pageURL && titleLikeHeading(candidate) &&
+      candidate.text === pathTitle);
+    return { titleText: pathTitle, ...(heading ? { sourceBlockId: heading.blockId } : {}) };
+  }
+
+  // Some sites expose a page-level title without attaching it to each row. Only
+  // use it when exactly one official title-like heading exists on that page.
   const candidates = blocks.filter((candidate) =>
     candidate.pageURL === block.pageURL && titleLikeHeading(candidate));
-  return candidates.length === 1 ? candidates[0] : undefined;
+  return candidates.length === 1
+    ? { titleText: candidates[0].text, sourceBlockId: candidates[0].blockId }
+    : undefined;
 }
 
 export function validateV2ChunkResult(value: unknown, blocks: V2Block[]): V2ChunkResult | null {
@@ -722,8 +748,8 @@ export function validateV2ChunkResult(value: unknown, blocks: V2Block[]): V2Chun
     if (!titleText) {
       const heading = fallbackGroupTitle(block, blocks);
       if (heading) {
-        titleText = heading.text;
-        titleSourceBlockId = heading.blockId;
+        titleText = heading.titleText;
+        titleSourceBlockId = heading.sourceBlockId;
       }
     }
     const groupKey = stableJSON(titleText ? { titleText } : { eventBlockId: blockId });
