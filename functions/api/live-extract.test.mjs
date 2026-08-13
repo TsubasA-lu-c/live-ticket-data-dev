@@ -186,7 +186,24 @@ test("validateV2ChunkResult restores quote, width, and space variants to exact s
   }), [styled]);
   assert.equal(result?.performances.length, 1);
   assert.equal(result?.groups[0].titleText, "ＴＯＵＲ　２０２６『Flügel Letter』");
-  assert.match(result?.warnings.join("\n") ?? "", /restored to exact source spelling/);
+  assert.deepEqual(result?.warnings, []);
+});
+
+test("validateV2ChunkResult completes a grounded title through its year and subtitle", () => {
+  const tour = {
+    ...block,
+    text: "TOUR 2026/09/24 (Thu) sumika Live Tour 2026 『Flügel Letter』 【大阪】Zepp Osaka Bayside 開場18:00/開演19:00",
+  };
+  const result = validateV2ChunkResult(validModelResult({
+    groupTitleText: "sumika Live Tour 2026",
+    dateText: "2026/09/24",
+    regionText: "大阪",
+    venueText: "Zepp Osaka Bayside",
+    openTimeText: "18:00",
+    startTimeText: "19:00",
+  }), [tour]);
+  assert.equal(result?.performances.length, 1);
+  assert.equal(result?.groups[0].titleText, "sumika Live Tour 2026 『Flügel Letter』");
 });
 
 test("validateV2ChunkResult clears an ungrounded title without dropping the performance", () => {
@@ -504,7 +521,7 @@ test("v2 invalid structured result does not trigger a second AI call", async () 
   assert.deepEqual(thinking, [false]);
   assert.deepEqual(tokenLimits, [[900, undefined]]);
   assert.equal((await response.json()).code, "invalid_ai_response");
-  assert.equal(response.headers.get("X-Live-Extract-Version"), "live-extract-worker-v2.6.0");
+  assert.equal(response.headers.get("X-Live-Extract-Version"), "live-extract-worker-v2.6.1");
 });
 
 test("v2 invalid response exposes shape diagnostics without response content", async () => {

@@ -71,7 +71,7 @@ const V2_PRIMARY_CONCURRENCY = 2;
 const CACHE_TTL_SECONDS = 24 * 60 * 60;
 const CACHE_SCHEMA_VERSION = "live-extract-v12";
 const V2_SCHEMA_VERSION = "live-extract-contract-v2.6";
-const WORKER_BUILD_VERSION = "live-extract-worker-v2.6.0";
+const WORKER_BUILD_VERSION = "live-extract-worker-v2.6.1";
 
 const performanceSchema = {
   type: "object",
@@ -598,6 +598,46 @@ function resolveSourceSubstring(source: string, candidate: string): string | nul
   return null;
 }
 
+/**
+ * Expands an already-grounded model title to the complete source segment between
+ * the grounded date and grounded location. This is deliberately bounded to one
+ * event block and only applies when the model title itself occurs inside that
+ * segment, so it cannot borrow a tour name from another performance.
+ */
+function completeGroundedTitle(
+  source: string, title: string, dateText: string, regionText: string, venueText: string,
+): string {
+  if (!title || !dateText || !regionText || !venueText) return title;
+  const dateStart = source.indexOf(dateText);
+  const titleStart = source.indexOf(title, Math.max(0, dateStart));
+  if (dateStart < 0 || titleStart < dateStart) return title;
+
+  // The candidate must be the first semantic text after the grounded date and
+  // an optional weekday. Otherwise expanding it could absorb an artist/status
+  // label which the model intentionally excluded.
+  const betweenDateAndTitle = source.slice(dateStart + dateText.length, titleStart);
+  const prefixWithoutWeekday = betweenDateAndTitle
+    .replace(/^\s*[（(]\s*(?:(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)(?:day)?|[月火水木金土日](?:曜(?:日)?)?)\s*[)）]/iu, "")
+    .trim();
+  if (prefixWithoutWeekday) return title;
+
+  const venueStart = source.indexOf(venueText, titleStart + title.length);
+  if (venueStart < 0) return title;
+  // Use the last region occurrence before the grounded venue. A region word may
+  // legitimately occur inside a title; the location label is the one nearest
+  // the venue.
+  const regionStart = source.lastIndexOf(regionText, venueStart - 1);
+  if (regionStart < titleStart + title.length || regionStart >= venueStart) return title;
+  const segment = source.slice(titleStart, regionStart)
+    // A region commonly begins with a bracket immediately before the value.
+    .replace(/[\s\u00a0　]*[【\[(（〈《「『｢]\s*$/u, "")
+    .trim();
+  const extension = segment.slice(title.length);
+  if (!segment.startsWith(title) || segment.length > 300 ||
+      /(?:20\d{2}[\/.年-]\d{1,2}|\bOPEN\b|\bSTART\b|開場|開演|受付|発売|問い合わせ|問合せ)/iu.test(extension)) return title;
+  return segment;
+}
+
 export function validateV2ChunkResult(value: unknown, blocks: V2Block[]): V2ChunkResult | null {
   const parsed = unwrapAIResult(value);
   if (!parsed.value || typeof parsed.value !== "object" || parsed.finishReason === "length") return null;
@@ -655,14 +695,15 @@ export function validateV2ChunkResult(value: unknown, blocks: V2Block[]): V2Chun
       // heading could associate a schedule row with the wrong tour.
       const resolved = resolveSourceSubstring(block.text, candidate);
       if (resolved !== null) {
-        titleText = resolved;
+        titleText = completeGroundedTitle(
+          block.text, resolved, groundedFields.dateText ?? "",
+          groundedFields.regionText ?? "", groundedFields.venueText ?? "",
+        );
         titleSourceBlockId = block.blockId;
       }
       if (!titleText) {
         warnings.push(`${blockId}: groupTitleText is not source-grounded; title cleared`);
         cacheable = false;
-      } else if (titleText !== candidate) {
-        warnings.push(`${blockId}: groupTitleText restored to exact source spelling`);
       }
     }
     const groupKey = stableJSON(titleText ? { titleText } : { eventBlockId: blockId });
