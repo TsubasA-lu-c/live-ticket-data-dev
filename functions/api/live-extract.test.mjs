@@ -65,19 +65,16 @@ function requestWithValidContentHash(overrides = {}) {
 
 function validModelResult(performanceOverrides = {}) {
   return {
-    groups: [{ groupId: "local-group", titleText: "TOUR 2026", sourceBlockId: "event-1" }],
     performances: [{
       sourceBlockId: "event-1",
-      groupId: "local-group",
+      groupTitleText: "TOUR 2026",
       dateText: "2026年8月13日",
       regionText: "東京都",
       venueText: "東京ドーム",
       openTimeText: "17:00",
       startTimeText: "18:00",
-      evidenceText: "2026年8月13日 東京都 東京ドーム OPEN 17:00 START 18:00",
       ...performanceOverrides,
     }],
-    rejected: [],
   };
 }
 
@@ -170,11 +167,35 @@ test("parseV2Request rejects oversized blocks", () => {
   })), null);
 });
 
-test("validateV2ChunkResult accepts exact same-block evidence", () => {
+test("validateV2ChunkResult accepts compact exact response and synthesizes date evidence", () => {
   const result = validateV2ChunkResult(validModelResult(), [block]);
   assert.equal(result?.performances.length, 1);
+  assert.equal(result?.performances[0].evidenceText, "2026年8月13日");
+  assert.equal(result?.groups[0].titleText, "TOUR 2026");
   assert.equal(result?.rejected.length, 0);
   assert.equal(result?.cacheable, true);
+});
+
+test("validateV2ChunkResult restores quote, width, and space variants to exact source title", () => {
+  const styled = {
+    ...block,
+    text: "ＴＯＵＲ　２０２６『Flügel Letter』 2026年8月13日 東京都 東京ドーム OPEN 17:00 START 18:00",
+  };
+  const result = validateV2ChunkResult(validModelResult({
+    groupTitleText: "TOUR 2026「Flügel Letter」",
+  }), [styled]);
+  assert.equal(result?.performances.length, 1);
+  assert.equal(result?.groups[0].titleText, "ＴＯＵＲ　２０２６『Flügel Letter』");
+  assert.match(result?.warnings.join("\n") ?? "", /restored to exact source spelling/);
+});
+
+test("validateV2ChunkResult clears an ungrounded title without dropping the performance", () => {
+  const result = validateV2ChunkResult(validModelResult({ groupTitleText: "INVENTED TOUR" }), [block]);
+  assert.equal(result?.performances.length, 1);
+  assert.equal(result?.groups[0].titleText, "");
+  assert.equal(result?.performances[0].evidenceText, "2026年8月13日");
+  assert.match(result?.warnings.join("\n") ?? "", /title cleared/);
+  assert.equal(result?.cacheable, false);
 });
 
 test("validateV2ChunkResult unwraps OpenAI choices message.parsed", () => {
@@ -213,30 +234,15 @@ test("validateV2ChunkResult treats choice finish_reason length as invalid", () =
   assert.equal(result, null);
 });
 
-test("validateV2ChunkResult rejects evidence absent from source block", () => {
-  const result = validateV2ChunkResult(validModelResult({ evidenceText: "invented evidence" }), [block]);
-  assert.equal(result?.performances.length, 0);
-  assert.match(result?.rejected[0].reason ?? "", /evidenceText/);
-  assert.equal(result?.cacheable, false);
-});
-
 test("validateV2ChunkResult rejects cross-block field mixing", () => {
   const other = {
     ...block,
     blockId: "event-2",
     text: "2026年8月14日 大阪府 大阪城ホール OPEN 16:00 START 17:00",
   };
-  const result = validateV2ChunkResult(validModelResult({ venueText: "大阪城ホール" }), [block, other]);
+  const result = validateV2ChunkResult(validModelResult({ dateText: "2026年8月14日" }), [block, other]);
   assert.equal(result?.performances.length, 0);
-  assert.match(result?.rejected[0].reason ?? "", /exact source substring/);
-});
-
-test("an explicit model rejection remains visible but is not cacheable", () => {
-  const result = validateV2ChunkResult({
-    groups: [], performances: [], rejected: [{ blockId: "event-1", reason: "not an event date" }],
-  }, [block]);
-  assert.equal(result?.rejected.length, 1);
-  assert.equal(result?.cacheable, false);
+  assert.match(result?.rejected[0].reason ?? "", /required field is not exact source substring/);
 });
 
 test("onRequest rejects an oversized Content-Length before parsing JSON", async () => {
@@ -372,12 +378,25 @@ test("v2 debug alias selects Llama only when its environment gate is enabled", a
     "@cf/meta/llama-3.1-8b-instruct-fast",
     "@cf/zai-org/glm-4.7-flash",
   ]);
-  assert.equal(payloads[0].max_tokens, 1_230);
+  assert.equal(payloads[0].max_tokens, 900);
   assert.equal(payloads[0].max_completion_tokens, undefined);
   assert.equal("chat_template_kwargs" in payloads[0], false);
-  assert.equal(payloads[1].max_completion_tokens, 1_230);
+  assert.equal(payloads[1].max_completion_tokens, 900);
   assert.equal(payloads[1].max_tokens, undefined);
   assert.equal(payloads[1].chat_template_kwargs?.enable_thinking, false);
+  for (const payload of payloads) {
+    const schema = payload.response_format?.json_schema;
+    assert.deepEqual(Object.keys(schema.properties), ["performances"]);
+    assert.deepEqual(schema.required, ["performances"]);
+    const performance = schema.properties.performances.items;
+    assert.deepEqual(Object.keys(performance.properties), [
+      "sourceBlockId", "groupTitleText", "dateText", "regionText", "venueText",
+      "openTimeText", "startTimeText",
+    ]);
+    assert.equal("evidenceText" in performance.properties, false);
+    assert.equal("groups" in schema.properties, false);
+    assert.equal("rejected" in schema.properties, false);
+  }
 });
 
 test("v2 no-event documents return empty coverage without invoking AI", async () => {
@@ -429,12 +448,11 @@ test("v2 invokes AI once per chunk and aggregates validated coverage", async () 
         calls += 1;
         const isSecond = payload.messages[1].content.includes('"blockId":"event-2"');
         return isSecond ? {
-          groups: [{ groupId: "group", titleText: "LIVE 2026", sourceBlockId: "event-2" }],
           performances: [{
-            sourceBlockId: "event-2", groupId: "group", dateText: "2026年8月14日",
+            sourceBlockId: "event-2", groupTitleText: "LIVE 2026", dateText: "2026年8月14日",
             regionText: "大阪府", venueText: "大阪城ホール", openTimeText: "16:00",
-            startTimeText: "17:00", evidenceText: "2026年8月14日 大阪府 大阪城ホール OPEN 16:00 START 17:00",
-          }], rejected: [],
+            startTimeText: "17:00",
+          }],
         } : validModelResult();
       } },
     },
@@ -451,7 +469,7 @@ test("v2 invokes AI once per chunk and aggregates validated coverage", async () 
   assert.equal("kind" in payload.performances[0], false);
 });
 
-test("v2 retries an invalid GLM schema response once with json_object on the same model", async () => {
+test("v2 invalid structured result does not trigger a second AI call", async () => {
   const hashSource = [block.blockId, block.pageURL, block.sectionPath.join(" > "), block.type, block.text]
     .join("\u001f");
   const input = request({
@@ -476,21 +494,17 @@ test("v2 retries an invalid GLM schema response once with json_object on the sam
         formats.push(payload.response_format?.type);
         thinking.push(payload.chat_template_kwargs?.enable_thinking);
         tokenLimits.push([payload.max_completion_tokens, payload.max_tokens]);
-        if (formats.length === 1) return { response: "not valid JSON" };
-        return { response: { choices: [{ message: {
-          content: [{ type: "text", text: JSON.stringify(validModelResult()) }],
-        }, finish_reason: "stop" }] } };
+        return { response: "not valid JSON" };
       } },
     },
   });
-  const payload = await response.json();
-  assert.equal(response.status, 200);
-  assert.deepEqual(formats, ["json_schema", "json_object"]);
-  assert.deepEqual(models, ["@cf/zai-org/glm-4.7-flash", "@cf/zai-org/glm-4.7-flash"]);
-  assert.deepEqual(thinking, [false, false]);
-  assert.deepEqual(tokenLimits, [[1_230, undefined], [1_230, undefined]]);
-  assert.equal(payload.performances.length, 1);
-  assert.equal(response.headers.get("X-Live-Extract-Version"), "live-extract-worker-v2.4.0");
+  assert.equal(response.status, 502);
+  assert.deepEqual(formats, ["json_schema"]);
+  assert.deepEqual(models, ["@cf/zai-org/glm-4.7-flash"]);
+  assert.deepEqual(thinking, [false]);
+  assert.deepEqual(tokenLimits, [[900, undefined]]);
+  assert.equal((await response.json()).code, "invalid_ai_response");
+  assert.equal(response.headers.get("X-Live-Extract-Version"), "live-extract-worker-v2.5.0");
 });
 
 test("v2 invalid response exposes shape diagnostics without response content", async () => {
@@ -518,16 +532,44 @@ test("v2 invalid response exposes shape diagnostics without response content", a
   assert.doesNotMatch(diagnostic, /private response content/);
 });
 
-test("v2 selectively retries only uncovered expected blocks with heading context", async () => {
-  const heading = {
-    blockId: "heading-1", pageURL: block.pageURL, sectionPath: [], type: "heading",
-    text: "TOUR 2026", expectedEvent: false,
+test("v2 keeps an ungrounded-title performance covered with one AI call", async () => {
+  let calls = 0;
+  const input = requestWithValidContentHash();
+  const response = await onRequest({
+    request: new Request("https://worker.example/api/live-extract", {
+      method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(input),
+    }),
+    env: {
+      AI_MODEL_PRIMARY: "@cf/meta/llama-3.1-8b-instruct",
+      AI: { async run() {
+        calls += 1;
+        return validModelResult({ groupTitleText: "INVENTED TOUR" });
+      } },
+    },
+  });
+  const payload = await response.json();
+  assert.equal(response.status, 200);
+  assert.equal(calls, 1);
+  assert.equal(payload.performances.length, 1);
+  assert.equal(payload.groups[0].titleText, "");
+  assert.deepEqual(payload.coverage.coveredBlockIds, ["event-1"]);
+  assert.deepEqual(payload.coverage.uncoveredBlockIds, []);
+  assert.match(payload.warnings.join("\n"), /title cleared/);
+  assert.equal(response.headers.get("X-Live-Extract-AI-Calls"), "1");
+});
+
+test("v2 rejects a cross-block field and leaves the event uncovered without a second AI call", async () => {
+  const context = {
+    ...block,
+    blockId: "context-2",
+    type: "context",
+    expectedEvent: false,
+    text: "LIVE 2026 2026年8月14日 大阪府 大阪城ホール OPEN 16:00 START 17:00",
   };
-  const blocks = [heading, block];
+  const blocks = [block, context];
   const hashSource = blocks.map((item) => [
     item.blockId, item.pageURL, item.sectionPath.join(" > "), item.type, item.text,
   ].join("\u001f")).join("\u001e");
-  let calls = 0;
   const input = request({
     document: {
       canonicalURL: "https://example.com/live", title: "Live", locale: "ja-JP",
@@ -536,84 +578,6 @@ test("v2 selectively retries only uncovered expected blocks with heading context
     chunks: [{ chunkId: "chunk-1", blocks }],
     forceRefresh: true,
   });
-  const response = await onRequest({
-    request: new Request("https://worker.example/api/live-extract", {
-      method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(input),
-    }),
-    env: {
-      AI_MODEL_PRIMARY: "@cf/meta/llama-3.1-8b-instruct",
-      AI: { async run() {
-        calls += 1;
-        if (calls === 1) return { groups: [], performances: [], rejected: [] };
-        return {
-          groups: [{ groupId: "group", titleText: "TOUR 2026", sourceBlockId: "heading-1" }],
-          performances: validModelResult({ groupId: "group" }).performances,
-          rejected: [],
-        };
-      } },
-    },
-  });
-  const payload = await response.json();
-  assert.equal(calls, 2);
-  assert.equal(payload.performances.length, 1);
-  assert.deepEqual(payload.coverage.uncoveredBlockIds, []);
-});
-
-test("v2 selectively retries an expected block even when the primary model rejected it", async () => {
-  const hashSource = [block.blockId, block.pageURL, block.sectionPath.join(" > "), block.type, block.text]
-    .join("\u001f");
-  let calls = 0;
-  const input = request({
-    document: {
-      canonicalURL: "https://example.com/live", title: "Live", locale: "ja-JP",
-      contentHash: createHash("sha256").update(hashSource).digest("hex"),
-    },
-    forceRefresh: true,
-  });
-  const response = await onRequest({
-    request: new Request("https://worker.example/api/live-extract", {
-      method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(input),
-    }),
-    env: {
-      AI_MODEL_PRIMARY: "@cf/meta/llama-3.1-8b-instruct",
-      AI: { async run() {
-        calls += 1;
-        if (calls === 1) {
-          return {
-            groups: [], performances: [],
-            rejected: [{ blockId: "event-1", reason: "not an event" }],
-          };
-        }
-        return validModelResult();
-      } },
-    },
-  });
-  const payload = await response.json();
-  assert.equal(calls, 2);
-  assert.equal(payload.performances.length, 1);
-  assert.deepEqual(payload.coverage.coveredBlockIds, ["event-1"]);
-  assert.deepEqual(payload.coverage.uncoveredBlockIds, []);
-  assert.deepEqual(payload.coverage.rejected, []);
-});
-
-test("daily quota during selective recovery returns retryAt and prevents later recovery calls", async () => {
-  const second = {
-    ...block,
-    blockId: "event-2",
-    text: "LIVE 2026 2026年8月14日 大阪府 大阪城ホール OPEN 16:00 START 17:00",
-  };
-  const blocks = [block, second];
-  const hashSource = blocks.map((item) => [
-    item.blockId, item.pageURL, item.sectionPath.join(" > "), item.type, item.text,
-  ].join("\u001f")).join("\u001e");
-  const input = request({
-    document: {
-      canonicalURL: "https://example.com/live", title: "Live", locale: "ja-JP",
-      contentHash: createHash("sha256").update(hashSource).digest("hex"),
-    },
-    chunks: [{ chunkId: "chunk-1", blocks: [block] }, { chunkId: "chunk-2", blocks: [second] }],
-    forceRefresh: true,
-  });
   let calls = 0;
   const response = await onRequest({
     request: new Request("https://worker.example/api/live-extract", {
@@ -623,14 +587,17 @@ test("daily quota during selective recovery returns retryAt and prevents later r
       AI_MODEL_PRIMARY: "@cf/meta/llama-3.1-8b-instruct",
       AI: { async run() {
         calls += 1;
-        if (calls <= 2) return { groups: [], performances: [], rejected: [] };
-        throw { code: 3036, message: "daily free allocation exhausted" };
+        return validModelResult({ dateText: "2026年8月14日" });
       } },
     },
   });
   const payload = await response.json();
-  assert.equal(response.status, 503);
-  assert.equal(calls, 3);
-  assert.equal(payload.code, "ai_quota_exhausted");
-  assert.match(payload.retryAt, /T00:00:00\.000Z$/);
+  assert.equal(response.status, 200);
+  assert.equal(calls, 1);
+  assert.deepEqual(payload.performances, []);
+  assert.deepEqual(payload.coverage.coveredBlockIds, []);
+  assert.deepEqual(payload.coverage.uncoveredBlockIds, ["event-1"]);
+  assert.equal(payload.coverage.rejected[0].blockId, "event-1");
+  assert.match(payload.coverage.rejected[0].reason, /required field is not exact source substring/);
+  assert.equal(response.headers.get("X-Live-Extract-AI-Calls"), "1");
 });
