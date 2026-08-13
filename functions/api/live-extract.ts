@@ -69,9 +69,9 @@ const MAX_BLOCK_TEXT = 30_000;
 const MAX_TOTAL_BLOCK_TEXT = 500_000;
 const V2_PRIMARY_CONCURRENCY = 2;
 const CACHE_TTL_SECONDS = 24 * 60 * 60;
-const CACHE_SCHEMA_VERSION = "live-extract-v9";
-const V2_SCHEMA_VERSION = "live-extract-contract-v2.3";
-const WORKER_BUILD_VERSION = "live-extract-worker-v2.3.0";
+const CACHE_SCHEMA_VERSION = "live-extract-v10";
+const V2_SCHEMA_VERSION = "live-extract-contract-v2.4";
+const WORKER_BUILD_VERSION = "live-extract-worker-v2.4.0";
 
 const performanceSchema = {
   type: "object",
@@ -188,7 +188,8 @@ async function cacheRequest(
     JSON.stringify({
       version: CACHE_SCHEMA_VERSION,
       model,
-      promptHash: await sha256(prompt(input)),
+      aiPayloadHashes: await Promise.all([0, 1].map((attempt) =>
+        sha256(stableJSON(v1AIInput(model, input, attempt))))),
       artistName: normalizedCacheText(input.artistName),
       pageURL: canonicalPageURL(input.pageURL),
       pageTitle: normalizedCacheText(input.pageTitle),
@@ -365,6 +366,25 @@ function isWorkersAIModel(model: string): boolean {
   return model.startsWith("@cf/");
 }
 
+function isGLMModel(model: string): boolean {
+  const modelName = model.toLowerCase().split("/").at(-1) ?? "";
+  return /^glm(?:[-_.]|$)/.test(modelName);
+}
+
+function modelGenerationSettings(
+  model: string, responseFormat: Record<string, unknown>, maxTokens: number,
+): Record<string, unknown> {
+  const common = { response_format: responseFormat, temperature: 0 };
+  if (isGLMModel(model)) {
+    return {
+      ...common,
+      max_completion_tokens: maxTokens,
+      chat_template_kwargs: { enable_thinking: false },
+    };
+  }
+  return { ...common, max_tokens: maxTokens };
+}
+
 function stableJSON(value: unknown): string {
   if (Array.isArray(value)) return `[${value.map(stableJSON).join(",")}]`;
   if (value && typeof value === "object") {
@@ -382,6 +402,32 @@ function v2Prompt(input: LiveExtractV2Request, blocks: V2Block[]): string {
     blocks.map((block) => stableJSON({ blockId: block.blockId, pageURL: block.pageURL,
       sectionPath: block.sectionPath, type: block.type, text: block.text,
       expectedEvent: block.expectedEvent })).join("\n");
+}
+
+function v2MaxTokens(chunk: LiveExtractV2Request["chunks"][number]): number {
+  const expected = chunk.blocks.filter((block) => block.expectedEvent).length;
+  return Math.min(8_000, Math.max(1_200, 700 + expected * 450 + chunk.blocks.length * 80));
+}
+
+function v2AIInput(
+  model: string, input: LiveExtractV2Request,
+  chunk: LiveExtractV2Request["chunks"][number], attempt: number,
+): Record<string, unknown> {
+  return {
+    messages: [
+      { role: "system", content: attempt === 0
+        ? "本文のexact substringだけを根拠に、指定JSON Schema以外を返さないでください。"
+        : "JSONオブジェクトだけを返してください。top-levelはgroups, performances, rejectedの3配列です。groupはgroupId,titleText,sourceBlockId、performanceはsourceBlockId,groupId,dateText,regionText,venueText,openTimeText,startTimeText,evidenceText、rejectedはblockId,reasonを持ちます。" },
+      { role: "user", content: v2Prompt(input, chunk.blocks) },
+    ],
+    ...modelGenerationSettings(
+      model,
+      attempt === 0
+        ? { type: "json_schema", json_schema: v2ChunkResponseSchema }
+        : { type: "json_object" },
+      v2MaxTokens(chunk),
+    ),
+  };
 }
 
 function parseStructuredText(text: string): unknown {
@@ -624,6 +670,29 @@ function prompt(input: LiveExtractRequest): string {
 ${input.snapshotText}`;
 }
 
+function v1AIInput(
+  model: string, input: LiveExtractRequest, attempt: number,
+): Record<string, unknown> {
+  return {
+    messages: [
+      {
+        role: "system",
+        content: attempt === 0
+          ? "入力本文の文字列だけを根拠に抽出し、指定JSON Schema以外を返さないでください。"
+          : "JSONオブジェクトだけを返してください。top-levelのperformances配列に、groupTitleText,dateText,regionText,venueText,openTimeText,startTimeText,kindを持つ要素を入れてください。",
+      },
+      { role: "user", content: prompt(input) },
+    ],
+    ...modelGenerationSettings(
+      model,
+      attempt === 0
+        ? { type: "json_schema", json_schema: responseSchema }
+        : { type: "json_object" },
+      8_000,
+    ),
+  };
+}
+
 export function normalizeAIResult(value: unknown): unknown {
   const parsed = unwrapAIResult(value);
   if (parsed.finishReason === "length") return null;
@@ -662,15 +731,11 @@ export function normalizeAIResult(value: unknown): unknown {
 async function v2ChunkCacheRequest(
   request: Request, input: LiveExtractV2Request, chunk: LiveExtractV2Request["chunks"][number], model: string,
 ): Promise<Request> {
-  const promptText = v2Prompt(input, chunk.blocks);
+  const aiPayloadHashes = await Promise.all([0, 1].map((attempt) =>
+    sha256(stableJSON(v2AIInput(model, input, chunk, attempt)))));
   const fingerprint = await sha256(stableJSON({
     version: V2_SCHEMA_VERSION, contractVersion: 2, extractorVersion: input.extractorVersion,
-    model, modelSettings: {
-      temperature: 0, responseFormat: "json_schema_then_json_object",
-      reasoning: "disabled_via_chat_template_kwargs",
-      maxTokens: Math.min(8_000, Math.max(1_200, 700 + chunk.blocks.filter((block) => block.expectedEvent).length * 450 + chunk.blocks.length * 80)),
-    },
-    promptHash: await sha256(promptText), locale: input.document.locale, chunk,
+    model, aiPayloadHashes, locale: input.document.locale, chunk,
   }));
   const keyURL = new URL(request.url);
   keyURL.pathname = `/api/live-extract-cache/v2/${fingerprint}`;
@@ -745,25 +810,14 @@ async function runV2Chunk(
     const cached = await readCachedV2(key, chunk.blocks);
     if (cached) return { result: cached, cache: "HIT" };
   }
-  const expected = chunk.blocks.filter((block) => block.expectedEvent).length;
-  const maxTokens = Math.min(8_000, Math.max(1_200, 700 + expected * 450 + chunk.blocks.length * 80));
   let lastError: unknown;
   for (let attempt = 0; attempt < 2; attempt += 1) {
     try {
-      const result = await env.AI.run(model, {
-        messages: [
-          { role: "system", content: attempt === 0
-            ? "本文のexact substringだけを根拠に、指定JSON Schema以外を返さないでください。"
-            : "JSONオブジェクトだけを返してください。top-levelはgroups, performances, rejectedの3配列です。groupはgroupId,titleText,sourceBlockId、performanceはsourceBlockId,groupId,dateText,regionText,venueText,openTimeText,startTimeText,evidenceText、rejectedはblockId,reasonを持ちます。" },
-          { role: "user", content: v2Prompt(input, chunk.blocks) },
-        ],
-        response_format: attempt === 0
-          ? { type: "json_schema", json_schema: v2ChunkResponseSchema }
-          : { type: "json_object" },
-        max_completion_tokens: maxTokens,
-        chat_template_kwargs: { enable_thinking: false },
-        temperature: 0,
-      }, env.AI_GATEWAY_ID ? { gateway: { id: env.AI_GATEWAY_ID } } : undefined);
+      const result = await env.AI.run(
+        model,
+        v2AIInput(model, input, chunk, attempt),
+        env.AI_GATEWAY_ID ? { gateway: { id: env.AI_GATEWAY_ID } } : undefined,
+      );
       const validated = validateV2ChunkResult(result, chunk.blocks);
       if (!validated) throw invalidAIResponse(result);
       if (validated.cacheable) {
@@ -987,23 +1041,11 @@ export async function onRequest(context: {
     let lastError: unknown;
     for (let attempt = 0; attempt < 2; attempt += 1) {
       try {
-        const result = await env.AI.run(model, {
-          messages: [
-            {
-              role: "system",
-              content: attempt === 0
-                ? "入力本文の文字列だけを根拠に抽出し、指定JSON Schema以外を返さないでください。"
-                : "JSONオブジェクトだけを返してください。top-levelのperformances配列に、groupTitleText,dateText,regionText,venueText,openTimeText,startTimeText,kindを持つ要素を入れてください。",
-            },
-            { role: "user", content: prompt(input) },
-          ],
-          response_format: attempt === 0
-            ? { type: "json_schema", json_schema: responseSchema }
-            : { type: "json_object" },
-          max_completion_tokens: 8_000,
-          chat_template_kwargs: { enable_thinking: false },
-          temperature: 0,
-        }, env.AI_GATEWAY_ID ? { gateway: { id: env.AI_GATEWAY_ID } } : undefined);
+        const result = await env.AI.run(
+          model,
+          v1AIInput(model, input, attempt),
+          env.AI_GATEWAY_ID ? { gateway: { id: env.AI_GATEWAY_ID } } : undefined,
+        );
         const envelope = unwrapAIResult(result);
         normalized = envelope.finishReason === "length" ? null : normalizeAIResult(result);
         if (!normalized) throw new Error("invalid_ai_response");

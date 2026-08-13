@@ -49,6 +49,20 @@ function request(overrides = {}) {
   };
 }
 
+function requestWithValidContentHash(overrides = {}) {
+  const input = request({ forceRefresh: true, ...overrides });
+  const hashSource = input.chunks.flatMap((chunk) => chunk.blocks).map((item) => [
+    item.blockId, item.pageURL, item.sectionPath.join(" > "), item.type, item.text,
+  ].join("\u001f")).join("\u001e");
+  return {
+    ...input,
+    document: {
+      ...input.document,
+      contentHash: createHash("sha256").update(hashSource).digest("hex"),
+    },
+  };
+}
+
 function validModelResult(performanceOverrides = {}) {
   return {
     groups: [{ groupId: "local-group", titleText: "TOUR 2026", sourceBlockId: "event-1" }],
@@ -297,6 +311,75 @@ test("paid-required models are rejected before AI.run", async () => {
   assert.equal((await response.json()).code, "ai_unavailable");
 });
 
+test("v1 uses GLM completion controls and Llama token controls", async () => {
+  const observations = [];
+  for (const model of [
+    "@cf/zai-org/glm-4.7-flash",
+    "@cf/meta/llama-3.1-8b-instruct-fast",
+  ]) {
+    const response = await onRequest({
+      request: new Request("https://worker.example/api/live-extract", {
+        method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({
+          artistName: "Example", pageURL: "https://example.com/live", pageTitle: "Live",
+          snapshotText: `2026年8月13日 東京ドーム ${model}`,
+        }),
+      }),
+      env: {
+        AI_MODEL_PRIMARY: model,
+        AI: { async run(selectedModel, payload) {
+          observations.push({ model: selectedModel, payload });
+          return validV1Result;
+        } },
+      },
+    });
+    assert.equal(response.status, 200);
+  }
+
+  assert.equal(observations[0].model, "@cf/zai-org/glm-4.7-flash");
+  assert.equal(observations[0].payload.max_completion_tokens, 8_000);
+  assert.equal(observations[0].payload.max_tokens, undefined);
+  assert.equal(observations[0].payload.chat_template_kwargs?.enable_thinking, false);
+  assert.equal(observations[1].model, "@cf/meta/llama-3.1-8b-instruct-fast");
+  assert.equal(observations[1].payload.max_tokens, 8_000);
+  assert.equal(observations[1].payload.max_completion_tokens, undefined);
+  assert.equal("chat_template_kwargs" in observations[1].payload, false);
+});
+
+test("v2 debug alias selects Llama only when its environment gate is enabled", async () => {
+  const input = requestWithValidContentHash({ debugModelAlias: "a" });
+  const selected = [];
+  const payloads = [];
+  for (const enabled of [true, false]) {
+    const response = await onRequest({
+      request: new Request("https://worker.example/api/live-extract", {
+        method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(input),
+      }),
+      env: {
+        AI_MODEL_PRIMARY: "@cf/zai-org/glm-4.7-flash",
+        AI_MODEL_DEBUG_A: "@cf/meta/llama-3.1-8b-instruct-fast",
+        AI_DEBUG_MODELS_ENABLED: enabled ? "true" : "false",
+        AI: { async run(model, payload) {
+          selected.push(model);
+          payloads.push(payload);
+          return validModelResult();
+        } },
+      },
+    });
+    assert.equal(response.status, 200);
+  }
+
+  assert.deepEqual(selected, [
+    "@cf/meta/llama-3.1-8b-instruct-fast",
+    "@cf/zai-org/glm-4.7-flash",
+  ]);
+  assert.equal(payloads[0].max_tokens, 1_230);
+  assert.equal(payloads[0].max_completion_tokens, undefined);
+  assert.equal("chat_template_kwargs" in payloads[0], false);
+  assert.equal(payloads[1].max_completion_tokens, 1_230);
+  assert.equal(payloads[1].max_tokens, undefined);
+  assert.equal(payloads[1].chat_template_kwargs?.enable_thinking, false);
+});
+
 test("v2 no-event documents return empty coverage without invoking AI", async () => {
   let calls = 0;
   const input = request({ chunks: [], document: {
@@ -368,7 +451,7 @@ test("v2 invokes AI once per chunk and aggregates validated coverage", async () 
   assert.equal("kind" in payload.performances[0], false);
 });
 
-test("v2 retries an invalid schema response once with json_object on the same model", async () => {
+test("v2 retries an invalid GLM schema response once with json_object on the same model", async () => {
   const hashSource = [block.blockId, block.pageURL, block.sectionPath.join(" > "), block.type, block.text]
     .join("\u001f");
   const input = request({
@@ -387,7 +470,7 @@ test("v2 retries an invalid schema response once with json_object on the same mo
       method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(input),
     }),
     env: {
-      AI_MODEL_PRIMARY: "@cf/google/gemma-4-26b-a4b-it",
+      AI_MODEL_PRIMARY: "@cf/zai-org/glm-4.7-flash",
       AI: { async run(model, payload) {
         models.push(model);
         formats.push(payload.response_format?.type);
@@ -403,11 +486,11 @@ test("v2 retries an invalid schema response once with json_object on the same mo
   const payload = await response.json();
   assert.equal(response.status, 200);
   assert.deepEqual(formats, ["json_schema", "json_object"]);
-  assert.deepEqual(models, ["@cf/google/gemma-4-26b-a4b-it", "@cf/google/gemma-4-26b-a4b-it"]);
+  assert.deepEqual(models, ["@cf/zai-org/glm-4.7-flash", "@cf/zai-org/glm-4.7-flash"]);
   assert.deepEqual(thinking, [false, false]);
   assert.deepEqual(tokenLimits, [[1_230, undefined], [1_230, undefined]]);
   assert.equal(payload.performances.length, 1);
-  assert.equal(response.headers.get("X-Live-Extract-Version"), "live-extract-worker-v2.3.0");
+  assert.equal(response.headers.get("X-Live-Extract-Version"), "live-extract-worker-v2.4.0");
 });
 
 test("v2 invalid response exposes shape diagnostics without response content", async () => {
