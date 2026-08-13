@@ -171,6 +171,7 @@ test("validateV2ChunkResult accepts compact exact response and synthesizes date 
   const result = validateV2ChunkResult(validModelResult(), [block]);
   assert.equal(result?.performances.length, 1);
   assert.equal(result?.performances[0].evidenceText, "2026年8月13日");
+  assert.equal(result?.performances[0].eventTitleText, "");
   assert.equal(result?.groups[0].titleText, "TOUR 2026");
   assert.equal(result?.rejected.length, 0);
   assert.equal(result?.cacheable, true);
@@ -309,6 +310,64 @@ test("validateV2ChunkResult accepts a valid official date with an omitted year",
   }), [shortDateBlock]);
   assert.equal(result?.performances.length, 1);
   assert.equal(result?.performances[0].dateText, "8/31");
+});
+
+test("validateV2ChunkResult separates a complete trailing wave-dash event title from its venue", () => {
+  const event = {
+    ...block,
+    sectionPath: ["UVERworld LIVE “危ない” TOUR 2026"],
+    text: "2026/09/24 神奈川 KT Zepp Yokohama ～誠果 生誕祭～ OPEN 17:30 START 18:30",
+  };
+  const result = validateV2ChunkResult(validModelResult({
+    groupTitleText: "",
+    dateText: "2026/09/24",
+    regionText: "神奈川",
+    venueText: "KT Zepp Yokohama ～誠果 生誕祭～",
+    openTimeText: "17:30",
+    startTimeText: "18:30",
+  }), [event]);
+  assert.equal(result?.performances.length, 1);
+  assert.equal(result?.performances[0].venueText, "KT Zepp Yokohama");
+  assert.equal(result?.performances[0].eventTitleText, "誠果 生誕祭");
+  assert.deepEqual(result?.warnings, []);
+  assert.equal(result?.cacheable, true);
+});
+
+test("validateV2ChunkResult leaves an ordinary venue name unchanged", () => {
+  const event = {
+    ...block,
+    text: "2026年9月19日 北海道 札幌cube garden OPEN 17:00 START 17:30",
+  };
+  const result = validateV2ChunkResult(validModelResult({
+    groupTitleText: "",
+    dateText: "2026年9月19日",
+    regionText: "北海道",
+    venueText: "札幌cube garden",
+    openTimeText: "17:00",
+    startTimeText: "17:30",
+  }), [event]);
+  assert.equal(result?.performances[0].venueText, "札幌cube garden");
+  assert.equal(result?.performances[0].eventTitleText, "");
+});
+
+test("validateV2ChunkResult leaves unpaired wave dashes and parenthesized suffixes unchanged", () => {
+  for (const venueText of [
+    "KT Zepp Yokohama ～誠果 生誕祭",
+    "日本武道館（PREMIUM LIVE on Xmas）",
+  ]) {
+    const event = {
+      ...block,
+      text: `2026年12月25日 東京都 ${venueText} OPEN 17:00 START 18:00`,
+    };
+    const result = validateV2ChunkResult(validModelResult({
+      groupTitleText: "",
+      dateText: "2026年12月25日",
+      regionText: "東京都",
+      venueText,
+    }), [event]);
+    assert.equal(result?.performances[0].venueText, venueText);
+    assert.equal(result?.performances[0].eventTitleText, "");
+  }
 });
 
 test("onRequest rejects an oversized Content-Length before parsing JSON", async () => {
@@ -570,7 +629,7 @@ test("v2 invalid structured result does not trigger a second AI call", async () 
   assert.deepEqual(thinking, [false]);
   assert.deepEqual(tokenLimits, [[900, undefined]]);
   assert.equal((await response.json()).code, "invalid_ai_response");
-  assert.equal(response.headers.get("X-Live-Extract-Version"), "live-extract-worker-v2.7.1");
+  assert.equal(response.headers.get("X-Live-Extract-Version"), "live-extract-worker-v2.8.0");
 });
 
 test("v2 invalid response exposes shape diagnostics without response content", async () => {

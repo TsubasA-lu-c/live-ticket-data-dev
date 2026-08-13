@@ -47,7 +47,7 @@ type V2Block = LiveExtractV2Request["chunks"][number]["blocks"][number];
 interface V2Group { groupId: string; titleText: string; sourceBlockId?: string }
 interface V2Performance {
   sourceBlockId: string; groupId: string; dateText: string; regionText: string;
-  venueText: string; openTimeText: string; startTimeText: string; evidenceText: string;
+  venueText: string; eventTitleText: string; openTimeText: string; startTimeText: string; evidenceText: string;
 }
 interface V2Rejection { blockId: string; reason: string }
 interface V2ChunkResult {
@@ -69,9 +69,9 @@ const MAX_BLOCK_TEXT = 30_000;
 const MAX_TOTAL_BLOCK_TEXT = 500_000;
 const V2_PRIMARY_CONCURRENCY = 2;
 const CACHE_TTL_SECONDS = 24 * 60 * 60;
-const CACHE_SCHEMA_VERSION = "live-extract-v13";
-const V2_SCHEMA_VERSION = "live-extract-contract-v2.7";
-const WORKER_BUILD_VERSION = "live-extract-worker-v2.7.1";
+const CACHE_SCHEMA_VERSION = "live-extract-v14";
+const V2_SCHEMA_VERSION = "live-extract-contract-v2.8";
+const WORKER_BUILD_VERSION = "live-extract-worker-v2.8.0";
 
 const performanceSchema = {
   type: "object",
@@ -677,6 +677,24 @@ function fallbackGroupTitle(block: V2Block, blocks: V2Block[]): GroundedGroupTit
     : undefined;
 }
 
+interface SplitVenueAnnotation { venueText: string; eventTitleText: string }
+
+/**
+ * Separates an event-specific subtitle when an exact-source venue ends in a
+ * standalone, complete pair of Japanese wave-dash delimiters. Requiring a
+ * whitespace boundary and matching delimiter keeps ordinary venue names and
+ * parenthesized/bracketed venue suffixes intact.
+ */
+function splitTrailingWaveDashAnnotation(venueText: string): SplitVenueAnnotation {
+  const match = venueText.match(/^(.*\S)[\p{Zs}\t]+([〜～])([^〜～]+)\2[\p{Zs}\t]*$/u);
+  if (!match) return { venueText, eventTitleText: "" };
+  const eventTitleText = match[3].trim();
+  if (!eventTitleText || !/[\p{L}\p{N}]/u.test(eventTitleText)) {
+    return { venueText, eventTitleText: "" };
+  }
+  return { venueText: match[1], eventTitleText };
+}
+
 export function validateV2ChunkResult(value: unknown, blocks: V2Block[]): V2ChunkResult | null {
   const parsed = unwrapAIResult(value);
   if (!parsed.value || typeof parsed.value !== "object" || parsed.finishReason === "length") return null;
@@ -765,12 +783,14 @@ export function validateV2ChunkResult(value: unknown, blocks: V2Block[]): V2Chun
       groups.push({ groupId, titleText, ...(titleSourceBlockId ? { sourceBlockId: titleSourceBlockId } : {}) });
     }
     coveredBlockIds.add(blockId);
+    const venue = splitTrailingWaveDashAnnotation(groundedFields.venueText ?? "");
     performances.push({
       sourceBlockId: blockId,
       groupId,
       dateText: groundedFields.dateText ?? "",
       regionText: groundedFields.regionText ?? "",
-      venueText: groundedFields.venueText ?? "",
+      venueText: venue.venueText,
+      eventTitleText: venue.eventTitleText,
       openTimeText: groundedFields.openTimeText ?? "",
       startTimeText: groundedFields.startTimeText ?? "",
       // Date is already exact and parseable, so it is a compact deterministic
