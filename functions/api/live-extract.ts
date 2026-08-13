@@ -71,7 +71,7 @@ const V2_PRIMARY_CONCURRENCY = 2;
 const CACHE_TTL_SECONDS = 24 * 60 * 60;
 const CACHE_SCHEMA_VERSION = "live-extract-v12";
 const V2_SCHEMA_VERSION = "live-extract-contract-v2.6";
-const WORKER_BUILD_VERSION = "live-extract-worker-v2.6.1";
+const WORKER_BUILD_VERSION = "live-extract-worker-v2.6.2";
 
 const performanceSchema = {
   type: "object",
@@ -638,6 +638,19 @@ function completeGroundedTitle(
   return segment;
 }
 
+function titleLikeHeading(block: V2Block): boolean {
+  return !block.expectedEvent && /heading|title/i.test(block.type) && block.text.length <= 1_000 &&
+    /(?:LIVE|TOUR|CONCERT|FESTIVAL|FES|EVENT|ライブ|ツアー|コンサート|フェス)/iu.test(block.text) &&
+    !isParseableDate(block.text);
+}
+
+/** A single unambiguous official heading is safe deterministic fallback context. */
+function fallbackGroupTitle(block: V2Block, blocks: V2Block[]): V2Block | undefined {
+  const candidates = blocks.filter((candidate) =>
+    candidate.pageURL === block.pageURL && titleLikeHeading(candidate));
+  return candidates.length === 1 ? candidates[0] : undefined;
+}
+
 export function validateV2ChunkResult(value: unknown, blocks: V2Block[]): V2ChunkResult | null {
   const parsed = unwrapAIResult(value);
   if (!parsed.value || typeof parsed.value !== "object" || parsed.finishReason === "length") return null;
@@ -704,6 +717,13 @@ export function validateV2ChunkResult(value: unknown, blocks: V2Block[]): V2Chun
       if (!titleText) {
         warnings.push(`${blockId}: groupTitleText is not source-grounded; title cleared`);
         cacheable = false;
+      }
+    }
+    if (!titleText) {
+      const heading = fallbackGroupTitle(block, blocks);
+      if (heading) {
+        titleText = heading.text;
+        titleSourceBlockId = heading.blockId;
       }
     }
     const groupKey = stableJSON(titleText ? { titleText } : { eventBlockId: blockId });

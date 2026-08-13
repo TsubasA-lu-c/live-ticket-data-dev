@@ -206,6 +206,26 @@ test("validateV2ChunkResult completes a grounded title through its year and subt
   assert.equal(result?.groups[0].titleText, "sumika Live Tour 2026 『Flügel Letter』");
 });
 
+test("validateV2ChunkResult uses one unambiguous official heading when rows omit the title", () => {
+  const heading = {
+    ...block, blockId: "tour-title", type: "heading", expectedEvent: false,
+    text: "BREAKERZ LIVE TOUR 2026 RETURNZ -GO-",
+  };
+  const result = validateV2ChunkResult(validModelResult({ groupTitleText: "" }), [heading, block]);
+  assert.equal(result?.performances.length, 1);
+  assert.equal(result?.groups[0].titleText, "BREAKERZ LIVE TOUR 2026 RETURNZ -GO-");
+  assert.equal(result?.groups[0].sourceBlockId, "tour-title");
+});
+
+test("validateV2ChunkResult does not guess between multiple official headings", () => {
+  const headings = ["TOUR A 2026", "TOUR B 2026"].map((text, index) => ({
+    ...block, blockId: `tour-title-${index}`, type: "heading", expectedEvent: false, text,
+  }));
+  const result = validateV2ChunkResult(validModelResult({ groupTitleText: "" }), [...headings, block]);
+  assert.equal(result?.performances.length, 1);
+  assert.equal(result?.groups[0].titleText, "");
+});
+
 test("validateV2ChunkResult clears an ungrounded title without dropping the performance", () => {
   const result = validateV2ChunkResult(validModelResult({ groupTitleText: "INVENTED TOUR" }), [block]);
   assert.equal(result?.performances.length, 1);
@@ -521,7 +541,7 @@ test("v2 invalid structured result does not trigger a second AI call", async () 
   assert.deepEqual(thinking, [false]);
   assert.deepEqual(tokenLimits, [[900, undefined]]);
   assert.equal((await response.json()).code, "invalid_ai_response");
-  assert.equal(response.headers.get("X-Live-Extract-Version"), "live-extract-worker-v2.6.1");
+  assert.equal(response.headers.get("X-Live-Extract-Version"), "live-extract-worker-v2.6.2");
 });
 
 test("v2 invalid response exposes shape diagnostics without response content", async () => {
