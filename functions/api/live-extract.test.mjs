@@ -401,7 +401,32 @@ test("v2 retries an invalid schema response once with json_object on the same mo
   assert.deepEqual(formats, ["json_schema", "json_object"]);
   assert.deepEqual(models, ["@cf/google/gemma-4-26b-a4b-it", "@cf/google/gemma-4-26b-a4b-it"]);
   assert.equal(payload.performances.length, 1);
-  assert.equal(response.headers.get("X-Live-Extract-Version"), "live-extract-contract-v2.2");
+  assert.equal(response.headers.get("X-Live-Extract-Version"), "live-extract-worker-v2.2.1");
+});
+
+test("v2 invalid response exposes shape diagnostics without response content", async () => {
+  const hashSource = [block.blockId, block.pageURL, block.sectionPath.join(" > "), block.type, block.text]
+    .join("\u001f");
+  const input = request({
+    document: {
+      canonicalURL: "https://example.com/live", title: "Live", locale: "ja-JP",
+      contentHash: createHash("sha256").update(hashSource).digest("hex"),
+    },
+    forceRefresh: true,
+  });
+  const response = await onRequest({
+    request: new Request("https://worker.example/api/live-extract", {
+      method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(input),
+    }),
+    env: {
+      AI_MODEL_PRIMARY: "@cf/google/gemma-4-26b-a4b-it",
+      AI: { async run() { return { response: "private response content" }; } },
+    },
+  });
+  assert.equal(response.status, 502);
+  const diagnostic = response.headers.get("X-AI-Response-Shape") ?? "";
+  assert.match(diagnostic, /raw:object\(response\);response:string\(24\);unwrapped:null/);
+  assert.doesNotMatch(diagnostic, /private response content/);
 });
 
 test("v2 selectively retries only uncovered expected blocks with heading context", async () => {

@@ -71,6 +71,7 @@ const V2_PRIMARY_CONCURRENCY = 2;
 const CACHE_TTL_SECONDS = 24 * 60 * 60;
 const CACHE_SCHEMA_VERSION = "live-extract-v9";
 const V2_SCHEMA_VERSION = "live-extract-contract-v2.2";
+const WORKER_BUILD_VERSION = "live-extract-worker-v2.2.1";
 
 const performanceSchema = {
   type: "object",
@@ -411,6 +412,46 @@ function contentValue(value: unknown): unknown {
   return parts.length ? parts.join("") : value;
 }
 
+function valueShape(value: unknown): string {
+  if (value === null) return "null";
+  if (Array.isArray(value)) return `array(${value.length})`;
+  if (typeof value === "string") return `string(${value.length})`;
+  if (typeof value !== "object") return typeof value;
+  return `object(${Object.keys(value as Record<string, unknown>).sort().slice(0, 12).join(",")})`;
+}
+
+function aiResultShape(value: unknown): string {
+  const parts = [`raw:${valueShape(value)}`];
+  if (value && typeof value === "object" && !Array.isArray(value)) {
+    const raw = value as Record<string, unknown>;
+    if (raw.response !== undefined) parts.push(`response:${valueShape(raw.response)}`);
+    if (raw.result !== undefined) parts.push(`result:${valueShape(raw.result)}`);
+    const choice = Array.isArray(raw.choices) ? raw.choices[0] : undefined;
+    if (choice !== undefined) {
+      parts.push(`choice:${valueShape(choice)}`);
+      if (choice && typeof choice === "object") {
+        const record = choice as Record<string, unknown>;
+        parts.push(`message:${valueShape(record.message)}`);
+        if (record.message && typeof record.message === "object") {
+          const message = record.message as Record<string, unknown>;
+          parts.push(`content:${valueShape(message.content)}`);
+          parts.push(`parsed:${valueShape(message.parsed)}`);
+        }
+      }
+    }
+  }
+  const unwrapped = unwrapAIResult(value);
+  parts.push(`unwrapped:${valueShape(unwrapped.value)}`);
+  parts.push(`finish:${unwrapped.finishReason ?? "none"}`);
+  return parts.join(";").slice(0, 700);
+}
+
+function invalidAIResponse(value: unknown): Error {
+  const error = new Error("invalid_ai_response") as Error & { diagnostic?: string };
+  error.diagnostic = aiResultShape(value);
+  return error;
+}
+
 function unwrapAIResult(value: unknown): { value: unknown; usage?: unknown; finishReason?: string } {
   let usage: unknown;
   let finishReason: string | undefined;
@@ -722,7 +763,7 @@ async function runV2Chunk(
         temperature: 0,
       }, env.AI_GATEWAY_ID ? { gateway: { id: env.AI_GATEWAY_ID } } : undefined);
       const validated = validateV2ChunkResult(result, chunk.blocks);
-      if (!validated) throw new Error("invalid_ai_response");
+      if (!validated) throw invalidAIResponse(result);
       if (validated.cacheable) {
         await storeCachedResult(key, {
           groups: validated.groups.map((group) => ({ ...group, sourceBlockId: group.sourceBlockId ?? "" })),
@@ -801,7 +842,14 @@ async function onRequestV2(request: Request, env: Env, input: LiveExtractV2Reque
       return json({ code: "ai_quota_exhausted", message: "AI is temporarily unavailable", retryAt: nextUTCDate() }, 503);
     }
     if (message.includes("invalid_ai_response")) {
-      return json({ code: "invalid_ai_response", message: "Invalid AI response" }, 502);
+      const diagnostic = error && typeof error === "object" &&
+        typeof (error as Record<string, unknown>).diagnostic === "string"
+        ? (error as Record<string, string>).diagnostic : undefined;
+      return json({ code: "invalid_ai_response", message: "Invalid AI response" }, 502, {
+        "X-Live-Extract-Version": WORKER_BUILD_VERSION,
+        "X-Request-ID": input.requestId,
+        ...(diagnostic ? { "X-AI-Response-Shape": diagnostic } : {}),
+      });
     }
     return json({ code: "ai_unavailable", message: "AI is temporarily unavailable" }, 503);
   }
@@ -864,7 +912,7 @@ async function onRequestV2(request: Request, env: Env, input: LiveExtractV2Reque
     warnings, model, ...(usage.length ? { usage: { chunks: usage } } : {}),
   }, 200, {
     "X-Live-Extract-Cache": cache,
-    "X-Live-Extract-Version": V2_SCHEMA_VERSION,
+    "X-Live-Extract-Version": WORKER_BUILD_VERSION,
     "X-Request-ID": input.requestId,
   });
 }
