@@ -83,6 +83,9 @@ test("v1 normalization unwraps OpenAI choices parsed, content, and text", () => 
     { choices: [{ finish_reason: "stop", message: { parsed: validV1Result } }] },
     { choices: [{ finish_reason: "stop", message: { content: JSON.stringify(validV1Result) } }] },
     { choices: [{ finish_reason: "stop", text: JSON.stringify(validV1Result) }] },
+    { response: { choices: [{ finish_reason: "stop", message: {
+      content: [{ type: "text", text: `\`\`\`json\n${JSON.stringify(validV1Result)}\n\`\`\`` }],
+    } }] } },
   ];
   for (const envelope of envelopes) {
     assert.deepEqual(normalizeAIResult(envelope), validV1Result);
@@ -174,6 +177,19 @@ test("validateV2ChunkResult unwraps OpenAI choices message.content JSON", () => 
     choices: [{ finish_reason: "stop", message: { content: JSON.stringify(validModelResult()) } }],
   }, [block]);
   assert.equal(result?.performances.length, 1);
+});
+
+test("validateV2ChunkResult unwraps nested response choices and content parts", () => {
+  const result = validateV2ChunkResult({
+    response: {
+      choices: [{ finish_reason: "stop", message: {
+        content: [{ type: "text", text: `Here is the JSON:\n${JSON.stringify(validModelResult())}` }],
+      } }],
+      usage: { prompt_tokens: 11, completion_tokens: 21 },
+    },
+  }, [block]);
+  assert.equal(result?.performances.length, 1);
+  assert.deepEqual(result?.usage, { prompt_tokens: 11, completion_tokens: 21 });
 });
 
 test("validateV2ChunkResult treats choice finish_reason length as invalid", () => {
@@ -350,6 +366,42 @@ test("v2 invokes AI once per chunk and aggregates validated coverage", async () 
   assert.deepEqual(payload.coverage.coveredBlockIds, ["event-1", "event-2"]);
   assert.deepEqual(payload.coverage.uncoveredBlockIds, []);
   assert.equal("kind" in payload.performances[0], false);
+});
+
+test("v2 retries an invalid schema response once with json_object on the same model", async () => {
+  const hashSource = [block.blockId, block.pageURL, block.sectionPath.join(" > "), block.type, block.text]
+    .join("\u001f");
+  const input = request({
+    document: {
+      canonicalURL: "https://example.com/live", title: "Live", locale: "ja-JP",
+      contentHash: createHash("sha256").update(hashSource).digest("hex"),
+    },
+    forceRefresh: true,
+  });
+  const formats = [];
+  const models = [];
+  const response = await onRequest({
+    request: new Request("https://worker.example/api/live-extract", {
+      method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(input),
+    }),
+    env: {
+      AI_MODEL_PRIMARY: "@cf/google/gemma-4-26b-a4b-it",
+      AI: { async run(model, payload) {
+        models.push(model);
+        formats.push(payload.response_format?.type);
+        if (formats.length === 1) return { response: "not valid JSON" };
+        return { response: { choices: [{ message: {
+          content: [{ type: "text", text: JSON.stringify(validModelResult()) }],
+        }, finish_reason: "stop" }] } };
+      } },
+    },
+  });
+  const payload = await response.json();
+  assert.equal(response.status, 200);
+  assert.deepEqual(formats, ["json_schema", "json_object"]);
+  assert.deepEqual(models, ["@cf/google/gemma-4-26b-a4b-it", "@cf/google/gemma-4-26b-a4b-it"]);
+  assert.equal(payload.performances.length, 1);
+  assert.equal(response.headers.get("X-Live-Extract-Version"), "live-extract-contract-v2.2");
 });
 
 test("v2 selectively retries only uncovered expected blocks with heading context", async () => {

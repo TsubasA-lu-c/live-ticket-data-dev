@@ -69,8 +69,8 @@ const MAX_BLOCK_TEXT = 30_000;
 const MAX_TOTAL_BLOCK_TEXT = 500_000;
 const V2_PRIMARY_CONCURRENCY = 2;
 const CACHE_TTL_SECONDS = 24 * 60 * 60;
-const CACHE_SCHEMA_VERSION = "live-extract-v8";
-const V2_SCHEMA_VERSION = "live-extract-contract-v2.1";
+const CACHE_SCHEMA_VERSION = "live-extract-v9";
+const V2_SCHEMA_VERSION = "live-extract-contract-v2.2";
 
 const performanceSchema = {
   type: "object",
@@ -383,33 +383,83 @@ function v2Prompt(input: LiveExtractV2Request, blocks: V2Block[]): string {
       expectedEvent: block.expectedEvent })).join("\n");
 }
 
+function parseStructuredText(text: string): unknown {
+  const trimmed = text.trim();
+  const fenced = trimmed.match(/^```(?:json)?\s*([\s\S]*?)\s*```$/i)?.[1] ?? trimmed;
+  try { return JSON.parse(fenced); } catch {
+    // Some chat-style models prefix a short explanation even in JSON mode.
+    // Semantic validation below still rejects invented or cross-block values.
+    const start = fenced.indexOf("{");
+    const end = fenced.lastIndexOf("}");
+    if (start >= 0 && end > start) {
+      try { return JSON.parse(fenced.slice(start, end + 1)); } catch { /* invalid */ }
+    }
+    return null;
+  }
+}
+
+function contentValue(value: unknown): unknown {
+  if (!Array.isArray(value)) return value;
+  const parts = value.flatMap((item): string[] => {
+    if (typeof item === "string") return [item];
+    if (!item || typeof item !== "object") return [];
+    const record = item as Record<string, unknown>;
+    if (typeof record.text === "string") return [record.text];
+    if (typeof record.content === "string") return [record.content];
+    return [];
+  });
+  return parts.length ? parts.join("") : value;
+}
+
 function unwrapAIResult(value: unknown): { value: unknown; usage?: unknown; finishReason?: string } {
   let usage: unknown;
   let finishReason: string | undefined;
-  if (value && typeof value === "object") {
+  for (let depth = 0; depth < 8; depth += 1) {
+    if (typeof value === "string") {
+      value = parseStructuredText(value);
+      if (value === null) break;
+      continue;
+    }
+    if (Array.isArray(value)) {
+      const next = contentValue(value);
+      if (next === value) break;
+      value = next;
+      continue;
+    }
+    if (!value || typeof value !== "object") break;
     const envelope = value as Record<string, unknown>;
-    usage = envelope.usage;
-    finishReason = typeof envelope.finish_reason === "string" ? envelope.finish_reason :
+    if (usage === undefined && envelope.usage !== undefined) usage = envelope.usage;
+    const envelopeFinish = typeof envelope.finish_reason === "string" ? envelope.finish_reason :
       typeof envelope.finishReason === "string" ? envelope.finishReason : undefined;
+    if (envelopeFinish) finishReason = envelopeFinish;
     if ("response" in envelope) {
       value = envelope.response;
-    } else if (Array.isArray(envelope.choices) && envelope.choices.length > 0 &&
+      continue;
+    }
+    if ("result" in envelope && Object.keys(envelope).every((key) =>
+      ["result", "usage", "finish_reason", "finishReason"].includes(key))) {
+      value = envelope.result;
+      continue;
+    }
+    if (Array.isArray(envelope.choices) && envelope.choices.length > 0 &&
         envelope.choices[0] && typeof envelope.choices[0] === "object") {
       const choice = envelope.choices[0] as Record<string, unknown>;
-      if (!finishReason) {
-        finishReason = typeof choice.finish_reason === "string" ? choice.finish_reason :
-          typeof choice.finishReason === "string" ? choice.finishReason : undefined;
-      }
+      const choiceFinish = typeof choice.finish_reason === "string" ? choice.finish_reason :
+        typeof choice.finishReason === "string" ? choice.finishReason : undefined;
+      if (choiceFinish) finishReason = choiceFinish;
       const message = choice.message && typeof choice.message === "object"
         ? choice.message as Record<string, unknown> : undefined;
       if (message && message.parsed !== undefined) value = message.parsed;
-      else if (message && message.content !== undefined) value = message.content;
+      else if (message && message.content !== undefined) value = contentValue(message.content);
       else if (choice.text !== undefined) value = choice.text;
       else value = null;
+      continue;
     }
-  }
-  if (typeof value === "string") {
-    try { value = JSON.parse(value); } catch { value = null; }
+    if (envelope.output_text !== undefined) {
+      value = envelope.output_text;
+      continue;
+    }
+    break;
   }
   return { value, usage, finishReason };
 }
@@ -575,7 +625,7 @@ async function v2ChunkCacheRequest(
   const fingerprint = await sha256(stableJSON({
     version: V2_SCHEMA_VERSION, contractVersion: 2, extractorVersion: input.extractorVersion,
     model, modelSettings: {
-      temperature: 0, responseFormat: "json_schema",
+      temperature: 0, responseFormat: "json_schema_then_json_object",
       maxTokens: Math.min(8_000, Math.max(1_200, 700 + chunk.blocks.filter((block) => block.expectedEvent).length * 450 + chunk.blocks.length * 80)),
     },
     promptHash: await sha256(promptText), locale: input.document.locale, chunk,
@@ -660,10 +710,14 @@ async function runV2Chunk(
     try {
       const result = await env.AI.run(model, {
         messages: [
-          { role: "system", content: "本文のexact substringだけを根拠に、指定JSON Schema以外を返さないでください。" },
+          { role: "system", content: attempt === 0
+            ? "本文のexact substringだけを根拠に、指定JSON Schema以外を返さないでください。"
+            : "JSONオブジェクトだけを返してください。top-levelはgroups, performances, rejectedの3配列です。groupはgroupId,titleText,sourceBlockId、performanceはsourceBlockId,groupId,dateText,regionText,venueText,openTimeText,startTimeText,evidenceText、rejectedはblockId,reasonを持ちます。" },
           { role: "user", content: v2Prompt(input, chunk.blocks) },
         ],
-        response_format: { type: "json_schema", json_schema: v2ChunkResponseSchema },
+        response_format: attempt === 0
+          ? { type: "json_schema", json_schema: v2ChunkResponseSchema }
+          : { type: "json_object" },
         max_tokens: maxTokens,
         temperature: 0,
       }, env.AI_GATEWAY_ID ? { gateway: { id: env.AI_GATEWAY_ID } } : undefined);
@@ -808,7 +862,11 @@ async function onRequestV2(request: Request, env: Env, input: LiveExtractV2Reque
     contractVersion: 2, groups, performances,
     coverage: { expectedBlockIds, coveredBlockIds, uncoveredBlockIds, rejected: finalRejected },
     warnings, model, ...(usage.length ? { usage: { chunks: usage } } : {}),
-  }, 200, { "X-Live-Extract-Cache": cache, "X-Request-ID": input.requestId });
+  }, 200, {
+    "X-Live-Extract-Cache": cache,
+    "X-Live-Extract-Version": V2_SCHEMA_VERSION,
+    "X-Request-ID": input.requestId,
+  });
 }
 
 export async function onRequest(context: {
@@ -883,15 +941,15 @@ export async function onRequest(context: {
           messages: [
             {
               role: "system",
-              content:
-                "入力本文の文字列だけを根拠に抽出し、指定JSON Schema以外を返さないでください。",
+              content: attempt === 0
+                ? "入力本文の文字列だけを根拠に抽出し、指定JSON Schema以外を返さないでください。"
+                : "JSONオブジェクトだけを返してください。top-levelのperformances配列に、groupTitleText,dateText,regionText,venueText,openTimeText,startTimeText,kindを持つ要素を入れてください。",
             },
             { role: "user", content: prompt(input) },
           ],
-          response_format: {
-            type: "json_schema",
-            json_schema: responseSchema,
-          },
+          response_format: attempt === 0
+            ? { type: "json_schema", json_schema: responseSchema }
+            : { type: "json_object" },
           max_tokens: 8_000,
           temperature: 0,
         }, env.AI_GATEWAY_ID ? { gateway: { id: env.AI_GATEWAY_ID } } : undefined);
