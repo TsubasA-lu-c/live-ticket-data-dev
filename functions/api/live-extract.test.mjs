@@ -233,10 +233,12 @@ test("validateV2ChunkResult grounds a missing title in the event row section pat
     ...block,
     sectionPath: ["UVERworld LIVE “危ない” TOUR 2026"],
   };
-  const result = validateV2ChunkResult(validModelResult({ groupTitleText: "" }), [event]);
+  const result = validateV2ChunkResult(validModelResult({ groupTitleText: "INVENTED TOUR" }), [event]);
   assert.equal(result?.performances.length, 1);
   assert.equal(result?.groups[0].titleText, "UVERworld LIVE “危ない” TOUR 2026");
   assert.equal(result?.groups[0].sourceBlockId, undefined);
+  assert.deepEqual(result?.warnings, []);
+  assert.equal(result?.cacheable, true);
 });
 
 test("validateV2ChunkResult clears an ungrounded title without dropping the performance", () => {
@@ -568,7 +570,7 @@ test("v2 invalid structured result does not trigger a second AI call", async () 
   assert.deepEqual(thinking, [false]);
   assert.deepEqual(tokenLimits, [[900, undefined]]);
   assert.equal((await response.json()).code, "invalid_ai_response");
-  assert.equal(response.headers.get("X-Live-Extract-Version"), "live-extract-worker-v2.7.0");
+  assert.equal(response.headers.get("X-Live-Extract-Version"), "live-extract-worker-v2.7.1");
 });
 
 test("v2 invalid response exposes shape diagnostics without response content", async () => {

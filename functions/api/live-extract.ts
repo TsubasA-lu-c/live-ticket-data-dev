@@ -71,7 +71,7 @@ const V2_PRIMARY_CONCURRENCY = 2;
 const CACHE_TTL_SECONDS = 24 * 60 * 60;
 const CACHE_SCHEMA_VERSION = "live-extract-v13";
 const V2_SCHEMA_VERSION = "live-extract-contract-v2.7";
-const WORKER_BUILD_VERSION = "live-extract-worker-v2.7.0";
+const WORKER_BUILD_VERSION = "live-extract-worker-v2.7.1";
 
 const performanceSchema = {
   type: "object",
@@ -728,6 +728,7 @@ export function validateV2ChunkResult(value: unknown, blocks: V2Block[]): V2Chun
 
     let titleText = "";
     let titleSourceBlockId: string | undefined;
+    let ungroundedCandidate = false;
     const candidate = performance.groupTitleText as string;
     if (candidate) {
       // A title must be grounded in the same event block. Looking in an arbitrary nearby
@@ -740,10 +741,7 @@ export function validateV2ChunkResult(value: unknown, blocks: V2Block[]): V2Chun
         );
         titleSourceBlockId = block.blockId;
       }
-      if (!titleText) {
-        warnings.push(`${blockId}: groupTitleText is not source-grounded; title cleared`);
-        cacheable = false;
-      }
+      ungroundedCandidate = !titleText;
     }
     if (!titleText) {
       const heading = fallbackGroupTitle(block, blocks);
@@ -751,6 +749,13 @@ export function validateV2ChunkResult(value: unknown, blocks: V2Block[]): V2Chun
         titleText = heading.titleText;
         titleSourceBlockId = heading.sourceBlockId;
       }
+    }
+    // A model title that is not present in the row is harmless when the row's
+    // official DOM heading path deterministically replaces it. Warn and avoid
+    // caching only when no grounded fallback exists.
+    if (!titleText && ungroundedCandidate) {
+      warnings.push(`${blockId}: groupTitleText is not source-grounded; title cleared`);
+      cacheable = false;
     }
     const groupKey = stableJSON(titleText ? { titleText } : { eventBlockId: blockId });
     let groupId = groupIdsByKey.get(groupKey);
