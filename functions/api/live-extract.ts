@@ -69,9 +69,9 @@ const MAX_BLOCK_TEXT = 30_000;
 const MAX_TOTAL_BLOCK_TEXT = 500_000;
 const V2_PRIMARY_CONCURRENCY = 2;
 const CACHE_TTL_SECONDS = 24 * 60 * 60;
-const CACHE_SCHEMA_VERSION = "live-extract-v11";
-const V2_SCHEMA_VERSION = "live-extract-contract-v2.5";
-const WORKER_BUILD_VERSION = "live-extract-worker-v2.5.0";
+const CACHE_SCHEMA_VERSION = "live-extract-v12";
+const V2_SCHEMA_VERSION = "live-extract-contract-v2.6";
+const WORKER_BUILD_VERSION = "live-extract-worker-v2.6.0";
 
 const performanceSchema = {
   type: "object",
@@ -386,7 +386,8 @@ function v2Prompt(input: LiveExtractV2Request, blocks: V2Block[]): string {
   return `日本の公式ライブ情報を、次のブロック本文だけから抽出してください。\n` +
     `expectedEvent=trueの各event blockから公演を抽出し、sourceBlockIdを必ず維持してください。` +
     `文字列はすべてそのevent block本文のexact substringだけを返し、別ブロックの文字列を混ぜず、不明は空文字にしてください。` +
-    `groupTitleTextは日付・地域・会場・時刻・TOUR等のカテゴリを除いた公演名だけにし、公演名を特定できなければ空文字にしてください。` +
+    `groupTitleTextは公演名を年・副題・括弧書き・引用符まで省略せず、本文にある正式名のexact substringで返してください。` +
+    `行頭で日付より前に単独表示されるFES/EVENT/TOUR/LIVEだけはカテゴリなので除外しますが、公演名に含まれるLive Tour等の語は残してください。` +
     `NEWS投稿日や受付日を公演日にしません。同じsourceBlockIdを重複して返さないでください。\n` +
     `artist=${input.artistName}\nlocale=${input.document.locale}\nblocks=\n` +
     blocks.map((block) => stableJSON({ blockId: block.blockId, pageURL: block.pageURL,

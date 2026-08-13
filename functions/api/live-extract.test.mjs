@@ -504,7 +504,7 @@ test("v2 invalid structured result does not trigger a second AI call", async () 
   assert.deepEqual(thinking, [false]);
   assert.deepEqual(tokenLimits, [[900, undefined]]);
   assert.equal((await response.json()).code, "invalid_ai_response");
-  assert.equal(response.headers.get("X-Live-Extract-Version"), "live-extract-worker-v2.5.0");
+  assert.equal(response.headers.get("X-Live-Extract-Version"), "live-extract-worker-v2.6.0");
 });
 
 test("v2 invalid response exposes shape diagnostics without response content", async () => {
