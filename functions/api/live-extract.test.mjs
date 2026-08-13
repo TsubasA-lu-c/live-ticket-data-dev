@@ -401,7 +401,7 @@ test("v2 retries an invalid schema response once with json_object on the same mo
   assert.deepEqual(formats, ["json_schema", "json_object"]);
   assert.deepEqual(models, ["@cf/google/gemma-4-26b-a4b-it", "@cf/google/gemma-4-26b-a4b-it"]);
   assert.equal(payload.performances.length, 1);
-  assert.equal(response.headers.get("X-Live-Extract-Version"), "live-extract-worker-v2.2.1");
+  assert.equal(response.headers.get("X-Live-Extract-Version"), "live-extract-worker-v2.2.2");
 });
 
 test("v2 invalid response exposes shape diagnostics without response content", async () => {

@@ -71,7 +71,7 @@ const V2_PRIMARY_CONCURRENCY = 2;
 const CACHE_TTL_SECONDS = 24 * 60 * 60;
 const CACHE_SCHEMA_VERSION = "live-extract-v9";
 const V2_SCHEMA_VERSION = "live-extract-contract-v2.2";
-const WORKER_BUILD_VERSION = "live-extract-worker-v2.2.1";
+const WORKER_BUILD_VERSION = "live-extract-worker-v2.2.2";
 
 const performanceSchema = {
   type: "object",
