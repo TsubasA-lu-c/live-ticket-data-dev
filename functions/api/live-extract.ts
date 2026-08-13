@@ -70,8 +70,8 @@ const MAX_TOTAL_BLOCK_TEXT = 500_000;
 const V2_PRIMARY_CONCURRENCY = 2;
 const CACHE_TTL_SECONDS = 24 * 60 * 60;
 const CACHE_SCHEMA_VERSION = "live-extract-v9";
-const V2_SCHEMA_VERSION = "live-extract-contract-v2.2";
-const WORKER_BUILD_VERSION = "live-extract-worker-v2.2.2";
+const V2_SCHEMA_VERSION = "live-extract-contract-v2.3";
+const WORKER_BUILD_VERSION = "live-extract-worker-v2.3.0";
 
 const performanceSchema = {
   type: "object",
@@ -667,6 +667,7 @@ async function v2ChunkCacheRequest(
     version: V2_SCHEMA_VERSION, contractVersion: 2, extractorVersion: input.extractorVersion,
     model, modelSettings: {
       temperature: 0, responseFormat: "json_schema_then_json_object",
+      reasoning: "disabled_via_chat_template_kwargs",
       maxTokens: Math.min(8_000, Math.max(1_200, 700 + chunk.blocks.filter((block) => block.expectedEvent).length * 450 + chunk.blocks.length * 80)),
     },
     promptHash: await sha256(promptText), locale: input.document.locale, chunk,
@@ -759,7 +760,8 @@ async function runV2Chunk(
         response_format: attempt === 0
           ? { type: "json_schema", json_schema: v2ChunkResponseSchema }
           : { type: "json_object" },
-        max_tokens: maxTokens,
+        max_completion_tokens: maxTokens,
+        chat_template_kwargs: { enable_thinking: false },
         temperature: 0,
       }, env.AI_GATEWAY_ID ? { gateway: { id: env.AI_GATEWAY_ID } } : undefined);
       const validated = validateV2ChunkResult(result, chunk.blocks);
@@ -998,7 +1000,8 @@ export async function onRequest(context: {
           response_format: attempt === 0
             ? { type: "json_schema", json_schema: responseSchema }
             : { type: "json_object" },
-          max_tokens: 8_000,
+          max_completion_tokens: 8_000,
+          chat_template_kwargs: { enable_thinking: false },
           temperature: 0,
         }, env.AI_GATEWAY_ID ? { gateway: { id: env.AI_GATEWAY_ID } } : undefined);
         const envelope = unwrapAIResult(result);

@@ -380,6 +380,8 @@ test("v2 retries an invalid schema response once with json_object on the same mo
   });
   const formats = [];
   const models = [];
+  const thinking = [];
+  const tokenLimits = [];
   const response = await onRequest({
     request: new Request("https://worker.example/api/live-extract", {
       method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(input),
@@ -389,6 +391,8 @@ test("v2 retries an invalid schema response once with json_object on the same mo
       AI: { async run(model, payload) {
         models.push(model);
         formats.push(payload.response_format?.type);
+        thinking.push(payload.chat_template_kwargs?.enable_thinking);
+        tokenLimits.push([payload.max_completion_tokens, payload.max_tokens]);
         if (formats.length === 1) return { response: "not valid JSON" };
         return { response: { choices: [{ message: {
           content: [{ type: "text", text: JSON.stringify(validModelResult()) }],
@@ -400,8 +404,10 @@ test("v2 retries an invalid schema response once with json_object on the same mo
   assert.equal(response.status, 200);
   assert.deepEqual(formats, ["json_schema", "json_object"]);
   assert.deepEqual(models, ["@cf/google/gemma-4-26b-a4b-it", "@cf/google/gemma-4-26b-a4b-it"]);
+  assert.deepEqual(thinking, [false, false]);
+  assert.deepEqual(tokenLimits, [[1_230, undefined], [1_230, undefined]]);
   assert.equal(payload.performances.length, 1);
-  assert.equal(response.headers.get("X-Live-Extract-Version"), "live-extract-worker-v2.2.2");
+  assert.equal(response.headers.get("X-Live-Extract-Version"), "live-extract-worker-v2.3.0");
 });
 
 test("v2 invalid response exposes shape diagnostics without response content", async () => {
