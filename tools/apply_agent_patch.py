@@ -6,13 +6,14 @@ Patch format:
   "operations": [
     {"action":"merge","file":"data/artist/foo.json","collection":"performances","id":"...","changes":{...}},
     {"action":"upsert","file":"data/artist/foo.json","collection":"tours","value":{...}},
+    {"action":"delete","file":"data/artist/foo.json","collection":"lotteries","id":"..."},
     {"action":"top_merge","file":"data/artist/foo.json","changes":{...}}
   ]
 }
 
 Safety rules:
 - Only data/artist/*.json may be modified.
-- merge must match exactly one existing object by id.
+- merge/delete must match exactly one existing object by id.
 - upsert replaces an existing same-id object or appends a new one.
 - JSON is rewritten with stable pretty formatting.
 """
@@ -73,7 +74,7 @@ def main() -> int:
                 fail(f"operation #{n}: top_merge changes must be object")
             data.update(changes)
 
-        elif action in {"merge", "upsert"}:
+        elif action in {"merge", "upsert", "delete"}:
             collection = op.get("collection")
             if collection not in {"tours", "performances", "lotteries"}:
                 fail(f"operation #{n}: invalid collection {collection!r}")
@@ -91,6 +92,16 @@ def main() -> int:
                     fail(f"operation #{n}: merge target not found: {object_id}")
                 _, obj = found
                 obj.update(changes)
+
+            elif action == "delete":
+                object_id = op.get("id")
+                if not isinstance(object_id, str):
+                    fail(f"operation #{n}: delete requires id")
+                found = find_by_id(items, object_id)
+                if found is None:
+                    fail(f"operation #{n}: delete target not found: {object_id}")
+                index, _ = found
+                del items[index]
 
             else:  # upsert
                 value = op.get("value")
