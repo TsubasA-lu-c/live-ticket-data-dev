@@ -60,6 +60,26 @@
       "source": "system",
       "sourceUrl": "https://clubcitta.co.jp/schedule/1706",
       "lastVerifiedAt": "2026-08-17T23:05:00+09:00"
+    },
+    {
+      "id": "kroi_802_jungle_attack_vol11_2026",
+      "artistId": "kroi",
+      "title": "802 Jungle Attack Vol.11",
+      "startDate": "2026-10-27T00:00:00+09:00",
+      "endDate": "2026-10-27T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1Fスタンディング",
+          "amount": 6400
+        },
+        {
+          "label": "2Fスタンディング",
+          "amount": 6400
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://funky802.com/site/pickup_detail/8283",
+      "lastVerifiedAt": "2026-08-17T23:08:00+09:00"
     }
   ],
   "performances": [
@@ -206,6 +226,18 @@
       "source": "system",
       "sourceUrl": "https://clubcitta.co.jp/schedule/1706",
       "lastVerifiedAt": "2026-08-17T23:05:00+09:00"
+    },
+    {
+      "id": "kroi_802_jungle_attack_vol11_2026_osaka_1027",
+      "tourId": "kroi_802_jungle_attack_vol11_2026",
+      "venue": "GORILLA HALL OSAKA",
+      "performanceAt": "2026-10-27T19:00:00+09:00",
+      "doorOpenAt": "2026-10-27T18:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "802 Jungle Attack Vol.11 w/ザ・クロマニヨンズ",
+      "source": "system",
+      "sourceUrl": "https://funky802.com/site/pickup_detail/8283",
+      "lastVerifiedAt": "2026-08-17T23:08:00+09:00"
     }
   ],
   "lotteries": [
@@ -472,6 +504,22 @@
       "source": "system",
       "sourceUrl": "https://clubcitta.co.jp/schedule/1706",
       "lastVerifiedAt": "2026-08-17T23:05:00+09:00"
+    },
+    {
+      "id": "kroi_802_jungle_attack_vol11_2026_eplus_preorder",
+      "tourId": "kroi_802_jungle_attack_vol11_2026",
+      "type": "イープラスプレオーダー",
+      "entryStartAt": "2026-08-17T15:00:00+09:00",
+      "entryEndAt": "2026-08-30T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kroi_802_jungle_attack_vol11_2026_osaka_1027"
+      ],
+      "source": "system",
+      "sourceUrl": "https://funky802.com/site/pickup_detail/8283",
+      "lastVerifiedAt": "2026-08-17T23:08:00+09:00"
     }
   ],
   "appleMusicTracks": [
