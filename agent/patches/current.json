@@ -2,44 +2,86 @@
   "operations": [
     {
       "action": "upsert",
-      "file": "data/artist/macaroni_empitsu.json",
+      "file": "data/artist/mazzel.json",
       "collection": "tours",
       "value": {
-        "id": "macaroni_empitsu_fes_2026_numbershot",
-        "artistId": "macaroni_empitsu",
-        "title": "NUMBER SHOT 2026",
+        "id": "mazzel_gigantic_2026",
+        "artistId": "mazzel",
+        "title": "OSAKA GIGANTIC MUSIC FESTIVAL 2026",
         "startDate": "2026-08-02T00:00:00+09:00",
         "endDate": "2026-08-02T00:00:00+09:00",
-        "prices": [{"label":"単日指定席","amount":13000}],
+        "prices": null,
         "source": "system",
-        "sourceUrl": "https://macaroniempitsu.com/live/19377.html",
+        "sourceUrl": "https://mazzel.tokyo/live/5098/",
         "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
       }
     },
     {
       "action": "upsert",
-      "file": "data/artist/macaroni_empitsu.json",
+      "file": "data/artist/mazzel.json",
       "collection": "performances",
       "value": {
-        "id": "macaroni_empitsu_fes_2026_numbershot_0802",
-        "tourId": "macaroni_empitsu_fes_2026_numbershot",
-        "venue": "みずほPayPayドーム福岡 どんたくSTAGE",
-        "performanceAt": "2026-08-02T13:15:00+09:00",
-        "doorOpenAt": "2026-08-02T08:30:00+09:00",
+        "id": "mazzel_gigantic_2026_maishima_0802",
+        "tourId": "mazzel_gigantic_2026",
+        "venue": "大阪・舞洲スポーツアイランド特設会場 SUN STAGE",
+        "performanceAt": "2026-08-02T16:00:00+09:00",
+        "doorOpenAt": null,
         "kind": "fes",
-        "eventName": "NUMBER SHOT 2026",
+        "eventName": "OSAKA GIGANTIC MUSIC FESTIVAL 2026",
         "source": "system",
-        "sourceUrl": "https://numbershot.jp/2026/",
+        "sourceUrl": "https://giga-osaka.com/timetable/",
         "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
       }
     },
-    {"action":"merge","file":"data/artist/macaroni_empitsu.json","collection":"performances","id":"macaroni_empitsu_fes_2026_summersonic_0814","changes":{"venue":"ZOZOマリンスタジアム＆幕張メッセ MOUNTAIN STAGE","performanceAt":"2026-08-14T15:35:00+09:00","sourceUrl":"https://www.summersonic.com/","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
-    {"action":"merge","file":"data/artist/macaroni_empitsu.json","collection":"performances","id":"macaroni_empitsu_fes_2026_summersonic_0815","changes":{"venue":"万博記念公園 MOUNTAIN STAGE","performanceAt":"2026-08-15T16:40:00+09:00","sourceUrl":"https://www.summersonic.com/","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
-    {"action":"merge","file":"data/artist/macaroni_empitsu.json","collection":"performances","id":"macaroni_empitsu_fes_2026_wildbunch_0821","changes":{"venue":"山口きらら博記念公園 Pirates Stage","performanceAt":"2026-08-21T14:40:00+09:00","sourceUrl":"https://www.wildbunchfest.jp/","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
-    {"action":"merge","file":"data/artist/macaroni_empitsu.json","collection":"performances","id":"macaroni_empitsu_fes_2026_monsterbash_0822","changes":{"venue":"国営讃岐まんのう公園 STAGE空海","performanceAt":"2026-08-22T12:25:00+09:00","sourceUrl":"https://www.monsterbash.jp/timetable.html","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
-    {"action":"merge","file":"data/artist/macaroni_empitsu.json","collection":"performances","id":"macaroni_empitsu_fes_2026_rushball_0829","changes":{"venue":"泉大津フェニックス","performanceAt":"2026-08-29T17:00:00+09:00","sourceUrl":"https://rushball.com/timetable/","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
-    {"action":"merge","file":"data/artist/macaroni_empitsu.json","collection":"performances","id":"macaroni_empitsu_fes_2026_sweetlove_0830","changes":{"venue":"山中湖交流プラザ きらら LAKESIDE STAGE","performanceAt":"2026-08-30T15:15:00+09:00","sourceUrl":"https://2026.sweetloveshower.com/contents/timetable","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
-    {"action":"merge","file":"data/artist/macaroni_empitsu.json","collection":"performances","id":"macaroni_empitsu_fes_2026_treasure05x_0912","changes":{"venue":"蒲郡ラグーナビーチ MARS STAGE","performanceAt":"2026-09-12T18:10:00+09:00","sourceUrl":"https://treasure05x.jp/","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
-    {"action":"merge","file":"data/artist/macaroni_empitsu.json","collection":"performances","id":"macaroni_empitsu_fes_2026_rockinfjapan_0913","changes":{"venue":"千葉市蘇我スポーツ公園 GRASS STAGE","performanceAt":"2026-09-13T17:45:00+09:00","sourceUrl":"https://rijfes.jp/2026/timetable/","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}}
+    {
+      "action": "upsert",
+      "file": "data/artist/mazzel.json",
+      "collection": "tours",
+      "value": {
+        "id": "mazzel_summer_sonic_2026",
+        "artistId": "mazzel",
+        "title": "SUMMER SONIC 2026",
+        "startDate": "2026-08-15T00:00:00+09:00",
+        "endDate": "2026-08-16T00:00:00+09:00",
+        "prices": null,
+        "source": "system",
+        "sourceUrl": "https://mazzel.tokyo/live/5130/",
+        "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/mazzel.json",
+      "collection": "performances",
+      "value": {
+        "id": "mazzel_summer_sonic_2026_tokyo_0815",
+        "tourId": "mazzel_summer_sonic_2026",
+        "venue": "ZOZOマリンスタジアム＆幕張メッセ PACIFIC STAGE",
+        "performanceAt": "2026-08-15T20:45:00+09:00",
+        "doorOpenAt": null,
+        "kind": "fes",
+        "eventName": "SUMMER SONIC 2026",
+        "source": "system",
+        "sourceUrl": "https://www.summersonic.com/",
+        "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/mazzel.json",
+      "collection": "performances",
+      "value": {
+        "id": "mazzel_summer_sonic_2026_osaka_0816",
+        "tourId": "mazzel_summer_sonic_2026",
+        "venue": "万博記念公園 AIR STAGE",
+        "performanceAt": "2026-08-16T13:35:00+09:00",
+        "doorOpenAt": null,
+        "kind": "fes",
+        "eventName": "SUMMER SONIC 2026",
+        "source": "system",
+        "sourceUrl": "https://www.summersonic.com/",
+        "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
+      }
+    }
   ]
 }
