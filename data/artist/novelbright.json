@@ -39,6 +39,102 @@
       "source": "system",
       "sourceUrl": "https://novelbright.jp/news/detail/2430",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "novelbright_luckyfes_2026",
+      "artistId": "novelbright",
+      "title": "LuckyFes'26",
+      "startDate": "2026-08-08T00:00:00+09:00",
+      "endDate": "2026-08-08T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1日券 大人",
+          "amount": 14000
+        },
+        {
+          "label": "1日券 中高生",
+          "amount": 7000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://novelbright.jp/news/detail/2285",
+      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
+    },
+    {
+      "id": "novelbright_wild_bunch_2026",
+      "artistId": "novelbright",
+      "title": "WILD BUNCH FEST. 2026",
+      "startDate": "2026-08-22T00:00:00+09:00",
+      "endDate": "2026-08-22T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "8/22 1日券",
+          "amount": 13000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://novelbright.jp/schedule/detail/2372",
+      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
+    },
+    {
+      "id": "novelbright_lighters_high_2026",
+      "artistId": "novelbright",
+      "title": "NOVELCITY EDITION Novelbright結成13周年記念LIVE 「Lighter’s High」",
+      "startDate": "2026-09-13T00:00:00+09:00",
+      "endDate": "2026-09-13T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1Fスタンディング",
+          "amount": 9000
+        },
+        {
+          "label": "2F指定席",
+          "amount": 9500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://novelbright.jp/feature/LightersHigh2026",
+      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
+    },
+    {
+      "id": "novelbright_rock_in_japan_2026",
+      "artistId": "novelbright",
+      "title": "ROCK IN JAPAN FESTIVAL 2026",
+      "startDate": "2026-09-19T00:00:00+09:00",
+      "endDate": "2026-09-19T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1日券",
+          "amount": 16000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://novelbright.jp/news/detail/2418",
+      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
+    },
+    {
+      "id": "novelbright_fest_inazuma_2026",
+      "artistId": "novelbright",
+      "title": "FEST. INAZUMA 2026",
+      "startDate": "2026-09-21T00:00:00+09:00",
+      "endDate": "2026-09-21T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "GA 21日券",
+          "amount": 15000
+        },
+        {
+          "label": "VIP 21日券",
+          "amount": 33000
+        },
+        {
+          "label": "VVIP 21日券",
+          "amount": 38000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://novelbright.jp/news/detail/2389",
+      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
     }
   ],
   "performances": [
@@ -286,49 +382,49 @@
       "id": "novelbright_pyramid_2026_chiba_0807",
       "tourId": "novelbright_pyramid_2026",
       "venue": "市川市文化会館",
-      "performanceAt": "2026-08-07T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-08-07T18:30:00+09:00",
+      "doorOpenAt": "2026-08-07T17:30:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
     },
     {
       "id": "novelbright_pyramid_2026_aichi_0810",
       "tourId": "novelbright_pyramid_2026",
       "venue": "愛知県芸術劇場",
-      "performanceAt": "2026-08-10T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-08-10T18:30:00+09:00",
+      "doorOpenAt": "2026-08-10T17:30:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
     },
     {
       "id": "novelbright_pyramid_2026_aichi_0811",
       "tourId": "novelbright_pyramid_2026",
       "venue": "愛知県芸術劇場",
-      "performanceAt": "2026-08-11T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-08-11T17:00:00+09:00",
+      "doorOpenAt": "2026-08-11T16:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
     },
     {
       "id": "novelbright_pyramid_2026_niigata_0815",
       "tourId": "novelbright_pyramid_2026",
       "venue": "新潟県民会館",
       "performanceAt": "2026-08-15T18:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-08-15T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
     },
     {
       "id": "novelbright_pyramid_2026_hyogo_0926",
@@ -461,6 +557,66 @@
       "source": "system",
       "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
       "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+    },
+    {
+      "id": "novelbright_luckyfes_2026_hitachinaka_0808",
+      "tourId": "novelbright_luckyfes_2026",
+      "venue": "国営ひたち海浜公園 WING STAGE",
+      "performanceAt": "2026-08-08T17:05:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "LuckyFes'26",
+      "source": "system",
+      "sourceUrl": "https://luckyfes.com/artists/Novelbright",
+      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
+    },
+    {
+      "id": "novelbright_wild_bunch_2026_yamaguchi_0822",
+      "tourId": "novelbright_wild_bunch_2026",
+      "venue": "山口きらら博記念公園",
+      "performanceAt": "2026-08-22T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "WILD BUNCH FEST. 2026",
+      "source": "system",
+      "sourceUrl": "https://novelbright.jp/schedule/detail/2372",
+      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
+    },
+    {
+      "id": "novelbright_lighters_high_2026_zepp_haneda_0913",
+      "tourId": "novelbright_lighters_high_2026",
+      "venue": "Zepp Haneda(TOKYO)",
+      "performanceAt": "2026-09-13T17:00:00+09:00",
+      "doorOpenAt": "2026-09-13T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "NOVELCITY EDITION Novelbright結成13周年記念LIVE 「Lighter’s High」",
+      "source": "system",
+      "sourceUrl": "https://novelbright.jp/feature/LightersHigh2026",
+      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
+    },
+    {
+      "id": "novelbright_rock_in_japan_2026_soga_0919",
+      "tourId": "novelbright_rock_in_japan_2026",
+      "venue": "千葉市蘇我スポーツ公園",
+      "performanceAt": "2026-09-19T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "ROCK IN JAPAN FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://novelbright.jp/news/detail/2418",
+      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
+    },
+    {
+      "id": "novelbright_fest_inazuma_2026_kusatsu_0921",
+      "tourId": "novelbright_fest_inazuma_2026",
+      "venue": "滋賀県草津市 烏丸半島芝生広場",
+      "performanceAt": "2026-09-21T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "FEST. INAZUMA 2026",
+      "source": "system",
+      "sourceUrl": "https://novelbright.jp/news/detail/2389",
+      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
     }
   ],
   "lotteries": [
@@ -594,6 +750,70 @@
       "source": "system",
       "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
       "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+    },
+    {
+      "id": "novelbright_wild_bunch_2026_general",
+      "tourId": "novelbright_wild_bunch_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-07-18T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "novelbright_wild_bunch_2026_yamaguchi_0822"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.wildbunchfest.jp/2026/",
+      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
+    },
+    {
+      "id": "novelbright_lighters_high_2026_novelcity_longterm",
+      "tourId": "novelbright_lighters_high_2026",
+      "type": "NOVELCITY長期継続会員抽選先行",
+      "entryStartAt": "2026-07-14T18:00:00+09:00",
+      "entryEndAt": "2026-07-19T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "novelbright_lighters_high_2026_zepp_haneda_0913"
+      ],
+      "source": "system",
+      "sourceUrl": "https://novelbright.jp/news/detail/2443",
+      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
+    },
+    {
+      "id": "novelbright_lighters_high_2026_novelcity",
+      "tourId": "novelbright_lighters_high_2026",
+      "type": "NOVELCITY会員抽選先行",
+      "entryStartAt": "2026-07-25T18:00:00+09:00",
+      "entryEndAt": "2026-07-30T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "novelbright_lighters_high_2026_zepp_haneda_0913"
+      ],
+      "source": "system",
+      "sourceUrl": "https://novelbright.jp/news/detail/2448",
+      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
+    },
+    {
+      "id": "novelbright_fest_inazuma_2026_5th",
+      "tourId": "novelbright_fest_inazuma_2026",
+      "type": "チケット5次先行",
+      "entryStartAt": "2026-07-27T00:00:00+09:00",
+      "entryEndAt": "2026-08-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "novelbright_fest_inazuma_2026_kusatsu_0921"
+      ],
+      "source": "system",
+      "sourceUrl": "https://fest-inazuma.com/2026/cms/news/81/",
+      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
     }
   ],
   "appleMusicTracks": [

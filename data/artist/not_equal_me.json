@@ -44,6 +44,73 @@
       "source": "system",
       "sourceUrl": "https://not-equal-me.jp/news/detail/7490",
       "lastVerifiedAt": "2026-08-17T23:55:00+09:00"
+    },
+    {
+      "id": "not_equal_me_tif_2026",
+      "artistId": "not_equal_me",
+      "title": "TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック",
+      "startDate": "2026-08-01T00:00:00+09:00",
+      "endDate": "2026-08-01T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "通常チケット 単日券（先行）",
+          "amount": 10500
+        },
+        {
+          "label": "Tシャツ付きチケット 単日券（先行）",
+          "amount": 13000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/news/detail/7377",
+      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
+    },
+    {
+      "id": "not_equal_me_luckyfes_2026",
+      "artistId": "not_equal_me",
+      "title": "LuckyFes’26",
+      "startDate": "2026-08-08T00:00:00+09:00",
+      "endDate": "2026-08-08T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1日券 大人",
+          "amount": 14000
+        },
+        {
+          "label": "1日券 中高生",
+          "amount": 7000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/schedule/detail/7256",
+      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
+    },
+    {
+      "id": "not_equal_me_noimi_station_2026",
+      "artistId": "not_equal_me",
+      "title": "「ノイミーステーション」公開収録＆ミニLIVE2026 ～ ≠MEと過ごす6度目の夏！ in 大阪 那須車掌もいるよSP ～",
+      "startDate": "2026-08-16T00:00:00+09:00",
+      "endDate": "2026-08-16T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/schedule/detail/7525",
+      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
+    },
+    {
+      "id": "not_equal_me_after_game_2026",
+      "artistId": "not_equal_me",
+      "title": "AFTER GAME",
+      "startDate": "2026-08-30T00:00:00+09:00",
+      "endDate": "2026-08-30T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "アリーナチケットオプション",
+          "amount": 3000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/schedule/detail/7450",
+      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
     }
   ],
   "performances": [
@@ -106,6 +173,66 @@
       "source": "system",
       "sourceUrl": "https://not-equal-me.jp/news/detail/7490",
       "lastVerifiedAt": "2026-08-17T23:55:00+09:00"
+    },
+    {
+      "id": "not_equal_me_tif_2026_odaiba_0801",
+      "tourId": "not_equal_me_tif_2026",
+      "venue": "お台場・青海周辺エリア",
+      "performanceAt": "2026-08-01T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック",
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/schedule/",
+      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
+    },
+    {
+      "id": "not_equal_me_luckyfes_2026_hitachinaka_0808",
+      "tourId": "not_equal_me_luckyfes_2026",
+      "venue": "国営ひたち海浜公園 RAINBOW STAGE",
+      "performanceAt": "2026-08-08T14:50:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "LuckyFes’26",
+      "source": "system",
+      "sourceUrl": "https://luckyfes.com/artists/%E2%89%A0ME",
+      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
+    },
+    {
+      "id": "not_equal_me_noimi_station_2026_osaka_0816_day",
+      "tourId": "not_equal_me_noimi_station_2026",
+      "venue": "SkyシアターMBS",
+      "performanceAt": "2026-08-16T14:00:00+09:00",
+      "doorOpenAt": "2026-08-16T13:15:00+09:00",
+      "kind": "oneman",
+      "eventName": "「ノイミーステーション」公開収録＆ミニLIVE2026 ～ ≠MEと過ごす6度目の夏！ in 大阪 那須車掌もいるよSP ～",
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/schedule/detail/7525",
+      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
+    },
+    {
+      "id": "not_equal_me_noimi_station_2026_osaka_0816_night",
+      "tourId": "not_equal_me_noimi_station_2026",
+      "venue": "SkyシアターMBS",
+      "performanceAt": "2026-08-16T17:30:00+09:00",
+      "doorOpenAt": "2026-08-16T16:45:00+09:00",
+      "kind": "oneman",
+      "eventName": "「ノイミーステーション」公開収録＆ミニLIVE2026 ～ ≠MEと過ごす6度目の夏！ in 大阪 那須車掌もいるよSP ～",
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/schedule/detail/7525",
+      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
+    },
+    {
+      "id": "not_equal_me_after_game_2026_escon_0830",
+      "tourId": "not_equal_me_after_game_2026",
+      "venue": "エスコンフィールドHOKKAIDO",
+      "performanceAt": "2026-08-30T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "AFTER GAME",
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/schedule/detail/7450",
+      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
     }
   ],
   "lotteries": [
@@ -172,6 +299,22 @@
       "source": "system",
       "sourceUrl": "https://not-equal-me.jp/news/detail/7490",
       "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+    },
+    {
+      "id": "not_equal_me_after_game_2026_arena_option",
+      "tourId": "not_equal_me_after_game_2026",
+      "type": "アリーナチケットオプション（先着）",
+      "entryStartAt": "2026-06-14T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "not_equal_me_after_game_2026_escon_0830"
+      ],
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/schedule/detail/7450",
+      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
     }
   ],
   "appleMusicTracks": [

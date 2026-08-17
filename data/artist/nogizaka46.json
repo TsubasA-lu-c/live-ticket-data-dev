@@ -597,6 +597,25 @@
       "source": "system",
       "sourceUrl": "https://l-tike.com/st1/kyomaf260920",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_manatsu_2026_tokyo_resale",
+      "tourId": "nogizaka46_manatsu_2026",
+      "type": "公式リセール（東京公演・抽選）",
+      "entryStartAt": "2026-08-09T12:00:00+09:00",
+      "entryEndAt": "2026-08-11T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nogizaka46_manatsu_2026_tokyo_0820",
+        "nogizaka46_manatsu_2026_tokyo_0821",
+        "nogizaka46_manatsu_2026_tokyo_0822",
+        "nogizaka46_manatsu_2026_tokyo_0823"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102130",
+      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
     }
   ],
   "appleMusicTracks": [
