@@ -121,6 +121,22 @@
       "source": "system",
       "sourceUrl": "https://www.04limitedsazabys.com/news/detail/2353",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_yon_town_8th_2026",
+      "artistId": "04_limited_sazabys",
+      "title": "YON TOWN 8th Anniversary 〜真夏の町民女祭り・男祭り〜",
+      "startDate": "2026-08-08T00:00:00+09:00",
+      "endDate": "2026-08-08T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全券種",
+          "amount": 5555
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/feature/yontownlive2026",
+      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
     }
   ],
   "performances": [
@@ -331,26 +347,26 @@
     {
       "id": "04_limited_sazabys_fes_2026_summer_wild_bunch_0821",
       "tourId": "04_limited_sazabys_fes_2026_summer",
-      "venue": "山口きらら博記念公園",
-      "performanceAt": "2026-08-21T11:30:00+09:00",
+      "venue": "山口きらら博記念公園 Bandits Stage",
+      "performanceAt": "2026-08-21T13:50:00+09:00",
       "doorOpenAt": "2026-08-21T10:00:00+09:00",
       "kind": "fes",
       "eventName": "WILD BUNCH FEST. 2026",
       "source": "system",
-      "sourceUrl": "https://www.04limitedsazabys.com/news/detail/2323",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "sourceUrl": "https://www.wildbunchfest.jp/time-table/",
+      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
     },
     {
       "id": "04_limited_sazabys_fes_2026_summer_monster_bash_0822",
       "tourId": "04_limited_sazabys_fes_2026_summer",
-      "venue": "国営讃岐まんのう公園",
-      "performanceAt": "2026-08-22T11:00:00+09:00",
+      "venue": "国営讃岐まんのう公園 STAGE空海",
+      "performanceAt": "2026-08-22T16:40:00+09:00",
       "doorOpenAt": "2026-08-22T09:00:00+09:00",
       "kind": "fes",
       "eventName": "MONSTER baSH 2026",
       "source": "system",
-      "sourceUrl": "https://www.04limitedsazabys.com/news/detail/2328",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "sourceUrl": "https://www.monsterbash.jp/timetable.html",
+      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
     },
     {
       "id": "04_limited_sazabys_fes_2026_summer_sweet_love_shower_0828",
@@ -519,6 +535,30 @@
       "source": "system",
       "sourceUrl": "https://www.04limitedsazabys.com/news/detail/2353",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_yon_town_8th_2026_female_0808",
+      "tourId": "04_limited_sazabys_yon_town_8th_2026",
+      "venue": "COMTEC PORTBASE",
+      "performanceAt": "2026-08-08T15:30:00+09:00",
+      "doorOpenAt": "2026-08-08T14:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "YON TOWN 8th Anniversary 〜真夏の町民女祭り〜",
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/feature/yontownlive2026",
+      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_yon_town_8th_2026_male_0808",
+      "tourId": "04_limited_sazabys_yon_town_8th_2026",
+      "venue": "COMTEC PORTBASE",
+      "performanceAt": "2026-08-08T19:00:00+09:00",
+      "doorOpenAt": "2026-08-08T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "YON TOWN 8th Anniversary 〜真夏の町民男祭り〜",
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/feature/yontownlive2026",
+      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
     }
   ],
   "lotteries": [
@@ -639,6 +679,74 @@
       "source": "system",
       "sourceUrl": "https://newhorizon.sammy.co.jp/2026/nhf/ticket/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_yon_town_8th_2026_longterm",
+      "tourId": "04_limited_sazabys_yon_town_8th_2026",
+      "type": "YON TOWN長期会員先行",
+      "entryStartAt": "2026-07-03T20:00:00+09:00",
+      "entryEndAt": "2026-07-05T23:59:00+09:00",
+      "resultAt": "2026-07-09T18:00:00+09:00",
+      "paymentStartAt": "2026-07-09T18:00:00+09:00",
+      "paymentEndAt": "2026-07-12T23:59:00+09:00",
+      "performanceIds": [
+        "04_limited_sazabys_yon_town_8th_2026_female_0808",
+        "04_limited_sazabys_yon_town_8th_2026_male_0808"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/feature/yontownlive2026",
+      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_yon_town_8th_2026_1st",
+      "tourId": "04_limited_sazabys_yon_town_8th_2026",
+      "type": "YON TOWN通常会員1次受付",
+      "entryStartAt": "2026-07-09T18:00:00+09:00",
+      "entryEndAt": "2026-07-12T23:59:00+09:00",
+      "resultAt": "2026-07-16T18:00:00+09:00",
+      "paymentStartAt": "2026-07-16T18:00:00+09:00",
+      "paymentEndAt": "2026-07-19T23:59:00+09:00",
+      "performanceIds": [
+        "04_limited_sazabys_yon_town_8th_2026_female_0808",
+        "04_limited_sazabys_yon_town_8th_2026_male_0808"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/feature/yontownlive2026",
+      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_yon_town_8th_2026_2nd",
+      "tourId": "04_limited_sazabys_yon_town_8th_2026",
+      "type": "YON TOWN通常会員2次受付",
+      "entryStartAt": "2026-07-16T18:00:00+09:00",
+      "entryEndAt": "2026-07-19T23:59:00+09:00",
+      "resultAt": "2026-07-23T18:00:00+09:00",
+      "paymentStartAt": "2026-07-23T18:00:00+09:00",
+      "paymentEndAt": "2026-07-26T23:59:00+09:00",
+      "performanceIds": [
+        "04_limited_sazabys_yon_town_8th_2026_female_0808",
+        "04_limited_sazabys_yon_town_8th_2026_male_0808"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/feature/yontownlive2026",
+      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_yon_town_8th_2026_final",
+      "tourId": "04_limited_sazabys_yon_town_8th_2026",
+      "type": "YON TOWN通常会員最終受付（先着・予定枚数終了まで）",
+      "entryStartAt": "2026-07-27T18:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "04_limited_sazabys_yon_town_8th_2026_female_0808",
+        "04_limited_sazabys_yon_town_8th_2026_male_0808"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/feature/yontownlive2026",
+      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
     }
   ],
   "appleMusicTracks": [

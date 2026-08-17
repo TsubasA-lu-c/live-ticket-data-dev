@@ -16,6 +16,33 @@
       "source": "system",
       "sourceUrl": "https://starto.jp/s/p/live/10545",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ae_group_qa_wangan_2026",
+      "artistId": "ae_group",
+      "title": "Aぇ! groupのQ＆Aぇ! presents 視聴者からの“Q” & 時間が許す限り“Aぇ!”",
+      "startDate": "2026-08-06T00:00:00+09:00",
+      "endDate": "2026-08-06T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "オールスタンディング",
+          "amount": 7000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.fujitv.co.jp/wanganfes/",
+      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
+    },
+    {
+      "id": "ae_group_xmf_2026",
+      "artistId": "ae_group",
+      "title": "Xnterstellar Music Festival 2026",
+      "startDate": "2026-10-04T00:00:00+09:00",
+      "endDate": "2026-10-04T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://xmfestival.com/",
+      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
     }
   ],
   "performances": [
@@ -42,6 +69,30 @@
       "source": "system",
       "sourceUrl": "https://starto.jp/s/p/live/10545",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ae_group_qa_wangan_2026_toyosu_0806",
+      "tourId": "ae_group_qa_wangan_2026",
+      "venue": "豊洲PIT",
+      "performanceAt": "2026-08-06T11:00:00+09:00",
+      "doorOpenAt": "2026-08-06T10:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "Aぇ! groupのQ＆Aぇ! presents 視聴者からの“Q” & 時間が許す限り“Aぇ!”",
+      "source": "system",
+      "sourceUrl": "https://www.fujitv.co.jp/wanganfes/",
+      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
+    },
+    {
+      "id": "ae_group_xmf_2026_incheon_1004",
+      "tourId": "ae_group_xmf_2026",
+      "venue": "韓国・仁川",
+      "performanceAt": "2026-10-04T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "Xnterstellar Music Festival 2026",
+      "source": "system",
+      "sourceUrl": "https://xmfestival.com/",
+      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
     }
   ],
   "lotteries": [
@@ -61,6 +112,38 @@
       "source": "system",
       "sourceUrl": "https://starto.jp/s/p/live/10545",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ae_group_qa_wangan_2026_general",
+      "tourId": "ae_group_qa_wangan_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-07-30T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ae_group_qa_wangan_2026_toyosu_0806"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.fujitv.co.jp/wanganfes/",
+      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
+    },
+    {
+      "id": "ae_group_xmf_2026_general",
+      "tourId": "ae_group_xmf_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-08-03T14:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ae_group_xmf_2026_incheon_1004"
+      ],
+      "source": "system",
+      "sourceUrl": "https://xmfestival.com/",
+      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
     }
   ],
   "appleMusicTracks": [
