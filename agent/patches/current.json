@@ -2,93 +2,261 @@
   "operations": [
     {
       "action": "merge",
-      "file": "data/artist/macaroni_empitsu.json",
+      "file": "data/artist/mrs_green_apple.json",
       "collection": "tours",
-      "id": "macaroni_empitsu_fes_2026_murffin",
+      "id": "mrs_green_apple_ringojam_shadows_2026",
+      "changes": {
+        "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
+        "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+      }
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/mrs_green_apple.json",
+      "collection": "performances",
+      "id": "mrs_green_apple_ringojam_shadows_2026_kagawa_0930",
+      "changes": {"performanceAt":"2026-09-30T18:00:00+09:00","doorOpenAt":"2026-09-30T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/mrs_green_apple.json",
+      "collection": "performances",
+      "id": "mrs_green_apple_ringojam_shadows_2026_kagawa_1001",
+      "changes": {"performanceAt":"2026-10-01T18:00:00+09:00","doorOpenAt":"2026-10-01T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/mrs_green_apple.json",
+      "collection": "performances",
+      "id": "mrs_green_apple_ringojam_shadows_2026_hiroshima_1006",
+      "changes": {"performanceAt":"2026-10-06T18:00:00+09:00","doorOpenAt":"2026-10-06T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/mrs_green_apple.json",
+      "collection": "performances",
+      "id": "mrs_green_apple_ringojam_shadows_2026_hiroshima_1007",
+      "changes": {"performanceAt":"2026-10-07T18:00:00+09:00","doorOpenAt":"2026-10-07T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/mrs_green_apple.json",
+      "collection": "performances",
+      "id": "mrs_green_apple_ringojam_shadows_2026_chiba_1014",
+      "changes": {"performanceAt":"2026-10-14T18:00:00+09:00","doorOpenAt":"2026-10-14T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/mrs_green_apple.json",
+      "collection": "performances",
+      "id": "mrs_green_apple_ringojam_shadows_2026_chiba_1015",
+      "changes": {"performanceAt":"2026-10-15T18:00:00+09:00","doorOpenAt":"2026-10-15T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/mrs_green_apple.json",
+      "collection": "performances",
+      "id": "mrs_green_apple_ringojam_shadows_2026_hokkaido_1023",
+      "changes": {"performanceAt":"2026-10-23T18:00:00+09:00","doorOpenAt":"2026-10-23T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/mrs_green_apple.json",
+      "collection": "performances",
+      "id": "mrs_green_apple_ringojam_shadows_2026_hokkaido_1024",
+      "changes": {"performanceAt":"2026-10-24T17:00:00+09:00","doorOpenAt":"2026-10-24T16:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/mrs_green_apple.json",
+      "collection": "performances",
+      "id": "mrs_green_apple_ringojam_shadows_2026_tokyo_1028",
+      "changes": {"performanceAt":"2026-10-28T18:00:00+09:00","doorOpenAt":"2026-10-28T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/mrs_green_apple.json",
+      "collection": "performances",
+      "id": "mrs_green_apple_ringojam_shadows_2026_tokyo_1029",
+      "changes": {"performanceAt":"2026-10-29T18:00:00+09:00","doorOpenAt":"2026-10-29T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/mrs_green_apple.json",
+      "collection": "performances",
+      "id": "mrs_green_apple_ringojam_shadows_2026_saga_1104",
+      "changes": {"performanceAt":"2026-11-04T18:00:00+09:00","doorOpenAt":"2026-11-04T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/mrs_green_apple.json",
+      "collection": "performances",
+      "id": "mrs_green_apple_ringojam_shadows_2026_saga_1105",
+      "changes": {"performanceAt":"2026-11-05T18:00:00+09:00","doorOpenAt":"2026-11-05T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/mrs_green_apple.json",
+      "collection": "performances",
+      "id": "mrs_green_apple_ringojam_shadows_2026_fukui_1113",
+      "changes": {"performanceAt":"2026-11-13T18:00:00+09:00","doorOpenAt":"2026-11-13T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/mrs_green_apple.json",
+      "collection": "performances",
+      "id": "mrs_green_apple_ringojam_shadows_2026_fukui_1114",
+      "changes": {"performanceAt":"2026-11-14T17:00:00+09:00","doorOpenAt":"2026-11-14T16:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/mrs_green_apple.json",
+      "collection": "performances",
+      "id": "mrs_green_apple_ringojam_shadows_2026_nagano_1118",
+      "changes": {"performanceAt":"2026-11-18T18:00:00+09:00","doorOpenAt":"2026-11-18T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/mrs_green_apple.json",
+      "collection": "performances",
+      "id": "mrs_green_apple_ringojam_shadows_2026_nagano_1119",
+      "changes": {"performanceAt":"2026-11-19T18:00:00+09:00","doorOpenAt":"2026-11-19T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/mrs_green_apple.json",
+      "collection": "performances",
+      "id": "mrs_green_apple_ringojam_shadows_2026_chiba2_1128",
+      "changes": {"performanceAt":"2026-11-28T17:00:00+09:00","doorOpenAt":"2026-11-28T16:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/mrs_green_apple.json",
+      "collection": "performances",
+      "id": "mrs_green_apple_ringojam_shadows_2026_chiba2_1129",
+      "changes": {"performanceAt":"2026-11-29T17:00:00+09:00","doorOpenAt":"2026-11-29T16:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/mrs_green_apple.json",
+      "collection": "performances",
+      "id": "mrs_green_apple_ringojam_shadows_2026_hyogo_1202",
+      "changes": {"performanceAt":"2026-12-02T18:00:00+09:00","doorOpenAt":"2026-12-02T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/mrs_green_apple.json",
+      "collection": "performances",
+      "id": "mrs_green_apple_ringojam_shadows_2026_hyogo_1203",
+      "changes": {"performanceAt":"2026-12-03T18:00:00+09:00","doorOpenAt":"2026-12-03T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/mrs_green_apple.json",
+      "collection": "performances",
+      "id": "mrs_green_apple_ringojam_shadows_2026_fukuoka_1209",
+      "changes": {"performanceAt":"2026-12-09T18:00:00+09:00","doorOpenAt":"2026-12-09T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/mrs_green_apple.json",
+      "collection": "performances",
+      "id": "mrs_green_apple_ringojam_shadows_2026_fukuoka_1210",
+      "changes": {"performanceAt":"2026-12-10T18:00:00+09:00","doorOpenAt":"2026-12-10T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/mrs_green_apple.json",
+      "collection": "performances",
+      "id": "mrs_green_apple_ringojam_shadows_2026_miyagi_1215",
+      "changes": {"performanceAt":"2026-12-15T18:00:00+09:00","doorOpenAt":"2026-12-15T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/mrs_green_apple.json",
+      "collection": "performances",
+      "id": "mrs_green_apple_ringojam_shadows_2026_miyagi_1216",
+      "changes": {"performanceAt":"2026-12-16T18:00:00+09:00","doorOpenAt":"2026-12-16T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/mrs_green_apple.json",
+      "collection": "performances",
+      "id": "mrs_green_apple_ringojam_shadows_2026_kanagawa_1219",
+      "changes": {"performanceAt":"2026-12-19T17:00:00+09:00","doorOpenAt":"2026-12-19T16:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/mrs_green_apple.json",
+      "collection": "performances",
+      "id": "mrs_green_apple_ringojam_shadows_2026_kanagawa_1220",
+      "changes": {"performanceAt":"2026-12-20T17:00:00+09:00","doorOpenAt":"2026-12-20T16:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/mrs_green_apple.json",
+      "collection": "performances",
+      "id": "mrs_green_apple_ringojam_shadows_2026_aichi_1227",
+      "changes": {"performanceAt":"2026-12-27T17:00:00+09:00","doorOpenAt":"2026-12-27T16:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/mrs_green_apple.json",
+      "collection": "performances",
+      "id": "mrs_green_apple_ringojam_shadows_2026_aichi_1228",
+      "changes": {"performanceAt":"2026-12-28T18:00:00+09:00","doorOpenAt":"2026-12-28T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/monaki.json",
+      "collection": "tours",
+      "id": "monaki_1st_tour_2026",
       "changes": {
         "prices": [
-          {"label": "指定席", "amount": 12000},
-          {"label": "車椅子席", "amount": 12000}
+          {"label":"1階スタンディング","amount":6600},
+          {"label":"2階後方立見（愛知・東京のみ）","amount":6600},
+          {"label":"2階指定","amount":7700}
         ],
-        "sourceUrl": "https://macaroniempitsu.com/live/19510.html",
-        "lastVerifiedAt": "2026-08-17T23:32:00+09:00"
-      }
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/macaroni_empitsu.json",
-      "collection": "performances",
-      "id": "macaroni_empitsu_fes_2026_murffin_1018",
-      "changes": {
-        "venue": "国立代々木競技場 第一体育館",
-        "performanceAt": "2026-10-18T14:30:00+09:00",
-        "doorOpenAt": "2026-10-18T14:00:00+09:00",
-        "sourceUrl": "https://macaroniempitsu.com/live/19510.html",
-        "lastVerifiedAt": "2026-08-17T23:32:00+09:00"
+        "sourceUrl": "https://monaki.jp/news/detail/84264",
+        "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
       }
     },
     {
       "action": "upsert",
-      "file": "data/artist/macaroni_empitsu.json",
+      "file": "data/artist/monaki.json",
       "collection": "lotteries",
       "value": {
-        "id": "macaroni_empitsu_fes_2026_murffin_general",
-        "tourId": "macaroni_empitsu_fes_2026_murffin",
-        "type": "一般発売（先着）",
-        "entryStartAt": "2026-05-16T12:00:00+09:00",
-        "entryEndAt": null,
-        "resultAt": null,
+        "id": "monaki_1st_tour_2026_pia_presale_1",
+        "tourId": "monaki_1st_tour_2026",
+        "type": "チケットぴあ プレリザーブ（抽選）",
+        "entryStartAt": "2026-06-11T11:00:00+09:00",
+        "entryEndAt": "2026-06-21T23:59:00+09:00",
+        "resultAt": "2026-06-24T18:00:00+09:00",
         "paymentStartAt": null,
         "paymentEndAt": null,
-        "performanceIds": ["macaroni_empitsu_fes_2026_murffin_1018"],
+        "performanceIds": ["monaki_1st_tour_2026_zeppnamba_0818","monaki_1st_tour_2026_zeppnagoya_0819","monaki_1st_tour_2026_zepphaneda_0824"],
         "source": "system",
-        "sourceUrl": "https://macaroniempitsu.com/live/19510.html",
-        "lastVerifiedAt": "2026-08-17T23:32:00+09:00"
-      }
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/mazzel.json",
-      "collection": "performances",
-      "id": "mazzel_asuto_music_park_2026_0905",
-      "changes": {
-        "performanceAt": "2026-09-05T16:10:00+09:00",
-        "sourceUrl": "https://asutomusicpark.com/",
-        "lastVerifiedAt": "2026-08-17T23:32:00+09:00"
-      }
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/mazzel.json",
-      "collection": "performances",
-      "id": "mazzel_cdtv_autumn_2026_0913",
-      "changes": {
-        "performanceAt": "2026-09-13T16:00:00+09:00",
-        "doorOpenAt": "2026-09-13T14:30:00+09:00",
-        "sourceUrl": "https://www.tbs.co.jp/cdtv_livelive/articles/20260706.html",
-        "lastVerifiedAt": "2026-08-17T23:32:00+09:00"
+        "sourceUrl": "https://monaki.jp/news/detail/81576",
+        "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
       }
     },
     {
       "action": "upsert",
-      "file": "data/artist/miura_daichi.json",
+      "file": "data/artist/monaki.json",
       "collection": "lotteries",
       "value": {
-        "id": "miura_daichi_raw_bare_2026_bea_1st",
-        "tourId": "miura_daichi_raw_bare_2026",
-        "type": "BEA WEB 1次先行（抽選）",
-        "entryStartAt": "2026-08-22T18:00:00+09:00",
-        "entryEndAt": "2026-09-02T23:59:00+09:00",
-        "resultAt": null,
+        "id": "monaki_1st_tour_2026_pia_presale_2",
+        "tourId": "monaki_1st_tour_2026",
+        "type": "チケットぴあ プレリザーブ2次（抽選）",
+        "entryStartAt": "2026-06-24T18:00:00+09:00",
+        "entryEndAt": "2026-07-01T23:59:00+09:00",
+        "resultAt": "2026-07-04T18:00:00+09:00",
         "paymentStartAt": null,
         "paymentEndAt": null,
-        "performanceIds": [
-          "miura_daichi_raw_bare_2026_fukuoka_1127",
-          "miura_daichi_raw_bare_2026_kumamoto_1129"
-        ],
+        "performanceIds": ["monaki_1st_tour_2026_zeppnamba_0818","monaki_1st_tour_2026_zeppnagoya_0819","monaki_1st_tour_2026_zepphaneda_0824"],
         "source": "system",
-        "sourceUrl": "https://www.bea-net.com/liveinformation/artist/2611miuradaichi.html",
-        "lastVerifiedAt": "2026-08-17T23:32:00+09:00"
+        "sourceUrl": "https://monaki.jp/news/detail/81576",
+        "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
       }
     }
   ]
