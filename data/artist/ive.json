@@ -1,9 +1,75 @@
 {
   "artistId": "ive",
-  "tours": [],
-  "performances": [],
-  "lotteries": [],
-  "lastVerifiedAt": "2026-07-22T00:00:00+09:00",
+  "tours": [
+    {
+      "id": "ive_lucid_dream_special_event_2026",
+      "artistId": "ive",
+      "title": "JAPAN 4th EP『LUCID DREAM』発売記念 シリアルナンバー応募抽選スペシャルイベント第2弾",
+      "startDate": "2026-08-30T00:00:00+09:00",
+      "endDate": "2026-08-31T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://ive-official.jp/mob/news/newsShw.php?cd=OF10395&site=DIVE",
+      "lastVerifiedAt": "2026-08-17T22:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "ive_lucid_dream_special_event_2026_osaka_0830",
+      "tourId": "ive_lucid_dream_special_event_2026",
+      "venue": "堂島リバーフォーラム",
+      "performanceAt": "2026-08-30T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "JAPAN 4th EP『LUCID DREAM』発売記念 シリアルナンバー応募抽選スペシャルイベント第2弾",
+      "source": "system",
+      "sourceUrl": "https://ive-official.jp/mob/news/newsShw.php?cd=OF10395&site=DIVE",
+      "lastVerifiedAt": "2026-08-17T22:00:00+09:00"
+    },
+    {
+      "id": "ive_lucid_dream_special_event_2026_tokyo_0831",
+      "tourId": "ive_lucid_dream_special_event_2026",
+      "venue": "品川 ザ・グランドホール",
+      "performanceAt": "2026-08-31T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "JAPAN 4th EP『LUCID DREAM』発売記念 シリアルナンバー応募抽選スペシャルイベント第2弾",
+      "source": "system",
+      "sourceUrl": "https://ive-official.jp/mob/news/newsShw.php?cd=OF10395&site=DIVE",
+      "lastVerifiedAt": "2026-08-17T22:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "ive_lucid_dream_special_event_2026_osaka_serial",
+      "tourId": "ive_lucid_dream_special_event_2026",
+      "type": "シリアルナンバー応募抽選（大阪）",
+      "entryStartAt": "2026-06-01T18:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["ive_lucid_dream_special_event_2026_osaka_0830"],
+      "source": "system",
+      "sourceUrl": "https://ive-official.jp/mob/news/newsShw.php?cd=OF10395&site=DIVE",
+      "lastVerifiedAt": "2026-08-17T22:00:00+09:00"
+    },
+    {
+      "id": "ive_lucid_dream_special_event_2026_tokyo_serial",
+      "tourId": "ive_lucid_dream_special_event_2026",
+      "type": "シリアルナンバー応募抽選（東京）",
+      "entryStartAt": "2026-06-01T18:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["ive_lucid_dream_special_event_2026_tokyo_0831"],
+      "source": "system",
+      "sourceUrl": "https://ive-official.jp/mob/news/newsShw.php?cd=OF10395&site=DIVE",
+      "lastVerifiedAt": "2026-08-17T22:00:00+09:00"
+    }
+  ],
+  "lastVerifiedAt": "2026-08-17T22:00:00+09:00",
   "appleMusicTracks": [
     {
       "songId": "1874217121",

@@ -22,11 +22,72 @@
       "artistId": "frederic",
       "title": "2026年フェス出演",
       "startDate": "2026-07-11T00:00:00+09:00",
-      "endDate": "2026-09-21T00:00:00+09:00",
+      "endDate": "2026-10-17T00:00:00+09:00",
       "prices": null,
       "source": "system",
-      "sourceUrl": "https://frederic-official.com/",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "sourceUrl": "https://frederic-official.com/news/3?range=future_event_end_time&sort=asc",
+      "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
+    },
+    {
+      "id": "frederic_event_tokiwafes_2026",
+      "artistId": "frederic",
+      "title": "TOKIWA FES 2026 対バン Special Live",
+      "startDate": "2026-10-18T00:00:00+09:00",
+      "endDate": "2026-10-18T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3739",
+      "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
+    },
+    {
+      "id": "frederic_event_ncis_hand_in_hand_2026",
+      "artistId": "frederic",
+      "title": "Nothing's Carved In Stone Hand In Hand Tour 2026",
+      "startDate": "2026-10-30T00:00:00+09:00",
+      "endDate": "2026-10-30T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3681",
+      "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
+    },
+    {
+      "id": "frederic_event_nelke_merge_2026",
+      "artistId": "frederic",
+      "title": "NELKE 2MAN TOUR 2026「MERGE」",
+      "startDate": "2026-11-18T00:00:00+09:00",
+      "endDate": "2026-11-18T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3666",
+      "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
+    },
+    {
+      "id": "frederic_fes_2027",
+      "artistId": "frederic",
+      "title": "Hype Like it! 2027",
+      "startDate": "2027-01-23T00:00:00+09:00",
+      "endDate": "2027-01-23T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1日券",
+          "amount": 11000
+        },
+        {
+          "label": "2日通し券",
+          "amount": 20000
+        },
+        {
+          "label": "U-21チケット",
+          "amount": 8800
+        },
+        {
+          "label": "こどもチケット",
+          "amount": 3300
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3733",
+      "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
     }
   ],
   "performances": [
@@ -197,6 +258,78 @@
       "source": "system",
       "sourceUrl": "https://frederic-official.com/news/detail/3682",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_fes_2026_gfest_gunma_1010",
+      "tourId": "frederic_fes_2026",
+      "venue": "Gメッセ群馬",
+      "performanceAt": "2026-10-10T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "GFEST.2026",
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3696",
+      "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
+    },
+    {
+      "id": "frederic_fes_2026_liveazuma_fukushima_1017",
+      "tourId": "frederic_fes_2026",
+      "venue": "福島あづま球場・あづま総合運動公園",
+      "performanceAt": "2026-10-17T11:00:00+09:00",
+      "doorOpenAt": "2026-10-17T10:00:00+09:00",
+      "kind": "fes",
+      "eventName": "LIVE AZUMA 2026",
+      "source": "system",
+      "sourceUrl": "https://liveazuma.jp/about/",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
+    },
+    {
+      "id": "frederic_event_tokiwafes_2026_mito_1018",
+      "tourId": "frederic_event_tokiwafes_2026",
+      "venue": "常磐大学体育館（C棟）",
+      "performanceAt": "2026-10-18T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "eventName": "TOKIWA FES 2026 対バン Special Live",
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3739",
+      "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
+    },
+    {
+      "id": "frederic_event_ncis_hand_in_hand_2026_osaka_1030",
+      "tourId": "frederic_event_ncis_hand_in_hand_2026",
+      "venue": "GORILLA HALL OSAKA",
+      "performanceAt": "2026-10-30T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "eventName": "Nothing's Carved In Stone Hand In Hand Tour 2026",
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3681",
+      "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
+    },
+    {
+      "id": "frederic_event_nelke_merge_2026_yokohama_1118",
+      "tourId": "frederic_event_nelke_merge_2026",
+      "venue": "KT Zepp Yokohama",
+      "performanceAt": "2026-11-18T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "eventName": "NELKE 2MAN TOUR 2026「MERGE」",
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3666",
+      "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
+    },
+    {
+      "id": "frederic_fes_2027_hypelikeit_makuhari_0123",
+      "tourId": "frederic_fes_2027",
+      "venue": "幕張メッセ国際展示場1・2・3ホール",
+      "performanceAt": "2027-01-23T12:00:00+09:00",
+      "doorOpenAt": "2027-01-23T10:00:00+09:00",
+      "kind": "fes",
+      "eventName": "Hype Like it! 2027",
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3733",
+      "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
     }
   ],
   "lotteries": [
@@ -247,6 +380,38 @@
       "source": "system",
       "sourceUrl": "https://frederic-official.com/news/detail/3717",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_fes_2027_hypelikeit_fc_1st",
+      "tourId": "frederic_fes_2027",
+      "type": "フレハウス+最速先行",
+      "entryStartAt": "2026-07-21T12:00:00+09:00",
+      "entryEndAt": "2026-07-26T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_fes_2027_hypelikeit_makuhari_0123"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3733",
+      "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
+    },
+    {
+      "id": "frederic_fes_2027_hypelikeit_official",
+      "tourId": "frederic_fes_2027",
+      "type": "追加・オフィシャル先行",
+      "entryStartAt": "2026-07-29T18:00:00+09:00",
+      "entryEndAt": "2026-08-03T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_fes_2027_hypelikeit_makuhari_0123"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3733",
+      "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
     }
   ],
   "appleMusicTracks": [

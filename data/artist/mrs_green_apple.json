@@ -19,7 +19,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     }
   ],
   "performances": [
@@ -28,84 +28,84 @@
       "tourId": "mrs_green_apple_ringojam_shadows_2026",
       "venue": "あなぶきアリーナ香川",
       "performanceAt": "2026-09-30T18:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-09-30T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     },
     {
       "id": "mrs_green_apple_ringojam_shadows_2026_kagawa_1001",
       "tourId": "mrs_green_apple_ringojam_shadows_2026",
       "venue": "あなぶきアリーナ香川",
       "performanceAt": "2026-10-01T18:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-10-01T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     },
     {
       "id": "mrs_green_apple_ringojam_shadows_2026_hiroshima_1006",
       "tourId": "mrs_green_apple_ringojam_shadows_2026",
       "venue": "広島グリーンアリーナ",
       "performanceAt": "2026-10-06T18:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-10-06T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     },
     {
       "id": "mrs_green_apple_ringojam_shadows_2026_hiroshima_1007",
       "tourId": "mrs_green_apple_ringojam_shadows_2026",
       "venue": "広島グリーンアリーナ",
       "performanceAt": "2026-10-07T18:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-10-07T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     },
     {
       "id": "mrs_green_apple_ringojam_shadows_2026_chiba_1014",
       "tourId": "mrs_green_apple_ringojam_shadows_2026",
       "venue": "LaLa arena TOKYO-BAY",
       "performanceAt": "2026-10-14T18:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-10-14T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     },
     {
       "id": "mrs_green_apple_ringojam_shadows_2026_chiba_1015",
       "tourId": "mrs_green_apple_ringojam_shadows_2026",
       "venue": "LaLa arena TOKYO-BAY",
       "performanceAt": "2026-10-15T18:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-10-15T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     },
     {
       "id": "mrs_green_apple_ringojam_shadows_2026_hokkaido_1023",
       "tourId": "mrs_green_apple_ringojam_shadows_2026",
       "venue": "真駒内セキスイハイムアイスアリーナ",
       "performanceAt": "2026-10-23T18:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-10-23T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     },
     {
       "id": "mrs_green_apple_ringojam_shadows_2026_hokkaido_1024",
@@ -117,247 +117,247 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     },
     {
       "id": "mrs_green_apple_ringojam_shadows_2026_tokyo_1028",
       "tourId": "mrs_green_apple_ringojam_shadows_2026",
       "venue": "国立代々木競技場 第一体育館",
       "performanceAt": "2026-10-28T18:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-10-28T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     },
     {
       "id": "mrs_green_apple_ringojam_shadows_2026_tokyo_1029",
       "tourId": "mrs_green_apple_ringojam_shadows_2026",
       "venue": "国立代々木競技場 第一体育館",
       "performanceAt": "2026-10-29T18:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-10-29T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     },
     {
       "id": "mrs_green_apple_ringojam_shadows_2026_saga_1104",
       "tourId": "mrs_green_apple_ringojam_shadows_2026",
       "venue": "SAGAアリーナ",
       "performanceAt": "2026-11-04T18:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-11-04T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     },
     {
       "id": "mrs_green_apple_ringojam_shadows_2026_saga_1105",
       "tourId": "mrs_green_apple_ringojam_shadows_2026",
       "venue": "SAGAアリーナ",
       "performanceAt": "2026-11-05T18:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-11-05T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     },
     {
       "id": "mrs_green_apple_ringojam_shadows_2026_fukui_1113",
       "tourId": "mrs_green_apple_ringojam_shadows_2026",
       "venue": "サンドーム福井",
       "performanceAt": "2026-11-13T18:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-11-13T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     },
     {
       "id": "mrs_green_apple_ringojam_shadows_2026_fukui_1114",
       "tourId": "mrs_green_apple_ringojam_shadows_2026",
       "venue": "サンドーム福井",
-      "performanceAt": "2026-11-14T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-11-14T17:00:00+09:00",
+      "doorOpenAt": "2026-11-14T16:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     },
     {
       "id": "mrs_green_apple_ringojam_shadows_2026_nagano_1118",
       "tourId": "mrs_green_apple_ringojam_shadows_2026",
       "venue": "長野市若里多目的スポーツアリーナ（ビッグハット）",
       "performanceAt": "2026-11-18T18:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-11-18T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     },
     {
       "id": "mrs_green_apple_ringojam_shadows_2026_nagano_1119",
       "tourId": "mrs_green_apple_ringojam_shadows_2026",
       "venue": "長野市若里多目的スポーツアリーナ（ビッグハット）",
       "performanceAt": "2026-11-19T18:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-11-19T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     },
     {
       "id": "mrs_green_apple_ringojam_shadows_2026_chiba2_1128",
       "tourId": "mrs_green_apple_ringojam_shadows_2026",
       "venue": "LaLa arena TOKYO-BAY",
-      "performanceAt": "2026-11-28T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-11-28T17:00:00+09:00",
+      "doorOpenAt": "2026-11-28T16:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     },
     {
       "id": "mrs_green_apple_ringojam_shadows_2026_chiba2_1129",
       "tourId": "mrs_green_apple_ringojam_shadows_2026",
       "venue": "LaLa arena TOKYO-BAY",
-      "performanceAt": "2026-11-29T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-11-29T17:00:00+09:00",
+      "doorOpenAt": "2026-11-29T16:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     },
     {
       "id": "mrs_green_apple_ringojam_shadows_2026_hyogo_1202",
       "tourId": "mrs_green_apple_ringojam_shadows_2026",
       "venue": "GLION ARENA KOBE",
       "performanceAt": "2026-12-02T18:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-12-02T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     },
     {
       "id": "mrs_green_apple_ringojam_shadows_2026_hyogo_1203",
       "tourId": "mrs_green_apple_ringojam_shadows_2026",
       "venue": "GLION ARENA KOBE",
       "performanceAt": "2026-12-03T18:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-12-03T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     },
     {
       "id": "mrs_green_apple_ringojam_shadows_2026_fukuoka_1209",
       "tourId": "mrs_green_apple_ringojam_shadows_2026",
       "venue": "マリンメッセ福岡A館",
       "performanceAt": "2026-12-09T18:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-12-09T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     },
     {
       "id": "mrs_green_apple_ringojam_shadows_2026_fukuoka_1210",
       "tourId": "mrs_green_apple_ringojam_shadows_2026",
       "venue": "マリンメッセ福岡A館",
       "performanceAt": "2026-12-10T18:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-12-10T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     },
     {
       "id": "mrs_green_apple_ringojam_shadows_2026_miyagi_1215",
       "tourId": "mrs_green_apple_ringojam_shadows_2026",
       "venue": "セキスイハイムスーパーアリーナ",
       "performanceAt": "2026-12-15T18:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-12-15T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     },
     {
       "id": "mrs_green_apple_ringojam_shadows_2026_miyagi_1216",
       "tourId": "mrs_green_apple_ringojam_shadows_2026",
       "venue": "セキスイハイムスーパーアリーナ",
       "performanceAt": "2026-12-16T18:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-12-16T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     },
     {
       "id": "mrs_green_apple_ringojam_shadows_2026_kanagawa_1219",
       "tourId": "mrs_green_apple_ringojam_shadows_2026",
       "venue": "ぴあアリーナMM",
-      "performanceAt": "2026-12-19T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-12-19T17:00:00+09:00",
+      "doorOpenAt": "2026-12-19T16:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     },
     {
       "id": "mrs_green_apple_ringojam_shadows_2026_kanagawa_1220",
       "tourId": "mrs_green_apple_ringojam_shadows_2026",
       "venue": "ぴあアリーナMM",
-      "performanceAt": "2026-12-20T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-12-20T17:00:00+09:00",
+      "doorOpenAt": "2026-12-20T16:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     },
     {
       "id": "mrs_green_apple_ringojam_shadows_2026_aichi_1227",
       "tourId": "mrs_green_apple_ringojam_shadows_2026",
       "venue": "Aichi Sky Expo（愛知県国際展示場）",
-      "performanceAt": "2026-12-27T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-12-27T17:00:00+09:00",
+      "doorOpenAt": "2026-12-27T16:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     },
     {
       "id": "mrs_green_apple_ringojam_shadows_2026_aichi_1228",
       "tourId": "mrs_green_apple_ringojam_shadows_2026",
       "venue": "Aichi Sky Expo（愛知県国際展示場）",
       "performanceAt": "2026-12-28T18:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-12-28T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     }
   ],
   "lotteries": [

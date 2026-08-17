@@ -44,6 +44,42 @@
       "source": "system",
       "sourceUrl": "https://2026.sweetloveshower.com/contents/ticket/admission",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "kroi_event_pearl_drums_80th_2026",
+      "artistId": "kroi",
+      "title": "Pearl Drums 80th Anniversary Fest. “Together We Shine” Day1",
+      "startDate": "2026-10-15T00:00:00+09:00",
+      "endDate": "2026-10-15T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "オールスタンディング",
+          "amount": 6800
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://clubcitta.co.jp/schedule/1706",
+      "lastVerifiedAt": "2026-08-17T23:05:00+09:00"
+    },
+    {
+      "id": "kroi_802_jungle_attack_vol11_2026",
+      "artistId": "kroi",
+      "title": "802 Jungle Attack Vol.11",
+      "startDate": "2026-10-27T00:00:00+09:00",
+      "endDate": "2026-10-27T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1Fスタンディング",
+          "amount": 6400
+        },
+        {
+          "label": "2Fスタンディング",
+          "amount": 6400
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://funky802.com/site/pickup_detail/8283",
+      "lastVerifiedAt": "2026-08-17T23:08:00+09:00"
     }
   ],
   "performances": [
@@ -158,14 +194,14 @@
     {
       "id": "kroi_fes_sweet_love_shower_2026_yamanakako_0828",
       "tourId": "kroi_fes_sweet_love_shower_2026",
-      "venue": "山中湖交流プラザ きらら",
+      "venue": "山中湖交流プラザ きらら Mt.FUJI",
       "performanceAt": "2026-08-28T10:00:00+09:00",
       "doorOpenAt": "2026-08-28T09:00:00+09:00",
       "kind": "fes",
       "eventName": "SWEET LOVE SHOWER 2026",
       "source": "system",
-      "sourceUrl": "https://kroi.net/live_information/detail/37665",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "sourceUrl": "https://2026.sweetloveshower.com/contents/timetable",
+      "lastVerifiedAt": "2026-08-17T23:05:00+09:00"
     },
     {
       "id": "kroi_jungle_2026_zepp_haneda_0923",
@@ -178,6 +214,30 @@
       "source": "system",
       "sourceUrl": "https://special.kroi.net/tour/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "kroi_event_pearl_drums_80th_2026_clubcitta_1015",
+      "tourId": "kroi_event_pearl_drums_80th_2026",
+      "venue": "CLUB CITTA'",
+      "performanceAt": "2026-10-15T19:00:00+09:00",
+      "doorOpenAt": "2026-10-15T18:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "Pearl Drums 80th Anniversary Fest. “Together We Shine” Day1 w/ストレイテナー",
+      "source": "system",
+      "sourceUrl": "https://clubcitta.co.jp/schedule/1706",
+      "lastVerifiedAt": "2026-08-17T23:05:00+09:00"
+    },
+    {
+      "id": "kroi_802_jungle_attack_vol11_2026_osaka_1027",
+      "tourId": "kroi_802_jungle_attack_vol11_2026",
+      "venue": "GORILLA HALL OSAKA",
+      "performanceAt": "2026-10-27T19:00:00+09:00",
+      "doorOpenAt": "2026-10-27T18:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "802 Jungle Attack Vol.11 w/ザ・クロマニヨンズ",
+      "source": "system",
+      "sourceUrl": "https://funky802.com/site/pickup_detail/8283",
+      "lastVerifiedAt": "2026-08-17T23:08:00+09:00"
     }
   ],
   "lotteries": [
@@ -412,6 +472,54 @@
       "source": "system",
       "sourceUrl": "https://2026.sweetloveshower.com/contents/ticket/admission",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "kroi_event_pearl_drums_80th_2026_pia_fastest",
+      "tourId": "kroi_event_pearl_drums_80th_2026",
+      "type": "チケット最速先行（ぴあ・抽選）",
+      "entryStartAt": "2026-07-25T12:00:00+09:00",
+      "entryEndAt": "2026-08-02T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kroi_event_pearl_drums_80th_2026_clubcitta_1015"
+      ],
+      "source": "system",
+      "sourceUrl": "https://clubcitta.co.jp/schedule/1706",
+      "lastVerifiedAt": "2026-08-17T23:05:00+09:00"
+    },
+    {
+      "id": "kroi_event_pearl_drums_80th_2026_general",
+      "tourId": "kroi_event_pearl_drums_80th_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-08-20T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kroi_event_pearl_drums_80th_2026_clubcitta_1015"
+      ],
+      "source": "system",
+      "sourceUrl": "https://clubcitta.co.jp/schedule/1706",
+      "lastVerifiedAt": "2026-08-17T23:05:00+09:00"
+    },
+    {
+      "id": "kroi_802_jungle_attack_vol11_2026_eplus_preorder",
+      "tourId": "kroi_802_jungle_attack_vol11_2026",
+      "type": "イープラスプレオーダー",
+      "entryStartAt": "2026-08-17T15:00:00+09:00",
+      "entryEndAt": "2026-08-30T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kroi_802_jungle_attack_vol11_2026_osaka_1027"
+      ],
+      "source": "system",
+      "sourceUrl": "https://funky802.com/site/pickup_detail/8283",
+      "lastVerifiedAt": "2026-08-17T23:08:00+09:00"
     }
   ],
   "appleMusicTracks": [

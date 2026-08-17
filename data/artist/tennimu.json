@@ -308,6 +308,48 @@
       "source": "system",
       "sourceUrl": "https://www.tennimu.com/news/d1687",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "tennimu_tennimu2_finalstage_2026_general",
+      "tourId": "tennimu_tennimu2_finalstage_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-08-23T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://www.tennimu.com/tennimu2_2026/ticket/",
+      "lastVerifiedAt": "2026-08-18T07:08:00+09:00"
+    },
+    {
+      "id": "tennimu_tennimu2_finalstage_2026_trade",
+      "tourId": "tennimu_tennimu2_finalstage_2026",
+      "type": "チケプラトレード（抽選）",
+      "entryStartAt": "2026-08-24T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://www.tennimu.com/tennimu2_2026/ticket/",
+      "lastVerifiedAt": "2026-08-18T07:08:00+09:00"
+    },
+    {
+      "id": "tennimu_tennimu2_finalstage_2026_reservation_release",
+      "tourId": "tennimu_tennimu2_finalstage_2026",
+      "type": "予約流れ分販売（1回目）",
+      "entryStartAt": "2026-08-26T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://www.tennimu.com/tennimu2_2026/faq/",
+      "lastVerifiedAt": "2026-08-18T07:08:00+09:00"
     }
   ]
 }

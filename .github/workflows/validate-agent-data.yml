@@ -1,0 +1,23 @@
+name: Validate agent data
+
+on:
+  push:
+    branches:
+      - agent/refresh-batch-01-2026-08-17
+    paths:
+      - 'data/artist/**'
+      - 'tools/**'
+      - '.github/workflows/validate-agent-data.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Validate JSON data
+        run: python3 tools/validate.py

@@ -42,6 +42,17 @@
       "source": "system",
       "sourceUrl": "https://txt-official.jp/news/951946c1885d",
       "lastVerifiedAt": "2026-07-22T10:26:13+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_event_setsuna_hanabi_two_shot_2026",
+      "artistId": "tomorrow_x_together",
+      "title": "TOMORROW X TOGETHER日本5thシングル「セツナハナビ (Setsuna Hanabi)」メンバー個別ツーショット撮影会",
+      "startDate": "2026-09-23T00:00:00+09:00",
+      "endDate": "2026-11-03T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.universal-music.co.jp/txt/news/2026-07-28/",
+      "lastVerifiedAt": "2026-08-18T07:20:00+09:00"
     }
   ],
   "performances": [
@@ -164,6 +175,30 @@
       "source": "system",
       "sourceUrl": "https://txt-official.jp/news/951946c1885d",
       "lastVerifiedAt": "2026-07-22T10:26:13+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_event_setsuna_hanabi_two_shot_2026_tokyo_0923",
+      "tourId": "tomorrow_x_together_event_setsuna_hanabi_two_shot_2026",
+      "venue": "東京某所",
+      "performanceAt": "2026-09-23T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "TOMORROW X TOGETHER日本5thシングル「セツナハナビ (Setsuna Hanabi)」メンバー個別ツーショット撮影会",
+      "source": "system",
+      "sourceUrl": "https://www.universal-music.co.jp/txt/news/2026-07-28/",
+      "lastVerifiedAt": "2026-08-18T07:20:00+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_event_setsuna_hanabi_two_shot_2026_osaka_1103",
+      "tourId": "tomorrow_x_together_event_setsuna_hanabi_two_shot_2026",
+      "venue": "大阪某所",
+      "performanceAt": "2026-11-03T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "TOMORROW X TOGETHER日本5thシングル「セツナハナビ (Setsuna Hanabi)」メンバー個別ツーショット撮影会",
+      "source": "system",
+      "sourceUrl": "https://www.universal-music.co.jp/txt/news/2026-07-28/",
+      "lastVerifiedAt": "2026-08-18T07:20:00+09:00"
     }
   ],
   "lotteries": [
@@ -260,6 +295,34 @@
       "source": "system",
       "sourceUrl": "https://txt-official.jp/news/74adcbf73687",
       "lastVerifiedAt": "2026-07-22T10:26:13+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_event_setsuna_hanabi_two_shot_2026_store_1st",
+      "tourId": "tomorrow_x_together_event_setsuna_hanabi_two_shot_2026",
+      "type": "Weverse Shop・UNIVERSAL MUSIC STORE購入者抽選（1回目）",
+      "entryStartAt": "2026-07-28T11:00:00+09:00",
+      "entryEndAt": "2026-07-31T09:59:00+09:00",
+      "resultAt": "2026-08-07T20:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://www.universal-music.co.jp/txt/news/2026-07-28/",
+      "lastVerifiedAt": "2026-08-18T07:20:00+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_event_setsuna_hanabi_two_shot_2026_store_2nd",
+      "tourId": "tomorrow_x_together_event_setsuna_hanabi_two_shot_2026",
+      "type": "Weverse Shop・UNIVERSAL MUSIC STORE購入者抽選（2回目）",
+      "entryStartAt": "2026-07-31T10:00:00+09:00",
+      "entryEndAt": "2026-08-09T23:59:00+09:00",
+      "resultAt": "2026-08-18T20:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://www.universal-music.co.jp/txt/news/2026-07-28/",
+      "lastVerifiedAt": "2026-08-18T07:20:00+09:00"
     }
   ],
   "lastVerifiedAt": "2026-07-22T10:26:13+09:00",

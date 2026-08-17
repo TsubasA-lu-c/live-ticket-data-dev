@@ -78,25 +78,25 @@
       "id": "sakanaction_fes_2026_summersonic_tokyo_0815",
       "tourId": "sakanaction_fes_2026_summersonic",
       "venue": "ZOZOマリンスタジアム＆幕張メッセ",
-      "performanceAt": "2026-08-15T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-08-15T11:00:00+09:00",
+      "doorOpenAt": "2026-08-15T09:00:00+09:00",
       "kind": "fes",
       "eventName": "SUMMER SONIC 2026",
       "source": "system",
-      "sourceUrl": "https://sakanaction.jp/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://www.summersonic.com/info/tokyo/",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
     },
     {
       "id": "sakanaction_fes_2026_summersonic_osaka_0816",
       "tourId": "sakanaction_fes_2026_summersonic",
       "venue": "万博記念公園",
-      "performanceAt": "2026-08-16T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-08-16T11:00:00+09:00",
+      "doorOpenAt": "2026-08-16T10:00:00+09:00",
       "kind": "fes",
       "eventName": "SUMMER SONIC 2026",
       "source": "system",
-      "sourceUrl": "https://sakanaction.jp/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://www.summersonic.com/info/osaka/",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
     },
     {
       "id": "sakanaction_sakanaquarium_2026_budokan_0908",
@@ -810,6 +810,31 @@
       "source": "system",
       "sourceUrl": "https://www.htb.co.jp/unite2026/ticket/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "sakanaction_sakanaquarium_2026_tixplus_trade",
+      "tourId": "sakanaction_sakanaquarium_2026",
+      "type": "公式チケットトレード（2026年公演・チケプラ）",
+      "entryStartAt": "2026-08-03T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sakanaction_sakanaquarium_2026_budokan_0908",
+        "sakanaction_sakanaquarium_2026_budokan_0909",
+        "sakanaction_sakanaquarium_2026_osakajyo_0912",
+        "sakanaction_sakanaquarium_2026_osakajyo_0913",
+        "sakanaction_sakanaquarium_2026_budokan_0918",
+        "sakanaction_sakanaquarium_2026_budokan_0919",
+        "sakanaction_sakanaquarium_2026_kobe_0929",
+        "sakanaction_sakanaquarium_2026_kobe_0930",
+        "sakanaction_sakanaquarium_2026_budokan_1003",
+        "sakanaction_sakanaquarium_2026_budokan_1004"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sakanaction.jp/feature/tour2026-2027",
+      "lastVerifiedAt": "2026-08-18T00:03:00+09:00"
     }
   ],
   "appleMusicTracks": [

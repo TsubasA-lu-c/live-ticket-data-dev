@@ -25,12 +25,12 @@
       "id": "ini_2026_live_events",
       "artistId": "ini",
       "title": "INI 2026 LIVE/EVENT",
-      "startDate": "2026-08-13T00:00:00+09:00",
+      "startDate": "2026-08-01T00:00:00+09:00",
       "endDate": "2026-10-31T00:00:00+09:00",
       "prices": null,
       "source": "system",
       "sourceUrl": "https://ini-official.com/schedule/list/",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T22:23:00+09:00"
     }
   ],
   "performances": [
@@ -45,6 +45,30 @@
       "source": "system",
       "sourceUrl": "https://ini-official.com/feature/2026_dome_tour",
       "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "ini_2026_live_events_disney_on_ice_0801",
+      "tourId": "ini_2026_live_events",
+      "venue": "クロコくんホール（旧 日本ガイシホール）",
+      "performanceAt": "2026-08-01T17:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "『ディズニー・オン・アイス』名古屋公演 スペシャルオープニングアクト（髙塚大夢）",
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/news/detail/4291",
+      "lastVerifiedAt": "2026-08-17T22:23:00+09:00"
+    },
+    {
+      "id": "ini_2026_live_events_senkou_riot_0806",
+      "tourId": "ini_2026_live_events",
+      "venue": "Zepp DiverCity(TOKYO)",
+      "performanceAt": "2026-08-06T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "マイナビ 閃光ライオット2026 produced by SCHOOL OF LOCK!（髙塚大夢 スペシャルサポーター）",
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/news/detail/4078",
+      "lastVerifiedAt": "2026-08-17T22:23:00+09:00"
     },
     {
       "id": "ini_2026_live_events_wangan_0813",
@@ -86,13 +110,13 @@
       "id": "ini_2026_live_events_rock_in_japan_0921",
       "tourId": "ini_2026_live_events",
       "venue": "千葉市蘇我スポーツ公園",
-      "performanceAt": "2026-09-21T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-09-21T11:45:00+09:00",
+      "doorOpenAt": "2026-09-21T08:30:00+09:00",
       "kind": "fes",
       "eventName": "ROCK IN JAPAN FESTIVAL 2026",
       "source": "system",
-      "sourceUrl": "https://ini-official.com/news/detail/4146",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "sourceUrl": "https://rijfes.jp/2026/home/",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
     },
     {
       "id": "ini_2026_live_events_from_ini_1031",

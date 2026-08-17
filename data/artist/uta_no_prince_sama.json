@@ -52,6 +52,17 @@
       "source": "system",
       "sourceUrl": "https://www.creativeman.co.jp/event/utanoprince-all-star-stage-beginning/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "uta_no_prince_sama_15th_we_love_starish_2027",
+      "artistId": "uta_no_prince_sama",
+      "title": "うたの☆プリンスさまっ♪ 15th Anniversary LIVE WE LOVE ST☆RISH",
+      "startDate": "2027-01-23T00:00:00+09:00",
+      "endDate": "2027-01-31T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://15th.utapri.tv/event/",
+      "lastVerifiedAt": "2026-08-18T07:35:00+09:00"
     }
   ],
   "performances": [
@@ -258,6 +269,54 @@
       "source": "system",
       "sourceUrl": "https://www.creativeman.co.jp/event/utanoprince-all-star-stage-beginning/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "uta_no_prince_sama_15th_we_love_starish_2027_yokohama_0123",
+      "tourId": "uta_no_prince_sama_15th_we_love_starish_2027",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2027-01-23T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "うたの☆プリンスさまっ♪ 15th Anniversary LIVE WE LOVE ST☆RISH",
+      "source": "system",
+      "sourceUrl": "https://15th.utapri.tv/event/",
+      "lastVerifiedAt": "2026-08-18T07:35:00+09:00"
+    },
+    {
+      "id": "uta_no_prince_sama_15th_we_love_starish_2027_yokohama_0124",
+      "tourId": "uta_no_prince_sama_15th_we_love_starish_2027",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2027-01-24T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "うたの☆プリンスさまっ♪ 15th Anniversary LIVE WE LOVE ST☆RISH",
+      "source": "system",
+      "sourceUrl": "https://15th.utapri.tv/event/",
+      "lastVerifiedAt": "2026-08-18T07:35:00+09:00"
+    },
+    {
+      "id": "uta_no_prince_sama_15th_we_love_starish_2027_aichi_0130",
+      "tourId": "uta_no_prince_sama_15th_we_love_starish_2027",
+      "venue": "IGアリーナ",
+      "performanceAt": "2027-01-30T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "うたの☆プリンスさまっ♪ 15th Anniversary LIVE WE LOVE ST☆RISH",
+      "source": "system",
+      "sourceUrl": "https://15th.utapri.tv/event/",
+      "lastVerifiedAt": "2026-08-18T07:35:00+09:00"
+    },
+    {
+      "id": "uta_no_prince_sama_15th_we_love_starish_2027_aichi_0131",
+      "tourId": "uta_no_prince_sama_15th_we_love_starish_2027",
+      "venue": "IGアリーナ",
+      "performanceAt": "2027-01-31T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "うたの☆プリンスさまっ♪ 15th Anniversary LIVE WE LOVE ST☆RISH",
+      "source": "system",
+      "sourceUrl": "https://15th.utapri.tv/event/",
+      "lastVerifiedAt": "2026-08-18T07:35:00+09:00"
     }
   ],
   "lotteries": [

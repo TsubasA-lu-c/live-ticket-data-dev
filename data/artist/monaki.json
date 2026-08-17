@@ -24,13 +24,17 @@
           "amount": 6600
         },
         {
+          "label": "2階後方立見（愛知・東京のみ）",
+          "amount": 6600
+        },
+        {
           "label": "2階指定",
           "amount": 7700
         }
       ],
       "source": "system",
-      "sourceUrl": "https://monaki.jp/news/detail/78925",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "sourceUrl": "https://monaki.jp/news/detail/84264",
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     },
     {
       "id": "monaki_halloween_2026",
@@ -373,6 +377,42 @@
       "source": "system",
       "sourceUrl": "https://monaki.jp/news/detail/84518",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_1st_tour_2026_pia_presale_1",
+      "tourId": "monaki_1st_tour_2026",
+      "type": "チケットぴあ プレリザーブ（抽選）",
+      "entryStartAt": "2026-06-11T11:00:00+09:00",
+      "entryEndAt": "2026-06-21T23:59:00+09:00",
+      "resultAt": "2026-06-24T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "monaki_1st_tour_2026_zeppnamba_0818",
+        "monaki_1st_tour_2026_zeppnagoya_0819",
+        "monaki_1st_tour_2026_zepphaneda_0824"
+      ],
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/news/detail/81576",
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+    },
+    {
+      "id": "monaki_1st_tour_2026_pia_presale_2",
+      "tourId": "monaki_1st_tour_2026",
+      "type": "チケットぴあ プレリザーブ2次（抽選）",
+      "entryStartAt": "2026-06-24T18:00:00+09:00",
+      "entryEndAt": "2026-07-01T23:59:00+09:00",
+      "resultAt": "2026-07-04T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "monaki_1st_tour_2026_zeppnamba_0818",
+        "monaki_1st_tour_2026_zeppnagoya_0819",
+        "monaki_1st_tour_2026_zepphaneda_0824"
+      ],
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/news/detail/81576",
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     }
   ],
   "appleMusicTracks": [

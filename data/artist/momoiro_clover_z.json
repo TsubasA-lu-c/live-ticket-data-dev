@@ -31,7 +31,12 @@
       "title": "大原櫻子×玉井詩織 Orchestra Concert Summer Memories",
       "startDate": "2026-08-24T00:00:00+09:00",
       "endDate": "2026-08-24T00:00:00+09:00",
-      "prices": [{"label": "全席指定", "amount": 15000}],
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 15000
+        }
+      ],
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260525_02",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
@@ -42,7 +47,12 @@
       "title": "デビュー50周年 トリビュート・プロジェクト ピンク・レディー伝説 今も そして永遠に … Legend, Now and Forever",
       "startDate": "2026-08-25T00:00:00+09:00",
       "endDate": "2026-08-25T00:00:00+09:00",
-      "prices": [{"label": "全席指定", "amount": 11500}],
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 11500
+        }
+      ],
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260529_01",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
@@ -64,7 +74,20 @@
       "title": "黒フェス2026 ～白黒歌合戦～",
       "startDate": "2026-09-06T00:00:00+09:00",
       "endDate": "2026-09-06T00:00:00+09:00",
-      "prices": [{"label": "スタンディング", "amount": 9696}, {"label": "後方指定席", "amount": 10960}, {"label": "車椅子席", "amount": 10960}],
+      "prices": [
+        {
+          "label": "スタンディング",
+          "amount": 9696
+        },
+        {
+          "label": "後方指定席",
+          "amount": 10960
+        },
+        {
+          "label": "車椅子席",
+          "amount": 10960
+        }
+      ],
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260525_03",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
@@ -75,7 +98,12 @@
       "title": "HIDE LIVE 2026 ザ・歌謡ショー",
       "startDate": "2026-09-17T00:00:00+09:00",
       "endDate": "2026-09-17T00:00:00+09:00",
-      "prices": [{"label": "全席指定", "amount": 11000}],
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 11000
+        }
+      ],
       "source": "system",
       "sourceUrl": "https://ex-theater.com/schedule/2164/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
@@ -110,7 +138,12 @@
       "title": "ROCK IN JAPAN FESTIVAL 2026",
       "startDate": "2026-09-21T00:00:00+09:00",
       "endDate": "2026-09-21T00:00:00+09:00",
-      "prices": [{"label": "9月21日 1日券", "amount": 16000}],
+      "prices": [
+        {
+          "label": "9月21日 1日券",
+          "amount": 16000
+        }
+      ],
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260520_01",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
@@ -132,7 +165,12 @@
       "title": "『佐々木彩夏の０１００』presents ごはんつぶ大集合！ 秋のおにぎり祭 supported by オープンアップグループ",
       "startDate": "2026-09-23T00:00:00+09:00",
       "endDate": "2026-09-23T00:00:00+09:00",
-      "prices": [{"label": "全席指定", "amount": 7000}],
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 7000
+        }
+      ],
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260730_02",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
@@ -179,7 +217,16 @@
       "title": "SPOOKY PUMPKIN 2026 ～PURO ALL NIGHT HALLOWEEN PARTY～",
       "startDate": "2026-10-31T00:00:00+09:00",
       "endDate": "2026-10-31T00:00:00+09:00",
-      "prices": [{"label": "前売り通常チケット", "amount": 13800}, {"label": "当日チケット", "amount": 14800}],
+      "prices": [
+        {
+          "label": "前売り通常チケット",
+          "amount": 13800
+        },
+        {
+          "label": "当日チケット",
+          "amount": 14800
+        }
+      ],
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260722_01",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
@@ -190,7 +237,16 @@
       "title": "サントリー オールフリー presents 氣志團万博2026 〜房総爆音リゾート〜",
       "startDate": "2026-11-08T00:00:00+09:00",
       "endDate": "2026-11-08T00:00:00+09:00",
-      "prices": [{"label": "1日入場券", "amount": 16000}, {"label": "青春18入場券", "amount": 10000}],
+      "prices": [
+        {
+          "label": "1日入場券",
+          "amount": 16000
+        },
+        {
+          "label": "青春18入場券",
+          "amount": 10000
+        }
+      ],
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260701_01",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
@@ -201,7 +257,28 @@
       "title": "ももいろクローバーZ クリスマスツアー2026「ももクリDelivery」",
       "startDate": "2026-10-30T00:00:00+09:00",
       "endDate": "2026-12-13T00:00:00+09:00",
-      "prices": [{"label": "指定席", "amount": 10800}, {"label": "着席指定席", "amount": 10800}, {"label": "スタンディング", "amount": 10800}, {"label": "お子様ファミリー席（大人）", "amount": 10800}, {"label": "お子様ファミリー席（子供）", "amount": 2000}],
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 10800
+        },
+        {
+          "label": "着席指定席",
+          "amount": 10800
+        },
+        {
+          "label": "スタンディング",
+          "amount": 10800
+        },
+        {
+          "label": "お子様ファミリー席（大人）",
+          "amount": 10800
+        },
+        {
+          "label": "お子様ファミリー席（子供）",
+          "amount": 2000
+        }
+      ],
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260727_03",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
@@ -306,25 +383,25 @@
       "id": "momoiro_clover_z_xmas_2026_tokyo_1212",
       "tourId": "momoiro_clover_z_xmas_2026",
       "venue": "SGC HALL ARIAKE",
-      "performanceAt": "2026-12-12T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-12-12T17:00:00+09:00",
+      "doorOpenAt": "2026-12-12T16:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://www.momoclo.net/archives/news/251221_01",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://www.momoclo.net/archives/news/260727_03",
+      "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
     },
     {
       "id": "momoiro_clover_z_xmas_2026_tokyo_1213",
       "tourId": "momoiro_clover_z_xmas_2026",
       "venue": "SGC HALL ARIAKE",
-      "performanceAt": "2026-12-13T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-12-13T16:00:00+09:00",
+      "doorOpenAt": "2026-12-13T15:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://www.momoclo.net/archives/news/251221_01",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://www.momoclo.net/archives/news/260727_03",
+      "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
     },
     {
       "id": "momoiro_clover_z_utagassen_10th_tokyo_1231",
@@ -337,6 +414,210 @@
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/251221_01",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_orchestra_summer_memories_2026_tokyo_0824",
+      "tourId": "momoiro_clover_z_orchestra_summer_memories_2026",
+      "venue": "すみだトリフォニーホール 大ホール",
+      "performanceAt": "2026-08-24T19:00:00+09:00",
+      "doorOpenAt": "2026-08-24T18:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "大原櫻子×玉井詩織 Orchestra Concert Summer Memories",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260525_02",
+      "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_pink_lady_tribute_2026_tokyo_0825",
+      "tourId": "momoiro_clover_z_pink_lady_tribute_2026",
+      "venue": "LINE CUBE SHIBUYA",
+      "performanceAt": "2026-08-25T19:00:00+09:00",
+      "doorOpenAt": "2026-08-25T18:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "ピンク・レディー伝説 今も そして永遠に … Legend, Now and Forever",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260529_01",
+      "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_fes_kurofes_2026_tokyo_0906",
+      "tourId": "momoiro_clover_z_fes_kurofes_2026",
+      "venue": "豊洲PIT",
+      "performanceAt": "2026-09-06T16:30:00+09:00",
+      "doorOpenAt": "2026-09-06T15:30:00+09:00",
+      "kind": "fes",
+      "eventName": "黒フェス2026 ～白黒歌合戦～",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260525_03",
+      "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_hide_live_2026_tokyo_0917",
+      "tourId": "momoiro_clover_z_hide_live_2026",
+      "venue": "EX THEATER ROPPONGI",
+      "performanceAt": "2026-09-17T18:00:00+09:00",
+      "doorOpenAt": "2026-09-17T17:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "HIDE LIVE 2026 ザ・歌謡ショー",
+      "source": "system",
+      "sourceUrl": "https://ex-theater.com/schedule/2164/",
+      "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_fes_rock_in_japan_2026_soga_0921",
+      "tourId": "momoiro_clover_z_fes_rock_in_japan_2026",
+      "venue": "千葉市蘇我スポーツ公園",
+      "performanceAt": "2026-09-21T11:45:00+09:00",
+      "doorOpenAt": "2026-09-21T08:30:00+09:00",
+      "kind": "fes",
+      "eventName": "ROCK IN JAPAN FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://rijfes.jp/2026/home/",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_fes_kazetorock_2026_inawashiro_0922",
+      "tourId": "momoiro_clover_z_fes_kazetorock_2026",
+      "venue": "猪苗代スキー場 ミネロ",
+      "performanceAt": "2026-09-22T10:00:00+09:00",
+      "doorOpenAt": "2026-09-22T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "風とロック芋煮会 in September JAM（玉井詩織出演）",
+      "source": "system",
+      "sourceUrl": "https://www.septemberjam.com/event/eve002.html",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_onigiri_matsuri_2026_tokyo_0923",
+      "tourId": "momoiro_clover_z_onigiri_matsuri_2026",
+      "venue": "ヒューリックホール東京",
+      "performanceAt": "2026-09-23T16:00:00+09:00",
+      "doorOpenAt": "2026-09-23T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "『佐々木彩夏の０１００』presents ごはんつぶ大集合！ 秋のおにぎり祭 supported by オープンアップグループ",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260730_02",
+      "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_fes_spooky_pumpkin_2026_tama_1031",
+      "tourId": "momoiro_clover_z_fes_spooky_pumpkin_2026",
+      "venue": "サンリオピューロランド",
+      "performanceAt": "2026-10-31T22:00:00+09:00",
+      "doorOpenAt": "2026-10-31T21:30:00+09:00",
+      "kind": "fes",
+      "eventName": "SPOOKY PUMPKIN 2026 ～PURO ALL NIGHT HALLOWEEN PARTY～（佐々木彩夏出演）",
+      "source": "system",
+      "sourceUrl": "https://www.puroland.jp/event-campaign/spookypumpkin2026/",
+      "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_xmas_2026_tokyo_1030",
+      "tourId": "momoiro_clover_z_xmas_2026",
+      "venue": "SGC HALL ARIAKE",
+      "performanceAt": "2026-10-30T19:00:00+09:00",
+      "doorOpenAt": "2026-10-30T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260727_03",
+      "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_xmas_2026_hiroshima_1102",
+      "tourId": "momoiro_clover_z_xmas_2026",
+      "venue": "ふくやま芸術文化ホール リーデンローズ",
+      "performanceAt": "2026-11-02T19:00:00+09:00",
+      "doorOpenAt": "2026-11-02T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260727_03",
+      "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_xmas_2026_hyogo_1106",
+      "tourId": "momoiro_clover_z_xmas_2026",
+      "venue": "神戸国際会館 こくさいホール",
+      "performanceAt": "2026-11-06T19:00:00+09:00",
+      "doorOpenAt": "2026-11-06T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260727_03",
+      "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_xmas_2026_kyoto_1107",
+      "tourId": "momoiro_clover_z_xmas_2026",
+      "venue": "ロームシアター京都",
+      "performanceAt": "2026-11-07T17:30:00+09:00",
+      "doorOpenAt": "2026-11-07T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260727_03",
+      "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_xmas_2026_niigata_1122",
+      "tourId": "momoiro_clover_z_xmas_2026",
+      "venue": "新潟テルサ",
+      "performanceAt": "2026-11-22T16:00:00+09:00",
+      "doorOpenAt": "2026-11-22T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260727_03",
+      "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_xmas_2026_aichi_1123",
+      "tourId": "momoiro_clover_z_xmas_2026",
+      "venue": "一宮市民会館",
+      "performanceAt": "2026-11-23T17:30:00+09:00",
+      "doorOpenAt": "2026-11-23T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260727_03",
+      "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_xmas_2026_fukuoka_1127",
+      "tourId": "momoiro_clover_z_xmas_2026",
+      "venue": "福岡市民ホール 大ホール",
+      "performanceAt": "2026-11-27T19:00:00+09:00",
+      "doorOpenAt": "2026-11-27T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260727_03",
+      "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_xmas_2026_sapporo_1203",
+      "tourId": "momoiro_clover_z_xmas_2026",
+      "venue": "Zepp Sapporo",
+      "performanceAt": "2026-12-03T19:00:00+09:00",
+      "doorOpenAt": "2026-12-03T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260727_03",
+      "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_xmas_2026_tokyo_1211",
+      "tourId": "momoiro_clover_z_xmas_2026",
+      "venue": "SGC HALL ARIAKE",
+      "performanceAt": "2026-12-11T19:00:00+09:00",
+      "doorOpenAt": "2026-12-11T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260727_03",
+      "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
     }
   ],
   "lotteries": [
@@ -423,6 +704,70 @@
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260718_02",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_orchestra_summer_memories_2026_general",
+      "tourId": "momoiro_clover_z_orchestra_summer_memories_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-07-24T21:00:00+09:00",
+      "entryEndAt": "2026-08-23T18:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "momoiro_clover_z_orchestra_summer_memories_2026_tokyo_0824"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/4537830001-P0030001P021001",
+      "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_fes_kurofes_2026_general",
+      "tourId": "momoiro_clover_z_fes_kurofes_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-08-01T10:00:00+09:00",
+      "entryEndAt": "2026-09-02T18:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "momoiro_clover_z_fes_kurofes_2026_tokyo_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://diskgarage.com/ticket/detail/102091",
+      "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_hide_live_2026_general",
+      "tourId": "momoiro_clover_z_hide_live_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-07-26T10:00:00+09:00",
+      "entryEndAt": "2026-09-16T18:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "momoiro_clover_z_hide_live_2026_tokyo_0917"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/2309490001-P0030007",
+      "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_fes_spooky_pumpkin_2026_2nd",
+      "tourId": "momoiro_clover_z_fes_spooky_pumpkin_2026",
+      "type": "第二弾先行抽選",
+      "entryStartAt": "2026-08-26T11:00:00+09:00",
+      "entryEndAt": "2026-09-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "momoiro_clover_z_fes_spooky_pumpkin_2026_tama_1031"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.puroland.jp/event-campaign/spookypumpkin2026/",
+      "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
     }
   ],
   "appleMusicTracks": [

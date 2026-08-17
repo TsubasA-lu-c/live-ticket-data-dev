@@ -9,8 +9,16 @@
       "endDate": "2026-10-23T00:00:00+09:00",
       "prices": [
         {
-          "label": "Zepp公演 1Fスタンディング／2F立見指定",
-          "amount": 20000
+          "label": "東京ガーデンシアター Tシャツ付きSS席",
+          "amount": 29000
+        },
+        {
+          "label": "東京ガーデンシアター Tシャツ付きS席",
+          "amount": 24000
+        },
+        {
+          "label": "東京ガーデンシアター SS席",
+          "amount": 25000
         },
         {
           "label": "東京ガーデンシアター S席",
@@ -19,11 +27,23 @@
         {
           "label": "東京ガーデンシアター A席（5F後方ブロック）",
           "amount": 16000
+        },
+        {
+          "label": "Zepp 1Fスタンディング",
+          "amount": 20000
+        },
+        {
+          "label": "Zepp 2F指定席",
+          "amount": 25000
+        },
+        {
+          "label": "Zepp 2F立見指定",
+          "amount": 20000
         }
       ],
       "source": "system",
       "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
     }
   ],
   "performances": [
@@ -141,57 +161,57 @@
       "id": "bz_tmg_sayonara_2026_ticket_1st",
       "tourId": "bz_tmg_sayonara_2026",
       "type": "B'z TICKET・B'z PARTY先行（1次）",
-      "entryStartAt": null,
-      "entryEndAt": null,
-      "resultAt": null,
+      "entryStartAt": "2026-05-13T12:00:00+09:00",
+      "entryEndAt": "2026-05-19T12:00:00+09:00",
+      "resultAt": "2026-05-27T12:00:00+09:00",
       "paymentStartAt": null,
       "paymentEndAt": null,
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
     },
     {
       "id": "bz_tmg_sayonara_2026_ticket_2nd",
       "tourId": "bz_tmg_sayonara_2026",
       "type": "B'z TICKET・B'z PARTY / Club-Gym先行（2次）",
-      "entryStartAt": null,
-      "entryEndAt": null,
-      "resultAt": null,
+      "entryStartAt": "2026-06-08T12:00:00+09:00",
+      "entryEndAt": "2026-06-14T12:00:00+09:00",
+      "resultAt": "2026-06-20T12:00:00+09:00",
       "paymentStartAt": null,
       "paymentEndAt": null,
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
     },
     {
       "id": "bz_tmg_sayonara_2026_ticket_3rd",
       "tourId": "bz_tmg_sayonara_2026",
       "type": "B'z TICKET・B'z PARTY / Club-Gym先行（3次）",
-      "entryStartAt": null,
-      "entryEndAt": null,
-      "resultAt": null,
+      "entryStartAt": "2026-07-06T12:00:00+09:00",
+      "entryEndAt": "2026-07-14T12:00:00+09:00",
+      "resultAt": "2026-07-23T12:00:00+09:00",
       "paymentStartAt": null,
       "paymentEndAt": null,
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
     },
     {
       "id": "bz_tmg_sayonara_2026_ponta",
       "tourId": "bz_tmg_sayonara_2026",
       "type": "Pontaパス会員先行",
-      "entryStartAt": null,
-      "entryEndAt": null,
-      "resultAt": null,
+      "entryStartAt": "2026-07-23T12:00:00+09:00",
+      "entryEndAt": "2026-08-02T23:59:00+09:00",
+      "resultAt": "2026-08-06T20:00:00+09:00",
       "paymentStartAt": null,
       "paymentEndAt": null,
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
     },
     {
       "id": "bz_tmg_sayonara_2026_pia",
@@ -242,6 +262,34 @@
       "source": "system",
       "sourceUrl": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2669128",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "bz_tmg_sayonara_2026_general",
+      "tourId": "bz_tmg_sayonara_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-09-05T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
+      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
+    },
+    {
+      "id": "bz_tmg_sayonara_2026_resale",
+      "tourId": "bz_tmg_sayonara_2026",
+      "type": "B'z TICKETリセール（抽選）",
+      "entryStartAt": "2026-09-17T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
+      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
     }
   ],
   "appleMusicTracks": [
