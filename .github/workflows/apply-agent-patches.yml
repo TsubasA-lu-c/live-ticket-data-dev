@@ -1,0 +1,38 @@
+name: Apply agent patches
+
+on:
+  push:
+    branches:
+      - agent/refresh-batch-01-2026-08-17
+    paths:
+      - 'agent/patches/current.json'
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Apply scoped patches
+        run: python3 tools/apply_agent_patch.py agent/patches/current.json
+      - name: Update manifest
+        run: python3 tools/update_manifest.py
+      - name: Validate
+        run: python3 tools/validate.py
+      - name: Commit validated changes
+        run: |
+          if git diff --quiet -- data/artist data/manifest.json; then
+            echo 'No data changes to commit.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/artist data/manifest.json
+          git commit -m 'Apply validated agent data patches'
+          git push
