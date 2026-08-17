@@ -1,19 +1,31 @@
 {
   "operations": [
     {
+      "action": "delete",
+      "file": "data/artist/naniwa_danshi.json",
+      "collection": "performances",
+      "id": "naniwa_danshi_fes_kamigata_expo_park_2026_banpaku_1031"
+    },
+    {
+      "action": "delete",
+      "file": "data/artist/naniwa_danshi.json",
+      "collection": "performances",
+      "id": "naniwa_danshi_fes_kamigata_expo_park_2026_banpaku_1101"
+    },
+    {
       "action": "upsert",
       "file": "data/artist/not_equal_me.json",
       "collection": "tours",
       "value": {
-        "id": "not_equal_me_summer_festival_2026",
+        "id": "not_equal_me_noimi_meeting_tokyo_2026",
         "artistId": "not_equal_me",
-        "title": "≠ME夏祭り",
-        "startDate": "2026-08-29T00:00:00+09:00",
-        "endDate": "2026-08-29T00:00:00+09:00",
+        "title": "ノイミー会＠東京",
+        "startDate": "2026-08-22T00:00:00+09:00",
+        "endDate": "2026-08-22T00:00:00+09:00",
         "prices": null,
         "source": "system",
-        "sourceUrl": "https://not-equal-me.jp/schedule/detail/7372",
-        "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+        "sourceUrl": "https://not-equal-me.jp/news/detail/7490",
+        "lastVerifiedAt": "2026-08-17T23:55:00+09:00"
       }
     },
     {
@@ -21,290 +33,78 @@
       "file": "data/artist/not_equal_me.json",
       "collection": "performances",
       "value": {
-        "id": "not_equal_me_summer_festival_2026_yokohama_0829",
-        "tourId": "not_equal_me_summer_festival_2026",
+        "id": "not_equal_me_noimi_meeting_tokyo_2026_0822_1",
+        "tourId": "not_equal_me_noimi_meeting_tokyo_2026",
+        "venue": "天王洲 銀河劇場",
+        "performanceAt": "2026-08-22T15:00:00+09:00",
+        "doorOpenAt": null,
+        "kind": "oneman",
+        "eventName": "ノイミー会＠東京 第一部",
+        "source": "system",
+        "sourceUrl": "https://not-equal-me.jp/news/detail/7490",
+        "lastVerifiedAt": "2026-08-17T23:55:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/not_equal_me.json",
+      "collection": "performances",
+      "value": {
+        "id": "not_equal_me_noimi_meeting_tokyo_2026_0822_2",
+        "tourId": "not_equal_me_noimi_meeting_tokyo_2026",
+        "venue": "天王洲 銀河劇場",
+        "performanceAt": "2026-08-22T18:00:00+09:00",
+        "doorOpenAt": null,
+        "kind": "oneman",
+        "eventName": "ノイミー会＠東京 第二部",
+        "source": "system",
+        "sourceUrl": "https://not-equal-me.jp/news/detail/7490",
+        "lastVerifiedAt": "2026-08-17T23:55:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/not_equal_me.json",
+      "collection": "tours",
+      "value": {
+        "id": "not_equal_me_special_live_2026",
+        "artistId": "not_equal_me",
+        "title": "≠MEスペシャルライブ",
+        "startDate": "2026-08-28T00:00:00+09:00",
+        "endDate": "2026-08-28T00:00:00+09:00",
+        "prices": null,
+        "source": "system",
+        "sourceUrl": "https://not-equal-me.jp/news/detail/7490",
+        "lastVerifiedAt": "2026-08-17T23:55:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/not_equal_me.json",
+      "collection": "performances",
+      "value": {
+        "id": "not_equal_me_special_live_2026_yokohama_0828",
+        "tourId": "not_equal_me_special_live_2026",
         "venue": "新都市ホール",
-        "performanceAt": "2026-08-29T13:30:00+09:00",
-        "doorOpenAt": "2026-08-29T12:30:00+09:00",
+        "performanceAt": "2026-08-28T17:00:00+09:00",
+        "doorOpenAt": null,
         "kind": "oneman",
-        "eventName": "≠ME夏祭り",
-        "source": "system",
-        "sourceUrl": "https://not-equal-me.jp/schedule/detail/7372",
-        "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
-      }
-    },
-    {
-      "action": "upsert",
-      "file": "data/artist/not_equal_me.json",
-      "collection": "lotteries",
-      "value": {
-        "id": "not_equal_me_summer_festival_2026_cd_round4",
-        "tourId": "not_equal_me_summer_festival_2026",
-        "type": "ノイミー盤サマーギフト付き 第4販売（購入者抽選）",
-        "entryStartAt": "2026-05-18T18:00:00+09:00",
-        "entryEndAt": "2026-05-22T13:00:00+09:00",
-        "resultAt": "2026-07-21T14:00:00+09:00",
-        "paymentStartAt": null,
-        "paymentEndAt": null,
-        "performanceIds": ["not_equal_me_summer_festival_2026_yokohama_0829"],
-        "source": "system",
-        "sourceUrl": "https://not-equal-me.jp/news/detail/7371",
-        "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
-      }
-    },
-    {
-      "action": "upsert",
-      "file": "data/artist/not_equal_me.json",
-      "collection": "lotteries",
-      "value": {
-        "id": "not_equal_me_summer_festival_2026_cd_round5",
-        "tourId": "not_equal_me_summer_festival_2026",
-        "type": "ノイミー盤サマーギフト付き 第5販売（購入者抽選）",
-        "entryStartAt": "2026-05-28T18:00:00+09:00",
-        "entryEndAt": "2026-06-02T13:00:00+09:00",
-        "resultAt": "2026-07-21T14:00:00+09:00",
-        "paymentStartAt": null,
-        "paymentEndAt": null,
-        "performanceIds": ["not_equal_me_summer_festival_2026_yokohama_0829"],
-        "source": "system",
-        "sourceUrl": "https://not-equal-me.jp/news/detail/7371",
-        "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
-      }
-    },
-    {
-      "action": "upsert",
-      "file": "data/artist/not_equal_me.json",
-      "collection": "lotteries",
-      "value": {
-        "id": "not_equal_me_summer_festival_2026_cd_round6",
-        "tourId": "not_equal_me_summer_festival_2026",
-        "type": "ノイミー盤サマーギフト付き 第6販売（購入者抽選）",
-        "entryStartAt": "2026-06-08T18:00:00+09:00",
-        "entryEndAt": "2026-06-16T13:00:00+09:00",
-        "resultAt": "2026-07-21T14:00:00+09:00",
-        "paymentStartAt": null,
-        "paymentEndAt": null,
-        "performanceIds": ["not_equal_me_summer_festival_2026_yokohama_0829"],
-        "source": "system",
-        "sourceUrl": "https://not-equal-me.jp/news/detail/7371",
-        "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
-      }
-    },
-    {
-      "action": "upsert",
-      "file": "data/artist/not_equal_me.json",
-      "collection": "tours",
-      "value": {
-        "id": "not_equal_me_sanrio_special_live_2026",
-        "artistId": "not_equal_me",
-        "title": "≠ME サンリオキャラクタースペシャルライブ",
-        "startDate": "2026-09-18T00:00:00+09:00",
-        "endDate": "2026-09-18T00:00:00+09:00",
-        "prices": null,
+        "eventName": "≠MEスペシャルライブ",
         "source": "system",
         "sourceUrl": "https://not-equal-me.jp/news/detail/7490",
-        "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
-      }
-    },
-    {
-      "action": "upsert",
-      "file": "data/artist/not_equal_me.json",
-      "collection": "performances",
-      "value": {
-        "id": "not_equal_me_sanrio_special_live_2026_tokyo_0918",
-        "tourId": "not_equal_me_sanrio_special_live_2026",
-        "venue": "ヒューリックホール東京",
-        "performanceAt": "2026-09-18T19:00:00+09:00",
-        "doorOpenAt": "2026-09-18T18:30:00+09:00",
-        "kind": "oneman",
-        "eventName": "≠ME サンリオキャラクタースペシャルライブ",
-        "source": "system",
-        "sourceUrl": "https://not-equal-me.jp/news/detail/7490",
-        "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
-      }
-    },
-    {
-      "action": "upsert",
-      "file": "data/artist/not_equal_me.json",
-      "collection": "lotteries",
-      "value": {
-        "id": "not_equal_me_sanrio_special_live_2026_serial",
-        "tourId": "not_equal_me_sanrio_special_live_2026",
-        "type": "スペシャル応募抽選",
-        "entryStartAt": "2026-06-23T12:00:00+09:00",
-        "entryEndAt": "2026-08-17T12:00:00+09:00",
-        "resultAt": null,
-        "paymentStartAt": null,
-        "paymentEndAt": null,
-        "performanceIds": ["not_equal_me_sanrio_special_live_2026_tokyo_0918"],
-        "source": "system",
-        "sourceUrl": "https://not-equal-me.jp/news/detail/7490",
-        "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+        "lastVerifiedAt": "2026-08-17T23:55:00+09:00"
       }
     },
     {
       "action": "merge",
-      "file": "data/artist/novelbright.json",
+      "file": "data/artist/number_i.json",
       "collection": "performances",
-      "id": "novelbright_pyramid_2026_hyogo_0926",
-      "changes": {"performanceAt":"2026-09-26T18:00:00+09:00","doorOpenAt":"2026-09-26T17:00:00+09:00","sourceUrl":"https://novelbright.jp/feature/hall_arenatour2026","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/novelbright.json",
-      "collection": "performances",
-      "id": "novelbright_pyramid_2026_hyogo_0927",
-      "changes": {"performanceAt":"2026-09-27T17:00:00+09:00","doorOpenAt":"2026-09-27T16:00:00+09:00","sourceUrl":"https://novelbright.jp/feature/hall_arenatour2026","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/novelbright.json",
-      "collection": "performances",
-      "id": "novelbright_pyramid_2026_kanagawa_1007",
-      "changes": {"performanceAt":"2026-10-07T18:30:00+09:00","doorOpenAt":"2026-10-07T17:30:00+09:00","sourceUrl":"https://novelbright.jp/feature/hall_arenatour2026","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/novelbright.json",
-      "collection": "performances",
-      "id": "novelbright_pyramid_2026_kanagawa_1008",
-      "changes": {"performanceAt":"2026-10-08T18:30:00+09:00","doorOpenAt":"2026-10-08T17:30:00+09:00","sourceUrl":"https://novelbright.jp/feature/hall_arenatour2026","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/novelbright.json",
-      "collection": "performances",
-      "id": "novelbright_pyramid_2026_osaka_1016",
-      "changes": {"performanceAt":"2026-10-16T18:30:00+09:00","doorOpenAt":"2026-10-16T17:30:00+09:00","sourceUrl":"https://novelbright.jp/feature/hall_arenatour2026","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/novelbright.json",
-      "collection": "performances",
-      "id": "novelbright_pyramid_2026_osaka_1017",
-      "changes": {"performanceAt":"2026-10-17T18:00:00+09:00","doorOpenAt":"2026-10-17T17:00:00+09:00","sourceUrl":"https://novelbright.jp/feature/hall_arenatour2026","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/novelbright.json",
-      "collection": "performances",
-      "id": "novelbright_asia_2026_singapore_0818",
-      "changes": {"performanceAt":"2026-08-18T20:00:00+08:00","sourceUrl":"https://novelbright.jp/feature/hall_arenatour2026","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/novelbright.json",
-      "collection": "performances",
-      "id": "novelbright_asia_2026_hongkong_0825",
-      "changes": {"performanceAt":"2026-08-25T19:00:00+08:00","sourceUrl":"https://novelbright.jp/feature/hall_arenatour2026","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/novelbright.json",
-      "collection": "performances",
-      "id": "novelbright_asia_2026_hongkong_0826",
-      "changes": {"performanceAt":"2026-08-26T19:00:00+08:00","sourceUrl":"https://novelbright.jp/feature/hall_arenatour2026","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/novelbright.json",
-      "collection": "performances",
-      "id": "novelbright_asia_2026_taipei_1024",
-      "changes": {"performanceAt":"2026-10-24T18:00:00+08:00","doorOpenAt":"2026-10-24T17:00:00+08:00","sourceUrl":"https://novelbright.jp/feature/hall_arenatour2026","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
-    },
-    {
-      "action": "upsert",
-      "file": "data/artist/novelbright.json",
-      "collection": "lotteries",
-      "value": {
-        "id": "novelbright_pyramid_2026_kanagawa_general",
-        "tourId": "novelbright_pyramid_2026",
-        "type": "一般発売（ぴあアリーナMM・指定席）",
-        "entryStartAt": "2026-06-27T00:00:00+09:00",
-        "entryEndAt": null,
-        "resultAt": null,
-        "paymentStartAt": null,
-        "paymentEndAt": null,
-        "performanceIds": ["novelbright_pyramid_2026_kanagawa_1007","novelbright_pyramid_2026_kanagawa_1008"],
-        "source": "system",
-        "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
-        "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
-      }
-    },
-    {
-      "action": "upsert",
-      "file": "data/artist/novelbright.json",
-      "collection": "lotteries",
-      "value": {
-        "id": "novelbright_asia_2026_singapore_general",
-        "tourId": "novelbright_asia_2026",
-        "type": "シンガポール公演 一般発売",
-        "entryStartAt": "2026-05-15T14:00:00+08:00",
-        "entryEndAt": null,
-        "resultAt": null,
-        "paymentStartAt": null,
-        "paymentEndAt": null,
-        "performanceIds": ["novelbright_asia_2026_singapore_0818"],
-        "source": "system",
-        "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
-        "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
-      }
-    },
-    {
-      "action": "upsert",
-      "file": "data/artist/novelbright.json",
-      "collection": "lotteries",
-      "value": {
-        "id": "novelbright_asia_2026_hongkong_0825_general",
-        "tourId": "novelbright_asia_2026",
-        "type": "香港8/25公演 一般発売",
-        "entryStartAt": "2026-05-15T14:00:00+08:00",
-        "entryEndAt": null,
-        "resultAt": null,
-        "paymentStartAt": null,
-        "paymentEndAt": null,
-        "performanceIds": ["novelbright_asia_2026_hongkong_0825"],
-        "source": "system",
-        "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
-        "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
-      }
-    },
-    {
-      "action": "upsert",
-      "file": "data/artist/novelbright.json",
-      "collection": "lotteries",
-      "value": {
-        "id": "novelbright_asia_2026_hongkong_0826_general",
-        "tourId": "novelbright_asia_2026",
-        "type": "香港8/26公演 一般発売",
-        "entryStartAt": "2026-06-03T15:00:00+08:00",
-        "entryEndAt": null,
-        "resultAt": null,
-        "paymentStartAt": null,
-        "paymentEndAt": null,
-        "performanceIds": ["novelbright_asia_2026_hongkong_0826"],
-        "source": "system",
-        "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
-        "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
-      }
-    },
-    {
-      "action": "upsert",
-      "file": "data/artist/novelbright.json",
-      "collection": "lotteries",
-      "value": {
-        "id": "novelbright_asia_2026_taipei_general",
-        "tourId": "novelbright_asia_2026",
-        "type": "台北公演 一般発売",
-        "entryStartAt": "2026-05-08T12:00:00+08:00",
-        "entryEndAt": null,
-        "resultAt": null,
-        "paymentStartAt": null,
-        "paymentEndAt": null,
-        "performanceIds": ["novelbright_asia_2026_taipei_1024"],
-        "source": "system",
-        "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
-        "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+      "id": "number_i_fes_rijf_2026_soga_0919",
+      "changes": {
+        "venue": "千葉市蘇我スポーツ公園 GRASS STAGE",
+        "performanceAt": "2026-09-19T17:45:00+09:00",
+        "sourceUrl": "https://rijfes.jp/2026/timetable/",
+        "lastVerifiedAt": "2026-08-17T23:55:00+09:00"
       }
     }
   ]
