@@ -1,0 +1,59 @@
+{
+  "operations": [
+    {
+      "action": "merge",
+      "file": "data/artist/fruits_zipper.json",
+      "collection": "performances",
+      "id": "fruits_zipper_fes_2026_asobiexpo_tokyo_0818",
+      "changes": {
+        "performanceAt": "2026-08-18T17:30:00+09:00",
+        "doorOpenAt": "2026-08-18T16:00:00+09:00",
+        "lastVerifiedAt": "2026-08-17T22:40:00+09:00"
+      }
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/fruits_zipper.json",
+      "collection": "performances",
+      "id": "fruits_zipper_fes_2026_pamyufes_yokohama_0822",
+      "changes": {
+        "performanceAt": "2026-08-22T15:30:00+09:00",
+        "doorOpenAt": "2026-08-22T14:30:00+09:00",
+        "lastVerifiedAt": "2026-08-17T22:40:00+09:00"
+      }
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/fruits_zipper.json",
+      "collection": "performances",
+      "id": "fruits_zipper_fes_2026_cdtv_tokyo_0911",
+      "changes": {
+        "performanceAt": "2026-09-11T18:00:00+09:00",
+        "doorOpenAt": "2026-09-11T16:30:00+09:00",
+        "lastVerifiedAt": "2026-08-17T22:40:00+09:00"
+      }
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/fruits_zipper.json",
+      "collection": "performances",
+      "id": "fruits_zipper_kawaii_lab_christmas_2026_ariake_1212",
+      "changes": {
+        "performanceAt": "2026-12-12T17:00:00+09:00",
+        "doorOpenAt": "2026-12-12T15:00:00+09:00",
+        "lastVerifiedAt": "2026-08-17T22:40:00+09:00"
+      }
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/fruits_zipper.json",
+      "collection": "performances",
+      "id": "fruits_zipper_kawaii_lab_christmas_2026_ariake_1213",
+      "changes": {
+        "performanceAt": "2026-12-13T16:00:00+09:00",
+        "doorOpenAt": "2026-12-13T14:00:00+09:00",
+        "lastVerifiedAt": "2026-08-17T22:40:00+09:00"
+      }
+    }
+  ]
+}
