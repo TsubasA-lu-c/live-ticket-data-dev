@@ -1,27 +1,95 @@
-{"operations":[
-{"action":"merge","file":"data/artist/miura_daichi.json","collection":"performances","id":"miura_daichi_raw_bare_2026_misato_0912","changes":{"doorOpenAt":"2026-09-12T16:30:00+09:00","sourceUrl":"https://daichi-miura.jp/news/detail/913","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
-{"action":"merge","file":"data/artist/miura_daichi.json","collection":"performances","id":"miura_daichi_raw_bare_2026_misato_0913","changes":{"doorOpenAt":"2026-09-13T15:00:00+09:00","sourceUrl":"https://daichi-miura.jp/news/detail/913","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
-{"action":"merge","file":"data/artist/miura_daichi.json","collection":"performances","id":"miura_daichi_raw_bare_2026_osaka_0920","changes":{"doorOpenAt":"2026-09-20T17:00:00+09:00","sourceUrl":"https://daichi-miura.jp/news/detail/913","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
-{"action":"merge","file":"data/artist/miura_daichi.json","collection":"performances","id":"miura_daichi_raw_bare_2026_osaka_0921","changes":{"doorOpenAt":"2026-09-21T16:00:00+09:00","sourceUrl":"https://daichi-miura.jp/news/detail/913","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
-{"action":"merge","file":"data/artist/miura_daichi.json","collection":"performances","id":"miura_daichi_raw_bare_2026_ariake_0924","changes":{"doorOpenAt":"2026-09-24T17:30:00+09:00","sourceUrl":"https://daichi-miura.jp/news/detail/913","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
-{"action":"merge","file":"data/artist/miura_daichi.json","collection":"performances","id":"miura_daichi_raw_bare_2026_ariake_0925","changes":{"doorOpenAt":"2026-09-25T17:30:00+09:00","sourceUrl":"https://daichi-miura.jp/news/detail/913","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
-{"action":"merge","file":"data/artist/miura_daichi.json","collection":"performances","id":"miura_daichi_raw_bare_2026_kawaguchi_1006","changes":{"doorOpenAt":"2026-10-06T17:30:00+09:00","sourceUrl":"https://daichi-miura.jp/news/detail/913","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
-{"action":"merge","file":"data/artist/miura_daichi.json","collection":"performances","id":"miura_daichi_raw_bare_2026_fuji_1017","changes":{"doorOpenAt":"2026-10-17T16:30:00+09:00","sourceUrl":"https://daichi-miura.jp/news/detail/913","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
-{"action":"merge","file":"data/artist/miura_daichi.json","collection":"performances","id":"miura_daichi_raw_bare_2026_gifu_1018","changes":{"doorOpenAt":"2026-10-18T16:30:00+09:00","sourceUrl":"https://daichi-miura.jp/news/detail/913","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
-{"action":"merge","file":"data/artist/miura_daichi.json","collection":"performances","id":"miura_daichi_raw_bare_2026_matsudo_1024","changes":{"doorOpenAt":"2026-10-24T16:30:00+09:00","sourceUrl":"https://daichi-miura.jp/news/detail/913","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
-{"action":"merge","file":"data/artist/miura_daichi.json","collection":"performances","id":"miura_daichi_raw_bare_2026_sendai_1030","changes":{"doorOpenAt":"2026-10-30T17:30:00+09:00","sourceUrl":"https://daichi-miura.jp/news/detail/913","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
-{"action":"merge","file":"data/artist/miura_daichi.json","collection":"performances","id":"miura_daichi_raw_bare_2026_morioka_1031","changes":{"doorOpenAt":"2026-10-31T16:30:00+09:00","sourceUrl":"https://daichi-miura.jp/news/detail/913","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
-{"action":"merge","file":"data/artist/miura_daichi.json","collection":"performances","id":"miura_daichi_raw_bare_2026_kochi_1106","changes":{"doorOpenAt":"2026-11-06T17:30:00+09:00","sourceUrl":"https://daichi-miura.jp/news/detail/913","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
-{"action":"merge","file":"data/artist/miura_daichi.json","collection":"performances","id":"miura_daichi_raw_bare_2026_kurashiki_1108","changes":{"doorOpenAt":"2026-11-08T16:30:00+09:00","sourceUrl":"https://daichi-miura.jp/news/detail/913","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
-{"action":"merge","file":"data/artist/miura_daichi.json","collection":"performances","id":"miura_daichi_raw_bare_2026_yokosuka_1118","changes":{"doorOpenAt":"2026-11-18T17:30:00+09:00","sourceUrl":"https://daichi-miura.jp/news/detail/913","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
-{"action":"merge","file":"data/artist/miura_daichi.json","collection":"performances","id":"miura_daichi_raw_bare_2026_kobe_1122","changes":{"doorOpenAt":"2026-11-22T16:30:00+09:00","sourceUrl":"https://daichi-miura.jp/news/detail/913","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
-{"action":"merge","file":"data/artist/miura_daichi.json","collection":"performances","id":"miura_daichi_raw_bare_2026_kobe_1123","changes":{"doorOpenAt":"2026-11-23T15:00:00+09:00","sourceUrl":"https://daichi-miura.jp/news/detail/913","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
-{"action":"merge","file":"data/artist/miura_daichi.json","collection":"performances","id":"miura_daichi_raw_bare_2026_fukuoka_1127","changes":{"doorOpenAt":"2026-11-27T17:30:00+09:00","sourceUrl":"https://daichi-miura.jp/news/detail/913","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
-{"action":"merge","file":"data/artist/miura_daichi.json","collection":"performances","id":"miura_daichi_raw_bare_2026_kumamoto_1129","changes":{"doorOpenAt":"2026-11-29T16:30:00+09:00","sourceUrl":"https://daichi-miura.jp/news/detail/913","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
-{"action":"merge","file":"data/artist/miura_daichi.json","collection":"performances","id":"miura_daichi_raw_bare_2026_aichi_1219","changes":{"doorOpenAt":"2026-12-19T16:30:00+09:00","sourceUrl":"https://daichi-miura.jp/news/detail/913","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
-{"action":"merge","file":"data/artist/miura_daichi.json","collection":"performances","id":"miura_daichi_raw_bare_2026_aichi_1220","changes":{"doorOpenAt":"2026-12-20T15:00:00+09:00","sourceUrl":"https://daichi-miura.jp/news/detail/913","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
-{"action":"merge","file":"data/artist/miura_daichi.json","collection":"performances","id":"miura_daichi_premium_listening_event_2026_1","changes":{"doorOpenAt":"2026-08-09T14:00:00+09:00","sourceUrl":"https://daichi-miura.jp/news/detail/1028","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
-{"action":"merge","file":"data/artist/miura_daichi.json","collection":"performances","id":"miura_daichi_premium_listening_event_2026_2","changes":{"doorOpenAt":"2026-08-09T16:00:00+09:00","sourceUrl":"https://daichi-miura.jp/news/detail/1028","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
-{"action":"merge","file":"data/artist/miura_daichi.json","collection":"performances","id":"miura_daichi_jwave_pianomen_2026_ariake_1008","changes":{"doorOpenAt":"2026-10-08T18:00:00+09:00","sourceUrl":"https://daichi-miura.jp/news/detail/1030","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
-{"action":"upsert","file":"data/artist/miura_daichi.json","collection":"lotteries","value":{"id":"miura_daichi_raw_bare_2026_osaka_lawson_0803","tourId":"miura_daichi_raw_bare_2026","type":"ローソンチケット先行","entryStartAt":"2026-08-03T18:00:00+09:00","entryEndAt":"2026-08-16T23:59:00+09:00","resultAt":null,"paymentStartAt":null,"paymentEndAt":null,"performanceIds":["miura_daichi_raw_bare_2026_osaka_0920","miura_daichi_raw_bare_2026_osaka_0921"],"source":"system","sourceUrl":"https://daichi-miura.jp/news/detail/982","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}}
-]}
+{
+  "operations": [
+    {
+      "action": "merge",
+      "file": "data/artist/macaroni_empitsu.json",
+      "collection": "tours",
+      "id": "macaroni_empitsu_fes_2026_murffin",
+      "changes": {
+        "prices": [
+          {"label": "指定席", "amount": 12000},
+          {"label": "車椅子席", "amount": 12000}
+        ],
+        "sourceUrl": "https://macaroniempitsu.com/live/19510.html",
+        "lastVerifiedAt": "2026-08-17T23:32:00+09:00"
+      }
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/macaroni_empitsu.json",
+      "collection": "performances",
+      "id": "macaroni_empitsu_fes_2026_murffin_1018",
+      "changes": {
+        "venue": "国立代々木競技場 第一体育館",
+        "performanceAt": "2026-10-18T14:30:00+09:00",
+        "doorOpenAt": "2026-10-18T14:00:00+09:00",
+        "sourceUrl": "https://macaroniempitsu.com/live/19510.html",
+        "lastVerifiedAt": "2026-08-17T23:32:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/macaroni_empitsu.json",
+      "collection": "lotteries",
+      "value": {
+        "id": "macaroni_empitsu_fes_2026_murffin_general",
+        "tourId": "macaroni_empitsu_fes_2026_murffin",
+        "type": "一般発売（先着）",
+        "entryStartAt": "2026-05-16T12:00:00+09:00",
+        "entryEndAt": null,
+        "resultAt": null,
+        "paymentStartAt": null,
+        "paymentEndAt": null,
+        "performanceIds": ["macaroni_empitsu_fes_2026_murffin_1018"],
+        "source": "system",
+        "sourceUrl": "https://macaroniempitsu.com/live/19510.html",
+        "lastVerifiedAt": "2026-08-17T23:32:00+09:00"
+      }
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/mazzel.json",
+      "collection": "performances",
+      "id": "mazzel_asuto_music_park_2026_0905",
+      "changes": {
+        "performanceAt": "2026-09-05T16:10:00+09:00",
+        "sourceUrl": "https://asutomusicpark.com/",
+        "lastVerifiedAt": "2026-08-17T23:32:00+09:00"
+      }
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/mazzel.json",
+      "collection": "performances",
+      "id": "mazzel_cdtv_autumn_2026_0913",
+      "changes": {
+        "performanceAt": "2026-09-13T16:00:00+09:00",
+        "doorOpenAt": "2026-09-13T14:30:00+09:00",
+        "sourceUrl": "https://www.tbs.co.jp/cdtv_livelive/articles/20260706.html",
+        "lastVerifiedAt": "2026-08-17T23:32:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/miura_daichi.json",
+      "collection": "lotteries",
+      "value": {
+        "id": "miura_daichi_raw_bare_2026_bea_1st",
+        "tourId": "miura_daichi_raw_bare_2026",
+        "type": "BEA WEB 1次先行（抽選）",
+        "entryStartAt": "2026-08-22T18:00:00+09:00",
+        "entryEndAt": "2026-09-02T23:59:00+09:00",
+        "resultAt": null,
+        "paymentStartAt": null,
+        "paymentEndAt": null,
+        "performanceIds": [
+          "miura_daichi_raw_bare_2026_fukuoka_1127",
+          "miura_daichi_raw_bare_2026_kumamoto_1129"
+        ],
+        "source": "system",
+        "sourceUrl": "https://www.bea-net.com/liveinformation/artist/2611miuradaichi.html",
+        "lastVerifiedAt": "2026-08-17T23:32:00+09:00"
+      }
+    }
+  ]
+}
