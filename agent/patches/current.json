@@ -1,262 +1,402 @@
 {
   "operations": [
     {
-      "action": "merge",
-      "file": "data/artist/mrs_green_apple.json",
-      "collection": "tours",
-      "id": "mrs_green_apple_ringojam_shadows_2026",
-      "changes": {
-        "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-        "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
-      }
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/mrs_green_apple.json",
+      "action": "upsert",
+      "file": "data/artist/momoiro_clover_z.json",
       "collection": "performances",
-      "id": "mrs_green_apple_ringojam_shadows_2026_kagawa_0930",
-      "changes": {"performanceAt":"2026-09-30T18:00:00+09:00","doorOpenAt":"2026-09-30T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/mrs_green_apple.json",
-      "collection": "performances",
-      "id": "mrs_green_apple_ringojam_shadows_2026_kagawa_1001",
-      "changes": {"performanceAt":"2026-10-01T18:00:00+09:00","doorOpenAt":"2026-10-01T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/mrs_green_apple.json",
-      "collection": "performances",
-      "id": "mrs_green_apple_ringojam_shadows_2026_hiroshima_1006",
-      "changes": {"performanceAt":"2026-10-06T18:00:00+09:00","doorOpenAt":"2026-10-06T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/mrs_green_apple.json",
-      "collection": "performances",
-      "id": "mrs_green_apple_ringojam_shadows_2026_hiroshima_1007",
-      "changes": {"performanceAt":"2026-10-07T18:00:00+09:00","doorOpenAt":"2026-10-07T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/mrs_green_apple.json",
-      "collection": "performances",
-      "id": "mrs_green_apple_ringojam_shadows_2026_chiba_1014",
-      "changes": {"performanceAt":"2026-10-14T18:00:00+09:00","doorOpenAt":"2026-10-14T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/mrs_green_apple.json",
-      "collection": "performances",
-      "id": "mrs_green_apple_ringojam_shadows_2026_chiba_1015",
-      "changes": {"performanceAt":"2026-10-15T18:00:00+09:00","doorOpenAt":"2026-10-15T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/mrs_green_apple.json",
-      "collection": "performances",
-      "id": "mrs_green_apple_ringojam_shadows_2026_hokkaido_1023",
-      "changes": {"performanceAt":"2026-10-23T18:00:00+09:00","doorOpenAt":"2026-10-23T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/mrs_green_apple.json",
-      "collection": "performances",
-      "id": "mrs_green_apple_ringojam_shadows_2026_hokkaido_1024",
-      "changes": {"performanceAt":"2026-10-24T17:00:00+09:00","doorOpenAt":"2026-10-24T16:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/mrs_green_apple.json",
-      "collection": "performances",
-      "id": "mrs_green_apple_ringojam_shadows_2026_tokyo_1028",
-      "changes": {"performanceAt":"2026-10-28T18:00:00+09:00","doorOpenAt":"2026-10-28T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/mrs_green_apple.json",
-      "collection": "performances",
-      "id": "mrs_green_apple_ringojam_shadows_2026_tokyo_1029",
-      "changes": {"performanceAt":"2026-10-29T18:00:00+09:00","doorOpenAt":"2026-10-29T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/mrs_green_apple.json",
-      "collection": "performances",
-      "id": "mrs_green_apple_ringojam_shadows_2026_saga_1104",
-      "changes": {"performanceAt":"2026-11-04T18:00:00+09:00","doorOpenAt":"2026-11-04T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/mrs_green_apple.json",
-      "collection": "performances",
-      "id": "mrs_green_apple_ringojam_shadows_2026_saga_1105",
-      "changes": {"performanceAt":"2026-11-05T18:00:00+09:00","doorOpenAt":"2026-11-05T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/mrs_green_apple.json",
-      "collection": "performances",
-      "id": "mrs_green_apple_ringojam_shadows_2026_fukui_1113",
-      "changes": {"performanceAt":"2026-11-13T18:00:00+09:00","doorOpenAt":"2026-11-13T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/mrs_green_apple.json",
-      "collection": "performances",
-      "id": "mrs_green_apple_ringojam_shadows_2026_fukui_1114",
-      "changes": {"performanceAt":"2026-11-14T17:00:00+09:00","doorOpenAt":"2026-11-14T16:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/mrs_green_apple.json",
-      "collection": "performances",
-      "id": "mrs_green_apple_ringojam_shadows_2026_nagano_1118",
-      "changes": {"performanceAt":"2026-11-18T18:00:00+09:00","doorOpenAt":"2026-11-18T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/mrs_green_apple.json",
-      "collection": "performances",
-      "id": "mrs_green_apple_ringojam_shadows_2026_nagano_1119",
-      "changes": {"performanceAt":"2026-11-19T18:00:00+09:00","doorOpenAt":"2026-11-19T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/mrs_green_apple.json",
-      "collection": "performances",
-      "id": "mrs_green_apple_ringojam_shadows_2026_chiba2_1128",
-      "changes": {"performanceAt":"2026-11-28T17:00:00+09:00","doorOpenAt":"2026-11-28T16:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/mrs_green_apple.json",
-      "collection": "performances",
-      "id": "mrs_green_apple_ringojam_shadows_2026_chiba2_1129",
-      "changes": {"performanceAt":"2026-11-29T17:00:00+09:00","doorOpenAt":"2026-11-29T16:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/mrs_green_apple.json",
-      "collection": "performances",
-      "id": "mrs_green_apple_ringojam_shadows_2026_hyogo_1202",
-      "changes": {"performanceAt":"2026-12-02T18:00:00+09:00","doorOpenAt":"2026-12-02T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/mrs_green_apple.json",
-      "collection": "performances",
-      "id": "mrs_green_apple_ringojam_shadows_2026_hyogo_1203",
-      "changes": {"performanceAt":"2026-12-03T18:00:00+09:00","doorOpenAt":"2026-12-03T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/mrs_green_apple.json",
-      "collection": "performances",
-      "id": "mrs_green_apple_ringojam_shadows_2026_fukuoka_1209",
-      "changes": {"performanceAt":"2026-12-09T18:00:00+09:00","doorOpenAt":"2026-12-09T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/mrs_green_apple.json",
-      "collection": "performances",
-      "id": "mrs_green_apple_ringojam_shadows_2026_fukuoka_1210",
-      "changes": {"performanceAt":"2026-12-10T18:00:00+09:00","doorOpenAt":"2026-12-10T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/mrs_green_apple.json",
-      "collection": "performances",
-      "id": "mrs_green_apple_ringojam_shadows_2026_miyagi_1215",
-      "changes": {"performanceAt":"2026-12-15T18:00:00+09:00","doorOpenAt":"2026-12-15T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/mrs_green_apple.json",
-      "collection": "performances",
-      "id": "mrs_green_apple_ringojam_shadows_2026_miyagi_1216",
-      "changes": {"performanceAt":"2026-12-16T18:00:00+09:00","doorOpenAt":"2026-12-16T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/mrs_green_apple.json",
-      "collection": "performances",
-      "id": "mrs_green_apple_ringojam_shadows_2026_kanagawa_1219",
-      "changes": {"performanceAt":"2026-12-19T17:00:00+09:00","doorOpenAt":"2026-12-19T16:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/mrs_green_apple.json",
-      "collection": "performances",
-      "id": "mrs_green_apple_ringojam_shadows_2026_kanagawa_1220",
-      "changes": {"performanceAt":"2026-12-20T17:00:00+09:00","doorOpenAt":"2026-12-20T16:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/mrs_green_apple.json",
-      "collection": "performances",
-      "id": "mrs_green_apple_ringojam_shadows_2026_aichi_1227",
-      "changes": {"performanceAt":"2026-12-27T17:00:00+09:00","doorOpenAt":"2026-12-27T16:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/mrs_green_apple.json",
-      "collection": "performances",
-      "id": "mrs_green_apple_ringojam_shadows_2026_aichi_1228",
-      "changes": {"performanceAt":"2026-12-28T18:00:00+09:00","doorOpenAt":"2026-12-28T17:00:00+09:00","sourceUrl":"https://mrsgreenapple.com/feature/ringojamtour_shadows","lastVerifiedAt":"2026-08-17T23:36:00+09:00"}
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/monaki.json",
-      "collection": "tours",
-      "id": "monaki_1st_tour_2026",
-      "changes": {
-        "prices": [
-          {"label":"1階スタンディング","amount":6600},
-          {"label":"2階後方立見（愛知・東京のみ）","amount":6600},
-          {"label":"2階指定","amount":7700}
-        ],
-        "sourceUrl": "https://monaki.jp/news/detail/84264",
-        "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+      "value": {
+        "id": "momoiro_clover_z_orchestra_summer_memories_2026_tokyo_0824",
+        "tourId": "momoiro_clover_z_orchestra_summer_memories_2026",
+        "venue": "すみだトリフォニーホール 大ホール",
+        "performanceAt": "2026-08-24T19:00:00+09:00",
+        "doorOpenAt": "2026-08-24T18:00:00+09:00",
+        "kind": "taiban",
+        "eventName": "大原櫻子×玉井詩織 Orchestra Concert Summer Memories",
+        "source": "system",
+        "sourceUrl": "https://www.momoclo.net/archives/news/260525_02",
+        "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
       }
     },
     {
       "action": "upsert",
-      "file": "data/artist/monaki.json",
+      "file": "data/artist/momoiro_clover_z.json",
       "collection": "lotteries",
       "value": {
-        "id": "monaki_1st_tour_2026_pia_presale_1",
-        "tourId": "monaki_1st_tour_2026",
-        "type": "チケットぴあ プレリザーブ（抽選）",
-        "entryStartAt": "2026-06-11T11:00:00+09:00",
-        "entryEndAt": "2026-06-21T23:59:00+09:00",
-        "resultAt": "2026-06-24T18:00:00+09:00",
+        "id": "momoiro_clover_z_orchestra_summer_memories_2026_general",
+        "tourId": "momoiro_clover_z_orchestra_summer_memories_2026",
+        "type": "一般発売（先着）",
+        "entryStartAt": "2026-07-24T21:00:00+09:00",
+        "entryEndAt": "2026-08-23T18:00:00+09:00",
+        "resultAt": null,
         "paymentStartAt": null,
         "paymentEndAt": null,
-        "performanceIds": ["monaki_1st_tour_2026_zeppnamba_0818","monaki_1st_tour_2026_zeppnagoya_0819","monaki_1st_tour_2026_zepphaneda_0824"],
+        "performanceIds": ["momoiro_clover_z_orchestra_summer_memories_2026_tokyo_0824"],
         "source": "system",
-        "sourceUrl": "https://monaki.jp/news/detail/81576",
-        "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+        "sourceUrl": "https://eplus.jp/sf/detail/4537830001-P0030001P021001",
+        "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
       }
     },
     {
       "action": "upsert",
-      "file": "data/artist/monaki.json",
+      "file": "data/artist/momoiro_clover_z.json",
+      "collection": "performances",
+      "value": {
+        "id": "momoiro_clover_z_pink_lady_tribute_2026_tokyo_0825",
+        "tourId": "momoiro_clover_z_pink_lady_tribute_2026",
+        "venue": "LINE CUBE SHIBUYA",
+        "performanceAt": "2026-08-25T19:00:00+09:00",
+        "doorOpenAt": "2026-08-25T18:00:00+09:00",
+        "kind": "taiban",
+        "eventName": "ピンク・レディー伝説 今も そして永遠に … Legend, Now and Forever",
+        "source": "system",
+        "sourceUrl": "https://www.momoclo.net/archives/news/260529_01",
+        "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/momoiro_clover_z.json",
+      "collection": "performances",
+      "value": {
+        "id": "momoiro_clover_z_fes_kurofes_2026_tokyo_0906",
+        "tourId": "momoiro_clover_z_fes_kurofes_2026",
+        "venue": "豊洲PIT",
+        "performanceAt": "2026-09-06T16:30:00+09:00",
+        "doorOpenAt": "2026-09-06T15:30:00+09:00",
+        "kind": "fes",
+        "eventName": "黒フェス2026 ～白黒歌合戦～",
+        "source": "system",
+        "sourceUrl": "https://www.momoclo.net/archives/news/260525_03",
+        "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/momoiro_clover_z.json",
       "collection": "lotteries",
       "value": {
-        "id": "monaki_1st_tour_2026_pia_presale_2",
-        "tourId": "monaki_1st_tour_2026",
-        "type": "チケットぴあ プレリザーブ2次（抽選）",
-        "entryStartAt": "2026-06-24T18:00:00+09:00",
-        "entryEndAt": "2026-07-01T23:59:00+09:00",
-        "resultAt": "2026-07-04T18:00:00+09:00",
+        "id": "momoiro_clover_z_fes_kurofes_2026_general",
+        "tourId": "momoiro_clover_z_fes_kurofes_2026",
+        "type": "一般発売（先着）",
+        "entryStartAt": "2026-08-01T10:00:00+09:00",
+        "entryEndAt": "2026-09-02T18:00:00+09:00",
+        "resultAt": null,
         "paymentStartAt": null,
         "paymentEndAt": null,
-        "performanceIds": ["monaki_1st_tour_2026_zeppnamba_0818","monaki_1st_tour_2026_zeppnagoya_0819","monaki_1st_tour_2026_zepphaneda_0824"],
+        "performanceIds": ["momoiro_clover_z_fes_kurofes_2026_tokyo_0906"],
         "source": "system",
-        "sourceUrl": "https://monaki.jp/news/detail/81576",
-        "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+        "sourceUrl": "https://diskgarage.com/ticket/detail/102091",
+        "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/momoiro_clover_z.json",
+      "collection": "performances",
+      "value": {
+        "id": "momoiro_clover_z_hide_live_2026_tokyo_0917",
+        "tourId": "momoiro_clover_z_hide_live_2026",
+        "venue": "EX THEATER ROPPONGI",
+        "performanceAt": "2026-09-17T18:00:00+09:00",
+        "doorOpenAt": "2026-09-17T17:00:00+09:00",
+        "kind": "taiban",
+        "eventName": "HIDE LIVE 2026 ザ・歌謡ショー",
+        "source": "system",
+        "sourceUrl": "https://ex-theater.com/schedule/2164/",
+        "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/momoiro_clover_z.json",
+      "collection": "lotteries",
+      "value": {
+        "id": "momoiro_clover_z_hide_live_2026_general",
+        "tourId": "momoiro_clover_z_hide_live_2026",
+        "type": "一般発売（先着）",
+        "entryStartAt": "2026-07-26T10:00:00+09:00",
+        "entryEndAt": "2026-09-16T18:00:00+09:00",
+        "resultAt": null,
+        "paymentStartAt": null,
+        "paymentEndAt": null,
+        "performanceIds": ["momoiro_clover_z_hide_live_2026_tokyo_0917"],
+        "source": "system",
+        "sourceUrl": "https://eplus.jp/sf/detail/2309490001-P0030007",
+        "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/momoiro_clover_z.json",
+      "collection": "performances",
+      "value": {
+        "id": "momoiro_clover_z_fes_rock_in_japan_2026_soga_0921",
+        "tourId": "momoiro_clover_z_fes_rock_in_japan_2026",
+        "venue": "千葉市蘇我スポーツ公園 LOTUS STAGE",
+        "performanceAt": "2026-09-21T14:00:00+09:00",
+        "doorOpenAt": null,
+        "kind": "fes",
+        "eventName": "ROCK IN JAPAN FESTIVAL 2026",
+        "source": "system",
+        "sourceUrl": "https://www.momoclo.net/archives/news/260520_01",
+        "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/momoiro_clover_z.json",
+      "collection": "performances",
+      "value": {
+        "id": "momoiro_clover_z_fes_kazetorock_2026_inawashiro_0922",
+        "tourId": "momoiro_clover_z_fes_kazetorock_2026",
+        "venue": "猪苗代スキー場ミネロ I love youステージ",
+        "performanceAt": "2026-09-22T15:00:00+09:00",
+        "doorOpenAt": null,
+        "kind": "fes",
+        "eventName": "風とロック芋煮会 in September JAM（玉井詩織出演）",
+        "source": "system",
+        "sourceUrl": "https://www.momoclo.net/archives/news/260528_03",
+        "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/momoiro_clover_z.json",
+      "collection": "performances",
+      "value": {
+        "id": "momoiro_clover_z_onigiri_matsuri_2026_tokyo_0923",
+        "tourId": "momoiro_clover_z_onigiri_matsuri_2026",
+        "venue": "ヒューリックホール東京",
+        "performanceAt": "2026-09-23T16:00:00+09:00",
+        "doorOpenAt": "2026-09-23T15:00:00+09:00",
+        "kind": "oneman",
+        "eventName": "『佐々木彩夏の０１００』presents ごはんつぶ大集合！ 秋のおにぎり祭 supported by オープンアップグループ",
+        "source": "system",
+        "sourceUrl": "https://www.momoclo.net/archives/news/260730_02",
+        "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/momoiro_clover_z.json",
+      "collection": "performances",
+      "value": {
+        "id": "momoiro_clover_z_fes_spooky_pumpkin_2026_tama_1031",
+        "tourId": "momoiro_clover_z_fes_spooky_pumpkin_2026",
+        "venue": "サンリオピューロランド",
+        "performanceAt": "2026-10-31T22:00:00+09:00",
+        "doorOpenAt": "2026-10-31T21:30:00+09:00",
+        "kind": "fes",
+        "eventName": "SPOOKY PUMPKIN 2026 ～PURO ALL NIGHT HALLOWEEN PARTY～（佐々木彩夏出演）",
+        "source": "system",
+        "sourceUrl": "https://www.puroland.jp/event-campaign/spookypumpkin2026/",
+        "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/momoiro_clover_z.json",
+      "collection": "lotteries",
+      "value": {
+        "id": "momoiro_clover_z_fes_spooky_pumpkin_2026_2nd",
+        "tourId": "momoiro_clover_z_fes_spooky_pumpkin_2026",
+        "type": "第二弾先行抽選",
+        "entryStartAt": "2026-08-26T11:00:00+09:00",
+        "entryEndAt": "2026-09-23T23:59:00+09:00",
+        "resultAt": null,
+        "paymentStartAt": null,
+        "paymentEndAt": null,
+        "performanceIds": ["momoiro_clover_z_fes_spooky_pumpkin_2026_tama_1031"],
+        "source": "system",
+        "sourceUrl": "https://www.puroland.jp/event-campaign/spookypumpkin2026/",
+        "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/momoiro_clover_z.json",
+      "collection": "performances",
+      "value": {
+        "id": "momoiro_clover_z_xmas_2026_tokyo_1030",
+        "tourId": "momoiro_clover_z_xmas_2026",
+        "venue": "SGC HALL ARIAKE",
+        "performanceAt": "2026-10-30T19:00:00+09:00",
+        "doorOpenAt": "2026-10-30T18:00:00+09:00",
+        "kind": "oneman",
+        "eventName": null,
+        "source": "system",
+        "sourceUrl": "https://www.momoclo.net/archives/news/260727_03",
+        "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/momoiro_clover_z.json",
+      "collection": "performances",
+      "value": {
+        "id": "momoiro_clover_z_xmas_2026_hiroshima_1102",
+        "tourId": "momoiro_clover_z_xmas_2026",
+        "venue": "ふくやま芸術文化ホール リーデンローズ",
+        "performanceAt": "2026-11-02T19:00:00+09:00",
+        "doorOpenAt": "2026-11-02T18:00:00+09:00",
+        "kind": "oneman",
+        "eventName": null,
+        "source": "system",
+        "sourceUrl": "https://www.momoclo.net/archives/news/260727_03",
+        "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/momoiro_clover_z.json",
+      "collection": "performances",
+      "value": {
+        "id": "momoiro_clover_z_xmas_2026_hyogo_1106",
+        "tourId": "momoiro_clover_z_xmas_2026",
+        "venue": "神戸国際会館 こくさいホール",
+        "performanceAt": "2026-11-06T19:00:00+09:00",
+        "doorOpenAt": "2026-11-06T18:00:00+09:00",
+        "kind": "oneman",
+        "eventName": null,
+        "source": "system",
+        "sourceUrl": "https://www.momoclo.net/archives/news/260727_03",
+        "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/momoiro_clover_z.json",
+      "collection": "performances",
+      "value": {
+        "id": "momoiro_clover_z_xmas_2026_kyoto_1107",
+        "tourId": "momoiro_clover_z_xmas_2026",
+        "venue": "ロームシアター京都",
+        "performanceAt": "2026-11-07T17:30:00+09:00",
+        "doorOpenAt": "2026-11-07T16:30:00+09:00",
+        "kind": "oneman",
+        "eventName": null,
+        "source": "system",
+        "sourceUrl": "https://www.momoclo.net/archives/news/260727_03",
+        "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/momoiro_clover_z.json",
+      "collection": "performances",
+      "value": {
+        "id": "momoiro_clover_z_xmas_2026_niigata_1122",
+        "tourId": "momoiro_clover_z_xmas_2026",
+        "venue": "新潟テルサ",
+        "performanceAt": "2026-11-22T16:00:00+09:00",
+        "doorOpenAt": "2026-11-22T15:00:00+09:00",
+        "kind": "oneman",
+        "eventName": null,
+        "source": "system",
+        "sourceUrl": "https://www.momoclo.net/archives/news/260727_03",
+        "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/momoiro_clover_z.json",
+      "collection": "performances",
+      "value": {
+        "id": "momoiro_clover_z_xmas_2026_aichi_1123",
+        "tourId": "momoiro_clover_z_xmas_2026",
+        "venue": "一宮市民会館",
+        "performanceAt": "2026-11-23T17:30:00+09:00",
+        "doorOpenAt": "2026-11-23T16:30:00+09:00",
+        "kind": "oneman",
+        "eventName": null,
+        "source": "system",
+        "sourceUrl": "https://www.momoclo.net/archives/news/260727_03",
+        "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/momoiro_clover_z.json",
+      "collection": "performances",
+      "value": {
+        "id": "momoiro_clover_z_xmas_2026_fukuoka_1127",
+        "tourId": "momoiro_clover_z_xmas_2026",
+        "venue": "福岡市民ホール 大ホール",
+        "performanceAt": "2026-11-27T19:00:00+09:00",
+        "doorOpenAt": "2026-11-27T18:00:00+09:00",
+        "kind": "oneman",
+        "eventName": null,
+        "source": "system",
+        "sourceUrl": "https://www.momoclo.net/archives/news/260727_03",
+        "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/momoiro_clover_z.json",
+      "collection": "performances",
+      "value": {
+        "id": "momoiro_clover_z_xmas_2026_sapporo_1203",
+        "tourId": "momoiro_clover_z_xmas_2026",
+        "venue": "Zepp Sapporo",
+        "performanceAt": "2026-12-03T19:00:00+09:00",
+        "doorOpenAt": "2026-12-03T18:00:00+09:00",
+        "kind": "oneman",
+        "eventName": null,
+        "source": "system",
+        "sourceUrl": "https://www.momoclo.net/archives/news/260727_03",
+        "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/momoiro_clover_z.json",
+      "collection": "performances",
+      "value": {
+        "id": "momoiro_clover_z_xmas_2026_tokyo_1211",
+        "tourId": "momoiro_clover_z_xmas_2026",
+        "venue": "SGC HALL ARIAKE",
+        "performanceAt": "2026-12-11T19:00:00+09:00",
+        "doorOpenAt": "2026-12-11T18:00:00+09:00",
+        "kind": "oneman",
+        "eventName": null,
+        "source": "system",
+        "sourceUrl": "https://www.momoclo.net/archives/news/260727_03",
+        "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/momoiro_clover_z.json",
+      "collection": "performances",
+      "value": {
+        "id": "momoiro_clover_z_xmas_2026_tokyo_1212",
+        "tourId": "momoiro_clover_z_xmas_2026",
+        "venue": "SGC HALL ARIAKE",
+        "performanceAt": "2026-12-12T17:00:00+09:00",
+        "doorOpenAt": "2026-12-12T16:00:00+09:00",
+        "kind": "oneman",
+        "eventName": null,
+        "source": "system",
+        "sourceUrl": "https://www.momoclo.net/archives/news/260727_03",
+        "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/momoiro_clover_z.json",
+      "collection": "performances",
+      "value": {
+        "id": "momoiro_clover_z_xmas_2026_tokyo_1213",
+        "tourId": "momoiro_clover_z_xmas_2026",
+        "venue": "SGC HALL ARIAKE",
+        "performanceAt": "2026-12-13T16:00:00+09:00",
+        "doorOpenAt": "2026-12-13T15:00:00+09:00",
+        "kind": "oneman",
+        "eventName": null,
+        "source": "system",
+        "sourceUrl": "https://www.momoclo.net/archives/news/260727_03",
+        "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
       }
     }
   ]
