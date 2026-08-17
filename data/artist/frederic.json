@@ -8,7 +8,10 @@
       "startDate": "2026-04-18T00:00:00+09:00",
       "endDate": "2027-01-17T00:00:00+09:00",
       "prices": [
-        {"label": "スタンディング", "amount": 6600}
+        {
+          "label": "スタンディング",
+          "amount": 6600
+        }
       ],
       "source": "system",
       "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
@@ -65,10 +68,22 @@
       "startDate": "2027-01-23T00:00:00+09:00",
       "endDate": "2027-01-23T00:00:00+09:00",
       "prices": [
-        {"label": "1日券", "amount": 11000},
-        {"label": "2日通し券", "amount": 20000},
-        {"label": "U-21チケット", "amount": 8800},
-        {"label": "こどもチケット", "amount": 3300}
+        {
+          "label": "1日券",
+          "amount": 11000
+        },
+        {
+          "label": "2日通し券",
+          "amount": 20000
+        },
+        {
+          "label": "U-21チケット",
+          "amount": 8800
+        },
+        {
+          "label": "こどもチケット",
+          "amount": 3300
+        }
       ],
       "source": "system",
       "sourceUrl": "https://frederic-official.com/news/detail/3733",
@@ -260,13 +275,13 @@
       "id": "frederic_fes_2026_liveazuma_fukushima_1017",
       "tourId": "frederic_fes_2026",
       "venue": "福島あづま球場・あづま総合運動公園",
-      "performanceAt": "2026-10-17T12:00:00+09:00",
+      "performanceAt": "2026-10-17T11:00:00+09:00",
       "doorOpenAt": "2026-10-17T10:00:00+09:00",
       "kind": "fes",
       "eventName": "LIVE AZUMA 2026",
       "source": "system",
-      "sourceUrl": "https://liveazuma.jp/artist/",
-      "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
+      "sourceUrl": "https://liveazuma.jp/about/",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
     },
     {
       "id": "frederic_event_tokiwafes_2026_mito_1018",
@@ -327,7 +342,9 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["frederic_umimoyasu_20262027_move_zepp_haneda_1012"],
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_haneda_1012"
+      ],
       "source": "system",
       "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
@@ -341,7 +358,9 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["frederic_umimoyasu_20262027_move_zepp_haneda_1012"],
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_haneda_1012"
+      ],
       "source": "system",
       "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
@@ -355,7 +374,9 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["frederic_umimoyasu_20262027_move_zepp_haneda_1012"],
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_haneda_1012"
+      ],
       "source": "system",
       "sourceUrl": "https://frederic-official.com/news/detail/3717",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
@@ -369,7 +390,9 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["frederic_fes_2027_hypelikeit_makuhari_0123"],
+      "performanceIds": [
+        "frederic_fes_2027_hypelikeit_makuhari_0123"
+      ],
       "source": "system",
       "sourceUrl": "https://frederic-official.com/news/detail/3733",
       "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
@@ -383,7 +406,9 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["frederic_fes_2027_hypelikeit_makuhari_0123"],
+      "performanceIds": [
+        "frederic_fes_2027_hypelikeit_makuhari_0123"
+      ],
       "source": "system",
       "sourceUrl": "https://frederic-official.com/news/detail/3733",
       "lastVerifiedAt": "2026-08-17T21:53:00+09:00"

@@ -636,12 +636,12 @@
       "tourId": "iris_fes_tif_2026",
       "venue": "お台場・青海周辺エリア",
       "performanceAt": "2026-08-01T12:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-08-01T09:00:00+09:00",
       "kind": "fes",
       "eventName": "TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック",
       "source": "system",
-      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1132684",
-      "lastVerifiedAt": "2026-08-17T22:45:00+09:00"
+      "sourceUrl": "https://official.idolfes.com/s/tif2026/page/map",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
     },
     {
       "id": "iris_welcome_azatosa_release_event_2026_0808_part1",
