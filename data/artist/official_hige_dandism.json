@@ -108,6 +108,55 @@
       "source": "system",
       "sourceUrl": "https://higedan.sozolive.asia/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "official_hige_dandism_asia_tour_2026_general_singapore",
+      "tourId": "official_hige_dandism_asia_tour_2026",
+      "type": "一般発売（シンガポール・先着）",
+      "entryStartAt": "2026-04-16T13:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "official_hige_dandism_asia_tour_2026_singapore_0821"
+      ],
+      "source": "system",
+      "sourceUrl": "https://event.higedan.com/feature/asiatour2026",
+      "lastVerifiedAt": "2026-08-18T00:03:00+09:00"
+    },
+    {
+      "id": "official_hige_dandism_asia_tour_2026_general_taipei",
+      "tourId": "official_hige_dandism_asia_tour_2026",
+      "type": "一般発売（台北・先着）",
+      "entryStartAt": "2026-04-16T13:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "official_hige_dandism_asia_tour_2026_taipei_0829",
+        "official_hige_dandism_asia_tour_2026_taipei_0830"
+      ],
+      "source": "system",
+      "sourceUrl": "https://event.higedan.com/feature/asiatour2026",
+      "lastVerifiedAt": "2026-08-18T00:03:00+09:00"
+    },
+    {
+      "id": "official_hige_dandism_asia_tour_2026_general_bangkok",
+      "tourId": "official_hige_dandism_asia_tour_2026",
+      "type": "一般発売（バンコク・先着）",
+      "entryStartAt": "2026-04-16T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "official_hige_dandism_asia_tour_2026_bangkok_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://event.higedan.com/feature/asiatour2026",
+      "lastVerifiedAt": "2026-08-18T00:03:00+09:00"
     }
   ],
   "appleMusicTracks": [

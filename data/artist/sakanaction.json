@@ -810,6 +810,31 @@
       "source": "system",
       "sourceUrl": "https://www.htb.co.jp/unite2026/ticket/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "sakanaction_sakanaquarium_2026_tixplus_trade",
+      "tourId": "sakanaction_sakanaquarium_2026",
+      "type": "公式チケットトレード（2026年公演・チケプラ）",
+      "entryStartAt": "2026-08-03T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sakanaction_sakanaquarium_2026_budokan_0908",
+        "sakanaction_sakanaquarium_2026_budokan_0909",
+        "sakanaction_sakanaquarium_2026_osakajyo_0912",
+        "sakanaction_sakanaquarium_2026_osakajyo_0913",
+        "sakanaction_sakanaquarium_2026_budokan_0918",
+        "sakanaction_sakanaquarium_2026_budokan_0919",
+        "sakanaction_sakanaquarium_2026_kobe_0929",
+        "sakanaction_sakanaquarium_2026_kobe_0930",
+        "sakanaction_sakanaquarium_2026_budokan_1003",
+        "sakanaction_sakanaquarium_2026_budokan_1004"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sakanaction.jp/feature/tour2026-2027",
+      "lastVerifiedAt": "2026-08-18T00:03:00+09:00"
     }
   ],
   "appleMusicTracks": [
