@@ -9,17 +9,17 @@
       "endDate": "2026-10-25T00:00:00+09:00",
       "prices": [
         {
-          "label": "S席",
+          "label": "S席 / S席サイドシート",
           "amount": 14800
         },
         {
-          "label": "A席",
+          "label": "A席 / A席サイドシート / 見切席 / 注釈付見切席 / 立見券",
           "amount": 12800
         }
       ],
       "source": "system",
       "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-18T07:20:00+09:00"
     },
     {
       "id": "touken_ranbu_musical_event_ice_blade_2026",
@@ -388,6 +388,34 @@
       "source": "system",
       "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_general",
+      "tourId": "touken_ranbu_musical_tsukiyo_ichiru_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-08-08T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
+      "lastVerifiedAt": "2026-08-18T07:20:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_trade",
+      "tourId": "touken_ranbu_musical_tsukiyo_ichiru_2026",
+      "type": "チケプラトレード（公式リセール）",
+      "entryStartAt": "2026-08-10T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
+      "lastVerifiedAt": "2026-08-18T07:20:00+09:00"
     }
   ],
   "appleMusicTracks": [
