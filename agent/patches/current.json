@@ -1,87 +1,25 @@
-{
-  "operations": [
-    {
-      "action": "upsert",
-      "file": "data/artist/mazzel.json",
-      "collection": "tours",
-      "value": {
-        "id": "mazzel_gigantic_2026",
-        "artistId": "mazzel",
-        "title": "OSAKA GIGANTIC MUSIC FESTIVAL 2026",
-        "startDate": "2026-08-02T00:00:00+09:00",
-        "endDate": "2026-08-02T00:00:00+09:00",
-        "prices": null,
-        "source": "system",
-        "sourceUrl": "https://mazzel.tokyo/live/5098/",
-        "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
-      }
-    },
-    {
-      "action": "upsert",
-      "file": "data/artist/mazzel.json",
-      "collection": "performances",
-      "value": {
-        "id": "mazzel_gigantic_2026_maishima_0802",
-        "tourId": "mazzel_gigantic_2026",
-        "venue": "大阪・舞洲スポーツアイランド特設会場 SUN STAGE",
-        "performanceAt": "2026-08-02T16:00:00+09:00",
-        "doorOpenAt": null,
-        "kind": "fes",
-        "eventName": "OSAKA GIGANTIC MUSIC FESTIVAL 2026",
-        "source": "system",
-        "sourceUrl": "https://giga-osaka.com/timetable/",
-        "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
-      }
-    },
-    {
-      "action": "upsert",
-      "file": "data/artist/mazzel.json",
-      "collection": "tours",
-      "value": {
-        "id": "mazzel_summer_sonic_2026",
-        "artistId": "mazzel",
-        "title": "SUMMER SONIC 2026",
-        "startDate": "2026-08-15T00:00:00+09:00",
-        "endDate": "2026-08-16T00:00:00+09:00",
-        "prices": null,
-        "source": "system",
-        "sourceUrl": "https://mazzel.tokyo/live/5130/",
-        "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
-      }
-    },
-    {
-      "action": "upsert",
-      "file": "data/artist/mazzel.json",
-      "collection": "performances",
-      "value": {
-        "id": "mazzel_summer_sonic_2026_tokyo_0815",
-        "tourId": "mazzel_summer_sonic_2026",
-        "venue": "ZOZOマリンスタジアム＆幕張メッセ PACIFIC STAGE",
-        "performanceAt": "2026-08-15T20:45:00+09:00",
-        "doorOpenAt": null,
-        "kind": "fes",
-        "eventName": "SUMMER SONIC 2026",
-        "source": "system",
-        "sourceUrl": "https://www.summersonic.com/",
-        "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
-      }
-    },
-    {
-      "action": "upsert",
-      "file": "data/artist/mazzel.json",
-      "collection": "performances",
-      "value": {
-        "id": "mazzel_summer_sonic_2026_osaka_0816",
-        "tourId": "mazzel_summer_sonic_2026",
-        "venue": "万博記念公園 AIR STAGE",
-        "performanceAt": "2026-08-16T13:35:00+09:00",
-        "doorOpenAt": null,
-        "kind": "fes",
-        "eventName": "SUMMER SONIC 2026",
-        "source": "system",
-        "sourceUrl": "https://www.summersonic.com/",
-        "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
-      }
-    }
-  ]
-}
+{"operations":[
+{"action":"merge","file":"data/artist/milet.json","collection":"performances","id":"milet_hall_tour_2026_morinohole21_0912","changes":{"doorOpenAt":"2026-09-12T16:00:00+09:00","performanceAt":"2026-09-12T17:00:00+09:00","sourceUrl":"https://www.sonymusic.co.jp/artist/milet_music/info/584192","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
+{"action":"merge","file":"data/artist/milet.json","collection":"performances","id":"milet_hall_tour_2026_karutsukawasakl_0918","changes":{"doorOpenAt":"2026-09-18T17:30:00+09:00","performanceAt":"2026-09-18T18:30:00+09:00","sourceUrl":"https://www.sonymusic.co.jp/artist/milet_music/info/584192","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
+{"action":"merge","file":"data/artist/milet.json","collection":"performances","id":"milet_hall_tour_2026_omiyasonic_0921","changes":{"doorOpenAt":"2026-09-21T16:00:00+09:00","performanceAt":"2026-09-21T17:00:00+09:00","sourceUrl":"https://www.sonymusic.co.jp/artist/milet_music/info/584192","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
+{"action":"merge","file":"data/artist/milet.json","collection":"performances","id":"milet_hall_tour_2026_sunporthall_0923","changes":{"doorOpenAt":"2026-09-23T16:00:00+09:00","performanceAt":"2026-09-23T17:00:00+09:00","sourceUrl":"https://www.sonymusic.co.jp/artist/milet_music/info/584192","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
+{"action":"merge","file":"data/artist/milet.json","collection":"performances","id":"milet_hall_tour_2026_rohmtheater_0926","changes":{"doorOpenAt":"2026-09-26T16:00:00+09:00","performanceAt":"2026-09-26T17:00:00+09:00","sourceUrl":"https://www.sonymusic.co.jp/artist/milet_music/info/584192","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
+{"action":"merge","file":"data/artist/milet.json","collection":"performances","id":"milet_hall_tour_2026_marinart_0927","changes":{"doorOpenAt":"2026-09-27T15:00:00+09:00","performanceAt":"2026-09-27T16:00:00+09:00","sourceUrl":"https://www.sonymusic.co.jp/artist/milet_music/info/584192","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
+{"action":"merge","file":"data/artist/milet.json","collection":"performances","id":"milet_hall_tour_2026_hbghall_1003","changes":{"doorOpenAt":"2026-10-03T16:00:00+09:00","performanceAt":"2026-10-03T17:00:00+09:00","sourceUrl":"https://www.sonymusic.co.jp/artist/milet_music/info/584192","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
+{"action":"merge","file":"data/artist/milet.json","collection":"performances","id":"milet_hall_tour_2026_kurashikikouminhall_1004","changes":{"doorOpenAt":"2026-10-04T16:00:00+09:00","performanceAt":"2026-10-04T17:00:00+09:00","sourceUrl":"https://www.sonymusic.co.jp/artist/milet_music/info/584192","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
+{"action":"merge","file":"data/artist/milet.json","collection":"performances","id":"milet_hall_tour_2026_hondanomori_1010","changes":{"doorOpenAt":"2026-10-10T16:00:00+09:00","performanceAt":"2026-10-10T17:00:00+09:00","sourceUrl":"https://www.sonymusic.co.jp/artist/milet_music/info/584192","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
+{"action":"merge","file":"data/artist/milet.json","collection":"performances","id":"milet_hall_tour_2026_gardentheater_1017","changes":{"doorOpenAt":"2026-10-17T17:00:00+09:00","performanceAt":"2026-10-17T18:00:00+09:00","sourceUrl":"https://www.sonymusic.co.jp/artist/milet_music/info/584192","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
+{"action":"merge","file":"data/artist/milet.json","collection":"performances","id":"milet_hall_tour_2026_sendaisunplaza_1024","changes":{"doorOpenAt":"2026-10-24T16:30:00+09:00","performanceAt":"2026-10-24T17:30:00+09:00","sourceUrl":"https://www.sonymusic.co.jp/artist/milet_music/info/584192","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
+{"action":"merge","file":"data/artist/milet.json","collection":"performances","id":"milet_hall_tour_2026_tohomin_1025","changes":{"doorOpenAt":"2026-10-25T16:00:00+09:00","performanceAt":"2026-10-25T17:00:00+09:00","sourceUrl":"https://www.sonymusic.co.jp/artist/milet_music/info/584192","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
+{"action":"merge","file":"data/artist/milet.json","collection":"performances","id":"milet_hall_tour_2026_festivalhall_1101","changes":{"doorOpenAt":"2026-11-01T16:00:00+09:00","performanceAt":"2026-11-01T17:00:00+09:00","sourceUrl":"https://www.sonymusic.co.jp/artist/milet_music/info/584192","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
+{"action":"merge","file":"data/artist/milet.json","collection":"performances","id":"milet_hall_tour_2026_festivalhall_1102","changes":{"doorOpenAt":"2026-11-02T18:00:00+09:00","performanceAt":"2026-11-02T19:00:00+09:00","sourceUrl":"https://www.sonymusic.co.jp/artist/milet_music/info/584192","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
+{"action":"merge","file":"data/artist/milet.json","collection":"performances","id":"milet_hall_tour_2026_nhkhall_1105","changes":{"doorOpenAt":"2026-11-05T17:30:00+09:00","performanceAt":"2026-11-05T18:30:00+09:00","sourceUrl":"https://www.sonymusic.co.jp/artist/milet_music/info/584192","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
+{"action":"merge","file":"data/artist/milet.json","collection":"performances","id":"milet_hall_tour_2026_niterrashimin_1108","changes":{"doorOpenAt":"2026-11-08T16:00:00+09:00","performanceAt":"2026-11-08T17:00:00+09:00","sourceUrl":"https://www.sonymusic.co.jp/artist/milet_music/info/584192","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
+{"action":"merge","file":"data/artist/milet.json","collection":"performances","id":"milet_hall_tour_2026_hitaru_1113","changes":{"doorOpenAt":"2026-11-13T18:00:00+09:00","performanceAt":"2026-11-13T19:00:00+09:00","sourceUrl":"https://www.sonymusic.co.jp/artist/milet_music/info/584192","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
+{"action":"merge","file":"data/artist/milet.json","collection":"performances","id":"milet_hall_tour_2026_fukuokasunpalace_1121","changes":{"doorOpenAt":"2026-11-21T16:00:00+09:00","performanceAt":"2026-11-21T17:00:00+09:00","sourceUrl":"https://www.sonymusic.co.jp/artist/milet_music/info/584192","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
+{"action":"merge","file":"data/artist/milet.json","collection":"performances","id":"milet_hall_tour_2026_iichikograntheatre_1122","changes":{"doorOpenAt":"2026-11-22T16:00:00+09:00","performanceAt":"2026-11-22T17:00:00+09:00","sourceUrl":"https://www.sonymusic.co.jp/artist/milet_music/info/584192","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
+{"action":"upsert","file":"data/artist/milet.json","collection":"tours","value":{"id":"milet_fes_rsr_2026","artistId":"milet","title":"RISING SUN ROCK FESTIVAL 2026 in EZO","startDate":"2026-08-15T00:00:00+09:00","endDate":"2026-08-15T00:00:00+09:00","prices":null,"source":"system","sourceUrl":"https://www.sonymusic.co.jp/artist/milet_music/info/584508","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
+{"action":"upsert","file":"data/artist/milet.json","collection":"performances","value":{"id":"milet_fes_rsr_2026_0815","tourId":"milet_fes_rsr_2026","venue":"石狩湾新港樽川ふ頭横野外特設ステージ SUN STAGE","performanceAt":"2026-08-15T23:20:00+09:00","doorOpenAt":null,"kind":"fes","eventName":"RISING SUN ROCK FESTIVAL 2026 in EZO","source":"system","sourceUrl":"https://www.sonymusic.co.jp/artist/milet_music/info/584508","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
+{"action":"upsert","file":"data/artist/milet.json","collection":"tours","value":{"id":"milet_fes_wild_bunch_2026","artistId":"milet","title":"WILD BUNCH FEST. 2026","startDate":"2026-08-22T00:00:00+09:00","endDate":"2026-08-22T00:00:00+09:00","prices":null,"source":"system","sourceUrl":"https://www.sonymusic.co.jp/artist/milet_music/info/584424","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}},
+{"action":"upsert","file":"data/artist/milet.json","collection":"performances","value":{"id":"milet_fes_wild_bunch_2026_0822","tourId":"milet_fes_wild_bunch_2026","venue":"山口きらら博記念公園 Bandits Stage","performanceAt":"2026-08-22T13:00:00+09:00","doorOpenAt":null,"kind":"fes","eventName":"WILD BUNCH FEST. 2026","source":"system","sourceUrl":"https://www.sonymusic.co.jp/artist/milet_music/info/584424","lastVerifiedAt":"2026-08-17T23:20:00+09:00"}}
+]}
