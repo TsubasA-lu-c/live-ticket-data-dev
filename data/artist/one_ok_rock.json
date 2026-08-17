@@ -50,8 +50,8 @@
         }
       ],
       "source": "system",
-      "sourceUrl": "https://1chancefes.com/",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "sourceUrl": "https://www.oneokrock.com/jp/news/5108",
+      "lastVerifiedAt": "2026-08-18T00:08:00+09:00"
     }
   ],
   "performances": [
@@ -150,18 +150,6 @@
       "source": "system",
       "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "one_ok_rock_1_chance_festival_2026_kumamoto_0927",
-      "tourId": "one_ok_rock_1_chance_festival_2026",
-      "venue": "熊本県農業公園カントリーパーク",
-      "performanceAt": "2026-09-27T12:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "1 CHANCE FESTIVAL 2026",
-      "source": "system",
-      "sourceUrl": "https://oneokrock-pf.com/news/detail/163",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -216,12 +204,10 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": [
-        "one_ok_rock_1_chance_festival_2026_kumamoto_0927"
-      ],
+      "performanceIds": null,
       "source": "system",
-      "sourceUrl": "https://t.pia.jp/pia/artist/artists.do?artistsCd=66140024",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "sourceUrl": "https://1chancefes.com/",
+      "lastVerifiedAt": "2026-08-18T00:08:00+09:00"
     },
     {
       "id": "one_ok_rock_detox_japan_tour_final_2026_general_aichi_fukuoka_miyagi",
