@@ -178,25 +178,25 @@
       "id": "not_equal_me_tif_2026_odaiba_0801",
       "tourId": "not_equal_me_tif_2026",
       "venue": "お台場・青海周辺エリア",
-      "performanceAt": "2026-08-01T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-08-01T10:00:00+09:00",
+      "doorOpenAt": "2026-08-01T09:00:00+09:00",
       "kind": "fes",
       "eventName": "TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック",
       "source": "system",
-      "sourceUrl": "https://not-equal-me.jp/schedule/",
-      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
+      "sourceUrl": "https://official.idolfes.com/s/tif2026/page/map",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
     },
     {
       "id": "not_equal_me_luckyfes_2026_hitachinaka_0808",
       "tourId": "not_equal_me_luckyfes_2026",
-      "venue": "国営ひたち海浜公園 RAINBOW STAGE",
-      "performanceAt": "2026-08-08T14:50:00+09:00",
-      "doorOpenAt": null,
+      "venue": "国営ひたち海浜公園",
+      "performanceAt": "2026-08-08T10:00:00+09:00",
+      "doorOpenAt": "2026-08-08T08:00:00+09:00",
       "kind": "fes",
       "eventName": "LuckyFes’26",
       "source": "system",
-      "sourceUrl": "https://luckyfes.com/artists/%E2%89%A0ME",
-      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
+      "sourceUrl": "https://luckyfes.com/outline",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
     },
     {
       "id": "not_equal_me_noimi_station_2026_osaka_0816_day",

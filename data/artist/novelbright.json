@@ -561,26 +561,26 @@
     {
       "id": "novelbright_luckyfes_2026_hitachinaka_0808",
       "tourId": "novelbright_luckyfes_2026",
-      "venue": "国営ひたち海浜公園 WING STAGE",
-      "performanceAt": "2026-08-08T17:05:00+09:00",
-      "doorOpenAt": null,
+      "venue": "国営ひたち海浜公園",
+      "performanceAt": "2026-08-08T10:00:00+09:00",
+      "doorOpenAt": "2026-08-08T08:00:00+09:00",
       "kind": "fes",
       "eventName": "LuckyFes'26",
       "source": "system",
-      "sourceUrl": "https://luckyfes.com/artists/Novelbright",
-      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
+      "sourceUrl": "https://luckyfes.com/outline",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
     },
     {
       "id": "novelbright_wild_bunch_2026_yamaguchi_0822",
       "tourId": "novelbright_wild_bunch_2026",
       "venue": "山口きらら博記念公園",
-      "performanceAt": "2026-08-22T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-08-22T11:30:00+09:00",
+      "doorOpenAt": "2026-08-22T10:00:00+09:00",
       "kind": "fes",
       "eventName": "WILD BUNCH FEST. 2026",
       "source": "system",
-      "sourceUrl": "https://novelbright.jp/schedule/detail/2372",
-      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
+      "sourceUrl": "https://www.wildbunchfest.jp/general-info/",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
     },
     {
       "id": "novelbright_lighters_high_2026_zepp_haneda_0913",
@@ -598,25 +598,25 @@
       "id": "novelbright_rock_in_japan_2026_soga_0919",
       "tourId": "novelbright_rock_in_japan_2026",
       "venue": "千葉市蘇我スポーツ公園",
-      "performanceAt": "2026-09-19T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-09-19T11:45:00+09:00",
+      "doorOpenAt": "2026-09-19T08:30:00+09:00",
       "kind": "fes",
       "eventName": "ROCK IN JAPAN FESTIVAL 2026",
       "source": "system",
-      "sourceUrl": "https://novelbright.jp/news/detail/2418",
-      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
+      "sourceUrl": "https://rijfes.jp/2026/home/",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
     },
     {
       "id": "novelbright_fest_inazuma_2026_kusatsu_0921",
       "tourId": "novelbright_fest_inazuma_2026",
       "venue": "滋賀県草津市 烏丸半島芝生広場",
-      "performanceAt": "2026-09-21T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-09-21T11:30:00+09:00",
+      "doorOpenAt": "2026-09-21T10:00:00+09:00",
       "kind": "fes",
       "eventName": "FEST. INAZUMA 2026",
       "source": "system",
-      "sourceUrl": "https://novelbright.jp/news/detail/2389",
-      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
+      "sourceUrl": "https://fest-inazuma.com/about/",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
     }
   ],
   "lotteries": [
