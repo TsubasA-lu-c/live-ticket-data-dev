@@ -2,97 +2,96 @@
   "operations": [
     {
       "action": "upsert",
-      "file": "data/artist/not_equal_me.json",
-      "collection": "tours",
+      "file": "data/artist/official_hige_dandism.json",
+      "collection": "lotteries",
       "value": {
-        "id": "not_equal_me_noimi_meeting_tokyo_2026",
-        "artistId": "not_equal_me",
-        "title": "ノイミー会＠東京",
-        "startDate": "2026-08-22T00:00:00+09:00",
-        "endDate": "2026-08-22T00:00:00+09:00",
-        "prices": null,
+        "id": "official_hige_dandism_asia_tour_2026_general_singapore",
+        "tourId": "official_hige_dandism_asia_tour_2026",
+        "type": "一般発売（シンガポール・先着）",
+        "entryStartAt": "2026-04-16T13:00:00+09:00",
+        "entryEndAt": null,
+        "resultAt": null,
+        "paymentStartAt": null,
+        "paymentEndAt": null,
+        "performanceIds": [
+          "official_hige_dandism_asia_tour_2026_singapore_0821"
+        ],
         "source": "system",
-        "sourceUrl": "https://not-equal-me.jp/news/detail/7490",
-        "lastVerifiedAt": "2026-08-17T23:55:00+09:00"
+        "sourceUrl": "https://event.higedan.com/feature/asiatour2026",
+        "lastVerifiedAt": "2026-08-18T00:03:00+09:00"
       }
     },
     {
       "action": "upsert",
-      "file": "data/artist/not_equal_me.json",
-      "collection": "performances",
+      "file": "data/artist/official_hige_dandism.json",
+      "collection": "lotteries",
       "value": {
-        "id": "not_equal_me_noimi_meeting_tokyo_2026_0822_1",
-        "tourId": "not_equal_me_noimi_meeting_tokyo_2026",
-        "venue": "天王洲 銀河劇場",
-        "performanceAt": "2026-08-22T15:00:00+09:00",
-        "doorOpenAt": null,
-        "kind": "oneman",
-        "eventName": "ノイミー会＠東京 第一部",
+        "id": "official_hige_dandism_asia_tour_2026_general_taipei",
+        "tourId": "official_hige_dandism_asia_tour_2026",
+        "type": "一般発売（台北・先着）",
+        "entryStartAt": "2026-04-16T13:00:00+09:00",
+        "entryEndAt": null,
+        "resultAt": null,
+        "paymentStartAt": null,
+        "paymentEndAt": null,
+        "performanceIds": [
+          "official_hige_dandism_asia_tour_2026_taipei_0829",
+          "official_hige_dandism_asia_tour_2026_taipei_0830"
+        ],
         "source": "system",
-        "sourceUrl": "https://not-equal-me.jp/news/detail/7490",
-        "lastVerifiedAt": "2026-08-17T23:55:00+09:00"
+        "sourceUrl": "https://event.higedan.com/feature/asiatour2026",
+        "lastVerifiedAt": "2026-08-18T00:03:00+09:00"
       }
     },
     {
       "action": "upsert",
-      "file": "data/artist/not_equal_me.json",
-      "collection": "performances",
+      "file": "data/artist/official_hige_dandism.json",
+      "collection": "lotteries",
       "value": {
-        "id": "not_equal_me_noimi_meeting_tokyo_2026_0822_2",
-        "tourId": "not_equal_me_noimi_meeting_tokyo_2026",
-        "venue": "天王洲 銀河劇場",
-        "performanceAt": "2026-08-22T18:00:00+09:00",
-        "doorOpenAt": null,
-        "kind": "oneman",
-        "eventName": "ノイミー会＠東京 第二部",
+        "id": "official_hige_dandism_asia_tour_2026_general_bangkok",
+        "tourId": "official_hige_dandism_asia_tour_2026",
+        "type": "一般発売（バンコク・先着）",
+        "entryStartAt": "2026-04-16T12:00:00+09:00",
+        "entryEndAt": null,
+        "resultAt": null,
+        "paymentStartAt": null,
+        "paymentEndAt": null,
+        "performanceIds": [
+          "official_hige_dandism_asia_tour_2026_bangkok_0906"
+        ],
         "source": "system",
-        "sourceUrl": "https://not-equal-me.jp/news/detail/7490",
-        "lastVerifiedAt": "2026-08-17T23:55:00+09:00"
+        "sourceUrl": "https://event.higedan.com/feature/asiatour2026",
+        "lastVerifiedAt": "2026-08-18T00:03:00+09:00"
       }
     },
     {
       "action": "upsert",
-      "file": "data/artist/not_equal_me.json",
-      "collection": "tours",
+      "file": "data/artist/sakanaction.json",
+      "collection": "lotteries",
       "value": {
-        "id": "not_equal_me_special_live_2026",
-        "artistId": "not_equal_me",
-        "title": "≠MEスペシャルライブ",
-        "startDate": "2026-08-28T00:00:00+09:00",
-        "endDate": "2026-08-28T00:00:00+09:00",
-        "prices": null,
+        "id": "sakanaction_sakanaquarium_2026_tixplus_trade",
+        "tourId": "sakanaction_sakanaquarium_2026",
+        "type": "公式チケットトレード（2026年公演・チケプラ）",
+        "entryStartAt": "2026-08-03T12:00:00+09:00",
+        "entryEndAt": null,
+        "resultAt": null,
+        "paymentStartAt": null,
+        "paymentEndAt": null,
+        "performanceIds": [
+          "sakanaction_sakanaquarium_2026_budokan_0908",
+          "sakanaction_sakanaquarium_2026_budokan_0909",
+          "sakanaction_sakanaquarium_2026_osakajyo_0912",
+          "sakanaction_sakanaquarium_2026_osakajyo_0913",
+          "sakanaction_sakanaquarium_2026_budokan_0918",
+          "sakanaction_sakanaquarium_2026_budokan_0919",
+          "sakanaction_sakanaquarium_2026_kobe_0929",
+          "sakanaction_sakanaquarium_2026_kobe_0930",
+          "sakanaction_sakanaquarium_2026_budokan_1003",
+          "sakanaction_sakanaquarium_2026_budokan_1004"
+        ],
         "source": "system",
-        "sourceUrl": "https://not-equal-me.jp/news/detail/7490",
-        "lastVerifiedAt": "2026-08-17T23:55:00+09:00"
-      }
-    },
-    {
-      "action": "upsert",
-      "file": "data/artist/not_equal_me.json",
-      "collection": "performances",
-      "value": {
-        "id": "not_equal_me_special_live_2026_yokohama_0828",
-        "tourId": "not_equal_me_special_live_2026",
-        "venue": "新都市ホール",
-        "performanceAt": "2026-08-28T17:00:00+09:00",
-        "doorOpenAt": null,
-        "kind": "oneman",
-        "eventName": "≠MEスペシャルライブ",
-        "source": "system",
-        "sourceUrl": "https://not-equal-me.jp/news/detail/7490",
-        "lastVerifiedAt": "2026-08-17T23:55:00+09:00"
-      }
-    },
-    {
-      "action": "merge",
-      "file": "data/artist/number_i.json",
-      "collection": "performances",
-      "id": "number_i_fes_rijf_2026_soga_0919",
-      "changes": {
-        "venue": "千葉市蘇我スポーツ公園 GRASS STAGE",
-        "performanceAt": "2026-09-19T17:45:00+09:00",
-        "sourceUrl": "https://rijfes.jp/2026/timetable/",
-        "lastVerifiedAt": "2026-08-17T23:55:00+09:00"
+        "sourceUrl": "https://sakanaction.jp/feature/tour2026-2027",
+        "lastVerifiedAt": "2026-08-18T00:03:00+09:00"
       }
     }
   ]
