@@ -7,12 +7,14 @@ Patch format:
     {"action":"merge","file":"data/artist/foo.json","collection":"performances","id":"...","changes":{...}},
     {"action":"upsert","file":"data/artist/foo.json","collection":"tours","value":{...}},
     {"action":"delete","file":"data/artist/foo.json","collection":"lotteries","id":"..."},
-    {"action":"top_merge","file":"data/artist/foo.json","changes":{...}}
+    {"action":"top_merge","file":"data/artist/foo.json","changes":{...}},
+    {"action":"text_replace","file":"COLLECTION_RULES.md","old":"...","new":"..."}
   ]
 }
 
 Safety rules:
-- Only data/artist/*.json may be modified.
+- JSON data operations may modify only data/artist/*.json.
+- text_replace may modify only COLLECTION_RULES.md and the old text must match exactly once.
 - merge/delete must match exactly one existing object by id.
 - upsert replaces an existing same-id object or appends a new one.
 - JSON is rewritten with stable pretty formatting.
@@ -26,6 +28,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 ALLOWED_ROOT = (ROOT / "data" / "artist").resolve()
+ALLOWED_TEXT_FILES = {(ROOT / "COLLECTION_RULES.md").resolve()}
 
 
 def fail(message: str) -> None:
@@ -38,6 +41,15 @@ def resolve_data_file(raw: str) -> Path:
         fail(f"disallowed patch target: {raw}")
     if not path.exists():
         fail(f"patch target does not exist: {raw}")
+    return path
+
+
+def resolve_text_file(raw: str) -> Path:
+    path = (ROOT / raw).resolve()
+    if path not in ALLOWED_TEXT_FILES:
+        fail(f"disallowed text patch target: {raw}")
+    if not path.exists():
+        fail(f"text patch target does not exist: {raw}")
     return path
 
 
@@ -59,12 +71,29 @@ def main() -> int:
         fail("patch spec must contain operations[]")
 
     cache: dict[Path, dict] = {}
+    text_cache: dict[Path, str] = {}
     touched: set[Path] = set()
+    text_touched: set[Path] = set()
 
     for n, op in enumerate(operations, 1):
         if not isinstance(op, dict):
             fail(f"operation #{n} is not an object")
         action = op.get("action")
+
+        if action == "text_replace":
+            path = resolve_text_file(op.get("file", ""))
+            old = op.get("old")
+            new = op.get("new")
+            if not isinstance(old, str) or not isinstance(new, str) or not old:
+                fail(f"operation #{n}: text_replace requires non-empty old and string new")
+            text = text_cache.setdefault(path, path.read_text(encoding="utf-8"))
+            count = text.count(old)
+            if count != 1:
+                fail(f"operation #{n}: text_replace expected exactly one match, found {count}")
+            text_cache[path] = text.replace(old, new, 1)
+            text_touched.add(path)
+            continue
+
         path = resolve_data_file(op.get("file", ""))
         data = cache.setdefault(path, json.loads(path.read_text(encoding="utf-8")))
 
@@ -122,7 +151,11 @@ def main() -> int:
         path.write_text(json.dumps(cache[path], ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         print(f"[OK] patched {path.relative_to(ROOT)}")
 
-    print(f"[OK] applied {len(operations)} operations to {len(touched)} files")
+    for path in sorted(text_touched):
+        path.write_text(text_cache[path], encoding="utf-8")
+        print(f"[OK] patched {path.relative_to(ROOT)}")
+
+    print(f"[OK] applied {len(operations)} operations to {len(touched) + len(text_touched)} files")
     return 0
 
 
