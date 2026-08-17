@@ -558,6 +558,23 @@
       "source": "system",
       "sourceUrl": "https://daichi-miura.jp/news/detail/982",
       "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_bea_1st",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "BEA WEB 1次先行（抽選）",
+      "entryStartAt": "2026-08-22T18:00:00+09:00",
+      "entryEndAt": "2026-09-02T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_fukuoka_1127",
+        "miura_daichi_raw_bare_2026_kumamoto_1129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bea-net.com/liveinformation/artist/2611miuradaichi.html",
+      "lastVerifiedAt": "2026-08-17T23:32:00+09:00"
     }
   ],
   "appleMusicTracks": [

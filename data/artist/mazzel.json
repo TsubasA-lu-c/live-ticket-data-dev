@@ -393,25 +393,25 @@
       "id": "mazzel_asuto_music_park_2026_0905",
       "tourId": "mazzel_asuto_music_park_2026",
       "venue": "ゼビオアリーナ仙台",
-      "performanceAt": "2026-09-05T18:00:00+09:00",
+      "performanceAt": "2026-09-05T16:10:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "ASUTO MUSIC PARK 2026",
       "source": "system",
-      "sourceUrl": "https://mazzel.tokyo/live/5398/",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "sourceUrl": "https://asutomusicpark.com/",
+      "lastVerifiedAt": "2026-08-17T23:32:00+09:00"
     },
     {
       "id": "mazzel_cdtv_autumn_2026_0913",
       "tourId": "mazzel_cdtv_autumn_2026",
       "venue": "東京ガーデンシアター",
-      "performanceAt": "2026-09-13T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-09-13T16:00:00+09:00",
+      "doorOpenAt": "2026-09-13T14:30:00+09:00",
       "kind": "fes",
       "eventName": "CDTV ライブ！ライブ！秋の大感謝祭2026",
       "source": "system",
-      "sourceUrl": "https://mazzel.tokyo/live/5468/",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "sourceUrl": "https://www.tbs.co.jp/cdtv_livelive/articles/20260706.html",
+      "lastVerifiedAt": "2026-08-17T23:32:00+09:00"
     },
     {
       "id": "mazzel_fest_inazuma_2026_0919",

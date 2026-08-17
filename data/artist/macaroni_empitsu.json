@@ -115,10 +115,19 @@
       "title": "murffin discs 20th Anniversary",
       "startDate": "2026-10-18T12:00:00+09:00",
       "endDate": "2026-10-18T12:00:00+09:00",
-      "prices": [],
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 12000
+        },
+        {
+          "label": "車椅子席",
+          "amount": 12000
+        }
+      ],
       "source": "system",
-      "sourceUrl": "https://macaroniempitsu.com/live",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "sourceUrl": "https://macaroniempitsu.com/live/19510.html",
+      "lastVerifiedAt": "2026-08-17T23:32:00+09:00"
     },
     {
       "id": "macaroni_empitsu_fes_2026_kyotohakurankai",
@@ -401,14 +410,14 @@
     {
       "id": "macaroni_empitsu_fes_2026_murffin_1018",
       "tourId": "macaroni_empitsu_fes_2026_murffin",
-      "venue": "国立代々木競技場",
-      "performanceAt": "2026-10-18T12:00:00+09:00",
-      "doorOpenAt": null,
+      "venue": "国立代々木競技場 第一体育館",
+      "performanceAt": "2026-10-18T14:30:00+09:00",
+      "doorOpenAt": "2026-10-18T14:00:00+09:00",
       "kind": "fes",
       "eventName": "murffin discs 20th Anniversary",
       "source": "system",
-      "sourceUrl": "https://macaroniempitsu.com/live",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "sourceUrl": "https://macaroniempitsu.com/live/19510.html",
+      "lastVerifiedAt": "2026-08-17T23:32:00+09:00"
     },
     {
       "id": "macaroni_empitsu_fes_2026_numbershot_0802",
@@ -501,6 +510,22 @@
       "source": "system",
       "sourceUrl": "https://macaroniempitsu.com/news/20381.html",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "macaroni_empitsu_fes_2026_murffin_general",
+      "tourId": "macaroni_empitsu_fes_2026_murffin",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-05-16T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "macaroni_empitsu_fes_2026_murffin_1018"
+      ],
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/live/19510.html",
+      "lastVerifiedAt": "2026-08-17T23:32:00+09:00"
     }
   ],
   "appleMusicTracks": [
