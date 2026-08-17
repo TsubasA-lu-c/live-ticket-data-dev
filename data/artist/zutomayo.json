@@ -89,6 +89,17 @@
       "source": "system",
       "sourceUrl": "https://zutomayo.net/live/56/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_fes_gigantic_2026",
+      "artistId": "zutomayo",
+      "title": "OSAKA GIGANTIC MUSIC FESTIVAL 2026 -THANKS 10TH GIGA-",
+      "startDate": "2026-08-02T00:00:00+09:00",
+      "endDate": "2026-08-02T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/live/53/",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
     }
   ],
   "performances": [
@@ -132,37 +143,49 @@
       "id": "zutomayo_wildbunch_2026_0822",
       "tourId": "zutomayo_fes_wildbunch_2026",
       "venue": "山口きらら博記念公園",
-      "performanceAt": "2026-08-22T19:00:00+09:00",
+      "performanceAt": "2026-08-22T11:30:00+09:00",
       "doorOpenAt": "2026-08-22T10:00:00+09:00",
       "kind": "fes",
       "eventName": "WILD BUNCH FEST. 2026",
       "source": "system",
       "sourceUrl": "https://zutomayo.net/live/54/",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
     },
     {
       "id": "zutomayo_soundplanet_2026_0906",
       "tourId": "zutomayo_fes_soundplanet_2026",
       "venue": "韓国 PARADISE CITY",
-      "performanceAt": "2026-09-06T18:00:00+09:00",
+      "performanceAt": "2026-09-06T11:30:00+09:00",
       "doorOpenAt": "2026-09-06T10:00:00+09:00",
       "kind": "fes",
       "eventName": "SOUND PLANET FESTIVAL 2026",
       "source": "system",
       "sourceUrl": "https://zutomayo.net/live/55/",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
     },
     {
       "id": "zutomayo_rockinJapan_2026_0919",
       "tourId": "zutomayo_fes_rockinjapan_2026",
       "venue": "千葉市蘇我スポーツ公園",
-      "performanceAt": "2026-09-19T18:45:00+09:00",
+      "performanceAt": "2026-09-19T11:45:00+09:00",
       "doorOpenAt": "2026-09-19T08:30:00+09:00",
       "kind": "fes",
       "eventName": "ROCK IN JAPAN FESTIVAL 2026",
       "source": "system",
-      "sourceUrl": "https://zutomayo.net/live/56/",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "sourceUrl": "https://rijfes.jp/2026/home/",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
+    },
+    {
+      "id": "zutomayo_gigantic_2026_0802",
+      "tourId": "zutomayo_fes_gigantic_2026",
+      "venue": "大阪舞洲スポーツアイランド ジャイガ特設会場",
+      "performanceAt": "2026-08-02T11:00:00+09:00",
+      "doorOpenAt": "2026-08-02T09:30:00+09:00",
+      "kind": "fes",
+      "eventName": "OSAKA GIGANTIC MUSIC FESTIVAL 2026 -THANKS 10TH GIGA-",
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/live/53/",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
     }
   ],
   "lotteries": [
