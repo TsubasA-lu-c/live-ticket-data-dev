@@ -64,6 +64,28 @@
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/news/5362/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "mazzel_gigantic_2026",
+      "artistId": "mazzel",
+      "title": "OSAKA GIGANTIC MUSIC FESTIVAL 2026",
+      "startDate": "2026-08-02T00:00:00+09:00",
+      "endDate": "2026-08-02T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://mazzel.tokyo/live/5098/",
+      "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
+    },
+    {
+      "id": "mazzel_summer_sonic_2026",
+      "artistId": "mazzel",
+      "title": "SUMMER SONIC 2026",
+      "startDate": "2026-08-15T00:00:00+09:00",
+      "endDate": "2026-08-16T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://mazzel.tokyo/live/5130/",
+      "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
     }
   ],
   "performances": [
@@ -402,6 +424,42 @@
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/news/5362/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "mazzel_gigantic_2026_maishima_0802",
+      "tourId": "mazzel_gigantic_2026",
+      "venue": "大阪・舞洲スポーツアイランド特設会場 SUN STAGE",
+      "performanceAt": "2026-08-02T16:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "OSAKA GIGANTIC MUSIC FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://giga-osaka.com/timetable/",
+      "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
+    },
+    {
+      "id": "mazzel_summer_sonic_2026_tokyo_0815",
+      "tourId": "mazzel_summer_sonic_2026",
+      "venue": "ZOZOマリンスタジアム＆幕張メッセ PACIFIC STAGE",
+      "performanceAt": "2026-08-15T20:45:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "SUMMER SONIC 2026",
+      "source": "system",
+      "sourceUrl": "https://www.summersonic.com/",
+      "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
+    },
+    {
+      "id": "mazzel_summer_sonic_2026_osaka_0816",
+      "tourId": "mazzel_summer_sonic_2026",
+      "venue": "万博記念公園 AIR STAGE",
+      "performanceAt": "2026-08-16T13:35:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "SUMMER SONIC 2026",
+      "source": "system",
+      "sourceUrl": "https://www.summersonic.com/",
+      "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
     }
   ],
   "lotteries": [
