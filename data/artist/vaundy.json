@@ -84,7 +84,7 @@
     {
       "id": "vaundy_vaws_zepp_sapporo_2026",
       "artistId": "vaundy",
-      "title": "Vaundy VAWS one man live 2026 at Zepp Sapporo",
+      "title": "Vaundy VAWS one man live “ART Work Studio live 002” at Zepp Sapporo",
       "startDate": "2026-08-12T00:00:00+09:00",
       "endDate": "2026-08-13T00:00:00+09:00",
       "prices": [
@@ -102,8 +102,8 @@
         }
       ],
       "source": "system",
-      "sourceUrl": "https://vaundy.jp/news/detail/11070",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://member.vaundy.jp/news/detail/11072",
+      "lastVerifiedAt": "2026-08-18T07:35:00+09:00"
     },
     {
       "id": "vaundy_fes_sweet_love_shower_2026",
@@ -115,6 +115,28 @@
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11186",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "vaundy_number_shot_2026",
+      "artistId": "vaundy",
+      "title": "NUMBER SHOT2026",
+      "startDate": "2026-08-01T00:00:00+09:00",
+      "endDate": "2026-08-01T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://member.vaundy.jp/news/detail/11180",
+      "lastVerifiedAt": "2026-08-18T07:35:00+09:00"
+    },
+    {
+      "id": "vaundy_osaka_gigantic_2026",
+      "artistId": "vaundy",
+      "title": "OSAKA GIGANTIC MUSIC FESTIVAL 2026 -THANKS 10TH GIGA-",
+      "startDate": "2026-08-02T00:00:00+09:00",
+      "endDate": "2026-08-02T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://member.vaundy.jp/news/detail/11202",
+      "lastVerifiedAt": "2026-08-18T07:35:00+09:00"
     }
   ],
   "performances": [
@@ -614,49 +636,49 @@
       "id": "vaundy_fes_2026_hokkaido_0815",
       "tourId": "vaundy_fes_2026_hokkaido",
       "venue": "石狩湾新港樽川ふ頭横野外特設ステージ",
-      "performanceAt": "2026-08-15T00:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-08-15T21:00:00+09:00",
+      "doorOpenAt": "2026-08-15T10:00:00+09:00",
       "kind": "fes",
       "eventName": "RISING SUN ROCK FESTIVAL 2026 in EZO",
       "source": "system",
-      "sourceUrl": "https://vaundy.jp/news/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://member.vaundy.jp/news/detail/11178",
+      "lastVerifiedAt": "2026-08-18T07:35:00+09:00"
     },
     {
       "id": "vaundy_fes_2026_miyagi_0829",
       "tourId": "vaundy_fes_2026_miyagi",
       "venue": "HARD OFF ECO スタジアム新潟",
-      "performanceAt": "2026-08-29T00:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-08-29T18:00:00+09:00",
+      "doorOpenAt": "2026-08-29T09:00:00+09:00",
       "kind": "fes",
       "eventName": "音楽と髭達2026 -TIME MACHINE-",
       "source": "system",
-      "sourceUrl": "https://vaundy.jp/news/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://member.vaundy.jp/news/detail/11193",
+      "lastVerifiedAt": "2026-08-18T07:35:00+09:00"
     },
     {
       "id": "vaundy_fes_2026_ibaraki_0912",
       "tourId": "vaundy_fes_2026_ibaraki",
       "venue": "千葉市蘇我スポーツ公園",
-      "performanceAt": "2026-09-12T00:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-09-12T18:45:00+09:00",
+      "doorOpenAt": "2026-09-12T08:30:00+09:00",
       "kind": "fes",
       "eventName": "ROCK IN JAPAN FESTIVAL 2026",
       "source": "system",
-      "sourceUrl": "https://vaundy.jp/news/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://member.vaundy.jp/news/detail/11206",
+      "lastVerifiedAt": "2026-08-18T07:35:00+09:00"
     },
     {
       "id": "vaundy_fes_2026_tokyo_0923",
       "tourId": "vaundy_fes_2026_tokyo",
       "venue": "GLION ARENA KOBE",
-      "performanceAt": "2026-09-23T00:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-09-23T18:45:00+09:00",
+      "doorOpenAt": "2026-09-23T14:00:00+09:00",
       "kind": "fes",
       "eventName": "熱闘甲子園 presents 熱闘 JAM 2026",
       "source": "system",
-      "sourceUrl": "https://vaundy.jp/news/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://member.vaundy.jp/news/detail/11200",
+      "lastVerifiedAt": "2026-08-18T07:35:00+09:00"
     },
     {
       "id": "vaundy_vaws_zepp_sapporo_2026_0812",
@@ -665,10 +687,10 @@
       "performanceAt": "2026-08-12T19:00:00+09:00",
       "doorOpenAt": "2026-08-12T18:00:00+09:00",
       "kind": "oneman",
-      "eventName": "Vaundy VAWS one man live 2026 at Zepp Sapporo",
+      "eventName": "Vaundy VAWS one man live “ART Work Studio live 002” at Zepp Sapporo",
       "source": "system",
-      "sourceUrl": "https://vaundy.jp/news/detail/11070",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://member.vaundy.jp/news/detail/11072",
+      "lastVerifiedAt": "2026-08-18T07:35:00+09:00"
     },
     {
       "id": "vaundy_vaws_zepp_sapporo_2026_0813",
@@ -677,10 +699,10 @@
       "performanceAt": "2026-08-13T19:00:00+09:00",
       "doorOpenAt": "2026-08-13T18:00:00+09:00",
       "kind": "oneman",
-      "eventName": "Vaundy VAWS one man live 2026 at Zepp Sapporo",
+      "eventName": "Vaundy VAWS one man live “ART Work Studio live 002” at Zepp Sapporo",
       "source": "system",
-      "sourceUrl": "https://vaundy.jp/news/detail/11071",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://member.vaundy.jp/news/detail/11072",
+      "lastVerifiedAt": "2026-08-18T07:35:00+09:00"
     },
     {
       "id": "vaundy_fes_sweet_love_shower_2026_0830",
@@ -693,6 +715,30 @@
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11186",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "vaundy_number_shot_2026_fukuoka_0801",
+      "tourId": "vaundy_number_shot_2026",
+      "venue": "福岡PayPayドーム・シーサイドももち海浜公園地行浜ビーチ",
+      "performanceAt": "2026-08-01T19:00:00+09:00",
+      "doorOpenAt": "2026-08-01T08:30:00+09:00",
+      "kind": "fes",
+      "eventName": "NUMBER SHOT2026",
+      "source": "system",
+      "sourceUrl": "https://member.vaundy.jp/news/detail/11180",
+      "lastVerifiedAt": "2026-08-18T07:35:00+09:00"
+    },
+    {
+      "id": "vaundy_osaka_gigantic_2026_osaka_0802",
+      "tourId": "vaundy_osaka_gigantic_2026",
+      "venue": "大阪舞洲スポーツアイランド ジャイガ特設会場",
+      "performanceAt": "2026-08-02T20:20:00+09:00",
+      "doorOpenAt": "2026-08-02T09:30:00+09:00",
+      "kind": "fes",
+      "eventName": "OSAKA GIGANTIC MUSIC FESTIVAL 2026 -THANKS 10TH GIGA-",
+      "source": "system",
+      "sourceUrl": "https://member.vaundy.jp/news/detail/11202",
+      "lastVerifiedAt": "2026-08-18T07:35:00+09:00"
     }
   ],
   "lotteries": [
@@ -836,6 +882,38 @@
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "vaundy_vaws_zepp_sapporo_2026_trade_0812",
+      "tourId": "vaundy_vaws_zepp_sapporo_2026",
+      "type": "チケットトレード（2回目）",
+      "entryStartAt": "2026-08-05T12:00:00+09:00",
+      "entryEndAt": "2026-08-11T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "vaundy_vaws_zepp_sapporo_2026_0812"
+      ],
+      "source": "system",
+      "sourceUrl": "https://member.vaundy.jp/news/detail/11223",
+      "lastVerifiedAt": "2026-08-18T07:35:00+09:00"
+    },
+    {
+      "id": "vaundy_vaws_zepp_sapporo_2026_trade_0813",
+      "tourId": "vaundy_vaws_zepp_sapporo_2026",
+      "type": "チケットトレード（2回目）",
+      "entryStartAt": "2026-08-05T12:00:00+09:00",
+      "entryEndAt": "2026-08-12T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "vaundy_vaws_zepp_sapporo_2026_0813"
+      ],
+      "source": "system",
+      "sourceUrl": "https://member.vaundy.jp/news/detail/11223",
+      "lastVerifiedAt": "2026-08-18T07:35:00+09:00"
     }
   ],
   "appleMusicTracks": [
