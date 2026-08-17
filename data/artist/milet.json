@@ -272,26 +272,26 @@
     {
       "id": "milet_fes_rsr_2026_0815",
       "tourId": "milet_fes_rsr_2026",
-      "venue": "石狩湾新港樽川ふ頭横野外特設ステージ SUN STAGE",
-      "performanceAt": "2026-08-15T23:20:00+09:00",
-      "doorOpenAt": null,
+      "venue": "石狩湾新港樽川ふ頭横野外特設ステージ",
+      "performanceAt": "2026-08-15T12:30:00+09:00",
+      "doorOpenAt": "2026-08-15T10:00:00+09:00",
       "kind": "fes",
       "eventName": "RISING SUN ROCK FESTIVAL 2026 in EZO",
       "source": "system",
-      "sourceUrl": "https://www.sonymusic.co.jp/artist/milet_music/info/584508",
-      "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
+      "sourceUrl": "https://rsr.wess.co.jp/2026/about/general/",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
     },
     {
       "id": "milet_fes_wild_bunch_2026_0822",
       "tourId": "milet_fes_wild_bunch_2026",
-      "venue": "山口きらら博記念公園 Bandits Stage",
-      "performanceAt": "2026-08-22T13:00:00+09:00",
-      "doorOpenAt": null,
+      "venue": "山口きらら博記念公園",
+      "performanceAt": "2026-08-22T11:30:00+09:00",
+      "doorOpenAt": "2026-08-22T10:00:00+09:00",
       "kind": "fes",
       "eventName": "WILD BUNCH FEST. 2026",
       "source": "system",
-      "sourceUrl": "https://www.sonymusic.co.jp/artist/milet_music/info/584424",
-      "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
+      "sourceUrl": "https://www.wildbunchfest.jp/general-info/",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
     }
   ],
   "lotteries": [],
