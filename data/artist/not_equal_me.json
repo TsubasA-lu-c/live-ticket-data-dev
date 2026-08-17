@@ -1,8 +1,121 @@
 {
   "artistId": "not_equal_me",
-  "tours": [],
-  "performances": [],
-  "lotteries": [],
+  "tours": [
+    {
+      "id": "not_equal_me_summer_festival_2026",
+      "artistId": "not_equal_me",
+      "title": "≠ME夏祭り",
+      "startDate": "2026-08-29T00:00:00+09:00",
+      "endDate": "2026-08-29T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/schedule/detail/7372",
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+    },
+    {
+      "id": "not_equal_me_sanrio_special_live_2026",
+      "artistId": "not_equal_me",
+      "title": "≠ME サンリオキャラクタースペシャルライブ",
+      "startDate": "2026-09-18T00:00:00+09:00",
+      "endDate": "2026-09-18T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/news/detail/7490",
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "not_equal_me_summer_festival_2026_yokohama_0829",
+      "tourId": "not_equal_me_summer_festival_2026",
+      "venue": "新都市ホール",
+      "performanceAt": "2026-08-29T13:30:00+09:00",
+      "doorOpenAt": "2026-08-29T12:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "≠ME夏祭り",
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/schedule/detail/7372",
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+    },
+    {
+      "id": "not_equal_me_sanrio_special_live_2026_tokyo_0918",
+      "tourId": "not_equal_me_sanrio_special_live_2026",
+      "venue": "ヒューリックホール東京",
+      "performanceAt": "2026-09-18T19:00:00+09:00",
+      "doorOpenAt": "2026-09-18T18:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "≠ME サンリオキャラクタースペシャルライブ",
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/news/detail/7490",
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "not_equal_me_summer_festival_2026_cd_round4",
+      "tourId": "not_equal_me_summer_festival_2026",
+      "type": "ノイミー盤サマーギフト付き 第4販売（購入者抽選）",
+      "entryStartAt": "2026-05-18T18:00:00+09:00",
+      "entryEndAt": "2026-05-22T13:00:00+09:00",
+      "resultAt": "2026-07-21T14:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "not_equal_me_summer_festival_2026_yokohama_0829"
+      ],
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/news/detail/7371",
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+    },
+    {
+      "id": "not_equal_me_summer_festival_2026_cd_round5",
+      "tourId": "not_equal_me_summer_festival_2026",
+      "type": "ノイミー盤サマーギフト付き 第5販売（購入者抽選）",
+      "entryStartAt": "2026-05-28T18:00:00+09:00",
+      "entryEndAt": "2026-06-02T13:00:00+09:00",
+      "resultAt": "2026-07-21T14:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "not_equal_me_summer_festival_2026_yokohama_0829"
+      ],
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/news/detail/7371",
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+    },
+    {
+      "id": "not_equal_me_summer_festival_2026_cd_round6",
+      "tourId": "not_equal_me_summer_festival_2026",
+      "type": "ノイミー盤サマーギフト付き 第6販売（購入者抽選）",
+      "entryStartAt": "2026-06-08T18:00:00+09:00",
+      "entryEndAt": "2026-06-16T13:00:00+09:00",
+      "resultAt": "2026-07-21T14:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "not_equal_me_summer_festival_2026_yokohama_0829"
+      ],
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/news/detail/7371",
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+    },
+    {
+      "id": "not_equal_me_sanrio_special_live_2026_serial",
+      "tourId": "not_equal_me_sanrio_special_live_2026",
+      "type": "スペシャル応募抽選",
+      "entryStartAt": "2026-06-23T12:00:00+09:00",
+      "entryEndAt": "2026-08-17T12:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "not_equal_me_sanrio_special_live_2026_tokyo_0918"
+      ],
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/news/detail/7490",
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+    }
+  ],
   "appleMusicTracks": [
     {
       "songId": "6771653764",

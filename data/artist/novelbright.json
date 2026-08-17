@@ -335,72 +335,72 @@
       "tourId": "novelbright_pyramid_2026",
       "venue": "大和工業アリーナ姫路",
       "performanceAt": "2026-09-26T18:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-09-26T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     },
     {
       "id": "novelbright_pyramid_2026_hyogo_0927",
       "tourId": "novelbright_pyramid_2026",
       "venue": "大和工業アリーナ姫路",
-      "performanceAt": "2026-09-27T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-09-27T17:00:00+09:00",
+      "doorOpenAt": "2026-09-27T16:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     },
     {
       "id": "novelbright_pyramid_2026_kanagawa_1007",
       "tourId": "novelbright_pyramid_2026",
       "venue": "ぴあアリーナMM",
-      "performanceAt": "2026-10-07T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-10-07T18:30:00+09:00",
+      "doorOpenAt": "2026-10-07T17:30:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     },
     {
       "id": "novelbright_pyramid_2026_kanagawa_1008",
       "tourId": "novelbright_pyramid_2026",
       "venue": "ぴあアリーナMM",
-      "performanceAt": "2026-10-08T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-10-08T18:30:00+09:00",
+      "doorOpenAt": "2026-10-08T17:30:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     },
     {
       "id": "novelbright_pyramid_2026_osaka_1016",
       "tourId": "novelbright_pyramid_2026",
       "venue": "大阪城ホール",
-      "performanceAt": "2026-10-16T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-10-16T18:30:00+09:00",
+      "doorOpenAt": "2026-10-16T17:30:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     },
     {
       "id": "novelbright_pyramid_2026_osaka_1017",
       "tourId": "novelbright_pyramid_2026",
       "venue": "大阪城ホール",
       "performanceAt": "2026-10-17T18:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-10-17T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     },
     {
       "id": "novelbright_asia_2026_seoul_0801",
@@ -418,49 +418,49 @@
       "id": "novelbright_asia_2026_singapore_0818",
       "tourId": "novelbright_asia_2026",
       "venue": "Capitol Theatre",
-      "performanceAt": "2026-08-18T20:00:00+09:00",
+      "performanceAt": "2026-08-18T20:00:00+08:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": "Novelbright ASIA TOUR 2026 〜PYRAMID〜 IN SINGAPORE",
       "source": "system",
-      "sourceUrl": "https://novelbright.jp/news/detail/2430",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     },
     {
       "id": "novelbright_asia_2026_hongkong_0825",
       "tourId": "novelbright_asia_2026",
       "venue": "MacPherson Stadium",
-      "performanceAt": "2026-08-25T19:00:00+09:00",
+      "performanceAt": "2026-08-25T19:00:00+08:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": "Novelbright ASIA TOUR 2026 〜PYRAMID〜 in Hong Kong",
       "source": "system",
       "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     },
     {
       "id": "novelbright_asia_2026_hongkong_0826",
       "tourId": "novelbright_asia_2026",
       "venue": "MacPherson Stadium",
-      "performanceAt": "2026-08-26T19:00:00+09:00",
+      "performanceAt": "2026-08-26T19:00:00+08:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": "Novelbright ASIA TOUR 2026 〜PYRAMID〜 in Hong Kong",
       "source": "system",
       "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     },
     {
       "id": "novelbright_asia_2026_taipei_1024",
       "tourId": "novelbright_asia_2026",
       "venue": "New Taipei City Exhibition Hall",
-      "performanceAt": "2026-10-24T17:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-10-24T18:00:00+08:00",
+      "doorOpenAt": "2026-10-24T17:00:00+08:00",
       "kind": "oneman",
       "eventName": "Novelbright ASIA TOUR 2026 〜PYRAMID〜 IN TAIPEI",
       "source": "system",
       "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     }
   ],
   "lotteries": [
@@ -513,6 +513,87 @@
       "source": "system",
       "sourceUrl": "https://novelbright.jp/news/detail/2428",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "novelbright_pyramid_2026_kanagawa_general",
+      "tourId": "novelbright_pyramid_2026",
+      "type": "一般発売（ぴあアリーナMM・指定席）",
+      "entryStartAt": "2026-06-27T00:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "novelbright_pyramid_2026_kanagawa_1007",
+        "novelbright_pyramid_2026_kanagawa_1008"
+      ],
+      "source": "system",
+      "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+    },
+    {
+      "id": "novelbright_asia_2026_singapore_general",
+      "tourId": "novelbright_asia_2026",
+      "type": "シンガポール公演 一般発売",
+      "entryStartAt": "2026-05-15T14:00:00+08:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "novelbright_asia_2026_singapore_0818"
+      ],
+      "source": "system",
+      "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+    },
+    {
+      "id": "novelbright_asia_2026_hongkong_0825_general",
+      "tourId": "novelbright_asia_2026",
+      "type": "香港8/25公演 一般発売",
+      "entryStartAt": "2026-05-15T14:00:00+08:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "novelbright_asia_2026_hongkong_0825"
+      ],
+      "source": "system",
+      "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+    },
+    {
+      "id": "novelbright_asia_2026_hongkong_0826_general",
+      "tourId": "novelbright_asia_2026",
+      "type": "香港8/26公演 一般発売",
+      "entryStartAt": "2026-06-03T15:00:00+08:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "novelbright_asia_2026_hongkong_0826"
+      ],
+      "source": "system",
+      "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+    },
+    {
+      "id": "novelbright_asia_2026_taipei_general",
+      "tourId": "novelbright_asia_2026",
+      "type": "台北公演 一般発売",
+      "entryStartAt": "2026-05-08T12:00:00+08:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "novelbright_asia_2026_taipei_1024"
+      ],
+      "source": "system",
+      "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
     }
   ],
   "appleMusicTracks": [
