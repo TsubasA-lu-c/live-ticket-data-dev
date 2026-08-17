@@ -661,6 +661,38 @@
       "source": "system",
       "sourceUrl": "https://ikimonogakari.com/news/live/20260403-3",
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_fc_resale_yamagata_0809",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "オフィシャルファンクラブ限定公式リセール（山形）",
+      "entryStartAt": "2026-07-26T12:00:00+09:00",
+      "entryEndAt": "2026-08-08T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_yamagata_0809"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/news/live/20260403-2",
+      "lastVerifiedAt": "2026-08-17T22:48:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_fc_resale_shiga_0829",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "オフィシャルファンクラブ限定公式リセール（滋賀）",
+      "entryStartAt": "2026-08-15T12:00:00+09:00",
+      "entryEndAt": "2026-08-28T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_shiga_0829"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/news/live/20260403-2",
+      "lastVerifiedAt": "2026-08-17T22:48:00+09:00"
     }
   ],
   "appleMusicTracks": [
