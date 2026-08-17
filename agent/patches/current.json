@@ -1,18 +1,6 @@
 {
   "operations": [
     {
-      "action": "delete",
-      "file": "data/artist/naniwa_danshi.json",
-      "collection": "performances",
-      "id": "naniwa_danshi_fes_kamigata_expo_park_2026_banpaku_1031"
-    },
-    {
-      "action": "delete",
-      "file": "data/artist/naniwa_danshi.json",
-      "collection": "performances",
-      "id": "naniwa_danshi_fes_kamigata_expo_park_2026_banpaku_1101"
-    },
-    {
       "action": "upsert",
       "file": "data/artist/not_equal_me.json",
       "collection": "tours",
