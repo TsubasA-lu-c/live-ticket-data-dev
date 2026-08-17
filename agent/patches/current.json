@@ -1,1 +1,273 @@
-{"operations":[{"action":"upsert","file":"data/artist/nogizaka46.json","collection":"lotteries","value":{"id":"nogizaka46_manatsu_2026_tokyo_resale","tourId":"nogizaka46_manatsu_2026","type":"公式リセール（東京公演・抽選）","entryStartAt":"2026-08-09T12:00:00+09:00","entryEndAt":"2026-08-11T23:59:00+09:00","resultAt":null,"paymentStartAt":null,"paymentEndAt":null,"performanceIds":["nogizaka46_manatsu_2026_tokyo_0820","nogizaka46_manatsu_2026_tokyo_0821","nogizaka46_manatsu_2026_tokyo_0822","nogizaka46_manatsu_2026_tokyo_0823"],"source":"system","sourceUrl":"https://www.nogizaka46.com/s/n46/news/detail/102130","lastVerifiedAt":"2026-08-18T07:14:00+09:00"}},{"action":"upsert","file":"data/artist/not_equal_me.json","collection":"tours","value":{"id":"not_equal_me_tif_2026","artistId":"not_equal_me","title":"TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック","startDate":"2026-08-01T00:00:00+09:00","endDate":"2026-08-01T00:00:00+09:00","prices":[{"label":"通常チケット 単日券（先行）","amount":10500},{"label":"Tシャツ付きチケット 単日券（先行）","amount":13000}],"source":"system","sourceUrl":"https://not-equal-me.jp/news/detail/7377","lastVerifiedAt":"2026-08-18T07:14:00+09:00"}},{"action":"upsert","file":"data/artist/not_equal_me.json","collection":"performances","value":{"id":"not_equal_me_tif_2026_odaiba_0801","tourId":"not_equal_me_tif_2026","venue":"お台場・青海周辺エリア","performanceAt":"2026-08-01T12:00:00+09:00","doorOpenAt":null,"kind":"fes","eventName":"TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック","source":"system","sourceUrl":"https://not-equal-me.jp/schedule/","lastVerifiedAt":"2026-08-18T07:14:00+09:00"}},{"action":"upsert","file":"data/artist/not_equal_me.json","collection":"tours","value":{"id":"not_equal_me_luckyfes_2026","artistId":"not_equal_me","title":"LuckyFes’26","startDate":"2026-08-08T00:00:00+09:00","endDate":"2026-08-08T00:00:00+09:00","prices":[{"label":"1日券 大人","amount":14000},{"label":"1日券 中高生","amount":7000}],"source":"system","sourceUrl":"https://not-equal-me.jp/schedule/detail/7256","lastVerifiedAt":"2026-08-18T07:14:00+09:00"}},{"action":"upsert","file":"data/artist/not_equal_me.json","collection":"performances","value":{"id":"not_equal_me_luckyfes_2026_hitachinaka_0808","tourId":"not_equal_me_luckyfes_2026","venue":"国営ひたち海浜公園 RAINBOW STAGE","performanceAt":"2026-08-08T14:50:00+09:00","doorOpenAt":null,"kind":"fes","eventName":"LuckyFes’26","source":"system","sourceUrl":"https://luckyfes.com/artists/%E2%89%A0ME","lastVerifiedAt":"2026-08-18T07:14:00+09:00"}},{"action":"upsert","file":"data/artist/not_equal_me.json","collection":"tours","value":{"id":"not_equal_me_noimi_station_2026","artistId":"not_equal_me","title":"「ノイミーステーション」公開収録＆ミニLIVE2026 ～ ≠MEと過ごす6度目の夏！ in 大阪 那須車掌もいるよSP ～","startDate":"2026-08-16T00:00:00+09:00","endDate":"2026-08-16T00:00:00+09:00","prices":null,"source":"system","sourceUrl":"https://not-equal-me.jp/schedule/detail/7525","lastVerifiedAt":"2026-08-18T07:14:00+09:00"}},{"action":"upsert","file":"data/artist/not_equal_me.json","collection":"performances","value":{"id":"not_equal_me_noimi_station_2026_osaka_0816_day","tourId":"not_equal_me_noimi_station_2026","venue":"SkyシアターMBS","performanceAt":"2026-08-16T14:00:00+09:00","doorOpenAt":"2026-08-16T13:15:00+09:00","kind":"oneman","eventName":"「ノイミーステーション」公開収録＆ミニLIVE2026 ～ ≠MEと過ごす6度目の夏！ in 大阪 那須車掌もいるよSP ～","source":"system","sourceUrl":"https://not-equal-me.jp/schedule/detail/7525","lastVerifiedAt":"2026-08-18T07:14:00+09:00"}},{"action":"upsert","file":"data/artist/not_equal_me.json","collection":"performances","value":{"id":"not_equal_me_noimi_station_2026_osaka_0816_night","tourId":"not_equal_me_noimi_station_2026","venue":"SkyシアターMBS","performanceAt":"2026-08-16T17:30:00+09:00","doorOpenAt":"2026-08-16T16:45:00+09:00","kind":"oneman","eventName":"「ノイミーステーション」公開収録＆ミニLIVE2026 ～ ≠MEと過ごす6度目の夏！ in 大阪 那須車掌もいるよSP ～","source":"system","sourceUrl":"https://not-equal-me.jp/schedule/detail/7525","lastVerifiedAt":"2026-08-18T07:14:00+09:00"}},{"action":"upsert","file":"data/artist/not_equal_me.json","collection":"tours","value":{"id":"not_equal_me_after_game_2026","artistId":"not_equal_me","title":"AFTER GAME","startDate":"2026-08-30T00:00:00+09:00","endDate":"2026-08-30T00:00:00+09:00","prices":[{"label":"アリーナチケットオプション","amount":3000}],"source":"system","sourceUrl":"https://not-equal-me.jp/schedule/detail/7450","lastVerifiedAt":"2026-08-18T07:14:00+09:00"}},{"action":"upsert","file":"data/artist/not_equal_me.json","collection":"performances","value":{"id":"not_equal_me_after_game_2026_escon_0830","tourId":"not_equal_me_after_game_2026","venue":"エスコンフィールドHOKKAIDO","performanceAt":"2026-08-30T12:00:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":"AFTER GAME","source":"system","sourceUrl":"https://not-equal-me.jp/schedule/detail/7450","lastVerifiedAt":"2026-08-18T07:14:00+09:00"}},{"action":"upsert","file":"data/artist/not_equal_me.json","collection":"lotteries","value":{"id":"not_equal_me_after_game_2026_arena_option","tourId":"not_equal_me_after_game_2026","type":"アリーナチケットオプション（先着）","entryStartAt":"2026-06-14T12:00:00+09:00","entryEndAt":null,"resultAt":null,"paymentStartAt":null,"paymentEndAt":null,"performanceIds":["not_equal_me_after_game_2026_escon_0830"],"source":"system","sourceUrl":"https://not-equal-me.jp/schedule/detail/7450","lastVerifiedAt":"2026-08-18T07:14:00+09:00"}},{"action":"merge","file":"data/artist/novelbright.json","collection":"performances","id":"novelbright_pyramid_2026_chiba_0807","changes":{"performanceAt":"2026-08-07T18:30:00+09:00","doorOpenAt":"2026-08-07T17:30:00+09:00","sourceUrl":"https://novelbright.jp/feature/hall_arenatour2026","lastVerifiedAt":"2026-08-18T07:14:00+09:00"}},{"action":"merge","file":"data/artist/novelbright.json","collection":"performances","id":"novelbright_pyramid_2026_aichi_0810","changes":{"performanceAt":"2026-08-10T18:30:00+09:00","doorOpenAt":"2026-08-10T17:30:00+09:00","sourceUrl":"https://novelbright.jp/feature/hall_arenatour2026","lastVerifiedAt":"2026-08-18T07:14:00+09:00"}},{"action":"merge","file":"data/artist/novelbright.json","collection":"performances","id":"novelbright_pyramid_2026_aichi_0811","changes":{"performanceAt":"2026-08-11T17:00:00+09:00","doorOpenAt":"2026-08-11T16:00:00+09:00","sourceUrl":"https://novelbright.jp/feature/hall_arenatour2026","lastVerifiedAt":"2026-08-18T07:14:00+09:00"}},{"action":"merge","file":"data/artist/novelbright.json","collection":"performances","id":"novelbright_pyramid_2026_niigata_0815","changes":{"performanceAt":"2026-08-15T18:00:00+09:00","doorOpenAt":"2026-08-15T17:00:00+09:00","sourceUrl":"https://novelbright.jp/feature/hall_arenatour2026","lastVerifiedAt":"2026-08-18T07:14:00+09:00"}},{"action":"upsert","file":"data/artist/novelbright.json","collection":"tours","value":{"id":"novelbright_luckyfes_2026","artistId":"novelbright","title":"LuckyFes'26","startDate":"2026-08-08T00:00:00+09:00","endDate":"2026-08-08T00:00:00+09:00","prices":[{"label":"1日券 大人","amount":14000},{"label":"1日券 中高生","amount":7000}],"source":"system","sourceUrl":"https://novelbright.jp/news/detail/2285","lastVerifiedAt":"2026-08-18T07:14:00+09:00"}},{"action":"upsert","file":"data/artist/novelbright.json","collection":"performances","value":{"id":"novelbright_luckyfes_2026_hitachinaka_0808","tourId":"novelbright_luckyfes_2026","venue":"国営ひたち海浜公園 WING STAGE","performanceAt":"2026-08-08T17:05:00+09:00","doorOpenAt":null,"kind":"fes","eventName":"LuckyFes'26","source":"system","sourceUrl":"https://luckyfes.com/artists/Novelbright","lastVerifiedAt":"2026-08-18T07:14:00+09:00"}},{"action":"upsert","file":"data/artist/novelbright.json","collection":"tours","value":{"id":"novelbright_wild_bunch_2026","artistId":"novelbright","title":"WILD BUNCH FEST. 2026","startDate":"2026-08-22T00:00:00+09:00","endDate":"2026-08-22T00:00:00+09:00","prices":[{"label":"8/22 1日券","amount":13000}],"source":"system","sourceUrl":"https://novelbright.jp/schedule/detail/2372","lastVerifiedAt":"2026-08-18T07:14:00+09:00"}},{"action":"upsert","file":"data/artist/novelbright.json","collection":"performances","value":{"id":"novelbright_wild_bunch_2026_yamaguchi_0822","tourId":"novelbright_wild_bunch_2026","venue":"山口きらら博記念公園","performanceAt":"2026-08-22T12:00:00+09:00","doorOpenAt":null,"kind":"fes","eventName":"WILD BUNCH FEST. 2026","source":"system","sourceUrl":"https://novelbright.jp/schedule/detail/2372","lastVerifiedAt":"2026-08-18T07:14:00+09:00"}},{"action":"upsert","file":"data/artist/novelbright.json","collection":"lotteries","value":{"id":"novelbright_wild_bunch_2026_general","tourId":"novelbright_wild_bunch_2026","type":"一般発売（先着）","entryStartAt":"2026-07-18T10:00:00+09:00","entryEndAt":null,"resultAt":null,"paymentStartAt":null,"paymentEndAt":null,"performanceIds":["novelbright_wild_bunch_2026_yamaguchi_0822"],"source":"system","sourceUrl":"https://www.wildbunchfest.jp/2026/","lastVerifiedAt":"2026-08-18T07:14:00+09:00"}},{"action":"upsert","file":"data/artist/novelbright.json","collection":"tours","value":{"id":"novelbright_lighters_high_2026","artistId":"novelbright","title":"NOVELCITY EDITION Novelbright結成13周年記念LIVE 「Lighter’s High」","startDate":"2026-09-13T00:00:00+09:00","endDate":"2026-09-13T00:00:00+09:00","prices":[{"label":"1Fスタンディング","amount":9000},{"label":"2F指定席","amount":9500}],"source":"system","sourceUrl":"https://novelbright.jp/feature/LightersHigh2026","lastVerifiedAt":"2026-08-18T07:14:00+09:00"}},{"action":"upsert","file":"data/artist/novelbright.json","collection":"performances","value":{"id":"novelbright_lighters_high_2026_zepp_haneda_0913","tourId":"novelbright_lighters_high_2026","venue":"Zepp Haneda(TOKYO)","performanceAt":"2026-09-13T17:00:00+09:00","doorOpenAt":"2026-09-13T16:00:00+09:00","kind":"oneman","eventName":"NOVELCITY EDITION Novelbright結成13周年記念LIVE 「Lighter’s High」","source":"system","sourceUrl":"https://novelbright.jp/feature/LightersHigh2026","lastVerifiedAt":"2026-08-18T07:14:00+09:00"}},{"action":"upsert","file":"data/artist/novelbright.json","collection":"lotteries","value":{"id":"novelbright_lighters_high_2026_novelcity_longterm","tourId":"novelbright_lighters_high_2026","type":"NOVELCITY長期継続会員抽選先行","entryStartAt":"2026-07-14T18:00:00+09:00","entryEndAt":"2026-07-19T23:59:00+09:00","resultAt":null,"paymentStartAt":null,"paymentEndAt":null,"performanceIds":["novelbright_lighters_high_2026_zepp_haneda_0913"],"source":"system","sourceUrl":"https://novelbright.jp/news/detail/2443","lastVerifiedAt":"2026-08-18T07:14:00+09:00"}},{"action":"upsert","file":"data/artist/novelbright.json","collection":"lotteries","value":{"id":"novelbright_lighters_high_2026_novelcity","tourId":"novelbright_lighters_high_2026","type":"NOVELCITY会員抽選先行","entryStartAt":"2026-07-25T18:00:00+09:00","entryEndAt":"2026-07-30T23:59:00+09:00","resultAt":null,"paymentStartAt":null,"paymentEndAt":null,"performanceIds":["novelbright_lighters_high_2026_zepp_haneda_0913"],"source":"system","sourceUrl":"https://novelbright.jp/news/detail/2448","lastVerifiedAt":"2026-08-18T07:14:00+09:00"}},{"action":"upsert","file":"data/artist/novelbright.json","collection":"tours","value":{"id":"novelbright_rock_in_japan_2026","artistId":"novelbright","title":"ROCK IN JAPAN FESTIVAL 2026","startDate":"2026-09-19T00:00:00+09:00","endDate":"2026-09-19T00:00:00+09:00","prices":[{"label":"1日券","amount":16000}],"source":"system","sourceUrl":"https://novelbright.jp/news/detail/2418","lastVerifiedAt":"2026-08-18T07:14:00+09:00"}},{"action":"upsert","file":"data/artist/novelbright.json","collection":"performances","value":{"id":"novelbright_rock_in_japan_2026_soga_0919","tourId":"novelbright_rock_in_japan_2026","venue":"千葉市蘇我スポーツ公園","performanceAt":"2026-09-19T12:00:00+09:00","doorOpenAt":null,"kind":"fes","eventName":"ROCK IN JAPAN FESTIVAL 2026","source":"system","sourceUrl":"https://novelbright.jp/news/detail/2418","lastVerifiedAt":"2026-08-18T07:14:00+09:00"}},{"action":"upsert","file":"data/artist/novelbright.json","collection":"tours","value":{"id":"novelbright_fest_inazuma_2026","artistId":"novelbright","title":"FEST. INAZUMA 2026","startDate":"2026-09-21T00:00:00+09:00","endDate":"2026-09-21T00:00:00+09:00","prices":[{"label":"GA 21日券","amount":15000},{"label":"VIP 21日券","amount":33000},{"label":"VVIP 21日券","amount":38000}],"source":"system","sourceUrl":"https://novelbright.jp/news/detail/2389","lastVerifiedAt":"2026-08-18T07:14:00+09:00"}},{"action":"upsert","file":"data/artist/novelbright.json","collection":"performances","value":{"id":"novelbright_fest_inazuma_2026_kusatsu_0921","tourId":"novelbright_fest_inazuma_2026","venue":"滋賀県草津市 烏丸半島芝生広場","performanceAt":"2026-09-21T12:00:00+09:00","doorOpenAt":null,"kind":"fes","eventName":"FEST. INAZUMA 2026","source":"system","sourceUrl":"https://novelbright.jp/news/detail/2389","lastVerifiedAt":"2026-08-18T07:14:00+09:00"}},{"action":"upsert","file":"data/artist/novelbright.json","collection":"lotteries","value":{"id":"novelbright_fest_inazuma_2026_5th","tourId":"novelbright_fest_inazuma_2026","type":"チケット5次先行","entryStartAt":"2026-07-27T00:00:00+09:00","entryEndAt":"2026-08-09T23:59:00+09:00","resultAt":null,"paymentStartAt":null,"paymentEndAt":null,"performanceIds":["novelbright_fest_inazuma_2026_kusatsu_0921"],"source":"system","sourceUrl":"https://fest-inazuma.com/2026/cms/news/81/","lastVerifiedAt":"2026-08-18T07:14:00+09:00"}}]}
+{
+  "operations": [
+    {
+      "action": "upsert",
+      "file": "data/artist/uta_no_prince_sama.json",
+      "collection": "tours",
+      "value": {
+        "id": "uta_no_prince_sama_15th_we_love_starish_2027",
+        "artistId": "uta_no_prince_sama",
+        "title": "うたの☆プリンスさまっ♪ 15th Anniversary LIVE WE LOVE ST☆RISH",
+        "startDate": "2027-01-23T00:00:00+09:00",
+        "endDate": "2027-01-31T00:00:00+09:00",
+        "prices": null,
+        "source": "system",
+        "sourceUrl": "https://15th.utapri.tv/event/",
+        "lastVerifiedAt": "2026-08-18T07:35:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/uta_no_prince_sama.json",
+      "collection": "performances",
+      "value": {
+        "id": "uta_no_prince_sama_15th_we_love_starish_2027_yokohama_0123",
+        "tourId": "uta_no_prince_sama_15th_we_love_starish_2027",
+        "venue": "Kアリーナ横浜",
+        "performanceAt": "2027-01-23T18:00:00+09:00",
+        "doorOpenAt": null,
+        "kind": "oneman",
+        "eventName": "うたの☆プリンスさまっ♪ 15th Anniversary LIVE WE LOVE ST☆RISH",
+        "source": "system",
+        "sourceUrl": "https://15th.utapri.tv/event/",
+        "lastVerifiedAt": "2026-08-18T07:35:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/uta_no_prince_sama.json",
+      "collection": "performances",
+      "value": {
+        "id": "uta_no_prince_sama_15th_we_love_starish_2027_yokohama_0124",
+        "tourId": "uta_no_prince_sama_15th_we_love_starish_2027",
+        "venue": "Kアリーナ横浜",
+        "performanceAt": "2027-01-24T18:00:00+09:00",
+        "doorOpenAt": null,
+        "kind": "oneman",
+        "eventName": "うたの☆プリンスさまっ♪ 15th Anniversary LIVE WE LOVE ST☆RISH",
+        "source": "system",
+        "sourceUrl": "https://15th.utapri.tv/event/",
+        "lastVerifiedAt": "2026-08-18T07:35:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/uta_no_prince_sama.json",
+      "collection": "performances",
+      "value": {
+        "id": "uta_no_prince_sama_15th_we_love_starish_2027_aichi_0130",
+        "tourId": "uta_no_prince_sama_15th_we_love_starish_2027",
+        "venue": "IGアリーナ",
+        "performanceAt": "2027-01-30T18:00:00+09:00",
+        "doorOpenAt": null,
+        "kind": "oneman",
+        "eventName": "うたの☆プリンスさまっ♪ 15th Anniversary LIVE WE LOVE ST☆RISH",
+        "source": "system",
+        "sourceUrl": "https://15th.utapri.tv/event/",
+        "lastVerifiedAt": "2026-08-18T07:35:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/uta_no_prince_sama.json",
+      "collection": "performances",
+      "value": {
+        "id": "uta_no_prince_sama_15th_we_love_starish_2027_aichi_0131",
+        "tourId": "uta_no_prince_sama_15th_we_love_starish_2027",
+        "venue": "IGアリーナ",
+        "performanceAt": "2027-01-31T18:00:00+09:00",
+        "doorOpenAt": null,
+        "kind": "oneman",
+        "eventName": "うたの☆プリンスさまっ♪ 15th Anniversary LIVE WE LOVE ST☆RISH",
+        "source": "system",
+        "sourceUrl": "https://15th.utapri.tv/event/",
+        "lastVerifiedAt": "2026-08-18T07:35:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/vaundy.json",
+      "collection": "tours",
+      "value": {
+        "id": "vaundy_number_shot_2026",
+        "artistId": "vaundy",
+        "title": "NUMBER SHOT2026",
+        "startDate": "2026-08-01T00:00:00+09:00",
+        "endDate": "2026-08-01T00:00:00+09:00",
+        "prices": null,
+        "source": "system",
+        "sourceUrl": "https://member.vaundy.jp/news/detail/11180",
+        "lastVerifiedAt": "2026-08-18T07:35:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/vaundy.json",
+      "collection": "performances",
+      "value": {
+        "id": "vaundy_number_shot_2026_fukuoka_0801",
+        "tourId": "vaundy_number_shot_2026",
+        "venue": "福岡PayPayドーム・シーサイドももち海浜公園地行浜ビーチ",
+        "performanceAt": "2026-08-01T19:00:00+09:00",
+        "doorOpenAt": "2026-08-01T08:30:00+09:00",
+        "kind": "fes",
+        "eventName": "NUMBER SHOT2026",
+        "source": "system",
+        "sourceUrl": "https://member.vaundy.jp/news/detail/11180",
+        "lastVerifiedAt": "2026-08-18T07:35:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/vaundy.json",
+      "collection": "tours",
+      "value": {
+        "id": "vaundy_osaka_gigantic_2026",
+        "artistId": "vaundy",
+        "title": "OSAKA GIGANTIC MUSIC FESTIVAL 2026 -THANKS 10TH GIGA-",
+        "startDate": "2026-08-02T00:00:00+09:00",
+        "endDate": "2026-08-02T00:00:00+09:00",
+        "prices": null,
+        "source": "system",
+        "sourceUrl": "https://member.vaundy.jp/news/detail/11202",
+        "lastVerifiedAt": "2026-08-18T07:35:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/vaundy.json",
+      "collection": "performances",
+      "value": {
+        "id": "vaundy_osaka_gigantic_2026_osaka_0802",
+        "tourId": "vaundy_osaka_gigantic_2026",
+        "venue": "大阪舞洲スポーツアイランド ジャイガ特設会場",
+        "performanceAt": "2026-08-02T20:20:00+09:00",
+        "doorOpenAt": "2026-08-02T09:30:00+09:00",
+        "kind": "fes",
+        "eventName": "OSAKA GIGANTIC MUSIC FESTIVAL 2026 -THANKS 10TH GIGA-",
+        "source": "system",
+        "sourceUrl": "https://member.vaundy.jp/news/detail/11202",
+        "lastVerifiedAt": "2026-08-18T07:35:00+09:00"
+      }
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/vaundy.json",
+      "collection": "performances",
+      "id": "vaundy_fes_2026_hokkaido_0815",
+      "changes": {
+        "performanceAt": "2026-08-15T21:00:00+09:00",
+        "doorOpenAt": "2026-08-15T10:00:00+09:00",
+        "sourceUrl": "https://member.vaundy.jp/news/detail/11178",
+        "lastVerifiedAt": "2026-08-18T07:35:00+09:00"
+      }
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/vaundy.json",
+      "collection": "performances",
+      "id": "vaundy_fes_2026_miyagi_0829",
+      "changes": {
+        "performanceAt": "2026-08-29T18:00:00+09:00",
+        "doorOpenAt": "2026-08-29T09:00:00+09:00",
+        "sourceUrl": "https://member.vaundy.jp/news/detail/11193",
+        "lastVerifiedAt": "2026-08-18T07:35:00+09:00"
+      }
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/vaundy.json",
+      "collection": "performances",
+      "id": "vaundy_fes_2026_ibaraki_0912",
+      "changes": {
+        "performanceAt": "2026-09-12T18:45:00+09:00",
+        "doorOpenAt": "2026-09-12T08:30:00+09:00",
+        "sourceUrl": "https://member.vaundy.jp/news/detail/11206",
+        "lastVerifiedAt": "2026-08-18T07:35:00+09:00"
+      }
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/vaundy.json",
+      "collection": "performances",
+      "id": "vaundy_fes_2026_tokyo_0923",
+      "changes": {
+        "performanceAt": "2026-09-23T18:45:00+09:00",
+        "doorOpenAt": "2026-09-23T14:00:00+09:00",
+        "sourceUrl": "https://member.vaundy.jp/news/detail/11200",
+        "lastVerifiedAt": "2026-08-18T07:35:00+09:00"
+      }
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/vaundy.json",
+      "collection": "tours",
+      "id": "vaundy_vaws_zepp_sapporo_2026",
+      "changes": {
+        "title": "Vaundy VAWS one man live “ART Work Studio live 002” at Zepp Sapporo",
+        "sourceUrl": "https://member.vaundy.jp/news/detail/11072",
+        "lastVerifiedAt": "2026-08-18T07:35:00+09:00"
+      }
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/vaundy.json",
+      "collection": "performances",
+      "id": "vaundy_vaws_zepp_sapporo_2026_0812",
+      "changes": {
+        "eventName": "Vaundy VAWS one man live “ART Work Studio live 002” at Zepp Sapporo",
+        "sourceUrl": "https://member.vaundy.jp/news/detail/11072",
+        "lastVerifiedAt": "2026-08-18T07:35:00+09:00"
+      }
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/vaundy.json",
+      "collection": "performances",
+      "id": "vaundy_vaws_zepp_sapporo_2026_0813",
+      "changes": {
+        "eventName": "Vaundy VAWS one man live “ART Work Studio live 002” at Zepp Sapporo",
+        "sourceUrl": "https://member.vaundy.jp/news/detail/11072",
+        "lastVerifiedAt": "2026-08-18T07:35:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/vaundy.json",
+      "collection": "lotteries",
+      "value": {
+        "id": "vaundy_vaws_zepp_sapporo_2026_trade_0812",
+        "tourId": "vaundy_vaws_zepp_sapporo_2026",
+        "type": "チケットトレード（2回目）",
+        "entryStartAt": "2026-08-05T12:00:00+09:00",
+        "entryEndAt": "2026-08-11T11:59:00+09:00",
+        "resultAt": null,
+        "paymentStartAt": null,
+        "paymentEndAt": null,
+        "performanceIds": ["vaundy_vaws_zepp_sapporo_2026_0812"],
+        "source": "system",
+        "sourceUrl": "https://member.vaundy.jp/news/detail/11223",
+        "lastVerifiedAt": "2026-08-18T07:35:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/vaundy.json",
+      "collection": "lotteries",
+      "value": {
+        "id": "vaundy_vaws_zepp_sapporo_2026_trade_0813",
+        "tourId": "vaundy_vaws_zepp_sapporo_2026",
+        "type": "チケットトレード（2回目）",
+        "entryStartAt": "2026-08-05T12:00:00+09:00",
+        "entryEndAt": "2026-08-12T11:59:00+09:00",
+        "resultAt": null,
+        "paymentStartAt": null,
+        "paymentEndAt": null,
+        "performanceIds": ["vaundy_vaws_zepp_sapporo_2026_0813"],
+        "source": "system",
+        "sourceUrl": "https://member.vaundy.jp/news/detail/11223",
+        "lastVerifiedAt": "2026-08-18T07:35:00+09:00"
+      }
+    }
+  ]
+}
