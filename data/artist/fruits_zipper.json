@@ -8,8 +8,14 @@
       "startDate": "2026-09-03T00:00:00+09:00",
       "endDate": "2026-11-22T00:00:00+09:00",
       "prices": [
-        {"label": "指定席", "amount": 8000},
-        {"label": "アップグレード指定席", "amount": 14000}
+        {
+          "label": "指定席",
+          "amount": 8000
+        },
+        {
+          "label": "アップグレード指定席",
+          "amount": 14000
+        }
       ],
       "source": "system",
       "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/78068",
@@ -33,9 +39,18 @@
       "startDate": "2026-12-12T00:00:00+09:00",
       "endDate": "2026-12-13T00:00:00+09:00",
       "prices": [
-        {"label": "一般指定席", "amount": 10000},
-        {"label": "ファミリー席（大人）", "amount": 10000},
-        {"label": "ファミリー席（こども）", "amount": 5000}
+        {
+          "label": "一般指定席",
+          "amount": 10000
+        },
+        {
+          "label": "ファミリー席（大人）",
+          "amount": 10000
+        },
+        {
+          "label": "ファミリー席（こども）",
+          "amount": 5000
+        }
       ],
       "source": "system",
       "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/85441",
@@ -323,25 +338,25 @@
       "id": "fruits_zipper_fes_2026_asobiexpo_tokyo_0818",
       "tourId": "fruits_zipper_fes_2026",
       "venue": "TOYOTA ARENA TOKYO",
-      "performanceAt": "2026-08-18T12:00:00+09:00",
+      "performanceAt": "2026-08-18T17:30:00+09:00",
       "doorOpenAt": "2026-08-18T16:00:00+09:00",
       "kind": "fes",
       "eventName": "ASOBISYSTEM 19th Anniversary ASOBIEXPO 2026",
       "source": "system",
       "sourceUrl": "https://fruitszipper.asobisystem.com/live_information/detail/41647",
-      "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
+      "lastVerifiedAt": "2026-08-17T22:40:00+09:00"
     },
     {
       "id": "fruits_zipper_fes_2026_pamyufes_yokohama_0822",
       "tourId": "fruits_zipper_fes_2026",
       "venue": "ぴあアリーナMM",
-      "performanceAt": "2026-08-22T12:00:00+09:00",
+      "performanceAt": "2026-08-22T15:30:00+09:00",
       "doorOpenAt": "2026-08-22T14:30:00+09:00",
       "kind": "fes",
       "eventName": "PAMYU FES",
       "source": "system",
       "sourceUrl": "https://fruitszipper.asobisystem.com/live_information/detail/40107",
-      "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
+      "lastVerifiedAt": "2026-08-17T22:40:00+09:00"
     },
     {
       "id": "fruits_zipper_fes_2026_monsterbash_mannou_0823",
@@ -359,37 +374,37 @@
       "id": "fruits_zipper_fes_2026_cdtv_tokyo_0911",
       "tourId": "fruits_zipper_fes_2026",
       "venue": "東京ガーデンシアター",
-      "performanceAt": "2026-09-11T12:00:00+09:00",
+      "performanceAt": "2026-09-11T18:00:00+09:00",
       "doorOpenAt": "2026-09-11T16:30:00+09:00",
       "kind": "fes",
       "eventName": "CDTVライブ！ライブ！秋の大感謝祭2026",
       "source": "system",
       "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/84998",
-      "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
+      "lastVerifiedAt": "2026-08-17T22:40:00+09:00"
     },
     {
       "id": "fruits_zipper_kawaii_lab_christmas_2026_ariake_1212",
       "tourId": "fruits_zipper_kawaii_lab_christmas_2026",
       "venue": "有明アリーナ",
-      "performanceAt": "2026-12-12T12:00:00+09:00",
+      "performanceAt": "2026-12-12T17:00:00+09:00",
       "doorOpenAt": "2026-12-12T15:00:00+09:00",
       "kind": "fes",
       "eventName": "KAWAII LAB. Christmas SESSION 2026",
       "source": "system",
       "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/85441",
-      "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
+      "lastVerifiedAt": "2026-08-17T22:40:00+09:00"
     },
     {
       "id": "fruits_zipper_kawaii_lab_christmas_2026_ariake_1213",
       "tourId": "fruits_zipper_kawaii_lab_christmas_2026",
       "venue": "有明アリーナ",
-      "performanceAt": "2026-12-13T12:00:00+09:00",
+      "performanceAt": "2026-12-13T16:00:00+09:00",
       "doorOpenAt": "2026-12-13T14:00:00+09:00",
       "kind": "fes",
       "eventName": "KAWAII LAB. Christmas SESSION 2026",
       "source": "system",
       "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/85441",
-      "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
+      "lastVerifiedAt": "2026-08-17T22:40:00+09:00"
     }
   ],
   "lotteries": [
@@ -403,7 +418,29 @@
       "paymentStartAt": null,
       "paymentEndAt": null,
       "performanceIds": [
-        "fruits_zipper_japan_tour_2026_autumn_yokosuka_0903","fruits_zipper_japan_tour_2026_autumn_omiya_sonic_0916","fruits_zipper_japan_tour_2026_autumn_matsudo_0918","fruits_zipper_japan_tour_2026_autumn_mie_0921","fruits_zipper_japan_tour_2026_autumn_gifu_0923","fruits_zipper_japan_tour_2026_autumn_aichi_0925","fruits_zipper_japan_tour_2026_autumn_grand_cube_osaka_0930","fruits_zipper_japan_tour_2026_autumn_grand_cube_osaka_1001","fruits_zipper_japan_tour_2026_autumn_tochigi_1004","fruits_zipper_japan_tour_2026_autumn_sendai_sun_plaza_1006","fruits_zipper_japan_tour_2026_autumn_sendai_sun_plaza_1007","fruits_zipper_japan_tour_2026_autumn_ishikawa_1011","fruits_zipper_japan_tour_2026_autumn_kagawa_1013","fruits_zipper_japan_tour_2026_autumn_ehime_1015","fruits_zipper_japan_tour_2026_autumn_fukuoka_sun_palace_1026","fruits_zipper_japan_tour_2026_autumn_kumamoto_1027","fruits_zipper_japan_tour_2026_autumn_hiroshima_1105","fruits_zipper_japan_tour_2026_autumn_hiroshima_1106","fruits_zipper_japan_tour_2026_autumn_sapporo_1112","fruits_zipper_japan_tour_2026_autumn_tokyo_garden_1114","fruits_zipper_japan_tour_2026_autumn_tokyo_garden_1115","fruits_zipper_japan_tour_2026_autumn_okinawa_1121","fruits_zipper_japan_tour_2026_autumn_okinawa_1122"
+        "fruits_zipper_japan_tour_2026_autumn_yokosuka_0903",
+        "fruits_zipper_japan_tour_2026_autumn_omiya_sonic_0916",
+        "fruits_zipper_japan_tour_2026_autumn_matsudo_0918",
+        "fruits_zipper_japan_tour_2026_autumn_mie_0921",
+        "fruits_zipper_japan_tour_2026_autumn_gifu_0923",
+        "fruits_zipper_japan_tour_2026_autumn_aichi_0925",
+        "fruits_zipper_japan_tour_2026_autumn_grand_cube_osaka_0930",
+        "fruits_zipper_japan_tour_2026_autumn_grand_cube_osaka_1001",
+        "fruits_zipper_japan_tour_2026_autumn_tochigi_1004",
+        "fruits_zipper_japan_tour_2026_autumn_sendai_sun_plaza_1006",
+        "fruits_zipper_japan_tour_2026_autumn_sendai_sun_plaza_1007",
+        "fruits_zipper_japan_tour_2026_autumn_ishikawa_1011",
+        "fruits_zipper_japan_tour_2026_autumn_kagawa_1013",
+        "fruits_zipper_japan_tour_2026_autumn_ehime_1015",
+        "fruits_zipper_japan_tour_2026_autumn_fukuoka_sun_palace_1026",
+        "fruits_zipper_japan_tour_2026_autumn_kumamoto_1027",
+        "fruits_zipper_japan_tour_2026_autumn_hiroshima_1105",
+        "fruits_zipper_japan_tour_2026_autumn_hiroshima_1106",
+        "fruits_zipper_japan_tour_2026_autumn_sapporo_1112",
+        "fruits_zipper_japan_tour_2026_autumn_tokyo_garden_1114",
+        "fruits_zipper_japan_tour_2026_autumn_tokyo_garden_1115",
+        "fruits_zipper_japan_tour_2026_autumn_okinawa_1121",
+        "fruits_zipper_japan_tour_2026_autumn_okinawa_1122"
       ],
       "source": "system",
       "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/78068",
@@ -419,7 +456,29 @@
       "paymentStartAt": null,
       "paymentEndAt": null,
       "performanceIds": [
-        "fruits_zipper_japan_tour_2026_autumn_yokosuka_0903","fruits_zipper_japan_tour_2026_autumn_omiya_sonic_0916","fruits_zipper_japan_tour_2026_autumn_matsudo_0918","fruits_zipper_japan_tour_2026_autumn_mie_0921","fruits_zipper_japan_tour_2026_autumn_gifu_0923","fruits_zipper_japan_tour_2026_autumn_aichi_0925","fruits_zipper_japan_tour_2026_autumn_grand_cube_osaka_0930","fruits_zipper_japan_tour_2026_autumn_grand_cube_osaka_1001","fruits_zipper_japan_tour_2026_autumn_tochigi_1004","fruits_zipper_japan_tour_2026_autumn_sendai_sun_plaza_1006","fruits_zipper_japan_tour_2026_autumn_sendai_sun_plaza_1007","fruits_zipper_japan_tour_2026_autumn_ishikawa_1011","fruits_zipper_japan_tour_2026_autumn_kagawa_1013","fruits_zipper_japan_tour_2026_autumn_ehime_1015","fruits_zipper_japan_tour_2026_autumn_fukuoka_sun_palace_1026","fruits_zipper_japan_tour_2026_autumn_kumamoto_1027","fruits_zipper_japan_tour_2026_autumn_hiroshima_1105","fruits_zipper_japan_tour_2026_autumn_hiroshima_1106","fruits_zipper_japan_tour_2026_autumn_sapporo_1112","fruits_zipper_japan_tour_2026_autumn_tokyo_garden_1114","fruits_zipper_japan_tour_2026_autumn_tokyo_garden_1115","fruits_zipper_japan_tour_2026_autumn_okinawa_1121","fruits_zipper_japan_tour_2026_autumn_okinawa_1122"
+        "fruits_zipper_japan_tour_2026_autumn_yokosuka_0903",
+        "fruits_zipper_japan_tour_2026_autumn_omiya_sonic_0916",
+        "fruits_zipper_japan_tour_2026_autumn_matsudo_0918",
+        "fruits_zipper_japan_tour_2026_autumn_mie_0921",
+        "fruits_zipper_japan_tour_2026_autumn_gifu_0923",
+        "fruits_zipper_japan_tour_2026_autumn_aichi_0925",
+        "fruits_zipper_japan_tour_2026_autumn_grand_cube_osaka_0930",
+        "fruits_zipper_japan_tour_2026_autumn_grand_cube_osaka_1001",
+        "fruits_zipper_japan_tour_2026_autumn_tochigi_1004",
+        "fruits_zipper_japan_tour_2026_autumn_sendai_sun_plaza_1006",
+        "fruits_zipper_japan_tour_2026_autumn_sendai_sun_plaza_1007",
+        "fruits_zipper_japan_tour_2026_autumn_ishikawa_1011",
+        "fruits_zipper_japan_tour_2026_autumn_kagawa_1013",
+        "fruits_zipper_japan_tour_2026_autumn_ehime_1015",
+        "fruits_zipper_japan_tour_2026_autumn_fukuoka_sun_palace_1026",
+        "fruits_zipper_japan_tour_2026_autumn_kumamoto_1027",
+        "fruits_zipper_japan_tour_2026_autumn_hiroshima_1105",
+        "fruits_zipper_japan_tour_2026_autumn_hiroshima_1106",
+        "fruits_zipper_japan_tour_2026_autumn_sapporo_1112",
+        "fruits_zipper_japan_tour_2026_autumn_tokyo_garden_1114",
+        "fruits_zipper_japan_tour_2026_autumn_tokyo_garden_1115",
+        "fruits_zipper_japan_tour_2026_autumn_okinawa_1121",
+        "fruits_zipper_japan_tour_2026_autumn_okinawa_1122"
       ],
       "source": "system",
       "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/80267",
@@ -435,7 +494,29 @@
       "paymentStartAt": null,
       "paymentEndAt": null,
       "performanceIds": [
-        "fruits_zipper_japan_tour_2026_autumn_yokosuka_0903","fruits_zipper_japan_tour_2026_autumn_omiya_sonic_0916","fruits_zipper_japan_tour_2026_autumn_matsudo_0918","fruits_zipper_japan_tour_2026_autumn_mie_0921","fruits_zipper_japan_tour_2026_autumn_gifu_0923","fruits_zipper_japan_tour_2026_autumn_aichi_0925","fruits_zipper_japan_tour_2026_autumn_grand_cube_osaka_0930","fruits_zipper_japan_tour_2026_autumn_grand_cube_osaka_1001","fruits_zipper_japan_tour_2026_autumn_tochigi_1004","fruits_zipper_japan_tour_2026_autumn_sendai_sun_plaza_1006","fruits_zipper_japan_tour_2026_autumn_sendai_sun_plaza_1007","fruits_zipper_japan_tour_2026_autumn_ishikawa_1011","fruits_zipper_japan_tour_2026_autumn_kagawa_1013","fruits_zipper_japan_tour_2026_autumn_ehime_1015","fruits_zipper_japan_tour_2026_autumn_fukuoka_sun_palace_1026","fruits_zipper_japan_tour_2026_autumn_kumamoto_1027","fruits_zipper_japan_tour_2026_autumn_hiroshima_1105","fruits_zipper_japan_tour_2026_autumn_hiroshima_1106","fruits_zipper_japan_tour_2026_autumn_sapporo_1112","fruits_zipper_japan_tour_2026_autumn_tokyo_garden_1114","fruits_zipper_japan_tour_2026_autumn_tokyo_garden_1115","fruits_zipper_japan_tour_2026_autumn_okinawa_1121","fruits_zipper_japan_tour_2026_autumn_okinawa_1122"
+        "fruits_zipper_japan_tour_2026_autumn_yokosuka_0903",
+        "fruits_zipper_japan_tour_2026_autumn_omiya_sonic_0916",
+        "fruits_zipper_japan_tour_2026_autumn_matsudo_0918",
+        "fruits_zipper_japan_tour_2026_autumn_mie_0921",
+        "fruits_zipper_japan_tour_2026_autumn_gifu_0923",
+        "fruits_zipper_japan_tour_2026_autumn_aichi_0925",
+        "fruits_zipper_japan_tour_2026_autumn_grand_cube_osaka_0930",
+        "fruits_zipper_japan_tour_2026_autumn_grand_cube_osaka_1001",
+        "fruits_zipper_japan_tour_2026_autumn_tochigi_1004",
+        "fruits_zipper_japan_tour_2026_autumn_sendai_sun_plaza_1006",
+        "fruits_zipper_japan_tour_2026_autumn_sendai_sun_plaza_1007",
+        "fruits_zipper_japan_tour_2026_autumn_ishikawa_1011",
+        "fruits_zipper_japan_tour_2026_autumn_kagawa_1013",
+        "fruits_zipper_japan_tour_2026_autumn_ehime_1015",
+        "fruits_zipper_japan_tour_2026_autumn_fukuoka_sun_palace_1026",
+        "fruits_zipper_japan_tour_2026_autumn_kumamoto_1027",
+        "fruits_zipper_japan_tour_2026_autumn_hiroshima_1105",
+        "fruits_zipper_japan_tour_2026_autumn_hiroshima_1106",
+        "fruits_zipper_japan_tour_2026_autumn_sapporo_1112",
+        "fruits_zipper_japan_tour_2026_autumn_tokyo_garden_1114",
+        "fruits_zipper_japan_tour_2026_autumn_tokyo_garden_1115",
+        "fruits_zipper_japan_tour_2026_autumn_okinawa_1121",
+        "fruits_zipper_japan_tour_2026_autumn_okinawa_1122"
       ],
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/81419",
@@ -451,7 +532,29 @@
       "paymentStartAt": null,
       "paymentEndAt": null,
       "performanceIds": [
-        "fruits_zipper_japan_tour_2026_autumn_yokosuka_0903","fruits_zipper_japan_tour_2026_autumn_omiya_sonic_0916","fruits_zipper_japan_tour_2026_autumn_matsudo_0918","fruits_zipper_japan_tour_2026_autumn_mie_0921","fruits_zipper_japan_tour_2026_autumn_gifu_0923","fruits_zipper_japan_tour_2026_autumn_aichi_0925","fruits_zipper_japan_tour_2026_autumn_grand_cube_osaka_0930","fruits_zipper_japan_tour_2026_autumn_grand_cube_osaka_1001","fruits_zipper_japan_tour_2026_autumn_tochigi_1004","fruits_zipper_japan_tour_2026_autumn_sendai_sun_plaza_1006","fruits_zipper_japan_tour_2026_autumn_sendai_sun_plaza_1007","fruits_zipper_japan_tour_2026_autumn_ishikawa_1011","fruits_zipper_japan_tour_2026_autumn_kagawa_1013","fruits_zipper_japan_tour_2026_autumn_ehime_1015","fruits_zipper_japan_tour_2026_autumn_fukuoka_sun_palace_1026","fruits_zipper_japan_tour_2026_autumn_kumamoto_1027","fruits_zipper_japan_tour_2026_autumn_hiroshima_1105","fruits_zipper_japan_tour_2026_autumn_hiroshima_1106","fruits_zipper_japan_tour_2026_autumn_sapporo_1112","fruits_zipper_japan_tour_2026_autumn_tokyo_garden_1114","fruits_zipper_japan_tour_2026_autumn_tokyo_garden_1115","fruits_zipper_japan_tour_2026_autumn_okinawa_1121","fruits_zipper_japan_tour_2026_autumn_okinawa_1122"
+        "fruits_zipper_japan_tour_2026_autumn_yokosuka_0903",
+        "fruits_zipper_japan_tour_2026_autumn_omiya_sonic_0916",
+        "fruits_zipper_japan_tour_2026_autumn_matsudo_0918",
+        "fruits_zipper_japan_tour_2026_autumn_mie_0921",
+        "fruits_zipper_japan_tour_2026_autumn_gifu_0923",
+        "fruits_zipper_japan_tour_2026_autumn_aichi_0925",
+        "fruits_zipper_japan_tour_2026_autumn_grand_cube_osaka_0930",
+        "fruits_zipper_japan_tour_2026_autumn_grand_cube_osaka_1001",
+        "fruits_zipper_japan_tour_2026_autumn_tochigi_1004",
+        "fruits_zipper_japan_tour_2026_autumn_sendai_sun_plaza_1006",
+        "fruits_zipper_japan_tour_2026_autumn_sendai_sun_plaza_1007",
+        "fruits_zipper_japan_tour_2026_autumn_ishikawa_1011",
+        "fruits_zipper_japan_tour_2026_autumn_kagawa_1013",
+        "fruits_zipper_japan_tour_2026_autumn_ehime_1015",
+        "fruits_zipper_japan_tour_2026_autumn_fukuoka_sun_palace_1026",
+        "fruits_zipper_japan_tour_2026_autumn_kumamoto_1027",
+        "fruits_zipper_japan_tour_2026_autumn_hiroshima_1105",
+        "fruits_zipper_japan_tour_2026_autumn_hiroshima_1106",
+        "fruits_zipper_japan_tour_2026_autumn_sapporo_1112",
+        "fruits_zipper_japan_tour_2026_autumn_tokyo_garden_1114",
+        "fruits_zipper_japan_tour_2026_autumn_tokyo_garden_1115",
+        "fruits_zipper_japan_tour_2026_autumn_okinawa_1121",
+        "fruits_zipper_japan_tour_2026_autumn_okinawa_1122"
       ],
       "source": "system",
       "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/85854",
@@ -466,7 +569,9 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["fruits_zipper_fes_2026_cdtv_tokyo_0911"],
+      "performanceIds": [
+        "fruits_zipper_fes_2026_cdtv_tokyo_0911"
+      ],
       "source": "system",
       "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/84998",
       "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
@@ -480,7 +585,10 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["fruits_zipper_kawaii_lab_christmas_2026_ariake_1212", "fruits_zipper_kawaii_lab_christmas_2026_ariake_1213"],
+      "performanceIds": [
+        "fruits_zipper_kawaii_lab_christmas_2026_ariake_1212",
+        "fruits_zipper_kawaii_lab_christmas_2026_ariake_1213"
+      ],
       "source": "system",
       "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/85441",
       "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
