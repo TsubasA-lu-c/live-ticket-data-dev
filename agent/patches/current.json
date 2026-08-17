@@ -1,97 +1,98 @@
 {
   "operations": [
     {
-      "action": "upsert",
+      "action": "merge",
       "file": "data/artist/official_hige_dandism.json",
-      "collection": "lotteries",
-      "value": {
-        "id": "official_hige_dandism_asia_tour_2026_general_singapore",
-        "tourId": "official_hige_dandism_asia_tour_2026",
-        "type": "一般発売（シンガポール・先着）",
-        "entryStartAt": "2026-04-16T13:00:00+09:00",
-        "entryEndAt": null,
-        "resultAt": null,
-        "paymentStartAt": null,
-        "paymentEndAt": null,
-        "performanceIds": [
-          "official_hige_dandism_asia_tour_2026_singapore_0821"
-        ],
-        "source": "system",
-        "sourceUrl": "https://event.higedan.com/feature/asiatour2026",
-        "lastVerifiedAt": "2026-08-18T00:03:00+09:00"
+      "collection": "performances",
+      "id": "official_hige_dandism_asia_tour_2026_singapore_0821",
+      "changes": {
+        "performanceAt": "2026-08-21T20:00:00+08:00",
+        "doorOpenAt": "2026-08-21T19:00:00+08:00",
+        "lastVerifiedAt": "2026-08-18T00:08:00+09:00"
       }
     },
     {
-      "action": "upsert",
+      "action": "merge",
       "file": "data/artist/official_hige_dandism.json",
-      "collection": "lotteries",
-      "value": {
-        "id": "official_hige_dandism_asia_tour_2026_general_taipei",
-        "tourId": "official_hige_dandism_asia_tour_2026",
-        "type": "一般発売（台北・先着）",
-        "entryStartAt": "2026-04-16T13:00:00+09:00",
-        "entryEndAt": null,
-        "resultAt": null,
-        "paymentStartAt": null,
-        "paymentEndAt": null,
-        "performanceIds": [
-          "official_hige_dandism_asia_tour_2026_taipei_0829",
-          "official_hige_dandism_asia_tour_2026_taipei_0830"
-        ],
-        "source": "system",
-        "sourceUrl": "https://event.higedan.com/feature/asiatour2026",
-        "lastVerifiedAt": "2026-08-18T00:03:00+09:00"
+      "collection": "performances",
+      "id": "official_hige_dandism_asia_tour_2026_taipei_0829",
+      "changes": {
+        "performanceAt": "2026-08-29T18:00:00+08:00",
+        "doorOpenAt": "2026-08-29T17:00:00+08:00",
+        "lastVerifiedAt": "2026-08-18T00:08:00+09:00"
       }
     },
     {
-      "action": "upsert",
+      "action": "merge",
       "file": "data/artist/official_hige_dandism.json",
-      "collection": "lotteries",
-      "value": {
-        "id": "official_hige_dandism_asia_tour_2026_general_bangkok",
-        "tourId": "official_hige_dandism_asia_tour_2026",
-        "type": "一般発売（バンコク・先着）",
-        "entryStartAt": "2026-04-16T12:00:00+09:00",
-        "entryEndAt": null,
-        "resultAt": null,
-        "paymentStartAt": null,
-        "paymentEndAt": null,
-        "performanceIds": [
-          "official_hige_dandism_asia_tour_2026_bangkok_0906"
-        ],
-        "source": "system",
-        "sourceUrl": "https://event.higedan.com/feature/asiatour2026",
-        "lastVerifiedAt": "2026-08-18T00:03:00+09:00"
+      "collection": "performances",
+      "id": "official_hige_dandism_asia_tour_2026_taipei_0830",
+      "changes": {
+        "performanceAt": "2026-08-30T18:00:00+08:00",
+        "doorOpenAt": "2026-08-30T17:00:00+08:00",
+        "lastVerifiedAt": "2026-08-18T00:08:00+09:00"
       }
     },
     {
-      "action": "upsert",
+      "action": "merge",
+      "file": "data/artist/official_hige_dandism.json",
+      "collection": "performances",
+      "id": "official_hige_dandism_asia_tour_2026_bangkok_0906",
+      "changes": {
+        "performanceAt": "2026-09-06T18:00:00+07:00",
+        "doorOpenAt": "2026-09-06T17:00:00+07:00",
+        "lastVerifiedAt": "2026-08-18T00:08:00+09:00"
+      }
+    },
+    {
+      "action": "merge",
       "file": "data/artist/sakanaction.json",
+      "collection": "performances",
+      "id": "sakanaction_fes_2026_summersonic_tokyo_0815",
+      "changes": {
+        "venue": "幕張メッセ MOUNTAIN STAGE",
+        "performanceAt": "2026-08-15T18:30:00+09:00",
+        "sourceUrl": "https://www.summersonic.com/tt/tokyo-day2/",
+        "lastVerifiedAt": "2026-08-18T00:08:00+09:00"
+      }
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/sakanaction.json",
+      "collection": "performances",
+      "id": "sakanaction_fes_2026_summersonic_osaka_0816",
+      "changes": {
+        "venue": "万博記念公園 MOUNTAIN STAGE",
+        "performanceAt": "2026-08-16T17:25:00+09:00",
+        "sourceUrl": "https://www.summersonic.com/tt/osaka-day3/",
+        "lastVerifiedAt": "2026-08-18T00:08:00+09:00"
+      }
+    },
+    {
+      "action": "delete",
+      "file": "data/artist/one_ok_rock.json",
+      "collection": "performances",
+      "id": "one_ok_rock_1_chance_festival_2026_kumamoto_0927"
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/one_ok_rock.json",
       "collection": "lotteries",
-      "value": {
-        "id": "sakanaction_sakanaquarium_2026_tixplus_trade",
-        "tourId": "sakanaction_sakanaquarium_2026",
-        "type": "公式チケットトレード（2026年公演・チケプラ）",
-        "entryStartAt": "2026-08-03T12:00:00+09:00",
-        "entryEndAt": null,
-        "resultAt": null,
-        "paymentStartAt": null,
-        "paymentEndAt": null,
-        "performanceIds": [
-          "sakanaction_sakanaquarium_2026_budokan_0908",
-          "sakanaction_sakanaquarium_2026_budokan_0909",
-          "sakanaction_sakanaquarium_2026_osakajyo_0912",
-          "sakanaction_sakanaquarium_2026_osakajyo_0913",
-          "sakanaction_sakanaquarium_2026_budokan_0918",
-          "sakanaction_sakanaquarium_2026_budokan_0919",
-          "sakanaction_sakanaquarium_2026_kobe_0929",
-          "sakanaction_sakanaquarium_2026_kobe_0930",
-          "sakanaction_sakanaquarium_2026_budokan_1003",
-          "sakanaction_sakanaquarium_2026_budokan_1004"
-        ],
-        "source": "system",
-        "sourceUrl": "https://sakanaction.jp/feature/tour2026-2027",
-        "lastVerifiedAt": "2026-08-18T00:03:00+09:00"
+      "id": "one_ok_rock_1_chance_festival_2026_general_sale",
+      "changes": {
+        "performanceIds": null,
+        "sourceUrl": "https://1chancefes.com/",
+        "lastVerifiedAt": "2026-08-18T00:08:00+09:00"
+      }
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/one_ok_rock.json",
+      "collection": "tours",
+      "id": "one_ok_rock_1_chance_festival_2026",
+      "changes": {
+        "sourceUrl": "https://www.oneokrock.com/jp/news/5108",
+        "lastVerifiedAt": "2026-08-18T00:08:00+09:00"
       }
     }
   ]
