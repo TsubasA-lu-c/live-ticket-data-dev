@@ -1,24 +1,232 @@
 {
   "operations": [
     {
+      "action": "delete",
+      "file": "data/artist/jo1.json",
+      "collection": "lotteries",
+      "id": "jo1_eien_2026_seoul_fc"
+    },
+    {
+      "action": "delete",
+      "file": "data/artist/jo1.json",
+      "collection": "lotteries",
+      "id": "jo1_eien_2026_seoul_general"
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/jo1.json",
+      "collection": "performances",
+      "id": "jo1_eien_2026_seoul_0926",
+      "changes": {
+        "performanceAt": "2026-09-26T18:00:00+09:00",
+        "lastVerifiedAt": "2026-08-17T22:58:00+09:00"
+      }
+    },
+    {
+      "action": "merge",
+      "file": "data/artist/jo1.json",
+      "collection": "performances",
+      "id": "jo1_eien_2026_seoul_0927",
+      "changes": {
+        "performanceAt": "2026-09-27T16:00:00+09:00",
+        "lastVerifiedAt": "2026-08-17T22:58:00+09:00"
+      }
+    },
+    {
       "action": "upsert",
-      "file": "data/artist/ikimonogakari.json",
+      "file": "data/artist/jo1.json",
+      "collection": "tours",
+      "value": {
+        "id": "jo1_luckyfes_2026",
+        "artistId": "jo1",
+        "title": "LuckyFes’26（川西拓実ゲスト出演）",
+        "startDate": "2026-08-11T00:00:00+09:00",
+        "endDate": "2026-08-11T00:00:00+09:00",
+        "prices": null,
+        "source": "system",
+        "sourceUrl": "https://jo1.jp/news/detail/6235",
+        "lastVerifiedAt": "2026-08-17T22:58:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/jo1.json",
+      "collection": "performances",
+      "value": {
+        "id": "jo1_luckyfes_2026_hitachinaka_0811",
+        "tourId": "jo1_luckyfes_2026",
+        "venue": "国営ひたち海浜公園 RAINBOW STAGE",
+        "performanceAt": "2026-08-11T11:50:00+09:00",
+        "doorOpenAt": null,
+        "kind": "fes",
+        "eventName": "LuckyFes’26（MONKEY MAJIKステージ／川西拓実ゲスト出演）",
+        "source": "system",
+        "sourceUrl": "https://jo1.jp/news/detail/6235",
+        "lastVerifiedAt": "2026-08-17T22:58:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/jo1.json",
+      "collection": "tours",
+      "value": {
+        "id": "jo1_rijf_2026",
+        "artistId": "jo1",
+        "title": "ROCK IN JAPAN FESTIVAL 2026",
+        "startDate": "2026-09-12T00:00:00+09:00",
+        "endDate": "2026-09-12T00:00:00+09:00",
+        "prices": [
+          {
+            "label": "1日券",
+            "amount": 16000
+          }
+        ],
+        "source": "system",
+        "sourceUrl": "https://rijfes.jp/2026/timetable/",
+        "lastVerifiedAt": "2026-08-17T22:58:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/jo1.json",
+      "collection": "performances",
+      "value": {
+        "id": "jo1_rijf_2026_soga_0912",
+        "tourId": "jo1_rijf_2026",
+        "venue": "千葉市蘇我スポーツ公園 LOTUS STAGE",
+        "performanceAt": "2026-09-12T12:30:00+09:00",
+        "doorOpenAt": "2026-09-12T08:30:00+09:00",
+        "kind": "fes",
+        "eventName": "ROCK IN JAPAN FESTIVAL 2026",
+        "source": "system",
+        "sourceUrl": "https://rijfes.jp/2026/timetable/",
+        "lastVerifiedAt": "2026-08-17T22:58:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/jo1.json",
+      "collection": "tours",
+      "value": {
+        "id": "jo1_north_american_tour_animal_2026",
+        "artistId": "jo1",
+        "title": "2026 JO1 NORTH AMERICAN TOUR ’ANIMAL’",
+        "startDate": "2026-10-02T00:00:00+09:00",
+        "endDate": "2026-10-11T00:00:00+09:00",
+        "prices": null,
+        "source": "system",
+        "sourceUrl": "https://cloud.jo1.jp/news/detail/6237",
+        "lastVerifiedAt": "2026-08-17T22:58:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/jo1.json",
+      "collection": "performances",
+      "value": {
+        "id": "jo1_north_american_tour_animal_2026_toronto_1002",
+        "tourId": "jo1_north_american_tour_animal_2026",
+        "venue": "DANFORTH MUSIC HALL（Toronto）",
+        "performanceAt": "2026-10-03T08:30:00+09:00",
+        "doorOpenAt": "2026-10-03T07:30:00+09:00",
+        "kind": "oneman",
+        "eventName": null,
+        "source": "system",
+        "sourceUrl": "https://jo1.jp/news/detail/6116",
+        "lastVerifiedAt": "2026-08-17T22:58:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/jo1.json",
+      "collection": "performances",
+      "value": {
+        "id": "jo1_north_american_tour_animal_2026_newyork_1004",
+        "tourId": "jo1_north_american_tour_animal_2026",
+        "venue": "TERMINAL 5（New York）",
+        "performanceAt": "2026-10-05T08:30:00+09:00",
+        "doorOpenAt": "2026-10-05T07:30:00+09:00",
+        "kind": "oneman",
+        "eventName": null,
+        "source": "system",
+        "sourceUrl": "https://jo1.jp/news/detail/6116",
+        "lastVerifiedAt": "2026-08-17T22:58:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/jo1.json",
+      "collection": "performances",
+      "value": {
+        "id": "jo1_north_american_tour_animal_2026_chicago_1006",
+        "tourId": "jo1_north_american_tour_animal_2026",
+        "venue": "COPERNICUS CENTER（Chicago）",
+        "performanceAt": "2026-10-07T09:30:00+09:00",
+        "doorOpenAt": "2026-10-07T08:30:00+09:00",
+        "kind": "oneman",
+        "eventName": null,
+        "source": "system",
+        "sourceUrl": "https://jo1.jp/news/detail/6116",
+        "lastVerifiedAt": "2026-08-17T22:58:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/jo1.json",
+      "collection": "performances",
+      "value": {
+        "id": "jo1_north_american_tour_animal_2026_sanfrancisco_1008",
+        "tourId": "jo1_north_american_tour_animal_2026",
+        "venue": "THE WARFIELD（San Francisco）",
+        "performanceAt": "2026-10-09T11:30:00+09:00",
+        "doorOpenAt": "2026-10-09T10:30:00+09:00",
+        "kind": "oneman",
+        "eventName": null,
+        "source": "system",
+        "sourceUrl": "https://jo1.jp/news/detail/6116",
+        "lastVerifiedAt": "2026-08-17T22:58:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/jo1.json",
+      "collection": "performances",
+      "value": {
+        "id": "jo1_north_american_tour_animal_2026_losangeles_1011",
+        "tourId": "jo1_north_american_tour_animal_2026",
+        "venue": "THE NOVO（Los Angeles）",
+        "performanceAt": "2026-10-12T11:30:00+09:00",
+        "doorOpenAt": "2026-10-12T10:30:00+09:00",
+        "kind": "oneman",
+        "eventName": null,
+        "source": "system",
+        "sourceUrl": "https://jo1.jp/news/detail/6116",
+        "lastVerifiedAt": "2026-08-17T22:58:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/jo1.json",
       "collection": "lotteries",
       "value": {
-        "id": "ikimonogakari_angyar_2026_additional_seat_shiga_0829",
-        "tourId": "ikimonogakari_angyar_2026",
-        "type": "機材席開放に伴う追加席販売（先着）",
-        "entryStartAt": "2026-08-08T12:00:00+09:00",
+        "id": "jo1_north_american_tour_animal_2026_general",
+        "tourId": "jo1_north_american_tour_animal_2026",
+        "type": "一般発売（先着）",
+        "entryStartAt": "2026-06-06T01:00:00+09:00",
         "entryEndAt": null,
         "resultAt": null,
         "paymentStartAt": null,
         "paymentEndAt": null,
         "performanceIds": [
-          "ikimonogakari_angyar_2026_shiga_0829"
+          "jo1_north_american_tour_animal_2026_toronto_1002",
+          "jo1_north_american_tour_animal_2026_newyork_1004",
+          "jo1_north_american_tour_animal_2026_chicago_1006",
+          "jo1_north_american_tour_animal_2026_sanfrancisco_1008",
+          "jo1_north_american_tour_animal_2026_losangeles_1011"
         ],
         "source": "system",
-        "sourceUrl": "https://ikimonogakari.com/news/live/20260807-1",
-        "lastVerifiedAt": "2026-08-17T22:50:00+09:00"
+        "sourceUrl": "https://jo1.jp/news/detail/6138",
+        "lastVerifiedAt": "2026-08-17T22:58:00+09:00"
       }
     }
   ]
