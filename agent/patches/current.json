@@ -1,145 +1,71 @@
 {
   "operations": [
     {
-      "action": "upsert",
-      "file": "data/artist/sandaime_j_soul_brothers.json",
-      "collection": "tours",
-      "value": {
-        "id": "sandaime_j_soul_brothers_jsb_forever_one_grand_finale_2026",
-        "artistId": "sandaime_j_soul_brothers",
-        "title": "三代目 J SOUL BROTHERS 15TH ANNIVERSARY STADIUM LIVE \"JSB FOREVER ONE\" ～GRAND FINALE～",
-        "startDate": "2026-10-31T00:00:00+09:00",
-        "endDate": "2026-11-01T00:00:00+09:00",
-        "prices": [
-          {"label": "全席指定", "amount": 16500},
-          {"label": "プレミアムチケット", "amount": 24750},
-          {"label": "プレミアムチケット（オリジナルグッズ付き）", "amount": 33000}
-        ],
-        "source": "system",
-        "sourceUrl": "https://www.ldh-liveschedule.jp/sys/news/43976/?lang=ja",
-        "lastVerifiedAt": "2026-08-18T00:10:00+09:00"
+      "action": "merge",
+      "file": "data/artist/stray_kids.json",
+      "collection": "lotteries",
+      "id": "stray_kids_run_it_japan_2026_upgrade",
+      "changes": {
+        "entryStartAt": "2026-07-30T12:00:00+09:00",
+        "sourceUrl": "https://www.sonymusic.co.jp/artist/StrayKids/info/585477",
+        "lastVerifiedAt": "2026-08-18T07:08:00+09:00"
       }
     },
     {
       "action": "upsert",
-      "file": "data/artist/sandaime_j_soul_brothers.json",
-      "collection": "performances",
-      "value": {
-        "id": "sandaime_j_soul_brothers_jsb_forever_one_grand_finale_2026_osaka_1031",
-        "tourId": "sandaime_j_soul_brothers_jsb_forever_one_grand_finale_2026",
-        "venue": "ヤンマースタジアム長居",
-        "performanceAt": "2026-10-31T17:00:00+09:00",
-        "doorOpenAt": "2026-10-31T15:00:00+09:00",
-        "kind": "oneman",
-        "eventName": null,
-        "source": "system",
-        "sourceUrl": "https://www.ldh-liveschedule.jp/sys/news/43976/?lang=ja",
-        "lastVerifiedAt": "2026-08-18T00:10:00+09:00"
-      }
-    },
-    {
-      "action": "upsert",
-      "file": "data/artist/sandaime_j_soul_brothers.json",
-      "collection": "performances",
-      "value": {
-        "id": "sandaime_j_soul_brothers_jsb_forever_one_grand_finale_2026_osaka_1101",
-        "tourId": "sandaime_j_soul_brothers_jsb_forever_one_grand_finale_2026",
-        "venue": "ヤンマースタジアム長居",
-        "performanceAt": "2026-11-01T17:00:00+09:00",
-        "doorOpenAt": "2026-11-01T15:00:00+09:00",
-        "kind": "oneman",
-        "eventName": null,
-        "source": "system",
-        "sourceUrl": "https://www.ldh-liveschedule.jp/sys/news/43976/?lang=ja",
-        "lastVerifiedAt": "2026-08-18T00:10:00+09:00"
-      }
-    },
-    {
-      "action": "upsert",
-      "file": "data/artist/sandaime_j_soul_brothers.json",
+      "file": "data/artist/tennimu.json",
       "collection": "lotteries",
       "value": {
-        "id": "sandaime_j_soul_brothers_jsb_forever_one_grand_finale_2026_fc",
-        "tourId": "sandaime_j_soul_brothers_jsb_forever_one_grand_finale_2026",
-        "type": "三代目 J SOUL BROTHERS OFFICIAL FAN CLUB先行抽選予約",
-        "entryStartAt": "2026-07-13T15:00:00+09:00",
-        "entryEndAt": "2026-07-19T23:00:00+09:00",
-        "resultAt": "2026-07-25T15:00:00+09:00",
-        "paymentStartAt": null,
-        "paymentEndAt": null,
-        "performanceIds": [
-          "sandaime_j_soul_brothers_jsb_forever_one_grand_finale_2026_osaka_1031",
-          "sandaime_j_soul_brothers_jsb_forever_one_grand_finale_2026_osaka_1101"
-        ],
-        "source": "system",
-        "sourceUrl": "https://e-ticketbook.com/3jsb-stadium26-finale/2607-3jsb/",
-        "lastVerifiedAt": "2026-08-18T00:10:00+09:00"
-      }
-    },
-    {
-      "action": "upsert",
-      "file": "data/artist/sandaime_j_soul_brothers.json",
-      "collection": "lotteries",
-      "value": {
-        "id": "sandaime_j_soul_brothers_jsb_forever_one_grand_finale_2026_premium",
-        "tourId": "sandaime_j_soul_brothers_jsb_forever_one_grand_finale_2026",
-        "type": "プレミアムチケット抽選受付",
-        "entryStartAt": "2026-08-03T15:00:00+09:00",
-        "entryEndAt": "2026-08-09T23:00:00+09:00",
-        "resultAt": "2026-08-15T15:00:00+09:00",
-        "paymentStartAt": null,
-        "paymentEndAt": null,
-        "performanceIds": [
-          "sandaime_j_soul_brothers_jsb_forever_one_grand_finale_2026_osaka_1031",
-          "sandaime_j_soul_brothers_jsb_forever_one_grand_finale_2026_osaka_1101"
-        ],
-        "source": "system",
-        "sourceUrl": "https://e-ticketbook.com/3jsb-stadium26-finale/2607-3jsb/",
-        "lastVerifiedAt": "2026-08-18T00:10:00+09:00"
-      }
-    },
-    {
-      "action": "upsert",
-      "file": "data/artist/sandaime_j_soul_brothers.json",
-      "collection": "lotteries",
-      "value": {
-        "id": "sandaime_j_soul_brothers_jsb_forever_one_grand_finale_2026_tribe_fc",
-        "tourId": "sandaime_j_soul_brothers_jsb_forever_one_grand_finale_2026",
-        "type": "EXILE TRIBE FC先行抽選予約",
-        "entryStartAt": "2026-07-22T15:00:00+09:00",
-        "entryEndAt": "2026-07-26T23:00:00+09:00",
+        "id": "tennimu_tennimu2_finalstage_2026_general",
+        "tourId": "tennimu_tennimu2_finalstage_2026",
+        "type": "一般発売",
+        "entryStartAt": "2026-08-23T10:00:00+09:00",
+        "entryEndAt": null,
         "resultAt": null,
         "paymentStartAt": null,
         "paymentEndAt": null,
-        "performanceIds": [
-          "sandaime_j_soul_brothers_jsb_forever_one_grand_finale_2026_osaka_1031",
-          "sandaime_j_soul_brothers_jsb_forever_one_grand_finale_2026_osaka_1101"
-        ],
+        "performanceIds": null,
         "source": "system",
-        "sourceUrl": "https://www.ldh-liveschedule.jp/sys/news/43976/?lang=ja",
-        "lastVerifiedAt": "2026-08-18T00:10:00+09:00"
+        "sourceUrl": "https://www.tennimu.com/tennimu2_2026/ticket/",
+        "lastVerifiedAt": "2026-08-18T07:08:00+09:00"
       }
     },
     {
       "action": "upsert",
-      "file": "data/artist/sandaime_j_soul_brothers.json",
+      "file": "data/artist/tennimu.json",
       "collection": "lotteries",
       "value": {
-        "id": "sandaime_j_soul_brothers_jsb_forever_one_grand_finale_2026_fc_additional",
-        "tourId": "sandaime_j_soul_brothers_jsb_forever_one_grand_finale_2026",
-        "type": "三代目 J SOUL BROTHERS OFFICIAL FAN CLUB追加販売（抽選・注釈付き指定席）",
-        "entryStartAt": "2026-07-29T15:00:00+09:00",
-        "entryEndAt": "2026-08-02T23:00:00+09:00",
-        "resultAt": "2026-08-08T15:00:00+09:00",
+        "id": "tennimu_tennimu2_finalstage_2026_trade",
+        "tourId": "tennimu_tennimu2_finalstage_2026",
+        "type": "チケプラトレード（抽選）",
+        "entryStartAt": "2026-08-24T10:00:00+09:00",
+        "entryEndAt": null,
+        "resultAt": null,
         "paymentStartAt": null,
         "paymentEndAt": null,
-        "performanceIds": [
-          "sandaime_j_soul_brothers_jsb_forever_one_grand_finale_2026_osaka_1031",
-          "sandaime_j_soul_brothers_jsb_forever_one_grand_finale_2026_osaka_1101"
-        ],
+        "performanceIds": null,
         "source": "system",
-        "sourceUrl": "https://e-ticketbook.com/3jsb-stadium26-finale/2607-sp/",
-        "lastVerifiedAt": "2026-08-18T00:10:00+09:00"
+        "sourceUrl": "https://www.tennimu.com/tennimu2_2026/ticket/",
+        "lastVerifiedAt": "2026-08-18T07:08:00+09:00"
+      }
+    },
+    {
+      "action": "upsert",
+      "file": "data/artist/tennimu.json",
+      "collection": "lotteries",
+      "value": {
+        "id": "tennimu_tennimu2_finalstage_2026_reservation_release",
+        "tourId": "tennimu_tennimu2_finalstage_2026",
+        "type": "予約流れ分販売（1回目）",
+        "entryStartAt": "2026-08-26T10:00:00+09:00",
+        "entryEndAt": null,
+        "resultAt": null,
+        "paymentStartAt": null,
+        "paymentEndAt": null,
+        "performanceIds": null,
+        "source": "system",
+        "sourceUrl": "https://www.tennimu.com/tennimu2_2026/faq/",
+        "lastVerifiedAt": "2026-08-18T07:08:00+09:00"
       }
     }
   ]
