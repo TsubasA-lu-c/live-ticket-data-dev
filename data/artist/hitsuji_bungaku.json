@@ -8,8 +8,14 @@
       "startDate": "2026-09-04T00:00:00+09:00",
       "endDate": "2026-11-11T00:00:00+09:00",
       "prices": [
-        {"label": "全席指定", "amount": 7500},
-        {"label": "全席指定（東京）", "amount": 8800}
+        {
+          "label": "全席指定",
+          "amount": 7500
+        },
+        {
+          "label": "全席指定（東京）",
+          "amount": 8800
+        }
       ],
       "source": "system",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/581948",
@@ -210,37 +216,37 @@
       "id": "hitsuji_bungaku_fes_summer_sonic_2026_tokyo_0815",
       "tourId": "hitsuji_bungaku_fes_summer_sonic_2026",
       "venue": "ZOZOマリンスタジアム＆幕張メッセ",
-      "performanceAt": "2026-08-15T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-08-15T11:00:00+09:00",
+      "doorOpenAt": "2026-08-15T09:00:00+09:00",
       "kind": "fes",
       "eventName": "SUMMER SONIC 2026",
       "source": "system",
-      "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/585209",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "sourceUrl": "https://www.summersonic.com/info/tokyo/",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
     },
     {
       "id": "hitsuji_bungaku_fes_summer_sonic_2026_osaka_0816",
       "tourId": "hitsuji_bungaku_fes_summer_sonic_2026",
       "venue": "万博記念公園",
-      "performanceAt": "2026-08-16T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-08-16T11:00:00+09:00",
+      "doorOpenAt": "2026-08-16T10:00:00+09:00",
       "kind": "fes",
       "eventName": "SUMMER SONIC 2026",
       "source": "system",
-      "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/585209",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "sourceUrl": "https://www.summersonic.com/info/osaka/",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
     },
     {
       "id": "hitsuji_bungaku_fes_sweet_love_shower_2026_0829",
       "tourId": "hitsuji_bungaku_fes_sweet_love_shower_2026",
       "venue": "山中湖交流プラザ きらら",
-      "performanceAt": "2026-08-29T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-08-29T10:00:00+09:00",
+      "doorOpenAt": "2026-08-29T09:00:00+09:00",
       "kind": "fes",
       "eventName": "SPACE SHOWER SWEET LOVE SHOWER 2026",
       "source": "system",
-      "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/582487",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "sourceUrl": "https://2026.sweetloveshower.com/contents/guide/sweetloveshower2026",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
     },
     {
       "id": "hitsuji_bungaku_fes_jujutsu_fes_2026_0830",
@@ -265,7 +271,19 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["hitsuji_bungaku_su_ha_2026_niigata_0904","hitsuji_bungaku_su_ha_2026_sendai_0906","hitsuji_bungaku_su_ha_2026_kyoto_0911","hitsuji_bungaku_su_ha_2026_nagoya_0913","hitsuji_bungaku_su_ha_2026_fukuoka_0920","hitsuji_bungaku_su_ha_2026_okayama_0921","hitsuji_bungaku_su_ha_2026_kanazawa_0926","hitsuji_bungaku_su_ha_2026_osaka_0928","hitsuji_bungaku_su_ha_2026_sapporo_1001","hitsuji_bungaku_su_ha_2026_tokyo_1110","hitsuji_bungaku_su_ha_2026_tokyo_1111"],
+      "performanceIds": [
+        "hitsuji_bungaku_su_ha_2026_niigata_0904",
+        "hitsuji_bungaku_su_ha_2026_sendai_0906",
+        "hitsuji_bungaku_su_ha_2026_kyoto_0911",
+        "hitsuji_bungaku_su_ha_2026_nagoya_0913",
+        "hitsuji_bungaku_su_ha_2026_fukuoka_0920",
+        "hitsuji_bungaku_su_ha_2026_okayama_0921",
+        "hitsuji_bungaku_su_ha_2026_kanazawa_0926",
+        "hitsuji_bungaku_su_ha_2026_osaka_0928",
+        "hitsuji_bungaku_su_ha_2026_sapporo_1001",
+        "hitsuji_bungaku_su_ha_2026_tokyo_1110",
+        "hitsuji_bungaku_su_ha_2026_tokyo_1111"
+      ],
       "source": "system",
       "sourceUrl": "https://smash-jpn.com/live/?id=4667",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
@@ -279,7 +297,19 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["hitsuji_bungaku_su_ha_2026_niigata_0904","hitsuji_bungaku_su_ha_2026_sendai_0906","hitsuji_bungaku_su_ha_2026_kyoto_0911","hitsuji_bungaku_su_ha_2026_nagoya_0913","hitsuji_bungaku_su_ha_2026_fukuoka_0920","hitsuji_bungaku_su_ha_2026_okayama_0921","hitsuji_bungaku_su_ha_2026_kanazawa_0926","hitsuji_bungaku_su_ha_2026_osaka_0928","hitsuji_bungaku_su_ha_2026_sapporo_1001","hitsuji_bungaku_su_ha_2026_tokyo_1110","hitsuji_bungaku_su_ha_2026_tokyo_1111"],
+      "performanceIds": [
+        "hitsuji_bungaku_su_ha_2026_niigata_0904",
+        "hitsuji_bungaku_su_ha_2026_sendai_0906",
+        "hitsuji_bungaku_su_ha_2026_kyoto_0911",
+        "hitsuji_bungaku_su_ha_2026_nagoya_0913",
+        "hitsuji_bungaku_su_ha_2026_fukuoka_0920",
+        "hitsuji_bungaku_su_ha_2026_okayama_0921",
+        "hitsuji_bungaku_su_ha_2026_kanazawa_0926",
+        "hitsuji_bungaku_su_ha_2026_osaka_0928",
+        "hitsuji_bungaku_su_ha_2026_sapporo_1001",
+        "hitsuji_bungaku_su_ha_2026_tokyo_1110",
+        "hitsuji_bungaku_su_ha_2026_tokyo_1111"
+      ],
       "source": "system",
       "sourceUrl": "https://smash-jpn.com/live/?id=4667",
       "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
@@ -293,7 +323,9 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["hitsuji_bungaku_su_ha_2026_kaohsiung_1024"],
+      "performanceIds": [
+        "hitsuji_bungaku_su_ha_2026_kaohsiung_1024"
+      ],
       "source": "system",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/584586",
       "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
@@ -307,15 +339,35 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["hitsuji_bungaku_su_ha_2026_kaohsiung_1025"],
+      "performanceIds": [
+        "hitsuji_bungaku_su_ha_2026_kaohsiung_1025"
+      ],
       "source": "system",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/584870",
       "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
     }
   ],
   "appleMusicTracks": [
-    {"songId":"1702627144","title":"more than words","albumTitle":"more than words - EP","previewUrl":"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/50/75/90/5075902c-9f2a-2cc3-78eb-93b34653048c/mzaf_15784518651677136488.plus.aac.ep.m4a","artworkUrl":"https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ff/6b/19/ff6b1924-6db1-3151-a724-8d00c0f4c204/4547366642537.jpg/{w}x{h}{c}.{f}"},
-    {"songId":"6794211073","title":"Keep Walking","albumTitle":"Keep Walking - Single","previewUrl":"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f7/fa/c5/f7fac5fa-ed26-40f2-d3f8-4984e900c94b/mzaf_12069110776516144502.plus.aac.ep.m4a","artworkUrl":"https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9c/ab/df/9cabdfa3-2e79-769d-94a5-20228bc09260/4547366841572.jpg/{w}x{h}{c}.{f}"},
-    {"songId":"1789733277","title":"声","albumTitle":"声 - Single","previewUrl":"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3b/fc/c9/3bfcc98a-987c-659a-ffed-bd8515507c5f/mzaf_13504239436606676185.plus.aac.ep.m4a","artworkUrl":"https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0f/75/f4/0f75f465-afbc-4fb6-bfeb-2f76c85a9426/4547366729108.jpg/{w}x{h}{c}.{f}"}
+    {
+      "songId": "1702627144",
+      "title": "more than words",
+      "albumTitle": "more than words - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/50/75/90/5075902c-9f2a-2cc3-78eb-93b34653048c/mzaf_15784518651677136488.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ff/6b/19/ff6b1924-6db1-3151-a724-8d00c0f4c204/4547366642537.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "6794211073",
+      "title": "Keep Walking",
+      "albumTitle": "Keep Walking - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f7/fa/c5/f7fac5fa-ed26-40f2-d3f8-4984e900c94b/mzaf_12069110776516144502.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9c/ab/df/9cabdfa3-2e79-769d-94a5-20228bc09260/4547366841572.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1789733277",
+      "title": "声",
+      "albumTitle": "声 - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3b/fc/c9/3bfcc98a-987c-659a-ffed-bd8515507c5f/mzaf_13504239436606676185.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0f/75/f4/0f75f465-afbc-4fb6-bfeb-2f76c85a9426/4547366729108.jpg/{w}x{h}{c}.{f}"
+    }
   ]
 }

@@ -466,26 +466,26 @@
     {
       "id": "momoiro_clover_z_fes_rock_in_japan_2026_soga_0921",
       "tourId": "momoiro_clover_z_fes_rock_in_japan_2026",
-      "venue": "千葉市蘇我スポーツ公園 LOTUS STAGE",
-      "performanceAt": "2026-09-21T14:00:00+09:00",
-      "doorOpenAt": null,
+      "venue": "千葉市蘇我スポーツ公園",
+      "performanceAt": "2026-09-21T11:45:00+09:00",
+      "doorOpenAt": "2026-09-21T08:30:00+09:00",
       "kind": "fes",
       "eventName": "ROCK IN JAPAN FESTIVAL 2026",
       "source": "system",
-      "sourceUrl": "https://www.momoclo.net/archives/news/260520_01",
-      "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+      "sourceUrl": "https://rijfes.jp/2026/home/",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
     },
     {
       "id": "momoiro_clover_z_fes_kazetorock_2026_inawashiro_0922",
       "tourId": "momoiro_clover_z_fes_kazetorock_2026",
-      "venue": "猪苗代スキー場ミネロ I love youステージ",
-      "performanceAt": "2026-09-22T15:00:00+09:00",
-      "doorOpenAt": null,
+      "venue": "猪苗代スキー場 ミネロ",
+      "performanceAt": "2026-09-22T10:00:00+09:00",
+      "doorOpenAt": "2026-09-22T09:00:00+09:00",
       "kind": "fes",
       "eventName": "風とロック芋煮会 in September JAM（玉井詩織出演）",
       "source": "system",
-      "sourceUrl": "https://www.momoclo.net/archives/news/260528_03",
-      "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+      "sourceUrl": "https://www.septemberjam.com/event/eve002.html",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
     },
     {
       "id": "momoiro_clover_z_onigiri_matsuri_2026_tokyo_0923",

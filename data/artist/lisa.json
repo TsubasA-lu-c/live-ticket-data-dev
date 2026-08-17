@@ -291,26 +291,26 @@
     {
       "id": "lisa_fes_2026_monster_0823",
       "tourId": "lisa_fes_2026_monster",
-      "venue": "国営讃岐まんのう公園 MONSTERcircus",
-      "performanceAt": "2026-08-23T13:45:00+09:00",
-      "doorOpenAt": null,
+      "venue": "国営讃岐まんのう公園",
+      "performanceAt": "2026-08-23T11:00:00+09:00",
+      "doorOpenAt": "2026-08-23T09:00:00+09:00",
       "kind": "fes",
       "eventName": "MONSTER baSH 2026",
       "source": "system",
-      "sourceUrl": "https://www.monsterbash.jp/timetable.html",
-      "lastVerifiedAt": "2026-08-17T23:05:00+09:00"
+      "sourceUrl": "https://www.monsterbash.jp/detail.html",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
     },
     {
       "id": "lisa_fes_2026_treasure_0906",
       "tourId": "lisa_fes_2026_treasure",
-      "venue": "蒲郡ラグーナビーチ MARS STAGE",
-      "performanceAt": "2026-09-06T16:50:00+09:00",
-      "doorOpenAt": null,
+      "venue": "蒲郡ラグーナビーチ",
+      "performanceAt": "2026-09-06T11:00:00+09:00",
+      "doorOpenAt": "2026-09-06T09:30:00+09:00",
       "kind": "fes",
       "eventName": "TREASURE05X 2026",
       "source": "system",
-      "sourceUrl": "https://treasure05x.jp/",
-      "lastVerifiedAt": "2026-08-17T23:05:00+09:00"
+      "sourceUrl": "https://www.treasure05x.jp/lag.html",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
     },
     {
       "id": "lisa_asia_tour_15_seoul_2026_0801",

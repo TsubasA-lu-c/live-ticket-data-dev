@@ -178,26 +178,26 @@
     {
       "id": "le_sserafim_fes_summer_sonic_2026_osaka_0814",
       "tourId": "le_sserafim_fes_summer_sonic_2026",
-      "venue": "万博記念公園 AIR STAGE",
-      "performanceAt": "2026-08-14T17:20:00+09:00",
-      "doorOpenAt": null,
+      "venue": "万博記念公園",
+      "performanceAt": "2026-08-14T11:00:00+09:00",
+      "doorOpenAt": "2026-08-14T10:00:00+09:00",
       "kind": "fes",
       "eventName": "SUMMER SONIC 2026",
       "source": "system",
-      "sourceUrl": "https://www.summersonic.com/tt/osaka-day1/",
-      "lastVerifiedAt": "2026-08-17T23:05:00+09:00"
+      "sourceUrl": "https://www.summersonic.com/info/osaka/",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
     },
     {
       "id": "le_sserafim_fes_summer_sonic_2026_tokyo_0816",
       "tourId": "le_sserafim_fes_summer_sonic_2026",
-      "venue": "ZOZOマリンスタジアム MARINE STAGE",
-      "performanceAt": "2026-08-16T17:20:00+09:00",
-      "doorOpenAt": null,
+      "venue": "ZOZOマリンスタジアム＆幕張メッセ",
+      "performanceAt": "2026-08-16T11:00:00+09:00",
+      "doorOpenAt": "2026-08-16T09:00:00+09:00",
       "kind": "fes",
       "eventName": "SUMMER SONIC 2026",
       "source": "system",
-      "sourceUrl": "https://www.summersonic.com/tt/tokyo-day3/",
-      "lastVerifiedAt": "2026-08-17T23:05:00+09:00"
+      "sourceUrl": "https://www.summersonic.com/info/tokyo/",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
     }
   ],
   "lotteries": [

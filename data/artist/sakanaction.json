@@ -77,26 +77,26 @@
     {
       "id": "sakanaction_fes_2026_summersonic_tokyo_0815",
       "tourId": "sakanaction_fes_2026_summersonic",
-      "venue": "幕張メッセ MOUNTAIN STAGE",
-      "performanceAt": "2026-08-15T18:30:00+09:00",
-      "doorOpenAt": null,
+      "venue": "ZOZOマリンスタジアム＆幕張メッセ",
+      "performanceAt": "2026-08-15T11:00:00+09:00",
+      "doorOpenAt": "2026-08-15T09:00:00+09:00",
       "kind": "fes",
       "eventName": "SUMMER SONIC 2026",
       "source": "system",
-      "sourceUrl": "https://www.summersonic.com/tt/tokyo-day2/",
-      "lastVerifiedAt": "2026-08-18T00:08:00+09:00"
+      "sourceUrl": "https://www.summersonic.com/info/tokyo/",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
     },
     {
       "id": "sakanaction_fes_2026_summersonic_osaka_0816",
       "tourId": "sakanaction_fes_2026_summersonic",
-      "venue": "万博記念公園 MOUNTAIN STAGE",
-      "performanceAt": "2026-08-16T17:25:00+09:00",
-      "doorOpenAt": null,
+      "venue": "万博記念公園",
+      "performanceAt": "2026-08-16T11:00:00+09:00",
+      "doorOpenAt": "2026-08-16T10:00:00+09:00",
       "kind": "fes",
       "eventName": "SUMMER SONIC 2026",
       "source": "system",
-      "sourceUrl": "https://www.summersonic.com/tt/osaka-day3/",
-      "lastVerifiedAt": "2026-08-18T00:08:00+09:00"
+      "sourceUrl": "https://www.summersonic.com/info/osaka/",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
     },
     {
       "id": "sakanaction_sakanaquarium_2026_budokan_0908",
