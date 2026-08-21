@@ -43,7 +43,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-21T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -137,18 +137,6 @@
       "venue": "Kaohsiung National Stadium",
       "performanceAt": "2026-10-31T20:00:00+09:00",
       "doorOpenAt": "2026-10-31T17:00:00+09:00",
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "fujii_kaze_prema_world_2026_bangkok_1226",
-      "tourId": "fujii_kaze_prema_world_2026",
-      "venue": "Supachalasai National Stadium",
-      "performanceAt": "2026-12-26T21:00:00+09:00",
-      "doorOpenAt": "2026-12-26T18:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
