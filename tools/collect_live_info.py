@@ -38,6 +38,10 @@ def main() -> int:
     parser.add_argument("--ignore-robots", action="store_true",
                         help="robots.txt を確認しない（通常は使わない）")
     parser.add_argument("--report", type=Path, default=None, help="結果JSONの出力先")
+    parser.add_argument(
+        "--cache-root", type=Path, default=None,
+        help="local_llm/配下の隔離cache root（シャドーラン用）",
+    )
     parser.add_argument("--quiet", action="store_true", help="1組ごとのログを出さない")
     parser.add_argument("--accept", action="store_true",
                         help="収集・validate が済んだアーティストの指紋を確定する"
@@ -45,6 +49,14 @@ def main() -> int:
     parser.add_argument("--pending", action="store_true",
                         help="確定待ちのアーティストを一覧表示して終了する")
     args = parser.parse_args()
+
+    if args.cache_root is not None:
+        repo_root = Path(__file__).resolve().parent.parent
+        allowed = (repo_root / "local_llm").resolve()
+        resolved = args.cache_root.resolve()
+        if resolved != allowed and allowed not in resolved.parents:
+            print("--cache-root はlocal_llm/配下を指定してください", file=sys.stderr)
+            return 1
 
     if args.pending:
         return _show_pending()
@@ -66,6 +78,7 @@ def main() -> int:
         update_cache=not args.no_cache,
         fetcher=fetcher,
         verbose=not args.quiet,
+        cache_root=args.cache_root,
     )
 
     metrics = result["metrics"]
@@ -136,7 +149,34 @@ def _artist_report(outcome) -> dict:
         "missingOnSite": [
             s.existing_id for s in outcome.statuses if s.status == mergemod.REMOVED
         ],
+        "pages": [
+            {
+                "url": page.url,
+                "finalUrl": page.final_url,
+                "fetchedAt": page.fetched_at,
+                "elapsedMs": page.elapsed_ms,
+                "status": page.status,
+                "diff": page.diff_status,
+                "depth": page.depth,
+                "discoveredFrom": page.discovered_from,
+                "discoveryEvidence": page.discovery_evidence,
+                "pageTitle": page.page_title,
+                "headings": page.headings,
+                "categoryWarning": page.category_warning,
+                "artistScoped": page.artist_scoped,
+                "liveRelatedDiff": page.live_related_added[:50],
+                "ignoredDiff": page.ignored_added[:50],
+                "relatedLinks": [
+                    {"label": label, "url": url}
+                    for label, url in page.relevant_links[:40]
+                ],
+                "events": len(page.events),
+                "error": page.error,
+            }
+            for page in outcome.pages
+        ],
         "errors": outcome.errors,
+        "warnings": outcome.warnings,
     }
 
 
@@ -163,8 +203,8 @@ def _print_summary(result: dict) -> None:
                 print(f"  {e['artistId']}: {msg}")
 
     if result["queue"]:
-        print(f"\nAIキュー: {AI_QUEUE_FILE}（{len(result['queue'])}組）")
-        print("  → Claude Code 側でこのファイルだけを読んで構造化する（Web巡回はさせない）")
+        print(f"\nAIキュー: {result.get('queuePath') or AI_QUEUE_FILE}（{len(result['queue'])}組）")
+        print("  → AI実行側でこのファイルだけを読んで構造化する（Web巡回はさせない）")
         print("  → 反映と validate が済んだら指紋を確定すること:")
         print("     python3 tools/collect_live_info.py --accept "
               + " ".join(i["artistId"] for i in result["queue"]))

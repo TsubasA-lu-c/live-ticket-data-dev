@@ -81,7 +81,7 @@ VENUE_TOKENS = re.compile(
     r"文化会館|市民会館|公会堂|会館|フォーラム|メッセ(?!ージ)|プラザ|センター|"
     r"パーク|ガーデン|スタジオ|ロフト|クラブ|チッタ|キューブ|コロシアム|"
     r"武道館|国技館|城ホール|ZEPP|Zepp|LIQUIDROOM|LIQUID ROOM|BLITZ|"
-    r"CLUB|HALL|ARENA|DOME|STADIUM|THEATER|THEATRE|LIVE ?HOUSE|"
+    r"CLUB|HALL|ARENA|arena|DOME|STADIUM|THEATER|THEATRE|LIVE ?HOUSE|"
     r"WWW|O-EAST|O-WEST|O-nest|Spotify O-|渋谷|新木場|幕張|さいたま|横浜|"
     r"日本ガイシ|ぴあアリーナ|Kアリーナ|ベルーナ|東京ガーデン|有明|"
     r"サンプラザ|NHK|オリンパス|ゼビオ|ロームシアター|カルッツ|"
@@ -134,8 +134,17 @@ _NOT_VENUE_CHARS = re.compile(r"[。※！!？?…]|\d{3,}")
 
 LOTTERY_KEYWORDS = re.compile(
     r"(先行|抽選|受付|申込|申し込み|エントリー|当落|当選|落選|入金|"
-    r"支払|決済|一般発売|先着|FC|ファンクラブ|プレオーダー|オフィシャル)"
+    r"支払|決済|一般発売|先着|FC|ファンクラブ|プレオーダー|オフィシャル(?!サイト))"
 )
+
+# 過去公演を収録した商品ページは、年省略の公演日を未来日へ誤推定しやすい。
+# 実例: ゴールデンボンバーのDVD一覧にある2012/2025年公演が2027年公演になった。
+# 開場/開演や受付の根拠がある行までは落とさず、「商品文脈だけ」の日付を除外する。
+RECORDED_PRODUCT_KEYWORDS = re.compile(
+    r"(DVD|Blu[\s-]?ray|ブルーレイ|初回盤|通常盤|廃盤|映像作品|ディスコグラフィ)",
+    re.I,
+)
+GOODS_SALES_KEYWORDS = re.compile(r"(グッズ|物販|通販|会場販売|商品販売|goods)", re.I)
 
 
 @dataclass
@@ -152,6 +161,7 @@ class ExtractedEvent:
     method: str = ""                    # jsonld / dom / text
     confidence: float = 0.0
     year_inferred: bool = False         # 年が書かれておらず推測した
+    external_appearance: bool = False   # 複数日程イベントの対象出演日が明記された
 
     def key(self) -> Tuple[str, str]:
         return (self.date, normalize_venue(self.venue))
@@ -170,6 +180,7 @@ class ExtractedEvent:
             "method": self.method,
             "confidence": round(self.confidence, 2),
             "yearInferred": self.year_inferred,
+            "externalAppearance": self.external_appearance,
         }
 
 
@@ -194,12 +205,21 @@ class ExtractResult:
 _PREF_PREFIX = re.compile(
     r"^(北海道|東京都|大阪府|京都府|.{2,3}県)[\s　・･,、/／|｜:：]+"
 )
+_VENUE_HEADING_EDGE = re.compile(
+    r"^(?:(?:日程|会場|場所|venue|schedule)[\s　:：|｜/／・･-]+)+"
+    r"|(?:[\s　:：|｜/／・･-]+(?:日程|会場|場所|venue|schedule))+$",
+    re.I,
+)
 
 
 def normalize_venue(venue: str) -> str:
     """重複判定用に会場名を丸める。表記ゆれで別公演にしないため。"""
     v = unicodedata.normalize("NFKC", venue or "")
-    v = _PREF_PREFIX.sub("", v.strip()).lower()
+    v = re.sub(r"[\r\n\t]+", " ", v).strip()
+    # 表示値は変えず、比較キーの端に付いた表見出しだけを除く。
+    while _VENUE_HEADING_EDGE.search(v):
+        v = _VENUE_HEADING_EDGE.sub("", v).strip()
+    v = _PREF_PREFIX.sub("", v).lower()
     v = re.sub(r"[\s　]+", "", v)
     v = re.sub(r"[(（\[【].*?[)）\]】]", "", v)          # 括弧書きの補足を落とす
     v = re.sub(r"[・･,、/／|｜:：\-−–—~〜&＆]", "", v)
@@ -456,8 +476,23 @@ def extract_from_blocks(blocks: List[Block], page_url: str,
     # 「会場見出し → 日付を複数行」というレイアウトのための会場コンテキスト。
     # 乃木坂46のツアーページがこの形で、後ろだけを見ていると全公演を取りこぼす
     current_venue: Optional[str] = None
+    current_venue_text: Optional[str] = None
     current_venue_idx = -999
     seen: Dict[Tuple[str, str], ExtractedEvent] = {}
+
+    # CMSが記事本文全体を1つのdivに入れる場合でも、公式の
+    # 「日程/会場」見出しがあるスケジュール表だけは行境界を復元する。
+    expanded_blocks: List[Block] = []
+    for block in blocks:
+        if "\n" in block.text and re.search(r"【日程】|<公演情報>", block.text) \
+                and re.search(r"【会場】", block.text):
+            expanded_blocks.extend(
+                Block(text=line, links=block.links if index == 0 else [], path=block.path)
+                for index, line in enumerate(block.text.splitlines()) if line.strip()
+            )
+        else:
+            expanded_blocks.append(block)
+    blocks = expanded_blocks
 
     for idx, block in enumerate(blocks):
         text = block.text
@@ -466,8 +501,13 @@ def extract_from_blocks(blocks: List[Block], page_url: str,
 
         if block.path in _HEADING_PATHS and len(text) <= 120:
             current_title = text.replace("\n", " ").strip()
+        elif len(text) <= 160 and _find_event_title(text):
+            current_title = _find_event_title(text)
 
         dates = find_dates_flagged(text, today=today)
+        appearance_dates = _appearance_dates(text, today)
+        if appearance_dates:
+            dates = [value for value in dates if value[0] in appearance_dates]
 
         if not dates:
             # 日付を伴わない会場行は、以降の日付行が参照する会場として覚えておく。
@@ -479,6 +519,7 @@ def extract_from_blocks(blocks: List[Block], page_url: str,
                 standalone_venue = find_venue(text)
                 if standalone_venue:
                     current_venue, current_venue_idx = standalone_venue, idx
+                    current_venue_text = text
 
         # 抽選候補は「抽選語 かつ 日付か時刻がある」行だけにする。
         # 「チケット」「受付」だけの行はナビや定型文で、AIに渡しても得るものがない
@@ -487,7 +528,23 @@ def extract_from_blocks(blocks: List[Block], page_url: str,
             if snippet not in result.lottery_blocks:
                 result.lottery_blocks.append(snippet)
 
+        # 受付期間・当落日は公演日ではない。抽選候補として保持した後は、
+        # performance抽出へ流さない。
+        if LOTTERY_KEYWORDS.search(text):
+            continue
+
         if not dates:
+            continue
+
+        product_context = f"{current_title or ''} {text}"
+        if (RECORDED_PRODUCT_KEYWORDS.search(product_context)
+                and find_times(text) == (None, None)
+                and not LOTTERY_KEYWORDS.search(text)):
+            # 商品説明に再掲された過去日程は公演候補にしない。
+            continue
+        if (GOODS_SALES_KEYWORDS.search(product_context)
+                and find_times(text) == (None, None)):
+            # 公演日を含むグッズ販売案内をperformanceへ誤変換しない。
             continue
 
         venue = find_venue(text)
@@ -498,13 +555,18 @@ def extract_from_blocks(blocks: List[Block], page_url: str,
         # 逆順にすると「会場A / 日付1 / 日付2 / 会場B」の日付2が会場Bを掴む
         if not venue and current_venue and idx - current_venue_idx <= VENUE_CONTEXT_SPAN:
             venue, from_context = current_venue, True
+            venue_block_text = current_venue_text or current_venue
 
         if not venue:
-            for look in blocks[idx + 1: idx + 3]:
+            for look in blocks[idx + 1: idx + 7]:
                 if look.path in _HEADING_PATHS:
                     break  # 見出しから先は別の節
                 if find_dates(look.text, today=today):
-                    break  # 次の公演行に入ったので打ち切る
+                    # 「日程1 / 日程2 / 会場」型の公式表は、時刻付きの
+                    # 連続日程行を同じ会場グループとして読む。
+                    if find_times(look.text) != (None, None):
+                        continue
+                    break
                 # 記事見出しのような長い文は会場行とみなさない
                 if len(look.text) > VENUE_LINE_MAX_CHARS:
                     continue
@@ -520,7 +582,22 @@ def extract_from_blocks(blocks: List[Block], page_url: str,
                 result.date_lines_without_venue.append(line)
             continue
 
-        combined = text + " " + venue_block_text
+        combined_parts = [text]
+        if current_title and current_title not in text:
+            combined_parts.insert(0, current_title)
+        if venue_block_text != text:
+            combined_parts.append(venue_block_text)
+        # 公式日程表には「会場 / 日付 / 開演」の3ブロック構造がある。
+        # 日付の直後、次の日付・見出しより前にある時刻だけを同じ公演の根拠として
+        # 結合する。距離を限定し、別公演の時刻を借りない。
+        if find_times(" ".join(combined_parts)) == (None, None):
+            for look in blocks[idx + 1: idx + 7]:
+                if look.path in _HEADING_PATHS or find_dates(look.text, today=today):
+                    break
+                if find_times(look.text) != (None, None):
+                    combined_parts.append(look.text)
+                    break
+        combined = " ".join(combined_parts)
         open_t, start_t = find_times(combined)
 
         if from_context and not (open_t or start_t):
@@ -534,20 +611,24 @@ def extract_from_blocks(blocks: List[Block], page_url: str,
         detail = _pick_detail_url(block, page_url)
 
         for d, year_inferred in dates:
+            event_open, event_start = _times_for_date(combined, d, today)
+            if event_open is None and event_start is None and len(dates) == 1:
+                event_open, event_start = open_t, start_t
             ev = ExtractedEvent(
                 date=d,
                 year_inferred=year_inferred,
                 venue=venue,
                 prefecture=find_prefecture(combined, venue),
-                title=current_title,
-                open_time=open_t,
-                start_time=start_t,
+                title=current_title or _find_event_title(combined),
+                open_time=event_open,
+                start_time=event_start,
                 detail_url=detail,
                 source_url=page_url,
-                source_text=clean_text(combined).replace("\n", " ")[:200],
+                source_text=clean_text(combined).replace("\n", " ")[:500],
                 method="dom" if block.path in ("li", "tr", "dd", "dt") else "text",
-                confidence=_score(d, venue, start_t, len(dates), from_context,
+                confidence=_score(d, venue, event_start, len(dates), from_context,
                                   year_inferred),
+                external_appearance=bool(appearance_dates),
             )
             key = ev.key()
             prev = seen.get(key)
@@ -558,6 +639,37 @@ def extract_from_blocks(blocks: List[Block], page_url: str,
     if result.events:
         result.method = result.events[0].method
     return result
+
+
+def _appearance_dates(text: str, today: _date) -> set:
+    """複数日イベントで対象の出演日が明記された場合、その日だけを返す。"""
+    found = set()
+    for line in text.splitlines():
+        if not re.search(r"出演(?:いたします|します|予定|日)?", line):
+            continue
+        if not re.search(r"(?:は|出演日|出演予定).*\d{1,2}\s*月", line):
+            continue
+        found.update(find_dates(line, today=today))
+    return found
+
+
+def _find_event_title(text: str) -> Optional[str]:
+    for pattern in (r"「([^」]{3,120})」", r"『([^』]{3,120})』"):
+        for match in re.finditer(pattern, text):
+            value = clean_text(match.group(1)).replace("\n", " ")
+            if re.search(r"live|tour|event|festival|fes|ライブ|ツアー|フェス", value, re.I):
+                return value
+    return None
+
+
+def _times_for_date(text: str, date_str: str, today: _date) -> Tuple[Optional[str], Optional[str]]:
+    for line in text.splitlines():
+        if date_str not in find_dates(line, today=today):
+            continue
+        times = find_times(line)
+        if times != (None, None):
+            return times
+    return None, None
 
 
 def _score(date_str: str, venue: str, start_time: Optional[str], date_count: int,

@@ -9,9 +9,10 @@ LIVE/NEWS ページを仕分けして保存し、次回以降はそのURLを直�
 import json
 import re
 from dataclasses import dataclass, field
+from datetime import date as _date
 from pathlib import Path
 from typing import Dict, List, Optional
-from urllib.parse import urlparse
+from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 
 CONFIG_FILE = Path("config/collect_targets.json")
 ARTISTS_FILE = Path("data/artists.json")
@@ -41,14 +42,16 @@ class Target:
     parser_type: str = "generic"
     selector: Optional[str] = None
     note: Optional[str] = None
+    aliases: List[str] = field(default_factory=list)
     discovered: bool = False
 
-    def urls(self) -> List[str]:
+    def urls(self, today: Optional[_date] = None) -> List[str]:
         """取得順。**ライブ情報が濃い順**に並べる。"""
         ordered = [self.live_url, self.feed_url, self.news_url, self.official_url]
         ordered += self.extra_urls
         seen, out = set(), []
         for u in ordered:
+            u = refresh_month_query(u, today=today) if u else u
             if u and u not in seen:
                 seen.add(u)
                 out.append(u)
@@ -101,6 +104,27 @@ def classify(urls: List[str], official_url: str) -> Dict[str, object]:
             extra.append(url)
 
     return {"live": live, "news": news, "feed": feed, "extra": extra[:2]}
+
+
+def refresh_month_query(url: str, today: Optional[_date] = None) -> str:
+    """`dy=YYYYMM` 型の固定月だけを現在月へ更新する。
+
+    URL内の実在queryを決定的に置換するだけで、未知のpathや無制限な月URLは
+    生成しない。月指定のないURLはそのまま返す。
+    """
+    today = today or _date.today()
+    parsed = urlparse(url)
+    pairs = parse_qsl(parsed.query, keep_blank_values=True)
+    changed = False
+    refreshed = []
+    for key, value in pairs:
+        if key == "dy" and re.fullmatch(r"20\d{4}", value):
+            value = today.strftime("%Y%m")
+            changed = True
+        refreshed.append((key, value))
+    if not changed:
+        return url
+    return urlunparse(parsed._replace(query=urlencode(refreshed)))
 
 
 def load_config(path: Path = CONFIG_FILE) -> Dict:
@@ -156,6 +180,10 @@ def build_targets(artist_ids: Optional[List[str]] = None,
             parser_type=entry.get("parserType") or config["defaults"].get("parserType", "generic"),
             selector=entry.get("selector"),
             note=entry.get("note"),
+            aliases=[
+                value for value in artist.get("aliases", [])
+                if isinstance(value, str) and value.strip()
+            ],
         )
 
         if not entry:

@@ -14,7 +14,9 @@ from tools.collect import merge as mergemod
 from tools.collect import normalize as normmod
 from tools.collect import targets as targetsmod
 from tools.collect.fetcher import FetchResult, decode_body
-from tools.collect.pipeline import Pipeline, build_queue_item
+from tools.collect.pipeline import (
+    ArtistOutcome, PageOutcome, Pipeline, _rank_follow_links, build_queue_item,
+)
 
 TODAY = date(2026, 8, 10)
 
@@ -109,6 +111,38 @@ class NormalizeTest(unittest.TestCase):
         links = [l for b in blocks for l in b.links]
         self.assertIn("https://example.com/live/123", [u for _, u in links])
 
+    def test_anchor_wrapping_nested_blocks_keeps_link(self):
+        html = """<main><a href="/tour/123"><ul>
+          <li>2026.10.30〜2027.01.07</li>
+          <li>TEST DOME TOUR 2026</li>
+        </ul></a></main>"""
+        _, blocks = normmod.normalize_html(html, "https://example.com/live/")
+        links = [link for block in blocks for link in block.links]
+        self.assertIn(
+            ("2026.10.30〜2027.01.07\nTEST DOME TOUR 2026",
+             "https://example.com/tour/123"),
+            links,
+        )
+
+    def test_ui_and_invalid_hrefs_are_not_crawl_links(self):
+        html = """<main>
+          <a href="javascript:void(0)">開く</a>
+          <a href="void(0)">詳細</a><a href="#modal">モーダル</a>
+          <a href="/ライブ">ライブ</a><a href="mailto:test@example.com">連絡</a>
+          <a href="/news/detail/123">有効な詳細</a>
+        </main>"""
+        _, blocks = normmod.normalize_html(html, "https://example.com/news/")
+        urls = [url for block in blocks for _, url in block.links]
+        self.assertEqual(urls, ["https://example.com/news/detail/123"])
+
+    def test_modal_template_and_split_schedule_date_are_preserved(self):
+        html = """<main><template><p>追加公演決定</p></template>
+        <div><span class="schedule-date-year">2026</span>
+        <span class="schedule-date-md">7.22</span></div></main>"""
+        text, _ = normmod.normalize_html(html)
+        self.assertIn("追加公演決定", text)
+        self.assertIn("2026.7.22", text)
+
     def test_decode_shift_jis(self):
         raw = "日本武道館".encode("cp932")
         text, enc = decode_body(raw, "text/html; charset=Shift_JIS")
@@ -200,6 +234,18 @@ class ExtractPrimitiveTest(unittest.TestCase):
         # 区切りが無ければ会場名の一部として残す
         self.assertNotEqual(extractmod.normalize_venue("千葉県文化会館"),
                             extractmod.normalize_venue("文化会館"))
+
+    def test_venue_comparison_key_removes_spaces_newlines_and_heading_words(self):
+        expected = extractmod.normalize_venue(
+            "Niterra日本特殊陶業市民会館 フォレストホール"
+        )
+        for value in (
+            " Niterra 日本特殊陶業市民会館  フォレストホール 日程 ",
+            "Niterra\n日本特殊陶業市民会館 フォレストホール 会場",
+            "VENUE: Niterra 日本特殊陶業市民会館 フォレストホール",
+            "Niterra 日本特殊陶業市民会館 フォレストホール SCHEDULE",
+        ):
+            self.assertEqual(extractmod.normalize_venue(value), expected, msg=value)
 
     def test_venue_master_canonicalises_and_fills_prefecture(self):
         from tools.collect.venues import VenueMaster
@@ -308,6 +354,21 @@ class MergeTest(unittest.TestCase):
         statuses = mergemod.diff_events(extracted, data, today=TODAY)
         self.assertEqual(statuses[0].status, mergemod.UNCHANGED)
 
+    def test_existing_performance_matches_venue_heading_noise(self):
+        data = existing_artist([{
+            "id": "p1",
+            "venue": "Niterra日本特殊陶業市民会館 フォレストホール",
+            "performanceAt": "2026-09-15T18:30:00+09:00",
+        }])
+        extracted = [extractmod.ExtractedEvent(
+            date="2026-09-15",
+            venue="Niterra 日本特殊陶業市民会館 フォレストホール 日程",
+            start_time="18:30",
+        )]
+        statuses = mergemod.diff_events(extracted, data, today=TODAY)
+        self.assertEqual(statuses[0].status, mergemod.UNCHANGED)
+        self.assertEqual(statuses[0].existing_id, "p1")
+
     def test_past_performance_not_reported_as_removed(self):
         data = existing_artist([
             {"id": "old", "venue": "日本武道館", "performanceAt": "2026-01-03T18:00:00+09:00"}])
@@ -399,6 +460,10 @@ class PipelineTest(_Case):
         pipe = self.pipeline(pipe_pages)
         pipe.run_artist(self.target())
         pipe.save_state()
+        # NEW_OR_UPDATED_EVENTS はレビュー完了までpendingになるため、fixtureの
+        # 「確認済み過去状態」は明示的に確定する。
+        pipe.accept(["testartist"])
+        pipe.save_state()
 
     def test_single_new_live_detected_without_ai(self):
         before = page(row("2026年10月3日(土) [東京] 日本武道館 OPEN 17:00 START 18:00"))
@@ -410,7 +475,7 @@ class PipelineTest(_Case):
         outcome = pipe.run_artist(self.target())
         self.assertTrue(outcome.changed)
         self.assertTrue(outcome.parser_ok)
-        self.assertIsNone(outcome.ai_reason)
+        self.assertEqual(outcome.ai_reason, "NEW_OR_UPDATED_EVENTS")
         new = [s.event for s in outcome.statuses if s.status == mergemod.NEW]
         self.assertIn("大阪城ホール", [e.venue for e in new])
         self.assertEqual([e.prefecture for e in new if e.venue == "大阪城ホール"], ["大阪府"])
@@ -470,12 +535,13 @@ class PipelineTest(_Case):
         self.assertEqual(outcome.ai_reason, "LOTTERY_TEXT")
 
         item = build_queue_item(outcome, pipe._load_artist_data("testartist"))
-        self.assertTrue(item["changedLotteryText"])
-        self.assertIn("FC先行受付", item["changedLotteryText"][0])
+        self.assertEqual(item["changedLotteryText"], [])
+        evidence = [block["text"] for block in item["evidenceBlocks"]]
+        self.assertTrue(any("FC先行受付" in text for text in evidence))
         # ページ全文ではなく変化した数行だけが載っていること
         self.assertLess(item["approxChars"], 3000)
         self.assertNotIn("日本武道館 OPEN 17:00 START 18:00",
-                         "\n".join(item["changedLotteryText"]))
+                         "\n".join(evidence))
 
     def test_parser_failure_queues_ai(self):
         before = page(row("お知らせ"))
@@ -527,6 +593,8 @@ class PipelineTest(_Case):
         pipe = self.pipeline({LIVE_URL: html})
         pipe.run_artist(self.target())
         pipe.save_state()
+        pipe.accept(["testartist"])
+        pipe.save_state()
 
         # 正規化スナップショットだけ失った状態を作る（ハッシュは state に残っている）
         for path in (self.root / "snap").rglob("*.txt"):
@@ -568,6 +636,70 @@ class PipelineTest(_Case):
         self.assertIn(("2026-10-04", "横浜アリーナ"), found)
         self.assertIn(("2026-11-01", "大阪城ホール"), found)
 
+    def test_venue_date_time_three_block_layout(self):
+        html = """<main><dl>
+          <dt><ul><li>[北海道] 大和ハウス プレミストドーム</li>
+          <li>2026.10.30[Fri]</li><li>開演：17:00</li></ul></dt>
+          <dt><ul><li>[北海道] 大和ハウス プレミストドーム</li>
+          <li>2026.10.31[Sat]</li><li>開演：17:00</li></ul></dt>
+        </dl></main>"""
+        outcome = self.pipeline({LIVE_URL: html}).run_artist(self.target())
+        events = [s.event for s in outcome.statuses if s.event]
+        self.assertEqual(len(events), 2)
+        self.assertEqual({event.start_time for event in events}, {"17:00"})
+        self.assertEqual(
+            {event.venue for event in events}, {"大和ハウスプレミストドーム"}
+        )
+
+    def test_schedule_date_venue_and_time_with_intermediate_blocks(self):
+        html = """<main><div>
+          <p><span class="schedule-date-year">2026</span><span>7.22</span></p>
+          <p>NAGOYA</p><p>Zepp Nagoya</p><p>SOLD OUT</p>
+          <p>OPEN 18:00 / START 19:00</p>
+        </div></main>"""
+        outcome = self.pipeline({LIVE_URL: html}).run_artist(self.target())
+        events = [status.event for status in outcome.statuses if status.event]
+        self.assertEqual(len(events), 1)
+        self.assertEqual(events[0].date, "2026-07-22")
+        self.assertEqual(events[0].venue, "Zepp Nagoya")
+        self.assertEqual(events[0].start_time, "19:00")
+
+    def test_multi_day_event_uses_explicit_artist_appearance_date_and_time(self):
+        html = """<main><p>
+          2026年11月6日(金)、7日(土)、8日(日) 横浜アリーナにて開催される
+          「TEST LIVE 2026」にテストアーティストの出演が決定いたしました!<br>
+          11月6日(金) OPEN 16:00 / START 17:00<br>
+          11月7日(土)、8日(日) OPEN 15:00 / START 16:00<br>
+          ※テストアーティストは11月8日(日)に出演いたします。<br>
+          ●会場: 横浜アリーナ (神奈川県)<br>オフィシャルサイトはこちら
+        </p></main>"""
+        outcome = self.pipeline({LIVE_URL: html}).run_artist(self.target())
+        events = [status.event for status in outcome.statuses if status.event]
+        self.assertEqual([(event.date, event.start_time) for event in events], [
+            ("2026-11-08", "16:00")
+        ])
+        self.assertEqual(events[0].venue, "横浜アリーナ")
+        self.assertTrue(events[0].external_appearance)
+
+    def test_article_schedule_with_dates_before_shared_venue(self):
+        html = """<main><div>
+          「18th Single テスト LIVE」開催決定!<br>
+          &lt;公演情報&gt;<br>テスト「18th Single テスト LIVE」<br>
+          【日程】<br>
+          2026年10月6日(火) 開場17:00/開演18:30<br>
+          2026年10月7日(水) 開場17:00/開演18:30<br>
+          【会場】<br>LaLa arena TOKYO-BAY
+        </div></main>"""
+        outcome = self.pipeline({LIVE_URL: html}).run_artist(self.target())
+        events = [status.event for status in outcome.statuses if status.event]
+        self.assertEqual(
+            [(event.date, event.venue, event.start_time) for event in events],
+            [
+                ("2026-10-06", "LaLa arena TOKYO-BAY", "18:30"),
+                ("2026-10-07", "LaLa arena TOKYO-BAY", "18:30"),
+            ],
+        )
+
     def test_venue_context_does_not_leak_far(self):
         filler = "".join(f"<li>案内文{i}</li>" for i in range(8))
         html = f"""<main><h3>横浜アリーナ</h3><ul>{filler}
@@ -587,6 +719,15 @@ class PipelineTest(_Case):
         outcome = self.pipeline({LIVE_URL: html}).run_artist(self.target())
         self.assertEqual([s for s in outcome.statuses if s.event], [])
 
+    def test_recorded_product_archive_does_not_become_performance(self):
+        # DVD一覧の年省略日付を翌年の新規公演として拾った実例の回帰テスト。
+        html = """<main><h2>DVD</h2><ul>
+          <li>ワンマンライブ「一生バカ」1月14日 日本武道館 2012.03.18 初回盤は廃盤、通常盤のみ</li>
+          <li>20周年アリーナライブ at ぴあアリーナMM 2025.1.7・1.8 2025.08.09</li>
+        </ul></main>"""
+        outcome = self.pipeline({LIVE_URL: html}).run_artist(self.target())
+        self.assertEqual([s for s in outcome.statuses if s.event], [])
+
     def test_year_inferred_dates_are_flagged_and_scored_lower(self):
         # 8月時点の「7月4日」は翌年に寄るが、過去記事の可能性がある
         flagged = extractmod.find_dates_flagged("7月4日(土) 横浜アリーナ", today=TODAY)
@@ -597,9 +738,10 @@ class PipelineTest(_Case):
 
         html = "<main><ul><li>7月4日(土) 横浜アリーナ 開場 17:00 開演 18:30</li></ul></main>"
         outcome = self.pipeline({LIVE_URL: html}).run_artist(self.target())
-        events = [s.event for s in outcome.statuses if s.event]
+        events = outcome.pages[0].events
         self.assertTrue(events[0].year_inferred)
         self.assertLess(events[0].confidence, 0.8)
+        self.assertEqual([s.event for s in outcome.statuses if s.event], [])
 
     def test_fan_club_is_not_a_venue(self):
         self.assertIsNone(extractmod.find_venue("OFFICIAL FAN CLUB 「Ringo Jam」"))
@@ -624,6 +766,74 @@ class PipelineTest(_Case):
 
         outcome = self.pipeline({LIVE_URL: after}).run_artist(self.target())
         self.assertTrue(outcome.changed)
+
+    def test_dom_near_news_detail_outranks_generic_tour_link(self):
+        page_outcome = PageOutcome(
+            url="https://example.com/news/",
+            diff_status=diffmod.CHANGED,
+            added_lines=[
+                "2026年11月8日(日)「バズリズム LIVE 2026」出演決定!"
+            ],
+            link_contexts=[
+                {
+                    "label": "2027 TOUR",
+                    "url": "https://example.com/tour/2027",
+                    "blockText": "2027 TOUR 開催決定",
+                    "blockPath": "a",
+                },
+                {
+                    "label": "2026年11月8日(日) バズリズム LIVE 2026 出演決定!",
+                    "url": "https://example.com/news/detail/11261",
+                    "blockText": "2026年11月8日(日) バズリズム LIVE 2026 出演決定!",
+                    "blockPath": "a",
+                },
+            ],
+        )
+        ranked = _rank_follow_links(page_outcome)
+        self.assertEqual(ranked[0][1], "https://example.com/news/detail/11261")
+
+    def test_first_seen_news_prefers_recent_primary_announcement(self):
+        page_outcome = PageOutcome(
+            url="https://example.com/news/",
+            diff_status=diffmod.FIRST_SEEN,
+            added_lines=["2026.08.10", "LIVE 開催決定", "2025.04.23", "LIVE 先行受付"],
+            link_contexts=[
+                {"label": "2025.04.23 LIVE 先行受付", "url": "https://example.com/news/detail/old", "blockText": "2025.04.23 LIVE 先行受付", "blockPath": "a"},
+                {"label": "2026.08.10 LIVE 開催決定", "url": "https://example.com/news/detail/new", "blockText": "2026.08.10 LIVE 開催決定", "blockPath": "a"},
+            ],
+        )
+        self.assertEqual(_rank_follow_links(page_outcome)[0][1], "https://example.com/news/detail/new")
+
+    def test_live_url_category_mismatch_is_warning_and_not_authoritative(self):
+        html = """<html><head><title>MEDIA</title></head><body><main>
+          <h1>MEDIA</h1><p>TV / RADIO / MAGAZINE</p>
+          <p>2026年10月3日 日本武道館</p>
+        </main></body></html>"""
+        outcome = self.pipeline({LIVE_URL: html}).run_artist(self.target())
+        self.assertTrue(any("TARGET_CATEGORY_MISMATCH" in w for w in outcome.warnings))
+        self.assertFalse(any(s.status == mergemod.REMOVED for s in outcome.statuses))
+
+    def test_unscoped_label_page_filters_unrelated_artist_before_queue(self):
+        page_outcome = PageOutcome(
+            url="https://label.example/news/",
+            diff_status=diffmod.CHANGED,
+            artist_scoped=False,
+            added_lines=[
+                "別アーティスト LIVE 2026 開催決定",
+                "Ado LIVE 2026 開催決定",
+                "Ado・別アーティスト出演 FESTIVAL 2026",
+            ],
+        )
+        outcome = ArtistOutcome(
+            artist_id="ado", artist_name="Ado", artist_aliases=["アド"],
+            pages=[page_outcome], fetch_ok=True, changed=True,
+            ai_reason="LOTTERY_TEXT",
+        )
+        item = build_queue_item(outcome, existing_artist([]))
+        evidence = "\n".join(b["text"] for b in item["evidenceBlocks"])
+        self.assertNotIn("別アーティスト LIVE 2026 開催決定\n", evidence + "\n")
+        self.assertIn("Ado LIVE 2026", evidence)
+        self.assertIn("FESTIVAL 2026", evidence)
 
     def test_ai_queued_artist_stays_pending_until_accepted(self):
         # AIに回した分の指紋を確定してしまうと、次回 NO_CHANGE になって更新が消える
@@ -675,10 +885,46 @@ class PipelineTest(_Case):
         self.assertLessEqual(item["approxChars"], 6000)
         self.assertLessEqual(len(item["existingSummary"]["knownPerformanceKeys"]), 40)
 
+    def test_queue_item_caps_evidence_across_multiple_pages(self):
+        pages = []
+        for page_index in range(4):
+            pages.append(PageOutcome(
+                url=f"https://example.com/live/{page_index}",
+                diff_status=diffmod.CHANGED,
+                added_lines=[
+                    f"LIVE TOUR 2026 公演情報 {page_index}-{line_index}"
+                    for line_index in range(10)
+                ],
+            ))
+        outcome = ArtistOutcome(
+            artist_id="testartist",
+            artist_name="Test Artist",
+            pages=pages,
+            fetch_ok=True,
+            changed=True,
+            ai_reason="LOTTERY_TEXT",
+        )
+
+        item = build_queue_item(outcome, existing_artist([]))
+
+        self.assertLessEqual(len(item["evidenceBlocks"]), 25)
+        self.assertLessEqual(item["approxChars"], 12000)
+
 
 # ---------------------------------------------------------------- 取得設定
 
 class TargetsTest(unittest.TestCase):
+    def test_fixed_month_query_is_refreshed_to_current_month(self):
+        url = "https://example.com/news/list?ima=0000&cd=event&dy=202607"
+        self.assertEqual(
+            targetsmod.refresh_month_query(url, today=TODAY),
+            "https://example.com/news/list?ima=0000&cd=event&dy=202608",
+        )
+        self.assertEqual(
+            targetsmod.refresh_month_query("https://example.com/news/list?cd=event", today=TODAY),
+            "https://example.com/news/list?cd=event",
+        )
+
     def test_classify_prefers_list_pages_over_articles(self):
         found = targetsmod.classify([
             "https://example.com/news/detail/1234",

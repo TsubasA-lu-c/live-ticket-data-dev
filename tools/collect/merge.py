@@ -74,7 +74,8 @@ def title_key(title: Optional[str]) -> str:
 
 
 def diff_events(extracted: List[ExtractedEvent], artist_data: Dict,
-                today: Optional[_date] = None) -> List[EventStatus]:
+                today: Optional[_date] = None,
+                include_removed: bool = True) -> List[EventStatus]:
     """抽出結果と既存データを突き合わせて状態を判定する。"""
     today = today or _date.today()
     index = existing_index(artist_data)
@@ -114,10 +115,11 @@ def diff_events(extracted: List[ExtractedEvent], artist_data: Dict,
         ))
 
     # サイト側に見当たらなかった未来公演。削除はせず報告だけする
-    for key, perf in index.items():
-        if key in seen_keys or key[0] < today.isoformat():
-            continue
-        statuses.append(EventStatus(status=REMOVED, existing_id=perf.get("id")))
+    if include_removed:
+        for key, perf in index.items():
+            if key in seen_keys or key[0] < today.isoformat():
+                continue
+            statuses.append(EventStatus(status=REMOVED, existing_id=perf.get("id")))
 
     return statuses
 

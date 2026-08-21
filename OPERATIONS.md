@@ -1,7 +1,6 @@
-# live-ticket-data-dev 運用ガイド
+# live-ticket-data-dev 作業手順
 
-> このリポジトリでの作業は sonnet が担当。
-> 詳細ルールは COLLECTION_RULES.md を参照。
+> 詳細な収集・根拠・削除ルールは `COLLECTION_RULES.md` を参照。
 > **作業前に必ず `git pull origin main` を実行してから作業を開始すること。**
 > **必ず validate.py を通過してから push すること。**
 
@@ -129,7 +128,7 @@
 ```
 メイン: 対象アーティストを5組ずつのグループに分割
   ↓
-【グループ①】1組×5つのサブを同時起動（run_in_background: true）
+【グループ①】1組×5つのサブタスクを並列実行
   ↓ 全5つの完了通知を待つ
 メイン: data/artists.json を5組分一括更新 → validate.py → update_manifest.py → manifestを同梱してcommit & push
   ↓
@@ -138,7 +137,7 @@
 各グループ完了後: update_manifest.py → manifestを同梱してcommit & push
 ```
 
-- サブは `run_in_background: true` で5つ同時起動する
+- サブタスクは5つまで同時に実行する
 - artists.jsonの更新は**グループ全員完了後に一括で**行う（途中更新は不整合の原因）
 - manifest更新（`update_manifest.py`）は**各グループ完了後に実行し、各pushへ同梱する**
 - **メインは commit 前に各サブの根拠引用と JSON 入力値を照合する**（引用がない・引用と食い違う日程は null に修正するか再収集を指示。validate.py の WARNING も「抜け漏れの疑い」として内容確認してから push）
@@ -157,13 +156,13 @@
   - 発見したライブ関連イベント数と収集したイベント数（差があれば理由を明記）
 - validate.py は**実行しない**（メインが一括で行う）
 - **情報収集の注意点（必ず守ること）:**
-  - **`sourceUrl` がツアー特設ページ等の深いページの場合でも、公式TOPページとNEWS一覧ページは必ず別途WebFetchで確認する**（`sourceUrl` の確認だけで済ませない）。完了報告の確認URL一覧にNEWSページのURLが無い場合、収集漏れとみなされ再収集となる
-  - 公式サイトの schedule・news 一覧ページを確認したら、個別記事リンク（`/news/detail/*` 等）も必ずWebFetchで開いて詳細を確認する
+  - **`sourceUrl` がツアー特設ページ等の深いページの場合でも、公式TOPページとNEWS一覧ページは必ず別途直接取得して確認する**（`sourceUrl` の確認だけで済ませない）。完了報告の確認URL一覧にNEWSページのURLが無い場合、収集漏れとみなされ再収集となる
+  - 公式サイトの schedule・news 一覧ページを確認したら、個別記事リンク（`/news/detail/*` 等）も必ず直接開いて詳細を確認する
   - 「日時不明」と判断する前に、一覧ページ内のリンクを最低1階層辿ること
   - `performanceAt` は null 禁止。不明な場合は `18:00:00` をデフォルトで設定する
-  - **WebSearch の AI 生成サマリーから日程・締切を転記してはならない**（検索AIは日程を混同・創作することがある）。必ず `WebFetch` で公式/正規チケットページを直接取得し、そのページに日程が明記されていることを確認してから入力する
+  - **Web検索のAI生成サマリーから日程・締切を転記してはならない**（検索AIは日程を混同・創作することがある）。必ず公式/正規チケットページを直接取得し、そのページに日程が明記されていることを確認してから入力する
   - **異なる種別の日程を流用してはならない**（例: FC先行の締切日を一般先行に使いまわすことは禁止）
-  - **存在を確認していないURLをパスで推測して試すことは禁止**。URLは必ず WebFetch で取得したページ内のリンクから辿る。公式サイトが JS レンダリングで読めない場合は COLLECTION_RULES.md §2.6 の回避手順（curl で生HTML確認 → RSS/埋め込みJSON → 正規チケットサイト → WebSearch でURL探索）に従う。外部レンダリングサービスは使わない
+  - **存在を確認していないURLをパスで推測して試すことは禁止**。URLは必ず直接取得したページ内のリンクから辿る。公式サイトが JS レンダリングで読めない場合は COLLECTION_RULES.md §2.6 の回避手順（curl で生HTML確認 → RSS/埋め込みJSON → 正規チケットサイト → Web検索でURL探索）に従う。外部レンダリングサービスは使わない
   - 受付終了済みの抽選（Lottery）もツアーが継続中であれば必ず残す・収集し続ける（ユーザーが当落・入金状況を管理するために必要）
   - `performance.kind` は `"oneman"` / `"fes"` / `"taiban"` のみ使用可。それ以外の値は禁止（アプリが認識しない）。迷ったら `"oneman"` を選ぶ
 - **削除ルール（必ず守ること）:**
@@ -182,7 +181,7 @@
 ### B2. 機械収集（/refresh-machine）【推奨・毎週 / 2026-08-10 追加】
 
 AIに公式サイトを巡回させない収集経路。詳細な手順は
-`.claude/commands/refresh-machine.md`、ルールは COLLECTION_RULES.md §2.4。
+`docs/workflows/refresh-machine.md`、ルールは COLLECTION_RULES.md §2.4。
 
 ```bash
 python3 tools/collect_live_info.py --report /tmp/collect_report.json
@@ -190,7 +189,7 @@ python3 tools/collect_live_info.py --report /tmp/collect_report.json
 
 - 変化のないアーティストはここで終わる（AIを一切呼ばない）
 - 機械で解けなかった分だけ `cache/ai_queue.json` に積まれる
-- AIはそのキューだけを読んで構造化する。**`WebFetch` / `WebSearch` は使わない**
+- AIはそのキューだけを読んで構造化する。**ブラウザ・Web検索・HTTP取得は使わない**
 - AI出力は `python3 tools/validate_ai_result.py` を通してから配信データへ反映する
 
 | ファイル | 役割 | git |
@@ -236,7 +235,7 @@ Hot tier（3ヶ月以内に抽選締切があるアーティスト）のみを�
    - 判定: `lotteries[].entryEndAt` が今日から90日以内かつ未来のものが1件以上あるか
 2. 抽出したアーティストを5組ずつのグループに分割
 3. グループごとに1組×5並列で実行:
-   - サブエージェント（haiku）を5つ同時起動（background）→ 全完了を待つ
+   - サブタスクを5つ並列実行し、全完了を待つ
    - `data/artists.json` の `lastVerifiedAt` を5組分一括更新
    - `python3 tools/validate.py`（エラーがあれば修正）
    - `python3 tools/update_manifest.py`
@@ -254,7 +253,7 @@ Hot tier（3ヶ月以内に抽選締切があるアーティスト）のみを�
 1. `data/artists.json` を読んで全 id を取得
 2. 全アーティストを5組ずつのグループに分割
 3. グループごとに1組×5並列で実行:
-   - サブエージェント（haiku）を5つ同時起動（background）→ 全完了を待つ
+   - サブタスクを5つ並列実行し、全完了を待つ
    - `data/artists.json` の `lastVerifiedAt` を5組分一括更新
    - `python3 tools/validate.py`（エラーがあれば修正）
    - `python3 tools/update_manifest.py`
@@ -270,7 +269,7 @@ Hot tier（3ヶ月以内に抽選締切があるアーティスト）のみを�
 1. 追加対象リストを確認（TREND_NOTES.md・ジャンルバランスを参照）
 2. 対象を5組ずつのグループに分割
 3. グループごとに1組×5並列で実行:
-   - サブエージェント（sonnet）を5つ同時起動（background）→ 全完了を待つ
+   - サブタスクを5つ並列実行し、全完了を待つ
    - `data/artists.json` に5組のエントリを一括追記
    - `python3 tools/validate.py`（エラーがあれば修正）
    - `python3 tools/update_manifest.py`
@@ -349,24 +348,17 @@ Hot tier（3ヶ月以内に抽選締切があるアーティスト）のみを�
 
 ---
 
-## モデル運用ルール（サブエージェント）
+## 作業難度と再確認
 
-バッチサブエージェントを起動する際は、作業種別に応じてモデルを使い分ける。
-
-| 作業 | モデル | 理由 |
-|------|--------|------|
-| `/add-artists`（新規追加） | `sonnet` | WebFetchした生HTMLから情報を正確に抽出する必要がある。質が重要で後からのリカバリーが面倒 |
-| `/refresh-smart`（差分更新） | `haiku` | 既存データがあり差分チェックが主体。単純な構造化タスクなのでhaikuで十分 |
-| `/refresh-hot`（鮮度更新） | `haiku` | 同上 |
-| `/refresh-all`（全件更新） | `haiku` | 同上 |
-
-Agent呼び出し時に `model: "sonnet"` または `model: "haiku"` を明示すること。
+- 新規追加は、生HTMLから正確に抽出し既存IDとの衝突も避ける必要があるため、十分な調査時間を確保する。
+- 差分・鮮度・全件更新は1組ずつ独立させ、共通ファイルをメイン担当に限定する。
+- 難しい取得失敗は、同じ推測を繰り返さず、より広い文脈を読めるメイン担当が単独で再確認する。
 
 ### 取得に失敗したときの引き上げ（2026-08-09 追加）
 
-haiku で回しているバッチ更新中に、あるアーティストの取得が
+バッチ更新中に、あるアーティストの取得が
 **2回続けて失敗した場合（タイムアウト・404・本文が読めない）、
-そのアーティストだけ sonnet で単独で再実行する。**
+そのアーティストだけメイン担当が単独で再確認する。**
 
 - 再実行では COLLECTION_RULES.md §2.6 の回避手順を**最初から順に**辿らせる
 - 引き上げても解決しなければ「要確認ポイント」として報告する（null のまま黙って放置しない）
@@ -376,8 +368,8 @@ haiku で回しているバッチ更新中に、あるアーティストの取�
 BUMP OF CHICKEN で「公式サイトが連続タイムアウト」と報告された事例では、
 実際にはサイトは 0.1 秒で応答していた。存在しない `/live` `/news` を
 推測で叩き、Next.js が返す 145KB の 404 ページを掴んでいた
-（正しくは `/live_information`）。**サイトの生死とパスの当たり外れは別物**で、
-この切り分けは haiku には荷が重い。
+（正しくは `/live_information`）。**サイトの生死とパスの当たり外れは別物**なので、
+失敗時は担当を替えて切り分ける。
 
 判断に迷ったら、まず `curl -sS -o /dev/null -w "%{http_code} %{time_total}\n" {URL}`
 でトップページの応答を確かめる。速く 200 が返るなら、落ちているのは

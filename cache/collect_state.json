@@ -2,37 +2,42 @@
   "ellegarden": {
     "urls": {
       "https://ellegarden.jp/live.html": {
-        "lastFetchedAt": "2026-08-10T07:34:13+09:00",
+        "lastFetchedAt": "2026-08-21T08:36:32+09:00",
         "httpStatus": 200,
         "contentHash": "aec9f5a8120640943065b71842607900",
         "normalizedChars": 22,
         "diffStatus": "NO_CHANGE",
         "jsSuspect": true,
-        "error": null
+        "error": null,
+        "depth": 0,
+        "discoveredFrom": null
       },
       "https://ellegarden.jp/news.html": {
-        "lastFetchedAt": "2026-08-10T07:34:16+09:00",
+        "lastFetchedAt": "2026-08-21T08:36:35+09:00",
         "httpStatus": 200,
         "contentHash": "3a715c3f29ff88c1865b645ac8035aa5",
         "normalizedChars": 1665,
         "diffStatus": "NO_CHANGE",
         "jsSuspect": false,
-        "error": null
+        "error": null,
+        "depth": 0,
+        "discoveredFrom": null
       },
       "https://ellegarden.jp/": {
-        "lastFetchedAt": "2026-08-10T07:34:19+09:00",
+        "lastFetchedAt": "2026-08-21T08:36:38+09:00",
         "httpStatus": 200,
         "contentHash": "a98e26f5b86725f28f60928758b5cc3b",
         "normalizedChars": 155,
         "diffStatus": "NO_CHANGE",
         "jsSuspect": true,
-        "error": null
+        "error": null,
+        "depth": 0,
+        "discoveredFrom": null
       }
     },
+    "lastRunAt": "2026-08-21T08:36:38+09:00",
     "lastResult": "NO_CHANGE",
-    "lastRunAt": "2026-08-10T07:34:19+09:00",
-    "parserEvents": 10,
-    "aiFallback": "LOTTERY_TEXT"
+    "aiFallback": null
   },
   "golden_bomber": {
     "urls": {
@@ -74,9 +79,10 @@
       }
     },
     "lastResult": "NO_CHANGE",
-    "lastRunAt": "2026-08-10T07:14:34+09:00",
+    "lastRunAt": "2026-08-21T08:37:17+09:00",
     "parserEvents": 78,
-    "aiFallback": "LOTTERY_TEXT"
+    "aiFallback": "LOTTERY_TEXT",
+    "pendingResult": "AI_QUEUED"
   },
   "yonezu_kenshi": {
     "urls": {
@@ -118,9 +124,10 @@
       }
     },
     "lastResult": "NO_CHANGE",
-    "lastRunAt": "2026-08-10T07:14:43+09:00",
+    "lastRunAt": "2026-08-21T08:37:29+09:00",
     "parserEvents": 8,
-    "aiFallback": "LOTTERY_TEXT"
+    "aiFallback": "LOTTERY_TEXT",
+    "pendingResult": "AI_QUEUED"
   },
   "mizuki_nana": {
     "urls": {
@@ -162,9 +169,10 @@
       }
     },
     "lastResult": "NO_CHANGE",
-    "lastRunAt": "2026-08-10T07:14:53+09:00",
+    "lastRunAt": "2026-08-21T08:38:48+09:00",
     "parserEvents": 284,
-    "aiFallback": "LOTTERY_TEXT"
+    "aiFallback": "LOTTERY_TEXT",
+    "pendingResult": "AI_QUEUED"
   },
   "iris": {
     "urls": {
@@ -197,49 +205,44 @@
       }
     },
     "lastResult": "NO_CHANGE",
-    "lastRunAt": "2026-08-10T07:14:59+09:00",
+    "lastRunAt": "2026-08-21T08:39:07+09:00",
     "parserEvents": 2,
-    "aiFallback": "LOTTERY_TEXT"
+    "aiFallback": "LOTTERY_TEXT",
+    "pendingResult": "AI_QUEUED"
   },
   "mr_children": {
     "urls": {
       "https://www.mrchildren.jp/news/": {
-        "lastFetchedAt": "2026-08-10T07:14:59+09:00",
+        "lastFetchedAt": "2026-08-21T08:39:07+09:00",
         "httpStatus": 200,
         "contentHash": "2892526932c0189b9431178586d60687",
         "normalizedChars": 8,
         "diffStatus": "NO_CHANGE",
         "jsSuspect": true,
-        "error": null
+        "error": null,
+        "depth": 0,
+        "discoveredFrom": null
       },
       "https://www.mrchildren.jp/": {
-        "lastFetchedAt": "2026-08-10T07:15:02+09:00",
+        "lastFetchedAt": "2026-08-21T08:39:10+09:00",
         "httpStatus": 200,
         "contentHash": "8a5edab282632443219e051e4ade2d1d",
         "normalizedChars": 1,
         "diffStatus": "NO_CHANGE",
         "jsSuspect": true,
-        "error": null
+        "error": null,
+        "depth": 0,
+        "discoveredFrom": null
       }
     },
+    "lastRunAt": "2026-08-21T08:39:10+09:00",
     "lastResult": "NO_CHANGE",
-    "lastRunAt": "2026-08-10T07:15:02+09:00",
-    "parserEvents": 0,
-    "aiFallback": "JS_RENDERED"
+    "aiFallback": null
   },
   "official_hige_dandism": {
     "urls": {
-      "https://event.higedan.com/feature/contact@mountalive.com": {
-        "lastFetchedAt": "2026-08-10T06:59:38+09:00",
-        "httpStatus": 200,
-        "contentHash": "e641e1b6af0e0ccc07c274ccb32148c8",
-        "normalizedChars": 99,
-        "diffStatus": "NO_CHANGE",
-        "jsSuspect": true,
-        "error": null
-      },
       "https://event.higedan.com/news/detail/101670": {
-        "lastFetchedAt": "2026-08-10T07:15:03+09:00",
+        "lastFetchedAt": "2026-08-20T23:49:31+09:00",
         "httpStatus": 200,
         "contentHash": "b429d690cbb481def3b28930ee002a26",
         "normalizedChars": 1319,
@@ -248,7 +251,7 @@
         "error": null
       },
       "https://event.higedan.com/feature/zepp2025_hall2026": {
-        "lastFetchedAt": "2026-08-10T07:15:06+09:00",
+        "lastFetchedAt": "2026-08-20T23:49:33+09:00",
         "httpStatus": 200,
         "contentHash": "4cc011d9d56b8490c6dbd1ff3e6ff9ec",
         "normalizedChars": 16545,
@@ -257,19 +260,19 @@
         "error": null
       },
       "https://event.higedan.com/": {
-        "lastFetchedAt": "2026-08-10T07:15:10+09:00",
+        "lastFetchedAt": "2026-08-20T23:49:37+09:00",
         "httpStatus": 200,
-        "contentHash": "a2ea4d2a9effa9c9f84a98ca1077792e",
+        "contentHash": "4036ddad5b21182ecc1c8dda670dd862",
         "normalizedChars": 323,
-        "diffStatus": "NO_CHANGE",
+        "diffStatus": "VOLATILE_CHANGE",
         "jsSuspect": false,
         "error": null
       }
     },
+    "lastRunAt": "2026-08-21T08:39:17+09:00",
     "lastResult": "NO_CHANGE",
-    "lastRunAt": "2026-08-10T07:15:10+09:00",
-    "parserEvents": 31,
-    "aiFallback": "LOTTERY_TEXT"
+    "aiFallback": null,
+    "pendingResult": "AI_QUEUED"
   },
   "back_number": {
     "urls": {
@@ -311,9 +314,10 @@
       }
     },
     "lastResult": "NO_CHANGE",
-    "lastRunAt": "2026-08-10T07:15:19+09:00",
+    "lastRunAt": "2026-08-21T08:39:39+09:00",
     "parserEvents": 5,
-    "aiFallback": "LOTTERY_TEXT"
+    "aiFallback": "LOTTERY_TEXT",
+    "pendingResult": "AI_QUEUED"
   },
   "ado": {
     "urls": {
@@ -346,35 +350,39 @@
       }
     },
     "lastResult": "NO_CHANGE",
-    "lastRunAt": "2026-08-10T07:15:27+09:00",
+    "lastRunAt": "2026-08-21T08:39:59+09:00",
     "parserEvents": 3,
-    "aiFallback": "LOTTERY_TEXT"
+    "aiFallback": "LOTTERY_TEXT",
+    "pendingResult": "AI_QUEUED"
   },
   "yoasobi": {
     "urls": {
       "https://www.yoasobi-music.jp/live/54776": {
-        "lastFetchedAt": "2026-08-10T07:15:27+09:00",
+        "lastFetchedAt": "2026-08-21T08:39:59+09:00",
         "httpStatus": 200,
         "contentHash": "47d2a515ef2f05b87d688656286a61e4",
         "normalizedChars": 10,
         "diffStatus": "NO_CHANGE",
         "jsSuspect": true,
-        "error": null
+        "error": null,
+        "depth": 0,
+        "discoveredFrom": null
       },
       "https://www.yoasobi-music.jp/": {
-        "lastFetchedAt": "2026-08-10T07:15:30+09:00",
+        "lastFetchedAt": "2026-08-21T08:40:02+09:00",
         "httpStatus": 200,
         "contentHash": "47d2a515ef2f05b87d688656286a61e4",
         "normalizedChars": 10,
         "diffStatus": "NO_CHANGE",
         "jsSuspect": true,
-        "error": null
+        "error": null,
+        "depth": 0,
+        "discoveredFrom": null
       }
     },
+    "lastRunAt": "2026-08-21T08:40:02+09:00",
     "lastResult": "NO_CHANGE",
-    "lastRunAt": "2026-08-10T07:15:30+09:00",
-    "parserEvents": 0,
-    "aiFallback": "JS_RENDERED"
+    "aiFallback": null
   },
   "nogizaka46": {
     "urls": {
@@ -416,9 +424,10 @@
       }
     },
     "lastResult": "NO_CHANGE",
-    "lastRunAt": "2026-08-10T07:34:28+09:00",
+    "lastRunAt": "2026-08-21T08:40:24+09:00",
     "parserEvents": 9,
-    "aiFallback": "LOTTERY_TEXT"
+    "aiFallback": "LOTTERY_TEXT",
+    "pendingResult": "AI_QUEUED"
   },
   "hinatazaka46": {
     "urls": {
@@ -469,9 +478,10 @@
       }
     },
     "lastResult": "NO_CHANGE",
-    "lastRunAt": "2026-08-10T07:15:52+09:00",
+    "lastRunAt": "2026-08-21T08:40:48+09:00",
     "parserEvents": 7,
-    "aiFallback": "LOTTERY_TEXT"
+    "aiFallback": "LOTTERY_TEXT",
+    "pendingResult": "AI_QUEUED"
   },
   "aimyon": {
     "urls": {
@@ -513,26 +523,28 @@
       }
     },
     "lastResult": "NO_CHANGE",
-    "lastRunAt": "2026-08-10T07:16:01+09:00",
+    "lastRunAt": "2026-08-21T08:40:58+09:00",
     "parserEvents": 2,
-    "aiFallback": null
+    "aiFallback": null,
+    "pendingResult": "AI_QUEUED"
   },
   "creepy_nuts": {
     "urls": {
       "https://creepynuts.com/": {
-        "lastFetchedAt": "2026-08-10T07:16:01+09:00",
+        "lastFetchedAt": "2026-08-21T08:40:58+09:00",
         "httpStatus": 200,
         "contentHash": "e3b0c44298fc1c149afbf4c8996fb924",
         "normalizedChars": 0,
         "diffStatus": "NO_CHANGE",
         "jsSuspect": true,
-        "error": null
+        "error": null,
+        "depth": 0,
+        "discoveredFrom": null
       }
     },
+    "lastRunAt": "2026-08-21T08:40:58+09:00",
     "lastResult": "NO_CHANGE",
-    "lastRunAt": "2026-08-10T07:16:01+09:00",
-    "parserEvents": 0,
-    "aiFallback": "JS_RENDERED"
+    "aiFallback": null
   },
   "sakanaction": {
     "urls": {
@@ -574,9 +586,10 @@
       }
     },
     "lastResult": "NO_CHANGE",
-    "lastRunAt": "2026-08-10T07:16:11+09:00",
+    "lastRunAt": "2026-08-21T08:41:11+09:00",
     "parserEvents": 9,
-    "aiFallback": null
+    "aiFallback": null,
+    "pendingResult": "AI_QUEUED"
   },
   "larc_en_ciel": {
     "urls": {
@@ -609,79 +622,90 @@
       }
     },
     "lastResult": "NO_CHANGE",
-    "lastRunAt": "2026-08-10T07:16:17+09:00",
+    "lastRunAt": "2026-08-21T08:41:23+09:00",
     "parserEvents": 15,
-    "aiFallback": "LOTTERY_TEXT"
+    "aiFallback": "LOTTERY_TEXT",
+    "pendingResult": "AI_QUEUED"
   },
   "king_gnu": {
     "urls": {
       "https://www.sonymusic.co.jp/artist/kinggnu/live/": {
-        "lastFetchedAt": "2026-08-10T07:16:17+09:00",
+        "lastFetchedAt": "2026-08-21T08:41:23+09:00",
         "httpStatus": 200,
         "contentHash": "e3b0c44298fc1c149afbf4c8996fb924",
         "normalizedChars": 0,
         "diffStatus": "NO_CHANGE",
         "jsSuspect": true,
-        "error": null
+        "error": null,
+        "depth": 0,
+        "discoveredFrom": null
       },
       "https://www.sonymusic.co.jp/artist/kinggnu/info/": {
-        "lastFetchedAt": "2026-08-10T07:16:20+09:00",
+        "lastFetchedAt": "2026-08-21T08:41:26+09:00",
         "httpStatus": 200,
         "contentHash": "e3b0c44298fc1c149afbf4c8996fb924",
         "normalizedChars": 0,
         "diffStatus": "NO_CHANGE",
         "jsSuspect": true,
-        "error": null
+        "error": null,
+        "depth": 0,
+        "discoveredFrom": null
       },
       "https://www.sonymusic.co.jp/artist/kinggnu/info/577778": {
-        "lastFetchedAt": "2026-08-10T07:16:23+09:00",
+        "lastFetchedAt": "2026-08-21T08:41:29+09:00",
         "httpStatus": 200,
         "contentHash": "950b52c9f78e1e89733776986bc6757d",
         "normalizedChars": 19222,
         "diffStatus": "NO_CHANGE",
         "jsSuspect": false,
-        "error": null
+        "error": null,
+        "depth": 0,
+        "discoveredFrom": null
       },
       "https://www.sonymusic.co.jp/artist/kinggnu/": {
-        "lastFetchedAt": "2026-08-10T07:16:26+09:00",
+        "lastFetchedAt": "2026-08-21T08:41:32+09:00",
         "httpStatus": 200,
         "contentHash": "e3b0c44298fc1c149afbf4c8996fb924",
         "normalizedChars": 0,
         "diffStatus": "NO_CHANGE",
         "jsSuspect": true,
-        "error": null
+        "error": null,
+        "depth": 0,
+        "discoveredFrom": null
       }
     },
+    "lastRunAt": "2026-08-21T08:41:32+09:00",
     "lastResult": "NO_CHANGE",
-    "lastRunAt": "2026-08-10T07:16:26+09:00",
-    "parserEvents": 91,
-    "aiFallback": "LOTTERY_TEXT"
+    "aiFallback": null
   },
   "hoshino_gen": {
     "urls": {
       "https://www.hoshinogen.com/news/": {
-        "lastFetchedAt": "2026-08-10T07:16:27+09:00",
+        "lastFetchedAt": "2026-08-21T08:41:33+09:00",
         "httpStatus": 200,
         "contentHash": "1fdc6d630cf2a8fd53da3258abef5398",
         "normalizedChars": 583,
         "diffStatus": "NO_CHANGE",
         "jsSuspect": false,
-        "error": null
+        "error": null,
+        "depth": 0,
+        "discoveredFrom": null
       },
       "https://www.hoshinogen.com/": {
-        "lastFetchedAt": "2026-08-10T07:16:30+09:00",
+        "lastFetchedAt": "2026-08-21T08:41:36+09:00",
         "httpStatus": 200,
         "contentHash": "f8f377fd6ecc51a447749ced0d61386c",
         "normalizedChars": 586,
         "diffStatus": "NO_CHANGE",
         "jsSuspect": false,
-        "error": null
+        "error": null,
+        "depth": 0,
+        "discoveredFrom": null
       }
     },
+    "lastRunAt": "2026-08-21T08:41:36+09:00",
     "lastResult": "NO_CHANGE",
-    "lastRunAt": "2026-08-10T07:16:30+09:00",
-    "parserEvents": 0,
-    "aiFallback": "PARSER_FAILED"
+    "aiFallback": null
   },
   "vaundy": {
     "urls": {
@@ -723,9 +747,10 @@
       }
     },
     "lastResult": "NO_CHANGE",
-    "lastRunAt": "2026-08-10T07:16:37+09:00",
+    "lastRunAt": "2026-08-21T08:41:52+09:00",
     "parserEvents": 40,
-    "aiFallback": "LOTTERY_TEXT"
+    "aiFallback": "LOTTERY_TEXT",
+    "pendingResult": "AI_QUEUED"
   },
   "fujii_kaze": {
     "urls": {
@@ -749,9 +774,10 @@
       }
     },
     "lastResult": "NO_CHANGE",
-    "lastRunAt": "2026-08-10T07:16:41+09:00",
+    "lastRunAt": "2026-08-21T08:41:56+09:00",
     "parserEvents": 20,
-    "aiFallback": "LOTTERY_TEXT"
+    "aiFallback": "LOTTERY_TEXT",
+    "pendingResult": "AI_QUEUED"
   },
   "spitz": {
     "urls": {
@@ -916,9 +942,10 @@
       }
     },
     "lastResult": "NO_CHANGE",
-    "lastRunAt": "2026-08-10T07:17:12+09:00",
+    "lastRunAt": "2026-08-21T07:39:45+09:00",
     "parserEvents": 4,
-    "aiFallback": null
+    "aiFallback": null,
+    "pendingResult": "AI_QUEUED"
   },
   "sixtones": {
     "urls": {
@@ -1021,9 +1048,10 @@
       }
     },
     "lastResult": "NO_CHANGE",
-    "lastRunAt": "2026-08-10T07:17:31+09:00",
+    "lastRunAt": "2026-08-21T07:39:54+09:00",
     "parserEvents": 20,
-    "aiFallback": "LOTTERY_TEXT"
+    "aiFallback": "LOTTERY_TEXT",
+    "pendingResult": "AI_QUEUED"
   },
   "ryokuoushoku_shakai": {
     "urls": {

@@ -98,8 +98,8 @@
     },
     "ado": {
       "liveUrl": null,
-      "newsUrl": "https://www.universal-music.co.jp/news/",
-      "feedUrl": "https://www.universal-music.co.jp/ado/news/2025-11-23/feed/",
+      "newsUrl": "https://www.universal-music.co.jp/ado/news/cat/live",
+      "feedUrl": null,
       "extraUrls": [],
       "fetchType": "http",
       "parserType": "generic",
@@ -131,12 +131,12 @@
       "note": null
     },
     "hinatazaka46": {
-      "liveUrl": "https://www.hinatazaka46.com/s/official/news/list?ima=0000&cd=event&dy=202607",
-      "newsUrl": "https://www.hinatazaka46.com/s/official/news/list?ima=0000&dy=202607",
+      "liveUrl": "https://www.hinatazaka46.com/s/official/news/list?ima=0000&cd=event",
+      "newsUrl": "https://www.hinatazaka46.com/s/official/news/list?ima=0000",
       "feedUrl": null,
       "extraUrls": [
         "https://www.hinatazaka46.com/",
-        "https://www.hinatazaka46.com/s/official/media/list?ima=0000&dy=202608"
+        "https://www.hinatazaka46.com/s/official/media/list?ima=0000"
       ],
       "fetchType": "http",
       "parserType": "generic",
@@ -144,7 +144,7 @@
       "note": null
     },
     "aimyon": {
-      "liveUrl": "https://www.aimyong.net/news/5/?range=future_event_end_time&sort=asc",
+      "liveUrl": "https://www.aimyong.net/news/3/?range=future_event_end_time&sort=asc",
       "newsUrl": "https://www.aimyong.net/news/1/",
       "feedUrl": null,
       "extraUrls": [

@@ -13,7 +13,7 @@ from urllib.parse import urljoin, urlparse
 # 中身ごと捨てるタグ
 DROP_TAGS = {
     "script", "style", "noscript", "svg", "canvas", "iframe", "object",
-    "embed", "template", "form", "select", "button", "picture", "source",
+    "embed", "form", "select", "button", "picture", "source",
     "audio", "video", "map", "area",
 }
 
@@ -241,6 +241,19 @@ def to_blocks(node: Node, base_url: str = "") -> List[Block]:
     blocks: List[Block] = []
     _walk_blocks(node, base_url, blocks)
 
+    # `<a><ul>...<li>...</li></ul></a>` のようにリンクの内側にブロック境界が
+    # あるサイトでは、再帰時に anchor 自体の href が失われる。巡回候補は
+    # HTML内に実在するリンクだけに限定したいので、anchorを独立に回収する。
+    # label はリンク配下の可視テキストだけから作り、URL生成はしない。
+    existing_links = {link for block in blocks for link in block.links}
+    for link in _collect_links(node, base_url):
+        if link in existing_links:
+            continue
+        label, _ = link
+        if label:
+            blocks.append(Block(text=label, links=[link], path="a"))
+        existing_links.add(link)
+
     merged: List[Block] = []
     for b in blocks:
         text = clean_text(b.text)
@@ -252,6 +265,19 @@ def to_blocks(node: Node, base_url: str = "") -> List[Block]:
             continue
         merged.append(Block(text=text, links=b.links, path=b.path))
     return merged
+
+
+def _collect_links(node: Node, base_url: str) -> List[Tuple[str, str]]:
+    links: List[Tuple[str, str]] = []
+    for anchor in _find_all(node, {"a"}):
+        href = _abs_url(anchor.attr("href"), base_url)
+        if not href:
+            continue
+        label, _ = _flatten(anchor, base_url)
+        pair = (clean_text(label), href)
+        if pair not in links:
+            links.append(pair)
+    return links
 
 
 _BLOCK_BOUNDARY = {"li", "tr", "p", "dd", "dt", "h1", "h2", "h3", "h4", "h5", "h6",
@@ -321,6 +347,9 @@ def _flatten(node: Node, base_url: str) -> Tuple[str, List[Tuple[str, str]]]:
             return
         for c in n.children:
             rec(c)
+        if n.tag == "span" and "schedule-date-year" in n.attr("class"):
+            # 年と月日を別spanにする日程表を `2026.7.22` として復元する。
+            parts.append(".")
         if n.tag in BLOCK_TAGS and n.tag not in ("span", "time"):
             parts.append("\n")
 
@@ -333,10 +362,14 @@ def _abs_url(href: str, base_url: str) -> str:
     if not href:
         return ""
     low = href.lower()
-    if low.startswith(("mailto:", "tel:", "javascript:", "#", "data:")):
+    last_segment = urlparse(href).path.rstrip("/").rsplit("/", 1)[-1]
+    if (low.startswith(("mailto:", "tel:", "javascript:", "#", "data:"))
+            or re.fullmatch(r"/?(?:javascript:)?void\s*\(\s*0\s*\)\s*;?/?", low)
+            or re.fullmatch(r"(?:ライブ|ニュース|メニュー|開く|閉じる)", last_segment)):
         return ""
     url = urljoin(base_url, href) if base_url else href
-    if urlparse(url).scheme not in ("http", "https"):
+    parsed = urlparse(url)
+    if parsed.scheme not in ("http", "https") or not parsed.hostname:
         return ""
     return url
 
