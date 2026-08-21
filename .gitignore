@@ -17,3 +17,10 @@ cache/ai_accepted.json
 cache/collect_metrics.jsonl
 cache/collect_state.pending.json
 cache/normalized_pending/
+
+# ローカルLLMの実行結果・監査データ（再生成可能）
+local_llm/
+
+# ルートへ誤生成した場合の保険
+ab-native-*.json
+audit-*.zip
