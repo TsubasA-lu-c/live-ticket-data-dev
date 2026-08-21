@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "artists": {
+    "larc_en_ciel": {
+      "artistName": "L'Arc~en~Ciel",
+      "aliases": [
+        "L'Arc~en~Ciel",
+        "L’Arc-en-Ciel",
+        "L'Arc-en-Ciel",
+        "ラルクアンシエル"
+      ],
+      "members": [
+        {
+          "memberId": "hyde",
+          "name": "HYDE",
+          "aliases": [
+            "HYDE"
+          ]
+        },
+        {
+          "memberId": "ken",
+          "name": "ken",
+          "aliases": [
+            "ken"
+          ],
+          "shortAliasRequiresSubject": true
+        },
+        {
+          "memberId": "tetsuya",
+          "name": "tetsuya",
+          "aliases": [
+            "TETSUYA",
+            "tetsuya"
+          ]
+        },
+        {
+          "memberId": "yukihiro",
+          "name": "yukihiro",
+          "aliases": [
+            "yukihiro",
+            "YUKIHIRO"
+          ]
+        }
+      ]
+    },
+    "iris": {
+      "artistName": "i☆Ris",
+      "focusExtraction": false,
+      "members": [
+        {
+          "memberId": "saki_yamakita",
+          "name": "山北早紀",
+          "aliases": [
+            "山北早紀"
+          ]
+        },
+        {
+          "memberId": "yu_serizawa",
+          "name": "芹澤優",
+          "aliases": [
+            "芹澤優"
+          ]
+        },
+        {
+          "memberId": "himika_akaneya",
+          "name": "茜屋日海夏",
+          "aliases": [
+            "茜屋日海夏"
+          ]
+        },
+        {
+          "memberId": "yuki_wakai",
+          "name": "若井友希",
+          "aliases": [
+            "若井友希"
+          ]
+        },
+        {
+          "memberId": "miyu_kubota",
+          "name": "久保田未夢",
+          "aliases": [
+            "久保田未夢"
+          ]
+        }
+      ]
+    },
+    "golden_bomber": {
+      "artistName": "ゴールデンボンバー",
+      "focusExtraction": false,
+      "members": [
+        {
+          "memberId": "sho_kiryuin",
+          "name": "鬼龍院翔",
+          "aliases": [
+            "鬼龍院翔"
+          ]
+        },
+        {
+          "memberId": "yutaka_kyan",
+          "name": "喜矢武豊",
+          "aliases": [
+            "喜矢武豊"
+          ]
+        },
+        {
+          "memberId": "jun_utahiroba",
+          "name": "歌広場淳",
+          "aliases": [
+            "歌広場淳"
+          ]
+        },
+        {
+          "memberId": "kenji_darvish",
+          "name": "樽美酒研二",
+          "aliases": [
+            "樽美酒研二"
+          ]
+        }
+      ]
+    }
+  }
+}

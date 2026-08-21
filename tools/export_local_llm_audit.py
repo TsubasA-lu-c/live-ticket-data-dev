@@ -19,6 +19,7 @@ def main() -> int:
     ap.add_argument("--queue", type=Path, default=Path("cache/ai_queue.json"))
     ap.add_argument("--output", type=Path, default=None)
     ap.add_argument("--artist-dir", type=Path, default=Path("data/artist"))
+    ap.add_argument("--relations", type=Path, default=Path("config/artist_relations.json"))
     ap.add_argument(
         "--targets",
         type=Path,
@@ -46,14 +47,14 @@ def main() -> int:
 
     output = args.output
     if output is None:
-        output = Path.cwd() / f"audit-{run_dir.name}.zip"
+        output = Path("local_llm/audits") / f"audit-{run_dir.name}.zip"
     output = output.resolve()
 
     with tempfile.TemporaryDirectory(prefix="local-llm-audit-") as td:
         stage = Path(td) / "audit"
         stage.mkdir(parents=True)
 
-        for name in ("input.json", "facts.json", "rejected.json", "errors.json", "report.json"):
+        for name in ("input.json", "facts.json", "classification.json", "rejected.json", "errors.json", "report.json"):
             src = run_dir / name
             if src.exists():
                 shutil.copy2(src, stage / name)
@@ -74,6 +75,8 @@ def main() -> int:
 
         if args.targets.exists():
             shutil.copy2(args.targets, stage / "collect_targets.json")
+        if args.relations.exists():
+            shutil.copy2(args.relations, stage / "artist_relations.json")
 
         existing = stage / "existing_data"
         existing.mkdir()
