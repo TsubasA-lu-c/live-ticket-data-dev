@@ -1,1 +1,171 @@
-{"schemaVersion":1,"kind":"bootstrap_reconciliation_explicit_patch","batch":"reconcile-01","operations":[{"op":"upsert","artistId":"ellegarden","kind":"tour","id":"ellegarden_bad_for_education_tour_ii_2026","expectAbsent":true,"value":{"id":"ellegarden_bad_for_education_tour_ii_2026","artistId":"ellegarden","title":"Bad For Education Tour II (2026)","startDate":"2026-10-13T00:00:00+09:00","endDate":"2026-12-09T00:00:00+09:00","prices":null,"source":"system","sourceUrl":"https://ellegarden.jp/news.html?id=102260","lastVerifiedAt":"2026-08-23T00:00:00+09:00"}},{"op":"upsert","artistId":"ellegarden","kind":"lottery","id":"ellegarden_bad_for_education_ii_2026_first_lottery","expectAbsent":true,"value":{"id":"ellegarden_bad_for_education_ii_2026_first_lottery","tourId":"ellegarden_bad_for_education_tour_ii_2026","type":"1次抽選","entryStartAt":"2026-08-14T18:00:00+09:00","entryEndAt":"2026-08-23T23:59:00+09:00","resultAt":null,"paymentStartAt":null,"paymentEndAt":null,"performanceIds":null,"source":"system","sourceUrl":"https://ellegarden.jp/news.html?id=102260","lastVerifiedAt":"2026-08-23T00:00:00+09:00"}},{"op":"upsert","artistId":"ellegarden","kind":"lottery","id":"ellegarden_bad_for_education_ii_2026_second_lottery","expectAbsent":true,"value":{"id":"ellegarden_bad_for_education_ii_2026_second_lottery","tourId":"ellegarden_bad_for_education_tour_ii_2026","type":"2次抽選","entryStartAt":"2026-09-04T18:00:00+09:00","entryEndAt":"2026-09-13T23:59:00+09:00","resultAt":null,"paymentStartAt":null,"paymentEndAt":null,"performanceIds":null,"source":"system","sourceUrl":"https://ellegarden.jp/news.html?id=102260","lastVerifiedAt":"2026-08-23T00:00:00+09:00"}},{"op":"upsert","artistId":"ellegarden","kind":"lottery","id":"ellegarden_bad_for_education_ii_2026_general","expectAbsent":true,"value":{"id":"ellegarden_bad_for_education_ii_2026_general","tourId":"ellegarden_bad_for_education_tour_ii_2026","type":"一般発売","entryStartAt":"2026-09-27T12:00:00+09:00","entryEndAt":null,"resultAt":null,"paymentStartAt":null,"paymentEndAt":null,"performanceIds":null,"source":"system","sourceUrl":"https://ellegarden.jp/news.html?id=102260","lastVerifiedAt":"2026-08-23T00:00:00+09:00"}},{"op":"upsert","artistId":"ellegarden","kind":"lottery","id":"ellegarden_bad_for_education_ii_2026_tokyo_first","expectAbsent":true,"value":{"id":"ellegarden_bad_for_education_ii_2026_tokyo_first","tourId":"ellegarden_bad_for_education_tour_ii_2026","type":"東京公演 1次抽選","entryStartAt":"2026-10-02T18:00:00+09:00","entryEndAt":"2026-10-12T23:59:00+09:00","resultAt":null,"paymentStartAt":null,"paymentEndAt":null,"performanceIds":null,"source":"system","sourceUrl":"https://ellegarden.jp/news.html?id=102260","lastVerifiedAt":"2026-08-23T00:00:00+09:00"}},{"op":"upsert","artistId":"ellegarden","kind":"lottery","id":"ellegarden_bad_for_education_ii_2026_tokyo_second","expectAbsent":true,"value":{"id":"ellegarden_bad_for_education_ii_2026_tokyo_second","tourId":"ellegarden_bad_for_education_tour_ii_2026","type":"東京公演 2次抽選","entryStartAt":"2026-10-23T18:00:00+09:00","entryEndAt":"2026-11-01T23:59:00+09:00","resultAt":null,"paymentStartAt":null,"paymentEndAt":null,"performanceIds":null,"source":"system","sourceUrl":"https://ellegarden.jp/news.html?id=102260","lastVerifiedAt":"2026-08-23T00:00:00+09:00"}},{"op":"upsert","artistId":"ellegarden","kind":"lottery","id":"ellegarden_bad_for_education_ii_2026_tokyo_general","expectAbsent":true,"value":{"id":"ellegarden_bad_for_education_ii_2026_tokyo_general","tourId":"ellegarden_bad_for_education_tour_ii_2026","type":"東京公演 一般発売","entryStartAt":"2026-11-14T12:00:00+09:00","entryEndAt":null,"resultAt":null,"paymentStartAt":null,"paymentEndAt":null,"performanceIds":null,"source":"system","sourceUrl":"https://ellegarden.jp/news.html?id=102260","lastVerifiedAt":"2026-08-23T00:00:00+09:00"}},{"op":"upsert","artistId":"ellegarden","kind":"lottery","id":"ellegarden_bad_for_education_ii_2026_tokyo_trade","expectAbsent":true,"value":{"id":"ellegarden_bad_for_education_ii_2026_tokyo_trade","tourId":"ellegarden_bad_for_education_tour_ii_2026","type":"東京公演 チケットトレード","entryStartAt":"2026-11-22T18:00:00+09:00","entryEndAt":"2026-11-24T23:59:00+09:00","resultAt":null,"paymentStartAt":null,"paymentEndAt":null,"performanceIds":null,"source":"system","sourceUrl":"https://ellegarden.jp/news.html?id=102260","lastVerifiedAt":"2026-08-23T00:00:00+09:00"}},{"op":"upsert","artistId":"ado","kind":"tour","id":"ado_stadium_live_2026_ao","expectAbsent":true,"value":{"id":"ado_stadium_live_2026_ao","artistId":"ado","title":"Ado STADIUM LIVE 2026『Ao』","startDate":"2026-07-04T00:00:00+09:00","endDate":"2026-07-05T00:00:00+09:00","prices":null,"source":"system","sourceUrl":"https://www.universal-music.co.jp/ado/news/2025-11-23/","lastVerifiedAt":"2026-08-23T00:00:00+09:00"}},{"op":"upsert","artistId":"ado","kind":"performance","id":"ado_stadium_live_2026_ao_0704","expectAbsent":true,"value":{"id":"ado_stadium_live_2026_ao_0704","tourId":"ado_stadium_live_2026_ao","venue":"日産スタジアム","performanceAt":"2026-07-04T18:00:00+09:00","doorOpenAt":"2026-07-04T16:00:00+09:00","kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://www.universal-music.co.jp/ado/news/2025-11-23/","lastVerifiedAt":"2026-08-23T00:00:00+09:00"}},{"op":"upsert","artistId":"ado","kind":"performance","id":"ado_stadium_live_2026_ao_0705","expectAbsent":true,"value":{"id":"ado_stadium_live_2026_ao_0705","tourId":"ado_stadium_live_2026_ao","venue":"日産スタジアム","performanceAt":"2026-07-05T18:00:00+09:00","doorOpenAt":"2026-07-05T16:00:00+09:00","kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://www.universal-music.co.jp/ado/news/2025-11-23/","lastVerifiedAt":"2026-08-23T00:00:00+09:00"}}]}
+{
+  "schemaVersion": 1,
+  "kind": "bootstrap_reconciliation_explicit_patch",
+  "batch": "reconcile-01",
+  "operations": [
+    {
+      "op": "upsert",
+      "artistId": "ellegarden",
+      "kind": "tour",
+      "id": "ellegarden_bad_for_education_tour_ii_2026",
+      "expectAbsent": true,
+      "value": {
+        "id": "ellegarden_bad_for_education_tour_ii_2026",
+        "artistId": "ellegarden",
+        "title": "Bad For Education Tour II (2026)",
+        "startDate": "2026-10-13T00:00:00+09:00",
+        "endDate": "2026-12-09T00:00:00+09:00",
+        "prices": null,
+        "source": "system",
+        "sourceUrl": "https://ellegarden.jp/news.html?id=102260",
+        "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+      }
+    },
+    {
+      "op": "upsert",
+      "artistId": "ellegarden",
+      "kind": "performance",
+      "id": "ellegarden_bad_for_education_ii_2026_fukuoka_1013",
+      "expectAbsent": true,
+      "value": {"id":"ellegarden_bad_for_education_ii_2026_fukuoka_1013","tourId":"ellegarden_bad_for_education_tour_ii_2026","venue":"Zepp Fukuoka","performanceAt":"2026-10-13T19:00:00+09:00","doorOpenAt":"2026-10-13T18:00:00+09:00","kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://eplus.jp/sf/venue/8101640/events","lastVerifiedAt":"2026-08-23T00:00:00+09:00"}
+    },
+    {
+      "op": "upsert",
+      "artistId": "ellegarden",
+      "kind": "performance",
+      "id": "ellegarden_bad_for_education_ii_2026_fukuoka_1014",
+      "expectAbsent": true,
+      "value": {"id":"ellegarden_bad_for_education_ii_2026_fukuoka_1014","tourId":"ellegarden_bad_for_education_tour_ii_2026","venue":"Zepp Fukuoka","performanceAt":"2026-10-14T19:00:00+09:00","doorOpenAt":"2026-10-14T18:00:00+09:00","kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://eplus.jp/sf/venue/8101640/events","lastVerifiedAt":"2026-08-23T00:00:00+09:00"}
+    },
+    {
+      "op": "upsert",
+      "artistId": "ellegarden",
+      "kind": "performance",
+      "id": "ellegarden_bad_for_education_ii_2026_nagoya_1022",
+      "expectAbsent": true,
+      "value": {"id":"ellegarden_bad_for_education_ii_2026_nagoya_1022","tourId":"ellegarden_bad_for_education_tour_ii_2026","venue":"COMTEC PORTBASE","performanceAt":"2026-10-22T19:00:00+09:00","doorOpenAt":"2026-10-22T18:00:00+09:00","kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://eplus.jp/sf/venue/4550240/events","lastVerifiedAt":"2026-08-23T00:00:00+09:00"}
+    },
+    {
+      "op": "upsert",
+      "artistId": "ellegarden",
+      "kind": "performance",
+      "id": "ellegarden_bad_for_education_ii_2026_nagoya_1023",
+      "expectAbsent": true,
+      "value": {"id":"ellegarden_bad_for_education_ii_2026_nagoya_1023","tourId":"ellegarden_bad_for_education_tour_ii_2026","venue":"COMTEC PORTBASE","performanceAt":"2026-10-23T19:00:00+09:00","doorOpenAt":"2026-10-23T18:00:00+09:00","kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://eplus.jp/sf/venue/4550240/events","lastVerifiedAt":"2026-08-23T00:00:00+09:00"}
+    },
+    {
+      "op": "upsert",
+      "artistId": "ellegarden",
+      "kind": "performance",
+      "id": "ellegarden_bad_for_education_ii_2026_osaka_1027",
+      "expectAbsent": true,
+      "value": {"id":"ellegarden_bad_for_education_ii_2026_osaka_1027","tourId":"ellegarden_bad_for_education_tour_ii_2026","venue":"Zepp Osaka Bayside","performanceAt":"2026-10-27T19:00:00+09:00","doorOpenAt":"2026-10-27T18:00:00+09:00","kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://eplus.jp/sf/venue/5540170/events","lastVerifiedAt":"2026-08-23T00:00:00+09:00"}
+    },
+    {
+      "op": "upsert",
+      "artistId": "ellegarden",
+      "kind": "performance",
+      "id": "ellegarden_bad_for_education_ii_2026_osaka_1028",
+      "expectAbsent": true,
+      "value": {"id":"ellegarden_bad_for_education_ii_2026_osaka_1028","tourId":"ellegarden_bad_for_education_tour_ii_2026","venue":"Zepp Osaka Bayside","performanceAt":"2026-10-28T19:00:00+09:00","doorOpenAt":"2026-10-28T18:00:00+09:00","kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://eplus.jp/sf/venue/5540170/events","lastVerifiedAt":"2026-08-23T00:00:00+09:00"}
+    },
+    {
+      "op": "upsert",
+      "artistId": "ellegarden",
+      "kind": "performance",
+      "id": "ellegarden_bad_for_education_ii_2026_sendai_1102",
+      "expectAbsent": true,
+      "value": {"id":"ellegarden_bad_for_education_ii_2026_sendai_1102","tourId":"ellegarden_bad_for_education_tour_ii_2026","venue":"SENDAI GIGS","performanceAt":"2026-11-02T19:00:00+09:00","doorOpenAt":"2026-11-02T18:00:00+09:00","kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://eplus.jp/sf/venue/9840090/events","lastVerifiedAt":"2026-08-23T00:00:00+09:00"}
+    },
+    {
+      "op": "upsert",
+      "artistId": "ellegarden",
+      "kind": "performance",
+      "id": "ellegarden_bad_for_education_ii_2026_sendai_1103",
+      "expectAbsent": true,
+      "value": {"id":"ellegarden_bad_for_education_ii_2026_sendai_1103","tourId":"ellegarden_bad_for_education_tour_ii_2026","venue":"SENDAI GIGS","performanceAt":"2026-11-03T19:00:00+09:00","doorOpenAt":"2026-11-03T18:00:00+09:00","kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://eplus.jp/sf/venue/9840090/events","lastVerifiedAt":"2026-08-23T00:00:00+09:00"}
+    },
+    {
+      "op": "upsert",
+      "artistId": "ellegarden",
+      "kind": "performance",
+      "id": "ellegarden_bad_for_education_ii_2026_sapporo_1117",
+      "expectAbsent": true,
+      "value": {"id":"ellegarden_bad_for_education_ii_2026_sapporo_1117","tourId":"ellegarden_bad_for_education_tour_ii_2026","venue":"Zepp Sapporo","performanceAt":"2026-11-17T19:00:00+09:00","doorOpenAt":"2026-11-17T18:00:00+09:00","kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://eplus.jp/sf/venue/0640180/events","lastVerifiedAt":"2026-08-23T00:00:00+09:00"}
+    },
+    {
+      "op": "upsert",
+      "artistId": "ellegarden",
+      "kind": "performance",
+      "id": "ellegarden_bad_for_education_ii_2026_sapporo_1118",
+      "expectAbsent": true,
+      "value": {"id":"ellegarden_bad_for_education_ii_2026_sapporo_1118","tourId":"ellegarden_bad_for_education_tour_ii_2026","venue":"Zepp Sapporo","performanceAt":"2026-11-18T19:00:00+09:00","doorOpenAt":"2026-11-18T18:00:00+09:00","kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://eplus.jp/sf/venue/0640180/events","lastVerifiedAt":"2026-08-23T00:00:00+09:00"}
+    },
+    {
+      "op": "upsert",
+      "artistId": "ellegarden",
+      "kind": "performance",
+      "id": "ellegarden_bad_for_education_ii_2026_seoul_1128",
+      "expectAbsent": true,
+      "value": {"id":"ellegarden_bad_for_education_ii_2026_seoul_1128","tourId":"ellegarden_bad_for_education_tour_ii_2026","venue":"YES24 LIVE HALL","performanceAt":"2026-11-28T18:00:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://ticket.yes24.com/Special/59771","lastVerifiedAt":"2026-08-23T00:00:00+09:00"}
+    },
+    {
+      "op": "upsert",
+      "artistId": "ellegarden",
+      "kind": "performance",
+      "id": "ellegarden_bad_for_education_ii_2026_seoul_1129",
+      "expectAbsent": true,
+      "value": {"id":"ellegarden_bad_for_education_ii_2026_seoul_1129","tourId":"ellegarden_bad_for_education_tour_ii_2026","venue":"YES24 LIVE HALL","performanceAt":"2026-11-29T18:00:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://ticket.yes24.com/Special/59771","lastVerifiedAt":"2026-08-23T00:00:00+09:00"}
+    },
+    {
+      "op": "upsert",
+      "artistId": "ellegarden",
+      "kind": "performance",
+      "id": "ellegarden_bad_for_education_ii_2026_tokyo_1208",
+      "expectAbsent": true,
+      "value": {"id":"ellegarden_bad_for_education_ii_2026_tokyo_1208","tourId":"ellegarden_bad_for_education_tour_ii_2026","venue":"TOYOTA ARENA TOKYO","performanceAt":"2026-12-08T19:00:00+09:00","doorOpenAt":"2026-12-08T18:00:00+09:00","kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://eplus.jp/sf/detail/0044950001-P0030148P021001?P1=0817","lastVerifiedAt":"2026-08-23T00:00:00+09:00"}
+    },
+    {
+      "op": "upsert",
+      "artistId": "ellegarden",
+      "kind": "performance",
+      "id": "ellegarden_bad_for_education_ii_2026_tokyo_1209",
+      "expectAbsent": true,
+      "value": {"id":"ellegarden_bad_for_education_ii_2026_tokyo_1209","tourId":"ellegarden_bad_for_education_tour_ii_2026","venue":"TOYOTA ARENA TOKYO","performanceAt":"2026-12-09T19:00:00+09:00","doorOpenAt":"2026-12-09T18:00:00+09:00","kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://eplus.jp/sf/live/punk-ska/tokyo/p2","lastVerifiedAt":"2026-08-23T00:00:00+09:00"}
+    },
+    {
+      "op": "upsert",
+      "artistId": "ado",
+      "kind": "tour",
+      "id": "ado_stadium_live_2026_ao",
+      "expectAbsent": true,
+      "value": {
+        "id": "ado_stadium_live_2026_ao",
+        "artistId": "ado",
+        "title": "Ado STADIUM LIVE 2026『Ao』",
+        "startDate": "2026-07-04T00:00:00+09:00",
+        "endDate": "2026-07-05T00:00:00+09:00",
+        "prices": null,
+        "source": "system",
+        "sourceUrl": "https://www.universal-music.co.jp/ado/news/2025-11-23/",
+        "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+      }
+    },
+    {
+      "op": "upsert",
+      "artistId": "ado",
+      "kind": "performance",
+      "id": "ado_stadium_live_2026_ao_0704",
+      "expectAbsent": true,
+      "value": {"id":"ado_stadium_live_2026_ao_0704","tourId":"ado_stadium_live_2026_ao","venue":"日産スタジアム","performanceAt":"2026-07-04T18:00:00+09:00","doorOpenAt":"2026-07-04T16:00:00+09:00","kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://www.universal-music.co.jp/ado/news/2025-11-23/","lastVerifiedAt":"2026-08-23T00:00:00+09:00"}
+    },
+    {
+      "op": "upsert",
+      "artistId": "ado",
+      "kind": "performance",
+      "id": "ado_stadium_live_2026_ao_0705",
+      "expectAbsent": true,
+      "value": {"id":"ado_stadium_live_2026_ao_0705","tourId":"ado_stadium_live_2026_ao","venue":"日産スタジアム","performanceAt":"2026-07-05T18:00:00+09:00","doorOpenAt":"2026-07-05T16:00:00+09:00","kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://www.universal-music.co.jp/ado/news/2025-11-23/","lastVerifiedAt":"2026-08-23T00:00:00+09:00"}
+    }
+  ]
+}
