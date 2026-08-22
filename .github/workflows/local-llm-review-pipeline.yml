@@ -81,8 +81,8 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -- $result
-
-          if (git diff --cached --quiet) {
+          git diff --cached --quiet
+          if ($LASTEXITCODE -eq 0) {
             Write-Host 'No review envelope changes to commit.'
             exit 0
           }
