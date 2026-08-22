@@ -1,0 +1,29 @@
+name: Test local LLM job wrapper
+
+on:
+  pull_request:
+    paths:
+      - 'tools/run_local_llm_job.py'
+      - 'tests/test_run_local_llm_job.py'
+      - '.github/workflows/test-local-llm-job.yml'
+  push:
+    branches:
+      - main
+    paths:
+      - 'tools/run_local_llm_job.py'
+      - 'tests/test_run_local_llm_job.py'
+      - '.github/workflows/test-local-llm-job.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  unit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile wrapper
+        run: python3 -m py_compile tools/run_local_llm_job.py
+      - name: Run request validation tests
+        run: python3 -m unittest tests/test_run_local_llm_job.py
