@@ -1,0 +1,81 @@
+name: Bootstrap reconciliation generate temp
+
+on:
+  push:
+    branches:
+      - apply/bootstrap-reconciliation-20260823
+    paths:
+      - '.github/bootstrap-reconciliation-spec.tsv'
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate explicit ID operations
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import csv, json
+          from pathlib import Path
+
+          LV = '2026-08-23T00:00:00+09:00'
+          src = Path('.github/bootstrap-reconciliation-spec.tsv')
+          dst = Path('.github/bootstrap-reconciliation-patches/reconcile-03-11.json')
+          operations=[]
+          with src.open(encoding='utf-8', newline='') as f:
+            for lineno,row in enumerate(csv.reader(f, delimiter='\t'), 1):
+              if not row or not row[0] or row[0].startswith('#'):
+                continue
+              code=row[0]
+              def n(v): return v if v else None
+              if code == 'T':
+                if len(row)!=7: raise SystemExit(f'line {lineno}: T expects 7 columns')
+                _,artist,obj_id,title,start,end,url=row
+                value={'id':obj_id,'artistId':artist,'title':title,'startDate':n(start),'endDate':n(end),'prices':None,'source':'system','sourceUrl':url,'lastVerifiedAt':LV}
+                operations.append({'op':'upsert','artistId':artist,'kind':'tour','id':obj_id,'expectAbsent':True,'value':value})
+              elif code == 'P':
+                if len(row)!=10: raise SystemExit(f'line {lineno}: P expects 10 columns')
+                _,artist,obj_id,tour_id,venue,at,door,kind,event_name,url=row
+                value={'id':obj_id,'tourId':tour_id,'venue':n(venue),'performanceAt':at,'doorOpenAt':n(door),'kind':kind,'eventName':n(event_name),'source':'system','sourceUrl':url,'lastVerifiedAt':LV}
+                operations.append({'op':'upsert','artistId':artist,'kind':'performance','id':obj_id,'expectAbsent':True,'value':value})
+              elif code == 'L':
+                if len(row)!=13: raise SystemExit(f'line {lineno}: L expects 13 columns')
+                _,artist,obj_id,tour_id,typ,start,end,result,pay_start,pay_end,perf_ids,url,_reserved=row
+                value={'id':obj_id,'tourId':tour_id,'type':typ,'entryStartAt':n(start),'entryEndAt':n(end),'resultAt':n(result),'paymentStartAt':n(pay_start),'paymentEndAt':n(pay_end),'performanceIds':perf_ids.split(',') if perf_ids else None,'source':'system','sourceUrl':url,'lastVerifiedAt':LV}
+                operations.append({'op':'upsert','artistId':artist,'kind':'lottery','id':obj_id,'expectAbsent':True,'value':value})
+              elif code == 'M':
+                if len(row)!=5: raise SystemExit(f'line {lineno}: M expects 5 columns')
+                _,artist,kind,obj_id,changes=row
+                operations.append({'op':'merge','artistId':artist,'kind':kind,'id':obj_id,'changes':json.loads(changes)})
+              elif code == 'D':
+                if len(row)!=5: raise SystemExit(f'line {lineno}: D expects 5 columns')
+                _,artist,kind,obj_id,reason=row
+                operations.append({'op':'delete','artistId':artist,'kind':kind,'id':obj_id,'reason':reason})
+              else:
+                raise SystemExit(f'line {lineno}: unknown code {code}')
+          dst.parent.mkdir(parents=True, exist_ok=True)
+          payload={'schemaVersion':1,'kind':'bootstrap_reconciliation_explicit_patch','batch':'reconcile-03-11','operations':operations}
+          dst.write_text(json.dumps(payload, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+          print(f'operations={len(operations)}')
+          PY
+          git diff --check -- .github/bootstrap-reconciliation-patches/reconcile-03-11.json
+      - name: Commit generated control file only
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add .github/bootstrap-reconciliation-patches/reconcile-03-11.json
+          if git diff --cached --name-only | grep -q '^data/'; then
+            echo 'Refusing data change.' >&2
+            exit 1
+          fi
+          git diff --cached --quiet && exit 0
+          git commit -m 'Generate audited bootstrap reconciliation operations'
+          git pull --rebase origin apply/bootstrap-reconciliation-20260823
+          git push origin HEAD:apply/bootstrap-reconciliation-20260823
