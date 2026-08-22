@@ -23,6 +23,9 @@ concurrency:
 jobs:
   research:
     # Public repo safety: never bind this workflow to pull_request/pull_request_target.
+    # workflow_dispatch must also be launched from main; otherwise the result commit
+    # could accidentally carry unrelated branch changes into main.
+    if: github.ref == 'refs/heads/main'
     runs-on: [self-hosted, windows, x64, local-llm-gpu]
     timeout-minutes: 180
 
@@ -35,9 +38,11 @@ jobs:
 
       - name: Resolve request path
         shell: pwsh
+        env:
+          REQUEST_INPUT: ${{ inputs.request_path }}
         run: |
           if ('${{ github.event_name }}' -eq 'workflow_dispatch') {
-            $request = '${{ inputs.request_path }}'
+            $request = $env:REQUEST_INPUT
           } else {
             $before = '${{ github.event.before }}'
             $sha = '${{ github.sha }}'
