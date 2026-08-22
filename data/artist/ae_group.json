@@ -1,172 +1,56 @@
 {
-  "artistId": "ae_group",
-  "tours": [
-    {
-      "id": "ae_group_fes_kamigata_2026",
-      "artistId": "ae_group",
-      "title": "KAMIGATA EXPO PARK FES 2026",
-      "startDate": "2026-10-31T00:00:00+09:00",
-      "endDate": "2026-11-01T00:00:00+09:00",
-      "prices": [
-        {
-          "label": "1日券",
-          "amount": 16000
-        }
-      ],
-      "source": "system",
-      "sourceUrl": "https://starto.jp/s/p/live/10545",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "ae_group_qa_wangan_2026",
-      "artistId": "ae_group",
-      "title": "Aぇ! groupのQ＆Aぇ! presents 視聴者からの“Q” & 時間が許す限り“Aぇ!”",
-      "startDate": "2026-08-06T00:00:00+09:00",
-      "endDate": "2026-08-06T00:00:00+09:00",
-      "prices": [
-        {
-          "label": "オールスタンディング",
-          "amount": 7000
-        }
-      ],
-      "source": "system",
-      "sourceUrl": "https://www.fujitv.co.jp/wanganfes/",
-      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
-    },
-    {
-      "id": "ae_group_xmf_2026",
-      "artistId": "ae_group",
-      "title": "Xnterstellar Music Festival 2026",
-      "startDate": "2026-10-04T00:00:00+09:00",
-      "endDate": "2026-10-04T00:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://xmfestival.com/",
-      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
-    }
+  "artistId":"ae_group",
+  "tours":[
+    {"id":"ae_group_runway_2026","artistId":"ae_group","title":"Aぇ! group LIVE TOUR 2026 Runway","startDate":"2026-03-07T00:00:00+09:00","endDate":"2026-07-12T00:00:00+09:00","prices":[{"label":"ファミリークラブ会員チケット","amount":9800},{"label":"一般チケット(プレイガイド)","amount":10300}],"source":"system","sourceUrl":"https://starto.jp/s/p/live/10403","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"ae_group_fes_kamigata_2026","artistId":"ae_group","title":"KAMIGATA EXPO PARK FES 2026","startDate":"2026-10-31T00:00:00+09:00","endDate":"2026-11-01T00:00:00+09:00","prices":[{"label":"1日券","amount":16000}],"source":"system","sourceUrl":"https://starto.jp/s/p/live/10545","lastVerifiedAt":"2026-08-09T00:00:00+09:00"},
+    {"id":"ae_group_qa_wangan_2026","artistId":"ae_group","title":"Aぇ! groupのQ＆Aぇ! presents 視聴者からの“Q” & 時間が許す限り“Aぇ!”","startDate":"2026-08-06T00:00:00+09:00","endDate":"2026-08-06T00:00:00+09:00","prices":[{"label":"オールスタンディング","amount":7000}],"source":"system","sourceUrl":"https://www.fujitv.co.jp/wanganfes/","lastVerifiedAt":"2026-08-18T07:22:00+09:00"},
+    {"id":"ae_group_xmf_2026","artistId":"ae_group","title":"Xnterstellar Music Festival 2026","startDate":"2026-10-04T00:00:00+09:00","endDate":"2026-10-04T00:00:00+09:00","prices":null,"source":"system","sourceUrl":"https://xmfestival.com/","lastVerifiedAt":"2026-08-18T07:22:00+09:00"}
   ],
-  "performances": [
-    {
-      "id": "ae_group_fes_kamigata_2026_osaka_1031",
-      "tourId": "ae_group_fes_kamigata_2026",
-      "venue": "万博記念公園",
-      "performanceAt": "2026-10-31T17:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "KAMIGATA EXPO PARK FES 2026",
-      "source": "system",
-      "sourceUrl": "https://starto.jp/s/p/live/10545",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "ae_group_fes_kamigata_2026_osaka_1101",
-      "tourId": "ae_group_fes_kamigata_2026",
-      "venue": "万博記念公園",
-      "performanceAt": "2026-11-01T17:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "KAMIGATA EXPO PARK FES 2026",
-      "source": "system",
-      "sourceUrl": "https://starto.jp/s/p/live/10545",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "ae_group_qa_wangan_2026_toyosu_0806",
-      "tourId": "ae_group_qa_wangan_2026",
-      "venue": "豊洲PIT",
-      "performanceAt": "2026-08-06T11:00:00+09:00",
-      "doorOpenAt": "2026-08-06T10:00:00+09:00",
-      "kind": "oneman",
-      "eventName": "Aぇ! groupのQ＆Aぇ! presents 視聴者からの“Q” & 時間が許す限り“Aぇ!”",
-      "source": "system",
-      "sourceUrl": "https://www.fujitv.co.jp/wanganfes/",
-      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
-    },
-    {
-      "id": "ae_group_xmf_2026_incheon_1004",
-      "tourId": "ae_group_xmf_2026",
-      "venue": "韓国・仁川",
-      "performanceAt": "2026-10-04T12:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "Xnterstellar Music Festival 2026",
-      "source": "system",
-      "sourceUrl": "https://xmfestival.com/",
-      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
-    }
+  "performances":[
+    {"id":"ae_group_runway_2026_aichi_0307","tourId":"ae_group_runway_2026","venue":"Aichi Sky Expo ホールA","performanceAt":"2026-03-07T18:00:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://starto.jp/s/p/live/10403","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"ae_group_runway_2026_aichi_0308_1","tourId":"ae_group_runway_2026","venue":"Aichi Sky Expo ホールA","performanceAt":"2026-03-08T12:30:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://starto.jp/s/p/live/10403","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"ae_group_runway_2026_aichi_0308_2","tourId":"ae_group_runway_2026","venue":"Aichi Sky Expo ホールA","performanceAt":"2026-03-08T17:00:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://starto.jp/s/p/live/10403","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"ae_group_runway_2026_fukuoka_0313","tourId":"ae_group_runway_2026","venue":"マリンメッセ福岡A館","performanceAt":"2026-03-13T17:00:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://starto.jp/s/p/live/10403","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"ae_group_runway_2026_fukuoka_0314","tourId":"ae_group_runway_2026","venue":"マリンメッセ福岡A館","performanceAt":"2026-03-14T18:00:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://starto.jp/s/p/live/10403","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"ae_group_runway_2026_fukuoka_0315_1","tourId":"ae_group_runway_2026","venue":"マリンメッセ福岡A館","performanceAt":"2026-03-15T12:30:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://starto.jp/s/p/live/10403","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"ae_group_runway_2026_fukuoka_0315_2","tourId":"ae_group_runway_2026","venue":"マリンメッセ福岡A館","performanceAt":"2026-03-15T17:00:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://starto.jp/s/p/live/10403","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"ae_group_runway_2026_miyagi_0328","tourId":"ae_group_runway_2026","venue":"セキスイハイムスーパーアリーナ","performanceAt":"2026-03-28T18:00:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://starto.jp/s/p/live/10403","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"ae_group_runway_2026_miyagi_0329_1","tourId":"ae_group_runway_2026","venue":"セキスイハイムスーパーアリーナ","performanceAt":"2026-03-29T12:30:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://starto.jp/s/p/live/10403","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"ae_group_runway_2026_miyagi_0329_2","tourId":"ae_group_runway_2026","venue":"セキスイハイムスーパーアリーナ","performanceAt":"2026-03-29T17:00:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://starto.jp/s/p/live/10403","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"ae_group_runway_2026_niigata_0425","tourId":"ae_group_runway_2026","venue":"朱鷺メッセ 新潟コンベンションセンター","performanceAt":"2026-04-25T18:00:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://starto.jp/s/p/live/10403","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"ae_group_runway_2026_niigata_0426_1","tourId":"ae_group_runway_2026","venue":"朱鷺メッセ 新潟コンベンションセンター","performanceAt":"2026-04-26T12:30:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://starto.jp/s/p/live/10403","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"ae_group_runway_2026_niigata_0426_2","tourId":"ae_group_runway_2026","venue":"朱鷺メッセ 新潟コンベンションセンター","performanceAt":"2026-04-26T17:00:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://starto.jp/s/p/live/10403","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"ae_group_runway_2026_osaka_0501","tourId":"ae_group_runway_2026","venue":"大阪城ホール","performanceAt":"2026-05-01T18:00:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://starto.jp/s/p/live/10403","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"ae_group_runway_2026_osaka_0502_1","tourId":"ae_group_runway_2026","venue":"大阪城ホール","performanceAt":"2026-05-02T13:30:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://starto.jp/s/p/live/10403","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"ae_group_runway_2026_osaka_0502_2","tourId":"ae_group_runway_2026","venue":"大阪城ホール","performanceAt":"2026-05-02T18:00:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://starto.jp/s/p/live/10403","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"ae_group_runway_2026_osaka_0503_1","tourId":"ae_group_runway_2026","venue":"大阪城ホール","performanceAt":"2026-05-03T12:30:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://starto.jp/s/p/live/10403","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"ae_group_runway_2026_osaka_0503_2","tourId":"ae_group_runway_2026","venue":"大阪城ホール","performanceAt":"2026-05-03T17:00:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://starto.jp/s/p/live/10403","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"ae_group_runway_2026_hokkaido_0530","tourId":"ae_group_runway_2026","venue":"真駒内セキスイハイムアイスアリーナ","performanceAt":"2026-05-30T18:00:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://starto.jp/s/p/live/10403","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"ae_group_runway_2026_hokkaido_0531_1","tourId":"ae_group_runway_2026","venue":"真駒内セキスイハイムアイスアリーナ","performanceAt":"2026-05-31T12:30:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://starto.jp/s/p/live/10403","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"ae_group_runway_2026_hokkaido_0531_2","tourId":"ae_group_runway_2026","venue":"真駒内セキスイハイムアイスアリーナ","performanceAt":"2026-05-31T17:00:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://starto.jp/s/p/live/10403","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"ae_group_runway_2026_kanagawa_0704","tourId":"ae_group_runway_2026","venue":"横浜アリーナ","performanceAt":"2026-07-04T18:00:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://starto.jp/s/p/live/10403","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"ae_group_runway_2026_kanagawa_0705_1","tourId":"ae_group_runway_2026","venue":"横浜アリーナ","performanceAt":"2026-07-05T12:30:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://starto.jp/s/p/live/10403","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"ae_group_runway_2026_kanagawa_0705_2","tourId":"ae_group_runway_2026","venue":"横浜アリーナ","performanceAt":"2026-07-05T17:00:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://starto.jp/s/p/live/10403","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"ae_group_runway_2026_kanagawa_0706","tourId":"ae_group_runway_2026","venue":"横浜アリーナ","performanceAt":"2026-07-06T18:00:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://starto.jp/s/p/live/10403","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"ae_group_runway_2026_kanagawa_0707_1","tourId":"ae_group_runway_2026","venue":"横浜アリーナ","performanceAt":"2026-07-07T12:30:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://starto.jp/s/p/live/10403","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"ae_group_runway_2026_kanagawa_0707_2","tourId":"ae_group_runway_2026","venue":"横浜アリーナ","performanceAt":"2026-07-07T17:00:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://starto.jp/s/p/live/10403","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"ae_group_runway_2026_shizuoka_0711","tourId":"ae_group_runway_2026","venue":"エコパアリーナ","performanceAt":"2026-07-11T18:00:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://starto.jp/s/p/live/10403","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"ae_group_runway_2026_shizuoka_0712_1","tourId":"ae_group_runway_2026","venue":"エコパアリーナ","performanceAt":"2026-07-12T12:30:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://starto.jp/s/p/live/10403","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"ae_group_runway_2026_shizuoka_0712_2","tourId":"ae_group_runway_2026","venue":"エコパアリーナ","performanceAt":"2026-07-12T17:00:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://starto.jp/s/p/live/10403","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"ae_group_fes_kamigata_2026_osaka_1031","tourId":"ae_group_fes_kamigata_2026","venue":"万博記念公園","performanceAt":"2026-10-31T17:00:00+09:00","doorOpenAt":null,"kind":"fes","eventName":"KAMIGATA EXPO PARK FES 2026","source":"system","sourceUrl":"https://starto.jp/s/p/live/10545","lastVerifiedAt":"2026-08-09T00:00:00+09:00"},
+    {"id":"ae_group_fes_kamigata_2026_osaka_1101","tourId":"ae_group_fes_kamigata_2026","venue":"万博記念公園","performanceAt":"2026-11-01T17:00:00+09:00","doorOpenAt":null,"kind":"fes","eventName":"KAMIGATA EXPO PARK FES 2026","source":"system","sourceUrl":"https://starto.jp/s/p/live/10545","lastVerifiedAt":"2026-08-09T00:00:00+09:00"},
+    {"id":"ae_group_qa_wangan_2026_toyosu_0806","tourId":"ae_group_qa_wangan_2026","venue":"豊洲PIT","performanceAt":"2026-08-06T11:00:00+09:00","doorOpenAt":"2026-08-06T10:00:00+09:00","kind":"oneman","eventName":"Aぇ! groupのQ＆Aぇ! presents 視聴者からの“Q” & 時間が許す限り“Aぇ!”","source":"system","sourceUrl":"https://www.fujitv.co.jp/wanganfes/","lastVerifiedAt":"2026-08-18T07:22:00+09:00"},
+    {"id":"ae_group_xmf_2026_incheon_1004","tourId":"ae_group_xmf_2026","venue":"韓国・仁川","performanceAt":"2026-10-04T12:00:00+09:00","doorOpenAt":null,"kind":"fes","eventName":"Xnterstellar Music Festival 2026","source":"system","sourceUrl":"https://xmfestival.com/","lastVerifiedAt":"2026-08-18T07:22:00+09:00"}
   ],
-  "lotteries": [
-    {
-      "id": "ae_group_fes_kamigata_2026_fc",
-      "tourId": "ae_group_fes_kamigata_2026",
-      "type": "ファミリークラブ会員先行（抽選）",
-      "entryStartAt": "2026-07-28T13:00:00+09:00",
-      "entryEndAt": "2026-08-03T12:00:00+09:00",
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": [
-        "ae_group_fes_kamigata_2026_osaka_1031",
-        "ae_group_fes_kamigata_2026_osaka_1101"
-      ],
-      "source": "system",
-      "sourceUrl": "https://starto.jp/s/p/live/10545",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "ae_group_qa_wangan_2026_general",
-      "tourId": "ae_group_qa_wangan_2026",
-      "type": "一般発売（先着）",
-      "entryStartAt": "2026-07-30T10:00:00+09:00",
-      "entryEndAt": null,
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": [
-        "ae_group_qa_wangan_2026_toyosu_0806"
-      ],
-      "source": "system",
-      "sourceUrl": "https://www.fujitv.co.jp/wanganfes/",
-      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
-    },
-    {
-      "id": "ae_group_xmf_2026_general",
-      "tourId": "ae_group_xmf_2026",
-      "type": "一般発売",
-      "entryStartAt": "2026-08-03T14:00:00+09:00",
-      "entryEndAt": null,
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": [
-        "ae_group_xmf_2026_incheon_1004"
-      ],
-      "source": "system",
-      "sourceUrl": "https://xmfestival.com/",
-      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
-    }
+  "lotteries":[
+    {"id":"ae_group_runway_2026_fc","tourId":"ae_group_runway_2026","type":"ファミリークラブ会員受付（抽選）","entryStartAt":"2025-12-19T12:00:00+09:00","entryEndAt":"2025-12-25T12:00:00+09:00","resultAt":null,"paymentStartAt":null,"paymentEndAt":null,"performanceIds":null,"source":"system","sourceUrl":"https://starto.jp/s/p/live/10403","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"ae_group_fes_kamigata_2026_fc","tourId":"ae_group_fes_kamigata_2026","type":"ファミリークラブ会員先行（抽選）","entryStartAt":"2026-07-28T13:00:00+09:00","entryEndAt":"2026-08-03T12:00:00+09:00","resultAt":null,"paymentStartAt":null,"paymentEndAt":null,"performanceIds":["ae_group_fes_kamigata_2026_osaka_1031","ae_group_fes_kamigata_2026_osaka_1101"],"source":"system","sourceUrl":"https://starto.jp/s/p/live/10545","lastVerifiedAt":"2026-08-09T00:00:00+09:00"},
+    {"id":"ae_group_qa_wangan_2026_general","tourId":"ae_group_qa_wangan_2026","type":"一般発売（先着）","entryStartAt":"2026-07-30T10:00:00+09:00","entryEndAt":null,"resultAt":null,"paymentStartAt":null,"paymentEndAt":null,"performanceIds":["ae_group_qa_wangan_2026_toyosu_0806"],"source":"system","sourceUrl":"https://www.fujitv.co.jp/wanganfes/","lastVerifiedAt":"2026-08-18T07:22:00+09:00"},
+    {"id":"ae_group_xmf_2026_general","tourId":"ae_group_xmf_2026","type":"一般発売","entryStartAt":"2026-08-03T14:00:00+09:00","entryEndAt":null,"resultAt":null,"paymentStartAt":null,"paymentEndAt":null,"performanceIds":["ae_group_xmf_2026_incheon_1004"],"source":"system","sourceUrl":"https://xmfestival.com/","lastVerifiedAt":"2026-08-18T07:22:00+09:00"}
   ],
-  "appleMusicTracks": [
-    {
-      "songId": "6763232616",
-      "title": "でこぼこライフ",
-      "albumTitle": "でこぼこライフ - Single",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e8/76/7b/e8767be8-6bf1-76a0-ec7a-2ff78c3a5b03/mzaf_12127999104416200597.plus.aac.ep.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bf/c3/cb/bfc3cbfb-f06a-52cb-3817-324a6413629b/26UMGIM29835.rgb.jpg/{w}x{h}{c}.{f}"
-    },
-    {
-      "songId": "6774074650",
-      "title": "PRIDE",
-      "albumTitle": "でこぼこライフ (Special Edition) - EP",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/67/3c/f3/673cf34a-7863-3b87-0939-864b2c3a96f2/mzaf_13185365872414842950.plus.aac.ep.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/96/e5/14/96e514c7-4f4c-9cb1-f880-c0196ce589cf/26UMGIM64067.rgb.jpg/{w}x{h}{c}.{f}"
-    },
-    {
-      "songId": "6763457630",
-      "title": "Chameleon",
-      "albumTitle": "Chameleon (Special Edition) - EP",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4c/9d/d7/4c9dd747-3f98-7331-4b5a-d221b5dd0f02/mzaf_16220962102411968668.plus.aac.ep.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/73/6e/f3/736ef3f9-5fce-3635-771c-bd86b37ea6b7/26UMGIM49377.rgb.jpg/{w}x{h}{c}.{f}"
-    }
+  "appleMusicTracks":[
+    {"songId":"6763232616","title":"でこぼこライフ","albumTitle":"でこぼこライフ - Single","previewUrl":"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e8/76/7b/e8767be8-6bf1-76a0-ec7a-2ff78c3a5b03/mzaf_12127999104416200597.plus.aac.ep.m4a","artworkUrl":"https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bf/c3/cb/bfc3cbfb-f06a-52cb-3817-324a6413629b/26UMGIM29835.rgb.jpg/{w}x{h}{c}.{f}"},
+    {"songId":"6774074650","title":"PRIDE","albumTitle":"でこぼこライフ (Special Edition) - EP","previewUrl":"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/67/3c/f3/673cf34a-7863-3b87-0939-864b2c3a96f2/mzaf_13185365872414842950.plus.aac.ep.m4a","artworkUrl":"https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/96/e5/14/96e514c7-4f4c-9cb1-f880-c0196ce589cf/26UMGIM64067.rgb.jpg/{w}x{h}{c}.{f}"},
+    {"songId":"6763457630","title":"Chameleon","albumTitle":"Chameleon (Special Edition) - EP","previewUrl":"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4c/9d/d7/4c9dd747-3f98-7331-4b5a-d221b5dd0f02/mzaf_16220962102411968668.plus.aac.ep.m4a","artworkUrl":"https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/73/6e/f3/736ef3f9-5fce-3635-771c-bd86b37ea6b7/26UMGIM49377.rgb.jpg/{w}x{h}{c}.{f}"}
   ]
 }
