@@ -1,0 +1,228 @@
+{
+  "artistId": "fujii_kaze",
+  "tours": [
+    {
+      "id": "fujii_kaze_prema_world_2026",
+      "artistId": "fujii_kaze",
+      "title": "Prema World Tour",
+      "startDate": "2026-10-31T00:00:00+09:00",
+      "endDate": null,
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 15000
+        },
+        {
+          "label": "注釈付き指定席",
+          "amount": 15000
+        },
+        {
+          "label": "親子席（親）",
+          "amount": 15000
+        },
+        {
+          "label": "親子席（こども）",
+          "amount": 7500
+        },
+        {
+          "label": "カインド席",
+          "amount": 15000
+        },
+        {
+          "label": "ハート席（大人）",
+          "amount": 7500
+        },
+        {
+          "label": "ハート席（こども）",
+          "amount": 0
+        },
+        {
+          "label": "車いす席",
+          "amount": 15000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-08-21T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "fujii_kaze_prema_world_2026_fukuoka_1114",
+      "tourId": "fujii_kaze_prema_world_2026",
+      "venue": "みずほPayPayドーム福岡",
+      "performanceAt": "2026-11-14T18:00:00+09:00",
+      "doorOpenAt": "2026-11-14T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_prema_world_2026_fukuoka_1115",
+      "tourId": "fujii_kaze_prema_world_2026",
+      "venue": "みずほPayPayドーム福岡",
+      "performanceAt": "2026-11-15T18:00:00+09:00",
+      "doorOpenAt": "2026-11-15T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_prema_world_2026_osaka_1210",
+      "tourId": "fujii_kaze_prema_world_2026",
+      "venue": "KYOCERA DOME OSAKA",
+      "performanceAt": "2026-12-10T19:00:00+09:00",
+      "doorOpenAt": "2026-12-10T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_prema_world_2026_osaka_1212",
+      "tourId": "fujii_kaze_prema_world_2026",
+      "venue": "KYOCERA DOME OSAKA",
+      "performanceAt": "2026-12-12T18:00:00+09:00",
+      "doorOpenAt": "2026-12-12T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_prema_world_2026_osaka_1213",
+      "tourId": "fujii_kaze_prema_world_2026",
+      "venue": "KYOCERA DOME OSAKA",
+      "performanceAt": "2026-12-13T18:00:00+09:00",
+      "doorOpenAt": "2026-12-13T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_prema_world_2026_tokyo_1219",
+      "tourId": "fujii_kaze_prema_world_2026",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-12-19T18:00:00+09:00",
+      "doorOpenAt": "2026-12-19T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_prema_world_2026_tokyo_1220",
+      "tourId": "fujii_kaze_prema_world_2026",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-12-20T18:00:00+09:00",
+      "doorOpenAt": "2026-12-20T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_prema_world_2026_kaohsiung_1031",
+      "tourId": "fujii_kaze_prema_world_2026",
+      "venue": "Kaohsiung National Stadium",
+      "performanceAt": "2026-10-31T20:00:00+09:00",
+      "doorOpenAt": "2026-10-31T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_prema_world_2026_seoul_0109",
+      "tourId": "fujii_kaze_prema_world_2026",
+      "venue": "Gocheok Sky Dome",
+      "performanceAt": "2027-01-09T18:00:00+09:00",
+      "doorOpenAt": "2027-01-09T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "fujii_kaze_prema_world_2026_cd_lp_fastest",
+      "tourId": "fujii_kaze_prema_world_2026",
+      "type": "チケット最速先行（CD/LP封入特典）",
+      "entryStartAt": "2025-12-05T18:00:00+09:00",
+      "entryEndAt": "2026-01-05T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fujii_kaze_prema_world_2026_fukuoka_1114",
+        "fujii_kaze_prema_world_2026_fukuoka_1115",
+        "fujii_kaze_prema_world_2026_osaka_1210",
+        "fujii_kaze_prema_world_2026_osaka_1212",
+        "fujii_kaze_prema_world_2026_osaka_1213",
+        "fujii_kaze_prema_world_2026_tokyo_1219",
+        "fujii_kaze_prema_world_2026_tokyo_1220"
+      ],
+      "source": "system",
+      "sourceUrl": "https://fujiikaze.com/news-article/news251205/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_prema_world_2026_general",
+      "tourId": "fujii_kaze_prema_world_2026",
+      "type": "一般抽選",
+      "entryStartAt": "2026-04-24T12:00:00+09:00",
+      "entryEndAt": "2026-05-06T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fujii_kaze_prema_world_2026_fukuoka_1114",
+        "fujii_kaze_prema_world_2026_fukuoka_1115",
+        "fujii_kaze_prema_world_2026_osaka_1210",
+        "fujii_kaze_prema_world_2026_osaka_1212",
+        "fujii_kaze_prema_world_2026_osaka_1213",
+        "fujii_kaze_prema_world_2026_tokyo_1219",
+        "fujii_kaze_prema_world_2026_tokyo_1220"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1564752145",
+      "title": "きらり",
+      "albumTitle": "きらり - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/2b/4d/a2/2b4da202-71db-39f6-0430-b09db41dce7c/mzaf_7638472007029273847.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/d6/75/4f/d6754fcb-b2e8-db66-b51f-8b142ac75132/21UMGIM23568.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1733130377",
+      "title": "満ちてゆく",
+      "albumTitle": "満ちてゆく - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/97/3e/32/973e3246-62f8-08ff-4ccb-0852fa1858db/mzaf_4585432447761557845.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/d0/f4/ad/d0f4ad92-2a6c-6a02-34c5-d45b93f767d9/24UMGIM15199.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1611482698",
+      "title": "ガーデン",
+      "albumTitle": "LOVE ALL SERVE ALL",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/a4/5d/8d/a45d8d04-30e0-a87b-30d7-d191be25ac37/mzaf_6086213518140920452.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/85/2e/2b/852e2b6c-93ec-806a-95b2-8f5eda2f775c/22UMGIM18886.rgb.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

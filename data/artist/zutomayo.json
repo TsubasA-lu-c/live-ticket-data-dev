@@ -1,0 +1,300 @@
+{
+  "artistId": "zutomayo",
+  "tours": [
+    {
+      "id": "zutomayo_legacyzombie_2026",
+      "artistId": "zutomayo",
+      "title": "特別公演祭 LEGACY ZOMBIE LABO「文禍伝雷」奈良・平城京",
+      "startDate": "2026-10-10T00:00:00+09:00",
+      "endDate": "2026-10-11T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "スタンダードエリア",
+          "amount": 12000
+        },
+        {
+          "label": "Premium Area Upgrade",
+          "amount": 3000
+        },
+        {
+          "label": "バックフリーエリア",
+          "amount": 6500
+        },
+        {
+          "label": "バックフリーエリア（奈良県民）",
+          "amount": 5500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/bunka-denrai/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_event_youtubemusicweekend12_2026",
+      "artistId": "zutomayo",
+      "title": "YouTube Music Weekend12.0",
+      "startDate": "2026-08-23T00:00:00+09:00",
+      "endDate": "2026-08-23T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/news/640/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_fes_wildbunch_2026",
+      "artistId": "zutomayo",
+      "title": "WILD BUNCH FEST. 2026",
+      "startDate": "2026-08-22T00:00:00+09:00",
+      "endDate": "2026-08-22T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1日券（8/22）",
+          "amount": 13000
+        },
+        {
+          "label": "2日通し券（8/21・8/22）",
+          "amount": 23000
+        },
+        {
+          "label": "2日通し券（8/22・8/23）",
+          "amount": 23000
+        },
+        {
+          "label": "3日通し券",
+          "amount": 30000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/live/54/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_fes_soundplanet_2026",
+      "artistId": "zutomayo",
+      "title": "SOUND PLANET FESTIVAL 2026",
+      "startDate": "2026-09-06T00:00:00+09:00",
+      "endDate": "2026-09-06T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/live/55/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_fes_rockinjapan_2026",
+      "artistId": "zutomayo",
+      "title": "ROCK IN JAPAN FESTIVAL 2026",
+      "startDate": "2026-09-19T00:00:00+09:00",
+      "endDate": "2026-09-19T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/live/56/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_fes_gigantic_2026",
+      "artistId": "zutomayo",
+      "title": "OSAKA GIGANTIC MUSIC FESTIVAL 2026 -THANKS 10TH GIGA-",
+      "startDate": "2026-08-02T00:00:00+09:00",
+      "endDate": "2026-08-02T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/live/53/",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "zutomayo_legacyzombie_2026_nara_1010",
+      "tourId": "zutomayo_legacyzombie_2026",
+      "venue": "平城宮跡歴史公園 中央区朝堂院 特設野外会場",
+      "performanceAt": "2026-10-10T17:30:00+09:00",
+      "doorOpenAt": "2026-10-10T15:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "特別公演祭 LEGACY ZOMBIE LABO「文禍伝雷」奈良・平城京",
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/bunka-denrai/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_legacyzombie_2026_nara_1011",
+      "tourId": "zutomayo_legacyzombie_2026",
+      "venue": "平城宮跡歴史公園 中央区朝堂院 特設野外会場",
+      "performanceAt": "2026-10-11T17:30:00+09:00",
+      "doorOpenAt": "2026-10-11T15:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "特別公演祭 LEGACY ZOMBIE LABO「文禍伝雷」奈良・平城京",
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/bunka-denrai/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_event_youtubemusicweekend12_2026_0823",
+      "tourId": "zutomayo_event_youtubemusicweekend12_2026",
+      "venue": "YouTube（プレミア公開）",
+      "performanceAt": "2026-08-23T21:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "YouTube Music Weekend12.0",
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/news/640/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_wildbunch_2026_0822",
+      "tourId": "zutomayo_fes_wildbunch_2026",
+      "venue": "山口きらら博記念公園",
+      "performanceAt": "2026-08-22T11:30:00+09:00",
+      "doorOpenAt": "2026-08-22T10:00:00+09:00",
+      "kind": "fes",
+      "eventName": "WILD BUNCH FEST. 2026",
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/live/54/",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
+    },
+    {
+      "id": "zutomayo_soundplanet_2026_0906",
+      "tourId": "zutomayo_fes_soundplanet_2026",
+      "venue": "韓国 PARADISE CITY",
+      "performanceAt": "2026-09-06T11:30:00+09:00",
+      "doorOpenAt": "2026-09-06T10:00:00+09:00",
+      "kind": "fes",
+      "eventName": "SOUND PLANET FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/live/55/",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
+    },
+    {
+      "id": "zutomayo_rockinJapan_2026_0919",
+      "tourId": "zutomayo_fes_rockinjapan_2026",
+      "venue": "千葉市蘇我スポーツ公園",
+      "performanceAt": "2026-09-19T11:45:00+09:00",
+      "doorOpenAt": "2026-09-19T08:30:00+09:00",
+      "kind": "fes",
+      "eventName": "ROCK IN JAPAN FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://rijfes.jp/2026/home/",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
+    },
+    {
+      "id": "zutomayo_gigantic_2026_0802",
+      "tourId": "zutomayo_fes_gigantic_2026",
+      "venue": "大阪舞洲スポーツアイランド ジャイガ特設会場",
+      "performanceAt": "2026-08-02T11:00:00+09:00",
+      "doorOpenAt": "2026-08-02T09:30:00+09:00",
+      "kind": "fes",
+      "eventName": "OSAKA GIGANTIC MUSIC FESTIVAL 2026 -THANKS 10TH GIGA-",
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/live/53/",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "zutomayo_legacyzombie_2026_fc1",
+      "tourId": "zutomayo_legacyzombie_2026",
+      "type": "PREMIUM会員最速先行",
+      "entryStartAt": "2026-06-17T21:30:00+09:00",
+      "entryEndAt": "2026-07-05T23:59:00+09:00",
+      "resultAt": "2026-07-08T18:00:00+09:00",
+      "paymentStartAt": "2026-07-08T18:00:00+09:00",
+      "paymentEndAt": "2026-07-11T23:59:00+09:00",
+      "performanceIds": [
+        "zutomayo_legacyzombie_2026_nara_1010",
+        "zutomayo_legacyzombie_2026_nara_1011"
+      ],
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/bunka-denrai/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_legacyzombie_2026_fc2",
+      "tourId": "zutomayo_legacyzombie_2026",
+      "type": "PREMIUM会員2次先行",
+      "entryStartAt": "2026-07-08T18:00:00+09:00",
+      "entryEndAt": "2026-07-12T23:59:00+09:00",
+      "resultAt": "2026-07-16T18:00:00+09:00",
+      "paymentStartAt": "2026-07-16T18:00:00+09:00",
+      "paymentEndAt": "2026-07-19T23:59:00+09:00",
+      "performanceIds": [
+        "zutomayo_legacyzombie_2026_nara_1010",
+        "zutomayo_legacyzombie_2026_nara_1011"
+      ],
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/bunka-denrai/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_legacyzombie_2026_gen1",
+      "tourId": "zutomayo_legacyzombie_2026",
+      "type": "一般最速先行",
+      "entryStartAt": "2026-07-16T18:00:00+09:00",
+      "entryEndAt": "2026-07-26T23:59:00+09:00",
+      "resultAt": "2026-07-30T18:00:00+09:00",
+      "paymentStartAt": "2026-07-30T18:00:00+09:00",
+      "paymentEndAt": "2026-08-02T23:59:00+09:00",
+      "performanceIds": [
+        "zutomayo_legacyzombie_2026_nara_1010",
+        "zutomayo_legacyzombie_2026_nara_1011"
+      ],
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/bunka-denrai/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_legacyzombie_2026_upgrade",
+      "tourId": "zutomayo_legacyzombie_2026",
+      "type": "Premium Area Upgrade",
+      "entryStartAt": "2026-08-26T18:00:00+09:00",
+      "entryEndAt": "2026-08-30T23:59:00+09:00",
+      "resultAt": "2026-09-05T18:00:00+09:00",
+      "paymentStartAt": "2026-09-05T18:00:00+09:00",
+      "paymentEndAt": "2026-09-07T23:59:00+09:00",
+      "performanceIds": [
+        "zutomayo_legacyzombie_2026_nara_1010",
+        "zutomayo_legacyzombie_2026_nara_1011"
+      ],
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/bunka-denrai/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_fes_wildbunch_2026_trade",
+      "tourId": "zutomayo_fes_wildbunch_2026",
+      "type": "公式トレード（購入抽選）",
+      "entryStartAt": "2026-08-01T12:00:00+09:00",
+      "entryEndAt": "2026-08-17T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "zutomayo_wildbunch_2026_0822"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.wildbunchfest.jp/tickets/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1428083880",
+      "title": "秒針を噛む",
+      "albumTitle": "秒針を噛む - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ef/14/70/ef1470b6-06b5-220c-6c98-5858fe01ff31/mzaf_6042463596856553428.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/38/2c/03/382c0375-11db-242e-4bf0-4e2e31380d74/00602567952343.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1570795403",
+      "title": "あいつら全員同窓会",
+      "albumTitle": "あいつら全員同窓会 - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/59/b3/c0/59b3c065-7f86-0bd8-9092-e37eb1264fc7/mzaf_9613505986715309327.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d6/57/e2/d657e297-1bd1-423d-9062-b4cf4e554d2b/21UMGIM47219.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1649264715",
+      "title": "残機",
+      "albumTitle": "残機 - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/96/1a/83/961a83be-093e-19f1-1c23-f1ddab9c6b87/mzaf_11849714766868964062.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/67/9f/91/679f9186-53d0-7181-b5ed-a3ba8272c794/22UM1IM09345.rgb.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

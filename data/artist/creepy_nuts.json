@@ -1,0 +1,275 @@
+{
+  "artistId": "creepy_nuts",
+  "tours": [
+    {
+      "id": "creepy_nuts_fes_2026_rsr",
+      "artistId": "creepy_nuts",
+      "title": "RISING SUN ROCK FESTIVAL 2026 in EZO",
+      "startDate": "2026-08-14T14:00:00+09:00",
+      "endDate": "2026-08-14T23:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://rsr.wess.co.jp/2026/",
+      "lastVerifiedAt": "2026-08-09T02:18:22+09:00"
+    },
+    {
+      "id": "creepy_nuts_taiban_2026_weeknd_singapore",
+      "artistId": "creepy_nuts",
+      "title": "The Weeknd After Hours Til Dawn Tour（スペシャルゲスト出演）",
+      "startDate": "2026-10-02T20:00:00+09:00",
+      "endDate": "2026-10-03T20:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.livenation.sg/event/the-weeknd-after-hours-til-dawn-tour-singapore-tickets-edp1672025",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "creepy_nuts_taiban_2026_weeknd_seoul",
+      "artistId": "creepy_nuts",
+      "title": "The Weeknd After Hours Til Dawn Tour（スペシャルゲスト出演）",
+      "startDate": "2026-10-07T00:00:00+09:00",
+      "endDate": "2026-10-08T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.livenation.kr/event/the-weeknd-after-hours-til-dawn-tour-seoul-tickets-edp1672877",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "creepy_nuts_taiban_2026_weeknd_bangkok",
+      "artistId": "creepy_nuts",
+      "title": "The Weeknd After Hours Til Dawn Tour（スペシャルゲスト出演）",
+      "startDate": "2026-10-11T00:00:00+09:00",
+      "endDate": "2026-10-13T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.livenationtero.co.th/event/the-weeknd-after-hours-til-dawn-tour-bangkok-tickets-edp1672772",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "creepy_nuts_taiban_2026_weeknd_belluna",
+      "artistId": "creepy_nuts",
+      "title": "The Weeknd After Hours Til Dawn Tour（スペシャルゲスト出演）",
+      "startDate": "2026-09-19T17:00:00+09:00",
+      "endDate": "2026-09-20T17:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://natalie.mu/music/news/671518",
+      "lastVerifiedAt": "2026-08-09T02:18:22+09:00"
+    },
+    {
+      "id": "creepy_nuts_taiban_2026_weeknd_kl",
+      "artistId": "creepy_nuts",
+      "title": "The Weeknd After Hours Til Dawn Tour - Kuala Lumpur（スペシャルゲスト出演）",
+      "startDate": "2026-11-04T20:30:00+09:00",
+      "endDate": "2026-11-05T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.livenation.my/event/the-weeknd-after-hours-til-dawn-tour-kuala-lumpur-tickets-edp1672816",
+      "lastVerifiedAt": "2026-08-09T02:18:22+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "creepy_nuts_fes_2026_rsr_ishikari_0814",
+      "tourId": "creepy_nuts_fes_2026_rsr",
+      "venue": "石狩湾新港樽川ふ頭横野外特設ステージ",
+      "performanceAt": "2026-08-14T14:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "RISING SUN ROCK FESTIVAL 2026 in EZO",
+      "source": "system",
+      "sourceUrl": "https://rsr.wess.co.jp/2026/",
+      "lastVerifiedAt": "2026-08-09T02:18:22+09:00"
+    },
+    {
+      "id": "creepy_nuts_taiban_2026_weeknd_singapore_1002",
+      "tourId": "creepy_nuts_taiban_2026_weeknd_singapore",
+      "venue": "National Stadium（シンガポール）",
+      "performanceAt": "2026-10-02T20:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "eventName": "The Weeknd After Hours Til Dawn Tour",
+      "source": "system",
+      "sourceUrl": "https://www.livenation.sg/event/the-weeknd-after-hours-til-dawn-tour-singapore-tickets-edp1672025",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "creepy_nuts_taiban_2026_weeknd_singapore_1003",
+      "tourId": "creepy_nuts_taiban_2026_weeknd_singapore",
+      "venue": "National Stadium（シンガポール）",
+      "performanceAt": "2026-10-03T20:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "eventName": "The Weeknd After Hours Til Dawn Tour",
+      "source": "system",
+      "sourceUrl": "https://www.livenation.sg/event/the-weeknd-after-hours-til-dawn-tour-singapore-tickets-edp1672025",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "creepy_nuts_taiban_2026_weeknd_seoul_1007",
+      "tourId": "creepy_nuts_taiban_2026_weeknd_seoul",
+      "venue": "고양종합운동장（韓国・ソウル）",
+      "performanceAt": "2026-10-07T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "eventName": "The Weeknd After Hours Til Dawn Tour",
+      "source": "system",
+      "sourceUrl": "https://www.livenation.kr/event/the-weeknd-after-hours-til-dawn-tour-seoul-tickets-edp1672877",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "creepy_nuts_taiban_2026_weeknd_seoul_1008",
+      "tourId": "creepy_nuts_taiban_2026_weeknd_seoul",
+      "venue": "고양종합운동장（韓国・ソウル）",
+      "performanceAt": "2026-10-08T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "eventName": "The Weeknd After Hours Til Dawn Tour",
+      "source": "system",
+      "sourceUrl": "https://www.livenation.kr/event/the-weeknd-after-hours-til-dawn-tour-seoul-tickets-edp1672877",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "creepy_nuts_taiban_2026_weeknd_bangkok_1011",
+      "tourId": "creepy_nuts_taiban_2026_weeknd_bangkok",
+      "venue": "Rajamangala National Stadium（バンコク）",
+      "performanceAt": "2026-10-11T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "eventName": "The Weeknd After Hours Til Dawn Tour",
+      "source": "system",
+      "sourceUrl": "https://www.livenationtero.co.th/event/the-weeknd-after-hours-til-dawn-tour-bangkok-tickets-edp1672772",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "creepy_nuts_taiban_2026_weeknd_bangkok_1012",
+      "tourId": "creepy_nuts_taiban_2026_weeknd_bangkok",
+      "venue": "Rajamangala National Stadium（バンコク）",
+      "performanceAt": "2026-10-12T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "eventName": "The Weeknd After Hours Til Dawn Tour",
+      "source": "system",
+      "sourceUrl": "https://www.livenationtero.co.th/show/1674924/the-weeknd-after-hours-til-dawn-tour/bangkok/2026-10-12/en",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "creepy_nuts_taiban_2026_weeknd_bangkok_1013",
+      "tourId": "creepy_nuts_taiban_2026_weeknd_bangkok",
+      "venue": "Rajamangala National Stadium（バンコク）",
+      "performanceAt": "2026-10-13T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "eventName": "The Weeknd After Hours Til Dawn Tour",
+      "source": "system",
+      "sourceUrl": "https://www.livenationtero.co.th/show/1678717/the-weeknd-after-hours-til-dawn-tour/bangkok/2026-10-13/en",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "creepy_nuts_taiban_2026_weeknd_belluna_0919",
+      "tourId": "creepy_nuts_taiban_2026_weeknd_belluna",
+      "venue": "ベルーナドーム",
+      "performanceAt": "2026-09-19T17:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "eventName": "The Weeknd After Hours Til Dawn Tour",
+      "source": "system",
+      "sourceUrl": "https://natalie.mu/music/news/671518",
+      "lastVerifiedAt": "2026-08-09T02:18:22+09:00"
+    },
+    {
+      "id": "creepy_nuts_taiban_2026_weeknd_belluna_0920",
+      "tourId": "creepy_nuts_taiban_2026_weeknd_belluna",
+      "venue": "ベルーナドーム",
+      "performanceAt": "2026-09-20T17:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "eventName": "The Weeknd After Hours Til Dawn Tour",
+      "source": "system",
+      "sourceUrl": "https://natalie.mu/music/news/671518",
+      "lastVerifiedAt": "2026-08-09T02:18:22+09:00"
+    },
+    {
+      "id": "creepy_nuts_taiban_2026_weeknd_kl_1104",
+      "tourId": "creepy_nuts_taiban_2026_weeknd_kl",
+      "venue": "TM National Stadium（クアラルンプール）",
+      "performanceAt": "2026-11-04T20:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "eventName": "The Weeknd After Hours Til Dawn Tour",
+      "source": "system",
+      "sourceUrl": "https://www.livenation.my/event/the-weeknd-after-hours-til-dawn-tour-kuala-lumpur-tickets-edp1672816",
+      "lastVerifiedAt": "2026-08-09T02:18:22+09:00"
+    },
+    {
+      "id": "creepy_nuts_taiban_2026_weeknd_kl_1105",
+      "tourId": "creepy_nuts_taiban_2026_weeknd_kl",
+      "venue": "TM National Stadium（クアラルンプール）",
+      "performanceAt": "2026-11-05T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "eventName": "The Weeknd After Hours Til Dawn Tour",
+      "source": "system",
+      "sourceUrl": "https://www.livenation.my/event/the-weeknd-after-hours-til-dawn-tour-kuala-lumpur-tickets-edp1672816",
+      "lastVerifiedAt": "2026-08-09T02:18:22+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "creepy_nuts_taiban_2026_weeknd_belluna_official_1st",
+      "tourId": "creepy_nuts_taiban_2026_weeknd_belluna",
+      "type": "オフィシャル1次抽選先行",
+      "entryStartAt": "2026-05-24T12:00:00+09:00",
+      "entryEndAt": "2026-05-26T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "creepy_nuts_taiban_2026_weeknd_belluna_0919",
+        "creepy_nuts_taiban_2026_weeknd_belluna_0920"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.livenationhip.co.jp/all-events/the-weeknd-tickets-ae474869",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "creepy_nuts_taiban_2026_weeknd_belluna_additional_preorder",
+      "tourId": "creepy_nuts_taiban_2026_weeknd_belluna",
+      "type": "追加公演先行抽選予約",
+      "entryStartAt": "2026-06-02T18:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "creepy_nuts_taiban_2026_weeknd_belluna_0919"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.livenationhip.co.jp/all-events/the-weeknd-tickets-ae474869",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1720332181",
+      "title": "Bling-Bang-Bang-Born",
+      "albumTitle": "Bling-Bang-Bang-Born - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/ab/ee/99/abee99ed-b939-5d0f-43cb-11dfbdba00b5/mzaf_4299097642937870531.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/12/81/dc/1281dc28-48e6-5ff7-642d-6cf4d487d9e0/4547366660890.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1581367766",
+      "title": "のびしろ",
+      "albumTitle": "Case",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/98/63/48/986348b4-f651-80a6-8bfd-84bcee45a023/mzaf_8464147560650763596.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e5/46/8a/e5468a74-37db-65a2-a8c6-aaf67552fdfd/4547366526615.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1771603031",
+      "title": "オトノケ - Otonoke",
+      "albumTitle": "オトノケ - Otonoke - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8e/34/70/8e3470cd-bf6a-e7b1-8450-1393926cb425/mzaf_2061149062209599740.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2c/66/b5/2c66b5b5-a46f-1064-4802-fe82c0e56200/4547366705638.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

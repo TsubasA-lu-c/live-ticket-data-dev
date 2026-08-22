@@ -1,0 +1,441 @@
+{
+  "artistId": "monaki",
+  "tours": [
+    {
+      "id": "monaki_event_2shot_2026",
+      "artistId": "monaki",
+      "title": "メンバー個別 2ショット撮影会",
+      "startDate": "2026-08-10T00:00:00+09:00",
+      "endDate": "2026-08-10T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.fanpla.jp/news/detail/82529",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_1st_tour_2026",
+      "artistId": "monaki",
+      "title": "MONAKI 1st Tour 2026「モナキやで☆しらんけど Supported by LuLuLun」",
+      "startDate": "2026-08-18T00:00:00+09:00",
+      "endDate": "2026-08-24T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1階スタンディング",
+          "amount": 6600
+        },
+        {
+          "label": "2階後方立見（愛知・東京のみ）",
+          "amount": 6600
+        },
+        {
+          "label": "2階指定",
+          "amount": 7700
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/news/detail/84264",
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+    },
+    {
+      "id": "monaki_halloween_2026",
+      "artistId": "monaki",
+      "title": "ハロウィンやで☆しらんけど",
+      "startDate": "2026-10-27T00:00:00+09:00",
+      "endDate": "2026-10-27T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "スタンディング",
+          "amount": 6600
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/news/detail/86011",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_gannaki_fes_2026",
+      "artistId": "monaki",
+      "title": "ギャン泣きFES",
+      "startDate": "2026-09-05T00:00:00+09:00",
+      "endDate": "2026-09-05T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/live_information/detail/43002",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_tomakomai_mirai_fest_2026",
+      "artistId": "monaki",
+      "title": "TOMAKOMAI MIRAI FEST2026",
+      "startDate": "2026-09-12T00:00:00+09:00",
+      "endDate": "2026-09-12T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/live_information/detail/42406",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_pomfes_2026",
+      "artistId": "monaki",
+      "title": "ポムフェス『POMPOMPURIN FESTIVAL』",
+      "startDate": "2026-09-13T00:00:00+09:00",
+      "endDate": "2026-09-13T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "ステージ前方エリア",
+          "amount": 1500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/live_information/detail/42265",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_tgc_2026",
+      "artistId": "monaki",
+      "title": "マイナビ TGC 2026 A/W",
+      "startDate": "2026-09-19T00:00:00+09:00",
+      "endDate": "2026-09-19T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/live_information/detail/42987",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_one_asia_world_2026",
+      "artistId": "monaki",
+      "title": "ライブサイト in ONE ASIA WORLD",
+      "startDate": "2026-09-22T00:00:00+09:00",
+      "endDate": "2026-09-22T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/live_information/detail/43340",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_koyabu_sonic_2026",
+      "artistId": "monaki",
+      "title": "KOYABU SONIC2026",
+      "startDate": "2026-09-23T00:00:00+09:00",
+      "endDate": "2026-09-23T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/live_information/detail/42603",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_remedia_festival_2026",
+      "artistId": "monaki",
+      "title": "RE:MEDIA FESTIVAL 2026",
+      "startDate": "2026-10-17T00:00:00+09:00",
+      "endDate": "2026-10-17T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/live_information/detail/42444",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_kinjo_festival_2026",
+      "artistId": "monaki",
+      "title": "第68回金城祭スペシャルライブ",
+      "startDate": "2026-10-23T00:00:00+09:00",
+      "endDate": "2026-10-23T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/live_information/detail/41914",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_kishidan_banpaku_2026",
+      "artistId": "monaki",
+      "title": "氣志團万博2026 ～房総爆音リゾート～",
+      "startDate": "2026-11-07T00:00:00+09:00",
+      "endDate": "2026-11-07T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/live_information/detail/41915",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "monaki_event_2shot_2026_2shot_0810",
+      "tourId": "monaki_event_2shot_2026",
+      "venue": "東京都内某所",
+      "performanceAt": "2026-08-10T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "メンバー個別 2ショット撮影会",
+      "source": "system",
+      "sourceUrl": "https://monaki.fanpla.jp/news/detail/82529",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_1st_tour_2026_zeppnamba_0818",
+      "tourId": "monaki_1st_tour_2026",
+      "venue": "Zepp Namba(OSAKA)",
+      "performanceAt": "2026-08-18T18:30:00+09:00",
+      "doorOpenAt": "2026-08-18T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/news/detail/78925",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_1st_tour_2026_zeppnagoya_0819",
+      "tourId": "monaki_1st_tour_2026",
+      "venue": "Zepp Nagoya",
+      "performanceAt": "2026-08-19T19:00:00+09:00",
+      "doorOpenAt": "2026-08-19T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/news/detail/78925",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_1st_tour_2026_zepphaneda_0824",
+      "tourId": "monaki_1st_tour_2026",
+      "venue": "Zepp Haneda(TOKYO)",
+      "performanceAt": "2026-08-24T19:00:00+09:00",
+      "doorOpenAt": "2026-08-24T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/news/detail/78925",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_halloween_2026_toyosu_1027",
+      "tourId": "monaki_halloween_2026",
+      "venue": "豊洲PIT",
+      "performanceAt": "2026-10-27T19:00:00+09:00",
+      "doorOpenAt": "2026-10-27T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "ハロウィンやで☆しらんけど",
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/news/detail/84518",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_gannaki_fes_2026_nhk_osaka_0905",
+      "tourId": "monaki_gannaki_fes_2026",
+      "venue": "NHK大阪放送局 T2スタジオ",
+      "performanceAt": "2026-09-05T16:00:00+09:00",
+      "doorOpenAt": "2026-09-05T15:30:00+09:00",
+      "kind": "fes",
+      "eventName": "ギャン泣きFES",
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/live_information/detail/43002",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_tomakomai_mirai_fest_2026_kirakira_0912",
+      "tourId": "monaki_tomakomai_mirai_fest_2026",
+      "venue": "苫小牧 キラキラ公園",
+      "performanceAt": "2026-09-12T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "TOMAKOMAI MIRAI FEST2026",
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/live_information/detail/42406",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_pomfes_2026_yokohama_0913",
+      "tourId": "monaki_pomfes_2026",
+      "venue": "横浜赤レンガ倉庫 イベント広場",
+      "performanceAt": "2026-09-13T15:20:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "ポムフェス『POMPOMPURIN FESTIVAL』",
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/live_information/detail/42265",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_tgc_2026_yokohama_0919",
+      "tourId": "monaki_tgc_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-09-19T14:00:00+09:00",
+      "doorOpenAt": "2026-09-19T12:00:00+09:00",
+      "kind": "fes",
+      "eventName": "マイナビ TGC 2026 A/W",
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/live_information/detail/42987",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_one_asia_world_2026_oasis21_0922",
+      "tourId": "monaki_one_asia_world_2026",
+      "venue": "オアシス21",
+      "performanceAt": "2026-09-22T11:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "ライブサイト in ONE ASIA WORLD",
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/live_information/detail/43340",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_koyabu_sonic_2026_intex_0923",
+      "tourId": "monaki_koyabu_sonic_2026",
+      "venue": "インテックス大阪 4号館・5号館",
+      "performanceAt": "2026-09-23T10:30:00+09:00",
+      "doorOpenAt": "2026-09-23T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "KOYABU SONIC2026",
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/live_information/detail/42603",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_remedia_festival_2026_ehime_1017",
+      "tourId": "monaki_remedia_festival_2026",
+      "venue": "愛媛県武道館",
+      "performanceAt": "2026-10-17T12:00:00+09:00",
+      "doorOpenAt": "2026-10-17T10:00:00+09:00",
+      "kind": "fes",
+      "eventName": "RE:MEDIA FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/live_information/detail/42444",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_kinjo_festival_2026_kinjo_1023",
+      "tourId": "monaki_kinjo_festival_2026",
+      "venue": "金城学院大学 アニー・ランドルフ記念講堂",
+      "performanceAt": "2026-10-23T18:00:00+09:00",
+      "doorOpenAt": "2026-10-23T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "第68回金城祭スペシャルライブ",
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/live_information/detail/41914",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_kishidan_banpaku_2026_makuhari_1107",
+      "tourId": "monaki_kishidan_banpaku_2026",
+      "venue": "幕張メッセ国際展示場 4～7ホール",
+      "performanceAt": "2026-11-07T10:30:00+09:00",
+      "doorOpenAt": "2026-11-07T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "氣志團万博2026 ～房総爆音リゾート～",
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/live_information/detail/41915",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "monaki_1st_tour_2026_fc先行",
+      "tourId": "monaki_1st_tour_2026",
+      "type": "FC先行",
+      "entryStartAt": "2026-05-12T12:00:00+09:00",
+      "entryEndAt": "2026-05-24T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "monaki_1st_tour_2026_zeppnamba_0818",
+        "monaki_1st_tour_2026_zeppnagoya_0819",
+        "monaki_1st_tour_2026_zepphaneda_0824"
+      ],
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/news/detail/78925",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_event_2shot_2026_抽選",
+      "tourId": "monaki_event_2shot_2026",
+      "type": "抽選",
+      "entryStartAt": "2026-06-24T18:00:00+09:00",
+      "entryEndAt": "2026-06-28T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "monaki_event_2shot_2026_2shot_0810"
+      ],
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/news/detail/82529",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_halloween_2026_fc",
+      "tourId": "monaki_halloween_2026",
+      "type": "FC先行",
+      "entryStartAt": "2026-07-16T12:00:00+09:00",
+      "entryEndAt": "2026-07-26T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "monaki_halloween_2026_toyosu_1027"
+      ],
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/news/detail/84518",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_1st_tour_2026_pia_presale_1",
+      "tourId": "monaki_1st_tour_2026",
+      "type": "チケットぴあ プレリザーブ（抽選）",
+      "entryStartAt": "2026-06-11T11:00:00+09:00",
+      "entryEndAt": "2026-06-21T23:59:00+09:00",
+      "resultAt": "2026-06-24T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "monaki_1st_tour_2026_zeppnamba_0818",
+        "monaki_1st_tour_2026_zeppnagoya_0819",
+        "monaki_1st_tour_2026_zepphaneda_0824"
+      ],
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/news/detail/81576",
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+    },
+    {
+      "id": "monaki_1st_tour_2026_pia_presale_2",
+      "tourId": "monaki_1st_tour_2026",
+      "type": "チケットぴあ プレリザーブ2次（抽選）",
+      "entryStartAt": "2026-06-24T18:00:00+09:00",
+      "entryEndAt": "2026-07-01T23:59:00+09:00",
+      "resultAt": "2026-07-04T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "monaki_1st_tour_2026_zeppnamba_0818",
+        "monaki_1st_tour_2026_zeppnagoya_0819",
+        "monaki_1st_tour_2026_zepphaneda_0824"
+      ],
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/news/detail/81576",
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1878548880",
+      "title": "ほんまやで☆なんでやねん☆しらんけど",
+      "albumTitle": "ほんまやで☆なんでやねん☆しらんけど/ねがい (Bタイプ) - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/d7/be/2fd7be0d-3d16-3bf5-1320-d38f46885ab9/mzaf_369953526110356825.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c4/07/2a/c4072a49-f887-f95d-fad5-7aa51720bf4d/CRCN-8830.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "6789401029",
+      "title": "すみなすものは心なりけり",
+      "albumTitle": "ほんまやで☆なんでやねん☆しらんけど/すみなすものは心なりけり(Cタイプ) - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/73/8e/48/738e484f-6603-2609-ad02-f38f1af5abd9/mzaf_4017870117259358295.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/89/d8/d0/89d8d0e5-0fbb-5cde-e291-f3547bfa484c/CRCN-8849.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "6789403712",
+      "title": "ほんまやで☆なんでやねん☆しらんけど<<HYPER TSUKKOMI ENERGY VIBES>>",
+      "albumTitle": "ほんまやで☆なんでやねん☆しらんけど/ほんまやで☆なんでやねん☆しらんけど<<HYPER TSUKKOMI ENERGY VIBES>>(Dタイプ) - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/90/a1/93/90a19358-09e8-9c88-eaf5-1610b7410985/mzaf_5843960580334240409.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4b/bc/c1/4bbcc1b4-629d-2205-29b1-e6b7ea1c35b6/CRCN-8850.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "artistId": "urashimasakatasen",
+  "tours": [
+    {
+      "id": "urashimasakatasen_ta13oo_2026",
+      "artistId": "urashimasakatasen",
+      "title": "浦島坂田船 SUMMER TOUR 2026 TA13OO",
+      "startDate": "2026-07-18T00:00:00+09:00",
+      "endDate": "2026-08-23T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席（公演別レプリカチケット特典付）",
+          "amount": 9200
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://urashimasakatasen.com/live/taboo/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "urashimasakatasen_halloweeeen_2026",
+      "artistId": "urashimasakatasen",
+      "title": "Happy Halloweeeen 浦島坂田幽霊船 ～ぼくたち魔法少年うしさせいんと☆みるきぃず 超特大しゅうぱぁまっくすだいだいだいしゅきぱわぁ chuuuuuuuuuu…にゅ？い、いかん！魔力が足りぬ！「えむピくれぴ♡んぅう満ちち☆彡」～",
+      "startDate": "2026-10-10T00:00:00+09:00",
+      "endDate": "2026-10-25T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "公演別特典付 指定席",
+          "amount": 9200
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://urashimasakatasen.com/halloweeeen/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "urashimasakatasen_ta13oo_2026_hyogo_0718",
+      "tourId": "urashimasakatasen_ta13oo_2026",
+      "venue": "神戸ワールド記念ホール",
+      "performanceAt": "2026-07-18T17:00:00+09:00",
+      "doorOpenAt": "2026-07-18T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/usss_tbo/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "urashimasakatasen_halloweeeen_2026_tokyo_1010",
+      "tourId": "urashimasakatasen_halloweeeen_2026",
+      "venue": "有明アリーナ",
+      "performanceAt": "2026-10-10T17:00:00+09:00",
+      "doorOpenAt": "2026-10-10T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/s/page/irg/usss_hw26mg_saisoku",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "urashimasakatasen_halloweeeen_2026_tokyo_1011",
+      "tourId": "urashimasakatasen_halloweeeen_2026",
+      "venue": "有明アリーナ",
+      "performanceAt": "2026-10-11T15:00:00+09:00",
+      "doorOpenAt": "2026-10-11T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/s/page/irg/usss_hw26mg_saisoku",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "urashimasakatasen_halloweeeen_2026_hyogo_1024",
+      "tourId": "urashimasakatasen_halloweeeen_2026",
+      "venue": "神戸ワールド記念ホール",
+      "performanceAt": "2026-10-24T17:00:00+09:00",
+      "doorOpenAt": "2026-10-24T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/s/page/irg/usss_hw26mg_saisoku",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "urashimasakatasen_halloweeeen_2026_hyogo_1025",
+      "tourId": "urashimasakatasen_halloweeeen_2026",
+      "venue": "神戸ワールド記念ホール",
+      "performanceAt": "2026-10-25T15:00:00+09:00",
+      "doorOpenAt": "2026-10-25T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/s/page/irg/usss_hw26mg_saisoku",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "urashimasakatasen_ta13oo_2026_hyogo_0719",
+      "tourId": "urashimasakatasen_ta13oo_2026",
+      "venue": "神戸ワールド記念ホール",
+      "performanceAt": "2026-07-19T15:00:00+09:00",
+      "doorOpenAt": "2026-07-19T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/usss_tbo/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "urashimasakatasen_ta13oo_2026_fukuoka_0725",
+      "tourId": "urashimasakatasen_ta13oo_2026",
+      "venue": "マリンメッセ福岡B館",
+      "performanceAt": "2026-07-25T17:00:00+09:00",
+      "doorOpenAt": "2026-07-25T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/usss_tbo/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "urashimasakatasen_ta13oo_2026_fukuoka_0726",
+      "tourId": "urashimasakatasen_ta13oo_2026",
+      "venue": "マリンメッセ福岡B館",
+      "performanceAt": "2026-07-26T15:00:00+09:00",
+      "doorOpenAt": "2026-07-26T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/usss_tbo/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "urashimasakatasen_ta13oo_2026_miyagi_0801",
+      "tourId": "urashimasakatasen_ta13oo_2026",
+      "venue": "ゼビオアリーナ仙台",
+      "performanceAt": "2026-08-01T17:00:00+09:00",
+      "doorOpenAt": "2026-08-01T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/usss_tbo/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "urashimasakatasen_ta13oo_2026_miyagi_0802",
+      "tourId": "urashimasakatasen_ta13oo_2026",
+      "venue": "ゼビオアリーナ仙台",
+      "performanceAt": "2026-08-02T15:00:00+09:00",
+      "doorOpenAt": "2026-08-02T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/usss_tbo/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "urashimasakatasen_ta13oo_2026_chiba_0807",
+      "tourId": "urashimasakatasen_ta13oo_2026",
+      "venue": "LaLa arena TOKYO-BAY",
+      "performanceAt": "2026-08-07T17:00:00+09:00",
+      "doorOpenAt": "2026-08-07T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/usss_tbo/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "urashimasakatasen_ta13oo_2026_chiba_0808",
+      "tourId": "urashimasakatasen_ta13oo_2026",
+      "venue": "LaLa arena TOKYO-BAY",
+      "performanceAt": "2026-08-08T15:00:00+09:00",
+      "doorOpenAt": "2026-08-08T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/usss_tbo/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "urashimasakatasen_ta13oo_2026_osaka_0822",
+      "tourId": "urashimasakatasen_ta13oo_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-08-22T18:00:00+09:00",
+      "doorOpenAt": "2026-08-22T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/usss_tbo/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "urashimasakatasen_ta13oo_2026_osaka_0823",
+      "tourId": "urashimasakatasen_ta13oo_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-08-23T15:00:00+09:00",
+      "doorOpenAt": "2026-08-23T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/usss_tbo/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "urashimasakatasen_ta13oo_2026_saisoku",
+      "tourId": "urashimasakatasen_ta13oo_2026",
+      "type": "最速先行（プレオーダー抽選）",
+      "entryStartAt": "2026-04-27T21:00:00+09:00",
+      "entryEndAt": "2026-05-06T23:59:00+09:00",
+      "resultAt": "2026-05-14T13:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-05-16T21:00:00+09:00",
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/s/page/irg/tbo_saisoku",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "urashimasakatasen_ta13oo_2026_ippan",
+      "tourId": "urashimasakatasen_ta13oo_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-06-20T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/usss_tbo/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "urashimasakatasen_halloweeeen_2026_saisoku",
+      "tourId": "urashimasakatasen_halloweeeen_2026",
+      "type": "最速先行（プレオーダー抽選）",
+      "entryStartAt": "2026-07-20T21:00:00+09:00",
+      "entryEndAt": "2026-08-02T23:59:00+09:00",
+      "resultAt": "2026-08-08T13:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-08-10T21:00:00+09:00",
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/s/page/irg/usss_hw26mg_saisoku",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "6782013702",
+      "title": "THE TABOO",
+      "albumTitle": "TA13OO",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/21/62/a9/2162a917-e681-e08d-96ca-0922f7281e27/mzaf_12625514447355557860.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3c/69/6d/3c696d7d-2e5c-b09d-de1d-0e865b579b02/1200214385484.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "6782013706",
+      "title": "Hate me↑↑Love me↓↓",
+      "albumTitle": "TA13OO",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/27/8a/30/278a3070-74d7-fc83-1cce-4850cebd7fff/mzaf_5631981209185247648.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3c/69/6d/3c696d7d-2e5c-b09d-de1d-0e865b579b02/1200214385484.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "6782013703",
+      "title": "火炎",
+      "albumTitle": "TA13OO",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/47/1d/c6/471dc6ee-5419-e09f-621b-bd3f607838c8/mzaf_7370378110649671748.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3c/69/6d/3c696d7d-2e5c-b09d-de1d-0e865b579b02/1200214385484.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

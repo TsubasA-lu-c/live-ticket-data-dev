@@ -1,0 +1,500 @@
+{
+  "artistId": "the_oral_cigarettes",
+  "tours": [
+    {
+      "id": "the_oral_cigarettes_homesweethome_2026",
+      "artistId": "the_oral_cigarettes",
+      "title": "Home Sweet Home TOUR 2026",
+      "startDate": "2026-07-08T00:00:00+09:00",
+      "endDate": "2026-09-12T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 7300
+        },
+        {
+          "label": "着席指定席",
+          "amount": 7300
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/detail/3234",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_fear_and_loathing_standby_2026",
+      "artistId": "the_oral_cigarettes",
+      "title": "Fear, and Loathing in Las Vegas「StandBy」Release Tour",
+      "startDate": "2026-08-23T00:00:00+09:00",
+      "endDate": "2026-08-23T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "スタンディング",
+          "amount": 6900
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/list/4",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_new_acoustic_camp_2026",
+      "artistId": "the_oral_cigarettes",
+      "title": "New Acoustic Camp 2026",
+      "startDate": "2026-09-20T00:00:00+09:00",
+      "endDate": "2026-09-20T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/list/4",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_bkw_premium_party_2026",
+      "artistId": "the_oral_cigarettes",
+      "title": "BKW!! Premium Party ～THINK OUT LOUD～",
+      "startDate": "2026-10-12T00:00:00+09:00",
+      "endDate": "2026-10-12T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "スタンドS（指定席）",
+          "amount": 8500
+        },
+        {
+          "label": "スタンドA（指定席）",
+          "amount": 6500
+        },
+        {
+          "label": "スタンドS（着席指定席／小学生以下）",
+          "amount": 5000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/detail/3215",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_osaka_haziketemazare_2026",
+      "artistId": "the_oral_cigarettes",
+      "title": "OSAKA HAZIKETEMAZARE FESTIVAL 2026",
+      "startDate": "2026-10-24T00:00:00+09:00",
+      "endDate": "2026-10-24T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/list/4",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_this_fes_2026",
+      "artistId": "the_oral_cigarettes",
+      "title": "THIS FES'26 in Sagamihara",
+      "startDate": "2026-10-31T00:00:00+09:00",
+      "endDate": "2026-10-31T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/list/4",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_wander_about_kanto_2026",
+      "artistId": "the_oral_cigarettes",
+      "title": "WANDER ABOUT 放浪 TOUR 2026 関東 編",
+      "startDate": "2026-11-04T00:00:00+09:00",
+      "endDate": "2026-11-15T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "オールスタンディング",
+          "amount": 5500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/detail/3232",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_all_over_japan_2026",
+      "artistId": "the_oral_cigarettes",
+      "title": "HEY-SMITH「ALL OVER JAPAN TOUR」",
+      "startDate": "2026-11-28T00:00:00+09:00",
+      "endDate": "2026-11-29T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1Fスタンディング / 2階指定席",
+          "amount": 4600
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/list/4?page=2&parentId=13",
+      "lastVerifiedAt": "2026-08-18T07:20:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_hype_like_it_2027",
+      "artistId": "the_oral_cigarettes",
+      "title": "Hype Like it!",
+      "startDate": "2027-01-24T00:00:00+09:00",
+      "endDate": "2027-01-24T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/list/4?page=2&parentId=13",
+      "lastVerifiedAt": "2026-08-18T07:20:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "the_oral_cigarettes_homesweethome_2026_hbg_0812",
+      "tourId": "the_oral_cigarettes_homesweethome_2026",
+      "venue": "広島文化学園HBGホール",
+      "performanceAt": "2026-08-12T19:00:00+09:00",
+      "doorOpenAt": "2026-08-12T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/detail/3095",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_homesweethome_2026_sunpalace_0814",
+      "tourId": "the_oral_cigarettes_homesweethome_2026",
+      "venue": "福岡サンパレス",
+      "performanceAt": "2026-08-14T19:00:00+09:00",
+      "doorOpenAt": "2026-08-14T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/detail/3234",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_homesweethome_2026_kumamotojohall_0816",
+      "tourId": "the_oral_cigarettes_homesweethome_2026",
+      "venue": "熊本城ホール メインホール",
+      "performanceAt": "2026-08-16T18:00:00+09:00",
+      "doorOpenAt": "2026-08-16T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/detail/3234",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_fear_and_loathing_standby_2026_toyosupit_0823",
+      "tourId": "the_oral_cigarettes_fear_and_loathing_standby_2026",
+      "venue": "豊洲PIT",
+      "performanceAt": "2026-08-23T17:30:00+09:00",
+      "doorOpenAt": "2026-08-23T16:30:00+09:00",
+      "kind": "taiban",
+      "eventName": "Fear, and Loathing in Las Vegas「StandBy」Release Tour",
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/list/4",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_homesweethome_2026_nara100_0906",
+      "tourId": "the_oral_cigarettes_homesweethome_2026",
+      "venue": "なら100年会館 大ホール",
+      "performanceAt": "2026-09-06T18:00:00+09:00",
+      "doorOpenAt": "2026-09-06T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/list/4",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_homesweethome_2026_mieculture_0908",
+      "tourId": "the_oral_cigarettes_homesweethome_2026",
+      "venue": "三重県文化会館 大ホール",
+      "performanceAt": "2026-09-08T19:00:00+09:00",
+      "doorOpenAt": "2026-09-08T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/list/4",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_homesweethome_2026_kanamoto_0912",
+      "tourId": "the_oral_cigarettes_homesweethome_2026",
+      "venue": "カナモトホール（札幌市民ホール）",
+      "performanceAt": "2026-09-12T18:00:00+09:00",
+      "doorOpenAt": "2026-09-12T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/list/4",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_new_acoustic_camp_2026_0920",
+      "tourId": "the_oral_cigarettes_new_acoustic_camp_2026",
+      "venue": "利根川 水上高原リゾート200",
+      "performanceAt": "2026-09-20T11:00:00+09:00",
+      "doorOpenAt": "2026-09-20T08:00:00+09:00",
+      "kind": "fes",
+      "eventName": "New Acoustic Camp 2026",
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/list/4",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_bkw_premium_party_2026_pia_1012",
+      "tourId": "the_oral_cigarettes_bkw_premium_party_2026",
+      "venue": "ぴあアリーナMM",
+      "performanceAt": "2026-10-12T17:00:00+09:00",
+      "doorOpenAt": "2026-10-12T15:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "BKW!! Premium Party ～THINK OUT LOUD～",
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/detail/3215",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_osaka_haziketemazare_2026_1024",
+      "tourId": "the_oral_cigarettes_osaka_haziketemazare_2026",
+      "venue": "泉大津フェニックス",
+      "performanceAt": "2026-10-24T10:30:00+09:00",
+      "doorOpenAt": "2026-10-24T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "OSAKA HAZIKETEMAZARE FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/list/4",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_this_fes_2026_sagamihara_1031",
+      "tourId": "the_oral_cigarettes_this_fes_2026",
+      "venue": "相模原ギオンフィールド",
+      "performanceAt": "2026-10-31T11:00:00+09:00",
+      "doorOpenAt": "2026-10-31T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "THIS FES'26 in Sagamihara",
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/list/4",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_wander_about_kanto_2026_inage_1104",
+      "tourId": "the_oral_cigarettes_wander_about_kanto_2026",
+      "venue": "稲毛 K's Dream",
+      "performanceAt": "2026-11-04T19:00:00+09:00",
+      "doorOpenAt": "2026-11-04T18:30:00+09:00",
+      "kind": "taiban",
+      "eventName": "WANDER ABOUT 放浪 TOUR 2026 関東 編",
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/detail/3232",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_wander_about_kanto_2026_kumagaya_1106",
+      "tourId": "the_oral_cigarettes_wander_about_kanto_2026",
+      "venue": "HEAVEN'S ROCK 熊谷 VJ-1",
+      "performanceAt": "2026-11-06T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "eventName": "WANDER ABOUT 放浪 TOUR 2026 関東 編",
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/detail/3232",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_wander_about_kanto_2026_yokohama_1107",
+      "tourId": "the_oral_cigarettes_wander_about_kanto_2026",
+      "venue": "横浜F.A.D",
+      "performanceAt": "2026-11-07T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "eventName": "WANDER ABOUT 放浪 TOUR 2026 関東 編",
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/detail/3232",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_wander_about_kanto_2026_mito_1109",
+      "tourId": "the_oral_cigarettes_wander_about_kanto_2026",
+      "venue": "水戸LIGHT HOUSE",
+      "performanceAt": "2026-11-09T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "eventName": "WANDER ABOUT 放浪 TOUR 2026 関東 編",
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/detail/3232",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_wander_about_kanto_2026_shindaita_1111",
+      "tourId": "the_oral_cigarettes_wander_about_kanto_2026",
+      "venue": "新代田FEVER",
+      "performanceAt": "2026-11-11T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "eventName": "WANDER ABOUT 放浪 TOUR 2026 関東 編",
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/detail/3232",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_wander_about_kanto_2026_utsunomiya_1112",
+      "tourId": "the_oral_cigarettes_wander_about_kanto_2026",
+      "venue": "HEAVEN'S ROCK 宇都宮 VJ-2",
+      "performanceAt": "2026-11-12T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "eventName": "WANDER ABOUT 放浪 TOUR 2026 関東 編",
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/detail/3232",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_wander_about_kanto_2026_takasaki_1115",
+      "tourId": "the_oral_cigarettes_wander_about_kanto_2026",
+      "venue": "高崎club JAMMERS",
+      "performanceAt": "2026-11-15T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "eventName": "WANDER ABOUT 放浪 TOUR 2026 関東 編",
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/detail/3232",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_homesweethome_2026_sendai_0805",
+      "tourId": "the_oral_cigarettes_homesweethome_2026",
+      "venue": "東京エレクトロンホール宮城",
+      "performanceAt": "2026-08-05T19:00:00+09:00",
+      "doorOpenAt": "2026-08-05T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/archive/4?range=past&sort=desc",
+      "lastVerifiedAt": "2026-08-18T07:20:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_homesweethome_2026_niigata_0807",
+      "tourId": "the_oral_cigarettes_homesweethome_2026",
+      "venue": "新潟県民会館 大ホール",
+      "performanceAt": "2026-08-07T19:00:00+09:00",
+      "doorOpenAt": "2026-08-07T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/archive/4?range=past&sort=desc",
+      "lastVerifiedAt": "2026-08-18T07:20:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_all_over_japan_2026_saga_1128",
+      "tourId": "the_oral_cigarettes_all_over_japan_2026",
+      "venue": "佐賀 GEILS",
+      "performanceAt": "2026-11-28T18:00:00+09:00",
+      "doorOpenAt": "2026-11-28T17:30:00+09:00",
+      "kind": "taiban",
+      "eventName": "HEY-SMITH「ALL OVER JAPAN TOUR」",
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/list/4?page=2&parentId=13",
+      "lastVerifiedAt": "2026-08-18T07:20:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_all_over_japan_2026_fukuoka_1129",
+      "tourId": "the_oral_cigarettes_all_over_japan_2026",
+      "venue": "Zepp Fukuoka",
+      "performanceAt": "2026-11-29T18:00:00+09:00",
+      "doorOpenAt": "2026-11-29T17:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "HEY-SMITH「ALL OVER JAPAN TOUR」",
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/list/4?page=2&parentId=13",
+      "lastVerifiedAt": "2026-08-18T07:20:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_hype_like_it_2027_makuhari_0124",
+      "tourId": "the_oral_cigarettes_hype_like_it_2027",
+      "venue": "幕張メッセ国際展示場1～3ホール",
+      "performanceAt": "2027-01-24T11:00:00+09:00",
+      "doorOpenAt": "2027-01-24T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "Hype Like it!",
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/list/4?page=2&parentId=13",
+      "lastVerifiedAt": "2026-08-18T07:20:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "the_oral_cigarettes_homesweethome_2026_fc",
+      "tourId": "the_oral_cigarettes_homesweethome_2026",
+      "type": "FC先行",
+      "entryStartAt": "2025-12-19T19:00:00+09:00",
+      "entryEndAt": "2026-01-06T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/detail/3086",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_wander_about_kanto_2026_fc",
+      "tourId": "the_oral_cigarettes_wander_about_kanto_2026",
+      "type": "FC会員先行",
+      "entryStartAt": "2026-08-03T19:00:00+09:00",
+      "entryEndAt": "2026-08-07T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/detail/3232",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_bkw_premium_party_2026_general",
+      "tourId": "the_oral_cigarettes_bkw_premium_party_2026",
+      "type": "一般発売(会員限定)",
+      "entryStartAt": "2026-07-11T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/detail/3215",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_fear_and_loathing_standby_2026_general",
+      "tourId": "the_oral_cigarettes_fear_and_loathing_standby_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-04-11T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/list/4",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1842290544",
+      "title": "狂乱 Hey Kids!!",
+      "albumTitle": "FIXION",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/32/1b/b8/321bb8be-e547-06c3-5e57-fca33308e862/mzaf_12748119683873164169.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/7c/4a/c97c4a3a-ad72-8ff8-7f3e-74deee036fcb/25UMGIM94038.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1840121103",
+      "title": "BLACK MEMORY",
+      "albumTitle": "BLACK MEMORY - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a3/76/ba/a376ba28-1842-36e2-c9af-fef4f5a51161/mzaf_14372387869829176566.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/44/63/fa/4463fa1c-430c-7d45-98e5-54d6295d149c/25UMGIM94734.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1842290561",
+      "title": "カンタンナコト",
+      "albumTitle": "FIXION",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3c/b4/48/3cb44894-6bdc-b2fd-4329-ae7b9bd588d0/mzaf_11345384079591122495.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/7c/4a/c97c4a3a-ad72-8ff8-7f3e-74deee036fcb/25UMGIM94038.rgb.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

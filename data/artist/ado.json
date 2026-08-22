@@ -1,0 +1,297 @@
+{
+  "artistId": "ado",
+  "tours": [
+    {
+      "id": "ado_summer_sonic_tokyo",
+      "artistId": "ado",
+      "title": "Summer Sonic 2026",
+      "startDate": "2026-08-15T11:00:00+09:00",
+      "endDate": "2026-08-15T11:00:00+09:00",
+      "prices": [
+        {
+          "label": "1 Day Ticket",
+          "amount": 21000
+        },
+        {
+          "label": "Platinum Ticket",
+          "amount": 35000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.summersonic.com/en/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ado_rock_in_japan",
+      "artistId": "ado",
+      "title": "Rock in Japan Festival 2026",
+      "startDate": "2026-09-21T12:00:00+09:00",
+      "endDate": "2026-09-21T12:00:00+09:00",
+      "prices": [
+        {
+          "label": "1日券",
+          "amount": 16000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://rijfes.jp/2026/home/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ado_summer_sonic_osaka",
+      "artistId": "ado",
+      "title": "Summer Sonic 2026",
+      "startDate": "2026-08-16T11:00:00+09:00",
+      "endDate": "2026-08-16T11:00:00+09:00",
+      "prices": [
+        {
+          "label": "1 Day Ticket",
+          "amount": 19000
+        },
+        {
+          "label": "Platinum Ticket",
+          "amount": 31000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.summersonic.com/en/tickets/osaka/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ado_inkigayo_live_tokyo_2026",
+      "artistId": "ado",
+      "title": "INKIGAYO LIVE in TOKYO",
+      "startDate": "2026-09-23T18:00:00+09:00",
+      "endDate": "2026-09-23T18:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定 (単日券)",
+          "amount": 18000
+        },
+        {
+          "label": "VIP席アップグレード (単日券)",
+          "amount": 12000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://inkigayo-live.jp/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ado_event_2026",
+      "artistId": "ado",
+      "title": "Adoのドキドキ秘密基地有料会員様限定LIVE",
+      "startDate": "2026-10-24T00:00:00+09:00",
+      "endDate": "2026-10-25T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 15000
+        },
+        {
+          "label": "車椅子席",
+          "amount": 15000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.universal-music.co.jp/ado/news/2026-07-03-3/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "ado_summer_sonic_tokyo_2026",
+      "tourId": "ado_summer_sonic_tokyo",
+      "venue": "ZOZOマリンスタジアム＆幕張メッセ",
+      "performanceAt": "2026-08-15T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "Summer Sonic 2026",
+      "source": "system",
+      "sourceUrl": "https://www.summersonic.com/en/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ado_rock_in_japan_2026",
+      "tourId": "ado_rock_in_japan",
+      "venue": "千葉市蘇我スポーツ公園",
+      "performanceAt": "2026-09-21T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "Rock in Japan Festival 2026",
+      "source": "system",
+      "sourceUrl": "https://rijfes.jp/2026/home/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ado_summer_sonic_osaka_2026",
+      "tourId": "ado_summer_sonic_osaka",
+      "venue": "万博記念公園",
+      "performanceAt": "2026-08-16T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "Summer Sonic 2026",
+      "source": "system",
+      "sourceUrl": "https://www.summersonic.com/en/lineup/osaka-day3/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ado_inkigayo_live_tokyo_2026_0923",
+      "tourId": "ado_inkigayo_live_tokyo_2026",
+      "venue": "ベルーナドーム",
+      "performanceAt": "2026-09-23T18:00:00+09:00",
+      "doorOpenAt": "2026-09-23T16:00:00+09:00",
+      "kind": "fes",
+      "eventName": "INKIGAYO LIVE in TOKYO",
+      "source": "system",
+      "sourceUrl": "https://inkigayo-live.jp/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ado_event_2026_dokidoki_1024",
+      "tourId": "ado_event_2026",
+      "venue": "国立代々木競技場 第一体育館",
+      "performanceAt": "2026-10-24T17:00:00+09:00",
+      "doorOpenAt": "2026-10-24T15:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "Adoのドキドキ秘密基地有料会員様限定LIVE",
+      "source": "system",
+      "sourceUrl": "https://www.universal-music.co.jp/ado/news/2026-07-03-3/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ado_event_2026_dokidoki_1025",
+      "tourId": "ado_event_2026",
+      "venue": "国立代々木競技場 第一体育館",
+      "performanceAt": "2026-10-25T16:00:00+09:00",
+      "doorOpenAt": "2026-10-25T14:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "Adoのドキドキ秘密基地有料会員様限定LIVE",
+      "source": "system",
+      "sourceUrl": "https://www.universal-music.co.jp/ado/news/2026-07-03-3/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "ado_event_2026_fc",
+      "tourId": "ado_event_2026",
+      "type": "FC会員先行",
+      "entryStartAt": "2026-07-05T22:00:00+09:00",
+      "entryEndAt": "2026-07-26T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ado_event_2026_dokidoki_1024",
+        "ado_event_2026_dokidoki_1025"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.universal-music.co.jp/ado/news/2026-07-03-3/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ado_rock_in_japan_2026_preorder_1",
+      "tourId": "ado_rock_in_japan",
+      "type": "第1次抽選先行",
+      "entryStartAt": "2026-05-20T12:15:00+09:00",
+      "entryEndAt": "2026-05-26T16:00:00+09:00",
+      "resultAt": "2026-05-29T16:00:00+09:00",
+      "paymentStartAt": "2026-05-29T16:00:00+09:00",
+      "paymentEndAt": "2026-06-01T16:00:00+09:00",
+      "performanceIds": [
+        "ado_rock_in_japan_2026"
+      ],
+      "source": "system",
+      "sourceUrl": "https://rijfes.jp/2026/ticket/preorder01/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ado_rock_in_japan_2026_preorder_2",
+      "tourId": "ado_rock_in_japan",
+      "type": "第2次抽選先行",
+      "entryStartAt": "2026-06-03T12:15:00+09:00",
+      "entryEndAt": "2026-06-09T16:00:00+09:00",
+      "resultAt": "2026-06-12T16:00:00+09:00",
+      "paymentStartAt": "2026-06-12T16:00:00+09:00",
+      "paymentEndAt": "2026-06-15T16:00:00+09:00",
+      "performanceIds": [
+        "ado_rock_in_japan_2026"
+      ],
+      "source": "system",
+      "sourceUrl": "https://rijfes.jp/2026/ticket/preorder02/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ado_rock_in_japan_2026_preorder_3",
+      "tourId": "ado_rock_in_japan",
+      "type": "第3次抽選先行",
+      "entryStartAt": "2026-06-17T12:15:00+09:00",
+      "entryEndAt": "2026-06-23T16:00:00+09:00",
+      "resultAt": "2026-06-26T16:00:00+09:00",
+      "paymentStartAt": "2026-06-26T16:00:00+09:00",
+      "paymentEndAt": "2026-06-29T16:00:00+09:00",
+      "performanceIds": [
+        "ado_rock_in_japan_2026"
+      ],
+      "source": "system",
+      "sourceUrl": "https://rijfes.jp/2026/ticket/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ado_inkigayo_live_tokyo_2026_official_3",
+      "tourId": "ado_inkigayo_live_tokyo_2026",
+      "type": "オフィシャル3次先行",
+      "entryStartAt": "2026-08-07T17:00:00+09:00",
+      "entryEndAt": "2026-08-17T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ado_inkigayo_live_tokyo_2026_0923"
+      ],
+      "source": "system",
+      "sourceUrl": "https://inkigayo-live.jp/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ado_inkigayo_live_tokyo_2026_vip_upgrade",
+      "tourId": "ado_inkigayo_live_tokyo_2026",
+      "type": "VIP席アップグレード抽選",
+      "entryStartAt": "2026-08-05T18:00:00+09:00",
+      "entryEndAt": "2026-08-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ado_inkigayo_live_tokyo_2026_0923"
+      ],
+      "source": "system",
+      "sourceUrl": "https://inkigayo-live.jp/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "6793398196",
+      "title": "モンストロ",
+      "albumTitle": "モンストロ - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/47/73/89/477389a8-b095-2bbd-d3f3-301fb658ad4d/mzaf_2079844690053602476.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/aa/c4/ab/aac4ab69-4af5-db18-4ffd-0199ae43188c/26UMGIM92689.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1704093812",
+      "title": "唱",
+      "albumTitle": "唱 - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cb/3c/81/cb3c81aa-7e19-61a3-5aaa-fc521b81d27a/mzaf_7023121005511854955.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/80/e8/82/80e8826c-f877-9a74-0e7b-a142108feda0/23UMGIM92958.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1799216471",
+      "title": "わたしに花束",
+      "albumTitle": "わたしに花束 - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/50/19/4f/50194fc2-c96e-2e29-968d-1e45ac6f7c0b/mzaf_9269391638941738369.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/0d/4f/050d4fcb-ea6f-9d0a-1216-e17e38fc7aa4/25UMGIM33373.rgb.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

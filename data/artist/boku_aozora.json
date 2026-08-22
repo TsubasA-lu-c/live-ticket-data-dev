@@ -1,0 +1,177 @@
+{
+  "artistId": "boku_aozora",
+  "tours": [
+    {
+      "id": "boku_aozora_summer_fes_2026",
+      "artistId": "boku_aozora",
+      "title": "アオゾラサマーフェスティバル2026",
+      "startDate": "2026-08-30T00:00:00+09:00",
+      "endDate": "2026-08-30T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "プレミアムエリア",
+          "amount": 15000
+        },
+        {
+          "label": "僕青撮影部エリア",
+          "amount": 10000
+        },
+        {
+          "label": "一般エリア",
+          "amount": 8300
+        },
+        {
+          "label": "女性エリア",
+          "amount": 8300
+        },
+        {
+          "label": "ファミリーエリア",
+          "amount": 8300
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/news/detail/5661",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "boku_aozora_last_live_2026",
+      "artistId": "boku_aozora",
+      "title": "2026ラストライブ",
+      "startDate": "2026-12-14T00:00:00+09:00",
+      "endDate": "2026-12-14T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/news/detail/5455",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "boku_aozora_kazan_bousai_2026",
+      "artistId": "boku_aozora",
+      "title": "「火山防災の日」普及啓発イベント2026",
+      "startDate": "2026-08-22T00:00:00+09:00",
+      "endDate": "2026-08-22T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/news/detail/5587",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "boku_aozora_kana_radio_2026",
+      "artistId": "boku_aozora",
+      "title": "ニッポン放送『僕が見たかった青空 君と奏でるラジオ』公開収録 at MIURA FUN BEACH",
+      "startDate": "2026-08-09T00:00:00+09:00",
+      "endDate": "2026-08-09T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/schedule/detail/5537",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "boku_aozora_summer_fes_2026_toyosupit_0830",
+      "tourId": "boku_aozora_summer_fes_2026",
+      "venue": "豊洲PIT",
+      "performanceAt": "2026-08-30T17:00:00+09:00",
+      "doorOpenAt": "2026-08-30T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "アオゾラサマーフェスティバル2026",
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/news/detail/5661",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "boku_aozora_last_live_2026_kanadevia_1214",
+      "tourId": "boku_aozora_last_live_2026",
+      "venue": "Kanadevia Hall",
+      "performanceAt": "2026-12-14T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/news/detail/5455",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "boku_aozora_kazan_bousai_2026_event",
+      "tourId": "boku_aozora_kazan_bousai_2026",
+      "venue": null,
+      "performanceAt": "2026-08-22T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "塩釜菜那出演",
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/schedule/detail/5587",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "boku_aozora_kana_radio_2026_event",
+      "tourId": "boku_aozora_kana_radio_2026",
+      "venue": "三浦海岸特設ステージ",
+      "performanceAt": "2026-08-09T15:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ニッポン放送『僕が見たかった青空 君と奏でるラジオ』公開収録 at MIURA FUN BEACH",
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/schedule/detail/5537",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "boku_aozora_summer_fes_2026_fc",
+      "tourId": "boku_aozora_summer_fes_2026",
+      "type": "FC先行",
+      "entryStartAt": "2026-06-20T19:00:00+09:00",
+      "entryEndAt": "2026-06-28T23:59:00+09:00",
+      "resultAt": "2026-07-03T12:00:00+09:00",
+      "paymentStartAt": "2026-07-03T12:00:00+09:00",
+      "paymentEndAt": "2026-07-06T23:59:00+09:00",
+      "performanceIds": [
+        "boku_aozora_summer_fes_2026_toyosupit_0830"
+      ],
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/news/detail/5405",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "boku_aozora_summer_fes_2026_general",
+      "tourId": "boku_aozora_summer_fes_2026",
+      "type": "一般先行",
+      "entryStartAt": "2026-08-08T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "boku_aozora_summer_fes_2026_toyosupit_0830"
+      ],
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/news/detail/5661",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "6767154107",
+      "title": "FUNKY SUMMER",
+      "albumTitle": "FUNKY SUMMER (Special Edition) - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1b/e8/ae/1be8aeed-c0ab-2fce-6038-cf9cc4bb438d/mzaf_16818314388345718872.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/95/43/cd/9543cdc2-f507-44f0-5e97-76175ad638a4/ANTCD-A0000020052.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1694252176",
+      "title": "青空について考える",
+      "albumTitle": "青空について考える - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/dc/85/11/dc8511d8-98a2-7141-d375-ae203b7cb978/mzaf_3965499044144084393.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/5d/6f/b3/5d6fb3a2-d871-8d90-04c1-ba2fe637fbe3/ANTCD-A0000010717.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1770246150",
+      "title": "空色の水しぶき",
+      "albumTitle": "空色の水しぶき - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0b/4c/82/0b4c828d-01f9-0a63-522f-95ef51422b7d/mzaf_4348555399158745595.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/3d/81/c53d81ce-b57f-793b-9981-4ad543030f50/ANTCD-A0000014658.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

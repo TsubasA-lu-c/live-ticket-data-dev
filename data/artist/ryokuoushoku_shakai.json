@@ -1,0 +1,661 @@
+{
+  "artistId": "ryokuoushoku_shakai",
+  "tours": [
+    {
+      "id": "ryokuoushoku_shakai_arena_2026",
+      "artistId": "ryokuoushoku_shakai",
+      "title": "ARENA TOUR 2026 \"あたまご\"",
+      "startDate": "2026-09-19T00:00:00+09:00",
+      "endDate": "2026-12-06T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席（一般）",
+          "amount": 11000
+        },
+        {
+          "label": "指定席（学割）",
+          "amount": 9000
+        },
+        {
+          "label": "親子席（親）",
+          "amount": 11000
+        },
+        {
+          "label": "親子席（子）",
+          "amount": 8000
+        },
+        {
+          "label": "プレミアムラウンジ付BOXシート",
+          "amount": 15000
+        },
+        {
+          "label": "プレミアムラウンジ付シート",
+          "amount": 14000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.ryokushaka.com/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_event_802_otoyasai_2026",
+      "artistId": "ryokuoushoku_shakai",
+      "title": "FM802 802 緑黄色音夜祭 〜the birth of あたまご〜 公開収録",
+      "startDate": "2026-08-23T00:00:00+09:00",
+      "endDate": "2026-08-23T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://funky802.com/site/pickup_detail/8299",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_chiba_0919",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "venue": "LaLa arena TOKYO-BAY",
+      "performanceAt": "2026-09-19T18:00:00+09:00",
+      "doorOpenAt": "2026-09-19T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.ryokushaka.com/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_chiba_0920",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "venue": "LaLa arena TOKYO-BAY",
+      "performanceAt": "2026-09-20T16:00:00+09:00",
+      "doorOpenAt": "2026-09-20T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.ryokushaka.com/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_fukuoka_1010",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "venue": "マリンメッセ福岡A館",
+      "performanceAt": "2026-10-10T18:00:00+09:00",
+      "doorOpenAt": "2026-10-10T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.ryokushaka.com/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_fukuoka_1011",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "venue": "マリンメッセ福岡A館",
+      "performanceAt": "2026-10-11T16:00:00+09:00",
+      "doorOpenAt": "2026-10-11T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.ryokushaka.com/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_osaka_1023",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-10-23T19:00:00+09:00",
+      "doorOpenAt": "2026-10-23T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://kyodo-osaka.co.jp/search/detail/12737",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_osaka_1024",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-10-24T16:00:00+09:00",
+      "doorOpenAt": "2026-10-24T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://kyodo-osaka.co.jp/search/detail/12737",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_aichi_1113",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "venue": "IGアリーナ",
+      "performanceAt": "2026-11-13T19:00:00+09:00",
+      "doorOpenAt": "2026-11-13T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.ryokushaka.com/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_aichi_1114",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "venue": "IGアリーナ",
+      "performanceAt": "2026-11-14T16:00:00+09:00",
+      "doorOpenAt": "2026-11-14T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.ryokushaka.com/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_kanagawa_1205",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-12-05T18:00:00+09:00",
+      "doorOpenAt": "2026-12-05T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.ryokushaka.com/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_kanagawa_1206",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-12-06T16:00:00+09:00",
+      "doorOpenAt": "2026-12-06T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.ryokushaka.com/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_event_802_otoyasai_2026_nishinomiya_0823",
+      "tourId": "ryokuoushoku_shakai_event_802_otoyasai_2026",
+      "venue": "阪急西宮ガーデンズ本館4階 スカイガーデン 木の葉のステージ",
+      "performanceAt": "2026-08-23T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "FM802 802 緑黄色音夜祭 〜the birth of あたまご〜 公開収録",
+      "source": "system",
+      "sourceUrl": "https://funky802.com/site/pickup_detail/8299",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_fc_longterm",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "type": "オフィシャルFC milestone 長期会員チケット先行",
+      "entryStartAt": "2026-03-10T21:30:00+09:00",
+      "entryEndAt": "2026-03-22T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://www.ryokushaka.com/news/archive/?581667",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_fc",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "type": "オフィシャルFC milestone 長期・通常会員チケット先行",
+      "entryStartAt": "2026-03-25T21:30:00+09:00",
+      "entryEndAt": "2026-04-05T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://www.ryokushaka.com/news/archive/?581667",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_fc_2nd",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "type": "オフィシャルFC milestone 長期・通常会員チケット2次先行",
+      "entryStartAt": "2026-04-08T19:00:00+09:00",
+      "entryEndAt": "2026-04-19T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://www.ryokushaka.com/news/archive/?581667",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_official",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "type": "チケットぴあ オフィシャル先行",
+      "entryStartAt": "2026-04-22T19:00:00+09:00",
+      "entryEndAt": "2026-05-06T23:59:00+09:00",
+      "resultAt": "2026-05-12T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://t.pia.jp/pia/ticketInformation.do?lotRlsCd=08683",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_official_2nd",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "type": "チケットぴあ オフィシャル2次先行",
+      "entryStartAt": "2026-05-13T19:00:00+09:00",
+      "entryEndAt": "2026-05-24T23:59:00+09:00",
+      "resultAt": "2026-05-28T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://t.pia.jp/pia/ticketInformation.do?lotRlsCd=15361",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_pia_ichihaya",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "type": "チケットぴあ いち早プレリザーブ",
+      "entryStartAt": "2026-05-27T19:00:00+09:00",
+      "entryEndAt": "2026-05-31T23:59:00+09:00",
+      "resultAt": "2026-06-03T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://t.pia.jp/pia/ticketInformation.do?lotRlsCd=75301",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_pia_fastest",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "type": "チケットぴあ ぴあ最速先行",
+      "entryStartAt": "2026-05-29T19:00:00+09:00",
+      "entryEndAt": "2026-06-07T23:59:00+09:00",
+      "resultAt": "2026-06-11T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://t.pia.jp/pia/ticketInformation.do?lotRlsCd=89362",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_pia_prereserve_2nd",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "type": "チケットぴあ プレリザーブ2次先行",
+      "entryStartAt": "2026-06-19T19:00:00+09:00",
+      "entryEndAt": "2026-06-29T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://www.ryokushaka.com/news/archive/?584370",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_pia_prereserve_3rd",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "type": "チケットぴあ プレリザーブ3次先行",
+      "entryStartAt": "2026-07-03T19:00:00+09:00",
+      "entryEndAt": "2026-07-12T23:59:00+09:00",
+      "resultAt": "2026-07-17T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://t.pia.jp/pia/ticketInformation.do?lotRlsCd=16887",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_dcard_aichi",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "type": "愛知公演 dカード会員先行抽選",
+      "entryStartAt": "2026-05-08T18:00:00+09:00",
+      "entryEndAt": "2026-05-20T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ryokuoushoku_shakai_arena_2026_aichi_1113"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ig-arena.venue-ticket.jp/event/venue/261113RSAA01",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_dpoint_aichi",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "type": "愛知公演 dポイントクラブ会員先行抽選",
+      "entryStartAt": "2026-05-25T18:00:00+09:00",
+      "entryEndAt": "2026-06-10T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ryokuoushoku_shakai_arena_2026_aichi_1113"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ig-arena.venue-ticket.jp/event/venue/261113RSAA01",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_dticket_general_aichi",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "type": "愛知公演 d ticket一般先着販売（プレミアムラウンジ付シート）",
+      "entryStartAt": "2026-06-26T18:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ryokuoushoku_shakai_arena_2026_aichi_1113"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ig-arena.venue-ticket.jp/event/venue/261113RSAA01",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_pia_first_kanto",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "type": "チケットぴあ ぴあ先行（関東）",
+      "entryStartAt": null,
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ryokuoushoku_shakai_arena_2026_chiba_0919",
+        "ryokuoushoku_shakai_arena_2026_chiba_0920",
+        "ryokuoushoku_shakai_arena_2026_kanagawa_1205",
+        "ryokuoushoku_shakai_arena_2026_kanagawa_1206"
+      ],
+      "source": "system",
+      "sourceUrl": "https://t.pia.jp/pia/ticketInformation.do?lotRlsCd=23871",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_pia_first_fukuoka",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "type": "チケットぴあ ぴあ先行（福岡）",
+      "entryStartAt": null,
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ryokuoushoku_shakai_arena_2026_fukuoka_1010",
+        "ryokuoushoku_shakai_arena_2026_fukuoka_1011"
+      ],
+      "source": "system",
+      "sourceUrl": "https://t.pia.jp/pia/ticketInformation.do?lotRlsCd=22528",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_pia_first_osaka",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "type": "チケットぴあ ぴあ先行（大阪）",
+      "entryStartAt": null,
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ryokuoushoku_shakai_arena_2026_osaka_1023",
+        "ryokuoushoku_shakai_arena_2026_osaka_1024"
+      ],
+      "source": "system",
+      "sourceUrl": "https://t.pia.jp/pia/ticketInformation.do?lotRlsCd=22539",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_pia_first_aichi",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "type": "チケットぴあ ぴあ先行（愛知）",
+      "entryStartAt": null,
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ryokuoushoku_shakai_arena_2026_aichi_1113",
+        "ryokuoushoku_shakai_arena_2026_aichi_1114"
+      ],
+      "source": "system",
+      "sourceUrl": "https://t.pia.jp/pia/ticketInformation.do?lotRlsCd=22546",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_pia_2nd_kanto",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "type": "チケットぴあ 2次先行（関東）",
+      "entryStartAt": "2026-07-29T10:00:00+09:00",
+      "entryEndAt": "2026-08-09T23:59:00+09:00",
+      "resultAt": "2026-08-11T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ryokuoushoku_shakai_arena_2026_chiba_0919",
+        "ryokuoushoku_shakai_arena_2026_chiba_0920",
+        "ryokuoushoku_shakai_arena_2026_kanagawa_1205",
+        "ryokuoushoku_shakai_arena_2026_kanagawa_1206"
+      ],
+      "source": "system",
+      "sourceUrl": "https://t.pia.jp/pia/ticketInformation.do?lotRlsCd=30913",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_pia_2nd_fukuoka",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "type": "チケットぴあ 2次先行（福岡）",
+      "entryStartAt": "2026-07-29T10:00:00+09:00",
+      "entryEndAt": "2026-08-09T23:59:00+09:00",
+      "resultAt": "2026-08-11T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ryokuoushoku_shakai_arena_2026_fukuoka_1010",
+        "ryokuoushoku_shakai_arena_2026_fukuoka_1011"
+      ],
+      "source": "system",
+      "sourceUrl": "https://t.pia.jp/pia/ticketInformation.do?lotRlsCd=89476",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_pia_2nd_osaka",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "type": "チケットぴあ 2次先行（大阪）",
+      "entryStartAt": "2026-07-29T10:00:00+09:00",
+      "entryEndAt": "2026-08-09T23:59:00+09:00",
+      "resultAt": "2026-08-11T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ryokuoushoku_shakai_arena_2026_osaka_1023",
+        "ryokuoushoku_shakai_arena_2026_osaka_1024"
+      ],
+      "source": "system",
+      "sourceUrl": "https://t.pia.jp/pia/ticketInformation.do?lotRlsCd=89531",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_pia_2nd_aichi",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "type": "チケットぴあ 2次先行（愛知）",
+      "entryStartAt": "2026-07-29T10:00:00+09:00",
+      "entryEndAt": "2026-08-09T23:59:00+09:00",
+      "resultAt": "2026-08-11T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ryokuoushoku_shakai_arena_2026_aichi_1113",
+        "ryokuoushoku_shakai_arena_2026_aichi_1114"
+      ],
+      "source": "system",
+      "sourceUrl": "https://t.pia.jp/pia/ticketInformation.do?lotRlsCd=89681",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_lawson_fukuoka",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "type": "ローチケ プレリク先行（福岡）",
+      "entryStartAt": "2026-07-31T12:00:00+09:00",
+      "entryEndAt": "2026-08-11T23:59:00+09:00",
+      "resultAt": "2026-08-14T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ryokuoushoku_shakai_arena_2026_fukuoka_1010",
+        "ryokuoushoku_shakai_arena_2026_fukuoka_1011"
+      ],
+      "source": "system",
+      "sourceUrl": "https://l-tike.com/order/?gLcode=83536",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_lawson_osaka",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "type": "ローチケ プレリク先行（大阪）",
+      "entryStartAt": "2026-08-07T12:00:00+09:00",
+      "entryEndAt": "2026-08-17T23:59:00+09:00",
+      "resultAt": "2026-08-20T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ryokuoushoku_shakai_arena_2026_osaka_1023",
+        "ryokuoushoku_shakai_arena_2026_osaka_1024"
+      ],
+      "source": "system",
+      "sourceUrl": "https://l-tike.com/order/?gLcode=55834",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_lawson_aichi",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "type": "ローチケ プレリク先行（愛知）",
+      "entryStartAt": "2026-07-31T12:00:00+09:00",
+      "entryEndAt": "2026-08-11T23:59:00+09:00",
+      "resultAt": "2026-08-14T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ryokuoushoku_shakai_arena_2026_aichi_1113",
+        "ryokuoushoku_shakai_arena_2026_aichi_1114"
+      ],
+      "source": "system",
+      "sourceUrl": "https://l-tike.com/order/?gLcode=43003",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_eplus_chiba",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "type": "イープラス 2次プレオーダー受付（千葉）",
+      "entryStartAt": "2026-08-02T12:00:00+09:00",
+      "entryEndAt": "2026-08-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ryokuoushoku_shakai_arena_2026_chiba_0919",
+        "ryokuoushoku_shakai_arena_2026_chiba_0920"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/2314540001?P6=001&P1=0402&P59=1",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_eplus_fukuoka",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "type": "イープラス 最終プレオーダー受付（福岡）",
+      "entryStartAt": "2026-08-08T12:00:00+09:00",
+      "entryEndAt": "2026-08-20T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ryokuoushoku_shakai_arena_2026_fukuoka_1010",
+        "ryokuoushoku_shakai_arena_2026_fukuoka_1011"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/2314540001?P6=001&P1=0402&P59=1",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_eplus_osaka",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "type": "イープラス 2次プレオーダー受付（大阪）",
+      "entryStartAt": "2026-07-30T12:00:00+09:00",
+      "entryEndAt": "2026-08-11T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ryokuoushoku_shakai_arena_2026_osaka_1023",
+        "ryokuoushoku_shakai_arena_2026_osaka_1024"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/2314540001?P6=001&P1=0402&P59=1",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_eplus_aichi",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "type": "イープラス 2次プレオーダー受付（愛知）",
+      "entryStartAt": "2026-08-01T12:00:00+09:00",
+      "entryEndAt": "2026-08-12T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ryokuoushoku_shakai_arena_2026_aichi_1113",
+        "ryokuoushoku_shakai_arena_2026_aichi_1114"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/2314540001?P6=001&P1=0402&P59=1",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_arena_2026_eplus_kanagawa",
+      "tourId": "ryokuoushoku_shakai_arena_2026",
+      "type": "イープラス 2次プレオーダー受付（神奈川）",
+      "entryStartAt": "2026-08-02T12:00:00+09:00",
+      "entryEndAt": "2026-08-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ryokuoushoku_shakai_arena_2026_kanagawa_1205",
+        "ryokuoushoku_shakai_arena_2026_kanagawa_1206"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/2314540001?P6=001&P1=0402&P59=1",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1538137547",
+      "title": "Mela!",
+      "albumTitle": "SINGALONG",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a4/8d/58/a48d587d-4c13-9322-ef65-3ec75094f22a/mzaf_5132371213939610619.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0c/f9/eb/0cf9eb76-63b7-820d-6756-7e693e114b45/jacket_ESCL05378B00Z_550.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1697302630",
+      "title": "サマータイムシンデレラ",
+      "albumTitle": "サマータイムシンデレラ - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/03/6d/73/036d7376-1eac-7d8d-cc35-1fcfb54efe3e/mzaf_14479029491220762820.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ae/04/a9/ae04a9e4-52a5-3676-efa3-a73c1b741a4e/4547366636147.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "6792312145",
+      "title": "晴々",
+      "albumTitle": "晴々 - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1a/f5/71/1af57124-b992-7872-1f33-6292d93662e5/mzaf_17350901779353130123.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/50/e2/da/50e2da6e-251a-5026-3c39-31717d17dba8/4547366839784.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

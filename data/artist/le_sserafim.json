@@ -1,0 +1,407 @@
+{
+  "artistId": "le_sserafim",
+  "tours": [
+    {
+      "id": "le_sserafim_pureflow_2026",
+      "artistId": "le_sserafim",
+      "title": "2026 LE SSERAFIM TOUR 'PUREFLOW' IN JAPAN",
+      "startDate": "2026-07-25T00:00:00+09:00",
+      "endDate": "2026-09-03T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 16500
+        },
+        {
+          "label": "VIP席",
+          "amount": 27500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/news/51726af4dd90",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_fes_summer_sonic_2026",
+      "artistId": "le_sserafim",
+      "title": "SUMMER SONIC 2026",
+      "startDate": "2026-08-14T00:00:00+09:00",
+      "endDate": "2026-08-16T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "大阪1DAYチケット",
+          "amount": 19000
+        },
+        {
+          "label": "東京1DAYチケット",
+          "amount": 21000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.summersonic.com/",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "le_sserafim_pureflow_2026_osaka_0725",
+      "tourId": "le_sserafim_pureflow_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-07-25T18:00:00+09:00",
+      "doorOpenAt": "2026-07-25T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/news/51726af4dd90",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_pureflow_2026_osaka_0726",
+      "tourId": "le_sserafim_pureflow_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-07-26T16:00:00+09:00",
+      "doorOpenAt": "2026-07-26T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/news/51726af4dd90",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_pureflow_2026_yokohama_0730",
+      "tourId": "le_sserafim_pureflow_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-07-30T18:30:00+09:00",
+      "doorOpenAt": "2026-07-30T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/news/51726af4dd90",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_pureflow_2026_yokohama_0801",
+      "tourId": "le_sserafim_pureflow_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-08-01T18:00:00+09:00",
+      "doorOpenAt": "2026-08-01T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/news/51726af4dd90",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_pureflow_2026_yokohama_0802",
+      "tourId": "le_sserafim_pureflow_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-08-02T16:00:00+09:00",
+      "doorOpenAt": "2026-08-02T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/news/51726af4dd90",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_pureflow_2026_shizuoka_0808",
+      "tourId": "le_sserafim_pureflow_2026",
+      "venue": "エコパアリーナ",
+      "performanceAt": "2026-08-08T18:00:00+09:00",
+      "doorOpenAt": "2026-08-08T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/news/51726af4dd90",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_pureflow_2026_shizuoka_0809",
+      "tourId": "le_sserafim_pureflow_2026",
+      "venue": "エコパアリーナ",
+      "performanceAt": "2026-08-09T16:00:00+09:00",
+      "doorOpenAt": "2026-08-09T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/schedule/b0d0a8482d26",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_pureflow_2026_miyagi_0818",
+      "tourId": "le_sserafim_pureflow_2026",
+      "venue": "セキスイハイムスーパーアリーナ",
+      "performanceAt": "2026-08-18T18:00:00+09:00",
+      "doorOpenAt": "2026-08-18T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/schedule/d92459ce0aa3",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_pureflow_2026_miyagi_0819",
+      "tourId": "le_sserafim_pureflow_2026",
+      "venue": "セキスイハイムスーパーアリーナ",
+      "performanceAt": "2026-08-19T18:00:00+09:00",
+      "doorOpenAt": "2026-08-19T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/schedule/1fc6d0d187f5",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_pureflow_2026_fukuoka_0902",
+      "tourId": "le_sserafim_pureflow_2026",
+      "venue": "マリンメッセ福岡Aホール",
+      "performanceAt": "2026-09-02T18:30:00+09:00",
+      "doorOpenAt": "2026-09-02T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/schedule/2d80a4a36ff6",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_pureflow_2026_fukuoka_0903",
+      "tourId": "le_sserafim_pureflow_2026",
+      "venue": "マリンメッセ福岡Aホール",
+      "performanceAt": "2026-09-03T18:30:00+09:00",
+      "doorOpenAt": "2026-09-03T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/schedule/99e18e89321a",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_fes_summer_sonic_2026_osaka_0814",
+      "tourId": "le_sserafim_fes_summer_sonic_2026",
+      "venue": "万博記念公園",
+      "performanceAt": "2026-08-14T11:00:00+09:00",
+      "doorOpenAt": "2026-08-14T10:00:00+09:00",
+      "kind": "fes",
+      "eventName": "SUMMER SONIC 2026",
+      "source": "system",
+      "sourceUrl": "https://www.summersonic.com/info/osaka/",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
+    },
+    {
+      "id": "le_sserafim_fes_summer_sonic_2026_tokyo_0816",
+      "tourId": "le_sserafim_fes_summer_sonic_2026",
+      "venue": "ZOZOマリンスタジアム＆幕張メッセ",
+      "performanceAt": "2026-08-16T11:00:00+09:00",
+      "doorOpenAt": "2026-08-16T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "SUMMER SONIC 2026",
+      "source": "system",
+      "sourceUrl": "https://www.summersonic.com/info/tokyo/",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "le_sserafim_pureflow_2026_fearnot",
+      "tourId": "le_sserafim_pureflow_2026",
+      "type": "FEARNOT Membership (JP)会員先行抽選",
+      "entryStartAt": "2026-04-28T13:00:00+09:00",
+      "entryEndAt": "2026-05-06T23:59:00+09:00",
+      "resultAt": "2026-05-15T19:00:00+09:00",
+      "paymentStartAt": "2026-05-15T19:00:00+09:00",
+      "paymentEndAt": "2026-05-20T23:00:00+09:00",
+      "performanceIds": [
+        "le_sserafim_pureflow_2026_osaka_0725",
+        "le_sserafim_pureflow_2026_osaka_0726",
+        "le_sserafim_pureflow_2026_yokohama_0730",
+        "le_sserafim_pureflow_2026_yokohama_0801",
+        "le_sserafim_pureflow_2026_yokohama_0802",
+        "le_sserafim_pureflow_2026_shizuoka_0808",
+        "le_sserafim_pureflow_2026_shizuoka_0809",
+        "le_sserafim_pureflow_2026_miyagi_0818",
+        "le_sserafim_pureflow_2026_miyagi_0819",
+        "le_sserafim_pureflow_2026_fukuoka_0902",
+        "le_sserafim_pureflow_2026_fukuoka_0903"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/news/51726af4dd90",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_pureflow_2026_lawson",
+      "tourId": "le_sserafim_pureflow_2026",
+      "type": "ローソンチケット先行抽選",
+      "entryStartAt": "2026-05-22T17:00:00+09:00",
+      "entryEndAt": "2026-06-01T23:59:00+09:00",
+      "resultAt": "2026-06-05T11:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "le_sserafim_pureflow_2026_osaka_0725",
+        "le_sserafim_pureflow_2026_osaka_0726",
+        "le_sserafim_pureflow_2026_yokohama_0730",
+        "le_sserafim_pureflow_2026_yokohama_0801",
+        "le_sserafim_pureflow_2026_yokohama_0802",
+        "le_sserafim_pureflow_2026_shizuoka_0808",
+        "le_sserafim_pureflow_2026_shizuoka_0809",
+        "le_sserafim_pureflow_2026_miyagi_0818",
+        "le_sserafim_pureflow_2026_miyagi_0819",
+        "le_sserafim_pureflow_2026_fukuoka_0902",
+        "le_sserafim_pureflow_2026_fukuoka_0903"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/news/feaecc1349e6",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_pureflow_2026_fearnot_2nd",
+      "tourId": "le_sserafim_pureflow_2026",
+      "type": "FEARNOT Membership (JP)会員2次先行抽選",
+      "entryStartAt": "2026-05-15T20:00:00+09:00",
+      "entryEndAt": "2026-05-21T23:59:00+09:00",
+      "resultAt": "2026-05-29T11:00:00+09:00",
+      "paymentStartAt": "2026-05-29T11:00:00+09:00",
+      "paymentEndAt": "2026-06-01T23:00:00+09:00",
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/news/4e35edbb9256",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_pureflow_2026_vip_upgrade_1st",
+      "tourId": "le_sserafim_pureflow_2026",
+      "type": "FEARNOT Membership (JP)会員VIP席アップグレード抽選",
+      "entryStartAt": "2026-05-26T17:00:00+09:00",
+      "entryEndAt": "2026-06-01T23:59:00+09:00",
+      "resultAt": "2026-06-09T19:00:00+09:00",
+      "paymentStartAt": "2026-06-09T19:00:00+09:00",
+      "paymentEndAt": "2026-06-14T23:00:00+09:00",
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/ticket/a8689d37f798",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_pureflow_2026_vip_upgrade_2nd",
+      "tourId": "le_sserafim_pureflow_2026",
+      "type": "FEARNOT Membership (JP)会員VIP席アップグレード2次抽選",
+      "entryStartAt": "2026-06-19T17:00:00+09:00",
+      "entryEndAt": "2026-06-24T23:59:00+09:00",
+      "resultAt": "2026-07-02T19:00:00+09:00",
+      "paymentStartAt": "2026-07-02T19:00:00+09:00",
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/ticket/fc2159fbb8be",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_pureflow_2026_vip_upgrade_final",
+      "tourId": "le_sserafim_pureflow_2026",
+      "type": "FEARNOT Membership (JP)会員VIP席アップグレード最終抽選",
+      "entryStartAt": "2026-07-08T13:00:00+09:00",
+      "entryEndAt": "2026-07-09T23:59:00+09:00",
+      "resultAt": "2026-07-16T11:00:00+09:00",
+      "paymentStartAt": "2026-07-16T11:00:00+09:00",
+      "paymentEndAt": null,
+      "performanceIds": [
+        "le_sserafim_pureflow_2026_shizuoka_0808",
+        "le_sserafim_pureflow_2026_shizuoka_0809",
+        "le_sserafim_pureflow_2026_miyagi_0818",
+        "le_sserafim_pureflow_2026_miyagi_0819",
+        "le_sserafim_pureflow_2026_fukuoka_0902",
+        "le_sserafim_pureflow_2026_fukuoka_0903"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/news/97a64f98ea43",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_fes_summer_sonic_2026_osaka_morning_1st",
+      "tourId": "le_sserafim_fes_summer_sonic_2026",
+      "type": "朝イチ整理券 第1弾抽選",
+      "entryStartAt": "2026-07-21T12:00:00+09:00",
+      "entryEndAt": "2026-07-27T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "le_sserafim_fes_summer_sonic_2026_osaka_0814"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.summersonic.com/tickets/osaka/",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_fes_summer_sonic_2026_osaka_morning_2nd",
+      "tourId": "le_sserafim_fes_summer_sonic_2026",
+      "type": "朝イチ整理券 第2弾抽選",
+      "entryStartAt": "2026-07-28T12:00:00+09:00",
+      "entryEndAt": "2026-08-03T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "le_sserafim_fes_summer_sonic_2026_osaka_0814"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.summersonic.com/tickets/osaka/",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_fes_summer_sonic_2026_tokyo_morning_1st",
+      "tourId": "le_sserafim_fes_summer_sonic_2026",
+      "type": "朝イチ整理券 第1弾抽選",
+      "entryStartAt": "2026-07-21T12:00:00+09:00",
+      "entryEndAt": "2026-07-27T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "le_sserafim_fes_summer_sonic_2026_tokyo_0816"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.summersonic.com/tickets/tokyo/",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_fes_summer_sonic_2026_tokyo_morning_2nd",
+      "tourId": "le_sserafim_fes_summer_sonic_2026",
+      "type": "朝イチ整理券 第2弾抽選",
+      "entryStartAt": "2026-07-28T12:00:00+09:00",
+      "entryEndAt": "2026-08-03T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "le_sserafim_fes_summer_sonic_2026_tokyo_0816"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.summersonic.com/tickets/tokyo/",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "6778424463",
+      "title": "ICONIC BY MISTAKE",
+      "albumTitle": "ICONIC BY MISTAKE - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/84/b0/5e/84b05e09-9f38-d05e-1133-fd30426a20a0/mzaf_15715943295828008397.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/d8/15/b9d81577-7d70-6025-2b05-2fe590362a27/26UMGIM74077.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "6771246547",
+      "title": "BOOMPALA",
+      "albumTitle": "'PUREFLOW' pt.1",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/20/4d/e9/204de903-4ade-df4c-dc54-b9096a06309d/mzaf_5472840219907020100.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/db/4f/2c/db4f2c45-0a0e-c5f3-8a98-31d15873aeec/26UMGIM65750.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1846552464",
+      "title": "SPAGHETTI (feat. j-hope)",
+      "albumTitle": "SPAGHETTI",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8c/ba/c9/8cbac921-7d0f-0dd7-a5bb-911cb34b6a90/mzaf_6904970687936020156.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e8/67/8e/e8678e2e-4f5e-929f-e21f-5496eb6dd566/25UM1IM66854.rgb.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "artistId": "koda_kumi",
+  "tours": [],
+  "performances": [],
+  "lotteries": [],
+  "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+  "appleMusicTracks": [
+    {
+      "songId": "1144876233",
+      "title": "愛のうた",
+      "albumTitle": "Kingdom",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/44/e8/f4/44e8f4f1-cc8c-6e16-8997-2f5ab540e365/mzaf_12771030240578127271.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0b/21/cd/0b21cd1b-a1b3-3e79-fe38-dae2ec51449d/ANTCD-18819.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "272239501",
+      "title": "you",
+      "albumTitle": "BEST~second session~",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/92/12/75/921275ba-3ef4-6c0e-8a87-0b999444995c/mzaf_2384649305108634981.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/ad/d9/3e/mzi.dtozfhjo.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "291497231",
+      "title": "Moon Crying",
+      "albumTitle": "MOON",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/35/12/f6/3512f60f-ff1d-a288-1e8b-e32d4bb7837e/mzaf_13802736764101226745.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/94/7b/ec/mzi.pszddcuq.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

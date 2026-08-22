@@ -1,0 +1,830 @@
+{
+  "artistId": "iris",
+  "tours": [
+    {
+      "id": "iris_14th_anniversary_live_2026",
+      "artistId": "iris",
+      "title": "i☆Ris 14th Anniversary Live",
+      "startDate": "2026-11-03T00:00:00+09:00",
+      "endDate": "2026-11-03T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 11000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133209",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_fes_2026_nagano",
+      "artistId": "iris",
+      "title": "ナガノアニエラフェスタ2026",
+      "startDate": "2026-09-20T12:00:00+09:00",
+      "endDate": "2026-09-20T12:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133416",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_wakaii_yuki_live_tour_2026",
+      "artistId": "iris",
+      "title": "友希 LIVE TOUR 2026 \"NO SHOW, NO ME\"",
+      "startDate": "2026-08-02T00:00:00+09:00",
+      "endDate": "2026-10-10T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "スタンディング（8/2〜9/27）",
+          "amount": 8000
+        },
+        {
+          "label": "全席指定（10/10）",
+          "amount": 8800
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_yu_serizawa_6th_live_tour_2026",
+      "artistId": "iris",
+      "title": "Yu Serizawa 6th Live Tour 2026-2027",
+      "startDate": "2026-12-06T00:00:00+09:00",
+      "endDate": "2027-02-14T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "スタンディング（大阪〜愛知）",
+          "amount": 8000
+        },
+        {
+          "label": "全席指定（東京）",
+          "amount": 8800
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133054",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_saki_yamakita_summer_night_club_2026",
+      "artistId": "iris",
+      "title": "サキサマーナイトクラブ ～山北早紀の日、略して”山の日”～",
+      "startDate": "2026-08-11T00:00:00+09:00",
+      "endDate": "2026-08-11T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "チケット",
+          "amount": 5000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133916",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_saki_yamakita_our_stories_2026",
+      "artistId": "iris",
+      "title": "劇団CATMINT第23回公演『Our Stories』",
+      "startDate": "2026-09-02T00:00:00+09:00",
+      "endDate": "2026-09-05T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "S席（前方4列）",
+          "amount": 9800
+        },
+        {
+          "label": "A席",
+          "amount": 7800
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1134894",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_miyu_kubota_fan_meeting_seoul_2026",
+      "artistId": "iris",
+      "title": "Miyu Kubota Fan Meeting in Seoul",
+      "startDate": "2026-09-05T00:00:00+09:00",
+      "endDate": "2026-09-05T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1135228",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_choginjo_fes_2026",
+      "artistId": "iris",
+      "title": "超吟醸祭2026",
+      "startDate": "2026-10-17T00:00:00+09:00",
+      "endDate": "2026-10-17T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "通常チケット",
+          "amount": 4980
+        },
+        {
+          "label": "プレミアムチケット",
+          "amount": 7980
+        },
+        {
+          "label": "2Daysチケット",
+          "amount": 8980
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1134477",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_fes_tif_2026",
+      "artistId": "iris",
+      "title": "TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック",
+      "startDate": "2026-08-01T00:00:00+09:00",
+      "endDate": "2026-08-01T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1132684",
+      "lastVerifiedAt": "2026-08-17T22:45:00+09:00"
+    },
+    {
+      "id": "iris_welcome_azatosa_release_event_2026_0808",
+      "artistId": "iris",
+      "title": "「Welcome to あざとさワールド」発売記念リリースイベント（8/8東京）",
+      "startDate": "2026-08-08T00:00:00+09:00",
+      "endDate": "2026-08-08T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133396",
+      "lastVerifiedAt": "2026-08-17T22:45:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "iris_14th_anniversary_live_2026_yokohama_1103",
+      "tourId": "iris_14th_anniversary_live_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-11-03T18:00:00+09:00",
+      "doorOpenAt": "2026-11-03T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133209",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_fes_2026_nagano_0920",
+      "tourId": "iris_fes_2026_nagano",
+      "venue": "駒場公園",
+      "performanceAt": "2026-09-20T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "ナガノアニエラフェスタ2026",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133416",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_wakaii_yuki_live_tour_2026_miyagi_0802_day",
+      "tourId": "iris_wakaii_yuki_live_tour_2026",
+      "venue": "enn 3rd",
+      "performanceAt": "2026-08-02T14:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "友希 LIVE TOUR 2026 \"NO SHOW, NO ME\"",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_wakaii_yuki_live_tour_2026_miyagi_0802_night",
+      "tourId": "iris_wakaii_yuki_live_tour_2026",
+      "venue": "enn 3rd",
+      "performanceAt": "2026-08-02T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "友希 LIVE TOUR 2026 \"NO SHOW, NO ME\"",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_wakaii_yuki_live_tour_2026_fukuoka_0815_day",
+      "tourId": "iris_wakaii_yuki_live_tour_2026",
+      "venue": "DRUM SON",
+      "performanceAt": "2026-08-15T14:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "友希 LIVE TOUR 2026 \"NO SHOW, NO ME\"",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_wakaii_yuki_live_tour_2026_fukuoka_0815_night",
+      "tourId": "iris_wakaii_yuki_live_tour_2026",
+      "venue": "DRUM SON",
+      "performanceAt": "2026-08-15T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "友希 LIVE TOUR 2026 \"NO SHOW, NO ME\"",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_wakaii_yuki_live_tour_2026_saitama_0823_day",
+      "tourId": "iris_wakaii_yuki_live_tour_2026",
+      "venue": "西川口Hearts",
+      "performanceAt": "2026-08-23T14:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "友希 LIVE TOUR 2026 \"NO SHOW, NO ME\"",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_wakaii_yuki_live_tour_2026_saitama_0823_night",
+      "tourId": "iris_wakaii_yuki_live_tour_2026",
+      "venue": "西川口Hearts",
+      "performanceAt": "2026-08-23T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "友希 LIVE TOUR 2026 \"NO SHOW, NO ME\"",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_wakaii_yuki_live_tour_2026_gifu_0829_day",
+      "tourId": "iris_wakaii_yuki_live_tour_2026",
+      "venue": "柳ヶ瀬ants",
+      "performanceAt": "2026-08-29T14:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "友希 LIVE TOUR 2026 \"NO SHOW, NO ME\"",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_wakaii_yuki_live_tour_2026_gifu_0829_night",
+      "tourId": "iris_wakaii_yuki_live_tour_2026",
+      "venue": "柳ヶ瀬ants",
+      "performanceAt": "2026-08-29T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "友希 LIVE TOUR 2026 \"NO SHOW, NO ME\"",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_wakaii_yuki_live_tour_2026_aichi_0830_day",
+      "tourId": "iris_wakaii_yuki_live_tour_2026",
+      "venue": "SPADE BOX",
+      "performanceAt": "2026-08-30T14:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "友希 LIVE TOUR 2026 \"NO SHOW, NO ME\"",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_wakaii_yuki_live_tour_2026_aichi_0830_night",
+      "tourId": "iris_wakaii_yuki_live_tour_2026",
+      "venue": "SPADE BOX",
+      "performanceAt": "2026-08-30T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "友希 LIVE TOUR 2026 \"NO SHOW, NO ME\"",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_wakaii_yuki_live_tour_2026_tokyo_0906_day",
+      "tourId": "iris_wakaii_yuki_live_tour_2026",
+      "venue": "代官山Space Odd",
+      "performanceAt": "2026-09-06T15:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "友希 LIVE TOUR 2026 \"NO SHOW, NO ME\"",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_wakaii_yuki_live_tour_2026_tokyo_0906_night",
+      "tourId": "iris_wakaii_yuki_live_tour_2026",
+      "venue": "代官山Space Odd",
+      "performanceAt": "2026-09-06T18:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "友希 LIVE TOUR 2026 \"NO SHOW, NO ME\"",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_wakaii_yuki_live_tour_2026_osaka_0919_day",
+      "tourId": "iris_wakaii_yuki_live_tour_2026",
+      "venue": "Yogibo HOLY MOUNTAIN",
+      "performanceAt": "2026-09-19T14:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "友希 LIVE TOUR 2026 \"NO SHOW, NO ME\"",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_wakaii_yuki_live_tour_2026_osaka_0919_night",
+      "tourId": "iris_wakaii_yuki_live_tour_2026",
+      "venue": "Yogibo HOLY MOUNTAIN",
+      "performanceAt": "2026-09-19T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "友希 LIVE TOUR 2026 \"NO SHOW, NO ME\"",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_wakaii_yuki_live_tour_2026_hokkaido_0927_day",
+      "tourId": "iris_wakaii_yuki_live_tour_2026",
+      "venue": "札幌KLUB COUNTER ACTION",
+      "performanceAt": "2026-09-27T14:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "友希 LIVE TOUR 2026 \"NO SHOW, NO ME\"",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_wakaii_yuki_live_tour_2026_hokkaido_0927_night",
+      "tourId": "iris_wakaii_yuki_live_tour_2026",
+      "venue": "札幌KLUB COUNTER ACTION",
+      "performanceAt": "2026-09-27T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "友希 LIVE TOUR 2026 \"NO SHOW, NO ME\"",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_wakaii_yuki_live_tour_2026_tokyo_1010_day",
+      "tourId": "iris_wakaii_yuki_live_tour_2026",
+      "venue": "Zepp Shinjuku",
+      "performanceAt": "2026-10-10T15:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "友希 LIVE TOUR 2026 \"NO SHOW, NO ME\"",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_wakaii_yuki_live_tour_2026_tokyo_1010_night",
+      "tourId": "iris_wakaii_yuki_live_tour_2026",
+      "venue": "Zepp Shinjuku",
+      "performanceAt": "2026-10-10T18:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "友希 LIVE TOUR 2026 \"NO SHOW, NO ME\"",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_yu_serizawa_6th_live_tour_2026_osaka_1206_day",
+      "tourId": "iris_yu_serizawa_6th_live_tour_2026",
+      "venue": "Yogibo META VALLEY",
+      "performanceAt": "2026-12-06T14:00:00+09:00",
+      "doorOpenAt": "2026-12-06T13:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "Yu Serizawa 6th Live Tour 2026-2027",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133054",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_yu_serizawa_6th_live_tour_2026_osaka_1206_night",
+      "tourId": "iris_yu_serizawa_6th_live_tour_2026",
+      "venue": "Yogibo META VALLEY",
+      "performanceAt": "2026-12-06T18:00:00+09:00",
+      "doorOpenAt": "2026-12-06T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "Yu Serizawa 6th Live Tour 2026-2027",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133054",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_yu_serizawa_6th_live_tour_2026_hokkaido_1212_day",
+      "tourId": "iris_yu_serizawa_6th_live_tour_2026",
+      "venue": "札幌PLANT",
+      "performanceAt": "2026-12-12T14:00:00+09:00",
+      "doorOpenAt": "2026-12-12T13:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "Yu Serizawa 6th Live Tour 2026-2027",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133054",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_yu_serizawa_6th_live_tour_2026_hokkaido_1212_night",
+      "tourId": "iris_yu_serizawa_6th_live_tour_2026",
+      "venue": "札幌PLANT",
+      "performanceAt": "2026-12-12T18:00:00+09:00",
+      "doorOpenAt": "2026-12-12T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "Yu Serizawa 6th Live Tour 2026-2027",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133054",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_yu_serizawa_6th_live_tour_2026_miyagi_0110_day",
+      "tourId": "iris_yu_serizawa_6th_live_tour_2026",
+      "venue": "仙台Rensa",
+      "performanceAt": "2027-01-10T14:00:00+09:00",
+      "doorOpenAt": "2027-01-10T13:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "Yu Serizawa 6th Live Tour 2026-2027",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133054",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_yu_serizawa_6th_live_tour_2026_miyagi_0110_night",
+      "tourId": "iris_yu_serizawa_6th_live_tour_2026",
+      "venue": "仙台Rensa",
+      "performanceAt": "2027-01-10T18:00:00+09:00",
+      "doorOpenAt": "2027-01-10T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "Yu Serizawa 6th Live Tour 2026-2027",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133054",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_yu_serizawa_6th_live_tour_2026_fukuoka_0116_day",
+      "tourId": "iris_yu_serizawa_6th_live_tour_2026",
+      "venue": "DRUM Be-1",
+      "performanceAt": "2027-01-16T14:00:00+09:00",
+      "doorOpenAt": "2027-01-16T13:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "Yu Serizawa 6th Live Tour 2026-2027",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133054",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_yu_serizawa_6th_live_tour_2026_fukuoka_0116_night",
+      "tourId": "iris_yu_serizawa_6th_live_tour_2026",
+      "venue": "DRUM Be-1",
+      "performanceAt": "2027-01-16T18:00:00+09:00",
+      "doorOpenAt": "2027-01-16T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "Yu Serizawa 6th Live Tour 2026-2027",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133054",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_yu_serizawa_6th_live_tour_2026_aichi_0123_day",
+      "tourId": "iris_yu_serizawa_6th_live_tour_2026",
+      "venue": "名古屋JAMMIN'",
+      "performanceAt": "2027-01-23T14:00:00+09:00",
+      "doorOpenAt": "2027-01-23T13:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "Yu Serizawa 6th Live Tour 2026-2027",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133054",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_yu_serizawa_6th_live_tour_2026_aichi_0123_night",
+      "tourId": "iris_yu_serizawa_6th_live_tour_2026",
+      "venue": "名古屋JAMMIN'",
+      "performanceAt": "2027-01-23T18:00:00+09:00",
+      "doorOpenAt": "2027-01-23T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "Yu Serizawa 6th Live Tour 2026-2027",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133054",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_yu_serizawa_6th_live_tour_2026_tokyo_0214_day",
+      "tourId": "iris_yu_serizawa_6th_live_tour_2026",
+      "venue": "Zepp DiverCity",
+      "performanceAt": "2027-02-14T13:45:00+09:00",
+      "doorOpenAt": "2027-02-14T13:15:00+09:00",
+      "kind": "oneman",
+      "eventName": "Yu Serizawa 6th Live Tour 2026-2027",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133054",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_yu_serizawa_6th_live_tour_2026_tokyo_0214_night",
+      "tourId": "iris_yu_serizawa_6th_live_tour_2026",
+      "venue": "Zepp DiverCity",
+      "performanceAt": "2027-02-14T17:45:00+09:00",
+      "doorOpenAt": "2027-02-14T17:15:00+09:00",
+      "kind": "oneman",
+      "eventName": "Yu Serizawa 6th Live Tour 2026-2027",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133054",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_saki_yamakita_summer_night_club_2026_tokyo_0811",
+      "tourId": "iris_saki_yamakita_summer_night_club_2026",
+      "venue": "ロフトプラスワン",
+      "performanceAt": "2026-08-11T18:00:00+09:00",
+      "doorOpenAt": "2026-08-11T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "サキサマーナイトクラブ ～山北早紀の日、略して”山の日”～",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133916",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_saki_yamakita_our_stories_2026_shinjuku_0902",
+      "tourId": "iris_saki_yamakita_our_stories_2026",
+      "venue": "新宿村LIVE",
+      "performanceAt": "2026-09-02T19:00:00+09:00",
+      "doorOpenAt": "2026-09-02T18:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "劇団CATMINT第23回公演『Our Stories』",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1134894",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_saki_yamakita_our_stories_2026_shinjuku_0903",
+      "tourId": "iris_saki_yamakita_our_stories_2026",
+      "venue": "新宿村LIVE",
+      "performanceAt": "2026-09-03T19:00:00+09:00",
+      "doorOpenAt": "2026-09-03T18:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "劇団CATMINT第23回公演『Our Stories』",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1134894",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_saki_yamakita_our_stories_2026_shinjuku_0905_day",
+      "tourId": "iris_saki_yamakita_our_stories_2026",
+      "venue": "新宿村LIVE",
+      "performanceAt": "2026-09-05T13:00:00+09:00",
+      "doorOpenAt": "2026-09-05T12:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "劇団CATMINT第23回公演『Our Stories』",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1134894",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_saki_yamakita_our_stories_2026_shinjuku_0905_night",
+      "tourId": "iris_saki_yamakita_our_stories_2026",
+      "venue": "新宿村LIVE",
+      "performanceAt": "2026-09-05T18:00:00+09:00",
+      "doorOpenAt": "2026-09-05T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "劇団CATMINT第23回公演『Our Stories』",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1134894",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_miyu_kubota_fan_meeting_seoul_2026_seoul_0905",
+      "tourId": "iris_miyu_kubota_fan_meeting_seoul_2026",
+      "venue": "Seongam Art Hall",
+      "performanceAt": "2026-09-05T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "Miyu Kubota Fan Meeting in Seoul",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1135228",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_choginjo_fes_2026_tokyo_1017",
+      "tourId": "iris_choginjo_fes_2026",
+      "venue": "東京ポートシティ竹芝（ポートホール＋ポートプラザ）",
+      "performanceAt": "2026-10-17T17:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "超吟醸祭2026",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1134477",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_fes_tif_2026_0801",
+      "tourId": "iris_fes_tif_2026",
+      "venue": "お台場・青海周辺エリア",
+      "performanceAt": "2026-08-01T12:00:00+09:00",
+      "doorOpenAt": "2026-08-01T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック",
+      "source": "system",
+      "sourceUrl": "https://official.idolfes.com/s/tif2026/page/map",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
+    },
+    {
+      "id": "iris_welcome_azatosa_release_event_2026_0808_part1",
+      "tourId": "iris_welcome_azatosa_release_event_2026_0808",
+      "venue": "東京都・新宿区某所",
+      "performanceAt": "2026-08-08T11:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "第1部 芹澤優・久保田未夢",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133396",
+      "lastVerifiedAt": "2026-08-17T22:45:00+09:00"
+    },
+    {
+      "id": "iris_welcome_azatosa_release_event_2026_0808_part2",
+      "tourId": "iris_welcome_azatosa_release_event_2026_0808",
+      "venue": "東京都・新宿区某所",
+      "performanceAt": "2026-08-08T16:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "第2部 茜屋日海夏・若井友希・山北早紀",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133396",
+      "lastVerifiedAt": "2026-08-17T22:45:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "iris_wakaii_yuki_live_tour_2026_fc",
+      "tourId": "iris_wakaii_yuki_live_tour_2026",
+      "type": "虹会FC先行",
+      "entryStartAt": "2026-04-23T21:30:00+09:00",
+      "entryEndAt": "2026-04-29T23:59:00+09:00",
+      "resultAt": "2026-05-02T13:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-05-06T23:00:00+09:00",
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_wakaii_yuki_live_tour_2026_official",
+      "tourId": "iris_wakaii_yuki_live_tour_2026",
+      "type": "オフィシャル抽選先行",
+      "entryStartAt": "2026-05-13T15:00:00+09:00",
+      "entryEndAt": "2026-05-20T23:59:00+09:00",
+      "resultAt": "2026-05-23T13:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-05-26T23:00:00+09:00",
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133361",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_yu_serizawa_6th_live_tour_2026_fc",
+      "tourId": "iris_yu_serizawa_6th_live_tour_2026",
+      "type": "虹会FC先行 & SERIKO LOVE CLUB先行",
+      "entryStartAt": "2026-04-26T19:00:00+09:00",
+      "entryEndAt": "2026-05-06T23:59:00+09:00",
+      "resultAt": "2026-05-09T13:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-05-13T23:00:00+09:00",
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133054",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_yu_serizawa_6th_live_tour_2026_eventer_1st",
+      "tourId": "iris_yu_serizawa_6th_live_tour_2026",
+      "type": "イベンター先行（1次）",
+      "entryStartAt": "2026-05-23T15:00:00+09:00",
+      "entryEndAt": "2026-06-02T23:59:00+09:00",
+      "resultAt": "2026-06-05T13:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-06-08T23:00:00+09:00",
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133612",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_yu_serizawa_6th_live_tour_2026_eventer_2nd",
+      "tourId": "iris_yu_serizawa_6th_live_tour_2026",
+      "type": "イベンター先行（2次）",
+      "entryStartAt": "2026-06-05T15:00:00+09:00",
+      "entryEndAt": "2026-06-15T23:59:00+09:00",
+      "resultAt": "2026-06-19T13:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-06-22T23:00:00+09:00",
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133926",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_14th_anniversary_live_2026_fc_1st",
+      "tourId": "iris_14th_anniversary_live_2026",
+      "type": "虹会FC & オフィシャルHP先行（1次）",
+      "entryStartAt": "2026-05-02T00:00:00+09:00",
+      "entryEndAt": "2026-05-17T23:59:00+09:00",
+      "resultAt": "2026-05-20T00:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-05-24T23:59:00+09:00",
+      "performanceIds": [
+        "iris_14th_anniversary_live_2026_yokohama_1103"
+      ],
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133209",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_14th_anniversary_live_2026_fc_2nd",
+      "tourId": "iris_14th_anniversary_live_2026",
+      "type": "FC & オフィシャル2次抽選先行",
+      "entryStartAt": "2026-05-20T15:00:00+09:00",
+      "entryEndAt": "2026-05-31T23:59:00+09:00",
+      "resultAt": "2026-06-03T13:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-06-06T23:00:00+09:00",
+      "performanceIds": [
+        "iris_14th_anniversary_live_2026_yokohama_1103"
+      ],
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133505",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_14th_anniversary_live_2026_playguide",
+      "tourId": "iris_14th_anniversary_live_2026",
+      "type": "プレイガイド先行",
+      "entryStartAt": "2026-06-03T15:00:00+09:00",
+      "entryEndAt": "2026-06-16T23:59:00+09:00",
+      "resultAt": "2026-06-19T13:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-06-22T23:00:00+09:00",
+      "performanceIds": [
+        "iris_14th_anniversary_live_2026_yokohama_1103"
+      ],
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133855",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "iris_saki_yamakita_summer_night_club_2026_advance_lottery",
+      "tourId": "iris_saki_yamakita_summer_night_club_2026",
+      "type": "抽選販売受付（先行）",
+      "entryStartAt": "2026-06-05T22:00:00+09:00",
+      "entryEndAt": "2026-06-19T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "iris_saki_yamakita_summer_night_club_2026_tokyo_0811"
+      ],
+      "source": "system",
+      "sourceUrl": "https://livepocket.jp/e/mfrcz",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "906256336",
+      "title": "Make it!",
+      "albumTitle": "Make it! - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/85/ce/d4/85ced4e9-3832-547a-552f-e8c7cec408b0/mzaf_8034975426426318995.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e9/23/e2/e923e2ae-b0fe-3e29-5f80-a53d7a7a0404/AVCA-74516.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "6775688452",
+      "title": "Welcome to あざとさワールド",
+      "albumTitle": "Welcome to あざとさワールド - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/58/7e/40/587e40ff-af04-8d5c-4998-537d237bb8b9/mzaf_7650116710321592013.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9c/2e/a8/9c2ea869-9fe3-15b0-8cbb-80fdb01a735e/ANTCD-A0000020178.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "963997684",
+      "title": "Realize!",
+      "albumTitle": "Realize! - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e7/1a/55/e71a5575-6bbd-4075-fcb7-7ee9718ca5b2/mzaf_2041698031290058575.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/d8/b0/8a/d8b08ad6-616c-f812-1910-8bb52f675c83/EYCA-10264.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

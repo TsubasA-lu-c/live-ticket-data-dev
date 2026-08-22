@@ -1,0 +1,282 @@
+{
+  "artistId": "and_team",
+  "tours": [
+    {
+      "id": "and_team_blaze_the_way_encore_2026",
+      "artistId": "and_team",
+      "title": "2026 &TEAM CONCERT TOUR 'BLAZE THE WAY' ENCORE in BELLUNA DOME",
+      "startDate": "2026-09-05T00:00:00+09:00",
+      "endDate": "2026-09-06T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 16500
+        },
+        {
+          "label": "プレミアムシート（会員限定アップグレード）",
+          "amount": 27500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/andteam_blaze_the_way_encore",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_event_global_spin_live_2026",
+      "artistId": "and_team",
+      "title": "Global Spin Live: &TEAM",
+      "startDate": "2026-08-12T00:00:00+09:00",
+      "endDate": "2026-08-13T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/d72068a797b2",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_fes_music_expo_live_2026_taipei",
+      "artistId": "and_team",
+      "title": "MUSIC EXPO LIVE 2026 in TAIPEI",
+      "startDate": "2026-10-25T00:00:00+09:00",
+      "endDate": "2026-10-25T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://musicexpolive.com/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_event_mark_on_me_talk_2026",
+      "artistId": "and_team",
+      "title": "&TEAM KR 2nd Mini Album 'Mark on Me' 刻印個別ロングトーク会",
+      "startDate": "2026-11-17T00:00:00+09:00",
+      "endDate": "2027-01-30T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/f905e8f20837",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "and_team_blaze_the_way_encore_2026_belluna_0905",
+      "tourId": "and_team_blaze_the_way_encore_2026",
+      "venue": "ベルーナドーム",
+      "performanceAt": "2026-09-05T17:00:00+09:00",
+      "doorOpenAt": "2026-09-05T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/andteam_blaze_the_way_encore",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_encore_2026_belluna_0906",
+      "tourId": "and_team_blaze_the_way_encore_2026",
+      "venue": "ベルーナドーム",
+      "performanceAt": "2026-09-06T16:00:00+09:00",
+      "doorOpenAt": "2026-09-06T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/andteam_blaze_the_way_encore",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_event_global_spin_live_2026_los_angeles_0812",
+      "tourId": "and_team_event_global_spin_live_2026",
+      "venue": "Grammy Museum LA Live",
+      "performanceAt": "2026-08-13T11:30:00+09:00",
+      "doorOpenAt": "2026-08-13T11:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "Global Spin Live: &TEAM",
+      "source": "system",
+      "sourceUrl": "https://grammymuseum.org/event/global-spin-live-team/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_fes_music_expo_live_2026_taipei_1025",
+      "tourId": "and_team_fes_music_expo_live_2026_taipei",
+      "venue": "TAIPEI ARENA",
+      "performanceAt": "2026-10-25T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "MUSIC EXPO LIVE 2026 in TAIPEI",
+      "source": "system",
+      "sourceUrl": "https://musicexpolive.com/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_event_mark_on_me_talk_2026_kyoto_1117",
+      "tourId": "and_team_event_mark_on_me_talk_2026",
+      "venue": null,
+      "performanceAt": "2026-11-17T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "&TEAM KR 2nd Mini Album 'Mark on Me' 刻印個別ロングトーク会",
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/f905e8f20837",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_event_mark_on_me_talk_2026_kanagawa_0112",
+      "tourId": "and_team_event_mark_on_me_talk_2026",
+      "venue": null,
+      "performanceAt": "2027-01-12T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "&TEAM KR 2nd Mini Album 'Mark on Me' 刻印個別ロングトーク会",
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/f905e8f20837",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_event_mark_on_me_talk_2026_aichi_0130",
+      "tourId": "and_team_event_mark_on_me_talk_2026",
+      "venue": null,
+      "performanceAt": "2027-01-30T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "&TEAM KR 2nd Mini Album 'Mark on Me' 刻印個別ロングトーク会",
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/f905e8f20837",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "and_team_blaze_the_way_encore_2026_lune1st",
+      "tourId": "and_team_blaze_the_way_encore_2026",
+      "type": "LUNÉ Membership 1次先行",
+      "entryStartAt": "2026-05-15T13:00:00+09:00",
+      "entryEndAt": "2026-05-31T23:59:00+09:00",
+      "resultAt": "2026-06-05T11:00:00+09:00",
+      "paymentStartAt": "2026-06-05T11:00:00+09:00",
+      "paymentEndAt": "2026-06-09T23:00:00+09:00",
+      "performanceIds": [
+        "and_team_blaze_the_way_encore_2026_belluna_0905",
+        "and_team_blaze_the_way_encore_2026_belluna_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/3d672e7c5b00",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_encore_2026_lune2nd",
+      "tourId": "and_team_blaze_the_way_encore_2026",
+      "type": "LUNÉ Membership 2次先行",
+      "entryStartAt": "2026-06-10T13:00:00+09:00",
+      "entryEndAt": "2026-06-14T23:59:00+09:00",
+      "resultAt": "2026-06-19T00:00:00+09:00",
+      "paymentStartAt": "2026-06-19T00:00:00+09:00",
+      "paymentEndAt": null,
+      "performanceIds": [
+        "and_team_blaze_the_way_encore_2026_belluna_0905",
+        "and_team_blaze_the_way_encore_2026_belluna_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/bd7825aff96c",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_encore_2026_lawson",
+      "tourId": "and_team_blaze_the_way_encore_2026",
+      "type": "ローチケ先行",
+      "entryStartAt": "2026-06-19T13:00:00+09:00",
+      "entryEndAt": "2026-06-29T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "and_team_blaze_the_way_encore_2026_belluna_0905",
+        "and_team_blaze_the_way_encore_2026_belluna_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/andteam_blaze_the_way_encore",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_encore_2026_playguide",
+      "tourId": "and_team_blaze_the_way_encore_2026",
+      "type": "プレイガイド先着先行",
+      "entryStartAt": "2026-07-03T13:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "and_team_blaze_the_way_encore_2026_belluna_0905",
+        "and_team_blaze_the_way_encore_2026_belluna_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/andteam_blaze_the_way_encore",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_encore_2026_premium_upgrade",
+      "tourId": "and_team_blaze_the_way_encore_2026",
+      "type": "LUNÉ Membership会員プレミアムシートアップグレード抽選",
+      "entryStartAt": "2026-07-22T13:00:00+09:00",
+      "entryEndAt": "2026-07-26T23:59:00+09:00",
+      "resultAt": "2026-07-31T11:00:00+09:00",
+      "paymentStartAt": "2026-07-31T11:00:00+09:00",
+      "paymentEndAt": "2026-08-03T23:00:00+09:00",
+      "performanceIds": [
+        "and_team_blaze_the_way_encore_2026_belluna_0905",
+        "and_team_blaze_the_way_encore_2026_belluna_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/5c4f47e75926",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_event_mark_on_me_talk_2026_round1",
+      "tourId": "and_team_event_mark_on_me_talk_2026",
+      "type": "刻印個別ロングトーク会 第1回抽選",
+      "entryStartAt": "2026-07-17T12:00:00+09:00",
+      "entryEndAt": "2026-07-21T10:59:00+09:00",
+      "resultAt": "2026-07-24T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/f905e8f20837",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_event_mark_on_me_talk_2026_round2",
+      "tourId": "and_team_event_mark_on_me_talk_2026",
+      "type": "刻印個別ロングトーク会 第2回抽選",
+      "entryStartAt": "2026-07-21T11:00:00+09:00",
+      "entryEndAt": "2026-07-27T10:59:00+09:00",
+      "resultAt": "2026-07-31T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/f905e8f20837",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "6794988464",
+      "title": "For us",
+      "albumTitle": "For us - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/34/1b/28/341b288b-db62-4b33-7894-29f6d7fded33/mzaf_10558621388938123328.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7c/8e/2c/7c8e2c9e-5bdd-f2f6-156d-77687ac815b5/26UMGIM96216.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1688976920",
+      "title": "FIREWORK",
+      "albumTitle": "First Howling : WE - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/be/c2/8e/bec28ee0-880b-2bce-1576-6b4498a050fc/mzaf_4494122400116174896.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/16/e6/83/16e68310-eea4-bb94-3e02-afae97ac63de/23UMGIM53609.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1890379430",
+      "title": "We on Fire",
+      "albumTitle": "We on Fire - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d7/2d/ba/d72dba4b-6e14-5abc-7336-a9e26b9340e0/mzaf_6807307378641523867.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c4/df/a6/c4dfa673-1a4d-300b-7093-7c10d963390b/26UMGIM39304.rgb.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

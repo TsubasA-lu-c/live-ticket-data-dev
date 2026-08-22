@@ -1,0 +1,375 @@
+{
+  "artistId": "jo1",
+  "tours": [
+    {
+      "id": "jo1_eien_2026",
+      "artistId": "jo1",
+      "title": "JO1DER SHOW 2026 'EIEN 永縁'",
+      "startDate": "2026-04-08T00:00:00+09:00",
+      "endDate": "2026-09-27T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 14300
+        },
+        {
+          "label": "アップグレードシート",
+          "amount": 24200
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_luckyfes_2026",
+      "artistId": "jo1",
+      "title": "LuckyFes’26（川西拓実ゲスト出演）",
+      "startDate": "2026-08-11T00:00:00+09:00",
+      "endDate": "2026-08-11T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/news/detail/6235",
+      "lastVerifiedAt": "2026-08-17T22:58:00+09:00"
+    },
+    {
+      "id": "jo1_rijf_2026",
+      "artistId": "jo1",
+      "title": "ROCK IN JAPAN FESTIVAL 2026",
+      "startDate": "2026-09-12T00:00:00+09:00",
+      "endDate": "2026-09-12T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1日券",
+          "amount": 16000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://rijfes.jp/2026/timetable/",
+      "lastVerifiedAt": "2026-08-17T22:58:00+09:00"
+    },
+    {
+      "id": "jo1_north_american_tour_animal_2026",
+      "artistId": "jo1",
+      "title": "2026 JO1 NORTH AMERICAN TOUR ’ANIMAL’",
+      "startDate": "2026-10-02T00:00:00+09:00",
+      "endDate": "2026-10-11T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://cloud.jo1.jp/news/detail/6237",
+      "lastVerifiedAt": "2026-08-17T22:58:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "jo1_eien_2026_tokyo_0408",
+      "tourId": "jo1_eien_2026",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-04-08T18:30:00+09:00",
+      "doorOpenAt": "2026-04-08T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_eien_2026_tokyo_0409",
+      "tourId": "jo1_eien_2026",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-04-09T14:30:00+09:00",
+      "doorOpenAt": "2026-04-09T12:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_eien_2026_osaka_0422",
+      "tourId": "jo1_eien_2026",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2026-04-22T19:00:00+09:00",
+      "doorOpenAt": "2026-04-22T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_eien_2026_osaka_0423",
+      "tourId": "jo1_eien_2026",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2026-04-23T15:00:00+09:00",
+      "doorOpenAt": "2026-04-23T13:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_eien_2026_vantelin_0719",
+      "tourId": "jo1_eien_2026",
+      "venue": "バンテリンドーム ナゴヤ",
+      "performanceAt": "2026-07-19T18:00:00+09:00",
+      "doorOpenAt": "2026-07-19T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/news/detail/5966",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_eien_2026_vantelin_0720",
+      "tourId": "jo1_eien_2026",
+      "venue": "バンテリンドーム ナゴヤ",
+      "performanceAt": "2026-07-20T15:00:00+09:00",
+      "doorOpenAt": "2026-07-20T13:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/news/detail/5966",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_eien_2026_seoul_0926",
+      "tourId": "jo1_eien_2026",
+      "venue": "TICKETLINK LIVE ARENA（ソウル）",
+      "performanceAt": "2026-09-26T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "JO1DER SHOW 2026 'EIEN 永縁' LIMITED EDITION IN SEOUL",
+      "source": "system",
+      "sourceUrl": "https://cloud.jo1.jp/news/detail/6203",
+      "lastVerifiedAt": "2026-08-17T22:58:00+09:00"
+    },
+    {
+      "id": "jo1_eien_2026_seoul_0927",
+      "tourId": "jo1_eien_2026",
+      "venue": "TICKETLINK LIVE ARENA（ソウル）",
+      "performanceAt": "2026-09-27T16:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "JO1DER SHOW 2026 'EIEN 永縁' LIMITED EDITION IN SEOUL",
+      "source": "system",
+      "sourceUrl": "https://cloud.jo1.jp/news/detail/6203",
+      "lastVerifiedAt": "2026-08-17T22:58:00+09:00"
+    },
+    {
+      "id": "jo1_luckyfes_2026_hitachinaka_0811",
+      "tourId": "jo1_luckyfes_2026",
+      "venue": "国営ひたち海浜公園",
+      "performanceAt": "2026-08-11T10:00:00+09:00",
+      "doorOpenAt": "2026-08-11T08:00:00+09:00",
+      "kind": "fes",
+      "eventName": "LuckyFes’26（MONKEY MAJIKステージ／川西拓実ゲスト出演）",
+      "source": "system",
+      "sourceUrl": "https://luckyfes.com/outline",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
+    },
+    {
+      "id": "jo1_rijf_2026_soga_0912",
+      "tourId": "jo1_rijf_2026",
+      "venue": "千葉市蘇我スポーツ公園",
+      "performanceAt": "2026-09-12T11:45:00+09:00",
+      "doorOpenAt": "2026-09-12T08:30:00+09:00",
+      "kind": "fes",
+      "eventName": "ROCK IN JAPAN FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://rijfes.jp/2026/home/",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
+    },
+    {
+      "id": "jo1_north_american_tour_animal_2026_toronto_1002",
+      "tourId": "jo1_north_american_tour_animal_2026",
+      "venue": "DANFORTH MUSIC HALL（Toronto）",
+      "performanceAt": "2026-10-03T08:30:00+09:00",
+      "doorOpenAt": "2026-10-03T07:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/news/detail/6116",
+      "lastVerifiedAt": "2026-08-17T22:58:00+09:00"
+    },
+    {
+      "id": "jo1_north_american_tour_animal_2026_newyork_1004",
+      "tourId": "jo1_north_american_tour_animal_2026",
+      "venue": "TERMINAL 5（New York）",
+      "performanceAt": "2026-10-05T08:30:00+09:00",
+      "doorOpenAt": "2026-10-05T07:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/news/detail/6116",
+      "lastVerifiedAt": "2026-08-17T22:58:00+09:00"
+    },
+    {
+      "id": "jo1_north_american_tour_animal_2026_chicago_1006",
+      "tourId": "jo1_north_american_tour_animal_2026",
+      "venue": "COPERNICUS CENTER（Chicago）",
+      "performanceAt": "2026-10-07T09:30:00+09:00",
+      "doorOpenAt": "2026-10-07T08:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/news/detail/6116",
+      "lastVerifiedAt": "2026-08-17T22:58:00+09:00"
+    },
+    {
+      "id": "jo1_north_american_tour_animal_2026_sanfrancisco_1008",
+      "tourId": "jo1_north_american_tour_animal_2026",
+      "venue": "THE WARFIELD（San Francisco）",
+      "performanceAt": "2026-10-09T11:30:00+09:00",
+      "doorOpenAt": "2026-10-09T10:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/news/detail/6116",
+      "lastVerifiedAt": "2026-08-17T22:58:00+09:00"
+    },
+    {
+      "id": "jo1_north_american_tour_animal_2026_losangeles_1011",
+      "tourId": "jo1_north_american_tour_animal_2026",
+      "venue": "THE NOVO（Los Angeles）",
+      "performanceAt": "2026-10-12T11:30:00+09:00",
+      "doorOpenAt": "2026-10-12T10:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/news/detail/6116",
+      "lastVerifiedAt": "2026-08-17T22:58:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "jo1_eien_2026_tokyo_fc1",
+      "tourId": "jo1_eien_2026",
+      "type": "FC会員最速先行",
+      "entryStartAt": "2026-01-19T17:00:00+09:00",
+      "entryEndAt": "2026-02-02T23:59:00+09:00",
+      "resultAt": "2026-02-10T20:00:00+09:00",
+      "paymentStartAt": "2026-02-10T00:00:00+09:00",
+      "paymentEndAt": "2026-02-16T23:59:00+09:00",
+      "performanceIds": [
+        "jo1_eien_2026_tokyo_0408",
+        "jo1_eien_2026_tokyo_0409"
+      ],
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_eien_2026_tokyo_fc2",
+      "tourId": "jo1_eien_2026",
+      "type": "FC会員先行",
+      "entryStartAt": "2026-02-18T12:00:00+09:00",
+      "entryEndAt": "2026-03-01T23:59:00+09:00",
+      "resultAt": "2026-03-07T20:00:00+09:00",
+      "paymentStartAt": "2026-03-07T00:00:00+09:00",
+      "paymentEndAt": "2026-03-12T23:59:00+09:00",
+      "performanceIds": [
+        "jo1_eien_2026_tokyo_0408",
+        "jo1_eien_2026_tokyo_0409"
+      ],
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_eien_2026_osaka_fc1",
+      "tourId": "jo1_eien_2026",
+      "type": "FC会員最速先行",
+      "entryStartAt": "2026-01-19T17:00:00+09:00",
+      "entryEndAt": "2026-02-02T23:59:00+09:00",
+      "resultAt": "2026-02-10T20:00:00+09:00",
+      "paymentStartAt": "2026-02-10T00:00:00+09:00",
+      "paymentEndAt": "2026-02-16T23:59:00+09:00",
+      "performanceIds": [
+        "jo1_eien_2026_osaka_0422",
+        "jo1_eien_2026_osaka_0423"
+      ],
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_eien_2026_osaka_fc2",
+      "tourId": "jo1_eien_2026",
+      "type": "FC会員先行",
+      "entryStartAt": "2026-02-10T12:00:00+09:00",
+      "entryEndAt": "2026-02-17T23:59:00+09:00",
+      "resultAt": "2026-02-26T20:00:00+09:00",
+      "paymentStartAt": "2026-02-26T00:00:00+09:00",
+      "paymentEndAt": "2026-03-03T23:59:00+09:00",
+      "performanceIds": [
+        "jo1_eien_2026_osaka_0422",
+        "jo1_eien_2026_osaka_0423"
+      ],
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_eien_2026_nagoya_fc",
+      "tourId": "jo1_eien_2026",
+      "type": "FC会員抽選",
+      "entryStartAt": "2026-04-24T00:00:00+09:00",
+      "entryEndAt": "2026-05-07T23:59:00+09:00",
+      "resultAt": "2026-05-15T20:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "jo1_eien_2026_vantelin_0719",
+        "jo1_eien_2026_vantelin_0720"
+      ],
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/news/detail/5966",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_north_american_tour_animal_2026_general",
+      "tourId": "jo1_north_american_tour_animal_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-06-06T01:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "jo1_north_american_tour_animal_2026_toronto_1002",
+        "jo1_north_american_tour_animal_2026_newyork_1004",
+        "jo1_north_american_tour_animal_2026_chicago_1006",
+        "jo1_north_american_tour_animal_2026_sanfrancisco_1008",
+        "jo1_north_american_tour_animal_2026_losangeles_1011"
+      ],
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/news/detail/6138",
+      "lastVerifiedAt": "2026-08-17T22:58:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "6763450955",
+      "title": "景色",
+      "albumTitle": "景色 - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/52/1a/b5/521ab572-d35b-5a1b-69a7-60b377688502/mzaf_5299043849907015723.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/2f/b2/212fb2e9-d836-d269-edf8-a08c195c4ff5/26UMGIM45847.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "6786244303",
+      "title": "WHATCHA DOIN",
+      "albumTitle": "ANIMAL - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ae/33/bf/ae33bff6-fab0-95a6-103f-f2f36dcac077/mzaf_525542528369998213.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/14/13/93/1413934c-c96f-28e0-df73-30f1d8c82cfe/820233811736.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "6786244305",
+      "title": "SAKURA",
+      "albumTitle": "ANIMAL - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/11/f5/28/11f5283e-aebd-443f-f3bc-d1c9a19f81c1/mzaf_3501434348405295664.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/14/13/93/1413934c-c96f-28e0-df73-30f1d8c82cfe/820233811736.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

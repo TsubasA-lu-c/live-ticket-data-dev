@@ -1,0 +1,30 @@
+{
+  "artistId": "utada_hikaru",
+  "tours": [],
+  "performances": [],
+  "lotteries": [],
+  "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+  "appleMusicTracks": [
+    {
+      "songId": "1440763351",
+      "title": "Automatic (Remastered 2014)",
+      "albumTitle": "First Love (2014 Remastered Album)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/02/84/ee/0284ee99-1b6d-1138-a8f0-24dcd2d77511/mzaf_4198733897024630642.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/77/67/00/77670013-e2ed-437a-dc30-e9cb74056cbe/00600406427052.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1840081736",
+      "title": "JANE DOE",
+      "albumTitle": "JANE DOE - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e5/62/c4/e562c413-da81-e035-012b-4b66a15905f3/mzaf_12865800710781934937.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/73/91/aa/7391aabc-81d8-2bcb-3b0f-8e24bc855745/4547366775211.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1440763358",
+      "title": "First Love (Remastered 2014)",
+      "albumTitle": "First Love (2014 Remastered Album)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/5e/bf/fb/5ebffb3c-aad5-d6f9-def8-a914e1befbf1/mzaf_12211114874686641824.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/77/67/00/77670013-e2ed-437a-dc30-e9cb74056cbe/00600406427052.rgb.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

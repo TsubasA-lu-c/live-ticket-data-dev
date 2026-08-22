@@ -1,0 +1,347 @@
+{
+  "artistId": "kurayamisaka",
+  "tours": [
+    {
+      "id": "kurayamisaka_fes_2026",
+      "artistId": "kurayamisaka",
+      "title": "2026年フェス出演",
+      "startDate": "2026-08-02T00:00:00+09:00",
+      "endDate": "2026-08-29T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://kurayamisaka.com/live/",
+      "lastVerifiedAt": "2026-08-17T23:05:00+09:00"
+    },
+    {
+      "id": "kurayamisaka_tte_doko_8_2026",
+      "artistId": "kurayamisaka",
+      "title": "kurayamisaka tte, doko? #8「GORILLA HALL OSAKA 単独公演編」",
+      "startDate": "2026-10-17T00:00:00+09:00",
+      "endDate": "2026-10-25T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "スタンディング",
+          "amount": 5000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/4146610001-P0030018P021001",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "kurayamisaka_tte_doko_9_2026",
+      "artistId": "kurayamisaka",
+      "title": "kurayamisaka tte, doko? #9「夏の終わりを迎えに行くツアー」",
+      "startDate": "2026-12-26T00:00:00+09:00",
+      "endDate": "2027-02-20T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "スタンディング",
+          "amount": 5000
+        },
+        {
+          "label": "2F指定席（横浜）",
+          "amount": 6000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/word/0000158088",
+      "lastVerifiedAt": "2026-08-17T23:05:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "kurayamisaka_fes_2026_summer_sonic_0814",
+      "tourId": "kurayamisaka_fes_2026",
+      "venue": "ZOZOマリンスタジアム＆幕張メッセ",
+      "performanceAt": "2026-08-14T11:00:00+09:00",
+      "doorOpenAt": "2026-08-14T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "SUMMER SONIC 2026",
+      "source": "system",
+      "sourceUrl": "https://www.summersonic.com/info/tokyo/",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
+    },
+    {
+      "id": "kurayamisaka_fes_2026_wild_bunch_0823",
+      "tourId": "kurayamisaka_fes_2026",
+      "venue": "山口きらら博記念公園",
+      "performanceAt": "2026-08-23T11:30:00+09:00",
+      "doorOpenAt": "2026-08-23T10:00:00+09:00",
+      "kind": "fes",
+      "eventName": "WILD BUNCH FEST. 2026",
+      "source": "system",
+      "sourceUrl": "https://www.wildbunchfest.jp/general-info/",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
+    },
+    {
+      "id": "kurayamisaka_fes_2026_monster_bash_0822",
+      "tourId": "kurayamisaka_fes_2026",
+      "venue": "国営讃岐まんのう公園",
+      "performanceAt": "2026-08-22T11:00:00+09:00",
+      "doorOpenAt": "2026-08-22T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "MONSTER baSH 2026",
+      "source": "system",
+      "sourceUrl": "https://www.monsterbash.jp/detail.html",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
+    },
+    {
+      "id": "kurayamisaka_fes_2026_sweet_love_shower_0829",
+      "tourId": "kurayamisaka_fes_2026",
+      "venue": "山中湖交流プラザ きらら",
+      "performanceAt": "2026-08-29T10:00:00+09:00",
+      "doorOpenAt": "2026-08-29T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "SWEET LOVE SHOWER 2026",
+      "source": "system",
+      "sourceUrl": "https://2026.sweetloveshower.com/contents/guide/sweetloveshower2026",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
+    },
+    {
+      "id": "kurayamisaka_tte_doko_8_2026_tokyozepp_1017",
+      "tourId": "kurayamisaka_tte_doko_8_2026",
+      "venue": "Zepp DiverCity TOKYO",
+      "performanceAt": "2026-10-17T18:00:00+09:00",
+      "doorOpenAt": "2026-10-17T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/4146610001-P0030018P021001",
+      "lastVerifiedAt": "2026-08-17T23:05:00+09:00"
+    },
+    {
+      "id": "kurayamisaka_tte_doko_8_2026_gorillahall_1025",
+      "tourId": "kurayamisaka_tte_doko_8_2026",
+      "venue": "GORILLA HALL OSAKA",
+      "performanceAt": "2026-10-25T18:00:00+09:00",
+      "doorOpenAt": "2026-10-25T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/4146610001-P0030018P021001",
+      "lastVerifiedAt": "2026-08-17T23:05:00+09:00"
+    },
+    {
+      "id": "kurayamisaka_tte_doko_9_2026_hongkong_1226",
+      "tourId": "kurayamisaka_tte_doko_9_2026",
+      "venue": "PORTAL（香港）",
+      "performanceAt": "2026-12-26T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://natalie.mu/music/news/677825",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "kurayamisaka_tte_doko_9_2026_seoul_0109",
+      "tourId": "kurayamisaka_tte_doko_9_2026",
+      "venue": "SangSang Madang（ソウル）",
+      "performanceAt": "2027-01-09T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://natalie.mu/music/news/677825",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "kurayamisaka_tte_doko_9_2026_taipei_0117",
+      "tourId": "kurayamisaka_tte_doko_9_2026",
+      "venue": "THE WALL（台北）",
+      "performanceAt": "2027-01-17T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://natalie.mu/music/news/677825",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "kurayamisaka_tte_doko_9_2026_yokohama_0124",
+      "tourId": "kurayamisaka_tte_doko_9_2026",
+      "venue": "KT Zepp Yokohama",
+      "performanceAt": "2027-01-24T17:30:00+09:00",
+      "doorOpenAt": "2027-01-24T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/word/0000158088",
+      "lastVerifiedAt": "2026-08-17T23:05:00+09:00"
+    },
+    {
+      "id": "kurayamisaka_tte_doko_9_2026_kanazawa_0130",
+      "tourId": "kurayamisaka_tte_doko_9_2026",
+      "venue": "金沢AZ",
+      "performanceAt": "2027-01-30T18:00:00+09:00",
+      "doorOpenAt": "2027-01-30T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/word/0000158088",
+      "lastVerifiedAt": "2026-08-17T23:05:00+09:00"
+    },
+    {
+      "id": "kurayamisaka_tte_doko_9_2026_hiroshima_0213",
+      "tourId": "kurayamisaka_tte_doko_9_2026",
+      "venue": "Hiroshima CAVE-BE",
+      "performanceAt": "2027-02-13T18:00:00+09:00",
+      "doorOpenAt": "2027-02-13T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/word/0000158088",
+      "lastVerifiedAt": "2026-08-17T23:05:00+09:00"
+    },
+    {
+      "id": "kurayamisaka_tte_doko_9_2026_takamatsu_0214",
+      "tourId": "kurayamisaka_tte_doko_9_2026",
+      "venue": "Takamatsu DIME",
+      "performanceAt": "2027-02-14T17:30:00+09:00",
+      "doorOpenAt": "2027-02-14T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/word/0000158088",
+      "lastVerifiedAt": "2026-08-17T23:05:00+09:00"
+    },
+    {
+      "id": "kurayamisaka_tte_doko_9_2026_fukuoka_0220",
+      "tourId": "kurayamisaka_tte_doko_9_2026",
+      "venue": "Fukuoka BEAT STATION",
+      "performanceAt": "2027-02-20T18:00:00+09:00",
+      "doorOpenAt": "2027-02-20T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/word/0000158088",
+      "lastVerifiedAt": "2026-08-17T23:05:00+09:00"
+    },
+    {
+      "id": "kurayamisaka_fes_2026_number_shot_0802",
+      "tourId": "kurayamisaka_fes_2026",
+      "venue": "シーサイドももち海浜公園地行浜ビーチ",
+      "performanceAt": "2026-08-02T10:30:00+09:00",
+      "doorOpenAt": "2026-08-02T08:30:00+09:00",
+      "kind": "fes",
+      "eventName": "NUMBER SHOT 2026",
+      "source": "system",
+      "sourceUrl": "https://numbershot.jp/2026/",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "kurayamisaka_tte_doko_8_2026_gorillahall_3rd",
+      "tourId": "kurayamisaka_tte_doko_8_2026",
+      "type": "オフィシャル3次プレオーダー",
+      "entryStartAt": "2026-06-22T18:00:00+09:00",
+      "entryEndAt": "2026-07-12T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kurayamisaka_tte_doko_8_2026_gorillahall_1025"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/4146610001-P0030018P021001",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "kurayamisaka_tte_doko_9_2026_domestic_official",
+      "tourId": "kurayamisaka_tte_doko_9_2026",
+      "type": "オフィシャル先行",
+      "entryStartAt": null,
+      "entryEndAt": "2026-07-12T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kurayamisaka_tte_doko_9_2026_yokohama_0124",
+        "kurayamisaka_tte_doko_9_2026_kanazawa_0130",
+        "kurayamisaka_tte_doko_9_2026_hiroshima_0213",
+        "kurayamisaka_tte_doko_9_2026_takamatsu_0214",
+        "kurayamisaka_tte_doko_9_2026_fukuoka_0220"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/word/0000158088",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "kurayamisaka_tte_doko_8_2026_gorillahall_final_preorder",
+      "tourId": "kurayamisaka_tte_doko_8_2026",
+      "type": "最終プレオーダー",
+      "entryStartAt": "2026-07-15T18:00:00+09:00",
+      "entryEndAt": "2026-08-02T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kurayamisaka_tte_doko_8_2026_gorillahall_1025"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/4146610001-P0030018P021001",
+      "lastVerifiedAt": "2026-08-17T23:05:00+09:00"
+    },
+    {
+      "id": "kurayamisaka_tte_doko_8_2026_gorillahall_general",
+      "tourId": "kurayamisaka_tte_doko_8_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-08-08T10:00:00+09:00",
+      "entryEndAt": "2026-10-24T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kurayamisaka_tte_doko_8_2026_gorillahall_1025"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/4146610001-P0030018P021001",
+      "lastVerifiedAt": "2026-08-17T23:05:00+09:00"
+    },
+    {
+      "id": "kurayamisaka_tte_doko_9_2026_domestic_preorder_1st",
+      "tourId": "kurayamisaka_tte_doko_9_2026",
+      "type": "プレオーダー1次",
+      "entryStartAt": "2026-07-15T18:00:00+09:00",
+      "entryEndAt": "2026-08-02T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kurayamisaka_tte_doko_9_2026_yokohama_0124",
+        "kurayamisaka_tte_doko_9_2026_kanazawa_0130",
+        "kurayamisaka_tte_doko_9_2026_hiroshima_0213",
+        "kurayamisaka_tte_doko_9_2026_takamatsu_0214",
+        "kurayamisaka_tte_doko_9_2026_fukuoka_0220"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/word/0000158088",
+      "lastVerifiedAt": "2026-08-17T23:05:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "6788232950",
+      "title": "summer film",
+      "albumTitle": "summer film - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/36/3e/38/363e3867-498b-6872-003f-e4d9cd68d05c/mzaf_9501975006995787492.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d7/64/1d/d7641d18-4d9e-d21e-64fe-3258b38a3bf1/4522197168432.png/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "6788232952",
+      "title": "浜辺に散る",
+      "albumTitle": "summer film - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/26/c1/79/26c1794c-52e5-3b97-28eb-b8394f10c916/mzaf_15936830005655598684.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d7/64/1d/d7641d18-4d9e-d21e-64fe-3258b38a3bf1/4522197168432.png/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1807307461",
+      "title": "modify Youth",
+      "albumTitle": "evergreen/modify Youth - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/75/a2/14/75a2146b-0466-7c9c-7e39-9f2571861d15/mzaf_17097403613790693836.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b0/0d/b8/b00db853-afdc-9f30-6d92-4397ea5a95a6/4522197158686.png/{w}x{h}{c}.{f}"
+    }
+  ]
+}

@@ -1,0 +1,775 @@
+{
+  "artistId": "04_limited_sazabys",
+  "tours": [
+    {
+      "id": "04_limited_sazabys_one_man_tour_2026",
+      "artistId": "04_limited_sazabys",
+      "title": "04 Limited Sazabys ONE MAN TOUR 2026",
+      "startDate": "2026-10-02T00:00:00+09:00",
+      "endDate": "2026-11-05T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "スタンディング",
+          "amount": 6600
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/feature/tour2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_fes_2026_summer",
+      "artistId": "04_limited_sazabys",
+      "title": "04 Limited Sazabys 2026年夏フェス・対バン出演",
+      "startDate": "2026-07-09T00:00:00+09:00",
+      "endDate": "2026-09-27T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/news/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_fes_2026_autumn",
+      "artistId": "04_limited_sazabys",
+      "title": "04 Limited Sazabys 2026年秋フェス・対バン出演",
+      "startDate": "2026-10-17T00:00:00+09:00",
+      "endDate": "2026-11-29T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/news/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_event_2026_shelter_35th",
+      "artistId": "04_limited_sazabys",
+      "title": "SHELTER 35th Anniversary \"One Epic Month\"",
+      "startDate": "2026-10-14T00:00:00+09:00",
+      "endDate": "2026-10-14T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "チケット",
+          "amount": 5500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/news/detail/2349",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_fes_masterpiece_2026",
+      "artistId": "04_limited_sazabys",
+      "title": "MASTERPIECE 2026",
+      "startDate": "2026-11-28T00:00:00+09:00",
+      "endDate": "2026-11-28T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1DAY",
+          "amount": 8800
+        },
+        {
+          "label": "2DAY",
+          "amount": 15000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://w.pia.jp/t/masterpiece-26/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_fes_kyoto_ultra_express_2026",
+      "artistId": "04_limited_sazabys",
+      "title": "響都超特急2026",
+      "startDate": "2026-12-12T00:00:00+09:00",
+      "endDate": "2026-12-13T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1日券",
+          "amount": 9610
+        },
+        {
+          "label": "2日券",
+          "amount": 18610
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://kue.rotten-g.com/26/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_event_tentwenty_2026",
+      "artistId": "04_limited_sazabys",
+      "title": "TenTwenty LIVE 2026 \"in the Rough 2\"",
+      "startDate": "2026-08-16T00:00:00+09:00",
+      "endDate": "2026-08-16T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "オールスタンディング",
+          "amount": 6500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/news/detail/2351",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_fes_new_horizon_2026",
+      "artistId": "04_limited_sazabys",
+      "title": "Sammy presents NEW HORIZON FEST 2026",
+      "startDate": "2026-12-28T00:00:00+09:00",
+      "endDate": "2026-12-28T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/news/detail/2353",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_yon_town_8th_2026",
+      "artistId": "04_limited_sazabys",
+      "title": "YON TOWN 8th Anniversary 〜真夏の町民女祭り・男祭り〜",
+      "startDate": "2026-08-08T00:00:00+09:00",
+      "endDate": "2026-08-08T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全券種",
+          "amount": 5555
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/feature/yontownlive2026",
+      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "04_limited_sazabys_one_man_tour_2026_kt_zepp_yokohama_1002",
+      "tourId": "04_limited_sazabys_one_man_tour_2026",
+      "venue": "KT Zepp Yokohama",
+      "performanceAt": "2026-10-02T19:00:00+09:00",
+      "doorOpenAt": "2026-10-02T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/feature/tour2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_one_man_tour_2026_zepp_fukuoka_1008",
+      "tourId": "04_limited_sazabys_one_man_tour_2026",
+      "venue": "Zepp Fukuoka",
+      "performanceAt": "2026-10-08T19:00:00+09:00",
+      "doorOpenAt": "2026-10-08T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/feature/tour2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_one_man_tour_2026_zepp_osaka_bayside_1009",
+      "tourId": "04_limited_sazabys_one_man_tour_2026",
+      "venue": "Zepp Osaka Bayside",
+      "performanceAt": "2026-10-09T19:00:00+09:00",
+      "doorOpenAt": "2026-10-09T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/feature/tour2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_one_man_tour_2026_zepp_haneda_1021",
+      "tourId": "04_limited_sazabys_one_man_tour_2026",
+      "venue": "Zepp Haneda(TOKYO)",
+      "performanceAt": "2026-10-21T19:00:00+09:00",
+      "doorOpenAt": "2026-10-21T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/feature/tour2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_one_man_tour_2026_zepp_haneda_1022",
+      "tourId": "04_limited_sazabys_one_man_tour_2026",
+      "venue": "Zepp Haneda(TOKYO)",
+      "performanceAt": "2026-10-22T19:00:00+09:00",
+      "doorOpenAt": "2026-10-22T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/feature/tour2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_one_man_tour_2026_sendai_gigs_1030",
+      "tourId": "04_limited_sazabys_one_man_tour_2026",
+      "venue": "仙台GIGS",
+      "performanceAt": "2026-10-30T19:00:00+09:00",
+      "doorOpenAt": "2026-10-30T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/feature/tour2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_one_man_tour_2026_zepp_sapporo_1101",
+      "tourId": "04_limited_sazabys_one_man_tour_2026",
+      "venue": "Zepp Sapporo",
+      "performanceAt": "2026-11-01T17:00:00+09:00",
+      "doorOpenAt": "2026-11-01T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/feature/tour2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_one_man_tour_2026_zepp_nagoya_1104",
+      "tourId": "04_limited_sazabys_one_man_tour_2026",
+      "venue": "Zepp Nagoya",
+      "performanceAt": "2026-11-04T19:00:00+09:00",
+      "doorOpenAt": "2026-11-04T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/feature/tour2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_one_man_tour_2026_zepp_nagoya_1105",
+      "tourId": "04_limited_sazabys_one_man_tour_2026",
+      "venue": "Zepp Nagoya",
+      "performanceAt": "2026-11-05T19:00:00+09:00",
+      "doorOpenAt": "2026-11-05T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/feature/tour2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_fes_2026_summer_zepp_nagoya_0709",
+      "tourId": "04_limited_sazabys_fes_2026_summer",
+      "venue": "Zepp Nagoya",
+      "performanceAt": "2026-07-09T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "東京スカパラダイスオーケストラ VerSus Carnival",
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/news/detail/2268",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_fes_2026_summer_talking_rock_0711",
+      "tourId": "04_limited_sazabys_fes_2026_summer",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-07-11T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "Talking Rock! FES.2026",
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/news/detail/2317",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_fes_2026_summer_zepp_haneda_0712",
+      "tourId": "04_limited_sazabys_fes_2026_summer",
+      "venue": "Zepp Haneda(TOKYO)",
+      "performanceAt": "2026-07-12T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "フレデリック UMIMOYASU 2026-2027 MOVE -SUDDEN MOVE-",
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/news/detail/2265",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_fes_2026_summer_join_alive_0718",
+      "tourId": "04_limited_sazabys_fes_2026_summer",
+      "venue": "いわみざわ公園",
+      "performanceAt": "2026-07-18T11:00:00+09:00",
+      "doorOpenAt": "2026-07-18T09:30:00+09:00",
+      "kind": "fes",
+      "eventName": "JOIN ALIVE 2026",
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/news/detail/2280",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_fes_2026_summer_osaka_gigantic_0726",
+      "tourId": "04_limited_sazabys_fes_2026_summer",
+      "venue": "舞洲スポーツアイランド",
+      "performanceAt": "2026-07-26T11:00:00+09:00",
+      "doorOpenAt": "2026-07-26T09:30:00+09:00",
+      "kind": "fes",
+      "eventName": "OSAKA GIGANTIC MUSIC FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/news/detail/2318",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_fes_2026_summer_j_wave_kings_0804",
+      "tourId": "04_limited_sazabys_fes_2026_summer",
+      "venue": "Zepp Haneda(TOKYO)",
+      "performanceAt": "2026-08-04T19:00:00+09:00",
+      "doorOpenAt": "2026-08-04T18:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "J-WAVE THE KINGS PLACE LIVE 2026 SUMMER",
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/news/detail/2333",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_fes_2026_summer_cannonball_0810",
+      "tourId": "04_limited_sazabys_fes_2026_summer",
+      "venue": "有明アリーナ",
+      "performanceAt": "2026-08-10T15:00:00+09:00",
+      "doorOpenAt": "2026-08-10T14:00:00+09:00",
+      "kind": "fes",
+      "eventName": "CANNONBALL外伝",
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/news/detail/2332",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_fes_2026_summer_rsr_0814",
+      "tourId": "04_limited_sazabys_fes_2026_summer",
+      "venue": "石狩湾新港樽川ふ頭横野外特設ステージ",
+      "performanceAt": "2026-08-14T14:00:00+09:00",
+      "doorOpenAt": "2026-08-14T10:00:00+09:00",
+      "kind": "fes",
+      "eventName": "RISING SUN ROCK FESTIVAL 2026 in EZO",
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/news/detail/2298",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_fes_2026_summer_wild_bunch_0821",
+      "tourId": "04_limited_sazabys_fes_2026_summer",
+      "venue": "山口きらら博記念公園",
+      "performanceAt": "2026-08-21T11:30:00+09:00",
+      "doorOpenAt": "2026-08-21T10:00:00+09:00",
+      "kind": "fes",
+      "eventName": "WILD BUNCH FEST. 2026",
+      "source": "system",
+      "sourceUrl": "https://www.wildbunchfest.jp/time-table/",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_fes_2026_summer_monster_bash_0822",
+      "tourId": "04_limited_sazabys_fes_2026_summer",
+      "venue": "国営讃岐まんのう公園",
+      "performanceAt": "2026-08-22T11:00:00+09:00",
+      "doorOpenAt": "2026-08-22T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "MONSTER baSH 2026",
+      "source": "system",
+      "sourceUrl": "https://www.monsterbash.jp/timetable.html",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_fes_2026_summer_sweet_love_shower_0828",
+      "tourId": "04_limited_sazabys_fes_2026_summer",
+      "venue": "山中湖交流プラザ きらら",
+      "performanceAt": "2026-08-28T10:00:00+09:00",
+      "doorOpenAt": "2026-08-28T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "SWEET LOVE SHOWER 2026",
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/news/detail/2098",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_fes_2026_summer_rijfes_0912",
+      "tourId": "04_limited_sazabys_fes_2026_summer",
+      "venue": "千葉市蘇我スポーツ公園",
+      "performanceAt": "2026-09-12T11:45:00+09:00",
+      "doorOpenAt": "2026-09-12T08:30:00+09:00",
+      "kind": "fes",
+      "eventName": "ROCK IN JAPAN FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/news/detail/2329",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_fes_2026_summer_treasure05x",
+      "tourId": "04_limited_sazabys_fes_2026_summer",
+      "venue": "蒲郡ラグーナビーチ",
+      "performanceAt": "2026-09-06T11:00:00+09:00",
+      "doorOpenAt": "2026-09-06T09:30:00+09:00",
+      "kind": "fes",
+      "eventName": "TREASURE05X 2026",
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/news/detail/2325",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_fes_2026_summer_rush_ball_taipei_0919",
+      "tourId": "04_limited_sazabys_fes_2026_summer",
+      "venue": "Legacy TERA",
+      "performanceAt": "2026-09-19T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "RUSH BALL 2026 in Taipei & Taichung on the ROAD",
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/news/detail/2321",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_fes_2026_summer_rush_ball_taichung_0920",
+      "tourId": "04_limited_sazabys_fes_2026_summer",
+      "venue": "Legacy Taichung（台中）",
+      "performanceAt": "2026-09-20T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "RUSH BALL 2026 in Taipei & Taichung on the ROAD",
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/news/detail/2321",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_fes_2026_summer_hey_smith_sapporo_0925",
+      "tourId": "04_limited_sazabys_fes_2026_summer",
+      "venue": "Zepp Sapporo",
+      "performanceAt": "2026-09-25T18:30:00+09:00",
+      "doorOpenAt": "2026-09-25T17:30:00+09:00",
+      "kind": "taiban",
+      "eventName": "HEY-SMITH ALL OVER JAPAN TOUR",
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/news/detail/2260",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_fes_2026_summer_hey_smith_niigata_0927",
+      "tourId": "04_limited_sazabys_fes_2026_summer",
+      "venue": "新潟LOTS",
+      "performanceAt": "2026-09-27T18:30:00+09:00",
+      "doorOpenAt": "2026-09-27T17:30:00+09:00",
+      "kind": "taiban",
+      "eventName": "HEY-SMITH ALL OVER JAPAN TOUR",
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/news/detail/2260",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_fes_2026_autumn_live_azuma_1017",
+      "tourId": "04_limited_sazabys_fes_2026_autumn",
+      "venue": "あづま総合運動公園 / 福島あづま球場",
+      "performanceAt": "2026-10-17T11:00:00+09:00",
+      "doorOpenAt": "2026-10-17T10:00:00+09:00",
+      "kind": "fes",
+      "eventName": "LIVE AZUMA 2026",
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/news/detail/2331",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_fes_2026_autumn_haziketemazare",
+      "tourId": "04_limited_sazabys_fes_2026_autumn",
+      "venue": "泉大津フェニックス",
+      "performanceAt": "2026-10-25T10:30:00+09:00",
+      "doorOpenAt": "2026-10-25T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "HEY-SMITH Presents OSAKA HAZIKETEMAZARE FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/news/detail/2327",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_fes_2026_autumn_gogovanillas_1129",
+      "tourId": "04_limited_sazabys_fes_2026_autumn",
+      "venue": "BLUE LIVE 広島",
+      "performanceAt": "2026-11-29T18:00:00+09:00",
+      "doorOpenAt": "2026-11-29T17:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "go!go!vanillas ぼくらのタイマン上等ツアー",
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/news/detail/2342",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_event_2026_shelter_35th_shelter_1014",
+      "tourId": "04_limited_sazabys_event_2026_shelter_35th",
+      "venue": "下北沢SHELTER",
+      "performanceAt": "2026-10-14T19:45:00+09:00",
+      "doorOpenAt": "2026-10-14T19:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "SHELTER 35th Anniversary \"One Epic Month\"",
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/news/detail/2349",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_fes_masterpiece_2026_gifu_1128",
+      "tourId": "04_limited_sazabys_fes_masterpiece_2026",
+      "venue": "岐阜市文化センター",
+      "performanceAt": "2026-11-28T12:00:00+09:00",
+      "doorOpenAt": "2026-11-28T10:00:00+09:00",
+      "kind": "fes",
+      "eventName": "MASTERPIECE 2026",
+      "source": "system",
+      "sourceUrl": "https://w.pia.jp/t/masterpiece-26/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_event_tentwenty_2026_yokohama_bay_hall_0816",
+      "tourId": "04_limited_sazabys_event_tentwenty_2026",
+      "venue": "YOKOHAMA Bay Hall",
+      "performanceAt": "2026-08-16T17:00:00+09:00",
+      "doorOpenAt": "2026-08-16T16:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "TenTwenty LIVE 2026 \"in the Rough 2\"",
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/news/detail/2351",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_fes_new_horizon_2026_toyota_arena_tokyo_1228",
+      "tourId": "04_limited_sazabys_fes_new_horizon_2026",
+      "venue": "TOYOTA ARENA TOKYO",
+      "performanceAt": "2026-12-28T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "Sammy presents NEW HORIZON FEST 2026",
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/news/detail/2353",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_yon_town_8th_2026_female_0808",
+      "tourId": "04_limited_sazabys_yon_town_8th_2026",
+      "venue": "COMTEC PORTBASE",
+      "performanceAt": "2026-08-08T15:30:00+09:00",
+      "doorOpenAt": "2026-08-08T14:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "YON TOWN 8th Anniversary 〜真夏の町民女祭り〜",
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/feature/yontownlive2026",
+      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_yon_town_8th_2026_male_0808",
+      "tourId": "04_limited_sazabys_yon_town_8th_2026",
+      "venue": "COMTEC PORTBASE",
+      "performanceAt": "2026-08-08T19:00:00+09:00",
+      "doorOpenAt": "2026-08-08T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "YON TOWN 8th Anniversary 〜真夏の町民男祭り〜",
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/feature/yontownlive2026",
+      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "04_limited_sazabys_one_man_tour_2026_ippan",
+      "tourId": "04_limited_sazabys_one_man_tour_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-06-13T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "04_limited_sazabys_one_man_tour_2026_kt_zepp_yokohama_1002",
+        "04_limited_sazabys_one_man_tour_2026_zepp_fukuoka_1008",
+        "04_limited_sazabys_one_man_tour_2026_zepp_osaka_bayside_1009",
+        "04_limited_sazabys_one_man_tour_2026_zepp_haneda_1021",
+        "04_limited_sazabys_one_man_tour_2026_zepp_haneda_1022",
+        "04_limited_sazabys_one_man_tour_2026_sendai_gigs_1030",
+        "04_limited_sazabys_one_man_tour_2026_zepp_sapporo_1101",
+        "04_limited_sazabys_one_man_tour_2026_zepp_nagoya_1104",
+        "04_limited_sazabys_one_man_tour_2026_zepp_nagoya_1105"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/feature/tour2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_event_2026_shelter_35th_yontown",
+      "tourId": "04_limited_sazabys_event_2026_shelter_35th",
+      "type": "YON TOWN先行",
+      "entryStartAt": "2026-07-14T20:00:00+09:00",
+      "entryEndAt": "2026-07-20T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "04_limited_sazabys_event_2026_shelter_35th_shelter_1014"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/news/detail/2349",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_event_2026_shelter_35th_ippan_senko",
+      "tourId": "04_limited_sazabys_event_2026_shelter_35th",
+      "type": "一般先行",
+      "entryStartAt": "2026-07-28T12:00:00+09:00",
+      "entryEndAt": "2026-08-02T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "04_limited_sazabys_event_2026_shelter_35th_shelter_1014"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/shelter35th/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_fes_masterpiece_2026_official_1st",
+      "tourId": "04_limited_sazabys_fes_masterpiece_2026",
+      "type": "オフィシャル1次先行",
+      "entryStartAt": null,
+      "entryEndAt": "2026-06-28T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "04_limited_sazabys_fes_masterpiece_2026_gifu_1128"
+      ],
+      "source": "system",
+      "sourceUrl": "https://w.pia.jp/t/masterpiece-26/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_fes_kyoto_ultra_express_2026_610club_fastest",
+      "tourId": "04_limited_sazabys_fes_kyoto_ultra_express_2026",
+      "type": "610倶楽部超最速先行",
+      "entryStartAt": "2026-06-10T22:06:00+09:00",
+      "entryEndAt": "2026-06-28T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://kue.rotten-g.com/26/ticket/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_event_tentwenty_2026_ippan",
+      "tourId": "04_limited_sazabys_event_tentwenty_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-07-25T10:00:00+09:00",
+      "entryEndAt": "2026-08-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "04_limited_sazabys_event_tentwenty_2026_yokohama_bay_hall_0816"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/tentwenty/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_fes_new_horizon_2026_official_1st",
+      "tourId": "04_limited_sazabys_fes_new_horizon_2026",
+      "type": "オフィシャル1次先行",
+      "entryStartAt": "2026-07-31T18:00:00+09:00",
+      "entryEndAt": "2026-08-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "04_limited_sazabys_fes_new_horizon_2026_toyota_arena_tokyo_1228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://newhorizon.sammy.co.jp/2026/nhf/ticket/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_yon_town_8th_2026_longterm",
+      "tourId": "04_limited_sazabys_yon_town_8th_2026",
+      "type": "YON TOWN長期会員先行",
+      "entryStartAt": "2026-07-03T20:00:00+09:00",
+      "entryEndAt": "2026-07-05T23:59:00+09:00",
+      "resultAt": "2026-07-09T18:00:00+09:00",
+      "paymentStartAt": "2026-07-09T18:00:00+09:00",
+      "paymentEndAt": "2026-07-12T23:59:00+09:00",
+      "performanceIds": [
+        "04_limited_sazabys_yon_town_8th_2026_female_0808",
+        "04_limited_sazabys_yon_town_8th_2026_male_0808"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/feature/yontownlive2026",
+      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_yon_town_8th_2026_1st",
+      "tourId": "04_limited_sazabys_yon_town_8th_2026",
+      "type": "YON TOWN通常会員1次受付",
+      "entryStartAt": "2026-07-09T18:00:00+09:00",
+      "entryEndAt": "2026-07-12T23:59:00+09:00",
+      "resultAt": "2026-07-16T18:00:00+09:00",
+      "paymentStartAt": "2026-07-16T18:00:00+09:00",
+      "paymentEndAt": "2026-07-19T23:59:00+09:00",
+      "performanceIds": [
+        "04_limited_sazabys_yon_town_8th_2026_female_0808",
+        "04_limited_sazabys_yon_town_8th_2026_male_0808"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/feature/yontownlive2026",
+      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_yon_town_8th_2026_2nd",
+      "tourId": "04_limited_sazabys_yon_town_8th_2026",
+      "type": "YON TOWN通常会員2次受付",
+      "entryStartAt": "2026-07-16T18:00:00+09:00",
+      "entryEndAt": "2026-07-19T23:59:00+09:00",
+      "resultAt": "2026-07-23T18:00:00+09:00",
+      "paymentStartAt": "2026-07-23T18:00:00+09:00",
+      "paymentEndAt": "2026-07-26T23:59:00+09:00",
+      "performanceIds": [
+        "04_limited_sazabys_yon_town_8th_2026_female_0808",
+        "04_limited_sazabys_yon_town_8th_2026_male_0808"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/feature/yontownlive2026",
+      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_yon_town_8th_2026_final",
+      "tourId": "04_limited_sazabys_yon_town_8th_2026",
+      "type": "YON TOWN通常会員最終受付（先着・予定枚数終了まで）",
+      "entryStartAt": "2026-07-27T18:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "04_limited_sazabys_yon_town_8th_2026_female_0808",
+        "04_limited_sazabys_yon_town_8th_2026_male_0808"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/feature/yontownlive2026",
+      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "977103841",
+      "title": "swim",
+      "albumTitle": "CAVU",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/3f/89/8f/3f898f6d-2f39-90c2-ec07-5103651bdc7a/mzaf_11417777417977664943.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f8/65/74/f8657453-bbb0-3981-d338-3512ca87b8b1/COCP-39047.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1644049141",
+      "title": "Keep going",
+      "albumTitle": "Harvest",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/d9/e5/20/d9e520d5-5d2b-24ac-70ba-0c0fa3f98509/mzaf_18139889055251963328.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/5f/e5/a0/5fe5a092-f772-5193-63bd-df0acb41a8ab/COKM-44074.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "808636737",
+      "title": "monolith",
+      "albumTitle": "monolith",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/30/c7/d4/30c7d4cd-e6df-fe26-cba2-7f0f58130b6b/mzaf_17282496702561495860.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/83/33/bc/8333bc93-876d-f6c4-d0bd-ce131f257bce/COKM-32348.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

@@ -1,0 +1,440 @@
+{
+  "artistId": "frederic",
+  "tours": [
+    {
+      "id": "frederic_umimoyasu_20262027_move",
+      "artistId": "frederic",
+      "title": "UMIMOYASU 2026-2027 MOVE",
+      "startDate": "2026-04-18T00:00:00+09:00",
+      "endDate": "2027-01-17T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "スタンディング",
+          "amount": 6600
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_fes_2026",
+      "artistId": "frederic",
+      "title": "2026年フェス出演",
+      "startDate": "2026-07-11T00:00:00+09:00",
+      "endDate": "2026-10-17T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/3?range=future_event_end_time&sort=asc",
+      "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
+    },
+    {
+      "id": "frederic_event_tokiwafes_2026",
+      "artistId": "frederic",
+      "title": "TOKIWA FES 2026 対バン Special Live",
+      "startDate": "2026-10-18T00:00:00+09:00",
+      "endDate": "2026-10-18T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3739",
+      "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
+    },
+    {
+      "id": "frederic_event_ncis_hand_in_hand_2026",
+      "artistId": "frederic",
+      "title": "Nothing's Carved In Stone Hand In Hand Tour 2026",
+      "startDate": "2026-10-30T00:00:00+09:00",
+      "endDate": "2026-10-30T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3681",
+      "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
+    },
+    {
+      "id": "frederic_event_nelke_merge_2026",
+      "artistId": "frederic",
+      "title": "NELKE 2MAN TOUR 2026「MERGE」",
+      "startDate": "2026-11-18T00:00:00+09:00",
+      "endDate": "2026-11-18T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3666",
+      "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
+    },
+    {
+      "id": "frederic_fes_2027",
+      "artistId": "frederic",
+      "title": "Hype Like it! 2027",
+      "startDate": "2027-01-23T00:00:00+09:00",
+      "endDate": "2027-01-23T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1日券",
+          "amount": 11000
+        },
+        {
+          "label": "2日通し券",
+          "amount": 20000
+        },
+        {
+          "label": "U-21チケット",
+          "amount": 8800
+        },
+        {
+          "label": "こどもチケット",
+          "amount": 3300
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3733",
+      "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "frederic_umimoyasu_20262027_move_zepp_yokohama_0418",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "venue": "KT Zepp Yokohama",
+      "performanceAt": "2026-04-18T18:00:00+09:00",
+      "doorOpenAt": "2026-04-18T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_zepp_haneda_0526",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "venue": "Zepp Haneda(TOKYO)",
+      "performanceAt": "2026-05-26T19:00:00+09:00",
+      "doorOpenAt": "2026-05-26T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_zepp_haneda_0712",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "venue": "Zepp Haneda(TOKYO)",
+      "performanceAt": "2026-07-12T18:00:00+09:00",
+      "doorOpenAt": "2026-07-12T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_zepp_haneda_1012",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "venue": "Zepp Haneda(TOKYO)",
+      "performanceAt": "2026-10-12T18:00:00+09:00",
+      "doorOpenAt": "2026-10-12T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_zepp_haneda_0117",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "venue": "Zepp Haneda(TOKYO)",
+      "performanceAt": "2027-01-17T18:00:00+09:00",
+      "doorOpenAt": "2027-01-17T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_fes_2026_talkingrockfes_yokohama_0711",
+      "tourId": "frederic_fes_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-07-11T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "Talking Rock! FES.2026 <<横浜編>>",
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3657",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_fes_2026_singershigh_nagoya_0722",
+      "tourId": "frederic_fes_2026",
+      "venue": "名古屋ダイアモンドホール",
+      "performanceAt": "2026-07-22T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "Singer's High pre. \"Battle Frontier tour 2026\"",
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3632",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_fes_2026_jiga_osaka_0726",
+      "tourId": "frederic_fes_2026",
+      "venue": "舞洲スポーツアイランド ジャイガ特設会場",
+      "performanceAt": "2026-07-26T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "OSAKA GIGANTIC MUSIC FESTIVAL 2026 -THANKS 10TH GIGA-",
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3648",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_fes_2026_talkingrockfes_kobe_0809",
+      "tourId": "frederic_fes_2026",
+      "venue": "神戸ワールド記念ホール",
+      "performanceAt": "2026-08-09T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "Talking Rock! FES.2026 <<神戸編>>",
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3630",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_fes_2026_luckyfes_hitachi_0811",
+      "tourId": "frederic_fes_2026",
+      "venue": "国営ひたち海浜公園",
+      "performanceAt": "2026-08-11T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "LuckyFes'26",
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3620",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_fes_2026_sls_yamanashi_0829",
+      "tourId": "frederic_fes_2026",
+      "venue": "山梨・山中湖交流プラザ きらら",
+      "performanceAt": "2026-08-29T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "SPACE SHOWER SWEET LOVE SHOWER 2026",
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3631",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_fes_2026_treasure05x_aichi_0912",
+      "tourId": "frederic_fes_2026",
+      "venue": "愛知・蒲郡ラグーナビーチ",
+      "performanceAt": "2026-09-12T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "TREASURE05X 2026 \"LAND OF THE FREE- LAGUNA FINAL-\"",
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3658",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_fes_2026_rij_soga_0920",
+      "tourId": "frederic_fes_2026",
+      "venue": "千葉市蘇我スポーツ公園",
+      "performanceAt": "2026-09-20T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "ROCK IN JAPAN FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3668",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_fes_2026_inazuma_kusatsu_0921",
+      "tourId": "frederic_fes_2026",
+      "venue": "滋賀県草津市 烏丸半島芝生広場",
+      "performanceAt": "2026-09-21T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "FEST. INAZUMA 2026",
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3682",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_fes_2026_gfest_gunma_1010",
+      "tourId": "frederic_fes_2026",
+      "venue": "Gメッセ群馬",
+      "performanceAt": "2026-10-10T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "GFEST.2026",
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3696",
+      "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
+    },
+    {
+      "id": "frederic_fes_2026_liveazuma_fukushima_1017",
+      "tourId": "frederic_fes_2026",
+      "venue": "福島あづま球場・あづま総合運動公園",
+      "performanceAt": "2026-10-17T11:00:00+09:00",
+      "doorOpenAt": "2026-10-17T10:00:00+09:00",
+      "kind": "fes",
+      "eventName": "LIVE AZUMA 2026",
+      "source": "system",
+      "sourceUrl": "https://liveazuma.jp/about/",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
+    },
+    {
+      "id": "frederic_event_tokiwafes_2026_mito_1018",
+      "tourId": "frederic_event_tokiwafes_2026",
+      "venue": "常磐大学体育館（C棟）",
+      "performanceAt": "2026-10-18T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "eventName": "TOKIWA FES 2026 対バン Special Live",
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3739",
+      "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
+    },
+    {
+      "id": "frederic_event_ncis_hand_in_hand_2026_osaka_1030",
+      "tourId": "frederic_event_ncis_hand_in_hand_2026",
+      "venue": "GORILLA HALL OSAKA",
+      "performanceAt": "2026-10-30T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "eventName": "Nothing's Carved In Stone Hand In Hand Tour 2026",
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3681",
+      "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
+    },
+    {
+      "id": "frederic_event_nelke_merge_2026_yokohama_1118",
+      "tourId": "frederic_event_nelke_merge_2026",
+      "venue": "KT Zepp Yokohama",
+      "performanceAt": "2026-11-18T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "eventName": "NELKE 2MAN TOUR 2026「MERGE」",
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3666",
+      "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
+    },
+    {
+      "id": "frederic_fes_2027_hypelikeit_makuhari_0123",
+      "tourId": "frederic_fes_2027",
+      "venue": "幕張メッセ国際展示場1・2・3ホール",
+      "performanceAt": "2027-01-23T12:00:00+09:00",
+      "doorOpenAt": "2027-01-23T10:00:00+09:00",
+      "kind": "fes",
+      "eventName": "Hype Like it! 2027",
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3733",
+      "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "frederic_umimoyasu_20262027_move_fc_1st_1012",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "type": "フレハウス+一次抽選",
+      "entryStartAt": "2026-04-06T18:00:00+09:00",
+      "entryEndAt": "2026-04-12T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_haneda_1012"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_fc_2nd_1012",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "type": "フレハウス+二次抽選",
+      "entryStartAt": "2026-04-17T18:00:00+09:00",
+      "entryEndAt": "2026-04-26T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_haneda_1012"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_preorder_1012",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "type": "プレオーダー先行",
+      "entryStartAt": "2026-07-06T18:00:00+09:00",
+      "entryEndAt": "2026-07-12T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_haneda_1012"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3717",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_fes_2027_hypelikeit_fc_1st",
+      "tourId": "frederic_fes_2027",
+      "type": "フレハウス+最速先行",
+      "entryStartAt": "2026-07-21T12:00:00+09:00",
+      "entryEndAt": "2026-07-26T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_fes_2027_hypelikeit_makuhari_0123"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3733",
+      "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
+    },
+    {
+      "id": "frederic_fes_2027_hypelikeit_official",
+      "tourId": "frederic_fes_2027",
+      "type": "追加・オフィシャル先行",
+      "entryStartAt": "2026-07-29T18:00:00+09:00",
+      "entryEndAt": "2026-08-03T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_fes_2027_hypelikeit_makuhari_0123"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3733",
+      "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1838917575",
+      "title": "オドループ",
+      "albumTitle": "oddloop",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c8/cf/ac/c8cfaca5-4d80-3145-149e-c7160e0a639e/mzaf_13720764803292146755.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b9/ba/09/b9ba092b-03b4-d3c0-a818-13f1ff8c714d/25UMGIM92926.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1842290612",
+      "title": "オンリーワンダー",
+      "albumTitle": "フレデリズム",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/51/e0/12/51e0128f-146c-e60a-7092-5f3ea086a7fa/mzaf_11885612175553860751.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/99/38/82/99388269-98c7-0f5f-990a-25931a289114/25UM1IM01267.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1840124885",
+      "title": "スパークルダンサー",
+      "albumTitle": "スパークルダンサー - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9a/d8/d7/9ad8d72b-4c14-3273-ca6a-65b8cdc291b7/mzaf_11224637687012264793.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e2/4b/9c/e24b9cc6-217d-e076-dc1c-582a171b2422/25UM1IM01113.rgb.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

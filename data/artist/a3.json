@@ -1,0 +1,160 @@
+{
+  "artistId": "a3",
+  "tours": [
+    {
+      "id": "a3_act3_aw2027",
+      "artistId": "a3",
+      "title": "MANKAI STAGE『A3!』ACT3! ～AUTUMN & WINTER 2027～",
+      "startDate": "2027-01-01T00:00:00+09:00",
+      "endDate": "2027-02-28T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://mankai-stage.jp/act3-2/aw2027/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "a3_act3_ss2027",
+      "artistId": "a3",
+      "title": "MANKAI STAGE『A3!』ACT3! ～SPRING & SUMMER 2027～",
+      "startDate": "2027-04-01T00:00:00+09:00",
+      "endDate": "2027-08-31T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://mankai-stage.jp/act3-2/ss2027/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "a3_10th_full_blooming_live_2027",
+      "artistId": "a3",
+      "title": "A3! 10th AnniversAry FULL BLOOMING LIVE",
+      "startDate": "2027-04-03T00:00:00+09:00",
+      "endDate": "2027-04-04T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.a3-liber.jp/news/20260519-2521",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "a3_act3_aw2027_tokyo_0101",
+      "tourId": "a3_act3_aw2027",
+      "venue": null,
+      "performanceAt": "2027-01-01T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://mankai-stage.jp/act3-2/aw2027/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "a3_act3_aw2027_shizuoka_0101",
+      "tourId": "a3_act3_aw2027",
+      "venue": null,
+      "performanceAt": "2027-01-01T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://mankai-stage.jp/act3-2/aw2027/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "a3_act3_aw2027_kagawa_0101",
+      "tourId": "a3_act3_aw2027",
+      "venue": null,
+      "performanceAt": "2027-01-01T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://mankai-stage.jp/act3-2/aw2027/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "a3_act3_aw2027_aichi_0101",
+      "tourId": "a3_act3_aw2027",
+      "venue": null,
+      "performanceAt": "2027-01-01T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://mankai-stage.jp/act3-2/aw2027/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "a3_act3_aw2027_yamaguchi_0101",
+      "tourId": "a3_act3_aw2027",
+      "venue": null,
+      "performanceAt": "2027-01-01T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://mankai-stage.jp/act3-2/aw2027/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "a3_act3_aw2027_osaka_0101",
+      "tourId": "a3_act3_aw2027",
+      "venue": null,
+      "performanceAt": "2027-01-01T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://mankai-stage.jp/act3-2/aw2027/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "a3_10th_full_blooming_live_2027_day1",
+      "tourId": "a3_10th_full_blooming_live_2027",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2027-04-03T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "A3! 10th AnniversAry FULL BLOOMING LIVE",
+      "source": "system",
+      "sourceUrl": "https://www.a3-liber.jp/news/20260519-2521",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "a3_10th_full_blooming_live_2027_day2",
+      "tourId": "a3_10th_full_blooming_live_2027",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2027-04-04T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "A3! 10th AnniversAry FULL BLOOMING LIVE",
+      "source": "system",
+      "sourceUrl": "https://www.a3-liber.jp/news/20260519-2521",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [],
+  "appleMusicTracks": [
+    {
+      "songId": "1201699608",
+      "title": "MANKAI☆開花宣言",
+      "albumTitle": "MANKAI☆開花宣言 - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c5/48/7d/c5487d60-b95a-c7e8-f003-2a10e9e27f45/mzaf_4989821480003744405.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/09/90/b4/0990b4a1-cfec-1a56-2946-27bee428f925/PCCG_01581.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1495950663",
+      "title": "Act! Addict! Actors!",
+      "albumTitle": "Act! Addict! Actors! - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/33/ba/55/33ba559a-03b8-06fd-6784-0c47ef97d59d/mzaf_8521464682174439589.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/72/aa/bd/72aabd9e-66fa-f036-1a3b-67941752d167/PCCG_01856.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1351159027",
+      "title": "春夏秋冬☆Blooming!",
+      "albumTitle": "春夏秋冬☆Blooming! - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ad/76/e2/ad76e230-a0ae-b8b5-269c-12625688b9d6/mzaf_2961716621558108072.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dd/df/e3/dddfe3e7-8d52-26b1-0998-28e2ed85808f/PCCG_01666.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

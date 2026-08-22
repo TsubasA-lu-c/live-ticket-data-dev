@@ -1,0 +1,352 @@
+{
+  "artistId": "tomorrow_x_together",
+  "tours": [
+    {
+      "id": "tomorrow_x_together_vr_concert_endless_ride_2026",
+      "artistId": "tomorrow_x_together",
+      "title": "TOMORROW X TOGETHER VR CONCERT：ENDLESS RIDE",
+      "startDate": "2026-07-31T00:00:00+09:00",
+      "endDate": "2026-09-23T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "一般・指定席",
+          "amount": 4400
+        },
+        {
+          "label": "109シネマズプレミアム新宿",
+          "amount": 5000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://txt-official.jp/news/ccfabf91e5a2",
+      "lastVerifiedAt": "2026-07-22T10:26:13+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_event_setsuna_hanabi_premium_live_2026",
+      "artistId": "tomorrow_x_together",
+      "title": "TOMORROW X TOGETHER日本5thシングル「セツナハナビ (Setsuna Hanabi)」リリース記念プレミアムライブ",
+      "startDate": "2026-08-19T00:00:00+09:00",
+      "endDate": "2026-08-19T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://txt-official.jp/news/39932a772e7f",
+      "lastVerifiedAt": "2026-07-22T10:26:13+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_event_setsuna_hanabi_meet_greet_2026",
+      "artistId": "tomorrow_x_together",
+      "title": "TOMORROW X TOGETHER 日本5thシングル「セツナハナビ (Setsuna Hanabi)」シリアルナンバー特典 ミート&グリート",
+      "startDate": "2026-09-23T00:00:00+09:00",
+      "endDate": "2026-11-03T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://txt-official.jp/news/951946c1885d",
+      "lastVerifiedAt": "2026-07-22T10:26:13+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_event_setsuna_hanabi_two_shot_2026",
+      "artistId": "tomorrow_x_together",
+      "title": "TOMORROW X TOGETHER日本5thシングル「セツナハナビ (Setsuna Hanabi)」メンバー個別ツーショット撮影会",
+      "startDate": "2026-09-23T00:00:00+09:00",
+      "endDate": "2026-11-03T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.universal-music.co.jp/txt/news/2026-07-28/",
+      "lastVerifiedAt": "2026-08-18T07:20:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "tomorrow_x_together_vr_concert_endless_ride_2026_shinjuku_0731",
+      "tourId": "tomorrow_x_together_vr_concert_endless_ride_2026",
+      "venue": "109シネマズプレミアム新宿",
+      "performanceAt": "2026-07-31T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "TOMORROW X TOGETHER VR CONCERT：ENDLESS RIDE",
+      "source": "system",
+      "sourceUrl": "https://txt-official.jp/news/ccfabf91e5a2",
+      "lastVerifiedAt": "2026-07-22T10:26:13+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_vr_concert_endless_ride_2026_hakata_0731",
+      "tourId": "tomorrow_x_together_vr_concert_endless_ride_2026",
+      "venue": "Ｔ・ジョイ博多",
+      "performanceAt": "2026-07-31T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "TOMORROW X TOGETHER VR CONCERT：ENDLESS RIDE",
+      "source": "system",
+      "sourceUrl": "https://txt-official.jp/news/ccfabf91e5a2",
+      "lastVerifiedAt": "2026-07-22T10:26:13+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_vr_concert_endless_ride_2026_hiroshima_0801",
+      "tourId": "tomorrow_x_together_vr_concert_endless_ride_2026",
+      "venue": "109シネマズ広島",
+      "performanceAt": "2026-08-01T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "TOMORROW X TOGETHER VR CONCERT：ENDLESS RIDE",
+      "source": "system",
+      "sourceUrl": "https://txt-official.jp/news/ccfabf91e5a2",
+      "lastVerifiedAt": "2026-07-22T10:26:13+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_vr_concert_endless_ride_2026_yokohama_0814",
+      "tourId": "tomorrow_x_together_vr_concert_endless_ride_2026",
+      "venue": "横浜ブルク13",
+      "performanceAt": "2026-08-14T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "TOMORROW X TOGETHER VR CONCERT：ENDLESS RIDE",
+      "source": "system",
+      "sourceUrl": "https://txt-official.jp/news/ccfabf91e5a2",
+      "lastVerifiedAt": "2026-07-22T10:26:13+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_vr_concert_endless_ride_2026_nagoya_0827",
+      "tourId": "tomorrow_x_together_vr_concert_endless_ride_2026",
+      "venue": "109シネマズ名古屋",
+      "performanceAt": "2026-08-27T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "TOMORROW X TOGETHER VR CONCERT：ENDLESS RIDE",
+      "source": "system",
+      "sourceUrl": "https://txt-official.jp/news/ccfabf91e5a2",
+      "lastVerifiedAt": "2026-07-22T10:26:13+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_vr_concert_endless_ride_2026_tomiya_0903",
+      "tourId": "tomorrow_x_together_vr_concert_endless_ride_2026",
+      "venue": "109シネマズ富谷",
+      "performanceAt": "2026-09-03T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "TOMORROW X TOGETHER VR CONCERT：ENDLESS RIDE",
+      "source": "system",
+      "sourceUrl": "https://txt-official.jp/news/ccfabf91e5a2",
+      "lastVerifiedAt": "2026-07-22T10:26:13+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_vr_concert_endless_ride_2026_umeda_0903",
+      "tourId": "tomorrow_x_together_vr_concert_endless_ride_2026",
+      "venue": "Ｔ・ジョイ梅田",
+      "performanceAt": "2026-09-03T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "TOMORROW X TOGETHER VR CONCERT：ENDLESS RIDE",
+      "source": "system",
+      "sourceUrl": "https://txt-official.jp/news/ccfabf91e5a2",
+      "lastVerifiedAt": "2026-07-22T10:26:13+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_event_setsuna_hanabi_premium_live_2026_tokyo_garden_theater_0819",
+      "tourId": "tomorrow_x_together_event_setsuna_hanabi_premium_live_2026",
+      "venue": "東京ガーデンシアター",
+      "performanceAt": "2026-08-19T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "TOMORROW X TOGETHER日本5thシングル「セツナハナビ (Setsuna Hanabi)」リリース記念プレミアムライブ",
+      "source": "system",
+      "sourceUrl": "https://txt-official.jp/news/39932a772e7f",
+      "lastVerifiedAt": "2026-07-22T10:26:13+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_event_setsuna_hanabi_meet_greet_2026_kanto_0923",
+      "tourId": "tomorrow_x_together_event_setsuna_hanabi_meet_greet_2026",
+      "venue": null,
+      "performanceAt": "2026-09-23T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "TOMORROW X TOGETHER 日本5thシングル「セツナハナビ (Setsuna Hanabi)」シリアルナンバー特典 ミート&グリート",
+      "source": "system",
+      "sourceUrl": "https://txt-official.jp/news/951946c1885d",
+      "lastVerifiedAt": "2026-07-22T10:26:13+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_event_setsuna_hanabi_meet_greet_2026_kansai_1103",
+      "tourId": "tomorrow_x_together_event_setsuna_hanabi_meet_greet_2026",
+      "venue": null,
+      "performanceAt": "2026-11-03T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "TOMORROW X TOGETHER 日本5thシングル「セツナハナビ (Setsuna Hanabi)」シリアルナンバー特典 ミート&グリート",
+      "source": "system",
+      "sourceUrl": "https://txt-official.jp/news/951946c1885d",
+      "lastVerifiedAt": "2026-07-22T10:26:13+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_event_setsuna_hanabi_two_shot_2026_tokyo_0923",
+      "tourId": "tomorrow_x_together_event_setsuna_hanabi_two_shot_2026",
+      "venue": "東京某所",
+      "performanceAt": "2026-09-23T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "TOMORROW X TOGETHER日本5thシングル「セツナハナビ (Setsuna Hanabi)」メンバー個別ツーショット撮影会",
+      "source": "system",
+      "sourceUrl": "https://www.universal-music.co.jp/txt/news/2026-07-28/",
+      "lastVerifiedAt": "2026-08-18T07:20:00+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_event_setsuna_hanabi_two_shot_2026_osaka_1103",
+      "tourId": "tomorrow_x_together_event_setsuna_hanabi_two_shot_2026",
+      "venue": "大阪某所",
+      "performanceAt": "2026-11-03T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "TOMORROW X TOGETHER日本5thシングル「セツナハナビ (Setsuna Hanabi)」メンバー個別ツーショット撮影会",
+      "source": "system",
+      "sourceUrl": "https://www.universal-music.co.jp/txt/news/2026-07-28/",
+      "lastVerifiedAt": "2026-08-18T07:20:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "tomorrow_x_together_vr_concert_endless_ride_2026_lawson_advance_sale",
+      "tourId": "tomorrow_x_together_vr_concert_endless_ride_2026",
+      "type": "ローチケ先行販売（先着）",
+      "entryStartAt": "2026-07-15T18:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://txt-official.jp/news/ccfabf91e5a2",
+      "lastVerifiedAt": "2026-07-22T10:26:13+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_event_setsuna_hanabi_premium_live_2026_fc_purchase",
+      "tourId": "tomorrow_x_together_event_setsuna_hanabi_premium_live_2026",
+      "type": "MOA Membership (JP)枠（CD購入）",
+      "entryStartAt": "2026-06-30T11:00:00+09:00",
+      "entryEndAt": "2026-07-06T09:59:00+09:00",
+      "resultAt": "2026-07-13T20:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "tomorrow_x_together_event_setsuna_hanabi_premium_live_2026_tokyo_garden_theater_0819"
+      ],
+      "source": "system",
+      "sourceUrl": "https://txt-official.jp/news/39932a772e7f",
+      "lastVerifiedAt": "2026-07-22T10:26:13+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_event_setsuna_hanabi_premium_live_2026_general_purchase_1st",
+      "tourId": "tomorrow_x_together_event_setsuna_hanabi_premium_live_2026",
+      "type": "Weverse Shop・UNIVERSAL MUSIC STORE枠（CD購入・1次）",
+      "entryStartAt": "2026-06-30T11:00:00+09:00",
+      "entryEndAt": "2026-07-06T09:59:00+09:00",
+      "resultAt": "2026-07-13T20:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "tomorrow_x_together_event_setsuna_hanabi_premium_live_2026_tokyo_garden_theater_0819"
+      ],
+      "source": "system",
+      "sourceUrl": "https://txt-official.jp/news/39932a772e7f",
+      "lastVerifiedAt": "2026-07-22T10:26:13+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_event_setsuna_hanabi_premium_live_2026_general_purchase_2nd",
+      "tourId": "tomorrow_x_together_event_setsuna_hanabi_premium_live_2026",
+      "type": "Weverse Shop・UNIVERSAL MUSIC STORE枠（CD購入・2次）",
+      "entryStartAt": "2026-07-06T10:00:00+09:00",
+      "entryEndAt": "2026-07-20T23:59:00+09:00",
+      "resultAt": "2026-07-27T20:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "tomorrow_x_together_event_setsuna_hanabi_premium_live_2026_tokyo_garden_theater_0819"
+      ],
+      "source": "system",
+      "sourceUrl": "https://txt-official.jp/news/39932a772e7f",
+      "lastVerifiedAt": "2026-07-22T10:26:13+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_event_setsuna_hanabi_premium_live_2026_spotify_premium",
+      "tourId": "tomorrow_x_together_event_setsuna_hanabi_premium_live_2026",
+      "type": "Spotify Premiumトップリスナー枠",
+      "entryStartAt": null,
+      "entryEndAt": "2026-07-05T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "tomorrow_x_together_event_setsuna_hanabi_premium_live_2026_tokyo_garden_theater_0819"
+      ],
+      "source": "system",
+      "sourceUrl": "https://txt-official.jp/news/39932a772e7f",
+      "lastVerifiedAt": "2026-07-22T10:26:13+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_event_setsuna_hanabi_premium_live_2026_fc_invitation",
+      "tourId": "tomorrow_x_together_event_setsuna_hanabi_premium_live_2026",
+      "type": "MOA Membership (JP)会員無料招待",
+      "entryStartAt": "2026-07-28T18:00:00+09:00",
+      "entryEndAt": "2026-08-03T06:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "tomorrow_x_together_event_setsuna_hanabi_premium_live_2026_tokyo_garden_theater_0819"
+      ],
+      "source": "system",
+      "sourceUrl": "https://txt-official.jp/news/74adcbf73687",
+      "lastVerifiedAt": "2026-07-22T10:26:13+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_event_setsuna_hanabi_two_shot_2026_store_1st",
+      "tourId": "tomorrow_x_together_event_setsuna_hanabi_two_shot_2026",
+      "type": "Weverse Shop・UNIVERSAL MUSIC STORE購入者抽選（1回目）",
+      "entryStartAt": "2026-07-28T11:00:00+09:00",
+      "entryEndAt": "2026-07-31T09:59:00+09:00",
+      "resultAt": "2026-08-07T20:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://www.universal-music.co.jp/txt/news/2026-07-28/",
+      "lastVerifiedAt": "2026-08-18T07:20:00+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_event_setsuna_hanabi_two_shot_2026_store_2nd",
+      "tourId": "tomorrow_x_together_event_setsuna_hanabi_two_shot_2026",
+      "type": "Weverse Shop・UNIVERSAL MUSIC STORE購入者抽選（2回目）",
+      "entryStartAt": "2026-07-31T10:00:00+09:00",
+      "entryEndAt": "2026-08-09T23:59:00+09:00",
+      "resultAt": "2026-08-18T20:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://www.universal-music.co.jp/txt/news/2026-07-28/",
+      "lastVerifiedAt": "2026-08-18T07:20:00+09:00"
+    }
+  ],
+  "lastVerifiedAt": "2026-07-22T10:26:13+09:00",
+  "appleMusicTracks": [
+    {
+      "songId": "6791120694",
+      "title": "Nice to Meet Ya",
+      "albumTitle": "セツナハナビ (Setsuna Hanabi) - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fc/1b/53/fc1b535f-d2f2-dca6-7ecb-02b141b4584a/mzaf_5129792233523816301.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/db/3d/c5db3d19-6c35-e39d-261b-38b11acc8012/26UMGIM87034.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1892324500",
+      "title": "Stick With You",
+      "albumTitle": "7TH YEAR: A Moment of Stillness in the Thorns - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6d/ef/cc/6defcce0-340e-a294-97dc-3f71be9eed8b/mzaf_6979397537041711318.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ec/58/93/ec589377-1a12-c92f-dc42-777ddc1cc583/26UMGIM43336.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1738373171",
+      "title": "I’ll See You There Tomorrow",
+      "albumTitle": "minisode 3: TOMORROW",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/54/76/4a/54764af1-2d67-82ee-2d9a-ade5a09fecec/mzaf_3753046228460761486.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/24/ae/c3/24aec347-88d3-6ac1-0852-8273fa41286a/24UMGIM34872.rgb.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

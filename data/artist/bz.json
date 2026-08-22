@@ -1,0 +1,318 @@
+{
+  "artistId": "bz",
+  "tours": [
+    {
+      "id": "bz_tmg_sayonara_2026",
+      "artistId": "bz",
+      "title": "TMG LIVE 2026 \"SAYONARA\"",
+      "startDate": "2026-10-05T00:00:00+09:00",
+      "endDate": "2026-10-23T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "東京ガーデンシアター Tシャツ付きSS席",
+          "amount": 29000
+        },
+        {
+          "label": "東京ガーデンシアター Tシャツ付きS席",
+          "amount": 24000
+        },
+        {
+          "label": "東京ガーデンシアター SS席",
+          "amount": 25000
+        },
+        {
+          "label": "東京ガーデンシアター S席",
+          "amount": 20000
+        },
+        {
+          "label": "東京ガーデンシアター A席（5F後方ブロック）",
+          "amount": 16000
+        },
+        {
+          "label": "Zepp 1Fスタンディング",
+          "amount": 20000
+        },
+        {
+          "label": "Zepp 2F指定席",
+          "amount": 25000
+        },
+        {
+          "label": "Zepp 2F立見指定",
+          "amount": 20000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
+      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "bz_tmg_sayonara_2026_tokyo_1005",
+      "tourId": "bz_tmg_sayonara_2026",
+      "venue": "Zepp Haneda(TOKYO)",
+      "performanceAt": "2026-10-05T18:00:00+09:00",
+      "doorOpenAt": "2026-10-05T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "bz_tmg_sayonara_2026_tokyo_1006",
+      "tourId": "bz_tmg_sayonara_2026",
+      "venue": "Zepp Haneda(TOKYO)",
+      "performanceAt": "2026-10-06T18:00:00+09:00",
+      "doorOpenAt": "2026-10-06T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "bz_tmg_sayonara_2026_hokkaido_1009",
+      "tourId": "bz_tmg_sayonara_2026",
+      "venue": "Zepp Sapporo",
+      "performanceAt": "2026-10-09T18:00:00+09:00",
+      "doorOpenAt": "2026-10-09T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "bz_tmg_sayonara_2026_osaka_1013",
+      "tourId": "bz_tmg_sayonara_2026",
+      "venue": "Zepp Osaka Bayside",
+      "performanceAt": "2026-10-13T18:00:00+09:00",
+      "doorOpenAt": "2026-10-13T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "bz_tmg_sayonara_2026_osaka_1014",
+      "tourId": "bz_tmg_sayonara_2026",
+      "venue": "Zepp Osaka Bayside",
+      "performanceAt": "2026-10-14T18:00:00+09:00",
+      "doorOpenAt": "2026-10-14T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "bz_tmg_sayonara_2026_fukuoka_1017",
+      "tourId": "bz_tmg_sayonara_2026",
+      "venue": "Zepp Fukuoka",
+      "performanceAt": "2026-10-17T17:00:00+09:00",
+      "doorOpenAt": "2026-10-17T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "bz_tmg_sayonara_2026_aichi_1020",
+      "tourId": "bz_tmg_sayonara_2026",
+      "venue": "Zepp Nagoya",
+      "performanceAt": "2026-10-20T18:00:00+09:00",
+      "doorOpenAt": "2026-10-20T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "bz_tmg_sayonara_2026_aichi_1021",
+      "tourId": "bz_tmg_sayonara_2026",
+      "venue": "Zepp Nagoya",
+      "performanceAt": "2026-10-21T18:00:00+09:00",
+      "doorOpenAt": "2026-10-21T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "bz_tmg_sayonara_2026_tokyo2_1023",
+      "tourId": "bz_tmg_sayonara_2026",
+      "venue": "東京ガーデンシアター",
+      "performanceAt": "2026-10-23T18:00:00+09:00",
+      "doorOpenAt": "2026-10-23T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "bz_tmg_sayonara_2026_ticket_1st",
+      "tourId": "bz_tmg_sayonara_2026",
+      "type": "B'z TICKET・B'z PARTY先行（1次）",
+      "entryStartAt": "2026-05-13T12:00:00+09:00",
+      "entryEndAt": "2026-05-19T12:00:00+09:00",
+      "resultAt": "2026-05-27T12:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
+      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
+    },
+    {
+      "id": "bz_tmg_sayonara_2026_ticket_2nd",
+      "tourId": "bz_tmg_sayonara_2026",
+      "type": "B'z TICKET・B'z PARTY / Club-Gym先行（2次）",
+      "entryStartAt": "2026-06-08T12:00:00+09:00",
+      "entryEndAt": "2026-06-14T12:00:00+09:00",
+      "resultAt": "2026-06-20T12:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
+      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
+    },
+    {
+      "id": "bz_tmg_sayonara_2026_ticket_3rd",
+      "tourId": "bz_tmg_sayonara_2026",
+      "type": "B'z TICKET・B'z PARTY / Club-Gym先行（3次）",
+      "entryStartAt": "2026-07-06T12:00:00+09:00",
+      "entryEndAt": "2026-07-14T12:00:00+09:00",
+      "resultAt": "2026-07-23T12:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
+      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
+    },
+    {
+      "id": "bz_tmg_sayonara_2026_ponta",
+      "tourId": "bz_tmg_sayonara_2026",
+      "type": "Pontaパス会員先行",
+      "entryStartAt": "2026-07-23T12:00:00+09:00",
+      "entryEndAt": "2026-08-02T23:59:00+09:00",
+      "resultAt": "2026-08-06T20:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
+      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
+    },
+    {
+      "id": "bz_tmg_sayonara_2026_pia",
+      "tourId": "bz_tmg_sayonara_2026",
+      "type": "いち早プレリザーブ先行（ぴあNICOSカード限定）",
+      "entryStartAt": "2026-08-03T12:00:00+09:00",
+      "entryEndAt": "2026-08-16T23:59:00+09:00",
+      "resultAt": "2026-08-20T20:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2669128",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "bz_tmg_sayonara_2026_zigzag",
+      "tourId": "bz_tmg_sayonara_2026",
+      "type": "真天地開闢集団-ジグザグ オフィシャル先行",
+      "entryStartAt": "2026-08-08T12:00:00+09:00",
+      "entryEndAt": "2026-08-16T23:59:00+09:00",
+      "resultAt": "2026-08-22T20:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bz_tmg_sayonara_2026_hokkaido_1009",
+        "bz_tmg_sayonara_2026_osaka_1013",
+        "bz_tmg_sayonara_2026_osaka_1014",
+        "bz_tmg_sayonara_2026_fukuoka_1017",
+        "bz_tmg_sayonara_2026_aichi_1020",
+        "bz_tmg_sayonara_2026_aichi_1021",
+        "bz_tmg_sayonara_2026_tokyo2_1023"
+      ],
+      "source": "system",
+      "sourceUrl": "https://t.pia.jp/pia/ticketInformation.do?lotRlsCd=13220",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "bz_tmg_sayonara_2026_seven_eleven",
+      "tourId": "bz_tmg_sayonara_2026",
+      "type": "セブン-イレブン抽選",
+      "entryStartAt": "2026-08-17T12:00:00+09:00",
+      "entryEndAt": "2026-08-30T23:59:00+09:00",
+      "resultAt": "2026-09-03T20:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2669128",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "bz_tmg_sayonara_2026_general",
+      "tourId": "bz_tmg_sayonara_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-09-05T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
+      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
+    },
+    {
+      "id": "bz_tmg_sayonara_2026_resale",
+      "tourId": "bz_tmg_sayonara_2026",
+      "type": "B'z TICKETリセール（抽選）",
+      "entryStartAt": "2026-09-17T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
+      "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1560106178",
+      "title": "ultra soul",
+      "albumTitle": "ultra soul - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/eb/e7/ee/ebe7eefb-faae-7d36-ab9b-359f15ae3971/mzaf_13852249689083481612.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/80/64/09/80640970-b505-048f-67d5-bd5a04a69f15/dj.dylqjhgn.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1560085807",
+      "title": "LOVE PHANTOM",
+      "albumTitle": "LOVE PHANTOM - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/40/c3/1d/40c31d11-2609-5079-e880-113fafbcd16b/mzaf_2451233120845757875.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7d/37/35/7d373515-f7d4-4d67-d97b-a4a6235cf027/BMDR-2001.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "327351449",
+      "title": "イチブトゼンブ",
+      "albumTitle": "イチブトゼンブ / DIVE - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/fe/42/b4/fe42b427-014b-c8d8-d8b2-b5f6114c26c0/mzaf_7306253910788140685.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/a9/e1/db/a9e1dbc7-9f3f-3999-c87e-836a1cc16d6c/dj.tarbdgit.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

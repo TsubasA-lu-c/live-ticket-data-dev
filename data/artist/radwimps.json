@@ -1,0 +1,330 @@
+{
+  "artistId": "radwimps",
+  "tours": [
+    {
+      "id": "radwimps_yurinchi_fc_tour_2026",
+      "artistId": "radwimps",
+      "title": "RADWIMPS Official Fan Club Tour 2026 \"ユーリンチー\"",
+      "startDate": "2026-07-22T00:00:00+09:00",
+      "endDate": "2026-11-11T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "チケット代",
+          "amount": 9900
+        },
+        {
+          "label": "追加公演 アリーナスタンディングS",
+          "amount": 12100
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://radwimps.jp/yurinchi/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "radwimps_yurinchi_fc_tour_2026_nagoya_0722",
+      "tourId": "radwimps_yurinchi_fc_tour_2026",
+      "venue": "Zepp Nagoya",
+      "performanceAt": "2026-07-22T19:00:00+09:00",
+      "doorOpenAt": "2026-07-22T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://radwimps.jp/yurinchi/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "radwimps_yurinchi_fc_tour_2026_nagoya_0723",
+      "tourId": "radwimps_yurinchi_fc_tour_2026",
+      "venue": "Zepp Nagoya",
+      "performanceAt": "2026-07-23T19:00:00+09:00",
+      "doorOpenAt": "2026-07-23T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://radwimps.jp/yurinchi/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "radwimps_yurinchi_fc_tour_2026_fukuoka_0727",
+      "tourId": "radwimps_yurinchi_fc_tour_2026",
+      "venue": "Zepp Fukuoka",
+      "performanceAt": "2026-07-27T19:00:00+09:00",
+      "doorOpenAt": "2026-07-27T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://radwimps.jp/yurinchi/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "radwimps_yurinchi_fc_tour_2026_fukuoka_0728",
+      "tourId": "radwimps_yurinchi_fc_tour_2026",
+      "venue": "Zepp Fukuoka",
+      "performanceAt": "2026-07-28T19:00:00+09:00",
+      "doorOpenAt": "2026-07-28T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://radwimps.jp/yurinchi/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "radwimps_yurinchi_fc_tour_2026_osaka_0803",
+      "tourId": "radwimps_yurinchi_fc_tour_2026",
+      "venue": "Zepp Osaka Bayside",
+      "performanceAt": "2026-08-03T19:00:00+09:00",
+      "doorOpenAt": "2026-08-03T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://radwimps.jp/yurinchi/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "radwimps_yurinchi_fc_tour_2026_osaka_0804",
+      "tourId": "radwimps_yurinchi_fc_tour_2026",
+      "venue": "Zepp Osaka Bayside",
+      "performanceAt": "2026-08-04T19:00:00+09:00",
+      "doorOpenAt": "2026-08-04T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://radwimps.jp/yurinchi/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "radwimps_yurinchi_fc_tour_2026_haneda_0812",
+      "tourId": "radwimps_yurinchi_fc_tour_2026",
+      "venue": "Zepp Haneda(TOKYO)",
+      "performanceAt": "2026-08-12T19:00:00+09:00",
+      "doorOpenAt": "2026-08-12T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://radwimps.jp/yurinchi/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "radwimps_yurinchi_fc_tour_2026_haneda_0813",
+      "tourId": "radwimps_yurinchi_fc_tour_2026",
+      "venue": "Zepp Haneda(TOKYO)",
+      "performanceAt": "2026-08-13T19:00:00+09:00",
+      "doorOpenAt": "2026-08-13T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://radwimps.jp/yurinchi/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "radwimps_yurinchi_fc_tour_2026_sapporo_0825",
+      "tourId": "radwimps_yurinchi_fc_tour_2026",
+      "venue": "Zepp Sapporo",
+      "performanceAt": "2026-08-25T19:00:00+09:00",
+      "doorOpenAt": "2026-08-25T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://radwimps.jp/yurinchi/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "radwimps_yurinchi_fc_tour_2026_yokohama_1110",
+      "tourId": "radwimps_yurinchi_fc_tour_2026",
+      "venue": "ぴあアリーナMM",
+      "performanceAt": "2026-11-10T19:00:00+09:00",
+      "doorOpenAt": "2026-11-10T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "“おかわり” 追加公演",
+      "source": "system",
+      "sourceUrl": "https://radwimps.jp/yurinchi/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "radwimps_yurinchi_fc_tour_2026_yokohama_1111",
+      "tourId": "radwimps_yurinchi_fc_tour_2026",
+      "venue": "ぴあアリーナMM",
+      "performanceAt": "2026-11-11T19:00:00+09:00",
+      "doorOpenAt": "2026-11-11T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "“おかわり” 追加公演",
+      "source": "system",
+      "sourceUrl": "https://radwimps.jp/yurinchi/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "radwimps_yurinchi_fc_tour_2026_fc_1st",
+      "tourId": "radwimps_yurinchi_fc_tour_2026",
+      "type": "ボクンチ会員限定先行（1次受付）",
+      "entryStartAt": "2026-05-29T12:00:00+09:00",
+      "entryEndAt": "2026-06-03T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://radwimps.jp/yurinchi/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "radwimps_yurinchi_fc_tour_2026_fc_2nd",
+      "tourId": "radwimps_yurinchi_fc_tour_2026",
+      "type": "ボクンチ会員限定先行（2次受付）",
+      "entryStartAt": "2026-06-18T12:00:00+09:00",
+      "entryEndAt": "2026-06-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://radwimps.jp/yurinchi/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "radwimps_yurinchi_fc_tour_2026_resale_nagoya",
+      "tourId": "radwimps_yurinchi_fc_tour_2026",
+      "type": "リセールサービス（Zepp Nagoya公演・抽選）",
+      "entryStartAt": "2026-07-13T13:00:00+09:00",
+      "entryEndAt": "2026-07-15T12:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "radwimps_yurinchi_fc_tour_2026_nagoya_0722",
+        "radwimps_yurinchi_fc_tour_2026_nagoya_0723"
+      ],
+      "source": "system",
+      "sourceUrl": "https://radwimps.jp/yurinchi/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "radwimps_yurinchi_fc_tour_2026_resale_fukuoka",
+      "tourId": "radwimps_yurinchi_fc_tour_2026",
+      "type": "リセールサービス（Zepp Fukuoka公演・抽選）",
+      "entryStartAt": "2026-07-19T13:00:00+09:00",
+      "entryEndAt": "2026-07-21T12:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "radwimps_yurinchi_fc_tour_2026_fukuoka_0727",
+        "radwimps_yurinchi_fc_tour_2026_fukuoka_0728"
+      ],
+      "source": "system",
+      "sourceUrl": "https://radwimps.jp/yurinchi/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "radwimps_yurinchi_fc_tour_2026_resale_osaka",
+      "tourId": "radwimps_yurinchi_fc_tour_2026",
+      "type": "リセールサービス（Zepp Osaka Bayside公演・抽選）",
+      "entryStartAt": "2026-07-26T13:00:00+09:00",
+      "entryEndAt": "2026-07-28T12:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "radwimps_yurinchi_fc_tour_2026_osaka_0803",
+        "radwimps_yurinchi_fc_tour_2026_osaka_0804"
+      ],
+      "source": "system",
+      "sourceUrl": "https://radwimps.jp/yurinchi/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "radwimps_yurinchi_fc_tour_2026_resale_haneda",
+      "tourId": "radwimps_yurinchi_fc_tour_2026",
+      "type": "リセールサービス（Zepp Haneda (TOKYO)公演・抽選）",
+      "entryStartAt": "2026-08-03T13:00:00+09:00",
+      "entryEndAt": "2026-08-05T12:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "radwimps_yurinchi_fc_tour_2026_haneda_0812",
+        "radwimps_yurinchi_fc_tour_2026_haneda_0813"
+      ],
+      "source": "system",
+      "sourceUrl": "https://radwimps.jp/yurinchi/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "radwimps_yurinchi_fc_tour_2026_resale_sapporo",
+      "tourId": "radwimps_yurinchi_fc_tour_2026",
+      "type": "リセールサービス（Zepp Sapporo公演・抽選）",
+      "entryStartAt": "2026-08-17T13:00:00+09:00",
+      "entryEndAt": "2026-08-19T12:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "radwimps_yurinchi_fc_tour_2026_sapporo_0825"
+      ],
+      "source": "system",
+      "sourceUrl": "https://radwimps.jp/yurinchi/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "radwimps_yurinchi_fc_tour_2026_okawari_fc_1st",
+      "tourId": "radwimps_yurinchi_fc_tour_2026",
+      "type": "追加公演 ボクンチ会員限定受付（1次受付）",
+      "entryStartAt": "2026-07-24T12:00:00+09:00",
+      "entryEndAt": "2026-08-03T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "radwimps_yurinchi_fc_tour_2026_yokohama_1110",
+        "radwimps_yurinchi_fc_tour_2026_yokohama_1111"
+      ],
+      "source": "system",
+      "sourceUrl": "https://radwimps.jp/yurinchi/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "radwimps_yurinchi_fc_tour_2026_okawari_fc_2nd",
+      "tourId": "radwimps_yurinchi_fc_tour_2026",
+      "type": "追加公演 ボクンチ会員限定2次受付（抽選）",
+      "entryStartAt": "2026-08-21T12:00:00+09:00",
+      "entryEndAt": "2026-08-27T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "radwimps_yurinchi_fc_tour_2026_yokohama_1110",
+        "radwimps_yurinchi_fc_tour_2026_yokohama_1111"
+      ],
+      "source": "system",
+      "sourceUrl": "https://radwimps.jp/yurinchi/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1511080485",
+      "title": "me me she",
+      "albumTitle": "RADWIMPS 4 ~おかずのごはん~",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b8/49/30/b849309d-8078-b9d3-768d-c3ef3356b59d/mzaf_6782380391278592392.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/58/95/e7/5895e768-546f-974b-0c6e-e3171efbeef9/20UMGIM27888.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1518845612",
+      "title": "スパークル",
+      "albumTitle": "人間開花",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3b/07/03/3b070332-ab79-251b-c64b-03862db6636d/mzaf_11080903471206444353.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/69/d7/ad/69d7ad92-4684-1d74-68b1-395858a1ab04/16UMGIM76109.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1518516333",
+      "title": "そっけない",
+      "albumTitle": "ANTI ANTI GENERATION",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/76/c4/27/76c4279a-b713-5d7b-6080-708dcf801ae4/mzaf_9246708007533513397.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/72/d3/62/72d36271-2670-1871-d272-0b86c0585083/18UMGIM77516.rgb.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

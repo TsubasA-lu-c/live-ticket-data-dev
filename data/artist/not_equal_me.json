@@ -1,0 +1,343 @@
+{
+  "artistId": "not_equal_me",
+  "tours": [
+    {
+      "id": "not_equal_me_summer_festival_2026",
+      "artistId": "not_equal_me",
+      "title": "≠ME夏祭り",
+      "startDate": "2026-08-29T00:00:00+09:00",
+      "endDate": "2026-08-29T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/schedule/detail/7372",
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+    },
+    {
+      "id": "not_equal_me_sanrio_special_live_2026",
+      "artistId": "not_equal_me",
+      "title": "≠ME サンリオキャラクタースペシャルライブ",
+      "startDate": "2026-09-18T00:00:00+09:00",
+      "endDate": "2026-09-18T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/news/detail/7490",
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+    },
+    {
+      "id": "not_equal_me_noimi_meeting_tokyo_2026",
+      "artistId": "not_equal_me",
+      "title": "ノイミー会＠東京",
+      "startDate": "2026-08-22T00:00:00+09:00",
+      "endDate": "2026-08-22T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/news/detail/7490",
+      "lastVerifiedAt": "2026-08-17T23:55:00+09:00"
+    },
+    {
+      "id": "not_equal_me_special_live_2026",
+      "artistId": "not_equal_me",
+      "title": "≠MEスペシャルライブ",
+      "startDate": "2026-08-28T00:00:00+09:00",
+      "endDate": "2026-08-28T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/news/detail/7490",
+      "lastVerifiedAt": "2026-08-17T23:55:00+09:00"
+    },
+    {
+      "id": "not_equal_me_tif_2026",
+      "artistId": "not_equal_me",
+      "title": "TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック",
+      "startDate": "2026-08-01T00:00:00+09:00",
+      "endDate": "2026-08-01T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "通常チケット 単日券（先行）",
+          "amount": 10500
+        },
+        {
+          "label": "Tシャツ付きチケット 単日券（先行）",
+          "amount": 13000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/news/detail/7377",
+      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
+    },
+    {
+      "id": "not_equal_me_luckyfes_2026",
+      "artistId": "not_equal_me",
+      "title": "LuckyFes’26",
+      "startDate": "2026-08-08T00:00:00+09:00",
+      "endDate": "2026-08-08T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1日券 大人",
+          "amount": 14000
+        },
+        {
+          "label": "1日券 中高生",
+          "amount": 7000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/schedule/detail/7256",
+      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
+    },
+    {
+      "id": "not_equal_me_noimi_station_2026",
+      "artistId": "not_equal_me",
+      "title": "「ノイミーステーション」公開収録＆ミニLIVE2026 ～ ≠MEと過ごす6度目の夏！ in 大阪 那須車掌もいるよSP ～",
+      "startDate": "2026-08-16T00:00:00+09:00",
+      "endDate": "2026-08-16T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/schedule/detail/7525",
+      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
+    },
+    {
+      "id": "not_equal_me_after_game_2026",
+      "artistId": "not_equal_me",
+      "title": "AFTER GAME",
+      "startDate": "2026-08-30T00:00:00+09:00",
+      "endDate": "2026-08-30T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "アリーナチケットオプション",
+          "amount": 3000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/schedule/detail/7450",
+      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "not_equal_me_summer_festival_2026_yokohama_0829",
+      "tourId": "not_equal_me_summer_festival_2026",
+      "venue": "新都市ホール",
+      "performanceAt": "2026-08-29T13:30:00+09:00",
+      "doorOpenAt": "2026-08-29T12:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "≠ME夏祭り",
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/schedule/detail/7372",
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+    },
+    {
+      "id": "not_equal_me_sanrio_special_live_2026_tokyo_0918",
+      "tourId": "not_equal_me_sanrio_special_live_2026",
+      "venue": "ヒューリックホール東京",
+      "performanceAt": "2026-09-18T19:00:00+09:00",
+      "doorOpenAt": "2026-09-18T18:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "≠ME サンリオキャラクタースペシャルライブ",
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/news/detail/7490",
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+    },
+    {
+      "id": "not_equal_me_noimi_meeting_tokyo_2026_0822_1",
+      "tourId": "not_equal_me_noimi_meeting_tokyo_2026",
+      "venue": "天王洲 銀河劇場",
+      "performanceAt": "2026-08-22T15:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ノイミー会＠東京 第一部",
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/news/detail/7490",
+      "lastVerifiedAt": "2026-08-17T23:55:00+09:00"
+    },
+    {
+      "id": "not_equal_me_noimi_meeting_tokyo_2026_0822_2",
+      "tourId": "not_equal_me_noimi_meeting_tokyo_2026",
+      "venue": "天王洲 銀河劇場",
+      "performanceAt": "2026-08-22T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ノイミー会＠東京 第二部",
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/news/detail/7490",
+      "lastVerifiedAt": "2026-08-17T23:55:00+09:00"
+    },
+    {
+      "id": "not_equal_me_special_live_2026_yokohama_0828",
+      "tourId": "not_equal_me_special_live_2026",
+      "venue": "新都市ホール",
+      "performanceAt": "2026-08-28T17:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "≠MEスペシャルライブ",
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/news/detail/7490",
+      "lastVerifiedAt": "2026-08-17T23:55:00+09:00"
+    },
+    {
+      "id": "not_equal_me_tif_2026_odaiba_0801",
+      "tourId": "not_equal_me_tif_2026",
+      "venue": "お台場・青海周辺エリア",
+      "performanceAt": "2026-08-01T12:00:00+09:00",
+      "doorOpenAt": "2026-08-01T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック",
+      "source": "system",
+      "sourceUrl": "https://official.idolfes.com/s/tif2026/page/map",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
+    },
+    {
+      "id": "not_equal_me_luckyfes_2026_hitachinaka_0808",
+      "tourId": "not_equal_me_luckyfes_2026",
+      "venue": "国営ひたち海浜公園",
+      "performanceAt": "2026-08-08T10:00:00+09:00",
+      "doorOpenAt": "2026-08-08T08:00:00+09:00",
+      "kind": "fes",
+      "eventName": "LuckyFes’26",
+      "source": "system",
+      "sourceUrl": "https://luckyfes.com/outline",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
+    },
+    {
+      "id": "not_equal_me_noimi_station_2026_osaka_0816_day",
+      "tourId": "not_equal_me_noimi_station_2026",
+      "venue": "SkyシアターMBS",
+      "performanceAt": "2026-08-16T14:00:00+09:00",
+      "doorOpenAt": "2026-08-16T13:15:00+09:00",
+      "kind": "oneman",
+      "eventName": "「ノイミーステーション」公開収録＆ミニLIVE2026 ～ ≠MEと過ごす6度目の夏！ in 大阪 那須車掌もいるよSP ～",
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/schedule/detail/7525",
+      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
+    },
+    {
+      "id": "not_equal_me_noimi_station_2026_osaka_0816_night",
+      "tourId": "not_equal_me_noimi_station_2026",
+      "venue": "SkyシアターMBS",
+      "performanceAt": "2026-08-16T17:30:00+09:00",
+      "doorOpenAt": "2026-08-16T16:45:00+09:00",
+      "kind": "oneman",
+      "eventName": "「ノイミーステーション」公開収録＆ミニLIVE2026 ～ ≠MEと過ごす6度目の夏！ in 大阪 那須車掌もいるよSP ～",
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/schedule/detail/7525",
+      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
+    },
+    {
+      "id": "not_equal_me_after_game_2026_escon_0830",
+      "tourId": "not_equal_me_after_game_2026",
+      "venue": "エスコンフィールドHOKKAIDO",
+      "performanceAt": "2026-08-30T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "AFTER GAME",
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/schedule/detail/7450",
+      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "not_equal_me_summer_festival_2026_cd_round4",
+      "tourId": "not_equal_me_summer_festival_2026",
+      "type": "ノイミー盤サマーギフト付き 第4販売（購入者抽選）",
+      "entryStartAt": "2026-05-18T18:00:00+09:00",
+      "entryEndAt": "2026-05-22T13:00:00+09:00",
+      "resultAt": "2026-07-21T14:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "not_equal_me_summer_festival_2026_yokohama_0829"
+      ],
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/news/detail/7371",
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+    },
+    {
+      "id": "not_equal_me_summer_festival_2026_cd_round5",
+      "tourId": "not_equal_me_summer_festival_2026",
+      "type": "ノイミー盤サマーギフト付き 第5販売（購入者抽選）",
+      "entryStartAt": "2026-05-28T18:00:00+09:00",
+      "entryEndAt": "2026-06-02T13:00:00+09:00",
+      "resultAt": "2026-07-21T14:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "not_equal_me_summer_festival_2026_yokohama_0829"
+      ],
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/news/detail/7371",
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+    },
+    {
+      "id": "not_equal_me_summer_festival_2026_cd_round6",
+      "tourId": "not_equal_me_summer_festival_2026",
+      "type": "ノイミー盤サマーギフト付き 第6販売（購入者抽選）",
+      "entryStartAt": "2026-06-08T18:00:00+09:00",
+      "entryEndAt": "2026-06-16T13:00:00+09:00",
+      "resultAt": "2026-07-21T14:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "not_equal_me_summer_festival_2026_yokohama_0829"
+      ],
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/news/detail/7371",
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+    },
+    {
+      "id": "not_equal_me_sanrio_special_live_2026_serial",
+      "tourId": "not_equal_me_sanrio_special_live_2026",
+      "type": "スペシャル応募抽選",
+      "entryStartAt": "2026-06-23T12:00:00+09:00",
+      "entryEndAt": "2026-08-17T12:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "not_equal_me_sanrio_special_live_2026_tokyo_0918"
+      ],
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/news/detail/7490",
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+    },
+    {
+      "id": "not_equal_me_after_game_2026_arena_option",
+      "tourId": "not_equal_me_after_game_2026",
+      "type": "アリーナチケットオプション（先着）",
+      "entryStartAt": "2026-06-14T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "not_equal_me_after_game_2026_escon_0830"
+      ],
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/schedule/detail/7450",
+      "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "6771653764",
+      "title": "愛くださいませ",
+      "albumTitle": "愛くださいませ - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c3/fd/62/c3fd6202-b0ed-d089-5e79-fd485d06a97c/mzaf_5379287474274179231.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f9/1b/46/f91b46ba-0669-0962-72c9-106db6b8293f/NOPA-8591.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "6791465072",
+      "title": "喝采パレード",
+      "albumTitle": "喝采パレード - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/73/ef/48/73ef4837-f215-b526-0ae6-8fce800fe8d1/mzaf_8224811368324348008.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/25/01/68/250168b4-dfee-05b1-01c8-8a6ab460ad34/NOPA-8935.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1808903734",
+      "title": "モブノデレラ",
+      "albumTitle": "モブノデレラ/神様の言うとーり! - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d2/71/80/d2718074-e09f-e042-84c0-7bff2f72f13e/mzaf_2376391717362583449.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/97/4f/9a/974f9a39-a1cc-a11d-07f6-aabbf05279c6/NOPA-7322.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

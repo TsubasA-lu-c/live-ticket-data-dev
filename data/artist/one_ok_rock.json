@@ -1,0 +1,274 @@
+{
+  "artistId": "one_ok_rock",
+  "tours": [
+    {
+      "id": "one_ok_rock_detox_japan_tour_final_2026",
+      "artistId": "one_ok_rock",
+      "title": "ONE OK ROCK DETOX JAPAN TOUR FINAL 2026",
+      "startDate": "2026-08-11T00:00:00+09:00",
+      "endDate": "2026-09-06T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "アリーナスタンディングブロック指定",
+          "amount": 14000
+        },
+        {
+          "label": "スタンド指定席",
+          "amount": 14000
+        },
+        {
+          "label": "スタンド注釈付き指定席",
+          "amount": 14000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "one_ok_rock_1_chance_festival_2026",
+      "artistId": "one_ok_rock",
+      "title": "1 CHANCE FESTIVAL 2026",
+      "startDate": "2026-09-27T00:00:00+09:00",
+      "endDate": "2026-09-27T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1日券",
+          "amount": 12000
+        },
+        {
+          "label": "1日券(小人)",
+          "amount": 9500
+        },
+        {
+          "label": "2日券",
+          "amount": 23000
+        },
+        {
+          "label": "2日券(小人)",
+          "amount": 18000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.oneokrock.com/jp/news/5108",
+      "lastVerifiedAt": "2026-08-18T00:08:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "one_ok_rock_detox_japan_tour_final_2026_ig_arena_0811",
+      "tourId": "one_ok_rock_detox_japan_tour_final_2026",
+      "venue": "IG ARENA",
+      "performanceAt": "2026-08-11T18:30:00+09:00",
+      "doorOpenAt": "2026-08-11T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "one_ok_rock_detox_japan_tour_final_2026_ig_arena_0812",
+      "tourId": "one_ok_rock_detox_japan_tour_final_2026",
+      "venue": "IG ARENA",
+      "performanceAt": "2026-08-12T18:00:00+09:00",
+      "doorOpenAt": "2026-08-12T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "one_ok_rock_detox_japan_tour_final_2026_marine_messe_0818",
+      "tourId": "one_ok_rock_detox_japan_tour_final_2026",
+      "venue": "マリンメッセ福岡A館",
+      "performanceAt": "2026-08-18T18:30:00+09:00",
+      "doorOpenAt": "2026-08-18T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "one_ok_rock_detox_japan_tour_final_2026_marine_messe_0819",
+      "tourId": "one_ok_rock_detox_japan_tour_final_2026",
+      "venue": "マリンメッセ福岡A館",
+      "performanceAt": "2026-08-19T18:30:00+09:00",
+      "doorOpenAt": "2026-08-19T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "one_ok_rock_detox_japan_tour_final_2026_miyagi_0825",
+      "tourId": "one_ok_rock_detox_japan_tour_final_2026",
+      "venue": "セキスイハイムスーパーアリーナ",
+      "performanceAt": "2026-08-25T18:30:00+09:00",
+      "doorOpenAt": "2026-08-25T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "one_ok_rock_detox_japan_tour_final_2026_miyagi_0826",
+      "tourId": "one_ok_rock_detox_japan_tour_final_2026",
+      "venue": "セキスイハイムスーパーアリーナ",
+      "performanceAt": "2026-08-26T18:00:00+09:00",
+      "doorOpenAt": "2026-08-26T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "one_ok_rock_detox_japan_tour_final_2026_zozo_0905",
+      "tourId": "one_ok_rock_detox_japan_tour_final_2026",
+      "venue": "ZOZOマリンスタジアム",
+      "performanceAt": "2026-09-05T18:00:00+09:00",
+      "doorOpenAt": "2026-09-05T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "one_ok_rock_detox_japan_tour_final_2026_zozo_0906",
+      "tourId": "one_ok_rock_detox_japan_tour_final_2026",
+      "venue": "ZOZOマリンスタジアム",
+      "performanceAt": "2026-09-06T18:00:00+09:00",
+      "doorOpenAt": "2026-09-06T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "one_ok_rock_detox_japan_tour_final_2026_primal_footmark_senko",
+      "tourId": "one_ok_rock_detox_japan_tour_final_2026",
+      "type": "PRIMAL FOOTMARK会員先行",
+      "entryStartAt": "2026-05-01T12:00:00+09:00",
+      "entryEndAt": "2026-05-20T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "one_ok_rock_detox_japan_tour_final_2026_official_hp_senko",
+      "tourId": "one_ok_rock_detox_japan_tour_final_2026",
+      "type": "オフィシャルホームページ先行",
+      "entryStartAt": "2026-05-28T12:00:00+09:00",
+      "entryEndAt": "2026-06-14T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "one_ok_rock_detox_japan_tour_final_2026_pia_saisoku",
+      "tourId": "one_ok_rock_detox_japan_tour_final_2026",
+      "type": "ぴあプレイガイド最速先行",
+      "entryStartAt": "2026-06-20T12:00:00+09:00",
+      "entryEndAt": "2026-07-05T23:59:00+09:00",
+      "resultAt": "2026-07-10T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://pia.jp/v/oor-djtf26pgf/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "one_ok_rock_1_chance_festival_2026_general_sale",
+      "tourId": "one_ok_rock_1_chance_festival_2026",
+      "type": "一般発売",
+      "entryStartAt": null,
+      "entryEndAt": "2026-09-17T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://1chancefes.com/",
+      "lastVerifiedAt": "2026-08-18T00:08:00+09:00"
+    },
+    {
+      "id": "one_ok_rock_detox_japan_tour_final_2026_general_aichi_fukuoka_miyagi",
+      "tourId": "one_ok_rock_detox_japan_tour_final_2026",
+      "type": "一般発売（愛知・福岡・宮城公演）",
+      "entryStartAt": "2026-07-25T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "one_ok_rock_detox_japan_tour_final_2026_ig_arena_0811",
+        "one_ok_rock_detox_japan_tour_final_2026_ig_arena_0812",
+        "one_ok_rock_detox_japan_tour_final_2026_marine_messe_0818",
+        "one_ok_rock_detox_japan_tour_final_2026_marine_messe_0819",
+        "one_ok_rock_detox_japan_tour_final_2026_miyagi_0825",
+        "one_ok_rock_detox_japan_tour_final_2026_miyagi_0826"
+      ],
+      "source": "system",
+      "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "one_ok_rock_detox_japan_tour_final_2026_general_chiba",
+      "tourId": "one_ok_rock_detox_japan_tour_final_2026",
+      "type": "一般発売（千葉公演・2026年8月22日開始）",
+      "entryStartAt": null,
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "one_ok_rock_detox_japan_tour_final_2026_zozo_0905",
+        "one_ok_rock_detox_japan_tour_final_2026_zozo_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1838917139",
+      "title": "Wherever you are",
+      "albumTitle": "Nicheシンドローム",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4d/27/7f/4d277f48-e8c8-3514-b6f2-5a79f7440833/mzaf_3472694992100233022.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/53/f4/a1/53f4a1a3-ae4f-2406-2e89-f49e8a3d1ec1/25UMGIM89645.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1839482888",
+      "title": "Wasted Nights",
+      "albumTitle": "Eye of the Storm",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/75/90/66/759066a6-ab46-2997-d0df-79f40227bf11/mzaf_2690811550393026526.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/11/17/b3/1117b383-44e1-cd43-e8b7-598ea880917e/25UMGIM89658.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1838917750",
+      "title": "欲望に満ちた青年団",
+      "albumTitle": "ゼイタクビョウ",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/96/0f/72/960f7267-e75f-2d83-d103-6c1ae33e0f4a/mzaf_9308103893092885434.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6b/e4/ca/6be4cade-78d0-7f68-7436-be23a1698add/25UMGIM89652.rgb.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

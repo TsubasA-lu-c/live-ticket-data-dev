@@ -1,0 +1,31 @@
+{
+  "artistId": "bts",
+  "tours": [],
+  "performances": [],
+  "lotteries": [],
+  "lastVerifiedAt": "2026-07-22T10:06:40+09:00",
+  "sourceUrl": "https://bts-official.jp/",
+  "appleMusicTracks": [
+    {
+      "songId": "1528831888",
+      "title": "Dynamite",
+      "albumTitle": "Dynamite - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/03/c0/15/03c01598-9025-f33c-1142-0a6d09e53eca/mzaf_4597726653283378815.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/85/49/39/854939f9-ff03-9d1c-e336-52df61921d4f/20UMGIM71057.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1869053684",
+      "title": "SWIM",
+      "albumTitle": "ARIRANG",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/76/91/12/76911228-2b72-c88a-1382-ccbc408a3350/mzaf_8873019612878998918.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/16/73/8e1673a3-5e13-ef95-131f-483903947fed/26UMGIM03003.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1869053679",
+      "title": "2.0",
+      "albumTitle": "ARIRANG",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ef/7d/f7/ef7df791-1d21-0940-b802-8b5ef5a5d680/mzaf_5004209235108547714.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8e/16/73/8e1673a3-5e13-ef95-131f-483903947fed/26UMGIM03003.rgb.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

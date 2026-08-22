@@ -1,0 +1,447 @@
+{
+  "artistId": "idolish7",
+  "tours": [
+    {
+      "id": "idolish7_4ward_journey_2026",
+      "artistId": "idolish7",
+      "title": "アイドリッシュセブン VISIBLIVE TOUR \"4WARD JOURNEY\"",
+      "startDate": "2026-08-21T00:00:00+09:00",
+      "endDate": "2026-09-13T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "限定グッズ付S席",
+          "amount": 14000
+        },
+        {
+          "label": "S席",
+          "amount": 10000
+        },
+        {
+          "label": "限定グッズ付A席",
+          "amount": 13000
+        },
+        {
+          "label": "A席",
+          "amount": 9000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://idolish7.com/4j/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "idolish7_4ward_journey_live_viewing_2026",
+      "artistId": "idolish7",
+      "title": "＜ライブビューイング＞アイドリッシュセブン VISIBLIVE TOUR \"4WARD JOURNEY\"",
+      "startDate": "2026-08-22T00:00:00+09:00",
+      "endDate": "2026-08-22T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 4500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://idolish7.com/4j/live-viewing/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "idolish7_4ward_journey_live_streaming_2026",
+      "artistId": "idolish7",
+      "title": "＜有料ライブ配信＞アイドリッシュセブン VISIBLIVE TOUR \"4WARD JOURNEY\"",
+      "startDate": "2026-08-23T00:00:00+09:00",
+      "endDate": "2026-08-23T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1公演視聴チケット",
+          "amount": 4500
+        },
+        {
+          "label": "公演通し視聴チケット",
+          "amount": 8500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://idolish7.com/4j/live-streaming/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "idolish7_4ward_journey_2026_makuhari_0821",
+      "tourId": "idolish7_4ward_journey_2026",
+      "venue": "幕張メッセ 国際展示場1～3",
+      "performanceAt": "2026-08-21T19:00:00+09:00",
+      "doorOpenAt": "2026-08-21T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://idolish7.com/4j/about/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "idolish7_4ward_journey_2026_makuhari_0822_hiru",
+      "tourId": "idolish7_4ward_journey_2026",
+      "venue": "幕張メッセ 国際展示場1～3",
+      "performanceAt": "2026-08-22T14:00:00+09:00",
+      "doorOpenAt": "2026-08-22T13:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://idolish7.com/4j/about/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "idolish7_4ward_journey_2026_makuhari_0822_yoru",
+      "tourId": "idolish7_4ward_journey_2026",
+      "venue": "幕張メッセ 国際展示場1～3",
+      "performanceAt": "2026-08-22T18:00:00+09:00",
+      "doorOpenAt": "2026-08-22T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://idolish7.com/4j/about/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "idolish7_4ward_journey_2026_makuhari_0823_hiru",
+      "tourId": "idolish7_4ward_journey_2026",
+      "venue": "幕張メッセ 国際展示場1～3",
+      "performanceAt": "2026-08-23T13:00:00+09:00",
+      "doorOpenAt": "2026-08-23T12:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://idolish7.com/4j/about/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "idolish7_4ward_journey_2026_makuhari_0823_yoru",
+      "tourId": "idolish7_4ward_journey_2026",
+      "venue": "幕張メッセ 国際展示場1～3",
+      "performanceAt": "2026-08-23T17:00:00+09:00",
+      "doorOpenAt": "2026-08-23T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://idolish7.com/4j/about/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "idolish7_4ward_journey_2026_osaka_0828",
+      "tourId": "idolish7_4ward_journey_2026",
+      "venue": "インテックス大阪5号館",
+      "performanceAt": "2026-08-28T18:30:00+09:00",
+      "doorOpenAt": "2026-08-28T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://idolish7.com/4j/about/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "idolish7_4ward_journey_2026_osaka_0829_hiru",
+      "tourId": "idolish7_4ward_journey_2026",
+      "venue": "インテックス大阪5号館",
+      "performanceAt": "2026-08-29T14:00:00+09:00",
+      "doorOpenAt": "2026-08-29T13:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://idolish7.com/4j/about/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "idolish7_4ward_journey_2026_osaka_0829_yoru",
+      "tourId": "idolish7_4ward_journey_2026",
+      "venue": "インテックス大阪5号館",
+      "performanceAt": "2026-08-29T18:00:00+09:00",
+      "doorOpenAt": "2026-08-29T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://idolish7.com/4j/about/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "idolish7_4ward_journey_2026_osaka_0830_hiru",
+      "tourId": "idolish7_4ward_journey_2026",
+      "venue": "インテックス大阪5号館",
+      "performanceAt": "2026-08-30T13:00:00+09:00",
+      "doorOpenAt": "2026-08-30T12:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://idolish7.com/4j/about/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "idolish7_4ward_journey_2026_osaka_0830_yoru",
+      "tourId": "idolish7_4ward_journey_2026",
+      "venue": "インテックス大阪5号館",
+      "performanceAt": "2026-08-30T17:00:00+09:00",
+      "doorOpenAt": "2026-08-30T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://idolish7.com/4j/about/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "idolish7_4ward_journey_2026_fukuoka_0913_hiru",
+      "tourId": "idolish7_4ward_journey_2026",
+      "venue": "マリンメッセ福岡B館",
+      "performanceAt": "2026-09-13T14:00:00+09:00",
+      "doorOpenAt": "2026-09-13T13:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://idolish7.com/4j/about/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "idolish7_4ward_journey_2026_fukuoka_0913_yoru",
+      "tourId": "idolish7_4ward_journey_2026",
+      "venue": "マリンメッセ福岡B館",
+      "performanceAt": "2026-09-13T18:00:00+09:00",
+      "doorOpenAt": "2026-09-13T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://idolish7.com/4j/about/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "idolish7_4ward_journey_live_viewing_2026_0822_hiru",
+      "tourId": "idolish7_4ward_journey_live_viewing_2026",
+      "venue": "全国の映画館",
+      "performanceAt": "2026-08-22T14:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://idolish7.com/4j/live-viewing/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "idolish7_4ward_journey_live_viewing_2026_0822_yoru",
+      "tourId": "idolish7_4ward_journey_live_viewing_2026",
+      "venue": "全国の映画館",
+      "performanceAt": "2026-08-22T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://idolish7.com/4j/live-viewing/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "idolish7_4ward_journey_live_streaming_2026_0823_hiru",
+      "tourId": "idolish7_4ward_journey_live_streaming_2026",
+      "venue": "オンライン配信（Streaming+）",
+      "performanceAt": "2026-08-23T13:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://idolish7.com/4j/live-streaming/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "idolish7_4ward_journey_live_streaming_2026_0823_yoru",
+      "tourId": "idolish7_4ward_journey_live_streaming_2026",
+      "venue": "オンライン配信（Streaming+）",
+      "performanceAt": "2026-08-23T17:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://idolish7.com/4j/live-streaming/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "idolish7_4ward_journey_2026_app_saisoku",
+      "tourId": "idolish7_4ward_journey_2026",
+      "type": "アプリ最速先行",
+      "entryStartAt": "2026-02-16T17:00:00+09:00",
+      "entryEndAt": "2026-03-03T23:59:00+09:00",
+      "resultAt": "2026-03-14T13:00:00+09:00",
+      "paymentStartAt": "2026-03-14T13:00:00+09:00",
+      "paymentEndAt": "2026-03-18T21:00:00+09:00",
+      "performanceIds": [
+        "idolish7_4ward_journey_2026_makuhari_0821",
+        "idolish7_4ward_journey_2026_makuhari_0822_hiru",
+        "idolish7_4ward_journey_2026_makuhari_0822_yoru",
+        "idolish7_4ward_journey_2026_makuhari_0823_hiru",
+        "idolish7_4ward_journey_2026_makuhari_0823_yoru",
+        "idolish7_4ward_journey_2026_osaka_0828",
+        "idolish7_4ward_journey_2026_osaka_0829_hiru",
+        "idolish7_4ward_journey_2026_osaka_0829_yoru",
+        "idolish7_4ward_journey_2026_osaka_0830_hiru",
+        "idolish7_4ward_journey_2026_osaka_0830_yoru",
+        "idolish7_4ward_journey_2026_fukuoka_0913_hiru",
+        "idolish7_4ward_journey_2026_fukuoka_0913_yoru"
+      ],
+      "source": "system",
+      "sourceUrl": "https://idolish7.com/4j/ticket/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "idolish7_4ward_journey_2026_app_2ji",
+      "tourId": "idolish7_4ward_journey_2026",
+      "type": "アプリ2次先行",
+      "entryStartAt": "2026-03-09T17:00:00+09:00",
+      "entryEndAt": "2026-03-31T23:59:00+09:00",
+      "resultAt": "2026-04-11T13:00:00+09:00",
+      "paymentStartAt": "2026-04-11T13:00:00+09:00",
+      "paymentEndAt": "2026-04-15T21:00:00+09:00",
+      "performanceIds": [
+        "idolish7_4ward_journey_2026_makuhari_0821",
+        "idolish7_4ward_journey_2026_makuhari_0822_hiru",
+        "idolish7_4ward_journey_2026_makuhari_0822_yoru",
+        "idolish7_4ward_journey_2026_makuhari_0823_hiru",
+        "idolish7_4ward_journey_2026_makuhari_0823_yoru",
+        "idolish7_4ward_journey_2026_osaka_0828",
+        "idolish7_4ward_journey_2026_osaka_0829_hiru",
+        "idolish7_4ward_journey_2026_osaka_0829_yoru",
+        "idolish7_4ward_journey_2026_osaka_0830_hiru",
+        "idolish7_4ward_journey_2026_osaka_0830_yoru",
+        "idolish7_4ward_journey_2026_fukuoka_0913_hiru",
+        "idolish7_4ward_journey_2026_fukuoka_0913_yoru"
+      ],
+      "source": "system",
+      "sourceUrl": "https://idolish7.com/4j/ticket/",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "idolish7_4ward_journey_2026_official_senko",
+      "tourId": "idolish7_4ward_journey_2026",
+      "type": "オフィシャル先行",
+      "entryStartAt": "2026-04-18T12:00:00+09:00",
+      "entryEndAt": "2026-05-11T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "idolish7_4ward_journey_2026_makuhari_0821",
+        "idolish7_4ward_journey_2026_makuhari_0822_hiru",
+        "idolish7_4ward_journey_2026_makuhari_0822_yoru",
+        "idolish7_4ward_journey_2026_makuhari_0823_hiru",
+        "idolish7_4ward_journey_2026_makuhari_0823_yoru",
+        "idolish7_4ward_journey_2026_osaka_0828",
+        "idolish7_4ward_journey_2026_osaka_0829_hiru",
+        "idolish7_4ward_journey_2026_osaka_0829_yoru",
+        "idolish7_4ward_journey_2026_osaka_0830_hiru",
+        "idolish7_4ward_journey_2026_osaka_0830_yoru",
+        "idolish7_4ward_journey_2026_fukuoka_0913_hiru",
+        "idolish7_4ward_journey_2026_fukuoka_0913_yoru"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/2231800002",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "idolish7_4ward_journey_2026_preorder_senko",
+      "tourId": "idolish7_4ward_journey_2026",
+      "type": "プレオーダー先行",
+      "entryStartAt": "2026-05-23T12:00:00+09:00",
+      "entryEndAt": "2026-06-08T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "idolish7_4ward_journey_2026_makuhari_0821",
+        "idolish7_4ward_journey_2026_makuhari_0822_hiru",
+        "idolish7_4ward_journey_2026_makuhari_0822_yoru",
+        "idolish7_4ward_journey_2026_makuhari_0823_hiru",
+        "idolish7_4ward_journey_2026_makuhari_0823_yoru",
+        "idolish7_4ward_journey_2026_osaka_0828",
+        "idolish7_4ward_journey_2026_osaka_0829_hiru",
+        "idolish7_4ward_journey_2026_osaka_0829_yoru",
+        "idolish7_4ward_journey_2026_osaka_0830_hiru",
+        "idolish7_4ward_journey_2026_osaka_0830_yoru",
+        "idolish7_4ward_journey_2026_fukuoka_0913_hiru",
+        "idolish7_4ward_journey_2026_fukuoka_0913_yoru"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/2231800002",
+      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "idolish7_4ward_journey_live_viewing_2026_senko",
+      "tourId": "idolish7_4ward_journey_live_viewing_2026",
+      "type": "先行受付（抽選）",
+      "entryStartAt": "2026-07-27T18:00:00+09:00",
+      "entryEndAt": "2026-08-02T23:59:00+09:00",
+      "resultAt": "2026-08-15T13:00:00+09:00",
+      "paymentStartAt": "2026-08-15T13:00:00+09:00",
+      "paymentEndAt": "2026-08-17T21:00:00+09:00",
+      "performanceIds": [
+        "idolish7_4ward_journey_live_viewing_2026_0822_hiru",
+        "idolish7_4ward_journey_live_viewing_2026_0822_yoru"
+      ],
+      "source": "system",
+      "sourceUrl": "https://idolish7.com/4j/live-viewing/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "idolish7_4ward_journey_live_viewing_2026_general",
+      "tourId": "idolish7_4ward_journey_live_viewing_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-08-16T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "idolish7_4ward_journey_live_viewing_2026_0822_hiru",
+        "idolish7_4ward_journey_live_viewing_2026_0822_yoru"
+      ],
+      "source": "system",
+      "sourceUrl": "https://idolish7.com/4j/live-viewing/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "idolish7_4ward_journey_live_streaming_2026_ticket",
+      "tourId": "idolish7_4ward_journey_live_streaming_2026",
+      "type": "視聴チケット販売",
+      "entryStartAt": "2026-08-06T17:00:00+09:00",
+      "entryEndAt": "2026-09-07T21:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "idolish7_4ward_journey_live_streaming_2026_0823_hiru",
+        "idolish7_4ward_journey_live_streaming_2026_0823_yoru"
+      ],
+      "source": "system",
+      "sourceUrl": "https://idolish7.com/4j/live-streaming/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1818791231",
+      "title": "RESTART POiNTER",
+      "albumTitle": "i7",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/86/3b/88/863b88aa-911b-71c8-5823-6c9a5228fd82/mzaf_8649845583077436969.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/15/27/ff/1527ff51-9225-b91e-50fc-b5c5274e7952/4540774155798.png/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1818791224",
+      "title": "MONSTER GENERATiON",
+      "albumTitle": "i7",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5c/19/4f/5c194fb4-bcda-6e26-0d21-67bb02e16158/mzaf_5977558807261055770.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/15/27/ff/1527ff51-9225-b91e-50fc-b5c5274e7952/4540774155798.png/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1819401146",
+      "title": "Pieces of The World",
+      "albumTitle": "劇場版アイドリッシュセブン LIVE 4bit Compilation Album \"BEYOND THE PERiOD\"【DAY 2】",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f0/4f/0b/f04f0bdb-04b1-6af7-8e7a-066807e0ceba/mzaf_7949448005368363737.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d8/98/76/d8987622-77b1-edd3-c5f9-d6d8dc5d717d/4540774243884.png/{w}x{h}{c}.{f}"
+    }
+  ]
+}

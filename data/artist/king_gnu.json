@@ -1,0 +1,90 @@
+{
+  "artistId": "king_gnu",
+  "tours": [
+    {
+      "id": "king_gnu_10th_anniversary_kickoff_2027",
+      "artistId": "king_gnu",
+      "title": "King Gnu 10th Anniversary Opening Live “KICKOFF”",
+      "startDate": "2027-02-17T00:00:00+09:00",
+      "endDate": "2027-03-14T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/kinggnu/info/585061",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "king_gnu_10th_anniversary_kickoff_2027_tokyo_0217",
+      "tourId": "king_gnu_10th_anniversary_kickoff_2027",
+      "venue": "東京ドーム",
+      "performanceAt": "2027-02-17T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/kinggnu/info/585061",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "king_gnu_10th_anniversary_kickoff_2027_tokyo_0218",
+      "tourId": "king_gnu_10th_anniversary_kickoff_2027",
+      "venue": "東京ドーム",
+      "performanceAt": "2027-02-18T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/kinggnu/info/585061",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "king_gnu_10th_anniversary_kickoff_2027_osaka_0313",
+      "tourId": "king_gnu_10th_anniversary_kickoff_2027",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2027-03-13T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/kinggnu/info/585061",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "king_gnu_10th_anniversary_kickoff_2027_osaka_0314",
+      "tourId": "king_gnu_10th_anniversary_kickoff_2027",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2027-03-14T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/kinggnu/info/585061",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [],
+  "appleMusicTracks": [
+    {
+      "songId": "6794271993",
+      "title": "GO GHOST",
+      "albumTitle": "GO GHOST - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b5/94/11/b59411d9-986a-ba04-f305-935f249a835f/mzaf_4576308527713231485.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/47/f3/49/47f3490b-4395-28ba-e6a9-88c9dd7be8fa/4547366841732.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1860538548",
+      "title": "AIZO",
+      "albumTitle": "AIZO - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/29/a2/1a/29a21ac0-9c04-75cc-4b46-d1ec4168c0f0/mzaf_1474796284678786494.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9f/8a/0b/9f8a0bc1-e6ee-5873-4fc9-9a75b0d58e2a/4547366794816.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1536027148",
+      "title": "白日",
+      "albumTitle": "白日 - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a2/91/56/a2915609-6396-cd16-eee0-b9baaf05b24c/mzaf_14417673597841169218.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/3e/b8/ef/3eb8ef78-c575-eb81-f982-aaec74b5fe53/jacket_BVXX01177B00Z_550.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

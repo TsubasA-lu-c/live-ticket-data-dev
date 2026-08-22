@@ -1,0 +1,134 @@
+{
+  "artistId": "sixtones",
+  "tours": [
+    {
+      "id": "sixtones_milesixtones_stadium_2026",
+      "artistId": "sixtones",
+      "title": "SixTONES LIVE TOUR 2026「MILESixTONES」スタジアムツアー",
+      "startDate": "2026-09-19T00:00:00+09:00",
+      "endDate": "2026-11-22T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "ファミリークラブ会員チケット",
+          "amount": 10500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10499",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "sixtones_milesixtones_stadium_2026_ajinomoto_0919",
+      "tourId": "sixtones_milesixtones_stadium_2026",
+      "venue": "味の素スタジアム",
+      "performanceAt": "2026-09-19T17:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sixtones.jp/live",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "sixtones_milesixtones_stadium_2026_ajinomoto_0920",
+      "tourId": "sixtones_milesixtones_stadium_2026",
+      "venue": "味の素スタジアム",
+      "performanceAt": "2026-09-20T17:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sixtones.jp/live",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "sixtones_milesixtones_stadium_2026_yanmar_1107",
+      "tourId": "sixtones_milesixtones_stadium_2026",
+      "venue": "ヤンマースタジアム長居",
+      "performanceAt": "2026-11-07T17:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sixtones.jp/live",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "sixtones_milesixtones_stadium_2026_yanmar_1108",
+      "tourId": "sixtones_milesixtones_stadium_2026",
+      "venue": "ヤンマースタジアム長居",
+      "performanceAt": "2026-11-08T17:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sixtones.jp/live",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "sixtones_milesixtones_stadium_2026_nissan_1121",
+      "tourId": "sixtones_milesixtones_stadium_2026",
+      "venue": "日産スタジアム",
+      "performanceAt": "2026-11-21T16:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sixtones.jp/live",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "sixtones_milesixtones_stadium_2026_nissan_1122",
+      "tourId": "sixtones_milesixtones_stadium_2026",
+      "venue": "日産スタジアム",
+      "performanceAt": "2026-11-22T16:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sixtones.jp/live",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "sixtones_milesixtones_stadium_2026_fc_1st",
+      "tourId": "sixtones_milesixtones_stadium_2026",
+      "type": "ファミリークラブ会員チケット",
+      "entryStartAt": "2026-06-14T19:00:00+09:00",
+      "entryEndAt": "2026-06-30T12:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10499",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "6785734870",
+      "title": "マイオンリー",
+      "albumTitle": "マイオンリー - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/48/6f/0a/486f0a25-098b-3f82-16bb-544bf4d0a9ea/mzaf_16018582435828305336.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/be/28/43/be284309-bce7-bfc4-a1a8-90a6712b1b8f/4547366834611.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "6780773162",
+      "title": "Dance Forever",
+      "albumTitle": "Dance Forever - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/21/77/30/217730c2-f297-7418-4223-0122f07a39f2/mzaf_1156861600755326614.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/66/5c/99/665c990f-c72d-81d4-0c3e-600fd28d4327/4547366830583.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "6772156656",
+      "title": "Flower Cloud",
+      "albumTitle": "Flower Cloud - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/db/63/a0/db63a050-121a-0b28-d144-b4fc1fa46467/mzaf_1802712526876444015.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e8/08/9d/e8089d62-3a9d-fdd1-2d99-a13858d2c229/4547366827699.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

@@ -1,0 +1,444 @@
+{
+  "artistId": "touken_ranbu_musical",
+  "tours": [
+    {
+      "id": "touken_ranbu_musical_tsukiyo_ichiru_2026",
+      "artistId": "touken_ranbu_musical",
+      "title": "ミュージカル『刀剣乱舞』～月夜一縷～",
+      "startDate": "2026-09-07T00:00:00+09:00",
+      "endDate": "2026-10-25T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "S席 / S席サイドシート",
+          "amount": 14800
+        },
+        {
+          "label": "A席 / A席サイドシート / 見切席 / 注釈付見切席 / 立見券",
+          "amount": 12800
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
+      "lastVerifiedAt": "2026-08-18T07:20:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_event_ice_blade_2026",
+      "artistId": "touken_ranbu_musical",
+      "title": "刀剣乱舞 - ICE BLADE -",
+      "startDate": "2026-10-03T00:00:00+09:00",
+      "endDate": "2026-10-04T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 19000
+        },
+        {
+          "label": "アリーナ席確約チケット（追加料金）",
+          "amount": 4000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://toukenranbu-iceblade.jp/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_tokyo_0907",
+      "tourId": "touken_ranbu_musical_tsukiyo_ichiru_2026",
+      "venue": "Kanadevia Hall",
+      "performanceAt": "2026-09-07T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ミュージカル『刀剣乱舞』～月夜一縷～",
+      "source": "system",
+      "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_tokyo_0913",
+      "tourId": "touken_ranbu_musical_tsukiyo_ichiru_2026",
+      "venue": "Kanadevia Hall",
+      "performanceAt": "2026-09-13T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ミュージカル『刀剣乱舞』～月夜一縷～",
+      "source": "system",
+      "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_osaka_0920",
+      "tourId": "touken_ranbu_musical_tsukiyo_ichiru_2026",
+      "venue": "東京建物 Brillia HALL 箕面 大ホール",
+      "performanceAt": "2026-09-20T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ミュージカル『刀剣乱舞』～月夜一縷～",
+      "source": "system",
+      "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_osaka_0927",
+      "tourId": "touken_ranbu_musical_tsukiyo_ichiru_2026",
+      "venue": "東京建物 Brillia HALL 箕面 大ホール",
+      "performanceAt": "2026-09-27T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ミュージカル『刀剣乱舞』～月夜一縷～",
+      "source": "system",
+      "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_aichi_1003",
+      "tourId": "touken_ranbu_musical_tsukiyo_ichiru_2026",
+      "venue": "アイプラザ豊橋",
+      "performanceAt": "2026-10-03T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ミュージカル『刀剣乱舞』～月夜一縷～",
+      "source": "system",
+      "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_aichi_1011",
+      "tourId": "touken_ranbu_musical_tsukiyo_ichiru_2026",
+      "venue": "アイプラザ豊橋",
+      "performanceAt": "2026-10-11T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ミュージカル『刀剣乱舞』～月夜一縷～",
+      "source": "system",
+      "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_tokyo2_1017",
+      "tourId": "touken_ranbu_musical_tsukiyo_ichiru_2026",
+      "venue": "Kanadevia Hall",
+      "performanceAt": "2026-10-17T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ミュージカル『刀剣乱舞』～月夜一縷～",
+      "source": "system",
+      "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_tokyo2_1025",
+      "tourId": "touken_ranbu_musical_tsukiyo_ichiru_2026",
+      "venue": "Kanadevia Hall",
+      "performanceAt": "2026-10-25T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ミュージカル『刀剣乱舞』～月夜一縷～",
+      "source": "system",
+      "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_event_ice_blade_2026_yoyogi_1003",
+      "tourId": "touken_ranbu_musical_event_ice_blade_2026",
+      "venue": "国立代々木競技場 第一体育館",
+      "performanceAt": "2026-10-03T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "刀剣乱舞 - ICE BLADE -",
+      "source": "system",
+      "sourceUrl": "https://toukenranbu-iceblade.jp/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_event_ice_blade_2026_yoyogi_1004",
+      "tourId": "touken_ranbu_musical_event_ice_blade_2026",
+      "venue": "国立代々木競技場 第一体育館",
+      "performanceAt": "2026-10-04T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "刀剣乱舞 - ICE BLADE -",
+      "source": "system",
+      "sourceUrl": "https://toukenranbu-iceblade.jp/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_fc_premium",
+      "tourId": "touken_ranbu_musical_tsukiyo_ichiru_2026",
+      "type": "公式ファンサイト プレミアム会員先行",
+      "entryStartAt": "2026-06-15T12:00:00+09:00",
+      "entryEndAt": "2026-06-21T23:59:00+09:00",
+      "resultAt": "2026-06-26T15:00:00+09:00",
+      "paymentStartAt": "2026-06-26T15:00:00+09:00",
+      "paymentEndAt": "2026-06-29T23:59:00+09:00",
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_cd_gen",
+      "tourId": "touken_ranbu_musical_tsukiyo_ichiru_2026",
+      "type": "シングルCD購入者限定先行",
+      "entryStartAt": "2026-06-23T12:00:00+09:00",
+      "entryEndAt": "2026-06-28T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_lawson",
+      "tourId": "touken_ranbu_musical_tsukiyo_ichiru_2026",
+      "type": "ローソンチケット LEncore抽選先行",
+      "entryStartAt": "2026-07-10T12:00:00+09:00",
+      "entryEndAt": "2026-07-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_prereq",
+      "tourId": "touken_ranbu_musical_tsukiyo_ichiru_2026",
+      "type": "プレリクエスト抽選先行",
+      "entryStartAt": "2026-07-17T12:00:00+09:00",
+      "entryEndAt": "2026-07-23T23:59:00+09:00",
+      "resultAt": "2026-07-30T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://l-tike.com/order/?gBaseVenueCd=31097&gCarrierCd=01&gEntryMthd=03&gLcode=35555&gPfKey=&gPfName=%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%AB%E3%83%AB%E3%80%8E%E5%88%80%E5%89%A3%E4%B9%B1%E8%88%9E%E3%80%8F+%EF%BD%9E%E6%9C%88%E5%A4%9C%E4%B8%80%E7%B8%B7%EF%BD%9E&gScheduleNo=14",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_game_dmm",
+      "tourId": "touken_ranbu_musical_tsukiyo_ichiru_2026",
+      "type": "ゲーム内・ネルケハ・DMMプレミアム等先行",
+      "entryStartAt": "2026-07-01T12:00:00+09:00",
+      "entryEndAt": "2026-07-09T12:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_event_ice_blade_2026_official_site",
+      "tourId": "touken_ranbu_musical_event_ice_blade_2026",
+      "type": "公式サイト先行",
+      "entryStartAt": "2026-05-29T12:00:00+09:00",
+      "entryEndAt": "2026-06-14T23:59:00+09:00",
+      "resultAt": "2026-06-22T15:00:00+09:00",
+      "paymentStartAt": "2026-06-22T15:00:00+09:00",
+      "paymentEndAt": "2026-06-28T23:59:00+09:00",
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://toukenranbu-iceblade.jp/ticket",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_event_ice_blade_2026_official_fc",
+      "tourId": "touken_ranbu_musical_event_ice_blade_2026",
+      "type": "公式ファンサイト プレミアム会員先行",
+      "entryStartAt": "2026-05-29T12:00:00+09:00",
+      "entryEndAt": "2026-06-14T23:59:00+09:00",
+      "resultAt": "2026-06-22T15:00:00+09:00",
+      "paymentStartAt": "2026-06-22T15:00:00+09:00",
+      "paymentEndAt": "2026-06-28T23:59:00+09:00",
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://musical-toukenranbu.jp/contents/information/icebrade2026_ticket",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_event_ice_blade_2026_stage_fc",
+      "tourId": "touken_ranbu_musical_event_ice_blade_2026",
+      "type": "刀ステファンサイト先行",
+      "entryStartAt": null,
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://toukenranbu-iceblade.jp/ticket",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_event_ice_blade_2026_game",
+      "tourId": "touken_ranbu_musical_event_ice_blade_2026",
+      "type": "ゲーム内チケット先行",
+      "entryStartAt": null,
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://toukenranbu-iceblade.jp/ticket",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_event_ice_blade_2026_dmm",
+      "tourId": "touken_ranbu_musical_event_ice_blade_2026",
+      "type": "DMMプレミアムチケット先行",
+      "entryStartAt": null,
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://toukenranbu-iceblade.jp/ticket",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_event_ice_blade_2026_25friends",
+      "tourId": "touken_ranbu_musical_event_ice_blade_2026",
+      "type": "2.5フレンズ先行",
+      "entryStartAt": null,
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://toukenranbu-iceblade.jp/ticket",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_event_ice_blade_2026_lencore",
+      "tourId": "touken_ranbu_musical_event_ice_blade_2026",
+      "type": "エルアンコール先行",
+      "entryStartAt": "2026-07-03T12:00:00+09:00",
+      "entryEndAt": "2026-07-09T23:59:00+09:00",
+      "resultAt": "2026-07-16T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://toukenranbu-iceblade.jp/ticket",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_event_ice_blade_2026_prereq",
+      "tourId": "touken_ranbu_musical_event_ice_blade_2026",
+      "type": "プレリク先行",
+      "entryStartAt": "2026-07-03T12:00:00+09:00",
+      "entryEndAt": "2026-07-16T23:59:00+09:00",
+      "resultAt": "2026-07-24T15:00:00+09:00",
+      "paymentStartAt": "2026-07-24T15:00:00+09:00",
+      "paymentEndAt": "2026-07-27T23:59:00+09:00",
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://toukenranbu-iceblade.jp/ticket",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_event_ice_blade_2026_arena",
+      "tourId": "touken_ranbu_musical_event_ice_blade_2026",
+      "type": "アリーナ席確約チケット抽選受付",
+      "entryStartAt": "2026-07-31T12:00:00+09:00",
+      "entryEndAt": "2026-08-16T23:59:00+09:00",
+      "resultAt": "2026-08-21T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://toukenranbu-iceblade.jp/ticket",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_event_ice_blade_2026_ippan",
+      "tourId": "touken_ranbu_musical_event_ice_blade_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-08-30T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://toukenranbu-iceblade.jp/ticket",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_ippan",
+      "tourId": "touken_ranbu_musical_tsukiyo_ichiru_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-08-08T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_general",
+      "tourId": "touken_ranbu_musical_tsukiyo_ichiru_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-08-08T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
+      "lastVerifiedAt": "2026-08-18T07:20:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_trade",
+      "tourId": "touken_ranbu_musical_tsukiyo_ichiru_2026",
+      "type": "チケプラトレード（公式リセール）",
+      "entryStartAt": "2026-08-10T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
+      "lastVerifiedAt": "2026-08-18T07:20:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "6778716478",
+      "title": "新世 (あらたよ)",
+      "albumTitle": "新世 (あらたよ) (Type E) - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ca/36/0e/ca360e21-8e75-5ae0-6bb2-dbf0f15439bd/mzaf_10441214425003718917.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/60/44/fb/6044fb55-83ee-40b3-7493-d55247a1265c/PA00220264_1_247805_jacket.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1821584336",
+      "title": "百花絢爛",
+      "albumTitle": "百花絢爛 (Type-B) - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f3/84/9a/f3849a96-73bb-04f6-5ed2-1e0157fb74dd/mzaf_6127932791382345445.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ff/c2/5f/ffc25ffa-d198-297c-3c86-c9a18b028732/PA00195935_1_224543_jacket.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "6778716480",
+      "title": "Dress Up",
+      "albumTitle": "新世 (あらたよ) (Type E) - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d8/de/49/d8de4916-b1f9-f2bf-dc14-36639cbf76c1/mzaf_7288088008163165610.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/60/44/fb/6044fb55-83ee-40b3-7493-d55247a1265c/PA00220264_1_247805_jacket.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

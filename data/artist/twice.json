@@ -1,0 +1,30 @@
+{
+  "artistId": "twice",
+  "tours": [],
+  "performances": [],
+  "lotteries": [],
+  "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+  "appleMusicTracks": [
+    {
+      "songId": "1824394477",
+      "title": "THIS IS FOR",
+      "albumTitle": "THIS IS FOR",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/eb/cc/75/ebcc754e-ed29-0db0-a99f-9fe2911ca710/mzaf_6658118234325168847.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e0/a7/dd/e0a7dd97-a545-9f0b-6e2c-90c4922669f9/8809928955773.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1479865077",
+      "title": "Feel Special",
+      "albumTitle": "Feel Special",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7b/2f/dc/7b2fdc24-8b82-ab9b-e479-1859fc67e298/mzaf_3216395604305654595.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/58/c7/dd/58c7dda7-3efa-c773-ced7-7e131b13c133/190295344245.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1369883181",
+      "title": "What is Love?",
+      "albumTitle": "What is Love? - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/00/50/b6/0050b6fb-6b6b-38fe-a4ca-226b0775ae16/mzaf_6362792652378313177.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/d5/7d/e9/d57de94f-5ddc-4b71-5f32-0acf62d7111c/190295637644.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

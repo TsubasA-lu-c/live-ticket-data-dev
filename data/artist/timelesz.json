@@ -1,0 +1,431 @@
+{
+  "artistId": "timelesz",
+  "tours": [
+    {
+      "id": "timelesz_momentum_2026",
+      "artistId": "timelesz",
+      "title": "We're timelesz LIVE TOUR 2026 episode 2 MOMENTUM",
+      "startDate": "2026-05-16T00:00:00+09:00",
+      "endDate": "2026-08-30T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定（FC会員）",
+          "amount": 9800
+        },
+        {
+          "label": "全席指定（一般）",
+          "amount": 10300
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10431",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "timelesz_momentum_2026_aichi_0516",
+      "tourId": "timelesz_momentum_2026",
+      "venue": "Aichi Sky Expo（愛知県国際展示場）",
+      "performanceAt": "2026-05-16T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://live-events.a-jp.org/soko/evg/14858.html",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "timelesz_momentum_2026_aichi_0517_1",
+      "tourId": "timelesz_momentum_2026",
+      "venue": "Aichi Sky Expo（愛知県国際展示場）",
+      "performanceAt": "2026-05-17T13:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://live-events.a-jp.org/soko/evg/14858.html",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "timelesz_momentum_2026_aichi_0517_2",
+      "tourId": "timelesz_momentum_2026",
+      "venue": "Aichi Sky Expo（愛知県国際展示場）",
+      "performanceAt": "2026-05-17T17:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://live-events.a-jp.org/soko/evg/14858.html",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "timelesz_momentum_2026_shizuoka_0530",
+      "tourId": "timelesz_momentum_2026",
+      "venue": "エコパアリーナ",
+      "performanceAt": "2026-05-30T17:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://live-events.a-jp.org/soko/evg/14859.html",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "timelesz_momentum_2026_shizuoka_0531_1",
+      "tourId": "timelesz_momentum_2026",
+      "venue": "エコパアリーナ",
+      "performanceAt": "2026-05-31T13:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://live-events.a-jp.org/soko/evg/14859.html",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "timelesz_momentum_2026_shizuoka_0531_2",
+      "tourId": "timelesz_momentum_2026",
+      "venue": "エコパアリーナ",
+      "performanceAt": "2026-05-31T17:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://live-events.a-jp.org/soko/evg/14859.html",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "timelesz_momentum_2026_chiba_0612",
+      "tourId": "timelesz_momentum_2026",
+      "venue": "ららアリーナ 東京ベイ",
+      "performanceAt": "2026-06-12T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://lalaarenatokyo-bay.com/event/2462/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "timelesz_momentum_2026_chiba_0613_1",
+      "tourId": "timelesz_momentum_2026",
+      "venue": "ららアリーナ 東京ベイ",
+      "performanceAt": "2026-06-13T12:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://lalaarenatokyo-bay.com/event/2462/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "timelesz_momentum_2026_chiba_0613_2",
+      "tourId": "timelesz_momentum_2026",
+      "venue": "ららアリーナ 東京ベイ",
+      "performanceAt": "2026-06-13T17:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://lalaarenatokyo-bay.com/event/2462/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "timelesz_momentum_2026_chiba_0614_1",
+      "tourId": "timelesz_momentum_2026",
+      "venue": "ららアリーナ 東京ベイ",
+      "performanceAt": "2026-06-14T12:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://lalaarenatokyo-bay.com/event/2462/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "timelesz_momentum_2026_chiba_0614_2",
+      "tourId": "timelesz_momentum_2026",
+      "venue": "ららアリーナ 東京ベイ",
+      "performanceAt": "2026-06-14T17:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://lalaarenatokyo-bay.com/event/2462/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "timelesz_momentum_2026_yokohama_0630",
+      "tourId": "timelesz_momentum_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-06-30T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10431",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "timelesz_momentum_2026_yokohama_0701_1",
+      "tourId": "timelesz_momentum_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-07-01T12:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10431",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "timelesz_momentum_2026_yokohama_0701_2",
+      "tourId": "timelesz_momentum_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-07-01T17:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10431",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "timelesz_momentum_2026_yokohama_0702_1",
+      "tourId": "timelesz_momentum_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-07-02T12:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10431",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "timelesz_momentum_2026_yokohama_0702_2",
+      "tourId": "timelesz_momentum_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-07-02T17:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10431",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "timelesz_momentum_2026_hokkaido_0725",
+      "tourId": "timelesz_momentum_2026",
+      "venue": "真駒内セキスイハイムアイスアリーナ",
+      "performanceAt": "2026-07-25T17:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10431",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "timelesz_momentum_2026_hokkaido_0726_1",
+      "tourId": "timelesz_momentum_2026",
+      "venue": "真駒内セキスイハイムアイスアリーナ",
+      "performanceAt": "2026-07-26T13:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10431",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "timelesz_momentum_2026_hokkaido_0726_2",
+      "tourId": "timelesz_momentum_2026",
+      "venue": "真駒内セキスイハイムアイスアリーナ",
+      "performanceAt": "2026-07-26T17:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10431",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "timelesz_momentum_2026_osaka_0731",
+      "tourId": "timelesz_momentum_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-07-31T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10431",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "timelesz_momentum_2026_osaka_0801_1",
+      "tourId": "timelesz_momentum_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-08-01T13:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10431",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "timelesz_momentum_2026_osaka_0801_2",
+      "tourId": "timelesz_momentum_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-08-01T17:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10431",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "timelesz_momentum_2026_fukuoka_0815",
+      "tourId": "timelesz_momentum_2026",
+      "venue": "マリンメッセ福岡A館",
+      "performanceAt": "2026-08-15T17:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10431",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "timelesz_momentum_2026_fukuoka_0816_1",
+      "tourId": "timelesz_momentum_2026",
+      "venue": "マリンメッセ福岡A館",
+      "performanceAt": "2026-08-16T13:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10431",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "timelesz_momentum_2026_fukuoka_0816_2",
+      "tourId": "timelesz_momentum_2026",
+      "venue": "マリンメッセ福岡A館",
+      "performanceAt": "2026-08-16T17:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10431",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "timelesz_momentum_2026_miyagi_0829",
+      "tourId": "timelesz_momentum_2026",
+      "venue": "セキスイハイムスーパーアリーナ",
+      "performanceAt": "2026-08-29T17:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10431",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "timelesz_momentum_2026_miyagi_0830_1",
+      "tourId": "timelesz_momentum_2026",
+      "venue": "セキスイハイムスーパーアリーナ",
+      "performanceAt": "2026-08-30T13:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10431",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "timelesz_momentum_2026_miyagi_0830_2",
+      "tourId": "timelesz_momentum_2026",
+      "venue": "セキスイハイムスーパーアリーナ",
+      "performanceAt": "2026-08-30T17:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10431",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "timelesz_momentum_2026_fc先行",
+      "tourId": "timelesz_momentum_2026",
+      "type": "FC先行",
+      "entryStartAt": "2026-02-15T13:00:00+09:00",
+      "entryEndAt": "2026-02-24T12:00:00+09:00",
+      "resultAt": "2026-03-19T00:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "timelesz_momentum_2026_aichi_0516",
+        "timelesz_momentum_2026_aichi_0517_1",
+        "timelesz_momentum_2026_aichi_0517_2",
+        "timelesz_momentum_2026_shizuoka_0530",
+        "timelesz_momentum_2026_shizuoka_0531_1",
+        "timelesz_momentum_2026_shizuoka_0531_2",
+        "timelesz_momentum_2026_chiba_0612",
+        "timelesz_momentum_2026_chiba_0613_1",
+        "timelesz_momentum_2026_chiba_0613_2",
+        "timelesz_momentum_2026_chiba_0614_1",
+        "timelesz_momentum_2026_chiba_0614_2",
+        "timelesz_momentum_2026_yokohama_0630",
+        "timelesz_momentum_2026_yokohama_0701_1",
+        "timelesz_momentum_2026_yokohama_0701_2",
+        "timelesz_momentum_2026_yokohama_0702_1",
+        "timelesz_momentum_2026_yokohama_0702_2",
+        "timelesz_momentum_2026_hokkaido_0725",
+        "timelesz_momentum_2026_hokkaido_0726_1",
+        "timelesz_momentum_2026_hokkaido_0726_2",
+        "timelesz_momentum_2026_osaka_0731",
+        "timelesz_momentum_2026_osaka_0801_1",
+        "timelesz_momentum_2026_osaka_0801_2",
+        "timelesz_momentum_2026_fukuoka_0815",
+        "timelesz_momentum_2026_fukuoka_0816_1",
+        "timelesz_momentum_2026_fukuoka_0816_2",
+        "timelesz_momentum_2026_miyagi_0829",
+        "timelesz_momentum_2026_miyagi_0830_1",
+        "timelesz_momentum_2026_miyagi_0830_2"
+      ],
+      "source": "system",
+      "sourceUrl": "https://matsujun911.com/timelesz-2026-ticket-8497",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "6791038145",
+      "title": "消えない花火",
+      "albumTitle": "消えない花火 - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9d/f4/f5/9df4f5e3-5526-3de4-ccda-4002ae97b0e4/mzaf_5209952271821162060.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7c/30/7b/7c307bb5-dbb7-cb45-7da9-f619efc36af7/26UMGIM50425.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1797683713",
+      "title": "Rock this Party",
+      "albumTitle": "Rock this Party - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0c/d4/a0/0cd4a09e-548a-e2f6-6cb4-44449a1130a1/mzaf_5263084366894355480.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8d/04/be/8d04be3f-3167-6bd1-f0e7-fbb554b91892/25UMGIM17820.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1797439335",
+      "title": "RUN",
+      "albumTitle": "Hello! We’re timelesz",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/31/7e/1b/317e1b51-b432-f9f3-0819-a05dee3f82f4/mzaf_8819248719124812964.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ad/81/23/ad81236b-400f-fbbc-5538-efc069cc9ce1/25UMGIM17821.rgb.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

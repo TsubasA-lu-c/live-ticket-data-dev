@@ -1,0 +1,597 @@
+{
+  "artistId": "yuuri",
+  "tours": [
+    {
+      "id": "yuuri_asia_tour_gomen_2026",
+      "artistId": "yuuri",
+      "title": "YUURI ASIA TOUR 2025で行けなくてごめんね2026",
+      "startDate": "2026-05-12T00:00:00+09:00",
+      "endDate": "2026-10-06T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 8500
+        },
+        {
+          "label": "ゆーりんちの席（FC限定）",
+          "amount": 12000
+        },
+        {
+          "label": "ゆーりんちの席ファミリーシート（着席指定・2枚組）",
+          "amount": 24000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://yuurinchi.com/contents/1047040",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_ichifuji_nikatagi_2026",
+      "artistId": "yuuri",
+      "title": "一富士二鷹三優里 -せめて茄子にはならせてくれよ-",
+      "startDate": "2026-09-05T00:00:00+09:00",
+      "endDate": "2026-09-06T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 9000
+        },
+        {
+          "label": "スタンド指定席",
+          "amount": 9000
+        },
+        {
+          "label": "ゆーりんちの席（FC限定）",
+          "amount": 12500
+        },
+        {
+          "label": "ゆーりんちの席（注釈・FC限定）",
+          "amount": 12500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://yuurinchi.com/contents/1055646",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_fes_2026_otohige",
+      "artistId": "yuuri",
+      "title": "音楽と髭達2026 -TIME MACHINE-",
+      "startDate": "2026-08-29T00:00:00+09:00",
+      "endDate": "2026-08-29T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://otohige.com/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_fes_2026_rijfes",
+      "artistId": "yuuri",
+      "title": "ROCK IN JAPAN FESTIVAL 2026",
+      "startDate": "2026-09-13T00:00:00+09:00",
+      "endDate": "2026-09-13T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://rijfes.jp/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_live_los_angeles_2026",
+      "artistId": "yuuri",
+      "title": "YUURI Live in Los Angeles",
+      "startDate": "2026-09-26T20:00:00+09:00",
+      "endDate": "2026-09-26T20:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/yuri/live/55540",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_live_taipei_2026",
+      "artistId": "yuuri",
+      "title": "YUURI 2026 LIVE IN TAIPEI",
+      "startDate": "2026-10-09T18:00:00+09:00",
+      "endDate": "2026-10-10T18:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/yuri/live/55543",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_yurin_live_2026",
+      "artistId": "yuuri",
+      "title": "YURIN LIVE Vol.4 / Vol.5",
+      "startDate": "2026-10-27T00:00:00+09:00",
+      "endDate": "2026-10-28T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 9500
+        },
+        {
+          "label": "GOLD指定席",
+          "amount": 13000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://yuurinchi.com/contents/1095413",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_live_hong_kong_2026",
+      "artistId": "yuuri",
+      "title": "YUURI 2026 LIVE IN HONG KONG",
+      "startDate": "2026-11-27T20:00:00+09:00",
+      "endDate": "2026-11-27T20:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.yuuriweb.com/live/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_live_seoul_2026",
+      "artistId": "yuuri",
+      "title": "YUURI 2026 LIVE IN SEOUL",
+      "startDate": "2026-12-05T18:00:00+09:00",
+      "endDate": "2026-12-06T18:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.yuuriweb.com/live/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "yuuri_asia_tour_gomen_2026_sendai_0512",
+      "tourId": "yuuri_asia_tour_gomen_2026",
+      "venue": "仙台サンプラザホール",
+      "performanceAt": "2026-05-12T19:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://yuurinchi.com/contents/1047040",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_asia_tour_gomen_2026_aomori_0513",
+      "tourId": "yuuri_asia_tour_gomen_2026",
+      "venue": "リンクステーションホール青森",
+      "performanceAt": "2026-05-13T19:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://yuurinchi.com/contents/1047040",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_asia_tour_gomen_2026_kagawa_1005",
+      "tourId": "yuuri_asia_tour_gomen_2026",
+      "venue": "レクザムホール",
+      "performanceAt": "2026-10-05T19:00:00+09:00",
+      "doorOpenAt": "2026-10-05T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/yuri/info/583830",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_asia_tour_gomen_2026_ehime_1006",
+      "tourId": "yuuri_asia_tour_gomen_2026",
+      "venue": "愛媛県県民文化会館（主ホール）",
+      "performanceAt": "2026-10-06T19:30:00+09:00",
+      "doorOpenAt": "2026-10-06T18:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/yuri/info/583830",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_ichifuji_nikatagi_2026_fujikyu_0905",
+      "tourId": "yuuri_ichifuji_nikatagi_2026",
+      "venue": "富士急ハイランド・コニファーフォレスト",
+      "performanceAt": "2026-09-05T17:30:00+09:00",
+      "doorOpenAt": "2026-09-05T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://yuurinchi.com/contents/1055646",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_ichifuji_nikatagi_2026_fujikyu_0906",
+      "tourId": "yuuri_ichifuji_nikatagi_2026",
+      "venue": "富士急ハイランド・コニファーフォレスト",
+      "performanceAt": "2026-09-06T17:30:00+09:00",
+      "doorOpenAt": "2026-09-06T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://yuurinchi.com/contents/1055646",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_fes_2026_otohige_0829",
+      "tourId": "yuuri_fes_2026_otohige",
+      "venue": "HARD OFF ECO スタジアム新潟",
+      "performanceAt": "2026-08-29T11:00:00+09:00",
+      "doorOpenAt": "2026-08-29T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "音楽と髭達2026 -TIME MACHINE-",
+      "source": "system",
+      "sourceUrl": "https://otohige.com/",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_fes_2026_rijfes_0913",
+      "tourId": "yuuri_fes_2026_rijfes",
+      "venue": "千葉市蘇我スポーツ公園",
+      "performanceAt": "2026-09-13T11:45:00+09:00",
+      "doorOpenAt": "2026-09-13T08:30:00+09:00",
+      "kind": "fes",
+      "eventName": "ROCK IN JAPAN FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://rijfes.jp/2026/home/",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
+    },
+    {
+      "id": "yuuri_live_los_angeles_2026_0926",
+      "tourId": "yuuri_live_los_angeles_2026",
+      "venue": "Los Angeles・The Wiltern",
+      "performanceAt": "2026-09-26T20:00:00+09:00",
+      "doorOpenAt": "2026-09-26T19:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/yuri/live/55540",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_live_taipei_2026_1009",
+      "tourId": "yuuri_live_taipei_2026",
+      "venue": "台北・TAIPEI ARENA",
+      "performanceAt": "2026-10-09T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/yuri/live/55543",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_live_taipei_2026_1010",
+      "tourId": "yuuri_live_taipei_2026",
+      "venue": "台北・TAIPEI ARENA",
+      "performanceAt": "2026-10-10T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/yuri/live/55544",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_yurin_live_2026_osaka_1027",
+      "tourId": "yuuri_yurin_live_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-10-27T19:00:00+09:00",
+      "doorOpenAt": "2026-10-27T18:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "YURIN LIVE Vol.4（GUEST：コブクロ）",
+      "source": "system",
+      "sourceUrl": "https://yuurinchi.com/contents/1095413",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_yurin_live_2026_osaka_1028",
+      "tourId": "yuuri_yurin_live_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-10-28T18:30:00+09:00",
+      "doorOpenAt": "2026-10-28T17:30:00+09:00",
+      "kind": "taiban",
+      "eventName": "YURIN LIVE Vol.5（GUEST：UVERworld）",
+      "source": "system",
+      "sourceUrl": "https://yuurinchi.com/contents/1095413",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_live_hong_kong_2026_1127",
+      "tourId": "yuuri_live_hong_kong_2026",
+      "venue": "AsiaWorld-Expo Hall 10（香港）",
+      "performanceAt": "2026-11-27T20:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.yuuriweb.com/live/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_live_seoul_2026_1205",
+      "tourId": "yuuri_live_seoul_2026",
+      "venue": "INSPIRE ARENA",
+      "performanceAt": "2026-12-05T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.yuuriweb.com/live/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_live_seoul_2026_1206",
+      "tourId": "yuuri_live_seoul_2026",
+      "venue": "INSPIRE ARENA",
+      "performanceAt": "2026-12-06T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.yuuriweb.com/live/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "yuuri_asia_tour_gomen_2026_official_1st",
+      "tourId": "yuuri_asia_tour_gomen_2026",
+      "type": "オフィシャル1次抽選先行",
+      "entryStartAt": "2026-07-06T18:00:00+09:00",
+      "entryEndAt": "2026-07-12T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yuuri_asia_tour_gomen_2026_kagawa_1005",
+        "yuuri_asia_tour_gomen_2026_ehime_1006"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/3413260010",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_asia_tour_gomen_2026_fc_fastest_resale",
+      "tourId": "yuuri_asia_tour_gomen_2026",
+      "type": "ゆーりんち限定最速先行（抽選・再販売）",
+      "entryStartAt": "2026-06-20T18:00:00+09:00",
+      "entryEndAt": "2026-06-30T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yuuri_asia_tour_gomen_2026_kagawa_1005",
+        "yuuri_asia_tour_gomen_2026_ehime_1006"
+      ],
+      "source": "system",
+      "sourceUrl": "https://yuurinchi.com/contents/1083708",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_asia_tour_gomen_2026_fc_first_come",
+      "tourId": "yuuri_asia_tour_gomen_2026",
+      "type": "ゆーりんちの席 先着先行",
+      "entryStartAt": "2026-07-10T20:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yuuri_asia_tour_gomen_2026_kagawa_1005",
+        "yuuri_asia_tour_gomen_2026_ehime_1006"
+      ],
+      "source": "system",
+      "sourceUrl": "https://yuurinchi.com/contents/1090392",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_ichifuji_nikatagi_2026_official_1st",
+      "tourId": "yuuri_ichifuji_nikatagi_2026",
+      "type": "オフィシャル1次抽選先行",
+      "entryStartAt": "2026-03-13T18:00:00+09:00",
+      "entryEndAt": "2026-03-22T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yuuri_ichifuji_nikatagi_2026_fujikyu_0905",
+        "yuuri_ichifuji_nikatagi_2026_fujikyu_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/3413260010",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_ichifuji_nikatagi_2026_fc_fastest",
+      "tourId": "yuuri_ichifuji_nikatagi_2026",
+      "type": "ゆーりんち限定最速先行（抽選）",
+      "entryStartAt": "2026-02-15T20:30:00+09:00",
+      "entryEndAt": "2026-02-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yuuri_ichifuji_nikatagi_2026_fujikyu_0905",
+        "yuuri_ichifuji_nikatagi_2026_fujikyu_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://yuurinchi.com/contents/1047026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_ichifuji_nikatagi_2026_fc_1st",
+      "tourId": "yuuri_ichifuji_nikatagi_2026",
+      "type": "ゆーりんち限定1次先行（抽選）",
+      "entryStartAt": "2026-02-27T18:00:00+09:00",
+      "entryEndAt": "2026-03-08T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yuuri_ichifuji_nikatagi_2026_fujikyu_0905",
+        "yuuri_ichifuji_nikatagi_2026_fujikyu_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://yuurinchi.com/contents/1051116",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_ichifuji_nikatagi_2026_fc_first_come",
+      "tourId": "yuuri_ichifuji_nikatagi_2026",
+      "type": "ゆーりんちの席 先着先行",
+      "entryStartAt": "2026-03-17T18:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yuuri_ichifuji_nikatagi_2026_fujikyu_0905",
+        "yuuri_ichifuji_nikatagi_2026_fujikyu_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://yuurinchi.com/contents/1055646",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_ichifuji_nikatagi_2026_official_2nd",
+      "tourId": "yuuri_ichifuji_nikatagi_2026",
+      "type": "オフィシャル2次抽選先行",
+      "entryStartAt": "2026-03-27T18:00:00+09:00",
+      "entryEndAt": "2026-04-05T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yuuri_ichifuji_nikatagi_2026_fujikyu_0905",
+        "yuuri_ichifuji_nikatagi_2026_fujikyu_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/3413260010",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_ichifuji_nikatagi_2026_official_early",
+      "tourId": "yuuri_ichifuji_nikatagi_2026",
+      "type": "オフィシャル先着先行",
+      "entryStartAt": "2026-04-14T18:00:00+09:00",
+      "entryEndAt": "2026-05-10T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yuuri_ichifuji_nikatagi_2026_fujikyu_0905",
+        "yuuri_ichifuji_nikatagi_2026_fujikyu_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/3413260010",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_ichifuji_nikatagi_2026_general_0905",
+      "tourId": "yuuri_ichifuji_nikatagi_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-05-16T10:00:00+09:00",
+      "entryEndAt": "2026-09-04T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yuuri_ichifuji_nikatagi_2026_fujikyu_0905"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/3413260010",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_ichifuji_nikatagi_2026_general_0906",
+      "tourId": "yuuri_ichifuji_nikatagi_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-05-16T10:00:00+09:00",
+      "entryEndAt": "2026-09-05T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yuuri_ichifuji_nikatagi_2026_fujikyu_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/3413260010",
+      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_yurin_live_2026_fc_fastest",
+      "tourId": "yuuri_yurin_live_2026",
+      "type": "ゆーりんち限定最速先行（抽選）",
+      "entryStartAt": "2026-07-25T21:00:00+09:00",
+      "entryEndAt": "2026-08-02T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yuuri_yurin_live_2026_osaka_1027",
+        "yuuri_yurin_live_2026_osaka_1028"
+      ],
+      "source": "system",
+      "sourceUrl": "https://yuurinchi.com/contents/1095413",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_live_hong_kong_2026_general",
+      "tourId": "yuuri_live_hong_kong_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-08-07T13:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yuuri_live_hong_kong_2026_1127"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kktix.com/events/yuurihk2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_live_seoul_2026_general",
+      "tourId": "yuuri_live_seoul_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-07-31T20:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yuuri_live_seoul_2026_1205",
+        "yuuri_live_seoul_2026_1206"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tickets.interpark.com/goods/26010352",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1534620183",
+      "title": "ドライフラワー",
+      "albumTitle": "ドライフラワー - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/4d/89/14/4d891482-4432-5218-7883-f08f63d75ecd/mzaf_2147418082626526548.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/d2/23/07/d2230757-3f9c-fccd-3cc8-333f7be09716/4547366478655.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1589915077",
+      "title": "ベテルギウス",
+      "albumTitle": "ベテルギウス - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9e/9e/b1/9e9eb115-0a62-6902-9856-5797d36a03ab/mzaf_18441772829729674390.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f1/d5/61/f1d561dc-7fab-68fa-39ac-4440d7a27940/4547366533842.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1599543187",
+      "title": "レオ",
+      "albumTitle": "壱",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/be/6d/b1/be6db110-416a-6947-7bb2-1351db2cd6f3/mzaf_6265357837507841927.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d9/de/51/d9de5146-6d3a-2002-bc8f-77e2e47c1c3b/4547366544138.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

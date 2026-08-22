@@ -1,0 +1,30 @@
+{
+  "artistId": "seventeen",
+  "tours": [],
+  "performances": [],
+  "lotteries": [],
+  "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+  "appleMusicTracks": [
+    {
+      "songId": "1130828898",
+      "title": "VERY NICE",
+      "albumTitle": "Love&Letter",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9a/e9/7a/9ae97a20-1d23-7e32-6250-348bc30c24a5/mzaf_10622828300910556042.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/32/cb/c4/32cbc434-82b9-6b8e-8cc8-752b554b49f9/cover-.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1683126583",
+      "title": "Super",
+      "albumTitle": "SEVENTEEN 10th Mini Album ‘FML’ - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bc/8e/e5/bc8ee5ce-cf5c-2363-a64e-3b11b59cb0c9/mzaf_10781205768861915482.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fb/a4/1f/fba41f0d-520e-f5ed-5c11-fc9790a27eee/23UMGIM40593.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1847812223",
+      "title": "THUNDER",
+      "albumTitle": "SEVENTEEN 5th Album ‘HAPPY BURSTDAY’",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d7/21/90/d72190ad-b411-447c-9492-12492921198c/mzaf_11815653564240248528.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/df/db/bd/dfdbbdad-df69-40ea-6654-93f99f3145ec/25UM1IM67439.rgb.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

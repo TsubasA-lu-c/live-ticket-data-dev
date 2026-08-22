@@ -1,0 +1,459 @@
+{
+  "artistId": "back_number",
+  "tours": [
+    {
+      "id": "back_number_grateful_yesterdays_2026",
+      "artistId": "back_number",
+      "title": "back number \"Grateful Yesterdays Tour 2026\"",
+      "startDate": "2026-05-02T00:00:00+09:00",
+      "endDate": "2026-09-27T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 12800
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://backnumber.info/feature/stadiumtour2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "back_number_grateful_yesterdays_2026_miyagi_0502",
+      "tourId": "back_number_grateful_yesterdays_2026",
+      "venue": "キューアンドエースタジアムみやぎ",
+      "performanceAt": "2026-05-02T17:00:00+09:00",
+      "doorOpenAt": "2026-05-02T14:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://backnumber.info/feature/stadiumtour2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "back_number_grateful_yesterdays_2026_shizuoka_0516",
+      "tourId": "back_number_grateful_yesterdays_2026",
+      "venue": "エコパスタジアム",
+      "performanceAt": "2026-05-16T17:00:00+09:00",
+      "doorOpenAt": "2026-05-16T14:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://backnumber.info/feature/stadiumtour2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "back_number_grateful_yesterdays_2026_shizuoka_0517",
+      "tourId": "back_number_grateful_yesterdays_2026",
+      "venue": "エコパスタジアム",
+      "performanceAt": "2026-05-17T17:00:00+09:00",
+      "doorOpenAt": "2026-05-17T14:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://backnumber.info/feature/stadiumtour2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "back_number_grateful_yesterdays_2026_osaka_0523",
+      "tourId": "back_number_grateful_yesterdays_2026",
+      "venue": "ヤンマースタジアム長居",
+      "performanceAt": "2026-05-23T17:30:00+09:00",
+      "doorOpenAt": "2026-05-23T15:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://backnumber.info/feature/stadiumtour2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "back_number_grateful_yesterdays_2026_osaka_0524",
+      "tourId": "back_number_grateful_yesterdays_2026",
+      "venue": "ヤンマースタジアム長居",
+      "performanceAt": "2026-05-24T17:30:00+09:00",
+      "doorOpenAt": "2026-05-24T15:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://backnumber.info/feature/stadiumtour2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "back_number_grateful_yesterdays_2026_kanagawa_0613",
+      "tourId": "back_number_grateful_yesterdays_2026",
+      "venue": "日産スタジアム",
+      "performanceAt": "2026-06-13T17:30:00+09:00",
+      "doorOpenAt": "2026-06-13T15:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://backnumber.info/feature/stadiumtour2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "back_number_grateful_yesterdays_2026_kanagawa_0614",
+      "tourId": "back_number_grateful_yesterdays_2026",
+      "venue": "日産スタジアム",
+      "performanceAt": "2026-06-14T17:30:00+09:00",
+      "doorOpenAt": "2026-06-14T15:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://backnumber.info/feature/stadiumtour2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "back_number_grateful_yesterdays_2026_kumamoto_0627",
+      "tourId": "back_number_grateful_yesterdays_2026",
+      "venue": "熊本えがお健康スタジアム",
+      "performanceAt": "2026-06-27T17:00:00+09:00",
+      "doorOpenAt": "2026-06-27T14:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://backnumber.info/feature/stadiumtour2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "back_number_grateful_yesterdays_2026_kumamoto_0628",
+      "tourId": "back_number_grateful_yesterdays_2026",
+      "venue": "熊本えがお健康スタジアム",
+      "performanceAt": "2026-06-28T17:00:00+09:00",
+      "doorOpenAt": "2026-06-28T14:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://backnumber.info/feature/stadiumtour2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "back_number_grateful_yesterdays_2026_taipei_0822",
+      "tourId": "back_number_grateful_yesterdays_2026",
+      "venue": "台北アリーナ",
+      "performanceAt": "2026-08-22T18:00:00+09:00",
+      "doorOpenAt": "2026-08-22T16:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://backnumber.info/feature/stadiumtour2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "back_number_grateful_yesterdays_2026_taipei_0823",
+      "tourId": "back_number_grateful_yesterdays_2026",
+      "venue": "台北アリーナ",
+      "performanceAt": "2026-08-23T18:00:00+09:00",
+      "doorOpenAt": "2026-08-23T16:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://backnumber.info/feature/stadiumtour2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "back_number_grateful_yesterdays_2026_seoul_0912",
+      "tourId": "back_number_grateful_yesterdays_2026",
+      "venue": "KINTEX ホール9（ソウル）",
+      "performanceAt": "2026-09-12T18:00:00+09:00",
+      "doorOpenAt": "2026-09-12T16:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://backnumber.info/feature/stadiumtour2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "back_number_grateful_yesterdays_2026_seoul_0913",
+      "tourId": "back_number_grateful_yesterdays_2026",
+      "venue": "KINTEX ホール9（ソウル）",
+      "performanceAt": "2026-09-13T18:00:00+09:00",
+      "doorOpenAt": "2026-09-13T16:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://backnumber.info/feature/stadiumtour2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "back_number_grateful_yesterdays_2026_hongkong_0926",
+      "tourId": "back_number_grateful_yesterdays_2026",
+      "venue": "AsiaWorld-Expo Hall 10（香港）",
+      "performanceAt": "2026-09-26T18:00:00+09:00",
+      "doorOpenAt": "2026-09-26T16:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://backnumber.info/feature/stadiumtour2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "back_number_grateful_yesterdays_2026_hongkong_0927",
+      "tourId": "back_number_grateful_yesterdays_2026",
+      "venue": "AsiaWorld-Expo Hall 10（香港）",
+      "performanceAt": "2026-09-27T18:00:00+09:00",
+      "doorOpenAt": "2026-09-27T16:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://backnumber.info/feature/stadiumtour2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kind": "oneman"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "back_number_grateful_yesterdays_2026_oneroom_1st",
+      "tourId": "back_number_grateful_yesterdays_2026",
+      "type": "one room会員 最速先行",
+      "entryStartAt": "2025-11-14T12:00:00+09:00",
+      "entryEndAt": "2025-11-25T18:59:00+09:00",
+      "resultAt": "2025-12-05T15:00:00+09:00",
+      "paymentStartAt": "2025-12-05T15:00:00+09:00",
+      "paymentEndAt": "2025-12-08T23:00:00+09:00",
+      "performanceIds": [
+        "back_number_grateful_yesterdays_2026_kumamoto_0627",
+        "back_number_grateful_yesterdays_2026_kumamoto_0628"
+      ],
+      "source": "system",
+      "sourceUrl": "https://backnumber.info/feature/stadiumtour2026_ticket",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "back_number_grateful_yesterdays_2026_oneroom_2nd",
+      "tourId": "back_number_grateful_yesterdays_2026",
+      "type": "one room会員 2次先行",
+      "entryStartAt": "2025-12-05T18:00:00+09:00",
+      "entryEndAt": "2025-12-15T18:59:00+09:00",
+      "resultAt": "2025-12-25T15:00:00+09:00",
+      "paymentStartAt": "2025-12-25T15:00:00+09:00",
+      "paymentEndAt": "2025-12-28T23:00:00+09:00",
+      "performanceIds": [
+        "back_number_grateful_yesterdays_2026_kumamoto_0627",
+        "back_number_grateful_yesterdays_2026_kumamoto_0628"
+      ],
+      "source": "system",
+      "sourceUrl": "https://backnumber.info/feature/stadiumtour2026_ticket",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "back_number_grateful_yesterdays_2026_official_hp",
+      "tourId": "back_number_grateful_yesterdays_2026",
+      "type": "オフィシャルHP先行",
+      "entryStartAt": "2025-12-22T12:00:00+09:00",
+      "entryEndAt": "2026-01-06T18:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "back_number_grateful_yesterdays_2026_kumamoto_0627",
+        "back_number_grateful_yesterdays_2026_kumamoto_0628"
+      ],
+      "source": "system",
+      "sourceUrl": "https://backnumber.info/feature/stadiumtour2026_ticket",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "back_number_grateful_yesterdays_2026_ponta",
+      "tourId": "back_number_grateful_yesterdays_2026",
+      "type": "Pontaパス会員先行",
+      "entryStartAt": "2026-01-22T12:00:00+09:00",
+      "entryEndAt": "2026-01-31T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "back_number_grateful_yesterdays_2026_kumamoto_0627",
+        "back_number_grateful_yesterdays_2026_kumamoto_0628"
+      ],
+      "source": "system",
+      "sourceUrl": "https://backnumber.info/feature/stadiumtour2026_ticket",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "back_number_grateful_yesterdays_2026_lencore",
+      "tourId": "back_number_grateful_yesterdays_2026",
+      "type": "LEncore/Lawson HMVプレミアム先行",
+      "entryStartAt": "2026-01-30T12:00:00+09:00",
+      "entryEndAt": "2026-02-08T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "back_number_grateful_yesterdays_2026_kumamoto_0627",
+        "back_number_grateful_yesterdays_2026_kumamoto_0628"
+      ],
+      "source": "system",
+      "sourceUrl": "https://backnumber.info/feature/stadiumtour2026_ticket",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "back_number_grateful_yesterdays_2026_prerequest_1st",
+      "tourId": "back_number_grateful_yesterdays_2026",
+      "type": "プレリクエスト先行",
+      "entryStartAt": "2026-01-31T12:00:00+09:00",
+      "entryEndAt": "2026-02-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "back_number_grateful_yesterdays_2026_kumamoto_0627",
+        "back_number_grateful_yesterdays_2026_kumamoto_0628"
+      ],
+      "source": "system",
+      "sourceUrl": "https://backnumber.info/feature/stadiumtour2026_ticket",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "back_number_grateful_yesterdays_2026_prerequest_2nd",
+      "tourId": "back_number_grateful_yesterdays_2026",
+      "type": "プレリクエスト2次先行",
+      "entryStartAt": "2026-02-17T12:00:00+09:00",
+      "entryEndAt": "2026-03-01T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "back_number_grateful_yesterdays_2026_kumamoto_0627",
+        "back_number_grateful_yesterdays_2026_kumamoto_0628"
+      ],
+      "source": "system",
+      "sourceUrl": "https://backnumber.info/feature/stadiumtour2026_ticket",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "back_number_grateful_yesterdays_2026_overseas_oneroom_1st",
+      "tourId": "back_number_grateful_yesterdays_2026",
+      "type": "海外公演 one room会員 最速先行",
+      "entryStartAt": "2026-03-16T19:00:00+09:00",
+      "entryEndAt": "2026-03-23T18:59:00+09:00",
+      "resultAt": "2026-04-03T15:00:00+09:00",
+      "paymentStartAt": "2026-04-03T15:00:00+09:00",
+      "paymentEndAt": "2026-04-06T23:00:00+09:00",
+      "performanceIds": [
+        "back_number_grateful_yesterdays_2026_taipei_0822",
+        "back_number_grateful_yesterdays_2026_taipei_0823",
+        "back_number_grateful_yesterdays_2026_seoul_0912",
+        "back_number_grateful_yesterdays_2026_seoul_0913",
+        "back_number_grateful_yesterdays_2026_hongkong_0926",
+        "back_number_grateful_yesterdays_2026_hongkong_0927"
+      ],
+      "source": "system",
+      "sourceUrl": "https://backnumber.info/feature/stadiumtour2026_ticket",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "back_number_grateful_yesterdays_2026_overseas_oneroom_2nd",
+      "tourId": "back_number_grateful_yesterdays_2026",
+      "type": "海外公演 one room会員 2次先行",
+      "entryStartAt": "2026-03-24T12:00:00+09:00",
+      "entryEndAt": "2026-03-31T18:59:00+09:00",
+      "resultAt": "2026-04-10T15:00:00+09:00",
+      "paymentStartAt": "2026-04-10T15:00:00+09:00",
+      "paymentEndAt": "2026-04-13T23:00:00+09:00",
+      "performanceIds": [
+        "back_number_grateful_yesterdays_2026_taipei_0822",
+        "back_number_grateful_yesterdays_2026_taipei_0823",
+        "back_number_grateful_yesterdays_2026_seoul_0912",
+        "back_number_grateful_yesterdays_2026_seoul_0913",
+        "back_number_grateful_yesterdays_2026_hongkong_0926",
+        "back_number_grateful_yesterdays_2026_hongkong_0927"
+      ],
+      "source": "system",
+      "sourceUrl": "https://backnumber.info/feature/stadiumtour2026_ticket",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "back_number_grateful_yesterdays_2026_taipei_local_lottery",
+      "tourId": "back_number_grateful_yesterdays_2026",
+      "type": "台北公演 現地登記抽選",
+      "entryStartAt": "2026-04-20T14:00:00+09:00",
+      "entryEndAt": "2026-04-22T14:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "back_number_grateful_yesterdays_2026_taipei_0822",
+        "back_number_grateful_yesterdays_2026_taipei_0823"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ticketplus.com.tw/activity/255cce9d593d4a27db01f64072f4b94c",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "back_number_grateful_yesterdays_2026_seoul_general",
+      "tourId": "back_number_grateful_yesterdays_2026",
+      "type": "ソウル公演 一般販売（先着）",
+      "entryStartAt": "2026-04-22T19:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "back_number_grateful_yesterdays_2026_seoul_0912",
+        "back_number_grateful_yesterdays_2026_seoul_0913"
+      ],
+      "source": "system",
+      "sourceUrl": "https://m.ticket.yes24.com/Notice/Detail.aspx?bid=17720",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "back_number_grateful_yesterdays_2026_hongkong_general",
+      "tourId": "back_number_grateful_yesterdays_2026",
+      "type": "香港公演 現地一般販売（先着）",
+      "entryStartAt": "2026-05-21T13:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "back_number_grateful_yesterdays_2026_hongkong_0926",
+        "back_number_grateful_yesterdays_2026_hongkong_0927"
+      ],
+      "source": "system",
+      "sourceUrl": "https://backnumber.info/special_site/stadiumtour2026/detail/329",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "back_number_grateful_yesterdays_2026_kumamoto_same_day_ticket",
+      "tourId": "back_number_grateful_yesterdays_2026",
+      "type": "熊本公演 当日引き換えチケット受付（抽選制）",
+      "entryStartAt": "2026-06-22T12:00:00+09:00",
+      "entryEndAt": "2026-06-24T23:59:00+09:00",
+      "resultAt": "2026-06-26T21:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "back_number_grateful_yesterdays_2026_kumamoto_0627",
+        "back_number_grateful_yesterdays_2026_kumamoto_0628"
+      ],
+      "source": "system",
+      "sourceUrl": "https://backnumber.info/feature/stadiumtour2026_ticket",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "back_number_grateful_yesterdays_2026_taipei_additional_sale",
+      "tourId": "back_number_grateful_yesterdays_2026",
+      "type": "台北公演 追加販売（先着）",
+      "entryStartAt": "2026-08-08T13:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "back_number_grateful_yesterdays_2026_taipei_0822",
+        "back_number_grateful_yesterdays_2026_taipei_0823"
+      ],
+      "source": "system",
+      "sourceUrl": "https://backnumber.info/special_site/stadiumtour2026/detail/348?lang=en",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1451570480",
+      "title": "花束",
+      "albumTitle": "スーパースター",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4d/97/be/4d97be57-d708-f0bd-1a72-d6e9d4d6b14d/mzaf_3711077821378723190.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/26/b6/e7/26b6e7e2-1cbb-4dde-edfb-e44e1f881cbd/00602577303739.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1451567963",
+      "title": "高嶺の花子さん",
+      "albumTitle": "ラブストーリー",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/d5/54/24/d55424ab-332e-e547-1ea6-e36953de09b7/mzaf_2436008912610874847.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ad/35/1f/ad351f01-3b1e-e723-77db-3a7d88221e5e/00602577303753.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1451567751",
+      "title": "ハッピーエンド",
+      "albumTitle": "ハッピーエンド - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/80/31/52/803152f1-bea9-a571-969f-71fcf60bb934/mzaf_3602917750966027521.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d9/55/96/d955961f-f9f7-4aa9-720f-36ddc0c46d0c/00602577303951.rgb.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

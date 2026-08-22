@@ -1,0 +1,167 @@
+{
+  "artistId": "sky_hi",
+  "tours": [
+    {
+      "id": "sky_hi_fes_bmsg_fes_2026",
+      "artistId": "sky_hi",
+      "title": "BMSG FES’26",
+      "startDate": "2026-10-10T00:00:00+09:00",
+      "endDate": "2026-10-12T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "SS指定席（特典付きプレミアム席）",
+          "amount": 30000
+        },
+        {
+          "label": "S指定席（特典付きプレミアム席）",
+          "amount": 25000
+        },
+        {
+          "label": "一般指定席",
+          "amount": 20000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://bmsgfes.tokyo/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_event_2026_toyosu_pit",
+      "artistId": "sky_hi",
+      "title": "SKY-HI単独豊洲PIT公演 3DAYS",
+      "startDate": "2026-12-11T00:00:00+09:00",
+      "endDate": "2026-12-13T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/news/2086",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "sky_hi_fes_bmsg_fes_2026_odaiba_1010",
+      "tourId": "sky_hi_fes_bmsg_fes_2026",
+      "venue": "お台場BMSG FES特設会場",
+      "performanceAt": "2026-10-10T15:00:00+09:00",
+      "doorOpenAt": "2026-10-10T13:00:00+09:00",
+      "kind": "fes",
+      "eventName": "BMSG FES’26",
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/live/2026/2112",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_fes_bmsg_fes_2026_odaiba_1011",
+      "tourId": "sky_hi_fes_bmsg_fes_2026",
+      "venue": "お台場BMSG FES特設会場",
+      "performanceAt": "2026-10-11T15:00:00+09:00",
+      "doorOpenAt": "2026-10-11T13:00:00+09:00",
+      "kind": "fes",
+      "eventName": "BMSG FES’26",
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/live/2026/2112",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_fes_bmsg_fes_2026_odaiba_1012",
+      "tourId": "sky_hi_fes_bmsg_fes_2026",
+      "venue": "お台場BMSG FES特設会場",
+      "performanceAt": "2026-10-12T15:00:00+09:00",
+      "doorOpenAt": "2026-10-12T13:00:00+09:00",
+      "kind": "fes",
+      "eventName": "BMSG FES’26",
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/live/2026/2112",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_event_2026_toyosu_pit_toyosu_1211",
+      "tourId": "sky_hi_event_2026_toyosu_pit",
+      "venue": "豊洲PIT",
+      "performanceAt": "2026-12-11T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SKY-HI単独豊洲PIT公演 3DAYS",
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/news/2086",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_event_2026_toyosu_pit_toyosu_1212",
+      "tourId": "sky_hi_event_2026_toyosu_pit",
+      "venue": "豊洲PIT",
+      "performanceAt": "2026-12-12T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SKY-HI単独豊洲PIT公演 3DAYS",
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/news/2086",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_event_2026_toyosu_pit_toyosu_1213",
+      "tourId": "sky_hi_event_2026_toyosu_pit",
+      "venue": "豊洲PIT",
+      "performanceAt": "2026-12-13T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SKY-HI単独豊洲PIT公演 3DAYS",
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/news/2086",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "sky_hi_fes_bmsg_fes_2026_btown_architect",
+      "tourId": "sky_hi_fes_bmsg_fes_2026",
+      "type": "B-Town〈Architect〉会員先行",
+      "entryStartAt": "2026-07-01T18:00:00+09:00",
+      "entryEndAt": "2026-07-08T23:59:00+09:00",
+      "resultAt": "2026-07-15T17:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://bmsgfes.tokyo/news/260629",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_fes_bmsg_fes_2026_flyers_resident",
+      "tourId": "sky_hi_fes_bmsg_fes_2026",
+      "type": "FC・B-Town〈Resident〉会員先行",
+      "entryStartAt": "2026-07-15T18:00:00+09:00",
+      "entryEndAt": "2026-07-20T23:59:00+09:00",
+      "resultAt": "2026-08-01T17:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://bmsgfes.tokyo/news/260715",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1833874850",
+      "title": "GRAND CHAMP (feat. Novel Core, BE:FIRST, Aile The Shota, edhiii boi, MAZZEL, REIKO, RUI, TAIKI & KANON)",
+      "albumTitle": "GRAND CHAMP (feat. Novel Core, BE:FIRST, Aile The Shota, edhiii boi, MAZZEL, REIKO, RUI, TAIKI & KANON) - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4e/07/30/4e0730b6-e729-fba4-dbce-3b598f5ea6c7/mzaf_4741720106799270281.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c9/76/f9/c976f971-87de-52be-aa48-085bcf0f39da/ANTCD-68669.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "6778765231",
+      "title": "Standing Here (feat. SKY-HI, SOTA, JUNON, RYUHEI & ADAM)",
+      "albumTitle": "Standing Here (feat. SKY-HI, SOTA, JUNON, RYUHEI & ADAM) - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/67/cd/e9/67cde95a-a9bc-e834-6d11-9334b4270e52/mzaf_10260371199274263528.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4b/d9/a8/4bd9a88d-e712-4ca4-3299-a4f4b2fd896a/ANTCD-74078.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1861425273",
+      "title": "GRAND CHAMP (Live from BMSG FES'25) [feat. BE:FIRST, Aile The Shota, MAZZEL, REIKO & STARGLOW]",
+      "albumTitle": "GRAND CHAMP (Live from BMSG FES'25) [feat. BE:FIRST, Aile The Shota, MAZZEL, REIKO & STARGLOW] - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bc/0c/15/bc0c15c5-195a-baff-dc1c-73966a06fdf6/mzaf_9397660653105773297.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d2/1a/3d/d21a3d3e-ba08-8bc3-d4a8-e5891d895cef/ANTCD-71079.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

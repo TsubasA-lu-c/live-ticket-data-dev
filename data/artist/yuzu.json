@@ -1,0 +1,174 @@
+{
+  "artistId": "yuzu",
+  "tours": [
+    {
+      "id": "yuzu_30th_kokoro_2026",
+      "artistId": "yuzu",
+      "title": "ゆず 30周年開幕記念ライブ 心をとめないで",
+      "startDate": "2026-10-23T00:00:00+09:00",
+      "endDate": "2026-10-25T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "YZ席",
+          "amount": 21800
+        },
+        {
+          "label": "着席指定席",
+          "amount": 15800
+        },
+        {
+          "label": "指定席",
+          "amount": 12800
+        },
+        {
+          "label": "車椅子席",
+          "amount": 12800
+        },
+        {
+          "label": "親子席",
+          "amount": 9900
+        },
+        {
+          "label": "U-18席",
+          "amount": 7700
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://yuzu-official.com/pages/30th_opening_ceremony/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "yuzu_30th_kokoro_2026_karena_1023",
+      "tourId": "yuzu_30th_kokoro_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-10-23T18:00:00+09:00",
+      "doorOpenAt": "2026-10-23T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "ゆず 30周年開幕記念ライブ 心をとめないで",
+      "source": "system",
+      "sourceUrl": "https://yuzu-official.com/pages/30th_opening_ceremony/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yuzu_30th_kokoro_2026_karena_1024",
+      "tourId": "yuzu_30th_kokoro_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-10-24T16:30:00+09:00",
+      "doorOpenAt": "2026-10-24T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "ゆず 30周年開幕記念ライブ 心をとめないで",
+      "source": "system",
+      "sourceUrl": "https://yuzu-official.com/pages/30th_opening_ceremony/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yuzu_30th_kokoro_2026_karena_1025",
+      "tourId": "yuzu_30th_kokoro_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-10-25T16:30:00+09:00",
+      "doorOpenAt": "2026-10-25T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "ゆず 30周年開幕記念ライブ 心をとめないで",
+      "source": "system",
+      "sourceUrl": "https://yuzu-official.com/pages/30th_opening_ceremony/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "yuzu_30th_kokoro_2026_fc",
+      "tourId": "yuzu_30th_kokoro_2026",
+      "type": "FC先行（ゆずの輪）",
+      "entryStartAt": "2026-06-06T19:00:00+09:00",
+      "entryEndAt": "2026-06-16T23:59:00+09:00",
+      "resultAt": "2026-06-23T12:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-06-28T23:59:00+09:00",
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://yuzu-official.com/pages/30th_opening_ceremony/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yuzu_30th_kokoro_2026_official",
+      "tourId": "yuzu_30th_kokoro_2026",
+      "type": "オフィシャル先行",
+      "entryStartAt": "2026-07-07T15:00:00+09:00",
+      "entryEndAt": "2026-07-13T23:59:00+09:00",
+      "resultAt": "2026-07-18T12:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://yuzu-official.com/pages/30th_opening_ceremony/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yuzu_30th_kokoro_2026_pia",
+      "tourId": "yuzu_30th_kokoro_2026",
+      "type": "ぴあプレリザーブ",
+      "entryStartAt": "2026-07-14T15:00:00+09:00",
+      "entryEndAt": "2026-07-20T23:59:00+09:00",
+      "resultAt": "2026-07-24T12:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-07-28T23:59:00+09:00",
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://yuzu-official.com/pages/30th_opening_ceremony/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yuzu_30th_kokoro_2026_pia_2",
+      "tourId": "yuzu_30th_kokoro_2026",
+      "type": "ぴあプレリザーブ2次",
+      "entryStartAt": "2026-07-21T15:00:00+09:00",
+      "entryEndAt": "2026-07-28T23:59:00+09:00",
+      "resultAt": "2026-08-01T12:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://yuzu-official.com/pages/30th_opening_ceremony/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yuzu_30th_kokoro_2026_official_fcfs",
+      "tourId": "yuzu_30th_kokoro_2026",
+      "type": "オフィシャル先着販売",
+      "entryStartAt": "2026-08-04T18:00:00+09:00",
+      "entryEndAt": "2026-09-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://yuzu-official.com/pages/30th_opening_ceremony/",
+      "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "422250979",
+      "title": "夏色",
+      "albumTitle": "ゆず一家",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4e/41/f7/4e41f7b3-cad3-7a8d-7651-b5bed20907bc/mzaf_504783598382588004.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b5/5f/90/b55f90b8-ab04-5706-4351-ff08766c27cc/mzi.lagpuavg.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "767050885",
+      "title": "表裏一体",
+      "albumTitle": "表裏一体 (HUNTER×HUNTER Ver.) - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/50/ec/d1/50ecd186-f5f2-934f-0c2d-2d0e9be5b22d/mzaf_1929009312771803554.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/88/fb/6c/88fb6c1d-8784-e8eb-c299-cd3fd8e00ca0/SNCC89931.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "424185595",
+      "title": "栄光の架橋",
+      "albumTitle": "栄光の架橋 - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/45/4e/8c/454e8c77-8314-8f35-4c32-64b6f72930fe/mzaf_7942785567814610317.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/24/05/c4/mzi.wyjzyljh.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "artistId": "babymetal",
+  "tours": [
+    {
+      "id": "babymetal_cannonball_gaiden_2026",
+      "artistId": "babymetal",
+      "title": "CANNONBALL 外伝",
+      "startDate": "2026-08-09T00:00:00+09:00",
+      "endDate": "2026-08-11T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "アリーナスタンディング",
+          "amount": 9900
+        },
+        {
+          "label": "指定席",
+          "amount": 10900
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://cannonball-live.jp/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "babymetal_luckyfes_2026",
+      "artistId": "babymetal",
+      "title": "LuckyFes'26",
+      "startDate": "2026-08-08T00:00:00+09:00",
+      "endDate": "2026-08-11T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1日券",
+          "amount": 14000
+        },
+        {
+          "label": "3日通し券",
+          "amount": 28000
+        },
+        {
+          "label": "4日通し券",
+          "amount": 38000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://gekirock.com/news/2026/03/luckyfes26_1st_lineup.php",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "babymetal_summer_sonic_2026",
+      "artistId": "babymetal",
+      "title": "SUMMER SONIC 2026",
+      "startDate": "2026-08-14T00:00:00+09:00",
+      "endDate": "2026-08-16T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.summersonic.com/tickets/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "babymetal_cannonball_gaiden_2026_tokyo_0810",
+      "tourId": "babymetal_cannonball_gaiden_2026",
+      "venue": "有明アリーナ",
+      "performanceAt": "2026-08-10T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "CANNONBALL 外伝",
+      "source": "system",
+      "sourceUrl": "https://cannonball-live.jp/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "babymetal_luckyfes_2026_ibaraki_0809",
+      "tourId": "babymetal_luckyfes_2026",
+      "venue": "国営ひたち海浜公園",
+      "performanceAt": "2026-08-09T10:00:00+09:00",
+      "doorOpenAt": "2026-08-09T08:00:00+09:00",
+      "kind": "fes",
+      "eventName": "LuckyFes'26",
+      "source": "system",
+      "sourceUrl": "https://babymetal.com/mob/news/diarKijiShw.php?site=TO&id=302088&lang=ja",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "babymetal_summer_sonic_2026_osaka_0814",
+      "tourId": "babymetal_summer_sonic_2026",
+      "venue": "万博記念公園",
+      "performanceAt": "2026-08-14T11:00:00+09:00",
+      "doorOpenAt": "2026-08-14T10:00:00+09:00",
+      "kind": "fes",
+      "eventName": "SUMMER SONIC 2026",
+      "source": "system",
+      "sourceUrl": "https://babymetal.com/mob/news/diarKijiShw.php?site=TO&id=301498&lang=ja",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "babymetal_summer_sonic_2026_tokyo_0816",
+      "tourId": "babymetal_summer_sonic_2026",
+      "venue": "ZOZOMARINE STADIUM & MAKUHARI MESSE",
+      "performanceAt": "2026-08-16T11:00:00+09:00",
+      "doorOpenAt": "2026-08-16T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "SUMMER SONIC 2026",
+      "source": "system",
+      "sourceUrl": "https://babymetal.com/mob/news/diarKijiShw.php?site=TO&id=301498&lang=ja",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "babymetal_luckyfes_2026_first_lottery",
+      "tourId": "babymetal_luckyfes_2026",
+      "type": "1次抽選",
+      "entryStartAt": "2026-03-10T12:00:00+09:00",
+      "entryEndAt": "2026-03-31T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://gekirock.com/news/2026/03/luckyfes26_1st_lineup.php",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "babymetal_cannonball_gaiden_2026_general",
+      "tourId": "babymetal_cannonball_gaiden_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-06-27T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://cannonball-live.jp/tickets",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "babymetal_summer_sonic_2026_general",
+      "tourId": "babymetal_summer_sonic_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-05-30T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://www.summersonic.com/tickets/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1866806793",
+      "title": "かすかなはな - Kasuka na Hana (OP Theme to Hell's Paradise: Jigokuraku Season 2) [feat. BABYMETAL]",
+      "albumTitle": "かすかなはな - Kasuka na Hana (OP Theme to Hell's Paradise: Jigokuraku Season 2) [feat. BABYMETAL] - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/46/e8/75/46e8757c-303e-fe3f-5f4e-c363af407948/mzaf_15582102057544366427.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fa/05/08/fa050837-69b7-c0c2-8a9d-cdb8e6b824f1/4547366794205.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1746116468",
+      "title": "RATATATA",
+      "albumTitle": "RATATATA - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/79/bf/1f/79bf1fed-37eb-52d8-60d5-4daf073cbed1/mzaf_7171997289028067923.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ee/c1/69/eec16961-2264-c812-c2b2-f8944e36ba38/196872114690.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "814314114",
+      "title": "ギミチョコ!!",
+      "albumTitle": "BABYMETAL",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/03/27/ad/0327ada0-22b6-ce4a-b4a3-255fb4561f32/mzaf_12781772317870969662.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e8/f6/a5/e8f6a58c-40ed-34df-d4ee-242e533955f9/BABYMETAL.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "artistId": "imp",
+  "tours": [
+    {
+      "id": "imp_fes_rock_in_japan_2026",
+      "artistId": "imp",
+      "title": "ROCK IN JAPAN FESTIVAL 2026",
+      "startDate": "2026-09-13T00:00:00+09:00",
+      "endDate": "2026-09-13T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://rijfes.jp/2026/home/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "imp_fes_rock_in_japan_2026_chiba_0913",
+      "tourId": "imp_fes_rock_in_japan_2026",
+      "venue": "千葉市蘇我スポーツ公園",
+      "performanceAt": "2026-09-13T18:00:00+09:00",
+      "doorOpenAt": "2026-09-13T08:30:00+09:00",
+      "kind": "fes",
+      "eventName": "ROCK IN JAPAN FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://rijfes.jp/2026/artist/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [],
+  "appleMusicTracks": [
+    {
+      "songId": "1878296127",
+      "title": "INVADER",
+      "albumTitle": "INVADER (Special Edition) - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ba/11/cb/ba11cb11-8476-5c33-9b24-78a81f041585/mzaf_10425485515953561291.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6e/cf/f0/6ecff05e-2364-c478-a9a0-1f594bc01e9d/4570199893517.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1878296131",
+      "title": "STRANGER",
+      "albumTitle": "INVADER (Special Edition) - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/de/47/c2/de47c2fc-1c1b-2ac0-8109-c46f9118ca62/mzaf_8665061204439688931.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6e/cf/f0/6ecff05e-2364-c478-a9a0-1f594bc01e9d/4570199893517.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1846019912",
+      "title": "KISS",
+      "albumTitle": "KISS - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ab/8e/73/ab8e7388-4063-9eda-6987-1cac021f8832/mzaf_4834803175465771504.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/89/6c/a5/896ca50d-2aa9-28f8-b784-a1a9f1eef0df/dj.wjmgcpwp.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

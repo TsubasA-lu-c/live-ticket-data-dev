@@ -1,0 +1,603 @@
+{
+  "artistId": "miura_daichi",
+  "tours": [
+    {
+      "id": "miura_daichi_raw_bare_2026",
+      "artistId": "miura_daichi",
+      "title": "DAICHI MIURA LIVE TOUR 2026 Raw / Bare",
+      "startDate": "2026-09-12T00:00:00+09:00",
+      "endDate": "2026-12-20T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 9900
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/913",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_premium_listening_event_2026",
+      "artistId": "miura_daichi",
+      "title": "『I know I don't know』リリース記念 プレミアム・リスニング・イベント",
+      "startDate": "2026-08-09T00:00:00+09:00",
+      "endDate": "2026-08-09T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1028",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_jwave_pianomen_2026",
+      "artistId": "miura_daichi",
+      "title": "J-WAVE \"PIANOMEN\"",
+      "startDate": "2026-10-08T00:00:00+09:00",
+      "endDate": "2026-10-08T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 9500
+        },
+        {
+          "label": "U-22チケット",
+          "amount": 7500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1030",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "miura_daichi_raw_bare_2026_misato_0912",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "venue": "三郷市文化会館 大ホール",
+      "performanceAt": "2026-09-12T17:30:00+09:00",
+      "doorOpenAt": "2026-09-12T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/913",
+      "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_misato_0913",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "venue": "三郷市文化会館 大ホール",
+      "performanceAt": "2026-09-13T16:00:00+09:00",
+      "doorOpenAt": "2026-09-13T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/913",
+      "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_osaka_0920",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "venue": "グランキューブ大阪メインホール",
+      "performanceAt": "2026-09-20T18:00:00+09:00",
+      "doorOpenAt": "2026-09-20T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/913",
+      "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_osaka_0921",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "venue": "グランキューブ大阪メインホール",
+      "performanceAt": "2026-09-21T17:00:00+09:00",
+      "doorOpenAt": "2026-09-21T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/913",
+      "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_ariake_0924",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "venue": "SGC HALL ARIAKE",
+      "performanceAt": "2026-09-24T18:30:00+09:00",
+      "doorOpenAt": "2026-09-24T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/913",
+      "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_ariake_0925",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "venue": "SGC HALL ARIAKE",
+      "performanceAt": "2026-09-25T18:30:00+09:00",
+      "doorOpenAt": "2026-09-25T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/913",
+      "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_kawaguchi_1006",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "venue": "川口総合文化センターリリア メインホール",
+      "performanceAt": "2026-10-06T18:30:00+09:00",
+      "doorOpenAt": "2026-10-06T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/913",
+      "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_fuji_1017",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "venue": "富士市文化会館ロゼシアター 大ホール",
+      "performanceAt": "2026-10-17T17:30:00+09:00",
+      "doorOpenAt": "2026-10-17T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/913",
+      "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_gifu_1018",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "venue": "長良川国際会議場メインホール",
+      "performanceAt": "2026-10-18T17:30:00+09:00",
+      "doorOpenAt": "2026-10-18T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/913",
+      "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_matsudo_1024",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "venue": "松戸・森のホール21 大ホール",
+      "performanceAt": "2026-10-24T17:30:00+09:00",
+      "doorOpenAt": "2026-10-24T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/913",
+      "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_sendai_1030",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "venue": "仙台サンプラザホール",
+      "performanceAt": "2026-10-30T18:30:00+09:00",
+      "doorOpenAt": "2026-10-30T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/913",
+      "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_morioka_1031",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "venue": "盛岡市民文化ホール 大ホール",
+      "performanceAt": "2026-10-31T17:30:00+09:00",
+      "doorOpenAt": "2026-10-31T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/913",
+      "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_kochi_1106",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "venue": "高知県立県民文化ホール オレンジホール",
+      "performanceAt": "2026-11-06T18:30:00+09:00",
+      "doorOpenAt": "2026-11-06T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/913",
+      "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_kurashiki_1108",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "venue": "倉敷市民会館",
+      "performanceAt": "2026-11-08T17:30:00+09:00",
+      "doorOpenAt": "2026-11-08T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/913",
+      "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_yokosuka_1118",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "venue": "よこすか芸術劇場",
+      "performanceAt": "2026-11-18T18:30:00+09:00",
+      "doorOpenAt": "2026-11-18T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/913",
+      "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_kobe_1122",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "venue": "神戸国際会館こくさいホール",
+      "performanceAt": "2026-11-22T17:30:00+09:00",
+      "doorOpenAt": "2026-11-22T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/913",
+      "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_kobe_1123",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "venue": "神戸国際会館こくさいホール",
+      "performanceAt": "2026-11-23T16:00:00+09:00",
+      "doorOpenAt": "2026-11-23T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/913",
+      "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_fukuoka_1127",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "venue": "福岡サンパレス ホテル&ホール",
+      "performanceAt": "2026-11-27T18:30:00+09:00",
+      "doorOpenAt": "2026-11-27T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/913",
+      "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_kumamoto_1129",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "venue": "熊本城ホール メインホール",
+      "performanceAt": "2026-11-29T17:30:00+09:00",
+      "doorOpenAt": "2026-11-29T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/913",
+      "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_aichi_1219",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "venue": "愛知県芸術劇場 大ホール",
+      "performanceAt": "2026-12-19T17:30:00+09:00",
+      "doorOpenAt": "2026-12-19T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/913",
+      "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_aichi_1220",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "venue": "愛知県芸術劇場 大ホール",
+      "performanceAt": "2026-12-20T16:00:00+09:00",
+      "doorOpenAt": "2026-12-20T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/913",
+      "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
+    },
+    {
+      "id": "miura_daichi_premium_listening_event_2026_1",
+      "tourId": "miura_daichi_premium_listening_event_2026",
+      "venue": "ユナイテッド・シネマ アクアシティお台場",
+      "performanceAt": "2026-08-09T14:30:00+09:00",
+      "doorOpenAt": "2026-08-09T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "プレミアム・リスニング・イベント 第1部",
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1028",
+      "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
+    },
+    {
+      "id": "miura_daichi_premium_listening_event_2026_2",
+      "tourId": "miura_daichi_premium_listening_event_2026",
+      "venue": "ユナイテッド・シネマ アクアシティお台場",
+      "performanceAt": "2026-08-09T16:30:00+09:00",
+      "doorOpenAt": "2026-08-09T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "プレミアム・リスニング・イベント 第2部",
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1028",
+      "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
+    },
+    {
+      "id": "miura_daichi_jwave_pianomen_2026_ariake_1008",
+      "tourId": "miura_daichi_jwave_pianomen_2026",
+      "venue": "SGC HALL ARIAKE",
+      "performanceAt": "2026-10-08T19:00:00+09:00",
+      "doorOpenAt": "2026-10-08T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "J-WAVE \"PIANOMEN\"",
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1030",
+      "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "miura_daichi_raw_bare_2026_fc1_sep_oct",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "FC先行",
+      "entryStartAt": "2026-03-31T12:00:00+09:00",
+      "entryEndAt": "2026-04-12T23:59:00+09:00",
+      "resultAt": "2026-04-16T18:00:00+09:00",
+      "paymentStartAt": "2026-04-16T18:00:00+09:00",
+      "paymentEndAt": "2026-04-19T23:00:00+09:00",
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_misato_0912",
+        "miura_daichi_raw_bare_2026_misato_0913",
+        "miura_daichi_raw_bare_2026_osaka_0920",
+        "miura_daichi_raw_bare_2026_osaka_0921",
+        "miura_daichi_raw_bare_2026_ariake_0924",
+        "miura_daichi_raw_bare_2026_ariake_0925",
+        "miura_daichi_raw_bare_2026_kawaguchi_1006",
+        "miura_daichi_raw_bare_2026_fuji_1017",
+        "miura_daichi_raw_bare_2026_gifu_1018",
+        "miura_daichi_raw_bare_2026_matsudo_1024",
+        "miura_daichi_raw_bare_2026_sendai_1030",
+        "miura_daichi_raw_bare_2026_morioka_1031"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/913",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_fc2_sep_oct",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "FC先行2次",
+      "entryStartAt": "2026-04-16T18:00:00+09:00",
+      "entryEndAt": "2026-04-29T23:59:00+09:00",
+      "resultAt": "2026-05-02T18:00:00+09:00",
+      "paymentStartAt": "2026-05-02T18:00:00+09:00",
+      "paymentEndAt": "2026-05-05T23:00:00+09:00",
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_misato_0912",
+        "miura_daichi_raw_bare_2026_misato_0913",
+        "miura_daichi_raw_bare_2026_osaka_0920",
+        "miura_daichi_raw_bare_2026_osaka_0921",
+        "miura_daichi_raw_bare_2026_ariake_0924",
+        "miura_daichi_raw_bare_2026_ariake_0925",
+        "miura_daichi_raw_bare_2026_kawaguchi_1006",
+        "miura_daichi_raw_bare_2026_fuji_1017",
+        "miura_daichi_raw_bare_2026_gifu_1018",
+        "miura_daichi_raw_bare_2026_matsudo_1024",
+        "miura_daichi_raw_bare_2026_sendai_1030",
+        "miura_daichi_raw_bare_2026_morioka_1031"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/933",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_fc1_nov_dec",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "FC先行",
+      "entryStartAt": "2026-06-01T12:00:00+09:00",
+      "entryEndAt": "2026-06-14T23:59:00+09:00",
+      "resultAt": "2026-06-18T18:00:00+09:00",
+      "paymentStartAt": "2026-06-18T18:00:00+09:00",
+      "paymentEndAt": "2026-06-21T23:00:00+09:00",
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_kochi_1106",
+        "miura_daichi_raw_bare_2026_kurashiki_1108",
+        "miura_daichi_raw_bare_2026_yokosuka_1118",
+        "miura_daichi_raw_bare_2026_kobe_1122",
+        "miura_daichi_raw_bare_2026_kobe_1123",
+        "miura_daichi_raw_bare_2026_fukuoka_1127",
+        "miura_daichi_raw_bare_2026_kumamoto_1129",
+        "miura_daichi_raw_bare_2026_aichi_1219",
+        "miura_daichi_raw_bare_2026_aichi_1220"
+      ],
+      "source": "system",
+      "sourceUrl": "http://www.rising-pro.jp/news/news_archives/news.html?aid=daichi&nID=VFJjTP0lRT",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_fc2_nov_dec",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "FC先行2次",
+      "entryStartAt": "2026-06-18T18:00:00+09:00",
+      "entryEndAt": "2026-07-01T23:59:00+09:00",
+      "resultAt": "2026-07-04T18:00:00+09:00",
+      "paymentStartAt": "2026-07-04T18:00:00+09:00",
+      "paymentEndAt": "2026-07-07T23:00:00+09:00",
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_kochi_1106",
+        "miura_daichi_raw_bare_2026_kurashiki_1108",
+        "miura_daichi_raw_bare_2026_fukuoka_1127",
+        "miura_daichi_raw_bare_2026_kumamoto_1129"
+      ],
+      "source": "system",
+      "sourceUrl": "http://www.rising-pro.jp/news/news_archives/news.html?aid=daichi&nID=VFJjTP0lRT",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_risingpro_nov_dec",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "RISING PRO会員先行",
+      "entryStartAt": "2026-07-04T18:00:00+09:00",
+      "entryEndAt": "2026-07-13T23:59:00+09:00",
+      "resultAt": "2026-07-17T18:00:00+09:00",
+      "paymentStartAt": "2026-07-17T18:00:00+09:00",
+      "paymentEndAt": "2026-07-20T23:00:00+09:00",
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_kochi_1106",
+        "miura_daichi_raw_bare_2026_kurashiki_1108",
+        "miura_daichi_raw_bare_2026_yokosuka_1118",
+        "miura_daichi_raw_bare_2026_kobe_1122",
+        "miura_daichi_raw_bare_2026_kobe_1123",
+        "miura_daichi_raw_bare_2026_fukuoka_1127",
+        "miura_daichi_raw_bare_2026_kumamoto_1129",
+        "miura_daichi_raw_bare_2026_aichi_1219",
+        "miura_daichi_raw_bare_2026_aichi_1220"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1011",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_lawson_nov_dec",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "ローソンチケット先行",
+      "entryStartAt": "2026-07-28T18:00:00+09:00",
+      "entryEndAt": "2026-08-10T23:59:00+09:00",
+      "resultAt": "2026-08-13T18:00:00+09:00",
+      "paymentStartAt": "2026-08-13T18:00:00+09:00",
+      "paymentEndAt": "2026-08-16T23:00:00+09:00",
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_kochi_1106",
+        "miura_daichi_raw_bare_2026_kurashiki_1108",
+        "miura_daichi_raw_bare_2026_yokosuka_1118",
+        "miura_daichi_raw_bare_2026_kobe_1122",
+        "miura_daichi_raw_bare_2026_kobe_1123",
+        "miura_daichi_raw_bare_2026_fukuoka_1127",
+        "miura_daichi_raw_bare_2026_kumamoto_1129",
+        "miura_daichi_raw_bare_2026_aichi_1219",
+        "miura_daichi_raw_bare_2026_aichi_1220"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1038",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_pia_nov_dec",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "ぴあプレリザーブ先行",
+      "entryStartAt": "2026-07-14T18:00:00+09:00",
+      "entryEndAt": "2026-07-27T23:59:00+09:00",
+      "resultAt": "2026-07-30T18:00:00+09:00",
+      "paymentStartAt": "2026-07-30T18:00:00+09:00",
+      "paymentEndAt": "2026-08-02T23:59:00+09:00",
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_kochi_1106",
+        "miura_daichi_raw_bare_2026_kurashiki_1108",
+        "miura_daichi_raw_bare_2026_yokosuka_1118",
+        "miura_daichi_raw_bare_2026_kobe_1122",
+        "miura_daichi_raw_bare_2026_kobe_1123",
+        "miura_daichi_raw_bare_2026_fukuoka_1127",
+        "miura_daichi_raw_bare_2026_kumamoto_1129",
+        "miura_daichi_raw_bare_2026_aichi_1219",
+        "miura_daichi_raw_bare_2026_aichi_1220"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1025",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_premium_listening_event_2026_lottery",
+      "tourId": "miura_daichi_premium_listening_event_2026",
+      "type": "購入者抽選招待",
+      "entryStartAt": "2026-07-15T15:00:00+09:00",
+      "entryEndAt": "2026-07-26T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_premium_listening_event_2026_1",
+        "miura_daichi_premium_listening_event_2026_2"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1028",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_jwave_pianomen_2026_fc",
+      "tourId": "miura_daichi_jwave_pianomen_2026",
+      "type": "FC先行",
+      "entryStartAt": "2026-07-21T18:00:00+09:00",
+      "entryEndAt": "2026-07-27T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_jwave_pianomen_2026_ariake_1008"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1029",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_osaka_lawson_0803",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "ローソンチケット先行",
+      "entryStartAt": "2026-08-03T18:00:00+09:00",
+      "entryEndAt": "2026-08-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_osaka_0920",
+        "miura_daichi_raw_bare_2026_osaka_0921"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/982",
+      "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_bea_1st",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "BEA WEB 1次先行（抽選）",
+      "entryStartAt": "2026-08-22T18:00:00+09:00",
+      "entryEndAt": "2026-09-02T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_fukuoka_1127",
+        "miura_daichi_raw_bare_2026_kumamoto_1129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bea-net.com/liveinformation/artist/2611miuradaichi.html",
+      "lastVerifiedAt": "2026-08-17T23:32:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1209389347",
+      "title": "EXCITE",
+      "albumTitle": "HIT",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/45/aa/a8/45aaa89f-3548-34fb-3a0e-27fda51c416d/mzaf_11780165094325111834.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/03/be/3e/03be3ef1-0f9f-0e79-cf17-9180388101e9/ANTCD-21831.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1440448453",
+      "title": "Blizzard",
+      "albumTitle": "Blizzard - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f7/f7/2b/f7f72b50-21b4-2f0b-c8f9-981cff19e049/mzaf_17904939612259714217.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/73/d8/a8/73d8a81a-592d-aeda-6601-9254f6862637/ANTCD-29678.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1615719130",
+      "title": "燦燦",
+      "albumTitle": "燦燦 - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/93/75/8c/93758cad-9d58-9537-4fa2-f93e7969feaf/mzaf_15774504407134683887.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c6/41/a3/c641a32f-fcc8-79a7-3c12-0219b03c6193/ANTCD-A0000006752.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

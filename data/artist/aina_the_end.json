@@ -1,0 +1,438 @@
+{
+  "artistId": "aina_the_end",
+  "tours": [
+    {
+      "id": "aina_the_end_sound_connection_2026",
+      "artistId": "aina_the_end",
+      "title": "SOUND CONNECTION -Mirroring Lights-",
+      "startDate": "2026-10-27T00:00:00+09:00",
+      "endDate": "2026-10-27T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "S指定席",
+          "amount": 11000
+        },
+        {
+          "label": "指定席",
+          "amount": 8800
+        },
+        {
+          "label": "ファミリー指定席",
+          "amount": 8800
+        },
+        {
+          "label": "グッズ付きS指定席",
+          "amount": 13500
+        },
+        {
+          "label": "グッズ付き指定席",
+          "amount": 11300
+        },
+        {
+          "label": "グッズ付きファミリー指定席",
+          "amount": 11300
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1134281",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_1chance_festival_2026",
+      "artistId": "aina_the_end",
+      "title": "1CHANCE FESTIVAL 2026",
+      "startDate": "2026-09-26T00:00:00+09:00",
+      "endDate": "2026-09-26T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1日券",
+          "amount": 12000
+        },
+        {
+          "label": "小人1日券",
+          "amount": 9500
+        },
+        {
+          "label": "2日券",
+          "amount": 23000
+        },
+        {
+          "label": "小人2日券",
+          "amount": 18000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://1chancefes.com/",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_music_expo_live_2026",
+      "artistId": "aina_the_end",
+      "title": "MUSIC EXPO LIVE 2026 in TAIPEI",
+      "startDate": "2026-10-24T00:00:00+09:00",
+      "endDate": "2026-10-24T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://musicexpolive.com/",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_summer_sonic_2026",
+      "artistId": "aina_the_end",
+      "title": "SUMMER SONIC 2026",
+      "startDate": "2026-08-14T00:00:00+09:00",
+      "endDate": "2026-08-15T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "TOKYO 1DAYチケット",
+          "amount": 21000
+        },
+        {
+          "label": "TOKYO 3DAYチケット",
+          "amount": 59000
+        },
+        {
+          "label": "TOKYO プラチナチケット",
+          "amount": 35000
+        },
+        {
+          "label": "TOKYO 3DAYプラチナチケット",
+          "amount": 100000
+        },
+        {
+          "label": "OSAKA 1DAYチケット",
+          "amount": 19000
+        },
+        {
+          "label": "OSAKA 3DAYチケット",
+          "amount": 54000
+        },
+        {
+          "label": "OSAKA プラチナチケット",
+          "amount": 31000
+        },
+        {
+          "label": "OSAKA 3DAYプラチナチケット",
+          "amount": 90000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1132558",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_one_piece_day_2026",
+      "artistId": "aina_the_end",
+      "title": "ONE PIECE DAY'26",
+      "startDate": "2026-08-23T00:00:00+09:00",
+      "endDate": "2026-08-23T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "入場チケット（来場者特典付き）",
+          "amount": 1980
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/media/detail.php?id=1117724",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_sweet_love_shower_2026",
+      "artistId": "aina_the_end",
+      "title": "SPACE SHOWER SWEET LOVE SHOWER 2026",
+      "startDate": "2026-08-30T00:00:00+09:00",
+      "endDate": "2026-08-30T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1日券",
+          "amount": 15000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1132738",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_rock_in_japan_2026",
+      "artistId": "aina_the_end",
+      "title": "ROCK IN JAPAN FESTIVAL 2026",
+      "startDate": "2026-09-12T00:00:00+09:00",
+      "endDate": "2026-09-12T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1133511",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_kishidan_banpaku_2026",
+      "artistId": "aina_the_end",
+      "title": "サントリー オールフリー presents 氣志團万博2026 ～房総爆音リゾート～",
+      "startDate": "2026-11-08T00:00:00+09:00",
+      "endDate": "2026-11-08T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1日入場券",
+          "amount": 16000
+        },
+        {
+          "label": "2日通し入場券",
+          "amount": 29000
+        },
+        {
+          "label": "青春18入場券",
+          "amount": 10000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/media/detail.php?id=1118032",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "aina_the_end_sound_connection_2026_kobe_1027",
+      "tourId": "aina_the_end_sound_connection_2026",
+      "venue": "神戸国際会館こくさいホール",
+      "performanceAt": "2026-10-27T19:00:00+09:00",
+      "doorOpenAt": "2026-10-27T18:00:00+09:00",
+      "kind": "fes",
+      "eventName": "SOUND CONNECTION -Mirroring Lights-",
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1134281",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_1chance_festival_2026_kumamoto_0926",
+      "tourId": "aina_the_end_1chance_festival_2026",
+      "venue": "熊本県農業公園カントリーパーク",
+      "performanceAt": "2026-09-26T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "1CHANCE FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://1chancefes.com/",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_music_expo_live_2026_taipei_1024",
+      "tourId": "aina_the_end_music_expo_live_2026",
+      "venue": "TAIPEI ARENA",
+      "performanceAt": "2026-10-24T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "MUSIC EXPO LIVE 2026 in TAIPEI DAY1",
+      "source": "system",
+      "sourceUrl": "https://musicexpolive.com/",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_summer_sonic_2026_tokyo_0814",
+      "tourId": "aina_the_end_summer_sonic_2026",
+      "venue": "ZOZOマリンスタジアム＆幕張メッセ",
+      "performanceAt": "2026-08-14T11:00:00+09:00",
+      "doorOpenAt": "2026-08-14T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "SUMMER SONIC 2026 TOKYO",
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1132558",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_summer_sonic_2026_osaka_0815",
+      "tourId": "aina_the_end_summer_sonic_2026",
+      "venue": "万博記念公園",
+      "performanceAt": "2026-08-15T11:00:00+09:00",
+      "doorOpenAt": "2026-08-15T10:00:00+09:00",
+      "kind": "fes",
+      "eventName": "SUMMER SONIC 2026 OSAKA",
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1132558",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_one_piece_day_2026_makuhari_0823",
+      "tourId": "aina_the_end_one_piece_day_2026",
+      "venue": "幕張メッセ 国際展示場 展示ホール4〜6",
+      "performanceAt": "2026-08-23T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "ONE PIECE DAY'26",
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/media/detail.php?id=1117724",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_sweet_love_shower_2026_yamanakako_0830",
+      "tourId": "aina_the_end_sweet_love_shower_2026",
+      "venue": "山中湖交流プラザ きらら",
+      "performanceAt": "2026-08-30T10:00:00+09:00",
+      "doorOpenAt": "2026-08-30T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "SPACE SHOWER SWEET LOVE SHOWER 2026",
+      "source": "system",
+      "sourceUrl": "https://2026.sweetloveshower.com/contents/guide/sweetloveshower2026",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_rock_in_japan_2026_soga_0912",
+      "tourId": "aina_the_end_rock_in_japan_2026",
+      "venue": "千葉市蘇我スポーツ公園",
+      "performanceAt": "2026-09-12T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "ROCK IN JAPAN FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1133511",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_kishidan_banpaku_2026_makuhari_1108",
+      "tourId": "aina_the_end_kishidan_banpaku_2026",
+      "venue": "幕張メッセ国際展示場 4～7ホール",
+      "performanceAt": "2026-11-08T10:30:00+09:00",
+      "doorOpenAt": "2026-11-08T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "サントリー オールフリー presents 氣志團万博2026 ～房総爆音リゾート～",
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/media/detail.php?id=1118032",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "aina_the_end_sound_connection_2026_fc_senko",
+      "tourId": "aina_the_end_sound_connection_2026",
+      "type": "FC先行",
+      "entryStartAt": "2026-06-23T17:00:00+09:00",
+      "entryEndAt": "2026-06-29T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aina_the_end_sound_connection_2026_kobe_1027"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1134281",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_sound_connection_2026_official_senko",
+      "tourId": "aina_the_end_sound_connection_2026",
+      "type": "オフィシャル先行",
+      "entryStartAt": "2026-07-05T12:00:00+09:00",
+      "entryEndAt": "2026-07-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aina_the_end_sound_connection_2026_kobe_1027"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1134281",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_sound_connection_2026_familymart",
+      "tourId": "aina_the_end_sound_connection_2026",
+      "type": "ファミリーマート先行",
+      "entryStartAt": "2026-07-25T12:00:00+09:00",
+      "entryEndAt": "2026-08-11T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aina_the_end_sound_connection_2026_kobe_1027"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1134281",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_1chance_festival_2026_general",
+      "tourId": "aina_the_end_1chance_festival_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-07-18T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aina_the_end_1chance_festival_2026_kumamoto_0926"
+      ],
+      "source": "system",
+      "sourceUrl": "https://1chancefes.com/",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_one_piece_day_2026_priority_2nd",
+      "tourId": "aina_the_end_one_piece_day_2026",
+      "type": "先行販売2次",
+      "entryStartAt": null,
+      "entryEndAt": "2026-07-20T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aina_the_end_one_piece_day_2026_makuhari_0823"
+      ],
+      "source": "system",
+      "sourceUrl": "https://onepiece-day.onepiece-base.com/ticket",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_sweet_love_shower_2026_jcom",
+      "tourId": "aina_the_end_sweet_love_shower_2026",
+      "type": "J:COM加入者限定抽選",
+      "entryStartAt": "2026-06-08T18:00:00+09:00",
+      "entryEndAt": "2026-06-21T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aina_the_end_sweet_love_shower_2026_yamanakako_0830"
+      ],
+      "source": "system",
+      "sourceUrl": "https://2026.sweetloveshower.com/contents/ticket/admission",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_kishidan_banpaku_2026_hp_2nd",
+      "tourId": "aina_the_end_kishidan_banpaku_2026",
+      "type": "オフィシャルHP2次先行",
+      "entryStartAt": "2026-07-25T12:00:00+09:00",
+      "entryEndAt": "2026-08-11T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aina_the_end_kishidan_banpaku_2026_makuhari_1108"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/0755060002-P0030082P021001?P1=0175",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1821087731",
+      "title": "革命道中 - On The Way",
+      "albumTitle": "革命道中 - On The Way - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b2/16/74/b216741b-f849-0422-068d-0da28092e35b/mzaf_33669733070536500.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0d/3a/cf/0d3acf31-2a58-aa41-f3f1-ea26926bbda6/ANTCD-A0000017039.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "6782807295",
+      "title": "Blue Shining Star",
+      "albumTitle": "Blue Shining Star - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5b/5a/63/5b5a63bc-c52c-2aa3-e0e2-d340dce29069/mzaf_16813148116988735335.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ad/7e/7c/ad7e7cd1-d0b8-00b8-58fc-f33fead711f1/ANTCD-A0000020345.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1888276097",
+      "title": "ルミナス - Luminous",
+      "albumTitle": "ルミナス - Luminous - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/60/67/0d/60670d4a-c900-2bc8-e1a6-f452613bcb7d/mzaf_6698105828386408640.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ca/56/0b/ca560b80-85c9-c1d5-16df-b1fbf2c02d21/ANTCD-A0000019670.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

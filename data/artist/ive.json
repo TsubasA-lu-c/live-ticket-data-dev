@@ -1,0 +1,96 @@
+{
+  "artistId": "ive",
+  "tours": [
+    {
+      "id": "ive_lucid_dream_special_event_2026",
+      "artistId": "ive",
+      "title": "JAPAN 4th EP『LUCID DREAM』発売記念 シリアルナンバー応募抽選スペシャルイベント第2弾",
+      "startDate": "2026-08-30T00:00:00+09:00",
+      "endDate": "2026-08-31T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://ive-official.jp/mob/news/newsShw.php?cd=OF10395&site=DIVE",
+      "lastVerifiedAt": "2026-08-17T22:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "ive_lucid_dream_special_event_2026_osaka_0830",
+      "tourId": "ive_lucid_dream_special_event_2026",
+      "venue": "堂島リバーフォーラム",
+      "performanceAt": "2026-08-30T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "JAPAN 4th EP『LUCID DREAM』発売記念 シリアルナンバー応募抽選スペシャルイベント第2弾",
+      "source": "system",
+      "sourceUrl": "https://ive-official.jp/mob/news/newsShw.php?cd=OF10395&site=DIVE",
+      "lastVerifiedAt": "2026-08-17T22:00:00+09:00"
+    },
+    {
+      "id": "ive_lucid_dream_special_event_2026_tokyo_0831",
+      "tourId": "ive_lucid_dream_special_event_2026",
+      "venue": "品川 ザ・グランドホール",
+      "performanceAt": "2026-08-31T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "JAPAN 4th EP『LUCID DREAM』発売記念 シリアルナンバー応募抽選スペシャルイベント第2弾",
+      "source": "system",
+      "sourceUrl": "https://ive-official.jp/mob/news/newsShw.php?cd=OF10395&site=DIVE",
+      "lastVerifiedAt": "2026-08-17T22:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "ive_lucid_dream_special_event_2026_osaka_serial",
+      "tourId": "ive_lucid_dream_special_event_2026",
+      "type": "シリアルナンバー応募抽選（大阪）",
+      "entryStartAt": "2026-06-01T18:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["ive_lucid_dream_special_event_2026_osaka_0830"],
+      "source": "system",
+      "sourceUrl": "https://ive-official.jp/mob/news/newsShw.php?cd=OF10395&site=DIVE",
+      "lastVerifiedAt": "2026-08-17T22:00:00+09:00"
+    },
+    {
+      "id": "ive_lucid_dream_special_event_2026_tokyo_serial",
+      "tourId": "ive_lucid_dream_special_event_2026",
+      "type": "シリアルナンバー応募抽選（東京）",
+      "entryStartAt": "2026-06-01T18:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": ["ive_lucid_dream_special_event_2026_tokyo_0831"],
+      "source": "system",
+      "sourceUrl": "https://ive-official.jp/mob/news/newsShw.php?cd=OF10395&site=DIVE",
+      "lastVerifiedAt": "2026-08-17T22:00:00+09:00"
+    }
+  ],
+  "lastVerifiedAt": "2026-08-17T22:00:00+09:00",
+  "appleMusicTracks": [
+    {
+      "songId": "1874217121",
+      "title": "BANG BANG",
+      "albumTitle": "BANG BANG - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b4/b9/96/b4b99684-0c8c-13bc-18a3-a61d352d1577/mzaf_3857622409575051675.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/57/8b/c1/578bc162-7d83-d1ef-fe52-62223133a654/199806248171.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1639416903",
+      "title": "After LIKE",
+      "albumTitle": "After LIKE - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/af/78/11/af78116e-4e31-2cf6-faf6-e62ca99d7196/mzaf_11418754670021162636.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/01/f5/0a/01f50af1-89da-cb51-a809-c613600451e9/196925429900.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1790567554",
+      "title": "ATTITUDE",
+      "albumTitle": "IVE EMPATHY - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5a/88/81/5a888113-73f8-e7a2-ab13-1d6d00d6f854/mzaf_6148872970244698618.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fd/b6/18/fdb618a3-2e27-aa19-7ed3-97d0ba42d3f8/4547366730562.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}
