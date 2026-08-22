@@ -75,3 +75,14 @@ commit前に所定のディレクトリへ移動するか削除する。
 複数の未コミット作業が存在する場合、
 整理ルールだけを変更するcommitへ他の作業差分を混ぜない。
 `git add` / `git commit` は対象ファイルを明示して実行する。
+
+## ChatGPT / GitHub Actions / Local LLM キュー
+
+`agent/jobs/` は、ChatGPT と self-hosted runner の制御メッセージだけをGit管理する例外領域です。詳細は `docs/workflows/chatgpt-local-llm-actions.md` に従ってください。
+
+- Git管理してよいもの: `agent/jobs/<jobId>/request.json`、`result.json`、`review.json`。
+- `result.json` はChatGPT監査用の圧縮されたレビュー封筒であり、raw実行生成物とは扱いを分ける。
+- raw HTML、LLM prompt/response全文、facts/rejected/audit ZIP、差分stateは `local_llm/` に置き、Git管理しない。
+- Actions経路から `data/` を直接変更しない。承認後のpromotionは別工程とする。
+- public repo の self-hosted runner は `pull_request` / `pull_request_target` から起動しない。
+- requestから任意shellコマンドを受け取らない。kind、artistId、model等はallowlistで検証する。
