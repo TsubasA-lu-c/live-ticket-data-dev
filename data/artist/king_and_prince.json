@@ -1,72 +1,27 @@
 {
   "artistId": "king_and_prince",
   "tours": [
-    {
-      "id": "king_and_prince_music_expo_live_2026_taipei",
-      "artistId": "king_and_prince",
-      "title": "MUSIC EXPO LIVE 2026 in TAIPEI",
-      "startDate": "2026-10-24T00:00:00+09:00",
-      "endDate": "2026-10-24T00:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://musicexpolive.com/",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    }
+    {"id":"king_and_prince_starring_dome_tour_2026","artistId":"king_and_prince","title":"King & Prince DOME TOUR 2026 STARRING","startDate":"2026-01-17T00:00:00+09:00","endDate":"2026-03-29T00:00:00+09:00","prices":[{"label":"FC","amount":10500}],"source":"system","sourceUrl":"https://kingandprince7th.jp/STARRING/DOME_tour/","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"king_and_prince_music_expo_live_2026_taipei","artistId":"king_and_prince","title":"MUSIC EXPO LIVE 2026 in TAIPEI","startDate":"2026-10-24T00:00:00+09:00","endDate":"2026-10-24T00:00:00+09:00","prices":null,"source":"system","sourceUrl":"https://musicexpolive.com/","lastVerifiedAt":"2026-08-09T00:00:00+09:00"}
   ],
   "performances": [
-    {
-      "id": "king_and_prince_music_expo_live_2026_taipei_1024",
-      "tourId": "king_and_prince_music_expo_live_2026_taipei",
-      "venue": "TAIPEI ARENA",
-      "performanceAt": "2026-10-24T19:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "MUSIC EXPO LIVE 2026 in TAIPEI",
-      "source": "system",
-      "sourceUrl": "https://musicexpolive.com/",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    }
+    {"id":"king_and_prince_starring_dome_tour_2026_fukuoka_0117","tourId":"king_and_prince_starring_dome_tour_2026","venue":"みずほPayPayドーム福岡","performanceAt":"2026-01-17T17:00:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://kingandprince7th.jp/STARRING/DOME_tour/","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"king_and_prince_starring_dome_tour_2026_fukuoka_0118","tourId":"king_and_prince_starring_dome_tour_2026","venue":"みずほPayPayドーム福岡","performanceAt":"2026-01-18T15:00:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://kingandprince7th.jp/STARRING/DOME_tour/","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"king_and_prince_starring_dome_tour_2026_osaka_0125","tourId":"king_and_prince_starring_dome_tour_2026","venue":"京セラドーム大阪","performanceAt":"2026-01-25T17:00:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://kingandprince7th.jp/STARRING/DOME_tour/","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"king_and_prince_starring_dome_tour_2026_osaka_0126","tourId":"king_and_prince_starring_dome_tour_2026","venue":"京セラドーム大阪","performanceAt":"2026-01-26T17:00:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://kingandprince7th.jp/STARRING/DOME_tour/","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"king_and_prince_starring_dome_tour_2026_tokyo_0218","tourId":"king_and_prince_starring_dome_tour_2026","venue":"東京ドーム","performanceAt":"2026-02-18T18:00:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://kingandprince7th.jp/STARRING/DOME_tour/","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"king_and_prince_starring_dome_tour_2026_tokyo_0219","tourId":"king_and_prince_starring_dome_tour_2026","venue":"東京ドーム","performanceAt":"2026-02-19T16:00:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://kingandprince7th.jp/STARRING/DOME_tour/","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"king_and_prince_starring_dome_tour_2026_aichi_0328","tourId":"king_and_prince_starring_dome_tour_2026","venue":"バンテリンドーム ナゴヤ","performanceAt":"2026-03-28T17:00:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://kingandprince7th.jp/STARRING/DOME_tour/","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"king_and_prince_starring_dome_tour_2026_aichi_0329","tourId":"king_and_prince_starring_dome_tour_2026","venue":"バンテリンドーム ナゴヤ","performanceAt":"2026-03-29T15:00:00+09:00","doorOpenAt":null,"kind":"oneman","eventName":null,"source":"system","sourceUrl":"https://kingandprince7th.jp/STARRING/DOME_tour/","lastVerifiedAt":"2026-08-23T03:21:00+09:00"},
+    {"id":"king_and_prince_music_expo_live_2026_taipei_1024","tourId":"king_and_prince_music_expo_live_2026_taipei","venue":"TAIPEI ARENA","performanceAt":"2026-10-24T19:00:00+09:00","doorOpenAt":null,"kind":"fes","eventName":"MUSIC EXPO LIVE 2026 in TAIPEI","source":"system","sourceUrl":"https://musicexpolive.com/","lastVerifiedAt":"2026-08-09T00:00:00+09:00"}
   ],
   "lotteries": [
-    {
-      "id": "king_and_prince_music_expo_live_2026_taipei_general",
-      "tourId": "king_and_prince_music_expo_live_2026_taipei",
-      "type": "一般発売（先着）",
-      "entryStartAt": "2026-07-28T13:00:00+09:00",
-      "entryEndAt": null,
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": [
-        "king_and_prince_music_expo_live_2026_taipei_1024"
-      ],
-      "source": "system",
-      "sourceUrl": "https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1CXNJEX&tapeID=en04LRFru",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    }
+    {"id":"king_and_prince_music_expo_live_2026_taipei_general","tourId":"king_and_prince_music_expo_live_2026_taipei","type":"一般発売（先着）","entryStartAt":"2026-07-28T13:00:00+09:00","entryEndAt":null,"resultAt":null,"paymentStartAt":null,"paymentEndAt":null,"performanceIds":["king_and_prince_music_expo_live_2026_taipei_1024"],"source":"system","sourceUrl":"https://kham.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1CXNJEX&tapeID=en04LRFru","lastVerifiedAt":"2026-08-09T00:00:00+09:00"}
   ],
-  "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+  "lastVerifiedAt": "2026-08-23T03:21:00+09:00",
   "appleMusicTracks": [
-    {
-      "songId": "1860159898",
-      "title": "Theater",
-      "albumTitle": "STARRING",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d4/8f/9e/d48f9eb8-219b-1c45-c070-9a4a1f40b1c7/mzaf_15171061252991854493.plus.aac.ep.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/40/7c/34/407c34d1-7097-9eb3-f75b-290437577c7b/25UM2IM01022.rgb.jpg/{w}x{h}{c}.{f}"
-    },
-    {
-      "songId": "1746256578",
-      "title": "ツキヨミ",
-      "albumTitle": "Mr.5 (Special Edition)",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ac/49/6d/ac496d06-9444-8528-6061-031f104328cf/mzaf_17171509309261253171.plus.aac.ep.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/c0/ef/17c0ef60-8685-dee6-1f21-2d9cbf78c5ce/24UMGIM53509.rgb.jpg/{w}x{h}{c}.{f}"
-    },
-    {
-      "songId": "1746256096",
-      "title": "シンデレラガール",
-      "albumTitle": "Mr.5 (Special Edition)",
-      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a9/56/2a/a9562a21-2e55-e831-b981-6e85140384cf/mzaf_2018655561991474250.plus.aac.ep.m4a",
-      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/c0/ef/17c0ef60-8685-dee6-1f21-2d9cbf78c5ce/24UMGIM53509.rgb.jpg/{w}x{h}{c}.{f}"
-    }
+    {"songId":"1860159898","title":"Theater","albumTitle":"STARRING","previewUrl":"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d4/8f/9e/d48f9eb8-219b-1c45-c070-9a4a1f40b1c7/mzaf_15171061252991854493.plus.aac.ep.m4a","artworkUrl":"https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/40/7c/34/407c34d1-7097-9eb3-f75b-290437577c7b/25UM2IM01022.rgb.jpg/{w}x{h}{c}.{f}"},
+    {"songId":"1746256578","title":"ツキヨミ","albumTitle":"Mr.5 (Special Edition)","previewUrl":"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ac/49/6d/ac496d06-9444-8528-6061-031f104328cf/mzaf_17171509309261253171.plus.aac.ep.m4a","artworkUrl":"https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/c0/ef/17c0ef60-8685-dee6-1f21-2d9cbf78c5ce/24UMGIM53509.rgb.jpg/{w}x{h}{c}.{f}"},
+    {"songId":"1746256096","title":"シンデレラガール","albumTitle":"Mr.5 (Special Edition)","previewUrl":"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a9/56/2a/a9562a21-2e55-e831-b981-6e85140384cf/mzaf_2018655561991474250.plus.aac.ep.m4a","artworkUrl":"https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/c0/ef/17c0ef60-8685-dee6-1f21-2d9cbf78c5ce/24UMGIM53509.rgb.jpg/{w}x{h}{c}.{f}"}
   ]
 }
