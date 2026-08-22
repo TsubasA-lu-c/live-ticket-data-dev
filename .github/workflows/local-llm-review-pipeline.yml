@@ -1,0 +1,92 @@
+name: Local LLM review pipeline
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'agent/jobs/*/request.json'
+  workflow_dispatch:
+    inputs:
+      request_path:
+        description: 'agent/jobs/<jobId>/request.json'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: local-llm-review-pipeline
+  cancel-in-progress: false
+
+jobs:
+  research:
+    # Public repo safety: never bind this workflow to pull_request/pull_request_target.
+    runs-on: [self-hosted, windows, x64, local-llm-gpu]
+    timeout-minutes: 180
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+          clean: false
+
+      - name: Resolve request path
+        shell: pwsh
+        run: |
+          if ('${{ github.event_name }}' -eq 'workflow_dispatch') {
+            $request = '${{ inputs.request_path }}'
+          } else {
+            $before = '${{ github.event.before }}'
+            $sha = '${{ github.sha }}'
+            if ($before -match '^0+$') {
+              $paths = git show --pretty='' --name-only $sha
+            } else {
+              $paths = git diff --name-only $before $sha
+            }
+            $requests = @($paths | Where-Object { $_ -match '^agent/jobs/[^/]+/request\.json$' })
+            if ($requests.Count -ne 1) {
+              throw "Expected exactly one request.json in this push; found $($requests.Count)"
+            }
+            $request = $requests[0]
+          }
+
+          if ($request -notmatch '^agent/jobs/[^/]+/request\.json$') {
+            throw "Invalid request path: $request"
+          }
+          "REQUEST_PATH=$request" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+
+      - name: Verify Python
+        shell: pwsh
+        run: python --version
+
+      - name: Run collection and local LLM
+        shell: pwsh
+        env:
+          LOCAL_LLM_BASE_URL: http://127.0.0.1:11434/v1
+          LOCAL_LLM_ALLOWED_MODELS: gpt-oss:20b,qwen3.5:9b
+        run: python tools/run_local_llm_job.py --request "$env:REQUEST_PATH"
+
+      - name: Commit review envelope
+        shell: pwsh
+        run: |
+          $jobDir = Split-Path -Parent $env:REQUEST_PATH
+          $result = Join-Path $jobDir 'result.json'
+          if (-not (Test-Path $result)) {
+            throw "result.json was not generated: $result"
+          }
+
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- $result
+
+          if (git diff --cached --quiet) {
+            Write-Host 'No review envelope changes to commit.'
+            exit 0
+          }
+
+          git commit -m "Add local LLM review result for $jobDir"
+          git pull --rebase origin main
+          git push origin HEAD:main
