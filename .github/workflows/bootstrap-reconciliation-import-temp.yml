@@ -29,10 +29,7 @@ jobs:
           import base64, bz2, json
           from pathlib import Path
 
-          parts = [
-              Path('.github/bootstrap-reconciliation-chunks/part-00'),
-              Path('.github/bootstrap-reconciliation-chunks/part-01'),
-          ]
+          parts = [Path(f'.github/bootstrap-reconciliation-chunks/part-{i:02d}') for i in range(6)]
           if any(not p.is_file() for p in parts):
               raise SystemExit('missing patch chunks')
           encoded = ''.join(p.read_text(encoding='ascii').strip() for p in parts)
