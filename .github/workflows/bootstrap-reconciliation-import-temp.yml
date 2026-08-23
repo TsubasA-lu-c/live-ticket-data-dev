@@ -26,14 +26,17 @@ jobs:
         run: |
           set -euo pipefail
           python3 - <<'PY'
-          import base64, gzip, json
+          import base64, bz2, json
           from pathlib import Path
 
-          parts = sorted(Path('.github/bootstrap-reconciliation-chunks').glob('part-*'))
-          if not parts:
+          parts = [
+              Path('.github/bootstrap-reconciliation-chunks/part-00'),
+              Path('.github/bootstrap-reconciliation-chunks/part-01'),
+          ]
+          if any(not p.is_file() for p in parts):
               raise SystemExit('missing patch chunks')
           encoded = ''.join(p.read_text(encoding='ascii').strip() for p in parts)
-          raw = gzip.decompress(base64.b64decode(encoded))
+          raw = bz2.decompress(base64.b64decode(encoded))
           dst = Path('.github/bootstrap-reconciliation-patches/reconcile-04-11-final.json')
           payload = json.loads(raw)
           ops = payload.get('operations') or []
