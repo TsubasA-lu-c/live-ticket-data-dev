@@ -441,13 +441,14 @@
       "id": "zutomayo_fujirock_2026_0725",
       "tourId": "zutomayo_fes_fujirock_2026",
       "venue": "苗場スキー場 PYRAMID GARDEN",
-      "performanceAt": "2026-07-25T12:00:00+09:00",
+      "performanceAt": null,
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "FUJI ROCK FESTIVAL '26",
       "source": "system",
       "sourceUrl": "https://fujirockfestival.com/artist/timetable/25",
-      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-23T10:55:18+09:00",
+      "performanceDate": "2026-07-25"
     }
   ],
   "lotteries": [
