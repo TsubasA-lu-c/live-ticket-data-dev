@@ -1,0 +1,233 @@
+name: Bootstrap reconciliation apply via PR temp
+
+on:
+  pull_request:
+    branches:
+      - apply/bootstrap-reconciliation-20260823
+    paths:
+      - '.github/bootstrap-reconciliation-pr-trigger'
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bootstrap-reconciliation-apply-pr-20260823
+  cancel-in-progress: false
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: apply/bootstrap-reconciliation-20260823
+          fetch-depth: 0
+
+      - name: Verify audited base and apply explicit operations
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin main apply/bootstrap-reconciliation-20260823
+          expected_main='18df9af321c33080a0559d6d3d6042bcda2153cd'
+          actual_main="$(git rev-parse origin/main)"
+          test "$actual_main" = "$expected_main" || { echo "main moved: expected=$expected_main actual=$actual_main" >&2; exit 1; }
+          if ! git diff --quiet origin/main...HEAD -- data/; then
+            echo 'Refusing to apply: data already differs from audited main.' >&2
+            git diff --name-status origin/main...HEAD -- data/
+            exit 1
+          fi
+
+          python3 - <<'PY'
+          import base64, gzip, hashlib, json
+          from datetime import datetime, timedelta, timezone
+          from pathlib import Path
+
+          expected_artists = {
+            'ellegarden','ado',
+            'hinatazaka46','aimyon','creepy_nuts','vaundy','fujii_kaze',
+            'lisa','snow_man','ryokuoushoku_shakai',
+            'naniwa_danshi','hey_say_jump','travis_japan','twice','seventeen','sky_hi','tennimu','touken_ranbu_musical','zutomayo','momoiro_clover_z',
+            'babymetal','mrs_green_apple','be_first','glay','yuzu',
+            'king_and_prince','milk','bump_of_chicken','bz','ae_group','frederic','fruits_zipper',
+            'cutie_street','monaki','equal_love','super_beaver','wanima','yabai_tshirts_yasan','10_feet','the_oral_cigarettes','kroi',
+            'hitsuji_bungaku','miura_daichi','kurayamisaka','starglow','ini','jo1','imp','mazzel','not_equal_me',
+            'boku_aozora','da_ice','bts','stray_kids','ive','aespa','tomorrow_x_together','shinee',
+            'sandaime_j_soul_brothers','idolish7','a3','ikimonogakari','and_team','aina_the_end',
+            'urashimasakatasen'
+          }
+          if len(expected_artists) != 65:
+              raise SystemExit(f'expected artist set size error: {len(expected_artists)}')
+
+          operations = []
+          for rel in [
+              '.github/bootstrap-reconciliation-patches/reconcile-01.json',
+              '.github/bootstrap-reconciliation-patches/reconcile-02.json',
+              '.github/bootstrap-reconciliation-patches/reconcile-03.json',
+          ]:
+              payload = json.loads(Path(rel).read_text(encoding='utf-8'))
+              operations.extend(payload.get('operations') or [])
+
+          parts = sorted(Path('.github/bootstrap-reconciliation-chunks').glob('part-*'))
+          if [p.name for p in parts] != ['part-00','part-01']:
+              raise SystemExit(f'unexpected patch chunks: {[p.name for p in parts]}')
+          encoded = ''.join(p.read_text(encoding='ascii').strip() for p in parts)
+          worker_raw = gzip.decompress(base64.b64decode(encoded))
+          worker_payload = json.loads(worker_raw)
+          worker_ops = worker_payload.get('operations') or []
+          if len(worker_ops) != 970:
+              raise SystemExit(f'worker operation count mismatch: {len(worker_ops)}')
+          if len({op.get('artistId') for op in worker_ops}) != 55:
+              raise SystemExit('worker artist count mismatch')
+          operations.extend(worker_ops)
+
+          collections = {'tour':'tours','performance':'performances','lottery':'lotteries'}
+          touched = set()
+          by_artist = {}
+          deletes = set()
+          for op in operations:
+              artist, kind, obj_id, action = op.get('artistId'), op.get('kind'), op.get('id'), op.get('op')
+              if not all(isinstance(x,str) and x for x in (artist,kind,obj_id,action)):
+                  raise SystemExit(f'invalid operation identity: {op}')
+              if kind not in collections or action not in {'upsert','merge','delete'}:
+                  raise SystemExit(f'invalid operation: {op}')
+              key = (artist,kind,obj_id)
+              if key in touched:
+                  raise SystemExit(f'duplicate operation target across batches: {key}')
+              touched.add(key)
+              if action == 'upsert' and op.get('expectAbsent') is not True:
+                  raise SystemExit(f'upsert without expectAbsent=true: {key}')
+              if action == 'merge' and not isinstance(op.get('changes'),dict):
+                  raise SystemExit(f'merge changes missing: {key}')
+              if action == 'delete':
+                  if not str(op.get('reason') or '').strip():
+                      raise SystemExit(f'delete without reason: {key}')
+                  deletes.add(key)
+              by_artist.setdefault(artist,[]).append(op)
+
+          if set(by_artist) != expected_artists:
+              raise SystemExit(f'artist set mismatch missing={sorted(expected_artists-set(by_artist))} extra={sorted(set(by_artist)-expected_artists)}')
+          expected_deletes = {
+              ('a3','performance','a3_act3_aw2027_tokyo_0101'),
+              ('a3','performance','a3_act3_aw2027_shizuoka_0101'),
+              ('a3','performance','a3_act3_aw2027_kagawa_0101'),
+              ('a3','performance','a3_act3_aw2027_aichi_0101'),
+              ('a3','performance','a3_act3_aw2027_yamaguchi_0101'),
+              ('a3','performance','a3_act3_aw2027_osaka_0101'),
+          }
+          if deletes != expected_deletes:
+              raise SystemExit(f'delete gate failed actual={sorted(deletes)}')
+
+          audit = {'operationCount':len(operations),'workerOperationCount':len(worker_ops),'artists':{},'deletes':[list(x) for x in sorted(deletes)]}
+          for artist, ops in sorted(by_artist.items()):
+              path = Path('data/artist') / f'{artist}.json'
+              if not path.is_file():
+                  raise SystemExit(f'missing artist file: {artist}')
+              data = json.loads(path.read_text(encoding='utf-8'))
+              before = {}
+              for kind, arrname in collections.items():
+                  arr = data.get(arrname)
+                  if not isinstance(arr,list):
+                      raise SystemExit(f'{artist}.{arrname} must be list')
+                  ids = [r.get('id') for r in arr if isinstance(r,dict)]
+                  if len(ids) != len(set(ids)):
+                      raise SystemExit(f'duplicate existing ids: {artist}.{arrname}')
+                  before[kind] = set(ids)
+
+              for op in ops:
+                  arr = data[collections[op['kind']]]
+                  matches = [i for i,row in enumerate(arr) if isinstance(row,dict) and row.get('id') == op['id']]
+                  if op['op'] == 'upsert':
+                      if matches:
+                          raise SystemExit(f'upsert target already exists: {(artist,op["kind"],op["id"])}')
+                      value = op.get('value')
+                      if not isinstance(value,dict) or value.get('id') != op['id']:
+                          raise SystemExit(f'invalid upsert value: {(artist,op["kind"],op["id"])}')
+                      arr.append(value)
+                  elif op['op'] == 'merge':
+                      if len(matches) != 1:
+                          raise SystemExit(f'merge target count != 1: {(artist,op["kind"],op["id"])} count={len(matches)}')
+                      row = dict(arr[matches[0]])
+                      row.update(op['changes'])
+                      arr[matches[0]] = row
+                  else:
+                      if len(matches) != 1:
+                          raise SystemExit(f'delete target count != 1: {(artist,op["kind"],op["id"])} count={len(matches)}')
+                      del arr[matches[0]]
+
+              after = {}
+              for kind, arrname in collections.items():
+                  ids = [r.get('id') for r in data[arrname] if isinstance(r,dict)]
+                  if len(ids) != len(set(ids)):
+                      raise SystemExit(f'duplicate resulting ids: {artist}.{arrname}')
+                  after[kind] = set(ids)
+                  removed = before[kind] - after[kind]
+                  allowed = {oid for a,k,oid in expected_deletes if a == artist and k == kind}
+                  if removed != allowed:
+                      raise SystemExit(f'unexpected removed ids: {artist}.{kind} removed={sorted(removed)} allowed={sorted(allowed)}')
+
+              tour_ids = {r.get('id') for r in data['tours'] if isinstance(r,dict)}
+              perf_ids = {r.get('id') for r in data['performances'] if isinstance(r,dict)}
+              for row in data['tours']:
+                  if not isinstance(row,dict): raise SystemExit(f'non-object tour: {artist}')
+                  for req in ('id','artistId','title','source','sourceUrl','lastVerifiedAt'):
+                      if row.get(req) is None: raise SystemExit(f'missing tour field {artist}.{row.get("id")}.{req}')
+                  if row.get('artistId') != artist: raise SystemExit(f'tour artist mismatch: {artist}.{row.get("id")}')
+              for row in data['performances']:
+                  if not isinstance(row,dict): raise SystemExit(f'non-object performance: {artist}')
+                  for req in ('id','tourId','performanceAt','source'):
+                      if row.get(req) is None: raise SystemExit(f'missing performance field {artist}.{row.get("id")}.{req}')
+                  if row.get('tourId') not in tour_ids: raise SystemExit(f'orphan performance: {artist}.{row.get("id")}')
+                  if row.get('kind') not in ('oneman','fes','taiban'): raise SystemExit(f'invalid kind: {artist}.{row.get("id")}')
+                  if row.get('kind') in ('fes','taiban') and not row.get('eventName'): raise SystemExit(f'eventName required: {artist}.{row.get("id")}')
+              for row in data['lotteries']:
+                  if not isinstance(row,dict): raise SystemExit(f'non-object lottery: {artist}')
+                  for req in ('id','tourId','type','source'):
+                      if row.get(req) is None: raise SystemExit(f'missing lottery field {artist}.{row.get("id")}.{req}')
+                  if row.get('tourId') not in tour_ids: raise SystemExit(f'orphan lottery: {artist}.{row.get("id")}')
+                  pids = row.get('performanceIds')
+                  if pids is not None and (not isinstance(pids,list) or any(pid not in perf_ids for pid in pids)):
+                      raise SystemExit(f'invalid lottery performanceIds: {artist}.{row.get("id")}')
+
+              path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+              audit['artists'][artist] = {
+                  'operations':len(ops),
+                  'countsBefore':{k:len(v) for k,v in before.items()},
+                  'countsAfter':{k:len(v) for k,v in after.items()},
+              }
+
+          manifest_path = Path('data/manifest.json')
+          manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+          def hash16(path): return hashlib.sha256(path.read_bytes()).hexdigest()[:16]
+          manifest['version'] = int(manifest.get('version',0)) + 1
+          JST = timezone(timedelta(hours=9))
+          manifest['updatedAt'] = datetime.now(JST).strftime('%Y-%m-%dT%H:%M:%S+09:00')
+          manifest.setdefault('files',{}).setdefault('artists',{})['hash'] = hash16(Path('data/artists.json'))
+          hashes = {fp.stem:hash16(fp) for fp in sorted(Path('data/artist').glob('*.json'))}
+          manifest.setdefault('artists',{})
+          for aid,h in hashes.items(): manifest['artists'].setdefault(aid,{})['hash'] = h
+          for aid in list(manifest['artists']):
+              if aid not in hashes: del manifest['artists'][aid]
+          manifest_path.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          Path('/tmp/bootstrap-apply-audit.json').write_text(json.dumps(audit,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(json.dumps({'operations':len(operations),'artists':len(by_artist),'deletes':len(deletes),'manifestVersion':manifest['version']},ensure_ascii=False))
+          PY
+
+      - name: Validate diff and commit apply branch only
+        shell: bash
+        run: |
+          set -euo pipefail
+          git diff --check
+          bad="$(git diff --name-only | grep -Ev '^data/artist/[^/]+\.json$|^data/manifest\.json$' || true)"
+          test -z "$bad" || { echo 'Unexpected diff paths:' >&2; echo "$bad" >&2; exit 1; }
+          test -z "$(git diff --name-only -- data/artists.json)" || { echo 'data/artists.json must not change' >&2; exit 1; }
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/artist/*.json data/manifest.json
+          staged="$(git diff --cached --name-only)"
+          test -n "$staged" || { echo 'No data changes.' >&2; exit 1; }
+          bad="$(printf '%s\n' "$staged" | grep -Ev '^data/artist/[^/]+\.json$|^data/manifest\.json$' || true)"
+          test -z "$bad" || { echo 'Unexpected staged paths:' >&2; echo "$bad" >&2; exit 1; }
+          git commit -m 'Apply audited bootstrap reconciliation to dev branch'
+          git push origin HEAD:apply/bootstrap-reconciliation-20260823
