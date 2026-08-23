@@ -1,4 +1,4 @@
-name: Bootstrap reconciliation apply via PR temp
+name: Bootstrap reconciliation final audit temp
 
 on:
   pull_request:
@@ -9,14 +9,14 @@ on:
     types: [opened, synchronize, reopened]
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
-  group: bootstrap-reconciliation-apply-pr-20260823
+  group: bootstrap-reconciliation-final-audit-20260823
   cancel-in-progress: false
 
 jobs:
-  apply:
+  audit:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
@@ -25,24 +25,24 @@ jobs:
           ref: apply/bootstrap-reconciliation-20260823
           fetch-depth: 0
 
-      - name: Verify audited base and apply explicit operations
+      - name: Normalize approved patches and audit applied data
         shell: bash
         run: |
           set -euo pipefail
           git fetch origin main apply/bootstrap-reconciliation-20260823
-          expected_main='18df9af321c33080a0559d6d3d6042bcda2153cd'
-          actual_main="$(git rev-parse origin/main)"
-          test "$actual_main" = "$expected_main" || { echo "main moved: expected=$expected_main actual=$actual_main" >&2; exit 1; }
-          if ! git diff --quiet origin/main...HEAD -- data/; then
-            echo 'Refusing to apply: data already differs from audited main.' >&2
-            git diff --name-status origin/main...HEAD -- data/
-            exit 1
-          fi
-
           python3 - <<'PY'
-          import base64, gzip, hashlib, json
-          from datetime import datetime, timedelta, timezone
+          import base64
+          import copy
+          import gzip
+          import hashlib
+          import json
+          import subprocess
+          from collections import Counter, defaultdict
           from pathlib import Path
+
+          BASE = '18df9af321c33080a0559d6d3d6042bcda2153cd'
+          if subprocess.check_output(['git','rev-parse','origin/main'], text=True).strip() != BASE:
+              raise SystemExit('main moved from audited baseline')
 
           expected_artists = {
             'ellegarden','ado',
@@ -57,178 +57,196 @@ jobs:
             'sandaime_j_soul_brothers','idolish7','a3','ikimonogakari','and_team','aina_the_end',
             'urashimasakatasen'
           }
-          if len(expected_artists) != 65:
-              raise SystemExit(f'expected artist set size error: {len(expected_artists)}')
+          assert len(expected_artists) == 65
+          collections = {'tour':'tours','performance':'performances','lottery':'lotteries'}
+          expected_delete_ids = {
+              'a3_act3_aw2027_tokyo_0101',
+              'a3_act3_aw2027_shizuoka_0101',
+              'a3_act3_aw2027_kagawa_0101',
+              'a3_act3_aw2027_aichi_0101',
+              'a3_act3_aw2027_yamaguchi_0101',
+              'a3_act3_aw2027_osaka_0101',
+          }
+          expected_deletes = {('a3','performance',x) for x in expected_delete_ids}
 
           operations = []
+          source_counts = {}
           for rel in [
               '.github/bootstrap-reconciliation-patches/reconcile-01.json',
               '.github/bootstrap-reconciliation-patches/reconcile-02.json',
               '.github/bootstrap-reconciliation-patches/reconcile-03.json',
           ]:
-              payload = json.loads(Path(rel).read_text(encoding='utf-8'))
-              operations.extend(payload.get('operations') or [])
+              ops = json.loads(Path(rel).read_text(encoding='utf-8')).get('operations') or []
+              source_counts[Path(rel).stem] = len(ops)
+              operations.extend(ops)
 
           parts = sorted(Path('.github/bootstrap-reconciliation-chunks-v2').glob('part-*'))
-          expected_parts = [f'part-{i:02d}' for i in range(8)]
-          if [p.name for p in parts] != expected_parts:
-              raise SystemExit(f'unexpected patch chunks: {[p.name for p in parts]}')
-          encoded = ''.join(p.read_text(encoding='ascii').strip() for p in parts)
-          worker_raw = gzip.decompress(base64.b64decode(encoded))
-          worker_payload = json.loads(worker_raw)
-          worker_ops = worker_payload.get('operations') or []
-          if len(worker_ops) != 970:
-              raise SystemExit(f'worker operation count mismatch: {len(worker_ops)}')
-          if len({op.get('artistId') for op in worker_ops}) != 55:
-              raise SystemExit('worker artist count mismatch')
+          if [p.name for p in parts] != [f'part-{i:02d}' for i in range(8)]:
+              raise SystemExit(f'unexpected worker chunks: {[p.name for p in parts]}')
+          worker = json.loads(gzip.decompress(base64.b64decode(''.join(p.read_text(encoding='ascii').strip() for p in parts))))
+          worker_ops = worker.get('operations') or []
+          if len(worker_ops) != 970 or len({op.get('artistId') for op in worker_ops}) != 55:
+              raise SystemExit('worker payload count/scope mismatch')
+          source_counts['worker-04-11'] = len(worker_ops)
           operations.extend(worker_ops)
 
-          collections = {'tour':'tours','performance':'performances','lottery':'lotteries'}
+          # Deterministically normalize every worker schema to apply_agent_patch.py-compatible shape.
+          normalized = []
           touched = set()
-          by_artist = {}
+          by_artist = defaultdict(list)
+          action_counts = Counter()
           deletes = set()
-          for op in operations:
-              artist, kind, obj_id, action = op.get('artistId'), op.get('kind'), op.get('id'), op.get('op')
-              if not all(isinstance(x,str) and x for x in (artist,kind,obj_id,action)):
-                  raise SystemExit(f'invalid operation identity: {op}')
-              if kind not in collections or action not in {'upsert','merge','delete'}:
-                  raise SystemExit(f'invalid operation: {op}')
-              key = (artist,kind,obj_id)
+          for n, op in enumerate(operations, 1):
+              action = op.get('action') or op.get('op')
+              artist = op.get('artistId')
+              kind = op.get('kind')
+              object_id = op.get('id')
+              if action not in {'upsert','merge','delete'} or kind not in collections:
+                  raise SystemExit(f'operation #{n}: invalid action/kind')
+              if not all(isinstance(x,str) and x for x in (artist,object_id)):
+                  raise SystemExit(f'operation #{n}: invalid artist/id')
+              key = (artist, kind, object_id)
               if key in touched:
-                  raise SystemExit(f'duplicate operation target across batches: {key}')
+                  raise SystemExit(f'cross-worker duplicate target: {key}')
               touched.add(key)
-              if action == 'upsert' and op.get('expectAbsent') is not True:
-                  raise SystemExit(f'upsert without expectAbsent=true: {key}')
-              if action == 'merge' and not isinstance(op.get('changes'),dict):
-                  raise SystemExit(f'merge changes missing: {key}')
-              if action == 'delete':
+              out = {
+                  'action': action,
+                  'file': f'data/artist/{artist}.json',
+                  'collection': collections[kind],
+                  'id': object_id,
+              }
+              if action == 'upsert':
+                  if op.get('expectAbsent') is not True:
+                      raise SystemExit(f'upsert without expectAbsent=true: {key}')
+                  value = op.get('value')
+                  if not isinstance(value,dict) or value.get('id') != object_id:
+                      raise SystemExit(f'invalid upsert value: {key}')
+                  out['expectAbsent'] = True
+                  out['value'] = value
+              elif action == 'merge':
+                  changes = op.get('changes')
+                  if not isinstance(changes,dict) or not changes:
+                      raise SystemExit(f'merge without changes: {key}')
+                  out['changes'] = changes
+              else:
                   if not str(op.get('reason') or '').strip():
                       raise SystemExit(f'delete without reason: {key}')
                   deletes.add(key)
-              by_artist.setdefault(artist,[]).append(op)
+              normalized.append(out)
+              by_artist[artist].append(out)
+              action_counts[action] += 1
 
+          if len(normalized) != 1058:
+              raise SystemExit(f'operation total mismatch: {len(normalized)}')
           if set(by_artist) != expected_artists:
-              raise SystemExit(f'artist set mismatch missing={sorted(expected_artists-set(by_artist))} extra={sorted(set(by_artist)-expected_artists)}')
-          expected_deletes = {
-              ('a3','performance','a3_act3_aw2027_tokyo_0101'),
-              ('a3','performance','a3_act3_aw2027_shizuoka_0101'),
-              ('a3','performance','a3_act3_aw2027_kagawa_0101'),
-              ('a3','performance','a3_act3_aw2027_aichi_0101'),
-              ('a3','performance','a3_act3_aw2027_yamaguchi_0101'),
-              ('a3','performance','a3_act3_aw2027_osaka_0101'),
-          }
-          if deletes != expected_deletes:
-              raise SystemExit(f'delete gate failed actual={sorted(deletes)}')
+              raise SystemExit(f'artist scope mismatch missing={sorted(expected_artists-set(by_artist))} extra={sorted(set(by_artist)-expected_artists)}')
+          if deletes != expected_deletes or action_counts['delete'] != 6:
+              raise SystemExit(f'delete allow-list mismatch: {sorted(deletes)}')
 
-          audit = {'operationCount':len(operations),'workerOperationCount':len(worker_ops),'artists':{},'deletes':[list(x) for x in sorted(deletes)]}
+          # Reconstruct the expected state from immutable main and require byte-independent JSON equality with apply branch.
           for artist, ops in sorted(by_artist.items()):
-              path = Path('data/artist') / f'{artist}.json'
-              if not path.is_file():
-                  raise SystemExit(f'missing artist file: {artist}')
-              data = json.loads(path.read_text(encoding='utf-8'))
-              before = {}
-              for kind, arrname in collections.items():
-                  arr = data.get(arrname)
-                  if not isinstance(arr,list):
-                      raise SystemExit(f'{artist}.{arrname} must be list')
-                  ids = [r.get('id') for r in arr if isinstance(r,dict)]
-                  if len(ids) != len(set(ids)):
-                      raise SystemExit(f'duplicate existing ids: {artist}.{arrname}')
-                  before[kind] = set(ids)
-
+              rel = f'data/artist/{artist}.json'
+              base_text = subprocess.check_output(['git','show',f'origin/main:{rel}'], text=True)
+              expected = json.loads(base_text)
+              before_ids = {c:{r.get('id') for r in expected[c] if isinstance(r,dict)} for c in collections.values()}
               for op in ops:
-                  arr = data[collections[op['kind']]]
-                  matches = [i for i,row in enumerate(arr) if isinstance(row,dict) and row.get('id') == op['id']]
-                  if op['op'] == 'upsert':
+                  rows = expected[op['collection']]
+                  matches = [i for i,row in enumerate(rows) if isinstance(row,dict) and row.get('id') == op['id']]
+                  if op['action'] == 'upsert':
                       if matches:
-                          raise SystemExit(f'upsert target already exists: {(artist,op["kind"],op["id"])}')
-                      value = op.get('value')
-                      if not isinstance(value,dict) or value.get('id') != op['id']:
-                          raise SystemExit(f'invalid upsert value: {(artist,op["kind"],op["id"])}')
-                      arr.append(value)
-                  elif op['op'] == 'merge':
+                          raise SystemExit(f'upsert target existed in main: {(artist,op["collection"],op["id"])}')
+                      rows.append(copy.deepcopy(op['value']))
+                  elif op['action'] == 'merge':
                       if len(matches) != 1:
-                          raise SystemExit(f'merge target count != 1: {(artist,op["kind"],op["id"])} count={len(matches)}')
-                      row = dict(arr[matches[0]])
+                          raise SystemExit(f'merge target count !=1 in main: {(artist,op["collection"],op["id"])}')
+                      row = dict(rows[matches[0]])
                       row.update(op['changes'])
-                      arr[matches[0]] = row
+                      rows[matches[0]] = row
                   else:
                       if len(matches) != 1:
-                          raise SystemExit(f'delete target count != 1: {(artist,op["kind"],op["id"])} count={len(matches)}')
-                      del arr[matches[0]]
+                          raise SystemExit(f'delete target count !=1 in main: {(artist,op["collection"],op["id"])}')
+                      del rows[matches[0]]
 
-              after = {}
-              for kind, arrname in collections.items():
-                  ids = [r.get('id') for r in data[arrname] if isinstance(r,dict)]
-                  if len(ids) != len(set(ids)):
-                      raise SystemExit(f'duplicate resulting ids: {artist}.{arrname}')
-                  after[kind] = set(ids)
-                  removed = before[kind] - after[kind]
-                  allowed = {oid for a,k,oid in expected_deletes if a == artist and k == kind}
+              actual = json.loads(Path(rel).read_text(encoding='utf-8'))
+              if actual != expected:
+                  raise SystemExit(f'applied data differs from normalized approved patch: {artist}')
+
+              after_ids = {c:{r.get('id') for r in actual[c] if isinstance(r,dict)} for c in collections.values()}
+              for c in collections.values():
+                  removed = before_ids[c] - after_ids[c]
+                  allowed = expected_delete_ids if artist == 'a3' and c == 'performances' else set()
                   if removed != allowed:
-                      raise SystemExit(f'unexpected removed ids: {artist}.{kind} removed={sorted(removed)} allowed={sorted(allowed)}')
-
-              tour_ids = {r.get('id') for r in data['tours'] if isinstance(r,dict)}
-              perf_ids = {r.get('id') for r in data['performances'] if isinstance(r,dict)}
-              for row in data['tours']:
-                  if not isinstance(row,dict): raise SystemExit(f'non-object tour: {artist}')
-                  for req in ('id','artistId','title','source','sourceUrl','lastVerifiedAt'):
-                      if row.get(req) is None: raise SystemExit(f'missing tour field {artist}.{row.get("id")}.{req}')
-                  if row.get('artistId') != artist: raise SystemExit(f'tour artist mismatch: {artist}.{row.get("id")}')
-              for row in data['performances']:
-                  if not isinstance(row,dict): raise SystemExit(f'non-object performance: {artist}')
-                  for req in ('id','tourId','performanceAt','source'):
-                      if row.get(req) is None: raise SystemExit(f'missing performance field {artist}.{row.get("id")}.{req}')
-                  if row.get('tourId') not in tour_ids: raise SystemExit(f'orphan performance: {artist}.{row.get("id")}')
-                  if row.get('kind') not in ('oneman','fes','taiban'): raise SystemExit(f'invalid kind: {artist}.{row.get("id")}')
-                  if row.get('kind') in ('fes','taiban') and not row.get('eventName'): raise SystemExit(f'eventName required: {artist}.{row.get("id")}')
-              for row in data['lotteries']:
-                  if not isinstance(row,dict): raise SystemExit(f'non-object lottery: {artist}')
-                  for req in ('id','tourId','type','source'):
-                      if row.get(req) is None: raise SystemExit(f'missing lottery field {artist}.{row.get("id")}.{req}')
-                  if row.get('tourId') not in tour_ids: raise SystemExit(f'orphan lottery: {artist}.{row.get("id")}')
+                      raise SystemExit(f'unexpected existing ID deletion: {artist}.{c} {sorted(removed)}')
+              tour_ids = after_ids['tours']
+              perf_ids = after_ids['performances']
+              for row in actual['performances']:
+                  if row.get('tourId') not in tour_ids:
+                      raise SystemExit(f'orphan performance: {artist}.{row.get("id")}')
+              for row in actual['lotteries']:
+                  if row.get('tourId') not in tour_ids:
+                      raise SystemExit(f'orphan lottery tour: {artist}.{row.get("id")}')
                   pids = row.get('performanceIds')
                   if pids is not None and (not isinstance(pids,list) or any(pid not in perf_ids for pid in pids)):
-                      raise SystemExit(f'invalid lottery performanceIds: {artist}.{row.get("id")}')
+                      raise SystemExit(f'orphan lottery performanceIds: {artist}.{row.get("id")}')
 
-              path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-              audit['artists'][artist] = {
-                  'operations':len(ops),
-                  'countsBefore':{k:len(v) for k,v in before.items()},
-                  'countsAfter':{k:len(v) for k,v in after.items()},
-              }
+          data_diff = subprocess.check_output(['git','diff','--name-only','origin/main...HEAD','--','data/'], text=True).splitlines()
+          expected_data_files = {f'data/artist/{a}.json' for a in expected_artists} | {'data/manifest.json'}
+          if set(data_diff) != expected_data_files:
+              raise SystemExit(f'unexpected data diff files missing={sorted(expected_data_files-set(data_diff))} extra={sorted(set(data_diff)-expected_data_files)}')
+          if 'data/artists.json' in data_diff:
+              raise SystemExit('data/artists.json changed')
 
-          manifest_path = Path('data/manifest.json')
-          manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
-          def hash16(path): return hashlib.sha256(path.read_bytes()).hexdigest()[:16]
-          manifest['version'] = int(manifest.get('version',0)) + 1
-          JST = timezone(timedelta(hours=9))
-          manifest['updatedAt'] = datetime.now(JST).strftime('%Y-%m-%dT%H:%M:%S+09:00')
-          manifest.setdefault('files',{}).setdefault('artists',{})['hash'] = hash16(Path('data/artists.json'))
-          hashes = {fp.stem:hash16(fp) for fp in sorted(Path('data/artist').glob('*.json'))}
-          manifest.setdefault('artists',{})
-          for aid,h in hashes.items(): manifest['artists'].setdefault(aid,{})['hash'] = h
-          for aid in list(manifest['artists']):
-              if aid not in hashes: del manifest['artists'][aid]
-          manifest_path.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-          Path('/tmp/bootstrap-apply-audit.json').write_text(json.dumps(audit,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-          print(json.dumps({'operations':len(operations),'artists':len(by_artist),'deletes':len(deletes),'manifestVersion':manifest['version']},ensure_ascii=False))
+          # Manifest must be exactly one version ahead and all hashes must match current data.
+          base_manifest = json.loads(subprocess.check_output(['git','show','origin/main:data/manifest.json'], text=True))
+          manifest = json.loads(Path('data/manifest.json').read_text(encoding='utf-8'))
+          if manifest.get('version') != int(base_manifest.get('version',0)) + 1:
+              raise SystemExit('manifest version mismatch')
+          def hash16(path): return hashlib.sha256(Path(path).read_bytes()).hexdigest()[:16]
+          if manifest.get('files',{}).get('artists',{}).get('hash') != hash16('data/artists.json'):
+              raise SystemExit('artists index hash mismatch')
+          for artist in expected_artists:
+              if manifest.get('artists',{}).get(artist,{}).get('hash') != hash16(f'data/artist/{artist}.json'):
+                  raise SystemExit(f'manifest artist hash mismatch: {artist}')
+
+          # High-risk centrally approved invariants.
+          a3 = json.loads(Path('data/artist/a3.json').read_text(encoding='utf-8'))
+          if expected_delete_ids & {p.get('id') for p in a3['performances']}:
+              raise SystemExit('A3 approved delete IDs still exist')
+          null_date_tours = [t for t in a3['tours'] if t.get('startDate') is None and t.get('endDate') is None and ('2027' in str(t.get('title')) or 'ACT3' in str(t.get('title')).upper())]
+          if not null_date_tours:
+              raise SystemExit('A3 2027 tour with nulled unsupported dates not retained')
+          bloom_dates = {str(p.get('performanceAt',''))[:10] for p in a3['performances'] if '2027-04-0' in str(p.get('performanceAt',''))}
+          if not {'2027-04-03','2027-04-04'} <= bloom_dates:
+              raise SystemExit('A3 FULL BLOOMING LIVE 2027-04-03/04 not retained')
+
+          def find_ops(artist, needle):
+              needle = needle.lower()
+              return [op for op in normalized if f'/artist/{artist}.json' in op['file'] and needle in json.dumps(op,ensure_ascii=False).lower()]
+
+          sky = find_ops('sky_hi','viva la rock')
+          if not any(str(op.get('value',{}).get('performanceAt',''))[11:16] == '11:00' for op in sky):
+              raise SystemExit('SKY-HI VIVA LA ROCK festival START invariant missing')
+          ztm = find_ops('zutomayo','fuji rock')
+          if not any(str(op.get('value',{}).get('performanceAt',''))[11:16] == '12:00' for op in ztm):
+              raise SystemExit('zutomayo FUJI ROCK provisional 12:00 invariant missing')
+          venezia = find_ops('glay','venezia') + find_ops('glay','dreamy')
+          venezia_times = sorted({op.get('value',{}).get('performanceAt') for op in venezia if op.get('value',{}).get('performanceAt')})
+          if not venezia_times or any(str(x).endswith('+09:00') for x in venezia_times):
+              raise SystemExit(f'GLAY VENEZIA local-offset invariant failed: {venezia_times}')
+
+          summary = {
+              'sourceMainCommit': BASE,
+              'artistCount': len(by_artist),
+              'operationCount': len(normalized),
+              'actionCounts': dict(sorted(action_counts.items())),
+              'sourceOperationCounts': source_counts,
+              'deleteIds': sorted(expected_delete_ids),
+              'changedDataFiles': len(data_diff),
+              'glayVeneziaPerformanceAt': venezia_times,
+              'normalizedSchema': ['action','file','collection','id','expectAbsent/value OR changes'],
+          }
+          print('FINAL_AUDIT_SUMMARY=' + json.dumps(summary,ensure_ascii=False,sort_keys=True))
           PY
 
-      - name: Validate diff and commit apply branch only
-        shell: bash
-        run: |
-          set -euo pipefail
-          git diff --check
-          bad="$(git diff --name-only | grep -Ev '^data/artist/[^/]+\.json$|^data/manifest\.json$' || true)"
-          test -z "$bad" || { echo 'Unexpected diff paths:' >&2; echo "$bad" >&2; exit 1; }
-          test -z "$(git diff --name-only -- data/artists.json)" || { echo 'data/artists.json must not change' >&2; exit 1; }
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/artist/*.json data/manifest.json
-          staged="$(git diff --cached --name-only)"
-          test -n "$staged" || { echo 'No data changes.' >&2; exit 1; }
-          bad="$(printf '%s\n' "$staged" | grep -Ev '^data/artist/[^/]+\.json$|^data/manifest\.json$' || true)"
-          test -z "$bad" || { echo 'Unexpected staged paths:' >&2; echo "$bad" >&2; exit 1; }
-          git commit -m 'Apply audited bootstrap reconciliation to dev branch'
-          git push origin HEAD:apply/bootstrap-reconciliation-20260823
+          git diff --check origin/main...HEAD -- data/
+          test -z "$(git diff --name-only origin/main...HEAD -- data/artists.json)"
