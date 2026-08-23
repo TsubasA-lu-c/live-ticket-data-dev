@@ -69,8 +69,9 @@ jobs:
               payload = json.loads(Path(rel).read_text(encoding='utf-8'))
               operations.extend(payload.get('operations') or [])
 
-          parts = sorted(Path('.github/bootstrap-reconciliation-chunks').glob('part-*'))
-          if [p.name for p in parts] != ['part-00','part-01']:
+          parts = sorted(Path('.github/bootstrap-reconciliation-chunks-v2').glob('part-*'))
+          expected_parts = [f'part-{i:02d}' for i in range(8)]
+          if [p.name for p in parts] != expected_parts:
               raise SystemExit(f'unexpected patch chunks: {[p.name for p in parts]}')
           encoded = ''.join(p.read_text(encoding='ascii').strip() for p in parts)
           worker_raw = gzip.decompress(base64.b64decode(encoded))
