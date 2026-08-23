@@ -1,0 +1,83 @@
+name: Bootstrap reconciliation import temp
+
+on:
+  push:
+    branches:
+      - apply/bootstrap-reconciliation-20260823
+    paths:
+      - '.github/bootstrap-reconciliation-final.json.gz.b64'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bootstrap-reconciliation-import-20260823
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Decode and validate audited patch
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import base64, gzip, json
+          from pathlib import Path
+
+          src = Path('.github/bootstrap-reconciliation-final.json.gz.b64')
+          dst = Path('.github/bootstrap-reconciliation-patches/reconcile-04-11-final.json')
+          raw = gzip.decompress(base64.b64decode(src.read_text(encoding='ascii')))
+          payload = json.loads(raw)
+          ops = payload.get('operations') or []
+          if len(ops) != 970:
+              raise SystemExit(f'unexpected operation count: {len(ops)}')
+          touched = set()
+          deletes = []
+          artists = set()
+          for op in ops:
+              key = (op.get('artistId'), op.get('kind'), op.get('id'))
+              if key in touched:
+                  raise SystemExit(f'duplicate operation target: {key}')
+              touched.add(key)
+              artists.add(op.get('artistId'))
+              if op.get('op') == 'upsert' and op.get('expectAbsent') is not True:
+                  raise SystemExit(f'upsert without expectAbsent=true: {key}')
+              if op.get('op') == 'merge' and not op.get('changes'):
+                  raise SystemExit(f'merge without changes: {key}')
+              if op.get('op') == 'delete':
+                  deletes.append(key)
+          expected_deletes = {
+              ('a3','performance','a3_act3_aw2027_tokyo_0101'),
+              ('a3','performance','a3_act3_aw2027_shizuoka_0101'),
+              ('a3','performance','a3_act3_aw2027_kagawa_0101'),
+              ('a3','performance','a3_act3_aw2027_aichi_0101'),
+              ('a3','performance','a3_act3_aw2027_yamaguchi_0101'),
+              ('a3','performance','a3_act3_aw2027_osaka_0101'),
+          }
+          if set(deletes) != expected_deletes:
+              raise SystemExit(f'delete gate failed: {deletes}')
+          if len(artists) != 55:
+              raise SystemExit(f'unexpected artist count: {len(artists)}')
+          dst.parent.mkdir(parents=True, exist_ok=True)
+          dst.write_bytes(raw)
+          print(f'validated operations={len(ops)} artists={len(artists)} deletes={len(deletes)}')
+          PY
+          git diff --check -- .github/bootstrap-reconciliation-patches/reconcile-04-11-final.json
+          test -z "$(git diff --name-only -- data/)" || { echo 'Refusing data change.' >&2; exit 1; }
+      - name: Commit generated patch only
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add .github/bootstrap-reconciliation-patches/reconcile-04-11-final.json
+          test -z "$(git diff --cached --name-only | grep '^data/' || true)" || exit 1
+          git diff --cached --quiet && exit 0
+          git commit -m 'Import final audited bootstrap reconciliation patch'
+          git pull --rebase origin apply/bootstrap-reconciliation-20260823
+          git push origin HEAD:apply/bootstrap-reconciliation-20260823
