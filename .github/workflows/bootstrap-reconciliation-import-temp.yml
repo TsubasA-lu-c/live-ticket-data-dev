@@ -5,7 +5,7 @@ on:
     branches:
       - apply/bootstrap-reconciliation-20260823
     paths:
-      - '.github/bootstrap-reconciliation-final.json.gz.b64'
+      - '.github/bootstrap-reconciliation-final.ready'
 
 permissions:
   contents: write
@@ -29,9 +29,12 @@ jobs:
           import base64, gzip, json
           from pathlib import Path
 
-          src = Path('.github/bootstrap-reconciliation-final.json.gz.b64')
+          parts = sorted(Path('.github/bootstrap-reconciliation-chunks').glob('part-*'))
+          if not parts:
+              raise SystemExit('missing patch chunks')
+          encoded = ''.join(p.read_text(encoding='ascii').strip() for p in parts)
+          raw = gzip.decompress(base64.b64decode(encoded))
           dst = Path('.github/bootstrap-reconciliation-patches/reconcile-04-11-final.json')
-          raw = gzip.decompress(base64.b64decode(src.read_text(encoding='ascii')))
           payload = json.loads(raw)
           ops = payload.get('operations') or []
           if len(ops) != 970:
