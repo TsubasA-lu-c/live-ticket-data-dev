@@ -36,6 +36,22 @@
       "source": "system",
       "sourceUrl": "https://starto.jp/s/p/live/10545",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "naniwa_danshi_fam_meeting_5th_2026",
+      "artistId": "naniwa_danshi",
+      "title": "5th Anniversary なにわ男子とふぁむmeeting",
+      "startDate": "2026-11-12T00:00:00+09:00",
+      "endDate": "2026-11-12T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 6000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10577",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -602,6 +618,30 @@
       "source": "system",
       "sourceUrl": "https://2026.kamigataboyz.com/1-1",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "naniwa_danshi_fam_meeting_5th_2026_tokyo_1112_1330",
+      "tourId": "naniwa_danshi_fam_meeting_5th_2026",
+      "venue": "東京ガーデンシアター",
+      "performanceAt": "2026-11-12T13:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10577",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "naniwa_danshi_fam_meeting_5th_2026_tokyo_1112_1800",
+      "tourId": "naniwa_danshi_fam_meeting_5th_2026",
+      "venue": "東京ガーデンシアター",
+      "performanceAt": "2026-11-12T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10577",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -764,6 +804,20 @@
       "source": "system",
       "sourceUrl": "https://starto.jp/s/p/live/10545?tab=ticket",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "naniwa_danshi_fam_meeting_5th_2026_fc",
+      "tourId": "naniwa_danshi_fam_meeting_5th_2026",
+      "type": "なにわ男子ファンクラブ会員受付（抽選）",
+      "entryStartAt": "2026-08-12T13:00:00+09:00",
+      "entryEndAt": "2026-08-19T12:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10577",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

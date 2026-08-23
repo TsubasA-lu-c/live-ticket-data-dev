@@ -1,7 +1,81 @@
 {
   "artistId": "seventeen",
-  "tours": [],
-  "performances": [],
+  "tours": [
+    {
+      "id": "seventeen_yakusoku_fanmeeting_2026",
+      "artistId": "seventeen",
+      "title": "SEVENTEEN 2026 JAPAN FANMEETING 'YAKUSOKU'",
+      "startDate": "2026-05-13T00:00:00+09:00",
+      "endDate": "2026-05-24T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "アリーナ指定席",
+          "amount": 24000
+        },
+        {
+          "label": "スタンド指定席／スタンド注釈付指定席",
+          "amount": 16000
+        },
+        {
+          "label": "スタンド見切れ体感席",
+          "amount": 15000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.seventeen-17.jp/statics/2026_yakusoku",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "seventeen_yakusoku_fanmeeting_2026_tokyo_0513",
+      "tourId": "seventeen_yakusoku_fanmeeting_2026",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-05-13T17:30:00+09:00",
+      "doorOpenAt": "2026-05-13T15:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.seventeen-17.jp/statics/2026_yakusoku",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "seventeen_yakusoku_fanmeeting_2026_tokyo_0514",
+      "tourId": "seventeen_yakusoku_fanmeeting_2026",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-05-14T16:30:00+09:00",
+      "doorOpenAt": "2026-05-14T14:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.seventeen-17.jp/statics/2026_yakusoku",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "seventeen_yakusoku_fanmeeting_2026_osaka_0523",
+      "tourId": "seventeen_yakusoku_fanmeeting_2026",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2026-05-23T17:30:00+09:00",
+      "doorOpenAt": "2026-05-23T15:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.seventeen-17.jp/statics/2026_yakusoku",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "seventeen_yakusoku_fanmeeting_2026_osaka_0524",
+      "tourId": "seventeen_yakusoku_fanmeeting_2026",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2026-05-24T16:30:00+09:00",
+      "doorOpenAt": "2026-05-24T14:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.seventeen-17.jp/statics/2026_yakusoku",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    }
+  ],
   "lotteries": [],
   "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
   "appleMusicTracks": [

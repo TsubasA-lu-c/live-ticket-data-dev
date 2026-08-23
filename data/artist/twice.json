@@ -1,8 +1,161 @@
 {
   "artistId": "twice",
-  "tours": [],
-  "performances": [],
-  "lotteries": [],
+  "tours": [
+    {
+      "id": "twice_this_is_for_world_tour_japan_stadium_2026",
+      "artistId": "twice",
+      "title": "TWICE <THIS IS FOR> WORLD TOUR IN JAPAN",
+      "startDate": "2026-04-25T00:00:00+09:00",
+      "endDate": "2026-04-28T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 15500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.twicejapan.com/feature/6thworldtour_thisisfor_stadium",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "twice_this_is_for_world_tour_japan_stadium_2026_tokyo_0425",
+      "tourId": "twice_this_is_for_world_tour_japan_stadium_2026",
+      "venue": "MUFG STADIUM (国立競技場)",
+      "performanceAt": "2026-04-25T18:00:00+09:00",
+      "doorOpenAt": "2026-04-25T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.twicejapan.com/feature/6thworldtour_thisisfor_stadium",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "twice_this_is_for_world_tour_japan_stadium_2026_tokyo_0426",
+      "tourId": "twice_this_is_for_world_tour_japan_stadium_2026",
+      "venue": "MUFG STADIUM (国立競技場)",
+      "performanceAt": "2026-04-26T17:00:00+09:00",
+      "doorOpenAt": "2026-04-26T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.twicejapan.com/feature/6thworldtour_thisisfor_stadium",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "twice_this_is_for_world_tour_japan_stadium_2026_tokyo_0428",
+      "tourId": "twice_this_is_for_world_tour_japan_stadium_2026",
+      "venue": "MUFG STADIUM (国立競技場)",
+      "performanceAt": "2026-04-28T18:00:00+09:00",
+      "doorOpenAt": "2026-04-28T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.twicejapan.com/feature/6thworldtour_thisisfor_stadium",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "twice_this_is_for_world_tour_japan_stadium_2026_once_plus",
+      "tourId": "twice_this_is_for_world_tour_japan_stadium_2026",
+      "type": "最速先行（ONCE JAPAN+ 長期会員先行）",
+      "entryStartAt": "2025-12-08T10:00:00+09:00",
+      "entryEndAt": "2025-12-14T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://www.twicejapan.com/feature/6thworldtour_thisisfor_stadium",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "twice_this_is_for_world_tour_japan_stadium_2026_w_member",
+      "tourId": "twice_this_is_for_world_tour_japan_stadium_2026",
+      "type": "W会員先行",
+      "entryStartAt": "2025-12-15T10:00:00+09:00",
+      "entryEndAt": "2025-12-21T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://www.twicejapan.com/feature/6thworldtour_thisisfor_stadium",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "twice_this_is_for_world_tour_japan_stadium_2026_once_japan",
+      "tourId": "twice_this_is_for_world_tour_japan_stadium_2026",
+      "type": "ONCE JAPAN会員・海外在住ONCE JAPAN先行",
+      "entryStartAt": "2025-12-22T10:00:00+09:00",
+      "entryEndAt": "2025-12-28T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://www.twicejapan.com/feature/6thworldtour_thisisfor_stadium",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "twice_this_is_for_world_tour_japan_stadium_2026_once_mobile",
+      "tourId": "twice_this_is_for_world_tour_japan_stadium_2026",
+      "type": "ONCE JAPAN MOBILE会員先行",
+      "entryStartAt": "2025-12-29T10:00:00+09:00",
+      "entryEndAt": "2026-01-04T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://www.twicejapan.com/feature/6thworldtour_thisisfor_stadium",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "twice_this_is_for_world_tour_japan_stadium_2026_ticketboard_fastest",
+      "tourId": "twice_this_is_for_world_tour_japan_stadium_2026",
+      "type": "一般最速先行（ticket board会員先行）",
+      "entryStartAt": "2026-01-01T10:00:00+09:00",
+      "entryEndAt": "2026-01-14T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://www.twicejapan.com/feature/6thworldtour_thisisfor_stadium",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "twice_this_is_for_world_tour_japan_stadium_2026_upgrade",
+      "tourId": "twice_this_is_for_world_tour_japan_stadium_2026",
+      "type": "アップグレードチケット受付（抽選）",
+      "entryStartAt": "2026-02-21T10:00:00+09:00",
+      "entryEndAt": "2026-03-02T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://www.twicejapan.com/feature/6thworldtour_thisisfor_stadium",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "twice_this_is_for_world_tour_japan_stadium_2026_general_lottery",
+      "tourId": "twice_this_is_for_world_tour_japan_stadium_2026",
+      "type": "一般抽選販売",
+      "entryStartAt": "2026-03-02T10:00:00+09:00",
+      "entryEndAt": "2026-03-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://www.twicejapan.com/feature/6thworldtour_thisisfor_stadium",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    }
+  ],
   "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
   "appleMusicTracks": [
     {

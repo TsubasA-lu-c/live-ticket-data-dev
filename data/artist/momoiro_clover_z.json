@@ -249,7 +249,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260701_01",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     },
     {
       "id": "momoiro_clover_z_xmas_2026",
@@ -281,7 +281,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260727_03",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     },
     {
       "id": "momoiro_clover_z_utagassen_10th",
@@ -292,7 +292,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/251221_01",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     },
     {
       "id": "momoiro_clover_z_ayaka_solo_2027",
@@ -304,6 +304,17 @@
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260611_05",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_tokyo_momoclo_land_2026",
+      "artistId": "momoiro_clover_z",
+      "title": "ももクロ結成18周年記念イベント 東京ももクロランド",
+      "startDate": "2026-05-03T00:00:00+09:00",
+      "endDate": "2026-05-03T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260501_02",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -377,7 +388,7 @@
       "eventName": "サントリー オールフリー presents 氣志團万博2026 〜房総爆音リゾート〜",
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260701_01",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     },
     {
       "id": "momoiro_clover_z_xmas_2026_tokyo_1212",
@@ -389,7 +400,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260727_03",
-      "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     },
     {
       "id": "momoiro_clover_z_xmas_2026_tokyo_1213",
@@ -401,7 +412,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260727_03",
-      "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     },
     {
       "id": "momoiro_clover_z_utagassen_10th_tokyo_1231",
@@ -413,7 +424,7 @@
       "eventName": "第10回 ももいろ歌合戦",
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/251221_01",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     },
     {
       "id": "momoiro_clover_z_orchestra_summer_memories_2026_tokyo_0824",
@@ -521,7 +532,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260727_03",
-      "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     },
     {
       "id": "momoiro_clover_z_xmas_2026_hiroshima_1102",
@@ -533,7 +544,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260727_03",
-      "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     },
     {
       "id": "momoiro_clover_z_xmas_2026_hyogo_1106",
@@ -545,7 +556,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260727_03",
-      "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     },
     {
       "id": "momoiro_clover_z_xmas_2026_kyoto_1107",
@@ -557,7 +568,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260727_03",
-      "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     },
     {
       "id": "momoiro_clover_z_xmas_2026_niigata_1122",
@@ -569,7 +580,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260727_03",
-      "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     },
     {
       "id": "momoiro_clover_z_xmas_2026_aichi_1123",
@@ -581,7 +592,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260727_03",
-      "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     },
     {
       "id": "momoiro_clover_z_xmas_2026_fukuoka_1127",
@@ -593,7 +604,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260727_03",
-      "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     },
     {
       "id": "momoiro_clover_z_xmas_2026_sapporo_1203",
@@ -605,7 +616,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260727_03",
-      "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     },
     {
       "id": "momoiro_clover_z_xmas_2026_tokyo_1211",
@@ -617,7 +628,43 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260727_03",
-      "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_tokyo_momoclo_land_2026_draw_show",
+      "tourId": "momoiro_clover_z_tokyo_momoclo_land_2026",
+      "venue": "東京体育館",
+      "performanceAt": "2026-05-03T10:00:00+09:00",
+      "doorOpenAt": "2026-05-03T09:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "THE DRAW SHOW",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260501_02",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_tokyo_momoclo_land_2026_high_tension_show",
+      "tourId": "momoiro_clover_z_tokyo_momoclo_land_2026",
+      "venue": "東京体育館",
+      "performanceAt": "2026-05-03T14:00:00+09:00",
+      "doorOpenAt": "2026-05-03T13:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "お昼のハイテンションショー",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260501_02",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_tokyo_momoclo_land_2026_mcz_the_live",
+      "tourId": "momoiro_clover_z_tokyo_momoclo_land_2026",
+      "venue": "東京体育館",
+      "performanceAt": "2026-05-03T18:30:00+09:00",
+      "doorOpenAt": "2026-05-03T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "MCZ THE LIVE 2026春 -18th Anniversary Roadmap-",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260501_02",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -768,6 +815,33 @@
       "source": "system",
       "sourceUrl": "https://www.puroland.jp/event-campaign/spookypumpkin2026/",
       "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_xmas_2026_fc",
+      "tourId": "momoiro_clover_z_xmas_2026",
+      "type": "FC先行（ANGEL EYES会員）",
+      "entryStartAt": "2026-08-05T13:00:00+09:00",
+      "entryEndAt": "2026-08-11T23:59:00+09:00",
+      "resultAt": "2026-08-22T13:00:00+09:00",
+      "paymentStartAt": "2026-08-22T13:00:00+09:00",
+      "paymentEndAt": "2026-08-26T23:59:00+09:00",
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260727_03",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_xmas_2026_eplus",
+      "tourId": "momoiro_clover_z_xmas_2026",
+      "type": "プレオーダー（イープラス）",
+      "entryStartAt": null,
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/news",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

@@ -24,6 +24,28 @@
       "source": "system",
       "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_20th_anniversary_fes_2026",
+      "artistId": "ikimonogakari",
+      "title": "超いきものがかりフェス デビュー20周年だよ!! 〜ありがとうって伝えたくて〜",
+      "startDate": "2026-03-14T00:00:00+09:00",
+      "endDate": "2026-03-15T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/news/live/20260212-1",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_funky_monkey_babys_taiban_2026",
+      "artistId": "ikimonogakari",
+      "title": "FUNKY MONKEY BΛBY’S × いきものがかり 20周年対バンライブ 〜あの日の約束ハタチまSHOW!!〜",
+      "startDate": "2026-06-20T00:00:00+09:00",
+      "endDate": "2026-06-21T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/news/live/20260125-1",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -422,6 +444,54 @@
       "source": "system",
       "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_20th_anniversary_fes_2026_0314",
+      "tourId": "ikimonogakari_20th_anniversary_fes_2026",
+      "venue": "LaLa arena TOKYO-BAY",
+      "performanceAt": "2026-03-14T13:00:00+09:00",
+      "doorOpenAt": "2026-03-14T12:00:00+09:00",
+      "kind": "fes",
+      "eventName": "超いきものがかりフェス デビュー20周年だよ!! 〜ありがとうって伝えたくて〜",
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/news/live/20260212-1",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_20th_anniversary_fes_2026_0315",
+      "tourId": "ikimonogakari_20th_anniversary_fes_2026",
+      "venue": "LaLa arena TOKYO-BAY",
+      "performanceAt": "2026-03-15T13:00:00+09:00",
+      "doorOpenAt": "2026-03-15T12:00:00+09:00",
+      "kind": "fes",
+      "eventName": "超いきものがかりフェス デビュー20周年だよ!! 〜ありがとうって伝えたくて〜",
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/news/live/20260212-1",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_funky_monkey_babys_taiban_2026_0620",
+      "tourId": "ikimonogakari_funky_monkey_babys_taiban_2026",
+      "venue": "東京ガーデンシアター",
+      "performanceAt": "2026-06-20T18:00:00+09:00",
+      "doorOpenAt": "2026-06-20T17:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "FUNKY MONKEY BΛBY’S × いきものがかり 20周年対バンライブ 〜あの日の約束ハタチまSHOW!!〜",
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/news/live/20260125-1",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_funky_monkey_babys_taiban_2026_0621",
+      "tourId": "ikimonogakari_funky_monkey_babys_taiban_2026",
+      "venue": "東京ガーデンシアター",
+      "performanceAt": "2026-06-21T17:00:00+09:00",
+      "doorOpenAt": "2026-06-21T16:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "FUNKY MONKEY BΛBY’S × いきものがかり 20周年対バンライブ 〜あの日の約束ハタチまSHOW!!〜",
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/news/live/20260125-1",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "lotteries": [

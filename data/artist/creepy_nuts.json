@@ -66,6 +66,26 @@
       "source": "system",
       "sourceUrl": "https://www.livenation.my/event/the-weeknd-after-hours-til-dawn-tour-kuala-lumpur-tickets-edp1672816",
       "lastVerifiedAt": "2026-08-09T02:18:22+09:00"
+    },
+    {
+      "id": "creepy_nuts_oneman_tour_2027",
+      "artistId": "creepy_nuts",
+      "title": "Creepy Nuts ONEMAN TOUR 2027",
+      "startDate": "2027-02-27T00:00:00+09:00",
+      "endDate": "2027-05-30T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 11000
+        },
+        {
+          "label": "着席指定席（兵庫公演のみ）",
+          "amount": 11000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://creepynuts.com/onemantour2027/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -212,6 +232,150 @@
       "source": "system",
       "sourceUrl": "https://www.livenation.my/event/the-weeknd-after-hours-til-dawn-tour-kuala-lumpur-tickets-edp1672816",
       "lastVerifiedAt": "2026-08-09T02:18:22+09:00"
+    },
+    {
+      "id": "creepy_nuts_oneman_tour_2027_sendai_0227",
+      "tourId": "creepy_nuts_oneman_tour_2027",
+      "venue": "ゼビオアリーナ仙台",
+      "performanceAt": "2027-02-27T17:00:00+09:00",
+      "doorOpenAt": "2027-02-27T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://creepynuts.com/onemantour2027/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "creepy_nuts_oneman_tour_2027_fukuoka_0306",
+      "tourId": "creepy_nuts_oneman_tour_2027",
+      "venue": "マリンメッセ福岡 A館",
+      "performanceAt": "2027-03-06T18:00:00+09:00",
+      "doorOpenAt": "2027-03-06T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://creepynuts.com/onemantour2027/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "creepy_nuts_oneman_tour_2027_tokyo_0316",
+      "tourId": "creepy_nuts_oneman_tour_2027",
+      "venue": "有明アリーナ",
+      "performanceAt": "2027-03-16T19:00:00+09:00",
+      "doorOpenAt": "2027-03-16T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://creepynuts.com/onemantour2027/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "creepy_nuts_oneman_tour_2027_tokyo_0317",
+      "tourId": "creepy_nuts_oneman_tour_2027",
+      "venue": "有明アリーナ",
+      "performanceAt": "2027-03-17T19:00:00+09:00",
+      "doorOpenAt": "2027-03-17T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://creepynuts.com/onemantour2027/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "creepy_nuts_oneman_tour_2027_aichi_0320",
+      "tourId": "creepy_nuts_oneman_tour_2027",
+      "venue": "Aichi Sky Expo ホールA",
+      "performanceAt": "2027-03-20T18:00:00+09:00",
+      "doorOpenAt": "2027-03-20T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://creepynuts.com/onemantour2027/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "creepy_nuts_oneman_tour_2027_aichi_0321",
+      "tourId": "creepy_nuts_oneman_tour_2027",
+      "venue": "Aichi Sky Expo ホールA",
+      "performanceAt": "2027-03-21T16:00:00+09:00",
+      "doorOpenAt": "2027-03-21T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://creepynuts.com/onemantour2027/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "creepy_nuts_oneman_tour_2027_niigata_0410",
+      "tourId": "creepy_nuts_oneman_tour_2027",
+      "venue": "朱鷺メッセ・新潟コンベンションセンター",
+      "performanceAt": "2027-04-10T18:00:00+09:00",
+      "doorOpenAt": "2027-04-10T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://creepynuts.com/onemantour2027/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "creepy_nuts_oneman_tour_2027_hokkaido_0417",
+      "tourId": "creepy_nuts_oneman_tour_2027",
+      "venue": "真駒内セキスイハイムアイスアリーナ",
+      "performanceAt": "2027-04-17T18:00:00+09:00",
+      "doorOpenAt": "2027-04-17T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://creepynuts.com/onemantour2027/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "creepy_nuts_oneman_tour_2027_kobe_0522",
+      "tourId": "creepy_nuts_oneman_tour_2027",
+      "venue": "GLION ARENA KOBE",
+      "performanceAt": "2027-05-22T18:00:00+09:00",
+      "doorOpenAt": "2027-05-22T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://creepynuts.com/onemantour2027/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "creepy_nuts_oneman_tour_2027_kobe_0523",
+      "tourId": "creepy_nuts_oneman_tour_2027",
+      "venue": "GLION ARENA KOBE",
+      "performanceAt": "2027-05-23T16:00:00+09:00",
+      "doorOpenAt": "2027-05-23T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://creepynuts.com/onemantour2027/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "creepy_nuts_oneman_tour_2027_saitama_0529",
+      "tourId": "creepy_nuts_oneman_tour_2027",
+      "venue": "GMOアリーナさいたま",
+      "performanceAt": "2027-05-29T18:00:00+09:00",
+      "doorOpenAt": "2027-05-29T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://creepynuts.com/onemantour2027/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "creepy_nuts_oneman_tour_2027_saitama_0530",
+      "tourId": "creepy_nuts_oneman_tour_2027",
+      "venue": "GMOアリーナさいたま",
+      "performanceAt": "2027-05-30T16:00:00+09:00",
+      "doorOpenAt": "2027-05-30T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://creepynuts.com/onemantour2027/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -247,6 +411,20 @@
       "source": "system",
       "sourceUrl": "https://www.livenationhip.co.jp/all-events/the-weeknd-tickets-ae474869",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "creepy_nuts_oneman_tour_2027_club_presale",
+      "tourId": "creepy_nuts_oneman_tour_2027",
+      "type": "CLUB Creepy Nuts先行",
+      "entryStartAt": "2026-08-06T18:00:00+09:00",
+      "entryEndAt": "2026-08-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://creepynuts.com/onemantour2027/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

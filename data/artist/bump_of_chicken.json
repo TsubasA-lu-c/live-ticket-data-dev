@@ -408,6 +408,20 @@
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/web/live/irg/boc2026-2027/select",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_tour_2026_2027_ratio_clavis_familymart_advance",
+      "tourId": "bump_of_chicken_tour_2026",
+      "type": "ファミリーマート先行",
+      "entryStartAt": "2026-08-10T18:00:00+09:00",
+      "entryEndAt": "2026-08-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/0025330001",
+      "lastVerifiedAt": "2026-08-23T07:44:00+09:00"
     }
   ],
   "appleMusicTracks": [

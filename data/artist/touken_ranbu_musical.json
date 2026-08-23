@@ -47,13 +47,13 @@
       "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_tokyo_0907",
       "tourId": "touken_ranbu_musical_tsukiyo_ichiru_2026",
       "venue": "Kanadevia Hall",
-      "performanceAt": "2026-09-07T18:00:00+09:00",
+      "performanceAt": "2026-09-07T18:30:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": "ミュージカル『刀剣乱舞』～月夜一縷～",
       "source": "system",
-      "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://musical-toukenranbu.jp/contents/1097874",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     },
     {
       "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_tokyo_0913",
@@ -131,13 +131,13 @@
       "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_tokyo2_1025",
       "tourId": "touken_ranbu_musical_tsukiyo_ichiru_2026",
       "venue": "Kanadevia Hall",
-      "performanceAt": "2026-10-25T18:00:00+09:00",
+      "performanceAt": "2026-10-25T18:30:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": "ミュージカル『刀剣乱舞』～月夜一縷～",
       "source": "system",
-      "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://musical-toukenranbu.jp/contents/1097874",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     },
     {
       "id": "touken_ranbu_musical_event_ice_blade_2026_yoyogi_1003",
@@ -162,6 +162,18 @@
       "source": "system",
       "sourceUrl": "https://toukenranbu-iceblade.jp/",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_tokyo2_1025_1300",
+      "tourId": "touken_ranbu_musical_tsukiyo_ichiru_2026",
+      "venue": "Kanadevia Hall",
+      "performanceAt": "2026-10-25T13:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://musical-toukenranbu.jp/contents/1097874",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "lotteries": [

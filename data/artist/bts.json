@@ -1,7 +1,44 @@
 {
   "artistId": "bts",
-  "tours": [],
-  "performances": [],
+  "tours": [
+    {
+      "id": "bts_world_tour_arirang_japan_2026",
+      "artistId": "bts",
+      "title": "BTS WORLD TOUR 'ARIRANG' IN JAPAN",
+      "startDate": "2026-04-17T00:00:00+09:00",
+      "endDate": "2026-04-18T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://bts-official.jp/schedule/sEfPyALR162k%3D",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "bts_world_tour_arirang_japan_2026_tokyo_dome_0417",
+      "tourId": "bts_world_tour_arirang_japan_2026",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-04-17T18:30:00+09:00",
+      "doorOpenAt": "2026-04-17T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://bts-official.jp/schedule/sEfPyALR162k%3D",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "bts_world_tour_arirang_japan_2026_tokyo_dome_0418",
+      "tourId": "bts_world_tour_arirang_japan_2026",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-04-18T15:00:00+09:00",
+      "doorOpenAt": "2026-04-18T13:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://bts-official.jp/schedule/sEfPyALR162k%3D",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    }
+  ],
   "lotteries": [],
   "lastVerifiedAt": "2026-07-22T10:06:40+09:00",
   "sourceUrl": "https://bts-official.jp/",

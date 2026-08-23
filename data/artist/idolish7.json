@@ -64,6 +64,17 @@
       "source": "system",
       "sourceUrl": "https://idolish7.com/4j/live-streaming/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "idolish7_mezzo_visiblive_violamare_2027",
+      "artistId": "idolish7",
+      "title": "MEZZO” VISIBLIVE “Violamare”",
+      "startDate": "2027-03-06T00:00:00+09:00",
+      "endDate": "2027-03-07T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://idolish7.com/news/2026/19840",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -258,6 +269,42 @@
       "source": "system",
       "sourceUrl": "https://idolish7.com/4j/live-streaming/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "idolish7_mezzo_visiblive_violamare_2027_0306_legame",
+      "tourId": "idolish7_mezzo_visiblive_violamare_2027",
+      "venue": "京王アリーナTOKYO",
+      "performanceAt": "2027-03-06T19:00:00+09:00",
+      "doorOpenAt": "2027-03-06T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "MEZZO” VISIBLIVE “Violamare” -Legame-",
+      "source": "system",
+      "sourceUrl": "https://idolish7.com/news/2026/19840",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "idolish7_mezzo_visiblive_violamare_2027_0307_agitato",
+      "tourId": "idolish7_mezzo_visiblive_violamare_2027",
+      "venue": "京王アリーナTOKYO",
+      "performanceAt": "2027-03-07T14:00:00+09:00",
+      "doorOpenAt": "2027-03-07T13:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "MEZZO” VISIBLIVE “Violamare” -Agitato-",
+      "source": "system",
+      "sourceUrl": "https://idolish7.com/news/2026/19840",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "idolish7_mezzo_visiblive_violamare_2027_0307_cantabile",
+      "tourId": "idolish7_mezzo_visiblive_violamare_2027",
+      "venue": "京王アリーナTOKYO",
+      "performanceAt": "2027-03-07T18:00:00+09:00",
+      "doorOpenAt": "2027-03-07T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "MEZZO” VISIBLIVE “Violamare” -Cantabile-",
+      "source": "system",
+      "sourceUrl": "https://idolish7.com/news/2026/19840",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -419,6 +466,24 @@
       "source": "system",
       "sourceUrl": "https://idolish7.com/4j/live-streaming/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "idolish7_mezzo_visiblive_violamare_2027_app_fastest",
+      "tourId": "idolish7_mezzo_visiblive_violamare_2027",
+      "type": "アプリ最速先行",
+      "entryStartAt": "2026-08-20T12:00:00+09:00",
+      "entryEndAt": "2026-09-28T23:59:00+09:00",
+      "resultAt": "2026-10-10T13:00:00+09:00",
+      "paymentStartAt": "2026-10-10T13:00:00+09:00",
+      "paymentEndAt": "2026-10-14T21:00:00+09:00",
+      "performanceIds": [
+        "idolish7_mezzo_visiblive_violamare_2027_0306_legame",
+        "idolish7_mezzo_visiblive_violamare_2027_0307_agitato",
+        "idolish7_mezzo_visiblive_violamare_2027_0307_cantabile"
+      ],
+      "source": "system",
+      "sourceUrl": "https://idolish7.com/news/2026/19840",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

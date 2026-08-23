@@ -95,6 +95,28 @@
       "source": "system",
       "sourceUrl": "https://idolrunwaycollection.jp/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_18th_hinatazaka_live_2026",
+      "artistId": "hinatazaka46",
+      "title": "18th Single ひなた坂46 LIVE",
+      "startDate": "2026-10-06T00:00:00+09:00",
+      "endDate": "2026-10-07T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00878?ima=0000",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_gift_girls_idol_festival_tokyo_2026",
+      "artistId": "hinatazaka46",
+      "title": "GIFT ～Girls Idol Festival Tokyo～",
+      "startDate": "2026-11-28T00:00:00+09:00",
+      "endDate": "2026-11-28T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00883?ima=0000",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -337,6 +359,42 @@
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
       "kind": "fes",
       "eventName": "第4回 IDOL RUNWAY COLLECTION 2026 AUTUMN/WINTER Supported by TGC"
+    },
+    {
+      "id": "hinatazaka46_18th_hinatazaka_live_2026_1006",
+      "tourId": "hinatazaka46_18th_hinatazaka_live_2026",
+      "venue": "LaLa arena TOKYO-BAY",
+      "performanceAt": "2026-10-06T18:30:00+09:00",
+      "doorOpenAt": "2026-10-06T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00878?ima=0000",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_18th_hinatazaka_live_2026_1007",
+      "tourId": "hinatazaka46_18th_hinatazaka_live_2026",
+      "venue": "LaLa arena TOKYO-BAY",
+      "performanceAt": "2026-10-07T18:30:00+09:00",
+      "doorOpenAt": "2026-10-07T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00878?ima=0000",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_gift_girls_idol_festival_tokyo_2026_1128",
+      "tourId": "hinatazaka46_gift_girls_idol_festival_tokyo_2026",
+      "venue": null,
+      "performanceAt": "2026-11-28T13:00:00+09:00",
+      "doorOpenAt": "2026-11-28T11:30:00+09:00",
+      "kind": "fes",
+      "eventName": "GIFT ～Girls Idol Festival Tokyo～",
+      "source": "system",
+      "sourceUrl": "https://ticket.tv-asahi.co.jp/ex/project/gift",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "lotteries": [

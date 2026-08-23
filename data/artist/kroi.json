@@ -80,6 +80,94 @@
       "source": "system",
       "sourceUrl": "https://funky802.com/site/pickup_detail/8283",
       "lastVerifiedAt": "2026-08-17T23:08:00+09:00"
+    },
+    {
+      "id": "kroi_event_70goshitsu_2026_0314",
+      "artistId": "kroi",
+      "title": "70号室の住人LIVE!!!! ～ 黒いカルアミルクの夜けり ～",
+      "startDate": "2026-03-14T00:00:00+09:00",
+      "endDate": "2026-03-14T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://kroi.net/live_information/detail/32684",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "kroi_festhalle_parade_day3_2026_0328",
+      "artistId": "kroi",
+      "title": "festhalle 10th anniversary presents 『PARADE』-Day3-",
+      "startDate": "2026-03-28T00:00:00+09:00",
+      "endDate": "2026-03-28T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://festhalle.jp/schedule/%E6%9C%88/2026-03/",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "kroi_metrock_osaka_2026_0531",
+      "artistId": "kroi",
+      "title": "METROCK 2026 OSAKA",
+      "startDate": "2026-05-31T00:00:00+09:00",
+      "endDate": "2026-05-31T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://kroi.net/live_information/detail/33531",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "kroi_chaguchagu_rock_festival_2026_0607",
+      "artistId": "kroi",
+      "title": "CHAGU CHAGU ROCK FESTIVAL 2026",
+      "startDate": "2026-06-07T00:00:00+09:00",
+      "endDate": "2026-06-07T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://kroi.net/live_information/detail/32727",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "kroi_music_awards_japan_week_kroi_chevon_2026_0609",
+      "artistId": "kroi",
+      "title": "MUSIC AWARDS JAPAN WEEK SPECIAL LIVE Kroi × Chevon 2–Man Live",
+      "startDate": "2026-06-09T00:00:00+09:00",
+      "endDate": "2026-06-09T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://kroi.net/live_information/detail/39230",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "kroi_mbit_live_7_2026_0624",
+      "artistId": "kroi",
+      "title": "M bit Live #7",
+      "startDate": "2026-06-24T00:00:00+09:00",
+      "endDate": "2026-06-24T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.mobit.ne.jp/lp/mbit-project/live/07/index.html",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "kroi_versus_carnival_2026_0704",
+      "artistId": "kroi",
+      "title": "東京スカパラダイスオーケストラ 47都道府県 HALL TOUR「47」番外編 ライブハウスツアー「VerSus Carnival」",
+      "startDate": "2026-07-04T00:00:00+09:00",
+      "endDate": "2026-07-04T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://kroi.net/live_information/detail/36331",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "kroi_fuji_rock_festival_2026_0725",
+      "artistId": "kroi",
+      "title": "FUJI ROCK FESTIVAL '26",
+      "startDate": "2026-07-25T00:00:00+09:00",
+      "endDate": "2026-07-25T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://kroi.net/live_information/detail/33370",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
     }
   ],
   "performances": [
@@ -238,6 +326,90 @@
       "source": "system",
       "sourceUrl": "https://funky802.com/site/pickup_detail/8283",
       "lastVerifiedAt": "2026-08-17T23:08:00+09:00"
+    },
+    {
+      "id": "kroi_event_70goshitsu_2026_0314_pia_arena_mm",
+      "tourId": "kroi_event_70goshitsu_2026_0314",
+      "venue": "ぴあアリーナMM",
+      "performanceAt": "2026-03-14T17:00:00+09:00",
+      "doorOpenAt": "2026-03-14T16:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "70号室の住人LIVE!!!! ～ 黒いカルアミルクの夜けり ～",
+      "source": "system",
+      "sourceUrl": "https://kroi.net/live_information/detail/32684",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "kroi_festhalle_parade_day3_2026_0328_takamatsu_festhalle",
+      "tourId": "kroi_festhalle_parade_day3_2026_0328",
+      "venue": "高松festhalle",
+      "performanceAt": "2026-03-28T17:00:00+09:00",
+      "doorOpenAt": "2026-03-28T16:15:00+09:00",
+      "kind": "taiban",
+      "eventName": "festhalle 10th anniversary presents 『PARADE』-Day3-",
+      "source": "system",
+      "sourceUrl": "https://festhalle.jp/schedule/%E6%9C%88/2026-03/",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "kroi_metrock_osaka_2026_0531_uminofureaihiroba",
+      "tourId": "kroi_metrock_osaka_2026_0531",
+      "venue": "海とのふれあい広場",
+      "performanceAt": "2026-05-31T11:00:00+09:00",
+      "doorOpenAt": "2026-05-31T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "METROCK 2026 OSAKA",
+      "source": "system",
+      "sourceUrl": "https://kroi.net/live_information/detail/33531",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "kroi_chaguchagu_rock_festival_2026_0607_apiotokusetsu",
+      "tourId": "kroi_chaguchagu_rock_festival_2026_0607",
+      "venue": "ツガワ未来館アピオ 岩手産業文化センター 野外特設会場",
+      "performanceAt": "2026-06-07T10:30:00+09:00",
+      "doorOpenAt": "2026-06-07T09:45:00+09:00",
+      "kind": "fes",
+      "eventName": "CHAGU CHAGU ROCK FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://kroi.net/live_information/detail/32727",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "kroi_music_awards_japan_week_kroi_chevon_2026_0609_zepp_divercity",
+      "tourId": "kroi_music_awards_japan_week_kroi_chevon_2026_0609",
+      "venue": "Zepp DiverCity(TOKYO)",
+      "performanceAt": "2026-06-09T19:00:00+09:00",
+      "doorOpenAt": "2026-06-09T18:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "MUSIC AWARDS JAPAN WEEK SPECIAL LIVE Kroi × Chevon 2–Man Live",
+      "source": "system",
+      "sourceUrl": "https://kroi.net/live_information/detail/39230",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "kroi_mbit_live_7_2026_0624_kt_zepp_yokohama",
+      "tourId": "kroi_mbit_live_7_2026_0624",
+      "venue": "KT Zepp Yokohama",
+      "performanceAt": "2026-06-24T19:00:00+09:00",
+      "doorOpenAt": "2026-06-24T18:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "M bit Live #7",
+      "source": "system",
+      "sourceUrl": "https://www.mobit.ne.jp/lp/mbit-project/live/07/index.html",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "kroi_versus_carnival_2026_0704_zepp_osaka_bayside",
+      "tourId": "kroi_versus_carnival_2026_0704",
+      "venue": "Zepp Osaka Bayside",
+      "performanceAt": "2026-07-04T18:00:00+09:00",
+      "doorOpenAt": "2026-07-04T17:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "東京スカパラダイスオーケストラ 47都道府県 HALL TOUR「47」番外編 ライブハウスツアー「VerSus Carnival」",
+      "source": "system",
+      "sourceUrl": "https://kroi.net/live_information/detail/36331",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
     }
   ],
   "lotteries": [

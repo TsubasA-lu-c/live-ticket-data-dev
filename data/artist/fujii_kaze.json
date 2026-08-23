@@ -200,6 +200,20 @@
       "source": "system",
       "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_prema_world_2026_japan_second_lottery",
+      "tourId": "fujii_kaze_prema_world_2026",
+      "type": "日本公演2次抽選",
+      "entryStartAt": "2026-08-14T12:00:00+09:00",
+      "entryEndAt": "2026-08-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

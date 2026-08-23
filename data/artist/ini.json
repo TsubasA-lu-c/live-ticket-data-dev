@@ -25,12 +25,23 @@
       "id": "ini_2026_live_events",
       "artistId": "ini",
       "title": "INI 2026 LIVE/EVENT",
-      "startDate": "2026-08-01T00:00:00+09:00",
+      "startDate": "2026-03-13T00:00:00+09:00",
       "endDate": "2026-10-31T00:00:00+09:00",
       "prices": null,
       "source": "system",
       "sourceUrl": "https://ini-official.com/schedule/list/",
-      "lastVerifiedAt": "2026-08-17T22:23:00+09:00"
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "ini_mtv_vmaj_2026",
+      "artistId": "ini",
+      "title": "MTV VMAJ 2026",
+      "startDate": "2026-10-29T00:00:00+09:00",
+      "endDate": "2026-10-29T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/news/1/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -165,6 +176,66 @@
       "source": "system",
       "sourceUrl": "https://ini-official.com/feature/2026_dome_tour",
       "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+    },
+    {
+      "id": "ini_2026_live_events_dunk_0313",
+      "tourId": "ini_2026_live_events",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-03-13T17:00:00+09:00",
+      "doorOpenAt": "2026-03-13T15:30:00+09:00",
+      "kind": "fes",
+      "eventName": "D.U.N.K. Showcase in K-Arena Yokohama 2026",
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/news/detail/3712",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "ini_2026_live_events_dunk_0314",
+      "tourId": "ini_2026_live_events",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-03-14T17:00:00+09:00",
+      "doorOpenAt": "2026-03-14T15:30:00+09:00",
+      "kind": "fes",
+      "eventName": "D.U.N.K. Showcase in K-Arena Yokohama 2026",
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/news/detail/3712",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "ini_2026_live_events_otodoraku_0522",
+      "tourId": "ini_2026_live_events",
+      "venue": "GLION ARENA KOBE",
+      "performanceAt": "2026-05-22T18:00:00+09:00",
+      "doorOpenAt": "2026-05-22T17:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "音道楽LIVE2026～初夏の宴～",
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/news/detail/3924",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "ini_2026_live_events_gobugobu_0607",
+      "tourId": "ini_2026_live_events",
+      "venue": "万博記念公園 東の広場",
+      "performanceAt": "2026-06-07T12:00:00+09:00",
+      "doorOpenAt": "2026-06-07T10:30:00+09:00",
+      "kind": "fes",
+      "eventName": "ごぶごぶフェスティバル2026",
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/news/detail/3811",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "ini_2026_live_events_star_fes_1011",
+      "tourId": "ini_2026_live_events",
+      "venue": "ぴあアリーナMM",
+      "performanceAt": "2026-10-11T17:00:00+09:00",
+      "doorOpenAt": "2026-10-11T16:00:00+09:00",
+      "kind": "fes",
+      "eventName": "STARフェス",
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/news/detail/4344",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -387,6 +458,22 @@
       "source": "system",
       "sourceUrl": "https://ini-official.com/news/detail/4219",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ini_2026_live_events_star_fes_fc_2026",
+      "tourId": "ini_2026_live_events",
+      "type": "INI OFFICIAL FANCLUB会員先行",
+      "entryStartAt": "2026-08-12T13:00:00+09:00",
+      "entryEndAt": "2026-08-23T23:59:00+09:00",
+      "resultAt": "2026-08-29T12:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ini_2026_live_events_star_fes_1011"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/news/detail/4344",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
