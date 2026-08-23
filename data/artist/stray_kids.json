@@ -160,6 +160,50 @@
       "source": "system",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/StrayKids/info/585477",
       "lastVerifiedAt": "2026-08-18T07:08:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_japan_2026_ichihaya_preserve",
+      "tourId": "stray_kids_run_it_japan_2026",
+      "type": "いち早プレリザーブ",
+      "entryStartAt": "2026-08-07T20:00:00+09:00",
+      "entryEndAt": "2026-08-11T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_run_it_japan_2026_national_stadium_0829",
+        "stray_kids_run_it_japan_2026_national_stadium_0830",
+        "stray_kids_run_it_japan_2026_banterinodome_0905",
+        "stray_kids_run_it_japan_2026_banterinodome_0906",
+        "stray_kids_run_it_japan_2026_kyoseradome_0919",
+        "stray_kids_run_it_japan_2026_kyoseradome_0920",
+        "stray_kids_run_it_japan_2026_mizuhopaypaydome_1024"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/StrayKids/info/585866",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_japan_2026_seven_eleven_presale",
+      "tourId": "stray_kids_run_it_japan_2026",
+      "type": "セブン-イレブン先行",
+      "entryStartAt": "2026-08-12T12:00:00+09:00",
+      "entryEndAt": "2026-08-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_run_it_japan_2026_national_stadium_0829",
+        "stray_kids_run_it_japan_2026_national_stadium_0830",
+        "stray_kids_run_it_japan_2026_banterinodome_0905",
+        "stray_kids_run_it_japan_2026_banterinodome_0906",
+        "stray_kids_run_it_japan_2026_kyoseradome_0919",
+        "stray_kids_run_it_japan_2026_kyoseradome_0920",
+        "stray_kids_run_it_japan_2026_mizuhopaypaydome_1024"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/StrayKids/info/585896",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

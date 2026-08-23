@@ -87,6 +87,17 @@
       "source": "system",
       "sourceUrl": "https://tdp.tv-asahi.co.jp/hyakki2026",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "hey_say_jump_ryosuke_yamada_dome_tour_2026",
+      "artistId": "hey_say_jump",
+      "title": "Ryosuke Yamada DOME TOUR 2026 Are You Red.Y?",
+      "startDate": "2026-06-27T00:00:00+09:00",
+      "endDate": "2026-07-26T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10434",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -1037,6 +1048,54 @@
       "source": "system",
       "sourceUrl": "https://tdp.tv-asahi.co.jp/hyakki2026",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "hey_say_jump_ryosuke_yamada_dome_tour_2026_osaka_0627",
+      "tourId": "hey_say_jump_ryosuke_yamada_dome_tour_2026",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2026-06-27T17:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10434",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "hey_say_jump_ryosuke_yamada_dome_tour_2026_osaka_0628",
+      "tourId": "hey_say_jump_ryosuke_yamada_dome_tour_2026",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2026-06-28T15:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10434",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "hey_say_jump_ryosuke_yamada_dome_tour_2026_tokyo_0725",
+      "tourId": "hey_say_jump_ryosuke_yamada_dome_tour_2026",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-07-25T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10434",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "hey_say_jump_ryosuke_yamada_dome_tour_2026_tokyo_0726",
+      "tourId": "hey_say_jump_ryosuke_yamada_dome_tour_2026",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-07-26T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10434",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "lotteries": [

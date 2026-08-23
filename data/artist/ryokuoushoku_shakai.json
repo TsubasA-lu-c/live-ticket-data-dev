@@ -47,6 +47,17 @@
       "source": "system",
       "sourceUrl": "https://funky802.com/site/pickup_detail/8299",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_daiyasai_2026",
+      "artistId": "ryokuoushoku_shakai",
+      "title": "緑黄色大夜祭2026",
+      "startDate": "2026-04-25T00:00:00+09:00",
+      "endDate": "2026-04-26T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.ryokushaka.com/daiyasai2026/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -181,6 +192,30 @@
       "source": "system",
       "sourceUrl": "https://funky802.com/site/pickup_detail/8299",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_daiyasai_2026_0425",
+      "tourId": "ryokuoushoku_shakai_daiyasai_2026",
+      "venue": "Aichi Sky Expo",
+      "performanceAt": "2026-04-25T16:30:00+09:00",
+      "doorOpenAt": "2026-04-25T15:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "緑黄色大夜祭2026",
+      "source": "system",
+      "sourceUrl": "https://www.ryokushaka.com/daiyasai2026/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_daiyasai_2026_0426",
+      "tourId": "ryokuoushoku_shakai_daiyasai_2026",
+      "venue": "Aichi Sky Expo",
+      "performanceAt": "2026-04-26T16:30:00+09:00",
+      "doorOpenAt": "2026-04-26T15:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "緑黄色大夜祭2026",
+      "source": "system",
+      "sourceUrl": "https://www.ryokushaka.com/daiyasai2026/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "lotteries": [

@@ -155,6 +155,181 @@
       "source": "system",
       "sourceUrl": "https://monaki.jp/live_information/detail/41915",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_debut_memorial_live_2026",
+      "artistId": "monaki",
+      "title": "湯～とぴあ宝「デビュー記念ライブ」",
+      "startDate": "2026-05-31T00:00:00+09:00",
+      "endDate": "2026-05-31T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "観覧チケット",
+          "amount": 4000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/news/detail/77059",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "monaki_mezamashi_wangan_fes_2026",
+      "artistId": "monaki",
+      "title": "めざましライブ モナキ in めざましWANGANフェス",
+      "startDate": "2026-08-03T00:00:00+09:00",
+      "endDate": "2026-08-03T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 7000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/news/detail/81685",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "monaki_release_campaign_sumida_2026_0602",
+      "artistId": "monaki",
+      "title": "デビューシングル「ほんまやで☆なんでやねん☆しらんけど」発売記念キャンペーン（すみだ産業会館）",
+      "startDate": "2026-06-02T00:00:00+09:00",
+      "endDate": "2026-06-02T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/live_information/schedule/list/?month=06&viewMode=default&year=2026",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "monaki_release_event_2026_0607",
+      "artistId": "monaki",
+      "title": "デビューシングル「ほんまやで☆なんでやねん☆しらんけど」発売記念リリースイベント",
+      "startDate": "2026-06-07T00:00:00+09:00",
+      "endDate": "2026-06-07T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/live_information/schedule/list/?month=06&viewMode=default&year=2026",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "monaki_asia_culture_festival_2026_0609",
+      "artistId": "monaki",
+      "title": "ASIA CULTURE FESTIVAL 2026",
+      "startDate": "2026-06-09T00:00:00+09:00",
+      "endDate": "2026-06-09T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/live_information/schedule/list/?month=06&viewMode=default&year=2026",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "monaki_nurse_fes_2026_0613",
+      "artistId": "monaki",
+      "title": "ナースフェス2026",
+      "startDate": "2026-06-13T00:00:00+09:00",
+      "endDate": "2026-06-13T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/live_information/schedule/list/?month=06&viewMode=default&year=2026",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "monaki_yatsui_festival_2026_0621",
+      "artistId": "monaki",
+      "title": "YATSUI FESTIVAL! 2026",
+      "startDate": "2026-06-21T00:00:00+09:00",
+      "endDate": "2026-06-21T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/live_information/schedule/list/?month=06&viewMode=default&year=2026",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "monaki_happle_fes_osaka_2026_0704",
+      "artistId": "monaki",
+      "title": "週末KOREA ハップルフェス in 大阪 モナキスペシャルミニライブ",
+      "startDate": "2026-07-04T00:00:00+09:00",
+      "endDate": "2026-07-04T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/live_information/schedule/list/?month=07&viewMode=default&year=2026",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "monaki_8fes_suzuka_2026_0705",
+      "artistId": "monaki",
+      "title": "鈴鹿サーキット「8FES」",
+      "startDate": "2026-07-05T00:00:00+09:00",
+      "endDate": "2026-07-05T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/live_information/schedule/list/?month=07&viewMode=default&year=2026",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "monaki_roppongi_summer_fes_2026_0718",
+      "artistId": "monaki",
+      "title": "テレビ朝日・六本木ヒルズ SUMMER FES 音楽LIVE",
+      "startDate": "2026-07-18T00:00:00+09:00",
+      "endDate": "2026-07-18T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/live_information/schedule/list/?month=07&viewMode=default&year=2026",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "monaki_boatrace_shimonoseki_2026_0720",
+      "artistId": "monaki",
+      "title": "ボートレース下関『GⅢオールレディース ジュエルセブンカップ』ステージイベント",
+      "startDate": "2026-07-20T00:00:00+09:00",
+      "endDate": "2026-07-20T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/live_information/schedule/list/?month=07&viewMode=default&year=2026",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "monaki_release_event_rifu_2026_0723",
+      "artistId": "monaki",
+      "title": "デビューシングル「ほんまやで☆なんでやねん☆しらんけど」発売記念リリースイベント（宮城県利府町）",
+      "startDate": "2026-07-23T00:00:00+09:00",
+      "endDate": "2026-07-23T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/live_information/schedule/list/?month=07&viewMode=default&year=2026",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "monaki_tbc_natsumatsuri_2026_0725",
+      "artistId": "monaki",
+      "title": "tbc夏まつり2026",
+      "startDate": "2026-07-25T00:00:00+09:00",
+      "endDate": "2026-07-25T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/live_information/schedule/list/?month=07&viewMode=default&year=2026",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "monaki_release_campaign_sumida_2026_0802",
+      "artistId": "monaki",
+      "title": "デビューシングル「ほんまやで☆なんでやねん☆しらんけど」発売記念キャンペーン（すみだ産業会館）",
+      "startDate": "2026-08-02T00:00:00+09:00",
+      "endDate": "2026-08-02T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/live_information/schedule/list/?month=08&viewMode=default&year=2026",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "monaki_yutopia_takara_natsumatsuri_2026_0806",
+      "artistId": "monaki",
+      "title": "湯～とぴあ宝夏祭り2026",
+      "startDate": "2026-08-06T00:00:00+09:00",
+      "endDate": "2026-08-06T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/live_information/schedule/list/?month=08&viewMode=default&year=2026",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
     }
   ],
   "performances": [
@@ -325,6 +500,42 @@
       "source": "system",
       "sourceUrl": "https://monaki.jp/live_information/detail/41915",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_debut_memorial_live_2026_yutopia_takara_0531_1",
+      "tourId": "monaki_debut_memorial_live_2026",
+      "venue": "湯～とぴあ宝 おたから亭",
+      "performanceAt": "2026-05-31T11:30:00+09:00",
+      "doorOpenAt": "2026-05-31T11:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "湯～とぴあ宝「デビュー記念ライブ」",
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/news/detail/77059",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "monaki_debut_memorial_live_2026_yutopia_takara_0531_2",
+      "tourId": "monaki_debut_memorial_live_2026",
+      "venue": "湯～とぴあ宝 おたから亭",
+      "performanceAt": "2026-05-31T16:00:00+09:00",
+      "doorOpenAt": "2026-05-31T15:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "湯～とぴあ宝「デビュー記念ライブ」",
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/news/detail/77059",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "monaki_mezamashi_wangan_fes_2026_toyosu_pit_0803",
+      "tourId": "monaki_mezamashi_wangan_fes_2026",
+      "venue": "豊洲PIT",
+      "performanceAt": "2026-08-03T19:00:00+09:00",
+      "doorOpenAt": "2026-08-03T18:00:00+09:00",
+      "kind": "fes",
+      "eventName": "めざましライブ モナキ in めざましWANGANフェス",
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/news/detail/81685",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
     }
   ],
   "lotteries": [

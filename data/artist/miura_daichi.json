@@ -47,6 +47,28 @@
       "source": "system",
       "sourceUrl": "https://daichi-miura.jp/news/detail/1030",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_heian_special_live_the_final_2026",
+      "artistId": "miura_daichi",
+      "title": "平安神宮御鎮座百三十年記念 三浦大知 奉納 Special Live THE FINAL",
+      "startDate": "2026-05-16T00:00:00+09:00",
+      "endDate": "2026-05-17T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/876",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_lecca_dreamers_2026",
+      "artistId": "miura_daichi",
+      "title": "lecca 20th Anniversary Live \"Dreamers\"",
+      "startDate": "2026-06-28T00:00:00+09:00",
+      "endDate": "2026-06-28T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/942",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -337,6 +359,42 @@
       "source": "system",
       "sourceUrl": "https://daichi-miura.jp/news/detail/1030",
       "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
+    },
+    {
+      "id": "miura_daichi_heian_special_live_the_final_2026_kyoto_0516",
+      "tourId": "miura_daichi_heian_special_live_the_final_2026",
+      "venue": "平安神宮 大極殿前特設ステージ",
+      "performanceAt": "2026-05-16T19:00:00+09:00",
+      "doorOpenAt": "2026-05-16T18:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/876",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_heian_special_live_the_final_2026_kyoto_0517",
+      "tourId": "miura_daichi_heian_special_live_the_final_2026",
+      "venue": "平安神宮 大極殿前特設ステージ",
+      "performanceAt": "2026-05-17T19:00:00+09:00",
+      "doorOpenAt": "2026-05-17T18:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/876",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_lecca_dreamers_2026_osaka_0628",
+      "tourId": "miura_daichi_lecca_dreamers_2026",
+      "venue": "大阪城音楽堂",
+      "performanceAt": "2026-06-28T16:30:00+09:00",
+      "doorOpenAt": "2026-06-28T15:30:00+09:00",
+      "kind": "taiban",
+      "eventName": "lecca 20th Anniversary Live \"Dreamers\"",
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/942",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "lotteries": [

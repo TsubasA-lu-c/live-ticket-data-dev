@@ -53,6 +53,28 @@
       "source": "system",
       "sourceUrl": "https://www.universal-music.co.jp/txt/news/2026-07-28/",
       "lastVerifiedAt": "2026-08-18T07:20:00+09:00"
+    },
+    {
+      "id": "txt_moa_con_japan_2026",
+      "artistId": "tomorrow_x_together",
+      "title": "2026 TXT MOA CON IN JAPAN",
+      "startDate": "2026-05-23T00:00:00+09:00",
+      "endDate": "2026-06-24T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://txt-official.jp/schedule/f9df4fd17c71",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "txt_ceremony_2026",
+      "artistId": "tomorrow_x_together",
+      "title": "Mrs. GREEN APPLE presents 『CEREMONY』",
+      "startDate": "2026-06-10T00:00:00+09:00",
+      "endDate": "2026-06-10T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://txt-official.jp/schedule/6714987cc92a",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -199,6 +221,114 @@
       "source": "system",
       "sourceUrl": "https://www.universal-music.co.jp/txt/news/2026-07-28/",
       "lastVerifiedAt": "2026-08-18T07:20:00+09:00"
+    },
+    {
+      "id": "txt_moa_con_japan_2026_aichi_0523",
+      "tourId": "txt_moa_con_japan_2026",
+      "venue": "IGアリーナ",
+      "performanceAt": "2026-05-23T17:00:00+09:00",
+      "doorOpenAt": "2026-05-23T15:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://txt-official.jp/schedule/f9df4fd17c71",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "txt_moa_con_japan_2026_aichi_0524",
+      "tourId": "txt_moa_con_japan_2026",
+      "venue": "IGアリーナ",
+      "performanceAt": "2026-05-24T16:00:00+09:00",
+      "doorOpenAt": "2026-05-24T14:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://txt-official.jp/schedule/f9df4fd17c71",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "txt_moa_con_japan_2026_chiba_0527",
+      "tourId": "txt_moa_con_japan_2026",
+      "venue": "LaLa arena TOKYO-BAY",
+      "performanceAt": "2026-05-27T19:00:00+09:00",
+      "doorOpenAt": "2026-05-27T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://txt-official.jp/schedule/f9df4fd17c71",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "txt_moa_con_japan_2026_chiba_0528",
+      "tourId": "txt_moa_con_japan_2026",
+      "venue": "LaLa arena TOKYO-BAY",
+      "performanceAt": "2026-05-28T18:00:00+09:00",
+      "doorOpenAt": "2026-05-28T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://txt-official.jp/schedule/f9df4fd17c71",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "txt_moa_con_japan_2026_fukuoka_0616",
+      "tourId": "txt_moa_con_japan_2026",
+      "venue": "マリンメッセ福岡 A館",
+      "performanceAt": "2026-06-16T19:00:00+09:00",
+      "doorOpenAt": "2026-06-16T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://txt-official.jp/schedule/f9df4fd17c71",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "txt_moa_con_japan_2026_fukuoka_0617",
+      "tourId": "txt_moa_con_japan_2026",
+      "venue": "マリンメッセ福岡 A館",
+      "performanceAt": "2026-06-17T18:00:00+09:00",
+      "doorOpenAt": "2026-06-17T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://txt-official.jp/schedule/f9df4fd17c71",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "txt_moa_con_japan_2026_kobe_0623",
+      "tourId": "txt_moa_con_japan_2026",
+      "venue": "GLION ARENA KOBE",
+      "performanceAt": "2026-06-23T19:00:00+09:00",
+      "doorOpenAt": "2026-06-23T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://txt-official.jp/schedule/f9df4fd17c71",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "txt_moa_con_japan_2026_kobe_0624",
+      "tourId": "txt_moa_con_japan_2026",
+      "venue": "GLION ARENA KOBE",
+      "performanceAt": "2026-06-24T18:00:00+09:00",
+      "doorOpenAt": "2026-06-24T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://txt-official.jp/schedule/f9df4fd17c71",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "txt_ceremony_2026_yokohama_0610",
+      "tourId": "txt_ceremony_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-06-10T18:00:00+09:00",
+      "doorOpenAt": "2026-06-10T16:30:00+09:00",
+      "kind": "fes",
+      "eventName": "Mrs. GREEN APPLE presents 『CEREMONY』",
+      "source": "system",
+      "sourceUrl": "https://txt-official.jp/schedule/6714987cc92a",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "lotteries": [

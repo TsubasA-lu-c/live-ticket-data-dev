@@ -35,6 +35,109 @@
       "source": "system",
       "sourceUrl": "https://skyhi.tokyo/news/2086",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_dunk_showcase_k_arena_2026",
+      "artistId": "sky_hi",
+      "title": "D.U.N.K. Showcase in K-Arena Yokohama",
+      "startDate": "2026-03-13T00:00:00+09:00",
+      "endDate": "2026-03-15T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "チケット",
+          "amount": 19000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/live/2026/1960",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_the_game_center_2026",
+      "artistId": "sky_hi",
+      "title": "THE GAME CENTER- FOOTBALL DREAM MATCH- in Saitama Stadium 2〇〇2",
+      "startDate": "2026-04-04T00:00:00+09:00",
+      "endDate": "2026-04-04T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 9900
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/live/2026/1972",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_viva_la_rock_2026",
+      "artistId": "sky_hi",
+      "title": "VIVA LA ROCK 2026",
+      "startDate": "2026-05-06T00:00:00+09:00",
+      "endDate": "2026-05-06T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/live/2026/1988",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_success_is_tour_2026",
+      "artistId": "sky_hi",
+      "title": "SKY-HI TOUR 2026 -Success is-",
+      "startDate": "2026-05-04T00:00:00+09:00",
+      "endDate": "2026-05-31T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "ロイヤル（アップグレード）",
+          "amount": 16000
+        },
+        {
+          "label": "一般指定席",
+          "amount": 11000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/live/2026/1865",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_success_is_the_best_revenge_2026",
+      "artistId": "sky_hi",
+      "title": "SKY-HI TOUR 2026 -Success Is The Best Revenge-",
+      "startDate": "2026-06-17T00:00:00+09:00",
+      "endDate": "2026-06-18T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "ロイヤル（アップグレード）",
+          "amount": 18000
+        },
+        {
+          "label": "一般指定席",
+          "amount": 13000
+        },
+        {
+          "label": "着席指定席",
+          "amount": 13000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/live/2026/1866",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_shit_kingz_fes_kaisha_2026",
+      "artistId": "sky_hi",
+      "title": "s**t kingz Fes 2026 会社",
+      "startDate": "2026-07-26T00:00:00+09:00",
+      "endDate": "2026-07-26T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 15000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/live/2026/2058",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -109,6 +212,186 @@
       "source": "system",
       "sourceUrl": "https://skyhi.tokyo/news/2086",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_dunk_showcase_k_arena_2026_yokohama_0313",
+      "tourId": "sky_hi_dunk_showcase_k_arena_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-03-13T17:00:00+09:00",
+      "doorOpenAt": "2026-03-13T15:30:00+09:00",
+      "kind": "fes",
+      "eventName": "D.U.N.K. Showcase in K-Arena Yokohama",
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/live/2026/1960",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_dunk_showcase_k_arena_2026_yokohama_0314",
+      "tourId": "sky_hi_dunk_showcase_k_arena_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-03-14T17:00:00+09:00",
+      "doorOpenAt": "2026-03-14T15:30:00+09:00",
+      "kind": "fes",
+      "eventName": "D.U.N.K. Showcase in K-Arena Yokohama",
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/live/2026/1960",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_dunk_showcase_k_arena_2026_yokohama_0315",
+      "tourId": "sky_hi_dunk_showcase_k_arena_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-03-15T17:00:00+09:00",
+      "doorOpenAt": "2026-03-15T15:30:00+09:00",
+      "kind": "fes",
+      "eventName": "D.U.N.K. Showcase in K-Arena Yokohama",
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/live/2026/1960",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_the_game_center_2026_saitama_0404",
+      "tourId": "sky_hi_the_game_center_2026",
+      "venue": "埼玉スタジアム2〇〇2",
+      "performanceAt": "2026-04-04T14:00:00+09:00",
+      "doorOpenAt": "2026-04-04T12:00:00+09:00",
+      "kind": "fes",
+      "eventName": "THE GAME CENTER- FOOTBALL DREAM MATCH- in Saitama Stadium 2〇〇2",
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/live/2026/1972",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_viva_la_rock_2026_saitama_0506",
+      "tourId": "sky_hi_viva_la_rock_2026",
+      "venue": "埼玉スタジアム2002周辺・野外特設会場",
+      "performanceAt": "2026-05-06T11:00:00+09:00",
+      "doorOpenAt": "2026-05-06T09:30:00+09:00",
+      "kind": "fes",
+      "eventName": "VIVA LA ROCK 2026",
+      "source": "system",
+      "sourceUrl": "https://vivalarock.jp/2026/about/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_success_is_tour_2026_aichi_0504",
+      "tourId": "sky_hi_success_is_tour_2026",
+      "venue": "Niterra日本特殊陶業市民会館 フォレストホール",
+      "performanceAt": "2026-05-04T18:00:00+09:00",
+      "doorOpenAt": "2026-05-04T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/live/2026/1865",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_success_is_tour_2026_osaka_0511",
+      "tourId": "sky_hi_success_is_tour_2026",
+      "venue": "フェニーチェ堺 大ホール",
+      "performanceAt": "2026-05-11T18:30:00+09:00",
+      "doorOpenAt": "2026-05-11T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/live/2026/1865",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_success_is_tour_2026_osaka_0512",
+      "tourId": "sky_hi_success_is_tour_2026",
+      "venue": "フェニーチェ堺 大ホール",
+      "performanceAt": "2026-05-12T18:30:00+09:00",
+      "doorOpenAt": "2026-05-12T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/live/2026/1865",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_success_is_tour_2026_sapporo_0525",
+      "tourId": "sky_hi_success_is_tour_2026",
+      "venue": "カナモトホール（札幌市民ホール）",
+      "performanceAt": "2026-05-25T18:30:00+09:00",
+      "doorOpenAt": "2026-05-25T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/live/2026/1865",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_success_is_tour_2026_sendai_0527",
+      "tourId": "sky_hi_success_is_tour_2026",
+      "venue": "仙台サンプラザホール",
+      "performanceAt": "2026-05-27T18:30:00+09:00",
+      "doorOpenAt": "2026-05-27T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/live/2026/1865",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_success_is_tour_2026_fukuoka_0530",
+      "tourId": "sky_hi_success_is_tour_2026",
+      "venue": "福岡サンパレス",
+      "performanceAt": "2026-05-30T18:00:00+09:00",
+      "doorOpenAt": "2026-05-30T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/live/2026/1865",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_success_is_tour_2026_hiroshima_0531",
+      "tourId": "sky_hi_success_is_tour_2026",
+      "venue": "広島上野学園ホール",
+      "performanceAt": "2026-05-31T18:00:00+09:00",
+      "doorOpenAt": "2026-05-31T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/live/2026/1865",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_success_is_the_best_revenge_2026_tokyo_0617",
+      "tourId": "sky_hi_success_is_the_best_revenge_2026",
+      "venue": "日本武道館",
+      "performanceAt": "2026-06-17T18:30:00+09:00",
+      "doorOpenAt": "2026-06-17T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/live/2026/1866",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_success_is_the_best_revenge_2026_tokyo_0618",
+      "tourId": "sky_hi_success_is_the_best_revenge_2026",
+      "venue": "日本武道館",
+      "performanceAt": "2026-06-18T18:30:00+09:00",
+      "doorOpenAt": "2026-06-18T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/live/2026/1866",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_shit_kingz_fes_kaisha_2026_yokohama_0726",
+      "tourId": "sky_hi_shit_kingz_fes_kaisha_2026",
+      "venue": "ぴあアリーナMM",
+      "performanceAt": "2026-07-26T15:00:00+09:00",
+      "doorOpenAt": "2026-07-26T14:00:00+09:00",
+      "kind": "fes",
+      "eventName": "s**t kingz Fes 2026 会社",
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/live/2026/2058",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "lotteries": [

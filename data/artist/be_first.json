@@ -72,6 +72,17 @@
       "source": "system",
       "sourceUrl": "https://befirst.tokyo/category/live/",
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "be_first_stadium_live_2026",
+      "artistId": "be_first",
+      "title": "BE:FIRST Stadium Live 2026 We are the “BE:ST”",
+      "startDate": "2026-05-16T00:00:00+09:00",
+      "endDate": "2026-05-17T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://befirst.tokyo/tour/Stadium-Live-2026/",
+      "lastVerifiedAt": "2026-08-23T07:44:00+09:00"
     }
   ],
   "performances": [
@@ -230,6 +241,30 @@
       "source": "system",
       "sourceUrl": "https://befirst.tokyo/category/live/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "be_first_stadium_live_2026_20260516",
+      "tourId": "be_first_stadium_live_2026",
+      "venue": "味の素スタジアム",
+      "performanceAt": "2026-05-16T17:30:00+09:00",
+      "doorOpenAt": "2026-05-16T15:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://befirst.tokyo/tour/Stadium-Live-2026/",
+      "lastVerifiedAt": "2026-08-23T07:44:00+09:00",
+      "kind": "oneman",
+      "eventName": null
+    },
+    {
+      "id": "be_first_stadium_live_2026_20260517",
+      "tourId": "be_first_stadium_live_2026",
+      "venue": "味の素スタジアム",
+      "performanceAt": "2026-05-17T17:30:00+09:00",
+      "doorOpenAt": "2026-05-17T15:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://befirst.tokyo/tour/Stadium-Live-2026/",
+      "lastVerifiedAt": "2026-08-23T07:44:00+09:00",
+      "kind": "oneman",
+      "eventName": null
     }
   ],
   "lotteries": [
@@ -279,7 +314,7 @@
       "id": "be_first_dome_tour_2027_lawson_ticket",
       "tourId": "be_first_dome_tour_2027",
       "type": "ローソンチケット先行",
-      "entryStartAt": "2026-06-24T18:00:00+09:00",
+      "entryStartAt": "2026-06-24T15:00:00+09:00",
       "entryEndAt": "2026-07-05T23:59:00+09:00",
       "resultAt": "2026-07-10T17:00:00+09:00",
       "paymentStartAt": null,

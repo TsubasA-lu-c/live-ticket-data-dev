@@ -85,6 +85,17 @@
       "source": "system",
       "sourceUrl": "https://sd-milk.com/contents/1098315",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "milk_kanshasai_2026",
+      "artistId": "milk",
+      "title": "み！るきーず感謝祭2026 〜爆裂ホームパーティー〜",
+      "startDate": "2026-05-06T00:00:00+09:00",
+      "endDate": "2026-07-27T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/pages/kanshasai2026",
+      "lastVerifiedAt": "2026-08-23T07:44:00+09:00"
     }
   ],
   "performances": [
@@ -399,6 +410,162 @@
       "source": "system",
       "sourceUrl": "https://sd-milk.com/contents/1098315",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "milk_kanshasai_2026_20260506_1",
+      "tourId": "milk_kanshasai_2026",
+      "venue": "神戸文化ホール 大ホール",
+      "performanceAt": "2026-05-06T15:30:00+09:00",
+      "doorOpenAt": "2026-05-06T14:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/pages/kanshasai2026",
+      "lastVerifiedAt": "2026-08-23T07:44:00+09:00",
+      "kind": "oneman",
+      "eventName": "み！るきーず感謝祭2026 〜爆裂ホームパーティー〜"
+    },
+    {
+      "id": "milk_kanshasai_2026_20260506_2",
+      "tourId": "milk_kanshasai_2026",
+      "venue": "神戸文化ホール 大ホール",
+      "performanceAt": "2026-05-06T18:30:00+09:00",
+      "doorOpenAt": "2026-05-06T17:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/pages/kanshasai2026",
+      "lastVerifiedAt": "2026-08-23T07:44:00+09:00",
+      "kind": "oneman",
+      "eventName": "み！るきーず感謝祭2026 〜爆裂ホームパーティー〜"
+    },
+    {
+      "id": "milk_kanshasai_2026_20260510_1",
+      "tourId": "milk_kanshasai_2026",
+      "venue": "福岡サンパレス",
+      "performanceAt": "2026-05-10T15:30:00+09:00",
+      "doorOpenAt": "2026-05-10T14:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/pages/kanshasai2026",
+      "lastVerifiedAt": "2026-08-23T07:44:00+09:00",
+      "kind": "oneman",
+      "eventName": "み！るきーず感謝祭2026 〜爆裂ホームパーティー〜"
+    },
+    {
+      "id": "milk_kanshasai_2026_20260510_2",
+      "tourId": "milk_kanshasai_2026",
+      "venue": "福岡サンパレス",
+      "performanceAt": "2026-05-10T18:30:00+09:00",
+      "doorOpenAt": "2026-05-10T17:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/pages/kanshasai2026",
+      "lastVerifiedAt": "2026-08-23T07:44:00+09:00",
+      "kind": "oneman",
+      "eventName": "み！るきーず感謝祭2026 〜爆裂ホームパーティー〜"
+    },
+    {
+      "id": "milk_kanshasai_2026_20260614_1",
+      "tourId": "milk_kanshasai_2026",
+      "venue": "Niterra日本特殊陶業市民会館 フォレストホール",
+      "performanceAt": "2026-06-14T15:30:00+09:00",
+      "doorOpenAt": "2026-06-14T14:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/pages/kanshasai2026",
+      "lastVerifiedAt": "2026-08-23T07:44:00+09:00",
+      "kind": "oneman",
+      "eventName": "み！るきーず感謝祭2026 〜爆裂ホームパーティー〜"
+    },
+    {
+      "id": "milk_kanshasai_2026_20260614_2",
+      "tourId": "milk_kanshasai_2026",
+      "venue": "Niterra日本特殊陶業市民会館 フォレストホール",
+      "performanceAt": "2026-06-14T18:30:00+09:00",
+      "doorOpenAt": "2026-06-14T17:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/pages/kanshasai2026",
+      "lastVerifiedAt": "2026-08-23T07:44:00+09:00",
+      "kind": "oneman",
+      "eventName": "み！るきーず感謝祭2026 〜爆裂ホームパーティー〜"
+    },
+    {
+      "id": "milk_kanshasai_2026_20260619_1",
+      "tourId": "milk_kanshasai_2026",
+      "venue": "LINE CUBE SHIBUYA",
+      "performanceAt": "2026-06-19T18:30:00+09:00",
+      "doorOpenAt": "2026-06-19T17:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/pages/kanshasai2026",
+      "lastVerifiedAt": "2026-08-23T07:44:00+09:00",
+      "kind": "oneman",
+      "eventName": "み！るきーず感謝祭2026 〜爆裂ホームパーティー〜"
+    },
+    {
+      "id": "milk_kanshasai_2026_20260620_1",
+      "tourId": "milk_kanshasai_2026",
+      "venue": "LINE CUBE SHIBUYA",
+      "performanceAt": "2026-06-20T14:00:00+09:00",
+      "doorOpenAt": "2026-06-20T13:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/pages/kanshasai2026",
+      "lastVerifiedAt": "2026-08-23T07:44:00+09:00",
+      "kind": "oneman",
+      "eventName": "み！るきーず感謝祭2026 〜爆裂ホームパーティー〜"
+    },
+    {
+      "id": "milk_kanshasai_2026_20260620_2",
+      "tourId": "milk_kanshasai_2026",
+      "venue": "LINE CUBE SHIBUYA",
+      "performanceAt": "2026-06-20T17:30:00+09:00",
+      "doorOpenAt": "2026-06-20T16:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/pages/kanshasai2026",
+      "lastVerifiedAt": "2026-08-23T07:44:00+09:00",
+      "kind": "oneman",
+      "eventName": "み！るきーず感謝祭2026 〜爆裂ホームパーティー〜"
+    },
+    {
+      "id": "milk_kanshasai_2026_20260724_1",
+      "tourId": "milk_kanshasai_2026",
+      "venue": "札幌文化芸術劇場 hitaru",
+      "performanceAt": "2026-07-24T15:00:00+09:00",
+      "doorOpenAt": "2026-07-24T14:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/pages/kanshasai2026",
+      "lastVerifiedAt": "2026-08-23T07:44:00+09:00",
+      "kind": "oneman",
+      "eventName": "み！るきーず感謝祭2026 〜爆裂ホームパーティー〜"
+    },
+    {
+      "id": "milk_kanshasai_2026_20260724_2",
+      "tourId": "milk_kanshasai_2026",
+      "venue": "札幌文化芸術劇場 hitaru",
+      "performanceAt": "2026-07-24T18:00:00+09:00",
+      "doorOpenAt": "2026-07-24T17:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/pages/kanshasai2026",
+      "lastVerifiedAt": "2026-08-23T07:44:00+09:00",
+      "kind": "oneman",
+      "eventName": "み！るきーず感謝祭2026 〜爆裂ホームパーティー〜"
+    },
+    {
+      "id": "milk_kanshasai_2026_20260727_1",
+      "tourId": "milk_kanshasai_2026",
+      "venue": "東京ガーデンシアター",
+      "performanceAt": "2026-07-27T13:30:00+09:00",
+      "doorOpenAt": "2026-07-27T12:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/pages/kanshasai2026",
+      "lastVerifiedAt": "2026-08-23T07:44:00+09:00",
+      "kind": "oneman",
+      "eventName": "み！るきーず感謝祭2026 〜爆裂ホームパーティー〜"
+    },
+    {
+      "id": "milk_kanshasai_2026_20260727_2",
+      "tourId": "milk_kanshasai_2026",
+      "venue": "東京ガーデンシアター",
+      "performanceAt": "2026-07-27T19:00:00+09:00",
+      "doorOpenAt": "2026-07-27T17:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/pages/kanshasai2026",
+      "lastVerifiedAt": "2026-08-23T07:44:00+09:00",
+      "kind": "oneman",
+      "eventName": "み！るきーず感謝祭2026 〜爆裂ホームパーティー〜"
     }
   ],
   "lotteries": [

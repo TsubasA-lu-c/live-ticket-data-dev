@@ -11,6 +11,17 @@
       "source": "system",
       "sourceUrl": "https://musicexpolive.com/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "king_and_prince_dome_tour_2026_starring",
+      "artistId": "king_and_prince",
+      "title": "King & Prince DOME TOUR 2026 STARRING",
+      "startDate": "2026-01-17T00:00:00+09:00",
+      "endDate": "2026-03-29T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://kingandprince7th.jp/STARRING/DOME_tour/",
+      "lastVerifiedAt": "2026-08-23T07:44:00+09:00"
     }
   ],
   "performances": [
@@ -25,6 +36,102 @@
       "source": "system",
       "sourceUrl": "https://musicexpolive.com/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "king_and_prince_dome_tour_2026_starring_20260117",
+      "tourId": "king_and_prince_dome_tour_2026_starring",
+      "venue": "みずほPayPayドーム福岡",
+      "performanceAt": "2026-01-17T17:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://kingandprince7th.jp/STARRING/DOME_tour/",
+      "lastVerifiedAt": "2026-08-23T07:44:00+09:00",
+      "kind": "oneman",
+      "eventName": null
+    },
+    {
+      "id": "king_and_prince_dome_tour_2026_starring_20260118",
+      "tourId": "king_and_prince_dome_tour_2026_starring",
+      "venue": "みずほPayPayドーム福岡",
+      "performanceAt": "2026-01-18T15:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://kingandprince7th.jp/STARRING/DOME_tour/",
+      "lastVerifiedAt": "2026-08-23T07:44:00+09:00",
+      "kind": "oneman",
+      "eventName": null
+    },
+    {
+      "id": "king_and_prince_dome_tour_2026_starring_20260125",
+      "tourId": "king_and_prince_dome_tour_2026_starring",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2026-01-25T17:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://kingandprince7th.jp/STARRING/DOME_tour/",
+      "lastVerifiedAt": "2026-08-23T07:44:00+09:00",
+      "kind": "oneman",
+      "eventName": null
+    },
+    {
+      "id": "king_and_prince_dome_tour_2026_starring_20260126",
+      "tourId": "king_and_prince_dome_tour_2026_starring",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2026-01-26T17:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://kingandprince7th.jp/STARRING/DOME_tour/",
+      "lastVerifiedAt": "2026-08-23T07:44:00+09:00",
+      "kind": "oneman",
+      "eventName": null
+    },
+    {
+      "id": "king_and_prince_dome_tour_2026_starring_20260218",
+      "tourId": "king_and_prince_dome_tour_2026_starring",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-02-18T18:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://kingandprince7th.jp/STARRING/DOME_tour/",
+      "lastVerifiedAt": "2026-08-23T07:44:00+09:00",
+      "kind": "oneman",
+      "eventName": null
+    },
+    {
+      "id": "king_and_prince_dome_tour_2026_starring_20260219",
+      "tourId": "king_and_prince_dome_tour_2026_starring",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-02-19T16:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://kingandprince7th.jp/STARRING/DOME_tour/",
+      "lastVerifiedAt": "2026-08-23T07:44:00+09:00",
+      "kind": "oneman",
+      "eventName": null
+    },
+    {
+      "id": "king_and_prince_dome_tour_2026_starring_20260328",
+      "tourId": "king_and_prince_dome_tour_2026_starring",
+      "venue": "バンテリンドーム ナゴヤ",
+      "performanceAt": "2026-03-28T17:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://kingandprince7th.jp/STARRING/DOME_tour/",
+      "lastVerifiedAt": "2026-08-23T07:44:00+09:00",
+      "kind": "oneman",
+      "eventName": null
+    },
+    {
+      "id": "king_and_prince_dome_tour_2026_starring_20260329",
+      "tourId": "king_and_prince_dome_tour_2026_starring",
+      "venue": "バンテリンドーム ナゴヤ",
+      "performanceAt": "2026-03-29T15:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://kingandprince7th.jp/STARRING/DOME_tour/",
+      "lastVerifiedAt": "2026-08-23T07:44:00+09:00",
+      "kind": "oneman",
+      "eventName": null
     }
   ],
   "lotteries": [

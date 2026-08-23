@@ -11,6 +11,28 @@
       "source": "system",
       "sourceUrl": "https://aespa-official.jp/news/complaexity-liveviewing/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "aespa_synk_aexis_line_special_edition_dome_tour_2026",
+      "artistId": "aespa",
+      "title": "2026 aespa LIVE TOUR – SYNK : aeXIS LINE – in JAPAN [SPECIAL EDITION DOME TOUR]",
+      "startDate": "2026-04-11T00:00:00+09:00",
+      "endDate": "2026-04-26T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://aespa-official.jp/news/synkaexisline-dometour/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "aespa_my_classmaete_fanmeeting_2026",
+      "artistId": "aespa",
+      "title": "MY-J presents aespa JAPAN FANMEETING 2026 “MY CLASSMaeTE”",
+      "startDate": "2026-07-18T00:00:00+09:00",
+      "endDate": "2026-07-20T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://aespa-official.jp/news/fanmeeting2026-myclassmaete/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -325,9 +347,170 @@
       "source": "system",
       "sourceUrl": "https://weverse.io/aespa/notice/35057?hl=ja",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "aespa_synk_aexis_line_special_edition_dome_tour_2026_osaka_0411",
+      "tourId": "aespa_synk_aexis_line_special_edition_dome_tour_2026",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2026-04-11T18:30:00+09:00",
+      "doorOpenAt": "2026-04-11T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://aespa-official.jp/news/synkaexisline-dometour/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "aespa_synk_aexis_line_special_edition_dome_tour_2026_osaka_0412",
+      "tourId": "aespa_synk_aexis_line_special_edition_dome_tour_2026",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2026-04-12T16:00:00+09:00",
+      "doorOpenAt": "2026-04-12T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://aespa-official.jp/news/synkaexisline-dometour/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "aespa_synk_aexis_line_special_edition_dome_tour_2026_tokyo_0425",
+      "tourId": "aespa_synk_aexis_line_special_edition_dome_tour_2026",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-04-25T18:00:00+09:00",
+      "doorOpenAt": "2026-04-25T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://aespa-official.jp/news/synkaexisline-dometour/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "aespa_synk_aexis_line_special_edition_dome_tour_2026_tokyo_0426",
+      "tourId": "aespa_synk_aexis_line_special_edition_dome_tour_2026",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-04-26T16:00:00+09:00",
+      "doorOpenAt": "2026-04-26T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://aespa-official.jp/news/synkaexisline-dometour/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "aespa_my_classmaete_fanmeeting_2026_0718_day",
+      "tourId": "aespa_my_classmaete_fanmeeting_2026",
+      "venue": "京王アリーナTOKYO",
+      "performanceAt": "2026-07-18T14:00:00+09:00",
+      "doorOpenAt": "2026-07-18T13:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://aespa-official.jp/news/fanmeeting2026-myclassmaete/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "aespa_my_classmaete_fanmeeting_2026_0718_night",
+      "tourId": "aespa_my_classmaete_fanmeeting_2026",
+      "venue": "京王アリーナTOKYO",
+      "performanceAt": "2026-07-18T18:30:00+09:00",
+      "doorOpenAt": "2026-07-18T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://aespa-official.jp/news/fanmeeting2026-myclassmaete/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "aespa_my_classmaete_fanmeeting_2026_0719_day",
+      "tourId": "aespa_my_classmaete_fanmeeting_2026",
+      "venue": "京王アリーナTOKYO",
+      "performanceAt": "2026-07-19T13:00:00+09:00",
+      "doorOpenAt": "2026-07-19T12:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://aespa-official.jp/news/fanmeeting2026-myclassmaete/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "aespa_my_classmaete_fanmeeting_2026_0719_night",
+      "tourId": "aespa_my_classmaete_fanmeeting_2026",
+      "venue": "京王アリーナTOKYO",
+      "performanceAt": "2026-07-19T17:30:00+09:00",
+      "doorOpenAt": "2026-07-19T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://aespa-official.jp/news/fanmeeting2026-myclassmaete/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "aespa_my_classmaete_fanmeeting_2026_0720_day",
+      "tourId": "aespa_my_classmaete_fanmeeting_2026",
+      "venue": "京王アリーナTOKYO",
+      "performanceAt": "2026-07-20T13:00:00+09:00",
+      "doorOpenAt": "2026-07-20T12:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://aespa-official.jp/news/fanmeeting2026-myclassmaete/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "aespa_my_classmaete_fanmeeting_2026_0720_night",
+      "tourId": "aespa_my_classmaete_fanmeeting_2026",
+      "venue": "京王アリーナTOKYO",
+      "performanceAt": "2026-07-20T17:30:00+09:00",
+      "doorOpenAt": "2026-07-20T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://aespa-official.jp/news/fanmeeting2026-myclassmaete/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
-  "lotteries": [],
+  "lotteries": [
+    {
+      "id": "aespa_synk_aexis_line_special_edition_dome_tour_2026_myj_fastest",
+      "tourId": "aespa_synk_aexis_line_special_edition_dome_tour_2026",
+      "type": "MY-J最速先行",
+      "entryStartAt": "2025-11-08T20:00:00+09:00",
+      "entryEndAt": "2025-11-24T23:59:00+09:00",
+      "resultAt": "2025-11-29T20:00:00+09:00",
+      "paymentStartAt": "2025-11-29T20:00:00+09:00",
+      "paymentEndAt": "2025-12-03T23:59:00+09:00",
+      "performanceIds": [
+        "aespa_synk_aexis_line_special_edition_dome_tour_2026_osaka_0411",
+        "aespa_synk_aexis_line_special_edition_dome_tour_2026_osaka_0412",
+        "aespa_synk_aexis_line_special_edition_dome_tour_2026_tokyo_0425",
+        "aespa_synk_aexis_line_special_edition_dome_tour_2026_tokyo_0426"
+      ],
+      "source": "system",
+      "sourceUrl": "https://aespa-official.jp/news/synkaexisline-dometour/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "aespa_my_classmaete_fanmeeting_2026_myj_fastest",
+      "tourId": "aespa_my_classmaete_fanmeeting_2026",
+      "type": "MY-J最速先行",
+      "entryStartAt": "2026-04-25T21:30:00+09:00",
+      "entryEndAt": "2026-05-12T23:59:00+09:00",
+      "resultAt": "2026-05-20T20:00:00+09:00",
+      "paymentStartAt": "2026-05-20T20:00:00+09:00",
+      "paymentEndAt": "2026-05-26T23:59:00+09:00",
+      "performanceIds": [
+        "aespa_my_classmaete_fanmeeting_2026_0718_day",
+        "aespa_my_classmaete_fanmeeting_2026_0718_night",
+        "aespa_my_classmaete_fanmeeting_2026_0719_day",
+        "aespa_my_classmaete_fanmeeting_2026_0719_night",
+        "aespa_my_classmaete_fanmeeting_2026_0720_day",
+        "aespa_my_classmaete_fanmeeting_2026_0720_night"
+      ],
+      "source": "system",
+      "sourceUrl": "https://aespa-official.jp/news/fanmeeting2026-myclassmaete/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    }
+  ],
   "appleMusicTracks": [
     {
       "songId": "6790246893",

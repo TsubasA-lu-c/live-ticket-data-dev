@@ -57,6 +57,82 @@
       "source": "system",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/lisa/info/581758",
       "lastVerifiedAt": "2026-08-17T23:05:00+09:00"
+    },
+    {
+      "id": "lisa_live_is_smile_always_15_japan_2026",
+      "artistId": "lisa",
+      "title": "LiVE is Smile Always～15～ (iCHiNiTSUiTE GO)",
+      "startDate": "2026-04-17T00:00:00+09:00",
+      "endDate": "2026-05-20T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 11000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/lisa/info/580081",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "lisa_15th_anniversary_party_2026",
+      "artistId": "lisa",
+      "title": "LiSA 15th ANNiVERSARY PARTY～Hi Hi Hi FiVE!～",
+      "startDate": "2026-04-20T00:00:00+09:00",
+      "endDate": "2026-04-20T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "スタンディング",
+          "amount": 5151
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://k.lxixsxa.com/s/n29/news/detail/11241",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "lisa_asia_tour_15_kuala_lumpur_2026",
+      "artistId": "lisa",
+      "title": "LiVE is Smile Always～15～ in Kuala Lumpur",
+      "startDate": "2026-06-07T00:00:00+08:00",
+      "endDate": "2026-06-07T00:00:00+08:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/lisa/info/581758",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "lisa_asia_tour_15_taipei_2026",
+      "artistId": "lisa",
+      "title": "LiVE is Smile Always～15～ in Taipei",
+      "startDate": "2026-06-19T00:00:00+08:00",
+      "endDate": "2026-06-20T00:00:00+08:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/lisa/info/581758",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "lisa_asia_tour_15_hong_kong_2026",
+      "artistId": "lisa",
+      "title": "LiVE is Smile Always～15～ in Hong Kong",
+      "startDate": "2026-07-18T00:00:00+08:00",
+      "endDate": "2026-07-18T00:00:00+08:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/lisa/info/581758",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "lisa_europe_uk_tour_2026",
+      "artistId": "lisa",
+      "title": "Europe & UK TOUR 2026 LiVE is Smile Always～15～",
+      "startDate": "2026-09-15T00:00:00+02:00",
+      "endDate": "2026-09-22T00:00:00+01:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/lisa/info/580574",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -335,6 +411,174 @@
       "source": "system",
       "sourceUrl": "https://ticket.melon.com/performance/index.htm?prodId=212918",
       "lastVerifiedAt": "2026-08-17T23:05:00+09:00"
+    },
+    {
+      "id": "lisa_live_is_smile_always_15_japan_2026_budokan_0417",
+      "tourId": "lisa_live_is_smile_always_15_japan_2026",
+      "venue": "日本武道館",
+      "performanceAt": "2026-04-17T18:00:00+09:00",
+      "doorOpenAt": "2026-04-17T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/lisa/info/580081",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "lisa_live_is_smile_always_15_japan_2026_budokan_0418",
+      "tourId": "lisa_live_is_smile_always_15_japan_2026",
+      "venue": "日本武道館",
+      "performanceAt": "2026-04-18T17:00:00+09:00",
+      "doorOpenAt": "2026-04-18T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/lisa/info/580081",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "lisa_live_is_smile_always_15_japan_2026_kobe_0428",
+      "tourId": "lisa_live_is_smile_always_15_japan_2026",
+      "venue": "神戸ワールド記念ホール",
+      "performanceAt": "2026-04-28T18:30:00+09:00",
+      "doorOpenAt": "2026-04-28T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/lisa/info/580081",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "lisa_live_is_smile_always_15_japan_2026_kobe_0429",
+      "tourId": "lisa_live_is_smile_always_15_japan_2026",
+      "venue": "神戸ワールド記念ホール",
+      "performanceAt": "2026-04-29T17:00:00+09:00",
+      "doorOpenAt": "2026-04-29T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/lisa/info/580081",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "lisa_live_is_smile_always_15_japan_2026_nagoya_0519",
+      "tourId": "lisa_live_is_smile_always_15_japan_2026",
+      "venue": "日本ガイシホール",
+      "performanceAt": "2026-05-19T19:00:00+09:00",
+      "doorOpenAt": "2026-05-19T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/lisa/info/580081",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "lisa_live_is_smile_always_15_japan_2026_nagoya_0520",
+      "tourId": "lisa_live_is_smile_always_15_japan_2026",
+      "venue": "日本ガイシホール",
+      "performanceAt": "2026-05-20T18:30:00+09:00",
+      "doorOpenAt": "2026-05-20T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/lisa/info/580081",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "lisa_15th_anniversary_party_2026_liquidroom_0420",
+      "tourId": "lisa_15th_anniversary_party_2026",
+      "venue": "LIQUIDROOM",
+      "performanceAt": "2026-04-20T18:00:00+09:00",
+      "doorOpenAt": "2026-04-20T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://k.lxixsxa.com/s/n29/news/detail/11241",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "lisa_asia_tour_15_taipei_2026_0619",
+      "tourId": "lisa_asia_tour_15_taipei_2026",
+      "venue": "Taipei Arena",
+      "performanceAt": "2026-06-19T19:00:00+08:00",
+      "doorOpenAt": "2026-06-19T17:30:00+08:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.arena.taipei/News_Content.aspx?n=4A7BFF61FA074F0F&s=D637DA6FC06545C6",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "lisa_asia_tour_15_taipei_2026_0620",
+      "tourId": "lisa_asia_tour_15_taipei_2026",
+      "venue": "Taipei Arena",
+      "performanceAt": "2026-06-20T17:00:00+08:00",
+      "doorOpenAt": "2026-06-20T15:30:00+08:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.arena.taipei/News_Content.aspx?n=4A7BFF61FA074F0F&s=D637DA6FC06545C6",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "lisa_asia_tour_15_hong_kong_2026_0718",
+      "tourId": "lisa_asia_tour_15_hong_kong_2026",
+      "venue": "AsiaWorld-Arena",
+      "performanceAt": "2026-07-18T20:00:00+08:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.livenation.hk/en/event/lisa-live-is-smile-always-15-in-hong-kong-hong-kong-tickets-edp1666323",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "lisa_europe_uk_tour_2026_milan_0915",
+      "tourId": "lisa_europe_uk_tour_2026",
+      "venue": "Unipol Forum",
+      "performanceAt": "2026-09-15T21:00:00+02:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.ticketone.it/artist/lisa/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "lisa_europe_uk_tour_2026_dusseldorf_0917",
+      "tourId": "lisa_europe_uk_tour_2026",
+      "venue": "Mitsubishi Electric Halle",
+      "performanceAt": "2026-09-17T20:00:00+02:00",
+      "doorOpenAt": "2026-09-17T18:30:00+02:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.mitsubishi-electric-halle.de/event/lisa-17-09-2026",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "lisa_europe_uk_tour_2026_paris_0920",
+      "tourId": "lisa_europe_uk_tour_2026",
+      "venue": "Zénith Paris - La Villette",
+      "performanceAt": "2026-09-20T19:00:00+02:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.eventim.fr/event/lisa-live-is-smile-always-15-europe-uk-tour-2026-zenith-paris-la-villette-21254972/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "lisa_europe_uk_tour_2026_london_0922",
+      "tourId": "lisa_europe_uk_tour_2026",
+      "venue": "Troxy",
+      "performanceAt": "2026-09-22T19:00:00+01:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://troxy.co.uk/event/lisa/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "lotteries": [

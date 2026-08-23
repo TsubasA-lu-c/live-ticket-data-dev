@@ -278,6 +278,30 @@
       "source": "system",
       "sourceUrl": "https://www.tennimu.com/tennimu2_2026/ticket/",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "tennimu_tennimu2_finalstage_2026_gifu_1031_1230",
+      "tourId": "tennimu_tennimu2_finalstage_2026",
+      "venue": "土岐市文化プラザ サンホール",
+      "performanceAt": "2026-10-31T12:30:00+09:00",
+      "doorOpenAt": "2026-10-31T11:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/0473460021",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "tennimu_tennimu2_finalstage_2026_gifu_1031_1730",
+      "tourId": "tennimu_tennimu2_finalstage_2026",
+      "venue": "土岐市文化プラザ サンホール",
+      "performanceAt": "2026-10-31T17:30:00+09:00",
+      "doorOpenAt": "2026-10-31T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/0473460021",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "lotteries": [

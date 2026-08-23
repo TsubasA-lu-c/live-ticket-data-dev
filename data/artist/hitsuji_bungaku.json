@@ -53,6 +53,72 @@
       "source": "system",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/582173",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "hitsuji_bungaku_spring_tour_2026",
+      "artistId": "hitsuji_bungaku",
+      "title": "羊文学「SPRING TOUR 2026」",
+      "startDate": "2026-02-24T00:00:00+09:00",
+      "endDate": "2026-03-19T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/580554",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "hitsuji_bungaku_viva_la_rock_2026",
+      "artistId": "hitsuji_bungaku",
+      "title": "VIVA LA ROCK 2026",
+      "startDate": "2026-05-03T00:00:00+09:00",
+      "endDate": "2026-05-03T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/580880",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "hitsuji_bungaku_music_awards_japan_week_equal_stage_2026",
+      "artistId": "hitsuji_bungaku",
+      "title": "MUSIC AWARDS JAPAN WEEK SPECIAL LIVE Billboard JAPAN | Spotify present Women In Music - EQUAL STAGE",
+      "startDate": "2026-06-09T00:00:00+09:00",
+      "endDate": "2026-06-09T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/583231",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "hitsuji_bungaku_liquidroom_22nd_anniversary_2026",
+      "artistId": "hitsuji_bungaku",
+      "title": "-LIQUIDROOM 22nd Anniversary-",
+      "startDate": "2026-07-14T00:00:00+09:00",
+      "endDate": "2026-07-14T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/583498",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "hitsuji_bungaku_join_alive_2026",
+      "artistId": "hitsuji_bungaku",
+      "title": "JOIN ALIVE 2026",
+      "startDate": "2026-07-18T00:00:00+09:00",
+      "endDate": "2026-07-18T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/582243",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "hitsuji_bungaku_number_shot_2026",
+      "artistId": "hitsuji_bungaku",
+      "title": "NUMBER SHOT 2026",
+      "startDate": "2026-08-01T00:00:00+09:00",
+      "endDate": "2026-08-01T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/584757",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -259,6 +325,126 @@
       "source": "system",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/582173",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "hitsuji_bungaku_spring_tour_2026_yokohama_0224",
+      "tourId": "hitsuji_bungaku_spring_tour_2026",
+      "venue": "KT Zepp Yokohama",
+      "performanceAt": "2026-02-24T19:00:00+09:00",
+      "doorOpenAt": "2026-02-24T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/580554",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "hitsuji_bungaku_spring_tour_2026_sendai_0301",
+      "tourId": "hitsuji_bungaku_spring_tour_2026",
+      "venue": "SENDAI GIGS",
+      "performanceAt": "2026-03-01T18:00:00+09:00",
+      "doorOpenAt": "2026-03-01T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/580554",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "hitsuji_bungaku_spring_tour_2026_fukuoka_0305",
+      "tourId": "hitsuji_bungaku_spring_tour_2026",
+      "venue": "Zepp Fukuoka",
+      "performanceAt": "2026-03-05T19:00:00+09:00",
+      "doorOpenAt": "2026-03-05T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/580554",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "hitsuji_bungaku_spring_tour_2026_nagoya_0310",
+      "tourId": "hitsuji_bungaku_spring_tour_2026",
+      "venue": "Zepp Nagoya",
+      "performanceAt": "2026-03-10T19:00:00+09:00",
+      "doorOpenAt": "2026-03-10T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/580554",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "hitsuji_bungaku_spring_tour_2026_sapporo_0319",
+      "tourId": "hitsuji_bungaku_spring_tour_2026",
+      "venue": "Zepp Sapporo",
+      "performanceAt": "2026-03-19T19:00:00+09:00",
+      "doorOpenAt": "2026-03-19T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/580554",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "hitsuji_bungaku_viva_la_rock_2026_saitama_0503",
+      "tourId": "hitsuji_bungaku_viva_la_rock_2026",
+      "venue": "埼玉スタジアム2002周辺・野外特設会場",
+      "performanceAt": "2026-05-03T11:00:00+09:00",
+      "doorOpenAt": "2026-05-03T09:30:00+09:00",
+      "kind": "fes",
+      "eventName": "VIVA LA ROCK 2026",
+      "source": "system",
+      "sourceUrl": "https://vivalarock.jp/2026/about/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "hitsuji_bungaku_music_awards_japan_week_equal_stage_2026_ariake_0609",
+      "tourId": "hitsuji_bungaku_music_awards_japan_week_equal_stage_2026",
+      "venue": "SGCホール有明",
+      "performanceAt": "2026-06-09T18:30:00+09:00",
+      "doorOpenAt": "2026-06-09T17:30:00+09:00",
+      "kind": "fes",
+      "eventName": "MUSIC AWARDS JAPAN WEEK SPECIAL LIVE Billboard JAPAN | Spotify present Women In Music - EQUAL STAGE",
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/583231",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "hitsuji_bungaku_liquidroom_22nd_anniversary_2026_tokyo_0714",
+      "tourId": "hitsuji_bungaku_liquidroom_22nd_anniversary_2026",
+      "venue": "LIQUIDROOM",
+      "performanceAt": "2026-07-14T19:00:00+09:00",
+      "doorOpenAt": "2026-07-14T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/583498",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "hitsuji_bungaku_join_alive_2026_iwamizawa_0718",
+      "tourId": "hitsuji_bungaku_join_alive_2026",
+      "venue": "いわみざわ公園〈野外音楽堂キタオン＆北海道グリーンランド遊園地〉",
+      "performanceAt": "2026-07-18T11:00:00+09:00",
+      "doorOpenAt": "2026-07-18T09:30:00+09:00",
+      "kind": "fes",
+      "eventName": "JOIN ALIVE 2026",
+      "source": "system",
+      "sourceUrl": "https://joinalive.jp/2026/info/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "hitsuji_bungaku_number_shot_2026_fukuoka_0801",
+      "tourId": "hitsuji_bungaku_number_shot_2026",
+      "venue": "福岡PayPayドーム・シーサイドももち海浜公園地行浜ビーチ",
+      "performanceAt": "2026-08-01T10:30:00+09:00",
+      "doorOpenAt": "2026-08-01T08:30:00+09:00",
+      "kind": "fes",
+      "eventName": "NUMBER SHOT 2026",
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/584757",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "lotteries": [

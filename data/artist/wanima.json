@@ -39,6 +39,22 @@
       "source": "system",
       "sourceUrl": "https://wanima.net/contents/live",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "wanima_excuse_error_2026",
+      "artistId": "wanima",
+      "title": "WANIMA 2026 TOUR ”Excuse Error”",
+      "startDate": "2026-04-11T00:00:00+09:00",
+      "endDate": "2026-06-22T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席／スタンディング",
+          "amount": 8800
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://wanima-live.com/excuse-error/",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
     }
   ],
   "performances": [
@@ -149,6 +165,210 @@
       "source": "system",
       "sourceUrl": "https://liveazuma.jp/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "wanima_excuse_error_2026_amakusa_0411_1",
+      "tourId": "wanima_excuse_error_2026",
+      "venue": "天草市民センター",
+      "performanceAt": "2026-04-11T14:30:00+09:00",
+      "doorOpenAt": "2026-04-11T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://wanima-live.com/excuse-error/",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "wanima_excuse_error_2026_amakusa_0411_2",
+      "tourId": "wanima_excuse_error_2026",
+      "venue": "天草市民センター",
+      "performanceAt": "2026-04-11T18:00:00+09:00",
+      "doorOpenAt": "2026-04-11T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://wanima-live.com/excuse-error/",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "wanima_excuse_error_2026_chiba_0417",
+      "tourId": "wanima_excuse_error_2026",
+      "venue": "千葉県文化会館・大ホール",
+      "performanceAt": "2026-04-17T18:30:00+09:00",
+      "doorOpenAt": "2026-04-17T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://wanima-live.com/excuse-error/",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "wanima_excuse_error_2026_niigata_0419",
+      "tourId": "wanima_excuse_error_2026",
+      "venue": "新潟テルサ",
+      "performanceAt": "2026-04-19T17:00:00+09:00",
+      "doorOpenAt": "2026-04-19T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://wanima-live.com/excuse-error/",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "wanima_excuse_error_2026_osaka_0423",
+      "tourId": "wanima_excuse_error_2026",
+      "venue": "オリックス劇場",
+      "performanceAt": "2026-04-23T18:30:00+09:00",
+      "doorOpenAt": "2026-04-23T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://wanima-live.com/excuse-error/",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "wanima_excuse_error_2026_matsuyama_0426",
+      "tourId": "wanima_excuse_error_2026",
+      "venue": "松山市民会館",
+      "performanceAt": "2026-04-26T17:00:00+09:00",
+      "doorOpenAt": "2026-04-26T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://wanima-live.com/excuse-error/",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "wanima_excuse_error_2026_kumamoto_0430",
+      "tourId": "wanima_excuse_error_2026",
+      "venue": "熊本城ホール メインホール",
+      "performanceAt": "2026-04-30T18:30:00+09:00",
+      "doorOpenAt": "2026-04-30T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://wanima-live.com/excuse-error/",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "wanima_excuse_error_2026_oita_0502",
+      "tourId": "wanima_excuse_error_2026",
+      "venue": "iichikoグランシアタ",
+      "performanceAt": "2026-05-02T17:00:00+09:00",
+      "doorOpenAt": "2026-05-02T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://wanima-live.com/excuse-error/",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "wanima_excuse_error_2026_line_cube_shibuya_0507",
+      "tourId": "wanima_excuse_error_2026",
+      "venue": "LINE CUBE SHIBUYA（渋谷公会堂）",
+      "performanceAt": "2026-05-07T18:30:00+09:00",
+      "doorOpenAt": "2026-05-07T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://wanima-live.com/excuse-error/",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "wanima_excuse_error_2026_okayama_0517",
+      "tourId": "wanima_excuse_error_2026",
+      "venue": "岡山芸術創造劇場 ハレノワ 大劇場",
+      "performanceAt": "2026-05-17T17:00:00+09:00",
+      "doorOpenAt": "2026-05-17T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://wanima-live.com/excuse-error/",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "wanima_excuse_error_2026_hakodate_0523",
+      "tourId": "wanima_excuse_error_2026",
+      "venue": "函館サーモン・まるなまホール 大ホール（函館市民会館 大ホール）",
+      "performanceAt": "2026-05-23T17:00:00+09:00",
+      "doorOpenAt": "2026-05-23T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://wanima-live.com/excuse-error/",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "wanima_excuse_error_2026_sendai_0525",
+      "tourId": "wanima_excuse_error_2026",
+      "venue": "仙台サンプラザホール",
+      "performanceAt": "2026-05-25T18:30:00+09:00",
+      "doorOpenAt": "2026-05-25T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://wanima-live.com/excuse-error/",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "wanima_excuse_error_2026_gifu_0605",
+      "tourId": "wanima_excuse_error_2026",
+      "venue": "長良川国際会議場 メインホール",
+      "performanceAt": "2026-06-05T18:30:00+09:00",
+      "doorOpenAt": "2026-06-05T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://wanima-live.com/excuse-error/",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "wanima_excuse_error_2026_kobe_0611",
+      "tourId": "wanima_excuse_error_2026",
+      "venue": "神戸国際会館 こくさいホール",
+      "performanceAt": "2026-06-11T18:30:00+09:00",
+      "doorOpenAt": "2026-06-11T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://wanima-live.com/excuse-error/",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "wanima_excuse_error_2026_nara_0612",
+      "tourId": "wanima_excuse_error_2026",
+      "venue": "なら100年会館 大ホール",
+      "performanceAt": "2026-06-12T18:30:00+09:00",
+      "doorOpenAt": "2026-06-12T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://wanima-live.com/excuse-error/",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "wanima_excuse_error_2026_fukuoka_0619",
+      "tourId": "wanima_excuse_error_2026",
+      "venue": "福岡サンパレス",
+      "performanceAt": "2026-06-19T18:30:00+09:00",
+      "doorOpenAt": "2026-06-19T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://wanima-live.com/excuse-error/",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "wanima_excuse_error_2026_sgc_hall_ariake_0622",
+      "tourId": "wanima_excuse_error_2026",
+      "venue": "SGC HALL ARIAKE",
+      "performanceAt": "2026-06-22T18:30:00+09:00",
+      "doorOpenAt": "2026-06-22T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://wanima-live.com/excuse-error/",
+      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
     }
   ],
   "lotteries": [

@@ -53,6 +53,17 @@
       "source": "system",
       "sourceUrl": "https://www.andteam-official.jp/news/f905e8f20837",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_2026",
+      "artistId": "and_team",
+      "title": "2026 &TEAM CONCERT TOUR 'BLAZE THE WAY'",
+      "startDate": "2026-05-13T00:00:00+09:00",
+      "endDate": "2026-08-22T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/ufzpts",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -139,6 +150,222 @@
       "source": "system",
       "sourceUrl": "https://www.andteam-official.jp/news/f905e8f20837",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_2026_yokohama_0513",
+      "tourId": "and_team_blaze_the_way_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-05-13T18:30:00+09:00",
+      "doorOpenAt": "2026-05-13T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/kmubos",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_2026_yokohama_0514",
+      "tourId": "and_team_blaze_the_way_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-05-14T18:00:00+09:00",
+      "doorOpenAt": "2026-05-14T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/kmubos",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_2026_kagawa_0523",
+      "tourId": "and_team_blaze_the_way_2026",
+      "venue": "あなぶきアリーナ香川",
+      "performanceAt": "2026-05-23T17:00:00+09:00",
+      "doorOpenAt": "2026-05-23T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/kmubos",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_2026_kagawa_0524",
+      "tourId": "and_team_blaze_the_way_2026",
+      "venue": "あなぶきアリーナ香川",
+      "performanceAt": "2026-05-24T16:00:00+09:00",
+      "doorOpenAt": "2026-05-24T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/kmubos",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_2026_aichi_0530",
+      "tourId": "and_team_blaze_the_way_2026",
+      "venue": "IGアリーナ",
+      "performanceAt": "2026-05-30T17:00:00+09:00",
+      "doorOpenAt": "2026-05-30T15:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/kmubos",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_2026_aichi_0531",
+      "tourId": "and_team_blaze_the_way_2026",
+      "venue": "IGアリーナ",
+      "performanceAt": "2026-05-31T16:00:00+09:00",
+      "doorOpenAt": "2026-05-31T14:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/kmubos",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_2026_kitakyushu_0613",
+      "tourId": "and_team_blaze_the_way_2026",
+      "venue": "北九州メッセ",
+      "performanceAt": "2026-06-13T17:00:00+09:00",
+      "doorOpenAt": "2026-06-13T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/kmubos",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_2026_kitakyushu_0614",
+      "tourId": "and_team_blaze_the_way_2026",
+      "venue": "北九州メッセ",
+      "performanceAt": "2026-06-14T16:00:00+09:00",
+      "doorOpenAt": "2026-06-14T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/kmubos",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_2026_kobe_0627",
+      "tourId": "and_team_blaze_the_way_2026",
+      "venue": "GLION ARENA KOBE",
+      "performanceAt": "2026-06-27T17:00:00+09:00",
+      "doorOpenAt": "2026-06-27T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/kmubos",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_2026_kobe_0628",
+      "tourId": "and_team_blaze_the_way_2026",
+      "venue": "GLION ARENA KOBE",
+      "performanceAt": "2026-06-28T16:00:00+09:00",
+      "doorOpenAt": "2026-06-28T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/kmubos",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_2026_chiba_0725",
+      "tourId": "and_team_blaze_the_way_2026",
+      "venue": "LaLa arena TOKYO-BAY",
+      "performanceAt": "2026-07-25T17:00:00+09:00",
+      "doorOpenAt": "2026-07-25T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/kmubos",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_2026_chiba_0726",
+      "tourId": "and_team_blaze_the_way_2026",
+      "venue": "LaLa arena TOKYO-BAY",
+      "performanceAt": "2026-07-26T16:00:00+09:00",
+      "doorOpenAt": "2026-07-26T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/kmubos",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_2026_taipei_0621",
+      "tourId": "and_team_blaze_the_way_2026",
+      "venue": "NTSU Arena",
+      "performanceAt": "2026-06-21T18:30:00+08:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://kklivetw.kktix.cc/events/efb2a871?locale=en",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_2026_incheon_0704",
+      "tourId": "and_team_blaze_the_way_2026",
+      "venue": "INSPIRE ARENA",
+      "performanceAt": "2026-07-04T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://tickets.interpark.com/contents/notice/detail/13513",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_2026_incheon_0705",
+      "tourId": "and_team_blaze_the_way_2026",
+      "venue": "INSPIRE ARENA",
+      "performanceAt": "2026-07-05T17:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://tickets.interpark.com/contents/notice/detail/13513",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_2026_hong_kong_0711",
+      "tourId": "and_team_blaze_the_way_2026",
+      "venue": "AsiaWorld-Expo, Runway 11",
+      "performanceAt": "2026-07-11T19:00:00+08:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ime.co/blog/tour/2026-team-concert-tour-blaze-the-way-in-hong-kong/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_2026_bangkok_0718",
+      "tourId": "and_team_blaze_the_way_2026",
+      "venue": "Thunder Dome",
+      "performanceAt": "2026-07-18T18:00:00+07:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.thunderdome.biz/en/events/event/428-2026-team-concert-tour-blaze-the-way-in-bangkok",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_2026_singapore_0822",
+      "tourId": "and_team_blaze_the_way_2026",
+      "venue": "Arena @ EXPO",
+      "performanceAt": "2026-08-22T19:00:00+08:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.singaporeexpo.com.sg/events-at-expo/2026-andteam-concert-tour-in-singapore/",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -254,6 +481,23 @@
       "source": "system",
       "sourceUrl": "https://www.andteam-official.jp/news/f905e8f20837",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_encore_2026_general_sale",
+      "tourId": "and_team_blaze_the_way_encore_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-08-08T13:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "and_team_blaze_the_way_encore_2026_belluna_0905",
+        "and_team_blaze_the_way_encore_2026_belluna_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/45db5e1f80f2",
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

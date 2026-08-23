@@ -20,6 +20,17 @@
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
       "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+    },
+    {
+      "id": "mrs_green_apple_zenjin_immutable_interlude_2026",
+      "artistId": "mrs_green_apple",
+      "title": "≪ゼンジン未到とイ/ミュータブル〜間奏編〜≫",
+      "startDate": "2026-04-18T00:00:00+09:00",
+      "endDate": "2026-07-05T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://mrsgreenapple.com/feature/zenjinmito_2026",
+      "lastVerifiedAt": "2026-08-23T07:44:00+09:00"
     }
   ],
   "performances": [
@@ -358,6 +369,78 @@
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
       "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+    },
+    {
+      "id": "mrs_green_apple_zenjin_immutable_interlude_2026_20260418",
+      "tourId": "mrs_green_apple_zenjin_immutable_interlude_2026",
+      "venue": "MUFGスタジアム（国立競技場）",
+      "performanceAt": "2026-04-18T18:30:00+09:00",
+      "doorOpenAt": "2026-04-18T16:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://mrsgreenapple.com/feature/zenjinmito_2026",
+      "lastVerifiedAt": "2026-08-23T07:44:00+09:00",
+      "kind": "oneman",
+      "eventName": null
+    },
+    {
+      "id": "mrs_green_apple_zenjin_immutable_interlude_2026_20260419",
+      "tourId": "mrs_green_apple_zenjin_immutable_interlude_2026",
+      "venue": "MUFGスタジアム（国立競技場）",
+      "performanceAt": "2026-04-19T18:30:00+09:00",
+      "doorOpenAt": "2026-04-19T16:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://mrsgreenapple.com/feature/zenjinmito_2026",
+      "lastVerifiedAt": "2026-08-23T07:44:00+09:00",
+      "kind": "oneman",
+      "eventName": null
+    },
+    {
+      "id": "mrs_green_apple_zenjin_immutable_interlude_2026_20260504",
+      "tourId": "mrs_green_apple_zenjin_immutable_interlude_2026",
+      "venue": "ヤンマースタジアム長居",
+      "performanceAt": "2026-05-04T18:00:00+09:00",
+      "doorOpenAt": "2026-05-04T16:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://mrsgreenapple.com/feature/zenjinmito_2026",
+      "lastVerifiedAt": "2026-08-23T07:44:00+09:00",
+      "kind": "oneman",
+      "eventName": null
+    },
+    {
+      "id": "mrs_green_apple_zenjin_immutable_interlude_2026_20260505",
+      "tourId": "mrs_green_apple_zenjin_immutable_interlude_2026",
+      "venue": "ヤンマースタジアム長居",
+      "performanceAt": "2026-05-05T18:00:00+09:00",
+      "doorOpenAt": "2026-05-05T16:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://mrsgreenapple.com/feature/zenjinmito_2026",
+      "lastVerifiedAt": "2026-08-23T07:44:00+09:00",
+      "kind": "oneman",
+      "eventName": null
+    },
+    {
+      "id": "mrs_green_apple_zenjin_immutable_interlude_2026_20260704",
+      "tourId": "mrs_green_apple_zenjin_immutable_interlude_2026",
+      "venue": "MUFGスタジアム（国立競技場）",
+      "performanceAt": "2026-07-04T18:30:00+09:00",
+      "doorOpenAt": "2026-07-04T16:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://mrsgreenapple.com/feature/zenjinmito_2026",
+      "lastVerifiedAt": "2026-08-23T07:44:00+09:00",
+      "kind": "oneman",
+      "eventName": null
+    },
+    {
+      "id": "mrs_green_apple_zenjin_immutable_interlude_2026_20260705",
+      "tourId": "mrs_green_apple_zenjin_immutable_interlude_2026",
+      "venue": "MUFGスタジアム（国立競技場）",
+      "performanceAt": "2026-07-05T18:30:00+09:00",
+      "doorOpenAt": "2026-07-05T16:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://mrsgreenapple.com/feature/zenjinmito_2026",
+      "lastVerifiedAt": "2026-08-23T07:44:00+09:00",
+      "kind": "oneman",
+      "eventName": null
     }
   ],
   "lotteries": [
