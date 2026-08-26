@@ -144,6 +144,19 @@
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
+      "id": "fujii_kaze_prema_world_2026_bangkok_1226",
+      "tourId": "fujii_kaze_prema_world_2026",
+      "venue": "Supachalasai National Stadium",
+      "performanceAt": "2026-12-26T19:00:00+09:00",
+      "doorOpenAt": "2026-12-26T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "eventStatus": "cancelled",
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-08-26T00:00:00+09:00"
+    },
+    {
       "id": "fujii_kaze_prema_world_2026_seoul_0109",
       "tourId": "fujii_kaze_prema_world_2026",
       "venue": "Gocheok Sky Dome",
