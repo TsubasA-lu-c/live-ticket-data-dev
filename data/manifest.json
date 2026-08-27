@@ -1,9 +1,9 @@
 {
-  "version": 161,
-  "updatedAt": "2026-08-27T22:32:59+09:00",
+  "version": 162,
+  "updatedAt": "2026-08-28T06:10:02+09:00",
   "files": {
     "artists": {
-      "hash": "feb5f1f2ef4b82f3"
+      "hash": "57f37fb4d9414151"
     }
   },
   "artists": {
@@ -170,7 +170,10 @@
       "hash": "7a538d26fa24ec42"
     },
     "bz": {
-      "hash": "891041d6fc10c904"
+      "hash": "90cf966827bb186d"
+    },
+    "koshi_inaba": {
+      "hash": "242486cd00413bc4"
     },
     "cutie_street": {
       "hash": "595376cbe9a3376e"
