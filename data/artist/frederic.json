@@ -459,6 +459,70 @@
       "source": "system",
       "sourceUrl": "https://frederic-official.com/news/detail/3733",
       "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_preorder_2_1012",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "type": "プレオーダー先行",
+      "entryStartAt": "2026-07-31T18:00:00+09:00",
+      "entryEndAt": "2026-08-11T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_haneda_1012"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3740",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_final_1012",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "type": "チケット最終先行",
+      "entryStartAt": "2026-08-14T18:00:00+09:00",
+      "entryEndAt": "2026-08-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_haneda_1012"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3741",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_fc_1st_0117",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "type": "フレハウス+一次先行",
+      "entryStartAt": "2026-08-07T20:00:00+09:00",
+      "entryEndAt": "2026-08-11T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_haneda_0117"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3742",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_fc_2nd_0117",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "type": "フレハウス+二次先行",
+      "entryStartAt": "2026-08-25T18:00:00+09:00",
+      "entryEndAt": "2026-08-30T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_haneda_0117"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3755",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

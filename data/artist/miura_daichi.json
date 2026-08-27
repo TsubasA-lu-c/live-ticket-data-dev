@@ -633,6 +633,399 @@
       "source": "system",
       "sourceUrl": "https://www.bea-net.com/liveinformation/artist/2611miuradaichi.html",
       "lastVerifiedAt": "2026-08-17T23:32:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_misato_general",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-08-22T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_misato_0912",
+        "miura_daichi_raw_bare_2026_misato_0913"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1054",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_kochi_pia_0822",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケットぴあ イベンター先行",
+      "entryStartAt": "2026-08-22T18:00:00+09:00",
+      "entryEndAt": "2026-08-30T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_kochi_1106"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1055",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_kochi_lawson_0822",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "ローソンチケット イベンター先行",
+      "entryStartAt": "2026-08-22T18:00:00+09:00",
+      "entryEndAt": "2026-08-30T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_kochi_1106"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1055",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_kochi_eplus_0822",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "イープラス イベンター先行",
+      "entryStartAt": "2026-08-22T18:00:00+09:00",
+      "entryEndAt": "2026-08-27T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_kochi_1106"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1055",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_kurashiki_pia_0822",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケットぴあ イベンター先行",
+      "entryStartAt": "2026-08-22T18:00:00+09:00",
+      "entryEndAt": "2026-08-30T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_kurashiki_1108"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1055",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_kurashiki_lawson_0822",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "ローソンチケット イベンター先行",
+      "entryStartAt": "2026-08-22T18:00:00+09:00",
+      "entryEndAt": "2026-08-30T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_kurashiki_1108"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1055",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_kurashiki_eplus_0822",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "イープラス イベンター先行",
+      "entryStartAt": "2026-08-22T18:00:00+09:00",
+      "entryEndAt": "2026-08-27T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_kurashiki_1108"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1055",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_yokosuka_pia_0822",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケットぴあ イベンター先行",
+      "entryStartAt": "2026-08-22T18:00:00+09:00",
+      "entryEndAt": "2026-09-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_yokosuka_1118"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1055",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_yokosuka_lawson_0822",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "ローソンチケット イベンター先行",
+      "entryStartAt": "2026-08-22T18:00:00+09:00",
+      "entryEndAt": "2026-09-01T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_yokosuka_1118"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1055",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_kobe_pia",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケットぴあ イベンター先行",
+      "entryStartAt": "2026-09-15T11:00:00+09:00",
+      "entryEndAt": "2026-09-28T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_kobe_1122",
+        "miura_daichi_raw_bare_2026_kobe_1123"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1055",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_kobe_lawson",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "ローソンチケット イベンター先行",
+      "entryStartAt": "2026-09-29T12:00:00+09:00",
+      "entryEndAt": "2026-10-12T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_kobe_1122",
+        "miura_daichi_raw_bare_2026_kobe_1123"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1055",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_kobe_eplus",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "イープラス イベンター先行",
+      "entryStartAt": "2026-09-01T12:00:00+09:00",
+      "entryEndAt": "2026-09-14T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_kobe_1122",
+        "miura_daichi_raw_bare_2026_kobe_1123"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1055",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_kobe_soundcreator",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "サウンドクリエーター先行",
+      "entryStartAt": "2026-08-22T18:00:00+09:00",
+      "entryEndAt": "2026-08-26T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_kobe_1122",
+        "miura_daichi_raw_bare_2026_kobe_1123"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1055",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_fukuoka_pia_0822",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケットぴあ イベンター先行",
+      "entryStartAt": "2026-08-22T18:00:00+09:00",
+      "entryEndAt": "2026-08-31T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_fukuoka_1127"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1055",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_fukuoka_lawson_0822",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "ローソンチケット イベンター先行",
+      "entryStartAt": "2026-08-22T18:00:00+09:00",
+      "entryEndAt": "2026-09-02T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_fukuoka_1127"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1055",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_fukuoka_eplus_0822",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "イープラス イベンター先行",
+      "entryStartAt": "2026-08-22T18:00:00+09:00",
+      "entryEndAt": "2026-08-31T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_fukuoka_1127"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1055",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_kumamoto_pia_0822",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケットぴあ イベンター先行",
+      "entryStartAt": "2026-08-22T18:00:00+09:00",
+      "entryEndAt": "2026-08-31T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_kumamoto_1129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1055",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_kumamoto_lawson_0822",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "ローソンチケット イベンター先行",
+      "entryStartAt": "2026-08-22T18:00:00+09:00",
+      "entryEndAt": "2026-09-02T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_kumamoto_1129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1055",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_kumamoto_eplus_0822",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "イープラス イベンター先行",
+      "entryStartAt": "2026-08-22T18:00:00+09:00",
+      "entryEndAt": "2026-08-31T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_kumamoto_1129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1055",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_kumamoto_satacoco",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "KKT「サタココ」番組先行",
+      "entryStartAt": "2026-09-12T09:30:00+09:00",
+      "entryEndAt": "2026-09-13T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_kumamoto_1129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1055",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_aichi_pia_0822",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケットぴあ イベンター先行",
+      "entryStartAt": "2026-08-22T18:00:00+09:00",
+      "entryEndAt": "2026-09-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_aichi_1219",
+        "miura_daichi_raw_bare_2026_aichi_1220"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1055",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_aichi_lawson_0822",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "ローソンチケット イベンター先行",
+      "entryStartAt": "2026-08-22T18:00:00+09:00",
+      "entryEndAt": "2026-09-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_aichi_1219",
+        "miura_daichi_raw_bare_2026_aichi_1220"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1055",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_aichi_eplus_0822",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "イープラス イベンター先行",
+      "entryStartAt": "2026-08-22T18:00:00+09:00",
+      "entryEndAt": "2026-09-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_aichi_1219",
+        "miura_daichi_raw_bare_2026_aichi_1220"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1055",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_aichi_kyodo_0822",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "キョードー東海チケットオンライン先行",
+      "entryStartAt": "2026-08-22T18:00:00+09:00",
+      "entryEndAt": "2026-09-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_aichi_1219",
+        "miura_daichi_raw_bare_2026_aichi_1220"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1055",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

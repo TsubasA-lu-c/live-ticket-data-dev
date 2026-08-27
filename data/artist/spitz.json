@@ -11,7 +11,11 @@
         { "label": "アリーナスタンディング", "amount": 10000 },
         { "label": "スタンド指定席", "amount": 11000 },
         { "label": "スタンド立見(立ち位置指定)", "amount": 9000 },
-        { "label": "車椅子席", "amount": 11000 }
+        { "label": "車椅子席", "amount": 11000 },
+        {
+          "label": "注釈付き指定席",
+          "amount": 10000
+        }
       ],
       "source": "system",
       "sourceUrl": "https://www.rocknohosomichi.com/",
@@ -356,6 +360,40 @@
       "source": "system",
       "sourceUrl": "https://rockmansai.com/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_events_2026_miyagi_stand_additional",
+      "tourId": "spitz_events_2026_miyagi",
+      "type": "スタンド指定席追加発売（先着）",
+      "entryStartAt": "2026-08-25T18:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "spitz_events_2026_miyagi_0829",
+        "spitz_events_2026_miyagi_0830"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.rocknohosomichi.com/",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_events_2026_miyagi_annotated_last",
+      "tourId": "spitz_events_2026_miyagi",
+      "type": "注釈付き指定席直前販売（先着）",
+      "entryStartAt": "2026-08-28T14:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "spitz_events_2026_miyagi_0829",
+        "spitz_events_2026_miyagi_0830"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.rocknohosomichi.com/",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

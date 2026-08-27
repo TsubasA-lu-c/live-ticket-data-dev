@@ -11,6 +11,10 @@
         {
           "label": "全席指定",
           "amount": 15500
+        },
+        {
+          "label": "注釈付指定席（バルコニー席含む）",
+          "amount": 15000
         }
       ],
       "source": "system",
@@ -204,6 +208,45 @@
       "source": "system",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/StrayKids/info/585896",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_japan_2026_general",
+      "tourId": "stray_kids_run_it_japan_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-08-26T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_run_it_japan_2026_national_stadium_0829",
+        "stray_kids_run_it_japan_2026_national_stadium_0830",
+        "stray_kids_run_it_japan_2026_banterinodome_0905",
+        "stray_kids_run_it_japan_2026_banterinodome_0906",
+        "stray_kids_run_it_japan_2026_kyoseradome_0919",
+        "stray_kids_run_it_japan_2026_kyoseradome_0920",
+        "stray_kids_run_it_japan_2026_mizuhopaypaydome_1024"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/StrayKids/info/586184",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_japan_2026_national_last",
+      "tourId": "stray_kids_run_it_japan_2026",
+      "type": "MUFGスタジアム公演 直前追加販売（先着）",
+      "entryStartAt": "2026-08-28T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_run_it_japan_2026_national_stadium_0829",
+        "stray_kids_run_it_japan_2026_national_stadium_0830"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/StrayKids/info/586300",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

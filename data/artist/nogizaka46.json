@@ -59,6 +59,30 @@
       "source": "system",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102156",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_42nd_under_live_2026",
+      "artistId": "nogizaka46",
+      "title": "乃木坂46 42ndSGアンダーライブ",
+      "startDate": "2026-09-29T00:00:00+09:00",
+      "endDate": "2026-09-30T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "アリーナ指定（のぎ動画プレミアムシート先行）",
+          "amount": 15800
+        },
+        {
+          "label": "指定席",
+          "amount": 9800
+        },
+        {
+          "label": "親子・女性エリア",
+          "amount": 9800
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102205",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -283,6 +307,30 @@
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
       "kind": "oneman",
       "eventName": "乃木坂46×ビルディバイド -ブライト- TCG Vol.2 ~応援大使が京まふにやってきた！~"
+    },
+    {
+      "id": "nogizaka46_42nd_under_live_2026_tokyo_0929",
+      "tourId": "nogizaka46_42nd_under_live_2026",
+      "venue": "東京体育館",
+      "performanceAt": "2026-09-29T18:30:00+09:00",
+      "doorOpenAt": "2026-09-29T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102205",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_42nd_under_live_2026_tokyo_0930",
+      "tourId": "nogizaka46_42nd_under_live_2026",
+      "venue": "東京体育館",
+      "performanceAt": "2026-09-30T18:30:00+09:00",
+      "doorOpenAt": "2026-09-30T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102205",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -616,6 +664,108 @@
       "source": "system",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102130",
       "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
+    },
+    {
+      "id": "nogizaka46_42nd_under_live_2026_premium_1st",
+      "tourId": "nogizaka46_42nd_under_live_2026",
+      "type": "のぎ動画プレミアムシート先行",
+      "entryStartAt": "2026-08-09T12:00:00+09:00",
+      "entryEndAt": "2026-08-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nogizaka46_42nd_under_live_2026_tokyo_0929",
+        "nogizaka46_42nd_under_live_2026_tokyo_0930"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102164",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_42nd_under_live_2026_mobile_1st",
+      "tourId": "nogizaka46_42nd_under_live_2026",
+      "type": "乃木坂46モバイル会員先行",
+      "entryStartAt": "2026-08-09T12:00:00+09:00",
+      "entryEndAt": "2026-08-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nogizaka46_42nd_under_live_2026_tokyo_0929",
+        "nogizaka46_42nd_under_live_2026_tokyo_0930"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102164",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_42nd_under_live_2026_mobile_2nd",
+      "tourId": "nogizaka46_42nd_under_live_2026",
+      "type": "乃木坂46モバイル会員2次先行",
+      "entryStartAt": "2026-08-24T00:45:00+09:00",
+      "entryEndAt": "2026-08-30T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nogizaka46_42nd_under_live_2026_tokyo_0929",
+        "nogizaka46_42nd_under_live_2026_tokyo_0930"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102205",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_42nd_under_live_2026_nogidoga_2nd",
+      "tourId": "nogizaka46_42nd_under_live_2026",
+      "type": "のぎ動画先行",
+      "entryStartAt": "2026-08-24T00:45:00+09:00",
+      "entryEndAt": "2026-08-30T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nogizaka46_42nd_under_live_2026_tokyo_0929",
+        "nogizaka46_42nd_under_live_2026_tokyo_0930"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102205",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_42nd_under_live_2026_mail_2nd",
+      "tourId": "nogizaka46_42nd_under_live_2026",
+      "type": "メール会員先行",
+      "entryStartAt": "2026-08-24T00:45:00+09:00",
+      "entryEndAt": "2026-08-30T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nogizaka46_42nd_under_live_2026_tokyo_0929",
+        "nogizaka46_42nd_under_live_2026_tokyo_0930"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102205",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_42nd_under_live_2026_message_2nd",
+      "tourId": "nogizaka46_42nd_under_live_2026",
+      "type": "メッセージアプリ先行",
+      "entryStartAt": "2026-08-24T00:45:00+09:00",
+      "entryEndAt": "2026-08-30T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nogizaka46_42nd_under_live_2026_tokyo_0929",
+        "nogizaka46_42nd_under_live_2026_tokyo_0930"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102205",
+      "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
