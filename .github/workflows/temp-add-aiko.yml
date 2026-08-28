@@ -1,0 +1,80 @@
+name: Temporary aiko metadata update
+
+on:
+  push:
+    branches:
+      - data/add-aiko
+    paths:
+      - '.github/workflows/temp-add-aiko.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update artists and manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import hashlib
+          import json
+          from datetime import datetime
+          from pathlib import Path
+          from zoneinfo import ZoneInfo
+
+          artists_path = Path('data/artists.json')
+          artist_path = Path('data/artist/aiko.json')
+          manifest_path = Path('data/manifest.json')
+
+          artists = json.loads(artists_path.read_text(encoding='utf-8'))
+          if any(row.get('id') == 'aiko' for row in artists):
+              raise SystemExit('aiko already exists in data/artists.json')
+
+          artists.append({
+              'id': 'aiko',
+              'name': 'aiko',
+              'aliases': ['アイコ'],
+              'genre': 'ソロ',
+              'imageUrl': None,
+              'source': 'system',
+              'sourceUrl': 'https://www.aiko.com/',
+              'lastVerifiedAt': '2026-08-29T07:24:54+09:00',
+          })
+          artists_path.write_text(
+              json.dumps(artists, ensure_ascii=False, indent=2) + '\n',
+              encoding='utf-8',
+          )
+
+          def hash16(path: Path) -> str:
+              return hashlib.sha256(path.read_bytes()).hexdigest()[:16]
+
+          manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+          manifest['version'] = int(manifest['version']) + 1
+          manifest['updatedAt'] = datetime.now(ZoneInfo('Asia/Tokyo')).isoformat(timespec='seconds')
+          manifest['files']['artists']['hash'] = hash16(artists_path)
+          manifest['artists']['aiko'] = {'hash': hash16(artist_path)}
+          manifest_path.write_text(
+              json.dumps(manifest, ensure_ascii=False, indent=2) + '\n',
+              encoding='utf-8',
+          )
+
+          # Targeted structural checks before committing.
+          assert json.loads(artist_path.read_text(encoding='utf-8'))['artistId'] == 'aiko'
+          assert sum(1 for row in artists if row['id'] == 'aiko') == 1
+          assert manifest['files']['artists']['hash'] == hash16(artists_path)
+          assert manifest['artists']['aiko']['hash'] == hash16(artist_path)
+          PY
+      - name: Commit generated metadata
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- data/artists.json data/manifest.json
+          git diff --cached --quiet && exit 0
+          git commit -m 'data: register aiko metadata and manifest'
+          git push origin HEAD:data/add-aiko
