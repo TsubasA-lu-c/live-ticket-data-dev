@@ -227,25 +227,29 @@
       "id": "enhypen_the_sin_bliss_meet_greet_2026_kanto_0905",
       "tourId": "enhypen_the_sin_bliss_meet_greet_2026",
       "venue": "関東某所",
-      "performanceAt": "2026-09-05T18:00:00+09:00",
+      "performanceAt": "2026-09-05T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": "ENHYPEN 8th Mini Album『THE SIN : BLISS』ミート＆グリートイベント",
       "source": "system",
       "sourceUrl": "https://enhypen-jp.weverse.io/news/b8c6629ddc6a",
-      "lastVerifiedAt": "2026-07-22T10:06:57+09:00"
+      "lastVerifiedAt": "2026-07-22T10:06:57+09:00",
+      "performanceDate": "2026-09-05",
+      "performanceTimeEstimated": true
     },
     {
       "id": "enhypen_the_sin_bliss_heart_touch_2026_kanto_0905",
       "tourId": "enhypen_the_sin_bliss_heart_touch_2026",
       "venue": "関東某所",
-      "performanceAt": "2026-09-05T18:00:00+09:00",
+      "performanceAt": "2026-09-05T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": "ENHYPEN 8th Mini Album『THE SIN : BLISS』発売記念「撮影可能！メンバー全員ハートタッチ会」",
       "source": "system",
       "sourceUrl": "https://enhypen-jp.weverse.io/news/f0312c6700d1",
-      "lastVerifiedAt": "2026-08-09T15:02:24+09:00"
+      "lastVerifiedAt": "2026-08-09T15:02:24+09:00",
+      "performanceDate": "2026-09-05",
+      "performanceTimeEstimated": true
     },
     {
       "id": "enhypen_the_sin_bliss_online_event_2026_1007",
