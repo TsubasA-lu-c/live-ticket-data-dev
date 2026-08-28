@@ -275,53 +275,57 @@
       "id": "enhypen_the_sin_bliss_meet_greet_2026_kanto_1010",
       "tourId": "enhypen_the_sin_bliss_meet_greet_2026_1010",
       "venue": "関東某所",
-      "performanceAt": null,
+      "performanceAt": "2026-10-10T12:00:00+09:00",
       "performanceDate": "2026-10-10",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": "ENHYPEN 8th Mini Album『THE SIN : BLISS』シリアルナンバー特典第三弾 ミート＆グリートイベント",
       "source": "system",
       "sourceUrl": "https://enhypen-jp.weverse.io/news/f986b38bfa34",
-      "lastVerifiedAt": "2026-08-28T18:39:00+09:00"
+      "lastVerifiedAt": "2026-08-28T18:39:00+09:00",
+      "performanceTimeEstimated": true
     },
     {
       "id": "enhypen_the_sin_bliss_long_sign_2026_kanto_1010",
       "tourId": "enhypen_the_sin_bliss_long_sign_2026",
       "venue": "関東某所",
-      "performanceAt": null,
+      "performanceAt": "2026-10-10T12:00:00+09:00",
       "performanceDate": "2026-10-10",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": "ENHYPEN 8th Mini Album『THE SIN : BLISS』発売記念「メンバー個別ロングサイン会」",
       "source": "system",
       "sourceUrl": "https://enhypen-jp.weverse.io/news/a508ee24acf6",
-      "lastVerifiedAt": "2026-08-28T18:39:00+09:00"
+      "lastVerifiedAt": "2026-08-28T18:39:00+09:00",
+      "performanceTimeEstimated": true
     },
     {
       "id": "enhypen_the_sin_bliss_2shot_2026_kanto_0905",
       "tourId": "enhypen_the_sin_bliss_2shot_2026",
       "venue": "関東某所",
-      "performanceAt": null,
+      "performanceAt": "2026-09-05T12:00:00+09:00",
       "performanceDate": "2026-09-05",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": "ENHYPEN 8th Mini Album『THE SIN : BLISS』発売記念「メンバー個別2ショット撮影会」",
       "source": "system",
       "sourceUrl": "https://enhypen-jp.weverse.io/news/fece263cade3",
-      "lastVerifiedAt": "2026-08-28T18:39:00+09:00"
+      "lastVerifiedAt": "2026-08-28T18:39:00+09:00",
+      "performanceTimeEstimated": true
     },
     {
       "id": "enhypen_the_sin_bliss_premium_sign_2026_makuhari_1010",
       "tourId": "enhypen_the_sin_bliss_premium_sign_2026",
       "venue": "幕張メッセ ホール1",
-      "performanceAt": null,
+      "performanceAt": "2026-10-10T12:00:00+09:00",
       "performanceDate": "2026-10-10",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": "ENHYPEN 8th Mini Album『THE SIN : BLISS』発売記念「プレミアムサイン会」",
       "source": "system",
       "sourceUrl": "https://enhypen-jp.weverse.io/news/9579ffba3355",
-      "lastVerifiedAt": "2026-08-28T18:39:00+09:00"
+      "lastVerifiedAt": "2026-08-28T18:39:00+09:00",
+      "performanceTimeEstimated": true
     }
   ],
   "lotteries": [
