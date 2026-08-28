@@ -1,0 +1,31 @@
+name: Fix ENHYPEN 0905 unknown times
+
+on:
+  push:
+    branches:
+      - fix/enhypen-0905-times-20260828
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: fix/enhypen-0905-times-20260828
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Apply correction
+        run: python3 tools/fix_enhypen_0905_times_20260828.py
+      - name: Commit data only
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/artist/enhypen.json data/manifest.json
+          git diff --cached --quiet && exit 1
+          git commit -m "fix: correct ENHYPEN 2026-09-05 unknown times"
+          git push origin HEAD:fix/enhypen-0905-times-20260828
