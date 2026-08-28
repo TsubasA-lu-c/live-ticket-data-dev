@@ -2384,6 +2384,15 @@
     "imageUrl": null,
     "source": "system",
     "sourceUrl": "https://www.aiko.com/",
-    "lastVerifiedAt": "2026-08-29T07:24:54+09:00"
+    "lastVerifiedAt": "2026-08-29T07:24:54+09:00",
+    "appleMusic": {
+      "artistId": "635154255",
+      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/44/8e/25/448e2507-8c18-4780-3ec7-82a4a53ab9b5/ami-identity-204e5a556f016844a36f20aadb48e704-2026-08-26T09-50-08.341Z_cropped.png/{w}x{h}{c}.{f}",
+      "bgColor": "eaeae8",
+      "textColor1": "050a14",
+      "textColor2": "0d111b",
+      "textColor3": "33373e",
+      "textColor4": "393d44"
+    }
   }
 ]
