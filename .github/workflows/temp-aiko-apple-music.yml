@@ -1,0 +1,153 @@
+name: Temporary aiko Apple Music apply
+
+on:
+  push:
+    branches:
+      - data/aiko-apple-music-20260829
+    paths:
+      - '.github/workflows/temp-aiko-apple-music.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Apply reviewed aiko Apple Music data
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import hashlib
+          import json
+          from datetime import datetime, timezone, timedelta
+          from pathlib import Path
+
+          artists_path = Path('data/artists.json')
+          detail_path = Path('data/artist/aiko.json')
+          manifest_path = Path('data/manifest.json')
+
+          apple = {
+            'artistId': '635154255',
+            'imageUrl': 'https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/44/8e/25/448e2507-8c18-4780-3ec7-82a4a53ab9b5/ami-identity-204e5a556f016844a36f20aadb48e704-2026-08-26T09-50-08.341Z_cropped.png/{w}x{h}{c}.{f}',
+            'bgColor': 'eaeae8',
+            'textColor1': '050a14',
+            'textColor2': '0d111b',
+            'textColor3': '33373e',
+            'textColor4': '393d44',
+          }
+          tracks = [
+            {
+              'songId': '1109978628',
+              'title': '花火',
+              'albumTitle': '桜の木の下',
+              'previewUrl': 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e9/36/ce/e936ce30-e286-3e7c-02d1-f78e358ff227/mzaf_5268480863287538515.plus.aac.ep.m4a',
+              'artworkUrl': 'https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/fd/15/d4/fd15d4e4-f556-0581-9fb0-fc6a0328c594/dj.fosphrnf.jpg/{w}x{h}{c}.{f}',
+            },
+            {
+              'songId': '1109973216',
+              'title': 'KissHug',
+              'albumTitle': 'BABY',
+              'previewUrl': 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/59/5c/84/595c846b-7953-568d-195d-67c53cf3d371/mzaf_3007839461467888568.plus.aac.ep.m4a',
+              'artworkUrl': 'https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/51/aa/96/51aa96cd-fe54-6ac5-8278-2ba8aada1fce/dj.lwelogmf.jpg/{w}x{h}{c}.{f}',
+            },
+            {
+              'songId': '1109978637',
+              'title': 'カブトムシ',
+              'albumTitle': '桜の木の下',
+              'previewUrl': 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/22/4b/47/224b472c-d307-bcd8-58ec-ba6fe43f2fdc/mzaf_16725470264792600088.plus.aac.ep.m4a',
+              'artworkUrl': 'https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/fd/15/d4/fd15d4e4-f556-0581-9fb0-fc6a0328c594/dj.fosphrnf.jpg/{w}x{h}{c}.{f}',
+            },
+          ]
+
+          artists = json.loads(artists_path.read_text(encoding='utf-8'))
+          if not isinstance(artists, list):
+              raise SystemExit('data/artists.json must be a list')
+          matches = [a for a in artists if a.get('id') == 'aiko']
+          if len(matches) != 1:
+              raise SystemExit(f'expected exactly one aiko artist entry, found {len(matches)}')
+          existing = matches[0].get('appleMusic')
+          if existing and existing != apple:
+              raise SystemExit(f'aiko already has different appleMusic data: {existing!r}')
+          matches[0]['appleMusic'] = apple
+          artists_path.write_text(json.dumps(artists, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          detail = json.loads(detail_path.read_text(encoding='utf-8'))
+          if detail.get('artistId') != 'aiko':
+              raise SystemExit(f'unexpected artist detail: {detail.get("artistId")!r}')
+          existing_tracks = detail.get('appleMusicTracks')
+          if existing_tracks and existing_tracks != tracks:
+              raise SystemExit('aiko already has different appleMusicTracks data')
+          detail['appleMusicTracks'] = tracks
+          detail_path.write_text(json.dumps(detail, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          # Completion-gate validation for this new artist.
+          if matches[0]['appleMusic']['artistId'] != '635154255':
+              raise SystemExit('wrong aiko Apple Music artistId')
+          if not matches[0]['appleMusic'].get('imageUrl'):
+              raise SystemExit('aiko Apple Music image missing')
+          if len(detail.get('appleMusicTracks') or []) != 3:
+              raise SystemExit('aiko must have exactly 3 Apple Music top tracks')
+          for track in detail['appleMusicTracks']:
+              for key in ('songId', 'title', 'previewUrl', 'artworkUrl'):
+                  if not track.get(key):
+                      raise SystemExit(f'missing {key} in Apple Music track: {track!r}')
+
+          # Mirror tools/update_manifest.py semantics.
+          def h16(path):
+              return hashlib.sha256(path.read_bytes()).hexdigest()[:16]
+
+          manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+          old_version = int(manifest.get('version', 0))
+          manifest['version'] = old_version + 1
+          JST = timezone(timedelta(hours=9))
+          manifest['updatedAt'] = datetime.now(JST).strftime('%Y-%m-%dT%H:%M:%S+09:00')
+          manifest.setdefault('files', {}).setdefault('artists', {})['hash'] = h16(artists_path)
+          entries = manifest.setdefault('artists', {})
+          existing_ids = set()
+          for path in sorted(Path('data/artist').glob('*.json')):
+              aid = path.stem
+              existing_ids.add(aid)
+              entries.setdefault(aid, {})['hash'] = h16(path)
+          for aid in list(entries):
+              if aid not in existing_ids:
+                  del entries[aid]
+          manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          # Parse every distribution JSON after write.
+          for path in Path('data').rglob('*.json'):
+              json.loads(path.read_text(encoding='utf-8'))
+
+          print(json.dumps({
+              'artistId': 'aiko',
+              'appleMusicArtistId': matches[0]['appleMusic']['artistId'],
+              'topSongs': [t['title'] for t in tracks],
+              'manifestVersion': manifest['version'],
+              'artistsHash': manifest['files']['artists']['hash'],
+              'aikoHash': manifest['artists']['aiko']['hash'],
+          }, ensure_ascii=False))
+          PY
+
+      - name: Check intended diff
+        shell: bash
+        run: |
+          set -euo pipefail
+          git diff --check
+          changed="$(git diff --name-only | sort)"
+          expected="$(printf '%s\n' data/artist/aiko.json data/artists.json data/manifest.json | sort)"
+          test "$changed" = "$expected" || { echo "Unexpected diff:"; echo "$changed"; exit 1; }
+          git status --short
+
+      - name: Commit aiko Apple Music data
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- data/artists.json data/artist/aiko.json data/manifest.json
+          git diff --cached --quiet && exit 0
+          git commit -m 'data: link aiko to Apple Music'
+          git push origin HEAD:data/aiko-apple-music-20260829
