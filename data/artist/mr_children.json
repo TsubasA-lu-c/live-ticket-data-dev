@@ -777,6 +777,25 @@
       "source": "system",
       "sourceUrl": "https://tour.mrchildren.jp/",
       "lastVerifiedAt": "2026-08-28T19:27:23+09:00"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_presale_additional_official_2nd_aug28",
+      "tourId": "mr_children_saturday_park_2026",
+      "type": "追加公演 オフィシャル2次先行抽選予約",
+      "entryStartAt": "2026-08-28T19:00:00+09:00",
+      "entryEndAt": "2026-09-06T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mr_children_saturday_park_2026_fukuoka_1107",
+        "mr_children_saturday_park_2026_fukuoka_1108",
+        "mr_children_saturday_park_2026_kanagawa_1202",
+        "mr_children_saturday_park_2026_kanagawa_1203"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-08-28T19:38:56+09:00"
     }
   ],
   "appleMusicTracks": [
