@@ -378,6 +378,30 @@
       "sourceUrl": "https://tour.mrchildren.jp/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
       "kind": "oneman"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_osaka_0530",
+      "tourId": "mr_children_saturday_park_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-05-30T17:00:00+09:00",
+      "doorOpenAt": "2026-05-30T16:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.mrchildren.jp/sp/live/2026_tour.html",
+      "lastVerifiedAt": "2026-08-28T19:50:09+09:00",
+      "kind": "oneman",
+      "hidden": true
+    },
+    {
+      "id": "mr_children_saturday_park_2026_osaka_0531",
+      "tourId": "mr_children_saturday_park_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-05-31T16:00:00+09:00",
+      "doorOpenAt": "2026-05-31T15:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.mrchildren.jp/sp/live/2026_tour.html",
+      "lastVerifiedAt": "2026-08-28T19:50:09+09:00",
+      "kind": "oneman",
+      "hidden": true
     }
   ],
   "lotteries": [
@@ -796,6 +820,154 @@
       "source": "system",
       "sourceUrl": "https://tour.mrchildren.jp/",
       "lastVerifiedAt": "2026-08-28T19:38:56+09:00"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_trade_april",
+      "tourId": "mr_children_saturday_park_2026",
+      "type": "定価トレード（4月公演）",
+      "entryStartAt": "2026-03-09T19:00:00+09:00",
+      "entryEndAt": "2026-03-15T23:59:00+09:00",
+      "resultAt": "2026-03-20T19:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mr_children_saturday_park_2026_chiba_0404",
+        "mr_children_saturday_park_2026_chiba_0405",
+        "mr_children_saturday_park_2026_yokohama_0411",
+        "mr_children_saturday_park_2026_yokohama_0412",
+        "mr_children_saturday_park_2026_aichi_0425",
+        "mr_children_saturday_park_2026_aichi_0426"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ticket.tickebo.jp/top/ja/static/mrchildren/2026arena/trade-list.html",
+      "lastVerifiedAt": "2026-08-28T19:50:09+09:00"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_trade_may",
+      "tourId": "mr_children_saturday_park_2026",
+      "type": "定価トレード（5月公演）",
+      "entryStartAt": "2026-04-06T19:00:00+09:00",
+      "entryEndAt": "2026-04-12T23:59:00+09:00",
+      "resultAt": "2026-04-17T19:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mr_children_saturday_park_2026_miyagi_0509",
+        "mr_children_saturday_park_2026_miyagi_0510",
+        "mr_children_saturday_park_2026_fukuoka_0516",
+        "mr_children_saturday_park_2026_fukuoka_0517",
+        "mr_children_saturday_park_2026_osaka_0530",
+        "mr_children_saturday_park_2026_osaka_0531"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ticket.tickebo.jp/top/ja/static/mrchildren/2026arena/trade-list.html",
+      "lastVerifiedAt": "2026-08-28T19:50:09+09:00"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_trade_june",
+      "tourId": "mr_children_saturday_park_2026",
+      "type": "定価トレード（6月公演）",
+      "entryStartAt": "2026-05-11T19:00:00+09:00",
+      "entryEndAt": "2026-05-17T23:59:00+09:00",
+      "resultAt": "2026-05-22T19:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mr_children_saturday_park_2026_kagawa_0613",
+        "mr_children_saturday_park_2026_kagawa_0614",
+        "mr_children_saturday_park_2026_kanagawa_0620",
+        "mr_children_saturday_park_2026_kanagawa_0621",
+        "mr_children_saturday_park_2026_hokkaido_0627",
+        "mr_children_saturday_park_2026_hokkaido_0628"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ticket.tickebo.jp/top/ja/static/mrchildren/2026arena/trade-list.html",
+      "lastVerifiedAt": "2026-08-28T19:50:09+09:00"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_final_chiba",
+      "tourId": "mr_children_saturday_park_2026",
+      "type": "最終抽選（千葉公演）",
+      "entryStartAt": "2026-03-13T19:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mr_children_saturday_park_2026_chiba_0404",
+        "mr_children_saturday_park_2026_chiba_0405"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-08-28T19:50:09+09:00"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_final_yokohama",
+      "tourId": "mr_children_saturday_park_2026",
+      "type": "最終抽選（神奈川・横浜アリーナ）",
+      "entryStartAt": "2026-03-20T19:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mr_children_saturday_park_2026_yokohama_0411",
+        "mr_children_saturday_park_2026_yokohama_0412"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-08-28T19:50:09+09:00"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_final_aichi",
+      "tourId": "mr_children_saturday_park_2026",
+      "type": "最終抽選（愛知公演）",
+      "entryStartAt": "2026-04-03T19:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mr_children_saturday_park_2026_aichi_0425",
+        "mr_children_saturday_park_2026_aichi_0426"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-08-28T19:50:09+09:00"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_final_miyagi",
+      "tourId": "mr_children_saturday_park_2026",
+      "type": "最終抽選（宮城公演）",
+      "entryStartAt": "2026-04-10T19:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mr_children_saturday_park_2026_miyagi_0509",
+        "mr_children_saturday_park_2026_miyagi_0510"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-08-28T19:50:09+09:00"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_final_osaka",
+      "tourId": "mr_children_saturday_park_2026",
+      "type": "最終抽選（大阪公演）",
+      "entryStartAt": "2026-05-08T19:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mr_children_saturday_park_2026_osaka_0530",
+        "mr_children_saturday_park_2026_osaka_0531"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-08-28T19:50:09+09:00"
     }
   ],
   "appleMusicTracks": [
