@@ -1,0 +1,79 @@
+name: Remove tennimu temp
+
+on:
+  push:
+    branches:
+      - chore/remove-tennimu-20260829
+
+permissions:
+  contents: write
+
+jobs:
+  remove:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chore/remove-tennimu-20260829
+          fetch-depth: 0
+
+      - name: Remove tennimu and update manifest
+        run: |
+          python3 - <<'PY'
+          import hashlib
+          import json
+          from datetime import datetime, timezone, timedelta
+          from pathlib import Path
+
+          data_dir = Path('data')
+          artists_path = data_dir / 'artists.json'
+          artist_dir = data_dir / 'artist'
+          manifest_path = data_dir / 'manifest.json'
+
+          artists = json.loads(artists_path.read_text(encoding='utf-8'))
+          before = len(artists)
+          artists = [a for a in artists if a.get('id') != 'tennimu']
+          assert len(artists) == before - 1, f'expected exactly one tennimu artist, before={before} after={len(artists)}'
+          artists_path.write_text(json.dumps(artists, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          tennimu_path = artist_dir / 'tennimu.json'
+          assert tennimu_path.exists(), 'data/artist/tennimu.json missing before removal'
+          tennimu_path.unlink()
+
+          def hash16(path: Path) -> str:
+              return hashlib.sha256(path.read_bytes()).hexdigest()[:16]
+
+          manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+          manifest['version'] = manifest.get('version', 0) + 1
+          jst = timezone(timedelta(hours=9))
+          manifest['updatedAt'] = datetime.now(jst).strftime('%Y-%m-%dT%H:%M:%S+09:00')
+          manifest.setdefault('files', {}).setdefault('artists', {})['hash'] = hash16(artists_path)
+          manifest.setdefault('artists', {})
+
+          hashes = {p.stem: hash16(p) for p in sorted(artist_dir.glob('*.json'))}
+          for aid, h in hashes.items():
+              manifest['artists'].setdefault(aid, {})['hash'] = h
+          for aid in list(manifest['artists']):
+              if aid not in hashes:
+                  del manifest['artists'][aid]
+
+          assert 'tennimu' not in manifest['artists']
+          manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          # Basic consistency checks before commit.
+          assert not tennimu_path.exists()
+          assert all(a.get('id') != 'tennimu' for a in json.loads(artists_path.read_text(encoding='utf-8')))
+          assert hash16(artists_path) == json.loads(manifest_path.read_text(encoding='utf-8'))['files']['artists']['hash']
+          print(f'artists: {before} -> {len(artists)}')
+          print(f"manifest version: {manifest['version']}")
+          PY
+
+      - name: Commit data-only change
+        run: |
+          git diff --check
+          git status --short
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/artists.json data/manifest.json data/artist/tennimu.json
+          git commit -m "data: remove tennimu from supported artists"
+          git push origin HEAD:chore/remove-tennimu-20260829
