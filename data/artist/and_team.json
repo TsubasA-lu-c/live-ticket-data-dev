@@ -119,37 +119,43 @@
       "id": "and_team_event_mark_on_me_talk_2026_kyoto_1117",
       "tourId": "and_team_event_mark_on_me_talk_2026",
       "venue": null,
-      "performanceAt": "2026-11-17T18:00:00+09:00",
+      "performanceAt": "2026-11-17T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": "&TEAM KR 2nd Mini Album 'Mark on Me' 刻印個別ロングトーク会",
       "source": "system",
       "sourceUrl": "https://www.andteam-official.jp/news/f905e8f20837",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-28T20:00:00+09:00",
+      "performanceDate": "2026-11-17",
+      "performanceTimeEstimated": true
     },
     {
       "id": "and_team_event_mark_on_me_talk_2026_kanagawa_0112",
       "tourId": "and_team_event_mark_on_me_talk_2026",
       "venue": null,
-      "performanceAt": "2027-01-12T18:00:00+09:00",
+      "performanceAt": "2027-01-12T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": "&TEAM KR 2nd Mini Album 'Mark on Me' 刻印個別ロングトーク会",
       "source": "system",
       "sourceUrl": "https://www.andteam-official.jp/news/f905e8f20837",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-28T20:00:00+09:00",
+      "performanceDate": "2027-01-12",
+      "performanceTimeEstimated": true
     },
     {
       "id": "and_team_event_mark_on_me_talk_2026_aichi_0130",
       "tourId": "and_team_event_mark_on_me_talk_2026",
       "venue": null,
-      "performanceAt": "2027-01-30T18:00:00+09:00",
+      "performanceAt": "2027-01-30T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": "&TEAM KR 2nd Mini Album 'Mark on Me' 刻印個別ロングトーク会",
       "source": "system",
       "sourceUrl": "https://www.andteam-official.jp/news/f905e8f20837",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-28T20:00:00+09:00",
+      "performanceDate": "2027-01-30",
+      "performanceTimeEstimated": true
     },
     {
       "id": "and_team_blaze_the_way_2026_yokohama_0513",

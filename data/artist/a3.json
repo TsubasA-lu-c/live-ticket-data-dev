@@ -51,25 +51,29 @@
       "id": "a3_10th_full_blooming_live_2027_day1",
       "tourId": "a3_10th_full_blooming_live_2027",
       "venue": "横浜アリーナ",
-      "performanceAt": "2027-04-03T18:00:00+09:00",
+      "performanceAt": "2027-04-03T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": "A3! 10th AnniversAry FULL BLOOMING LIVE",
       "source": "system",
       "sourceUrl": "https://www.a3-liber.jp/news/20260519-2521",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-28T20:00:00+09:00",
+      "performanceDate": "2027-04-03",
+      "performanceTimeEstimated": true
     },
     {
       "id": "a3_10th_full_blooming_live_2027_day2",
       "tourId": "a3_10th_full_blooming_live_2027",
       "venue": "横浜アリーナ",
-      "performanceAt": "2027-04-04T18:00:00+09:00",
+      "performanceAt": "2027-04-04T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": "A3! 10th AnniversAry FULL BLOOMING LIVE",
       "source": "system",
       "sourceUrl": "https://www.a3-liber.jp/news/20260519-2521",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-28T20:00:00+09:00",
+      "performanceDate": "2027-04-04",
+      "performanceTimeEstimated": true
     },
     {
       "id": "a3_act3_ss2026_tokyo_0410_1800",

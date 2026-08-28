@@ -202,25 +202,29 @@
       "id": "tomorrow_x_together_event_setsuna_hanabi_two_shot_2026_tokyo_0923",
       "tourId": "tomorrow_x_together_event_setsuna_hanabi_two_shot_2026",
       "venue": "東京某所",
-      "performanceAt": "2026-09-23T18:00:00+09:00",
+      "performanceAt": "2026-09-23T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": "TOMORROW X TOGETHER日本5thシングル「セツナハナビ (Setsuna Hanabi)」メンバー個別ツーショット撮影会",
       "source": "system",
       "sourceUrl": "https://www.universal-music.co.jp/txt/news/2026-07-28/",
-      "lastVerifiedAt": "2026-08-18T07:20:00+09:00"
+      "lastVerifiedAt": "2026-08-28T20:00:00+09:00",
+      "performanceDate": "2026-09-23",
+      "performanceTimeEstimated": true
     },
     {
       "id": "tomorrow_x_together_event_setsuna_hanabi_two_shot_2026_osaka_1103",
       "tourId": "tomorrow_x_together_event_setsuna_hanabi_two_shot_2026",
       "venue": "大阪某所",
-      "performanceAt": "2026-11-03T18:00:00+09:00",
+      "performanceAt": "2026-11-03T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": "TOMORROW X TOGETHER日本5thシングル「セツナハナビ (Setsuna Hanabi)」メンバー個別ツーショット撮影会",
       "source": "system",
       "sourceUrl": "https://www.universal-music.co.jp/txt/news/2026-07-28/",
-      "lastVerifiedAt": "2026-08-18T07:20:00+09:00"
+      "lastVerifiedAt": "2026-08-28T20:00:00+09:00",
+      "performanceDate": "2026-11-03",
+      "performanceTimeEstimated": true
     },
     {
       "id": "txt_moa_con_japan_2026_aichi_0523",
