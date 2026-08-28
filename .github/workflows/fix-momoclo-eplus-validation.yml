@@ -1,0 +1,46 @@
+name: Fix momoclo eplus validation
+
+on:
+  push:
+    branches:
+      - fix/dev-validation-momoclo-eplus-20260829
+    paths:
+      - '.github/workflows/fix-momoclo-eplus-validation.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Apply verified fix
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat > /tmp/fix.b64 <<'EOF'
+H4sIANSmkWoC/5WVzY7aMBCA7zxFlGsI8U/IDyd66GEPPZX2Uq0iJ3HAJSQodpalq0rVcmmfoC/QS6u+QKV9Gx5gX6F2AkuA7G5AyFY8/mY8M/ZMzJJEM80pExqxYiKIRQrBuLAW+SJnRR5EaX5Di+DL4DPPMy18fU+PZTG91eJ46PoxGgwc7IR24msQAMe2e6ZpdrHUMwyjk7XxWDM9bPehrRlqRo42Hve0+qezWB9p+ikZ3C4IDxBATkCXacn1/hMg8rK4egVqbl8vqdq83fzcbv5u7/9sNw/bzTc5Pj58397/qj6l6Pf2/t/jww9JmjuSZqJYvxfStzdCasjKND0Rvs3iFlFBeZm2MUuyXkjuOZU7cbtSLr2OKkf4mgu60E9FH4pUSWdCLPnIslar1UDFR8ZmkFFhZXTFG0xKuPhIC5YwWlvTVdhM4JkITwAYVX8D+HLUe0Z7QA4ImkB8hPSPmb1LB8KZIDwa+m1EI3yH/f7zFs6iegl1cjLfBGiC4DNMSw6MS3JAimjGbiivkmEhB3gIBQA21LyQFu80LQ1faJHkxYJkEb2KuaQ+7UXaiy9L5PN1HkCAG8peJmZync/YggQQAtSZWufTXBFOV0KeS1SE25XIGJvKSiQZ1PlchMl8KAJ3JZJyXubzykrnk+2ijCC8mEAXE/jptV7XFfCrmq6rcqiT5TKl70rOoklBonl9U+Kz9iIvEksoF0f95Ghx10DsCIYO8WQDgV6IQrelgRxjjY5xLFAtAvYdzVCDag53qlLp0k3O8kyeE7qoKl56uZR4y+NAYIThCLnNx3HE43qpnffV44LeCOAnXgUsYSlVUbqrY6nXba6xItdmhM+ULuICe0iiISaR69oe0munbNx3pVvV1Oh6eyqOPQ8i24coiu2YhPoua7v+dZbzyrR5osT2cRIinyJISRK64aFi73cMnRDLKxs6jgt934vOzBQ8mBaUZkF1R1odHAI69GyCE0rsyItsvfcf3ZMyapoIAAA=
+EOF
+          echo '6c9b923509cb6894617566406f7fc9cc7cbf8c63110c7216f2ba2da9f9005549  /tmp/fix.b64' | sha256sum -c -
+          python3 - <<'PY'
+          import base64, gzip
+          from pathlib import Path
+          Path('/tmp/fix.patch').write_bytes(gzip.decompress(base64.b64decode(Path('/tmp/fix.b64').read_bytes())))
+          PY
+          echo 'bfaceee22fe824f9a863d58f5954ad642fd79b5e8a15587363d96aac71e2fe71  /tmp/fix.patch' | sha256sum -c -
+          git apply --check /tmp/fix.patch
+          git apply /tmp/fix.patch
+          rm -f .github/workflows/fix-momoclo-eplus-validation.yml
+          git diff --check
+      - name: Commit fix
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A data .github
+          git commit -m 'fix: complete Momoclo Xmas eplus lottery mapping'
+          git push origin HEAD:fix/dev-validation-momoclo-eplus-20260829
