@@ -1,0 +1,600 @@
+{
+  "artistId": "nakajima_kento",
+  "tours": [
+    {
+      "id": "nakajima_kento_idol1st_kenty_asia_tour_2026",
+      "artistId": "nakajima_kento",
+      "title": "\"IDOL1ST KENTY\" ASIA TOUR 2026",
+      "startDate": "2026-08-29T00:00:00+08:00",
+      "endDate": "2026-10-04T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10494",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_idol1st_kenty_nakajima_2026",
+      "artistId": "nakajima_kento",
+      "title": "\"IDOL1ST KENTY\" KENTY NAKAJIMA 2026",
+      "startDate": "2026-02-26T00:00:00+09:00",
+      "endDate": "2026-07-26T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/580319",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_summer_sonic_tokyo_2026",
+      "artistId": "nakajima_kento",
+      "title": "SUMMER SONIC 2026 TOKYO",
+      "startDate": "2026-08-15T00:00:00+09:00",
+      "endDate": "2026-08-15T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/582400",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_summer_sonic_osaka_2026",
+      "artistId": "nakajima_kento",
+      "title": "SUMMER SONIC 2026 OSAKA",
+      "startDate": "2026-08-16T00:00:00+09:00",
+      "endDate": "2026-08-16T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/582400",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "nakajima_kento_idol1st_kenty_asia_tour_2026_taipei_0829",
+      "tourId": "nakajima_kento_idol1st_kenty_asia_tour_2026",
+      "venue": "Zepp New Taipei",
+      "performanceAt": "2026-08-29T18:00:00+08:00",
+      "doorOpenAt": "2026-08-29T17:00:00+08:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.zepp.co.jp/hall/newtaipei/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_idol1st_kenty_asia_tour_2026_taipei_0830",
+      "tourId": "nakajima_kento_idol1st_kenty_asia_tour_2026",
+      "venue": "Zepp New Taipei",
+      "performanceAt": "2026-08-30T15:00:00+08:00",
+      "doorOpenAt": "2026-08-30T14:00:00+08:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.zepp.co.jp/hall/newtaipei/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_idol1st_kenty_asia_tour_2026_bangkok_0905",
+      "tourId": "nakajima_kento_idol1st_kenty_asia_tour_2026",
+      "venue": "SiamPic Hall",
+      "performanceAt": "2026-09-05T18:00:00+07:00",
+      "doorOpenAt": "2026-09-05T17:00:00+07:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.thaiticketmajor.com/concert/idol1st-kenty-asia-tour-2026-in-bangkok.html",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_idol1st_kenty_asia_tour_2026_bangkok_0906",
+      "tourId": "nakajima_kento_idol1st_kenty_asia_tour_2026",
+      "venue": "SiamPic Hall",
+      "performanceAt": "2026-09-06T18:00:00+07:00",
+      "doorOpenAt": "2026-09-06T17:00:00+07:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.thaiticketmajor.com/concert/idol1st-kenty-asia-tour-2026-in-bangkok.html",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_idol1st_kenty_asia_tour_2026_seoul_1003",
+      "tourId": "nakajima_kento_idol1st_kenty_asia_tour_2026",
+      "venue": "Olympic Hall",
+      "performanceAt": "2026-10-03T17:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10494",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_idol1st_kenty_asia_tour_2026_seoul_1004",
+      "tourId": "nakajima_kento_idol1st_kenty_asia_tour_2026",
+      "venue": "Olympic Hall",
+      "performanceAt": "2026-10-04T16:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10494",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_idol1st_kenty_nakajima_2026_kyoto_0226",
+      "tourId": "nakajima_kento_idol1st_kenty_nakajima_2026",
+      "venue": "ロームシアター京都 メインホール",
+      "performanceAt": "2026-02-26T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/580319",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_idol1st_kenty_nakajima_2026_kyoto_0227_1",
+      "tourId": "nakajima_kento_idol1st_kenty_nakajima_2026",
+      "venue": "ロームシアター京都 メインホール",
+      "performanceAt": "2026-02-27T13:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/580319",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_idol1st_kenty_nakajima_2026_kyoto_0227_2",
+      "tourId": "nakajima_kento_idol1st_kenty_nakajima_2026",
+      "venue": "ロームシアター京都 メインホール",
+      "performanceAt": "2026-02-27T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/580319",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_idol1st_kenty_nakajima_2026_osaka_0303",
+      "tourId": "nakajima_kento_idol1st_kenty_nakajima_2026",
+      "venue": "フェスティバルホール",
+      "performanceAt": "2026-03-03T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/580319",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_idol1st_kenty_nakajima_2026_osaka_0304_1",
+      "tourId": "nakajima_kento_idol1st_kenty_nakajima_2026",
+      "venue": "フェスティバルホール",
+      "performanceAt": "2026-03-04T13:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/580319",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_idol1st_kenty_nakajima_2026_osaka_0304_2",
+      "tourId": "nakajima_kento_idol1st_kenty_nakajima_2026",
+      "venue": "フェスティバルホール",
+      "performanceAt": "2026-03-04T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/580319",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_idol1st_kenty_nakajima_2026_aichi_0403",
+      "tourId": "nakajima_kento_idol1st_kenty_nakajima_2026",
+      "venue": "愛知県芸術劇場 大ホール",
+      "performanceAt": "2026-04-03T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/580319",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_idol1st_kenty_nakajima_2026_aichi_0404_1",
+      "tourId": "nakajima_kento_idol1st_kenty_nakajima_2026",
+      "venue": "愛知県芸術劇場 大ホール",
+      "performanceAt": "2026-04-04T13:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/580319",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_idol1st_kenty_nakajima_2026_aichi_0404_2",
+      "tourId": "nakajima_kento_idol1st_kenty_nakajima_2026",
+      "venue": "愛知県芸術劇場 大ホール",
+      "performanceAt": "2026-04-04T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/580319",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_idol1st_kenty_nakajima_2026_aichi_0405_1",
+      "tourId": "nakajima_kento_idol1st_kenty_nakajima_2026",
+      "venue": "愛知県芸術劇場 大ホール",
+      "performanceAt": "2026-04-05T12:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/580319",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_idol1st_kenty_nakajima_2026_aichi_0405_2",
+      "tourId": "nakajima_kento_idol1st_kenty_nakajima_2026",
+      "venue": "愛知県芸術劇場 大ホール",
+      "performanceAt": "2026-04-05T17:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/580319",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_idol1st_kenty_nakajima_2026_fukuoka_0413",
+      "tourId": "nakajima_kento_idol1st_kenty_nakajima_2026",
+      "venue": "福岡サンパレス",
+      "performanceAt": "2026-04-13T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/580319",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_idol1st_kenty_nakajima_2026_fukuoka_0414",
+      "tourId": "nakajima_kento_idol1st_kenty_nakajima_2026",
+      "venue": "福岡サンパレス",
+      "performanceAt": "2026-04-14T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/580319",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_idol1st_kenty_nakajima_2026_ishikawa_0428",
+      "tourId": "nakajima_kento_idol1st_kenty_nakajima_2026",
+      "venue": "金沢歌劇座",
+      "performanceAt": "2026-04-28T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/580319",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_idol1st_kenty_nakajima_2026_ishikawa_0429_1",
+      "tourId": "nakajima_kento_idol1st_kenty_nakajima_2026",
+      "venue": "金沢歌劇座",
+      "performanceAt": "2026-04-29T12:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/580319",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_idol1st_kenty_nakajima_2026_ishikawa_0429_2",
+      "tourId": "nakajima_kento_idol1st_kenty_nakajima_2026",
+      "venue": "金沢歌劇座",
+      "performanceAt": "2026-04-29T17:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/580319",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_idol1st_kenty_nakajima_2026_hiroshima_0518",
+      "tourId": "nakajima_kento_idol1st_kenty_nakajima_2026",
+      "venue": "広島文化学園HBGホール",
+      "performanceAt": "2026-05-18T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/580319",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_idol1st_kenty_nakajima_2026_hiroshima_0519",
+      "tourId": "nakajima_kento_idol1st_kenty_nakajima_2026",
+      "venue": "広島文化学園HBGホール",
+      "performanceAt": "2026-05-19T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/580319",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_idol1st_kenty_nakajima_2026_miyagi_0609",
+      "tourId": "nakajima_kento_idol1st_kenty_nakajima_2026",
+      "venue": "仙台サンプラザホール",
+      "performanceAt": "2026-06-09T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/580319",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_idol1st_kenty_nakajima_2026_miyagi_0610",
+      "tourId": "nakajima_kento_idol1st_kenty_nakajima_2026",
+      "venue": "仙台サンプラザホール",
+      "performanceAt": "2026-06-10T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/580319",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_idol1st_kenty_nakajima_2026_shizuoka_0615",
+      "tourId": "nakajima_kento_idol1st_kenty_nakajima_2026",
+      "venue": "アクトシティ浜松 大ホール",
+      "performanceAt": "2026-06-15T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/580319",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_idol1st_kenty_nakajima_2026_shizuoka_0616",
+      "tourId": "nakajima_kento_idol1st_kenty_nakajima_2026",
+      "venue": "アクトシティ浜松 大ホール",
+      "performanceAt": "2026-06-16T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/580319",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_idol1st_kenty_nakajima_2026_hokkaido_0721",
+      "tourId": "nakajima_kento_idol1st_kenty_nakajima_2026",
+      "venue": "札幌文化芸術劇場 hitaru",
+      "performanceAt": "2026-07-21T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/580319",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_idol1st_kenty_nakajima_2026_hokkaido_0722",
+      "tourId": "nakajima_kento_idol1st_kenty_nakajima_2026",
+      "venue": "札幌文化芸術劇場 hitaru",
+      "performanceAt": "2026-07-22T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/580319",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_idol1st_kenty_nakajima_2026_tokyo_0725",
+      "tourId": "nakajima_kento_idol1st_kenty_nakajima_2026",
+      "venue": "東京ガーデンシアター",
+      "performanceAt": "2026-07-25T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/580319",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_idol1st_kenty_nakajima_2026_tokyo_0726_1",
+      "tourId": "nakajima_kento_idol1st_kenty_nakajima_2026",
+      "venue": "東京ガーデンシアター",
+      "performanceAt": "2026-07-26T12:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/580319",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_idol1st_kenty_nakajima_2026_tokyo_0726_2",
+      "tourId": "nakajima_kento_idol1st_kenty_nakajima_2026",
+      "venue": "東京ガーデンシアター",
+      "performanceAt": "2026-07-26T17:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/580319",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_summer_sonic_tokyo_2026_20260815",
+      "tourId": "nakajima_kento_summer_sonic_tokyo_2026",
+      "venue": "ZOZOマリンスタジアム＆幕張メッセ",
+      "performanceAt": null,
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "SUMMER SONIC 2026 TOKYO",
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/582400",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00",
+      "performanceDate": "2026-08-15"
+    },
+    {
+      "id": "nakajima_kento_summer_sonic_osaka_2026_20260816",
+      "tourId": "nakajima_kento_summer_sonic_osaka_2026",
+      "venue": "万博記念公園",
+      "performanceAt": null,
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "SUMMER SONIC 2026 OSAKA",
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/582400",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00",
+      "performanceDate": "2026-08-16"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "nakajima_kento_idol1st_kenty_asia_tour_2026_taipei_advance",
+      "tourId": "nakajima_kento_idol1st_kenty_asia_tour_2026",
+      "type": "台北 Advance Registration（抽選）",
+      "entryStartAt": null,
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nakajima_kento_idol1st_kenty_asia_tour_2026_taipei_0829",
+        "nakajima_kento_idol1st_kenty_asia_tour_2026_taipei_0830"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/582851",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_idol1st_kenty_asia_tour_2026_taipei_general",
+      "tourId": "nakajima_kento_idol1st_kenty_asia_tour_2026",
+      "type": "台北 General Sale（先着）",
+      "entryStartAt": null,
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nakajima_kento_idol1st_kenty_asia_tour_2026_taipei_0829",
+        "nakajima_kento_idol1st_kenty_asia_tour_2026_taipei_0830"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/582851",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_idol1st_kenty_asia_tour_2026_taipei_vip_advance",
+      "tourId": "nakajima_kento_idol1st_kenty_asia_tour_2026",
+      "type": "台北 VIP PASS Advance Registration（抽選）",
+      "entryStartAt": null,
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nakajima_kento_idol1st_kenty_asia_tour_2026_taipei_0829",
+        "nakajima_kento_idol1st_kenty_asia_tour_2026_taipei_0830"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/582851",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_idol1st_kenty_asia_tour_2026_bangkok_thai_fan",
+      "tourId": "nakajima_kento_idol1st_kenty_asia_tour_2026",
+      "type": "Bangkok Thai Fan Presale（先着）",
+      "entryStartAt": "2026-06-06T11:00:00+07:00",
+      "entryEndAt": "2026-06-06T22:00:00+07:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nakajima_kento_idol1st_kenty_asia_tour_2026_bangkok_0905",
+        "nakajima_kento_idol1st_kenty_asia_tour_2026_bangkok_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.thaiticketmajor.com/concert/idol1st-kenty-asia-tour-2026-in-bangkok.html",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_idol1st_kenty_asia_tour_2026_bangkok_general",
+      "tourId": "nakajima_kento_idol1st_kenty_asia_tour_2026",
+      "type": "Bangkok General Sales（先着）",
+      "entryStartAt": "2026-06-07T11:00:00+07:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nakajima_kento_idol1st_kenty_asia_tour_2026_bangkok_0905",
+        "nakajima_kento_idol1st_kenty_asia_tour_2026_bangkok_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.thaiticketmajor.com/concert/idol1st-kenty-asia-tour-2026-in-bangkok.html",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "nakajima_kento_idol1st_kenty_asia_tour_2026_seoul_general",
+      "tourId": "nakajima_kento_idol1st_kenty_asia_tour_2026",
+      "type": "Seoul 一般発売（先着）",
+      "entryStartAt": "2026-06-04T14:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nakajima_kento_idol1st_kenty_asia_tour_2026_seoul_1003",
+        "nakajima_kento_idol1st_kenty_asia_tour_2026_seoul_1004"
+      ],
+      "source": "system",
+      "sourceUrl": "https://m.ticket.yes24.com/Notice/17913",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1754483840",
+      "title": "ファタール - Fatal",
+      "albumTitle": "ファタール - Fatal - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d3/56/4b/d3564bd0-8dc8-2f19-1573-a4284daaffc5/mzaf_17881532080628990879.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f6/50/0e/f6500ed2-3b50-b4ba-37c6-5632fabba148/4547366693607.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "6789482626",
+      "title": "鬼事",
+      "albumTitle": "鬼事 - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5f/05/66/5f056624-53e2-c1fb-3e37-ac70bc8e2d19/mzaf_8029341130672058743.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/07/53/f7/0753f7a6-68d8-68fa-65d5-f6035b44082e/4547366836738.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1872968952",
+      "title": "最初はキュン!",
+      "albumTitle": "IDOL1ST (Special Edition)",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/00/d5/17/00d5170d-f439-7566-3ae2-c8dfa9131996/mzaf_3788279326911312960.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ab/1e/39/ab1e3930-800d-3663-9ffd-4e29c24e2615/4547366803198.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

@@ -1,0 +1,633 @@
+{
+  "artistId": "illit",
+  "tours": [
+    {
+      "id": "illit_illit_live_press_start_encore_in_japan",
+      "artistId": "illit",
+      "title": "ILLIT LIVE 'PRESS START❤' ENCORE in JAPAN",
+      "startDate": "2026-12-23T00:00:00+09:00",
+      "endDate": "2026-12-27T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 15000,
+          "currency": "JPY"
+        },
+        {
+          "label": "スタンド着席指定席",
+          "amount": 15000,
+          "currency": "JPY"
+        },
+        {
+          "label": "VIP席",
+          "amount": 26000,
+          "currency": "JPY"
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://illit-official.jp/news/45f3fab57f90?CateID=1",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "illit_illit_live_press_start_in_japan",
+      "artistId": "illit",
+      "title": "ILLIT LIVE 'PRESS START❤' in JAPAN",
+      "startDate": "2026-06-13T00:00:00+09:00",
+      "endDate": "2026-07-26T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 15000,
+          "currency": "JPY"
+        },
+        {
+          "label": "スタンド着席指定席（兵庫・東京）",
+          "amount": 15000,
+          "currency": "JPY"
+        },
+        {
+          "label": "プレミアムシート（愛知・大阪・福岡）",
+          "amount": 26000,
+          "currency": "JPY"
+        },
+        {
+          "label": "VIP席（兵庫・東京）",
+          "amount": 26000,
+          "currency": "JPY"
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://illit-official.jp/news/dee1030a1517",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "illit_luckyfes26",
+      "artistId": "illit",
+      "title": "LuckyFes’26",
+      "startDate": "2026-08-09T00:00:00+09:00",
+      "endDate": "2026-08-09T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://illit-official.jp/news/765c41265dc5",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "illit_japan_jam_2026",
+      "artistId": "illit",
+      "title": "JAPAN JAM 2026",
+      "startDate": "2026-05-04T00:00:00+09:00",
+      "endDate": "2026-05-04T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://illit-official.jp/news/20260218/",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "illit_mezamashi_wangan_2026",
+      "artistId": "illit",
+      "title": "めざましライブ ILLIT×CUTIE STREET in めざましWANGANフェス",
+      "startDate": "2026-08-04T00:00:00+09:00",
+      "endDate": "2026-08-04T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "スタンディング",
+          "amount": 9000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://illit-official.jp/news/20260512/",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "illit_weverse_con_festival_2026",
+      "artistId": "illit",
+      "title": "2026 Weverse Con Festival - Weverse Park",
+      "startDate": "2026-06-06T00:00:00+09:00",
+      "endDate": "2026-06-06T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://weverseconfestival.weverse.io/",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "illit_illit_live_press_start_encore_in_japan_20261223_1",
+      "tourId": "illit_illit_live_press_start_encore_in_japan",
+      "venue": "LaLa arena TOKYO-BAY",
+      "performanceAt": "2026-12-23T18:30:00+09:00",
+      "doorOpenAt": "2026-12-23T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://illit-official.jp/news/45f3fab57f90?CateID=1",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "illit_illit_live_press_start_encore_in_japan_20261224_2",
+      "tourId": "illit_illit_live_press_start_encore_in_japan",
+      "venue": "LaLa arena TOKYO-BAY",
+      "performanceAt": "2026-12-24T18:30:00+09:00",
+      "doorOpenAt": "2026-12-24T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://illit-official.jp/news/45f3fab57f90?CateID=1",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "illit_illit_live_press_start_encore_in_japan_20261226_3",
+      "tourId": "illit_illit_live_press_start_encore_in_japan",
+      "venue": "LaLa arena TOKYO-BAY",
+      "performanceAt": "2026-12-26T17:00:00+09:00",
+      "doorOpenAt": "2026-12-26T15:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://illit-official.jp/news/45f3fab57f90?CateID=1",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "illit_illit_live_press_start_encore_in_japan_20261227_4",
+      "tourId": "illit_illit_live_press_start_encore_in_japan",
+      "venue": "LaLa arena TOKYO-BAY",
+      "performanceAt": "2026-12-27T17:00:00+09:00",
+      "doorOpenAt": "2026-12-27T15:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://illit-official.jp/news/45f3fab57f90?CateID=1",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "illit_illit_live_press_start_in_japan_20260613_1",
+      "tourId": "illit_illit_live_press_start_in_japan",
+      "venue": "愛知県芸術劇場 大ホール",
+      "performanceAt": "2026-06-13T17:30:00+09:00",
+      "doorOpenAt": "2026-06-13T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://illit-official.jp/news/dee1030a1517",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "illit_illit_live_press_start_in_japan_20260614_2",
+      "tourId": "illit_illit_live_press_start_in_japan",
+      "venue": "愛知県芸術劇場 大ホール",
+      "performanceAt": "2026-06-14T17:00:00+09:00",
+      "doorOpenAt": "2026-06-14T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://illit-official.jp/news/dee1030a1517",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "illit_illit_live_press_start_in_japan_20260620_3",
+      "tourId": "illit_illit_live_press_start_in_japan",
+      "venue": "オリックス劇場",
+      "performanceAt": "2026-06-20T18:00:00+09:00",
+      "doorOpenAt": "2026-06-20T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://illit-official.jp/news/dee1030a1517",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "illit_illit_live_press_start_in_japan_20260621_4",
+      "tourId": "illit_illit_live_press_start_in_japan",
+      "venue": "オリックス劇場",
+      "performanceAt": "2026-06-21T17:00:00+09:00",
+      "doorOpenAt": "2026-06-21T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://illit-official.jp/news/dee1030a1517",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "illit_illit_live_press_start_in_japan_20260629_5",
+      "tourId": "illit_illit_live_press_start_in_japan",
+      "venue": "福岡サンパレス",
+      "performanceAt": "2026-06-29T18:30:00+09:00",
+      "doorOpenAt": "2026-06-29T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://illit-official.jp/news/dee1030a1517",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "illit_illit_live_press_start_in_japan_20260630_6",
+      "tourId": "illit_illit_live_press_start_in_japan",
+      "venue": "福岡サンパレス",
+      "performanceAt": "2026-06-30T18:30:00+09:00",
+      "doorOpenAt": "2026-06-30T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://illit-official.jp/news/dee1030a1517",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "illit_illit_live_press_start_in_japan_20260718_7",
+      "tourId": "illit_illit_live_press_start_in_japan",
+      "venue": "GLION ARENA KOBE",
+      "performanceAt": "2026-07-18T17:30:00+09:00",
+      "doorOpenAt": "2026-07-18T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://illit-official.jp/news/dee1030a1517",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "illit_illit_live_press_start_in_japan_20260719_8",
+      "tourId": "illit_illit_live_press_start_in_japan",
+      "venue": "GLION ARENA KOBE",
+      "performanceAt": "2026-07-19T17:00:00+09:00",
+      "doorOpenAt": "2026-07-19T15:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://illit-official.jp/news/dee1030a1517",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "illit_illit_live_press_start_in_japan_20260723_9",
+      "tourId": "illit_illit_live_press_start_in_japan",
+      "venue": "TOYOTA ARENA TOKYO",
+      "performanceAt": "2026-07-23T18:30:00+09:00",
+      "doorOpenAt": "2026-07-23T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://illit-official.jp/news/dee1030a1517",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "illit_illit_live_press_start_in_japan_20260725_10",
+      "tourId": "illit_illit_live_press_start_in_japan",
+      "venue": "TOYOTA ARENA TOKYO",
+      "performanceAt": "2026-07-25T17:00:00+09:00",
+      "doorOpenAt": "2026-07-25T15:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://illit-official.jp/news/dee1030a1517",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "illit_illit_live_press_start_in_japan_20260726_11",
+      "tourId": "illit_illit_live_press_start_in_japan",
+      "venue": "TOYOTA ARENA TOKYO",
+      "performanceAt": "2026-07-26T17:00:00+09:00",
+      "doorOpenAt": "2026-07-26T15:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://illit-official.jp/news/dee1030a1517",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "illit_luckyfes26_20260809_1",
+      "tourId": "illit_luckyfes26",
+      "venue": "国営ひたち海浜公園",
+      "performanceAt": null,
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "LuckyFes’26",
+      "source": "system",
+      "sourceUrl": "https://illit-official.jp/news/765c41265dc5",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "performanceDate": "2026-08-09"
+    },
+    {
+      "id": "illit_japan_jam_2026_20260504",
+      "tourId": "illit_japan_jam_2026",
+      "venue": "千葉市蘇我スポーツ公園",
+      "performanceAt": null,
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "JAPAN JAM 2026",
+      "source": "system",
+      "sourceUrl": "https://illit-official.jp/news/20260218/",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00",
+      "performanceDate": "2026-05-04"
+    },
+    {
+      "id": "illit_mezamashi_wangan_2026_20260804",
+      "tourId": "illit_mezamashi_wangan_2026",
+      "venue": "豊洲PIT",
+      "performanceAt": "2026-08-04T19:00:00+09:00",
+      "doorOpenAt": "2026-08-04T18:10:00+09:00",
+      "kind": "fes",
+      "eventName": "めざましライブ ILLIT×CUTIE STREET in めざましWANGANフェス",
+      "source": "system",
+      "sourceUrl": "https://illit-official.jp/news/20260512/",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "illit_weverse_con_festival_2026_20260606",
+      "tourId": "illit_weverse_con_festival_2026",
+      "venue": "Olympic Park 88 Lawn Field",
+      "performanceAt": null,
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "2026 Weverse Con Festival - Weverse Park",
+      "source": "system",
+      "sourceUrl": "https://weverseconfestival.weverse.io/",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00",
+      "performanceDate": "2026-06-06"
+    }
+  ],
+  "lotteries": [
+    {
+      "type": "GLLIT Membership (JP)会員先行（抽選）",
+      "entryStartAt": "2026-07-31T17:00:00+09:00",
+      "entryEndAt": "2026-08-16T23:59:00+09:00",
+      "resultAt": "2026-08-24T11:00:00+09:00",
+      "paymentEndAt": "2026-08-28T23:00:00+09:00",
+      "sourceUrl": "https://illit-official.jp/news/45f3fab57f90?CateID=1",
+      "id": "illit_illit_live_press_start_encore_in_japan_gllit_membership_jp_2026_07_31t17_00_00_09_00_2026_08_16",
+      "tourId": "illit_illit_live_press_start_encore_in_japan",
+      "paymentStartAt": null,
+      "performanceIds": [
+        "illit_illit_live_press_start_encore_in_japan_20261223_1",
+        "illit_illit_live_press_start_encore_in_japan_20261224_2",
+        "illit_illit_live_press_start_encore_in_japan_20261226_3",
+        "illit_illit_live_press_start_encore_in_japan_20261227_4"
+      ],
+      "source": "system",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "type": "GLLIT Membership (JP)会員2次先行（抽選）",
+      "entryStartAt": "2026-08-20T17:00:00+09:00",
+      "entryEndAt": "2026-08-30T23:59:00+09:00",
+      "resultAt": "2026-09-07T11:00:00+09:00",
+      "paymentEndAt": null,
+      "sourceUrl": "https://illit-official.jp/news/411e3738849f?CateID=&SearchWord=2026",
+      "id": "illit_illit_live_press_start_encore_in_japan_gllit_membership_jp_2_2026_08_20t17_00_00_09_00_2026_08_",
+      "tourId": "illit_illit_live_press_start_encore_in_japan",
+      "paymentStartAt": null,
+      "performanceIds": [
+        "illit_illit_live_press_start_encore_in_japan_20261223_1",
+        "illit_illit_live_press_start_encore_in_japan_20261224_2",
+        "illit_illit_live_press_start_encore_in_japan_20261226_3",
+        "illit_illit_live_press_start_encore_in_japan_20261227_4"
+      ],
+      "source": "system",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "type": "GLLIT Membership (JP)会員先行（抽選）",
+      "entryStartAt": "2026-01-29T17:00:00+09:00",
+      "entryEndAt": "2026-02-09T23:59:00+09:00",
+      "resultAt": "2026-02-18T11:00:00+09:00",
+      "paymentEndAt": "2026-02-24T23:00:00+09:00",
+      "sourceUrl": "https://illit-official.jp/news/dee1030a1517",
+      "id": "illit_illit_live_press_start_in_japan_gllit_membership_jp_2026_01_29t17_00_00_09_00_2026_02_09",
+      "tourId": "illit_illit_live_press_start_in_japan",
+      "paymentStartAt": null,
+      "performanceIds": [
+        "illit_illit_live_press_start_in_japan_20260613_1",
+        "illit_illit_live_press_start_in_japan_20260614_2",
+        "illit_illit_live_press_start_in_japan_20260620_3",
+        "illit_illit_live_press_start_in_japan_20260621_4",
+        "illit_illit_live_press_start_in_japan_20260629_5",
+        "illit_illit_live_press_start_in_japan_20260630_6",
+        "illit_illit_live_press_start_in_japan_20260718_7",
+        "illit_illit_live_press_start_in_japan_20260719_8",
+        "illit_illit_live_press_start_in_japan_20260723_9",
+        "illit_illit_live_press_start_in_japan_20260725_10",
+        "illit_illit_live_press_start_in_japan_20260726_11"
+      ],
+      "source": "system",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "type": "GLLIT Membership (JP)会員2次先行（抽選）",
+      "entryStartAt": "2026-02-18T17:00:00+09:00",
+      "entryEndAt": "2026-02-25T23:59:00+09:00",
+      "resultAt": "2026-03-05T11:00:00+09:00",
+      "paymentEndAt": "2026-03-09T23:00:00+09:00",
+      "sourceUrl": "https://illit-official.jp/news/0bffe673690e",
+      "id": "illit_illit_live_press_start_in_japan_gllit_membership_jp_2_2026_02_18t17_00_00_09_00_2026_02_",
+      "tourId": "illit_illit_live_press_start_in_japan",
+      "paymentStartAt": null,
+      "performanceIds": [
+        "illit_illit_live_press_start_in_japan_20260613_1",
+        "illit_illit_live_press_start_in_japan_20260614_2",
+        "illit_illit_live_press_start_in_japan_20260620_3",
+        "illit_illit_live_press_start_in_japan_20260621_4",
+        "illit_illit_live_press_start_in_japan_20260629_5",
+        "illit_illit_live_press_start_in_japan_20260630_6",
+        "illit_illit_live_press_start_in_japan_20260718_7",
+        "illit_illit_live_press_start_in_japan_20260719_8",
+        "illit_illit_live_press_start_in_japan_20260723_9",
+        "illit_illit_live_press_start_in_japan_20260725_10",
+        "illit_illit_live_press_start_in_japan_20260726_11"
+      ],
+      "source": "system",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "type": "ローチケLEncore/プレリク抽選先行",
+      "entryStartAt": "2026-02-26T17:00:00+09:00",
+      "entryEndAt": "2026-03-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentEndAt": null,
+      "sourceUrl": "https://illit-official.jp/news/bc9f38a40e84",
+      "id": "illit_illit_live_press_start_in_japan_lencore_2026_02_26t17_00_00_09_00_2026_03_09t23_59_00_09",
+      "tourId": "illit_illit_live_press_start_in_japan",
+      "paymentStartAt": null,
+      "performanceIds": [
+        "illit_illit_live_press_start_in_japan_20260613_1",
+        "illit_illit_live_press_start_in_japan_20260614_2",
+        "illit_illit_live_press_start_in_japan_20260620_3",
+        "illit_illit_live_press_start_in_japan_20260621_4",
+        "illit_illit_live_press_start_in_japan_20260629_5",
+        "illit_illit_live_press_start_in_japan_20260630_6",
+        "illit_illit_live_press_start_in_japan_20260718_7",
+        "illit_illit_live_press_start_in_japan_20260719_8",
+        "illit_illit_live_press_start_in_japan_20260723_9",
+        "illit_illit_live_press_start_in_japan_20260725_10",
+        "illit_illit_live_press_start_in_japan_20260726_11"
+      ],
+      "source": "system",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "type": "プレミアムシート・VIP席アップグレード抽選",
+      "entryStartAt": "2026-03-03T17:00:00+09:00",
+      "entryEndAt": "2026-03-09T23:59:00+09:00",
+      "resultAt": "2026-03-17T19:00:00+09:00",
+      "paymentEndAt": "2026-03-23T23:00:00+09:00",
+      "sourceUrl": "https://illit-official.jp/news/5d87fe58a129",
+      "id": "illit_illit_live_press_start_in_japan_vip_2026_03_03t17_00_00_09_00_2026_03_09t23_59_00_09_00",
+      "tourId": "illit_illit_live_press_start_in_japan",
+      "paymentStartAt": null,
+      "performanceIds": [
+        "illit_illit_live_press_start_in_japan_20260613_1",
+        "illit_illit_live_press_start_in_japan_20260614_2",
+        "illit_illit_live_press_start_in_japan_20260620_3",
+        "illit_illit_live_press_start_in_japan_20260621_4",
+        "illit_illit_live_press_start_in_japan_20260629_5",
+        "illit_illit_live_press_start_in_japan_20260630_6",
+        "illit_illit_live_press_start_in_japan_20260718_7",
+        "illit_illit_live_press_start_in_japan_20260719_8",
+        "illit_illit_live_press_start_in_japan_20260723_9",
+        "illit_illit_live_press_start_in_japan_20260725_10",
+        "illit_illit_live_press_start_in_japan_20260726_11"
+      ],
+      "source": "system",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "type": "プレミアムシート・VIP席アップグレード2次抽選",
+      "entryStartAt": "2026-03-19T17:00:00+09:00",
+      "entryEndAt": "2026-03-24T23:59:00+09:00",
+      "resultAt": "2026-04-01T19:00:00+09:00",
+      "paymentEndAt": "2026-04-05T23:00:00+09:00",
+      "sourceUrl": "https://illit-official.jp/news/821e10831629",
+      "id": "illit_illit_live_press_start_in_japan_vip2_2026_03_19t17_00_00_09_00_2026_03_24t23_59_00_09_00",
+      "tourId": "illit_illit_live_press_start_in_japan",
+      "paymentStartAt": null,
+      "performanceIds": [
+        "illit_illit_live_press_start_in_japan_20260613_1",
+        "illit_illit_live_press_start_in_japan_20260614_2",
+        "illit_illit_live_press_start_in_japan_20260620_3",
+        "illit_illit_live_press_start_in_japan_20260621_4",
+        "illit_illit_live_press_start_in_japan_20260629_5",
+        "illit_illit_live_press_start_in_japan_20260630_6",
+        "illit_illit_live_press_start_in_japan_20260718_7",
+        "illit_illit_live_press_start_in_japan_20260719_8",
+        "illit_illit_live_press_start_in_japan_20260723_9",
+        "illit_illit_live_press_start_in_japan_20260725_10",
+        "illit_illit_live_press_start_in_japan_20260726_11"
+      ],
+      "source": "system",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "type": "一般先行（先着）",
+      "entryStartAt": "2026-03-14T13:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentEndAt": null,
+      "sourceUrl": "https://illit-official.jp/news/99c6aef023c5",
+      "id": "illit_illit_live_press_start_in_japan_2026_03_14t13_00_00_09_00",
+      "tourId": "illit_illit_live_press_start_in_japan",
+      "paymentStartAt": null,
+      "performanceIds": [
+        "illit_illit_live_press_start_in_japan_20260613_1",
+        "illit_illit_live_press_start_in_japan_20260614_2",
+        "illit_illit_live_press_start_in_japan_20260620_3",
+        "illit_illit_live_press_start_in_japan_20260621_4",
+        "illit_illit_live_press_start_in_japan_20260629_5",
+        "illit_illit_live_press_start_in_japan_20260630_6",
+        "illit_illit_live_press_start_in_japan_20260718_7",
+        "illit_illit_live_press_start_in_japan_20260719_8",
+        "illit_illit_live_press_start_in_japan_20260723_9",
+        "illit_illit_live_press_start_in_japan_20260725_10",
+        "illit_illit_live_press_start_in_japan_20260726_11"
+      ],
+      "source": "system",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-04-18T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentEndAt": null,
+      "sourceUrl": "https://illit-official.jp/news/99c6aef023c5",
+      "id": "illit_illit_live_press_start_in_japan_2026_04_18t10_00_00_09_00",
+      "tourId": "illit_illit_live_press_start_in_japan",
+      "paymentStartAt": null,
+      "performanceIds": [
+        "illit_illit_live_press_start_in_japan_20260613_1",
+        "illit_illit_live_press_start_in_japan_20260614_2",
+        "illit_illit_live_press_start_in_japan_20260620_3",
+        "illit_illit_live_press_start_in_japan_20260621_4",
+        "illit_illit_live_press_start_in_japan_20260629_5",
+        "illit_illit_live_press_start_in_japan_20260630_6",
+        "illit_illit_live_press_start_in_japan_20260718_7",
+        "illit_illit_live_press_start_in_japan_20260719_8",
+        "illit_illit_live_press_start_in_japan_20260723_9",
+        "illit_illit_live_press_start_in_japan_20260725_10",
+        "illit_illit_live_press_start_in_japan_20260726_11"
+      ],
+      "source": "system",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "type": "東京公演 機材開放席（先着）",
+      "entryStartAt": "2026-07-22T18:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentEndAt": null,
+      "sourceUrl": "https://illit-official.jp/news/2216d803f1c8",
+      "id": "illit_illit_live_press_start_in_japan_2026_07_22t18_00_00_09_00",
+      "tourId": "illit_illit_live_press_start_in_japan",
+      "paymentStartAt": null,
+      "performanceIds": [
+        "illit_illit_live_press_start_in_japan_20260613_1",
+        "illit_illit_live_press_start_in_japan_20260614_2",
+        "illit_illit_live_press_start_in_japan_20260620_3",
+        "illit_illit_live_press_start_in_japan_20260621_4",
+        "illit_illit_live_press_start_in_japan_20260629_5",
+        "illit_illit_live_press_start_in_japan_20260630_6",
+        "illit_illit_live_press_start_in_japan_20260718_7",
+        "illit_illit_live_press_start_in_japan_20260719_8",
+        "illit_illit_live_press_start_in_japan_20260723_9",
+        "illit_illit_live_press_start_in_japan_20260725_10",
+        "illit_illit_live_press_start_in_japan_20260726_11"
+      ],
+      "source": "system",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "illit_mezamashi_wangan_2026_gllit_jp",
+      "tourId": "illit_mezamashi_wangan_2026",
+      "type": "GLLIT JP FC先行（抽選）",
+      "entryStartAt": "2026-05-12T06:00:00+09:00",
+      "entryEndAt": "2026-05-19T23:59:00+09:00",
+      "resultAt": "2026-05-22T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "illit_mezamashi_wangan_2026_20260804"
+      ],
+      "source": "system",
+      "sourceUrl": "https://illit-official.jp/news/20260512/",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1894837345",
+      "title": "It's Me",
+      "albumTitle": "MAMIHLAPINATAPAI - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/34/ca/da/34cadad5-c0be-7909-a08a-d0ba07013059/mzaf_661550860744885801.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cc/76/26/cc76262a-dc2e-0746-ed85-070a56d23d40/26UMGIM46377.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "6792947886",
+      "title": "I Got Your Back",
+      "albumTitle": "I Got Your Back - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/30/d3/2e/30d32e3f-d556-11fa-d3b6-012046c8337f/mzaf_13225127534794365769.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a2/07/0e/a2070e8c-686c-26a9-2c8c-dfbd7586f7c4/26UMGIM79032.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1736730541",
+      "title": "Magnetic",
+      "albumTitle": "SUPER REAL ME - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b2/cb/39/b2cb39d5-cfbc-a466-5587-35d71e4fb8a6/mzaf_903877571093599418.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a6/50/72/a65072ca-ed8b-baee-48ae-5fb22a25505e/24UMGIM25646.rgb.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

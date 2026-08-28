@@ -1,0 +1,679 @@
+{
+  "artistId": "bullet_train",
+  "tours": [
+    {
+      "id": "bullet_train_bullet_train_arena_tour_2026_escort",
+      "artistId": "bullet_train",
+      "title": "BULLET TRAIN ARENA TOUR 2026 ESCORT",
+      "startDate": "2026-06-10T00:00:00+09:00",
+      "endDate": "2026-08-09T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 12500,
+          "currency": "JPY"
+        },
+        {
+          "label": "ファミリー号車席",
+          "amount": 12500,
+          "currency": "JPY"
+        },
+        {
+          "label": "着席指定席",
+          "amount": 12500,
+          "currency": "JPY"
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://bullettrain.jp/escort/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "bullet_train_x_8a48501900",
+      "artistId": "bullet_train",
+      "title": "超特急 東京ドーム公演",
+      "startDate": "2026-11-25T00:00:00+09:00",
+      "endDate": "2026-11-26T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 15000,
+          "currency": "JPY"
+        },
+        {
+          "label": "ファミリー号車席",
+          "amount": 15000,
+          "currency": "JPY"
+        },
+        {
+          "label": "着席指定席",
+          "amount": 15000,
+          "currency": "JPY"
+        },
+        {
+          "label": "注釈付指定席",
+          "amount": 15000,
+          "currency": "JPY"
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://bullettrain.jp/news/detail/25700",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "bullet_train_rock_in_japan_festival_2026",
+      "artistId": "bullet_train",
+      "title": "ROCK IN JAPAN FESTIVAL 2026",
+      "startDate": "2026-09-19T00:00:00+09:00",
+      "endDate": "2026-09-19T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://bullettrain.jp/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "bullet_train_a_nation_2026",
+      "artistId": "bullet_train",
+      "title": "a-nation 2026",
+      "startDate": "2026-10-03T00:00:00+09:00",
+      "endDate": "2026-10-03T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "一般指定席（光るウチワ付き）",
+          "amount": 15000,
+          "currency": "JPY"
+        },
+        {
+          "label": "一般指定席2日通し券（光るウチワ付き）",
+          "amount": 27000,
+          "currency": "JPY"
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://bullettrain.jp/news/detail/110027",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "bullet_train_live_2026",
+      "artistId": "bullet_train",
+      "title": "バズリズム LIVE 2026",
+      "startDate": "2026-11-07T00:00:00+09:00",
+      "endDate": "2026-11-07T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://bullettrain.jp/live_information/detail/111",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "bullet_train_ebidan_the_live_2026_15th_anniversary",
+      "artistId": "bullet_train",
+      "title": "EBiDAN THE LIVE 2026 15th Anniversary",
+      "startDate": "2026-08-13T00:00:00+09:00",
+      "endDate": "2026-08-16T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 15000
+        },
+        {
+          "label": "ファミリー席",
+          "amount": 15000
+        },
+        {
+          "label": "注釈付指定席",
+          "amount": 15000
+        },
+        {
+          "label": "完全見切れ席",
+          "amount": 14500
+        },
+        {
+          "label": "アップグレード",
+          "amount": 10000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://ebidan.jp/feature/ebidan_the_live_2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "bullet_train_bullet_train_arena_tour_2026_escort_20260610_1",
+      "tourId": "bullet_train_bullet_train_arena_tour_2026_escort",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-06-10T18:30:00+09:00",
+      "doorOpenAt": "2026-06-10T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://bullettrain.jp/escort/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "bullet_train_bullet_train_arena_tour_2026_escort_20260611_2",
+      "tourId": "bullet_train_bullet_train_arena_tour_2026_escort",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-06-11T17:30:00+09:00",
+      "doorOpenAt": "2026-06-11T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://bullettrain.jp/escort/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "bullet_train_bullet_train_arena_tour_2026_escort_20260627_3",
+      "tourId": "bullet_train_bullet_train_arena_tour_2026_escort",
+      "venue": "マリンメッセ福岡A館",
+      "performanceAt": "2026-06-27T18:00:00+09:00",
+      "doorOpenAt": "2026-06-27T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://bullettrain.jp/escort/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "bullet_train_bullet_train_arena_tour_2026_escort_20260628_4",
+      "tourId": "bullet_train_bullet_train_arena_tour_2026_escort",
+      "venue": "マリンメッセ福岡A館",
+      "performanceAt": "2026-06-28T16:00:00+09:00",
+      "doorOpenAt": "2026-06-28T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://bullettrain.jp/escort/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "bullet_train_bullet_train_arena_tour_2026_escort_20260714_5",
+      "tourId": "bullet_train_bullet_train_arena_tour_2026_escort",
+      "venue": "GLION ARENA KOBE",
+      "performanceAt": "2026-07-14T18:30:00+09:00",
+      "doorOpenAt": "2026-07-14T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://bullettrain.jp/escort/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "bullet_train_bullet_train_arena_tour_2026_escort_20260715_6",
+      "tourId": "bullet_train_bullet_train_arena_tour_2026_escort",
+      "venue": "GLION ARENA KOBE",
+      "performanceAt": "2026-07-15T17:30:00+09:00",
+      "doorOpenAt": "2026-07-15T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://bullettrain.jp/escort/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "bullet_train_bullet_train_arena_tour_2026_escort_20260808_7",
+      "tourId": "bullet_train_bullet_train_arena_tour_2026_escort",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-08-08T18:00:00+09:00",
+      "doorOpenAt": "2026-08-08T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://bullettrain.jp/escort/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "bullet_train_bullet_train_arena_tour_2026_escort_20260809_8",
+      "tourId": "bullet_train_bullet_train_arena_tour_2026_escort",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-08-09T16:30:00+09:00",
+      "doorOpenAt": "2026-08-09T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://bullettrain.jp/escort/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "bullet_train_x_8a48501900_20261125_1",
+      "tourId": "bullet_train_x_8a48501900",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-11-25T18:00:00+09:00",
+      "doorOpenAt": "2026-11-25T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://bullettrain.jp/news/detail/25700",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "bullet_train_x_8a48501900_20261126_2",
+      "tourId": "bullet_train_x_8a48501900",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-11-26T18:00:00+09:00",
+      "doorOpenAt": "2026-11-26T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://bullettrain.jp/news/detail/25700",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "bullet_train_rock_in_japan_festival_2026_20260919_1",
+      "tourId": "bullet_train_rock_in_japan_festival_2026",
+      "venue": "千葉市蘇我スポーツ公園",
+      "performanceAt": null,
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "ROCK IN JAPAN FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://bullettrain.jp/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "performanceDate": "2026-09-19"
+    },
+    {
+      "id": "bullet_train_a_nation_2026_20261003_1",
+      "tourId": "bullet_train_a_nation_2026",
+      "venue": "お台場 a-nation特設会場",
+      "performanceAt": "2026-10-03T13:00:00+09:00",
+      "doorOpenAt": "2026-10-03T12:00:00+09:00",
+      "kind": "fes",
+      "eventName": "a-nation 2026",
+      "source": "system",
+      "sourceUrl": "https://bullettrain.jp/news/detail/110027",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "bullet_train_live_2026_20261107_1",
+      "tourId": "bullet_train_live_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-11-07T16:00:00+09:00",
+      "doorOpenAt": "2026-11-07T15:00:00+09:00",
+      "kind": "fes",
+      "eventName": "バズリズム LIVE 2026",
+      "source": "system",
+      "sourceUrl": "https://bullettrain.jp/live_information/detail/111",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "bullet_train_ebidan_the_live_2026_15th_anniversary_0813",
+      "tourId": "bullet_train_ebidan_the_live_2026_15th_anniversary",
+      "venue": "国立代々木競技場 第一体育館",
+      "performanceAt": "2026-08-13T18:00:00+09:00",
+      "doorOpenAt": "2026-08-13T17:00:00+09:00",
+      "kind": "fes",
+      "eventName": "EBiDAN THE LIVE 2026 15th Anniversary",
+      "source": "system",
+      "sourceUrl": "https://ebidan.jp/feature/ebidan_the_live_2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "bullet_train_ebidan_the_live_2026_15th_anniversary_0814",
+      "tourId": "bullet_train_ebidan_the_live_2026_15th_anniversary",
+      "venue": "国立代々木競技場 第一体育館",
+      "performanceAt": "2026-08-14T18:00:00+09:00",
+      "doorOpenAt": "2026-08-14T17:00:00+09:00",
+      "kind": "fes",
+      "eventName": "EBiDAN THE LIVE 2026 15th Anniversary",
+      "source": "system",
+      "sourceUrl": "https://ebidan.jp/feature/ebidan_the_live_2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "bullet_train_ebidan_the_live_2026_15th_anniversary_0815",
+      "tourId": "bullet_train_ebidan_the_live_2026_15th_anniversary",
+      "venue": "国立代々木競技場 第一体育館",
+      "performanceAt": "2026-08-15T18:00:00+09:00",
+      "doorOpenAt": "2026-08-15T17:00:00+09:00",
+      "kind": "fes",
+      "eventName": "EBiDAN THE LIVE 2026 15th Anniversary",
+      "source": "system",
+      "sourceUrl": "https://ebidan.jp/feature/ebidan_the_live_2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "bullet_train_ebidan_the_live_2026_15th_anniversary_0816",
+      "tourId": "bullet_train_ebidan_the_live_2026_15th_anniversary",
+      "venue": "国立代々木競技場 第一体育館",
+      "performanceAt": "2026-08-16T14:00:00+09:00",
+      "doorOpenAt": "2026-08-16T13:00:00+09:00",
+      "kind": "fes",
+      "eventName": "EBiDAN THE LIVE 2026 15th Anniversary",
+      "source": "system",
+      "sourceUrl": "https://ebidan.jp/feature/ebidan_the_live_2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "type": "夢の青春8きっぷ会員先行（抽選）",
+      "entryStartAt": "2025-12-25T21:30:00+09:00",
+      "entryEndAt": "2026-01-04T23:59:00+09:00",
+      "resultAt": "2026-01-10T14:00:00+09:00",
+      "paymentEndAt": "2026-01-13T23:00:00+09:00",
+      "sourceUrl": "https://bullettrain.jp/news/detail/101176",
+      "id": "bullet_train_bullet_train_arena_tour_2026_escort_8_2025_12_25t21_30_00_09_00_2026_01_04t23_59_00_09_00",
+      "tourId": "bullet_train_bullet_train_arena_tour_2026_escort",
+      "paymentStartAt": null,
+      "performanceIds": [
+        "bullet_train_bullet_train_arena_tour_2026_escort_20260610_1",
+        "bullet_train_bullet_train_arena_tour_2026_escort_20260611_2",
+        "bullet_train_bullet_train_arena_tour_2026_escort_20260627_3",
+        "bullet_train_bullet_train_arena_tour_2026_escort_20260628_4",
+        "bullet_train_bullet_train_arena_tour_2026_escort_20260714_5",
+        "bullet_train_bullet_train_arena_tour_2026_escort_20260715_6",
+        "bullet_train_bullet_train_arena_tour_2026_escort_20260808_7",
+        "bullet_train_bullet_train_arena_tour_2026_escort_20260809_8"
+      ],
+      "source": "system",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "type": "+KIRARI会員先行（抽選）",
+      "entryStartAt": "2026-01-13T14:00:00+09:00",
+      "entryEndAt": "2026-01-20T23:59:00+09:00",
+      "resultAt": null,
+      "paymentEndAt": null,
+      "sourceUrl": "https://bullettrain.jp/escort/news/66/",
+      "id": "bullet_train_bullet_train_arena_tour_2026_escort_kirari_2026_01_13t14_00_00_09_00_2026_01_20t23_59_00_09_",
+      "tourId": "bullet_train_bullet_train_arena_tour_2026_escort",
+      "paymentStartAt": null,
+      "performanceIds": [
+        "bullet_train_bullet_train_arena_tour_2026_escort_20260610_1",
+        "bullet_train_bullet_train_arena_tour_2026_escort_20260611_2",
+        "bullet_train_bullet_train_arena_tour_2026_escort_20260627_3",
+        "bullet_train_bullet_train_arena_tour_2026_escort_20260628_4",
+        "bullet_train_bullet_train_arena_tour_2026_escort_20260714_5",
+        "bullet_train_bullet_train_arena_tour_2026_escort_20260715_6",
+        "bullet_train_bullet_train_arena_tour_2026_escort_20260808_7",
+        "bullet_train_bullet_train_arena_tour_2026_escort_20260809_8"
+      ],
+      "source": "system",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "type": "EBiDAN先行（抽選）",
+      "entryStartAt": "2026-01-24T18:00:00+09:00",
+      "entryEndAt": "2026-02-01T23:59:00+09:00",
+      "resultAt": "2026-02-05T14:00:00+09:00",
+      "paymentEndAt": "2026-02-08T23:00:00+09:00",
+      "sourceUrl": "https://bullettrain.jp/escort/news/71/",
+      "id": "bullet_train_bullet_train_arena_tour_2026_escort_ebidan_2026_01_24t18_00_00_09_00_2026_02_01t23_59_00_09_",
+      "tourId": "bullet_train_bullet_train_arena_tour_2026_escort",
+      "paymentStartAt": null,
+      "performanceIds": [
+        "bullet_train_bullet_train_arena_tour_2026_escort_20260610_1",
+        "bullet_train_bullet_train_arena_tour_2026_escort_20260611_2",
+        "bullet_train_bullet_train_arena_tour_2026_escort_20260627_3",
+        "bullet_train_bullet_train_arena_tour_2026_escort_20260628_4",
+        "bullet_train_bullet_train_arena_tour_2026_escort_20260714_5",
+        "bullet_train_bullet_train_arena_tour_2026_escort_20260715_6",
+        "bullet_train_bullet_train_arena_tour_2026_escort_20260808_7",
+        "bullet_train_bullet_train_arena_tour_2026_escort_20260809_8"
+      ],
+      "source": "system",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "type": "夢の青春8きっぷ会員限定 機材席開放販売（抽選）",
+      "entryStartAt": "2026-05-08T18:00:00+09:00",
+      "entryEndAt": "2026-05-12T23:59:00+09:00",
+      "resultAt": "2026-05-16T14:00:00+09:00",
+      "paymentEndAt": "2026-05-19T23:59:00+09:00",
+      "sourceUrl": "https://bullettrain.jp/escort/news/81/",
+      "id": "bullet_train_bullet_train_arena_tour_2026_escort_8_2026_05_08t18_00_00_09_00_2026_05_12t23_59_00_09_00",
+      "tourId": "bullet_train_bullet_train_arena_tour_2026_escort",
+      "paymentStartAt": null,
+      "performanceIds": [
+        "bullet_train_bullet_train_arena_tour_2026_escort_20260610_1",
+        "bullet_train_bullet_train_arena_tour_2026_escort_20260611_2",
+        "bullet_train_bullet_train_arena_tour_2026_escort_20260627_3",
+        "bullet_train_bullet_train_arena_tour_2026_escort_20260628_4",
+        "bullet_train_bullet_train_arena_tour_2026_escort_20260714_5",
+        "bullet_train_bullet_train_arena_tour_2026_escort_20260715_6",
+        "bullet_train_bullet_train_arena_tour_2026_escort_20260808_7",
+        "bullet_train_bullet_train_arena_tour_2026_escort_20260809_8"
+      ],
+      "source": "system",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "type": "11/25 夢の青春8きっぷ会員先行（抽選）",
+      "entryStartAt": "2026-02-21T19:30:00+09:00",
+      "entryEndAt": "2026-03-08T23:59:00+09:00",
+      "resultAt": "2026-03-14T14:00:00+09:00",
+      "paymentEndAt": "2026-03-17T23:00:00+09:00",
+      "sourceUrl": "https://bullettrain.jp/news/detail/25700",
+      "id": "bullet_train_x_8a48501900_11_25_8_2026_02_21t19_30_00_09_00_2026_03_08t23_59_00_09",
+      "tourId": "bullet_train_x_8a48501900",
+      "paymentStartAt": null,
+      "performanceIds": [
+        "bullet_train_x_8a48501900_20261125_1",
+        "bullet_train_x_8a48501900_20261126_2"
+      ],
+      "source": "system",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "type": "11/25 夢の青春8きっぷ会員2次先行（抽選）",
+      "entryStartAt": "2026-03-14T15:00:00+09:00",
+      "entryEndAt": "2026-03-22T23:59:00+09:00",
+      "resultAt": "2026-03-28T14:00:00+09:00",
+      "paymentEndAt": "2026-03-31T23:00:00+09:00",
+      "sourceUrl": "https://fc.bullettrain.jp/latest/detail/1001249",
+      "id": "bullet_train_x_8a48501900_11_25_82_2026_03_14t15_00_00_09_00_2026_03_22t23_59_00_0",
+      "tourId": "bullet_train_x_8a48501900",
+      "paymentStartAt": null,
+      "performanceIds": [
+        "bullet_train_x_8a48501900_20261125_1",
+        "bullet_train_x_8a48501900_20261126_2"
+      ],
+      "source": "system",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "type": "11/26 夢の青春8きっぷ会員限定先行（抽選）",
+      "entryStartAt": "2026-05-15T18:00:00+09:00",
+      "entryEndAt": "2026-05-31T23:59:00+09:00",
+      "resultAt": "2026-06-06T14:00:00+09:00",
+      "paymentEndAt": "2026-06-09T23:59:00+09:00",
+      "sourceUrl": "https://bullettrain.jp/news/detail/26057",
+      "id": "bullet_train_x_8a48501900_11_26_8_2026_05_15t18_00_00_09_00_2026_05_31t23_59_00_09",
+      "tourId": "bullet_train_x_8a48501900",
+      "paymentStartAt": null,
+      "performanceIds": [
+        "bullet_train_x_8a48501900_20261125_1",
+        "bullet_train_x_8a48501900_20261126_2"
+      ],
+      "source": "system",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "type": "11/26 夢の青春8きっぷ会員2次先行（抽選）",
+      "entryStartAt": "2026-06-06T18:00:00+09:00",
+      "entryEndAt": "2026-06-21T23:59:00+09:00",
+      "resultAt": "2026-06-26T14:00:00+09:00",
+      "paymentEndAt": "2026-06-29T23:59:00+09:00",
+      "sourceUrl": "https://bullettrain.jp/news/detail/101308",
+      "id": "bullet_train_x_8a48501900_11_26_82_2026_06_06t18_00_00_09_00_2026_06_21t23_59_00_0",
+      "tourId": "bullet_train_x_8a48501900",
+      "paymentStartAt": null,
+      "performanceIds": [
+        "bullet_train_x_8a48501900_20261125_1",
+        "bullet_train_x_8a48501900_20261126_2"
+      ],
+      "source": "system",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "type": "11/26 ローソンチケットプレリクエスト先行（抽選）",
+      "entryStartAt": "2026-07-11T18:00:00+09:00",
+      "entryEndAt": "2026-07-20T23:59:00+09:00",
+      "resultAt": "2026-07-25T14:00:00+09:00",
+      "paymentEndAt": "2026-07-28T23:59:00+09:00",
+      "sourceUrl": "https://bullettrain.jp/news/detail/26350",
+      "id": "bullet_train_x_8a48501900_11_26_2026_07_11t18_00_00_09_00_2026_07_20t23_59_00_09_0",
+      "tourId": "bullet_train_x_8a48501900",
+      "paymentStartAt": null,
+      "performanceIds": [
+        "bullet_train_x_8a48501900_20261125_1",
+        "bullet_train_x_8a48501900_20261126_2"
+      ],
+      "source": "system",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "type": "a-nationオフィシャル2次抽選先行",
+      "entryStartAt": "2026-08-25T15:00:00+09:00",
+      "entryEndAt": "2026-08-31T23:59:00+09:00",
+      "resultAt": "2026-09-05T15:00:00+09:00",
+      "paymentEndAt": "2026-09-09T23:59:00+09:00",
+      "sourceUrl": "https://bullettrain.jp/news/detail/110027",
+      "id": "bullet_train_a_nation_2026_a_nation2_2026_08_25t15_00_00_09_00_2026_08_31t23_59_00_",
+      "tourId": "bullet_train_a_nation_2026",
+      "paymentStartAt": null,
+      "performanceIds": [
+        "bullet_train_a_nation_2026_20261003_1"
+      ],
+      "source": "system",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "bullet_train_ebidan_the_live_2026_15th_anniversary_fc",
+      "tourId": "bullet_train_ebidan_the_live_2026_15th_anniversary",
+      "type": "FC / Stardust Channel先行",
+      "entryStartAt": "2026-04-09T15:15:00+09:00",
+      "entryEndAt": "2026-04-19T23:59:00+09:00",
+      "resultAt": "2026-05-01T20:00:00+09:00",
+      "paymentStartAt": "2026-05-01T20:00:00+09:00",
+      "paymentEndAt": "2026-05-05T23:59:00+09:00",
+      "performanceIds": [
+        "bullet_train_ebidan_the_live_2026_15th_anniversary_0813",
+        "bullet_train_ebidan_the_live_2026_15th_anniversary_0814",
+        "bullet_train_ebidan_the_live_2026_15th_anniversary_0815",
+        "bullet_train_ebidan_the_live_2026_15th_anniversary_0816"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ebidan.jp/feature/ebidan_the_live_2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "bullet_train_ebidan_the_live_2026_15th_anniversary_kirari",
+      "tourId": "bullet_train_ebidan_the_live_2026_15th_anniversary",
+      "type": "+KIRARI先行",
+      "entryStartAt": "2026-05-01T20:00:00+09:00",
+      "entryEndAt": "2026-05-07T23:59:00+09:00",
+      "resultAt": "2026-05-20T20:00:00+09:00",
+      "paymentStartAt": "2026-05-20T20:00:00+09:00",
+      "paymentEndAt": "2026-05-24T23:59:00+09:00",
+      "performanceIds": [
+        "bullet_train_ebidan_the_live_2026_15th_anniversary_0813",
+        "bullet_train_ebidan_the_live_2026_15th_anniversary_0814",
+        "bullet_train_ebidan_the_live_2026_15th_anniversary_0815",
+        "bullet_train_ebidan_the_live_2026_15th_anniversary_0816"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ebidan.jp/feature/ebidan_the_live_2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "bullet_train_ebidan_the_live_2026_15th_anniversary_cd",
+      "tourId": "bullet_train_ebidan_the_live_2026_15th_anniversary",
+      "type": "CDシリアル先行",
+      "entryStartAt": "2026-05-20T20:00:00+09:00",
+      "entryEndAt": "2026-05-31T23:59:00+09:00",
+      "resultAt": "2026-06-10T20:00:00+09:00",
+      "paymentStartAt": "2026-06-10T20:00:00+09:00",
+      "paymentEndAt": "2026-06-14T23:59:00+09:00",
+      "performanceIds": [
+        "bullet_train_ebidan_the_live_2026_15th_anniversary_0813",
+        "bullet_train_ebidan_the_live_2026_15th_anniversary_0814",
+        "bullet_train_ebidan_the_live_2026_15th_anniversary_0815",
+        "bullet_train_ebidan_the_live_2026_15th_anniversary_0816"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ebidan.jp/feature/ebidan_the_live_2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "bullet_train_ebidan_the_live_2026_15th_anniversary_ebidan",
+      "tourId": "bullet_train_ebidan_the_live_2026_15th_anniversary",
+      "type": "EBiDAN先行",
+      "entryStartAt": "2026-06-10T20:00:00+09:00",
+      "entryEndAt": "2026-06-14T23:59:00+09:00",
+      "resultAt": "2026-06-23T20:00:00+09:00",
+      "paymentStartAt": "2026-06-23T20:00:00+09:00",
+      "paymentEndAt": "2026-06-26T23:59:00+09:00",
+      "performanceIds": [
+        "bullet_train_ebidan_the_live_2026_15th_anniversary_0813",
+        "bullet_train_ebidan_the_live_2026_15th_anniversary_0814",
+        "bullet_train_ebidan_the_live_2026_15th_anniversary_0815",
+        "bullet_train_ebidan_the_live_2026_15th_anniversary_0816"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ebidan.jp/feature/ebidan_the_live_2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "bullet_train_ebidan_the_live_2026_15th_anniversary_upgrade",
+      "tourId": "bullet_train_ebidan_the_live_2026_15th_anniversary",
+      "type": "アップグレード抽選",
+      "entryStartAt": "2026-06-23T20:00:00+09:00",
+      "entryEndAt": "2026-06-28T23:59:00+09:00",
+      "resultAt": "2026-07-04T20:00:00+09:00",
+      "paymentStartAt": "2026-07-04T20:00:00+09:00",
+      "paymentEndAt": "2026-07-07T23:59:00+09:00",
+      "performanceIds": [
+        "bullet_train_ebidan_the_live_2026_15th_anniversary_0813",
+        "bullet_train_ebidan_the_live_2026_15th_anniversary_0814",
+        "bullet_train_ebidan_the_live_2026_15th_anniversary_0815",
+        "bullet_train_ebidan_the_live_2026_15th_anniversary_0816"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ebidan.jp/feature/ebidan_the_live_2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "bullet_train_ebidan_the_live_2026_15th_anniversary_general",
+      "tourId": "bullet_train_ebidan_the_live_2026_15th_anniversary",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-08-01T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bullet_train_ebidan_the_live_2026_15th_anniversary_0813",
+        "bullet_train_ebidan_the_live_2026_15th_anniversary_0814",
+        "bullet_train_ebidan_the_live_2026_15th_anniversary_0815",
+        "bullet_train_ebidan_the_live_2026_15th_anniversary_0816"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ebidan.jp/feature/ebidan_the_live_2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "6782749979",
+      "title": "Yes! 東京 (feat. SUPER★DRAGON, Sakurashimeji, ONE N' ONLY, BUDDiiS, ICEx & Lienel)",
+      "albumTitle": "Yes! 東京 (feat. SUPER★DRAGON, Sakurashimeji, ONE N' ONLY, BUDDiiS, ICEx & Lienel) - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e2/cf/9f/e2cf9fff-f89a-b83d-95d6-0d0fbc69279d/mzaf_16018576156956549681.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a4/db/f8/a4dbf830-ec1e-e5af-723a-2ef5e4dac674/4580789774065.png/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "6793871670",
+      "title": "好きだから走れ!!!!!!! (feat. SUPER★DRAGON, Sakurashimeji, ONE N' ONLY, BUDDiiS, ICEx & Lienel)",
+      "albumTitle": "Yes! 東京 (feat. SUPER★DRAGON, Sakurashimeji, ONE N' ONLY, BUDDiiS, ICEx & Lienel) - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8c/0e/7a/8c0e7aaa-7370-c7c5-5e43-332c3f771026/mzaf_12793686185278293216.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ee/e6/6b/eee66b19-049f-6b6f-770f-18bb71776d8d/4580789778100.png/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1891924257",
+      "title": "ガチ夢中!",
+      "albumTitle": "ガチ夢中! - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/70/02/df/7002df83-4edb-c1de-d1fb-f784f19dd4c8/mzaf_11682684712141287710.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5d/f7/ec/5df7ec34-6bca-ff99-c906-57136bf93577/26UMGIM40239.rgb.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

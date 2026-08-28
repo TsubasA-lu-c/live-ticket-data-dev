@@ -1,0 +1,687 @@
+{
+  "artistId": "niziu",
+  "tours": [
+    {
+      "id": "niziu_cdtv_live_live_autumn_thanks_2026",
+      "artistId": "niziu",
+      "title": "CDTVライブ！ライブ！秋の大感謝祭2026",
+      "startDate": "2026-09-11T00:00:00+09:00",
+      "endDate": "2026-09-11T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 12000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://niziu.com/s/n123/news/detail/12183",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "niziu_live_with_u_2026_new_evonution",
+      "artistId": "niziu",
+      "title": "NiziU Live with U 2026 NEW EvoNUtion",
+      "startDate": "2026-02-14T00:00:00+09:00",
+      "endDate": "2026-03-29T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 13200
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://niziu.com/s/n123/page/livewithu2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "niziu_live_with_u_2026_the_cinema",
+      "artistId": "niziu",
+      "title": "NiziU Live with U 2026 THE CINEMA",
+      "startDate": "2026-06-06T00:00:00+09:00",
+      "endDate": "2026-06-14T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 14000
+        },
+        {
+          "label": "アップグレード",
+          "amount": 10000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://niziu.com/s/n123/page/thecinema2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "niziu_cdtv_live_live_autumn_thanks_2026_0911",
+      "tourId": "niziu_cdtv_live_live_autumn_thanks_2026",
+      "venue": "東京ガーデンシアター",
+      "performanceAt": "2026-09-11T18:00:00+09:00",
+      "doorOpenAt": "2026-09-11T16:30:00+09:00",
+      "kind": "fes",
+      "eventName": "CDTVライブ！ライブ！秋の大感謝祭2026",
+      "source": "system",
+      "sourceUrl": "https://niziu.com/s/n123/news/detail/12183",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "niziu_live_with_u_2026_new_evonution_aichi_0214",
+      "tourId": "niziu_live_with_u_2026_new_evonution",
+      "venue": "Aichi Sky Expo ホールA",
+      "performanceAt": "2026-02-14T18:00:00+09:00",
+      "doorOpenAt": "2026-02-14T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://niziu.com/s/n123/page/livewithu2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "niziu_live_with_u_2026_new_evonution_aichi_0215",
+      "tourId": "niziu_live_with_u_2026_new_evonution",
+      "venue": "Aichi Sky Expo ホールA",
+      "performanceAt": "2026-02-15T16:00:00+09:00",
+      "doorOpenAt": "2026-02-15T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://niziu.com/s/n123/page/livewithu2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "niziu_live_with_u_2026_new_evonution_hokkaido_0227",
+      "tourId": "niziu_live_with_u_2026_new_evonution",
+      "venue": "北海きたえーる",
+      "performanceAt": "2026-02-27T18:30:00+09:00",
+      "doorOpenAt": "2026-02-27T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://niziu.com/s/n123/page/livewithu2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "niziu_live_with_u_2026_new_evonution_hokkaido_0228",
+      "tourId": "niziu_live_with_u_2026_new_evonution",
+      "venue": "北海きたえーる",
+      "performanceAt": "2026-02-28T17:00:00+09:00",
+      "doorOpenAt": "2026-02-28T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://niziu.com/s/n123/page/livewithu2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "niziu_live_with_u_2026_new_evonution_osaka_0307",
+      "tourId": "niziu_live_with_u_2026_new_evonution",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-03-07T17:00:00+09:00",
+      "doorOpenAt": "2026-03-07T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://niziu.com/s/n123/page/livewithu2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "niziu_live_with_u_2026_new_evonution_osaka_0308",
+      "tourId": "niziu_live_with_u_2026_new_evonution",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-03-08T16:00:00+09:00",
+      "doorOpenAt": "2026-03-08T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://niziu.com/s/n123/page/livewithu2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "niziu_live_with_u_2026_new_evonution_tokyo_0318",
+      "tourId": "niziu_live_with_u_2026_new_evonution",
+      "venue": "国立代々木競技場 第一体育館",
+      "performanceAt": "2026-03-18T18:30:00+09:00",
+      "doorOpenAt": "2026-03-18T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://niziu.com/s/n123/page/livewithu2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "niziu_live_with_u_2026_new_evonution_tokyo_0319",
+      "tourId": "niziu_live_with_u_2026_new_evonution",
+      "venue": "国立代々木競技場 第一体育館",
+      "performanceAt": "2026-03-19T18:30:00+09:00",
+      "doorOpenAt": "2026-03-19T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://niziu.com/s/n123/page/livewithu2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "niziu_live_with_u_2026_new_evonution_tokyo_0321",
+      "tourId": "niziu_live_with_u_2026_new_evonution",
+      "venue": "国立代々木競技場 第一体育館",
+      "performanceAt": "2026-03-21T17:00:00+09:00",
+      "doorOpenAt": "2026-03-21T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://niziu.com/s/n123/page/livewithu2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "niziu_live_with_u_2026_new_evonution_tokyo_0322",
+      "tourId": "niziu_live_with_u_2026_new_evonution",
+      "venue": "国立代々木競技場 第一体育館",
+      "performanceAt": "2026-03-22T16:00:00+09:00",
+      "doorOpenAt": "2026-03-22T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://niziu.com/s/n123/page/livewithu2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "niziu_live_with_u_2026_new_evonution_kitakyushu_0328",
+      "tourId": "niziu_live_with_u_2026_new_evonution",
+      "venue": "北九州メッセ",
+      "performanceAt": "2026-03-28T17:00:00+09:00",
+      "doorOpenAt": "2026-03-28T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://niziu.com/s/n123/page/livewithu2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "niziu_live_with_u_2026_new_evonution_kitakyushu_0329",
+      "tourId": "niziu_live_with_u_2026_new_evonution",
+      "venue": "北九州メッセ",
+      "performanceAt": "2026-03-29T16:00:00+09:00",
+      "doorOpenAt": "2026-03-29T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://niziu.com/s/n123/page/livewithu2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "niziu_live_with_u_2026_the_cinema_osaka_0606",
+      "tourId": "niziu_live_with_u_2026_the_cinema",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2026-06-06T18:00:00+09:00",
+      "doorOpenAt": "2026-06-06T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://niziu.com/s/n123/page/thecinema2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "niziu_live_with_u_2026_the_cinema_osaka_0607",
+      "tourId": "niziu_live_with_u_2026_the_cinema",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2026-06-07T16:00:00+09:00",
+      "doorOpenAt": "2026-06-07T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://niziu.com/s/n123/page/thecinema2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "niziu_live_with_u_2026_the_cinema_tokyo_0613",
+      "tourId": "niziu_live_with_u_2026_the_cinema",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-06-13T17:00:00+09:00",
+      "doorOpenAt": "2026-06-13T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://niziu.com/s/n123/page/thecinema2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "niziu_live_with_u_2026_the_cinema_tokyo_0614",
+      "tourId": "niziu_live_with_u_2026_the_cinema",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-06-14T16:00:00+09:00",
+      "doorOpenAt": "2026-06-14T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://niziu.com/s/n123/page/thecinema2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "niziu_cdtv_live_live_autumn_thanks_2026_support_member",
+      "tourId": "niziu_cdtv_live_live_autumn_thanks_2026",
+      "type": "番組サポートメンバー先行（抽選）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-07-21T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "niziu_cdtv_live_live_autumn_thanks_2026_0911"
+      ],
+      "source": "system",
+      "sourceUrl": "https://niziu.com/s/n123/news/detail/12183",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "niziu_cdtv_live_live_autumn_thanks_2026_tbs_first",
+      "tourId": "niziu_cdtv_live_live_autumn_thanks_2026",
+      "type": "TBSチケット抽選先行",
+      "entryStartAt": "2026-07-17T10:00:00+09:00",
+      "entryEndAt": "2026-07-28T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "niziu_cdtv_live_live_autumn_thanks_2026_0911"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tickets.tbs.co.jp/cdtv_livelive26fall/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "niziu_cdtv_live_live_autumn_thanks_2026_withu",
+      "tourId": "niziu_cdtv_live_live_autumn_thanks_2026",
+      "type": "WithU先行受付（抽選）",
+      "entryStartAt": "2026-07-28T10:00:00+09:00",
+      "entryEndAt": "2026-08-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "niziu_cdtv_live_live_autumn_thanks_2026_0911"
+      ],
+      "source": "system",
+      "sourceUrl": "https://fc.niziu.com/s/n120/ticket/list?ct=ticket",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "niziu_cdtv_live_live_autumn_thanks_2026_withu_mobile",
+      "tourId": "niziu_cdtv_live_live_autumn_thanks_2026",
+      "type": "WithU MOBILE先行受付（抽選）",
+      "entryStartAt": "2026-07-28T10:00:00+09:00",
+      "entryEndAt": "2026-08-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "niziu_cdtv_live_live_autumn_thanks_2026_0911"
+      ],
+      "source": "system",
+      "sourceUrl": "https://m.niziu.com/s/n121/ticket/list?ct=ticket",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "niziu_cdtv_live_live_autumn_thanks_2026_tbs_second",
+      "tourId": "niziu_cdtv_live_live_autumn_thanks_2026",
+      "type": "TBSチケット2次抽選先行",
+      "entryStartAt": "2026-08-03T21:00:00+09:00",
+      "entryEndAt": "2026-08-10T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "niziu_cdtv_live_live_autumn_thanks_2026_0911"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tickets.tbs.co.jp/cdtv_livelive26fall/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "niziu_cdtv_live_live_autumn_thanks_2026_general",
+      "tourId": "niziu_cdtv_live_live_autumn_thanks_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-08-17T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "niziu_cdtv_live_live_autumn_thanks_2026_0911"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tickets.tbs.co.jp/cdtv_livelive26fall/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "niziu_live_with_u_2026_new_evonution_w",
+      "tourId": "niziu_live_with_u_2026_new_evonution",
+      "type": "W会員先行",
+      "entryStartAt": "2025-11-23T17:50:00+09:00",
+      "entryEndAt": "2025-12-07T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "niziu_live_with_u_2026_new_evonution_aichi_0214",
+        "niziu_live_with_u_2026_new_evonution_aichi_0215",
+        "niziu_live_with_u_2026_new_evonution_hokkaido_0227",
+        "niziu_live_with_u_2026_new_evonution_hokkaido_0228",
+        "niziu_live_with_u_2026_new_evonution_osaka_0307",
+        "niziu_live_with_u_2026_new_evonution_osaka_0308",
+        "niziu_live_with_u_2026_new_evonution_tokyo_0318",
+        "niziu_live_with_u_2026_new_evonution_tokyo_0319",
+        "niziu_live_with_u_2026_new_evonution_tokyo_0321",
+        "niziu_live_with_u_2026_new_evonution_tokyo_0322",
+        "niziu_live_with_u_2026_new_evonution_kitakyushu_0328",
+        "niziu_live_with_u_2026_new_evonution_kitakyushu_0329"
+      ],
+      "source": "system",
+      "sourceUrl": "https://niziu.com/s/n123/page/livewithu2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "niziu_live_with_u_2026_new_evonution_withu",
+      "tourId": "niziu_live_with_u_2026_new_evonution",
+      "type": "WithU先行",
+      "entryStartAt": "2025-12-12T20:00:00+09:00",
+      "entryEndAt": "2025-12-21T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "niziu_live_with_u_2026_new_evonution_aichi_0214",
+        "niziu_live_with_u_2026_new_evonution_aichi_0215",
+        "niziu_live_with_u_2026_new_evonution_hokkaido_0227",
+        "niziu_live_with_u_2026_new_evonution_hokkaido_0228",
+        "niziu_live_with_u_2026_new_evonution_osaka_0307",
+        "niziu_live_with_u_2026_new_evonution_osaka_0308",
+        "niziu_live_with_u_2026_new_evonution_tokyo_0318",
+        "niziu_live_with_u_2026_new_evonution_tokyo_0319",
+        "niziu_live_with_u_2026_new_evonution_tokyo_0321",
+        "niziu_live_with_u_2026_new_evonution_tokyo_0322",
+        "niziu_live_with_u_2026_new_evonution_kitakyushu_0328",
+        "niziu_live_with_u_2026_new_evonution_kitakyushu_0329"
+      ],
+      "source": "system",
+      "sourceUrl": "https://niziu.com/s/n123/page/livewithu2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "niziu_live_with_u_2026_new_evonution_mobile",
+      "tourId": "niziu_live_with_u_2026_new_evonution",
+      "type": "WithU MOBILE先行",
+      "entryStartAt": "2025-12-26T20:00:00+09:00",
+      "entryEndAt": "2026-01-04T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "niziu_live_with_u_2026_new_evonution_aichi_0214",
+        "niziu_live_with_u_2026_new_evonution_aichi_0215",
+        "niziu_live_with_u_2026_new_evonution_hokkaido_0227",
+        "niziu_live_with_u_2026_new_evonution_hokkaido_0228",
+        "niziu_live_with_u_2026_new_evonution_osaka_0307",
+        "niziu_live_with_u_2026_new_evonution_osaka_0308",
+        "niziu_live_with_u_2026_new_evonution_tokyo_0318",
+        "niziu_live_with_u_2026_new_evonution_tokyo_0319",
+        "niziu_live_with_u_2026_new_evonution_tokyo_0321",
+        "niziu_live_with_u_2026_new_evonution_tokyo_0322",
+        "niziu_live_with_u_2026_new_evonution_kitakyushu_0328",
+        "niziu_live_with_u_2026_new_evonution_kitakyushu_0329"
+      ],
+      "source": "system",
+      "sourceUrl": "https://niziu.com/s/n123/page/livewithu2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "niziu_live_with_u_2026_new_evonution_seven",
+      "tourId": "niziu_live_with_u_2026_new_evonution",
+      "type": "セブン-イレブン先行",
+      "entryStartAt": "2026-01-13T12:00:00+09:00",
+      "entryEndAt": "2026-01-18T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "niziu_live_with_u_2026_new_evonution_aichi_0214",
+        "niziu_live_with_u_2026_new_evonution_aichi_0215",
+        "niziu_live_with_u_2026_new_evonution_hokkaido_0227",
+        "niziu_live_with_u_2026_new_evonution_hokkaido_0228",
+        "niziu_live_with_u_2026_new_evonution_osaka_0307",
+        "niziu_live_with_u_2026_new_evonution_osaka_0308",
+        "niziu_live_with_u_2026_new_evonution_tokyo_0318",
+        "niziu_live_with_u_2026_new_evonution_tokyo_0319",
+        "niziu_live_with_u_2026_new_evonution_tokyo_0321",
+        "niziu_live_with_u_2026_new_evonution_tokyo_0322",
+        "niziu_live_with_u_2026_new_evonution_kitakyushu_0328",
+        "niziu_live_with_u_2026_new_evonution_kitakyushu_0329"
+      ],
+      "source": "system",
+      "sourceUrl": "https://niziu.com/s/n123/page/livewithu2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "niziu_live_with_u_2026_new_evonution_prereserve",
+      "tourId": "niziu_live_with_u_2026_new_evonution",
+      "type": "プレリザーブ",
+      "entryStartAt": "2026-01-19T12:00:00+09:00",
+      "entryEndAt": "2026-01-25T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "niziu_live_with_u_2026_new_evonution_aichi_0214",
+        "niziu_live_with_u_2026_new_evonution_aichi_0215",
+        "niziu_live_with_u_2026_new_evonution_hokkaido_0227",
+        "niziu_live_with_u_2026_new_evonution_hokkaido_0228",
+        "niziu_live_with_u_2026_new_evonution_osaka_0307",
+        "niziu_live_with_u_2026_new_evonution_osaka_0308",
+        "niziu_live_with_u_2026_new_evonution_tokyo_0318",
+        "niziu_live_with_u_2026_new_evonution_tokyo_0319",
+        "niziu_live_with_u_2026_new_evonution_tokyo_0321",
+        "niziu_live_with_u_2026_new_evonution_tokyo_0322",
+        "niziu_live_with_u_2026_new_evonution_kitakyushu_0328",
+        "niziu_live_with_u_2026_new_evonution_kitakyushu_0329"
+      ],
+      "source": "system",
+      "sourceUrl": "https://niziu.com/s/n123/page/livewithu2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "niziu_live_with_u_2026_new_evonution_general",
+      "tourId": "niziu_live_with_u_2026_new_evonution",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-02-05T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "niziu_live_with_u_2026_new_evonution_aichi_0214",
+        "niziu_live_with_u_2026_new_evonution_aichi_0215",
+        "niziu_live_with_u_2026_new_evonution_hokkaido_0227",
+        "niziu_live_with_u_2026_new_evonution_hokkaido_0228",
+        "niziu_live_with_u_2026_new_evonution_osaka_0307",
+        "niziu_live_with_u_2026_new_evonution_osaka_0308",
+        "niziu_live_with_u_2026_new_evonution_tokyo_0318",
+        "niziu_live_with_u_2026_new_evonution_tokyo_0319",
+        "niziu_live_with_u_2026_new_evonution_tokyo_0321",
+        "niziu_live_with_u_2026_new_evonution_tokyo_0322",
+        "niziu_live_with_u_2026_new_evonution_kitakyushu_0328",
+        "niziu_live_with_u_2026_new_evonution_kitakyushu_0329"
+      ],
+      "source": "system",
+      "sourceUrl": "https://niziu.com/s/n123/page/livewithu2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "niziu_live_with_u_2026_new_evonution_additional",
+      "tourId": "niziu_live_with_u_2026_new_evonution",
+      "type": "追加席販売（先着）",
+      "entryStartAt": "2026-02-09T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "niziu_live_with_u_2026_new_evonution_aichi_0214",
+        "niziu_live_with_u_2026_new_evonution_aichi_0215",
+        "niziu_live_with_u_2026_new_evonution_hokkaido_0227",
+        "niziu_live_with_u_2026_new_evonution_hokkaido_0228",
+        "niziu_live_with_u_2026_new_evonution_osaka_0307",
+        "niziu_live_with_u_2026_new_evonution_osaka_0308",
+        "niziu_live_with_u_2026_new_evonution_tokyo_0318",
+        "niziu_live_with_u_2026_new_evonution_tokyo_0319",
+        "niziu_live_with_u_2026_new_evonution_tokyo_0321",
+        "niziu_live_with_u_2026_new_evonution_tokyo_0322",
+        "niziu_live_with_u_2026_new_evonution_kitakyushu_0328",
+        "niziu_live_with_u_2026_new_evonution_kitakyushu_0329"
+      ],
+      "source": "system",
+      "sourceUrl": "https://niziu.com/s/n123/page/livewithu2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "niziu_live_with_u_2026_the_cinema_w",
+      "tourId": "niziu_live_with_u_2026_the_cinema",
+      "type": "W会員先行",
+      "entryStartAt": "2026-03-07T20:00:00+09:00",
+      "entryEndAt": "2026-03-20T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "niziu_live_with_u_2026_the_cinema_osaka_0606",
+        "niziu_live_with_u_2026_the_cinema_osaka_0607",
+        "niziu_live_with_u_2026_the_cinema_tokyo_0613",
+        "niziu_live_with_u_2026_the_cinema_tokyo_0614"
+      ],
+      "source": "system",
+      "sourceUrl": "https://niziu.com/s/n123/page/thecinema2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "niziu_live_with_u_2026_the_cinema_withu",
+      "tourId": "niziu_live_with_u_2026_the_cinema",
+      "type": "WithU先行",
+      "entryStartAt": "2026-03-21T20:00:00+09:00",
+      "entryEndAt": "2026-04-02T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "niziu_live_with_u_2026_the_cinema_osaka_0606",
+        "niziu_live_with_u_2026_the_cinema_osaka_0607",
+        "niziu_live_with_u_2026_the_cinema_tokyo_0613",
+        "niziu_live_with_u_2026_the_cinema_tokyo_0614"
+      ],
+      "source": "system",
+      "sourceUrl": "https://niziu.com/s/n123/page/thecinema2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "niziu_live_with_u_2026_the_cinema_mobile",
+      "tourId": "niziu_live_with_u_2026_the_cinema",
+      "type": "WithU MOBILE先行",
+      "entryStartAt": "2026-04-03T20:00:00+09:00",
+      "entryEndAt": "2026-04-14T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "niziu_live_with_u_2026_the_cinema_osaka_0606",
+        "niziu_live_with_u_2026_the_cinema_osaka_0607",
+        "niziu_live_with_u_2026_the_cinema_tokyo_0613",
+        "niziu_live_with_u_2026_the_cinema_tokyo_0614"
+      ],
+      "source": "system",
+      "sourceUrl": "https://niziu.com/s/n123/page/thecinema2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "niziu_live_with_u_2026_the_cinema_upgrade",
+      "tourId": "niziu_live_with_u_2026_the_cinema",
+      "type": "アップグレード抽選",
+      "entryStartAt": "2026-04-20T12:00:00+09:00",
+      "entryEndAt": "2026-04-30T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "niziu_live_with_u_2026_the_cinema_osaka_0606",
+        "niziu_live_with_u_2026_the_cinema_osaka_0607",
+        "niziu_live_with_u_2026_the_cinema_tokyo_0613",
+        "niziu_live_with_u_2026_the_cinema_tokyo_0614"
+      ],
+      "source": "system",
+      "sourceUrl": "https://niziu.com/s/n123/page/thecinema2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "niziu_live_with_u_2026_the_cinema_final_fc",
+      "tourId": "niziu_live_with_u_2026_the_cinema",
+      "type": "FC最終先行",
+      "entryStartAt": "2026-05-12T12:00:00+09:00",
+      "entryEndAt": "2026-05-17T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "niziu_live_with_u_2026_the_cinema_osaka_0606",
+        "niziu_live_with_u_2026_the_cinema_osaka_0607",
+        "niziu_live_with_u_2026_the_cinema_tokyo_0613",
+        "niziu_live_with_u_2026_the_cinema_tokyo_0614"
+      ],
+      "source": "system",
+      "sourceUrl": "https://niziu.com/s/n123/page/thecinema2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "niziu_live_with_u_2026_the_cinema_general",
+      "tourId": "niziu_live_with_u_2026_the_cinema",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-05-23T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "niziu_live_with_u_2026_the_cinema_osaka_0606",
+        "niziu_live_with_u_2026_the_cinema_osaka_0607",
+        "niziu_live_with_u_2026_the_cinema_tokyo_0613",
+        "niziu_live_with_u_2026_the_cinema_tokyo_0614"
+      ],
+      "source": "system",
+      "sourceUrl": "https://niziu.com/s/n123/page/thecinema2026",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1894028922",
+      "title": "LOVE BEAT (feat. NiziU)",
+      "albumTitle": "LOVE BEAT (feat. NiziU) - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8c/02/0a/8c020aa4-1c2e-0934-cc43-5b79defcaad8/mzaf_6689054475811809715.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/af/9d/6d/af9d6d5a-81f6-717c-3a66-c82d55a3de0a/4547366820232.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1538127026",
+      "title": "Make you happy",
+      "albumTitle": "Make you happy - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/b3/d3/71/b3d371d7-45e9-6555-f746-1c82a7b376e7/mzaf_12411993281437085343.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0a/43/d5/0a43d5e3-43c3-6351-2d28-c2c082333f34/jacket_EJXX00081B00Z_550.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1540481858",
+      "title": "Step and a step",
+      "albumTitle": "Step and a step - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/55/f0/f2/55f0f2f0-30d9-7459-2764-b6ef627e618f/mzaf_6396320405754041698.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cc/a0/c3/cca0c38d-43eb-bc58-8a69-58cad5e89f44/4547366486766.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}
