@@ -1,0 +1,173 @@
+name: Fix artist kana search aliases 20260828
+
+on:
+  push:
+    branches:
+      - fix/artist-kana-search-aliases-20260828
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fix-and-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: fix/artist-kana-search-aliases-20260828
+          fetch-depth: 0
+
+      - name: Add canonical kana readings and audit searchability
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import hashlib
+          import json
+          import re
+          from datetime import datetime, timedelta, timezone
+          from pathlib import Path
+
+          artists_path = Path('data/artists.json')
+          manifest_path = Path('data/manifest.json')
+
+          additions = {
+              'glay': ['グレイ'],
+              'ryokuoushoku_shakai': ['リョクオウショクシャカイ'],
+              'tennimu': ['テニスノオウジサマミュージカル'],
+              'zutomayo': ['ズットマヨナカデイイノニ'],
+              'momoiro_clover_z': ['モモイロクローバーゼット'],
+              'boku_aozora': ['ボクガミタカッタアオゾラ'],
+              'bullet_train': ['チョウトッキュウ'],
+              'illit': ['アイリット'],
+              'one_n_only': ['ワンエンオンリー', 'ワンエン'],
+              'candy_tune': ['キャンディーチューン'],
+              'boynextdoor': ['ボーイネクストドア'],
+              'saucy_dog': ['サウシードッグ', 'サウシー'],
+              'ateez': ['エイティーズ'],
+              'niziu': ['ニジュー'],
+              'xg': ['エックスジー'],
+              'nakajima_kento': ['ナカジマケント'],
+          }
+
+          artists = json.loads(artists_path.read_text(encoding='utf-8'))
+          by_id = {entry['id']: entry for entry in artists}
+          missing_ids = sorted(set(additions) - set(by_id))
+          if missing_ids:
+              raise SystemExit(f'mapping refers to missing artists: {missing_ids}')
+
+          changed = []
+          for artist_id, readings in additions.items():
+              entry = by_id[artist_id]
+              aliases = entry.setdefault('aliases', [])
+              for reading in readings:
+                  if reading not in aliases:
+                      aliases.append(reading)
+                      changed.append((artist_id, reading))
+
+          artists_path.write_text(
+              json.dumps(artists, ensure_ascii=False, indent=2) + '\n',
+              encoding='utf-8',
+          )
+
+          # Regression audit: any artist whose display name contains ASCII letters or CJK
+          # must expose at least one kana alias. Kana-only names are searchable directly.
+          kana = re.compile(r'[\u3041-\u3096\u30A1-\u30FA]')
+          latin_or_cjk = re.compile(r'[A-Za-z\u3400-\u4DBF\u4E00-\u9FFF]')
+          missing_kana_alias = []
+          for entry in artists:
+              if latin_or_cjk.search(entry['name']) and not any(kana.search(a) for a in entry.get('aliases', [])):
+                  missing_kana_alias.append((entry['id'], entry['name'], entry.get('aliases', [])))
+          if missing_kana_alias:
+              for row in missing_kana_alias:
+                  print('MISSING_KANA_ALIAS', row)
+              raise SystemExit(f'{len(missing_kana_alias)} artists still have no kana alias')
+
+          separators = set(' 　・･.．,、/／-‐–—_')
+          def normalize(text: str) -> str:
+              out = []
+              for ch in text.casefold():
+                  if ch in separators:
+                      continue
+                  code = ord(ch)
+                  if 0x30A1 <= code <= 0x30F6:
+                      ch = chr(code - 0x60)
+                  out.append(ch)
+              return ''.join(out)
+
+          expected_queries = {
+              'glay': 'ぐれい',
+              'ryokuoushoku_shakai': 'りょくおうしょくしゃかい',
+              'tennimu': 'てにすのおうじさまみゅーじかる',
+              'zutomayo': 'ずっとまよなかでいいのに',
+              'momoiro_clover_z': 'ももいろくろーばーぜっと',
+              'boku_aozora': 'ぼくがみたかったあおぞら',
+              'bullet_train': 'ちょうとっきゅう',
+              'illit': 'あいりっと',
+              'one_n_only': 'わんえんおんりー',
+              'candy_tune': 'きゃんでぃーちゅーん',
+              'boynextdoor': 'ぼーいねくすとどあ',
+              'saucy_dog': 'さうしーどっぐ',
+              'ateez': 'えいてぃーず',
+              'niziu': 'にじゅー',
+              'xg': 'えっくすじー',
+              'nakajima_kento': 'なかじまけんと',
+          }
+          failed = []
+          for artist_id, query in expected_queries.items():
+              entry = by_id[artist_id]
+              needle = normalize(query)
+              candidates = [entry['name'], *entry.get('aliases', [])]
+              if not any(needle in normalize(candidate) for candidate in candidates):
+                  failed.append((artist_id, query, candidates))
+          if failed:
+              for row in failed:
+                  print('SEARCH_REGRESSION', row)
+              raise SystemExit(f'{len(failed)} kana search cases failed')
+
+          manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+          current_hash = hashlib.sha256(artists_path.read_bytes()).hexdigest()[:16]
+          if manifest['files']['artists']['hash'] != current_hash:
+              manifest['version'] = int(manifest['version']) + 1
+              manifest['updatedAt'] = datetime.now(timezone(timedelta(hours=9))).isoformat(timespec='seconds')
+              manifest['files']['artists']['hash'] = current_hash
+              manifest_path.write_text(
+                  json.dumps(manifest, ensure_ascii=False, indent=2) + '\n',
+                  encoding='utf-8',
+              )
+
+          print(f'artists={len(artists)}')
+          print(f'aliases_added={len(changed)}')
+          for artist_id, reading in changed:
+              print(f'ADD {artist_id}: {reading}')
+          print('kana search audit: OK')
+          PY
+
+      - name: Verify JSON and manifest hash
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import hashlib, json
+          from pathlib import Path
+          artists = Path('data/artists.json')
+          manifest = json.loads(Path('data/manifest.json').read_text(encoding='utf-8'))
+          json.loads(artists.read_text(encoding='utf-8'))
+          actual = hashlib.sha256(artists.read_bytes()).hexdigest()[:16]
+          expected = manifest['files']['artists']['hash']
+          assert actual == expected, (actual, expected)
+          print('JSON parse: OK')
+          print('manifest artists hash: OK', actual)
+          PY
+
+      - name: Commit data changes
+        shell: bash
+        run: |
+          if git diff --quiet -- data/artists.json data/manifest.json; then
+            echo 'No data changes to commit.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/artists.json data/manifest.json
+          git commit -m 'fix: add kana readings for artist search'
+          git push origin HEAD:fix/artist-kana-search-aliases-20260828
