@@ -841,7 +841,20 @@
       "paymentEndAt": null,
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/news",
-      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00",
+      "performanceIds": [
+        "momoiro_clover_z_xmas_2026_tokyo_1030",
+        "momoiro_clover_z_xmas_2026_hiroshima_1102",
+        "momoiro_clover_z_xmas_2026_hyogo_1106",
+        "momoiro_clover_z_xmas_2026_kyoto_1107",
+        "momoiro_clover_z_xmas_2026_niigata_1122",
+        "momoiro_clover_z_xmas_2026_aichi_1123",
+        "momoiro_clover_z_xmas_2026_fukuoka_1127",
+        "momoiro_clover_z_xmas_2026_sapporo_1203",
+        "momoiro_clover_z_xmas_2026_tokyo_1211",
+        "momoiro_clover_z_xmas_2026_tokyo_1212",
+        "momoiro_clover_z_xmas_2026_tokyo_1213"
+      ]
     }
   ],
   "appleMusicTracks": [
