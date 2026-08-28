@@ -213,11 +213,11 @@
       "artistId": "yabai_tshirts_yasan",
       "title": "HEY-SMITH “ALL OVER JAPAN TOUR”",
       "startDate": "2027-02-11T00:00:00+09:00",
-      "endDate": "2027-02-11T00:00:00+09:00",
+      "endDate": "2027-02-14T00:00:00+09:00",
       "prices": null,
       "source": "system",
       "sourceUrl": "https://yabaitshirtsyasan.com/live/268157/",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
     },
     {
       "id": "yabai_tshirts_yasan_event_heisei_democratic_2026",
@@ -890,9 +890,9 @@
       "type": "オフィシャル3次先行",
       "entryStartAt": "2026-07-17T20:00:00+09:00",
       "entryEndAt": "2026-07-21T23:59:00+09:00",
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
+      "resultAt": "2026-07-25T15:00:00+09:00",
+      "paymentStartAt": "2026-07-25T15:00:00+09:00",
+      "paymentEndAt": "2026-07-29T23:00:00+09:00",
       "performanceIds": [
         "yabai_tshirts_yasan_mtp_tour_2026_osaka_1008",
         "yabai_tshirts_yasan_mtp_tour_2026_sendai_1012",
@@ -908,7 +908,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://yabaitshirtsyasan.com/news/288512/",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
     },
     {
       "id": "yabai_tshirts_yasan_mtp_tour_2026_prerequest_2026_08",
@@ -977,6 +977,26 @@
       "source": "system",
       "sourceUrl": "https://w.pia.jp/t/yabaitshirtsyasan-mtp2026/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_mtp_tour_2026_general_august",
+      "tourId": "yabai_tshirts_yasan_mtp_tour_2026",
+      "type": "一般発売（8月公演）",
+      "entryStartAt": "2026-07-11T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yabai_tshirts_yasan_mtp_tour_2026_niigata_0817",
+        "yabai_tshirts_yasan_mtp_tour_2026_takasaki_0818",
+        "yabai_tshirts_yasan_mtp_tour_2026_yokohama_0825",
+        "yabai_tshirts_yasan_mtp_tour_2026_takamatsu_0806",
+        "yabai_tshirts_yasan_mtp_tour_2026_hiroshima_0808"
+      ],
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/mtp_tour/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

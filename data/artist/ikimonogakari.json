@@ -304,14 +304,14 @@
     {
       "id": "ikimonogakari_angyar_2026_fukui_0227",
       "tourId": "ikimonogakari_angyar_2026",
-      "venue": "フェニックス・プラザ エルピス",
+      "venue": "フェニックス・プラザ エルピス 大ホール",
       "performanceAt": "2027-02-27T18:00:00+09:00",
       "doorOpenAt": "2027-02-27T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
     },
     {
       "id": "ikimonogakari_angyar_2026_toyama_0228",
@@ -779,6 +779,786 @@
       "source": "system",
       "sourceUrl": "https://ikimonogakari.com/news/live/20260807-1",
       "lastVerifiedAt": "2026-08-17T22:50:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_general_first_batch",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "一般発売（第一弾公演）",
+      "entryStartAt": "2026-03-28T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_kanagawa_0418",
+        "ikimonogakari_angyar_2026_chiba_0426",
+        "ikimonogakari_angyar_2026_gunma_0429",
+        "ikimonogakari_angyar_2026_okayama_0523",
+        "ikimonogakari_angyar_2026_tottori_0524",
+        "ikimonogakari_angyar_2026_fukuoka_0718",
+        "ikimonogakari_angyar_2026_kumamoto_0719",
+        "ikimonogakari_angyar_2026_nagasaki_0801",
+        "ikimonogakari_angyar_2026_oita_0802",
+        "ikimonogakari_angyar_2026_yamagata_0809",
+        "ikimonogakari_angyar_2026_shiga_0829",
+        "ikimonogakari_angyar_2026_shimane_1003",
+        "ikimonogakari_angyar_2026_hiroshima_1004",
+        "ikimonogakari_angyar_2026_kagawa_1010",
+        "ikimonogakari_angyar_2026_ehime_1011",
+        "ikimonogakari_angyar_2026_aomori_1017",
+        "ikimonogakari_angyar_2026_hokkaido_1103"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/news/live/20260325-2",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_fc_resale_0418",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "FC公式リセール",
+      "entryStartAt": "2026-04-04T12:00:00+09:00",
+      "entryEndAt": "2026-04-17T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_kanagawa_0418"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/news/live/20260403-2",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_fc_resale_0426",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "FC公式リセール",
+      "entryStartAt": "2026-04-12T12:00:00+09:00",
+      "entryEndAt": "2026-04-25T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_chiba_0426"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/news/live/20260403-2",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_fc_resale_0429",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "FC公式リセール",
+      "entryStartAt": "2026-04-15T12:00:00+09:00",
+      "entryEndAt": "2026-04-28T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_gunma_0429"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/news/live/20260403-2",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_fc_resale_0523",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "FC公式リセール",
+      "entryStartAt": "2026-05-09T12:00:00+09:00",
+      "entryEndAt": "2026-05-22T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_okayama_0523"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/news/live/20260403-2",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_fc_resale_0524",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "FC公式リセール",
+      "entryStartAt": "2026-05-10T12:00:00+09:00",
+      "entryEndAt": "2026-05-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_tottori_0524"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/news/live/20260403-2",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_fc_resale_0718",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "FC公式リセール",
+      "entryStartAt": "2026-07-04T12:00:00+09:00",
+      "entryEndAt": "2026-07-17T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_fukuoka_0718"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/news/live/20260403-2",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_fc_resale_0719",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "FC公式リセール",
+      "entryStartAt": "2026-07-05T12:00:00+09:00",
+      "entryEndAt": "2026-07-18T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_kumamoto_0719"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/news/live/20260403-2",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_fc_resale_0801",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "FC公式リセール",
+      "entryStartAt": "2026-07-18T12:00:00+09:00",
+      "entryEndAt": "2026-07-31T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_nagasaki_0801"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/news/live/20260403-2",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_fc_resale_0802",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "FC公式リセール",
+      "entryStartAt": "2026-07-19T12:00:00+09:00",
+      "entryEndAt": "2026-08-01T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_oita_0802"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/news/live/20260403-2",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_fc_resale_1003",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "FC公式リセール",
+      "entryStartAt": "2026-09-19T12:00:00+09:00",
+      "entryEndAt": "2026-10-02T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_shimane_1003"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/news/live/20260403-2",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_fc_resale_1004",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "FC公式リセール",
+      "entryStartAt": "2026-09-20T12:00:00+09:00",
+      "entryEndAt": "2026-10-03T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_hiroshima_1004"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/news/live/20260403-2",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_fc_resale_1010",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "FC公式リセール",
+      "entryStartAt": "2026-09-26T12:00:00+09:00",
+      "entryEndAt": "2026-10-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_kagawa_1010"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/news/live/20260403-2",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_fc_resale_1011",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "FC公式リセール",
+      "entryStartAt": "2026-09-27T12:00:00+09:00",
+      "entryEndAt": "2026-10-10T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_ehime_1011"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/news/live/20260403-2",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_fc_resale_1017",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "FC公式リセール",
+      "entryStartAt": "2026-10-03T12:00:00+09:00",
+      "entryEndAt": "2026-10-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_aomori_1017"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/news/live/20260403-2",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_fc_resale_1103",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "FC公式リセール",
+      "entryStartAt": "2026-10-20T12:00:00+09:00",
+      "entryEndAt": "2026-11-02T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_hokkaido_1103"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/news/live/20260403-2",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_fc_resale_0822",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "FC公式リセール",
+      "entryStartAt": "2026-08-08T12:00:00+09:00",
+      "entryEndAt": "2026-08-21T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_yamaguchi_0822"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/news/live/20260403-2",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_additional_seat_nagasaki_oita",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "機材席開放 追加席販売",
+      "entryStartAt": "2026-07-25T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_nagasaki_0801",
+        "ikimonogakari_angyar_2026_oita_0802"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/news/live/20260724-1",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_general_yamaguchi_0822",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "一般発売（山口公演）",
+      "entryStartAt": "2026-07-25T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_yamaguchi_0822"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/news/live/20260724-2",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_fob_pia_1",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "チケットぴあ プレイガイド先行1",
+      "entryStartAt": "2026-04-10T12:00:00+09:00",
+      "entryEndAt": "2026-04-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_niigata_1115",
+        "ikimonogakari_angyar_2026_fukui_0227",
+        "ikimonogakari_angyar_2026_toyama_0228",
+        "ikimonogakari_angyar_2026_ishikawa_0403",
+        "ikimonogakari_angyar_2026_nagano_0404"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.fobkikaku.co.jp/pfm.php?p=8057",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_fob_pia_2",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "チケットぴあ プレイガイド先行2",
+      "entryStartAt": "2026-04-18T12:00:00+09:00",
+      "entryEndAt": "2026-04-26T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_niigata_1115",
+        "ikimonogakari_angyar_2026_fukui_0227",
+        "ikimonogakari_angyar_2026_toyama_0228",
+        "ikimonogakari_angyar_2026_ishikawa_0403",
+        "ikimonogakari_angyar_2026_nagano_0404"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.fobkikaku.co.jp/pfm.php?p=8057",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_fob_pia_3",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "チケットぴあ プレイガイド先行3",
+      "entryStartAt": "2026-04-28T12:00:00+09:00",
+      "entryEndAt": "2026-05-10T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_niigata_1115",
+        "ikimonogakari_angyar_2026_fukui_0227",
+        "ikimonogakari_angyar_2026_toyama_0228",
+        "ikimonogakari_angyar_2026_ishikawa_0403",
+        "ikimonogakari_angyar_2026_nagano_0404"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.fobkikaku.co.jp/pfm.php?p=8057",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_fob_pia_4",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "チケットぴあ プレイガイド先行4",
+      "entryStartAt": "2026-05-14T12:00:00+09:00",
+      "entryEndAt": "2026-05-26T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_niigata_1115",
+        "ikimonogakari_angyar_2026_fukui_0227",
+        "ikimonogakari_angyar_2026_toyama_0228",
+        "ikimonogakari_angyar_2026_ishikawa_0403",
+        "ikimonogakari_angyar_2026_nagano_0404"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.fobkikaku.co.jp/pfm.php?p=8057",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_fob_pia_5",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "チケットぴあ プレイガイド先行5",
+      "entryStartAt": "2026-05-31T12:00:00+09:00",
+      "entryEndAt": "2026-06-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_niigata_1115",
+        "ikimonogakari_angyar_2026_fukui_0227",
+        "ikimonogakari_angyar_2026_toyama_0228",
+        "ikimonogakari_angyar_2026_ishikawa_0403",
+        "ikimonogakari_angyar_2026_nagano_0404"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.fobkikaku.co.jp/pfm.php?p=8057",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_fob_fukui_ishikawa_1",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "ローソンチケット先行1",
+      "entryStartAt": "2026-07-01T12:00:00+09:00",
+      "entryEndAt": "2026-07-12T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_fukui_0227",
+        "ikimonogakari_angyar_2026_ishikawa_0403"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.fobkikaku.co.jp/pfm.php?p=8057",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_fob_fukui_ishikawa_2",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "ローソンチケット先行2",
+      "entryStartAt": "2026-07-15T12:00:00+09:00",
+      "entryEndAt": "2026-07-27T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_fukui_0227",
+        "ikimonogakari_angyar_2026_ishikawa_0403"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.fobkikaku.co.jp/pfm.php?p=8057",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_fob_fukui_ishikawa_3",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "ローソンチケット先行3",
+      "entryStartAt": "2026-08-01T12:00:00+09:00",
+      "entryEndAt": "2026-08-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_fukui_0227",
+        "ikimonogakari_angyar_2026_ishikawa_0403"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.fobkikaku.co.jp/pfm.php?p=8057",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_fob_fukui_ishikawa_4",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "チケットぴあ先行1",
+      "entryStartAt": "2026-07-01T11:00:00+09:00",
+      "entryEndAt": "2026-07-13T11:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_fukui_0227",
+        "ikimonogakari_angyar_2026_ishikawa_0403"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.fobkikaku.co.jp/pfm.php?p=8057",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_fob_fukui_ishikawa_5",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "チケットぴあ先行2",
+      "entryStartAt": "2026-07-17T11:00:00+09:00",
+      "entryEndAt": "2026-08-03T11:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_fukui_0227",
+        "ikimonogakari_angyar_2026_ishikawa_0403"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.fobkikaku.co.jp/pfm.php?p=8057",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_fob_fukui_ishikawa_6",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "イープラス先行1",
+      "entryStartAt": "2026-07-01T12:00:00+09:00",
+      "entryEndAt": "2026-07-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_fukui_0227",
+        "ikimonogakari_angyar_2026_ishikawa_0403"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.fobkikaku.co.jp/pfm.php?p=8057",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_fob_fukui_ishikawa_7",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "イープラス先行2",
+      "entryStartAt": "2026-07-20T12:00:00+09:00",
+      "entryEndAt": "2026-08-05T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_fukui_0227",
+        "ikimonogakari_angyar_2026_ishikawa_0403"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.fobkikaku.co.jp/pfm.php?p=8057",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_okinawa_bea_web_1",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "BEA-WEB 1次先行",
+      "entryStartAt": "2026-07-27T12:00:00+09:00",
+      "entryEndAt": "2026-08-06T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_okinawa_0327"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bea-net.com/liveinformation/artist/2607ikimonogakari.html",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_okinawa_bea_web_2",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "BEA-WEB 2次先行",
+      "entryStartAt": "2026-08-15T12:00:00+09:00",
+      "entryEndAt": "2026-08-25T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_okinawa_0327"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bea-net.com/liveinformation/artist/2607ikimonogakari.html",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_okinawa_bea_web_final",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "BEA-WEB 最終先行",
+      "entryStartAt": "2026-09-06T12:00:00+09:00",
+      "entryEndAt": "2026-09-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_okinawa_0327"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bea-net.com/liveinformation/artist/2607ikimonogakari.html",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_okinawa_lawson_fastest",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "ローソン プレリク最速先行",
+      "entryStartAt": "2026-07-01T12:00:00+09:00",
+      "entryEndAt": "2026-07-13T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_okinawa_0327"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bea-net.com/liveinformation/artist/2607ikimonogakari.html",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_okinawa_lawson_1",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "ローソン プレリク1次先行",
+      "entryStartAt": "2026-07-27T12:00:00+09:00",
+      "entryEndAt": "2026-08-06T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_okinawa_0327"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bea-net.com/liveinformation/artist/2607ikimonogakari.html",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_okinawa_lawson_2",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "ローソン プレリク2次先行",
+      "entryStartAt": "2026-08-15T12:00:00+09:00",
+      "entryEndAt": "2026-08-25T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_okinawa_0327"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bea-net.com/liveinformation/artist/2607ikimonogakari.html",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_okinawa_lawson_final",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "ローソン プレリク最終先行",
+      "entryStartAt": "2026-09-06T12:00:00+09:00",
+      "entryEndAt": "2026-09-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_okinawa_0327"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bea-net.com/liveinformation/artist/2607ikimonogakari.html",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_okinawa_pia_1",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "チケットぴあ1次先行",
+      "entryStartAt": "2026-07-13T11:00:00+09:00",
+      "entryEndAt": "2026-07-21T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_okinawa_0327"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bea-net.com/liveinformation/artist/2607ikimonogakari.html",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_okinawa_pia_familymart",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "チケットぴあ ファミリーマート先行",
+      "entryStartAt": "2026-07-28T11:00:00+09:00",
+      "entryEndAt": "2026-08-11T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_okinawa_0327"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bea-net.com/liveinformation/artist/2607ikimonogakari.html",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_okinawa_pia_2",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "チケットぴあ2次先行",
+      "entryStartAt": "2026-08-25T11:00:00+09:00",
+      "entryEndAt": "2026-09-07T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_okinawa_0327"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bea-net.com/liveinformation/artist/2607ikimonogakari.html",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_okinawa_eplus_1",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "イープラス1次先行",
+      "entryStartAt": "2026-07-01T12:00:00+09:00",
+      "entryEndAt": "2026-07-08T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_okinawa_0327"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bea-net.com/liveinformation/artist/2607ikimonogakari.html",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_okinawa_eplus_2",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "イープラス2次先行",
+      "entryStartAt": "2026-07-11T12:00:00+09:00",
+      "entryEndAt": "2026-07-27T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_okinawa_0327"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bea-net.com/liveinformation/artist/2607ikimonogakari.html",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_okinawa_eplus_diamond",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "イープラス◇次先行",
+      "entryStartAt": "2026-08-01T12:00:00+09:00",
+      "entryEndAt": "2026-08-17T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_okinawa_0327"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bea-net.com/liveinformation/artist/2607ikimonogakari.html",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_okinawa_eplus_circle",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "イープラス〇次先行",
+      "entryStartAt": "2026-08-22T12:00:00+09:00",
+      "entryEndAt": "2026-09-07T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_okinawa_0327"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bea-net.com/liveinformation/artist/2607ikimonogakari.html",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_okinawa_eplus_final",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "イープラス最終先行",
+      "entryStartAt": "2026-09-10T12:00:00+09:00",
+      "entryEndAt": "2026-09-17T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_okinawa_0327"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bea-net.com/liveinformation/artist/2607ikimonogakari.html",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

@@ -523,6 +523,391 @@
       "source": "system",
       "sourceUrl": "https://frederic-official.com/news/detail/3755",
       "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_fcfastestlottery_4_01",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "type": "フレハウス+最速抽選受付（4月公演）",
+      "entryStartAt": "2025-11-29T22:00:00+09:00",
+      "entryEndAt": "2025-12-07T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_yokohama_0418"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_fc2ndlottery_4_02",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "type": "フレハウス+二次抽選受付（4月公演）",
+      "entryStartAt": "2025-12-12T18:00:00+09:00",
+      "entryEndAt": "2025-12-21T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_yokohama_0418"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_fastestpreorder_4_03",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "type": "最速プレオーダー（4月公演）",
+      "entryStartAt": "2025-12-25T18:00:00+09:00",
+      "entryEndAt": "2026-01-04T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_yokohama_0418"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_preorder_01_09_4_04",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "type": "プレオーダー(01/09-)（4月公演）",
+      "entryStartAt": "2026-01-09T18:00:00+09:00",
+      "entryEndAt": "2026-01-18T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_yokohama_0418"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_preorder_01_23_4_05",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "type": "プレオーダー(01/23-)（4月公演）",
+      "entryStartAt": "2026-01-23T17:00:00+09:00",
+      "entryEndAt": "2026-02-01T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_yokohama_0418"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_general_4_18_06",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "type": "一般発売（4/18公演）",
+      "entryStartAt": "2026-02-14T10:00:00+09:00",
+      "entryEndAt": "2026-04-17T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_yokohama_0418"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_trade_4_07",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "type": "公式チケットトレード（4月公演）",
+      "entryStartAt": "2026-02-19T12:00:00+09:00",
+      "entryEndAt": "2026-04-17T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_yokohama_0418"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_fc1stlottery_5_08",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "type": "フレハウス+一次抽選受付（5月公演）",
+      "entryStartAt": "2026-02-20T18:00:00+09:00",
+      "entryEndAt": "2026-03-01T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_haneda_0526"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_fc2ndlottery_5_09",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "type": "フレハウス+二次抽選受付（5月公演）",
+      "entryStartAt": "2026-03-11T18:00:00+09:00",
+      "entryEndAt": "2026-03-22T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_haneda_0526"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_general_5_26_10",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "type": "一般発売（5/26公演）",
+      "entryStartAt": "2026-04-12T10:00:00+09:00",
+      "entryEndAt": "2026-05-25T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_haneda_0526"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_trade_5_11",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "type": "公式チケットトレード（5月公演）",
+      "entryStartAt": "2026-04-16T12:00:00+09:00",
+      "entryEndAt": "2026-05-25T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_haneda_0526"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_fc1stlottery_7_12",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "type": "フレハウス+一次抽選受付（7月公演）",
+      "entryStartAt": "2026-02-20T18:00:00+09:00",
+      "entryEndAt": "2026-03-01T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_haneda_0712"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_fc2ndlottery_7_13",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "type": "フレハウス+二次抽選受付（7月公演）",
+      "entryStartAt": "2026-03-11T18:00:00+09:00",
+      "entryEndAt": "2026-03-22T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_haneda_0712"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_preorder_4_17_7_14",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "type": "プレオーダー(4/17-)（7月公演）",
+      "entryStartAt": "2026-04-17T18:00:00+09:00",
+      "entryEndAt": "2026-04-26T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_haneda_0712"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_gwspecialpreorder_7_15",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "type": "GW特別プレオーダー（7月公演）",
+      "entryStartAt": "2026-05-01T18:00:00+09:00",
+      "entryEndAt": "2026-05-10T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_haneda_0712"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_preorder_7_16",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "type": "プレオーダー（7月公演）",
+      "entryStartAt": "2026-05-15T18:00:00+09:00",
+      "entryEndAt": "2026-05-26T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_haneda_0712"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_general_7_17",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "type": "一般発売（7月公演）",
+      "entryStartAt": "2026-06-06T10:00:00+09:00",
+      "entryEndAt": "2026-07-11T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_haneda_0712"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_trade_7_18",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "type": "公式チケットトレード（7月公演）",
+      "entryStartAt": "2026-06-11T12:00:00+09:00",
+      "entryEndAt": "2026-07-11T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_haneda_0712"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_fastestpreorder_5_7_19",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "type": "最速プレオーダー（5月・7月公演）",
+      "entryStartAt": "2026-03-27T18:00:00+09:00",
+      "entryEndAt": "2026-04-05T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_haneda_0526",
+        "frederic_umimoyasu_20262027_move_zepp_haneda_0712"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_fastestpreorder_10_20",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "type": "最速プレオーダー（10月公演）",
+      "entryStartAt": "2026-05-01T18:00:00+09:00",
+      "entryEndAt": "2026-05-10T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_haneda_1012"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_preorder_10_21",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "type": "プレオーダー（10月公演）",
+      "entryStartAt": "2026-05-15T18:00:00+09:00",
+      "entryEndAt": "2026-05-26T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_haneda_1012"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_preorder_10_06_12_22",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "type": "プレオーダー(10月公演：06/12-)",
+      "entryStartAt": "2026-06-12T12:00:00+09:00",
+      "entryEndAt": "2026-06-21T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_haneda_1012"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_preorder_10_06_26_23",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "type": "プレオーダー(10月公演：06/26-)",
+      "entryStartAt": "2026-06-26T18:00:00+09:00",
+      "entryEndAt": "2026-07-05T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_haneda_1012"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_youtubespecialpresale_10_24",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "type": "YouTube特別先行（10月公演）",
+      "entryStartAt": "2026-07-17T18:00:00+09:00",
+      "entryEndAt": "2026-07-26T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_haneda_1012"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

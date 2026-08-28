@@ -9,8 +9,8 @@
       "endDate": "2026-10-18T00:00:00+09:00",
       "prices": null,
       "source": "system",
-      "sourceUrl": "https://da-ice.jp/schedule/tour.php?id=1003011",
-      "lastVerifiedAt": "2026-07-22T10:07:01+09:00"
+      "sourceUrl": "https://da-ice.jp/schedule/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
     },
     {
       "id": "da_ice_dome_phase_2027",
@@ -881,6 +881,150 @@
       "source": "system",
       "sourceUrl": "https://a-nation.net/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "da_ice_dome_phase_2027_ai_fastest_3days",
+      "tourId": "da_ice_dome_phase_2027",
+      "type": "a-i最速先行（3days指定席）",
+      "entryStartAt": "2026-04-26T19:00:00+09:00",
+      "entryEndAt": "2026-05-07T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "da_ice_dome_phase_2027_tokyo_dome_0204",
+        "da_ice_dome_phase_2027_kyocera_0213",
+        "da_ice_dome_phase_2027_kyocera_0214"
+      ],
+      "source": "system",
+      "sourceUrl": "https://da-ice.jp/schedule/tour.php?id=1003011",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "da_ice_dome_phase_2027_ai_fastest_standard",
+      "tourId": "da_ice_dome_phase_2027",
+      "type": "a-i最速先行（一般/U-18/着席）",
+      "entryStartAt": "2026-04-26T19:00:00+09:00",
+      "entryEndAt": "2026-05-19T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "da_ice_dome_phase_2027_tokyo_dome_0204",
+        "da_ice_dome_phase_2027_kyocera_0213",
+        "da_ice_dome_phase_2027_kyocera_0214"
+      ],
+      "source": "system",
+      "sourceUrl": "https://da-ice.jp/schedule/tour.php?id=1003011",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "da_ice_dome_phase_2027_cube",
+      "tourId": "da_ice_dome_phase_2027",
+      "type": "Da-iCE CUBE先行",
+      "entryStartAt": "2026-05-20T15:00:00+09:00",
+      "entryEndAt": "2026-06-01T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "da_ice_dome_phase_2027_tokyo_dome_0204",
+        "da_ice_dome_phase_2027_kyocera_0213",
+        "da_ice_dome_phase_2027_kyocera_0214"
+      ],
+      "source": "system",
+      "sourceUrl": "https://da-ice.jp/schedule/tour.php?id=1003011",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "da_ice_dome_phase_2027_official",
+      "tourId": "da_ice_dome_phase_2027",
+      "type": "オフィシャル先行",
+      "entryStartAt": "2026-05-20T15:00:00+09:00",
+      "entryEndAt": "2026-06-01T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "da_ice_dome_phase_2027_tokyo_dome_0204",
+        "da_ice_dome_phase_2027_kyocera_0213",
+        "da_ice_dome_phase_2027_kyocera_0214"
+      ],
+      "source": "system",
+      "sourceUrl": "https://da-ice.jp/schedule/tour.php?id=1003011",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "da_ice_dome_phase_2027_playguide_3rd_mumo_lawson_pia",
+      "tourId": "da_ice_dome_phase_2027",
+      "type": "プレイガイド3次先行（mu-mo/ローチケ/ぴあ）",
+      "entryStartAt": "2026-07-23T18:00:00+09:00",
+      "entryEndAt": "2026-08-04T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "da_ice_dome_phase_2027_tokyo_dome_0204",
+        "da_ice_dome_phase_2027_kyocera_0213",
+        "da_ice_dome_phase_2027_kyocera_0214"
+      ],
+      "source": "system",
+      "sourceUrl": "https://da-ice.jp/schedule/tour.php?id=1003011",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "da_ice_dome_phase_2027_playguide_3rd_eplus",
+      "tourId": "da_ice_dome_phase_2027",
+      "type": "プレイガイド3次先行（イープラス）",
+      "entryStartAt": "2026-07-24T12:00:00+09:00",
+      "entryEndAt": "2026-08-04T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "da_ice_dome_phase_2027_tokyo_dome_0204",
+        "da_ice_dome_phase_2027_kyocera_0213",
+        "da_ice_dome_phase_2027_kyocera_0214"
+      ],
+      "source": "system",
+      "sourceUrl": "https://da-ice.jp/schedule/tour.php?id=1003011",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "da_ice_dome_phase_2027_lawson_special_firstcome",
+      "tourId": "da_ice_dome_phase_2027",
+      "type": "ローソンチケット特別先着受付",
+      "entryStartAt": "2026-08-06T18:00:00+09:00",
+      "entryEndAt": "2026-08-09T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "da_ice_dome_phase_2027_tokyo_dome_0204",
+        "da_ice_dome_phase_2027_kyocera_0213",
+        "da_ice_dome_phase_2027_kyocera_0214"
+      ],
+      "source": "system",
+      "sourceUrl": "https://da-ice.jp/schedule/tour.php?id=1003011",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "da_ice_dome_phase_2027_playguide_firstcome",
+      "tourId": "da_ice_dome_phase_2027",
+      "type": "プレイガイド先着受付",
+      "entryStartAt": "2026-08-12T18:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "da_ice_dome_phase_2027_tokyo_dome_0204",
+        "da_ice_dome_phase_2027_kyocera_0213",
+        "da_ice_dome_phase_2027_kyocera_0214"
+      ],
+      "source": "system",
+      "sourceUrl": "https://da-ice.jp/schedule/tour.php?id=1003011",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

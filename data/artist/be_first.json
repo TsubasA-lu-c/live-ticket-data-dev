@@ -313,7 +313,7 @@
     {
       "id": "be_first_dome_tour_2027_lawson_ticket",
       "tourId": "be_first_dome_tour_2027",
-      "type": "ローソンチケット先行",
+      "type": "ローソンチケット先行（注釈指定席のみ）",
       "entryStartAt": "2026-06-24T15:00:00+09:00",
       "entryEndAt": "2026-07-05T23:59:00+09:00",
       "resultAt": "2026-07-10T17:00:00+09:00",
@@ -329,7 +329,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://befirst.tokyo/tour/dometour2027/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

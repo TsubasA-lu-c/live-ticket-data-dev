@@ -264,7 +264,7 @@
       "id": "ini_5th_anniversary_dome_2026_fc_member",
       "tourId": "ini_5th_anniversary_dome_2026",
       "type": "FC会員先行",
-      "entryStartAt": "2026-05-18T00:00:00+09:00",
+      "entryStartAt": "2026-05-18T12:00:00+09:00",
       "entryEndAt": "2026-05-31T23:59:00+09:00",
       "resultAt": "2026-06-06T20:00:00+09:00",
       "paymentStartAt": "2026-06-06T20:00:00+09:00",
@@ -277,17 +277,17 @@
       ],
       "source": "system",
       "sourceUrl": "https://ini-official.com/feature/2026_dome_tour",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
     },
     {
       "id": "ini_5th_anniversary_dome_2026_commune",
       "tourId": "ini_5th_anniversary_dome_2026",
       "type": "INI COMMUNE先行",
-      "entryStartAt": "2026-06-01T00:00:00+09:00",
+      "entryStartAt": "2026-06-01T12:00:00+09:00",
       "entryEndAt": "2026-06-14T23:59:00+09:00",
       "resultAt": "2026-06-20T20:00:00+09:00",
-      "paymentStartAt": null,
-      "paymentEndAt": null,
+      "paymentStartAt": "2026-06-20T20:00:00+09:00",
+      "paymentEndAt": "2026-06-23T23:59:00+09:00",
       "performanceIds": [
         "ini_5th_anniversary_dome_2026_tokyo_0916",
         "ini_5th_anniversary_dome_2026_tokyo_0917",
@@ -296,16 +296,16 @@
       ],
       "source": "system",
       "sourceUrl": "https://ini-official.com/feature/2026_dome_tour",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
     },
     {
       "id": "ini_5th_anniversary_dome_2026_lenc_member",
       "tourId": "ini_5th_anniversary_dome_2026",
       "type": "ローソンチケット LEncore会員限定先行",
-      "entryStartAt": "2026-06-15T00:00:00+09:00",
+      "entryStartAt": "2026-06-15T12:00:00+09:00",
       "entryEndAt": "2026-06-23T23:59:00+09:00",
       "resultAt": "2026-06-27T20:00:00+09:00",
-      "paymentStartAt": null,
+      "paymentStartAt": "2026-06-27T20:00:00+09:00",
       "paymentEndAt": null,
       "performanceIds": [
         "ini_5th_anniversary_dome_2026_tokyo_0916",
@@ -315,17 +315,17 @@
       ],
       "source": "system",
       "sourceUrl": "https://ini-official.com/feature/2026_dome_tour",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
     },
     {
       "id": "ini_5th_anniversary_dome_2026_hvm_member",
       "tourId": "ini_5th_anniversary_dome_2026",
       "type": "ローソンチケット HMVプレミアム会員限定先行",
-      "entryStartAt": "2026-06-15T00:00:00+09:00",
+      "entryStartAt": "2026-06-15T12:00:00+09:00",
       "entryEndAt": "2026-06-23T23:59:00+09:00",
       "resultAt": "2026-06-27T20:00:00+09:00",
-      "paymentStartAt": null,
-      "paymentEndAt": null,
+      "paymentStartAt": "2026-06-27T20:00:00+09:00",
+      "paymentEndAt": "2026-06-30T23:59:00+09:00",
       "performanceIds": [
         "ini_5th_anniversary_dome_2026_tokyo_0916",
         "ini_5th_anniversary_dome_2026_tokyo_0917",
@@ -334,7 +334,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://ini-official.com/feature/2026_dome_tour",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
     },
     {
       "id": "ini_5th_anniversary_dome_2026_ltike_prerequest",
@@ -359,7 +359,7 @@
       "id": "ini_5th_anniversary_dome_2026_fc_annotated",
       "tourId": "ini_5th_anniversary_dome_2026",
       "type": "FC注釈付指定席先行",
-      "entryStartAt": "2026-07-07T00:00:00+09:00",
+      "entryStartAt": "2026-07-07T12:00:00+09:00",
       "entryEndAt": "2026-07-20T23:59:00+09:00",
       "resultAt": "2026-07-25T20:00:00+09:00",
       "paymentStartAt": "2026-07-25T20:00:00+09:00",
@@ -372,7 +372,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://ini-official.com/feature/2026_dome_tour",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
     },
     {
       "id": "ini_5th_anniversary_dome_2026_upgrade_seat",
@@ -382,7 +382,7 @@
       "entryEndAt": "2026-07-20T23:59:00+09:00",
       "resultAt": "2026-07-25T20:00:00+09:00",
       "paymentStartAt": "2026-07-25T20:00:00+09:00",
-      "paymentEndAt": "2026-07-25T23:59:00+09:00",
+      "paymentEndAt": null,
       "performanceIds": [
         "ini_5th_anniversary_dome_2026_tokyo_0916",
         "ini_5th_anniversary_dome_2026_tokyo_0917",
@@ -391,7 +391,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://ini-official.com/news/detail/4284",
-      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
     },
     {
       "id": "ini_5th_anniversary_dome_2026_ltike_prerequest_2",
