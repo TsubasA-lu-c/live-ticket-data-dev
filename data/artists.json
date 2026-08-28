@@ -2165,5 +2165,201 @@
       "textColor3": "2d343a",
       "textColor4": "43484d"
     }
+  },
+  {
+    "id": "bullet_train",
+    "name": "超特急",
+    "aliases": [
+      "BULLET TRAIN"
+    ],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://bullettrain.jp/",
+    "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+    "appleMusic": {
+      "artistId": "847400135",
+      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/29/d3/8c/29d38cee-627b-b9e9-6828-980b4f46a649/ami-identity-ef4f15fc6fb547e2bc28502cfa9fde43-2026-04-08T08-05-10.380Z_cropped.png/{w}x{h}{c}.{f}",
+      "bgColor": "050404",
+      "textColor1": "dce0ed",
+      "textColor2": "dfd9d8",
+      "textColor3": "b1b4be",
+      "textColor4": "b4afae"
+    }
+  },
+  {
+    "id": "illit",
+    "name": "ILLIT",
+    "aliases": [
+      "아일릿"
+    ],
+    "genre": "K-POP",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://illit-official.jp/",
+    "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+    "appleMusic": {
+      "artistId": "1734551937",
+      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/44/ad/68/44ad686e-c7ce-9f25-352c-234aad0bca77/ami-identity-9853bc1fbd8535d1ca08d437b0b31bd8-2026-07-08T09-02-18.989Z_cropped.png/{w}x{h}{c}.{f}",
+      "bgColor": "fcfcfd",
+      "textColor1": "050405",
+      "textColor2": "1c1a1e",
+      "textColor3": "373636",
+      "textColor4": "49474b"
+    }
+  },
+  {
+    "id": "one_n_only",
+    "name": "ONE N' ONLY",
+    "aliases": [],
+    "genre": "ダンス&ボーカル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://one-n-only.jp/",
+    "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+    "appleMusic": {
+      "artistId": "1442049224",
+      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/e2/62/83/e2628383-f57a-17c7-bebd-20a83115919b/ami-identity-d75ca23186b3d89f1c4b4fc0a722d8b3-2025-09-17T06-53-30.838Z_cropped.png/{w}x{h}{c}.{f}",
+      "bgColor": "161f18",
+      "textColor1": "deb2a8",
+      "textColor2": "db9980",
+      "textColor3": "b6948b",
+      "textColor4": "b3816b"
+    }
+  },
+  {
+    "id": "candy_tune",
+    "name": "CANDY TUNE",
+    "aliases": [],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://candytune.asobisystem.com/",
+    "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+    "appleMusic": {
+      "artistId": "1671095780",
+      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/1e/af/d8/1eafd8f2-6e3f-7630-cecf-f61966fc057c/ami-identity-e7f42cf2743764187e2a06467ec9694e-2026-03-17T09-42-28.280Z_cropped.png/{w}x{h}{c}.{f}",
+      "bgColor": "c1d9e0",
+      "textColor1": "1f282d",
+      "textColor2": "2b2f33",
+      "textColor3": "3f4b51",
+      "textColor4": "495155"
+    }
+  },
+  {
+    "id": "boynextdoor",
+    "name": "BOYNEXTDOOR",
+    "aliases": [],
+    "genre": "K-POP",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://boynextdoor-official.jp/",
+    "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+    "appleMusic": {
+      "artistId": "1687612559",
+      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/4b/71/d9/4b71d9e2-6a89-01d8-7a3a-1f2f96e057e1/ami-identity-27af73f4eed421c505e1bad9bb8699b8-2026-08-11T01-07-21.071Z_cropped.png/{w}x{h}{c}.{f}",
+      "bgColor": "171d19",
+      "textColor1": "d7cfb9",
+      "textColor2": "d6c198",
+      "textColor3": "b0ab99",
+      "textColor4": "b0a07e"
+    }
+  },
+  {
+    "id": "saucy_dog",
+    "name": "Saucy Dog",
+    "aliases": [],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://saucydog.jp/",
+    "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+    "appleMusic": {
+      "artistId": "1229933633",
+      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/99/97/87/99978702-8113-b7c3-8782-53c0777bb7d5/mzl.kwnnykef.jpg/{w}x{h}{c}.{f}",
+      "bgColor": "e8c219",
+      "textColor1": "000001",
+      "textColor2": "342c09",
+      "textColor3": "2e2706",
+      "textColor4": "584a0d"
+    }
+  },
+  {
+    "id": "ateez",
+    "name": "ATEEZ",
+    "aliases": [],
+    "genre": "K-POP",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://ateez-official.jp/",
+    "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+    "appleMusic": {
+      "artistId": "1439301205",
+      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/2a/58/c0/2a58c0ae-b68e-0283-d7eb-d37c81fb7db5/mzl.iffhtemu.jpg/{w}x{h}{c}.{f}",
+      "bgColor": "d2ccd3",
+      "textColor1": "0c080c",
+      "textColor2": "2d3136",
+      "textColor3": "333033",
+      "textColor4": "4e5055"
+    }
+  },
+  {
+    "id": "niziu",
+    "name": "NiziU",
+    "aliases": [],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://niziu.com/s/n123/",
+    "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+    "appleMusic": {
+      "artistId": "1519410581",
+      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/74/3f/05/743f05a9-2693-4f93-fec5-5eebae4b9546/mzl.slmutwfd.jpg/{w}x{h}{c}.{f}",
+      "bgColor": "fefef4",
+      "textColor1": "0d0d0d",
+      "textColor2": "343332",
+      "textColor3": "3d3d3b",
+      "textColor4": "5c5c59"
+    }
+  },
+  {
+    "id": "xg",
+    "name": "XG",
+    "aliases": [],
+    "genre": "ダンス&ボーカル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://xgalx.com/xg/",
+    "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+    "appleMusic": {
+      "artistId": "1609409493",
+      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/ba/90/59/ba9059ce-ae6d-ec6f-85b6-5cde6c33adc0/ami-identity-211bb38ddbf5f26c55235f4c4086b347-2026-08-24T11-10-31.986Z_cropped.png/{w}x{h}{c}.{f}",
+      "bgColor": "b7bcb5",
+      "textColor1": "16161a",
+      "textColor2": "231d1a",
+      "textColor3": "363739",
+      "textColor4": "413d39"
+    }
+  },
+  {
+    "id": "nakajima_kento",
+    "name": "中島健人",
+    "aliases": [
+      "Kento Nakajima"
+    ],
+    "genre": "ソロ",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/",
+    "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+    "appleMusic": {
+      "artistId": "1774548481",
+      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/36/35/a6/3635a6d5-159f-40ff-dc4b-fcc3f8f5ddca/mzl.qmemlljh.jpg/{w}x{h}{c}.{f}",
+      "bgColor": "d5e7f8",
+      "textColor1": "050c12",
+      "textColor2": "1f2e3a",
+      "textColor3": "2f3740",
+      "textColor4": "445360"
+    }
   }
 ]

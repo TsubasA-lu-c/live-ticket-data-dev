@@ -1,0 +1,1531 @@
+{
+  "artistId": "xg",
+  "tours": [
+    {
+      "id": "xg_world_tour_the_core_2026",
+      "artistId": "xg",
+      "title": "XG WORLD TOUR: THE CORE",
+      "startDate": "2026-02-06T00:00:00+09:00",
+      "endDate": "2026-11-22T00:00:00-06:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_final_2027",
+      "artistId": "xg",
+      "title": "XG WORLD TOUR: THE CORE FINAL \"1\" & \"7\"",
+      "startDate": "2027-02-10T00:00:00+09:00",
+      "endDate": "2027-02-28T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "早期先行限定2DAYSチケット",
+          "amount": 32000
+        },
+        {
+          "label": "一般指定席",
+          "amount": 16000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/xg/news/detail.php?id=1135211",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "xg_head_in_the_clouds_la_2026",
+      "artistId": "xg",
+      "title": "Head in the Clouds Music & Arts Festival",
+      "startDate": "2026-08-08T00:00:00+09:00",
+      "endDate": "2026-08-08T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/schedule/detail.php?id=1116012",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "xg_rock_in_japan_festival_2026",
+      "artistId": "xg",
+      "title": "ROCK IN JAPAN FESTIVAL 2026",
+      "startDate": "2026-09-12T00:00:00+09:00",
+      "endDate": "2026-09-12T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/schedule/detail.php?id=1117307",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "xg_world_tour_the_core_2026_yokohama_0206",
+      "tourId": "xg_world_tour_the_core_2026",
+      "venue": "K-Arena Yokohama",
+      "performanceAt": null,
+      "performanceDate": "2026-02-06",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_2026_yokohama_0207",
+      "tourId": "xg_world_tour_the_core_2026",
+      "venue": "K-Arena Yokohama",
+      "performanceAt": null,
+      "performanceDate": "2026-02-07",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_2026_yokohama_0208",
+      "tourId": "xg_world_tour_the_core_2026",
+      "venue": "K-Arena Yokohama",
+      "performanceAt": null,
+      "performanceDate": "2026-02-08",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_2026_osaka_0217",
+      "tourId": "xg_world_tour_the_core_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": null,
+      "performanceDate": "2026-02-17",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_2026_osaka_0218",
+      "tourId": "xg_world_tour_the_core_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": null,
+      "performanceDate": "2026-02-18",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_2026_nagoya_0221",
+      "tourId": "xg_world_tour_the_core_2026",
+      "venue": "IG Arena",
+      "performanceAt": null,
+      "performanceDate": "2026-02-21",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_2026_nagoya_0222",
+      "tourId": "xg_world_tour_the_core_2026",
+      "venue": "IG Arena",
+      "performanceAt": null,
+      "performanceDate": "2026-02-22",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_2026_fukui_0314",
+      "tourId": "xg_world_tour_the_core_2026",
+      "venue": "サンドーム福井",
+      "performanceAt": null,
+      "performanceDate": "2026-03-14",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_2026_sendai_0320",
+      "tourId": "xg_world_tour_the_core_2026",
+      "venue": "宮城・セキスイハイムスーパーアリーナ",
+      "performanceAt": null,
+      "performanceDate": "2026-03-20",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_2026_kobe_0325",
+      "tourId": "xg_world_tour_the_core_2026",
+      "venue": "GLION ARENA KOBE",
+      "performanceAt": null,
+      "performanceDate": "2026-03-25",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_2026_kobe_0326",
+      "tourId": "xg_world_tour_the_core_2026",
+      "venue": "GLION ARENA KOBE",
+      "performanceAt": null,
+      "performanceDate": "2026-03-26",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_2026_fukuoka_0404",
+      "tourId": "xg_world_tour_the_core_2026",
+      "venue": "北九州メッセ",
+      "performanceAt": null,
+      "performanceDate": "2026-04-04",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_2026_fukuoka_0405",
+      "tourId": "xg_world_tour_the_core_2026",
+      "venue": "北九州メッセ",
+      "performanceAt": null,
+      "performanceDate": "2026-04-05",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_2026_tokyo_0410",
+      "tourId": "xg_world_tour_the_core_2026",
+      "venue": "国立代々木競技場 第一体育館",
+      "performanceAt": null,
+      "performanceDate": "2026-04-10",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_2026_tokyo_0411",
+      "tourId": "xg_world_tour_the_core_2026",
+      "venue": "国立代々木競技場 第一体育館",
+      "performanceAt": null,
+      "performanceDate": "2026-04-11",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_2026_tokyo_0412",
+      "tourId": "xg_world_tour_the_core_2026",
+      "venue": "国立代々木競技場 第一体育館",
+      "performanceAt": null,
+      "performanceDate": "2026-04-12",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_2026_bangkok_0719",
+      "tourId": "xg_world_tour_the_core_2026",
+      "venue": "IMPACT Arena",
+      "performanceAt": null,
+      "performanceDate": "2026-07-19",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_2026_manila_0722",
+      "tourId": "xg_world_tour_the_core_2026",
+      "venue": "SM Mall of Asia Arena",
+      "performanceAt": null,
+      "performanceDate": "2026-07-22",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_2026_hong_kong_0802",
+      "tourId": "xg_world_tour_the_core_2026",
+      "venue": "AsiaWorld-Expo Hall 10",
+      "performanceAt": null,
+      "performanceDate": "2026-08-02",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_2026_london_0902",
+      "tourId": "xg_world_tour_the_core_2026",
+      "venue": "OVO Arena Wembley",
+      "performanceAt": null,
+      "performanceDate": "2026-09-02",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_2026_paris_0905",
+      "tourId": "xg_world_tour_the_core_2026",
+      "venue": "adidas arena",
+      "performanceAt": null,
+      "performanceDate": "2026-09-05",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_2026_melbourne_1012",
+      "tourId": "xg_world_tour_the_core_2026",
+      "venue": "Rod Laver Arena",
+      "performanceAt": null,
+      "performanceDate": "2026-10-12",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_2026_sydney_1014",
+      "tourId": "xg_world_tour_the_core_2026",
+      "venue": "Qudos Bank Arena",
+      "performanceAt": null,
+      "performanceDate": "2026-10-14",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_2026_taipei_1017",
+      "tourId": "xg_world_tour_the_core_2026",
+      "venue": "Taipei Arena",
+      "performanceAt": null,
+      "performanceDate": "2026-10-17",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_2026_oakland_1103",
+      "tourId": "xg_world_tour_the_core_2026",
+      "venue": "Oakland Arena",
+      "performanceAt": null,
+      "performanceDate": "2026-11-03",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_2026_los_angeles_1105",
+      "tourId": "xg_world_tour_the_core_2026",
+      "venue": "Crypto.com ARENA",
+      "performanceAt": null,
+      "performanceDate": "2026-11-05",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_2026_chicago_1109",
+      "tourId": "xg_world_tour_the_core_2026",
+      "venue": "UNITED CENTER",
+      "performanceAt": null,
+      "performanceDate": "2026-11-09",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_2026_hamilton_1112",
+      "tourId": "xg_world_tour_the_core_2026",
+      "venue": "TD Coliseum",
+      "performanceAt": null,
+      "performanceDate": "2026-11-12",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_2026_newark_1114",
+      "tourId": "xg_world_tour_the_core_2026",
+      "venue": "Prudential Center",
+      "performanceAt": null,
+      "performanceDate": "2026-11-14",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_2026_dallas_1117",
+      "tourId": "xg_world_tour_the_core_2026",
+      "venue": "American Airlines Center",
+      "performanceAt": null,
+      "performanceDate": "2026-11-17",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_2026_mexico_city_1122",
+      "tourId": "xg_world_tour_the_core_2026",
+      "venue": "Arena Ciudad De Mexico",
+      "performanceAt": null,
+      "performanceDate": "2026-11-22",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_final_2027_tokyo_0210",
+      "tourId": "xg_world_tour_the_core_final_2027",
+      "venue": "東京ドーム",
+      "performanceAt": "2027-02-10T18:30:00+09:00",
+      "doorOpenAt": "2027-02-10T16:30:00+09:00",
+      "sourceUrl": "https://xgalx.com/xg/news/detail.php?id=1135211",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_final_2027_tokyo_0211",
+      "tourId": "xg_world_tour_the_core_final_2027",
+      "venue": "東京ドーム",
+      "performanceAt": "2027-02-11T17:00:00+09:00",
+      "doorOpenAt": "2027-02-11T15:00:00+09:00",
+      "sourceUrl": "https://xgalx.com/xg/news/detail.php?id=1135211",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_final_2027_osaka_0227",
+      "tourId": "xg_world_tour_the_core_final_2027",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2027-02-27T17:00:00+09:00",
+      "doorOpenAt": "2027-02-27T15:00:00+09:00",
+      "sourceUrl": "https://xgalx.com/xg/news/detail.php?id=1135211",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_final_2027_osaka_0228",
+      "tourId": "xg_world_tour_the_core_final_2027",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2027-02-28T17:00:00+09:00",
+      "doorOpenAt": "2027-02-28T15:00:00+09:00",
+      "sourceUrl": "https://xgalx.com/xg/news/detail.php?id=1135211",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "xg_head_in_the_clouds_la_2026_20260808",
+      "tourId": "xg_head_in_the_clouds_la_2026",
+      "venue": "Brookside at the Rose Bowl, Pasadena, CA",
+      "performanceAt": null,
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "Head in the Clouds Music & Arts Festival",
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/schedule/detail.php?id=1116012",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00",
+      "performanceDate": "2026-08-08"
+    },
+    {
+      "id": "xg_rock_in_japan_festival_2026_20260912",
+      "tourId": "xg_rock_in_japan_festival_2026",
+      "venue": "千葉市蘇我スポーツ公園",
+      "performanceAt": null,
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "ROCK IN JAPAN FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/schedule/detail.php?id=1117307",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00",
+      "performanceDate": "2026-09-12"
+    }
+  ],
+  "lotteries": [
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_bangkok_1",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Bangkok ALPHAZ Pre-Sale（Paid）",
+      "entryStartAt": "2026-05-06T10:00:00+07:00",
+      "entryEndAt": "2026-05-06T23:59:00+07:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_bangkok_0719"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_bangkok_2",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Bangkok ALPHAZ Pre-Sale（Paid + Non-paid）",
+      "entryStartAt": "2026-05-07T10:00:00+07:00",
+      "entryEndAt": "2026-05-07T23:59:00+07:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_bangkok_0719"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_bangkok_3",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Bangkok General On Sale（先着）",
+      "entryStartAt": "2026-05-08T10:00:00+07:00",
+      "entryEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_bangkok_0719"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_manila_4",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Manila ALPHAZ Pre-Sale（Paid）",
+      "entryStartAt": "2026-04-28T10:00:00+08:00",
+      "entryEndAt": "2026-04-28T23:59:00+08:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_manila_0722"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_manila_5",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Manila ALPHAZ Pre-Sale（Paid + Non-paid）",
+      "entryStartAt": "2026-04-29T10:00:00+08:00",
+      "entryEndAt": "2026-04-29T23:59:00+08:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_manila_0722"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_manila_6",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Manila General On Sale（先着）",
+      "entryStartAt": "2026-04-30T12:00:00+08:00",
+      "entryEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_manila_0722"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_hongkong_7",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Hong Kong ALPHAZ Pre-Sale（Paid）",
+      "entryStartAt": "2026-05-13T12:00:00+08:00",
+      "entryEndAt": "2026-05-13T23:59:00+08:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_hong_kong_0802"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_hongkong_8",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Hong Kong General On Sale（先着）",
+      "entryStartAt": "2026-05-14T12:00:00+08:00",
+      "entryEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_hong_kong_0802"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_taipei_9",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Taipei ALPHAZ Pre-Sale（Paid）",
+      "entryStartAt": "2026-04-28T10:00:00+08:00",
+      "entryEndAt": "2026-04-28T23:59:00+08:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_taipei_1017"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_taipei_10",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Taipei ALPHAZ Pre-Sale（Paid + Non-paid）",
+      "entryStartAt": "2026-04-29T10:00:00+08:00",
+      "entryEndAt": "2026-04-29T23:59:00+08:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_taipei_1017"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_taipei_11",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Taipei General On Sale（先着）",
+      "entryStartAt": "2026-04-30T12:00:00+08:00",
+      "entryEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_taipei_1017"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_melbourne_12",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Melbourne ALPHAZ Pre-Sale（Paid）",
+      "entryStartAt": "2026-05-04T11:00:00+10:00",
+      "entryEndAt": "2026-05-04T23:59:00+10:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_melbourne_1012"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_melbourne_13",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Melbourne ALPHAZ Pre-Sale（Paid + Non-paid）",
+      "entryStartAt": "2026-05-05T11:00:00+10:00",
+      "entryEndAt": "2026-05-05T23:59:00+10:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_melbourne_1012"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_melbourne_14",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Melbourne Frontier Pre-Sale",
+      "entryStartAt": "2026-05-06T12:00:00+10:00",
+      "entryEndAt": "2026-05-07T12:00:00+10:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_melbourne_1012"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_melbourne_15",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Melbourne General On Sale（先着）",
+      "entryStartAt": "2026-05-07T13:00:00+10:00",
+      "entryEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_melbourne_1012"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_sydney_16",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Sydney ALPHAZ Pre-Sale（Paid）",
+      "entryStartAt": "2026-05-04T11:00:00+10:00",
+      "entryEndAt": "2026-05-04T23:59:00+10:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_sydney_1014"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_sydney_17",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Sydney ALPHAZ Pre-Sale（Paid + Non-paid）",
+      "entryStartAt": "2026-05-05T11:00:00+10:00",
+      "entryEndAt": "2026-05-05T23:59:00+10:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_sydney_1014"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_sydney_18",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Sydney Frontier Pre-Sale",
+      "entryStartAt": "2026-05-06T12:00:00+10:00",
+      "entryEndAt": "2026-05-07T12:00:00+10:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_sydney_1014"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_sydney_19",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Sydney General On Sale（先着）",
+      "entryStartAt": "2026-05-07T13:00:00+10:00",
+      "entryEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_sydney_1014"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_london_20",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "London ALPHAZ Pre-Sale（Paid）",
+      "entryStartAt": "2026-06-10T10:00:00+01:00",
+      "entryEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_london_0902"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_london_21",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "London ALPHAZ Pre-Sale（Paid + Non-paid）",
+      "entryStartAt": "2026-06-11T10:00:00+01:00",
+      "entryEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_london_0902"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_london_22",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "London Contractual Venue Presale",
+      "entryStartAt": "2026-06-11T10:00:00+01:00",
+      "entryEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_london_0902"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_london_23",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "London Local Presales",
+      "entryStartAt": "2026-06-11T10:00:00+01:00",
+      "entryEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_london_0902"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_london_24",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "London Public Onsale（先着）",
+      "entryStartAt": "2026-06-12T10:00:00+01:00",
+      "entryEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_london_0902"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_paris_25",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Paris ALPHAZ Pre-Sale（Paid）",
+      "entryStartAt": "2026-06-10T10:00:00+02:00",
+      "entryEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_paris_0905"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_paris_26",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Paris Contractual Venue Presale",
+      "entryStartAt": "2026-06-10T10:00:00+02:00",
+      "entryEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_paris_0905"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_paris_27",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Paris ALPHAZ Pre-Sale（Paid + Non-paid）",
+      "entryStartAt": "2026-06-11T10:00:00+02:00",
+      "entryEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_paris_0905"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_paris_28",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Paris Local Presales",
+      "entryStartAt": "2026-06-11T10:00:00+02:00",
+      "entryEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_paris_0905"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_paris_29",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Paris Public Onsale（先着）",
+      "entryStartAt": "2026-06-12T10:00:00+02:00",
+      "entryEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_paris_0905"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_oakland_30",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Oakland ALPHAZ Pre-Sale（Paid）",
+      "entryStartAt": "2026-05-27T10:00:00-07:00",
+      "entryEndAt": "2026-05-28T22:00:00-07:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_oakland_1103"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_oakland_31",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Oakland AEG Presale",
+      "entryStartAt": "2026-05-28T10:00:00-07:00",
+      "entryEndAt": "2026-05-28T22:00:00-07:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_oakland_1103"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_oakland_32",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Oakland Venue / Local Presales",
+      "entryStartAt": "2026-05-28T10:00:00-07:00",
+      "entryEndAt": "2026-05-28T22:00:00-07:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_oakland_1103"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_oakland_33",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Oakland General On Sale（先着）",
+      "entryStartAt": "2026-05-29T10:00:00-07:00",
+      "entryEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_oakland_1103"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_los_angeles_34",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Los Angeles ALPHAZ Pre-Sale（Paid）",
+      "entryStartAt": "2026-05-27T10:00:00-07:00",
+      "entryEndAt": "2026-05-28T22:00:00-07:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_los_angeles_1105"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_los_angeles_35",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Los Angeles AEG Presale",
+      "entryStartAt": "2026-05-28T10:00:00-07:00",
+      "entryEndAt": "2026-05-28T22:00:00-07:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_los_angeles_1105"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_los_angeles_36",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Los Angeles Venue / Local Presales",
+      "entryStartAt": "2026-05-28T10:00:00-07:00",
+      "entryEndAt": "2026-05-28T22:00:00-07:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_los_angeles_1105"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_los_angeles_37",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Los Angeles General On Sale（先着）",
+      "entryStartAt": "2026-05-29T10:00:00-07:00",
+      "entryEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_los_angeles_1105"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_chicago_38",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Chicago ALPHAZ Pre-Sale（Paid）",
+      "entryStartAt": "2026-05-27T10:00:00-05:00",
+      "entryEndAt": "2026-05-28T22:00:00-05:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_chicago_1109"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_chicago_39",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Chicago AEG Presale",
+      "entryStartAt": "2026-05-28T10:00:00-05:00",
+      "entryEndAt": "2026-05-28T22:00:00-05:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_chicago_1109"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_chicago_40",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Chicago Venue / Local Presales",
+      "entryStartAt": "2026-05-28T10:00:00-05:00",
+      "entryEndAt": "2026-05-28T22:00:00-05:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_chicago_1109"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_chicago_41",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Chicago General On Sale（先着）",
+      "entryStartAt": "2026-05-29T10:00:00-05:00",
+      "entryEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_chicago_1109"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_hamilton_42",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Hamilton ALPHAZ Pre-Sale（Paid）",
+      "entryStartAt": "2026-05-27T10:00:00-04:00",
+      "entryEndAt": "2026-05-28T22:00:00-04:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_hamilton_1112"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_hamilton_43",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Hamilton AEG Presale",
+      "entryStartAt": "2026-05-28T10:00:00-04:00",
+      "entryEndAt": "2026-05-28T22:00:00-04:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_hamilton_1112"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_hamilton_44",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Hamilton Venue / Local Presales",
+      "entryStartAt": "2026-05-28T10:00:00-04:00",
+      "entryEndAt": "2026-05-28T22:00:00-04:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_hamilton_1112"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_hamilton_45",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Hamilton General On Sale（先着）",
+      "entryStartAt": "2026-05-29T10:00:00-04:00",
+      "entryEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_hamilton_1112"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_newark_46",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Newark ALPHAZ Pre-Sale（Paid）",
+      "entryStartAt": "2026-05-27T10:00:00-04:00",
+      "entryEndAt": "2026-05-28T22:00:00-04:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_newark_1114"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_newark_47",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Newark AEG Presale",
+      "entryStartAt": "2026-05-28T10:00:00-04:00",
+      "entryEndAt": "2026-05-28T22:00:00-04:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_newark_1114"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_newark_48",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Newark Venue / Local Presales",
+      "entryStartAt": "2026-05-28T10:00:00-04:00",
+      "entryEndAt": "2026-05-28T22:00:00-04:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_newark_1114"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_newark_49",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Newark General On Sale（先着）",
+      "entryStartAt": "2026-05-29T10:00:00-04:00",
+      "entryEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_newark_1114"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_dallas_50",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Dallas ALPHAZ Pre-Sale（Paid）",
+      "entryStartAt": "2026-05-27T10:00:00-05:00",
+      "entryEndAt": "2026-05-28T22:00:00-05:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_dallas_1117"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_dallas_51",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Dallas AEG Presale",
+      "entryStartAt": "2026-05-28T10:00:00-05:00",
+      "entryEndAt": "2026-05-28T22:00:00-05:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_dallas_1117"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_dallas_52",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Dallas Venue / Local Presales",
+      "entryStartAt": "2026-05-28T10:00:00-05:00",
+      "entryEndAt": "2026-05-28T22:00:00-05:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_dallas_1117"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_dallas_53",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Dallas General On Sale（先着）",
+      "entryStartAt": "2026-05-29T10:00:00-05:00",
+      "entryEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_dallas_1117"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_mexico_54",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Mexico City ALPHAZ Pre-Sale（Paid）",
+      "entryStartAt": "2026-05-27T10:00:00-06:00",
+      "entryEndAt": "2026-05-28T22:00:00-06:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_mexico_city_1122"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_mexico_55",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Mexico City AEG Presale",
+      "entryStartAt": "2026-05-28T10:00:00-06:00",
+      "entryEndAt": "2026-05-28T22:00:00-06:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_mexico_city_1122"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_mexico_56",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Mexico City Venue / Local Presales",
+      "entryStartAt": "2026-05-28T10:00:00-06:00",
+      "entryEndAt": "2026-05-28T22:00:00-06:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_mexico_city_1122"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_2026_mexico_57",
+      "tourId": "xg_world_tour_the_core_2026",
+      "type": "Mexico City General On Sale（先着）",
+      "entryStartAt": "2026-05-29T10:00:00-06:00",
+      "entryEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_2026_mexico_city_1122"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/xg/news/detail.php?id=1135211",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_final_2027_annual_fastest",
+      "tourId": "xg_world_tour_the_core_final_2027",
+      "type": "ALPHAZ ANNUAL PREMIUM/STANDARD会員 最速先行（抽選）",
+      "entryStartAt": "2026-08-07T15:00:00+09:00",
+      "entryEndAt": "2026-08-17T23:59:00+09:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_final_2027_tokyo_0210",
+        "xg_world_tour_the_core_final_2027_tokyo_0211",
+        "xg_world_tour_the_core_final_2027_osaka_0227",
+        "xg_world_tour_the_core_final_2027_osaka_0228"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/xg/news/detail.php?id=1135444",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_final_2027_paid_members",
+      "tourId": "xg_world_tour_the_core_final_2027",
+      "type": "ALPHAZ 全有料会員先行（抽選）",
+      "entryStartAt": "2026-08-18T15:00:00+09:00",
+      "entryEndAt": "2026-08-26T23:59:00+09:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_final_2027_tokyo_0210",
+        "xg_world_tour_the_core_final_2027_tokyo_0211",
+        "xg_world_tour_the_core_final_2027_osaka_0227",
+        "xg_world_tour_the_core_final_2027_osaka_0228"
+      ]
+    },
+    {
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/xg/news/detail.php?id=1135628",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "id": "xg_world_tour_the_core_final_2027_all_members",
+      "tourId": "xg_world_tour_the_core_final_2027",
+      "type": "ALPHAZ 全会員（無料会員含む）先行（抽選）",
+      "entryStartAt": "2026-08-27T15:00:00+09:00",
+      "entryEndAt": "2026-09-06T23:59:00+09:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_final_2027_tokyo_0210",
+        "xg_world_tour_the_core_final_2027_tokyo_0211",
+        "xg_world_tour_the_core_final_2027_osaka_0227",
+        "xg_world_tour_the_core_final_2027_osaka_0228"
+      ]
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1775445637",
+      "title": "IS THIS LOVE",
+      "albumTitle": "AWE",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b1/af/71/b1af71ea-e159-1e11-1a18-3cfe30f3ec4b/mzaf_2917712529769960700.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ae/69/ce/ae69ce7b-6007-c83a-f692-93ebfca55449/ANTCD-A0000014930.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1860565732",
+      "title": "HYPNOTIZE",
+      "albumTitle": "THE CORE - 核",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ec/1d/8d/ec1d8d38-8269-de32-fae1-4a9868b83b74/mzaf_12356886543450930468.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e9/98/5e/e9985e9d-034d-d97f-365d-f3a4887c0afa/ANTCD-A0000018810.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1757581944",
+      "title": "SOMETHING AIN'T RIGHT",
+      "albumTitle": "SOMETHING AIN'T RIGHT - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5f/13/c5/5f13c5ae-73b4-b151-3f6f-fea66479af17/mzaf_13126705590429358191.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/82/ea/7582eab4-bc79-a418-3909-457d34779d91/ANTCD-A0000014081.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

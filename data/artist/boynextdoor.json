@@ -1,0 +1,643 @@
+{
+  "artistId": "boynextdoor",
+  "tours": [
+    {
+      "id": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan",
+      "artistId": "boynextdoor",
+      "title": "BOYNEXTDOOR TOUR 'KNOCK ON Vol.2' IN JAPAN",
+      "startDate": "2026-08-21T00:00:00+09:00",
+      "endDate": "2026-10-11T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 16000,
+          "currency": "JPY"
+        },
+        {
+          "label": "プレミアムシート",
+          "amount": 27000,
+          "currency": "JPY",
+          "note": "指定席16,000円＋アップグレード11,000円"
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://boynextdoor-official.jp/News/eca648b741ad",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "boynextdoor_kstyle_party_2026",
+      "artistId": "boynextdoor",
+      "title": "Kstyle PARTY 2026",
+      "startDate": "2026-05-09T00:00:00+09:00",
+      "endDate": "2026-05-09T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1日券",
+          "amount": 16000
+        },
+        {
+          "label": "ブラインドチケット",
+          "amount": 14000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://kstyle.com/ad/kstyleparty2026/ticket",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "boynextdoor_weverse_con_festival_2026",
+      "artistId": "boynextdoor",
+      "title": "2026 Weverse Con Festival",
+      "startDate": "2026-06-06T00:00:00+09:00",
+      "endDate": "2026-06-06T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://boynextdoor-official.jp/schedule/bb861f5a9aae",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260821_1",
+      "tourId": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan",
+      "venue": "K-Arena横浜",
+      "performanceAt": "2026-08-21T18:00:00+09:00",
+      "doorOpenAt": "2026-08-21T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://boynextdoor-official.jp/News/eca648b741ad",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260822_2",
+      "tourId": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan",
+      "venue": "K-Arena横浜",
+      "performanceAt": "2026-08-22T17:00:00+09:00",
+      "doorOpenAt": "2026-08-22T15:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://boynextdoor-official.jp/News/eca648b741ad",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260823_3",
+      "tourId": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan",
+      "venue": "K-Arena横浜",
+      "performanceAt": "2026-08-23T17:00:00+09:00",
+      "doorOpenAt": "2026-08-23T15:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://boynextdoor-official.jp/News/eca648b741ad",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260829_4",
+      "tourId": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan",
+      "venue": "SAGAアリーナ",
+      "performanceAt": "2026-08-29T17:00:00+09:00",
+      "doorOpenAt": "2026-08-29T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://boynextdoor-official.jp/News/eca648b741ad",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260830_5",
+      "tourId": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan",
+      "venue": "SAGAアリーナ",
+      "performanceAt": "2026-08-30T16:00:00+09:00",
+      "doorOpenAt": "2026-08-30T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://boynextdoor-official.jp/News/eca648b741ad",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260909_6",
+      "tourId": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-09-09T18:00:00+09:00",
+      "doorOpenAt": "2026-09-09T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://boynextdoor-official.jp/News/eca648b741ad",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260910_7",
+      "tourId": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-09-10T18:00:00+09:00",
+      "doorOpenAt": "2026-09-10T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://boynextdoor-official.jp/News/eca648b741ad",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260919_8",
+      "tourId": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan",
+      "venue": "宮城セキスイハイムスーパーアリーナ",
+      "performanceAt": "2026-09-19T17:00:00+09:00",
+      "doorOpenAt": "2026-09-19T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://boynextdoor-official.jp/News/eca648b741ad",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260920_9",
+      "tourId": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan",
+      "venue": "宮城セキスイハイムスーパーアリーナ",
+      "performanceAt": "2026-09-20T16:00:00+09:00",
+      "doorOpenAt": "2026-09-20T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://boynextdoor-official.jp/News/eca648b741ad",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260925_10",
+      "tourId": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan",
+      "venue": "長野ビッグハット",
+      "performanceAt": "2026-09-25T18:00:00+09:00",
+      "doorOpenAt": "2026-09-25T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://boynextdoor-official.jp/News/eca648b741ad",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260926_11",
+      "tourId": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan",
+      "venue": "長野ビッグハット",
+      "performanceAt": "2026-09-26T16:00:00+09:00",
+      "doorOpenAt": "2026-09-26T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://boynextdoor-official.jp/News/eca648b741ad",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20261010_12",
+      "tourId": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan",
+      "venue": "LaLa arena TOKYO-BAY",
+      "performanceAt": "2026-10-10T17:00:00+09:00",
+      "doorOpenAt": "2026-10-10T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://boynextdoor-official.jp/News/eca648b741ad",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20261011_13",
+      "tourId": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan",
+      "venue": "LaLa arena TOKYO-BAY",
+      "performanceAt": "2026-10-11T15:00:00+09:00",
+      "doorOpenAt": "2026-10-11T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://boynextdoor-official.jp/News/eca648b741ad",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "boynextdoor_kstyle_party_2026_20260509",
+      "tourId": "boynextdoor_kstyle_party_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-05-09T17:30:00+09:00",
+      "doorOpenAt": "2026-05-09T16:00:00+09:00",
+      "kind": "fes",
+      "eventName": "Kstyle PARTY 2026",
+      "source": "system",
+      "sourceUrl": "https://kstyle.com/ad/kstyleparty2026/ticket",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "boynextdoor_weverse_con_festival_2026_20260606",
+      "tourId": "boynextdoor_weverse_con_festival_2026",
+      "venue": "KSPO DOME",
+      "performanceAt": null,
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "2026 Weverse Con Festival",
+      "source": "system",
+      "sourceUrl": "https://boynextdoor-official.jp/schedule/bb861f5a9aae",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00",
+      "performanceDate": "2026-06-06"
+    }
+  ],
+  "lotteries": [
+    {
+      "type": "ONEDOOR Membership (JP)会員先行（抽選）",
+      "entryStartAt": "2026-05-15T14:00:00+09:00",
+      "entryEndAt": "2026-05-20T23:59:00+09:00",
+      "resultAt": "2026-05-29T11:00:00+09:00",
+      "paymentEndAt": "2026-05-31T23:00:00+09:00",
+      "sourceUrl": "https://boynextdoor-official.jp/News/eca648b741ad",
+      "id": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_onedoor_membership_jp_2026_05_15t14_00_00_09_00_2026_05_",
+      "tourId": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan",
+      "paymentStartAt": null,
+      "performanceIds": [
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260821_1",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260822_2",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260823_3",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260829_4",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260830_5",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260909_6",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260910_7",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260919_8",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260920_9",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260925_10",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260926_11",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20261010_12",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20261011_13"
+      ],
+      "source": "system",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "type": "ONEDOOR Membership (JP)会員2次先行（抽選）",
+      "entryStartAt": "2026-06-10T13:00:00+09:00",
+      "entryEndAt": "2026-06-17T23:59:00+09:00",
+      "resultAt": "2026-06-26T18:00:00+09:00",
+      "paymentEndAt": null,
+      "sourceUrl": "https://boynextdoor-official.jp/news/ae81a1023cd3",
+      "id": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_onedoor_membership_jp_2_2026_06_10t13_00_00_09_00_2026_0",
+      "tourId": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan",
+      "paymentStartAt": null,
+      "performanceIds": [
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260821_1",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260822_2",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260823_3",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260829_4",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260830_5",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260909_6",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260910_7",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260919_8",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260920_9",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260925_10",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260926_11",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20261010_12",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20261011_13"
+      ],
+      "source": "system",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "type": "1st Studio Album HOME CD購入者先行（抽選）",
+      "entryStartAt": "2026-06-19T13:00:00+09:00",
+      "entryEndAt": "2026-06-23T23:59:00+09:00",
+      "resultAt": "2026-07-02T18:00:00+09:00",
+      "paymentEndAt": "2026-07-03T23:00:00+09:00",
+      "sourceUrl": "https://boynextdoor-official.jp/news/596857c61ed0",
+      "id": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_1st_studio_album_home_cd_2026_06_19t13_00_00_09_00_2026_",
+      "tourId": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan",
+      "paymentStartAt": null,
+      "performanceIds": [
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260821_1",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260822_2",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260823_3",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260829_4",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260830_5",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260909_6",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260910_7",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260919_8",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260920_9",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260925_10",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260926_11",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20261010_12",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20261011_13"
+      ],
+      "source": "system",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "type": "ローチケLEncoreカード会員抽選先行",
+      "entryStartAt": "2026-06-19T13:00:00+09:00",
+      "entryEndAt": "2026-06-26T23:59:00+09:00",
+      "resultAt": "2026-07-02T18:00:00+09:00",
+      "paymentEndAt": null,
+      "sourceUrl": "https://boynextdoor-official.jp/news/596857c61ed0",
+      "id": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_lencore_2026_06_19t13_00_00_09_00_2026_06_26t23_59_00_09",
+      "tourId": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan",
+      "paymentStartAt": null,
+      "performanceIds": [
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260821_1",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260822_2",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260823_3",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260829_4",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260830_5",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260909_6",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260910_7",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260919_8",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260920_9",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260925_10",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260926_11",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20261010_12",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20261011_13"
+      ],
+      "source": "system",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "type": "ローチケプレリクエスト抽選先行",
+      "entryStartAt": "2026-06-19T13:00:00+09:00",
+      "entryEndAt": "2026-06-26T23:59:00+09:00",
+      "resultAt": "2026-07-02T18:00:00+09:00",
+      "paymentEndAt": "2026-07-03T23:00:00+09:00",
+      "sourceUrl": "https://boynextdoor-official.jp/news/596857c61ed0",
+      "id": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_2026_06_19t13_00_00_09_00_2026_06_26t23_59_00_09_00",
+      "tourId": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan",
+      "paymentStartAt": null,
+      "performanceIds": [
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260821_1",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260822_2",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260823_3",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260829_4",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260830_5",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260909_6",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260910_7",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260919_8",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260920_9",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260925_10",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260926_11",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20261010_12",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20261011_13"
+      ],
+      "source": "system",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "type": "ローチケプレリクエスト2次/プレイガイド先行（抽選）",
+      "entryStartAt": "2026-06-27T13:00:00+09:00",
+      "entryEndAt": "2026-07-06T23:59:00+09:00",
+      "resultAt": "2026-07-10T18:00:00+09:00",
+      "paymentEndAt": null,
+      "sourceUrl": "https://boynextdoor-official.jp/news/8262f59fa22b",
+      "id": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_2_2026_06_27t13_00_00_09_00_2026_07_06t23_59_00_09_00",
+      "tourId": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan",
+      "paymentStartAt": null,
+      "performanceIds": [
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260821_1",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260822_2",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260823_3",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260829_4",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260830_5",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260909_6",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260910_7",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260919_8",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260920_9",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260925_10",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260926_11",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20261010_12",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20261011_13"
+      ],
+      "source": "system",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "type": "プレミアムシートアップグレード抽選",
+      "entryStartAt": "2026-07-03T13:00:00+09:00",
+      "entryEndAt": "2026-07-06T23:59:00+09:00",
+      "resultAt": "2026-07-14T11:00:00+09:00",
+      "paymentEndAt": "2026-07-16T23:00:00+09:00",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/bnd_knock_on_vol2_in_japan",
+      "id": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_2026_07_03t13_00_00_09_00_2026_07_06t23_59_00_09_00",
+      "tourId": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan",
+      "paymentStartAt": null,
+      "performanceIds": [
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260821_1",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260822_2",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260823_3",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260829_4",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260830_5",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260909_6",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260910_7",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260919_8",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260920_9",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260925_10",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260926_11",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20261010_12",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20261011_13"
+      ],
+      "source": "system",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "type": "特別先着受付",
+      "entryStartAt": "2026-07-11T13:00:00+09:00",
+      "entryEndAt": "2026-07-20T23:59:00+09:00",
+      "resultAt": null,
+      "paymentEndAt": null,
+      "sourceUrl": "https://boynextdoor-official.jp/news/54bc987dfbd5",
+      "id": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_2026_07_11t13_00_00_09_00_2026_07_20t23_59_00_09_00",
+      "tourId": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan",
+      "paymentStartAt": null,
+      "performanceIds": [
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260821_1",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260822_2",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260823_3",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260829_4",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260830_5",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260909_6",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260910_7",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260919_8",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260920_9",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260925_10",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260926_11",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20261010_12",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20261011_13"
+      ],
+      "source": "system",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-07-25T13:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentEndAt": null,
+      "sourceUrl": "https://boynextdoor-official.jp/news/596857c61ed0",
+      "id": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_2026_07_25t13_00_00_09_00",
+      "tourId": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan",
+      "paymentStartAt": null,
+      "performanceIds": [
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260821_1",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260822_2",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260823_3",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260829_4",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260830_5",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260909_6",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260910_7",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260919_8",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260920_9",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260925_10",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260926_11",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20261010_12",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20261011_13"
+      ],
+      "source": "system",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "type": "プレミアムシートアップグレード追加抽選",
+      "entryStartAt": "2026-07-24T13:00:00+09:00",
+      "entryEndAt": "2026-07-26T23:59:00+09:00",
+      "resultAt": "2026-08-03T18:00:00+09:00",
+      "paymentEndAt": null,
+      "sourceUrl": "https://boynextdoor-official.jp/news/284a3aa28b0e",
+      "id": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_2026_07_24t13_00_00_09_00_2026_07_26t23_59_00_09_00",
+      "tourId": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan",
+      "paymentStartAt": null,
+      "performanceIds": [
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260821_1",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260822_2",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260823_3",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260829_4",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260830_5",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260909_6",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260910_7",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260919_8",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260920_9",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260925_10",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20260926_11",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20261010_12",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20261011_13"
+      ],
+      "source": "system",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "boynextdoor_kstyle_party_2026_blind",
+      "tourId": "boynextdoor_kstyle_party_2026",
+      "type": "ブラインドチケット抽選",
+      "entryStartAt": "2026-01-11T18:00:00+09:00",
+      "entryEndAt": "2026-01-25T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "boynextdoor_kstyle_party_2026_20260509"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kstyle.com/ad/kstyleparty2026/ticket",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "boynextdoor_kstyle_party_2026_first",
+      "tourId": "boynextdoor_kstyle_party_2026",
+      "type": "1次先行",
+      "entryStartAt": "2026-02-02T12:00:00+09:00",
+      "entryEndAt": "2026-02-08T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "boynextdoor_kstyle_party_2026_20260509"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kstyle.com/ad/kstyleparty2026/ticket",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "boynextdoor_kstyle_party_2026_second",
+      "tourId": "boynextdoor_kstyle_party_2026",
+      "type": "2次先行",
+      "entryStartAt": "2026-02-09T12:00:00+09:00",
+      "entryEndAt": "2026-02-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "boynextdoor_kstyle_party_2026_20260509"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kstyle.com/ad/kstyleparty2026/ticket",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "boynextdoor_kstyle_party_2026_third",
+      "tourId": "boynextdoor_kstyle_party_2026",
+      "type": "3次先行",
+      "entryStartAt": "2026-02-23T12:00:00+09:00",
+      "entryEndAt": "2026-03-08T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "boynextdoor_kstyle_party_2026_20260509"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kstyle.com/ad/kstyleparty2026/ticket",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "boynextdoor_kstyle_party_2026_upgrade",
+      "tourId": "boynextdoor_kstyle_party_2026",
+      "type": "アップグレード抽選",
+      "entryStartAt": "2026-03-16T12:00:00+09:00",
+      "entryEndAt": "2026-03-22T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "boynextdoor_kstyle_party_2026_20260509"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kstyle.com/ad/kstyleparty2026/ticket",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "boynextdoor_kstyle_party_2026_general",
+      "tourId": "boynextdoor_kstyle_party_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-03-23T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "boynextdoor_kstyle_party_2026_20260509"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kstyle.com/ad/kstyleparty2026/ticket",
+      "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "6800610080",
+      "title": "Boom Boom Boom",
+      "albumTitle": "Boom Boom Boom - Single",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9e/03/f4/9e03f437-1552-8bf7-b7be-61a69f5d3e87/mzaf_6752236001030746843.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1c/b3/b1/1cb3b1a3-3d2f-2ab2-24b7-51e7f535987e/26UM1IM02987.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "6773256274",
+      "title": "VIRAL",
+      "albumTitle": "HOME",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e8/cd/9d/e8cd9dc9-de34-dac9-f643-00637129256b/mzaf_18070914547837581915.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/be/95/c6/be95c64b-17a2-a00c-b1ea-1ab8e8c52a8a/26UMGIM64455.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1844779609",
+      "title": "Hollywood Action",
+      "albumTitle": "The Action - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a7/0c/f8/a70cf862-b415-b237-867c-1742e91f511d/mzaf_10537324421964662204.plus.aac.p.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/62/84/33/62843384-65c1-0b16-c6fe-f25542d5928d/25UM1IM54386.rgb.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

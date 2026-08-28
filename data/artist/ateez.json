@@ -1,0 +1,615 @@
+{
+  "artistId": "ateez",
+  "tours": [
+    {
+      "id": "ateez_music_expo_live_2026_taipei",
+      "artistId": "ateez",
+      "title": "MUSIC EXPO LIVE 2026 in TAIPEI",
+      "startDate": "2026-10-25T00:00:00+08:00",
+      "endDate": "2026-10-25T00:00:00+08:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://ateez-official.jp/contents/1092310",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026",
+      "artistId": "ateez",
+      "title": "2026 ATEEZ FANMEETING ATINY’S VOYAGE : TINY MYSTERY IN JAPAN",
+      "startDate": "2026-08-04T00:00:00+09:00",
+      "endDate": "2026-08-06T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 15400
+        },
+        {
+          "label": "アップグレード差額",
+          "amount": 9900
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://ateez-official.jp/contents/1070022",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_the_performance_2026",
+      "artistId": "ateez",
+      "title": "マイナビ presents The Performance",
+      "startDate": "2026-04-11T00:00:00+09:00",
+      "endDate": "2026-04-12T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://ateez-official.jp/contents/1033287",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_world_tour_in_your_fantasy_asia_australia_2026",
+      "artistId": "ateez",
+      "title": "ATEEZ 2026 WORLD TOUR [IN YOUR FANTASY] IN ASIA / AUSTRALIA",
+      "startDate": "2026-01-24T00:00:00+08:00",
+      "endDate": "2026-04-04T00:00:00+07:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://ateezlive.com/asia/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "ateez_music_expo_live_2026_taipei_1025",
+      "tourId": "ateez_music_expo_live_2026_taipei",
+      "venue": "TAIPEI ARENA",
+      "performanceAt": "2026-10-25T18:00:00+08:00",
+      "doorOpenAt": "2026-10-25T17:00:00+08:00",
+      "kind": "fes",
+      "eventName": "MUSIC EXPO LIVE 2026 in TAIPEI",
+      "source": "system",
+      "sourceUrl": "https://musicexpolive.com/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_0804",
+      "tourId": "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-08-04T18:30:00+09:00",
+      "doorOpenAt": "2026-08-04T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ateez-official.jp/contents/1070022",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_0805",
+      "tourId": "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-08-05T18:30:00+09:00",
+      "doorOpenAt": "2026-08-05T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ateez-official.jp/contents/1070022",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_0806",
+      "tourId": "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-08-06T18:30:00+09:00",
+      "doorOpenAt": "2026-08-06T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ateez-official.jp/contents/1070022",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_the_performance_2026_0411",
+      "tourId": "ateez_the_performance_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-04-11T17:00:00+09:00",
+      "doorOpenAt": "2026-04-11T15:30:00+09:00",
+      "kind": "fes",
+      "eventName": "マイナビ presents The Performance",
+      "source": "system",
+      "sourceUrl": "https://ateez-official.jp/contents/1033287",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_the_performance_2026_0412",
+      "tourId": "ateez_the_performance_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-04-12T17:00:00+09:00",
+      "doorOpenAt": "2026-04-12T15:30:00+09:00",
+      "kind": "fes",
+      "eventName": "マイナビ presents The Performance",
+      "source": "system",
+      "sourceUrl": "https://ateez-official.jp/contents/1033287",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_world_tour_in_your_fantasy_asia_australia_2026_taipei_0124",
+      "tourId": "ateez_world_tour_in_your_fantasy_asia_australia_2026",
+      "venue": "NTSU Arena",
+      "performanceAt": null,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ateezlive.com/asia/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "performanceDate": "2026-01-24"
+    },
+    {
+      "id": "ateez_world_tour_in_your_fantasy_asia_australia_2026_jakarta_0131",
+      "tourId": "ateez_world_tour_in_your_fantasy_asia_australia_2026",
+      "venue": "ICE BSD Hall 5-6",
+      "performanceAt": null,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ateezlive.com/asia/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "performanceDate": "2026-01-31"
+    },
+    {
+      "id": "ateez_world_tour_in_your_fantasy_asia_australia_2026_singapore_0222",
+      "tourId": "ateez_world_tour_in_your_fantasy_asia_australia_2026",
+      "venue": "Singapore Indoor Stadium",
+      "performanceAt": null,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ateezlive.com/asia/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "performanceDate": "2026-02-22"
+    },
+    {
+      "id": "ateez_world_tour_in_your_fantasy_asia_australia_2026_melbourne_0302",
+      "tourId": "ateez_world_tour_in_your_fantasy_asia_australia_2026",
+      "venue": "Rod Laver Arena",
+      "performanceAt": null,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.frontiertouring.com/ateez",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "performanceDate": "2026-03-02"
+    },
+    {
+      "id": "ateez_world_tour_in_your_fantasy_asia_australia_2026_melbourne_0303",
+      "tourId": "ateez_world_tour_in_your_fantasy_asia_australia_2026",
+      "venue": "Rod Laver Arena",
+      "performanceAt": null,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.frontiertouring.com/ateez",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "performanceDate": "2026-03-03"
+    },
+    {
+      "id": "ateez_world_tour_in_your_fantasy_asia_australia_2026_sydney_0306",
+      "tourId": "ateez_world_tour_in_your_fantasy_asia_australia_2026",
+      "venue": "Qudos Bank Arena",
+      "performanceAt": null,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.frontiertouring.com/ateez",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "performanceDate": "2026-03-06"
+    },
+    {
+      "id": "ateez_world_tour_in_your_fantasy_asia_australia_2026_sydney_0307",
+      "tourId": "ateez_world_tour_in_your_fantasy_asia_australia_2026",
+      "venue": "Qudos Bank Arena",
+      "performanceAt": null,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.frontiertouring.com/ateez",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "performanceDate": "2026-03-07"
+    },
+    {
+      "id": "ateez_world_tour_in_your_fantasy_asia_australia_2026_manila_0314",
+      "tourId": "ateez_world_tour_in_your_fantasy_asia_australia_2026",
+      "venue": "Smart Araneta Coliseum",
+      "performanceAt": null,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ateezlive.com/asia/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "performanceDate": "2026-03-14"
+    },
+    {
+      "id": "ateez_world_tour_in_your_fantasy_asia_australia_2026_kuala_lumpur_0322",
+      "tourId": "ateez_world_tour_in_your_fantasy_asia_australia_2026",
+      "venue": "Axiata Arena",
+      "performanceAt": null,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://my.bookmyshow.com/en/e/ATEEZ326",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "performanceDate": "2026-03-22"
+    },
+    {
+      "id": "ateez_world_tour_in_your_fantasy_asia_australia_2026_macau_0328",
+      "tourId": "ateez_world_tour_in_your_fantasy_asia_australia_2026",
+      "venue": "The Venetian Arena",
+      "performanceAt": null,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ateezlive.com/asia/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "performanceDate": "2026-03-28"
+    },
+    {
+      "id": "ateez_world_tour_in_your_fantasy_asia_australia_2026_bangkok_0404",
+      "tourId": "ateez_world_tour_in_your_fantasy_asia_australia_2026",
+      "venue": "IMPACT Exhibition Hall 5-6",
+      "performanceAt": null,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ateezlive.com/asia/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
+      "performanceDate": "2026-04-04"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "ateez_music_expo_live_2026_taipei_general",
+      "tourId": "ateez_music_expo_live_2026_taipei",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-07-28T12:00:00+08:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ateez_music_expo_live_2026_taipei_1025"
+      ],
+      "source": "system",
+      "sourceUrl": "https://musicexpolive.com/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_fc_annual_1st",
+      "tourId": "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026",
+      "type": "FC年間会員先行＜1次＞（抽選）",
+      "entryStartAt": "2026-05-12T12:00:00+09:00",
+      "entryEndAt": "2026-05-31T23:59:00+09:00",
+      "resultAt": "2026-06-05T18:00:00+09:00",
+      "paymentStartAt": "2026-06-05T18:00:00+09:00",
+      "paymentEndAt": "2026-06-08T23:59:00+09:00",
+      "performanceIds": [
+        "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_0804",
+        "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_0805",
+        "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_0806"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ateez-official.jp/contents/1072561",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_fc_annual_monthly_2nd",
+      "tourId": "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026",
+      "type": "FC年間・月額会員先行＜2次＞（抽選）",
+      "entryStartAt": "2026-06-09T12:00:00+09:00",
+      "entryEndAt": "2026-06-14T23:59:00+09:00",
+      "resultAt": "2026-06-19T18:00:00+09:00",
+      "paymentStartAt": "2026-06-19T18:00:00+09:00",
+      "paymentEndAt": "2026-06-22T23:59:00+09:00",
+      "performanceIds": [
+        "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_0804",
+        "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_0805",
+        "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_0806"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ateez-official.jp/contents/1081272",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_upgrade",
+      "tourId": "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026",
+      "type": "アップグレードチケット（抽選）",
+      "entryStartAt": "2026-07-06T18:00:00+09:00",
+      "entryEndAt": "2026-07-12T23:59:00+09:00",
+      "resultAt": "2026-07-18T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_0804",
+        "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_0805",
+        "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_0806"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ateez-official.jp/contents/1088755",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_wowow",
+      "tourId": "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026",
+      "type": "WOWOW WEB会員限定先行",
+      "entryStartAt": "2026-06-23T12:00:00+09:00",
+      "entryEndAt": "2026-06-28T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_0804",
+        "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_0805",
+        "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_0806"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ateez-official.jp/contents/1083651",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_pia_ichihaya",
+      "tourId": "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026",
+      "type": "チケットぴあ いち早プレリザーブ",
+      "entryStartAt": "2026-06-23T18:00:00+09:00",
+      "entryEndAt": "2026-07-05T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_0804",
+        "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_0805",
+        "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_0806"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ateez-official.jp/contents/1083651",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_pia",
+      "tourId": "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026",
+      "type": "チケットぴあ先行",
+      "entryStartAt": "2026-06-26T18:00:00+09:00",
+      "entryEndAt": "2026-07-12T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_0804",
+        "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_0805",
+        "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_0806"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ateez-official.jp/contents/1083651",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_lawson",
+      "tourId": "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026",
+      "type": "ローソンチケット先行",
+      "entryStartAt": "2026-07-13T12:00:00+09:00",
+      "entryEndAt": "2026-07-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_0804",
+        "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_0805",
+        "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_0806"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ateez-official.jp/contents/1083651",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_eplus",
+      "tourId": "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026",
+      "type": "イープラス先行",
+      "entryStartAt": "2026-07-13T12:00:00+09:00",
+      "entryEndAt": "2026-07-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_0804",
+        "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_0805",
+        "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_0806"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ateez-official.jp/contents/1083651",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_boardwalk",
+      "tourId": "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026",
+      "type": "ボードウォーク先行",
+      "entryStartAt": "2026-07-13T12:00:00+09:00",
+      "entryEndAt": "2026-07-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_0804",
+        "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_0805",
+        "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_0806"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ateez-official.jp/contents/1083651",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_general",
+      "tourId": "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-07-18T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_0804",
+        "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_0805",
+        "ateez_fanmeeting_atinys_voyage_tiny_mystery_2026_0806"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ateez-official.jp/contents/1083651",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_the_performance_2026_fc_1st",
+      "tourId": "ateez_the_performance_2026",
+      "type": "ATEEZ JAPAN OFFICIAL FANCLUBチケット先行（抽選）",
+      "entryStartAt": "2026-01-13T12:00:00+09:00",
+      "entryEndAt": "2026-01-18T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ateez_the_performance_2026_0411",
+        "ateez_the_performance_2026_0412"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ateez-official.jp/contents/1033287",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_the_performance_2026_fc_2nd",
+      "tourId": "ateez_the_performance_2026",
+      "type": "ATEEZ JAPAN OFFICIAL FANCLUB 2次先行（抽選）",
+      "entryStartAt": "2026-02-04T12:00:00+09:00",
+      "entryEndAt": "2026-02-08T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ateez_the_performance_2026_0411",
+        "ateez_the_performance_2026_0412"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ateez-official.jp/contents/1033287",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_world_tour_in_your_fantasy_asia_australia_2026_australia_atiny_presale",
+      "tourId": "ateez_world_tour_in_your_fantasy_asia_australia_2026",
+      "type": "Australia ATINY MEMBERSHIP presale",
+      "entryStartAt": "2025-11-21T13:00:00+11:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ateez_world_tour_in_your_fantasy_asia_australia_2026_melbourne_0303",
+        "ateez_world_tour_in_your_fantasy_asia_australia_2026_sydney_0306"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.frontiertouring.com/news/ateez-global-supergroup-announces-ateez-2026-world-tour-in-your-fantasy-in-australia-march-2026",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_world_tour_in_your_fantasy_asia_australia_2026_australia_frontier_presale",
+      "tourId": "ateez_world_tour_in_your_fantasy_asia_australia_2026",
+      "type": "Australia Frontier Member presale",
+      "entryStartAt": "2025-11-24T13:00:00+11:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ateez_world_tour_in_your_fantasy_asia_australia_2026_melbourne_0303",
+        "ateez_world_tour_in_your_fantasy_asia_australia_2026_sydney_0306"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.frontiertouring.com/news/ateez-global-supergroup-announces-ateez-2026-world-tour-in-your-fantasy-in-australia-march-2026",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_world_tour_in_your_fantasy_asia_australia_2026_australia_general",
+      "tourId": "ateez_world_tour_in_your_fantasy_asia_australia_2026",
+      "type": "Australia General on sale（先着）",
+      "entryStartAt": "2025-11-25T14:00:00+11:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ateez_world_tour_in_your_fantasy_asia_australia_2026_melbourne_0302",
+        "ateez_world_tour_in_your_fantasy_asia_australia_2026_melbourne_0303",
+        "ateez_world_tour_in_your_fantasy_asia_australia_2026_sydney_0306",
+        "ateez_world_tour_in_your_fantasy_asia_australia_2026_sydney_0307"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.frontiertouring.com/news/ateez-due-to-overwhelming-demand-global-supergroup-announces-second-melbourne-sydney-shows-for-ateez-2026-world-tour-in-your-fantasy-in-australia-march-2026",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_world_tour_in_your_fantasy_asia_australia_2026_kl_atiny_presale",
+      "tourId": "ateez_world_tour_in_your_fantasy_asia_australia_2026",
+      "type": "Kuala Lumpur ATINY Membership Presale",
+      "entryStartAt": "2025-12-08T12:00:00+08:00",
+      "entryEndAt": "2025-12-09T09:59:00+08:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ateez_world_tour_in_your_fantasy_asia_australia_2026_kuala_lumpur_0322"
+      ],
+      "source": "system",
+      "sourceUrl": "https://my.bookmyshow.com/en/e/ATEEZ326",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_world_tour_in_your_fantasy_asia_australia_2026_kl_general",
+      "tourId": "ateez_world_tour_in_your_fantasy_asia_australia_2026",
+      "type": "Kuala Lumpur General On Sale（先着）",
+      "entryStartAt": "2025-12-09T12:00:00+08:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ateez_world_tour_in_your_fantasy_asia_australia_2026_kuala_lumpur_0322"
+      ],
+      "source": "system",
+      "sourceUrl": "https://my.bookmyshow.com/en/e/ATEEZ326",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "6778272103",
+      "title": "BAD",
+      "albumTitle": "GOLDEN HOUR : Part.5 - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/16/d2/7e/16d27e01-d4a7-3d2d-3b58-62e15cb62b60/mzaf_4106564104937983495.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/84/f5/fb/84f5fb23-0194-b302-15f7-e768c9029a28/26UMGIM64142.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1871162572",
+      "title": "Adrenaline",
+      "albumTitle": "GOLDEN HOUR : Part.4 - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/da/2f/06/da2f067f-9e2f-4a03-eb8f-890dc35bd220/mzaf_13504585888563375516.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/43/30/84/43308416-6683-7c2b-cd62-b9583d44a980/26UMGIM02947.rgb.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1779000283",
+      "title": "Ice On My Teeth",
+      "albumTitle": "GOLDEN HOUR : Part.2 - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/49/33/9e/49339ee3-4446-f3be-fc85-d78beddbe632/mzaf_4156644365443413986.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5b/5b/9a/5b5b9a05-cffc-8f30-4f1e-d15b7809f698/24UM1IM23035.rgb.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}
