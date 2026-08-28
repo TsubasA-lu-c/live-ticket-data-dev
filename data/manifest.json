@@ -1,9 +1,9 @@
 {
-  "version": 174,
-  "updatedAt": "2026-08-29T00:15:04+09:00",
+  "version": 175,
+  "updatedAt": "2026-08-29T00:55:01+09:00",
   "files": {
     "artists": {
-      "hash": "a7045ac53ac77482"
+      "hash": "1964f0452fdb3d27"
     }
   },
   "artists": {
@@ -102,9 +102,6 @@
     },
     "sky_hi": {
       "hash": "11d91e446fe0c90f"
-    },
-    "tennimu": {
-      "hash": "e00daf262efed517"
     },
     "touken_ranbu_musical": {
       "hash": "c818b583c9b748b2"
