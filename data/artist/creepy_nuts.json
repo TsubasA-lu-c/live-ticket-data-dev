@@ -425,6 +425,60 @@
       "source": "system",
       "sourceUrl": "https://creepynuts.com/onemantour2027/",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "creepy_nuts_oneman_tour_2027_official_presale",
+      "tourId": "creepy_nuts_oneman_tour_2027",
+      "type": "オフィシャル先行",
+      "entryStartAt": "2026-08-24T12:00:00+09:00",
+      "entryEndAt": "2026-09-13T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "creepy_nuts_oneman_tour_2027_sendai_0227",
+        "creepy_nuts_oneman_tour_2027_fukuoka_0306",
+        "creepy_nuts_oneman_tour_2027_tokyo_0316",
+        "creepy_nuts_oneman_tour_2027_tokyo_0317",
+        "creepy_nuts_oneman_tour_2027_aichi_0320",
+        "creepy_nuts_oneman_tour_2027_aichi_0321",
+        "creepy_nuts_oneman_tour_2027_niigata_0410",
+        "creepy_nuts_oneman_tour_2027_hokkaido_0417",
+        "creepy_nuts_oneman_tour_2027_kobe_0522",
+        "creepy_nuts_oneman_tour_2027_kobe_0523",
+        "creepy_nuts_oneman_tour_2027_saitama_0529",
+        "creepy_nuts_oneman_tour_2027_saitama_0530"
+      ],
+      "source": "system",
+      "sourceUrl": "https://creepynuts.com/onemantour2027/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "creepy_nuts_oneman_tour_2027_non_resident_presale",
+      "tourId": "creepy_nuts_oneman_tour_2027",
+      "type": "Pre-sale for non-residence",
+      "entryStartAt": "2026-08-24T12:00:00+09:00",
+      "entryEndAt": "2026-09-13T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "creepy_nuts_oneman_tour_2027_sendai_0227",
+        "creepy_nuts_oneman_tour_2027_fukuoka_0306",
+        "creepy_nuts_oneman_tour_2027_tokyo_0316",
+        "creepy_nuts_oneman_tour_2027_tokyo_0317",
+        "creepy_nuts_oneman_tour_2027_aichi_0320",
+        "creepy_nuts_oneman_tour_2027_aichi_0321",
+        "creepy_nuts_oneman_tour_2027_niigata_0410",
+        "creepy_nuts_oneman_tour_2027_hokkaido_0417",
+        "creepy_nuts_oneman_tour_2027_kobe_0522",
+        "creepy_nuts_oneman_tour_2027_kobe_0523",
+        "creepy_nuts_oneman_tour_2027_saitama_0529",
+        "creepy_nuts_oneman_tour_2027_saitama_0530"
+      ],
+      "source": "system",
+      "sourceUrl": "https://creepynuts.com/onemantour2027/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

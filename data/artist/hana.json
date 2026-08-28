@@ -726,6 +726,26 @@
       "source": "system",
       "sourceUrl": "https://inkigayo-live.jp/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_add_official_resale",
+      "tourId": "hana_born_to_bloom_2026_add",
+      "type": "定価トレード（公式リセール）",
+      "entryStartAt": null,
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hana_born_to_bloom_2026_add_osaka_0916",
+        "hana_born_to_bloom_2026_add_osaka_0917",
+        "hana_born_to_bloom_2026_add_tokyo_1029",
+        "hana_born_to_bloom_2026_add_tokyo_1030",
+        "hana_born_to_bloom_2026_add_tokyo_1031"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/tour/borntobloom/",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

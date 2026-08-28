@@ -747,6 +747,102 @@
       "source": "system",
       "sourceUrl": "https://www.04limitedsazabys.com/feature/yontownlive2026",
       "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_one_man_tour_2026_official2ndpresale_01",
+      "tourId": "04_limited_sazabys_one_man_tour_2026",
+      "type": "オフィシャル2次先行",
+      "entryStartAt": "2026-05-21T22:00:00+09:00",
+      "entryEndAt": "2026-05-31T23:59:00+09:00",
+      "resultAt": "2026-06-04T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-06-07T23:59:00+09:00",
+      "performanceIds": [
+        "04_limited_sazabys_one_man_tour_2026_kt_zepp_yokohama_1002",
+        "04_limited_sazabys_one_man_tour_2026_zepp_fukuoka_1008",
+        "04_limited_sazabys_one_man_tour_2026_zepp_osaka_bayside_1009",
+        "04_limited_sazabys_one_man_tour_2026_zepp_haneda_1021",
+        "04_limited_sazabys_one_man_tour_2026_zepp_haneda_1022",
+        "04_limited_sazabys_one_man_tour_2026_sendai_gigs_1030",
+        "04_limited_sazabys_one_man_tour_2026_zepp_sapporo_1101",
+        "04_limited_sazabys_one_man_tour_2026_zepp_nagoya_1104",
+        "04_limited_sazabys_one_man_tour_2026_zepp_nagoya_1105"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/feature/tour2026",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_one_man_tour_2026_officialpresale_02",
+      "tourId": "04_limited_sazabys_one_man_tour_2026",
+      "type": "オフィシャル先行",
+      "entryStartAt": "2026-05-02T18:00:00+09:00",
+      "entryEndAt": "2026-05-17T23:59:00+09:00",
+      "resultAt": "2026-05-21T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-05-24T23:59:00+09:00",
+      "performanceIds": [
+        "04_limited_sazabys_one_man_tour_2026_kt_zepp_yokohama_1002",
+        "04_limited_sazabys_one_man_tour_2026_zepp_fukuoka_1008",
+        "04_limited_sazabys_one_man_tour_2026_zepp_osaka_bayside_1009",
+        "04_limited_sazabys_one_man_tour_2026_zepp_haneda_1021",
+        "04_limited_sazabys_one_man_tour_2026_zepp_haneda_1022",
+        "04_limited_sazabys_one_man_tour_2026_sendai_gigs_1030",
+        "04_limited_sazabys_one_man_tour_2026_zepp_sapporo_1101",
+        "04_limited_sazabys_one_man_tour_2026_zepp_nagoya_1104",
+        "04_limited_sazabys_one_man_tour_2026_zepp_nagoya_1105"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/feature/tour2026",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_one_man_tour_2026_yontown2ndpresale_03",
+      "tourId": "04_limited_sazabys_one_man_tour_2026",
+      "type": "YON TOWN2次先行",
+      "entryStartAt": "2026-04-16T18:00:00+09:00",
+      "entryEndAt": "2026-04-26T23:59:00+09:00",
+      "resultAt": "2026-05-02T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-05-05T23:59:00+09:00",
+      "performanceIds": [
+        "04_limited_sazabys_one_man_tour_2026_kt_zepp_yokohama_1002",
+        "04_limited_sazabys_one_man_tour_2026_zepp_fukuoka_1008",
+        "04_limited_sazabys_one_man_tour_2026_zepp_osaka_bayside_1009",
+        "04_limited_sazabys_one_man_tour_2026_zepp_haneda_1021",
+        "04_limited_sazabys_one_man_tour_2026_zepp_haneda_1022",
+        "04_limited_sazabys_one_man_tour_2026_sendai_gigs_1030",
+        "04_limited_sazabys_one_man_tour_2026_zepp_sapporo_1101",
+        "04_limited_sazabys_one_man_tour_2026_zepp_nagoya_1104",
+        "04_limited_sazabys_one_man_tour_2026_zepp_nagoya_1105"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/feature/tour2026",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_one_man_tour_2026_yontownpresale_04",
+      "tourId": "04_limited_sazabys_one_man_tour_2026",
+      "type": "YON TOWN先行",
+      "entryStartAt": "2026-04-04T18:00:00+09:00",
+      "entryEndAt": "2026-04-12T23:59:00+09:00",
+      "resultAt": "2026-04-16T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-04-19T23:59:00+09:00",
+      "performanceIds": [
+        "04_limited_sazabys_one_man_tour_2026_kt_zepp_yokohama_1002",
+        "04_limited_sazabys_one_man_tour_2026_zepp_fukuoka_1008",
+        "04_limited_sazabys_one_man_tour_2026_zepp_osaka_bayside_1009",
+        "04_limited_sazabys_one_man_tour_2026_zepp_haneda_1021",
+        "04_limited_sazabys_one_man_tour_2026_zepp_haneda_1022",
+        "04_limited_sazabys_one_man_tour_2026_sendai_gigs_1030",
+        "04_limited_sazabys_one_man_tour_2026_zepp_sapporo_1101",
+        "04_limited_sazabys_one_man_tour_2026_zepp_nagoya_1104",
+        "04_limited_sazabys_one_man_tour_2026_zepp_nagoya_1105"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/feature/tour2026",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

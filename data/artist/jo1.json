@@ -261,7 +261,7 @@
       "entryStartAt": "2026-01-19T17:00:00+09:00",
       "entryEndAt": "2026-02-02T23:59:00+09:00",
       "resultAt": "2026-02-10T20:00:00+09:00",
-      "paymentStartAt": "2026-02-10T00:00:00+09:00",
+      "paymentStartAt": "2026-02-10T20:00:00+09:00",
       "paymentEndAt": "2026-02-16T23:59:00+09:00",
       "performanceIds": [
         "jo1_eien_2026_tokyo_0408",
@@ -269,24 +269,26 @@
       ],
       "source": "system",
       "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
     },
     {
       "id": "jo1_eien_2026_tokyo_fc2",
       "tourId": "jo1_eien_2026",
-      "type": "FC会員先行",
+      "type": "JO1 OFFICIAL FANCLUB会員2次先行",
       "entryStartAt": "2026-02-18T12:00:00+09:00",
       "entryEndAt": "2026-03-01T23:59:00+09:00",
       "resultAt": "2026-03-07T20:00:00+09:00",
-      "paymentStartAt": "2026-03-07T00:00:00+09:00",
+      "paymentStartAt": "2026-03-07T20:00:00+09:00",
       "paymentEndAt": "2026-03-12T23:59:00+09:00",
       "performanceIds": [
         "jo1_eien_2026_tokyo_0408",
-        "jo1_eien_2026_tokyo_0409"
+        "jo1_eien_2026_tokyo_0409",
+        "jo1_eien_2026_osaka_0422",
+        "jo1_eien_2026_osaka_0423"
       ],
       "source": "system",
       "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
     },
     {
       "id": "jo1_eien_2026_osaka_fc1",
@@ -295,7 +297,7 @@
       "entryStartAt": "2026-01-19T17:00:00+09:00",
       "entryEndAt": "2026-02-02T23:59:00+09:00",
       "resultAt": "2026-02-10T20:00:00+09:00",
-      "paymentStartAt": "2026-02-10T00:00:00+09:00",
+      "paymentStartAt": "2026-02-10T20:00:00+09:00",
       "paymentEndAt": "2026-02-16T23:59:00+09:00",
       "performanceIds": [
         "jo1_eien_2026_osaka_0422",
@@ -303,7 +305,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
     },
     {
       "id": "jo1_eien_2026_osaka_fc2",
@@ -312,32 +314,34 @@
       "entryStartAt": "2026-02-10T12:00:00+09:00",
       "entryEndAt": "2026-02-17T23:59:00+09:00",
       "resultAt": "2026-02-26T20:00:00+09:00",
-      "paymentStartAt": "2026-02-26T00:00:00+09:00",
+      "paymentStartAt": "2026-02-26T20:00:00+09:00",
       "paymentEndAt": "2026-03-03T23:59:00+09:00",
       "performanceIds": [
+        "jo1_eien_2026_tokyo_0408",
+        "jo1_eien_2026_tokyo_0409",
         "jo1_eien_2026_osaka_0422",
         "jo1_eien_2026_osaka_0423"
       ],
       "source": "system",
       "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
     },
     {
       "id": "jo1_eien_2026_nagoya_fc",
       "tourId": "jo1_eien_2026",
       "type": "FC会員抽選",
-      "entryStartAt": "2026-04-24T00:00:00+09:00",
+      "entryStartAt": "2026-04-24T12:00:00+09:00",
       "entryEndAt": "2026-05-07T23:59:00+09:00",
       "resultAt": "2026-05-15T20:00:00+09:00",
-      "paymentStartAt": null,
-      "paymentEndAt": null,
+      "paymentStartAt": "2026-05-15T20:00:00+09:00",
+      "paymentEndAt": "2026-05-19T23:59:00+09:00",
       "performanceIds": [
         "jo1_eien_2026_vantelin_0719",
         "jo1_eien_2026_vantelin_0720"
       ],
       "source": "system",
       "sourceUrl": "https://jo1.jp/news/detail/5966",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
     },
     {
       "id": "jo1_north_american_tour_animal_2026_general",
@@ -358,6 +362,341 @@
       "source": "system",
       "sourceUrl": "https://jo1.jp/news/detail/6138",
       "lastVerifiedAt": "2026-08-17T22:58:00+09:00"
+    },
+    {
+      "id": "jo1_eien_2026_upgrade_tokyo_osaka",
+      "tourId": "jo1_eien_2026",
+      "type": "アップグレードシート抽選",
+      "entryStartAt": "2026-03-13T12:00:00+09:00",
+      "entryEndAt": "2026-03-16T23:59:00+09:00",
+      "resultAt": "2026-03-20T20:00:00+09:00",
+      "paymentStartAt": "2026-03-20T20:00:00+09:00",
+      "paymentEndAt": null,
+      "performanceIds": [
+        "jo1_eien_2026_tokyo_0408",
+        "jo1_eien_2026_tokyo_0409",
+        "jo1_eien_2026_osaka_0422",
+        "jo1_eien_2026_osaka_0423"
+      ],
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_eien_2026_ponta_tokyo_osaka",
+      "tourId": "jo1_eien_2026",
+      "type": "Pontaパス会員先行",
+      "entryStartAt": "2026-03-02T12:00:00+09:00",
+      "entryEndAt": "2026-03-08T23:59:00+09:00",
+      "resultAt": "2026-03-13T20:00:00+09:00",
+      "paymentStartAt": "2026-03-13T20:00:00+09:00",
+      "paymentEndAt": "2026-03-17T23:59:00+09:00",
+      "performanceIds": [
+        "jo1_eien_2026_tokyo_0408",
+        "jo1_eien_2026_tokyo_0409",
+        "jo1_eien_2026_osaka_0422",
+        "jo1_eien_2026_osaka_0423"
+      ],
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_eien_2026_lencore_tokyo_osaka",
+      "tourId": "jo1_eien_2026",
+      "type": "LEncore会員限定先行",
+      "entryStartAt": "2026-03-09T12:00:00+09:00",
+      "entryEndAt": "2026-03-15T23:59:00+09:00",
+      "resultAt": "2026-03-20T20:00:00+09:00",
+      "paymentStartAt": "2026-03-20T20:00:00+09:00",
+      "paymentEndAt": null,
+      "performanceIds": [
+        "jo1_eien_2026_tokyo_0408",
+        "jo1_eien_2026_tokyo_0409",
+        "jo1_eien_2026_osaka_0422",
+        "jo1_eien_2026_osaka_0423"
+      ],
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_eien_2026_hmv_tokyo_osaka",
+      "tourId": "jo1_eien_2026",
+      "type": "HMVプレミアム会員限定先行",
+      "entryStartAt": "2026-03-09T12:00:00+09:00",
+      "entryEndAt": "2026-03-15T23:59:00+09:00",
+      "resultAt": "2026-03-20T20:00:00+09:00",
+      "paymentStartAt": "2026-03-20T20:00:00+09:00",
+      "paymentEndAt": "2026-03-23T23:59:00+09:00",
+      "performanceIds": [
+        "jo1_eien_2026_tokyo_0408",
+        "jo1_eien_2026_tokyo_0409",
+        "jo1_eien_2026_osaka_0422",
+        "jo1_eien_2026_osaka_0423"
+      ],
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_eien_2026_prerequest_tokyo_osaka",
+      "tourId": "jo1_eien_2026",
+      "type": "ローソンチケット プレリクエスト先行",
+      "entryStartAt": "2026-03-10T12:00:00+09:00",
+      "entryEndAt": "2026-03-15T23:59:00+09:00",
+      "resultAt": "2026-03-20T20:00:00+09:00",
+      "paymentStartAt": "2026-03-20T20:00:00+09:00",
+      "paymentEndAt": "2026-03-23T23:59:00+09:00",
+      "performanceIds": [
+        "jo1_eien_2026_tokyo_0408",
+        "jo1_eien_2026_tokyo_0409",
+        "jo1_eien_2026_osaka_0422",
+        "jo1_eien_2026_osaka_0423"
+      ],
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_eien_2026_prerequest2_tokyo_osaka",
+      "tourId": "jo1_eien_2026",
+      "type": "プレリクエスト2次先行",
+      "entryStartAt": "2026-03-16T12:00:00+09:00",
+      "entryEndAt": "2026-03-22T23:59:00+09:00",
+      "resultAt": "2026-03-27T20:00:00+09:00",
+      "paymentStartAt": "2026-03-27T20:00:00+09:00",
+      "paymentEndAt": null,
+      "performanceIds": [
+        "jo1_eien_2026_tokyo_0408",
+        "jo1_eien_2026_tokyo_0409",
+        "jo1_eien_2026_osaka_0422",
+        "jo1_eien_2026_osaka_0423"
+      ],
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_eien_2026_general_tokyo_osaka",
+      "tourId": "jo1_eien_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-03-28T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "jo1_eien_2026_tokyo_0408",
+        "jo1_eien_2026_tokyo_0409",
+        "jo1_eien_2026_osaka_0422",
+        "jo1_eien_2026_osaka_0423"
+      ],
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_eien_2026_fc_aichi",
+      "tourId": "jo1_eien_2026",
+      "type": "愛知FC会員先行",
+      "entryStartAt": "2026-05-15T12:00:00+09:00",
+      "entryEndAt": "2026-05-21T23:59:00+09:00",
+      "resultAt": "2026-05-29T20:00:00+09:00",
+      "paymentStartAt": "2026-05-29T20:00:00+09:00",
+      "paymentEndAt": "2026-06-01T23:59:00+09:00",
+      "performanceIds": [
+        "jo1_eien_2026_vantelin_0719",
+        "jo1_eien_2026_vantelin_0720"
+      ],
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_eien_2026_mail_aichi",
+      "tourId": "jo1_eien_2026",
+      "type": "愛知JO1 Mail会員先行",
+      "entryStartAt": "2026-05-28T12:00:00+09:00",
+      "entryEndAt": "2026-06-01T23:59:00+09:00",
+      "resultAt": "2026-06-09T20:00:00+09:00",
+      "paymentStartAt": "2026-06-09T20:00:00+09:00",
+      "paymentEndAt": "2026-06-11T23:59:00+09:00",
+      "performanceIds": [
+        "jo1_eien_2026_vantelin_0719",
+        "jo1_eien_2026_vantelin_0720"
+      ],
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_eien_2026_upgrade_aichi",
+      "tourId": "jo1_eien_2026",
+      "type": "愛知アップグレードシート抽選",
+      "entryStartAt": "2026-06-18T12:00:00+09:00",
+      "entryEndAt": "2026-06-22T23:59:00+09:00",
+      "resultAt": "2026-06-27T20:00:00+09:00",
+      "paymentStartAt": "2026-06-27T20:00:00+09:00",
+      "paymentEndAt": null,
+      "performanceIds": [
+        "jo1_eien_2026_vantelin_0719",
+        "jo1_eien_2026_vantelin_0720"
+      ],
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_eien_2026_ponta_aichi",
+      "tourId": "jo1_eien_2026",
+      "type": "愛知Pontaパス会員先行",
+      "entryStartAt": "2026-06-08T12:00:00+09:00",
+      "entryEndAt": "2026-06-14T23:59:00+09:00",
+      "resultAt": "2026-06-20T20:00:00+09:00",
+      "paymentStartAt": "2026-06-20T20:00:00+09:00",
+      "paymentEndAt": "2026-06-22T23:59:00+09:00",
+      "performanceIds": [
+        "jo1_eien_2026_vantelin_0719",
+        "jo1_eien_2026_vantelin_0720"
+      ],
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_eien_2026_lencore_aichi",
+      "tourId": "jo1_eien_2026",
+      "type": "愛知LEncore会員限定先行",
+      "entryStartAt": "2026-06-15T12:00:00+09:00",
+      "entryEndAt": "2026-06-22T23:59:00+09:00",
+      "resultAt": "2026-06-27T20:00:00+09:00",
+      "paymentStartAt": "2026-06-27T20:00:00+09:00",
+      "paymentEndAt": null,
+      "performanceIds": [
+        "jo1_eien_2026_vantelin_0719",
+        "jo1_eien_2026_vantelin_0720"
+      ],
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_eien_2026_hmv_aichi",
+      "tourId": "jo1_eien_2026",
+      "type": "愛知HMVプレミアム会員限定先行",
+      "entryStartAt": "2026-06-15T12:00:00+09:00",
+      "entryEndAt": "2026-06-22T23:59:00+09:00",
+      "resultAt": "2026-06-27T20:00:00+09:00",
+      "paymentStartAt": "2026-06-27T20:00:00+09:00",
+      "paymentEndAt": "2026-06-29T23:59:00+09:00",
+      "performanceIds": [
+        "jo1_eien_2026_vantelin_0719",
+        "jo1_eien_2026_vantelin_0720"
+      ],
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_eien_2026_prerequest_aichi",
+      "tourId": "jo1_eien_2026",
+      "type": "愛知ローソンチケット プレリクエスト先行",
+      "entryStartAt": "2026-06-16T12:00:00+09:00",
+      "entryEndAt": "2026-06-22T23:59:00+09:00",
+      "resultAt": "2026-06-27T20:00:00+09:00",
+      "paymentStartAt": "2026-06-27T20:00:00+09:00",
+      "paymentEndAt": "2026-06-29T23:59:00+09:00",
+      "performanceIds": [
+        "jo1_eien_2026_vantelin_0719",
+        "jo1_eien_2026_vantelin_0720"
+      ],
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_eien_2026_mugendai_fc_aichi",
+      "tourId": "jo1_eien_2026",
+      "type": "愛知無限大シートFC先行",
+      "entryStartAt": "2026-06-16T12:00:00+09:00",
+      "entryEndAt": "2026-06-22T23:59:00+09:00",
+      "resultAt": "2026-06-27T20:00:00+09:00",
+      "paymentStartAt": "2026-06-27T20:00:00+09:00",
+      "paymentEndAt": "2026-06-29T23:59:00+09:00",
+      "performanceIds": [
+        "jo1_eien_2026_vantelin_0719",
+        "jo1_eien_2026_vantelin_0720"
+      ],
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_eien_2026_prerequest2_aichi",
+      "tourId": "jo1_eien_2026",
+      "type": "愛知プレリクエスト先行2次",
+      "entryStartAt": "2026-06-26T12:00:00+09:00",
+      "entryEndAt": "2026-06-29T23:59:00+09:00",
+      "resultAt": "2026-07-03T20:00:00+09:00",
+      "paymentStartAt": "2026-07-03T20:00:00+09:00",
+      "paymentEndAt": null,
+      "performanceIds": [
+        "jo1_eien_2026_vantelin_0719",
+        "jo1_eien_2026_vantelin_0720"
+      ],
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_eien_2026_general_aichi",
+      "tourId": "jo1_eien_2026",
+      "type": "愛知一般発売",
+      "entryStartAt": "2026-07-04T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "jo1_eien_2026_vantelin_0719",
+        "jo1_eien_2026_vantelin_0720"
+      ],
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_eien_2026_trade_aichi_0719",
+      "tourId": "jo1_eien_2026",
+      "type": "JO1公式トレード 7/19",
+      "entryStartAt": "2026-07-10T14:00:00+09:00",
+      "entryEndAt": "2026-07-18T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "jo1_eien_2026_vantelin_0719"
+      ],
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_eien_2026_trade_aichi_0720",
+      "tourId": "jo1_eien_2026",
+      "type": "JO1公式トレード 7/20",
+      "entryStartAt": "2026-07-10T14:00:00+09:00",
+      "entryEndAt": "2026-07-19T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "jo1_eien_2026_vantelin_0720"
+      ],
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

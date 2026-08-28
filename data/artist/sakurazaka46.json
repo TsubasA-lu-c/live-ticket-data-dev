@@ -646,6 +646,23 @@
       "source": "system",
       "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00665?ima=0000",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_backslive_15th_2026_lemino_pack",
+      "tourId": "sakurazaka46_backslive_15th_2026",
+      "type": "Lemino櫻坂46パック先行",
+      "entryStartAt": "2026-06-10T22:00:00+09:00",
+      "entryEndAt": "2026-06-30T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sakurazaka46_backslive_15th_2026_tokyo_0929",
+        "sakurazaka46_backslive_15th_2026_tokyo_0930"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/page/backslive_15th",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

@@ -1366,7 +1366,7 @@
       "type": "プレリザーブ先行",
       "entryStartAt": "2026-08-01T18:00:00+09:00",
       "entryEndAt": "2026-08-05T23:59:00+09:00",
-      "resultAt": null,
+      "resultAt": "2026-08-11T20:00:00+09:00",
       "paymentEndAt": null,
       "sourceUrl": "https://candytune.asobisystem.com/feature/candytune_nationwide_tour2026",
       "id": "candy_tune_candy_tune_japan_tour_2026_autumn_2026_08_01t18_00_00_09_00_2026_08_05t23_59_00_09_00",
@@ -1732,6 +1732,23 @@
       "source": "system",
       "sourceUrl": "https://candytune.asobisystem.com/",
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "candy_tune_candy_tune_japan_tour_2026_autumn_prereserve_2nd_hokkaido",
+      "tourId": "candy_tune_candy_tune_japan_tour_2026_autumn",
+      "type": "プレリザーブ2次（北海道）",
+      "entryStartAt": "2026-08-29T11:00:00+09:00",
+      "entryEndAt": "2026-09-06T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "candy_tune_candy_tune_japan_tour_2026_autumn_20261002_7",
+        "candy_tune_candy_tune_japan_tour_2026_autumn_20261004_8"
+      ],
+      "source": "system",
+      "sourceUrl": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2669827",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

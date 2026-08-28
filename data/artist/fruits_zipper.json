@@ -18,8 +18,8 @@
         }
       ],
       "source": "system",
-      "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/78068",
-      "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
+      "sourceUrl": "https://fruitszipper.asobisystem.com/feature/2026tour_autumn",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
     },
     {
       "id": "fruits_zipper_fes_2026",
@@ -674,9 +674,9 @@
     {
       "id": "fruits_zipper_japan_tour_2026_autumn_fc_1st",
       "tourId": "fruits_zipper_japan_tour_2026_autumn",
-      "type": "FC先行",
+      "type": "FC先行（年会費コース会員）",
       "entryStartAt": "2026-05-06T20:00:00+09:00",
-      "entryEndAt": null,
+      "entryEndAt": "2026-05-18T23:59:00+09:00",
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
@@ -707,7 +707,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/78068",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
     },
     {
       "id": "fruits_zipper_japan_tour_2026_autumn_fc_2nd",
@@ -855,6 +855,224 @@
       "source": "system",
       "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/85441",
       "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_japan_tour_2026_autumn_nic_os_fast",
+      "tourId": "fruits_zipper_japan_tour_2026_autumn",
+      "type": "いち早プレリザーブ（ぴあNICOSカード限定）",
+      "entryStartAt": "2026-06-23T18:00:00+09:00",
+      "entryEndAt": "2026-06-28T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fruits_zipper_japan_tour_2026_autumn_yokosuka_0903",
+        "fruits_zipper_japan_tour_2026_autumn_omiya_sonic_0916",
+        "fruits_zipper_japan_tour_2026_autumn_matsudo_0918",
+        "fruits_zipper_japan_tour_2026_autumn_mie_0921",
+        "fruits_zipper_japan_tour_2026_autumn_gifu_0923",
+        "fruits_zipper_japan_tour_2026_autumn_aichi_0925",
+        "fruits_zipper_japan_tour_2026_autumn_grand_cube_osaka_0930",
+        "fruits_zipper_japan_tour_2026_autumn_grand_cube_osaka_1001",
+        "fruits_zipper_japan_tour_2026_autumn_tochigi_1004",
+        "fruits_zipper_japan_tour_2026_autumn_sendai_sun_plaza_1006",
+        "fruits_zipper_japan_tour_2026_autumn_sendai_sun_plaza_1007",
+        "fruits_zipper_japan_tour_2026_autumn_ishikawa_1011",
+        "fruits_zipper_japan_tour_2026_autumn_kagawa_1013",
+        "fruits_zipper_japan_tour_2026_autumn_ehime_1015",
+        "fruits_zipper_japan_tour_2026_autumn_fukuoka_sun_palace_1026",
+        "fruits_zipper_japan_tour_2026_autumn_kumamoto_1027",
+        "fruits_zipper_japan_tour_2026_autumn_hiroshima_1105",
+        "fruits_zipper_japan_tour_2026_autumn_hiroshima_1106",
+        "fruits_zipper_japan_tour_2026_autumn_sapporo_1112",
+        "fruits_zipper_japan_tour_2026_autumn_tokyo_garden_1114",
+        "fruits_zipper_japan_tour_2026_autumn_tokyo_garden_1115",
+        "fruits_zipper_japan_tour_2026_autumn_okinawa_1121",
+        "fruits_zipper_japan_tour_2026_autumn_okinawa_1122"
+      ],
+      "source": "system",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/feature/2026tour_autumn",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_japan_tour_2026_autumn_playguide_fastest",
+      "tourId": "fruits_zipper_japan_tour_2026_autumn",
+      "type": "最速プレイガイド先行",
+      "entryStartAt": "2026-07-03T18:00:00+09:00",
+      "entryEndAt": "2026-07-12T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fruits_zipper_japan_tour_2026_autumn_yokosuka_0903",
+        "fruits_zipper_japan_tour_2026_autumn_omiya_sonic_0916",
+        "fruits_zipper_japan_tour_2026_autumn_matsudo_0918",
+        "fruits_zipper_japan_tour_2026_autumn_mie_0921",
+        "fruits_zipper_japan_tour_2026_autumn_gifu_0923",
+        "fruits_zipper_japan_tour_2026_autumn_aichi_0925",
+        "fruits_zipper_japan_tour_2026_autumn_grand_cube_osaka_0930",
+        "fruits_zipper_japan_tour_2026_autumn_grand_cube_osaka_1001",
+        "fruits_zipper_japan_tour_2026_autumn_tochigi_1004",
+        "fruits_zipper_japan_tour_2026_autumn_sendai_sun_plaza_1006",
+        "fruits_zipper_japan_tour_2026_autumn_sendai_sun_plaza_1007",
+        "fruits_zipper_japan_tour_2026_autumn_ishikawa_1011",
+        "fruits_zipper_japan_tour_2026_autumn_kagawa_1013",
+        "fruits_zipper_japan_tour_2026_autumn_ehime_1015",
+        "fruits_zipper_japan_tour_2026_autumn_fukuoka_sun_palace_1026",
+        "fruits_zipper_japan_tour_2026_autumn_kumamoto_1027",
+        "fruits_zipper_japan_tour_2026_autumn_hiroshima_1105",
+        "fruits_zipper_japan_tour_2026_autumn_hiroshima_1106",
+        "fruits_zipper_japan_tour_2026_autumn_sapporo_1112",
+        "fruits_zipper_japan_tour_2026_autumn_tokyo_garden_1114",
+        "fruits_zipper_japan_tour_2026_autumn_tokyo_garden_1115",
+        "fruits_zipper_japan_tour_2026_autumn_okinawa_1121",
+        "fruits_zipper_japan_tour_2026_autumn_okinawa_1122"
+      ],
+      "source": "system",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/feature/2026tour_autumn",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_japan_tour_2026_autumn_prereserve",
+      "tourId": "fruits_zipper_japan_tour_2026_autumn",
+      "type": "プレリザーブ",
+      "entryStartAt": "2026-07-17T18:00:00+09:00",
+      "entryEndAt": "2026-07-20T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fruits_zipper_japan_tour_2026_autumn_yokosuka_0903",
+        "fruits_zipper_japan_tour_2026_autumn_omiya_sonic_0916",
+        "fruits_zipper_japan_tour_2026_autumn_matsudo_0918",
+        "fruits_zipper_japan_tour_2026_autumn_mie_0921",
+        "fruits_zipper_japan_tour_2026_autumn_gifu_0923",
+        "fruits_zipper_japan_tour_2026_autumn_aichi_0925",
+        "fruits_zipper_japan_tour_2026_autumn_grand_cube_osaka_0930",
+        "fruits_zipper_japan_tour_2026_autumn_grand_cube_osaka_1001",
+        "fruits_zipper_japan_tour_2026_autumn_tochigi_1004",
+        "fruits_zipper_japan_tour_2026_autumn_sendai_sun_plaza_1006",
+        "fruits_zipper_japan_tour_2026_autumn_sendai_sun_plaza_1007",
+        "fruits_zipper_japan_tour_2026_autumn_ishikawa_1011",
+        "fruits_zipper_japan_tour_2026_autumn_kagawa_1013",
+        "fruits_zipper_japan_tour_2026_autumn_ehime_1015",
+        "fruits_zipper_japan_tour_2026_autumn_fukuoka_sun_palace_1026",
+        "fruits_zipper_japan_tour_2026_autumn_kumamoto_1027",
+        "fruits_zipper_japan_tour_2026_autumn_hiroshima_1105",
+        "fruits_zipper_japan_tour_2026_autumn_hiroshima_1106",
+        "fruits_zipper_japan_tour_2026_autumn_sapporo_1112",
+        "fruits_zipper_japan_tour_2026_autumn_tokyo_garden_1114",
+        "fruits_zipper_japan_tour_2026_autumn_tokyo_garden_1115",
+        "fruits_zipper_japan_tour_2026_autumn_okinawa_1121",
+        "fruits_zipper_japan_tour_2026_autumn_okinawa_1122"
+      ],
+      "source": "system",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/feature/2026tour_autumn",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_japan_tour_2026_autumn_prereserve_2nd_target5",
+      "tourId": "fruits_zipper_japan_tour_2026_autumn",
+      "type": "プレリザーブ2次",
+      "entryStartAt": "2026-08-04T18:00:00+09:00",
+      "entryEndAt": "2026-08-10T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fruits_zipper_japan_tour_2026_autumn_yokosuka_0903",
+        "fruits_zipper_japan_tour_2026_autumn_omiya_sonic_0916",
+        "fruits_zipper_japan_tour_2026_autumn_matsudo_0918",
+        "fruits_zipper_japan_tour_2026_autumn_tokyo_garden_1114",
+        "fruits_zipper_japan_tour_2026_autumn_tokyo_garden_1115"
+      ],
+      "source": "system",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/feature/2026tour_autumn",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_japan_tour_2026_autumn_regional_okinawa",
+      "tourId": "fruits_zipper_japan_tour_2026_autumn",
+      "type": "プレリザーブ（沖縄）",
+      "entryStartAt": "2026-08-04T12:00:00+09:00",
+      "entryEndAt": "2026-08-11T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fruits_zipper_japan_tour_2026_autumn_okinawa_1121",
+        "fruits_zipper_japan_tour_2026_autumn_okinawa_1122"
+      ],
+      "source": "system",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/feature/2026tour_autumn",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_japan_tour_2026_autumn_regional_osaka",
+      "tourId": "fruits_zipper_japan_tour_2026_autumn",
+      "type": "プレリザーブ（大阪）",
+      "entryStartAt": "2026-08-04T11:00:00+09:00",
+      "entryEndAt": "2026-08-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fruits_zipper_japan_tour_2026_autumn_grand_cube_osaka_0930",
+        "fruits_zipper_japan_tour_2026_autumn_grand_cube_osaka_1001"
+      ],
+      "source": "system",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/feature/2026tour_autumn",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_japan_tour_2026_autumn_regional_hiroshima",
+      "tourId": "fruits_zipper_japan_tour_2026_autumn",
+      "type": "プレリザーブ（広島）",
+      "entryStartAt": "2026-08-04T11:00:00+09:00",
+      "entryEndAt": "2026-08-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fruits_zipper_japan_tour_2026_autumn_hiroshima_1105",
+        "fruits_zipper_japan_tour_2026_autumn_hiroshima_1106"
+      ],
+      "source": "system",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/feature/2026tour_autumn",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_japan_tour_2026_autumn_regional_tochigi",
+      "tourId": "fruits_zipper_japan_tour_2026_autumn",
+      "type": "プレリザーブ（栃木）",
+      "entryStartAt": "2026-08-04T18:00:00+09:00",
+      "entryEndAt": "2026-08-17T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fruits_zipper_japan_tour_2026_autumn_tochigi_1004"
+      ],
+      "source": "system",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/feature/2026tour_autumn",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_japan_tour_2026_autumn_regional_miyagi",
+      "tourId": "fruits_zipper_japan_tour_2026_autumn",
+      "type": "プレリザーブ（宮城）",
+      "entryStartAt": "2026-08-04T18:00:00+09:00",
+      "entryEndAt": "2026-08-17T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fruits_zipper_japan_tour_2026_autumn_sendai_sun_plaza_1006",
+        "fruits_zipper_japan_tour_2026_autumn_sendai_sun_plaza_1007"
+      ],
+      "source": "system",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/feature/2026tour_autumn",
+      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

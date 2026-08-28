@@ -31,6 +31,26 @@
         {
           "label": "A着席指定（スタンド上段・神戸公演のみ）",
           "amount": 7500
+        },
+        {
+          "label": "注釈S",
+          "amount": null
+        },
+        {
+          "label": "注釈S/着席指定",
+          "amount": null
+        },
+        {
+          "label": "注釈A",
+          "amount": null
+        },
+        {
+          "label": "注釈A/着席指定",
+          "amount": null
+        },
+        {
+          "label": "立ち見",
+          "amount": null
         }
       ],
       "source": "system",
