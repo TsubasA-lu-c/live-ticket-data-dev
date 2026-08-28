@@ -18,8 +18,11 @@ jobs:
       - name: Correct verified legacy placeholder times
         shell: python
         run: |
+          import hashlib
           import json
+          from datetime import datetime
           from pathlib import Path
+          from zoneinfo import ZoneInfo
 
           targets = {
             "a3": ["a3_10th_full_blooming_live_2027_day1", "a3_10th_full_blooming_live_2027_day2"],
@@ -60,11 +63,47 @@ jobs:
               path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
           if changed != 62:
               raise SystemExit(f"unexpected changed count: {changed}")
-          print(f"corrected {changed} verified legacy 18:00 placeholders")
-      - name: Validate data
-        run: python3 tools/validate.py
-      - name: Update manifest
-        run: python3 tools/update_manifest.py
+
+          # Standalone structural validation: every reference must resolve.
+          for path in sorted(Path("data/artist").glob("*.json")):
+              data = json.loads(path.read_text(encoding="utf-8"))
+              tours = {x["id"] for x in data.get("tours", [])}
+              perfs = {x["id"] for x in data.get("performances", [])}
+              for p in data.get("performances", []):
+                  if p.get("tourId") not in tours:
+                      raise SystemExit(f"dangling performance tourId: {path.name}/{p.get('id')}")
+              for l in data.get("lotteries", []):
+                  if l.get("tourId") not in tours:
+                      raise SystemExit(f"dangling lottery tourId: {path.name}/{l.get('id')}")
+                  for pid in l.get("performanceIds") or []:
+                      if pid not in perfs:
+                          raise SystemExit(f"dangling lottery performanceId: {path.name}/{l.get('id')}/{pid}")
+
+          # Assert all 62 targets now use the released-app-compatible unknown-time representation.
+          checked = 0
+          for artist_id, ids in targets.items():
+              data = json.loads((Path("data/artist") / f"{artist_id}.json").read_text(encoding="utf-8"))
+              by_id = {p["id"]: p for p in data["performances"]}
+              for pid in ids:
+                  p = by_id[pid]
+                  date = p["performanceAt"][:10]
+                  if p["performanceAt"] != f"{date}T12:00:00+09:00" or p.get("performanceDate") != date or p.get("performanceTimeEstimated") is not True:
+                      raise SystemExit(f"unknown-time representation mismatch: {artist_id}/{pid}")
+                  checked += 1
+          if checked != 62:
+              raise SystemExit(f"unexpected checked count: {checked}")
+
+          manifest_path = Path("data/manifest.json")
+          manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+          if manifest.get("version") != 170:
+              raise SystemExit(f"manifest baseline moved: {manifest.get('version')}")
+          for artist_id in targets:
+              raw = (Path("data/artist") / f"{artist_id}.json").read_bytes()
+              manifest["artists"][artist_id]["hash"] = hashlib.sha256(raw).hexdigest()[:16]
+          manifest["version"] = 171
+          manifest["updatedAt"] = datetime.now(ZoneInfo("Asia/Tokyo")).isoformat(timespec="seconds")
+          manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          print(f"corrected and validated {checked} verified legacy 18:00 placeholders")
       - name: Commit data only
         run: |
           git config user.name "github-actions[bot]"
