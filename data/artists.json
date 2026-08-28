@@ -576,7 +576,8 @@
     "name": "緑黄色社会",
     "aliases": [
       "リョクシャカ",
-      "緑黄色社会"
+      "緑黄色社会",
+      "リョクオウショクシャカイ"
     ],
     "genre": "バンド",
     "imageUrl": null,
@@ -770,7 +771,8 @@
     "name": "テニスの王子様 Musical",
     "aliases": [
       "テニミュ",
-      "ミュージカルテニスの王子様"
+      "ミュージカルテニスの王子様",
+      "テニスノオウジサマミュージカル"
     ],
     "genre": "アニメ・2.5次元",
     "imageUrl": null,
@@ -806,7 +808,8 @@
     "name": "ずっと真夜中でいいのに。",
     "aliases": [
       "ずとまよ",
-      "ZUTOMAYO"
+      "ZUTOMAYO",
+      "ズットマヨナカデイイノニ"
     ],
     "genre": "ユニット",
     "imageUrl": null,
@@ -828,7 +831,8 @@
     "name": "ももいろクローバーZ",
     "aliases": [
       "ももクロ",
-      "モモクロ"
+      "モモクロ",
+      "モモイロクローバーゼット"
     ],
     "genre": "アイドル",
     "imageUrl": null,
@@ -955,7 +959,9 @@
   {
     "id": "glay",
     "name": "GLAY",
-    "aliases": [],
+    "aliases": [
+      "グレイ"
+    ],
     "genre": "バンド",
     "imageUrl": null,
     "source": "system",
@@ -1714,7 +1720,8 @@
     "name": "僕が見たかった青空",
     "aliases": [
       "僕青",
-      "ぼくあおぞら"
+      "ぼくあおぞら",
+      "ボクガミタカッタアオゾラ"
     ],
     "genre": "アイドル",
     "imageUrl": null,
@@ -2170,7 +2177,8 @@
     "id": "bullet_train",
     "name": "超特急",
     "aliases": [
-      "BULLET TRAIN"
+      "BULLET TRAIN",
+      "チョウトッキュウ"
     ],
     "genre": "アイドル",
     "imageUrl": null,
@@ -2191,7 +2199,8 @@
     "id": "illit",
     "name": "ILLIT",
     "aliases": [
-      "아일릿"
+      "아일릿",
+      "アイリット"
     ],
     "genre": "K-POP",
     "imageUrl": null,
@@ -2211,7 +2220,10 @@
   {
     "id": "one_n_only",
     "name": "ONE N' ONLY",
-    "aliases": [],
+    "aliases": [
+      "ワンエンオンリー",
+      "ワンエン"
+    ],
     "genre": "ダンス&ボーカル",
     "imageUrl": null,
     "source": "system",
@@ -2230,7 +2242,9 @@
   {
     "id": "candy_tune",
     "name": "CANDY TUNE",
-    "aliases": [],
+    "aliases": [
+      "キャンディーチューン"
+    ],
     "genre": "アイドル",
     "imageUrl": null,
     "source": "system",
@@ -2249,7 +2263,9 @@
   {
     "id": "boynextdoor",
     "name": "BOYNEXTDOOR",
-    "aliases": [],
+    "aliases": [
+      "ボーイネクストドア"
+    ],
     "genre": "K-POP",
     "imageUrl": null,
     "source": "system",
@@ -2268,7 +2284,10 @@
   {
     "id": "saucy_dog",
     "name": "Saucy Dog",
-    "aliases": [],
+    "aliases": [
+      "サウシードッグ",
+      "サウシー"
+    ],
     "genre": "バンド",
     "imageUrl": null,
     "source": "system",
@@ -2287,7 +2306,9 @@
   {
     "id": "ateez",
     "name": "ATEEZ",
-    "aliases": [],
+    "aliases": [
+      "エイティーズ"
+    ],
     "genre": "K-POP",
     "imageUrl": null,
     "source": "system",
@@ -2306,7 +2327,9 @@
   {
     "id": "niziu",
     "name": "NiziU",
-    "aliases": [],
+    "aliases": [
+      "ニジュー"
+    ],
     "genre": "アイドル",
     "imageUrl": null,
     "source": "system",
@@ -2325,7 +2348,9 @@
   {
     "id": "xg",
     "name": "XG",
-    "aliases": [],
+    "aliases": [
+      "エックスジー"
+    ],
     "genre": "ダンス&ボーカル",
     "imageUrl": null,
     "source": "system",
@@ -2345,7 +2370,8 @@
     "id": "nakajima_kento",
     "name": "中島健人",
     "aliases": [
-      "Kento Nakajima"
+      "Kento Nakajima",
+      "ナカジマケント"
     ],
     "genre": "ソロ",
     "imageUrl": null,
