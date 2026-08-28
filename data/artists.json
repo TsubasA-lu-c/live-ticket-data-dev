@@ -767,20 +767,6 @@
     }
   },
   {
-    "id": "tennimu",
-    "name": "テニスの王子様 Musical",
-    "aliases": [
-      "テニミュ",
-      "ミュージカルテニスの王子様",
-      "テニスノオウジサマミュージカル"
-    ],
-    "genre": "アニメ・2.5次元",
-    "imageUrl": null,
-    "source": "system",
-    "sourceUrl": "https://www.tennimu.com/4th_2026rikkai_1/ticket/",
-    "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
-  },
-  {
     "id": "touken_ranbu_musical",
     "name": "刀剣男士（刀ミュ）",
     "aliases": [
