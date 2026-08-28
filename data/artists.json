@@ -2373,5 +2373,17 @@
       "textColor3": "2f3740",
       "textColor4": "445360"
     }
+  },
+  {
+    "id": "aiko",
+    "name": "aiko",
+    "aliases": [
+      "アイコ"
+    ],
+    "genre": "ソロ",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.aiko.com/",
+    "lastVerifiedAt": "2026-08-29T07:24:54+09:00"
   }
 ]

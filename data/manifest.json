@@ -1,9 +1,9 @@
 {
-  "version": 175,
-  "updatedAt": "2026-08-29T00:55:01+09:00",
+  "version": 176,
+  "updatedAt": "2026-08-29T07:32:25+09:00",
   "files": {
     "artists": {
-      "hash": "1964f0452fdb3d27"
+      "hash": "4217bc246eab84a3"
     }
   },
   "artists": {
@@ -339,6 +339,9 @@
     },
     "xg": {
       "hash": "226fe4cd94f077da"
+    },
+    "aiko": {
+      "hash": "2349a614065675ca"
     }
   }
 }
