@@ -392,25 +392,29 @@
       "id": "lisa_asia_tour_15_seoul_2026_0801",
       "tourId": "lisa_asia_tour_15_seoul_2026",
       "venue": "Olympic Park Olympic Hall（ソウル）",
-      "performanceAt": "2026-08-01T18:00:00+09:00",
+      "performanceAt": "2026-08-01T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://ticket.melon.com/performance/index.htm?prodId=212918",
-      "lastVerifiedAt": "2026-08-17T23:05:00+09:00"
+      "lastVerifiedAt": "2026-08-28T20:00:00+09:00",
+      "performanceDate": "2026-08-01",
+      "performanceTimeEstimated": true
     },
     {
       "id": "lisa_asia_tour_15_seoul_2026_0802",
       "tourId": "lisa_asia_tour_15_seoul_2026",
       "venue": "Olympic Park Olympic Hall（ソウル）",
-      "performanceAt": "2026-08-02T18:00:00+09:00",
+      "performanceAt": "2026-08-02T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://ticket.melon.com/performance/index.htm?prodId=212918",
-      "lastVerifiedAt": "2026-08-17T23:05:00+09:00"
+      "lastVerifiedAt": "2026-08-28T20:00:00+09:00",
+      "performanceDate": "2026-08-02",
+      "performanceTimeEstimated": true
     },
     {
       "id": "lisa_live_is_smile_always_15_japan_2026_budokan_0417",

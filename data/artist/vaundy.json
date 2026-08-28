@@ -481,25 +481,29 @@
       "id": "vaundy_japan_arena_2728_kanagawa_1127",
       "tourId": "vaundy_japan_arena_2728",
       "venue": "横浜某所",
-      "performanceAt": "2027-11-27T18:00:00+09:00",
+      "performanceAt": "2027-11-27T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-28T20:00:00+09:00",
+      "performanceDate": "2027-11-27",
+      "performanceTimeEstimated": true
     },
     {
       "id": "vaundy_japan_arena_2728_kanagawa_1128",
       "tourId": "vaundy_japan_arena_2728",
       "venue": "横浜某所",
-      "performanceAt": "2027-11-28T18:00:00+09:00",
+      "performanceAt": "2027-11-28T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-28T20:00:00+09:00",
+      "performanceDate": "2027-11-28",
+      "performanceTimeEstimated": true
     },
     {
       "id": "vaundy_japan_arena_2728_fukui_1211",

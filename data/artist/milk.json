@@ -403,13 +403,15 @@
       "id": "milk_love_engine_6shot_sendoff_2026_tokyo_0916",
       "tourId": "milk_love_engine_6shot_sendoff_2026",
       "venue": "東京都内某所",
-      "performanceAt": "2026-09-16T18:00:00+09:00",
+      "performanceAt": "2026-09-16T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": "『LOVE ENG!NE』発売記念 6SHOT撮影会＆メンバー全員お見送り会",
       "source": "system",
       "sourceUrl": "https://sd-milk.com/contents/1098315",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-28T20:00:00+09:00",
+      "performanceDate": "2026-09-16",
+      "performanceTimeEstimated": true
     },
     {
       "id": "milk_kanshasai_2026_20260506_1",

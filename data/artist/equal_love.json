@@ -331,25 +331,29 @@
       "id": "equal_love_tokyo_dome_2027_dome_0119",
       "tourId": "equal_love_tokyo_dome_2027",
       "venue": "東京ドーム",
-      "performanceAt": "2027-01-19T18:00:00+09:00",
+      "performanceAt": "2027-01-19T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://equal-love.jp/news/detail/11613",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-28T20:00:00+09:00",
+      "performanceDate": "2027-01-19",
+      "performanceTimeEstimated": true
     },
     {
       "id": "equal_love_tokyo_dome_2027_dome_0120",
       "tourId": "equal_love_tokyo_dome_2027",
       "venue": "東京ドーム",
-      "performanceAt": "2027-01-20T18:00:00+09:00",
+      "performanceAt": "2027-01-20T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://equal-love.jp/news/detail/11613",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-28T20:00:00+09:00",
+      "performanceDate": "2027-01-20",
+      "performanceTimeEstimated": true
     },
     {
       "id": "equal_love_birthday_event_2026_08_morohashi_0820",

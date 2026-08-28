@@ -18,49 +18,57 @@
       "id": "king_gnu_10th_anniversary_kickoff_2027_tokyo_0217",
       "tourId": "king_gnu_10th_anniversary_kickoff_2027",
       "venue": "東京ドーム",
-      "performanceAt": "2027-02-17T18:00:00+09:00",
+      "performanceAt": "2027-02-17T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/kinggnu/info/585061",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-28T20:00:00+09:00",
+      "performanceDate": "2027-02-17",
+      "performanceTimeEstimated": true
     },
     {
       "id": "king_gnu_10th_anniversary_kickoff_2027_tokyo_0218",
       "tourId": "king_gnu_10th_anniversary_kickoff_2027",
       "venue": "東京ドーム",
-      "performanceAt": "2027-02-18T18:00:00+09:00",
+      "performanceAt": "2027-02-18T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/kinggnu/info/585061",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-28T20:00:00+09:00",
+      "performanceDate": "2027-02-18",
+      "performanceTimeEstimated": true
     },
     {
       "id": "king_gnu_10th_anniversary_kickoff_2027_osaka_0313",
       "tourId": "king_gnu_10th_anniversary_kickoff_2027",
       "venue": "京セラドーム大阪",
-      "performanceAt": "2027-03-13T18:00:00+09:00",
+      "performanceAt": "2027-03-13T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/kinggnu/info/585061",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-28T20:00:00+09:00",
+      "performanceDate": "2027-03-13",
+      "performanceTimeEstimated": true
     },
     {
       "id": "king_gnu_10th_anniversary_kickoff_2027_osaka_0314",
       "tourId": "king_gnu_10th_anniversary_kickoff_2027",
       "venue": "京セラドーム大阪",
-      "performanceAt": "2027-03-14T18:00:00+09:00",
+      "performanceAt": "2027-03-14T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/kinggnu/info/585061",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-28T20:00:00+09:00",
+      "performanceDate": "2027-03-14",
+      "performanceTimeEstimated": true
     }
   ],
   "lotteries": [],

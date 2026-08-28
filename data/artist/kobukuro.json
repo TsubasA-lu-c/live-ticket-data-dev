@@ -353,25 +353,29 @@
       "id": "kobukuro_event_kasumibiyori_serial_campaign_2026_tokyo_1123",
       "tourId": "kobukuro_event_kasumibiyori_serial_campaign_2026",
       "venue": "東京ポートシティ竹芝 ポートホール",
-      "performanceAt": "2026-11-23T18:00:00+09:00",
+      "performanceAt": "2026-11-23T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": "「霞日和／Starry Smile Story」発売記念 豪華シリアルキャンペーンイベント",
       "source": "system",
       "sourceUrl": "https://kobukuro.com/feature/kobukuro_kasumibiyori",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-28T20:00:00+09:00",
+      "performanceDate": "2026-11-23",
+      "performanceTimeEstimated": true
     },
     {
       "id": "kobukuro_event_kasumibiyori_serial_campaign_2026_osaka_1206",
       "tourId": "kobukuro_event_kasumibiyori_serial_campaign_2026",
       "venue": "Minaさかい（堺市市民交流広場）",
-      "performanceAt": "2026-12-06T18:00:00+09:00",
+      "performanceAt": "2026-12-06T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": "「霞日和／Starry Smile Story」発売記念 豪華シリアルキャンペーンイベント",
       "source": "system",
       "sourceUrl": "https://kobukuro.com/feature/kobukuro_kasumibiyori",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-28T20:00:00+09:00",
+      "performanceDate": "2026-12-06",
+      "performanceTimeEstimated": true
     }
   ],
   "lotteries": [

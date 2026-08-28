@@ -133,13 +133,15 @@
       "id": "ini_2026_live_events_from_ini_1031",
       "tourId": "ini_2026_live_events",
       "venue": null,
-      "performanceAt": "2026-10-31T18:00:00+09:00",
+      "performanceAt": "2026-10-31T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": "9TH SINGLE『ANTHEM』リリース＆INIデビュー5周年記念スペシャル「From INI」公開収録イベント",
       "source": "system",
       "sourceUrl": "https://ini-official.com/news/detail/4219",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-28T20:00:00+09:00",
+      "performanceDate": "2026-10-31",
+      "performanceTimeEstimated": true
     },
     {
       "id": "ini_5th_anniversary_dome_2026_tokyo_0917",
