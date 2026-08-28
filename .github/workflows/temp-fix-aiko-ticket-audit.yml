@@ -1,0 +1,279 @@
+name: Temporary aiko ticket audit remediation
+
+on:
+  push:
+    branches:
+      - fix/aiko-ticket-audit-20260829
+    paths:
+      - '.github/workflows/temp-fix-aiko-ticket-audit.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  remediate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Apply reviewed aiko lottery remediation
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import hashlib
+          import json
+          from datetime import datetime, timezone, timedelta
+          from pathlib import Path
+
+          detail_path = Path('data/artist/aiko.json')
+          manifest_path = Path('data/manifest.json')
+          raw = detail_path.read_text(encoding='utf-8')
+          before = json.loads(raw)
+          apple_before = json.dumps(before.get('appleMusicTracks'), ensure_ascii=False, sort_keys=True)
+
+          rename = {
+            'aiko_llp26_baby_peenats_main': 'aiko_llp26_2026_2027_baby_peenats_main',
+            'aiko_llp26_team_aiko_main': 'aiko_llp26_2026_2027_team_aiko_main',
+            'aiko_llp26_official_main': 'aiko_llp26_2026_2027_official_main',
+            'aiko_llp26_official_overseas_main': 'aiko_llp26_2026_2027_official_overseas_main',
+            'aiko_llp26_official_2nd_main': 'aiko_llp26_2026_2027_official_2nd_main',
+            'aiko_llp26_baby_peenats_added': 'aiko_llp26_2026_2027_baby_peenats_added',
+            'aiko_llp26_album17_added': 'aiko_llp26_2026_2027_album17_added',
+            'aiko_llp26_official_final_main': 'aiko_llp26_2026_2027_official_final_main',
+            'aiko_llp26_team_aiko_added': 'aiko_llp26_2026_2027_team_aiko_added',
+            'aiko_llp26_official_added': 'aiko_llp26_2026_2027_official_added',
+            'aiko_llp26_official_overseas_added': 'aiko_llp26_2026_2027_official_overseas_added',
+          }
+
+          # Freshly-added IDs must not have acquired references outside this artist file.
+          for old in rename:
+              hits = []
+              for p in Path('.').rglob('*'):
+                  if not p.is_file() or p == detail_path or '.git' in p.parts:
+                      continue
+                  try:
+                      if old in p.read_text(encoding='utf-8'):
+                          hits.append(str(p))
+                  except (UnicodeDecodeError, OSError):
+                      pass
+              if hits:
+                  raise SystemExit(f'cannot rename {old}; external references found: {hits}')
+
+          source_by_old_id = {
+            'aiko_llp25_2026_baby_peenats_front': 'https://www.aiko.com/live/?id=33',
+            'aiko_llp25_2026_team_aiko_front': 'https://www.aiko.com/live/?id=33',
+            'aiko_llp25_2026_official_front': 'https://www.aiko.com/live/?id=33',
+            'aiko_llp25_2026_official_overseas_front': 'https://www.aiko.com/live/?id=33',
+            'aiko_llp25_2026_general_front': 'https://www.aiko.com/live/?id=33',
+            'aiko_llp25_2026_baby_peenats_back': 'https://www.aiko.com/live/?id=33',
+            'aiko_llp25_2026_team_aiko_back': 'https://www.aiko.com/live/?id=33',
+            'aiko_llp25_2026_official_back': 'https://www.aiko.com/live/?id=33',
+            'aiko_llp25_2026_official_overseas_back': 'https://www.aiko.com/live/?id=33',
+            'aiko_llp25_2026_general_back': 'https://www.aiko.com/live/?id=33',
+            'aiko_llp26_baby_peenats_main': 'https://www.aiko.com/topics/?id=7991',
+            'aiko_llp26_team_aiko_main': 'https://www.aiko.com/topics/?id=7991',
+            'aiko_llp26_official_main': 'https://www.aiko.com/topics/?id=8010',
+            'aiko_llp26_official_overseas_main': 'https://www.aiko.com/topics/?id=8010',
+            'aiko_llp26_official_2nd_main': 'https://eplus.jp/sf/detail/0005810001',
+            'aiko_llp26_baby_peenats_added': 'https://www.aiko.com/topics/?id=8018',
+            'aiko_llp26_album17_added': 'https://www.aiko.com/topics/?id=8013',
+            'aiko_llp26_official_final_main': 'https://www.aiko.com/topics/?id=8018',
+            'aiko_llp26_team_aiko_added': 'https://www.aiko.com/topics/?id=8018',
+            'aiko_llp26_official_added': 'https://www.aiko.com/topics/?id=8018',
+            'aiko_llp26_official_overseas_added': 'https://www.aiko.com/topics/?id=8018',
+          }
+
+          JST = timezone(timedelta(hours=9))
+          verified = datetime.now(JST).strftime('%Y-%m-%dT%H:%M:%S+09:00')
+
+          lines = raw.splitlines()
+          out = []
+          changed_existing = set()
+          for line in lines:
+              stripped = line.strip()
+              if stripped.startswith('{"id":') and ('"tourId":"aiko_llp25_2026"' in stripped or '"tourId":"aiko_llp26_2026_2027"' in stripped):
+                  comma = stripped.endswith(',')
+                  payload = stripped[:-1] if comma else stripped
+                  try:
+                      obj = json.loads(payload)
+                  except json.JSONDecodeError:
+                      out.append(line)
+                      continue
+                  oid = obj.get('id')
+                  if oid in source_by_old_id or oid in rename:
+                      if oid in source_by_old_id:
+                          obj['sourceUrl'] = source_by_old_id[oid]
+                      if oid in rename:
+                          obj['id'] = rename[oid]
+                      obj['lastVerifiedAt'] = verified
+                      changed_existing.add(oid)
+                      indent = line[:len(line)-len(line.lstrip())]
+                      line = indent + json.dumps(obj, ensure_ascii=False, separators=(',', ':')) + (',' if comma else '')
+              out.append(line)
+
+          missing = set(source_by_old_id) - changed_existing
+          if missing:
+              raise SystemExit(f'expected existing lotteries not found: {sorted(missing)}')
+
+          additions = [
+            {
+              'id': 'aiko_llp25_2026_sfp_web_hamamatsu',
+              'tourId': 'aiko_llp25_2026',
+              'type': 'SFP WEB会員受付（浜松公演）',
+              'entryStartAt': '2025-10-03T10:00:00+09:00',
+              'entryEndAt': '2025-10-06T23:59:00+09:00',
+              'resultAt': None,
+              'paymentStartAt': None,
+              'paymentEndAt': None,
+              'performanceIds': ['aiko_llp25_2026_hamamatsu_0121'],
+              'source': 'system',
+              'sourceUrl': 'https://www.sundayfolk.com/liveinfo/524bniy/',
+              'lastVerifiedAt': verified,
+            },
+            {
+              'id': 'aiko_llp25_2026_sfp_web_nagoya',
+              'tourId': 'aiko_llp25_2026',
+              'type': 'SFP WEB会員受付（愛知公演）',
+              'entryStartAt': '2025-12-19T10:00:00+09:00',
+              'entryEndAt': '2025-12-22T23:59:00+09:00',
+              'resultAt': None,
+              'paymentStartAt': None,
+              'paymentEndAt': None,
+              'performanceIds': ['aiko_llp25_2026_nagoya_0423', 'aiko_llp25_2026_nagoya_0424'],
+              'source': 'system',
+              'sourceUrl': 'https://www.sundayfolk.com/liveinfo/52ger3u/',
+              'lastVerifiedAt': verified,
+            },
+            {
+              'id': 'aiko_llp25_2026_candy_room',
+              'tourId': 'aiko_llp25_2026',
+              'type': 'CANDY ROOM会員先行（広島・米子公演）',
+              'entryStartAt': '2025-10-04T12:00:00+09:00',
+              'entryEndAt': '2025-10-13T23:59:00+09:00',
+              'resultAt': None,
+              'paymentStartAt': None,
+              'paymentEndAt': None,
+              'performanceIds': ['aiko_llp25_2026_hiroshima_0124', 'aiko_llp25_2026_hiroshima_0125', 'aiko_llp25_2026_yonago_0405'],
+              'source': 'system',
+              'sourceUrl': 'https://fan.pia.jp/candy/ticket/detail/626/',
+              'lastVerifiedAt': verified,
+            },
+            {
+              'id': 'aiko_llp26_2026_2027_eplus_preorder_aichi',
+              'tourId': 'aiko_llp26_2026_2027',
+              'type': 'イープラス プレオーダー（愛知公演）',
+              'entryStartAt': '2026-08-26T12:00:00+09:00',
+              'entryEndAt': '2026-09-06T23:59:00+09:00',
+              'resultAt': None,
+              'paymentStartAt': None,
+              'paymentEndAt': None,
+              'performanceIds': ['aiko_llp26_2026_2027_nagoya_1202', 'aiko_llp26_2026_2027_nagoya_1203'],
+              'source': 'system',
+              'sourceUrl': 'https://eplus.jp/sf/detail/0005810001',
+              'lastVerifiedAt': verified,
+            },
+            {
+              'id': 'aiko_llp26_2026_2027_pia_prereserve_aichi',
+              'tourId': 'aiko_llp26_2026_2027',
+              'type': 'チケットぴあ プレリザーブ（愛知公演）',
+              'entryStartAt': '2026-08-26T12:00:00+09:00',
+              'entryEndAt': '2026-09-06T23:59:00+09:00',
+              'resultAt': None,
+              'paymentStartAt': None,
+              'paymentEndAt': None,
+              'performanceIds': ['aiko_llp26_2026_2027_nagoya_1202', 'aiko_llp26_2026_2027_nagoya_1203'],
+              'source': 'system',
+              'sourceUrl': 'https://t.pia.jp/pia/artist/artists.do?artistsCd=11013184',
+              'lastVerifiedAt': verified,
+            },
+          ]
+
+          # Insert immediately before appleMusicTracks, preserving the compact one-record-per-line lottery style.
+          marker = '  "appleMusicTracks": ['
+          try:
+              marker_idx = out.index(marker)
+          except ValueError:
+              raise SystemExit('appleMusicTracks marker not found')
+          if marker_idx == 0 or out[marker_idx - 1] != '  ],':
+              raise SystemExit('unexpected lottery/appleMusicTracks boundary')
+          # Previous final lottery line has no comma; add one, then append new records, then close lotteries again.
+          j = marker_idx - 2
+          if not out[j].lstrip().startswith('{"id":'):
+              raise SystemExit('final lottery line not found')
+          if not out[j].rstrip().endswith(','):
+              out[j] = out[j] + ','
+          new_lines = []
+          for i, obj in enumerate(additions):
+              new_lines.append('    ' + json.dumps(obj, ensure_ascii=False, separators=(',', ':')) + (',' if i < len(additions)-1 else ''))
+          out[marker_idx - 1:marker_idx - 1] = new_lines
+
+          new_raw = '\n'.join(out) + '\n'
+          detail_path.write_text(new_raw, encoding='utf-8')
+          after = json.loads(new_raw)
+
+          # Completion checks: no Apple Music mutation, exact counts, refs and ID naming.
+          apple_after = json.dumps(after.get('appleMusicTracks'), ensure_ascii=False, sort_keys=True)
+          if apple_before != apple_after:
+              raise SystemExit('Apple Music data changed unexpectedly')
+          lotteries = after.get('lotteries') or []
+          if len(lotteries) != 26:
+              raise SystemExit(f'expected 26 lotteries, got {len(lotteries)}')
+          perf_ids = {p['id'] for p in after.get('performances', [])}
+          seen = set()
+          for lot in lotteries:
+              lid = lot['id']
+              if lid in seen:
+                  raise SystemExit(f'duplicate lottery id: {lid}')
+              seen.add(lid)
+              if not lid.startswith(lot['tourId'] + '_'):
+                  raise SystemExit(f'lottery id violates tour prefix: {lid}')
+              for pid in lot.get('performanceIds') or []:
+                  if pid not in perf_ids:
+                      raise SystemExit(f'broken performance ref {pid} in {lid}')
+          for old in rename:
+              if old in seen:
+                  raise SystemExit(f'old LLP26 lottery id remains: {old}')
+
+          def h16(path):
+              return hashlib.sha256(path.read_bytes()).hexdigest()[:16]
+
+          manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+          manifest['version'] = int(manifest.get('version', 0)) + 1
+          manifest['updatedAt'] = verified
+          manifest.setdefault('artists', {}).setdefault('aiko', {})['hash'] = h16(detail_path)
+          manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          for p in Path('data').rglob('*.json'):
+              json.loads(p.read_text(encoding='utf-8'))
+
+          print(json.dumps({
+              'lotteryCount': len(lotteries),
+              'added': [x['id'] for x in additions],
+              'renamed': rename,
+              'appleMusicUnchanged': True,
+              'manifestVersion': manifest['version'],
+          }, ensure_ascii=False, indent=2))
+          PY
+
+      - name: Verify intended diff
+        shell: bash
+        run: |
+          set -euo pipefail
+          git diff --check
+          changed="$(git diff --name-only | sort)"
+          expected="$(printf '%s\n' data/artist/aiko.json data/manifest.json | sort)"
+          test "$changed" = "$expected" || { echo 'Unexpected diff:'; echo "$changed"; exit 1; }
+          git status --short
+          git diff --stat
+
+      - name: Commit remediation
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- data/artist/aiko.json data/manifest.json
+          git diff --cached --quiet && exit 0
+          git commit -m 'data: remediate aiko ticket coverage'
+          git push origin HEAD:fix/aiko-ticket-audit-20260829
