@@ -1,0 +1,75 @@
+name: Fix legacy 18:00 defaults 2026-08-28
+
+on:
+  push:
+    branches:
+      - fix/legacy-18-defaults-20260828
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: fix/legacy-18-defaults-20260828
+      - name: Correct verified legacy placeholder times
+        shell: python
+        run: |
+          import json
+          from pathlib import Path
+
+          targets = {
+            "a3": ["a3_10th_full_blooming_live_2027_day1", "a3_10th_full_blooming_live_2027_day2"],
+            "aimyon": ["aimyon_tour_2027_kanagawa_pia_0206", "aimyon_tour_2027_kanagawa_pia_0207", "aimyon_tour_2027_fukui_0213", "aimyon_tour_2027_fukui_0214", "aimyon_tour_2027_niigata_0220", "aimyon_tour_2027_niigata_0221", "aimyon_tour_2027_kanagawa_karena_mar_0313", "aimyon_tour_2027_kanagawa_karena_mar_0314", "aimyon_tour_2027_miyagi_0320", "aimyon_tour_2027_miyagi_0321", "aimyon_tour_2027_tokyo_0331", "aimyon_tour_2027_tokyo_0401", "aimyon_tour_2027_hyogo_apr_0417", "aimyon_tour_2027_hyogo_apr_0418", "aimyon_tour_2027_aichi_apr_0421", "aimyon_tour_2027_aichi_apr_0422", "aimyon_tour_2027_shizuoka_0428", "aimyon_tour_2027_shizuoka_0429", "aimyon_tour_2027_kanagawa_karena_may_0502", "aimyon_tour_2027_kanagawa_karena_may_0503", "aimyon_tour_2027_osaka_0512", "aimyon_tour_2027_osaka_0513", "aimyon_tour_2027_kagawa_0529", "aimyon_tour_2027_kagawa_0530", "aimyon_tour_2027_aichi_jun_0605", "aimyon_tour_2027_aichi_jun_0606", "aimyon_tour_2027_hokkaido_0612", "aimyon_tour_2027_hokkaido_0613", "aimyon_tour_2027_hyogo_jun_0622", "aimyon_tour_2027_hyogo_jun_0623", "aimyon_tour_2027_hiroshima_0626", "aimyon_tour_2027_hiroshima_0627", "aimyon_tour_2027_fukuoka_0703", "aimyon_tour_2027_fukuoka_0704", "aimyon_tour_2027_okinawa_0710", "aimyon_tour_2027_okinawa_0711"],
+            "and_team": ["and_team_event_mark_on_me_talk_2026_kyoto_1117", "and_team_event_mark_on_me_talk_2026_kanagawa_0112", "and_team_event_mark_on_me_talk_2026_aichi_0130"],
+            "equal_love": ["equal_love_tokyo_dome_2027_dome_0119", "equal_love_tokyo_dome_2027_dome_0120"],
+            "king_gnu": ["king_gnu_10th_anniversary_kickoff_2027_tokyo_0217", "king_gnu_10th_anniversary_kickoff_2027_tokyo_0218", "king_gnu_10th_anniversary_kickoff_2027_osaka_0313", "king_gnu_10th_anniversary_kickoff_2027_osaka_0314"],
+            "kobukuro": ["kobukuro_event_kasumibiyori_serial_campaign_2026_tokyo_1123", "kobukuro_event_kasumibiyori_serial_campaign_2026_osaka_1206"],
+            "lisa": ["lisa_asia_tour_15_seoul_2026_0801", "lisa_asia_tour_15_seoul_2026_0802"],
+            "tomorrow_x_together": ["tomorrow_x_together_event_setsuna_hanabi_two_shot_2026_tokyo_0923", "tomorrow_x_together_event_setsuna_hanabi_two_shot_2026_osaka_1103"],
+            "uta_no_prince_sama": ["uta_no_prince_sama_15th_we_love_starish_2027_yokohama_0123", "uta_no_prince_sama_15th_we_love_starish_2027_yokohama_0124", "uta_no_prince_sama_15th_we_love_starish_2027_aichi_0130", "uta_no_prince_sama_15th_we_love_starish_2027_aichi_0131"],
+            "enhypen": ["enhypen_the_sin_bliss_showcase_2026_toyosu_0904"],
+            "milk": ["milk_love_engine_6shot_sendoff_2026_tokyo_0916"],
+            "vaundy": ["vaundy_japan_arena_2728_kanagawa_1127", "vaundy_japan_arena_2728_kanagawa_1128"],
+            "ini": ["ini_2026_live_events_from_ini_1031"]
+          }
+          verified_at = "2026-08-28T20:00:00+09:00"
+          changed = 0
+          for artist_id, ids in targets.items():
+              path = Path("data/artist") / f"{artist_id}.json"
+              data = json.loads(path.read_text(encoding="utf-8"))
+              by_id = {p["id"]: p for p in data.get("performances", [])}
+              for pid in ids:
+                  p = by_id.get(pid)
+                  if p is None:
+                      raise SystemExit(f"missing target: {artist_id}/{pid}")
+                  old = p.get("performanceAt")
+                  if not isinstance(old, str) or "T18:00:00+09:00" not in old:
+                      raise SystemExit(f"target baseline moved: {artist_id}/{pid}={old}")
+                  if p.get("performanceTimeEstimated") is True:
+                      raise SystemExit(f"already estimated: {artist_id}/{pid}")
+                  date = old[:10]
+                  p["performanceAt"] = f"{date}T12:00:00+09:00"
+                  p["performanceDate"] = date
+                  p["performanceTimeEstimated"] = True
+                  p["lastVerifiedAt"] = verified_at
+                  changed += 1
+              path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          if changed != 62:
+              raise SystemExit(f"unexpected changed count: {changed}")
+          print(f"corrected {changed} verified legacy 18:00 placeholders")
+      - name: Validate data
+        run: python3 tools/validate.py
+      - name: Update manifest
+        run: python3 tools/update_manifest.py
+      - name: Commit data only
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/artist/a3.json data/artist/aimyon.json data/artist/and_team.json data/artist/equal_love.json data/artist/king_gnu.json data/artist/kobukuro.json data/artist/lisa.json data/artist/tomorrow_x_together.json data/artist/uta_no_prince_sama.json data/artist/enhypen.json data/artist/milk.json data/artist/vaundy.json data/artist/ini.json data/manifest.json
+          git diff --cached --quiet && exit 1
+          git commit -m "fix: remove verified legacy 18:00 placeholder times"
+          git push origin HEAD:fix/legacy-18-defaults-20260828
