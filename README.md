@@ -18,6 +18,6 @@
 
 このファイルは人物相関図の網羅リストではなく、ライブ表示方針についてユーザー判断が済んだ関係だけを保持するallowlistです。未掲載の関係を「無関係」と解釈してはいけません。
 
-スキーマ・Artist ID参照・relation type・direction・重複/矛盾の検証は非公開の収集基盤 `TsubasA-lu-c/chatgpt-workspace/live-ticket-collector/source/tools/validate.py` で行います。
+スキーマ・Artist ID参照・relation type・direction・重複/矛盾は、非公開の収集基盤 `TsubasA-lu-c/chatgpt-workspace/live-ticket-collector/source/tools/validate.py` の通常チェックに含まれます。relation専用ロジックは同基盤の `tools/validate_artist_relations.py` にあり、`validate.py` から呼び出されます。
 
 収集処理の内部実装は非公開です。
