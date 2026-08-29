@@ -264,8 +264,8 @@
       "startDate": "2026-08-30T00:00:00+09:00",
       "endDate": "2026-08-30T00:00:00+09:00",
       "source": "system",
-      "sourceUrl": "https://www.014014.jp/schedule/live",
-      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "sourceUrl": "https://www.014014.jp/schedules/7689",
+      "lastVerifiedAt": "2026-08-29T20:17:00+09:00",
       "relationDisplay": {
         "sourceArtistId": "oishi_masayoshi",
         "sourceTourId": "oishi_masayoshi_kariuta3_kanagawa_0830",
@@ -281,7 +281,7 @@
       "endDate": "2026-09-05T00:00:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.014014.jp/news/7840",
-      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "lastVerifiedAt": "2026-08-29T20:17:00+09:00",
       "relationDisplay": {
         "sourceArtistId": "oishi_masayoshi",
         "sourceTourId": "oishi_masayoshi_kariuta3_okayama_0905",
@@ -313,7 +313,7 @@
       "endDate": "2026-09-19T00:00:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.014014.jp/schedules/7896",
-      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "lastVerifiedAt": "2026-08-29T20:17:00+09:00",
       "relationDisplay": {
         "sourceArtistId": "oishi_masayoshi",
         "sourceTourId": "oishi_masayoshi_kariuta3_aichi_0919",
@@ -720,13 +720,12 @@
     {
       "id": "oishi_masayoshi_kariuta3_kanagawa_0830_20260830",
       "tourId": "oishi_masayoshi_kariuta3_kanagawa_0830",
-      "venue": null,
-      "performanceAt": null,
+      "venue": "アリオ橋本 1Fグランドガーデン",
+      "performanceAt": "2026-08-30T14:00:00+09:00",
       "source": "system",
-      "sourceUrl": "https://www.014014.jp/schedule/live",
-      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
-      "kind": "oneman",
-      "performanceDate": "2026-08-30"
+      "sourceUrl": "https://www.014014.jp/schedules/7689",
+      "lastVerifiedAt": "2026-08-29T20:17:00+09:00",
+      "kind": "oneman"
     },
     {
       "id": "oishi_masayoshi_kariuta3_okayama_0905_20260905",
@@ -735,7 +734,7 @@
       "performanceAt": "2026-09-05T14:00:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.014014.jp/news/7840",
-      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "lastVerifiedAt": "2026-08-29T20:17:00+09:00",
       "kind": "oneman"
     },
     {
@@ -757,7 +756,7 @@
       "performanceAt": "2026-09-19T16:00:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.014014.jp/schedules/7896",
-      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "lastVerifiedAt": "2026-08-29T20:17:00+09:00",
       "kind": "oneman"
     },
     {
@@ -920,6 +919,64 @@
       "paymentDeadlineAt": "2026-08-02T23:59:00+09:00",
       "performanceIds": [
         "oishi_masayoshi_dialogue_1018_20261018"
+      ]
+    },
+    {
+      "id": "oishi_masayoshi_kariuta3_kanagawa_0830_cd_purchase",
+      "tourId": "oishi_masayoshi_kariuta3_kanagawa_0830",
+      "type": "CD購入整理券（抽選・終了）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-08-16T23:59:00+09:00",
+      "resultAt": "2026-08-18T18:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://hashimoto.ario.jp/event/2400014998/",
+      "lastVerifiedAt": "2026-08-29T20:17:00+09:00",
+      "performanceIds": [
+        "oishi_masayoshi_kariuta3_kanagawa_0830_20260830"
+      ]
+    },
+    {
+      "id": "oishi_masayoshi_kariuta3_okayama_0905_cd_purchase",
+      "tourId": "oishi_masayoshi_kariuta3_okayama_0905",
+      "type": "CD購入整理券（抽選・終了）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-08-26T23:59:00+09:00",
+      "resultAt": "2026-08-28T18:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/news/7840",
+      "lastVerifiedAt": "2026-08-29T20:17:00+09:00",
+      "ticketUrl": "https://ticket.ponycanyon.co.jp/pc/413",
+      "performanceIds": [
+        "oishi_masayoshi_kariuta3_okayama_0905_20260905"
+      ]
+    },
+    {
+      "id": "oishi_masayoshi_kariuta3_aichi_0919_cd_purchase",
+      "tourId": "oishi_masayoshi_kariuta3_aichi_0919",
+      "type": "CD購入整理券（抽選）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-09-02T23:59:00+09:00",
+      "resultAt": "2026-09-04T19:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/news/7890",
+      "lastVerifiedAt": "2026-08-29T20:17:00+09:00",
+      "ticketUrl": "https://ticket.ponycanyon.co.jp/pc/416",
+      "performanceIds": [
+        "oishi_masayoshi_kariuta3_aichi_0919_20260919"
+      ]
+    },
+    {
+      "id": "oishi_masayoshi_kariuta3_aichi_0919_club014_area",
+      "tourId": "oishi_masayoshi_kariuta3_aichi_0919",
+      "type": "CLUB014限定エリア（抽選）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-09-02T23:59:00+09:00",
+      "resultAt": "2026-09-04T19:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://club014.jp/news/?category_id=101&id=542",
+      "lastVerifiedAt": "2026-08-29T20:17:00+09:00",
+      "performanceIds": [
+        "oishi_masayoshi_kariuta3_aichi_0919_20260919"
       ]
     },
     {
