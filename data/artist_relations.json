@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "relations": [
+    {
+      "id": "oishi_masayoshi__masayoshi_oishi",
+      "type": "same_person_alias",
+      "artistIds": [
+        "oishi_masayoshi",
+        "masayoshi_oishi"
+      ],
+      "approvedByUser": true,
+      "note": "オーイシマサヨシ／大石昌良は同一人物の別名義。canonical sourceは正式出演名義で保持し、Dev deliveryではTour/Performance/Lotteryを双方向materializeする。mixed表示のtour.titleはsource名義prefix必須。"
+    },
+    {
+      "id": "bz__koshi_inaba",
+      "type": "independent_solo",
+      "artistIds": [
+        "bz",
+        "koshi_inaba"
+      ],
+      "approvedByUser": true,
+      "note": "B'zと稲葉浩志ソロは関連人物だが、チケノートのライブ表示では別活動としてdelivery materializeしない。"
+    }
+  ]
+}
