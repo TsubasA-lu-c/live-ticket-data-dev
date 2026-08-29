@@ -1,0 +1,282 @@
+name: Temporary Takatsukidamashii venue fix
+
+on:
+  push:
+    branches:
+      - fix/takatsukidamashii-venue-20260829
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: fix/takatsukidamashii-venue-20260829
+          fetch-depth: 0
+
+      - name: Patch canonical venue and materialize approved relations
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from __future__ import annotations
+          import copy
+          import hashlib
+          import json
+          from datetime import datetime, timezone, timedelta
+          from pathlib import Path
+
+          data_dir = Path('data')
+          artist_dir = data_dir / 'artist'
+          venue = '高槻市立桃園小学校グラウンド'
+          source_artist_id = 'oishi_masayoshi'
+          performance_id = 'oishi_masayoshi_takatsukidamashii_1011_20261011'
+
+          def read_json(path: Path):
+              return json.loads(path.read_text(encoding='utf-8'))
+
+          def write_json(path: Path, value):
+              path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          # Canonical fact update only. Existing source URL remains the official artist site.
+          source_path = artist_dir / f'{source_artist_id}.json'
+          source_doc = read_json(source_path)
+          matches = [p for p in source_doc.get('performances', []) if p.get('id') == performance_id]
+          if len(matches) != 1:
+              raise SystemExit(f'expected exactly one canonical performance, got {len(matches)}')
+          if matches[0].get('venue') not in (None, venue):
+              raise SystemExit(f'unexpected existing venue: {matches[0].get("venue")!r}')
+          matches[0]['venue'] = venue
+          write_json(source_path, source_doc)
+
+          # Exact merged Collector materialization semantics for approved live relations.
+          RELATION_DISPLAY_KEY = 'relationDisplay'
+          RELATION_MIRROR_KEY = 'relationMirror'
+
+          def mirror_id(target_artist_id: str, source_id: str) -> str:
+              return f'{target_artist_id}__rel__{source_id}'
+
+          def display_title(artist_name: str, official_title: str) -> str:
+              label = f'【{artist_name}】'
+              return official_title if official_title.startswith(label) else f'{label}{official_title}'
+
+          def artist_names() -> dict[str, str]:
+              artists = read_json(data_dir / 'artists.json')
+              if not isinstance(artists, list):
+                  raise ValueError('artists.json root must be array')
+              return {
+                  a['id']: a['name'] for a in artists
+                  if isinstance(a, dict) and isinstance(a.get('id'), str) and a.get('id')
+                  and isinstance(a.get('name'), str) and a.get('name')
+              }
+
+          def incoming_sources(relation_root):
+              incoming: dict[str, set[str]] = {}
+              for relation in relation_root.get('relations', []) or []:
+                  if not isinstance(relation, dict) or relation.get('approvedByUser') is not True:
+                      continue
+                  relation_type = relation.get('type')
+                  if relation_type == 'same_person_alias':
+                      ids = [v for v in (relation.get('artistIds') or []) if isinstance(v, str) and v]
+                      for target in ids:
+                          for source in ids:
+                              if source != target:
+                                  incoming.setdefault(target, set()).add(source)
+                  elif relation_type == 'group_member_included':
+                      parent = relation.get('parentArtistId')
+                      members = [v for v in (relation.get('memberArtistIds') or []) if isinstance(v, str) and v]
+                      if isinstance(parent, str) and parent:
+                          incoming.setdefault(parent, set()).update(m for m in members if m != parent)
+              return incoming
+
+          def dematerialize(document):
+              result = copy.deepcopy(document)
+              canonical_tours = []
+              for tour in result.get('tours', []) or []:
+                  if not isinstance(tour, dict):
+                      continue
+                  display = tour.get(RELATION_DISPLAY_KEY)
+                  if isinstance(display, dict) and display.get('mirrored') is True:
+                      continue
+                  tour = copy.deepcopy(tour)
+                  if isinstance(display, dict):
+                      official_title = display.get('officialTitle')
+                      if isinstance(official_title, str) and official_title:
+                          tour['title'] = official_title
+                      tour.pop(RELATION_DISPLAY_KEY, None)
+                  canonical_tours.append(tour)
+              result['tours'] = canonical_tours
+              result['performances'] = [
+                  copy.deepcopy(item) for item in (result.get('performances', []) or [])
+                  if isinstance(item, dict) and not isinstance(item.get(RELATION_MIRROR_KEY), dict)
+              ]
+              result['lotteries'] = [
+                  copy.deepcopy(item) for item in (result.get('lotteries', []) or [])
+                  if isinstance(item, dict) and not isinstance(item.get(RELATION_MIRROR_KEY), dict)
+              ]
+              return result
+
+          documents = {}
+          for path in sorted(artist_dir.glob('*.json')):
+              value = read_json(path)
+              if not isinstance(value, dict):
+                  raise ValueError(f'{path}: root must be object')
+              documents[path.stem] = value
+
+          relation_path = data_dir / 'artist_relations.json'
+          relation_root = read_json(relation_path)
+          names = artist_names()
+          canonical = {aid: dematerialize(doc) for aid, doc in documents.items()}
+          output = copy.deepcopy(canonical)
+          incoming = incoming_sources(relation_root)
+
+          for target_id in sorted(incoming):
+              target_doc = output[target_id]
+              target_name = names[target_id]
+              for tour in target_doc.get('tours', []) or []:
+                  if not isinstance(tour, dict):
+                      continue
+                  title, tour_id = tour.get('title'), tour.get('id')
+                  if not isinstance(title, str) or not isinstance(tour_id, str):
+                      continue
+                  tour['title'] = display_title(target_name, title)
+                  tour[RELATION_DISPLAY_KEY] = {
+                      'sourceArtistId': target_id,
+                      'sourceTourId': tour_id,
+                      'officialTitle': title,
+                      'mirrored': False,
+                  }
+
+              for source_id in sorted(incoming[target_id]):
+                  source_doc = canonical[source_id]
+                  source_name = names[source_id]
+                  source_performances = [i for i in (source_doc.get('performances', []) or []) if isinstance(i, dict)]
+                  source_lotteries = [i for i in (source_doc.get('lotteries', []) or []) if isinstance(i, dict)]
+                  for source_tour in source_doc.get('tours', []) or []:
+                      if not isinstance(source_tour, dict):
+                          continue
+                      source_tour_id = source_tour.get('id')
+                      official_title = source_tour.get('title')
+                      if not isinstance(source_tour_id, str) or not source_tour_id:
+                          raise ValueError(f'{source_id}: tour without valid id')
+                      if not isinstance(official_title, str) or not official_title:
+                          raise ValueError(f'{source_id}:{source_tour_id}: tour without valid title')
+                      mirror_tour_id = mirror_id(target_id, source_tour_id)
+                      mirror_tour = copy.deepcopy(source_tour)
+                      mirror_tour['id'] = mirror_tour_id
+                      mirror_tour['artistId'] = target_id
+                      mirror_tour['title'] = display_title(source_name, official_title)
+                      mirror_tour[RELATION_DISPLAY_KEY] = {
+                          'sourceArtistId': source_id,
+                          'sourceTourId': source_tour_id,
+                          'officialTitle': official_title,
+                          'mirrored': True,
+                      }
+                      target_doc.setdefault('tours', []).append(mirror_tour)
+
+                      performance_id_map = {}
+                      for source_performance in source_performances:
+                          if source_performance.get('tourId') != source_tour_id:
+                              continue
+                          source_pid = source_performance.get('id')
+                          if not isinstance(source_pid, str) or not source_pid:
+                              raise ValueError(f'{source_id}:{source_tour_id}: performance without valid id')
+                          mirror_pid = mirror_id(target_id, source_pid)
+                          performance_id_map[source_pid] = mirror_pid
+                          mirror_perf = copy.deepcopy(source_performance)
+                          mirror_perf['id'] = mirror_pid
+                          mirror_perf['tourId'] = mirror_tour_id
+                          mirror_perf[RELATION_MIRROR_KEY] = {
+                              'sourceArtistId': source_id,
+                              'sourceId': source_pid,
+                          }
+                          target_doc.setdefault('performances', []).append(mirror_perf)
+
+                      for source_lottery in source_lotteries:
+                          if source_lottery.get('tourId') != source_tour_id:
+                              continue
+                          source_lottery_id = source_lottery.get('id')
+                          if not isinstance(source_lottery_id, str) or not source_lottery_id:
+                              raise ValueError(f'{source_id}:{source_tour_id}: lottery without valid id')
+                          mirror_lottery = copy.deepcopy(source_lottery)
+                          mirror_lottery['id'] = mirror_id(target_id, source_lottery_id)
+                          mirror_lottery['tourId'] = mirror_tour_id
+                          performance_ids = source_lottery.get('performanceIds') or []
+                          if not isinstance(performance_ids, list):
+                              raise ValueError(f'{source_id}:{source_lottery_id}: performanceIds must be array')
+                          missing = [pid for pid in performance_ids if pid not in performance_id_map]
+                          if missing:
+                              raise ValueError(f'{source_id}:{source_lottery_id}: unknown performanceIds {missing}')
+                          mirror_lottery['performanceIds'] = [performance_id_map[pid] for pid in performance_ids]
+                          mirror_lottery[RELATION_MIRROR_KEY] = {
+                              'sourceArtistId': source_id,
+                              'sourceId': source_lottery_id,
+                          }
+                          target_doc.setdefault('lotteries', []).append(mirror_lottery)
+
+          changed = []
+          for aid, document in output.items():
+              if documents.get(aid) != document:
+                  path = artist_dir / f'{aid}.json'
+                  write_json(path, document)
+                  changed.append(path.as_posix())
+          expected_changed = {
+              'data/artist/oishi_masayoshi.json',
+              'data/artist/masayoshi_oishi.json',
+          }
+          if set(changed) != expected_changed:
+              raise SystemExit(f'unexpected materialization changes: {changed}')
+
+          # update_manifest.py semantics from merged Collector main.
+          manifest_path = data_dir / 'manifest.json'
+          manifest = read_json(manifest_path)
+          def hash16(path: Path) -> str:
+              return hashlib.sha256(path.read_bytes()).hexdigest()[:16]
+          manifest['version'] = manifest.get('version', 0) + 1
+          JST = timezone(timedelta(hours=9))
+          manifest['updatedAt'] = datetime.now(JST).strftime('%Y-%m-%dT%H:%M:%S+09:00')
+          manifest.setdefault('files', {}).setdefault('artists', {})['hash'] = hash16(data_dir / 'artists.json')
+          manifest.setdefault('artists', {})
+          artist_hashes = {p.stem: hash16(p) for p in sorted(artist_dir.glob('*.json'))}
+          for aid, h in artist_hashes.items():
+              manifest['artists'].setdefault(aid, {})['hash'] = h
+          for aid in list(manifest['artists']):
+              if aid not in artist_hashes:
+                  del manifest['artists'][aid]
+          write_json(manifest_path, manifest)
+
+          # Stable invariants for this correction.
+          source_after = read_json(artist_dir / 'oishi_masayoshi.json')
+          target_after = read_json(artist_dir / 'masayoshi_oishi.json')
+          src = next(p for p in source_after['performances'] if p['id'] == performance_id)
+          mirror_id_expected = 'masayoshi_oishi__rel__' + performance_id
+          mir = next(p for p in target_after['performances'] if p['id'] == mirror_id_expected)
+          assert src['venue'] == venue
+          assert mir['venue'] == venue
+          assert mir['relationMirror'] == {'sourceArtistId': source_artist_id, 'sourceId': performance_id}
+          assert mir['tourId'] == 'masayoshi_oishi__rel__oishi_masayoshi_takatsukidamashii_1011'
+          print('Takatsukidamashii venue materialization: OK')
+          PY
+
+      - name: Ensure final data-only diff
+        shell: bash
+        run: |
+          rm .github/workflows/tmp-fix-takatsukidamashii-venue.yml
+          changed="$(git diff --name-only | sort)"
+          expected="$(printf '%s\n' \
+            '.github/workflows/tmp-fix-takatsukidamashii-venue.yml' \
+            'data/artist/masayoshi_oishi.json' \
+            'data/artist/oishi_masayoshi.json' \
+            'data/manifest.json' | sort)"
+          test "$changed" = "$expected" || { echo "Unexpected diff:"; echo "$changed"; exit 1; }
+
+      - name: Commit correction and remove temporary workflow
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/artist/oishi_masayoshi.json data/artist/masayoshi_oishi.json data/manifest.json .github/workflows/tmp-fix-takatsukidamashii-venue.yml
+          git commit -m "fix: set Takatsukidamashii venue"
+          git push origin HEAD:fix/takatsukidamashii-venue-20260829
