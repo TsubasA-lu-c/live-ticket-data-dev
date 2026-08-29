@@ -10,6 +10,26 @@
       ],
       "approvedByUser": true,
       "note": "オーイシマサヨシ／大石昌良は同一人物の別名義。ライブ表示は双方向で合算し、データ所有権は正式出演名義ごとに維持する。"
+    },
+    {
+      "id": "bz__koshi_inaba",
+      "type": "independent_solo",
+      "artistIds": [
+        "bz",
+        "koshi_inaba"
+      ],
+      "approvedByUser": true,
+      "note": "B'zと稲葉浩志ソロは関連人物だが、チケノートのライブ表示では別活動として合算しない。"
+    },
+    {
+      "id": "larc_en_ciel__hyde",
+      "type": "independent_solo",
+      "artistIds": [
+        "larc_en_ciel",
+        "hyde"
+      ],
+      "approvedByUser": true,
+      "note": "L'Arc~en~CielとHYDEソロは関連人物だが、チケノートのライブ表示では別活動として合算しない。"
     }
   ]
 }
