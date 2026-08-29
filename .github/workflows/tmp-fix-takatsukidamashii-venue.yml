@@ -222,8 +222,9 @@ jobs:
                   path = artist_dir / f'{aid}.json'
                   write_json(path, document)
                   changed.append(path.as_posix())
+          # The canonical source was patched above before materialization; only its mirror
+          # is expected to be changed by the materializer itself.
           expected_changed = {
-              'data/artist/oishi_masayoshi.json',
               'data/artist/masayoshi_oishi.json',
           }
           if set(changed) != expected_changed:
