@@ -1,0 +1,160 @@
+{
+  "artistId": "masayoshi_oishi",
+  "tours": [
+    {
+      "id": "masayoshi_oishi_sound_connection_0704",
+      "artistId": "masayoshi_oishi",
+      "title": "SOUND CONNECTION -Acoustic Sessions-",
+      "startDate": "2026-07-04T00:00:00+09:00",
+      "endDate": "2026-07-04T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedule/live?m=7&y=2026",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00"
+    },
+    {
+      "id": "masayoshi_oishi_budokan_0923",
+      "artistId": "masayoshi_oishi",
+      "title": "大石武道館 ～大石昌良 弾き語りワンマンライブ at 日本武道館～",
+      "startDate": "2026-09-23T00:00:00+09:00",
+      "endDate": "2026-09-23T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7268",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "prices": [
+        {
+          "label": "通常／車椅子 全席指定",
+          "amount": 8800
+        },
+        {
+          "label": "注釈付き／立見",
+          "amount": 8300
+        }
+      ]
+    }
+  ],
+  "performances": [
+    {
+      "id": "masayoshi_oishi_sound_connection_0704_20260704",
+      "tourId": "masayoshi_oishi_sound_connection_0704",
+      "venue": "大阪城音楽堂",
+      "performanceAt": "2026-07-04T17:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedule/live?m=7&y=2026",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "kind": "taiban",
+      "doorOpenAt": "2026-07-04T16:00:00+09:00",
+      "eventName": "SOUND CONNECTION -Acoustic Sessions-"
+    },
+    {
+      "id": "masayoshi_oishi_budokan_0923_20260923",
+      "tourId": "masayoshi_oishi_budokan_0923",
+      "venue": "日本武道館",
+      "performanceAt": "2026-09-23T16:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7268",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "kind": "oneman",
+      "doorOpenAt": "2026-09-23T15:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "masayoshi_oishi_sound_connection_0704_general",
+      "tourId": "masayoshi_oishi_sound_connection_0704",
+      "type": "一般発売（終了）",
+      "entryStartAt": "2026-05-30T10:00:00+09:00",
+      "entryEndAt": "2026-07-03T23:59:00+09:00",
+      "resultAt": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sc-acousticsessions/",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "ticketUrl": "https://eplus.jp/sc-acousticsessions/",
+      "performanceIds": [
+        "masayoshi_oishi_sound_connection_0704_20260704"
+      ]
+    },
+    {
+      "id": "masayoshi_oishi_budokan_0923_fc_additional",
+      "tourId": "masayoshi_oishi_budokan_0923",
+      "type": "CLUB014追加販売（抽選・終了）",
+      "entryStartAt": "2026-06-26T18:00:00+09:00",
+      "entryEndAt": "2026-07-13T23:59:00+09:00",
+      "resultAt": "2026-07-17T19:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/news/7704",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "paymentDeadlineAt": "2026-07-20T23:59:00+09:00",
+      "performanceIds": [
+        "masayoshi_oishi_budokan_0923_20260923"
+      ]
+    },
+    {
+      "id": "masayoshi_oishi_budokan_0923_general_additional",
+      "tourId": "masayoshi_oishi_budokan_0923",
+      "type": "追加チケット一般発売（抽選・終了）",
+      "entryStartAt": "2026-07-18T10:00:00+09:00",
+      "entryEndAt": "2026-07-21T23:59:00+09:00",
+      "resultAt": "2026-07-24T19:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/news/7763",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "paymentDeadlineAt": "2026-07-26T23:59:00+09:00",
+      "performanceIds": [
+        "masayoshi_oishi_budokan_0923_20260923"
+      ]
+    },
+    {
+      "id": "masayoshi_oishi_budokan_0923_first_come",
+      "tourId": "masayoshi_oishi_budokan_0923",
+      "type": "追加チケット先着販売",
+      "entryStartAt": "2026-07-25T10:00:00+09:00",
+      "entryEndAt": "2026-09-23T16:30:00+09:00",
+      "resultAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7268",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "ticketUrl": "https://www.014014.jp/schedules/7268",
+      "performanceIds": [
+        "masayoshi_oishi_budokan_0923_20260923"
+      ]
+    },
+    {
+      "id": "masayoshi_oishi_budokan_0923_streaming",
+      "tourId": "masayoshi_oishi_budokan_0923",
+      "type": "配信チケット",
+      "entryStartAt": "2026-07-25T12:00:00+09:00",
+      "entryEndAt": "2026-09-30T23:59:00+09:00",
+      "resultAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/news/7786",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "ticketUrl": "https://abema.go.link/kwm3H",
+      "performanceIds": [
+        "masayoshi_oishi_budokan_0923_20260923"
+      ]
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "1142418354",
+      "title": "ピエロ",
+      "albumTitle": "大石昌良の弾き語りラボ",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/3b/03/d1/3b03d139-2675-6569-e83f-1aa876cc30da/mzaf_14446612664018795982.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/95/40/3d954040-8264-84e4-9938-aa4756e9e7bb/4538182632895_cov.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1142418353",
+      "title": "君じゃなきゃダメみたい",
+      "albumTitle": "大石昌良の弾き語りラボ",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/3b/27/ba/3b27ba0e-8c42-1062-fda5-d631139982b4/mzaf_14665675316822067025.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/95/40/3d954040-8264-84e4-9938-aa4756e9e7bb/4538182632895_cov.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "1142418363",
+      "title": "トライアングル",
+      "albumTitle": "大石昌良の弾き語りラボ",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f5/69/c2/f569c246-09f3-d8ed-6e9b-8305e1dcbcec/mzaf_3786503138019785461.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/95/40/3d954040-8264-84e4-9938-aa4756e9e7bb/4538182632895_cov.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}

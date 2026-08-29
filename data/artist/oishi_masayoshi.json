@@ -1,0 +1,720 @@
+{
+  "artistId": "oishi_masayoshi",
+  "tours": [
+    {
+      "id": "oishi_masayoshi_ningen_yokohama_0301",
+      "artistId": "oishi_masayoshi",
+      "title": "【神奈川】「ニンゲン」発売記念フリーライブ",
+      "startDate": "2026-03-01T00:00:00+09:00",
+      "endDate": "2026-03-01T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedule/live?m=03&y=2026",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00"
+    },
+    {
+      "id": "oishi_masayoshi_animax_osaka_0307",
+      "artistId": "oishi_masayoshi",
+      "title": "ANIMAX MUSIX 2026 OSAKA supported by Lemino",
+      "startDate": "2026-03-07T00:00:00+09:00",
+      "endDate": "2026-03-07T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7057",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00"
+    },
+    {
+      "id": "oishi_masayoshi_ningen_yao_0308",
+      "artistId": "oishi_masayoshi",
+      "title": "【大阪】アリオ八尾20周年記念イベント オーイシマサヨシ「ニンゲン」発売記念フリーライブ",
+      "startDate": "2026-03-08T00:00:00+09:00",
+      "endDate": "2026-03-08T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7457",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00"
+    },
+    {
+      "id": "oishi_masayoshi_mbs_public_recording_0329",
+      "artistId": "oishi_masayoshi",
+      "title": "MBSラジオ「押尾コータローの押しても弾いてもスペシャル！」公開録音",
+      "startDate": "2026-03-29T00:00:00+09:00",
+      "endDate": "2026-03-29T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedule/live?m=03&y=2026",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00"
+    },
+    {
+      "id": "oishi_masayoshi_oishi_ssa_release_0404",
+      "artistId": "oishi_masayoshi",
+      "title": "【東京】「オーイシSSA ～オーイシマサヨシ ワンマンライブ at さいたまスーパーアリーナ～」発売記念リリースイベント",
+      "startDate": "2026-04-04T00:00:00+09:00",
+      "endDate": "2026-04-04T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7422",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00"
+    },
+    {
+      "id": "oishi_masayoshi_oishi_ssa_release_0411",
+      "artistId": "oishi_masayoshi",
+      "title": "【大阪】「オーイシSSA ～オーイシマサヨシ ワンマンライブ at さいたまスーパーアリーナ～」発売記念リリースイベント",
+      "startDate": "2026-04-11T00:00:00+09:00",
+      "endDate": "2026-04-11T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7424",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00"
+    },
+    {
+      "id": "oishi_masayoshi_ningen_toyokawa_0426",
+      "artistId": "oishi_masayoshi",
+      "title": "【愛知】「ニンゲン」発売記念フリーライブ",
+      "startDate": "2026-04-26T00:00:00+09:00",
+      "endDate": "2026-04-26T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7558",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00"
+    },
+    {
+      "id": "oishi_masayoshi_machiasobi_0516",
+      "artistId": "oishi_masayoshi",
+      "title": "マチ★アソビ SPECIAL LIVE – オーイシマサヨシ",
+      "startDate": "2026-05-16T00:00:00+09:00",
+      "endDate": "2026-05-16T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7593",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00"
+    },
+    {
+      "id": "oishi_masayoshi_deshofes_0520",
+      "artistId": "oishi_masayoshi",
+      "title": "オーイシマサヨシ×鈴木愛理のでしょフェス!!2026　有明でありったけのアリガトウ♡５周年GO!GO!GO!でしょ!!",
+      "startDate": "2026-05-20T00:00:00+09:00",
+      "endDate": "2026-05-20T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7436",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00"
+    },
+    {
+      "id": "oishi_masayoshi_lisani_0609",
+      "artistId": "oishi_masayoshi",
+      "title": "MUSIC AWARDS JAPAN WEEK SPECIAL LIVE “リスアニ！LIVE on TOKYO ANIME MUSIC HIGHLIGHTS”",
+      "startDate": "2026-06-09T00:00:00+09:00",
+      "endDate": "2026-06-09T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7541",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00"
+    },
+    {
+      "id": "oishi_masayoshi_kimi_kashiwa_0613",
+      "artistId": "oishi_masayoshi",
+      "title": "【千葉】セブンパークアリオ柏10th記念イベント オーイシマサヨシ「君は恋人」発売記念フリーライブ＆特典会",
+      "startDate": "2026-06-13T00:00:00+09:00",
+      "endDate": "2026-06-13T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedule/live?m=06&y=2026",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00"
+    },
+    {
+      "id": "oishi_masayoshi_suzufes_0620",
+      "artistId": "oishi_masayoshi",
+      "title": "鈴フェス Vol.3",
+      "startDate": "2026-06-20T00:00:00+09:00",
+      "endDate": "2026-06-20T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedule/live?m=06&y=2026",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00"
+    },
+    {
+      "id": "oishi_masayoshi_blueencount_0703",
+      "artistId": "oishi_masayoshi",
+      "title": "BLUE ENCOUNT 2MAN TOUR2026 ASSEMBLE A NEW AGE -season3-",
+      "startDate": "2026-07-03T00:00:00+09:00",
+      "endDate": "2026-07-03T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedule/live?m=7&y=2026",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00"
+    },
+    {
+      "id": "oishi_masayoshi_anisama_0712",
+      "artistId": "oishi_masayoshi",
+      "title": "Animelo Summer Live 2026 -Messenger-",
+      "startDate": "2026-07-12T00:00:00+09:00",
+      "endDate": "2026-07-12T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedule/live?m=7&y=2026",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00"
+    },
+    {
+      "id": "oishi_masayoshi_kimi_kochi_0718",
+      "artistId": "oishi_masayoshi",
+      "title": "【高知】「君は恋人」発売記念フリーライブ",
+      "startDate": "2026-07-18T00:00:00+09:00",
+      "endDate": "2026-07-18T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedule/live?m=7&y=2026",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00"
+    },
+    {
+      "id": "oishi_masayoshi_luckyfes_0810",
+      "artistId": "oishi_masayoshi",
+      "title": "LuckyFes’26",
+      "startDate": "2026-08-10T00:00:00+09:00",
+      "endDate": "2026-08-10T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedule/live",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00"
+    },
+    {
+      "id": "oishi_masayoshi_kariuta3_kanagawa_0830",
+      "artistId": "oishi_masayoshi",
+      "title": "【神奈川】「仮歌Ⅲ」発売記念フリーライブ",
+      "startDate": "2026-08-30T00:00:00+09:00",
+      "endDate": "2026-08-30T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedule/live",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00"
+    },
+    {
+      "id": "oishi_masayoshi_kariuta3_okayama_0905",
+      "artistId": "oishi_masayoshi",
+      "title": "【岡山】「仮歌Ⅲ」発売記念フリーライブ",
+      "startDate": "2026-09-05T00:00:00+09:00",
+      "endDate": "2026-09-05T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/news/7840",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00"
+    },
+    {
+      "id": "oishi_masayoshi_azurlane_0906",
+      "artistId": "oishi_masayoshi",
+      "title": "『AZUR LANE MUSI9 FES.』AZUR LANE SPECIAL MUSI9 LIVE",
+      "startDate": "2026-09-06T00:00:00+09:00",
+      "endDate": "2026-09-06T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedule/live",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00"
+    },
+    {
+      "id": "oishi_masayoshi_kariuta3_aichi_0919",
+      "artistId": "oishi_masayoshi",
+      "title": "【愛知】「仮歌Ⅲ」発売記念フリーライブ",
+      "startDate": "2026-09-19T00:00:00+09:00",
+      "endDate": "2026-09-19T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7896",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00"
+    },
+    {
+      "id": "oishi_masayoshi_budokan3_0922",
+      "artistId": "oishi_masayoshi",
+      "title": "オーイシ武道館 Vol.3 ～オーイシマサヨシ ワンマンライブ at 日本武道館～",
+      "startDate": "2026-09-22T00:00:00+09:00",
+      "endDate": "2026-09-22T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7265",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "prices": [
+        {
+          "label": "通常チケット 全席指定",
+          "amount": 9800
+        },
+        {
+          "label": "注釈付き／立見",
+          "amount": 9300
+        }
+      ]
+    },
+    {
+      "id": "oishi_masayoshi_takatsukidamashii_1011",
+      "artistId": "oishi_masayoshi",
+      "title": "高槻魂!!2026",
+      "startDate": "2026-10-11T00:00:00+09:00",
+      "endDate": "2026-10-11T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedule/live",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00"
+    },
+    {
+      "id": "oishi_masayoshi_ipu_1017",
+      "artistId": "oishi_masayoshi",
+      "title": "IPU・環太平洋大学「環太祭2026」",
+      "startDate": "2026-10-17T00:00:00+09:00",
+      "endDate": "2026-10-17T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7668",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00"
+    },
+    {
+      "id": "oishi_masayoshi_dialogue_1018",
+      "artistId": "oishi_masayoshi",
+      "title": "DIALOGUE＋WITH vol.8 －オーイシマサヨシ－",
+      "startDate": "2026-10-18T00:00:00+09:00",
+      "endDate": "2026-10-18T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7733",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00"
+    },
+    {
+      "id": "oishi_masayoshi_oita_1101",
+      "artistId": "oishi_masayoshi",
+      "title": "大分大学「2026 蒼稜祭 Special Live」",
+      "startDate": "2026-11-01T00:00:00+09:00",
+      "endDate": "2026-11-01T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7776",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00"
+    },
+    {
+      "id": "oishi_masayoshi_animax_yokohama_1121",
+      "artistId": "oishi_masayoshi",
+      "title": "東武鉄道 presents ANIMAX MUSIX 2026 supported by Lemino",
+      "startDate": "2026-11-21T00:00:00+09:00",
+      "endDate": "2026-11-21T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedule/live",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "oishi_masayoshi_ningen_yokohama_0301_20260301",
+      "tourId": "oishi_masayoshi_ningen_yokohama_0301",
+      "venue": "ららぽーと横浜 セントラルガーデンKiLaLa",
+      "performanceAt": "2026-03-01T14:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedule/live?m=03&y=2026",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "oishi_masayoshi_animax_osaka_0307_20260307",
+      "tourId": "oishi_masayoshi_animax_osaka_0307",
+      "venue": "Asueアリーナ大阪",
+      "performanceAt": "2026-03-07T15:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7057",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "kind": "fes",
+      "doorOpenAt": "2026-03-07T14:00:00+09:00",
+      "eventName": "ANIMAX MUSIX 2026 OSAKA supported by Lemino"
+    },
+    {
+      "id": "oishi_masayoshi_ningen_yao_0308_20260308",
+      "tourId": "oishi_masayoshi_ningen_yao_0308",
+      "venue": "アリオ八尾 1Fレッドコート",
+      "performanceAt": "2026-03-08T14:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7457",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "oishi_masayoshi_mbs_public_recording_0329_20260329",
+      "tourId": "oishi_masayoshi_mbs_public_recording_0329",
+      "venue": null,
+      "performanceAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedule/live?m=03&y=2026",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "kind": "taiban",
+      "performanceDate": "2026-03-29",
+      "eventName": "MBSラジオ「押尾コータローの押しても弾いてもスペシャル！」公開録音"
+    },
+    {
+      "id": "oishi_masayoshi_oishi_ssa_release_0404_20260404_1",
+      "tourId": "oishi_masayoshi_oishi_ssa_release_0404",
+      "venue": "ポニーキャニオン 3Fイベントスペース",
+      "performanceAt": "2026-04-04T12:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7422",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "oishi_masayoshi_oishi_ssa_release_0404_20260404_2",
+      "tourId": "oishi_masayoshi_oishi_ssa_release_0404",
+      "venue": "ポニーキャニオン 3Fイベントスペース",
+      "performanceAt": "2026-04-04T13:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7422",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "oishi_masayoshi_oishi_ssa_release_0404_20260404_3",
+      "tourId": "oishi_masayoshi_oishi_ssa_release_0404",
+      "venue": "ポニーキャニオン 3Fイベントスペース",
+      "performanceAt": "2026-04-04T15:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7422",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "oishi_masayoshi_oishi_ssa_release_0404_20260404_4",
+      "tourId": "oishi_masayoshi_oishi_ssa_release_0404",
+      "venue": "ポニーキャニオン 3Fイベントスペース",
+      "performanceAt": "2026-04-04T16:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7422",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "oishi_masayoshi_oishi_ssa_release_0411_20260411_1",
+      "tourId": "oishi_masayoshi_oishi_ssa_release_0411",
+      "venue": "アニメイト大阪日本橋 5Fイベントホール",
+      "performanceAt": "2026-04-11T12:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7424",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "oishi_masayoshi_oishi_ssa_release_0411_20260411_2",
+      "tourId": "oishi_masayoshi_oishi_ssa_release_0411",
+      "venue": "アニメイト大阪日本橋 5Fイベントホール",
+      "performanceAt": "2026-04-11T13:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7424",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "oishi_masayoshi_oishi_ssa_release_0411_20260411_3",
+      "tourId": "oishi_masayoshi_oishi_ssa_release_0411",
+      "venue": "アニメイト大阪日本橋 5Fイベントホール",
+      "performanceAt": "2026-04-11T15:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7424",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "oishi_masayoshi_oishi_ssa_release_0411_20260411_4",
+      "tourId": "oishi_masayoshi_oishi_ssa_release_0411",
+      "venue": "アニメイト大阪日本橋 5Fイベントホール",
+      "performanceAt": "2026-04-11T16:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7424",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "oishi_masayoshi_ningen_toyokawa_0426_20260426",
+      "tourId": "oishi_masayoshi_ningen_toyokawa_0426",
+      "venue": "イオンモール豊川 2Fセントラルパーク",
+      "performanceAt": "2026-04-26T14:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7558",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "oishi_masayoshi_machiasobi_0516_20260516",
+      "tourId": "oishi_masayoshi_machiasobi_0516",
+      "venue": "藍場浜公園ステージ",
+      "performanceAt": "2026-05-16T19:10:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7593",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "kind": "fes",
+      "eventName": "マチ★アソビ SPECIAL LIVE – オーイシマサヨシ"
+    },
+    {
+      "id": "oishi_masayoshi_deshofes_0520_20260520",
+      "tourId": "oishi_masayoshi_deshofes_0520",
+      "venue": "東京ドリームパーク SGCホール有明",
+      "performanceAt": "2026-05-20T19:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7436",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "kind": "taiban",
+      "doorOpenAt": "2026-05-20T18:00:00+09:00",
+      "eventName": "オーイシマサヨシ×鈴木愛理のでしょフェス!!2026　有明でありったけのアリガトウ♡５周年GO!GO!GO!でしょ!!"
+    },
+    {
+      "id": "oishi_masayoshi_lisani_0609_20260609",
+      "tourId": "oishi_masayoshi_lisani_0609",
+      "venue": "TOYOTA ARENA TOKYO",
+      "performanceAt": "2026-06-09T19:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7541",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "kind": "fes",
+      "doorOpenAt": "2026-06-09T18:00:00+09:00",
+      "eventName": "MUSIC AWARDS JAPAN WEEK SPECIAL LIVE “リスアニ！LIVE on TOKYO ANIME MUSIC HIGHLIGHTS”"
+    },
+    {
+      "id": "oishi_masayoshi_kimi_kashiwa_0613_20260613",
+      "tourId": "oishi_masayoshi_kimi_kashiwa_0613",
+      "venue": "セブンパークアリオ柏 スマイル・パーク",
+      "performanceAt": "2026-06-13T14:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedule/live?m=06&y=2026",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "oishi_masayoshi_suzufes_0620_20260620",
+      "tourId": "oishi_masayoshi_suzufes_0620",
+      "venue": "Kanadevia Hall",
+      "performanceAt": "2026-06-20T17:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedule/live?m=06&y=2026",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "kind": "taiban",
+      "doorOpenAt": "2026-06-20T16:00:00+09:00",
+      "eventName": "鈴フェス Vol.3"
+    },
+    {
+      "id": "oishi_masayoshi_blueencount_0703_20260703",
+      "tourId": "oishi_masayoshi_blueencount_0703",
+      "venue": "Zepp Haneda (TOKYO)",
+      "performanceAt": "2026-07-03T19:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedule/live?m=7&y=2026",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "kind": "taiban",
+      "eventName": "BLUE ENCOUNT 2MAN TOUR2026 ASSEMBLE A NEW AGE -season3-"
+    },
+    {
+      "id": "oishi_masayoshi_anisama_0712_20260712",
+      "tourId": "oishi_masayoshi_anisama_0712",
+      "venue": "幕張メッセ 展示ホール4～6",
+      "performanceAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedule/live?m=7&y=2026",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "kind": "fes",
+      "performanceDate": "2026-07-12",
+      "eventName": "Animelo Summer Live 2026 -Messenger-"
+    },
+    {
+      "id": "oishi_masayoshi_kimi_kochi_0718_20260718_1",
+      "tourId": "oishi_masayoshi_kimi_kochi_0718",
+      "venue": "イオンモール高知 1F南コート",
+      "performanceAt": "2026-07-18T12:45:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedule/live?m=7&y=2026",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "oishi_masayoshi_kimi_kochi_0718_20260718_2",
+      "tourId": "oishi_masayoshi_kimi_kochi_0718",
+      "venue": "イオンモール高知 1F南コート",
+      "performanceAt": "2026-07-18T15:15:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedule/live?m=7&y=2026",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "oishi_masayoshi_luckyfes_0810_20260810",
+      "tourId": "oishi_masayoshi_luckyfes_0810",
+      "venue": "国営ひたち海浜公園",
+      "performanceAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedule/live",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "kind": "fes",
+      "performanceDate": "2026-08-10",
+      "eventName": "LuckyFes’26"
+    },
+    {
+      "id": "oishi_masayoshi_kariuta3_kanagawa_0830_20260830",
+      "tourId": "oishi_masayoshi_kariuta3_kanagawa_0830",
+      "venue": null,
+      "performanceAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedule/live",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "kind": "oneman",
+      "performanceDate": "2026-08-30"
+    },
+    {
+      "id": "oishi_masayoshi_kariuta3_okayama_0905_20260905",
+      "tourId": "oishi_masayoshi_kariuta3_okayama_0905",
+      "venue": "イオンモール岡山 1F未来スクエア",
+      "performanceAt": "2026-09-05T14:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/news/7840",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "oishi_masayoshi_azurlane_0906_20260906",
+      "tourId": "oishi_masayoshi_azurlane_0906",
+      "venue": null,
+      "performanceAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedule/live",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "kind": "fes",
+      "performanceDate": "2026-09-06",
+      "eventName": "『AZUR LANE MUSI9 FES.』AZUR LANE SPECIAL MUSI9 LIVE"
+    },
+    {
+      "id": "oishi_masayoshi_kariuta3_aichi_0919_20260919",
+      "tourId": "oishi_masayoshi_kariuta3_aichi_0919",
+      "venue": "イオンモール豊川 2Fセントラルパーク",
+      "performanceAt": "2026-09-19T16:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7896",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "oishi_masayoshi_budokan3_0922_20260922",
+      "tourId": "oishi_masayoshi_budokan3_0922",
+      "venue": "日本武道館",
+      "performanceAt": "2026-09-22T18:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7265",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "kind": "oneman",
+      "doorOpenAt": "2026-09-22T17:00:00+09:00"
+    },
+    {
+      "id": "oishi_masayoshi_takatsukidamashii_1011_20261011",
+      "tourId": "oishi_masayoshi_takatsukidamashii_1011",
+      "venue": null,
+      "performanceAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedule/live",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "kind": "fes",
+      "performanceDate": "2026-10-11",
+      "eventName": "高槻魂!!2026"
+    },
+    {
+      "id": "oishi_masayoshi_ipu_1017_20261017",
+      "tourId": "oishi_masayoshi_ipu_1017",
+      "venue": "IPU・環太平洋大学 第1キャンパス 第1体育館",
+      "performanceAt": "2026-10-17T15:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7668",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "kind": "oneman",
+      "doorOpenAt": "2026-10-17T14:30:00+09:00"
+    },
+    {
+      "id": "oishi_masayoshi_dialogue_1018_20261018",
+      "tourId": "oishi_masayoshi_dialogue_1018",
+      "venue": "恵比寿 ザ・ガーデンホール",
+      "performanceAt": "2026-10-18T14:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7733",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "kind": "taiban",
+      "doorOpenAt": "2026-10-18T13:30:00+09:00",
+      "eventName": "DIALOGUE＋WITH vol.8 －オーイシマサヨシ－"
+    },
+    {
+      "id": "oishi_masayoshi_oita_1101_20261101",
+      "tourId": "oishi_masayoshi_oita_1101",
+      "venue": "大分大学 旦野原キャンパス 第一体育館",
+      "performanceAt": "2026-11-01T15:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7776",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "kind": "oneman",
+      "doorOpenAt": "2026-11-01T14:00:00+09:00"
+    },
+    {
+      "id": "oishi_masayoshi_animax_yokohama_1121_20261121",
+      "tourId": "oishi_masayoshi_animax_yokohama_1121",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-11-21T14:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedule/live",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "kind": "fes",
+      "doorOpenAt": "2026-11-21T13:00:00+09:00",
+      "eventName": "東武鉄道 presents ANIMAX MUSIX 2026 supported by Lemino"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "oishi_masayoshi_budokan3_0922_fc_additional",
+      "tourId": "oishi_masayoshi_budokan3_0922",
+      "type": "CLUB014追加販売（抽選・終了）",
+      "entryStartAt": "2026-06-26T18:00:00+09:00",
+      "entryEndAt": "2026-07-13T23:59:00+09:00",
+      "resultAt": "2026-07-17T19:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/news/7704",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "paymentDeadlineAt": "2026-07-20T23:59:00+09:00",
+      "performanceIds": [
+        "oishi_masayoshi_budokan3_0922_20260922"
+      ]
+    },
+    {
+      "id": "oishi_masayoshi_budokan3_0922_general_additional",
+      "tourId": "oishi_masayoshi_budokan3_0922",
+      "type": "追加チケット一般発売（抽選・終了）",
+      "entryStartAt": "2026-07-18T10:00:00+09:00",
+      "entryEndAt": "2026-07-21T23:59:00+09:00",
+      "resultAt": "2026-07-24T19:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/news/7763",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "paymentDeadlineAt": "2026-07-26T23:59:00+09:00",
+      "performanceIds": [
+        "oishi_masayoshi_budokan3_0922_20260922"
+      ]
+    },
+    {
+      "id": "oishi_masayoshi_budokan3_0922_streaming",
+      "tourId": "oishi_masayoshi_budokan3_0922",
+      "type": "配信チケット",
+      "entryStartAt": "2026-07-25T12:00:00+09:00",
+      "entryEndAt": "2026-09-29T23:59:00+09:00",
+      "resultAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7265",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "ticketUrl": "https://abema.go.link/kwm3H",
+      "performanceIds": [
+        "oishi_masayoshi_budokan3_0922_20260922"
+      ]
+    },
+    {
+      "id": "oishi_masayoshi_dialogue_1018_fc",
+      "tourId": "oishi_masayoshi_dialogue_1018",
+      "type": "Team D＋／CLUB014先行（終了）",
+      "entryStartAt": "2026-07-05T18:00:00+09:00",
+      "entryEndAt": "2026-07-27T23:59:00+09:00",
+      "resultAt": "2026-07-30T19:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/news/7721",
+      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+      "paymentDeadlineAt": "2026-08-02T23:59:00+09:00",
+      "performanceIds": [
+        "oishi_masayoshi_dialogue_1018_20261018"
+      ]
+    }
+  ],
+  "appleMusicTracks": [
+    {
+      "songId": "6798918291",
+      "title": "サインはB (Cover)",
+      "albumTitle": "仮歌Ⅲ",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b0/48/e8/b048e869-6b66-69f3-4e5e-d573e3d15bd4/mzaf_14009073104292893104.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/86/2f/fd/862ffdaf-07ec-c0c1-2e96-996ae423de0a/28349.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "908870858",
+      "title": "君じゃなきゃダメみたい",
+      "albumTitle": "TVアニメ「月刊少女野崎くん」オープニングテーマ「君じゃなきゃダメみたい」 - EP",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/14/a8/ba/14a8ba9e-2432-3191-e4a4-f7744c5236d0/mzaf_10617065007777431080.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/86/b9/bc/86b9bcfd-cc4e-2932-1df7-a75a9dc196d2/ZMCZ-9575.jpg/{w}x{h}{c}.{f}"
+    },
+    {
+      "songId": "6798918298",
+      "title": "守りたい、その笑顔 (Cover)",
+      "albumTitle": "仮歌Ⅲ",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7e/63/cf/7e63cf0a-dd39-8f2b-530a-e886c9556bce/mzaf_13039243480820321681.plus.aac.ep.m4a",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/86/2f/fd/862ffdaf-07ec-c0c1-2e96-996ae423de0a/28349.jpg/{w}x{h}{c}.{f}"
+    }
+  ]
+}
