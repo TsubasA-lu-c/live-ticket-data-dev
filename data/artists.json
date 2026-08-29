@@ -2394,5 +2394,45 @@
       "textColor3": "33373e",
       "textColor4": "393d44"
     }
+  },
+  {
+    "id": "oishi_masayoshi",
+    "name": "オーイシマサヨシ",
+    "aliases": [],
+    "genre": "ソロ",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.014014.jp/",
+    "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+    "appleMusic": {
+      "artistId": "908870855",
+      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/98/ce/94/98ce94bd-7876-323c-67f5-7e8d5c57d3c0/ami-identity-8e96dae805ba60a6d71a8471813fb344-2026-08-21T00-32-22.003Z_cropped.png/{w}x{h}{c}.{f}",
+      "bgColor": "eaebee",
+      "textColor1": "050507",
+      "textColor2": "282b2d",
+      "textColor3": "333335",
+      "textColor4": "4e5154"
+    }
+  },
+  {
+    "id": "masayoshi_oishi",
+    "name": "大石昌良",
+    "aliases": [
+      "オオイシマサヨシ"
+    ],
+    "genre": "ソロ",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.014014.jp/",
+    "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
+    "appleMusic": {
+      "artistId": "1545519812",
+      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/95/40/3d954040-8264-84e4-9938-aa4756e9e7bb/4538182632895_cov.jpg/{w}x{h}{c}.{f}",
+      "bgColor": "eeeeee",
+      "textColor1": "060608",
+      "textColor2": "272728",
+      "textColor3": "353536",
+      "textColor4": "4e4e50"
+    }
   }
 ]

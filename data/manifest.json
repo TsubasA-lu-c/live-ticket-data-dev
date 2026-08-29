@@ -1,9 +1,9 @@
 {
-  "version": 179,
-  "updatedAt": "2026-08-29T08:31:52+09:00",
+  "version": 180,
+  "updatedAt": "2026-08-29T09:54:30+09:00",
   "files": {
     "artists": {
-      "hash": "27fc57c48aab9d37"
+      "hash": "a99c3b2ddccc79a3"
     }
   },
   "artists": {
@@ -342,6 +342,12 @@
     },
     "aiko": {
       "hash": "5fedfc7434269285"
+    },
+    "masayoshi_oishi": {
+      "hash": "880e678e6b7758ba"
+    },
+    "oishi_masayoshi": {
+      "hash": "b86f91ed8ca5f913"
     }
   }
 }
