@@ -17,25 +17,32 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Inspect tolerant final payload recovery
+      - name: Inspect payload splice recovery
         shell: bash
         run: |
           set -euo pipefail
           git status --short
           python3 - <<'PY'
-          import base64, json, re, zlib
+          import base64, difflib, json, re, string, zlib
           from pathlib import Path
 
           root = Path('.')
+          alphabet = set(string.ascii_letters + string.digits + '+/=')
 
           def read_chunks(path):
               files = sorted(path.glob('chunk-*.txt'))
               return ''.join(p.read_text(encoding='utf-8').strip() for p in files)
 
+          def compact(text):
+              return ''.join(text.split())
+
+          def sanitize(text):
+              return ''.join(ch for ch in compact(text) if ch in alphabet)
+
           def tolerant_b64(text):
-              compact = ''.join(text.split())
-              compact += '=' * ((4 - len(compact) % 4) % 4)
-              return base64.b64decode(compact, validate=False)
+              text = sanitize(text)
+              text += '=' * ((4 - len(text) % 4) % 4)
+              return base64.b64decode(text, validate=False)
 
           def partial_gzip(compressed):
               d = zlib.decompressobj(16 + zlib.MAX_WBITS)
@@ -49,45 +56,79 @@ jobs:
                       break
               return bytes(out), error
 
-          def top_artist_ids(text):
-              ids = []
-              in_artists = False
-              for line in text.splitlines():
-                  if line == '  "artists": {':
-                      in_artists = True
+          def visible_ids(decoded):
+              text = decoded.decode('utf-8', errors='replace')
+              return re.findall(r'^    "([^"]+)": \{$', text, re.M)
+
+          final_chunks = compact(read_chunks(root / '.github/reviewed-updates-20260830-final'))
+          final_single_raw = compact((root / '.github/reviewed-updates-20260830-final.json.gz.b64').read_text(encoding='utf-8'))
+          final_single = sanitize(final_single_raw)
+          initial_chunks = compact(read_chunks(root / '.github/reviewed-updates-20260830'))
+          initial_single_raw = compact((root / '.github/reviewed-updates-20260830.json.gz.b64').read_text(encoding='utf-8'))
+          initial_single = sanitize(initial_single_raw)
+
+          for label, raw, sane in [
+              ('final_single', final_single_raw, final_single),
+              ('initial_single', initial_single_raw, initial_single),
+          ]:
+              invalid = [(i, repr(ch)) for i, ch in enumerate(raw) if ch not in alphabet]
+              print(label, 'raw_len=', len(raw), 'sanitized_len=', len(sane), 'invalid_count=', len(invalid))
+              print(label, 'invalid_first=', invalid[:50])
+
+          def analyze(a_label, a, b_label, b):
+              print(f'=== sequence {a_label} vs {b_label} ===')
+              sm = difflib.SequenceMatcher(None, a, b, autojunk=False)
+              blocks = [m for m in sm.get_matching_blocks() if m.size]
+              print('ratio:', sm.ratio(), 'block_count:', len(blocks))
+              for m in sorted(blocks, key=lambda x: x.size, reverse=True)[:20]:
+                  print('block size', m.size, 'a', m.a, 'b', m.b, 'a_end', m.a+m.size, 'b_end', m.b+m.size)
+              print('last blocks by a:')
+              for m in blocks[-20:]:
+                  print('block size', m.size, 'a', m.a, 'b', m.b, 'a_end', m.a+m.size, 'b_end', m.b+m.size)
+              return blocks
+
+          blocks = analyze('final_chunks', final_chunks, 'final_single', final_single)
+          analyze('final_chunks', final_chunks, 'initial_chunks', initial_chunks)
+          analyze('final_chunks', final_chunks, 'initial_single', initial_single)
+
+          candidates = []
+          # Splice only on exact matching blocks near the clean prefix tail. The
+          # splice point is chosen on a 4-char boundary in the trusted prefix.
+          for m in blocks:
+              if m.a + m.size < len(final_chunks) - 4000 or m.size < 32:
+                  continue
+              lo = m.a
+              hi = m.a + m.size
+              for cut_a in range(hi - (hi % 4), max(lo, hi-64)-1, -4):
+                  if cut_a < lo:
                       continue
-                  if in_artists and line.startswith('  "artistListUpdates"'):
-                      break
-                  if in_artists:
-                      m = re.match(r'^    "([^"]+)": \{$', line)
-                      if m:
-                          ids.append(m.group(1))
-              return ids
+                  cut_b = m.b + (cut_a - m.a)
+                  hybrid = final_chunks[:cut_a] + final_single[cut_b:]
+                  candidates.append((m.size, cut_a, cut_b, hybrid))
+                  break
 
-          final_chunks = read_chunks(root / '.github/reviewed-updates-20260830-final')
-          final_single = (root / '.github/reviewed-updates-20260830-final.json.gz.b64').read_text(encoding='utf-8').strip()
-
-          for label, text in [('final_chunks', final_chunks), ('final_single_tolerant', final_single)]:
-              print(f'=== {label} ===')
-              compressed = tolerant_b64(text)
-              print('input chars:', len(text), 'compressed bytes:', len(compressed))
-              partial, error = partial_gzip(compressed)
-              decoded = partial.decode('utf-8', errors='replace')
-              print('partial decoded bytes:', len(partial), 'decompress error:', error)
-              ids = top_artist_ids(decoded)
-              print('top-level artist ids:', ids)
-              print('top-level artist count visible:', len(ids))
+          seen = set()
+          for _, cut_a, cut_b, hybrid in sorted(candidates, reverse=True)[:30]:
+              key = (cut_a, cut_b)
+              if key in seen:
+                  continue
+              seen.add(key)
+              print(f'=== splice a={cut_a} b={cut_b} hybrid_len={len(hybrid)} ===')
               try:
-                  spec = json.loads(partial)
-                  print('partial is complete JSON: yes')
-                  print('baseline:', spec.get('baselineCommit'))
-                  print('artistListUpdates:', len(spec.get('artistListUpdates') or []))
+                  compressed = tolerant_b64(hybrid)
+                  partial, error = partial_gzip(compressed)
+                  ids = visible_ids(partial)
+                  print('compressed=', len(compressed), 'decoded=', len(partial), 'error=', error)
+                  print('visible ids count=', len(ids), 'ids=', ids)
+                  try:
+                      spec = json.loads(partial)
+                      print('COMPLETE_JSON=yes artists=', len(spec.get('artists') or {}), 'artistListUpdates=', len(spec.get('artistListUpdates') or []))
+                  except Exception as exc:
+                      print('COMPLETE_JSON=no', type(exc).__name__, str(exc))
+                  tail = partial.decode('utf-8', errors='replace')[-700:]
+                  print('tail=', tail)
               except Exception as exc:
-                  print('partial is complete JSON: no:', type(exc).__name__, str(exc))
-              print('decoded tail:')
-              print(decoded[-1800:])
+                  print('splice decode failed:', type(exc).__name__, str(exc))
 
-          print('final chunks prefix bytes equal to tolerant final single:',
-                partial_gzip(tolerant_b64(final_single))[0].startswith(partial_gzip(tolerant_b64(final_chunks))[0]))
           raise SystemExit('inspection only: no data changes applied')
           PY
