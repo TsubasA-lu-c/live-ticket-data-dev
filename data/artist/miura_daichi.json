@@ -1026,6 +1026,25 @@
       "source": "system",
       "sourceUrl": "https://daichi-miura.jp/news/detail/1055",
       "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_general_osaka_tokyo_0829",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-08-29T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_osaka_0920",
+        "miura_daichi_raw_bare_2026_osaka_0921",
+        "miura_daichi_raw_bare_2026_ariake_0924",
+        "miura_daichi_raw_bare_2026_ariake_0925"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1054",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

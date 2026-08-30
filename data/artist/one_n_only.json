@@ -423,14 +423,15 @@
       "id": "one_n_only_mezamashi_wangan_2026_20260808",
       "tourId": "one_n_only_mezamashi_wangan_2026",
       "venue": "豊洲PIT",
-      "performanceAt": null,
+      "performanceAt": "2026-08-08T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "めざましWANGANフェス",
       "source": "system",
       "sourceUrl": "https://one-n-only.jp/contents/1062887",
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00",
-      "performanceDate": "2026-08-08"
+      "performanceDate": "2026-08-08",
+      "performanceTimeEstimated": true
     }
   ],
   "lotteries": [

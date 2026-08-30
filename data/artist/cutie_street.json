@@ -633,6 +633,17 @@
       "source": "system",
       "sourceUrl": "https://cutiestreet.asobisystem.com/live_information/detail/36915",
       "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "cutie_street_kawaii_lab_collection_kitakyushu_2026",
+      "artistId": "cutie_street",
+      "title": "KAWAII LAB. COLLECTION produced by TGC ～KAWAIIっちゃ in KITAKYUSHU～",
+      "startDate": "2026-10-12T00:00:00+09:00",
+      "endDate": "2026-10-12T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/87770",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -1127,6 +1138,18 @@
       "source": "system",
       "sourceUrl": "https://cutiestreet.asobisystem.com/live_information/detail/36915",
       "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "cutie_street_kawaii_lab_collection_kitakyushu_2026_1012",
+      "tourId": "cutie_street_kawaii_lab_collection_kitakyushu_2026",
+      "venue": "北九州メッセ",
+      "performanceAt": "2026-10-12T16:00:00+09:00",
+      "doorOpenAt": "2026-10-12T14:00:00+09:00",
+      "kind": "fes",
+      "eventName": "KAWAII LAB. COLLECTION produced by TGC ～KAWAIIっちゃ in KITAKYUSHU～",
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/87770",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1340,6 +1363,86 @@
       "source": "system",
       "sourceUrl": "https://cutiestreet.asobisystem.com/feature/autumntour",
       "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_kawaii_lab_collection_kitakyushu_2026_kawaii_lab_fc",
+      "tourId": "cutie_street_kawaii_lab_collection_kitakyushu_2026",
+      "type": "KAWAII LAB. OFFICIAL FANCLUB先行",
+      "entryStartAt": "2026-08-19T18:00:00+09:00",
+      "entryEndAt": "2026-08-23T23:59:00+09:00",
+      "resultAt": "2026-08-29T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "cutie_street_kawaii_lab_collection_kitakyushu_2026_1012"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tgc.girlswalker.com/kawacolle/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_kawaii_lab_collection_kitakyushu_2026_artist_fc",
+      "tourId": "cutie_street_kawaii_lab_collection_kitakyushu_2026",
+      "type": "CUTIE STREET FC先行",
+      "entryStartAt": "2026-08-29T18:00:00+09:00",
+      "entryEndAt": "2026-09-02T23:59:00+09:00",
+      "resultAt": "2026-09-10T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "cutie_street_kawaii_lab_collection_kitakyushu_2026_1012"
+      ],
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/87770",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_kawaii_lab_collection_kitakyushu_2026_tgc_premium",
+      "tourId": "cutie_street_kawaii_lab_collection_kitakyushu_2026",
+      "type": "TGC Premium会員先行",
+      "entryStartAt": "2026-08-29T18:00:00+09:00",
+      "entryEndAt": "2026-09-02T23:59:00+09:00",
+      "resultAt": "2026-09-10T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "cutie_street_kawaii_lab_collection_kitakyushu_2026_1012"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tgc.girlswalker.com/kawacolle/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_kawaii_lab_collection_kitakyushu_2026_tgc_line",
+      "tourId": "cutie_street_kawaii_lab_collection_kitakyushu_2026",
+      "type": "TGC公式LINE先行",
+      "entryStartAt": "2026-09-10T18:00:00+09:00",
+      "entryEndAt": "2026-09-12T23:59:00+09:00",
+      "resultAt": "2026-09-19T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "cutie_street_kawaii_lab_collection_kitakyushu_2026_1012"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tgc.girlswalker.com/kawacolle/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_kawaii_lab_collection_kitakyushu_2026_upgrade_1",
+      "tourId": "cutie_street_kawaii_lab_collection_kitakyushu_2026",
+      "type": "アップグレードチケット 第1弾",
+      "entryStartAt": "2026-09-04T18:00:00+09:00",
+      "entryEndAt": "2026-09-13T23:59:00+09:00",
+      "resultAt": "2026-09-18T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "cutie_street_kawaii_lab_collection_kitakyushu_2026_1012"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tgc.girlswalker.com/kawacolle/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

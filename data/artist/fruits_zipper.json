@@ -66,6 +66,28 @@
       "source": "system",
       "sourceUrl": "https://fruitszipper.asobisystem.com/feature/4th_arena_tour",
       "lastVerifiedAt": "2026-08-23T07:44:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_kawaii_lab_collection_kitakyushu_2026",
+      "artistId": "fruits_zipper",
+      "title": "KAWAII LAB. COLLECTION produced by TGC ～KAWAIIっちゃ in KITAKYUSHU～",
+      "startDate": "2026-10-12T00:00:00+09:00",
+      "endDate": "2026-10-12T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/live_information/detail/44011",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_big_benefit_shiodome_20260906",
+      "artistId": "fruits_zipper",
+      "title": "FRUITS ZIPPER大特典会＠ベルサール汐留",
+      "startDate": "2026-09-06T00:00:00+09:00",
+      "endDate": "2026-09-06T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/88153",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -668,6 +690,30 @@
       "lastVerifiedAt": "2026-08-23T07:44:00+09:00",
       "kind": "fes",
       "eventName": "第43回 マイナビ 東京ガールズコレクション 2026 AUTUMN/WINTER"
+    },
+    {
+      "id": "fruits_zipper_kawaii_lab_collection_kitakyushu_2026_1012",
+      "tourId": "fruits_zipper_kawaii_lab_collection_kitakyushu_2026",
+      "venue": "北九州メッセ",
+      "performanceAt": "2026-10-12T16:00:00+09:00",
+      "doorOpenAt": "2026-10-12T14:00:00+09:00",
+      "kind": "fes",
+      "eventName": "KAWAII LAB. COLLECTION produced by TGC ～KAWAIIっちゃ in KITAKYUSHU～",
+      "source": "system",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/live_information/detail/44011",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_big_benefit_shiodome_20260906_0906",
+      "tourId": "fruits_zipper_big_benefit_shiodome_20260906",
+      "venue": "ベルサール汐留",
+      "performanceAt": "2026-09-06T10:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "FRUITS ZIPPER大特典会＠ベルサール汐留",
+      "source": "system",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/88153",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1073,6 +1119,102 @@
       "source": "system",
       "sourceUrl": "https://fruitszipper.asobisystem.com/feature/2026tour_autumn",
       "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_kawaii_lab_collection_kitakyushu_2026_kawaii_lab_fc",
+      "tourId": "fruits_zipper_kawaii_lab_collection_kitakyushu_2026",
+      "type": "KAWAII LAB. OFFICIAL FANCLUB先行",
+      "entryStartAt": "2026-08-19T18:00:00+09:00",
+      "entryEndAt": "2026-08-23T23:59:00+09:00",
+      "resultAt": "2026-08-29T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fruits_zipper_kawaii_lab_collection_kitakyushu_2026_1012"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tgc.girlswalker.com/kawacolle/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_kawaii_lab_collection_kitakyushu_2026_artist_fc",
+      "tourId": "fruits_zipper_kawaii_lab_collection_kitakyushu_2026",
+      "type": "FRUITS ZIPPER FC先行",
+      "entryStartAt": "2026-08-29T18:00:00+09:00",
+      "entryEndAt": "2026-09-02T23:59:00+09:00",
+      "resultAt": "2026-09-10T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fruits_zipper_kawaii_lab_collection_kitakyushu_2026_1012"
+      ],
+      "source": "system",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/live_information/detail/44011",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_kawaii_lab_collection_kitakyushu_2026_tgc_premium",
+      "tourId": "fruits_zipper_kawaii_lab_collection_kitakyushu_2026",
+      "type": "TGC Premium会員先行",
+      "entryStartAt": "2026-08-29T18:00:00+09:00",
+      "entryEndAt": "2026-09-02T23:59:00+09:00",
+      "resultAt": "2026-09-10T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fruits_zipper_kawaii_lab_collection_kitakyushu_2026_1012"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tgc.girlswalker.com/kawacolle/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_kawaii_lab_collection_kitakyushu_2026_tgc_line",
+      "tourId": "fruits_zipper_kawaii_lab_collection_kitakyushu_2026",
+      "type": "TGC公式LINE先行",
+      "entryStartAt": "2026-09-10T18:00:00+09:00",
+      "entryEndAt": "2026-09-12T23:59:00+09:00",
+      "resultAt": "2026-09-19T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fruits_zipper_kawaii_lab_collection_kitakyushu_2026_1012"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tgc.girlswalker.com/kawacolle/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_kawaii_lab_collection_kitakyushu_2026_upgrade_1",
+      "tourId": "fruits_zipper_kawaii_lab_collection_kitakyushu_2026",
+      "type": "アップグレードチケット 第1弾",
+      "entryStartAt": "2026-09-04T18:00:00+09:00",
+      "entryEndAt": "2026-09-13T23:59:00+09:00",
+      "resultAt": "2026-09-18T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fruits_zipper_kawaii_lab_collection_kitakyushu_2026_1012"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tgc.girlswalker.com/kawacolle/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_big_benefit_shiodome_20260906_fc_parts_1_5",
+      "tourId": "fruits_zipper_big_benefit_shiodome_20260906",
+      "type": "第1部・第5部 FC有料会員限定抽選",
+      "entryStartAt": "2026-08-25T21:00:00+09:00",
+      "entryEndAt": "2026-08-26T23:59:00+09:00",
+      "resultAt": "2026-08-28T23:59:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-08-29T23:59:00+09:00",
+      "performanceIds": [
+        "fruits_zipper_big_benefit_shiodome_20260906_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/88156",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

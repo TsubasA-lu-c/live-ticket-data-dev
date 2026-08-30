@@ -132,144 +132,155 @@
       "id": "ateez_world_tour_in_your_fantasy_asia_australia_2026_taipei_0124",
       "tourId": "ateez_world_tour_in_your_fantasy_asia_australia_2026",
       "venue": "NTSU Arena",
-      "performanceAt": null,
+      "performanceAt": "2026-01-24T12:00:00+08:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://ateezlive.com/asia/",
       "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
-      "performanceDate": "2026-01-24"
+      "performanceDate": "2026-01-24",
+      "performanceTimeEstimated": true
     },
     {
       "id": "ateez_world_tour_in_your_fantasy_asia_australia_2026_jakarta_0131",
       "tourId": "ateez_world_tour_in_your_fantasy_asia_australia_2026",
       "venue": "ICE BSD Hall 5-6",
-      "performanceAt": null,
+      "performanceAt": "2026-01-31T12:00:00+07:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://ateezlive.com/asia/",
       "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
-      "performanceDate": "2026-01-31"
+      "performanceDate": "2026-01-31",
+      "performanceTimeEstimated": true
     },
     {
       "id": "ateez_world_tour_in_your_fantasy_asia_australia_2026_singapore_0222",
       "tourId": "ateez_world_tour_in_your_fantasy_asia_australia_2026",
       "venue": "Singapore Indoor Stadium",
-      "performanceAt": null,
+      "performanceAt": "2026-02-22T12:00:00+08:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://ateezlive.com/asia/",
       "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
-      "performanceDate": "2026-02-22"
+      "performanceDate": "2026-02-22",
+      "performanceTimeEstimated": true
     },
     {
       "id": "ateez_world_tour_in_your_fantasy_asia_australia_2026_melbourne_0302",
       "tourId": "ateez_world_tour_in_your_fantasy_asia_australia_2026",
       "venue": "Rod Laver Arena",
-      "performanceAt": null,
+      "performanceAt": "2026-03-02T12:00:00+11:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.frontiertouring.com/ateez",
       "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
-      "performanceDate": "2026-03-02"
+      "performanceDate": "2026-03-02",
+      "performanceTimeEstimated": true
     },
     {
       "id": "ateez_world_tour_in_your_fantasy_asia_australia_2026_melbourne_0303",
       "tourId": "ateez_world_tour_in_your_fantasy_asia_australia_2026",
       "venue": "Rod Laver Arena",
-      "performanceAt": null,
+      "performanceAt": "2026-03-03T12:00:00+11:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.frontiertouring.com/ateez",
       "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
-      "performanceDate": "2026-03-03"
+      "performanceDate": "2026-03-03",
+      "performanceTimeEstimated": true
     },
     {
       "id": "ateez_world_tour_in_your_fantasy_asia_australia_2026_sydney_0306",
       "tourId": "ateez_world_tour_in_your_fantasy_asia_australia_2026",
       "venue": "Qudos Bank Arena",
-      "performanceAt": null,
+      "performanceAt": "2026-03-06T12:00:00+11:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.frontiertouring.com/ateez",
       "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
-      "performanceDate": "2026-03-06"
+      "performanceDate": "2026-03-06",
+      "performanceTimeEstimated": true
     },
     {
       "id": "ateez_world_tour_in_your_fantasy_asia_australia_2026_sydney_0307",
       "tourId": "ateez_world_tour_in_your_fantasy_asia_australia_2026",
       "venue": "Qudos Bank Arena",
-      "performanceAt": null,
+      "performanceAt": "2026-03-07T12:00:00+11:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.frontiertouring.com/ateez",
       "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
-      "performanceDate": "2026-03-07"
+      "performanceDate": "2026-03-07",
+      "performanceTimeEstimated": true
     },
     {
       "id": "ateez_world_tour_in_your_fantasy_asia_australia_2026_manila_0314",
       "tourId": "ateez_world_tour_in_your_fantasy_asia_australia_2026",
       "venue": "Smart Araneta Coliseum",
-      "performanceAt": null,
+      "performanceAt": "2026-03-14T12:00:00+08:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://ateezlive.com/asia/",
       "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
-      "performanceDate": "2026-03-14"
+      "performanceDate": "2026-03-14",
+      "performanceTimeEstimated": true
     },
     {
       "id": "ateez_world_tour_in_your_fantasy_asia_australia_2026_kuala_lumpur_0322",
       "tourId": "ateez_world_tour_in_your_fantasy_asia_australia_2026",
       "venue": "Axiata Arena",
-      "performanceAt": null,
+      "performanceAt": "2026-03-22T12:00:00+08:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://my.bookmyshow.com/en/e/ATEEZ326",
       "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
-      "performanceDate": "2026-03-22"
+      "performanceDate": "2026-03-22",
+      "performanceTimeEstimated": true
     },
     {
       "id": "ateez_world_tour_in_your_fantasy_asia_australia_2026_macau_0328",
       "tourId": "ateez_world_tour_in_your_fantasy_asia_australia_2026",
       "venue": "The Venetian Arena",
-      "performanceAt": null,
+      "performanceAt": "2026-03-28T12:00:00+08:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://ateezlive.com/asia/",
       "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
-      "performanceDate": "2026-03-28"
+      "performanceDate": "2026-03-28",
+      "performanceTimeEstimated": true
     },
     {
       "id": "ateez_world_tour_in_your_fantasy_asia_australia_2026_bangkok_0404",
       "tourId": "ateez_world_tour_in_your_fantasy_asia_australia_2026",
       "venue": "IMPACT Exhibition Hall 5-6",
-      "performanceAt": null,
+      "performanceAt": "2026-04-04T12:00:00+07:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://ateezlive.com/asia/",
       "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
-      "performanceDate": "2026-04-04"
+      "performanceDate": "2026-04-04",
+      "performanceTimeEstimated": true
     }
   ],
   "lotteries": [

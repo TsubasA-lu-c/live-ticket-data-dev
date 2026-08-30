@@ -276,6 +276,62 @@
       "source": "system",
       "sourceUrl": "https://equal-love.jp/news/detail/11639",
       "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "equal_love_inkigayo_live_tokyo_2026",
+      "artistId": "equal_love",
+      "title": "INKIGAYO LIVE in TOKYO",
+      "startDate": "2026-09-22T00:00:00+09:00",
+      "endDate": "2026-09-22T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 18000,
+          "currency": "JPY"
+        },
+        {
+          "label": "2日通し券",
+          "amount": 33000,
+          "currency": "JPY"
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/news/detail/11885",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "equal_love_madilove_public_recording_2026",
+      "artistId": "equal_love",
+      "title": "マヂラブ・野口衣織のマヂでラブになるTV 公開収録2026",
+      "startDate": "2026-11-03T00:00:00+09:00",
+      "endDate": "2026-11-03T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席",
+          "amount": 8000,
+          "currency": "JPY"
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/news/detail/11845",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "equal_love_gift_girls_idol_festival_tokyo_2026",
+      "artistId": "equal_love",
+      "title": "GIFT ～Girls Idol Festival Tokyo～",
+      "startDate": "2026-11-27T00:00:00+09:00",
+      "endDate": "2026-11-27T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "DAY-1",
+          "amount": 12000,
+          "currency": "JPY"
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/news/detail/11851",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -858,6 +914,56 @@
       "source": "system",
       "sourceUrl": "https://equal-love.jp/schedule/detail/11710",
       "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "equal_love_inkigayo_live_tokyo_2026_0922",
+      "tourId": "equal_love_inkigayo_live_tokyo_2026",
+      "venue": "ベルーナドーム",
+      "performanceAt": "2026-09-22T18:00:00+09:00",
+      "doorOpenAt": "2026-09-22T16:00:00+09:00",
+      "kind": "fes",
+      "eventName": "INKIGAYO LIVE in TOKYO",
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/news/detail/11885",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "equal_love_madilove_public_recording_2026_1",
+      "tourId": "equal_love_madilove_public_recording_2026",
+      "venue": "武蔵野市民文化会館 大ホール",
+      "performanceAt": "2026-11-03T13:00:00+09:00",
+      "doorOpenAt": "2026-11-03T12:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "マヂラブ・野口衣織のマヂでラブになるTV 公開収録2026",
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/news/detail/11845",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "equal_love_madilove_public_recording_2026_2",
+      "tourId": "equal_love_madilove_public_recording_2026",
+      "venue": "武蔵野市民文化会館 大ホール",
+      "performanceAt": "2026-11-03T17:30:00+09:00",
+      "doorOpenAt": "2026-11-03T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "マヂラブ・野口衣織のマヂでラブになるTV 公開収録2026",
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/news/detail/11845",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "equal_love_gift_girls_idol_festival_tokyo_2026_1127",
+      "tourId": "equal_love_gift_girls_idol_festival_tokyo_2026",
+      "venue": "SGCホール有明",
+      "performanceAt": "2026-11-27T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "GIFT ～Girls Idol Festival Tokyo～",
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/news/detail/11851",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00",
+      "performanceDate": "2026-11-27",
+      "performanceTimeEstimated": true
     }
   ],
   "lotteries": [
@@ -1030,6 +1136,72 @@
       "source": "system",
       "sourceUrl": "https://equal-love.jp/news/detail/11602",
       "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
+    },
+    {
+      "id": "equal_love_inkigayo_live_tokyo_2026_lawson",
+      "tourId": "equal_love_inkigayo_live_tokyo_2026",
+      "type": "ローチケ受付",
+      "entryStartAt": "2026-08-20T17:00:00+09:00",
+      "entryEndAt": "2026-08-30T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "equal_love_inkigayo_live_tokyo_2026_0922"
+      ],
+      "source": "system",
+      "sourceUrl": "https://l-tike.com/inkigayo-live/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "equal_love_madilove_public_recording_2026_presale",
+      "tourId": "equal_love_madilove_public_recording_2026",
+      "type": "先行抽選販売",
+      "entryStartAt": "2026-08-28T18:00:00+09:00",
+      "entryEndAt": "2026-09-13T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "equal_love_madilove_public_recording_2026_1",
+        "equal_love_madilove_public_recording_2026_2"
+      ],
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/news/detail/11845",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "equal_love_madilove_public_recording_2026_general",
+      "tourId": "equal_love_madilove_public_recording_2026",
+      "type": "一般先着販売",
+      "entryStartAt": "2026-09-26T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "equal_love_madilove_public_recording_2026_1",
+        "equal_love_madilove_public_recording_2026_2"
+      ],
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/news/detail/11845",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "equal_love_gift_girls_idol_festival_tokyo_2026_fastest",
+      "tourId": "equal_love_gift_girls_idol_festival_tokyo_2026",
+      "type": "最速先行（抽選）",
+      "entryStartAt": "2026-08-18T12:00:00+09:00",
+      "entryEndAt": "2026-09-01T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "equal_love_gift_girls_idol_festival_tokyo_2026_1127"
+      ],
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/news/detail/11851",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

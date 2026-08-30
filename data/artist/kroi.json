@@ -168,6 +168,33 @@
       "source": "system",
       "sourceUrl": "https://kroi.net/live_information/detail/33370",
       "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "kroi_tokyo_island_2026",
+      "artistId": "kroi",
+      "title": "TOKYO ISLAND 2026",
+      "startDate": "2026-10-10T00:00:00+09:00",
+      "endDate": "2026-10-10T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1日券",
+          "amount": 12000,
+          "currency": "JPY"
+        },
+        {
+          "label": "2日通し券",
+          "amount": 22000,
+          "currency": "JPY"
+        },
+        {
+          "label": "3日通し券",
+          "amount": 30000,
+          "currency": "JPY"
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://kroi.net/live_information/detail/41822",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -410,6 +437,18 @@
       "source": "system",
       "sourceUrl": "https://kroi.net/live_information/detail/36331",
       "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "kroi_tokyo_island_2026_1010",
+      "tourId": "kroi_tokyo_island_2026",
+      "venue": "海の森公園",
+      "performanceAt": "2026-10-10T10:30:00+09:00",
+      "doorOpenAt": "2026-10-10T09:30:00+09:00",
+      "kind": "fes",
+      "eventName": "TOKYO ISLAND 2026",
+      "source": "system",
+      "sourceUrl": "https://kroi.net/live_information/detail/41822",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     }
   ],
   "lotteries": [

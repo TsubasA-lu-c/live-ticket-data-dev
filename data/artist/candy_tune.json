@@ -404,6 +404,17 @@
       "source": "system",
       "sourceUrl": "https://candytune.asobisystem.com/news/detail/86518",
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "candy_tune_kawaii_lab_collection_kitakyushu_2026",
+      "artistId": "candy_tune",
+      "title": "KAWAII LAB. COLLECTION produced by TGC ～KAWAIIっちゃ in KITAKYUSHU～",
+      "startDate": "2026-10-12T00:00:00+09:00",
+      "endDate": "2026-10-12T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://candytune.asobisystem.com/news/detail/87766",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -711,40 +722,43 @@
       "id": "candy_tune_tgc_2026_ss_20260314",
       "tourId": "candy_tune_tgc_2026_ss",
       "venue": "国立代々木競技場 第一体育館",
-      "performanceAt": null,
+      "performanceAt": "2026-03-14T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "マイナビ TGC 2026 S/S",
       "source": "system",
       "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/32984",
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00",
-      "performanceDate": "2026-03-14"
+      "performanceDate": "2026-03-14",
+      "performanceTimeEstimated": true
     },
     {
       "id": "candy_tune_idol_runway_2026_20260315",
       "tourId": "candy_tune_idol_runway_2026",
       "venue": "国立代々木競技場 第一体育館",
-      "performanceAt": null,
+      "performanceAt": "2026-03-15T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "CREATEs presents IDOL RUNWAY COLLECTION 2026 Supported by TGC",
       "source": "system",
       "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/30227",
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00",
-      "performanceDate": "2026-03-15"
+      "performanceDate": "2026-03-15",
+      "performanceTimeEstimated": true
     },
     {
       "id": "candy_tune_agestock_2026_20260315",
       "tourId": "candy_tune_agestock_2026",
       "venue": "国立代々木競技場 第一体育館",
-      "performanceAt": null,
+      "performanceAt": "2026-03-15T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "AGESTOCK2026",
       "source": "system",
       "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/30501",
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00",
-      "performanceDate": "2026-03-15"
+      "performanceDate": "2026-03-15",
+      "performanceTimeEstimated": true
     },
     {
       "id": "candy_tune_mega_vegas_2026_20260321",
@@ -774,14 +788,15 @@
       "id": "candy_tune_central_fest_2026_20260405",
       "tourId": "candy_tune_central_fest_2026",
       "venue": "横浜赤レンガ倉庫 赤レンガパーク特設会場",
-      "performanceAt": null,
+      "performanceAt": "2026-04-05T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "CENTRAL MUSIC & ENTERTAINMENT FESTIVAL 2026",
       "source": "system",
       "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/32078",
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00",
-      "performanceDate": "2026-04-05"
+      "performanceDate": "2026-04-05",
+      "performanceTimeEstimated": true
     },
     {
       "id": "candy_tune_girlsaward_2026_ss_20260418",
@@ -799,66 +814,71 @@
       "id": "candy_tune_jj50_2026_20260419",
       "tourId": "candy_tune_jj50_2026",
       "venue": "ぴあアリーナMM",
-      "performanceAt": null,
+      "performanceAt": "2026-04-19T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "JJ50th Anniversary Fest 2026",
       "source": "system",
       "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/32336",
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00",
-      "performanceDate": "2026-04-19"
+      "performanceDate": "2026-04-19",
+      "performanceTimeEstimated": true
     },
     {
       "id": "candy_tune_girls_groove_2026_20260425",
       "tourId": "candy_tune_girls_groove_2026",
       "venue": "豊崎海浜公園 美らSUNビーチ",
-      "performanceAt": null,
+      "performanceAt": "2026-04-25T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "GIRLS GROOVE INNOVATION 2026 2部",
       "source": "system",
       "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/32983",
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00",
-      "performanceDate": "2026-04-25"
+      "performanceDate": "2026-04-25",
+      "performanceTimeEstimated": true
     },
     {
       "id": "candy_tune_japan_jam_2026_20260505",
       "tourId": "candy_tune_japan_jam_2026",
       "venue": "千葉市蘇我スポーツ公園",
-      "performanceAt": null,
+      "performanceAt": "2026-05-05T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "JAPAN JAM 2026",
       "source": "system",
       "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/32712",
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00",
-      "performanceDate": "2026-05-05"
+      "performanceDate": "2026-05-05",
+      "performanceTimeEstimated": true
     },
     {
       "id": "candy_tune_asea_2026_20260516",
       "tourId": "candy_tune_asea_2026",
       "venue": "ベルーナドーム",
-      "performanceAt": null,
+      "performanceAt": "2026-05-16T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "ASIA STAR ENTERTAINER AWARDS 2026",
       "source": "system",
       "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/38230",
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00",
-      "performanceDate": "2026-05-16"
+      "performanceDate": "2026-05-16",
+      "performanceTimeEstimated": true
     },
     {
       "id": "candy_tune_komefes_2026_20260523",
       "tourId": "candy_tune_komefes_2026",
       "venue": "国営越後丘陵公園",
-      "performanceAt": null,
+      "performanceAt": "2026-05-23T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "ながおか米百俵フェス 〜花火と食と音楽と〜 2026",
       "source": "system",
       "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/36058",
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00",
-      "performanceDate": "2026-05-23"
+      "performanceDate": "2026-05-23",
+      "performanceTimeEstimated": true
     },
     {
       "id": "candy_tune_tachibana_kotomi_birthday_2026_20260525",
@@ -888,27 +908,29 @@
       "id": "candy_tune_metrock_2026_osaka_20260530",
       "tourId": "candy_tune_metrock_2026_osaka",
       "venue": "大阪・海とのふれあい広場",
-      "performanceAt": null,
+      "performanceAt": "2026-05-30T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "METROCK 2026 OSAKA",
       "source": "system",
       "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/32934",
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00",
-      "performanceDate": "2026-05-30"
+      "performanceDate": "2026-05-30",
+      "performanceTimeEstimated": true
     },
     {
       "id": "candy_tune_chaipa_2026_20260620",
       "tourId": "candy_tune_chaipa_2026",
       "venue": "梅田芸術劇場メインホール",
-      "performanceAt": null,
+      "performanceAt": "2026-06-20T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "ちゃやまちアイドルパーク",
       "source": "system",
       "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/36467",
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00",
-      "performanceDate": "2026-06-20"
+      "performanceDate": "2026-06-20",
+      "performanceTimeEstimated": true
     },
     {
       "id": "candy_tune_harajuku_tv_2026_20260701",
@@ -938,53 +960,57 @@
       "id": "candy_tune_gigantic_2026_20260726",
       "tourId": "candy_tune_gigantic_2026",
       "venue": "舞洲スポーツアイランド",
-      "performanceAt": null,
+      "performanceAt": "2026-07-26T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "OSAKA GIGANTIC MUSIC FESTIVAL 2026 -THANKS 10TH GIGA-",
       "source": "system",
       "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/36752",
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00",
-      "performanceDate": "2026-07-26"
+      "performanceDate": "2026-07-26",
+      "performanceTimeEstimated": true
     },
     {
       "id": "candy_tune_tif_2026_20260731",
       "tourId": "candy_tune_tif_2026",
       "venue": "お台場・青海周辺エリア",
-      "performanceAt": null,
+      "performanceAt": "2026-07-31T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック",
       "source": "system",
       "sourceUrl": "https://candytune.asobisystem.com/live_information/schedule/list/?month=07&year=2026",
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00",
-      "performanceDate": "2026-07-31"
+      "performanceDate": "2026-07-31",
+      "performanceTimeEstimated": true
     },
     {
       "id": "candy_tune_number_shot_2026_20260801",
       "tourId": "candy_tune_number_shot_2026",
       "venue": "MIZUHO PayPay Dome FUKUOKA",
-      "performanceAt": null,
+      "performanceAt": "2026-08-01T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "NUMBER SHOT 2026",
       "source": "system",
       "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/36166",
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00",
-      "performanceDate": "2026-08-01"
+      "performanceDate": "2026-08-01",
+      "performanceTimeEstimated": true
     },
     {
       "id": "candy_tune_luckyfes_2026_20260809",
       "tourId": "candy_tune_luckyfes_2026",
       "venue": "国営ひたち海浜公園",
-      "performanceAt": null,
+      "performanceAt": "2026-08-09T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "LuckyFes’26",
       "source": "system",
       "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/35898",
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00",
-      "performanceDate": "2026-08-09"
+      "performanceDate": "2026-08-09",
+      "performanceTimeEstimated": true
     },
     {
       "id": "candy_tune_wangan_2026_20260813",
@@ -1002,27 +1028,29 @@
       "id": "candy_tune_asobiexpo_2026_20260818",
       "tourId": "candy_tune_asobiexpo_2026",
       "venue": "TOYOTA ARENA TOKYO",
-      "performanceAt": null,
+      "performanceAt": "2026-08-18T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "ASOBISYSTEM 19th Anniversary ASOBIEXPO 2026",
       "source": "system",
       "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/40744",
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00",
-      "performanceDate": "2026-08-18"
+      "performanceDate": "2026-08-18",
+      "performanceTimeEstimated": true
     },
     {
       "id": "candy_tune_rock_in_japan_2026_20260921",
       "tourId": "candy_tune_rock_in_japan_2026",
       "venue": "千葉市蘇我スポーツ公園",
-      "performanceAt": null,
+      "performanceAt": "2026-09-21T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "ROCK IN JAPAN FESTIVAL 2026",
       "source": "system",
       "sourceUrl": "https://rijfes.jp/2026/artist/3782/",
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00",
-      "performanceDate": "2026-09-21"
+      "performanceDate": "2026-09-21",
+      "performanceTimeEstimated": true
     },
     {
       "id": "candy_tune_3rd_anniversary_live_2026_budokan_0605",
@@ -1131,6 +1159,18 @@
       "source": "system",
       "sourceUrl": "https://candytune.asobisystem.com/news/detail/86518",
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "candy_tune_kawaii_lab_collection_kitakyushu_2026_1012",
+      "tourId": "candy_tune_kawaii_lab_collection_kitakyushu_2026",
+      "venue": "北九州メッセ",
+      "performanceAt": "2026-10-12T16:00:00+09:00",
+      "doorOpenAt": "2026-10-12T14:00:00+09:00",
+      "kind": "fes",
+      "eventName": "KAWAII LAB. COLLECTION produced by TGC ～KAWAIIっちゃ in KITAKYUSHU～",
+      "source": "system",
+      "sourceUrl": "https://candytune.asobisystem.com/news/detail/87766",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1749,6 +1789,86 @@
       "source": "system",
       "sourceUrl": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2669827",
       "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "candy_tune_kawaii_lab_collection_kitakyushu_2026_kawaii_lab_fc",
+      "tourId": "candy_tune_kawaii_lab_collection_kitakyushu_2026",
+      "type": "KAWAII LAB. OFFICIAL FANCLUB先行",
+      "entryStartAt": "2026-08-19T18:00:00+09:00",
+      "entryEndAt": "2026-08-23T23:59:00+09:00",
+      "resultAt": "2026-08-29T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "candy_tune_kawaii_lab_collection_kitakyushu_2026_1012"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tgc.girlswalker.com/kawacolle/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "candy_tune_kawaii_lab_collection_kitakyushu_2026_artist_fc",
+      "tourId": "candy_tune_kawaii_lab_collection_kitakyushu_2026",
+      "type": "CANDY TUNE FC先行",
+      "entryStartAt": "2026-08-29T18:00:00+09:00",
+      "entryEndAt": "2026-09-02T23:59:00+09:00",
+      "resultAt": "2026-09-10T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "candy_tune_kawaii_lab_collection_kitakyushu_2026_1012"
+      ],
+      "source": "system",
+      "sourceUrl": "https://candytune.asobisystem.com/news/detail/87766",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "candy_tune_kawaii_lab_collection_kitakyushu_2026_tgc_premium",
+      "tourId": "candy_tune_kawaii_lab_collection_kitakyushu_2026",
+      "type": "TGC Premium会員先行",
+      "entryStartAt": "2026-08-29T18:00:00+09:00",
+      "entryEndAt": "2026-09-02T23:59:00+09:00",
+      "resultAt": "2026-09-10T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "candy_tune_kawaii_lab_collection_kitakyushu_2026_1012"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tgc.girlswalker.com/kawacolle/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "candy_tune_kawaii_lab_collection_kitakyushu_2026_tgc_line",
+      "tourId": "candy_tune_kawaii_lab_collection_kitakyushu_2026",
+      "type": "TGC公式LINE先行",
+      "entryStartAt": "2026-09-10T18:00:00+09:00",
+      "entryEndAt": "2026-09-12T23:59:00+09:00",
+      "resultAt": "2026-09-19T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "candy_tune_kawaii_lab_collection_kitakyushu_2026_1012"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tgc.girlswalker.com/kawacolle/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "candy_tune_kawaii_lab_collection_kitakyushu_2026_upgrade_1",
+      "tourId": "candy_tune_kawaii_lab_collection_kitakyushu_2026",
+      "type": "アップグレードチケット 第1弾",
+      "entryStartAt": "2026-09-04T18:00:00+09:00",
+      "entryEndAt": "2026-09-13T23:59:00+09:00",
+      "resultAt": "2026-09-18T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "candy_tune_kawaii_lab_collection_kitakyushu_2026_1012"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tgc.girlswalker.com/kawacolle/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

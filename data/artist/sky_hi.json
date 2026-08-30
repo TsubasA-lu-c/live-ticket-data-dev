@@ -28,13 +28,19 @@
     {
       "id": "sky_hi_event_2026_toyosu_pit",
       "artistId": "sky_hi",
-      "title": "SKY-HI単独豊洲PIT公演 3DAYS",
+      "title": "SKY-HI Birthday Bash 2026 -X-",
       "startDate": "2026-12-11T00:00:00+09:00",
       "endDate": "2026-12-13T00:00:00+09:00",
-      "prices": null,
+      "prices": [
+        {
+          "label": "スタンディング",
+          "amount": 9000,
+          "currency": "JPY"
+        }
+      ],
       "source": "system",
-      "sourceUrl": "https://skyhi.tokyo/news/2086",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "sourceUrl": "https://skyhi.tokyo/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     },
     {
       "id": "sky_hi_dunk_showcase_k_arena_2026",
@@ -181,37 +187,37 @@
       "id": "sky_hi_event_2026_toyosu_pit_toyosu_1211",
       "tourId": "sky_hi_event_2026_toyosu_pit",
       "venue": "豊洲PIT",
-      "performanceAt": "2026-12-11T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-12-11T19:00:00+09:00",
+      "doorOpenAt": "2026-12-11T18:00:00+09:00",
       "kind": "oneman",
-      "eventName": "SKY-HI単独豊洲PIT公演 3DAYS",
+      "eventName": "SKY-HI X UVERworld",
       "source": "system",
-      "sourceUrl": "https://skyhi.tokyo/news/2086",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "sourceUrl": "https://skyhi.tokyo/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     },
     {
       "id": "sky_hi_event_2026_toyosu_pit_toyosu_1212",
       "tourId": "sky_hi_event_2026_toyosu_pit",
       "venue": "豊洲PIT",
-      "performanceAt": "2026-12-12T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-12-12T18:30:00+09:00",
+      "doorOpenAt": "2026-12-12T17:30:00+09:00",
       "kind": "oneman",
-      "eventName": "SKY-HI単独豊洲PIT公演 3DAYS",
+      "eventName": "SKY-HI X FRIENDS",
       "source": "system",
-      "sourceUrl": "https://skyhi.tokyo/news/2086",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "sourceUrl": "https://skyhi.tokyo/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     },
     {
       "id": "sky_hi_event_2026_toyosu_pit_toyosu_1213",
       "tourId": "sky_hi_event_2026_toyosu_pit",
       "venue": "豊洲PIT",
-      "performanceAt": "2026-12-13T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-12-13T18:30:00+09:00",
+      "doorOpenAt": "2026-12-13T17:30:00+09:00",
       "kind": "oneman",
-      "eventName": "SKY-HI単独豊洲PIT公演 3DAYS",
+      "eventName": "SKY-HI X SKY-HI",
       "source": "system",
-      "sourceUrl": "https://skyhi.tokyo/news/2086",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "sourceUrl": "https://skyhi.tokyo/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     },
     {
       "id": "sky_hi_dunk_showcase_k_arena_2026_yokohama_0313",
@@ -422,6 +428,60 @@
       "source": "system",
       "sourceUrl": "https://bmsgfes.tokyo/news/260715",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_event_2026_toyosu_pit_flyers_architect",
+      "tourId": "sky_hi_event_2026_toyosu_pit",
+      "type": "FLYERS／B-Town〈Architect〉先行",
+      "entryStartAt": "2026-08-24T18:00:00+09:00",
+      "entryEndAt": "2026-08-31T23:59:00+09:00",
+      "resultAt": "2026-09-05T12:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sky_hi_event_2026_toyosu_pit_toyosu_1211",
+        "sky_hi_event_2026_toyosu_pit_toyosu_1212",
+        "sky_hi_event_2026_toyosu_pit_toyosu_1213"
+      ],
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_event_2026_toyosu_pit_resident",
+      "tourId": "sky_hi_event_2026_toyosu_pit",
+      "type": "B-Town〈Resident〉先行",
+      "entryStartAt": "2026-09-05T15:00:00+09:00",
+      "entryEndAt": "2026-09-10T23:59:00+09:00",
+      "resultAt": "2026-09-17T12:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sky_hi_event_2026_toyosu_pit_toyosu_1211",
+        "sky_hi_event_2026_toyosu_pit_toyosu_1212",
+        "sky_hi_event_2026_toyosu_pit_toyosu_1213"
+      ],
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_event_2026_toyosu_pit_second",
+      "tourId": "sky_hi_event_2026_toyosu_pit",
+      "type": "FLYERS 2次／B-Town各2次先行",
+      "entryStartAt": "2026-09-17T15:00:00+09:00",
+      "entryEndAt": "2026-09-23T23:59:00+09:00",
+      "resultAt": "2026-09-30T12:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sky_hi_event_2026_toyosu_pit_toyosu_1211",
+        "sky_hi_event_2026_toyosu_pit_toyosu_1212",
+        "sky_hi_event_2026_toyosu_pit_toyosu_1213"
+      ],
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

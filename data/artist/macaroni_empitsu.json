@@ -526,6 +526,32 @@
       "source": "system",
       "sourceUrl": "https://macaroniempitsu.com/live/19510.html",
       "lastVerifiedAt": "2026-08-17T23:32:00+09:00"
+    },
+    {
+      "id": "macaroni_empitsu_vol22_2026_general_0829",
+      "tourId": "macaroni_empitsu_vol22_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-08-29T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "macaroni_empitsu_vol22_2026_osaka_1003",
+        "macaroni_empitsu_vol22_2026_osaka_1004",
+        "macaroni_empitsu_vol22_2026_fukuoka_1024",
+        "macaroni_empitsu_vol22_2026_fukuoka_1025",
+        "macaroni_empitsu_vol22_2026_hokkaido_1031",
+        "macaroni_empitsu_vol22_2026_tokyo_1103",
+        "macaroni_empitsu_vol22_2026_miyagi_1121",
+        "macaroni_empitsu_vol22_2026_hyogo_1129",
+        "macaroni_empitsu_vol22_2026_tokyo_1205",
+        "macaroni_empitsu_vol22_2026_tokyo_1206",
+        "macaroni_empitsu_vol22_2026_aichi_1226"
+      ],
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

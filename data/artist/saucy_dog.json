@@ -347,14 +347,15 @@
       "id": "saucy_dog_rijf_2026_0912",
       "tourId": "saucy_dog_rock_in_japan_festival_2026",
       "venue": "千葉市蘇我スポーツ公園",
-      "performanceAt": null,
+      "performanceAt": "2026-09-12T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "rockin'on presents ROCK IN JAPAN FESTIVAL 2026",
       "source": "system",
       "sourceUrl": "https://saucydog.jp/news/5/?range=future_event_end_time&sort=asc",
       "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
-      "performanceDate": "2026-09-12"
+      "performanceDate": "2026-09-12",
+      "performanceTimeEstimated": true
     },
     {
       "id": "saucy_dog_taiman_2026_1002",
@@ -372,14 +373,15 @@
       "id": "saucy_dog_xmf_2026_1004",
       "tourId": "saucy_dog_xmf_2026",
       "venue": "仁川パラダイスシティ",
-      "performanceAt": null,
+      "performanceAt": "2026-10-04T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "XMF 2026（Xnterstellar Music Festival 2026）",
       "source": "system",
       "sourceUrl": "https://saucydog.jp/news/5/?range=future_event_end_time&sort=asc",
       "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
-      "performanceDate": "2026-10-04"
+      "performanceDate": "2026-10-04",
+      "performanceTimeEstimated": true
     },
     {
       "id": "saucy_dog_this_fes_2026_1101",
@@ -457,40 +459,43 @@
       "id": "saucy_dog_number_shot_2026_20260802",
       "tourId": "saucy_dog_number_shot_2026",
       "venue": "MIZUHO PayPay Dome FUKUOKA",
-      "performanceAt": null,
+      "performanceAt": "2026-08-02T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "NUMBER SHOT 2026",
       "source": "system",
       "sourceUrl": "https://saucydog.jp/news/5/?range=past_event_end_time&sort=desc",
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00",
-      "performanceDate": "2026-08-02"
+      "performanceDate": "2026-08-02",
+      "performanceTimeEstimated": true
     },
     {
       "id": "saucy_dog_summer_sonic_tokyo_2026_20260815",
       "tourId": "saucy_dog_summer_sonic_tokyo_2026",
       "venue": "ZOZOマリンスタジアム＆幕張メッセ",
-      "performanceAt": null,
+      "performanceAt": "2026-08-15T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "SUMMER SONIC 2026 TOKYO",
       "source": "system",
       "sourceUrl": "https://saucydog.jp/news/5/?range=past_event_end_time&sort=desc",
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00",
-      "performanceDate": "2026-08-15"
+      "performanceDate": "2026-08-15",
+      "performanceTimeEstimated": true
     },
     {
       "id": "saucy_dog_summer_sonic_osaka_2026_20260816",
       "tourId": "saucy_dog_summer_sonic_osaka_2026",
       "venue": "万博記念公園",
-      "performanceAt": null,
+      "performanceAt": "2026-08-16T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "SUMMER SONIC 2026 OSAKA",
       "source": "system",
       "sourceUrl": "https://saucydog.jp/news/5/?range=past_event_end_time&sort=desc",
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00",
-      "performanceDate": "2026-08-16"
+      "performanceDate": "2026-08-16",
+      "performanceTimeEstimated": true
     }
   ],
   "lotteries": [

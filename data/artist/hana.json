@@ -204,6 +204,17 @@
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/260516/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "hana_asia_pop_girl_fest_2027",
+      "artistId": "hana",
+      "title": "ASIA POP GIRL FEST 2027",
+      "startDate": "2027-01-22T00:00:00+09:00",
+      "endDate": "2027-02-19T00:00:00+08:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/asia-pop-girl-fest-2027/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -374,6 +385,62 @@
       "source": "system",
       "sourceUrl": "https://1chancefes.com/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "hana_asia_pop_girl_fest_2027_0122",
+      "tourId": "hana_asia_pop_girl_fest_2027",
+      "venue": "LaLa arena TOKYO-BAY",
+      "performanceAt": "2027-01-22T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "eventName": "ASIA POP GIRL FEST 2027",
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/asia-pop-girl-fest-2027/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00",
+      "performanceDate": "2027-01-22",
+      "performanceTimeEstimated": true
+    },
+    {
+      "id": "hana_asia_pop_girl_fest_2027_0123",
+      "tourId": "hana_asia_pop_girl_fest_2027",
+      "venue": "LaLa arena TOKYO-BAY",
+      "performanceAt": "2027-01-23T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "eventName": "ASIA POP GIRL FEST 2027",
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/asia-pop-girl-fest-2027/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00",
+      "performanceDate": "2027-01-23",
+      "performanceTimeEstimated": true
+    },
+    {
+      "id": "hana_asia_pop_girl_fest_2027_0213",
+      "tourId": "hana_asia_pop_girl_fest_2027",
+      "venue": "BITEC LIVE",
+      "performanceAt": "2027-02-13T12:00:00+07:00",
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "eventName": "ASIA POP GIRL FEST 2027",
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/asia-pop-girl-fest-2027/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00",
+      "performanceDate": "2027-02-13",
+      "performanceTimeEstimated": true
+    },
+    {
+      "id": "hana_asia_pop_girl_fest_2027_0219",
+      "tourId": "hana_asia_pop_girl_fest_2027",
+      "venue": "SM Mall of Asia Arena",
+      "performanceAt": "2027-02-19T12:00:00+08:00",
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "eventName": "ASIA POP GIRL FEST 2027",
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/asia-pop-girl-fest-2027/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00",
+      "performanceDate": "2027-02-19",
+      "performanceTimeEstimated": true
     }
   ],
   "lotteries": [

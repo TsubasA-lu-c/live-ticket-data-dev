@@ -997,6 +997,48 @@
       "source": "system",
       "sourceUrl": "https://yabaitshirtsyasan.com/mtp_tour/",
       "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_mtp_tour_2026_eplus_preorder_haneda",
+      "tourId": "yabai_tshirts_yasan_mtp_tour_2026",
+      "type": "Zepp Haneda公演 プレオーダー先行（e+）",
+      "entryStartAt": "2026-08-07T12:00:00+09:00",
+      "entryEndAt": "2026-08-19T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yabai_tshirts_yasan_mtp_tour_2026_haneda_1027",
+        "yabai_tshirts_yasan_mtp_tour_2026_haneda_1028",
+        "yabai_tshirts_yasan_mtp_tour_2026_haneda_1104",
+        "yabai_tshirts_yasan_mtp_tour_2026_haneda_1105",
+        "yabai_tshirts_yasan_mtp_tour_2026_haneda_1110",
+        "yabai_tshirts_yasan_mtp_tour_2026_haneda_1111"
+      ],
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/mtp_tour/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_mtp_tour_2026_pia_prereserve_haneda",
+      "tourId": "yabai_tshirts_yasan_mtp_tour_2026",
+      "type": "Zepp Haneda公演 プレリザーブ先行（ぴあ）",
+      "entryStartAt": "2026-08-07T12:00:00+09:00",
+      "entryEndAt": "2026-08-19T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yabai_tshirts_yasan_mtp_tour_2026_haneda_1027",
+        "yabai_tshirts_yasan_mtp_tour_2026_haneda_1028",
+        "yabai_tshirts_yasan_mtp_tour_2026_haneda_1104",
+        "yabai_tshirts_yasan_mtp_tour_2026_haneda_1105",
+        "yabai_tshirts_yasan_mtp_tour_2026_haneda_1110",
+        "yabai_tshirts_yasan_mtp_tour_2026_haneda_1111"
+      ],
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/mtp_tour/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

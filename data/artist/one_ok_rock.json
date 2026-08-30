@@ -52,6 +52,17 @@
       "source": "system",
       "sourceUrl": "https://www.oneokrock.com/jp/news/5108",
       "lastVerifiedAt": "2026-08-18T00:08:00+09:00"
+    },
+    {
+      "id": "one_ok_rock_xmf_2026",
+      "artistId": "one_ok_rock",
+      "title": "XMF 2026（Xnterstellar Music Festival 2026）",
+      "startDate": "2026-10-04T00:00:00+09:00",
+      "endDate": "2026-10-04T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.oneokrock.com/jp/news/5142",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -150,6 +161,20 @@
       "source": "system",
       "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "one_ok_rock_xmf_2026_1004",
+      "tourId": "one_ok_rock_xmf_2026",
+      "venue": "仁川パラダイスシティ",
+      "performanceAt": "2026-10-04T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "XMF 2026（Xnterstellar Music Festival 2026）",
+      "source": "system",
+      "sourceUrl": "https://www.oneokrock.com/jp/news/5142",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00",
+      "performanceDate": "2026-10-04",
+      "performanceTimeEstimated": true
     }
   ],
   "lotteries": [

@@ -447,27 +447,29 @@
       "id": "nakajima_kento_summer_sonic_tokyo_2026_20260815",
       "tourId": "nakajima_kento_summer_sonic_tokyo_2026",
       "venue": "ZOZOマリンスタジアム＆幕張メッセ",
-      "performanceAt": null,
+      "performanceAt": "2026-08-15T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "SUMMER SONIC 2026 TOKYO",
       "source": "system",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/582400",
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00",
-      "performanceDate": "2026-08-15"
+      "performanceDate": "2026-08-15",
+      "performanceTimeEstimated": true
     },
     {
       "id": "nakajima_kento_summer_sonic_osaka_2026_20260816",
       "tourId": "nakajima_kento_summer_sonic_osaka_2026",
       "venue": "万博記念公園",
-      "performanceAt": null,
+      "performanceAt": "2026-08-16T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "SUMMER SONIC 2026 OSAKA",
       "source": "system",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/582400",
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00",
-      "performanceDate": "2026-08-16"
+      "performanceDate": "2026-08-16",
+      "performanceTimeEstimated": true
     }
   ],
   "lotteries": [

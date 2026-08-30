@@ -144,6 +144,74 @@
       "source": "system",
       "sourceUrl": "https://not-equal-me.jp/news/detail/7652",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "not_equal_me_missione_2026",
+      "artistId": "not_equal_me",
+      "title": "≠MissionE 公開収録＆ミニLIVE",
+      "startDate": "2026-11-22T00:00:00+09:00",
+      "endDate": "2026-11-22T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 7920,
+          "currency": "JPY"
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "not_equal_me_kawanago_birthday_20260908",
+      "artistId": "not_equal_me",
+      "title": "川中子 奈月心 生誕祭",
+      "startDate": "2026-09-08T00:00:00+09:00",
+      "endDate": "2026-09-08T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "FCイベント",
+          "amount": 3300,
+          "currency": "JPY"
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "not_equal_me_tanizaki_birthday_20261028",
+      "artistId": "not_equal_me",
+      "title": "谷崎 早耶 生誕祭",
+      "startDate": "2026-10-28T00:00:00+09:00",
+      "endDate": "2026-10-28T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "FCイベント",
+          "amount": 3300,
+          "currency": "JPY"
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "not_equal_me_kanisawa_birthday_20261028",
+      "artistId": "not_equal_me",
+      "title": "蟹沢 萌子 生誕祭",
+      "startDate": "2026-10-28T00:00:00+09:00",
+      "endDate": "2026-10-28T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "FCイベント",
+          "amount": 3300,
+          "currency": "JPY"
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -434,6 +502,66 @@
       "source": "system",
       "sourceUrl": "https://not-equal-me.jp/news/detail/7652",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "not_equal_me_missione_2026_day",
+      "tourId": "not_equal_me_missione_2026",
+      "venue": "KT Zepp YOKOHAMA",
+      "performanceAt": "2026-11-22T14:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "≠MissionE 公開収録＆ミニLIVE",
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "not_equal_me_missione_2026_night",
+      "tourId": "not_equal_me_missione_2026",
+      "venue": "KT Zepp YOKOHAMA",
+      "performanceAt": "2026-11-22T18:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "≠MissionE 公開収録＆ミニLIVE",
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "not_equal_me_kawanago_birthday_20260908_1",
+      "tourId": "not_equal_me_kawanago_birthday_20260908",
+      "venue": "都内某所",
+      "performanceAt": "2026-09-08T19:15:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "川中子 奈月心 生誕祭",
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "not_equal_me_tanizaki_birthday_20261028_1",
+      "tourId": "not_equal_me_tanizaki_birthday_20261028",
+      "venue": "都内某所",
+      "performanceAt": "2026-10-28T15:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "谷崎 早耶 生誕祭",
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "not_equal_me_kanisawa_birthday_20261028_1",
+      "tourId": "not_equal_me_kanisawa_birthday_20261028",
+      "venue": "都内某所",
+      "performanceAt": "2026-10-28T17:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "蟹沢 萌子 生誕祭",
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -516,6 +644,71 @@
       "source": "system",
       "sourceUrl": "https://not-equal-me.jp/schedule/detail/7450",
       "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
+    },
+    {
+      "id": "not_equal_me_missione_2026_fc",
+      "tourId": "not_equal_me_missione_2026",
+      "type": "FC先行",
+      "entryStartAt": "2026-08-29T17:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "not_equal_me_missione_2026_day",
+        "not_equal_me_missione_2026_night"
+      ],
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "not_equal_me_kawanago_birthday_20260908_fc_2",
+      "tourId": "not_equal_me_kawanago_birthday_20260908",
+      "type": "FC限定2次受付",
+      "entryStartAt": "2026-08-28T16:00:00+09:00",
+      "entryEndAt": "2026-08-31T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "not_equal_me_kawanago_birthday_20260908_1"
+      ],
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "not_equal_me_tanizaki_birthday_20261028_fc",
+      "tourId": "not_equal_me_tanizaki_birthday_20261028",
+      "type": "FC限定受付",
+      "entryStartAt": "2026-08-28T16:30:00+09:00",
+      "entryEndAt": "2026-09-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "not_equal_me_tanizaki_birthday_20261028_1"
+      ],
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "not_equal_me_kanisawa_birthday_20261028_fc",
+      "tourId": "not_equal_me_kanisawa_birthday_20261028",
+      "type": "FC限定受付",
+      "entryStartAt": "2026-08-28T16:30:00+09:00",
+      "entryEndAt": "2026-09-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "not_equal_me_kanisawa_birthday_20261028_1"
+      ],
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

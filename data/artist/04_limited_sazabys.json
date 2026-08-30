@@ -137,6 +137,57 @@
       "source": "system",
       "sourceUrl": "https://www.04limitedsazabys.com/feature/yontownlive2026",
       "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_wienners_over_the_top_2026",
+      "artistId": "04_limited_sazabys",
+      "title": "Wienners \"OVER THE TOP TOUR 2026\"",
+      "startDate": "2026-11-24T00:00:00+09:00",
+      "endDate": "2026-11-24T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "一般",
+          "amount": 5000,
+          "currency": "JPY"
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/live_information/list/?limit=20&page=2&range=future",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_blaze_up_nagasaki_2026",
+      "artistId": "04_limited_sazabys",
+      "title": "BLAZE UP NAGASAKI 2026",
+      "startDate": "2026-12-06T00:00:00+09:00",
+      "endDate": "2026-12-06T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "一般",
+          "amount": 10800,
+          "currency": "JPY"
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/live_information/list/?limit=20&page=2&range=future",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_musubi_yumebanchi_2026",
+      "artistId": "04_limited_sazabys",
+      "title": "結びの夢番地2026",
+      "startDate": "2026-12-13T00:00:00+09:00",
+      "endDate": "2026-12-13T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "一般",
+          "amount": 9000,
+          "currency": "JPY"
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/live_information/list/?limit=20&page=2&range=future",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -559,6 +610,42 @@
       "source": "system",
       "sourceUrl": "https://www.04limitedsazabys.com/feature/yontownlive2026",
       "lastVerifiedAt": "2026-08-18T07:22:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_wienners_over_the_top_2026_1124",
+      "tourId": "04_limited_sazabys_wienners_over_the_top_2026",
+      "venue": "恵比寿LIQUIDROOM",
+      "performanceAt": "2026-11-24T19:00:00+09:00",
+      "doorOpenAt": "2026-11-24T18:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "Wienners \"OVER THE TOP TOUR 2026\"",
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/live_information/list/?limit=20&page=2&range=future",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_blaze_up_nagasaki_2026_1206",
+      "tourId": "04_limited_sazabys_blaze_up_nagasaki_2026",
+      "venue": "出島メッセ長崎",
+      "performanceAt": "2026-12-06T11:00:00+09:00",
+      "doorOpenAt": "2026-12-06T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "BLAZE UP NAGASAKI 2026",
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/live_information/list/?limit=20&page=2&range=future",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_musubi_yumebanchi_2026_1213",
+      "tourId": "04_limited_sazabys_musubi_yumebanchi_2026",
+      "venue": "広島県立ふくやま産業交流館 ビッグ・ローズ",
+      "performanceAt": "2026-12-13T11:30:00+09:00",
+      "doorOpenAt": "2026-12-13T10:45:00+09:00",
+      "kind": "fes",
+      "eventName": "結びの夢番地2026",
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/live_information/list/?limit=20&page=2&range=future",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     }
   ],
   "lotteries": [

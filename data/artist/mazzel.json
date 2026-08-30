@@ -141,6 +141,17 @@
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/live/5156/",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "mazzel_rock_in_japan_festival_2026",
+      "artistId": "mazzel",
+      "title": "ROCK IN JAPAN FESTIVAL 2026",
+      "startDate": "2026-09-21T00:00:00+09:00",
+      "endDate": "2026-09-21T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://rijfes.jp/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -695,6 +706,20 @@
       "source": "system",
       "sourceUrl": "https://dayday-live.jp/",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "mazzel_rock_in_japan_festival_2026_0921",
+      "tourId": "mazzel_rock_in_japan_festival_2026",
+      "venue": "千葉市蘇我スポーツ公園",
+      "performanceAt": "2026-09-21T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "ROCK IN JAPAN FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://rijfes.jp/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00",
+      "performanceDate": "2026-09-21",
+      "performanceTimeEstimated": true
     }
   ],
   "lotteries": [

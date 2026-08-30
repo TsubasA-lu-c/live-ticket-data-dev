@@ -262,14 +262,15 @@
       "id": "bullet_train_rock_in_japan_festival_2026_20260919_1",
       "tourId": "bullet_train_rock_in_japan_festival_2026",
       "venue": "千葉市蘇我スポーツ公園",
-      "performanceAt": null,
+      "performanceAt": "2026-09-19T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "ROCK IN JAPAN FESTIVAL 2026",
       "source": "system",
       "sourceUrl": "https://bullettrain.jp/",
       "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
-      "performanceDate": "2026-09-19"
+      "performanceDate": "2026-09-19",
+      "performanceTimeEstimated": true
     },
     {
       "id": "bullet_train_a_nation_2026_20261003_1",

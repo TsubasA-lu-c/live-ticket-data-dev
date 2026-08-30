@@ -47,6 +47,17 @@
       "source": "system",
       "sourceUrl": "https://yuzu-official.com/pages/yuzu_arenatour2026/",
       "lastVerifiedAt": "2026-08-23T07:44:00+09:00"
+    },
+    {
+      "id": "yuzu_wonderlivet_2026",
+      "artistId": "yuzu",
+      "title": "WONDERLIVET 2026",
+      "startDate": "2026-11-22T00:00:00+09:00",
+      "endDate": "2026-11-22T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://yuzu-official.com/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -337,6 +348,20 @@
       "lastVerifiedAt": "2026-08-23T07:44:00+09:00",
       "kind": "oneman",
       "eventName": null
+    },
+    {
+      "id": "yuzu_wonderlivet_2026_1122",
+      "tourId": "yuzu_wonderlivet_2026",
+      "venue": "KINTEX 第2展示場 HALL 7・8・9・10",
+      "performanceAt": "2026-11-22T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "WONDERLIVET 2026",
+      "source": "system",
+      "sourceUrl": "https://yuzu-official.com/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00",
+      "performanceDate": "2026-11-22",
+      "performanceTimeEstimated": true
     }
   ],
   "lotteries": [

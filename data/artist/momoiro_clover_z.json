@@ -315,6 +315,29 @@
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260501_02",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_dream_festival_2026",
+      "artistId": "momoiro_clover_z",
+      "title": "15th Anniversary テレビ朝日ドリームフェスティバル2026",
+      "startDate": "2026-11-21T00:00:00+09:00",
+      "endDate": "2026-11-21T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 13000,
+          "currency": "JPY"
+        },
+        {
+          "label": "アップグレードチケット",
+          "amount": 7000,
+          "currency": "JPY",
+          "note": "指定席に追加"
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -665,6 +688,18 @@
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260501_02",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_dream_festival_2026_1121",
+      "tourId": "momoiro_clover_z_dream_festival_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-11-21T15:00:00+09:00",
+      "doorOpenAt": "2026-11-21T13:30:00+09:00",
+      "kind": "fes",
+      "eventName": "15th Anniversary テレビ朝日ドリームフェスティバル2026",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -834,14 +869,14 @@
       "id": "momoiro_clover_z_xmas_2026_eplus",
       "tourId": "momoiro_clover_z_xmas_2026",
       "type": "プレオーダー（イープラス）",
-      "entryStartAt": null,
-      "entryEndAt": null,
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
+      "entryStartAt": "2026-08-22T13:00:00+09:00",
+      "entryEndAt": "2026-08-26T23:59:00+09:00",
+      "resultAt": "2026-08-29T13:00:00+09:00",
+      "paymentStartAt": "2026-08-29T13:00:00+09:00",
+      "paymentEndAt": "2026-09-02T21:00:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/news",
-      "lastVerifiedAt": "2026-08-23T00:00:00+09:00",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00",
       "performanceIds": [
         "momoiro_clover_z_xmas_2026_tokyo_1030",
         "momoiro_clover_z_xmas_2026_hiroshima_1102",
@@ -855,6 +890,38 @@
         "momoiro_clover_z_xmas_2026_tokyo_1212",
         "momoiro_clover_z_xmas_2026_tokyo_1213"
       ]
+    },
+    {
+      "id": "momoiro_clover_z_dream_festival_2026_ichihaya",
+      "tourId": "momoiro_clover_z_dream_festival_2026",
+      "type": "いち早プレリザーブ",
+      "entryStartAt": "2026-08-25T12:00:00+09:00",
+      "entryEndAt": "2026-08-30T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "momoiro_clover_z_dream_festival_2026_1121"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_dream_festival_2026_official",
+      "tourId": "momoiro_clover_z_dream_festival_2026",
+      "type": "オフィシャル最速先行",
+      "entryStartAt": "2026-08-31T12:00:00+09:00",
+      "entryEndAt": "2026-09-06T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "momoiro_clover_z_dream_festival_2026_1121"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

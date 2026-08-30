@@ -507,13 +507,14 @@
       "id": "oishi_masayoshi_mbs_public_recording_0329_20260329",
       "tourId": "oishi_masayoshi_mbs_public_recording_0329",
       "venue": null,
-      "performanceAt": null,
+      "performanceAt": "2026-03-29T12:00:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.014014.jp/schedule/live?m=03&y=2026",
       "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
       "kind": "taiban",
       "performanceDate": "2026-03-29",
-      "eventName": "MBSラジオ「押尾コータローの押しても弾いてもスペシャル！」公開録音"
+      "eventName": "MBSラジオ「押尾コータローの押しても弾いてもスペシャル！」公開録音",
+      "performanceTimeEstimated": true
     },
     {
       "id": "oishi_masayoshi_oishi_ssa_release_0404_20260404_1",
@@ -677,13 +678,14 @@
       "id": "oishi_masayoshi_anisama_0712_20260712",
       "tourId": "oishi_masayoshi_anisama_0712",
       "venue": "幕張メッセ 展示ホール4～6",
-      "performanceAt": null,
+      "performanceAt": "2026-07-12T12:00:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.014014.jp/schedule/live?m=7&y=2026",
       "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
       "kind": "fes",
       "performanceDate": "2026-07-12",
-      "eventName": "Animelo Summer Live 2026 -Messenger-"
+      "eventName": "Animelo Summer Live 2026 -Messenger-",
+      "performanceTimeEstimated": true
     },
     {
       "id": "oishi_masayoshi_kimi_kochi_0718_20260718_1",
@@ -709,13 +711,14 @@
       "id": "oishi_masayoshi_luckyfes_0810_20260810",
       "tourId": "oishi_masayoshi_luckyfes_0810",
       "venue": "国営ひたち海浜公園",
-      "performanceAt": null,
+      "performanceAt": "2026-08-10T12:00:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.014014.jp/schedule/live",
       "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
       "kind": "fes",
       "performanceDate": "2026-08-10",
-      "eventName": "LuckyFes’26"
+      "eventName": "LuckyFes’26",
+      "performanceTimeEstimated": true
     },
     {
       "id": "oishi_masayoshi_kariuta3_kanagawa_0830_20260830",
@@ -741,13 +744,14 @@
       "id": "oishi_masayoshi_azurlane_0906_20260906",
       "tourId": "oishi_masayoshi_azurlane_0906",
       "venue": null,
-      "performanceAt": null,
+      "performanceAt": "2026-09-06T12:00:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.014014.jp/schedule/live",
       "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
       "kind": "fes",
       "performanceDate": "2026-09-06",
-      "eventName": "『AZUR LANE MUSI9 FES.』AZUR LANE SPECIAL MUSI9 LIVE"
+      "eventName": "『AZUR LANE MUSI9 FES.』AZUR LANE SPECIAL MUSI9 LIVE",
+      "performanceTimeEstimated": true
     },
     {
       "id": "oishi_masayoshi_kariuta3_aichi_0919_20260919",
@@ -774,13 +778,14 @@
       "id": "oishi_masayoshi_takatsukidamashii_1011_20261011",
       "tourId": "oishi_masayoshi_takatsukidamashii_1011",
       "venue": "高槻市立桃園小学校グラウンド",
-      "performanceAt": null,
+      "performanceAt": "2026-10-11T12:00:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.014014.jp/schedule/live",
       "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
       "kind": "fes",
       "performanceDate": "2026-10-11",
-      "eventName": "高槻魂!!2026"
+      "eventName": "高槻魂!!2026",
+      "performanceTimeEstimated": true
     },
     {
       "id": "oishi_masayoshi_ipu_1017_20261017",

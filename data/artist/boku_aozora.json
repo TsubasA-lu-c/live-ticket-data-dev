@@ -120,6 +120,17 @@
       "source": "system",
       "sourceUrl": "https://bokuao.com/schedule/detail/5349",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "boku_aozora_24h_tv_49_laketown_2026",
+      "artistId": "boku_aozora",
+      "title": "24時間テレビ49連動イベント「僕が見たかった青空 トーク＆ミニライブ」",
+      "startDate": "2026-08-29T00:00:00+09:00",
+      "endDate": "2026-08-29T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -398,6 +409,30 @@
       "source": "system",
       "sourceUrl": "https://bokuao.com/schedule/detail/5349",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "boku_aozora_24h_tv_49_laketown_2026_1100",
+      "tourId": "boku_aozora_24h_tv_49_laketown_2026",
+      "venue": "イオンレイクタウンmori 木の広場",
+      "performanceAt": "2026-08-29T11:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "僕が見たかった青空 トーク＆ミニライブ",
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "boku_aozora_24h_tv_49_laketown_2026_1430",
+      "tourId": "boku_aozora_24h_tv_49_laketown_2026",
+      "venue": "イオンレイクタウンmori 木の広場",
+      "performanceAt": "2026-08-29T14:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "僕が見たかった青空 トーク＆ミニライブ",
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     }
   ],
   "lotteries": [

@@ -83,6 +83,28 @@
       "source": "system",
       "sourceUrl": "https://befirst.tokyo/tour/Stadium-Live-2026/",
       "lastVerifiedAt": "2026-08-23T07:44:00+09:00"
+    },
+    {
+      "id": "be_first_watch_me_us_2026",
+      "artistId": "be_first",
+      "title": "BE:FIRST “WATCH ME” Special Mini Live & Talk in US",
+      "startDate": "2026-09-18T00:00:00-07:00",
+      "endDate": "2026-09-20T00:00:00-10:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://befirst.tokyo/music/watchme-event/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "be_first_head_in_the_clouds_la_2026",
+      "artistId": "be_first",
+      "title": "Head In The Clouds LA 2026",
+      "startDate": "2026-08-08T00:00:00-07:00",
+      "endDate": "2026-08-08T00:00:00-07:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://befirst.tokyo/live/260808_hitc/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -265,6 +287,62 @@
       "lastVerifiedAt": "2026-08-23T07:44:00+09:00",
       "kind": "oneman",
       "eventName": null
+    },
+    {
+      "id": "be_first_watch_me_us_2026_la",
+      "tourId": "be_first_watch_me_us_2026",
+      "venue": "hello82 LA",
+      "performanceAt": "2026-09-18T12:00:00-07:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "BE:FIRST “WATCH ME” Special Mini Live & Talk in US",
+      "source": "system",
+      "sourceUrl": "https://befirst.tokyo/music/watchme-event/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00",
+      "performanceDate": "2026-09-18",
+      "performanceTimeEstimated": true
+    },
+    {
+      "id": "be_first_watch_me_us_2026_hawaii_day",
+      "tourId": "be_first_watch_me_us_2026",
+      "venue": "Hilton Hawaiian Village Tapa Ballroom",
+      "performanceAt": "2026-09-20T12:00:00-10:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "BE:FIRST “WATCH ME” Special Mini Live & Talk in US",
+      "source": "system",
+      "sourceUrl": "https://befirst.tokyo/music/watchme-event/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00",
+      "performanceDate": "2026-09-20",
+      "performanceTimeEstimated": true
+    },
+    {
+      "id": "be_first_watch_me_us_2026_hawaii_night",
+      "tourId": "be_first_watch_me_us_2026",
+      "venue": "Hilton Hawaiian Village Tapa Ballroom",
+      "performanceAt": "2026-09-20T12:00:00-10:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "BE:FIRST “WATCH ME” Special Mini Live & Talk in US",
+      "source": "system",
+      "sourceUrl": "https://befirst.tokyo/music/watchme-event/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00",
+      "performanceDate": "2026-09-20",
+      "performanceTimeEstimated": true
+    },
+    {
+      "id": "be_first_head_in_the_clouds_la_2026_0808",
+      "tourId": "be_first_head_in_the_clouds_la_2026",
+      "venue": "Brookside at the Rose Bowl, Pasadena, CA",
+      "performanceAt": "2026-08-08T12:00:00-07:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "Head In The Clouds LA 2026",
+      "source": "system",
+      "sourceUrl": "https://befirst.tokyo/live/260808_hitc/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00",
+      "performanceDate": "2026-08-08",
+      "performanceTimeEstimated": true
     }
   ],
   "lotteries": [
@@ -330,6 +408,24 @@
       "source": "system",
       "sourceUrl": "https://befirst.tokyo/tour/dometour2027/",
       "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "be_first_watch_me_us_2026_priority_area",
+      "tourId": "be_first_watch_me_us_2026",
+      "type": "優先確定エリア抽選",
+      "entryStartAt": null,
+      "entryEndAt": "2026-08-28T17:59:00-07:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "be_first_watch_me_us_2026_la",
+        "be_first_watch_me_us_2026_hawaii_day",
+        "be_first_watch_me_us_2026_hawaii_night"
+      ],
+      "source": "system",
+      "sourceUrl": "https://befirst.tokyo/music/watchme-event/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

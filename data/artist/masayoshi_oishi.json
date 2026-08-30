@@ -542,7 +542,7 @@
       "id": "masayoshi_oishi__rel__oishi_masayoshi_mbs_public_recording_0329_20260329",
       "tourId": "masayoshi_oishi__rel__oishi_masayoshi_mbs_public_recording_0329",
       "venue": null,
-      "performanceAt": null,
+      "performanceAt": "2026-03-29T12:00:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.014014.jp/schedule/live?m=03&y=2026",
       "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
@@ -552,7 +552,8 @@
       "relationMirror": {
         "sourceArtistId": "oishi_masayoshi",
         "sourceId": "oishi_masayoshi_mbs_public_recording_0329_20260329"
-      }
+      },
+      "performanceTimeEstimated": true
     },
     {
       "id": "masayoshi_oishi__rel__oishi_masayoshi_oishi_ssa_release_0404_20260404_1",
@@ -776,7 +777,7 @@
       "id": "masayoshi_oishi__rel__oishi_masayoshi_anisama_0712_20260712",
       "tourId": "masayoshi_oishi__rel__oishi_masayoshi_anisama_0712",
       "venue": "幕張メッセ 展示ホール4～6",
-      "performanceAt": null,
+      "performanceAt": "2026-07-12T12:00:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.014014.jp/schedule/live?m=7&y=2026",
       "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
@@ -786,7 +787,8 @@
       "relationMirror": {
         "sourceArtistId": "oishi_masayoshi",
         "sourceId": "oishi_masayoshi_anisama_0712_20260712"
-      }
+      },
+      "performanceTimeEstimated": true
     },
     {
       "id": "masayoshi_oishi__rel__oishi_masayoshi_kimi_kochi_0718_20260718_1",
@@ -820,7 +822,7 @@
       "id": "masayoshi_oishi__rel__oishi_masayoshi_luckyfes_0810_20260810",
       "tourId": "masayoshi_oishi__rel__oishi_masayoshi_luckyfes_0810",
       "venue": "国営ひたち海浜公園",
-      "performanceAt": null,
+      "performanceAt": "2026-08-10T12:00:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.014014.jp/schedule/live",
       "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
@@ -830,7 +832,8 @@
       "relationMirror": {
         "sourceArtistId": "oishi_masayoshi",
         "sourceId": "oishi_masayoshi_luckyfes_0810_20260810"
-      }
+      },
+      "performanceTimeEstimated": true
     },
     {
       "id": "masayoshi_oishi__rel__oishi_masayoshi_kariuta3_kanagawa_0830_20260830",
@@ -864,7 +867,7 @@
       "id": "masayoshi_oishi__rel__oishi_masayoshi_azurlane_0906_20260906",
       "tourId": "masayoshi_oishi__rel__oishi_masayoshi_azurlane_0906",
       "venue": null,
-      "performanceAt": null,
+      "performanceAt": "2026-09-06T12:00:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.014014.jp/schedule/live",
       "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
@@ -874,7 +877,8 @@
       "relationMirror": {
         "sourceArtistId": "oishi_masayoshi",
         "sourceId": "oishi_masayoshi_azurlane_0906_20260906"
-      }
+      },
+      "performanceTimeEstimated": true
     },
     {
       "id": "masayoshi_oishi__rel__oishi_masayoshi_kariuta3_aichi_0919_20260919",
@@ -909,7 +913,7 @@
       "id": "masayoshi_oishi__rel__oishi_masayoshi_takatsukidamashii_1011_20261011",
       "tourId": "masayoshi_oishi__rel__oishi_masayoshi_takatsukidamashii_1011",
       "venue": "高槻市立桃園小学校グラウンド",
-      "performanceAt": null,
+      "performanceAt": "2026-10-11T12:00:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.014014.jp/schedule/live",
       "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
@@ -919,7 +923,8 @@
       "relationMirror": {
         "sourceArtistId": "oishi_masayoshi",
         "sourceId": "oishi_masayoshi_takatsukidamashii_1011_20261011"
-      }
+      },
+      "performanceTimeEstimated": true
     },
     {
       "id": "masayoshi_oishi__rel__oishi_masayoshi_ipu_1017_20261017",

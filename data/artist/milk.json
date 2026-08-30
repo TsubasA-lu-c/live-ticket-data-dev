@@ -852,6 +852,40 @@
       "source": "system",
       "sourceUrl": "https://sd-milk.com/contents/1098315",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "milk_shakariki_revolution_2026_sendoff_prelottery",
+      "tourId": "milk_shakariki_revolution_2026",
+      "type": "メンバー全員お見送り会 事前抽選",
+      "entryStartAt": "2026-08-29T18:00:00+09:00",
+      "entryEndAt": "2026-09-06T23:59:00+09:00",
+      "resultAt": "2026-09-11T17:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_shakariki_revolution_2026_fukuoka_0926",
+        "milk_shakariki_revolution_2026_fukuoka_0927a",
+        "milk_shakariki_revolution_2026_fukuoka_0927b",
+        "milk_shakariki_revolution_2026_miyagi_1024",
+        "milk_shakariki_revolution_2026_miyagi_1025a",
+        "milk_shakariki_revolution_2026_miyagi_1025b",
+        "milk_shakariki_revolution_2026_kanagawa_1121",
+        "milk_shakariki_revolution_2026_kanagawa_1122a",
+        "milk_shakariki_revolution_2026_kanagawa_1122b",
+        "milk_shakariki_revolution_2026_aichi_1212",
+        "milk_shakariki_revolution_2026_aichi_1213a",
+        "milk_shakariki_revolution_2026_aichi_1213b",
+        "milk_shakariki_revolution_2026_osaka_1225",
+        "milk_shakariki_revolution_2026_osaka_1226a",
+        "milk_shakariki_revolution_2026_osaka_1226b",
+        "milk_shakariki_revolution_2026_kanagawa2_0115",
+        "milk_shakariki_revolution_2026_kanagawa2_0116a",
+        "milk_shakariki_revolution_2026_kanagawa2_0116b",
+        "milk_shakariki_revolution_2026_kanagawa2_0117"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

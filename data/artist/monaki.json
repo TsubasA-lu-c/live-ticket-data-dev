@@ -17,7 +17,7 @@
       "artistId": "monaki",
       "title": "MONAKI 1st Tour 2026「モナキやで☆しらんけど Supported by LuLuLun」",
       "startDate": "2026-08-18T00:00:00+09:00",
-      "endDate": "2026-08-24T00:00:00+09:00",
+      "endDate": "2026-11-27T00:00:00+09:00",
       "prices": [
         {
           "label": "1階スタンディング",
@@ -34,7 +34,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://monaki.jp/news/detail/84264",
-      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     },
     {
       "id": "monaki_halloween_2026",
@@ -330,6 +330,89 @@
       "source": "system",
       "sourceUrl": "https://monaki.jp/live_information/schedule/list/?month=08&viewMode=default&year=2026",
       "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "monaki_dream_festival_2026",
+      "artistId": "monaki",
+      "title": "15th Anniversary テレビ朝日ドリームフェスティバル2026",
+      "startDate": "2026-11-23T00:00:00+09:00",
+      "endDate": "2026-11-23T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_ario_sapporo_release_2026",
+      "artistId": "monaki",
+      "title": "発売記念ミニライブ＆特典会",
+      "startDate": "2026-09-11T00:00:00+09:00",
+      "endDate": "2026-09-11T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_boatrace_miyajima_2026",
+      "artistId": "monaki",
+      "title": "モナキスペシャルライブ",
+      "startDate": "2026-09-20T00:00:00+09:00",
+      "endDate": "2026-09-20T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_youtube_fanfest_2026",
+      "artistId": "monaki",
+      "title": "YouTube Fanfest Japan 2026 Live Show",
+      "startDate": "2026-10-29T00:00:00+09:00",
+      "endDate": "2026-10-29T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_at_jam_expo_2026",
+      "artistId": "monaki",
+      "title": "＠JAM EXPO 2026 supported by UP-T",
+      "startDate": "2026-08-30T00:00:00+09:00",
+      "endDate": "2026-08-30T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_yomiuriland_poolwai_2026",
+      "artistId": "monaki",
+      "title": "モナキスペシャルライブ",
+      "startDate": "2026-09-06T00:00:00+09:00",
+      "endDate": "2026-09-06T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_yutopia_takara_20261129",
+      "artistId": "monaki",
+      "title": "湯～とぴあ宝「モナキスペシャルライブ」",
+      "startDate": "2026-11-29T00:00:00+09:00",
+      "endDate": "2026-11-29T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席",
+          "amount": 4000,
+          "currency": "JPY"
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -536,6 +619,142 @@
       "source": "system",
       "sourceUrl": "https://monaki.jp/news/detail/81685",
       "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "monaki_1st_tour_2026_fukuoka_1118",
+      "tourId": "monaki_1st_tour_2026",
+      "venue": "Zepp Fukuoka",
+      "performanceAt": "2026-11-18T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00",
+      "performanceDate": "2026-11-18",
+      "performanceTimeEstimated": true
+    },
+    {
+      "id": "monaki_1st_tour_2026_sapporo_1127",
+      "tourId": "monaki_1st_tour_2026",
+      "venue": "Zepp Sapporo",
+      "performanceAt": "2026-11-27T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00",
+      "performanceDate": "2026-11-27",
+      "performanceTimeEstimated": true
+    },
+    {
+      "id": "monaki_dream_festival_2026_1123",
+      "tourId": "monaki_dream_festival_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-11-23T15:00:00+09:00",
+      "doorOpenAt": "2026-11-23T13:30:00+09:00",
+      "kind": "fes",
+      "eventName": "15th Anniversary テレビ朝日ドリームフェスティバル2026",
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_ario_sapporo_release_2026_0911",
+      "tourId": "monaki_ario_sapporo_release_2026",
+      "venue": "アリオ札幌",
+      "performanceAt": "2026-09-11T15:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "発売記念ミニライブ＆特典会",
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_boatrace_miyajima_2026_0920_1",
+      "tourId": "monaki_boatrace_miyajima_2026",
+      "venue": "ボートレース宮島 イベントホール",
+      "performanceAt": "2026-09-20T13:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "モナキスペシャルライブ",
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_boatrace_miyajima_2026_0920_2",
+      "tourId": "monaki_boatrace_miyajima_2026",
+      "venue": "ボートレース宮島 イベントホール",
+      "performanceAt": "2026-09-20T15:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "モナキスペシャルライブ",
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_youtube_fanfest_2026_1029",
+      "tourId": "monaki_youtube_fanfest_2026",
+      "venue": "東京ガーデンシアター",
+      "performanceAt": "2026-10-29T19:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "YouTube Fanfest Japan 2026 Live Show",
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_at_jam_expo_2026_0830",
+      "tourId": "monaki_at_jam_expo_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-08-30T15:05:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "＠JAM EXPO 2026 supported by UP-T",
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_yomiuriland_poolwai_2026_0906",
+      "tourId": "monaki_yomiuriland_poolwai_2026",
+      "venue": "よみうりランド プールWAI 波のプールステージ",
+      "performanceAt": "2026-09-06T16:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "モナキスペシャルライブ",
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_yutopia_takara_20261129_1",
+      "tourId": "monaki_yutopia_takara_20261129",
+      "venue": "湯～とぴあ宝",
+      "performanceAt": "2026-11-29T11:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "湯～とぴあ宝「モナキスペシャルライブ」",
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_yutopia_takara_20261129_2",
+      "tourId": "monaki_yutopia_takara_20261129",
+      "venue": "湯～とぴあ宝",
+      "performanceAt": "2026-11-29T16:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "湯～とぴあ宝「モナキスペシャルライブ」",
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -624,6 +843,56 @@
       "source": "system",
       "sourceUrl": "https://monaki.jp/news/detail/81576",
       "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+    },
+    {
+      "id": "monaki_1st_tour_2026_additional_fc",
+      "tourId": "monaki_1st_tour_2026",
+      "type": "追加公演 FC先行",
+      "entryStartAt": "2026-08-31T12:00:00+09:00",
+      "entryEndAt": "2026-09-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "monaki_1st_tour_2026_fukuoka_1118",
+        "monaki_1st_tour_2026_sapporo_1127"
+      ],
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_yutopia_takara_20261129_general",
+      "tourId": "monaki_yutopia_takara_20261129",
+      "type": "一般発売",
+      "entryStartAt": "2026-09-25T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "monaki_yutopia_takara_20261129_1",
+        "monaki_yutopia_takara_20261129_2"
+      ],
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_youtube_fanfest_2026_fc",
+      "tourId": "monaki_youtube_fanfest_2026",
+      "type": "FC抽選",
+      "entryStartAt": "2026-08-19T12:00:00+09:00",
+      "entryEndAt": "2026-08-31T23:59:00+09:00",
+      "resultAt": "2026-09-07T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "monaki_youtube_fanfest_2026_1029"
+      ],
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

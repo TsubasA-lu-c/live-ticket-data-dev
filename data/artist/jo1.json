@@ -69,6 +69,17 @@
       "source": "system",
       "sourceUrl": "https://jo1.jp/news/detail/5934",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_aao_showcase_tour_2026",
+      "artistId": "jo1",
+      "title": "JO1 11TH SINGLE “AAO” SHOWCASE TOUR",
+      "startDate": "2026-11-18T00:00:00+09:00",
+      "endDate": "2026-12-01T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/news/detail/6350",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -251,6 +262,71 @@
       "source": "system",
       "sourceUrl": "https://jo1.jp/news/detail/6116",
       "lastVerifiedAt": "2026-08-17T22:58:00+09:00"
+    },
+    {
+      "id": "jo1_aao_showcase_tour_2026_fukushima",
+      "tourId": "jo1_aao_showcase_tour_2026",
+      "venue": "福島県内某所",
+      "performanceAt": "2026-11-18T18:30:00+09:00",
+      "doorOpenAt": "2026-11-18T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "JO1 11TH SINGLE “AAO” SHOWCASE TOUR",
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/news/detail/6350",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00",
+      "performanceDate": "2026-11-18"
+    },
+    {
+      "id": "jo1_aao_showcase_tour_2026_saitama",
+      "tourId": "jo1_aao_showcase_tour_2026",
+      "venue": "埼玉県内某所",
+      "performanceAt": "2026-11-23T18:30:00+09:00",
+      "doorOpenAt": "2026-11-23T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "JO1 11TH SINGLE “AAO” SHOWCASE TOUR",
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/news/detail/6350",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00",
+      "performanceDate": "2026-11-23"
+    },
+    {
+      "id": "jo1_aao_showcase_tour_2026_nagano",
+      "tourId": "jo1_aao_showcase_tour_2026",
+      "venue": "長野県内某所",
+      "performanceAt": "2026-11-25T18:30:00+09:00",
+      "doorOpenAt": "2026-11-25T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "JO1 11TH SINGLE “AAO” SHOWCASE TOUR",
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/news/detail/6350",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00",
+      "performanceDate": "2026-11-25"
+    },
+    {
+      "id": "jo1_aao_showcase_tour_2026_oita",
+      "tourId": "jo1_aao_showcase_tour_2026",
+      "venue": "大分県内某所",
+      "performanceAt": "2026-11-29T18:30:00+09:00",
+      "doorOpenAt": "2026-11-29T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "JO1 11TH SINGLE “AAO” SHOWCASE TOUR",
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/news/detail/6350",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00",
+      "performanceDate": "2026-11-29"
+    },
+    {
+      "id": "jo1_aao_showcase_tour_2026_shiga",
+      "tourId": "jo1_aao_showcase_tour_2026",
+      "venue": "滋賀県内某所",
+      "performanceAt": "2026-12-01T18:30:00+09:00",
+      "doorOpenAt": "2026-12-01T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "JO1 11TH SINGLE “AAO” SHOWCASE TOUR",
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/news/detail/6350",
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00",
+      "performanceDate": "2026-12-01"
     }
   ],
   "lotteries": [
