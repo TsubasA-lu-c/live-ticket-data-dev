@@ -7,125 +7,30 @@ on:
       - '.github/temp-apply-reviewed-updates-final-trigger'
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   apply:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Recover reviewed payload by trusted-prefix splice
+      - name: Inspect recovery inputs
         shell: bash
         run: |
           set -euo pipefail
-          python3 - <<'PY'
-          import base64, difflib, gzip, json, string, zlib
-          from pathlib import Path
+          git status --short
+          find .github -maxdepth 2 -type f -name 'reviewed-updates-20260830*' -print | sort
 
-          alphabet = set(string.ascii_letters + string.digits + '+/=')
-          def compact(text): return ''.join(text.split())
-          def sanitize(text): return ''.join(ch for ch in compact(text) if ch in alphabet)
-          def chunks(path): return ''.join(p.read_text(encoding='utf-8').strip() for p in sorted(path.glob('chunk-*.txt')))
-          def b64decode(text):
-              text = sanitize(text)
-              return base64.b64decode(text + '=' * ((4-len(text)%4)%4), validate=False)
-          def try_spec(text):
-              raw = b64decode(text)
-              errors = []
-              decoded = None
-              try:
-                  decoded = gzip.decompress(raw)
-              except Exception as exc:
-                  errors.append('gzip:'+type(exc).__name__+':'+str(exc))
-                  if raw[:3] == b'\x1f\x8b\x08' and len(raw) > 18:
-                      try:
-                          decoded = zlib.decompress(raw[10:-8], -zlib.MAX_WBITS)
-                      except Exception as exc2:
-                          errors.append('raw:'+type(exc2).__name__+':'+str(exc2))
-              if decoded is None:
-                  return None, errors
-              try:
-                  return json.loads(decoded), errors
-              except Exception as exc:
-                  errors.append('json:'+type(exc).__name__+':'+str(exc))
-                  return None, errors
-
-          root = Path('.')
-          trusted = sanitize(chunks(root/'.github/reviewed-updates-20260830-final'))
-          sources = {
-              'final_single': sanitize((root/'.github/reviewed-updates-20260830-final.json.gz.b64').read_text(encoding='utf-8')),
-              'initial_single': sanitize((root/'.github/reviewed-updates-20260830.json.gz.b64').read_text(encoding='utf-8')),
-              'initial_chunks': sanitize(chunks(root/'.github/reviewed-updates-20260830')),
-          }
-          report = {'trustedChars':len(trusted),'sources':{},'validCandidates':[]}
-          recovered = None
-
-          for label, source in sources.items():
-              sm = difflib.SequenceMatcher(None, trusted, source, autojunk=False)
-              blocks = [m for m in sm.get_matching_blocks() if m.size]
-              report['sources'][label] = {
-                  'chars':len(source),
-                  'ratio':sm.ratio(),
-                  'largestBlocks':[
-                      {'a':m.a,'b':m.b,'size':m.size}
-                      for m in sorted(blocks,key=lambda m:m.size,reverse=True)[:12]
-                  ]
-              }
-              candidates = []
-              for m in blocks:
-                  if m.size < 16:
-                      continue
-                  # Only splice after a substantial trusted prefix and on a base64 quartet boundary.
-                  lo = max(m.a, len(trusted)//3)
-                  hi = m.a + m.size
-                  first = lo + ((4-lo%4)%4)
-                  for cut_a in range(first, hi+1, 4):
-                      cut_b = m.b + (cut_a-m.a)
-                      if cut_b < 0 or cut_b > len(source):
-                          continue
-                      candidates.append((cut_a,cut_b,m.size))
-              # Prefer using as much trusted prefix as possible.
-              seen=set()
-              for cut_a,cut_b,bs in sorted(candidates, reverse=True):
-                  if (cut_a,cut_b) in seen: continue
-                  seen.add((cut_a,cut_b))
-                  hybrid = trusted[:cut_a] + source[cut_b:]
-                  spec, errors = try_spec(hybrid)
-                  if spec is None:
-                      continue
-                  entry={
-                      'source':label,'cutTrusted':cut_a,'cutSource':cut_b,'matchBlockSize':bs,
-                      'hybridChars':len(hybrid),'artistOpCount':len(spec.get('artists') or {}),
-                      'artistIds':sorted((spec.get('artists') or {}).keys()),
-                      'artistListUpdateCount':len(spec.get('artistListUpdates') or []),
-                      'baselineCommit':spec.get('baselineCommit'),
-                  }
-                  report['validCandidates'].append(entry)
-                  if len(spec.get('artists') or {}) == 29:
-                      recovered=(hybrid,spec,entry)
-                      break
-              if recovered:
-                  break
-
-          if recovered:
-              hybrid,spec,entry=recovered
-              report['selected']=entry
-              Path('.github/reviewed-updates-20260830-recovered.json.gz.b64').write_text(hybrid+'\n',encoding='utf-8')
-          else:
-              report['selected']=None
-
-          Path('.github/temp-apply-reviewed-updates-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-          print(json.dumps(report,ensure_ascii=False,indent=2))
-          PY
-
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add .github/temp-apply-reviewed-updates-report.json
-          if [ -f .github/reviewed-updates-20260830-recovered.json.gz.b64 ]; then
-            git add .github/reviewed-updates-20260830-recovered.json.gz.b64
-          fi
-          git commit -m 'ops: recover reviewed update payload by trusted splice' || true
-          git push origin HEAD:main
+      - name: Upload recovery inputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: reviewed-updates-20260830-recovery-inputs
+          path: |
+            .github/reviewed-updates-20260830.json.gz.b64
+            .github/reviewed-updates-20260830/
+            .github/reviewed-updates-20260830-final.json.gz.b64
+            .github/reviewed-updates-20260830-final/
+            .github/temp-apply-reviewed-updates-report.json
+          if-no-files-found: error
+          retention-days: 1
