@@ -17,161 +17,68 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Apply final reviewed data patch
+      - name: Inspect staged reviewed-update payloads
         shell: bash
         run: |
           set -euo pipefail
-          echo '=== pre-apply status ==='
           git status --short
-
           python3 - <<'PY'
-          import base64, gzip, hashlib, json
+          import base64, gzip, hashlib, json, zlib
           from pathlib import Path
 
           root = Path('.')
-          data = root / 'data'
-          manifest_path = data / 'manifest.json'
-          expected_manifest_sha256 = '76d0a77064b1318def38571b41135c6806388efc2f4cc0dd9605fca260d39029'
-          actual = hashlib.sha256(manifest_path.read_bytes()).hexdigest()
-          if actual != expected_manifest_sha256:
-              raise SystemExit(f'baseline manifest changed: {actual}')
 
-          chunk_dir = root / '.github/reviewed-updates-20260830-final'
-          chunks = sorted(chunk_dir.glob('chunk-*.txt'))
-          expected_names = [f'chunk-{i:02d}.txt' for i in range(5)]
-          actual_names = [p.name for p in chunks]
-          if actual_names != expected_names:
-              raise SystemExit(f'unexpected final payload chunks: {actual_names}')
+          def chunks(path):
+              files = sorted(path.glob('chunk-*.txt'))
+              return ''.join(p.read_text(encoding='utf-8').strip() for p in files), [p.name for p in files]
 
-          payload_text = ''.join(p.read_text(encoding='utf-8').strip() for p in chunks)
-          try:
-              compressed = base64.b64decode(payload_text, validate=True)
-              decoded = gzip.decompress(compressed)
-              spec = json.loads(decoded)
-          except Exception as exc:
-              raise SystemExit(f'final payload decode failed: {type(exc).__name__}: {exc}') from exc
+          final_chunks, final_names = chunks(root / '.github/reviewed-updates-20260830-final')
+          initial_chunks, initial_names = chunks(root / '.github/reviewed-updates-20260830')
+          final_single = (root / '.github/reviewed-updates-20260830-final.json.gz.b64').read_text(encoding='utf-8').strip()
+          initial_single = (root / '.github/reviewed-updates-20260830.json.gz.b64').read_text(encoding='utf-8').strip()
 
-          if spec.get('baselineCommit') != 'dceebe70c8b1f55055e73ecd4608bd41ad498ca9':
-              raise SystemExit(f"unexpected patch baseline: {spec.get('baselineCommit')}")
-          if not isinstance(spec.get('artists'), dict) or not spec['artists']:
-              raise SystemExit('payload has no artist operations')
+          print('final chunk names:', final_names)
+          print('initial chunk names:', initial_names)
+          print('final chunks len:', len(final_chunks), 'mod4:', len(final_chunks) % 4)
+          print('final single len:', len(final_single), 'mod4:', len(final_single) % 4)
+          print('initial chunks len:', len(initial_chunks), 'mod4:', len(initial_chunks) % 4)
+          print('initial single len:', len(initial_single), 'mod4:', len(initial_single) % 4)
+          print('final chunks are prefix of final single:', final_single.startswith(final_chunks))
+          print('initial chunks are prefix of initial single:', initial_single.startswith(initial_chunks))
+          print('initial single is prefix of initial chunks:', initial_chunks.startswith(initial_single))
 
-          def upsert_list(items, updates, deletes):
-              deletes = set(deletes or [])
-              updates = updates or []
-              umap = {x['id']: x for x in updates}
-              if len(umap) != len(updates):
-                  raise SystemExit('duplicate ids inside payload upserts')
-              out, seen = [], set()
-              for item in items:
-                  oid = item['id']
-                  if oid in deletes:
-                      continue
-                  if oid in umap:
-                      out.append(umap[oid])
-                      seen.add(oid)
-                  else:
-                      out.append(item)
-              existing = {x['id'] for x in items}
-              for item in updates:
-                  if item['id'] not in seen and item['id'] not in existing:
-                      out.append(item)
-              return out
+          candidates = {
+              'final_chunks': final_chunks,
+              'final_single': final_single,
+              'initial_chunks': initial_chunks,
+              'initial_single': initial_single,
+          }
 
-          for aid, ops in spec['artists'].items():
-              p = data / 'artist' / f'{aid}.json'
-              if not p.exists():
-                  raise SystemExit(f'artist file missing for payload target: {aid}')
-              obj = json.loads(p.read_text(encoding='utf-8'))
-              for key in ('tours', 'performances', 'lotteries'):
-                  obj[key] = upsert_list(
-                      obj.get(key, []),
-                      ops.get(key + 'Upsert'),
-                      ops.get(key + 'Delete'),
-                  )
-              for k, v in ops.get('topLevel', {}).items():
-                  obj[k] = v
-              p.write_text(json.dumps(obj, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          for label, text in candidates.items():
+              print(f'--- {label} ---')
+              try:
+                  compressed = base64.b64decode(text, validate=True)
+                  print('compressed bytes:', len(compressed), 'sha256:', hashlib.sha256(compressed).hexdigest())
+              except Exception as exc:
+                  print('base64 failed:', type(exc).__name__, str(exc))
+                  continue
+              try:
+                  decoded = gzip.decompress(compressed)
+                  print('gzip ok decoded bytes:', len(decoded), 'sha256:', hashlib.sha256(decoded).hexdigest())
+                  spec = json.loads(decoded)
+                  print('baseline:', spec.get('baselineCommit'))
+                  print('artists:', ', '.join(sorted((spec.get('artists') or {}).keys())))
+                  print('artist count:', len(spec.get('artists') or {}))
+                  print('artistListUpdates:', len(spec.get('artistListUpdates') or []))
+              except Exception as exc:
+                  print('gzip/json failed:', type(exc).__name__, str(exc))
+                  try:
+                      d = zlib.decompressobj(16 + zlib.MAX_WBITS)
+                      partial = d.decompress(compressed)
+                      print('partial decoded bytes:', len(partial))
+                      print('partial utf8 tail:', partial.decode('utf-8', errors='replace')[-500:])
+                  except Exception as partial_exc:
+                      print('partial decode failed:', type(partial_exc).__name__, str(partial_exc))
 
-          artists_path = data / 'artists.json'
-          artists = json.loads(artists_path.read_text(encoding='utf-8'))
-          list_updates = spec.get('artistListUpdates', [])
-          updates = {x['id']: x for x in list_updates}
-          if len(updates) != len(list_updates):
-              raise SystemExit('duplicate artist ids inside artistListUpdates')
-          found = set()
-          for i, item in enumerate(artists):
-              if item['id'] in updates:
-                  artists[i] = updates[item['id']]
-                  found.add(item['id'])
-          for aid, item in updates.items():
-              if aid not in found:
-                  artists.append(item)
-          artists_path.write_text(json.dumps(artists, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-
-          # Released app feed compatibility: an officially known date with an
-          # unknown start time uses local 12:00 as a sentinel and is explicitly
-          # marked estimated. Never infer an actual start time.
-          normalized = []
-          for p in sorted((data / 'artist').glob('*.json')):
-              obj = json.loads(p.read_text(encoding='utf-8'))
-              changed = False
-              for perf in obj.get('performances', []):
-                  if perf.get('performanceAt') is not None:
-                      continue
-                  day = perf.get('performanceDate')
-                  if not day:
-                      raise SystemExit(
-                          f"cannot normalize unknown performance time without performanceDate: {p.name}:{perf.get('id')}"
-                      )
-                  perf['performanceAt'] = f'{day}T12:00:00+09:00'
-                  perf['performanceTimeEstimated'] = True
-                  normalized.append(f"{p.stem}:{perf.get('id')}")
-                  changed = True
-              if changed:
-                  p.write_text(json.dumps(obj, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-
-          print('payload artists:', ', '.join(sorted(spec['artists'])))
-          print('artist list updates:', len(list_updates))
-          print('performanceAt compatibility normalizations:', len(normalized))
-          for item in normalized:
-              print('  normalized:', item)
+          raise SystemExit('inspection only: no data changes applied')
           PY
-
-          # Run the canonical delivery-generation and validation tools from the
-          # Collector repository at the exact reviewed rules commit.
-          mkdir -p tools
-          COLLECTOR_SHA='211b33a6883a5615f43f954899d839e33657d496'
-          RAW_BASE="https://raw.githubusercontent.com/TsubasA-lu-c/chatgpt-workspace/${COLLECTOR_SHA}/live-ticket-collector/source/tools"
-          curl -fsSL "${RAW_BASE}/materialize_artist_live_relations.py" -o tools/materialize_artist_live_relations.py
-          curl -fsSL "${RAW_BASE}/update_manifest.py" -o tools/update_manifest.py
-          curl -fsSL "${RAW_BASE}/validate.py" -o tools/validate.py
-
-          python3 tools/materialize_artist_live_relations.py
-          python3 tools/update_manifest.py
-          python3 tools/validate.py
-
-          python3 - <<'PY'
-          import json
-          from pathlib import Path
-          manifest = json.loads(Path('data/manifest.json').read_text(encoding='utf-8'))
-          if manifest.get('version') != 184:
-              raise SystemExit(f"unexpected post-update manifest version: {manifest.get('version')}")
-          PY
-
-          rm -rf tools
-          git diff --check
-          echo '=== intended data diff ==='
-          git status --short
-          git diff --stat -- data
-          git diff --name-only -- data
-
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/artists.json data/manifest.json data/artist/*.json
-          if git diff --cached --quiet; then
-            echo 'No data changes to commit'
-            exit 1
-          fi
-          git commit -m 'update: apply 2026-08-30 reviewed live ticket updates'
-          git push origin HEAD:main
