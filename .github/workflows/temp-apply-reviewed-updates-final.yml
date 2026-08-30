@@ -17,75 +17,120 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Inspect trusted reviewed-update prefix
+      - name: Apply reviewed updates and normalize compatibility fields
         shell: bash
         run: |
           set -euo pipefail
           git status --short
+
           python3 - <<'PY'
-          import base64, json, zlib
+          import base64
+          import gzip
+          import json
+          import subprocess
           from pathlib import Path
 
-          chunk_dir = Path('.github/reviewed-updates-20260830-final')
-          text = ''.join(p.read_text(encoding='utf-8').strip() for p in sorted(chunk_dir.glob('chunk-*.txt')))
-          compressed = base64.b64decode(text + '=' * ((4 - len(text) % 4) % 4), validate=False)
-          d = zlib.decompressobj(16 + zlib.MAX_WBITS)
-          decoded = d.decompress(compressed).decode('utf-8')
+          root = Path('.')
+          data = root / 'data'
+          payload_path = root / '.github/reviewed-updates-20260830-final.json.gz.b64'
+          spec = json.loads(gzip.decompress(base64.b64decode(payload_path.read_text(encoding='utf-8').strip())))
 
-          marker = '  "artists": {'
-          start = decoded.index(marker) + len(marker)
-          pos = start
-          dec = json.JSONDecoder()
-          complete = {}
-          incomplete_key = None
+          baseline = spec.get('baselineCommit')
+          if not baseline:
+              raise SystemExit('payload is missing baselineCommit')
+          subprocess.run(['git', 'cat-file', '-e', f'{baseline}^{{commit}}'], check=True)
+          changed = subprocess.run(['git', 'diff', '--quiet', f'{baseline}..HEAD', '--', 'data'])
+          if changed.returncode != 0:
+              raise SystemExit('data changed since reviewed payload baseline; refusing to apply')
 
-          def skip_ws_comma(s, i):
-              while i < len(s) and s[i] in ' \t\r\n,':
-                  i += 1
-              return i
+          artist_ops = spec.get('artists') or {}
+          if len(artist_ops) != 29:
+              raise SystemExit(f'expected 29 reviewed artist updates, got {len(artist_ops)}')
 
-          while True:
-              pos = skip_ws_comma(decoded, pos)
-              if pos >= len(decoded) or decoded[pos] == '}':
-                  break
-              try:
-                  key, key_end = dec.raw_decode(decoded, pos)
-              except json.JSONDecodeError:
-                  break
-              pos = key_end
-              pos = skip_ws_comma(decoded, pos)
-              if pos >= len(decoded) or decoded[pos] != ':':
-                  raise SystemExit(f'missing colon after key {key!r}')
-              pos += 1
-              pos = skip_ws_comma(decoded, pos)
-              try:
-                  value, end = dec.raw_decode(decoded, pos)
-              except json.JSONDecodeError:
-                  incomplete_key = key
-                  break
-              complete[key] = value
-              pos = end
+          def upsert_list(items, updates, deletes):
+              deletes = set(deletes or [])
+              updates = updates or []
+              update_map = {item['id']: item for item in updates}
+              existing_ids = {item['id'] for item in items}
+              out = []
+              seen = set()
+              for item in items:
+                  item_id = item['id']
+                  if item_id in deletes:
+                      continue
+                  if item_id in update_map:
+                      out.append(update_map[item_id])
+                      seen.add(item_id)
+                  else:
+                      out.append(item)
+              for item in updates:
+                  item_id = item['id']
+                  if item_id not in seen and item_id not in existing_ids:
+                      out.append(item)
+              return out
 
-          print('complete artist ops:', len(complete))
-          print('incomplete artist key:', incomplete_key)
-          for aid, ops in complete.items():
-              summary = {
-                  'toursUpsert': len(ops.get('toursUpsert') or []),
-                  'toursDelete': len(ops.get('toursDelete') or []),
-                  'performancesUpsert': len(ops.get('performancesUpsert') or []),
-                  'performancesDelete': len(ops.get('performancesDelete') or []),
-                  'lotteriesUpsert': len(ops.get('lotteriesUpsert') or []),
-                  'lotteriesDelete': len(ops.get('lotteriesDelete') or []),
-                  'topLevel': ops.get('topLevel') or {},
-              }
-              print(aid, json.dumps(summary, ensure_ascii=False, sort_keys=True))
+          for artist_id, ops in artist_ops.items():
+              path = data / 'artist' / f'{artist_id}.json'
+              if not path.exists():
+                  raise SystemExit(f'missing artist file: {path}')
+              obj = json.loads(path.read_text(encoding='utf-8'))
+              for key in ('tours', 'performances', 'lotteries'):
+                  obj[key] = upsert_list(
+                      obj.get(key, []),
+                      ops.get(key + 'Upsert'),
+                      ops.get(key + 'Delete'),
+                  )
+              for key, value in (ops.get('topLevel') or {}).items():
+                  obj[key] = value
+              path.write_text(json.dumps(obj, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
-          # Print enough of the incomplete SKY-HI object to reconstruct it exactly.
-          if incomplete_key:
-              key_marker = '    ' + json.dumps(incomplete_key, ensure_ascii=False) + ': '
-              key_pos = decoded.rfind(key_marker)
-              print('--- incomplete object text ---')
-              print(decoded[key_pos:])
+          artists_path = data / 'artists.json'
+          artists = json.loads(artists_path.read_text(encoding='utf-8'))
+          list_updates = {item['id']: item for item in (spec.get('artistListUpdates') or [])}
+          found = set()
+          for index, item in enumerate(artists):
+              artist_id = item['id']
+              if artist_id in list_updates:
+                  artists[index] = list_updates[artist_id]
+                  found.add(artist_id)
+          for artist_id, item in list_updates.items():
+              if artist_id not in found:
+                  artists.append(item)
+          artists_path.write_text(json.dumps(artists, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
-          raise SystemExit('inspection only: no data changes applied')
+          normalized = 0
+          for path in sorted((data / 'artist').glob('*.json')):
+              obj = json.loads(path.read_text(encoding='utf-8'))
+              dirty = False
+              for perf in obj.get('performances', []):
+                  if perf.get('performanceAt') is not None:
+                      continue
+                  performance_date = perf.get('performanceDate')
+                  if not performance_date:
+                      raise SystemExit(f'{path}: null performanceAt without performanceDate: {perf.get("id")}')
+                  perf['performanceAt'] = f'{performance_date}T12:00:00+09:00'
+                  perf['performanceTimeEstimated'] = True
+                  dirty = True
+                  normalized += 1
+              if dirty:
+                  path.write_text(json.dumps(obj, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          print(f'applied reviewed updates for {len(artist_ops)} artists')
+          print(f'normalized null performanceAt entries: {normalized}')
           PY
+
+          python3 tools/materialize_artist_live_relations.py
+          python3 tools/update_manifest.py
+          python3 tools/validate.py
+          git diff --check
+          git status --short
+
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/artists.json data/manifest.json data/artist/*.json
+          if git diff --cached --quiet; then
+            echo 'No data changes to commit'
+            exit 1
+          fi
+          git commit -m 'update: apply 2026-08-30 reviewed live ticket updates'
+          git push origin HEAD:main
