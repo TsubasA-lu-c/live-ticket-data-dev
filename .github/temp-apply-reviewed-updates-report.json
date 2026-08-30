@@ -1,10 +1,11 @@
 {
   "payloadChars": 32798,
   "decodedBytes": 24567,
-  "gzipHeader": "1f8b0800",
-  "gzipOk": false,
-  "gzipError": "BadGzipFile: CRC check failed",
-  "partialError": "error: Error -3 while decompressing data: incorrect data check",
-  "head": "b8a0f89ec137d2076c3b48bbce02aaee18e5bb5d",
-  "devHasToolsDirectory": false
+  "gzipHeader": "1f8b0800473a946a02ff",
+  "gzipTrailer": "6db10dd45fb02000",
+  "rawDeflateOk": true,
+  "decodedJsonBytes": 179194,
+  "error": "UnicodeDecodeError: 'utf-8' codec can't decode bytes in position 26615-26616: invalid continuation byte",
+  "traceback": "Traceback (most recent call last):\n  File \"<stdin>\", line 17, in <module>\n  File \"/usr/lib/python3.12/json/__init__.py\", line 341, in loads\n    s = s.decode(detect_encoding(s), 'surrogatepass')\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeDecodeError: 'utf-8' codec can't decode bytes in position 26615-26616: invalid continuation byte\n",
+  "head": "d5542930ffcc609243ed1c1b50a2a8ff278bf6bd"
 }
