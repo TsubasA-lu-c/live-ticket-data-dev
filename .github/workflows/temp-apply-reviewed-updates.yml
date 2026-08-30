@@ -1,0 +1,143 @@
+name: Temporary apply reviewed updates
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/temp-apply-reviewed-updates-trigger'
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Apply reviewed data patch
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import base64, gzip, hashlib, json
+          from datetime import datetime, timezone, timedelta
+          from pathlib import Path
+
+          root = Path('.')
+          data = root / 'data'
+          manifest_path = data / 'manifest.json'
+          expected_manifest_sha256 = '76d0a77064b1318def38571b41135c6806388efc2f4cc0dd9605fca260d39029'
+          actual = hashlib.sha256(manifest_path.read_bytes()).hexdigest()
+          if actual != expected_manifest_sha256:
+              raise SystemExit(f'baseline manifest changed: {actual}')
+
+          payload = (root / '.github/reviewed-updates-20260830.json.gz.b64').read_text().strip()
+          spec = json.loads(gzip.decompress(base64.b64decode(payload)))
+          if spec['baselineCommit'] != 'dceebe70c8b1f55055e73ecd4608bd41ad498ca9':
+              raise SystemExit('unexpected patch baseline')
+
+          def upsert_list(items, updates, deletes):
+              deletes = set(deletes or [])
+              updates = updates or []
+              umap = {x['id']: x for x in updates}
+              out = []
+              seen = set()
+              for item in items:
+                  oid = item['id']
+                  if oid in deletes:
+                      continue
+                  if oid in umap:
+                      out.append(umap[oid]); seen.add(oid)
+                  else:
+                      out.append(item)
+              for item in updates:
+                  if item['id'] not in seen and all(x['id'] != item['id'] for x in items):
+                      out.append(item)
+              return out
+
+          for aid, ops in spec['artists'].items():
+              p = data / 'artist' / f'{aid}.json'
+              obj = json.loads(p.read_text(encoding='utf-8'))
+              for key in ('tours', 'performances', 'lotteries'):
+                  obj[key] = upsert_list(
+                      obj.get(key, []),
+                      ops.get(key + 'Upsert'),
+                      ops.get(key + 'Delete'),
+                  )
+              for k, v in ops.get('topLevel', {}).items():
+                  obj[k] = v
+              p.write_text(json.dumps(obj, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          artists_path = data / 'artists.json'
+          artists = json.loads(artists_path.read_text(encoding='utf-8'))
+          updates = {x['id']: x for x in spec.get('artistListUpdates', [])}
+          found = set()
+          for i, item in enumerate(artists):
+              if item['id'] in updates:
+                  artists[i] = updates[item['id']]
+                  found.add(item['id'])
+          for aid, item in updates.items():
+              if aid not in found:
+                  artists.append(item)
+          artists_path.write_text(json.dumps(artists, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          # Structural invariants required before manifest generation.
+          errors = []
+          for p in sorted((data / 'artist').glob('*.json')):
+              obj = json.loads(p.read_text(encoding='utf-8'))
+              tids = [x['id'] for x in obj.get('tours', [])]
+              pids = [x['id'] for x in obj.get('performances', [])]
+              lids = [x['id'] for x in obj.get('lotteries', [])]
+              if len(tids) != len(set(tids)): errors.append(f'{p.name}: duplicate tour id')
+              if len(pids) != len(set(pids)): errors.append(f'{p.name}: duplicate performance id')
+              if len(lids) != len(set(lids)): errors.append(f'{p.name}: duplicate lottery id')
+              tset, pset = set(tids), set(pids)
+              for perf in obj.get('performances', []):
+                  if perf.get('tourId') not in tset: errors.append(f'{p.name}: bad performance tour {perf.get("id")}')
+                  if perf.get('performanceAt') is None: errors.append(f'{p.name}: null performanceAt {perf.get("id")}')
+                  if perf.get('performanceTimeEstimated') is True and not perf.get('performanceDate'):
+                      errors.append(f'{p.name}: estimated time without performanceDate {perf.get("id")}')
+                  if perf.get('kind') not in {'oneman','fes','taiban'}:
+                      errors.append(f'{p.name}: bad kind {perf.get("id")}')
+                  if perf.get('kind') in {'fes','taiban'} and not perf.get('eventName'):
+                      errors.append(f'{p.name}: missing eventName {perf.get("id")}')
+              for lot in obj.get('lotteries', []):
+                  if lot.get('tourId') not in tset: errors.append(f'{p.name}: bad lottery tour {lot.get("id")}')
+                  for pid in lot.get('performanceIds') or []:
+                      if pid not in pset: errors.append(f'{p.name}: bad lottery performance {lot.get("id")} -> {pid}')
+          if errors:
+              raise SystemExit('\n'.join(errors[:100]))
+
+          manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+          if manifest.get('version') != 183:
+              raise SystemExit(f'unexpected manifest version {manifest.get("version")}')
+          def h16(path):
+              return hashlib.sha256(path.read_bytes()).hexdigest()[:16]
+          manifest['version'] = 184
+          manifest['updatedAt'] = datetime.now(timezone(timedelta(hours=9))).strftime('%Y-%m-%dT%H:%M:%S+09:00')
+          manifest.setdefault('files', {}).setdefault('artists', {})['hash'] = h16(artists_path)
+          current = {}
+          for p in sorted((data / 'artist').glob('*.json')):
+              current[p.stem] = h16(p)
+              manifest.setdefault('artists', {}).setdefault(p.stem, {})['hash'] = current[p.stem]
+          for aid in list(manifest.get('artists', {})):
+              if aid not in current:
+                  del manifest['artists'][aid]
+          manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          print(f"applied {len(spec['artists'])} artist detail patches; {len(spec.get('artistListUpdates', []))} artist list updates")
+          PY
+
+          git diff --check
+          git status --short
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/artists.json data/manifest.json data/artist/*.json
+          if git diff --cached --quiet; then
+            echo 'No data changes to commit'
+            exit 1
+          fi
+          git commit -m 'update: apply 2026-08-30 reviewed live ticket updates'
+          git push origin HEAD:main
