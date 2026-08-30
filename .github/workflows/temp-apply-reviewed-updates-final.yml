@@ -17,90 +17,38 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Inspect reviewed update payload safely
+      - name: Recover payload ignoring gzip trailer CRC
         shell: bash
         run: |
           set -u
           python3 - <<'PY'
-          import base64, gzip, json, subprocess, traceback, zlib
+          import base64, json, subprocess, traceback, zlib
           from pathlib import Path
 
           report = {}
           try:
-              payload_path = Path('.github/reviewed-updates-20260830-final.json.gz.b64')
-              text = payload_path.read_text(encoding='utf-8').strip()
-              report['payloadChars'] = len(text)
+              text = Path('.github/reviewed-updates-20260830-final.json.gz.b64').read_text(encoding='utf-8').strip()
               raw = base64.b64decode(text + '=' * ((4 - len(text) % 4) % 4), validate=False)
+              report['payloadChars'] = len(text)
               report['decodedBytes'] = len(raw)
-              report['gzipHeader'] = raw[:4].hex()
-              try:
-                  decoded = gzip.decompress(raw)
-                  report['gzipOk'] = True
-                  report['decodedJsonBytes'] = len(decoded)
-              except Exception as exc:
-                  report['gzipOk'] = False
-                  report['gzipError'] = f'{type(exc).__name__}: {exc}'
-                  d = zlib.decompressobj(16 + zlib.MAX_WBITS)
-                  try:
-                      decoded = d.decompress(raw)
-                      report['partialDecodedBytes'] = len(decoded)
-                      report['partialEof'] = d.eof
-                      report['partialUnusedDataBytes'] = len(d.unused_data)
-                      report['partialTail'] = decoded[-1000:].decode('utf-8', errors='replace')
-                  except Exception as zexc:
-                      decoded = b''
-                      report['partialError'] = f'{type(zexc).__name__}: {zexc}'
-
-              if decoded:
-                  try:
-                      spec = json.loads(decoded)
-                      report['jsonOk'] = True
-                      report['baselineCommit'] = spec.get('baselineCommit')
-                      report['artistOpCount'] = len(spec.get('artists') or {})
-                      report['artistIds'] = sorted((spec.get('artists') or {}).keys())
-                      report['artistListUpdateCount'] = len(spec.get('artistListUpdates') or [])
-                  except Exception as jexc:
-                      report['jsonOk'] = False
-                      report['jsonError'] = f'{type(jexc).__name__}: {jexc}'
-                      text_decoded = decoded.decode('utf-8', errors='replace')
-                      marker = '  "artists": {'
-                      if marker in text_decoded:
-                          start = text_decoded.index(marker) + len(marker)
-                          pos = start
-                          dec = json.JSONDecoder()
-                          complete = []
-                          incomplete = None
-                          def skip(s, i):
-                              while i < len(s) and s[i] in ' \t\r\n,': i += 1
-                              return i
-                          while True:
-                              pos = skip(text_decoded, pos)
-                              if pos >= len(text_decoded) or text_decoded[pos] == '}': break
-                              try:
-                                  key, key_end = dec.raw_decode(text_decoded, pos)
-                              except json.JSONDecodeError: break
-                              pos = skip(text_decoded, key_end)
-                              if pos >= len(text_decoded) or text_decoded[pos] != ':': break
-                              pos = skip(text_decoded, pos + 1)
-                              try:
-                                  _, end = dec.raw_decode(text_decoded, pos)
-                              except json.JSONDecodeError:
-                                  incomplete = key
-                                  break
-                              complete.append(key)
-                              pos = end
-                          report['recoverableCompleteArtists'] = complete
-                          report['recoverableCompleteArtistCount'] = len(complete)
-                          report['incompleteArtist'] = incomplete
+              report['gzipHeader'] = raw[:10].hex()
+              report['gzipTrailer'] = raw[-8:].hex()
+              if raw[:3] != b'\x1f\x8b\x08':
+                  raise ValueError('not a deflate gzip stream')
+              decoded = zlib.decompress(raw[10:-8], -zlib.MAX_WBITS)
+              report['rawDeflateOk'] = True
+              report['decodedJsonBytes'] = len(decoded)
+              spec = json.loads(decoded)
+              report['jsonOk'] = True
+              report['baselineCommit'] = spec.get('baselineCommit')
+              report['artistOpCount'] = len(spec.get('artists') or {})
+              report['artistIds'] = sorted((spec.get('artists') or {}).keys())
+              report['artistListUpdateCount'] = len(spec.get('artistListUpdates') or [])
+              report['topKeys'] = sorted(spec.keys())
           except Exception as exc:
-              report['outerError'] = f'{type(exc).__name__}: {exc}'
+              report['error'] = f'{type(exc).__name__}: {exc}'
               report['traceback'] = traceback.format_exc()
-
-          try:
-              report['head'] = subprocess.check_output(['git','rev-parse','HEAD'], text=True).strip()
-          except Exception as exc:
-              report['headError'] = str(exc)
-          report['devHasToolsDirectory'] = Path('tools').is_dir()
+          report['head'] = subprocess.check_output(['git','rev-parse','HEAD'], text=True).strip()
           Path('.github/temp-apply-reviewed-updates-report.json').write_text(
               json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8'
           )
@@ -110,5 +58,5 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add .github/temp-apply-reviewed-updates-report.json
-          git commit -m 'ops: record reviewed payload diagnostics' || true
+          git commit -m 'ops: record raw-deflate payload recovery diagnostics' || true
           git push origin HEAD:main
