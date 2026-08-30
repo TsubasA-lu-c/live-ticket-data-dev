@@ -17,68 +17,77 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Inspect staged reviewed-update payloads
+      - name: Inspect tolerant final payload recovery
         shell: bash
         run: |
           set -euo pipefail
           git status --short
           python3 - <<'PY'
-          import base64, gzip, hashlib, json, zlib
+          import base64, json, re, zlib
           from pathlib import Path
 
           root = Path('.')
 
-          def chunks(path):
+          def read_chunks(path):
               files = sorted(path.glob('chunk-*.txt'))
-              return ''.join(p.read_text(encoding='utf-8').strip() for p in files), [p.name for p in files]
+              return ''.join(p.read_text(encoding='utf-8').strip() for p in files)
 
-          final_chunks, final_names = chunks(root / '.github/reviewed-updates-20260830-final')
-          initial_chunks, initial_names = chunks(root / '.github/reviewed-updates-20260830')
+          def tolerant_b64(text):
+              compact = ''.join(text.split())
+              compact += '=' * ((4 - len(compact) % 4) % 4)
+              return base64.b64decode(compact, validate=False)
+
+          def partial_gzip(compressed):
+              d = zlib.decompressobj(16 + zlib.MAX_WBITS)
+              out = bytearray()
+              error = None
+              for i in range(0, len(compressed), 256):
+                  try:
+                      out.extend(d.decompress(compressed[i:i+256]))
+                  except Exception as exc:
+                      error = f'{type(exc).__name__}: {exc}'
+                      break
+              return bytes(out), error
+
+          def top_artist_ids(text):
+              ids = []
+              in_artists = False
+              for line in text.splitlines():
+                  if line == '  "artists": {':
+                      in_artists = True
+                      continue
+                  if in_artists and line.startswith('  "artistListUpdates"'):
+                      break
+                  if in_artists:
+                      m = re.match(r'^    "([^"]+)": \{$', line)
+                      if m:
+                          ids.append(m.group(1))
+              return ids
+
+          final_chunks = read_chunks(root / '.github/reviewed-updates-20260830-final')
           final_single = (root / '.github/reviewed-updates-20260830-final.json.gz.b64').read_text(encoding='utf-8').strip()
-          initial_single = (root / '.github/reviewed-updates-20260830.json.gz.b64').read_text(encoding='utf-8').strip()
 
-          print('final chunk names:', final_names)
-          print('initial chunk names:', initial_names)
-          print('final chunks len:', len(final_chunks), 'mod4:', len(final_chunks) % 4)
-          print('final single len:', len(final_single), 'mod4:', len(final_single) % 4)
-          print('initial chunks len:', len(initial_chunks), 'mod4:', len(initial_chunks) % 4)
-          print('initial single len:', len(initial_single), 'mod4:', len(initial_single) % 4)
-          print('final chunks are prefix of final single:', final_single.startswith(final_chunks))
-          print('initial chunks are prefix of initial single:', initial_single.startswith(initial_chunks))
-          print('initial single is prefix of initial chunks:', initial_chunks.startswith(initial_single))
-
-          candidates = {
-              'final_chunks': final_chunks,
-              'final_single': final_single,
-              'initial_chunks': initial_chunks,
-              'initial_single': initial_single,
-          }
-
-          for label, text in candidates.items():
-              print(f'--- {label} ---')
+          for label, text in [('final_chunks', final_chunks), ('final_single_tolerant', final_single)]:
+              print(f'=== {label} ===')
+              compressed = tolerant_b64(text)
+              print('input chars:', len(text), 'compressed bytes:', len(compressed))
+              partial, error = partial_gzip(compressed)
+              decoded = partial.decode('utf-8', errors='replace')
+              print('partial decoded bytes:', len(partial), 'decompress error:', error)
+              ids = top_artist_ids(decoded)
+              print('top-level artist ids:', ids)
+              print('top-level artist count visible:', len(ids))
               try:
-                  compressed = base64.b64decode(text, validate=True)
-                  print('compressed bytes:', len(compressed), 'sha256:', hashlib.sha256(compressed).hexdigest())
-              except Exception as exc:
-                  print('base64 failed:', type(exc).__name__, str(exc))
-                  continue
-              try:
-                  decoded = gzip.decompress(compressed)
-                  print('gzip ok decoded bytes:', len(decoded), 'sha256:', hashlib.sha256(decoded).hexdigest())
-                  spec = json.loads(decoded)
+                  spec = json.loads(partial)
+                  print('partial is complete JSON: yes')
                   print('baseline:', spec.get('baselineCommit'))
-                  print('artists:', ', '.join(sorted((spec.get('artists') or {}).keys())))
-                  print('artist count:', len(spec.get('artists') or {}))
                   print('artistListUpdates:', len(spec.get('artistListUpdates') or []))
               except Exception as exc:
-                  print('gzip/json failed:', type(exc).__name__, str(exc))
-                  try:
-                      d = zlib.decompressobj(16 + zlib.MAX_WBITS)
-                      partial = d.decompress(compressed)
-                      print('partial decoded bytes:', len(partial))
-                      print('partial utf8 tail:', partial.decode('utf-8', errors='replace')[-500:])
-                  except Exception as partial_exc:
-                      print('partial decode failed:', type(partial_exc).__name__, str(partial_exc))
+                  print('partial is complete JSON: no:', type(exc).__name__, str(exc))
+              print('decoded tail:')
+              print(decoded[-1800:])
 
+          print('final chunks prefix bytes equal to tolerant final single:',
+                partial_gzip(tolerant_b64(final_single))[0].startswith(partial_gzip(tolerant_b64(final_chunks))[0]))
           raise SystemExit('inspection only: no data changes applied')
           PY
