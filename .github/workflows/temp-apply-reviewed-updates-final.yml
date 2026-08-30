@@ -17,118 +17,75 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Inspect payload splice recovery
+      - name: Inspect trusted reviewed-update prefix
         shell: bash
         run: |
           set -euo pipefail
           git status --short
           python3 - <<'PY'
-          import base64, difflib, json, re, string, zlib
+          import base64, json, zlib
           from pathlib import Path
 
-          root = Path('.')
-          alphabet = set(string.ascii_letters + string.digits + '+/=')
+          chunk_dir = Path('.github/reviewed-updates-20260830-final')
+          text = ''.join(p.read_text(encoding='utf-8').strip() for p in sorted(chunk_dir.glob('chunk-*.txt')))
+          compressed = base64.b64decode(text + '=' * ((4 - len(text) % 4) % 4), validate=False)
+          d = zlib.decompressobj(16 + zlib.MAX_WBITS)
+          decoded = d.decompress(compressed).decode('utf-8')
 
-          def read_chunks(path):
-              files = sorted(path.glob('chunk-*.txt'))
-              return ''.join(p.read_text(encoding='utf-8').strip() for p in files)
+          marker = '  "artists": {'
+          start = decoded.index(marker) + len(marker)
+          pos = start
+          dec = json.JSONDecoder()
+          complete = {}
+          incomplete_key = None
 
-          def compact(text):
-              return ''.join(text.split())
+          def skip_ws_comma(s, i):
+              while i < len(s) and s[i] in ' \t\r\n,':
+                  i += 1
+              return i
 
-          def sanitize(text):
-              return ''.join(ch for ch in compact(text) if ch in alphabet)
-
-          def tolerant_b64(text):
-              text = sanitize(text)
-              text += '=' * ((4 - len(text) % 4) % 4)
-              return base64.b64decode(text, validate=False)
-
-          def partial_gzip(compressed):
-              d = zlib.decompressobj(16 + zlib.MAX_WBITS)
-              out = bytearray()
-              error = None
-              for i in range(0, len(compressed), 256):
-                  try:
-                      out.extend(d.decompress(compressed[i:i+256]))
-                  except Exception as exc:
-                      error = f'{type(exc).__name__}: {exc}'
-                      break
-              return bytes(out), error
-
-          def visible_ids(decoded):
-              text = decoded.decode('utf-8', errors='replace')
-              return re.findall(r'^    "([^"]+)": \{$', text, re.M)
-
-          final_chunks = compact(read_chunks(root / '.github/reviewed-updates-20260830-final'))
-          final_single_raw = compact((root / '.github/reviewed-updates-20260830-final.json.gz.b64').read_text(encoding='utf-8'))
-          final_single = sanitize(final_single_raw)
-          initial_chunks = compact(read_chunks(root / '.github/reviewed-updates-20260830'))
-          initial_single_raw = compact((root / '.github/reviewed-updates-20260830.json.gz.b64').read_text(encoding='utf-8'))
-          initial_single = sanitize(initial_single_raw)
-
-          for label, raw, sane in [
-              ('final_single', final_single_raw, final_single),
-              ('initial_single', initial_single_raw, initial_single),
-          ]:
-              invalid = [(i, repr(ch)) for i, ch in enumerate(raw) if ch not in alphabet]
-              print(label, 'raw_len=', len(raw), 'sanitized_len=', len(sane), 'invalid_count=', len(invalid))
-              print(label, 'invalid_first=', invalid[:50])
-
-          def analyze(a_label, a, b_label, b):
-              print(f'=== sequence {a_label} vs {b_label} ===')
-              sm = difflib.SequenceMatcher(None, a, b, autojunk=False)
-              blocks = [m for m in sm.get_matching_blocks() if m.size]
-              print('ratio:', sm.ratio(), 'block_count:', len(blocks))
-              for m in sorted(blocks, key=lambda x: x.size, reverse=True)[:20]:
-                  print('block size', m.size, 'a', m.a, 'b', m.b, 'a_end', m.a+m.size, 'b_end', m.b+m.size)
-              print('last blocks by a:')
-              for m in blocks[-20:]:
-                  print('block size', m.size, 'a', m.a, 'b', m.b, 'a_end', m.a+m.size, 'b_end', m.b+m.size)
-              return blocks
-
-          blocks = analyze('final_chunks', final_chunks, 'final_single', final_single)
-          analyze('final_chunks', final_chunks, 'initial_chunks', initial_chunks)
-          analyze('final_chunks', final_chunks, 'initial_single', initial_single)
-
-          candidates = []
-          # Splice only on exact matching blocks near the clean prefix tail. The
-          # splice point is chosen on a 4-char boundary in the trusted prefix.
-          for m in blocks:
-              if m.a + m.size < len(final_chunks) - 4000 or m.size < 32:
-                  continue
-              lo = m.a
-              hi = m.a + m.size
-              for cut_a in range(hi - (hi % 4), max(lo, hi-64)-1, -4):
-                  if cut_a < lo:
-                      continue
-                  cut_b = m.b + (cut_a - m.a)
-                  hybrid = final_chunks[:cut_a] + final_single[cut_b:]
-                  candidates.append((m.size, cut_a, cut_b, hybrid))
+          while True:
+              pos = skip_ws_comma(decoded, pos)
+              if pos >= len(decoded) or decoded[pos] == '}':
                   break
-
-          seen = set()
-          for _, cut_a, cut_b, hybrid in sorted(candidates, reverse=True)[:30]:
-              key = (cut_a, cut_b)
-              if key in seen:
-                  continue
-              seen.add(key)
-              print(f'=== splice a={cut_a} b={cut_b} hybrid_len={len(hybrid)} ===')
               try:
-                  compressed = tolerant_b64(hybrid)
-                  partial, error = partial_gzip(compressed)
-                  ids = visible_ids(partial)
-                  print('compressed=', len(compressed), 'decoded=', len(partial), 'error=', error)
-                  print('visible ids count=', len(ids), 'ids=', ids)
-                  try:
-                      spec = json.loads(partial)
-                      print('COMPLETE_JSON=yes artists=', len(spec.get('artists') or {}), 'artistListUpdates=', len(spec.get('artistListUpdates') or []))
-                  except Exception as exc:
-                      print('COMPLETE_JSON=no', type(exc).__name__, str(exc))
-                  tail = partial.decode('utf-8', errors='replace')[-700:]
-                  print('tail=', tail)
-              except Exception as exc:
-                  print('splice decode failed:', type(exc).__name__, str(exc))
+                  key, key_end = dec.raw_decode(decoded, pos)
+              except json.JSONDecodeError:
+                  break
+              pos = key_end
+              pos = skip_ws_comma(decoded, pos)
+              if pos >= len(decoded) or decoded[pos] != ':':
+                  raise SystemExit(f'missing colon after key {key!r}')
+              pos += 1
+              pos = skip_ws_comma(decoded, pos)
+              try:
+                  value, end = dec.raw_decode(decoded, pos)
+              except json.JSONDecodeError:
+                  incomplete_key = key
+                  break
+              complete[key] = value
+              pos = end
+
+          print('complete artist ops:', len(complete))
+          print('incomplete artist key:', incomplete_key)
+          for aid, ops in complete.items():
+              summary = {
+                  'toursUpsert': len(ops.get('toursUpsert') or []),
+                  'toursDelete': len(ops.get('toursDelete') or []),
+                  'performancesUpsert': len(ops.get('performancesUpsert') or []),
+                  'performancesDelete': len(ops.get('performancesDelete') or []),
+                  'lotteriesUpsert': len(ops.get('lotteriesUpsert') or []),
+                  'lotteriesDelete': len(ops.get('lotteriesDelete') or []),
+                  'topLevel': ops.get('topLevel') or {},
+              }
+              print(aid, json.dumps(summary, ensure_ascii=False, sort_keys=True))
+
+          # Print enough of the incomplete SKY-HI object to reconstruct it exactly.
+          if incomplete_key:
+              key_marker = '    ' + json.dumps(incomplete_key, ensure_ascii=False) + ': '
+              key_pos = decoded.rfind(key_marker)
+              print('--- incomplete object text ---')
+              print(decoded[key_pos:])
 
           raise SystemExit('inspection only: no data changes applied')
           PY
