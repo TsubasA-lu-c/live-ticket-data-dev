@@ -21,9 +21,11 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          echo '=== pre-apply status ==='
+          git status --short
+
           python3 - <<'PY'
           import base64, gzip, hashlib, json
-          from datetime import datetime, timezone, timedelta
           from pathlib import Path
 
           root = Path('.')
@@ -34,22 +36,40 @@ jobs:
           if actual != expected_manifest_sha256:
               raise SystemExit(f'baseline manifest changed: {actual}')
 
-          payload_path = root / '.github/reviewed-updates-20260830-final.json.gz.b64'
-          spec = json.loads(gzip.decompress(base64.b64decode(payload_path.read_text().strip())))
+          chunk_dir = root / '.github/reviewed-updates-20260830-final'
+          chunks = sorted(chunk_dir.glob('chunk-*.txt'))
+          expected_names = [f'chunk-{i:02d}.txt' for i in range(5)]
+          actual_names = [p.name for p in chunks]
+          if actual_names != expected_names:
+              raise SystemExit(f'unexpected final payload chunks: {actual_names}')
+
+          payload_text = ''.join(p.read_text(encoding='utf-8').strip() for p in chunks)
+          try:
+              compressed = base64.b64decode(payload_text, validate=True)
+              decoded = gzip.decompress(compressed)
+              spec = json.loads(decoded)
+          except Exception as exc:
+              raise SystemExit(f'final payload decode failed: {type(exc).__name__}: {exc}') from exc
+
           if spec.get('baselineCommit') != 'dceebe70c8b1f55055e73ecd4608bd41ad498ca9':
-              raise SystemExit('unexpected patch baseline')
+              raise SystemExit(f"unexpected patch baseline: {spec.get('baselineCommit')}")
+          if not isinstance(spec.get('artists'), dict) or not spec['artists']:
+              raise SystemExit('payload has no artist operations')
 
           def upsert_list(items, updates, deletes):
               deletes = set(deletes or [])
               updates = updates or []
               umap = {x['id']: x for x in updates}
+              if len(umap) != len(updates):
+                  raise SystemExit('duplicate ids inside payload upserts')
               out, seen = [], set()
               for item in items:
                   oid = item['id']
                   if oid in deletes:
                       continue
                   if oid in umap:
-                      out.append(umap[oid]); seen.add(oid)
+                      out.append(umap[oid])
+                      seen.add(oid)
                   else:
                       out.append(item)
               existing = {x['id'] for x in items}
@@ -60,16 +80,25 @@ jobs:
 
           for aid, ops in spec['artists'].items():
               p = data / 'artist' / f'{aid}.json'
+              if not p.exists():
+                  raise SystemExit(f'artist file missing for payload target: {aid}')
               obj = json.loads(p.read_text(encoding='utf-8'))
               for key in ('tours', 'performances', 'lotteries'):
-                  obj[key] = upsert_list(obj.get(key, []), ops.get(key + 'Upsert'), ops.get(key + 'Delete'))
+                  obj[key] = upsert_list(
+                      obj.get(key, []),
+                      ops.get(key + 'Upsert'),
+                      ops.get(key + 'Delete'),
+                  )
               for k, v in ops.get('topLevel', {}).items():
                   obj[k] = v
               p.write_text(json.dumps(obj, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
           artists_path = data / 'artists.json'
           artists = json.loads(artists_path.read_text(encoding='utf-8'))
-          updates = {x['id']: x for x in spec.get('artistListUpdates', [])}
+          list_updates = spec.get('artistListUpdates', [])
+          updates = {x['id']: x for x in list_updates}
+          if len(updates) != len(list_updates):
+              raise SystemExit('duplicate artist ids inside artistListUpdates')
           found = set()
           for i, item in enumerate(artists):
               if item['id'] in updates:
@@ -80,67 +109,63 @@ jobs:
                   artists.append(item)
           artists_path.write_text(json.dumps(artists, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
-          # Fail closed on structural/feed-compatibility problems before manifest generation.
-          errors = []
-          global_tours, global_perfs, global_lots = set(), set(), set()
+          # Released app feed compatibility: an officially known date with an
+          # unknown start time uses local 12:00 as a sentinel and is explicitly
+          # marked estimated. Never infer an actual start time.
+          normalized = []
           for p in sorted((data / 'artist').glob('*.json')):
               obj = json.loads(p.read_text(encoding='utf-8'))
-              tids = [x['id'] for x in obj.get('tours', [])]
-              pids = [x['id'] for x in obj.get('performances', [])]
-              lids = [x['id'] for x in obj.get('lotteries', [])]
-              if len(tids) != len(set(tids)): errors.append(f'{p.name}: duplicate tour id')
-              if len(pids) != len(set(pids)): errors.append(f'{p.name}: duplicate performance id')
-              if len(lids) != len(set(lids)): errors.append(f'{p.name}: duplicate lottery id')
-              for tid in tids:
-                  if tid in global_tours: errors.append(f'global duplicate tour {tid}')
-                  global_tours.add(tid)
-              for pid in pids:
-                  if pid in global_perfs: errors.append(f'global duplicate performance {pid}')
-                  global_perfs.add(pid)
-              for lid in lids:
-                  if lid in global_lots: errors.append(f'global duplicate lottery {lid}')
-                  global_lots.add(lid)
-              tset, pset = set(tids), set(pids)
+              changed = False
               for perf in obj.get('performances', []):
-                  if perf.get('tourId') not in tset: errors.append(f'{p.name}: bad performance tour {perf.get("id")}')
-                  if perf.get('performanceAt') is None: errors.append(f'{p.name}: null performanceAt {perf.get("id")}')
-                  if perf.get('performanceTimeEstimated') is True:
-                      if not perf.get('performanceDate'): errors.append(f'{p.name}: estimated without performanceDate {perf.get("id")}')
-                      pa = str(perf.get('performanceAt') or '')
-                      if 'T12:00:00' not in pa: errors.append(f'{p.name}: estimated not local 12:00 {perf.get("id")}')
-                  if perf.get('kind') not in {'oneman','fes','taiban'}: errors.append(f'{p.name}: bad kind {perf.get("id")}')
-                  if perf.get('kind') in {'fes','taiban'} and not perf.get('eventName'): errors.append(f'{p.name}: missing eventName {perf.get("id")}')
-              for lot in obj.get('lotteries', []):
-                  if lot.get('tourId') not in tset: errors.append(f'{p.name}: bad lottery tour {lot.get("id")}')
-                  if 'performanceIds' not in lot: errors.append(f'{p.name}: missing performanceIds {lot.get("id")}')
-                  if lot.get('performanceIds') == []: errors.append(f'{p.name}: empty performanceIds {lot.get("id")}')
-                  for pid in lot.get('performanceIds') or []:
-                      if pid not in pset: errors.append(f'{p.name}: bad lottery performance {lot.get("id")} -> {pid}')
-          if errors:
-              raise SystemExit('\n'.join(errors[:100]))
+                  if perf.get('performanceAt') is not None:
+                      continue
+                  day = perf.get('performanceDate')
+                  if not day:
+                      raise SystemExit(
+                          f"cannot normalize unknown performance time without performanceDate: {p.name}:{perf.get('id')}"
+                      )
+                  perf['performanceAt'] = f'{day}T12:00:00+09:00'
+                  perf['performanceTimeEstimated'] = True
+                  normalized.append(f"{p.stem}:{perf.get('id')}")
+                  changed = True
+              if changed:
+                  p.write_text(json.dumps(obj, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
-          manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
-          if manifest.get('version') != 183:
-              raise SystemExit(f'unexpected manifest version {manifest.get("version")}')
-          def h16(path):
-              return hashlib.sha256(path.read_bytes()).hexdigest()[:16]
-          manifest['version'] = 184
-          manifest['updatedAt'] = datetime.now(timezone(timedelta(hours=9))).strftime('%Y-%m-%dT%H:%M:%S+09:00')
-          manifest.setdefault('files', {}).setdefault('artists', {})['hash'] = h16(artists_path)
-          current = {}
-          for p in sorted((data / 'artist').glob('*.json')):
-              current[p.stem] = h16(p)
-              manifest.setdefault('artists', {}).setdefault(p.stem, {})['hash'] = current[p.stem]
-          for aid in list(manifest.get('artists', {})):
-              if aid not in current:
-                  del manifest['artists'][aid]
-          manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-          print(f"applied {len(spec['artists'])} artist detail patches; {len(spec.get('artistListUpdates', []))} artist list updates")
-          print(f"counts tours={len(global_tours)} performances={len(global_perfs)} lotteries={len(global_lots)}")
+          print('payload artists:', ', '.join(sorted(spec['artists'])))
+          print('artist list updates:', len(list_updates))
+          print('performanceAt compatibility normalizations:', len(normalized))
+          for item in normalized:
+              print('  normalized:', item)
           PY
 
+          # Run the canonical delivery-generation and validation tools from the
+          # Collector repository at the exact reviewed rules commit.
+          mkdir -p tools
+          COLLECTOR_SHA='211b33a6883a5615f43f954899d839e33657d496'
+          RAW_BASE="https://raw.githubusercontent.com/TsubasA-lu-c/chatgpt-workspace/${COLLECTOR_SHA}/live-ticket-collector/source/tools"
+          curl -fsSL "${RAW_BASE}/materialize_artist_live_relations.py" -o tools/materialize_artist_live_relations.py
+          curl -fsSL "${RAW_BASE}/update_manifest.py" -o tools/update_manifest.py
+          curl -fsSL "${RAW_BASE}/validate.py" -o tools/validate.py
+
+          python3 tools/materialize_artist_live_relations.py
+          python3 tools/update_manifest.py
+          python3 tools/validate.py
+
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          manifest = json.loads(Path('data/manifest.json').read_text(encoding='utf-8'))
+          if manifest.get('version') != 184:
+              raise SystemExit(f"unexpected post-update manifest version: {manifest.get('version')}")
+          PY
+
+          rm -rf tools
           git diff --check
+          echo '=== intended data diff ==='
           git status --short
+          git diff --stat -- data
+          git diff --name-only -- data
+
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data/artists.json data/manifest.json data/artist/*.json
