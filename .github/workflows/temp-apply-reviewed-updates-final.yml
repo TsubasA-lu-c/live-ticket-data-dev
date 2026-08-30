@@ -17,12 +17,10 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Apply reviewed updates and normalize compatibility fields
+      - name: Inspect reviewed update application prerequisites
         shell: bash
         run: |
           set -euo pipefail
-          git status --short
-
           python3 - <<'PY'
           import base64
           import gzip
@@ -32,105 +30,44 @@ jobs:
 
           root = Path('.')
           data = root / 'data'
-          payload_path = root / '.github/reviewed-updates-20260830-final.json.gz.b64'
-          spec = json.loads(gzip.decompress(base64.b64decode(payload_path.read_text(encoding='utf-8').strip())))
-
+          payload = root / '.github/reviewed-updates-20260830-final.json.gz.b64'
+          spec = json.loads(gzip.decompress(base64.b64decode(payload.read_text(encoding='utf-8').strip())))
           baseline = spec.get('baselineCommit')
-          if not baseline:
-              raise SystemExit('payload is missing baselineCommit')
-          subprocess.run(['git', 'cat-file', '-e', f'{baseline}^{{commit}}'], check=True)
-          changed = subprocess.run(['git', 'diff', '--quiet', f'{baseline}..HEAD', '--', 'data'])
-          if changed.returncode != 0:
-              raise SystemExit('data changed since reviewed payload baseline; refusing to apply')
+          diff = subprocess.run(['git', 'diff', '--quiet', f'{baseline}..HEAD', '--', 'data'])
 
-          artist_ops = spec.get('artists') or {}
-          if len(artist_ops) != 29:
-              raise SystemExit(f'expected 29 reviewed artist updates, got {len(artist_ops)}')
-
-          def upsert_list(items, updates, deletes):
-              deletes = set(deletes or [])
-              updates = updates or []
-              update_map = {item['id']: item for item in updates}
-              existing_ids = {item['id'] for item in items}
-              out = []
-              seen = set()
-              for item in items:
-                  item_id = item['id']
-                  if item_id in deletes:
-                      continue
-                  if item_id in update_map:
-                      out.append(update_map[item_id])
-                      seen.add(item_id)
-                  else:
-                      out.append(item)
-              for item in updates:
-                  item_id = item['id']
-                  if item_id not in seen and item_id not in existing_ids:
-                      out.append(item)
-              return out
-
-          for artist_id, ops in artist_ops.items():
-              path = data / 'artist' / f'{artist_id}.json'
-              if not path.exists():
-                  raise SystemExit(f'missing artist file: {path}')
-              obj = json.loads(path.read_text(encoding='utf-8'))
-              for key in ('tours', 'performances', 'lotteries'):
-                  obj[key] = upsert_list(
-                      obj.get(key, []),
-                      ops.get(key + 'Upsert'),
-                      ops.get(key + 'Delete'),
-                  )
-              for key, value in (ops.get('topLevel') or {}).items():
-                  obj[key] = value
-              path.write_text(json.dumps(obj, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-
-          artists_path = data / 'artists.json'
-          artists = json.loads(artists_path.read_text(encoding='utf-8'))
-          list_updates = {item['id']: item for item in (spec.get('artistListUpdates') or [])}
-          found = set()
-          for index, item in enumerate(artists):
-              artist_id = item['id']
-              if artist_id in list_updates:
-                  artists[index] = list_updates[artist_id]
-                  found.add(artist_id)
-          for artist_id, item in list_updates.items():
-              if artist_id not in found:
-                  artists.append(item)
-          artists_path.write_text(json.dumps(artists, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-
-          normalized = 0
+          null_count = 0
+          null_without_date = []
           for path in sorted((data / 'artist').glob('*.json')):
               obj = json.loads(path.read_text(encoding='utf-8'))
-              dirty = False
               for perf in obj.get('performances', []):
-                  if perf.get('performanceAt') is not None:
-                      continue
-                  performance_date = perf.get('performanceDate')
-                  if not performance_date:
-                      raise SystemExit(f'{path}: null performanceAt without performanceDate: {perf.get("id")}')
-                  perf['performanceAt'] = f'{performance_date}T12:00:00+09:00'
-                  perf['performanceTimeEstimated'] = True
-                  dirty = True
-                  normalized += 1
-              if dirty:
-                  path.write_text(json.dumps(obj, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+                  if perf.get('performanceAt') is None:
+                      null_count += 1
+                      if not perf.get('performanceDate'):
+                          null_without_date.append(f'{path.stem}:{perf.get("id")}')
 
-          print(f'applied reviewed updates for {len(artist_ops)} artists')
-          print(f'normalized null performanceAt entries: {normalized}')
+          report = {
+              'head': subprocess.check_output(['git', 'rev-parse', 'HEAD'], text=True).strip(),
+              'baselineCommit': baseline,
+              'dataChangedSinceBaseline': diff.returncode != 0,
+              'artistOpCount': len(spec.get('artists') or {}),
+              'artistIds': sorted((spec.get('artists') or {}).keys()),
+              'artistListUpdateCount': len(spec.get('artistListUpdates') or []),
+              'nullPerformanceAtCount': null_count,
+              'nullPerformanceAtWithoutDate': null_without_date,
+              'tools': {
+                  'materialize': Path('tools/materialize_artist_live_relations.py').exists(),
+                  'updateManifest': Path('tools/update_manifest.py').exists(),
+                  'validate': Path('tools/validate.py').exists(),
+              },
+          }
+          Path('.github/temp-apply-reviewed-updates-report.json').write_text(
+              json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8'
+          )
+          print(json.dumps(report, ensure_ascii=False, indent=2))
           PY
-
-          python3 tools/materialize_artist_live_relations.py
-          python3 tools/update_manifest.py
-          python3 tools/validate.py
-          git diff --check
-          git status --short
 
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/artists.json data/manifest.json data/artist/*.json
-          if git diff --cached --quiet; then
-            echo 'No data changes to commit'
-            exit 1
-          fi
-          git commit -m 'update: apply 2026-08-30 reviewed live ticket updates'
+          git add .github/temp-apply-reviewed-updates-report.json
+          git commit -m 'ops: record reviewed update application prerequisites'
           git push origin HEAD:main
