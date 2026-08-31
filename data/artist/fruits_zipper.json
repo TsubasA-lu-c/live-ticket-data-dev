@@ -88,6 +88,22 @@
       "source": "system",
       "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/88153",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_annx_yokohama_arena_2027",
+      "artistId": "fruits_zipper",
+      "title": "FRUITS ZIPPERのオールナイトニッポンX in 横浜アリーナ",
+      "startDate": "2027-01-23T00:00:00+09:00",
+      "endDate": "2027-01-23T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 9300
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/88520",
+      "lastVerifiedAt": "2026-09-01T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -714,6 +730,18 @@
       "source": "system",
       "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/88153",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_annx_yokohama_arena_2027_0123",
+      "tourId": "fruits_zipper_annx_yokohama_arena_2027",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2027-01-23T16:30:00+09:00",
+      "doorOpenAt": "2027-01-23T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "FRUITS ZIPPERのオールナイトニッポンX in 横浜アリーナ",
+      "source": "system",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/88520",
+      "lastVerifiedAt": "2026-09-01T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1215,6 +1243,38 @@
       "source": "system",
       "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/88156",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_annx_yokohama_arena_2027_fastest",
+      "tourId": "fruits_zipper_annx_yokohama_arena_2027",
+      "type": "最速先行",
+      "entryStartAt": "2026-09-01T00:25:00+09:00",
+      "entryEndAt": "2026-09-15T01:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fruits_zipper_annx_yokohama_arena_2027_0123"
+      ],
+      "source": "system",
+      "sourceUrl": "https://event.1242.com/events/fzannx/",
+      "lastVerifiedAt": "2026-09-01T00:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_annx_yokohama_arena_2027_fc",
+      "tourId": "fruits_zipper_annx_yokohama_arena_2027",
+      "type": "FRUITS ZIPPER OFFICIAL FANCLUB先行",
+      "entryStartAt": "2026-09-01T00:25:00+09:00",
+      "entryEndAt": "2026-09-15T01:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fruits_zipper_annx_yokohama_arena_2027_0123"
+      ],
+      "source": "system",
+      "sourceUrl": "https://event.1242.com/events/fzannx/",
+      "lastVerifiedAt": "2026-09-01T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
