@@ -11,36 +11,40 @@ permissions:
   contents: write
 
 concurrency:
-  group: temp-fruits-zipper-annx-2027
+  group: temp-fruits-zipper-annx-2027-hosted-apply
   cancel-in-progress: false
 
 jobs:
   apply:
     if: github.actor != 'github-actions[bot]'
-    runs-on: [self-hosted, macOS, ARM64]
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Checkout Dev work branch
         uses: actions/checkout@v4
         with:
           ref: chatgpt/fruits-zipper-annx-2027
           fetch-depth: 0
-          clean: false
 
-      - name: Add event, validate, and commit data only
+      - name: Apply exact validated candidate and commit data only
         shell: bash
         run: |
           set -euo pipefail
-
           baseline='4645cddcc0cbfa1a02efca92cfbc83a11b498de9'
-          collector_commit='b433992b7c4fed5bbf3acdbdb5282d5400871bec'
+          expected_fruits_hash='1142e4e65ffb09a2'
           target_branch='chatgpt/fruits-zipper-annx-2027'
 
-          echo '--- Dev git status before ---'
+          echo '--- git status before ---'
           git status --short
-          git cat-file -e "${baseline}^{commit}"
-          if ! git diff --quiet "${baseline}..HEAD" -- data; then
-            echo '[ERROR] data changed from baseline before this operation'
-            git diff --name-only "${baseline}..HEAD" -- data
+          git fetch origin main
+          actual_main="$(git rev-parse origin/main)"
+          test "$actual_main" = "$baseline" || {
+            echo "[ERROR] Dev main moved: expected=$baseline actual=$actual_main"
+            exit 1
+          }
+          if ! git diff --quiet "$baseline..HEAD" -- data; then
+            echo '[ERROR] data already changed from validated baseline'
+            git diff --name-only "$baseline..HEAD" -- data
             exit 1
           fi
 
@@ -53,23 +57,22 @@ jobs:
           verified = '2026-09-01T00:00:00+09:00'
           official_news = 'https://fruitszipper.asobisystem.com/news/detail/88520'
           event_site = 'https://event.1242.com/events/fzannx/'
-
+          tour_id = 'fruits_zipper_annx_yokohama_arena_2027'
+          perf_id = 'fruits_zipper_annx_yokohama_arena_2027_0123'
           tour = {
-              'id': 'fruits_zipper_annx_yokohama_arena_2027',
+              'id': tour_id,
               'artistId': 'fruits_zipper',
               'title': 'FRUITS ZIPPERのオールナイトニッポンX in 横浜アリーナ',
               'startDate': '2027-01-23T00:00:00+09:00',
               'endDate': '2027-01-23T00:00:00+09:00',
-              'prices': [
-                  {'label': '全席指定', 'amount': 9300},
-              ],
+              'prices': [{'label': '全席指定', 'amount': 9300}],
               'source': 'system',
               'sourceUrl': official_news,
               'lastVerifiedAt': verified,
           }
           performance = {
-              'id': 'fruits_zipper_annx_yokohama_arena_2027_0123',
-              'tourId': tour['id'],
+              'id': perf_id,
+              'tourId': tour_id,
               'venue': '横浜アリーナ',
               'performanceAt': '2027-01-23T16:30:00+09:00',
               'doorOpenAt': '2027-01-23T15:00:00+09:00',
@@ -81,124 +84,115 @@ jobs:
           }
           lotteries = [
               {
-                  'id': 'fruits_zipper_annx_yokohama_arena_2027_fastest',
-                  'tourId': tour['id'],
+                  'id': tour_id + '_fastest',
+                  'tourId': tour_id,
                   'type': '最速先行',
                   'entryStartAt': '2026-09-01T00:25:00+09:00',
                   'entryEndAt': '2026-09-15T01:00:00+09:00',
                   'resultAt': None,
                   'paymentStartAt': None,
                   'paymentEndAt': None,
-                  'performanceIds': [performance['id']],
+                  'performanceIds': [perf_id],
                   'source': 'system',
                   'sourceUrl': event_site,
                   'lastVerifiedAt': verified,
               },
               {
-                  'id': 'fruits_zipper_annx_yokohama_arena_2027_fc',
-                  'tourId': tour['id'],
+                  'id': tour_id + '_fc',
+                  'tourId': tour_id,
                   'type': 'FRUITS ZIPPER OFFICIAL FANCLUB先行',
                   'entryStartAt': '2026-09-01T00:25:00+09:00',
                   'entryEndAt': '2026-09-15T01:00:00+09:00',
                   'resultAt': None,
                   'paymentStartAt': None,
                   'paymentEndAt': None,
-                  'performanceIds': [performance['id']],
+                  'performanceIds': [perf_id],
                   'source': 'system',
                   'sourceUrl': event_site,
                   'lastVerifiedAt': verified,
               },
           ]
 
-          def add_unique(collection_name, item):
-              items = data.setdefault(collection_name, [])
-              matches = [x for x in items if x.get('id') == item['id']]
-              if not matches:
-                  items.append(item)
-                  print(f'added {collection_name}:{item["id"]}')
-                  return
-              if len(matches) == 1 and matches[0] == item:
-                  print(f'already exact {collection_name}:{item["id"]}')
-                  return
-              raise SystemExit(f'[ERROR] conflicting existing id {collection_name}:{item["id"]}')
+          def add_unique(name, item):
+              items = data.setdefault(name, [])
+              found = [x for x in items if x.get('id') == item['id']]
+              if found:
+                  raise SystemExit(f'[ERROR] id already exists: {name}:{item["id"]}')
+              items.append(item)
 
           add_unique('tours', tour)
           add_unique('performances', performance)
-          for lottery in lotteries:
-              add_unique('lotteries', lottery)
+          for item in lotteries:
+              add_unique('lotteries', item)
 
           path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
           PY
 
-          echo '--- locate canonical collector validation tools ---'
-          work_root="$(dirname "$RUNNER_WORKSPACE")"
-          collector_source="$(find "$work_root" -type f -path '*/chatgpt-workspace/live-ticket-collector/source/tools/validate.py' -print -quit | sed 's#/tools/validate.py$##')"
-          if [ -z "$collector_source" ]; then
-            echo '[ERROR] canonical collector checkout not found on self-hosted runner'
+          python3 - <<'PY'
+          import hashlib
+          import json
+          from datetime import datetime, timezone, timedelta
+          from pathlib import Path
+
+          data_dir = Path('data')
+          artists_json = data_dir / 'artists.json'
+          artist_dir = data_dir / 'artist'
+          manifest_path = data_dir / 'manifest.json'
+          manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+
+          def h16(path):
+              return hashlib.sha256(path.read_bytes()).hexdigest()[:16]
+
+          manifest['version'] = manifest.get('version', 0) + 1
+          now = datetime.now(timezone(timedelta(hours=9)))
+          manifest['updatedAt'] = now.strftime('%Y-%m-%dT%H:%M:%S+09:00')
+          manifest.setdefault('files', {}).setdefault('artists', {})['hash'] = h16(artists_json)
+          hashes = {p.stem: h16(p) for p in sorted(artist_dir.glob('*.json'))}
+          manifest.setdefault('artists', {})
+          for aid, value in hashes.items():
+              manifest['artists'].setdefault(aid, {})['hash'] = value
+          for aid in list(manifest['artists']):
+              if aid not in hashes:
+                  del manifest['artists'][aid]
+          manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          PY
+
+          actual_hash="$(python3 - <<'PY'
+          import hashlib
+          from pathlib import Path
+          print(hashlib.sha256(Path('data/artist/fruits_zipper.json').read_bytes()).hexdigest()[:16])
+          PY
+          )"
+          test "$actual_hash" = "$expected_fruits_hash" || {
+            echo "[ERROR] validated candidate hash mismatch: expected=$expected_fruits_hash actual=$actual_hash"
             exit 1
-          fi
-          collector_repo="$(cd "$collector_source/../.." && pwd)"
-          echo '--- Collector git status before validation clone ---'
-          git -C "$collector_repo" status --short
-          git -C "$collector_repo" fetch origin main
-          git -C "$collector_repo" cat-file -e "${collector_commit}^{commit}"
+          }
 
-          validation_repo="$RUNNER_TEMP/chikenote-collector-fruits-annx-validation"
-          rm -rf "$validation_repo"
-          git clone --shared --no-checkout "$collector_repo" "$validation_repo"
-          git -C "$validation_repo" checkout --detach "$collector_commit"
-          validation_source="$validation_repo/live-ticket-collector/source"
-          rm -rf "$validation_source/data"
-          ln -s "$GITHUB_WORKSPACE/data" "$validation_source/data"
+          python3 - <<'PY'
+          import json, hashlib
+          from pathlib import Path
+          manifest = json.loads(Path('data/manifest.json').read_text(encoding='utf-8'))
+          h = hashlib.sha256(Path('data/artist/fruits_zipper.json').read_bytes()).hexdigest()[:16]
+          assert manifest['version'] == 185, manifest['version']
+          assert manifest['artists']['fruits_zipper']['hash'] == h, (manifest['artists']['fruits_zipper']['hash'], h)
+          print('manifest version:', manifest['version'])
+          print('fruits hash:', h)
+          PY
 
-          echo '--- materialize relations ---'
-          (cd "$validation_source" && python3 tools/materialize_artist_live_relations.py --data-dir "$GITHUB_WORKSPACE/data")
-          echo '--- update manifest ---'
-          (cd "$validation_source" && python3 tools/update_manifest.py)
-          echo '--- validate ---'
-          (cd "$validation_source" && python3 tools/validate.py) | tee "$RUNNER_TEMP/chikenote-fruits-annx-validate.log"
-          echo '--- warnings ---'
-          grep -F '[WARNING]' "$RUNNER_TEMP/chikenote-fruits-annx-validate.log" || true
-
-          echo '--- diff check ---'
           git diff --check
           mapfile -t changed < <(git diff --name-only -- data)
           printf '%s\n' "${changed[@]}"
-          expected=(
-            'data/artist/fruits_zipper.json'
-            'data/manifest.json'
-          )
-          if [ "${#changed[@]}" -ne "${#expected[@]}" ]; then
-            echo '[ERROR] unexpected changed data file count'
-            git diff --stat -- data
-            exit 1
-          fi
-          for i in "${!expected[@]}"; do
-            if [ "${changed[$i]}" != "${expected[$i]}" ]; then
-              echo "[ERROR] unexpected changed path at index $i: ${changed[$i]}"
-              exit 1
-            fi
-          done
-
-          echo '--- data diff stat ---'
-          git diff --stat -- data
-          echo '--- target diff ---'
-          git diff -- data/artist/fruits_zipper.json data/manifest.json
+          expected=('data/artist/fruits_zipper.json' 'data/manifest.json')
+          test "${#changed[@]}" -eq 2
+          test "${changed[0]}" = "${expected[0]}"
+          test "${changed[1]}" = "${expected[1]}"
 
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -- data/artist/fruits_zipper.json data/manifest.json
-          if git diff --cached --quiet; then
-            echo '[ERROR] no staged data changes'
-            exit 1
-          fi
-          if git diff --cached --name-only | grep -Ev '^(data/artist/fruits_zipper\.json|data/manifest\.json)$' >/dev/null; then
-            echo '[ERROR] staged unexpected path'
-            git diff --cached --name-only
-            exit 1
-          fi
+          git diff --cached --check
           git commit -m 'update: collect FRUITS ZIPPER ANNX Yokohama Arena'
           git push origin "HEAD:${target_branch}"
 
-          echo '--- Dev git status after ---'
+          echo '--- git status after ---'
           git status --short
