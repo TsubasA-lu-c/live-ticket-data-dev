@@ -1,0 +1,102 @@
+name: One-shot Da-iCE manifest update
+
+on:
+  push:
+    paths:
+      - '.github/workflows/temp-fix-daice-manifest.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Verify Da-iCE data and update manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo '--- git status before ---'
+          git status --short
+
+          python3 - <<'PY'
+          import hashlib
+          import json
+          from datetime import datetime, timezone, timedelta
+          from pathlib import Path
+
+          artist_path = Path('data/artist/da_ice.json')
+          manifest_path = Path('data/manifest.json')
+          data = json.loads(artist_path.read_text(encoding='utf-8'))
+
+          tours = {item['id']: item for item in data['tours']}
+          performances = {item['id']: item for item in data['performances']}
+          lotteries = {item['id']: item for item in data['lotteries']}
+
+          tour_id = 'da_ice_wonderlivet_2026'
+          performance_id = 'da_ice_wonderlivet_2026_1120'
+          lottery_id = 'da_ice_wonderlivet_2026_general'
+
+          assert tour_id in tours
+          assert performance_id in performances
+          assert lottery_id in lotteries
+          performance = performances[performance_id]
+          lottery = lotteries[lottery_id]
+
+          assert performance['tourId'] == tour_id
+          assert performance['performanceDate'] == '2026-11-20'
+          assert performance['performanceTimeEstimated'] is True
+          assert lottery['tourId'] == tour_id
+          assert lottery['entryStartAt'] == '2026-09-01T20:00:00+09:00'
+          assert lottery['entryEndAt'] == '2026-09-23T23:59:00+09:00'
+          assert lottery['performanceIds'] == [performance_id]
+          assert lottery['sourceUrl'] == 'https://t.pia.jp/pia/event/event.do?eventBundleCd=b2670719'
+
+          # Parse every distributed JSON file so the one-shot finalization cannot
+          # publish malformed JSON elsewhere by accident.
+          for path in sorted(Path('data').rglob('*.json')):
+              json.loads(path.read_text(encoding='utf-8'))
+
+          manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+          old_version = int(manifest.get('version', 0))
+          manifest['version'] = old_version + 1
+          jst = timezone(timedelta(hours=9))
+          manifest['updatedAt'] = datetime.now(jst).strftime('%Y-%m-%dT%H:%M:%S+09:00')
+          manifest.setdefault('artists', {}).setdefault('da_ice', {})['hash'] = hashlib.sha256(
+              artist_path.read_bytes()
+          ).hexdigest()[:16]
+          manifest_path.write_text(
+              json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8'
+          )
+
+          print(f"manifest version: {old_version} -> {manifest['version']}")
+          print(f"da_ice hash: {manifest['artists']['da_ice']['hash']}")
+          PY
+
+          git diff --check
+          echo '--- diff ---'
+          git diff -- data/manifest.json
+
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git rm -- .github/workflows/temp-fix-daice-manifest.yml
+          git add -- data/manifest.json
+
+          mapfile -t staged < <(git diff --cached --name-only)
+          printf '%s\n' "${staged[@]}"
+          if [ "${#staged[@]}" -ne 2 ]; then
+            echo '[ERROR] unexpected staged file count'
+            exit 1
+          fi
+          printf '%s\n' "${staged[@]}" | grep -Fx '.github/workflows/temp-fix-daice-manifest.yml'
+          printf '%s\n' "${staged[@]}" | grep -Fx 'data/manifest.json'
+
+          git commit -m 'update: refresh manifest for Da-iCE WONDERLIVET'
+          git push origin HEAD:main
+
+          echo '--- git status after ---'
+          git status --short
