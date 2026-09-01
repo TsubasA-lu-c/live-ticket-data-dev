@@ -103,7 +103,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://da-ice.jp/schedule/live.php?id=1118315",
-      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+      "lastVerifiedAt": "2026-09-01T00:00:00+09:00"
     },
     {
       "id": "da_ice_dream_festival_2026",
@@ -824,7 +824,7 @@
       "eventName": "WONDERLIVET 2026",
       "source": "system",
       "sourceUrl": "https://da-ice.jp/schedule/live.php?id=1118315",
-      "lastVerifiedAt": "2026-08-30T00:00:00+09:00",
+      "lastVerifiedAt": "2026-09-01T00:00:00+09:00",
       "performanceDate": "2026-11-20",
       "performanceTimeEstimated": true
     },
@@ -1089,9 +1089,9 @@
     {
       "id": "da_ice_wonderlivet_2026_general",
       "tourId": "da_ice_wonderlivet_2026",
-      "type": "チケット受付",
+      "type": "WONDERLIVET 最速先行（チケットぴあ）",
       "entryStartAt": "2026-09-01T20:00:00+09:00",
-      "entryEndAt": null,
+      "entryEndAt": "2026-09-23T23:59:00+09:00",
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
@@ -1099,8 +1099,8 @@
         "da_ice_wonderlivet_2026_1120"
       ],
       "source": "system",
-      "sourceUrl": "https://da-ice.jp/schedule/live.php?id=1118315",
-      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+      "sourceUrl": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2670719",
+      "lastVerifiedAt": "2026-09-01T00:00:00+09:00"
     },
     {
       "id": "da_ice_dream_festival_2026_ichihaya",
