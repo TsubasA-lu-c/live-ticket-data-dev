@@ -1,0 +1,358 @@
+name: One-shot Aina the End refresh
+
+on:
+  push:
+    paths:
+      - '.github/workflows/temp-aina-refresh-20260903.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Refresh Aina the End data and manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo '--- git status before ---'
+          git status --short
+          git pull --ff-only origin main
+
+          python3 - <<'PY'
+          import copy
+          import hashlib
+          import json
+          from datetime import datetime, timezone, timedelta
+          from pathlib import Path
+
+          artist_path = Path('data/artist/aina_the_end.json')
+          artists_path = Path('data/artists.json')
+          manifest_path = Path('data/manifest.json')
+          verified_at = '2026-09-03T00:00:00+09:00'
+
+          data = json.loads(artist_path.read_text(encoding='utf-8'))
+          artists = json.loads(artists_path.read_text(encoding='utf-8'))
+          manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+          before_tracks = copy.deepcopy(data.get('appleMusicTracks'))
+
+          assert data.get('artistId') == 'aina_the_end'
+
+          def by_id(items, item_id):
+              for item in items:
+                  if item.get('id') == item_id:
+                      return item
+              raise AssertionError(f'missing expected id: {item_id}')
+
+          def upsert(items, obj):
+              for i, item in enumerate(items):
+                  if item.get('id') == obj['id']:
+                      items[i] = obj
+                      return
+              items.append(obj)
+
+          # Existing future-event corrections / refreshes based on current official sources.
+          sound_tour = by_id(data['tours'], 'aina_the_end_sound_connection_2026')
+          sound_tour['sourceUrl'] = 'https://ainatheend.jp/news/detail.php?id=1134281'
+          sound_tour['lastVerifiedAt'] = verified_at
+          sound_perf = by_id(data['performances'], 'aina_the_end_sound_connection_2026_kobe_1027')
+          sound_perf['kind'] = 'taiban'
+          sound_perf['sourceUrl'] = 'https://ainatheend.jp/news/detail.php?id=1134281'
+          sound_perf['lastVerifiedAt'] = verified_at
+
+          onechance_tour = by_id(data['tours'], 'aina_the_end_1chance_festival_2026')
+          onechance_tour['sourceUrl'] = 'https://e-ticketbook.com/wanima-1chance-26/2604-tb/'
+          onechance_tour['lastVerifiedAt'] = verified_at
+          onechance_perf = by_id(data['performances'], 'aina_the_end_1chance_festival_2026_kumamoto_0926')
+          onechance_perf['performanceAt'] = '2026-09-26T11:30:00+09:00'
+          onechance_perf['doorOpenAt'] = '2026-09-26T09:00:00+09:00'
+          onechance_perf['sourceUrl'] = 'https://e-ticketbook.com/wanima-1chance-26/2604-tb/'
+          onechance_perf['lastVerifiedAt'] = verified_at
+
+          music_tour = by_id(data['tours'], 'aina_the_end_music_expo_live_2026')
+          music_tour['sourceUrl'] = 'https://musicexpolive.com/'
+          music_tour['lastVerifiedAt'] = verified_at
+          music_perf = by_id(data['performances'], 'aina_the_end_music_expo_live_2026_taipei_1024')
+          music_perf['performanceAt'] = '2026-10-24T18:00:00+08:00'
+          music_perf['sourceUrl'] = 'https://musicexpolive.com/'
+          music_perf['lastVerifiedAt'] = verified_at
+
+          rijk_tour = by_id(data['tours'], 'aina_the_end_rock_in_japan_2026')
+          rijk_tour['prices'] = [{'label': '9/12 1日券', 'amount': 16000}]
+          rijk_tour['sourceUrl'] = 'https://rijfes.jp/2026/'
+          rijk_tour['lastVerifiedAt'] = verified_at
+          rijk_perf = by_id(data['performances'], 'aina_the_end_rock_in_japan_2026_soga_0912')
+          rijk_perf['sourceUrl'] = 'https://www.ainatheend.jp/schedule/live_detail.php?id=1117733'
+          rijk_perf['lastVerifiedAt'] = verified_at
+
+          kishidan_tour = by_id(data['tours'], 'aina_the_end_kishidan_banpaku_2026')
+          kishidan_tour['sourceUrl'] = 'https://ainatheend.jp/news/detail.php?id=1135300'
+          kishidan_tour['lastVerifiedAt'] = verified_at
+          kishidan_perf = by_id(data['performances'], 'aina_the_end_kishidan_banpaku_2026_makuhari_1108')
+          kishidan_perf['sourceUrl'] = 'https://ainatheend.jp/news/detail.php?id=1135300'
+          kishidan_perf['lastVerifiedAt'] = verified_at
+
+          # New event: MTV VMAJ 2026. Official promoter announcement + Lawson Ticket confirm Aina as LIVE ACT.
+          vmaj_tour = {
+              'id': 'aina_the_end_mtv_vmaj_2026',
+              'artistId': 'aina_the_end',
+              'title': 'MTV VMAJ 2026',
+              'startDate': '2026-10-29T00:00:00+09:00',
+              'endDate': '2026-10-29T00:00:00+09:00',
+              'prices': [
+                  {'label': '全席指定', 'amount': 19800},
+                  {'label': 'アップグレードチケットVIP席', 'amount': 39800},
+                  {'label': 'レッドカーペット付きアップグレードチケットVIP席', 'amount': 69800},
+              ],
+              'source': 'system',
+              'sourceUrl': 'https://www.mtvjapan.com/event/vmaj/2026/',
+              'lastVerifiedAt': verified_at,
+          }
+          upsert(data['tours'], vmaj_tour)
+
+          vmaj_perf = {
+              'id': 'aina_the_end_mtv_vmaj_2026_tokyo_1029',
+              'tourId': 'aina_the_end_mtv_vmaj_2026',
+              'venue': '東京ドーム',
+              'performanceAt': '2026-10-29T18:00:00+09:00',
+              'doorOpenAt': '2026-10-29T16:00:00+09:00',
+              'kind': 'fes',
+              'eventName': 'MTV VMAJ 2026',
+              'source': 'system',
+              'sourceUrl': 'https://www.mtvjapan.com/event/vmaj/2026/',
+              'lastVerifiedAt': verified_at,
+          }
+          upsert(data['performances'], vmaj_perf)
+
+          # Ticket / lottery history verified from official or officially-designated ticket pages.
+          lotteries = [
+              {
+                  'id': 'aina_the_end_sound_connection_2026_eplus_preorder',
+                  'tourId': 'aina_the_end_sound_connection_2026',
+                  'type': 'イープラス プレオーダー',
+                  'entryStartAt': '2026-08-19T12:00:00+09:00',
+                  'entryEndAt': '2026-08-30T23:59:00+09:00',
+                  'resultAt': None,
+                  'paymentStartAt': None,
+                  'paymentEndAt': None,
+                  'performanceIds': ['aina_the_end_sound_connection_2026_kobe_1027'],
+                  'source': 'system',
+                  'sourceUrl': 'https://eplus.jp/sf/detail/3586190008-P0030013P021001?P1=0175',
+                  'lastVerifiedAt': verified_at,
+              },
+              {
+                  'id': 'aina_the_end_1chance_festival_2026_section_lottery',
+                  'tourId': 'aina_the_end_1chance_festival_2026',
+                  'type': '区画指定エリア受付（抽選）',
+                  'entryStartAt': '2026-08-24T15:00:00+09:00',
+                  'entryEndAt': '2026-08-30T23:59:00+09:00',
+                  'resultAt': '2026-09-08T15:00:00+09:00',
+                  'paymentStartAt': None,
+                  'paymentEndAt': None,
+                  'performanceIds': ['aina_the_end_1chance_festival_2026_kumamoto_0926'],
+                  'source': 'system',
+                  'sourceUrl': 'https://e-ticketbook.com/wanima-1chance-26/2604-section/',
+                  'lastVerifiedAt': verified_at,
+              },
+              {
+                  'id': 'aina_the_end_music_expo_live_2026_general',
+                  'tourId': 'aina_the_end_music_expo_live_2026',
+                  'type': '先着販売',
+                  'entryStartAt': '2026-07-28T12:00:00+08:00',
+                  'entryEndAt': None,
+                  'resultAt': None,
+                  'paymentStartAt': None,
+                  'paymentEndAt': None,
+                  'performanceIds': ['aina_the_end_music_expo_live_2026_taipei_1024'],
+                  'source': 'system',
+                  'sourceUrl': 'https://musicexpolive.com/',
+                  'lastVerifiedAt': verified_at,
+              },
+              {
+                  'id': 'aina_the_end_rock_in_japan_2026_1st',
+                  'tourId': 'aina_the_end_rock_in_japan_2026',
+                  'type': '第1次抽選先行',
+                  'entryStartAt': '2026-05-20T12:15:00+09:00',
+                  'entryEndAt': '2026-05-26T16:00:00+09:00',
+                  'resultAt': '2026-05-29T16:00:00+09:00',
+                  'paymentStartAt': '2026-05-29T16:00:00+09:00',
+                  'paymentEndAt': '2026-06-01T16:00:00+09:00',
+                  'performanceIds': ['aina_the_end_rock_in_japan_2026_soga_0912'],
+                  'source': 'system',
+                  'sourceUrl': 'https://rijfes.jp/2026/ticket/preorder01/',
+                  'lastVerifiedAt': verified_at,
+              },
+              {
+                  'id': 'aina_the_end_rock_in_japan_2026_2nd',
+                  'tourId': 'aina_the_end_rock_in_japan_2026',
+                  'type': '第2次抽選先行',
+                  'entryStartAt': '2026-06-03T12:15:00+09:00',
+                  'entryEndAt': '2026-06-09T16:00:00+09:00',
+                  'resultAt': '2026-06-12T16:00:00+09:00',
+                  'paymentStartAt': '2026-06-12T16:00:00+09:00',
+                  'paymentEndAt': '2026-06-15T16:00:00+09:00',
+                  'performanceIds': ['aina_the_end_rock_in_japan_2026_soga_0912'],
+                  'source': 'system',
+                  'sourceUrl': 'https://rijfes.jp/2026/ticket/preorder02/',
+                  'lastVerifiedAt': verified_at,
+              },
+              {
+                  'id': 'aina_the_end_rock_in_japan_2026_front_area',
+                  'tourId': 'aina_the_end_rock_in_japan_2026',
+                  'type': 'ステージ前方エリア抽選',
+                  'entryStartAt': '2026-07-22T16:00:00+09:00',
+                  'entryEndAt': '2026-07-29T16:00:00+09:00',
+                  'resultAt': '2026-08-04T16:00:00+09:00',
+                  'paymentStartAt': None,
+                  'paymentEndAt': None,
+                  'performanceIds': ['aina_the_end_rock_in_japan_2026_soga_0912'],
+                  'source': 'system',
+                  'sourceUrl': 'https://rijfes.jp/2026/ticket/frontarea/',
+                  'lastVerifiedAt': verified_at,
+              },
+              {
+                  'id': 'aina_the_end_rock_in_japan_2026_resale_purchase',
+                  'tourId': 'aina_the_end_rock_in_japan_2026',
+                  'type': '公式リセール購入抽選',
+                  'entryStartAt': '2026-08-25T16:00:00+09:00',
+                  'entryEndAt': '2026-09-01T16:00:00+09:00',
+                  'resultAt': '2026-09-04T16:00:00+09:00',
+                  'paymentStartAt': None,
+                  'paymentEndAt': None,
+                  'performanceIds': ['aina_the_end_rock_in_japan_2026_soga_0912'],
+                  'source': 'system',
+                  'sourceUrl': 'https://rijfes.jp/2026/ticket/resale/applyticket/',
+                  'lastVerifiedAt': verified_at,
+              },
+              {
+                  'id': 'aina_the_end_kishidan_banpaku_2026_hp_final',
+                  'tourId': 'aina_the_end_kishidan_banpaku_2026',
+                  'type': '氣志團万博オフィシャルHP最終先行',
+                  'entryStartAt': '2026-08-15T10:00:00+09:00',
+                  'entryEndAt': '2026-09-30T23:59:00+09:00',
+                  'resultAt': None,
+                  'paymentStartAt': None,
+                  'paymentEndAt': None,
+                  'performanceIds': ['aina_the_end_kishidan_banpaku_2026_makuhari_1108'],
+                  'source': 'system',
+                  'sourceUrl': 'https://ainatheend.jp/news/detail.php?id=1135300',
+                  'lastVerifiedAt': verified_at,
+              },
+              {
+                  'id': 'aina_the_end_mtv_vmaj_2026_fastest',
+                  'tourId': 'aina_the_end_mtv_vmaj_2026',
+                  'type': 'オフィシャル最速先行',
+                  'entryStartAt': '2026-08-07T18:00:00+09:00',
+                  'entryEndAt': '2026-08-16T23:59:00+09:00',
+                  'resultAt': '2026-08-20T18:00:00+09:00',
+                  'paymentStartAt': None,
+                  'paymentEndAt': None,
+                  'performanceIds': ['aina_the_end_mtv_vmaj_2026_tokyo_1029'],
+                  'source': 'system',
+                  'sourceUrl': 'https://l-tike.com/order/?gBaseVenueCd=39911&gCarrierCd=01&gEntryMthd=03&gLcode=91553&gPfKey=20260729000002261973&gScheduleNo=1',
+                  'lastVerifiedAt': verified_at,
+              },
+              {
+                  'id': 'aina_the_end_mtv_vmaj_2026_official',
+                  'tourId': 'aina_the_end_mtv_vmaj_2026',
+                  'type': 'オフィシャル先行',
+                  'entryStartAt': '2026-08-21T12:00:00+09:00',
+                  'entryEndAt': '2026-08-30T23:59:00+09:00',
+                  'resultAt': '2026-09-03T18:00:00+09:00',
+                  'paymentStartAt': None,
+                  'paymentEndAt': None,
+                  'performanceIds': ['aina_the_end_mtv_vmaj_2026_tokyo_1029'],
+                  'source': 'system',
+                  'sourceUrl': 'https://l-tike.com/order/?gBaseVenueCd=39911&gCarrierCd=01&gEntryMthd=03&gLcode=91553&gPfKey=20260729000002261973&gScheduleNo=2',
+                  'lastVerifiedAt': verified_at,
+              },
+          ]
+          for lottery in lotteries:
+              upsert(data['lotteries'], lottery)
+
+          # Refresh the artist registry verification timestamp only; preserve Apple Music metadata.
+          target_artist = None
+          for item in artists:
+              if item.get('id') == 'aina_the_end':
+                  target_artist = item
+                  break
+          assert target_artist is not None
+          target_artist['lastVerifiedAt'] = verified_at
+
+          # Structural validation for the target artist before writing.
+          tour_ids = [x['id'] for x in data['tours']]
+          perf_ids = [x['id'] for x in data['performances']]
+          lottery_ids = [x['id'] for x in data['lotteries']]
+          assert len(tour_ids) == len(set(tour_ids))
+          assert len(perf_ids) == len(set(perf_ids))
+          assert len(lottery_ids) == len(set(lottery_ids))
+          tour_id_set = set(tour_ids)
+          perf_id_set = set(perf_ids)
+          for perf in data['performances']:
+              assert perf['tourId'] in tour_id_set
+              assert perf.get('kind') in {'oneman', 'fes', 'taiban'}
+              if perf.get('kind') in {'fes', 'taiban'}:
+                  assert perf.get('eventName')
+          for lottery in data['lotteries']:
+              assert lottery['tourId'] in tour_id_set
+              assert 'performanceIds' in lottery
+              if lottery['performanceIds'] is not None:
+                  assert lottery['performanceIds']
+                  assert set(lottery['performanceIds']) <= perf_id_set
+              for key in ('entryStartAt', 'entryEndAt', 'resultAt', 'paymentStartAt', 'paymentEndAt'):
+                  assert key in lottery
+          assert data.get('appleMusicTracks') == before_tracks
+
+          artist_path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          artists_path.write_text(json.dumps(artists, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          # Parse all distributed JSON before manifest generation.
+          for path in sorted(Path('data').rglob('*.json')):
+              json.loads(path.read_text(encoding='utf-8'))
+
+          old_version = int(manifest.get('version', 0))
+          manifest['version'] = old_version + 1
+          jst = timezone(timedelta(hours=9))
+          manifest['updatedAt'] = datetime.now(jst).strftime('%Y-%m-%dT%H:%M:%S+09:00')
+          manifest.setdefault('files', {}).setdefault('artists', {})['hash'] = hashlib.sha256(artists_path.read_bytes()).hexdigest()[:16]
+          manifest.setdefault('artists', {}).setdefault('aina_the_end', {})['hash'] = hashlib.sha256(artist_path.read_bytes()).hexdigest()[:16]
+          manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          # Final manifest/hash checks for changed distribution files.
+          reread_manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+          assert reread_manifest['files']['artists']['hash'] == hashlib.sha256(artists_path.read_bytes()).hexdigest()[:16]
+          assert reread_manifest['artists']['aina_the_end']['hash'] == hashlib.sha256(artist_path.read_bytes()).hexdigest()[:16]
+          assert reread_manifest['version'] == old_version + 1
+          print(f'manifest version: {old_version} -> {reread_manifest["version"]}')
+          print(f'aina_the_end: {len(data["tours"])} tours, {len(data["performances"])} performances, {len(data["lotteries"])} lotteries')
+          PY
+
+          git diff --check
+          echo '--- targeted diff stat ---'
+          git diff --stat -- data/artist/aina_the_end.json data/artists.json data/manifest.json
+          echo '--- changed paths ---'
+          git status --short
+
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git rm -- .github/workflows/temp-aina-refresh-20260903.yml
+          git add -- data/artist/aina_the_end.json data/artists.json data/manifest.json
+
+          mapfile -t staged < <(git diff --cached --name-only)
+          printf '%s\n' "${staged[@]}"
+          test "${#staged[@]}" -eq 4
+          printf '%s\n' "${staged[@]}" | grep -Fx '.github/workflows/temp-aina-refresh-20260903.yml'
+          printf '%s\n' "${staged[@]}" | grep -Fx 'data/artist/aina_the_end.json'
+          printf '%s\n' "${staged[@]}" | grep -Fx 'data/artists.json'
+          printf '%s\n' "${staged[@]}" | grep -Fx 'data/manifest.json'
+
+          git commit -m 'update: refresh Aina the End live data'
+          git push origin HEAD:main
+
+          echo '--- git status after ---'
+          git status --short
