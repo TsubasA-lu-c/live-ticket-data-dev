@@ -35,7 +35,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1134281",
-      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     },
     {
       "id": "aina_the_end_1chance_festival_2026",
@@ -62,8 +62,8 @@
         }
       ],
       "source": "system",
-      "sourceUrl": "https://1chancefes.com/",
-      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+      "sourceUrl": "https://e-ticketbook.com/wanima-1chance-26/2604-tb/",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     },
     {
       "id": "aina_the_end_music_expo_live_2026",
@@ -74,7 +74,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://musicexpolive.com/",
-      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     },
     {
       "id": "aina_the_end_summer_sonic_2026",
@@ -158,10 +158,15 @@
       "title": "ROCK IN JAPAN FESTIVAL 2026",
       "startDate": "2026-09-12T00:00:00+09:00",
       "endDate": "2026-09-12T00:00:00+09:00",
-      "prices": null,
+      "prices": [
+        {
+          "label": "9/12 1日券",
+          "amount": 16000
+        }
+      ],
       "source": "system",
-      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1133511",
-      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+      "sourceUrl": "https://rijfes.jp/2026/",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     },
     {
       "id": "aina_the_end_kishidan_banpaku_2026",
@@ -184,8 +189,8 @@
         }
       ],
       "source": "system",
-      "sourceUrl": "https://ainatheend.jp/media/detail.php?id=1118032",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1135300",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     },
     {
       "id": "aina_the_end_picnic_tour_2026",
@@ -252,6 +257,30 @@
       "source": "system",
       "sourceUrl": "https://hotei-fes.com/",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_mtv_vmaj_2026",
+      "artistId": "aina_the_end",
+      "title": "MTV VMAJ 2026",
+      "startDate": "2026-10-29T00:00:00+09:00",
+      "endDate": "2026-10-29T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 19800
+        },
+        {
+          "label": "アップグレードチケットVIP席",
+          "amount": 39800
+        },
+        {
+          "label": "レッドカーペット付きアップグレードチケットVIP席",
+          "amount": 69800
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.mtvjapan.com/event/vmaj/2026/",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -261,35 +290,35 @@
       "venue": "神戸国際会館こくさいホール",
       "performanceAt": "2026-10-27T19:00:00+09:00",
       "doorOpenAt": "2026-10-27T18:00:00+09:00",
-      "kind": "fes",
+      "kind": "taiban",
       "eventName": "SOUND CONNECTION -Mirroring Lights-",
       "source": "system",
       "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1134281",
-      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     },
     {
       "id": "aina_the_end_1chance_festival_2026_kumamoto_0926",
       "tourId": "aina_the_end_1chance_festival_2026",
       "venue": "熊本県農業公園カントリーパーク",
-      "performanceAt": "2026-09-26T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-09-26T11:30:00+09:00",
+      "doorOpenAt": "2026-09-26T09:00:00+09:00",
       "kind": "fes",
       "eventName": "1CHANCE FESTIVAL 2026",
       "source": "system",
-      "sourceUrl": "https://1chancefes.com/",
-      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+      "sourceUrl": "https://e-ticketbook.com/wanima-1chance-26/2604-tb/",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     },
     {
       "id": "aina_the_end_music_expo_live_2026_taipei_1024",
       "tourId": "aina_the_end_music_expo_live_2026",
       "venue": "TAIPEI ARENA",
-      "performanceAt": "2026-10-24T18:00:00+09:00",
+      "performanceAt": "2026-10-24T18:00:00+08:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "MUSIC EXPO LIVE 2026 in TAIPEI DAY1",
       "source": "system",
       "sourceUrl": "https://musicexpolive.com/",
-      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     },
     {
       "id": "aina_the_end_summer_sonic_2026_tokyo_0814",
@@ -348,8 +377,8 @@
       "kind": "fes",
       "eventName": "ROCK IN JAPAN FESTIVAL 2026",
       "source": "system",
-      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1133511",
-      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+      "sourceUrl": "https://www.ainatheend.jp/schedule/live_detail.php?id=1117733",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     },
     {
       "id": "aina_the_end_kishidan_banpaku_2026_makuhari_1108",
@@ -360,8 +389,8 @@
       "kind": "fes",
       "eventName": "サントリー オールフリー presents 氣志團万博2026 ～房総爆音リゾート～",
       "source": "system",
-      "sourceUrl": "https://ainatheend.jp/media/detail.php?id=1118032",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1135300",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     },
     {
       "id": "aina_the_end_picnic_tour_2026_saitama_0615",
@@ -542,6 +571,18 @@
       "source": "system",
       "sourceUrl": "https://hotei-fes.com/",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_mtv_vmaj_2026_tokyo_1029",
+      "tourId": "aina_the_end_mtv_vmaj_2026",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-10-29T18:00:00+09:00",
+      "doorOpenAt": "2026-10-29T16:00:00+09:00",
+      "kind": "fes",
+      "eventName": "MTV VMAJ 2026",
+      "source": "system",
+      "sourceUrl": "https://www.mtvjapan.com/event/vmaj/2026/",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -656,6 +697,166 @@
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/0755060002-P0030082P021001?P1=0175",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_sound_connection_2026_eplus_preorder",
+      "tourId": "aina_the_end_sound_connection_2026",
+      "type": "イープラス プレオーダー",
+      "entryStartAt": "2026-08-19T12:00:00+09:00",
+      "entryEndAt": "2026-08-30T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aina_the_end_sound_connection_2026_kobe_1027"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/3586190008-P0030013P021001?P1=0175",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_1chance_festival_2026_section_lottery",
+      "tourId": "aina_the_end_1chance_festival_2026",
+      "type": "区画指定エリア受付（抽選）",
+      "entryStartAt": "2026-08-24T15:00:00+09:00",
+      "entryEndAt": "2026-08-30T23:59:00+09:00",
+      "resultAt": "2026-09-08T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aina_the_end_1chance_festival_2026_kumamoto_0926"
+      ],
+      "source": "system",
+      "sourceUrl": "https://e-ticketbook.com/wanima-1chance-26/2604-section/",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_music_expo_live_2026_general",
+      "tourId": "aina_the_end_music_expo_live_2026",
+      "type": "先着販売",
+      "entryStartAt": "2026-07-28T12:00:00+08:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aina_the_end_music_expo_live_2026_taipei_1024"
+      ],
+      "source": "system",
+      "sourceUrl": "https://musicexpolive.com/",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_rock_in_japan_2026_1st",
+      "tourId": "aina_the_end_rock_in_japan_2026",
+      "type": "第1次抽選先行",
+      "entryStartAt": "2026-05-20T12:15:00+09:00",
+      "entryEndAt": "2026-05-26T16:00:00+09:00",
+      "resultAt": "2026-05-29T16:00:00+09:00",
+      "paymentStartAt": "2026-05-29T16:00:00+09:00",
+      "paymentEndAt": "2026-06-01T16:00:00+09:00",
+      "performanceIds": [
+        "aina_the_end_rock_in_japan_2026_soga_0912"
+      ],
+      "source": "system",
+      "sourceUrl": "https://rijfes.jp/2026/ticket/preorder01/",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_rock_in_japan_2026_2nd",
+      "tourId": "aina_the_end_rock_in_japan_2026",
+      "type": "第2次抽選先行",
+      "entryStartAt": "2026-06-03T12:15:00+09:00",
+      "entryEndAt": "2026-06-09T16:00:00+09:00",
+      "resultAt": "2026-06-12T16:00:00+09:00",
+      "paymentStartAt": "2026-06-12T16:00:00+09:00",
+      "paymentEndAt": "2026-06-15T16:00:00+09:00",
+      "performanceIds": [
+        "aina_the_end_rock_in_japan_2026_soga_0912"
+      ],
+      "source": "system",
+      "sourceUrl": "https://rijfes.jp/2026/ticket/preorder02/",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_rock_in_japan_2026_front_area",
+      "tourId": "aina_the_end_rock_in_japan_2026",
+      "type": "ステージ前方エリア抽選",
+      "entryStartAt": "2026-07-22T16:00:00+09:00",
+      "entryEndAt": "2026-07-29T16:00:00+09:00",
+      "resultAt": "2026-08-04T16:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aina_the_end_rock_in_japan_2026_soga_0912"
+      ],
+      "source": "system",
+      "sourceUrl": "https://rijfes.jp/2026/ticket/frontarea/",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_rock_in_japan_2026_resale_purchase",
+      "tourId": "aina_the_end_rock_in_japan_2026",
+      "type": "公式リセール購入抽選",
+      "entryStartAt": "2026-08-25T16:00:00+09:00",
+      "entryEndAt": "2026-09-01T16:00:00+09:00",
+      "resultAt": "2026-09-04T16:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aina_the_end_rock_in_japan_2026_soga_0912"
+      ],
+      "source": "system",
+      "sourceUrl": "https://rijfes.jp/2026/ticket/resale/applyticket/",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_kishidan_banpaku_2026_hp_final",
+      "tourId": "aina_the_end_kishidan_banpaku_2026",
+      "type": "氣志團万博オフィシャルHP最終先行",
+      "entryStartAt": "2026-08-15T10:00:00+09:00",
+      "entryEndAt": "2026-09-30T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aina_the_end_kishidan_banpaku_2026_makuhari_1108"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1135300",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_mtv_vmaj_2026_fastest",
+      "tourId": "aina_the_end_mtv_vmaj_2026",
+      "type": "オフィシャル最速先行",
+      "entryStartAt": "2026-08-07T18:00:00+09:00",
+      "entryEndAt": "2026-08-16T23:59:00+09:00",
+      "resultAt": "2026-08-20T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aina_the_end_mtv_vmaj_2026_tokyo_1029"
+      ],
+      "source": "system",
+      "sourceUrl": "https://l-tike.com/order/?gBaseVenueCd=39911&gCarrierCd=01&gEntryMthd=03&gLcode=91553&gPfKey=20260729000002261973&gScheduleNo=1",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_mtv_vmaj_2026_official",
+      "tourId": "aina_the_end_mtv_vmaj_2026",
+      "type": "オフィシャル先行",
+      "entryStartAt": "2026-08-21T12:00:00+09:00",
+      "entryEndAt": "2026-08-30T23:59:00+09:00",
+      "resultAt": "2026-09-03T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aina_the_end_mtv_vmaj_2026_tokyo_1029"
+      ],
+      "source": "system",
+      "sourceUrl": "https://l-tike.com/order/?gBaseVenueCd=39911&gCarrierCd=01&gEntryMthd=03&gLcode=91553&gPfKey=20260729000002261973&gScheduleNo=2",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
