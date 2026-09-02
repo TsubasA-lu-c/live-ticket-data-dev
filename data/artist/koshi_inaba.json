@@ -24,6 +24,58 @@
       "source": "system",
       "sourceUrl": "https://bz-vermillion.com/en5/",
       "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "koshi_inaba_fes_1chance_festival_2026",
+      "artistId": "koshi_inaba",
+      "title": "WANIMA presents 1CHANCE FESTIVAL 2026",
+      "startDate": "2026-09-26T00:00:00+09:00",
+      "endDate": "2026-09-26T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1日券",
+          "amount": 12000
+        },
+        {
+          "label": "2日券",
+          "amount": 23000
+        },
+        {
+          "label": "1日券（小人）",
+          "amount": 9500
+        },
+        {
+          "label": "2日券（小人）",
+          "amount": 18000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://e-ticketbook.com/wanima-1chance-26/2604-tb/",
+      "lastVerifiedAt": "2026-09-03T07:18:37+09:00"
+    },
+    {
+      "id": "koshi_inaba_event_ska_showdown_2026",
+      "artistId": "koshi_inaba",
+      "title": "[SKA] SHOWDOWN",
+      "startDate": "2026-03-31T00:00:00+09:00",
+      "endDate": "2026-03-31T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 9300
+        },
+        {
+          "label": "指定席学生チケット",
+          "amount": 6000
+        },
+        {
+          "label": "指定席注釈付",
+          "amount": 8300
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://bz-vermillion.com/news/260102.html",
+      "lastVerifiedAt": "2026-09-03T07:18:37+09:00"
     }
   ],
   "performances": [
@@ -458,6 +510,30 @@
       "source": "system",
       "sourceUrl": "https://bz-vermillion.com/en5/",
       "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "koshi_inaba_fes_1chance_festival_2026_0926",
+      "tourId": "koshi_inaba_fes_1chance_festival_2026",
+      "venue": "熊本県農業公園カントリーパーク",
+      "performanceAt": "2026-09-26T11:30:00+09:00",
+      "doorOpenAt": "2026-09-26T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "WANIMA presents 1CHANCE FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://e-ticketbook.com/wanima-1chance-26/2604-tb/",
+      "lastVerifiedAt": "2026-09-03T07:18:37+09:00"
+    },
+    {
+      "id": "koshi_inaba_event_ska_showdown_2026_0331",
+      "tourId": "koshi_inaba_event_ska_showdown_2026",
+      "venue": "東京ガーデンシアター",
+      "performanceAt": "2026-03-31T18:00:00+09:00",
+      "doorOpenAt": "2026-03-31T17:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "[SKA] SHOWDOWN",
+      "source": "system",
+      "sourceUrl": "https://www.red-hot.ne.jp/play/detail.php?pid=py27671",
+      "lastVerifiedAt": "2026-09-03T07:18:37+09:00"
     }
   ],
   "lotteries": [
@@ -764,6 +840,251 @@
       "source": "system",
       "sourceUrl": "https://bz-vermillion.com/en5/",
       "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "koshi_inaba_fes_1chance_festival_2026_ticketbook_1st",
+      "tourId": "koshi_inaba_fes_1chance_festival_2026",
+      "type": "ticketbook先行（抽選）",
+      "entryStartAt": "2026-04-30T21:00:00+09:00",
+      "entryEndAt": "2026-05-06T23:59:00+09:00",
+      "resultAt": "2026-05-13T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "koshi_inaba_fes_1chance_festival_2026_0926"
+      ],
+      "source": "system",
+      "sourceUrl": "https://e-ticketbook.com/wanima-1chance-26/2604-tb/",
+      "lastVerifiedAt": "2026-09-03T07:18:37+09:00"
+    },
+    {
+      "id": "koshi_inaba_fes_1chance_festival_2026_ticketbook_2nd",
+      "tourId": "koshi_inaba_fes_1chance_festival_2026",
+      "type": "ticketbook2次先行（抽選）",
+      "entryStartAt": "2026-05-16T19:00:00+09:00",
+      "entryEndAt": "2026-05-24T23:59:00+09:00",
+      "resultAt": "2026-05-29T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "koshi_inaba_fes_1chance_festival_2026_0926"
+      ],
+      "source": "system",
+      "sourceUrl": "https://e-ticketbook.com/wanima-1chance-26/2604-tb/",
+      "lastVerifiedAt": "2026-09-03T07:18:37+09:00"
+    },
+    {
+      "id": "koshi_inaba_fes_1chance_festival_2026_ticketbook_3rd",
+      "tourId": "koshi_inaba_fes_1chance_festival_2026",
+      "type": "ticketbook3次先行（抽選）",
+      "entryStartAt": "2026-07-01T19:00:00+09:00",
+      "entryEndAt": "2026-07-09T23:59:00+09:00",
+      "resultAt": "2026-07-15T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "koshi_inaba_fes_1chance_festival_2026_0926"
+      ],
+      "source": "system",
+      "sourceUrl": "https://e-ticketbook.com/wanima-1chance-26/2604-tb/",
+      "lastVerifiedAt": "2026-09-03T07:18:37+09:00"
+    },
+    {
+      "id": "koshi_inaba_fes_1chance_festival_2026_general",
+      "tourId": "koshi_inaba_fes_1chance_festival_2026",
+      "type": "ticketbook一般発売（先着）",
+      "entryStartAt": "2026-07-18T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "koshi_inaba_fes_1chance_festival_2026_0926"
+      ],
+      "source": "system",
+      "sourceUrl": "https://e-ticketbook.com/wanima-1chance-26/2604-tb/",
+      "lastVerifiedAt": "2026-09-03T07:18:37+09:00"
+    },
+    {
+      "id": "koshi_inaba_fes_1chance_festival_2026_forward_family",
+      "tourId": "koshi_inaba_fes_1chance_festival_2026",
+      "type": "前方エリア・ファミリー前方エリア受付（抽選）",
+      "entryStartAt": "2026-08-24T15:00:00+09:00",
+      "entryEndAt": "2026-08-30T23:59:00+09:00",
+      "resultAt": "2026-09-08T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "koshi_inaba_fes_1chance_festival_2026_0926"
+      ],
+      "source": "system",
+      "sourceUrl": "https://e-ticketbook.com/wanima-1chance-26/2604-forward-family/",
+      "lastVerifiedAt": "2026-09-03T07:18:37+09:00"
+    },
+    {
+      "id": "koshi_inaba_fes_1chance_festival_2026_section",
+      "tourId": "koshi_inaba_fes_1chance_festival_2026",
+      "type": "区画指定エリア受付（抽選）",
+      "entryStartAt": "2026-08-24T15:00:00+09:00",
+      "entryEndAt": "2026-08-30T23:59:00+09:00",
+      "resultAt": "2026-09-08T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "koshi_inaba_fes_1chance_festival_2026_0926"
+      ],
+      "source": "system",
+      "sourceUrl": "https://e-ticketbook.com/wanima-1chance-26/2604-section/",
+      "lastVerifiedAt": "2026-09-03T07:18:37+09:00"
+    },
+    {
+      "id": "koshi_inaba_event_ska_showdown_2026_general",
+      "tourId": "koshi_inaba_event_ska_showdown_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-02-28T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "koshi_inaba_event_ska_showdown_2026_0331"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.red-hot.ne.jp/play/detail.php?pid=py27671",
+      "lastVerifiedAt": "2026-09-03T07:18:37+09:00"
+    },
+    {
+      "id": "koshi_inaba_event_ska_showdown_2026_additional",
+      "tourId": "koshi_inaba_event_ska_showdown_2026",
+      "type": "追加発売",
+      "entryStartAt": "2026-03-20T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "koshi_inaba_event_ska_showdown_2026_0331"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.red-hot.ne.jp/play/detail.php?pid=py27671",
+      "lastVerifiedAt": "2026-09-03T07:18:37+09:00"
+    },
+    {
+      "id": "koshi_inaba_event_ska_showdown_2026_resale",
+      "tourId": "koshi_inaba_event_ska_showdown_2026",
+      "type": "公式チケットトレード（リセール）",
+      "entryStartAt": "2026-03-07T12:00:00+09:00",
+      "entryEndAt": "2026-03-27T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "koshi_inaba_event_ska_showdown_2026_0331"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.red-hot.ne.jp/play/detail.php?pid=py27671",
+      "lastVerifiedAt": "2026-09-03T07:18:37+09:00"
+    },
+    {
+      "id": "koshi_inaba_env_2026_2027_hall_pia_equipment_release",
+      "tourId": "koshi_inaba_env_2026_2027",
+      "type": "チケットぴあ 機材席解放受付",
+      "entryStartAt": "2026-08-19T12:00:00+09:00",
+      "entryEndAt": "2026-08-25T23:59:00+09:00",
+      "resultAt": "2026-08-29T20:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "koshi_inaba_env_2026_2027_hiroshima_0918",
+        "koshi_inaba_env_2026_2027_yamaguchi_0920",
+        "koshi_inaba_env_2026_2027_tsuyama_0922",
+        "koshi_inaba_env_2026_2027_tsuyama_0923",
+        "koshi_inaba_env_2026_2027_yamanashi_1002",
+        "koshi_inaba_env_2026_2027_kiryu_1004",
+        "koshi_inaba_env_2026_2027_nara_1012",
+        "koshi_inaba_env_2026_2027_ibaraki_1018",
+        "koshi_inaba_env_2026_2027_tochigi_1024",
+        "koshi_inaba_env_2026_2027_yokosuka_1027",
+        "koshi_inaba_env_2026_2027_okinawa_1031",
+        "koshi_inaba_env_2026_2027_okinawa_1101",
+        "koshi_inaba_env_2026_2027_oita_1105",
+        "koshi_inaba_env_2026_2027_fukuoka_1107",
+        "koshi_inaba_env_2026_2027_fukuoka_1108",
+        "koshi_inaba_env_2026_2027_sapporo_1114",
+        "koshi_inaba_env_2026_2027_obihiro_1116",
+        "koshi_inaba_env_2026_2027_koriyama_1120",
+        "koshi_inaba_env_2026_2027_sendai_1122",
+        "koshi_inaba_env_2026_2027_akita_1123",
+        "koshi_inaba_env_2026_2027_wakayama_1128",
+        "koshi_inaba_env_2026_2027_kyoto_1130",
+        "koshi_inaba_env_2026_2027_matsuyama_1204",
+        "koshi_inaba_env_2026_2027_kagawa_1206",
+        "koshi_inaba_env_2026_2027_mie_1211",
+        "koshi_inaba_env_2026_2027_gifu_1213",
+        "koshi_inaba_env_2026_2027_fukui_1218",
+        "koshi_inaba_env_2026_2027_ishikawa_1220"
+      ],
+      "source": "system",
+      "sourceUrl": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2669355",
+      "lastVerifiedAt": "2026-09-03T07:18:37+09:00"
+    },
+    {
+      "id": "koshi_inaba_env_2026_2027_arena_bz_ticket_3rd",
+      "tourId": "koshi_inaba_env_2026_2027",
+      "type": "B’z TICKET三次・B’z PARTY・Club-Gym抽選販売（アリーナ）",
+      "entryStartAt": "2026-10-02T12:00:00+09:00",
+      "entryEndAt": "2026-10-09T12:00:00+09:00",
+      "resultAt": "2026-10-20T12:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "koshi_inaba_env_2026_2027_kobe_0109",
+        "koshi_inaba_env_2026_2027_kobe_0110",
+        "koshi_inaba_env_2026_2027_nagoya_0116",
+        "koshi_inaba_env_2026_2027_nagoya_0117",
+        "koshi_inaba_env_2026_2027_miyagi_0123",
+        "koshi_inaba_env_2026_2027_yokohama_0128",
+        "koshi_inaba_env_2026_2027_yokohama_0130",
+        "koshi_inaba_env_2026_2027_yokohama_0131"
+      ],
+      "source": "system",
+      "sourceUrl": "https://bz-vermillion.com/en5/",
+      "lastVerifiedAt": "2026-09-03T07:18:37+09:00"
+    },
+    {
+      "id": "koshi_inaba_env_2026_2027_hall_pia_ehime_kagawa",
+      "tourId": "koshi_inaba_env_2026_2027",
+      "type": "チケットぴあ プレリザーブ（愛媛・香川）",
+      "entryStartAt": "2026-08-02T11:00:00+09:00",
+      "entryEndAt": "2026-08-09T23:59:00+09:00",
+      "resultAt": "2026-08-12T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "koshi_inaba_env_2026_2027_matsuyama_1204",
+        "koshi_inaba_env_2026_2027_kagawa_1206"
+      ],
+      "source": "system",
+      "sourceUrl": "https://t.pia.jp/pia/ticketInformation.do?lotRlsCd=01058",
+      "lastVerifiedAt": "2026-09-03T07:18:37+09:00"
+    },
+    {
+      "id": "koshi_inaba_env_2026_2027_hall_pia_tohoku",
+      "tourId": "koshi_inaba_env_2026_2027",
+      "type": "チケットぴあ プレリザーブ（福島・宮城・秋田）",
+      "entryStartAt": "2026-08-02T12:00:00+09:00",
+      "entryEndAt": "2026-08-09T23:59:00+09:00",
+      "resultAt": "2026-08-12T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "koshi_inaba_env_2026_2027_koriyama_1120",
+        "koshi_inaba_env_2026_2027_sendai_1122",
+        "koshi_inaba_env_2026_2027_akita_1123"
+      ],
+      "source": "system",
+      "sourceUrl": "https://t.pia.jp/pia/ticketInformation.do?lotRlsCd=05577",
+      "lastVerifiedAt": "2026-09-03T07:18:37+09:00"
     }
   ]
 }
