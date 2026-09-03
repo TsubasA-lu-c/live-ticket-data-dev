@@ -1,14 +1,14 @@
 {
-  "version": 192,
-  "updatedAt": "2026-09-03T18:32:00+09:00",
+  "version": 193,
+  "updatedAt": "2026-09-03T21:39:00+09:00",
   "files": {
     "artists": {
-      "hash": "a458907153e51b4e"
+      "hash": "50e91d45fd506460"
     }
   },
   "artists": {
     "golden_bomber": {
-      "hash": "07c98fb3a8b77780"
+      "hash": "6c146b602bac9ec1"
     },
     "yonezu_kenshi": {
       "hash": "4597744854d58a9a"
@@ -275,7 +275,7 @@
       "hash": "25b2e1dae5e1e149"
     },
     "shinee": {
-      "hash": "b08a6e3cfa2b97f3"
+      "hash": "746bd9c4061c4529"
     },
     "tomorrow_x_together": {
       "hash": "268603560d197c3d"
@@ -348,9 +348,6 @@
     },
     "oishi_masayoshi": {
       "hash": "b81d666a1a77bb92"
-    },
-    "tetsuya": {
-      "hash": "aeef3e38fe768d7b"
     }
   }
 }

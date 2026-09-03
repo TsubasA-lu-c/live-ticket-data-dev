@@ -11,6 +11,46 @@
       "source": "system",
       "sourceUrl": "https://shinee.jp/news/2026/0403_2389.html",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "shinee_member_onew_tough_love_fanmeeting_2026",
+      "artistId": "shinee",
+      "title": "【ONEW】2026 ONEW FANMEETING [TOUGH LOVE] IN JAPAN",
+      "startDate": "2026-04-24T00:00:00+09:00",
+      "endDate": "2026-05-14T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全指定席",
+          "amount": 13750
+        },
+        {
+          "label": "プレミアムシート",
+          "amount": 19250
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://onew-fc.jp/contents/1046836",
+      "lastVerifiedAt": "2026-09-03T21:39:00+09:00"
+    },
+    {
+      "id": "shinee_member_onew_live_q_2026",
+      "artistId": "shinee",
+      "title": "【ONEW】2026 ONEW CONCERT [ONEW THE LIVE : Q] IN JAPAN",
+      "startDate": "2026-09-22T00:00:00+09:00",
+      "endDate": "2026-09-23T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "一般指定席",
+          "amount": 14800
+        },
+        {
+          "label": "プレミアムシート",
+          "amount": 21400
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://onew-fc.jp/contents/1091505",
+      "lastVerifiedAt": "2026-09-03T21:39:00+09:00"
     }
   ],
   "performances": [
@@ -37,6 +77,90 @@
       "source": "system",
       "sourceUrl": "https://shinee.jp/news/2026/0403_2389.html",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "shinee_member_onew_tough_love_fanmeeting_2026_osaka_0424",
+      "tourId": "shinee_member_onew_tough_love_fanmeeting_2026",
+      "venue": "オリックス劇場",
+      "performanceAt": "2026-04-24T19:00:00+09:00",
+      "doorOpenAt": "2026-04-24T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://onew-fc.jp/contents/1046836",
+      "lastVerifiedAt": "2026-09-03T21:39:00+09:00"
+    },
+    {
+      "id": "shinee_member_onew_tough_love_fanmeeting_2026_osaka_0425",
+      "tourId": "shinee_member_onew_tough_love_fanmeeting_2026",
+      "venue": "オリックス劇場",
+      "performanceAt": "2026-04-25T16:00:00+09:00",
+      "doorOpenAt": "2026-04-25T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://onew-fc.jp/contents/1046836",
+      "lastVerifiedAt": "2026-09-03T21:39:00+09:00"
+    },
+    {
+      "id": "shinee_member_onew_tough_love_fanmeeting_2026_osaka_0426",
+      "tourId": "shinee_member_onew_tough_love_fanmeeting_2026",
+      "venue": "オリックス劇場",
+      "performanceAt": "2026-04-26T15:00:00+09:00",
+      "doorOpenAt": "2026-04-26T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://onew-fc.jp/contents/1046836",
+      "lastVerifiedAt": "2026-09-03T21:39:00+09:00"
+    },
+    {
+      "id": "shinee_member_onew_tough_love_fanmeeting_2026_tokyo_0513",
+      "tourId": "shinee_member_onew_tough_love_fanmeeting_2026",
+      "venue": "NHKホール",
+      "performanceAt": "2026-05-13T18:30:00+09:00",
+      "doorOpenAt": "2026-05-13T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://onew-fc.jp/contents/1046836",
+      "lastVerifiedAt": "2026-09-03T21:39:00+09:00"
+    },
+    {
+      "id": "shinee_member_onew_tough_love_fanmeeting_2026_tokyo_0514",
+      "tourId": "shinee_member_onew_tough_love_fanmeeting_2026",
+      "venue": "NHKホール",
+      "performanceAt": "2026-05-14T18:30:00+09:00",
+      "doorOpenAt": "2026-05-14T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://onew-fc.jp/contents/1046836",
+      "lastVerifiedAt": "2026-09-03T21:39:00+09:00"
+    },
+    {
+      "id": "shinee_member_onew_live_q_2026_tokyo_0922",
+      "tourId": "shinee_member_onew_live_q_2026",
+      "venue": "東京体育館 メインアリーナ",
+      "performanceAt": "2026-09-22T17:00:00+09:00",
+      "doorOpenAt": "2026-09-22T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://onew-fc.jp/contents/1091505",
+      "lastVerifiedAt": "2026-09-03T21:39:00+09:00"
+    },
+    {
+      "id": "shinee_member_onew_live_q_2026_tokyo_0923",
+      "tourId": "shinee_member_onew_live_q_2026",
+      "venue": "東京体育館 メインアリーナ",
+      "performanceAt": "2026-09-23T15:00:00+09:00",
+      "doorOpenAt": "2026-09-23T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://onew-fc.jp/contents/1091505",
+      "lastVerifiedAt": "2026-09-03T21:39:00+09:00"
     }
   ],
   "lotteries": [
@@ -56,9 +180,60 @@
       "source": "system",
       "sourceUrl": "https://shinee.jp/news/2026/0403_2389.html",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "shinee_member_onew_live_q_2026_jjinggu_1st",
+      "tourId": "shinee_member_onew_live_q_2026",
+      "type": "JJINGGU JAPAN 1次先行",
+      "entryStartAt": "2026-07-16T19:00:00+09:00",
+      "entryEndAt": "2026-07-20T23:59:00+09:00",
+      "resultAt": "2026-07-24T12:00:00+09:00",
+      "paymentStartAt": "2026-07-24T12:00:00+09:00",
+      "paymentEndAt": "2026-07-27T23:59:00+09:00",
+      "performanceIds": [
+        "shinee_member_onew_live_q_2026_tokyo_0922",
+        "shinee_member_onew_live_q_2026_tokyo_0923"
+      ],
+      "source": "system",
+      "sourceUrl": "https://onew-fc.jp/contents/1091505",
+      "lastVerifiedAt": "2026-09-03T21:39:00+09:00"
+    },
+    {
+      "id": "shinee_member_onew_live_q_2026_jjinggu_2nd",
+      "tourId": "shinee_member_onew_live_q_2026",
+      "type": "JJINGGU JAPAN 2次先行",
+      "entryStartAt": "2026-07-24T18:00:00+09:00",
+      "entryEndAt": "2026-08-03T23:59:00+09:00",
+      "resultAt": "2026-08-07T12:00:00+09:00",
+      "paymentStartAt": "2026-08-07T12:00:00+09:00",
+      "paymentEndAt": "2026-08-10T23:59:00+09:00",
+      "performanceIds": [
+        "shinee_member_onew_live_q_2026_tokyo_0922",
+        "shinee_member_onew_live_q_2026_tokyo_0923"
+      ],
+      "source": "system",
+      "sourceUrl": "https://onew-fc.jp/contents/1091505",
+      "lastVerifiedAt": "2026-09-03T21:39:00+09:00"
+    },
+    {
+      "id": "shinee_member_onew_live_q_2026_mumo",
+      "tourId": "shinee_member_onew_live_q_2026",
+      "type": "mu-mo TICKET先行",
+      "entryStartAt": "2026-08-07T15:00:00+09:00",
+      "entryEndAt": "2026-08-17T23:59:00+09:00",
+      "resultAt": "2026-08-21T12:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "shinee_member_onew_live_q_2026_tokyo_0922",
+        "shinee_member_onew_live_q_2026_tokyo_0923"
+      ],
+      "source": "system",
+      "sourceUrl": "https://onew-fc.jp/contents/1099178",
+      "lastVerifiedAt": "2026-09-03T21:39:00+09:00"
     }
   ],
-  "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+  "lastVerifiedAt": "2026-09-03T21:39:00+09:00",
   "appleMusicTracks": [
     {
       "songId": "6771279130",

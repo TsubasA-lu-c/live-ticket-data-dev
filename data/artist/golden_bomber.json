@@ -72,6 +72,54 @@
       "source": "system",
       "sourceUrl": "https://pc.goldenbomber.jp/contents/1018840",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_sho_kiryuin_otome_tour_2026",
+      "artistId": "golden_bomber",
+      "title": "【鬼龍院翔】42歳 おたおめツアー",
+      "startDate": "2026-05-21T00:00:00+09:00",
+      "endDate": "2026-10-31T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "オールスタンディング（5/21〜6/9・10/30〜10/31）",
+          "amount": 5500
+        },
+        {
+          "label": "オールスタンディング（6/15）",
+          "amount": 6600
+        },
+        {
+          "label": "1Fオールスタンディング（6/16〜6/20）",
+          "amount": 6600
+        },
+        {
+          "label": "2F着席指定席（6/16〜6/20）",
+          "amount": 7700
+        },
+        {
+          "label": "2F指定席（6/16〜6/20）",
+          "amount": 7150
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1047803",
+      "lastVerifiedAt": "2026-09-03T21:39:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_jun_utahiroba_birthday_2026",
+      "artistId": "golden_bomber",
+      "title": "【歌広場淳】バースデーイベント2026（仮）",
+      "startDate": "2026-08-30T00:00:00+09:00",
+      "endDate": "2026-08-30T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "歌広場淳撮影会つきチケット スタンディング",
+          "amount": 7500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1070590",
+      "lastVerifiedAt": "2026-09-03T21:39:00+09:00"
     }
   ],
   "performances": [
@@ -230,6 +278,162 @@
       "source": "system",
       "sourceUrl": "https://pc.goldenbomber.jp/contents/1018840",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_sho_kiryuin_otome_tour_2026_kochi_0521",
+      "tourId": "golden_bomber_member_sho_kiryuin_otome_tour_2026",
+      "venue": "CARAVAN SARY",
+      "performanceAt": "2026-05-21T18:30:00+09:00",
+      "doorOpenAt": "2026-05-21T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1047803",
+      "lastVerifiedAt": "2026-09-03T21:39:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_sho_kiryuin_otome_tour_2026_kagawa_0522",
+      "tourId": "golden_bomber_member_sho_kiryuin_otome_tour_2026",
+      "venue": "高松MONSTER",
+      "performanceAt": "2026-05-22T18:30:00+09:00",
+      "doorOpenAt": "2026-05-22T17:45:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1047803",
+      "lastVerifiedAt": "2026-09-03T21:39:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_sho_kiryuin_otome_tour_2026_kagoshima_0524",
+      "tourId": "golden_bomber_member_sho_kiryuin_otome_tour_2026",
+      "venue": "CAPARVO HALL",
+      "performanceAt": "2026-05-24T16:00:00+09:00",
+      "doorOpenAt": "2026-05-24T15:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1047803",
+      "lastVerifiedAt": "2026-09-03T21:39:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_sho_kiryuin_otome_tour_2026_okinawa_0602",
+      "tourId": "golden_bomber_member_sho_kiryuin_otome_tour_2026",
+      "venue": "桜坂セントラル",
+      "performanceAt": "2026-06-02T18:30:00+09:00",
+      "doorOpenAt": "2026-06-02T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1047803",
+      "lastVerifiedAt": "2026-09-03T21:39:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_sho_kiryuin_otome_tour_2026_akita_0607",
+      "tourId": "golden_bomber_member_sho_kiryuin_otome_tour_2026",
+      "venue": "秋田 Club SWINDLE",
+      "performanceAt": "2026-06-07T16:00:00+09:00",
+      "doorOpenAt": "2026-06-07T15:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1047803",
+      "lastVerifiedAt": "2026-09-03T21:39:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_sho_kiryuin_otome_tour_2026_obihiro_0609",
+      "tourId": "golden_bomber_member_sho_kiryuin_otome_tour_2026",
+      "venue": "帯広MEGA STONE",
+      "performanceAt": "2026-06-09T18:30:00+09:00",
+      "doorOpenAt": "2026-06-09T17:45:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1047803",
+      "lastVerifiedAt": "2026-09-03T21:39:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_sho_kiryuin_otome_tour_2026_aichi_0615",
+      "tourId": "golden_bomber_member_sho_kiryuin_otome_tour_2026",
+      "venue": "ダイアモンドホール",
+      "performanceAt": "2026-06-15T18:00:00+09:00",
+      "doorOpenAt": "2026-06-15T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1047803",
+      "lastVerifiedAt": "2026-09-03T21:39:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_sho_kiryuin_otome_tour_2026_osaka_0616",
+      "tourId": "golden_bomber_member_sho_kiryuin_otome_tour_2026",
+      "venue": "なんばHatch",
+      "performanceAt": "2026-06-16T18:00:00+09:00",
+      "doorOpenAt": "2026-06-16T17:15:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1047803",
+      "lastVerifiedAt": "2026-09-03T21:39:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_sho_kiryuin_otome_tour_2026_tokyo_0620",
+      "tourId": "golden_bomber_member_sho_kiryuin_otome_tour_2026",
+      "venue": "Zepp DiverCity (TOKYO)",
+      "performanceAt": "2026-06-20T17:00:00+09:00",
+      "doorOpenAt": "2026-06-20T16:15:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1047803",
+      "lastVerifiedAt": "2026-09-03T21:39:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_sho_kiryuin_otome_tour_2026_okinawa_1030",
+      "tourId": "golden_bomber_member_sho_kiryuin_otome_tour_2026",
+      "venue": "桜坂セントラル",
+      "performanceAt": "2026-10-30T18:30:00+09:00",
+      "doorOpenAt": "2026-10-30T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1092895",
+      "lastVerifiedAt": "2026-09-03T21:39:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_sho_kiryuin_otome_tour_2026_okinawa_1031",
+      "tourId": "golden_bomber_member_sho_kiryuin_otome_tour_2026",
+      "venue": "桜坂セントラル",
+      "performanceAt": "2026-10-31T16:00:00+09:00",
+      "doorOpenAt": "2026-10-31T15:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1092895",
+      "lastVerifiedAt": "2026-09-03T21:39:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_jun_utahiroba_birthday_2026_veats_0830_1",
+      "tourId": "golden_bomber_member_jun_utahiroba_birthday_2026",
+      "venue": "Veats Shibuya",
+      "performanceAt": "2026-08-30T14:00:00+09:00",
+      "doorOpenAt": "2026-08-30T13:15:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1070590",
+      "lastVerifiedAt": "2026-09-03T21:39:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_jun_utahiroba_birthday_2026_veats_0830_2",
+      "tourId": "golden_bomber_member_jun_utahiroba_birthday_2026",
+      "venue": "Veats Shibuya",
+      "performanceAt": "2026-08-30T18:30:00+09:00",
+      "doorOpenAt": "2026-08-30T17:45:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1070590",
+      "lastVerifiedAt": "2026-09-03T21:39:00+09:00"
     }
   ],
   "lotteries": [
@@ -471,6 +675,57 @@
       "source": "system",
       "sourceUrl": "https://gbmarukin.com/contents/2488",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_sho_kiryuin_otome_tour_2026_fc_marukin",
+      "tourId": "golden_bomber_member_sho_kiryuin_otome_tour_2026",
+      "type": "FC[マルキン]抽選受付",
+      "entryStartAt": "2026-07-17T15:00:00+09:00",
+      "entryEndAt": "2026-07-23T23:59:00+09:00",
+      "resultAt": "2026-07-30T15:00:00+09:00",
+      "paymentStartAt": "2026-07-30T15:00:00+09:00",
+      "paymentEndAt": "2026-08-04T23:59:00+09:00",
+      "performanceIds": [
+        "golden_bomber_member_sho_kiryuin_otome_tour_2026_okinawa_1030",
+        "golden_bomber_member_sho_kiryuin_otome_tour_2026_okinawa_1031"
+      ],
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1092895",
+      "lastVerifiedAt": "2026-09-03T21:39:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_sho_kiryuin_otome_tour_2026_mobile",
+      "tourId": "golden_bomber_member_sho_kiryuin_otome_tour_2026",
+      "type": "モバイル会員抽選受付",
+      "entryStartAt": "2026-07-30T15:00:00+09:00",
+      "entryEndAt": "2026-08-04T23:59:00+09:00",
+      "resultAt": "2026-08-11T15:00:00+09:00",
+      "paymentStartAt": "2026-08-11T15:00:00+09:00",
+      "paymentEndAt": "2026-08-16T23:59:00+09:00",
+      "performanceIds": [
+        "golden_bomber_member_sho_kiryuin_otome_tour_2026_okinawa_1030",
+        "golden_bomber_member_sho_kiryuin_otome_tour_2026_okinawa_1031"
+      ],
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1092895",
+      "lastVerifiedAt": "2026-09-03T21:39:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_sho_kiryuin_otome_tour_2026_general",
+      "tourId": "golden_bomber_member_sho_kiryuin_otome_tour_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-08-22T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "golden_bomber_member_sho_kiryuin_otome_tour_2026_okinawa_1030",
+        "golden_bomber_member_sho_kiryuin_otome_tour_2026_okinawa_1031"
+      ],
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1092895",
+      "lastVerifiedAt": "2026-09-03T21:39:00+09:00"
     }
   ],
   "appleMusicTracks": [
@@ -495,5 +750,6 @@
       "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/68/3f/de/683fdecc-0dce-4788-7c0d-9a64c6f56fe6/mzaf_4123153530670687650.plus.aac.ep.m4a",
       "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/39/db/1e/39db1e45-29cf-5dd3-613c-d8764cd6dd84/006364_4562390690309.jpg/{w}x{h}{c}.{f}"
     }
-  ]
+  ],
+  "lastVerifiedAt": "2026-09-03T21:39:00+09:00"
 }

@@ -20,16 +20,6 @@
       ],
       "approvedByUser": true,
       "note": "B'zと稲葉浩志ソロは関連人物だが、チケノートのライブ表示では別活動としてdelivery materializeしない。"
-    },
-    {
-      "id": "larc_en_ciel__tetsuya",
-      "type": "independent_solo",
-      "artistIds": [
-        "larc_en_ciel",
-        "tetsuya"
-      ],
-      "approvedByUser": true,
-      "note": "L'Arc~en~CielとTETSUYAソロは別Artistとして扱い、親グループへdelivery materializeしない。"
     }
   ]
 }
