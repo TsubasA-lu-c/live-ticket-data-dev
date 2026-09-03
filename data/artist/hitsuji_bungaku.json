@@ -119,6 +119,17 @@
       "source": "system",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/584757",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "hitsuji_bungaku_kyoto_onpaku_2026",
+      "artistId": "hitsuji_bungaku",
+      "title": "京都音楽博覧会2026 in 梅小路公園",
+      "startDate": "2026-10-11T00:00:00+09:00",
+      "endDate": "2026-10-11T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://kyotoonpaku.net/",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -445,6 +456,18 @@
       "source": "system",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/info/584757",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "hitsuji_bungaku_kyoto_onpaku_2026_1011",
+      "tourId": "hitsuji_bungaku_kyoto_onpaku_2026",
+      "venue": "京都・梅小路公園 芝生広場",
+      "performanceAt": "2026-10-11T11:30:00+09:00",
+      "doorOpenAt": "2026-10-11T10:00:00+09:00",
+      "kind": "fes",
+      "eventName": "京都音楽博覧会2026 in 梅小路公園",
+      "source": "system",
+      "sourceUrl": "https://kyotoonpaku.net/",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     }
   ],
   "lotteries": [

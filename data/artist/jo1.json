@@ -80,6 +80,17 @@
       "source": "system",
       "sourceUrl": "https://jo1.jp/news/detail/6350",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_mtv_vmaj_2026",
+      "artistId": "jo1",
+      "title": "MTV VMAJ 2026",
+      "startDate": "2026-10-29T00:00:00+09:00",
+      "endDate": "2026-10-29T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.mtvjapan.com/event/vmaj/2026/",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -164,8 +175,9 @@
       "kind": "oneman",
       "eventName": "JO1DER SHOW 2026 'EIEN 永縁' LIMITED EDITION IN SEOUL",
       "source": "system",
-      "sourceUrl": "https://cloud.jo1.jp/news/detail/6203",
-      "lastVerifiedAt": "2026-08-17T22:58:00+09:00"
+      "sourceUrl": "https://jo1.jp/news/detail/6306?lang=en",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00",
+      "eventStatus": "cancelled"
     },
     {
       "id": "jo1_eien_2026_seoul_0927",
@@ -176,8 +188,9 @@
       "kind": "oneman",
       "eventName": "JO1DER SHOW 2026 'EIEN 永縁' LIMITED EDITION IN SEOUL",
       "source": "system",
-      "sourceUrl": "https://cloud.jo1.jp/news/detail/6203",
-      "lastVerifiedAt": "2026-08-17T22:58:00+09:00"
+      "sourceUrl": "https://jo1.jp/news/detail/6306?lang=en",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00",
+      "eventStatus": "cancelled"
     },
     {
       "id": "jo1_luckyfes_2026_hitachinaka_0811",
@@ -327,6 +340,18 @@
       "sourceUrl": "https://jo1.jp/news/detail/6350",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00",
       "performanceDate": "2026-12-01"
+    },
+    {
+      "id": "jo1_mtv_vmaj_2026_1029",
+      "tourId": "jo1_mtv_vmaj_2026",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-10-29T18:00:00+09:00",
+      "doorOpenAt": "2026-10-29T16:00:00+09:00",
+      "kind": "fes",
+      "eventName": "MTV VMAJ 2026",
+      "source": "system",
+      "sourceUrl": "https://www.mtvjapan.com/event/vmaj/2026/",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     }
   ],
   "lotteries": [

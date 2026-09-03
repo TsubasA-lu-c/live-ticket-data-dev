@@ -146,8 +146,8 @@
         }
       ],
       "source": "system",
-      "sourceUrl": "https://macaroniempitsu.com/live",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "sourceUrl": "https://kyotoonpaku.net/",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     },
     {
       "id": "macaroni_empitsu_fes_2026_numbershot",
@@ -430,6 +430,18 @@
       "source": "system",
       "sourceUrl": "https://numbershot.jp/2026/",
       "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
+    },
+    {
+      "id": "macaroni_empitsu_fes_2026_kyotohakurankai_1010",
+      "tourId": "macaroni_empitsu_fes_2026_kyotohakurankai",
+      "venue": "京都・梅小路公園 芝生広場",
+      "performanceAt": "2026-10-10T11:30:00+09:00",
+      "doorOpenAt": "2026-10-10T10:00:00+09:00",
+      "kind": "fes",
+      "eventName": "京都音楽博覧会2026 in 梅小路公園",
+      "source": "system",
+      "sourceUrl": "https://kyotoonpaku.net/",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     }
   ],
   "lotteries": [

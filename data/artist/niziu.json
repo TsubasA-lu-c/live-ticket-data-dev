@@ -52,6 +52,17 @@
       "source": "system",
       "sourceUrl": "https://niziu.com/s/n123/page/thecinema2026",
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "niziu_inkigayo_live_tokyo_2026",
+      "artistId": "niziu",
+      "title": "INKIGAYO LIVE in TOKYO",
+      "startDate": "2026-09-22T00:00:00+09:00",
+      "endDate": "2026-09-22T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://inkigayo-live.jp/",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -258,6 +269,18 @@
       "source": "system",
       "sourceUrl": "https://niziu.com/s/n123/page/thecinema2026",
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "niziu_inkigayo_live_tokyo_2026_0922",
+      "tourId": "niziu_inkigayo_live_tokyo_2026",
+      "venue": "ベルーナドーム",
+      "performanceAt": "2026-09-22T18:00:00+09:00",
+      "doorOpenAt": "2026-09-22T16:00:00+09:00",
+      "kind": "fes",
+      "eventName": "INKIGAYO LIVE in TOKYO DAY1",
+      "source": "system",
+      "sourceUrl": "https://inkigayo-live.jp/",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     }
   ],
   "lotteries": [

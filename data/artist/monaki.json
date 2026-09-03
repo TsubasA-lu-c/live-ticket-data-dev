@@ -624,29 +624,25 @@
       "id": "monaki_1st_tour_2026_fukuoka_1118",
       "tourId": "monaki_1st_tour_2026",
       "venue": "Zepp Fukuoka",
-      "performanceAt": "2026-11-18T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-11-18T19:00:00+09:00",
+      "doorOpenAt": "2026-11-18T18:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://monaki.jp/",
-      "lastVerifiedAt": "2026-08-30T00:00:00+09:00",
-      "performanceDate": "2026-11-18",
-      "performanceTimeEstimated": true
+      "sourceUrl": "https://monaki.jp/news/detail/88526",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     },
     {
       "id": "monaki_1st_tour_2026_sapporo_1127",
       "tourId": "monaki_1st_tour_2026",
       "venue": "Zepp Sapporo",
-      "performanceAt": "2026-11-27T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-11-27T19:00:00+09:00",
+      "doorOpenAt": "2026-11-27T18:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://monaki.jp/",
-      "lastVerifiedAt": "2026-08-30T00:00:00+09:00",
-      "performanceDate": "2026-11-27",
-      "performanceTimeEstimated": true
+      "sourceUrl": "https://monaki.jp/news/detail/88526",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     },
     {
       "id": "monaki_dream_festival_2026_1123",

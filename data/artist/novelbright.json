@@ -135,6 +135,17 @@
       "source": "system",
       "sourceUrl": "https://novelbright.jp/news/detail/2389",
       "lastVerifiedAt": "2026-08-18T07:14:00+09:00"
+    },
+    {
+      "id": "novelbright_dream_festival_2026",
+      "artistId": "novelbright",
+      "title": "15th Anniversary テレビ朝日ドリームフェスティバル2026",
+      "startDate": "2026-11-21T00:00:00+09:00",
+      "endDate": "2026-11-21T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://post.tv-asahi.co.jp/?p=832267",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -617,6 +628,18 @@
       "source": "system",
       "sourceUrl": "https://fest-inazuma.com/about/",
       "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
+    },
+    {
+      "id": "novelbright_dream_festival_2026_1121",
+      "tourId": "novelbright_dream_festival_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-11-21T15:00:00+09:00",
+      "doorOpenAt": "2026-11-21T13:30:00+09:00",
+      "kind": "fes",
+      "eventName": "15th Anniversary テレビ朝日ドリームフェスティバル2026",
+      "source": "system",
+      "sourceUrl": "https://post.tv-asahi.co.jp/?p=832267",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     }
   ],
   "lotteries": [

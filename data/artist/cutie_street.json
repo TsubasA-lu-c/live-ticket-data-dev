@@ -644,6 +644,17 @@
       "source": "system",
       "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/87770",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_star_fes_2026",
+      "artistId": "cutie_street",
+      "title": "STARフェス",
+      "startDate": "2026-10-11T00:00:00+09:00",
+      "endDate": "2026-10-11T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/43664",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -1150,6 +1161,18 @@
       "source": "system",
       "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/87770",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_star_fes_2026_1011",
+      "tourId": "cutie_street_star_fes_2026",
+      "venue": "ぴあアリーナMM",
+      "performanceAt": "2026-10-11T17:00:00+09:00",
+      "doorOpenAt": "2026-10-11T16:00:00+09:00",
+      "kind": "fes",
+      "eventName": "STARフェス DAY2",
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/43664",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     }
   ],
   "lotteries": [

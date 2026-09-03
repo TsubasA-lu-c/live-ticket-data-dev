@@ -157,6 +157,17 @@
       "source": "system",
       "sourceUrl": "https://kurayamisaka.com/archive/2026/",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "kurayamisaka_buzzrhythm_live_2026",
+      "artistId": "kurayamisaka",
+      "title": "バズリズム LIVE 2026",
+      "startDate": "2026-11-08T00:00:00+09:00",
+      "endDate": "2026-11-08T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://buzzrhythm.live/",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -339,6 +350,18 @@
       "source": "system",
       "sourceUrl": "https://numbershot.jp/2026/",
       "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
+    },
+    {
+      "id": "kurayamisaka_buzzrhythm_live_2026_1108",
+      "tourId": "kurayamisaka_buzzrhythm_live_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-11-08T16:00:00+09:00",
+      "doorOpenAt": "2026-11-08T15:00:00+09:00",
+      "kind": "fes",
+      "eventName": "バズリズム LIVE 2026",
+      "source": "system",
+      "sourceUrl": "https://buzzrhythm.live/",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     }
   ],
   "lotteries": [

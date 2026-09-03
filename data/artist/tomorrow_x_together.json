@@ -75,6 +75,17 @@
       "source": "system",
       "sourceUrl": "https://txt-official.jp/schedule/6714987cc92a",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_inkigayo_live_tokyo_2026",
+      "artistId": "tomorrow_x_together",
+      "title": "INKIGAYO LIVE in TOKYO",
+      "startDate": "2026-09-22T00:00:00+09:00",
+      "endDate": "2026-09-22T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://inkigayo-live.jp/",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -333,6 +344,18 @@
       "source": "system",
       "sourceUrl": "https://txt-official.jp/schedule/6714987cc92a",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_inkigayo_live_tokyo_2026_0922",
+      "tourId": "tomorrow_x_together_inkigayo_live_tokyo_2026",
+      "venue": "ベルーナドーム",
+      "performanceAt": "2026-09-22T18:00:00+09:00",
+      "doorOpenAt": "2026-09-22T16:00:00+09:00",
+      "kind": "fes",
+      "eventName": "INKIGAYO LIVE in TOKYO DAY1",
+      "source": "system",
+      "sourceUrl": "https://inkigayo-live.jp/",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     }
   ],
   "lotteries": [

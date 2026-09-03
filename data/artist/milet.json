@@ -38,6 +38,17 @@
       "source": "system",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/milet_music/info/584424",
       "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
+    },
+    {
+      "id": "milet_kyoto_onpaku_2026",
+      "artistId": "milet",
+      "title": "京都音楽博覧会2026 in 梅小路公園",
+      "startDate": "2026-10-11T00:00:00+09:00",
+      "endDate": "2026-10-11T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/milet_music/info/583678",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -292,6 +303,18 @@
       "source": "system",
       "sourceUrl": "https://www.wildbunchfest.jp/general-info/",
       "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
+    },
+    {
+      "id": "milet_kyoto_onpaku_2026_1011",
+      "tourId": "milet_kyoto_onpaku_2026",
+      "venue": "京都・梅小路公園 芝生広場",
+      "performanceAt": "2026-10-11T11:30:00+09:00",
+      "doorOpenAt": "2026-10-11T10:00:00+09:00",
+      "kind": "fes",
+      "eventName": "京都音楽博覧会2026 in 梅小路公園",
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/milet_music/info/583678",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     }
   ],
   "lotteries": [],

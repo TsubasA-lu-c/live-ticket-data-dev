@@ -691,8 +691,8 @@
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://www.da-ice.jp/news/detail.php?id=1135399",
-      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+      "sourceUrl": "https://www.da-ice.jp/schedule/tour.php?fdate=2026-10-13&id=1003063&ldate=2026-12-15",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     },
     {
       "id": "da_ice_day_hall_phase_2026_tokyo_1118",
@@ -839,6 +839,18 @@
       "source": "system",
       "sourceUrl": "https://da-ice.jp/news/detail.php?id=1135602",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "da_ice_day_hall_phase_2026_aichi_1022",
+      "tourId": "da_ice_day_hall_phase_2026",
+      "venue": "愛知県芸術劇場 大ホール",
+      "performanceAt": "2026-10-22T18:00:00+09:00",
+      "doorOpenAt": "2026-10-22T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.da-ice.jp/schedule/tour.php?fdate=2026-10-13&id=1003063&ldate=2026-12-15",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     }
   ],
   "lotteries": [

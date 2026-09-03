@@ -468,6 +468,32 @@
         "officialTitle": "東武鉄道 presents ANIMAX MUSIX 2026 supported by Lemino",
         "mirrored": true
       }
+    },
+    {
+      "id": "masayoshi_oishi__rel__oishi_masayoshi_oishi_yokoari_2027",
+      "artistId": "masayoshi_oishi",
+      "title": "【オーイシマサヨシ】オーイシ横アリ ～オーイシマサヨシ ワンマンライブ at 横浜アリーナ～",
+      "startDate": "2027-02-27T00:00:00+09:00",
+      "endDate": "2027-02-28T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "通常チケット",
+          "amount": 10900
+        },
+        {
+          "label": "車椅子 指定席チケット",
+          "amount": 10900
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7330",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00",
+      "relationDisplay": {
+        "sourceArtistId": "oishi_masayoshi",
+        "sourceTourId": "oishi_masayoshi_oishi_yokoari_2027",
+        "officialTitle": "オーイシ横アリ ～オーイシマサヨシ ワンマンライブ at 横浜アリーナ～",
+        "mirrored": true
+      }
     }
   ],
   "performances": [
@@ -987,6 +1013,30 @@
         "sourceArtistId": "oishi_masayoshi",
         "sourceId": "oishi_masayoshi_animax_yokohama_1121_20261121"
       }
+    },
+    {
+      "id": "masayoshi_oishi__rel__oishi_masayoshi_oishi_yokoari_2027_day1_0227",
+      "tourId": "masayoshi_oishi__rel__oishi_masayoshi_oishi_yokoari_2027",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2027-02-27T18:00:00+09:00",
+      "doorOpenAt": "2027-02-27T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7330",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "masayoshi_oishi__rel__oishi_masayoshi_oishi_yokoari_2027_day2_0228",
+      "tourId": "masayoshi_oishi__rel__oishi_masayoshi_oishi_yokoari_2027",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2027-02-28T17:00:00+09:00",
+      "doorOpenAt": "2027-02-28T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7330",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1214,6 +1264,74 @@
         "sourceArtistId": "oishi_masayoshi",
         "sourceId": "oishi_masayoshi_dialogue_1018_fc"
       }
+    },
+    {
+      "id": "masayoshi_oishi__rel__oishi_masayoshi_oishi_yokoari_2027_club014_fastest",
+      "tourId": "masayoshi_oishi__rel__oishi_masayoshi_oishi_yokoari_2027",
+      "type": "CLUB014会員最速先行",
+      "entryStartAt": "2025-12-20T18:00:00+09:00",
+      "entryEndAt": "2026-02-09T23:59:00+09:00",
+      "resultAt": "2026-02-13T19:00:00+09:00",
+      "paymentStartAt": "2026-02-13T19:00:00+09:00",
+      "paymentEndAt": "2026-02-16T23:59:00+09:00",
+      "performanceIds": [
+        "masayoshi_oishi__rel__oishi_masayoshi_oishi_yokoari_2027_day1_0227",
+        "masayoshi_oishi__rel__oishi_masayoshi_oishi_yokoari_2027_day2_0228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7330",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "masayoshi_oishi__rel__oishi_masayoshi_oishi_yokoari_2027_club014_second",
+      "tourId": "masayoshi_oishi__rel__oishi_masayoshi_oishi_yokoari_2027",
+      "type": "CLUB014 2次先行",
+      "entryStartAt": "2026-02-27T19:00:00+09:00",
+      "entryEndAt": "2026-04-06T23:59:00+09:00",
+      "resultAt": "2026-04-10T19:00:00+09:00",
+      "paymentStartAt": "2026-04-10T19:00:00+09:00",
+      "paymentEndAt": "2026-04-13T23:59:00+09:00",
+      "performanceIds": [
+        "masayoshi_oishi__rel__oishi_masayoshi_oishi_yokoari_2027_day1_0227",
+        "masayoshi_oishi__rel__oishi_masayoshi_oishi_yokoari_2027_day2_0228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7330",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "masayoshi_oishi__rel__oishi_masayoshi_oishi_yokoari_2027_official_hp",
+      "tourId": "masayoshi_oishi__rel__oishi_masayoshi_oishi_yokoari_2027",
+      "type": "オフィシャルHP先行",
+      "entryStartAt": "2026-04-24T18:00:00+09:00",
+      "entryEndAt": "2026-05-11T23:59:00+09:00",
+      "resultAt": "2026-05-15T19:00:00+09:00",
+      "paymentStartAt": "2026-05-15T19:00:00+09:00",
+      "paymentEndAt": "2026-05-18T23:59:00+09:00",
+      "performanceIds": [
+        "masayoshi_oishi__rel__oishi_masayoshi_oishi_yokoari_2027_day1_0227",
+        "masayoshi_oishi__rel__oishi_masayoshi_oishi_yokoari_2027_day2_0228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7330",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "masayoshi_oishi__rel__oishi_masayoshi_oishi_yokoari_2027_general_lottery",
+      "tourId": "masayoshi_oishi__rel__oishi_masayoshi_oishi_yokoari_2027",
+      "type": "一般発売（抽選）",
+      "entryStartAt": "2026-05-30T10:00:00+09:00",
+      "entryEndAt": "2026-06-01T23:59:00+09:00",
+      "resultAt": "2026-06-05T19:00:00+09:00",
+      "paymentStartAt": "2026-06-05T19:00:00+09:00",
+      "paymentEndAt": "2026-06-08T23:59:00+09:00",
+      "performanceIds": [
+        "masayoshi_oishi__rel__oishi_masayoshi_oishi_yokoari_2027_day1_0227",
+        "masayoshi_oishi__rel__oishi_masayoshi_oishi_yokoari_2027_day2_0228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7330",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

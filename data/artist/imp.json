@@ -22,6 +22,28 @@
       "source": "system",
       "sourceUrl": "https://tobe-store.jp/blogs/information/81",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "imp_cdtv_autumn_thanks_2026",
+      "artistId": "imp",
+      "title": "CDTVライブ！ライブ！秋の大感謝祭2026",
+      "startDate": "2026-09-12T00:00:00+09:00",
+      "endDate": "2026-09-12T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.tbs.co.jp/cdtv_livelive/articles/20260706.html",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "imp_buzzrhythm_live_2026",
+      "artistId": "imp",
+      "title": "バズリズム LIVE 2026",
+      "startDate": "2026-11-07T00:00:00+09:00",
+      "endDate": "2026-11-07T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://buzzrhythm.live/",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -36,6 +58,30 @@
       "source": "system",
       "sourceUrl": "https://rijfes.jp/2026/artist/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "imp_cdtv_autumn_thanks_2026_0912",
+      "tourId": "imp_cdtv_autumn_thanks_2026",
+      "venue": "東京ガーデンシアター",
+      "performanceAt": "2026-09-12T18:00:00+09:00",
+      "doorOpenAt": "2026-09-12T16:30:00+09:00",
+      "kind": "fes",
+      "eventName": "CDTVライブ！ライブ！秋の大感謝祭2026",
+      "source": "system",
+      "sourceUrl": "https://tickets.tbs.co.jp/cdtv_livelive26fall/",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "imp_buzzrhythm_live_2026_1107",
+      "tourId": "imp_buzzrhythm_live_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-11-07T16:00:00+09:00",
+      "doorOpenAt": "2026-11-07T15:00:00+09:00",
+      "kind": "fes",
+      "eventName": "バズリズム LIVE 2026",
+      "source": "system",
+      "sourceUrl": "https://buzzrhythm.live/",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     }
   ],
   "lotteries": [],

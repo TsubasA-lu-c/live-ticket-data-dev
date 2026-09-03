@@ -6,7 +6,7 @@
       "artistId": "stray_kids",
       "title": "Stray Kids World Tour <RUN IT JAPAN>",
       "startDate": "2026-08-29T00:00:00+09:00",
-      "endDate": "2026-10-24T00:00:00+09:00",
+      "endDate": "2026-11-08T00:00:00+09:00",
       "prices": [
         {
           "label": "全席指定",
@@ -18,8 +18,8 @@
         }
       ],
       "source": "system",
-      "sourceUrl": "https://www.straykidsjapan.com/runitjapan/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/StrayKids/info/586376",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -106,6 +106,42 @@
       "source": "system",
       "sourceUrl": "https://www.straykidsjapan.com/runitjapan/",
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_japan_2026_tokyo_dome_1106",
+      "tourId": "stray_kids_run_it_japan_2026",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-11-06T18:00:00+09:00",
+      "doorOpenAt": "2026-11-06T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/StrayKids/info/586376",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_japan_2026_tokyo_dome_1107",
+      "tourId": "stray_kids_run_it_japan_2026",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-11-07T17:00:00+09:00",
+      "doorOpenAt": "2026-11-07T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/StrayKids/info/586376",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_japan_2026_tokyo_dome_1108",
+      "tourId": "stray_kids_run_it_japan_2026",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-11-08T16:30:00+09:00",
+      "doorOpenAt": "2026-11-08T14:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/StrayKids/info/586376",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -247,6 +283,24 @@
       "source": "system",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/StrayKids/info/586300",
       "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_japan_2026_tokyo_dome_w_member_fastest",
+      "tourId": "stray_kids_run_it_japan_2026",
+      "type": "東京ドーム公演 W会員最速先行",
+      "entryStartAt": "2026-08-30T21:00:00+09:00",
+      "entryEndAt": "2026-09-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_run_it_japan_2026_tokyo_dome_1106",
+        "stray_kids_run_it_japan_2026_tokyo_dome_1107",
+        "stray_kids_run_it_japan_2026_tokyo_dome_1108"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/StrayKids/info/586376",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

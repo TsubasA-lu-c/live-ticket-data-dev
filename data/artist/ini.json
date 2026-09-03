@@ -50,8 +50,19 @@
       "endDate": "2026-10-29T00:00:00+09:00",
       "prices": null,
       "source": "system",
-      "sourceUrl": "https://ini-official.com/news/1/",
-      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+      "sourceUrl": "https://ini-official.com/news/detail/4363?lang=en",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "ini_dream_festival_2026",
+      "artistId": "ini",
+      "title": "15th Anniversary テレビ朝日ドリームフェスティバル2026",
+      "startDate": "2026-11-22T00:00:00+09:00",
+      "endDate": "2026-11-22T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/news/detail/4382",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -248,6 +259,30 @@
       "source": "system",
       "sourceUrl": "https://ini-official.com/news/detail/4344",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "ini_mtv_vmaj_2026_1029",
+      "tourId": "ini_mtv_vmaj_2026",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-10-29T18:00:00+09:00",
+      "doorOpenAt": "2026-10-29T16:00:00+09:00",
+      "kind": "fes",
+      "eventName": "MTV VMAJ 2026",
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/news/detail/4363?lang=en",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "ini_dream_festival_2026_1122",
+      "tourId": "ini_dream_festival_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-11-22T15:00:00+09:00",
+      "doorOpenAt": "2026-11-22T13:30:00+09:00",
+      "kind": "fes",
+      "eventName": "15th Anniversary テレビ朝日ドリームフェスティバル2026",
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/news/detail/4382",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     }
   ],
   "lotteries": [

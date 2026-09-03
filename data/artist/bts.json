@@ -11,6 +11,17 @@
       "source": "system",
       "sourceUrl": "https://bts-official.jp/schedule/sEfPyALR162k%3D",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "bts_world_tour_arirang_singapore_2026",
+      "artistId": "bts",
+      "title": "BTS WORLD TOUR 'ARIRANG' IN SINGAPORE",
+      "startDate": "2026-12-17T00:00:00+08:00",
+      "endDate": "2026-12-22T00:00:00+08:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://weverse.io/bts/notice/36080?hl=ja",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -37,6 +48,54 @@
       "source": "system",
       "sourceUrl": "https://bts-official.jp/schedule/sEfPyALR162k%3D",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "bts_world_tour_arirang_singapore_2026_217",
+      "tourId": "bts_world_tour_arirang_singapore_2026",
+      "venue": "National Stadium, Singapore",
+      "performanceAt": "2026-12-17T19:00:00+08:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://weverse.io/bts/notice/36080?hl=ja",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "bts_world_tour_arirang_singapore_2026_219",
+      "tourId": "bts_world_tour_arirang_singapore_2026",
+      "venue": "National Stadium, Singapore",
+      "performanceAt": "2026-12-19T19:00:00+08:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://weverse.io/bts/notice/36080?hl=ja",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "bts_world_tour_arirang_singapore_2026_220",
+      "tourId": "bts_world_tour_arirang_singapore_2026",
+      "venue": "National Stadium, Singapore",
+      "performanceAt": "2026-12-20T19:00:00+08:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://weverse.io/bts/notice/36080?hl=ja",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "bts_world_tour_arirang_singapore_2026_222",
+      "tourId": "bts_world_tour_arirang_singapore_2026",
+      "venue": "National Stadium, Singapore",
+      "performanceAt": "2026-12-22T19:00:00+08:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://weverse.io/bts/notice/36080?hl=ja",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     }
   ],
   "lotteries": [],

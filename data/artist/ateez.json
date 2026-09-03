@@ -53,6 +53,17 @@
       "source": "system",
       "sourceUrl": "https://ateezlive.com/asia/",
       "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_bad_japanese_ver_offline_2026",
+      "artistId": "ateez",
+      "title": "JAPAN 5TH SINGLE「BAD (Japanese Ver.)」発売記念 オフラインイベント",
+      "startDate": "2026-09-05T00:00:00+09:00",
+      "endDate": "2026-10-03T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://ateez-official.jp/contents/1106095",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -281,6 +292,42 @@
       "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
       "performanceDate": "2026-04-04",
       "performanceTimeEstimated": true
+    },
+    {
+      "id": "ateez_bad_japanese_ver_offline_2026_osaka_0905",
+      "tourId": "ateez_bad_japanese_ver_offline_2026",
+      "venue": "ハービスホール",
+      "performanceAt": "2026-09-05T13:40:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "JAPAN 5TH SINGLE「BAD (Japanese Ver.)」発売記念 オフラインイベント",
+      "source": "system",
+      "sourceUrl": "https://ateez-official.jp/contents/1106518",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_bad_japanese_ver_offline_2026_tokyo_1002",
+      "tourId": "ateez_bad_japanese_ver_offline_2026",
+      "venue": "有明GYM-EX",
+      "performanceAt": "2026-10-02T13:50:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "JAPAN 5TH SINGLE「BAD (Japanese Ver.)」発売記念 オフラインイベント",
+      "source": "system",
+      "sourceUrl": "https://ateez-official.jp/contents/1106520",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_bad_japanese_ver_offline_2026_tokyo_1003",
+      "tourId": "ateez_bad_japanese_ver_offline_2026",
+      "venue": "有明GYM-EX",
+      "performanceAt": "2026-10-03T11:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "JAPAN 5TH SINGLE「BAD (Japanese Ver.)」発売記念 オフラインイベント",
+      "source": "system",
+      "sourceUrl": "https://ateez-official.jp/contents/1106520",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -598,6 +645,108 @@
       "source": "system",
       "sourceUrl": "https://my.bookmyshow.com/en/e/ATEEZ326",
       "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_bad_japanese_ver_offline_2026_2shot_osaka",
+      "tourId": "ateez_bad_japanese_ver_offline_2026",
+      "type": "FC会員限定 2ショット撮影会抽選（大阪）",
+      "entryStartAt": "2026-05-29T18:00:00+09:00",
+      "entryEndAt": "2026-06-04T23:59:00+09:00",
+      "resultAt": "2026-06-11T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ateez_bad_japanese_ver_offline_2026_osaka_0905"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ateez-official.jp/contents/1077238",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_bad_japanese_ver_offline_2026_2shot_tokyo_1002",
+      "tourId": "ateez_bad_japanese_ver_offline_2026",
+      "type": "FC会員限定 2ショット撮影会抽選（東京10/2）",
+      "entryStartAt": "2026-06-05T12:00:00+09:00",
+      "entryEndAt": "2026-06-11T23:59:00+09:00",
+      "resultAt": "2026-06-18T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ateez_bad_japanese_ver_offline_2026_tokyo_1002"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ateez-official.jp/contents/1077238",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_bad_japanese_ver_offline_2026_2shot_tokyo_1003",
+      "tourId": "ateez_bad_japanese_ver_offline_2026",
+      "type": "FC会員限定 2ショット撮影会抽選（東京10/3）",
+      "entryStartAt": "2026-06-12T12:00:00+09:00",
+      "entryEndAt": "2026-06-18T23:59:00+09:00",
+      "resultAt": "2026-06-25T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ateez_bad_japanese_ver_offline_2026_tokyo_1003"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ateez-official.jp/contents/1077238",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_bad_japanese_ver_offline_2026_serial_round1",
+      "tourId": "ateez_bad_japanese_ver_offline_2026",
+      "type": "シリアルナンバー特典 オフラインイベント応募 第1回",
+      "entryStartAt": "2026-07-28T10:00:00+09:00",
+      "entryEndAt": "2026-08-03T09:00:00+09:00",
+      "resultAt": "2026-08-07T20:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ateez_bad_japanese_ver_offline_2026_osaka_0905",
+        "ateez_bad_japanese_ver_offline_2026_tokyo_1002",
+        "ateez_bad_japanese_ver_offline_2026_tokyo_1003"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ateez-official.jp/contents/1088399",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_bad_japanese_ver_offline_2026_serial_round2",
+      "tourId": "ateez_bad_japanese_ver_offline_2026",
+      "type": "シリアルナンバー特典 オフラインイベント応募 第2回",
+      "entryStartAt": "2026-08-03T10:00:00+09:00",
+      "entryEndAt": "2026-08-10T09:00:00+09:00",
+      "resultAt": "2026-08-14T20:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ateez_bad_japanese_ver_offline_2026_osaka_0905",
+        "ateez_bad_japanese_ver_offline_2026_tokyo_1002",
+        "ateez_bad_japanese_ver_offline_2026_tokyo_1003"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ateez-official.jp/contents/1088399",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_bad_japanese_ver_offline_2026_serial_round3",
+      "tourId": "ateez_bad_japanese_ver_offline_2026",
+      "type": "シリアルナンバー特典 オフラインイベント応募 第3回",
+      "entryStartAt": "2026-08-10T10:00:00+09:00",
+      "entryEndAt": "2026-08-17T09:00:00+09:00",
+      "resultAt": "2026-08-21T20:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ateez_bad_japanese_ver_offline_2026_osaka_0905",
+        "ateez_bad_japanese_ver_offline_2026_tokyo_1002",
+        "ateez_bad_japanese_ver_offline_2026_tokyo_1003"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ateez-official.jp/contents/1088399",
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
