@@ -1,0 +1,193 @@
+name: Temporary member-solo Dev correction
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tmp-fix-member-solo-dev.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Apply reviewed member solo activity to parent groups
+        run: |
+          python3 - <<'PY'
+          import hashlib
+          import json
+          from pathlib import Path
+
+          DATA = Path('data')
+          VERIFIED = '2026-09-03T21:39:00+09:00'
+
+          def load(path):
+              return json.loads(Path(path).read_text(encoding='utf-8'))
+
+          def dump(path, value):
+              path = Path(path)
+              path.parent.mkdir(parents=True, exist_ok=True)
+              path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          def sha16(path):
+              return hashlib.sha256(Path(path).read_bytes()).hexdigest()[:16]
+
+          def replace_tours(doc, tours, performances, lotteries):
+              ids = {t['id'] for t in tours}
+              doc['tours'] = [t for t in doc.get('tours', []) if t.get('id') not in ids] + tours
+              doc['performances'] = [p for p in doc.get('performances', []) if p.get('tourId') not in ids] + performances
+              doc['lotteries'] = [l for l in doc.get('lotteries', []) if l.get('tourId') not in ids] + lotteries
+
+          # Revert the accidental standalone TETSUYA Dev target.
+          artists_path = DATA / 'artists.json'
+          artists = load(artists_path)
+          artists = [a for a in artists if a.get('id') != 'tetsuya']
+          dump(artists_path, artists)
+          tetsuya_path = DATA / 'artist' / 'tetsuya.json'
+          if tetsuya_path.exists():
+              tetsuya_path.unlink()
+          relations_path = DATA / 'artist_relations.json'
+          relations = load(relations_path)
+          relations['relations'] = [r for r in relations.get('relations', []) if r.get('id') != 'larc_en_ciel__tetsuya']
+          dump(relations_path, relations)
+
+          # Golden Bomber: member individual-name live activity shown on parent Artist.
+          gb_path = DATA / 'artist' / 'golden_bomber.json'
+          gb = load(gb_path)
+          sho_tour_id = 'golden_bomber_member_sho_kiryuin_otome_tour_2026'
+          jun_tour_id = 'golden_bomber_member_jun_utahiroba_birthday_2026'
+          gb_tours = [
+              {
+                  'id': sho_tour_id,
+                  'artistId': 'golden_bomber',
+                  'title': '【鬼龍院翔】42歳 おたおめツアー',
+                  'startDate': '2026-05-21T00:00:00+09:00',
+                  'endDate': '2026-10-31T00:00:00+09:00',
+                  'prices': [
+                      {'label': 'オールスタンディング（5/21〜6/9・10/30〜10/31）', 'amount': 5500},
+                      {'label': 'オールスタンディング（6/15）', 'amount': 6600},
+                      {'label': '1Fオールスタンディング（6/16〜6/20）', 'amount': 6600},
+                      {'label': '2F着席指定席（6/16〜6/20）', 'amount': 7700},
+                      {'label': '2F指定席（6/16〜6/20）', 'amount': 7150}
+                  ],
+                  'source': 'system',
+                  'sourceUrl': 'https://pc.goldenbomber.jp/contents/1047803',
+                  'lastVerifiedAt': VERIFIED
+              },
+              {
+                  'id': jun_tour_id,
+                  'artistId': 'golden_bomber',
+                  'title': '【歌広場淳】バースデーイベント2026（仮）',
+                  'startDate': '2026-08-30T00:00:00+09:00',
+                  'endDate': '2026-08-30T00:00:00+09:00',
+                  'prices': [{'label': '歌広場淳撮影会つきチケット スタンディング', 'amount': 7500}],
+                  'source': 'system',
+                  'sourceUrl': 'https://pc.goldenbomber.jp/contents/1070590',
+                  'lastVerifiedAt': VERIFIED
+              }
+          ]
+          sho_dates = [
+              ('kochi_0521','CARAVAN SARY','2026-05-21T18:30:00+09:00','2026-05-21T18:00:00+09:00','https://pc.goldenbomber.jp/contents/1047803'),
+              ('kagawa_0522','高松MONSTER','2026-05-22T18:30:00+09:00','2026-05-22T17:45:00+09:00','https://pc.goldenbomber.jp/contents/1047803'),
+              ('kagoshima_0524','CAPARVO HALL','2026-05-24T16:00:00+09:00','2026-05-24T15:30:00+09:00','https://pc.goldenbomber.jp/contents/1047803'),
+              ('okinawa_0602','桜坂セントラル','2026-06-02T18:30:00+09:00','2026-06-02T18:00:00+09:00','https://pc.goldenbomber.jp/contents/1047803'),
+              ('akita_0607','秋田 Club SWINDLE','2026-06-07T16:00:00+09:00','2026-06-07T15:30:00+09:00','https://pc.goldenbomber.jp/contents/1047803'),
+              ('obihiro_0609','帯広MEGA STONE','2026-06-09T18:30:00+09:00','2026-06-09T17:45:00+09:00','https://pc.goldenbomber.jp/contents/1047803'),
+              ('aichi_0615','ダイアモンドホール','2026-06-15T18:00:00+09:00','2026-06-15T17:30:00+09:00','https://pc.goldenbomber.jp/contents/1047803'),
+              ('osaka_0616','なんばHatch','2026-06-16T18:00:00+09:00','2026-06-16T17:15:00+09:00','https://pc.goldenbomber.jp/contents/1047803'),
+              ('tokyo_0620','Zepp DiverCity (TOKYO)','2026-06-20T17:00:00+09:00','2026-06-20T16:15:00+09:00','https://pc.goldenbomber.jp/contents/1047803'),
+              ('okinawa_1030','桜坂セントラル','2026-10-30T18:30:00+09:00','2026-10-30T18:00:00+09:00','https://pc.goldenbomber.jp/contents/1092895'),
+              ('okinawa_1031','桜坂セントラル','2026-10-31T16:00:00+09:00','2026-10-31T15:30:00+09:00','https://pc.goldenbomber.jp/contents/1092895')
+          ]
+          gb_perfs = [{
+              'id': f'{sho_tour_id}_{suffix}', 'tourId': sho_tour_id, 'venue': venue,
+              'performanceAt': at, 'doorOpenAt': door, 'kind': 'oneman', 'eventName': None,
+              'source': 'system', 'sourceUrl': url, 'lastVerifiedAt': VERIFIED
+          } for suffix, venue, at, door, url in sho_dates]
+          gb_perfs += [
+              {'id': f'{jun_tour_id}_veats_0830_1', 'tourId': jun_tour_id, 'venue': 'Veats Shibuya', 'performanceAt': '2026-08-30T14:00:00+09:00', 'doorOpenAt': '2026-08-30T13:15:00+09:00', 'kind': 'oneman', 'eventName': None, 'source': 'system', 'sourceUrl': 'https://pc.goldenbomber.jp/contents/1070590', 'lastVerifiedAt': VERIFIED},
+              {'id': f'{jun_tour_id}_veats_0830_2', 'tourId': jun_tour_id, 'venue': 'Veats Shibuya', 'performanceAt': '2026-08-30T18:30:00+09:00', 'doorOpenAt': '2026-08-30T17:45:00+09:00', 'kind': 'oneman', 'eventName': None, 'source': 'system', 'sourceUrl': 'https://pc.goldenbomber.jp/contents/1070590', 'lastVerifiedAt': VERIFIED}
+          ]
+          oct_ids = [f'{sho_tour_id}_okinawa_1030', f'{sho_tour_id}_okinawa_1031']
+          gb_lotteries = [
+              {'id': f'{sho_tour_id}_fc_marukin', 'tourId': sho_tour_id, 'type': 'FC[マルキン]抽選受付', 'entryStartAt': '2026-07-17T15:00:00+09:00', 'entryEndAt': '2026-07-23T23:59:00+09:00', 'resultAt': '2026-07-30T15:00:00+09:00', 'paymentStartAt': '2026-07-30T15:00:00+09:00', 'paymentEndAt': '2026-08-04T23:59:00+09:00', 'performanceIds': oct_ids, 'source': 'system', 'sourceUrl': 'https://pc.goldenbomber.jp/contents/1092895', 'lastVerifiedAt': VERIFIED},
+              {'id': f'{sho_tour_id}_mobile', 'tourId': sho_tour_id, 'type': 'モバイル会員抽選受付', 'entryStartAt': '2026-07-30T15:00:00+09:00', 'entryEndAt': '2026-08-04T23:59:00+09:00', 'resultAt': '2026-08-11T15:00:00+09:00', 'paymentStartAt': '2026-08-11T15:00:00+09:00', 'paymentEndAt': '2026-08-16T23:59:00+09:00', 'performanceIds': oct_ids, 'source': 'system', 'sourceUrl': 'https://pc.goldenbomber.jp/contents/1092895', 'lastVerifiedAt': VERIFIED},
+              {'id': f'{sho_tour_id}_general', 'tourId': sho_tour_id, 'type': '一般発売（先着）', 'entryStartAt': '2026-08-22T10:00:00+09:00', 'entryEndAt': None, 'resultAt': None, 'paymentStartAt': None, 'paymentEndAt': None, 'performanceIds': oct_ids, 'source': 'system', 'sourceUrl': 'https://pc.goldenbomber.jp/contents/1092895', 'lastVerifiedAt': VERIFIED}
+          ]
+          replace_tours(gb, gb_tours, gb_perfs, gb_lotteries)
+          gb['lastVerifiedAt'] = VERIFIED
+          dump(gb_path, gb)
+
+          # SHINee: ONEW individual-name activity shown on parent Artist.
+          shinee_path = DATA / 'artist' / 'shinee.json'
+          shinee = load(shinee_path)
+          fan_id = 'shinee_member_onew_tough_love_fanmeeting_2026'
+          q_id = 'shinee_member_onew_live_q_2026'
+          shinee_tours = [
+              {'id': fan_id, 'artistId': 'shinee', 'title': '【ONEW】2026 ONEW FANMEETING [TOUGH LOVE] IN JAPAN', 'startDate': '2026-04-24T00:00:00+09:00', 'endDate': '2026-05-14T00:00:00+09:00', 'prices': [{'label': '全指定席', 'amount': 13750}, {'label': 'プレミアムシート', 'amount': 19250}], 'source': 'system', 'sourceUrl': 'https://onew-fc.jp/contents/1046836', 'lastVerifiedAt': VERIFIED},
+              {'id': q_id, 'artistId': 'shinee', 'title': '【ONEW】2026 ONEW CONCERT [ONEW THE LIVE : Q] IN JAPAN', 'startDate': '2026-09-22T00:00:00+09:00', 'endDate': '2026-09-23T00:00:00+09:00', 'prices': [{'label': '一般指定席', 'amount': 14800}, {'label': 'プレミアムシート', 'amount': 21400}], 'source': 'system', 'sourceUrl': 'https://onew-fc.jp/contents/1091505', 'lastVerifiedAt': VERIFIED}
+          ]
+          fan_dates = [
+              ('osaka_0424','オリックス劇場','2026-04-24T19:00:00+09:00','2026-04-24T18:00:00+09:00'),
+              ('osaka_0425','オリックス劇場','2026-04-25T16:00:00+09:00','2026-04-25T15:00:00+09:00'),
+              ('osaka_0426','オリックス劇場','2026-04-26T15:00:00+09:00','2026-04-26T14:00:00+09:00'),
+              ('tokyo_0513','NHKホール','2026-05-13T18:30:00+09:00','2026-05-13T17:30:00+09:00'),
+              ('tokyo_0514','NHKホール','2026-05-14T18:30:00+09:00','2026-05-14T17:30:00+09:00')
+          ]
+          shinee_perfs = [{'id': f'{fan_id}_{suffix}', 'tourId': fan_id, 'venue': venue, 'performanceAt': at, 'doorOpenAt': door, 'kind': 'oneman', 'eventName': None, 'source': 'system', 'sourceUrl': 'https://onew-fc.jp/contents/1046836', 'lastVerifiedAt': VERIFIED} for suffix, venue, at, door in fan_dates]
+          shinee_perfs += [
+              {'id': f'{q_id}_tokyo_0922', 'tourId': q_id, 'venue': '東京体育館 メインアリーナ', 'performanceAt': '2026-09-22T17:00:00+09:00', 'doorOpenAt': '2026-09-22T16:00:00+09:00', 'kind': 'oneman', 'eventName': None, 'source': 'system', 'sourceUrl': 'https://onew-fc.jp/contents/1091505', 'lastVerifiedAt': VERIFIED},
+              {'id': f'{q_id}_tokyo_0923', 'tourId': q_id, 'venue': '東京体育館 メインアリーナ', 'performanceAt': '2026-09-23T15:00:00+09:00', 'doorOpenAt': '2026-09-23T14:00:00+09:00', 'kind': 'oneman', 'eventName': None, 'source': 'system', 'sourceUrl': 'https://onew-fc.jp/contents/1091505', 'lastVerifiedAt': VERIFIED}
+          ]
+          q_perf_ids = [f'{q_id}_tokyo_0922', f'{q_id}_tokyo_0923']
+          shinee_lotteries = [
+              {'id': f'{q_id}_jjinggu_1st', 'tourId': q_id, 'type': 'JJINGGU JAPAN 1次先行', 'entryStartAt': '2026-07-16T19:00:00+09:00', 'entryEndAt': '2026-07-20T23:59:00+09:00', 'resultAt': '2026-07-24T12:00:00+09:00', 'paymentStartAt': '2026-07-24T12:00:00+09:00', 'paymentEndAt': '2026-07-27T23:59:00+09:00', 'performanceIds': q_perf_ids, 'source': 'system', 'sourceUrl': 'https://onew-fc.jp/contents/1091505', 'lastVerifiedAt': VERIFIED},
+              {'id': f'{q_id}_jjinggu_2nd', 'tourId': q_id, 'type': 'JJINGGU JAPAN 2次先行', 'entryStartAt': '2026-07-24T18:00:00+09:00', 'entryEndAt': '2026-08-03T23:59:00+09:00', 'resultAt': '2026-08-07T12:00:00+09:00', 'paymentStartAt': '2026-08-07T12:00:00+09:00', 'paymentEndAt': '2026-08-10T23:59:00+09:00', 'performanceIds': q_perf_ids, 'source': 'system', 'sourceUrl': 'https://onew-fc.jp/contents/1091505', 'lastVerifiedAt': VERIFIED},
+              {'id': f'{q_id}_mumo', 'tourId': q_id, 'type': 'mu-mo TICKET先行', 'entryStartAt': '2026-08-07T15:00:00+09:00', 'entryEndAt': '2026-08-17T23:59:00+09:00', 'resultAt': '2026-08-21T12:00:00+09:00', 'paymentStartAt': None, 'paymentEndAt': None, 'performanceIds': q_perf_ids, 'source': 'system', 'sourceUrl': 'https://onew-fc.jp/contents/1099178', 'lastVerifiedAt': VERIFIED}
+          ]
+          replace_tours(shinee, shinee_tours, shinee_perfs, shinee_lotteries)
+          shinee['lastVerifiedAt'] = VERIFIED
+          dump(shinee_path, shinee)
+
+          # Structural checks for touched documents.
+          assert not any(a.get('id') == 'tetsuya' for a in artists)
+          assert not tetsuya_path.exists()
+          assert not any(r.get('id') == 'larc_en_ciel__tetsuya' for r in relations.get('relations', []))
+          for doc, aid in [(gb, 'golden_bomber'), (shinee, 'shinee')]:
+              tour_ids = {t.get('id') for t in doc.get('tours', [])}
+              perf_ids = {p.get('id') for p in doc.get('performances', [])}
+              assert len(tour_ids) == len(doc.get('tours', [])), f'duplicate tour ids {aid}'
+              assert len(perf_ids) == len(doc.get('performances', [])), f'duplicate performance ids {aid}'
+              assert all(p.get('tourId') in tour_ids for p in doc.get('performances', [])), f'bad performance tour ref {aid}'
+              assert all(l.get('tourId') in tour_ids for l in doc.get('lotteries', [])), f'bad lottery tour ref {aid}'
+              assert all(pid in perf_ids for l in doc.get('lotteries', []) for pid in (l.get('performanceIds') or [])), f'bad lottery performance ref {aid}'
+
+          manifest_path = DATA / 'manifest.json'
+          manifest = load(manifest_path)
+          manifest['version'] = int(manifest.get('version', 0)) + 1
+          manifest['updatedAt'] = VERIFIED
+          manifest.setdefault('files', {}).setdefault('artists', {})['hash'] = sha16(artists_path)
+          manifest.setdefault('artists', {}).pop('tetsuya', None)
+          manifest['artists']['golden_bomber'] = {'hash': sha16(gb_path)}
+          manifest['artists']['shinee'] = {'hash': sha16(shinee_path)}
+          dump(manifest_path, manifest)
+          m2 = load(manifest_path)
+          assert m2['files']['artists']['hash'] == sha16(artists_path)
+          assert m2['artists']['golden_bomber']['hash'] == sha16(gb_path)
+          assert m2['artists']['shinee']['hash'] == sha16(shinee_path)
+          assert 'tetsuya' not in m2['artists']
+          print('member-solo Dev correction checks passed')
+          PY
+      - name: Commit corrected Dev data
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A data/artists.json data/artist/tetsuya.json data/artist/golden_bomber.json data/artist/shinee.json data/artist_relations.json data/manifest.json
+          git diff --cached --check
+          git commit -m 'data: show reviewed member solo activity on parent groups'
+          git push
