@@ -1,0 +1,121 @@
+name: Fix reviewed 2026-09-03 Dev metadata
+
+on:
+  push:
+    branches:
+      - chatgpt/review-20260903-0957-dev-apply
+    paths:
+      - '.github/workflows/fix-reviewed-20260903.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Normalize ids and relation metadata
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo '--- status before ---'
+          git status --short
+          test "$(git rev-parse HEAD)" = 'a42d1a97574a19730ecc47eb75aa09cad184a37e'
+          python3 - <<'PY'
+          import hashlib, json
+          from datetime import datetime, timezone, timedelta
+          from pathlib import Path
+
+          DATA = Path('data')
+          def read(p): return json.loads(Path(p).read_text(encoding='utf-8'))
+          def write(p,v): Path(p).write_text(json.dumps(v, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+          def unique(items, object_id):
+              x=[v for v in items if isinstance(v,dict) and v.get('id')==object_id]
+              if len(x)!=1: raise SystemExit(f'id not unique: {object_id}: {len(x)}')
+              return x[0]
+
+          # BTS: normalize accidental shortened date suffixes; no lottery references these performances.
+          bp = DATA/'artist/bts.json'
+          b = read(bp)
+          renames = {
+              'bts_world_tour_arirang_singapore_2026_217':'bts_world_tour_arirang_singapore_2026_1217',
+              'bts_world_tour_arirang_singapore_2026_219':'bts_world_tour_arirang_singapore_2026_1219',
+              'bts_world_tour_arirang_singapore_2026_220':'bts_world_tour_arirang_singapore_2026_1220',
+              'bts_world_tour_arirang_singapore_2026_222':'bts_world_tour_arirang_singapore_2026_1222',
+          }
+          for old,new in renames.items():
+              if any(x.get('id')==new for x in b['performances']): raise SystemExit(f'new id exists: {new}')
+              unique(b['performances'], old)['id']=new
+          write(bp,b)
+
+          # Canonical relation materializer contract: mirrored performance/lottery objects carry relationMirror.
+          op = DATA/'artist/masayoshi_oishi.json'
+          o = read(op)
+          source_artist='oishi_masayoshi'
+          source_tour='oishi_masayoshi_oishi_yokoari_2027'
+          mirror_tour='masayoshi_oishi__rel__'+source_tour
+          tour=unique(o['tours'], mirror_tour)
+          rd=tour.get('relationDisplay')
+          if not isinstance(rd,dict) or rd.get('sourceArtistId')!=source_artist or rd.get('sourceTourId')!=source_tour or rd.get('mirrored') is not True:
+              raise SystemExit('mirror tour relationDisplay invalid')
+          for item in o['performances']:
+              if item.get('tourId')!=mirror_tour: continue
+              prefix='masayoshi_oishi__rel__'
+              if not item['id'].startswith(prefix): raise SystemExit('unexpected mirrored performance id')
+              source_id=item['id'][len(prefix):]
+              item['relationMirror']={'sourceArtistId':source_artist,'sourceId':source_id}
+          for item in o['lotteries']:
+              if item.get('tourId')!=mirror_tour: continue
+              prefix='masayoshi_oishi__rel__'
+              if not item['id'].startswith(prefix): raise SystemExit('unexpected mirrored lottery id')
+              source_id=item['id'][len(prefix):]
+              item['relationMirror']={'sourceArtistId':source_artist,'sourceId':source_id}
+          write(op,o)
+
+          # Re-check IDs and references for all delivery docs.
+          for p in sorted((DATA/'artist').glob('*.json')):
+              d=read(p)
+              for name in ('tours','performances','lotteries'):
+                  ids=[x.get('id') for x in d.get(name,[]) if isinstance(x,dict)]
+                  if len(ids)!=len(set(ids)): raise SystemExit(f'{p}: duplicate {name} id')
+              tids={x['id'] for x in d.get('tours',[])}
+              pids={x['id'] for x in d.get('performances',[])}
+              for x in d.get('performances',[]):
+                  if x.get('tourId') not in tids: raise SystemExit(f'{p}: missing tour for {x.get("id")}')
+              for x in d.get('lotteries',[]):
+                  if x.get('tourId') not in tids: raise SystemExit(f'{p}: missing tour for {x.get("id")}')
+                  if isinstance(x.get('performanceIds'),list) and set(x['performanceIds'])-pids:
+                      raise SystemExit(f'{p}: missing performance ref in {x.get("id")}')
+
+          # Refresh manifest hashes/version using canonical algorithm.
+          mp=DATA/'manifest.json'; ap=DATA/'artists.json'; m=read(mp)
+          def h16(p): return hashlib.sha256(Path(p).read_bytes()).hexdigest()[:16]
+          m['version']=int(m.get('version',0))+1
+          jst=timezone(timedelta(hours=9)); m['updatedAt']=datetime.now(jst).strftime('%Y-%m-%dT%H:%M:%S+09:00')
+          m.setdefault('files',{}).setdefault('artists',{})['hash']=h16(ap)
+          hs={p.stem:h16(p) for p in sorted((DATA/'artist').glob('*.json'))}
+          m.setdefault('artists',{})
+          for aid,h in hs.items(): m['artists'].setdefault(aid,{})['hash']=h
+          for aid in list(m['artists']):
+              if aid not in hs: del m['artists'][aid]
+          write(mp,m)
+          for aid,h in hs.items():
+              if read(mp)['artists'][aid]['hash']!=h: raise SystemExit(f'manifest mismatch {aid}')
+          PY
+          git diff --check
+          mapfile -t changed < <(git diff --name-only -- data)
+          printf '%s\n' "${changed[@]}"
+          test "${#changed[@]}" = '3'
+          printf '%s\n' "${changed[@]}" | sort | diff -u - <(printf '%s\n' data/artist/bts.json data/artist/masayoshi_oishi.json data/manifest.json | sort)
+          if git diff --name-only | grep -Ev '^data/' >/dev/null; then echo '[ERROR] non-data diff'; exit 1; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- data
+          git commit -m 'fix: normalize reviewed Dev delivery metadata'
+          git push origin HEAD:main
+          echo '--- status after ---'
+          git status --short
