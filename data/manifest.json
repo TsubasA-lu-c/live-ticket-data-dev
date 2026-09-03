@@ -1,9 +1,9 @@
 {
-  "version": 191,
-  "updatedAt": "2026-09-03T17:08:50+09:00",
+  "version": 192,
+  "updatedAt": "2026-09-03T18:32:00+09:00",
   "files": {
     "artists": {
-      "hash": "50e91d45fd506460"
+      "hash": "a458907153e51b4e"
     }
   },
   "artists": {
@@ -348,6 +348,9 @@
     },
     "oishi_masayoshi": {
       "hash": "b81d666a1a77bb92"
+    },
+    "tetsuya": {
+      "hash": "aeef3e38fe768d7b"
     }
   }
 }

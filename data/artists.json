@@ -2434,5 +2434,20 @@
       "textColor3": "353536",
       "textColor4": "4e4e50"
     }
+  },
+  {
+    "id": "tetsuya",
+    "name": "TETSUYA",
+    "aliases": [
+      "テツヤ"
+    ],
+    "genre": "ソロ",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.tetsuya.uk.com/",
+    "lastVerifiedAt": "2026-09-03T18:32:00+09:00",
+    "appleMusic": {
+      "artistId": "256671013"
+    }
   }
 ]
