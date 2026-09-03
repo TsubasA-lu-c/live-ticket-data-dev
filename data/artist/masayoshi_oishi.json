@@ -1024,7 +1024,11 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.014014.jp/schedules/7330",
-      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00",
+      "relationMirror": {
+        "sourceArtistId": "oishi_masayoshi",
+        "sourceId": "oishi_masayoshi_oishi_yokoari_2027_day1_0227"
+      }
     },
     {
       "id": "masayoshi_oishi__rel__oishi_masayoshi_oishi_yokoari_2027_day2_0228",
@@ -1036,7 +1040,11 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.014014.jp/schedules/7330",
-      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00",
+      "relationMirror": {
+        "sourceArtistId": "oishi_masayoshi",
+        "sourceId": "oishi_masayoshi_oishi_yokoari_2027_day2_0228"
+      }
     }
   ],
   "lotteries": [
@@ -1280,7 +1288,11 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.014014.jp/schedules/7330",
-      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00",
+      "relationMirror": {
+        "sourceArtistId": "oishi_masayoshi",
+        "sourceId": "oishi_masayoshi_oishi_yokoari_2027_club014_fastest"
+      }
     },
     {
       "id": "masayoshi_oishi__rel__oishi_masayoshi_oishi_yokoari_2027_club014_second",
@@ -1297,7 +1309,11 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.014014.jp/schedules/7330",
-      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00",
+      "relationMirror": {
+        "sourceArtistId": "oishi_masayoshi",
+        "sourceId": "oishi_masayoshi_oishi_yokoari_2027_club014_second"
+      }
     },
     {
       "id": "masayoshi_oishi__rel__oishi_masayoshi_oishi_yokoari_2027_official_hp",
@@ -1314,7 +1330,11 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.014014.jp/schedules/7330",
-      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00",
+      "relationMirror": {
+        "sourceArtistId": "oishi_masayoshi",
+        "sourceId": "oishi_masayoshi_oishi_yokoari_2027_official_hp"
+      }
     },
     {
       "id": "masayoshi_oishi__rel__oishi_masayoshi_oishi_yokoari_2027_general_lottery",
@@ -1331,7 +1351,11 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.014014.jp/schedules/7330",
-      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00",
+      "relationMirror": {
+        "sourceArtistId": "oishi_masayoshi",
+        "sourceId": "oishi_masayoshi_oishi_yokoari_2027_general_lottery"
+      }
     }
   ],
   "appleMusicTracks": [
