@@ -1,0 +1,121 @@
+name: Temporary Frederic UMIMOYASU update
+
+on:
+  push:
+    branches:
+      - 'chatgpt/frederic-umimoyasu-20260905'
+    paths:
+      - '.github/workflows/tmp-frederic-umimoyasu-20260905.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Apply verified Frederic ticket updates
+        run: |
+          python3 - <<'PY'
+          import hashlib
+          import json
+          from pathlib import Path
+
+          DATA = Path('data')
+          ARTIST_PATH = DATA / 'artist' / 'frederic.json'
+          MANIFEST_PATH = DATA / 'manifest.json'
+          SOURCE_URL = 'https://frederic-official.com/news/detail/3760'
+          VERIFIED = '2026-09-05T08:31:55+09:00'
+
+          def load(path):
+              return json.loads(Path(path).read_text(encoding='utf-8'))
+
+          def dump(path, value):
+              Path(path).write_text(json.dumps(value, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          def sha16(path):
+              return hashlib.sha256(Path(path).read_bytes()).hexdigest()[:16]
+
+          doc = load(ARTIST_PATH)
+          assert doc.get('artistId') == 'frederic'
+
+          performance_ids = {p.get('id') for p in doc.get('performances', [])}
+          p1012 = 'frederic_umimoyasu_20262027_move_zepp_haneda_1012'
+          p0117 = 'frederic_umimoyasu_20262027_move_zepp_haneda_0117'
+          assert p1012 in performance_ids
+          assert p0117 in performance_ids
+
+          additions = [
+              {
+                  'id': 'frederic_umimoyasu_20262027_move_general_1012',
+                  'tourId': 'frederic_umimoyasu_20262027_move',
+                  'type': '一般発売（10/12公演）',
+                  'entryStartAt': '2026-09-05T10:00:00+09:00',
+                  'entryEndAt': None,
+                  'resultAt': None,
+                  'paymentStartAt': None,
+                  'paymentEndAt': None,
+                  'performanceIds': [p1012],
+                  'source': 'system',
+                  'sourceUrl': SOURCE_URL,
+                  'lastVerifiedAt': VERIFIED,
+              },
+              {
+                  'id': 'frederic_umimoyasu_20262027_move_fastestpreorder_0117',
+                  'tourId': 'frederic_umimoyasu_20262027_move',
+                  'type': '最速プレオーダー（1/17公演）',
+                  'entryStartAt': '2026-09-04T18:00:00+09:00',
+                  'entryEndAt': '2026-09-13T23:59:00+09:00',
+                  'resultAt': None,
+                  'paymentStartAt': None,
+                  'paymentEndAt': None,
+                  'performanceIds': [p0117],
+                  'source': 'system',
+                  'sourceUrl': SOURCE_URL,
+                  'lastVerifiedAt': VERIFIED,
+              },
+          ]
+
+          add_ids = {item['id'] for item in additions}
+          lotteries = [item for item in doc.get('lotteries', []) if item.get('id') not in add_ids]
+          doc['lotteries'] = additions + lotteries
+          dump(ARTIST_PATH, doc)
+
+          ids = [item.get('id') for item in doc['lotteries']]
+          assert len(ids) == len(set(ids)), 'duplicate lottery IDs'
+
+          manifest = load(MANIFEST_PATH)
+          manifest['version'] = manifest.get('version', 0) + 1
+          manifest['updatedAt'] = VERIFIED
+          manifest.setdefault('files', {}).setdefault('artists', {})['hash'] = sha16(DATA / 'artists.json')
+          artist_hashes = {
+              fp.stem: sha16(fp)
+              for fp in sorted((DATA / 'artist').glob('*.json'))
+          }
+          manifest.setdefault('artists', {})
+          for aid, digest in artist_hashes.items():
+              manifest['artists'].setdefault(aid, {})['hash'] = digest
+          for aid in list(manifest['artists']):
+              if aid not in artist_hashes:
+                  del manifest['artists'][aid]
+          dump(MANIFEST_PATH, manifest)
+
+          verify_doc = load(ARTIST_PATH)
+          by_id = {item['id']: item for item in verify_doc['lotteries']}
+          assert by_id['frederic_umimoyasu_20262027_move_general_1012']['entryStartAt'] == '2026-09-05T10:00:00+09:00'
+          assert by_id['frederic_umimoyasu_20262027_move_general_1012']['entryEndAt'] is None
+          assert by_id['frederic_umimoyasu_20262027_move_fastestpreorder_0117']['entryEndAt'] == '2026-09-13T23:59:00+09:00'
+          assert load(MANIFEST_PATH)['artists']['frederic']['hash'] == sha16(ARTIST_PATH)
+          print('verified Frederic update and manifest hash')
+          PY
+
+          git diff --check
+          git status --short
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/artist/frederic.json data/manifest.json
+          git commit -m 'data: add Frederic UMIMOYASU ticket updates'
+          git push origin HEAD:${GITHUB_REF_NAME}
