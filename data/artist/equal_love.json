@@ -1019,6 +1019,23 @@
       "lastVerifiedAt": "2026-08-17T21:53:00+09:00"
     },
     {
+      "id": "equal_love_9th_anniversary_2026_general_presale",
+      "tourId": "equal_love_9th_anniversary_2026",
+      "type": "一般先行（抽選）",
+      "entryStartAt": "2026-09-04T18:00:00+09:00",
+      "entryEndAt": "2026-09-13T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "equal_love_9th_anniversary_2026_toyota_1015",
+        "equal_love_9th_anniversary_2026_toyota_1016"
+      ],
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/news/detail/11912",
+      "lastVerifiedAt": "2026-09-04T19:51:00+09:00"
+    },
+    {
       "id": "equal_love_tokyo_dome_2027_fc_saisoku",
       "tourId": "equal_love_tokyo_dome_2027",
       "type": "FC最速先行",
