@@ -1,9 +1,9 @@
 {
-  "version": 196,
-  "updatedAt": "2026-09-08T21:15:03+09:00",
+  "version": 197,
+  "updatedAt": "2026-09-08T21:52:00+09:00",
   "files": {
     "artists": {
-      "hash": "a0afc420a0d98b9c"
+      "hash": "42619f5e7818b694"
     }
   },
   "artists": {
@@ -348,6 +348,9 @@
     },
     "oishi_masayoshi": {
       "hash": "b81d666a1a77bb92"
+    },
+    "spyair": {
+      "hash": "2a80b66e5efb51ff"
     }
   }
 }

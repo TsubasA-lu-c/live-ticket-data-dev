@@ -2434,5 +2434,26 @@
       "textColor3": "353536",
       "textColor4": "4e4e50"
     }
+  },
+  {
+    "id": "spyair",
+    "name": "SPYAIR",
+    "aliases": [
+      "スパイエアー"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.spyair.net/",
+    "lastVerifiedAt": "2026-09-08T21:52:00+09:00",
+    "appleMusic": {
+      "artistId": "308131412",
+      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/56/ab/06/56ab06fb-8e60-ee6c-7dcb-9b6f664c5135/mzl.fgbwgcrb.jpg/{w}x{h}{c}.{f}",
+      "bgColor": "eab400",
+      "textColor1": "0a0800",
+      "textColor2": "0e1418",
+      "textColor3": "372a00",
+      "textColor4": "3a3413"
+    }
   }
 ]
