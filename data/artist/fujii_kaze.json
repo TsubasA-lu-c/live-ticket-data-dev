@@ -44,6 +44,46 @@
       "source": "system",
       "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
       "lastVerifiedAt": "2026-08-21T00:00:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_piano_recital_2026",
+      "artistId": "fujii_kaze",
+      "title": "藤井風 ピアノリサイタル",
+      "startDate": "2026-11-20T00:00:00+09:00",
+      "endDate": "2026-11-21T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 9000
+        },
+        {
+          "label": "親子席（親）",
+          "amount": 9000
+        },
+        {
+          "label": "親子席（こども）",
+          "amount": 4500
+        },
+        {
+          "label": "カインド席",
+          "amount": 9000
+        },
+        {
+          "label": "ハート席（大人）",
+          "amount": 4500
+        },
+        {
+          "label": "ハート席（こども）",
+          "amount": 0
+        },
+        {
+          "label": "車いす席",
+          "amount": 9000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/fpr/",
+      "lastVerifiedAt": "2026-09-10T07:56:00+09:00"
     }
   ],
   "performances": [
@@ -167,6 +207,30 @@
       "source": "system",
       "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_piano_recital_2026_tokyo_1120",
+      "tourId": "fujii_kaze_piano_recital_2026",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-11-20T19:00:00+09:00",
+      "doorOpenAt": "2026-11-20T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/fpr/",
+      "lastVerifiedAt": "2026-09-10T07:56:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_piano_recital_2026_tokyo_1121",
+      "tourId": "fujii_kaze_piano_recital_2026",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-11-21T18:00:00+09:00",
+      "doorOpenAt": "2026-11-21T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/fpr/",
+      "lastVerifiedAt": "2026-09-10T07:56:00+09:00"
     }
   ],
   "lotteries": [
@@ -227,6 +291,23 @@
       "source": "system",
       "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_piano_recital_2026_general",
+      "tourId": "fujii_kaze_piano_recital_2026",
+      "type": "一般抽選",
+      "entryStartAt": "2026-09-09T12:00:00+09:00",
+      "entryEndAt": "2026-09-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fujii_kaze_piano_recital_2026_tokyo_1120",
+        "fujii_kaze_piano_recital_2026_tokyo_1121"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/2901490006",
+      "lastVerifiedAt": "2026-09-10T07:56:00+09:00"
     }
   ],
   "appleMusicTracks": [
