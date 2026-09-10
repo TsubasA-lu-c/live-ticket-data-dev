@@ -120,6 +120,17 @@
       "source": "system",
       "sourceUrl": "https://pc.goldenbomber.jp/contents/1070590",
       "lastVerifiedAt": "2026-09-03T21:39:00+09:00"
+    },
+    {
+      "id": "golden_bomber_hiroshima_continew_fes_2026",
+      "artistId": "golden_bomber",
+      "title": "HIROSHIMA CONTI-NeW FeS 2026",
+      "startDate": "2026-12-06T00:00:00+09:00",
+      "endDate": "2026-12-06T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.hiroshima-continew.com/",
+      "lastVerifiedAt": "2026-09-10T19:32:37+09:00"
     }
   ],
   "performances": [
@@ -434,6 +445,18 @@
       "source": "system",
       "sourceUrl": "https://pc.goldenbomber.jp/contents/1070590",
       "lastVerifiedAt": "2026-09-03T21:39:00+09:00"
+    },
+    {
+      "id": "golden_bomber_hiroshima_continew_fes_2026_hiroshima_1206",
+      "tourId": "golden_bomber_hiroshima_continew_fes_2026",
+      "venue": "広島グリーンアリーナ",
+      "performanceAt": "2026-12-06T11:30:00+09:00",
+      "doorOpenAt": "2026-12-06T10:00:00+09:00",
+      "kind": "fes",
+      "eventName": "HIROSHIMA CONTI-NeW FeS 2026",
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/4401630001-P0030002P021002",
+      "lastVerifiedAt": "2026-09-10T19:32:37+09:00"
     }
   ],
   "lotteries": [
@@ -726,6 +749,22 @@
       "source": "system",
       "sourceUrl": "https://pc.goldenbomber.jp/contents/1092895",
       "lastVerifiedAt": "2026-09-03T21:39:00+09:00"
+    },
+    {
+      "id": "golden_bomber_hiroshima_continew_fes_2026_official_3rd",
+      "tourId": "golden_bomber_hiroshima_continew_fes_2026",
+      "type": "オフィシャル三次先行（先着）",
+      "entryStartAt": "2026-09-10T12:00:00+09:00",
+      "entryEndAt": "2026-10-01T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "golden_bomber_hiroshima_continew_fes_2026_hiroshima_1206"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/4401630001-P0030002P021002",
+      "lastVerifiedAt": "2026-09-10T19:32:37+09:00"
     }
   ],
   "appleMusicTracks": [

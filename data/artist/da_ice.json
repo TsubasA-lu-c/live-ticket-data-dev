@@ -89,10 +89,27 @@
       "title": "Da-iCE DAY HALL PHASE 2026",
       "startDate": "2026-10-13T00:00:00+09:00",
       "endDate": "2026-12-15T00:00:00+09:00",
-      "prices": null,
+      "prices": [
+        {
+          "label": "指定席（ラミネートパス付き）",
+          "amount": 13600
+        },
+        {
+          "label": "指定席",
+          "amount": 12500
+        },
+        {
+          "label": "着席指定席（ラミネートパス付き・北海道公演のみ）",
+          "amount": 13600
+        },
+        {
+          "label": "着席指定席（北海道公演のみ）",
+          "amount": 12500
+        }
+      ],
       "source": "system",
       "sourceUrl": "https://www.da-ice.jp/news/detail.php?id=1135399",
-      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+      "lastVerifiedAt": "2026-09-10T19:32:37+09:00"
     },
     {
       "id": "da_ice_wonderlivet_2026",
@@ -1145,6 +1162,116 @@
       "source": "system",
       "sourceUrl": "https://da-ice.jp/news/detail.php?id=1135602",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "da_ice_day_hall_phase_2026_official_2nd_side_a",
+      "tourId": "da_ice_day_hall_phase_2026",
+      "type": "オフィシャル2次先行（Side A）",
+      "entryStartAt": "2026-08-28T15:00:00+09:00",
+      "entryEndAt": "2026-09-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "da_ice_day_hall_phase_2026_osaka_1013",
+        "da_ice_day_hall_phase_2026_aichi_1022",
+        "da_ice_day_hall_phase_2026_fukuoka_1025",
+        "da_ice_day_hall_phase_2026_yokosuka_1102",
+        "da_ice_day_hall_phase_2026_omiya_1104",
+        "da_ice_day_hall_phase_2026_kyoto_1108",
+        "da_ice_day_hall_phase_2026_tokyo_1117",
+        "da_ice_day_hall_phase_2026_kagawa_1124",
+        "da_ice_day_hall_phase_2026_kanazawa_1126",
+        "da_ice_day_hall_phase_2026_hiroshima_1207",
+        "da_ice_day_hall_phase_2026_sapporo_1215"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.da-ice.jp/news/detail.php?id=1135399",
+      "lastVerifiedAt": "2026-09-10T19:32:37+09:00"
+    },
+    {
+      "id": "da_ice_day_hall_phase_2026_ai_2nd_side_b",
+      "tourId": "da_ice_day_hall_phase_2026",
+      "type": "a-i2次先行（Side B）",
+      "entryStartAt": "2026-08-28T15:00:00+09:00",
+      "entryEndAt": "2026-09-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "da_ice_day_hall_phase_2026_osaka_1014",
+        "da_ice_day_hall_phase_2026_gifu_1021",
+        "da_ice_day_hall_phase_2026_oita_1027",
+        "da_ice_day_hall_phase_2026_wakayama_1029",
+        "da_ice_day_hall_phase_2026_ehime_1106",
+        "da_ice_day_hall_phase_2026_tokyo_1118",
+        "da_ice_day_hall_phase_2026_sendai_1129",
+        "da_ice_day_hall_phase_2026_kurashiki_1201",
+        "da_ice_day_hall_phase_2026_nagano_1203",
+        "da_ice_day_hall_phase_2026_takasaki_1205",
+        "da_ice_day_hall_phase_2026_ichikawa_1210"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.da-ice.jp/news/detail.php?id=1135399",
+      "lastVerifiedAt": "2026-09-10T19:32:37+09:00"
+    },
+    {
+      "id": "da_ice_day_hall_phase_2026_cube_side_b",
+      "tourId": "da_ice_day_hall_phase_2026",
+      "type": "Da-iCE CUBE先行（Side B）",
+      "entryStartAt": "2026-08-28T15:00:00+09:00",
+      "entryEndAt": "2026-09-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "da_ice_day_hall_phase_2026_osaka_1014",
+        "da_ice_day_hall_phase_2026_gifu_1021",
+        "da_ice_day_hall_phase_2026_oita_1027",
+        "da_ice_day_hall_phase_2026_wakayama_1029",
+        "da_ice_day_hall_phase_2026_ehime_1106",
+        "da_ice_day_hall_phase_2026_tokyo_1118",
+        "da_ice_day_hall_phase_2026_sendai_1129",
+        "da_ice_day_hall_phase_2026_kurashiki_1201",
+        "da_ice_day_hall_phase_2026_nagano_1203",
+        "da_ice_day_hall_phase_2026_takasaki_1205",
+        "da_ice_day_hall_phase_2026_ichikawa_1210"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.da-ice.jp/news/detail.php?id=1135399",
+      "lastVerifiedAt": "2026-09-10T19:32:37+09:00"
+    },
+    {
+      "id": "da_ice_dream_festival_2026_official_2nd",
+      "tourId": "da_ice_dream_festival_2026",
+      "type": "オフィシャル2次先行",
+      "entryStartAt": "2026-09-07T12:00:00+09:00",
+      "entryEndAt": "2026-09-13T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "da_ice_dream_festival_2026_1122"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.dreamfestival.jp/",
+      "lastVerifiedAt": "2026-09-10T19:32:37+09:00"
+    },
+    {
+      "id": "da_ice_fes_2026_anation_s_upgrade",
+      "tourId": "da_ice_fes_2026",
+      "type": "一般指定席（光るウチワ付き）S席アップグレード抽選",
+      "entryStartAt": "2026-09-09T15:00:00+09:00",
+      "entryEndAt": "2026-09-13T23:59:00+09:00",
+      "resultAt": "2026-09-17T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "da_ice_fes_2026_anation_1004"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.da-ice.jp/en/news/detail.php?id=1135885",
+      "lastVerifiedAt": "2026-09-10T19:32:37+09:00"
     }
   ],
   "appleMusicTracks": [
