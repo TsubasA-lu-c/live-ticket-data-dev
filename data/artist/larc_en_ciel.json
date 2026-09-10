@@ -423,6 +423,128 @@
       "source": "system",
       "sourceUrl": "https://le-ciel.com/s/n107/page/L35_live?ima=3804",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "larc_en_ciel_35th_lanniversary_2026_fc_additional_lottery",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "type": "ファンクラブ会員限定公演 追加受付（抽選）",
+      "entryStartAt": "2026-08-31T12:00:00+09:00",
+      "entryEndAt": "2026-09-06T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "larc_en_ciel_35th_lanniversary_2026_yoyogi_1009",
+        "larc_en_ciel_35th_lanniversary_2026_ariake_1224"
+      ],
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13470",
+      "lastVerifiedAt": "2026-09-10T20:59:10+09:00"
+    },
+    {
+      "id": "larc_en_ciel_35th_lanniversary_2026_additional_lottery",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "type": "チケット追加受付（抽選）",
+      "entryStartAt": "2026-08-31T12:00:00+09:00",
+      "entryEndAt": "2026-09-06T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "larc_en_ciel_35th_lanniversary_2026_ariake_1226",
+        "larc_en_ciel_35th_lanniversary_2026_ariake_1227",
+        "larc_en_ciel_35th_lanniversary_2026_chiba_1212",
+        "larc_en_ciel_35th_lanniversary_2026_chiba_1213",
+        "larc_en_ciel_35th_lanniversary_2026_fukuoka_1031",
+        "larc_en_ciel_35th_lanniversary_2026_fukuoka_1101",
+        "larc_en_ciel_35th_lanniversary_2026_nagoya_1121",
+        "larc_en_ciel_35th_lanniversary_2026_nagoya_1122",
+        "larc_en_ciel_35th_lanniversary_2026_osaka_1216",
+        "larc_en_ciel_35th_lanniversary_2026_osaka_1217",
+        "larc_en_ciel_35th_lanniversary_2026_yokohama_1128",
+        "larc_en_ciel_35th_lanniversary_2026_yokohama_1129",
+        "larc_en_ciel_35th_lanniversary_2026_yoyogi_1011",
+        "larc_en_ciel_35th_lanniversary_2026_yoyogi_1012"
+      ],
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13470",
+      "lastVerifiedAt": "2026-09-10T20:59:10+09:00"
+    },
+    {
+      "id": "larc_en_ciel_35th_lanniversary_2026_premium_upgrade_yoyogi",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "type": "プレミアムチケット アップグレード受付",
+      "entryStartAt": "2026-08-31T12:00:00+09:00",
+      "entryEndAt": "2026-09-06T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "larc_en_ciel_35th_lanniversary_2026_yoyogi_1009",
+        "larc_en_ciel_35th_lanniversary_2026_yoyogi_1011",
+        "larc_en_ciel_35th_lanniversary_2026_yoyogi_1012"
+      ],
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13470",
+      "lastVerifiedAt": "2026-09-10T20:59:10+09:00"
+    },
+    {
+      "id": "larc_en_ciel_35th_lanniversary_2026_premium_upgrade_fukuoka",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "type": "プレミアムチケット アップグレード受付",
+      "entryStartAt": "2026-09-21T12:00:00+09:00",
+      "entryEndAt": "2026-09-27T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "larc_en_ciel_35th_lanniversary_2026_fukuoka_1031",
+        "larc_en_ciel_35th_lanniversary_2026_fukuoka_1101"
+      ],
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13470",
+      "lastVerifiedAt": "2026-09-10T20:59:10+09:00"
+    },
+    {
+      "id": "larc_en_ciel_35th_lanniversary_2026_premium_upgrade_nagoya_yokohama",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "type": "プレミアムチケット アップグレード受付",
+      "entryStartAt": "2026-10-12T12:00:00+09:00",
+      "entryEndAt": "2026-10-18T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "larc_en_ciel_35th_lanniversary_2026_nagoya_1121",
+        "larc_en_ciel_35th_lanniversary_2026_nagoya_1122",
+        "larc_en_ciel_35th_lanniversary_2026_yokohama_1128",
+        "larc_en_ciel_35th_lanniversary_2026_yokohama_1129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13470",
+      "lastVerifiedAt": "2026-09-10T20:59:10+09:00"
+    },
+    {
+      "id": "larc_en_ciel_35th_lanniversary_2026_premium_upgrade_chiba_osaka_ariake",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "type": "プレミアムチケット アップグレード受付",
+      "entryStartAt": "2026-11-09T12:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "larc_en_ciel_35th_lanniversary_2026_ariake_1224",
+        "larc_en_ciel_35th_lanniversary_2026_ariake_1226",
+        "larc_en_ciel_35th_lanniversary_2026_ariake_1227",
+        "larc_en_ciel_35th_lanniversary_2026_chiba_1212",
+        "larc_en_ciel_35th_lanniversary_2026_chiba_1213",
+        "larc_en_ciel_35th_lanniversary_2026_osaka_1216",
+        "larc_en_ciel_35th_lanniversary_2026_osaka_1217"
+      ],
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13470",
+      "lastVerifiedAt": "2026-09-10T20:59:10+09:00"
     }
   ],
   "appleMusicTracks": [

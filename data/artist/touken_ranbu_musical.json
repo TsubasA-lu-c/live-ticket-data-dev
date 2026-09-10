@@ -428,6 +428,20 @@
       "source": "system",
       "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
       "lastVerifiedAt": "2026-08-18T07:20:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_tokyo_same_day_exchange",
+      "tourId": "touken_ranbu_musical_tsukiyo_ichiru_2026",
+      "type": "東京公演 S席・当日引換券",
+      "entryStartAt": "2026-09-04T18:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://musical-toukenranbu.jp/contents/help_musical/autumn2026_tokyo",
+      "lastVerifiedAt": "2026-09-10T20:59:10+09:00"
     }
   ],
   "appleMusicTracks": [

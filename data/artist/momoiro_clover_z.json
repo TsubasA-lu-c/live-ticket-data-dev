@@ -922,6 +922,32 @@
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_xmas_2026_general",
+      "tourId": "momoiro_clover_z_xmas_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-09-10T18:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "momoiro_clover_z_xmas_2026_tokyo_1030",
+        "momoiro_clover_z_xmas_2026_hiroshima_1102",
+        "momoiro_clover_z_xmas_2026_hyogo_1106",
+        "momoiro_clover_z_xmas_2026_kyoto_1107",
+        "momoiro_clover_z_xmas_2026_niigata_1122",
+        "momoiro_clover_z_xmas_2026_aichi_1123",
+        "momoiro_clover_z_xmas_2026_fukuoka_1127",
+        "momoiro_clover_z_xmas_2026_sapporo_1203",
+        "momoiro_clover_z_xmas_2026_tokyo_1211",
+        "momoiro_clover_z_xmas_2026_tokyo_1212",
+        "momoiro_clover_z_xmas_2026_tokyo_1213"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260909_01",
+      "lastVerifiedAt": "2026-09-10T20:59:10+09:00"
     }
   ],
   "appleMusicTracks": [
