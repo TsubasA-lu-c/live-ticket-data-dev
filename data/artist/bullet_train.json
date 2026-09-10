@@ -652,6 +652,22 @@
       "source": "system",
       "sourceUrl": "https://ebidan.jp/feature/ebidan_the_live_2026",
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "bullet_train_a_nation_2026_s_upgrade",
+      "tourId": "bullet_train_a_nation_2026",
+      "type": "一般指定席（光るウチワ付き）S席アップグレード抽選",
+      "entryStartAt": "2026-09-09T15:00:00+09:00",
+      "entryEndAt": "2026-09-13T23:59:00+09:00",
+      "resultAt": "2026-09-17T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bullet_train_a_nation_2026_20261003_1"
+      ],
+      "source": "system",
+      "sourceUrl": "https://bullettrain.jp/news/detail/110170",
+      "lastVerifiedAt": "2026-09-10T21:37:00+09:00"
     }
   ],
   "appleMusicTracks": [

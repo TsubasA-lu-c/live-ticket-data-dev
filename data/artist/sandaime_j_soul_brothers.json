@@ -48,6 +48,30 @@
       "source": "system",
       "sourceUrl": "https://www.ldh-liveschedule.jp/sys/news/43976/?lang=ja",
       "lastVerifiedAt": "2026-08-18T00:10:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_ldh_live_expo_2026",
+      "artistId": "sandaime_j_soul_brothers",
+      "title": "LDH LIVE-EXPO 2026 -PERFECT YEAR BEST-",
+      "startDate": "2026-11-28T00:00:00+09:00",
+      "endDate": "2026-11-29T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 17600
+        },
+        {
+          "label": "プレミアムチケット",
+          "amount": 26400
+        },
+        {
+          "label": "プレミアムチケット（オリジナルグッズ付き）",
+          "amount": 35200
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/44706/",
+      "lastVerifiedAt": "2026-09-10T21:37:00+09:00"
     }
   ],
   "performances": [
@@ -146,6 +170,30 @@
       "source": "system",
       "sourceUrl": "https://www.ldh-liveschedule.jp/sys/news/43976/?lang=ja",
       "lastVerifiedAt": "2026-08-18T00:10:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_ldh_live_expo_2026_tokyo_1128",
+      "tourId": "sandaime_j_soul_brothers_ldh_live_expo_2026",
+      "venue": "MUFGスタジアム（国立競技場）",
+      "performanceAt": "2026-11-28T17:30:00+09:00",
+      "doorOpenAt": "2026-11-28T15:30:00+09:00",
+      "kind": "fes",
+      "eventName": "LDH LIVE-EXPO 2026 -PERFECT YEAR BEST-",
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/44706/",
+      "lastVerifiedAt": "2026-09-10T21:37:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_ldh_live_expo_2026_tokyo_1129",
+      "tourId": "sandaime_j_soul_brothers_ldh_live_expo_2026",
+      "venue": "MUFGスタジアム（国立競技場）",
+      "performanceAt": "2026-11-29T17:00:00+09:00",
+      "doorOpenAt": "2026-11-29T15:00:00+09:00",
+      "kind": "fes",
+      "eventName": "LDH LIVE-EXPO 2026 -PERFECT YEAR BEST-",
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/44706/",
+      "lastVerifiedAt": "2026-09-10T21:37:00+09:00"
     }
   ],
   "lotteries": [
@@ -464,6 +512,40 @@
       "source": "system",
       "sourceUrl": "https://www.ldh-liveschedule.jp/sys/news/43976/?lang=ja",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_ldh_live_expo_2026_fc_fastest",
+      "tourId": "sandaime_j_soul_brothers_ldh_live_expo_2026",
+      "type": "三代目 J SOUL BROTHERS OFFICIAL FAN CLUB先行抽選予約",
+      "entryStartAt": "2026-08-10T15:00:00+09:00",
+      "entryEndAt": "2026-08-16T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_ldh_live_expo_2026_tokyo_1128",
+        "sandaime_j_soul_brothers_ldh_live_expo_2026_tokyo_1129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/44706/",
+      "lastVerifiedAt": "2026-09-10T21:37:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_ldh_live_expo_2026_premium",
+      "tourId": "sandaime_j_soul_brothers_ldh_live_expo_2026",
+      "type": "プレミアムチケット抽選受付",
+      "entryStartAt": "2026-08-31T15:00:00+09:00",
+      "entryEndAt": "2026-09-06T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_ldh_live_expo_2026_tokyo_1128",
+        "sandaime_j_soul_brothers_ldh_live_expo_2026_tokyo_1129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/44706/",
+      "lastVerifiedAt": "2026-09-10T21:37:00+09:00"
     }
   ],
   "appleMusicTracks": [

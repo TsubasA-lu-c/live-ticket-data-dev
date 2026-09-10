@@ -422,6 +422,262 @@
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/0025330001",
       "lastVerifiedAt": "2026-08-23T07:44:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_tour_2026_miyagi_1003_official_trade",
+      "tourId": "bump_of_chicken_tour_2026",
+      "type": "公式チケットトレード（購入申込・抽選）",
+      "entryStartAt": "2026-09-03T12:00:00+09:00",
+      "entryEndAt": "2026-10-03T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bump_of_chicken_tour_2026_miyagi_1003"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/3849",
+      "lastVerifiedAt": "2026-09-10T21:37:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_tour_2026_miyagi_1004_official_trade",
+      "tourId": "bump_of_chicken_tour_2026",
+      "type": "公式チケットトレード（購入申込・抽選）",
+      "entryStartAt": "2026-09-03T12:00:00+09:00",
+      "entryEndAt": "2026-10-04T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bump_of_chicken_tour_2026_miyagi_1004"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/3849",
+      "lastVerifiedAt": "2026-09-10T21:37:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_tour_2026_hokkaido_1017_official_trade",
+      "tourId": "bump_of_chicken_tour_2026",
+      "type": "公式チケットトレード（購入申込・抽選）",
+      "entryStartAt": "2026-09-03T12:00:00+09:00",
+      "entryEndAt": "2026-10-17T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bump_of_chicken_tour_2026_hokkaido_1017"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/3849",
+      "lastVerifiedAt": "2026-09-10T21:37:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_tour_2026_hokkaido_1018_official_trade",
+      "tourId": "bump_of_chicken_tour_2026",
+      "type": "公式チケットトレード（購入申込・抽選）",
+      "entryStartAt": "2026-09-03T12:00:00+09:00",
+      "entryEndAt": "2026-10-18T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bump_of_chicken_tour_2026_hokkaido_1018"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/3849",
+      "lastVerifiedAt": "2026-09-10T21:37:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_tour_2026_tokyo_1027_official_trade",
+      "tourId": "bump_of_chicken_tour_2026",
+      "type": "公式チケットトレード（購入申込・抽選）",
+      "entryStartAt": "2026-09-03T12:00:00+09:00",
+      "entryEndAt": "2026-10-27T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bump_of_chicken_tour_2026_tokyo_1027"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/3849",
+      "lastVerifiedAt": "2026-09-10T21:37:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_tour_2026_tokyo_1028_official_trade",
+      "tourId": "bump_of_chicken_tour_2026",
+      "type": "公式チケットトレード（購入申込・抽選）",
+      "entryStartAt": "2026-09-03T12:00:00+09:00",
+      "entryEndAt": "2026-10-28T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bump_of_chicken_tour_2026_tokyo_1028"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/3849",
+      "lastVerifiedAt": "2026-09-10T21:37:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_tour_2026_hyogo_1107_official_trade",
+      "tourId": "bump_of_chicken_tour_2026",
+      "type": "公式チケットトレード（購入申込・抽選）",
+      "entryStartAt": "2026-09-03T12:00:00+09:00",
+      "entryEndAt": "2026-11-07T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bump_of_chicken_tour_2026_hyogo_1107"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/3849",
+      "lastVerifiedAt": "2026-09-10T21:37:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_tour_2026_hyogo_1108_official_trade",
+      "tourId": "bump_of_chicken_tour_2026",
+      "type": "公式チケットトレード（購入申込・抽選）",
+      "entryStartAt": "2026-09-03T12:00:00+09:00",
+      "entryEndAt": "2026-11-08T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bump_of_chicken_tour_2026_hyogo_1108"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/3849",
+      "lastVerifiedAt": "2026-09-10T21:37:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_tour_2026_kagawa_1121_official_trade",
+      "tourId": "bump_of_chicken_tour_2026",
+      "type": "公式チケットトレード（購入申込・抽選）",
+      "entryStartAt": "2026-09-03T12:00:00+09:00",
+      "entryEndAt": "2026-11-21T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bump_of_chicken_tour_2026_kagawa_1121"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/3849",
+      "lastVerifiedAt": "2026-09-10T21:37:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_tour_2026_kagawa_1122_official_trade",
+      "tourId": "bump_of_chicken_tour_2026",
+      "type": "公式チケットトレード（購入申込・抽選）",
+      "entryStartAt": "2026-09-03T12:00:00+09:00",
+      "entryEndAt": "2026-11-22T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bump_of_chicken_tour_2026_kagawa_1122"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/3849",
+      "lastVerifiedAt": "2026-09-10T21:37:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_tour_2026_hiroshima_1128_official_trade",
+      "tourId": "bump_of_chicken_tour_2026",
+      "type": "公式チケットトレード（購入申込・抽選）",
+      "entryStartAt": "2026-09-03T12:00:00+09:00",
+      "entryEndAt": "2026-11-28T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bump_of_chicken_tour_2026_hiroshima_1128"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/3849",
+      "lastVerifiedAt": "2026-09-10T21:37:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_tour_2026_hiroshima_1129_official_trade",
+      "tourId": "bump_of_chicken_tour_2026",
+      "type": "公式チケットトレード（購入申込・抽選）",
+      "entryStartAt": "2026-09-03T12:00:00+09:00",
+      "entryEndAt": "2026-11-29T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bump_of_chicken_tour_2026_hiroshima_1129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/3849",
+      "lastVerifiedAt": "2026-09-10T21:37:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_tour_2026_fukuoka_1212_official_trade",
+      "tourId": "bump_of_chicken_tour_2026",
+      "type": "公式チケットトレード（購入申込・抽選）",
+      "entryStartAt": "2026-09-03T12:00:00+09:00",
+      "entryEndAt": "2026-12-12T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bump_of_chicken_tour_2026_fukuoka_1212"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/3849",
+      "lastVerifiedAt": "2026-09-10T21:37:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_tour_2026_fukuoka_1213_official_trade",
+      "tourId": "bump_of_chicken_tour_2026",
+      "type": "公式チケットトレード（購入申込・抽選）",
+      "entryStartAt": "2026-09-03T12:00:00+09:00",
+      "entryEndAt": "2026-12-13T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bump_of_chicken_tour_2026_fukuoka_1213"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/3849",
+      "lastVerifiedAt": "2026-09-10T21:37:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_tour_2026_aichi_1219_official_trade",
+      "tourId": "bump_of_chicken_tour_2026",
+      "type": "公式チケットトレード（購入申込・抽選）",
+      "entryStartAt": "2026-09-03T12:00:00+09:00",
+      "entryEndAt": "2026-12-19T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bump_of_chicken_tour_2026_aichi_1219"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/3849",
+      "lastVerifiedAt": "2026-09-10T21:37:00+09:00"
+    },
+    {
+      "id": "bump_of_chicken_tour_2026_aichi_1220_official_trade",
+      "tourId": "bump_of_chicken_tour_2026",
+      "type": "公式チケットトレード（購入申込・抽選）",
+      "entryStartAt": "2026-09-03T12:00:00+09:00",
+      "entryEndAt": "2026-12-20T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bump_of_chicken_tour_2026_aichi_1220"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/news/news/3849",
+      "lastVerifiedAt": "2026-09-10T21:37:00+09:00"
     }
   ],
   "appleMusicTracks": [

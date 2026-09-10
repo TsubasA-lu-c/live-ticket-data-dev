@@ -1,8 +1,55 @@
 {
   "artistId": "aimer",
-  "tours": [],
-  "performances": [],
-  "lotteries": [],
+  "tours": [
+    {
+      "id": "aimer_premium_concert_2026_hiss",
+      "artistId": "aimer",
+      "title": "Aimer Premium Concert 2026「“Sing like a Stray Cat” -hiss-」",
+      "startDate": "2026-11-03T00:00:00+09:00",
+      "endDate": "2026-11-03T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 9500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://15th-noraneko.aimer-official.com/live/",
+      "lastVerifiedAt": "2026-09-10T21:37:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "aimer_premium_concert_2026_hiss_yokohama_1103",
+      "tourId": "aimer_premium_concert_2026_hiss",
+      "venue": "横浜BUNTAI",
+      "performanceAt": "2026-11-03T17:30:00+09:00",
+      "doorOpenAt": "2026-11-03T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://15th-noraneko.aimer-official.com/live/",
+      "lastVerifiedAt": "2026-09-10T21:37:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "aimer_premium_concert_2026_hiss_night_owls_fastest",
+      "tourId": "aimer_premium_concert_2026_hiss",
+      "type": "NIGHT OWLS 最速先行（抽選）",
+      "entryStartAt": "2026-09-07T20:00:00+09:00",
+      "entryEndAt": "2026-09-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aimer_premium_concert_2026_hiss_yokohama_1103"
+      ],
+      "source": "system",
+      "sourceUrl": "https://15th-noraneko.aimer-official.com/live/",
+      "lastVerifiedAt": "2026-09-10T21:37:00+09:00"
+    }
+  ],
   "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
   "appleMusicTracks": [
     {

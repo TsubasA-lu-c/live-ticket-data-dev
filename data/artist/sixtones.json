@@ -106,6 +106,23 @@
       "source": "system",
       "sourceUrl": "https://starto.jp/s/p/live/10499",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "sixtones_milesixtones_stadium_2026_general_tokyo",
+      "tourId": "sixtones_milesixtones_stadium_2026",
+      "type": "一般チケット（東京公演・プレイガイド）",
+      "entryStartAt": "2026-09-05T15:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sixtones_milesixtones_stadium_2026_ajinomoto_0919",
+        "sixtones_milesixtones_stadium_2026_ajinomoto_0920"
+      ],
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10499",
+      "lastVerifiedAt": "2026-09-10T21:37:00+09:00"
     }
   ],
   "appleMusicTracks": [
