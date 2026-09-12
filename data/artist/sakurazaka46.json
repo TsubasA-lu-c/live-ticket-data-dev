@@ -647,7 +647,7 @@
       "tourId": "sakurazaka46_6th_anniversary_2026",
       "type": "FC抽選先行",
       "entryStartAt": "2026-09-06T12:00:00+09:00",
-      "entryEndAt": null,
+      "entryEndAt": "2026-09-20T23:59:00+09:00",
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
@@ -656,15 +656,15 @@
         "sakurazaka46_6th_anniversary_2026_chiba_1115"
       ],
       "source": "system",
-      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00665?ima=0000",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "sourceUrl": "https://sakurazaka46.com/s/s46/ticket/detail/6thYearAnniv?ima=0000",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     },
     {
       "id": "sakurazaka46_6th_anniversary_2026_lemino_special_1st",
       "tourId": "sakurazaka46_6th_anniversary_2026",
       "type": "Leminoスペシャルシート先行",
       "entryStartAt": "2026-09-06T12:00:00+09:00",
-      "entryEndAt": null,
+      "entryEndAt": "2026-09-20T23:59:00+09:00",
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
@@ -673,15 +673,15 @@
         "sakurazaka46_6th_anniversary_2026_chiba_1115"
       ],
       "source": "system",
-      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00665?ima=0000",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "sourceUrl": "https://sakurazaka46.com/s/s46/ticket/detail/6thYearAnniv?ima=0000",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     },
     {
       "id": "sakurazaka46_6th_anniversary_2026_lemino_pack_1st",
       "tourId": "sakurazaka46_6th_anniversary_2026",
       "type": "Lemino櫻坂46パック先行",
       "entryStartAt": "2026-09-06T12:00:00+09:00",
-      "entryEndAt": null,
+      "entryEndAt": "2026-09-20T23:59:00+09:00",
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
@@ -690,8 +690,8 @@
         "sakurazaka46_6th_anniversary_2026_chiba_1115"
       ],
       "source": "system",
-      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00665?ima=0000",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "sourceUrl": "https://sakurazaka46.com/s/s46/ticket/detail/6thYearAnniv?ima=0000",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     },
     {
       "id": "sakurazaka46_backslive_15th_2026_lemino_pack",
@@ -709,6 +709,74 @@
       "source": "system",
       "sourceUrl": "https://sakurazaka46.com/s/s46/page/backslive_15th",
       "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_6th_anniversary_2026_official",
+      "tourId": "sakurazaka46_6th_anniversary_2026",
+      "type": "オフィシャル先行",
+      "entryStartAt": "2026-10-01T12:00:00+09:00",
+      "entryEndAt": "2026-10-06T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sakurazaka46_6th_anniversary_2026_chiba_1114",
+        "sakurazaka46_6th_anniversary_2026_chiba_1115"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/ticket/detail/6thYearAnniv?ima=0000",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_6th_anniversary_2026_lawson",
+      "tourId": "sakurazaka46_6th_anniversary_2026",
+      "type": "ローソンチケット先行",
+      "entryStartAt": "2026-10-10T12:00:00+09:00",
+      "entryEndAt": "2026-10-19T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sakurazaka46_6th_anniversary_2026_chiba_1114",
+        "sakurazaka46_6th_anniversary_2026_chiba_1115"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/ticket/detail/6thYearAnniv?ima=0000",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_6th_anniversary_2026_aeon",
+      "tourId": "sakurazaka46_6th_anniversary_2026",
+      "type": "イオンカード先行",
+      "entryStartAt": "2026-10-22T12:00:00+09:00",
+      "entryEndAt": "2026-10-25T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sakurazaka46_6th_anniversary_2026_chiba_1114",
+        "sakurazaka46_6th_anniversary_2026_chiba_1115"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/ticket/detail/6thYearAnniv?ima=0000",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_6th_anniversary_2026_general",
+      "tourId": "sakurazaka46_6th_anniversary_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-10-31T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sakurazaka46_6th_anniversary_2026_chiba_1114",
+        "sakurazaka46_6th_anniversary_2026_chiba_1115"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/ticket/detail/6thYearAnniv?ima=0000",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
