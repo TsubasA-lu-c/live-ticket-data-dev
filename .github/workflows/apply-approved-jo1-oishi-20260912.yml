@@ -1,0 +1,69 @@
+name: Apply approved JO1 and Oishi updates
+on:
+  push:
+    branches: [audit/rescue-missing-performances-20260912]
+    paths: ['.github/workflows/apply-approved-jo1-oishi-20260912.yml']
+permissions:
+  contents: write
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {ref: audit/rescue-missing-performances-20260912, fetch-depth: 0}
+      - name: Apply approved records
+        run: |
+          python3 - <<'PY'
+          import json,hashlib
+          from pathlib import Path
+          from datetime import datetime,timezone,timedelta
+          touched=[]
+          def load(a):
+            p=Path('data/artist')/f'{a}.json'; return p,json.loads(p.read_text())
+          def save(p,d): p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n'); touched.append(p)
+          def add_unique(arr,obj):
+            if any(x.get('id')==obj['id'] for x in arr): raise SystemExit('duplicate '+obj['id'])
+            arr.append(obj)
+          # JO1: Dream Festival + AAO application deadline/result without inventing application start.
+          p,d=load('jo1')
+          add_unique(d['tours'],{'id':'jo1_dream_festival_2026','artistId':'jo1','title':'テレビ朝日ドリームフェスティバル2026','startDate':'2026-11-21T00:00:00+09:00','endDate':'2026-11-21T00:00:00+09:00','prices':[{'label':'全席指定','amount':13000,'currency':'JPY'}],'source':'system','sourceUrl':'https://dreamfestival.jp/','lastVerifiedAt':'2026-09-12T00:00:00+09:00'})
+          add_unique(d['performances'],{'id':'jo1_dream_festival_2026_yokohama_1121','tourId':'jo1_dream_festival_2026','venue':'Kアリーナ横浜','performanceAt':'2026-11-21T12:00:00+09:00','doorOpenAt':None,'performanceDate':'2026-11-21','performanceTimeEstimated':True,'kind':'fes','eventName':'テレビ朝日ドリームフェスティバル2026','source':'system','sourceUrl':'https://dreamfestival.jp/','lastVerifiedAt':'2026-09-12T00:00:00+09:00'})
+          add_unique(d['lotteries'],{'id':'jo1_dream_festival_2026_official_2nd','tourId':'jo1_dream_festival_2026','type':'オフィシャル2次先行（抽選）','entryStartAt':'2026-09-07T12:00:00+09:00','entryEndAt':'2026-09-13T23:59:00+09:00','resultAt':None,'paymentDeadline':None,'performanceIds':['jo1_dream_festival_2026_yokohama_1121'],'source':'system','sourceUrl':'https://dreamfestival.jp/','lastVerifiedAt':'2026-09-12T00:00:00+09:00'})
+          aao=[x['id'] for x in d['performances'] if x.get('tourId')=='jo1_aao_showcase_tour_2026']
+          if len(aao)!=5: raise SystemExit(f'JO1 AAO expected 5, got {len(aao)}')
+          add_unique(d['lotteries'],{'id':'jo1_aao_showcase_tour_2026_serial_application','tourId':'jo1_aao_showcase_tour_2026','type':'11TH SINGLE “AAO” シリアル応募','entryStartAt':None,'entryEndAt':'2026-10-09T23:59:00+09:00','resultAt':'2026-10-16T20:00:00+09:00','paymentDeadline':None,'performanceIds':aao,'source':'system','sourceUrl':'https://jo1.jp/news/detail/6350','lastVerifiedAt':'2026-09-12T00:00:00+09:00'})
+          save(p,d)
+          # 大石昌良: Suga Shikao guest appearance.
+          p,d=load('masayoshi_oishi')
+          tid='masayoshi_oishi_suga_shikao_acoustic_supernova_sendai_2027'; pid=tid+'_0130'
+          add_unique(d['tours'],{'id':tid,'artistId':'masayoshi_oishi','title':'スガ シカオ 30th ANNIVERSARY TOUR 2027 “ACOUSTIC SUPERNOVA” 宮城公演','startDate':'2027-01-30T00:00:00+09:00','endDate':'2027-01-30T00:00:00+09:00','prices':None,'source':'system','sourceUrl':'https://www.014014.jp/schedules/7933','lastVerifiedAt':'2026-09-12T00:00:00+09:00'})
+          add_unique(d['performances'],{'id':pid,'tourId':tid,'venue':'トークネットホール仙台','performanceAt':'2027-01-30T18:00:00+09:00','doorOpenAt':'2027-01-30T17:00:00+09:00','kind':'fes','eventName':'スガ シカオ 30th ANNIVERSARY TOUR 2027 “ACOUSTIC SUPERNOVA” 宮城公演','source':'system','sourceUrl':'https://www.014014.jp/schedules/7933','lastVerifiedAt':'2026-09-12T00:00:00+09:00'})
+          save(p,d)
+          # オーイシマサヨシ: newly confirmed official schedule items.
+          p,d=load('oishi_masayoshi')
+          events=[
+            ('oishi_masayoshi_bunkyo_aidsai_2026','文教大学 越谷キャンパス 第59回藍蓼祭「オーイシマサヨシ Special Live in 文教大学」','2026-10-30','文教大学 越谷キャンパス 体育館2階メインアリーナ','15:00','14:00','https://www.014014.jp/news/7669'),
+            ('oishi_masayoshi_ehime_culture_fes_2026','愛媛県 県民総合文化祭 総合フェスティバル2026 愛顔えひめの文化祭2028 2年前プレイベント','2026-10-31','愛媛県県民文化会館メインホール',None,None,'https://www.014014.jp/schedules/7918'),
+            ('oishi_masayoshi_nfu_festival_2026','日本福祉大学 美浜キャンパス 第74回福祉大学祭「オーイシマサヨシ Special LIVE」','2026-11-07','日本福祉大学 美浜キャンパス 文化ホール','13:30','13:00','https://www.014014.jp/news/7669'),
+            ('oishi_masayoshi_hyper_game_final_day1_2026','配信者ハイパーゲーム大会 FINAL [DAY1]','2026-11-28','東京ドーム',None,None,'https://lp.openrec.jp/hyper-game-event-final/'),
+            ('oishi_masayoshi_hyper_game_final_day2_2026','配信者ハイパーゲーム大会 FINAL [DAY2]','2026-11-29','東京ドーム',None,None,'https://lp.openrec.jp/hyper-game-event-final/')]
+          for tid,title,date,venue,start,door,url in events:
+            add_unique(d['tours'],{'id':tid,'artistId':'oishi_masayoshi','title':title,'startDate':date+'T00:00:00+09:00','endDate':date+'T00:00:00+09:00','prices':None,'source':'system','sourceUrl':url,'lastVerifiedAt':'2026-09-12T00:00:00+09:00'})
+            perf={'id':tid+'_'+date[5:7]+date[8:10],'tourId':tid,'venue':venue,'performanceAt':date+'T'+(start or '12:00')+':00+09:00','doorOpenAt':date+'T'+door+':00+09:00' if door else None,'kind':'fes','eventName':title,'source':'system','sourceUrl':url,'lastVerifiedAt':'2026-09-12T00:00:00+09:00'}
+            if start is None: perf.update({'performanceDate':date,'performanceTimeEstimated':True})
+            add_unique(d['performances'],perf)
+          save(p,d)
+          # manifest
+          mp=Path('data/manifest.json'); m=json.loads(mp.read_text()); h=lambda q:hashlib.sha256(q.read_bytes()).hexdigest()[:16]
+          m['version']=int(m.get('version',0))+1; m['updatedAt']=datetime.now(timezone(timedelta(hours=9))).strftime('%Y-%m-%dT%H:%M:%S+09:00'); m['files']['artists']['hash']=h(Path('data/artists.json'))
+          for p in touched: m['artists'][p.stem]['hash']=h(p)
+          mp.write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n')
+          print('touched',*[str(x) for x in touched],sep='\n')
+          PY
+      - name: Commit
+        run: |
+          git config user.name 'github-actions[bot]'; git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/artist/jo1.json data/artist/masayoshi_oishi.json data/artist/oishi_masayoshi.json data/manifest.json
+          git diff --cached --quiet && exit 0
+          git commit -m 'data: apply approved JO1 and Oishi updates'
+          git push origin HEAD:audit/rescue-missing-performances-20260912
