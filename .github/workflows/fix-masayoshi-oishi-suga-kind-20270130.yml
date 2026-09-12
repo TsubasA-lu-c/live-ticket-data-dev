@@ -149,7 +149,7 @@ jobs:
                       mirrored_lottery['tourId'] = mirrored_tour_id
                       mirrored_lottery['performanceIds'] = [
                           performance_map[performance_id]
-                          for performance_id in source_lottery.get('performanceIds', [])
+                          for performance_id in (source_lottery.get('performanceIds') or [])
                       ]
                       mirrored_lottery['relationMirror'] = {
                           'sourceArtistId': source,
@@ -214,7 +214,7 @@ jobs:
                   assert item.get('tourId') in tour_id_set, f'unknown performance tour in {path}: {item.get("id")}'
               for item in lotteries:
                   assert item.get('tourId') in tour_id_set, f'unknown lottery tour in {path}: {item.get("id")}'
-                  for performance_id in item.get('performanceIds', []):
+                  for performance_id in (item.get('performanceIds') or []):
                       assert performance_id in performance_id_set, f'unknown lottery performance in {path}: {performance_id}'
 
           manifest_after = json.loads(manifest_path.read_text(encoding='utf-8'))
