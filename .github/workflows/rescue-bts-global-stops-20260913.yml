@@ -1,0 +1,83 @@
+name: Rescue BTS global stops 20260913
+on:
+  push:
+    branches: ['audit/rescue-missing-performances-20260912']
+    paths: ['.github/workflows/rescue-bts-global-stops-20260913.yml']
+permissions:
+  contents: write
+jobs:
+  rescue:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Snapshot first-party tour cards and add missing performances
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import urllib.request,re,html,json,hashlib
+          from pathlib import Path
+          from datetime import datetime,timezone,timedelta
+          from zoneinfo import ZoneInfo
+          source='https://btsworldtourofficial.com/'
+          raw=urllib.request.urlopen(urllib.request.Request(source,headers={'User-Agent':'Mozilla/5.0'}),timeout=30).read().decode('utf-8','replace')
+          text=re.sub(r'<script[\s\S]*?</script>|<style[\s\S]*?</style>',' ',raw,flags=re.I)
+          text=re.sub(r'<[^>]+>','\n',text)
+          lines=[re.sub(r'\s+',' ',html.unescape(x)).strip() for x in text.splitlines()]
+          lines=[x for x in lines if x]
+          dr=re.compile(r'^(\d{1,2})/(\d{1,2})/(2026|2027)$')
+          cards=[]
+          for i,x in enumerate(lines):
+            m=dr.match(x)
+            if not m: continue
+            vals=[]
+            for y in lines[i+1:i+8]:
+              if dr.match(y): break
+              if y in {'Presale','Tickets'} or y.startswith('Presale begins') or y.startswith('On-sale begins') or y.startswith('-->'): continue
+              vals.append(y)
+              if len(vals)>=2: break
+            if len(vals)>=2: cards.append((x,vals[0],vals[1]))
+          cards=list(dict.fromkeys(cards))
+          assert len(cards)==69, f'official card count drift: {len(cards)}'
+          tzmap={
+          'Kaohsiung':'Asia/Taipei','Bangkok':'Asia/Bangkok','Kuala Lumpur':'Asia/Kuala_Lumpur','Singapore':'Asia/Singapore','Jakarta':'Asia/Jakarta',
+          'Melbourne, AU':'Australia/Melbourne','Sydney, AU':'Australia/Sydney','Hong Kong':'Asia/Hong_Kong','Bulacan':'Asia/Manila',
+          'Las Vegas, NV':'America/Los_Angeles','Madrid, ES':'Europe/Madrid','Brussels, BE':'Europe/Brussels','London, UK':'Europe/London','Munich, DE':'Europe/Berlin','Paris, FR':'Europe/Paris',
+          'East Rutherford, NJ':'America/New_York','Foxborough, MA':'America/New_York','Baltimore, MD':'America/New_York','Arlington, TX':'America/Chicago','Toronto, ON':'America/Toronto','Chicago, IL':'America/Chicago','Los Angeles, CA':'America/Los_Angeles',
+          'Bogotá, CO':'America/Bogota','Lima, PE':'America/Lima','Santiago, CL':'America/Santiago','Buenos Aires, AR':'America/Argentina/Buenos_Aires','São Paulo, BR':'America/Sao_Paulo'}
+          assert {c for _,c,_ in cards} <= set(tzmap), sorted({c for _,c,_ in cards}-set(tzmap))
+          p=Path('data/artist/bts.json'); d=json.loads(p.read_text())
+          tid='bts_world_tour_arirang_global_2026_2027'
+          if not any(t['id']==tid for t in d['tours']):
+            d['tours'].append({'id':tid,'artistId':'bts','title':"BTS WORLD TOUR 'ARIRANG'",'startDate':'2026-05-23T12:00:00-07:00','endDate':'2027-03-16T12:00:00+08:00','prices':None,'source':'system','sourceUrl':source,'lastVerifiedAt':'2026-09-13T00:00:00+09:00'})
+          existing={(x.get('performanceDate') or x['performanceAt'][:10],x['venue']) for x in d['performances']}
+          added=0
+          for ds,city,venue in cards:
+            mm,dd,yy=map(int,ds.split('/')); date=f'{yy:04d}-{mm:02d}-{dd:02d}'
+            # Singapore is already represented by its dedicated existing tour.
+            if city=='Singapore': continue
+            if (date,venue) in existing: continue
+            z=ZoneInfo(tzmap[city]); dt=datetime(yy,mm,dd,12,0,tzinfo=z)
+            slug=re.sub(r'[^a-z0-9]+','_',city.lower()).strip('_')
+            pid=f'{tid}_{slug}_{mm:02d}{dd:02d}'
+            d['performances'].append({'id':pid,'tourId':tid,'venue':venue,'performanceAt':dt.isoformat(),'performanceDate':date,'performanceTimeEstimated':True,'doorOpenAt':None,'kind':'oneman','eventName':"BTS WORLD TOUR 'ARIRANG'",'source':'system','sourceUrl':source,'lastVerifiedAt':'2026-09-13T00:00:00+09:00'})
+            existing.add((date,venue)); added+=1
+          assert added==65, f'expected 65 missing current official cards, got {added}'
+          p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')
+          mpath=Path('data/manifest.json'); manifest=json.loads(mpath.read_text())
+          h16=lambda x: hashlib.sha256(x.read_bytes()).hexdigest()[:16]
+          manifest['version']=int(manifest['version'])+1
+          manifest['updatedAt']=datetime.now(timezone(timedelta(hours=9))).strftime('%Y-%m-%dT%H:%M:%S+09:00')
+          manifest['files']['artists']['hash']=h16(Path('data/artists.json'))
+          for fp in Path('data/artist').glob('*.json'): manifest['artists'].setdefault(fp.stem,{})['hash']=h16(fp)
+          mpath.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
+          print('BTS current first-party global cards added:',added)
+          PY
+      - name: Commit data only
+        shell: bash
+        run: |
+          set -euo pipefail
+          git status --short
+          git add -- data/artist/bts.json data/manifest.json
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'data: backfill BTS ARIRANG global tour stops'
+          git push origin HEAD:audit/rescue-missing-performances-20260912
