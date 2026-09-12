@@ -1,0 +1,68 @@
+name: Fix Masayoshi Oishi Suga Shikao performance kind
+
+on:
+  push:
+    branches:
+      - fix/masayoshi-oishi-suga-kind-20270130
+    paths:
+      - '.github/workflows/fix-masayoshi-oishi-suga-kind-20270130.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: fix/masayoshi-oishi-suga-kind-20270130
+          fetch-depth: 2
+
+      - name: Check starting tree
+        run: git status --short
+
+      - name: Correct performance kind
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path('data/artist/masayoshi_oishi.json')
+          data = json.loads(path.read_text(encoding='utf-8'))
+          target_id = 'masayoshi_oishi_suga_shikao_acoustic_supernova_sendai_2027_0130'
+          matches = [p for p in data['performances'] if p.get('id') == target_id]
+          assert len(matches) == 1, f'expected one target performance, got {len(matches)}'
+          target = matches[0]
+          assert target.get('kind') == 'fes', f'unexpected current kind: {target.get("kind")!r}'
+          target['kind'] = 'taiban'
+          path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          PY
+
+      - name: Materialize relations and update manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 tools/materialize_artist_live_relations.py
+          python3 tools/update_manifest.py
+          python3 tools/validate.py
+
+      - name: Verify scoped diff and commit
+        shell: bash
+        run: |
+          set -euo pipefail
+          git status --short
+          changed="$(git diff --name-only | sort)"
+          printf '%s\n' "$changed"
+          unexpected="$(printf '%s\n' "$changed" | grep -Ev '^(data/artist/masayoshi_oishi\.json|data/artist/oishi_masayoshi\.json|data/manifest\.json)$' || true)"
+          test -z "$unexpected" || { echo "Unexpected changed files:"; echo "$unexpected"; exit 1; }
+          grep -A8 -B2 'masayoshi_oishi_suga_shikao_acoustic_supernova_sendai_2027_0130' data/artist/masayoshi_oishi.json | grep '"kind": "taiban"'
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- data/artist/masayoshi_oishi.json data/artist/oishi_masayoshi.json data/manifest.json
+          git diff --cached --quiet && { echo 'No data changes produced'; exit 1; }
+          git commit -m 'fix: classify Suga Shikao guest show as taiban'
+          git push origin HEAD:fix/masayoshi-oishi-suga-kind-20270130
