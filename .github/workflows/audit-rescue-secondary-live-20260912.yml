@@ -1,0 +1,102 @@
+name: Audit rescue secondary live data 20260912
+on:
+  push:
+    branches: ['audit/monitoring-coverage-20260912']
+    paths: ['.github/workflows/audit-rescue-secondary-live-20260912.yml']
+permissions:
+  contents: write
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audit/monitoring-coverage-20260912
+      - name: Check start status
+        run: git status --short
+      - name: Patch audited data
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import hashlib,json
+          from pathlib import Path
+          VERIFIED='2026-09-12T00:00:00+09:00'
+          def load(a):
+              p=Path('data/artist')/f'{a}.json'; return p,json.loads(p.read_text())
+          def save(p,d): p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')
+          def append_unique(items,obj):
+              if any(x.get('id')==obj['id'] for x in items): raise SystemExit(f"duplicate {obj['id']}")
+              items.append(obj)
+          def tour_by_title(d,title):
+              m=[x for x in d['tours'] if x.get('title')==title]
+              if len(m)!=1: raise SystemExit(f'tour match {title}: {len(m)}')
+              return m[0]['id']
+
+          # Nogizaka46 42ndSG Under Live: general sale and official resale.
+          p,d=load('nogizaka46')
+          tid=tour_by_title(d,'乃木坂46 42ndSGアンダーライブ')
+          pids=[x['id'] for x in d['performances'] if x.get('tourId')==tid]
+          if len(pids)!=2: raise SystemExit(f'nogizaka under live performances={pids}')
+          append_unique(d['lotteries'],{
+              'id':'nogizaka46_42nd_under_live_2026_general','tourId':tid,'type':'一般発売（先着）',
+              'entryStartAt':'2026-09-12T12:00:00+09:00','entryEndAt':None,'resultAt':None,'paymentStartAt':None,'paymentEndAt':None,
+              'performanceIds':pids,'source':'system','sourceUrl':'https://www.nogizaka46.com/s/n46/news/detail/102236','lastVerifiedAt':VERIFIED})
+          append_unique(d['lotteries'],{
+              'id':'nogizaka46_42nd_under_live_2026_official_resale','tourId':tid,'type':'公式リセール',
+              'entryStartAt':'2026-09-13T12:00:00+09:00','entryEndAt':'2026-09-15T23:59:00+09:00','resultAt':None,'paymentStartAt':None,'paymentEndAt':None,
+              'performanceIds':pids,'source':'system','sourceUrl':'https://www.nogizaka46.com/s/n46/news/detail/102236','lastVerifiedAt':VERIFIED})
+          save(p,d)
+
+          # Sakurazaka46 6th YEAR ANNIVERSARY LIVE: complete announced sales schedule.
+          p,d=load('sakurazaka46')
+          tid=tour_by_title(d,'櫻坂46「6th YEAR ANNIVERSARY LIVE」')
+          pids=[x['id'] for x in d['performances'] if x.get('tourId')==tid]
+          if len(pids)!=2: raise SystemExit(f'sakurazaka anniversary performances={pids}')
+          updated=0
+          for x in d['lotteries']:
+              if x.get('tourId')==tid and x.get('entryStartAt')=='2026-09-06T12:00:00+09:00':
+                  x['entryEndAt']='2026-09-20T23:59:00+09:00'; x['lastVerifiedAt']=VERIFIED; x['sourceUrl']='https://sakurazaka46.com/s/s46/ticket/detail/6thYearAnniv?ima=0000'; updated+=1
+          if updated!=3: raise SystemExit(f'sakurazaka initial presales updated={updated}')
+          additions=[
+              ('sakurazaka46_6th_anniversary_2026_official','オフィシャル先行','2026-10-01T12:00:00+09:00','2026-10-06T23:59:00+09:00'),
+              ('sakurazaka46_6th_anniversary_2026_lawson','ローソンチケット先行','2026-10-10T12:00:00+09:00','2026-10-19T23:59:00+09:00'),
+              ('sakurazaka46_6th_anniversary_2026_aeon','イオンカード先行','2026-10-22T12:00:00+09:00','2026-10-25T23:59:00+09:00'),
+              ('sakurazaka46_6th_anniversary_2026_general','一般発売（先着）','2026-10-31T12:00:00+09:00',None),
+          ]
+          for lid,typ,start,end in additions:
+              append_unique(d['lotteries'],{'id':lid,'tourId':tid,'type':typ,'entryStartAt':start,'entryEndAt':end,'resultAt':None,'paymentStartAt':None,'paymentEndAt':None,'performanceIds':pids,'source':'system','sourceUrl':'https://sakurazaka46.com/s/s46/ticket/detail/6thYearAnniv?ima=0000','lastVerifiedAt':VERIFIED})
+          save(p,d)
+
+          # Ryokuoushoku Shakai: event is certain; official source contains a contradictory ticket end year, so do not copy that ticket window.
+          p,d=load('ryokuoushoku_shakai')
+          tid='ryokuoushoku_shakai_musubi_no_yumebanchi_2026'
+          append_unique(d['tours'],{'id':tid,'artistId':'ryokuoushoku_shakai','title':'結びの夢番地2026','startDate':'2026-12-12T00:00:00+09:00','endDate':'2026-12-12T00:00:00+09:00','prices':None,'source':'system','sourceUrl':'https://www.sonymusic.co.jp/artist/ryokusyaka/info/586176','lastVerifiedAt':VERIFIED})
+          append_unique(d['performances'],{'id':'ryokuoushoku_shakai_musubi_no_yumebanchi_2026_1212','tourId':tid,'venue':'広島県立ふくやま産業交流館 ビッグ・ローズ','performanceAt':'2026-12-12T12:00:00+09:00','doorOpenAt':None,'kind':'fes','eventName':'結びの夢番地2026','source':'system','sourceUrl':'https://www.sonymusic.co.jp/artist/ryokusyaka/info/586176','lastVerifiedAt':VERIFIED,'performanceDate':'2026-12-12','performanceTimeEstimated':True})
+          save(p,d)
+
+          mp=Path('data/manifest.json'); m=json.loads(mp.read_text())
+          for a in ['nogizaka46','sakurazaka46','ryokuoushoku_shakai']:
+              raw=(Path('data/artist')/f'{a}.json').read_bytes(); m['artists'][a]['hash']=hashlib.sha256(raw).hexdigest()[:16]
+          m['version']=int(m.get('version',0))+1
+          m['updatedAt']='2026-09-12T19:45:00+09:00'
+          mp.write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n')
+          PY
+      - name: Verify intended diff only
+        shell: bash
+        run: |
+          set -euo pipefail
+          git status --short
+          actual="$(git status --short | awk '{print $2}' | sort)"
+          expected="$(printf '%s\n' data/artist/nogizaka46.json data/artist/sakurazaka46.json data/artist/ryokuoushoku_shakai.json data/manifest.json | sort)"
+          test "$actual" = "$expected"
+      - name: Commit audited rescue
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add data/artist/nogizaka46.json data/artist/sakurazaka46.json data/artist/ryokuoushoku_shakai.json data/manifest.json
+          git commit -m 'update: rescue secondary audited ticket omissions'
+          git push origin HEAD:audit/monitoring-coverage-20260912
+      - run: git status --short
