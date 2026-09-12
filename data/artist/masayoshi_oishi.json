@@ -494,6 +494,17 @@
         "officialTitle": "オーイシ横アリ ～オーイシマサヨシ ワンマンライブ at 横浜アリーナ～",
         "mirrored": true
       }
+    },
+    {
+      "id": "masayoshi_oishi_suga_shikao_acoustic_supernova_sendai_2027",
+      "artistId": "masayoshi_oishi",
+      "title": "スガ シカオ 30th ANNIVERSARY TOUR 2027 “ACOUSTIC SUPERNOVA” 宮城公演",
+      "startDate": "2027-01-30T00:00:00+09:00",
+      "endDate": "2027-01-30T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7933",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -1045,6 +1056,18 @@
         "sourceArtistId": "oishi_masayoshi",
         "sourceId": "oishi_masayoshi_oishi_yokoari_2027_day2_0228"
       }
+    },
+    {
+      "id": "masayoshi_oishi_suga_shikao_acoustic_supernova_sendai_2027_0130",
+      "tourId": "masayoshi_oishi_suga_shikao_acoustic_supernova_sendai_2027",
+      "venue": "トークネットホール仙台",
+      "performanceAt": "2027-01-30T18:00:00+09:00",
+      "doorOpenAt": "2027-01-30T17:00:00+09:00",
+      "kind": "fes",
+      "eventName": "スガ シカオ 30th ANNIVERSARY TOUR 2027 “ACOUSTIC SUPERNOVA” 宮城公演",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7933",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     }
   ],
   "lotteries": [

@@ -1,6 +1,6 @@
 {
-  "version": 211,
-  "updatedAt": "2026-09-13T00:05:14+09:00",
+  "version": 212,
+  "updatedAt": "2026-09-13T00:08:32+09:00",
   "files": {
     "artists": {
       "hash": "ca8c2f6af3633f17"
@@ -224,7 +224,7 @@
       "hash": "92d3f7b197f3363c"
     },
     "jo1": {
-      "hash": "281ea534a2bb1930"
+      "hash": "b3763982a2302399"
     },
     "kroi": {
       "hash": "5db0d7f3626c2a2e"
@@ -344,10 +344,10 @@
       "hash": "5fedfc7434269285"
     },
     "masayoshi_oishi": {
-      "hash": "27c54a96c652f233"
+      "hash": "a9f86d6479c65b7c"
     },
     "oishi_masayoshi": {
-      "hash": "51878c7337c93975"
+      "hash": "a2fb85093c36f46a"
     },
     "spyair": {
       "hash": "2a80b66e5efb51ff"

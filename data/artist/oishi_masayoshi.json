@@ -494,6 +494,61 @@
         "officialTitle": "大石武道館 ～大石昌良 弾き語りワンマンライブ at 日本武道館～",
         "mirrored": true
       }
+    },
+    {
+      "id": "oishi_masayoshi_bunkyo_aidsai_2026",
+      "artistId": "oishi_masayoshi",
+      "title": "文教大学 越谷キャンパス 第59回藍蓼祭「オーイシマサヨシ Special Live in 文教大学」",
+      "startDate": "2026-10-30T00:00:00+09:00",
+      "endDate": "2026-10-30T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/news/7669",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "oishi_masayoshi_ehime_culture_fes_2026",
+      "artistId": "oishi_masayoshi",
+      "title": "愛媛県 県民総合文化祭 総合フェスティバル2026 愛顔えひめの文化祭2028 2年前プレイベント",
+      "startDate": "2026-10-31T00:00:00+09:00",
+      "endDate": "2026-10-31T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7918",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "oishi_masayoshi_nfu_festival_2026",
+      "artistId": "oishi_masayoshi",
+      "title": "日本福祉大学 美浜キャンパス 第74回福祉大学祭「オーイシマサヨシ Special LIVE」",
+      "startDate": "2026-11-07T00:00:00+09:00",
+      "endDate": "2026-11-07T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/news/7669",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "oishi_masayoshi_hyper_game_final_day1_2026",
+      "artistId": "oishi_masayoshi",
+      "title": "配信者ハイパーゲーム大会 FINAL [DAY1]",
+      "startDate": "2026-11-28T00:00:00+09:00",
+      "endDate": "2026-11-28T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://lp.openrec.jp/hyper-game-event-final/",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "oishi_masayoshi_hyper_game_final_day2_2026",
+      "artistId": "oishi_masayoshi",
+      "title": "配信者ハイパーゲーム大会 FINAL [DAY2]",
+      "startDate": "2026-11-29T00:00:00+09:00",
+      "endDate": "2026-11-29T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://lp.openrec.jp/hyper-game-event-final/",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -913,6 +968,72 @@
         "sourceArtistId": "masayoshi_oishi",
         "sourceId": "masayoshi_oishi_budokan_0923_20260923"
       }
+    },
+    {
+      "id": "oishi_masayoshi_bunkyo_aidsai_2026_1030",
+      "tourId": "oishi_masayoshi_bunkyo_aidsai_2026",
+      "venue": "文教大学 越谷キャンパス 体育館2階メインアリーナ",
+      "performanceAt": "2026-10-30T15:00:00+09:00",
+      "doorOpenAt": "2026-10-30T14:00:00+09:00",
+      "kind": "fes",
+      "eventName": "文教大学 越谷キャンパス 第59回藍蓼祭「オーイシマサヨシ Special Live in 文教大学」",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/news/7669",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "oishi_masayoshi_ehime_culture_fes_2026_1031",
+      "tourId": "oishi_masayoshi_ehime_culture_fes_2026",
+      "venue": "愛媛県県民文化会館メインホール",
+      "performanceAt": "2026-10-31T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "愛媛県 県民総合文化祭 総合フェスティバル2026 愛顔えひめの文化祭2028 2年前プレイベント",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7918",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00",
+      "performanceDate": "2026-10-31",
+      "performanceTimeEstimated": true
+    },
+    {
+      "id": "oishi_masayoshi_nfu_festival_2026_1107",
+      "tourId": "oishi_masayoshi_nfu_festival_2026",
+      "venue": "日本福祉大学 美浜キャンパス 文化ホール",
+      "performanceAt": "2026-11-07T13:30:00+09:00",
+      "doorOpenAt": "2026-11-07T13:00:00+09:00",
+      "kind": "fes",
+      "eventName": "日本福祉大学 美浜キャンパス 第74回福祉大学祭「オーイシマサヨシ Special LIVE」",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/news/7669",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "oishi_masayoshi_hyper_game_final_day1_2026_1128",
+      "tourId": "oishi_masayoshi_hyper_game_final_day1_2026",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-11-28T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "配信者ハイパーゲーム大会 FINAL [DAY1]",
+      "source": "system",
+      "sourceUrl": "https://lp.openrec.jp/hyper-game-event-final/",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00",
+      "performanceDate": "2026-11-28",
+      "performanceTimeEstimated": true
+    },
+    {
+      "id": "oishi_masayoshi_hyper_game_final_day2_2026_1129",
+      "tourId": "oishi_masayoshi_hyper_game_final_day2_2026",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-11-29T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "配信者ハイパーゲーム大会 FINAL [DAY2]",
+      "source": "system",
+      "sourceUrl": "https://lp.openrec.jp/hyper-game-event-final/",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00",
+      "performanceDate": "2026-11-29",
+      "performanceTimeEstimated": true
     }
   ],
   "lotteries": [
