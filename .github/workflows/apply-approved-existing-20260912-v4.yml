@@ -1,0 +1,90 @@
+name: Apply approved existing updates v4
+on:
+  push:
+    branches: [audit/rescue-missing-performances-20260912]
+    paths: ['.github/workflows/apply-approved-existing-20260912-v4.yml']
+permissions:
+  contents: write
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audit/rescue-missing-performances-20260912
+          fetch-depth: 0
+      - name: Apply
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          ROOT=Path('data/artist'); NOW='2026-09-12T00:00:00+09:00'
+          def ld(a):
+              p=ROOT/f'{a}.json'; return p,json.loads(p.read_text())
+          def sv(p,d): p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')
+          def tmap(d): return {t['id']:t for t in d.get('tours',[])}
+          def pick(d,dates,token=None):
+              tm=tmap(d); out=[]
+              for date in dates:
+                  m=[x for x in d.get('performances',[]) if (x.get('performanceAt') or '').startswith(date)]
+                  if token is not None: m=[x for x in m if token.lower() in (tm.get(x.get('tourId'),{}).get('title') or '').lower()]
+                  if not m: raise SystemExit('missing performance '+d.get('artistId','')+' '+date+' '+str(token))
+                  out+=m
+              tids={x['tourId'] for x in out}
+              if len(tids)!=1: raise SystemExit('ambiguous tour '+d.get('artistId','')+' '+str(dates)+' '+str(tids))
+              return next(iter(tids)),out
+          def add(d,lid,tid,typ,start,end,ps,url,result=None,pstart=None,pend=None):
+              ids=[x['id'] for x in ps]; ls=d.setdefault('lotteries',[])
+              for l in ls:
+                  if l.get('id')==lid: return
+                  if l.get('entryStartAt')==start and l.get('entryEndAt')==end and sorted(l.get('performanceIds') or [])==sorted(ids): return
+              ls.append({'id':lid,'tourId':tid,'type':typ,'entryStartAt':start,'entryEndAt':end,'resultAt':result,'paymentStartAt':pstart,'paymentEndAt':pend,'performanceIds':ids,'source':'system','sourceUrl':url,'lastVerifiedAt':NOW})
+          def one(a,dates,lid,typ,start,end,url,token=None,result=None,pstart=None,pend=None):
+              p,d=ld(a); tid,ps=pick(d,dates,token); add(d,lid,tid,typ,start,end,ps,url,result,pstart,pend); sv(p,d)
+
+          one('hinatazaka46',['2026-10-06','2026-10-07'],'hinatazaka46_18th_live_official_presale_20260907','オフィシャル先行','2026-09-07T12:00:00+09:00','2026-09-09T23:59:00+09:00','https://www.hinatazaka46.com/s/official/news/detail/E00911?ima=0000','18th')
+          one('bump_of_chicken',['2027-01-23','2027-01-24','2027-02-06','2027-02-07'],'bump_ratio_clavis_dome_silver_week_20260911','Silver Weekスペシャル先行','2026-09-11T18:00:00+09:00','2026-09-27T23:59:00+09:00','https://www.toysfactory.co.jp/artist/bumpofchicken/news/detail/7408','ratio clavis')
+          for a,date in [('ae_group','2026-11-21'),('novelbright','2026-11-21'),('monaki','2026-11-23'),('jo1','2026-11-21')]:
+              one(a,[date],a+'_dreamfestival_2026_second_presale','2次先行','2026-09-07T12:00:00+09:00','2026-09-13T23:59:00+09:00','https://dreamfestival.jp/information/')
+          one('frederic',['2026-10-12'],'frederic_umimoyasu_2026_trade','公式チケットトレード','2026-09-10T12:00:00+09:00','2026-10-11T11:59:00+09:00','https://frederic-official.com/news/detail/3748','umimoyasu')
+          one('kroi',['2026-09-22','2026-09-23'],'kroi_jungle_tokyo_2f_standing_20260905','2Fスタンディング追加先着販売','2026-09-05T19:30:00+09:00',None,'https://kroi.net/news/detail/89244','kroi live tour 2026')
+          one('miura_daichi',['2026-09-12','2026-09-13'],'miura_daichi_misato_production_seat_20260908','制作席追加先着販売','2026-09-08T18:00:00+09:00',None,'https://daichi-miura.jp/news/detail/1097')
+          one('miura_daichi',['2026-09-12','2026-09-13'],'miura_daichi_misato_equipment_same_day_20260911','機材席・当日引換券先着販売','2026-09-11T18:00:00+09:00',None,'https://daichi-miura.jp/news/detail/1099')
+          one('illit',['2026-12-23','2026-12-24','2026-12-26','2026-12-27'],'illit_press_start_encore_lawson_20260907','ローソンチケット先行','2026-09-07T17:00:00+09:00','2026-09-15T23:59:00+09:00','https://www.illit-official.jp/','press start')
+          for a,date in [('niziu','2026-09-22'),('ado','2026-09-23'),('equal_love','2026-09-22')]: one(a,[date],a+'_inkigayo_general_20260910','一般発売（先着）','2026-09-10T12:00:00+09:00',None,'https://inkigayo-live.jp/','inkigayo')
+          one('mr_children',['2026-10-03','2026-10-04'],'mr_children_saturday_park_fukui_final_20260911','福井公演 最終抽選券受付','2026-09-11T19:00:00+09:00','2026-09-27T23:59:00+09:00','https://tour.mrchildren.jp/index.html','saturday in the park','2026-10-02T20:30:00+09:00')
+          one('yoasobi',['2026-10-24','2026-10-25'],'yoasobi_chowakusei_osaka_lawson_prerequest_20260908','ローソン プレリク先行','2026-09-08T12:00:00+09:00','2026-09-15T23:59:00+09:00','https://l-tike.com/order/?gLcode=56728&gPfKey=20251224000002109688','超惑星','2026-09-18T15:00:00+09:00')
+          one('idolish7',['2026-09-13'],'idolish7_4ward_fukuoka_additional_general_20260910','追加一般発売','2026-09-10T18:00:00+09:00','2026-09-12T23:59:00+09:00','https://idolish7.com/4j/news/xbw60gvl4lcu/','4ward journey')
+          one('idolish7',['2026-09-13'],'idolish7_4ward_fukuoka_same_day_conditional_20260913','当日券（残席がある場合）','2026-09-13T00:00:00+09:00',None,'https://idolish7.com/4j/news/xbw60gvl4lcu/','4ward journey')
+          one('xg',['2027-02-10','2027-02-11','2027-02-27','2027-02-28'],'xg_the_core_final_presale_20260907','チケット先行抽選','2026-09-07T15:00:00+09:00','2026-09-14T23:59:00+09:00','https://www.xgalx.com/xg/news/detail.php?id=1135785','the core final','2026-09-19T15:00:00+09:00','2026-09-19T15:00:00+09:00','2026-09-24T23:59:00+09:00')
+
+          p,d=ld('hana'); tid,_=pick(d,['2026-09-16'],'born to bloom')
+          for date,start,end,suf in [('2026-09-16','2026-09-11T21:00:00+09:00','2026-09-16T18:30:00+09:00','osaka_0916'),('2026-09-17','2026-09-12T21:00:00+09:00','2026-09-17T18:30:00+09:00','osaka_0917'),('2026-10-29','2026-10-24T21:00:00+09:00','2026-10-29T18:30:00+09:00','budokan_1029'),('2026-10-30','2026-10-25T21:00:00+09:00','2026-10-30T18:30:00+09:00','budokan_1030'),('2026-10-31','2026-10-26T21:00:00+09:00','2026-10-31T17:00:00+09:00','budokan_1031')]:
+              tid2,ps=pick(d,[date],'born to bloom'); add(d,'hana_born_to_bloom_resale_'+suf,tid2,'公式リセール購入',start,end,ps,'https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom-resale-2/')
+          sv(p,d)
+
+          p,d=ld('candy_tune')
+          for date,start,end,suf in [('2026-09-19','2026-09-17T10:00:00+09:00','2026-09-18T23:59:00+09:00','matsudo_0919'),('2026-12-08','2026-12-06T10:00:00+09:00','2026-12-07T23:59:00+09:00','tokyo_1208'),('2026-12-09','2026-12-07T10:00:00+09:00','2026-12-08T23:59:00+09:00','tokyo_1209')]:
+              tid,ps=pick(d,[date],'candy circus'); add(d,'candy_tune_candy_circus_resale_'+suf,tid,'公式リセール',start,end,ps,tmap(d)[tid].get('sourceUrl') or 'https://candytune.asobisystem.com/')
+          sv(p,d)
+
+          p,d=ld('04_limited_sazabys'); ms=[t for t in d.get('tours',[]) if 'view' in (t.get('title') or '').lower() and len([x for x in d.get('performances',[]) if x.get('tourId')==t['id']])==9]
+          if len(ms)!=1: raise SystemExit('04 view tour ambiguous '+str([t.get('title') for t in ms]))
+          ms[0]['title']='04 Limited Sazabys VIEW tour 2026'; ms[0]['sourceUrl']='https://www.04limitedsazabys.com/feature/view'; ms[0]['lastVerifiedAt']=NOW; sv(p,d)
+
+          p,d=ld('10_feet'); tid,ps=pick(d,['2026-10-14'],'261014'); add(d,'10_feet_fad30_261014_eplus_preorder',tid,'e+プレオーダー','2026-08-17T18:00:00+09:00','2026-08-23T23:59:00+09:00',ps,'https://eplus.jp/sf/detail/4581460001-P0030001P021001?P6=001'); add(d,'10_feet_fad30_261014_general',tid,'一般発売（先着）','2026-09-05T10:00:00+09:00','2026-10-13T18:00:00+09:00',ps,'https://eplus.jp/sf/detail/4581460001-P0030001P021001?P6=001'); sv(p,d)
+          PY
+      - run: python3 tools/materialize_artist_live_relations.py
+      - run: python3 tools/update_manifest.py
+      - run: python3 tools/validate.py
+      - name: Commit
+        run: |
+          set -euo pipefail
+          git status --short
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/artist/04_limited_sazabys.json data/artist/10_feet.json data/artist/ado.json data/artist/ae_group.json data/artist/bump_of_chicken.json data/artist/candy_tune.json data/artist/equal_love.json data/artist/frederic.json data/artist/hana.json data/artist/hinatazaka46.json data/artist/idolish7.json data/artist/illit.json data/artist/jo1.json data/artist/kroi.json data/artist/miura_daichi.json data/artist/monaki.json data/artist/mr_children.json data/artist/niziu.json data/artist/novelbright.json data/artist/xg.json data/artist/yoasobi.json data/manifest.json
+          git diff --cached --quiet && exit 0
+          git commit -m 'update: apply weekly approved ticket updates batch 1'
+          git push origin HEAD:audit/rescue-missing-performances-20260912
