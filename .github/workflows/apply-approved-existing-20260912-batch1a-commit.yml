@@ -1,0 +1,64 @@
+name: Apply approved existing updates batch1a commit
+on:
+  push:
+    branches: [audit/rescue-missing-performances-20260912]
+    paths: ['.github/workflows/apply-approved-existing-20260912-batch1a-commit.yml']
+permissions:
+  contents: write
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {ref: audit/rescue-missing-performances-20260912, fetch-depth: 0}
+      - name: Apply and rebuild manifest
+        run: |
+          python3 - <<'PY'
+          import json,hashlib
+          from pathlib import Path
+          from datetime import datetime,timezone,timedelta
+          R=Path('data/artist'); NOW='2026-09-12T00:00:00+09:00'
+          def ld(a): p=R/f'{a}.json'; return p,json.loads(p.read_text())
+          def sv(p,d): p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')
+          def pick(d,dates,token=None):
+              tm={t['id']:t for t in d.get('tours',[])}; out=[]
+              for date in dates:
+                  m=[x for x in d.get('performances',[]) if (x.get('performanceAt') or '').startswith(date)]
+                  if token: m=[x for x in m if token.lower() in (tm.get(x.get('tourId'),{}).get('title') or '').lower()]
+                  if not m: raise SystemExit(f'missing {d.get("artistId")} {date} {token}')
+                  out+=m
+              tids={x['tourId'] for x in out}
+              if len(tids)!=1: raise SystemExit(f'ambiguous {d.get("artistId")} {dates} {tids}')
+              return next(iter(tids)),out
+          def add(d,lid,tid,typ,start,end,ps,url):
+              ids=[x['id'] for x in ps]; ls=d.setdefault('lotteries',[])
+              if any(l.get('id')==lid or (l.get('entryStartAt')==start and l.get('entryEndAt')==end and sorted(l.get('performanceIds') or [])==sorted(ids)) for l in ls): return
+              ls.append({'id':lid,'tourId':tid,'type':typ,'entryStartAt':start,'entryEndAt':end,'resultAt':None,'paymentStartAt':None,'paymentEndAt':None,'performanceIds':ids,'source':'system','sourceUrl':url,'lastVerifiedAt':NOW})
+          def one(a,dates,lid,typ,start,end,url,token=None):
+              p,d=ld(a); tid,ps=pick(d,dates,token); add(d,lid,tid,typ,start,end,ps,url); sv(p,d)
+          one('hinatazaka46',['2026-10-06','2026-10-07'],'hinatazaka46_18th_live_official_presale_20260907','オフィシャル先行','2026-09-07T12:00:00+09:00','2026-09-09T23:59:00+09:00','https://www.hinatazaka46.com/s/official/news/detail/E00911?ima=0000','18th')
+          one('bump_of_chicken',['2027-01-23','2027-01-24','2027-02-06','2027-02-07'],'bump_ratio_clavis_dome_silver_week_20260911','Silver Weekスペシャル先行','2026-09-11T18:00:00+09:00','2026-09-27T23:59:00+09:00','https://www.toysfactory.co.jp/artist/bumpofchicken/news/detail/7408','ratio clavis')
+          for a,date in [('ae_group','2026-11-21'),('novelbright','2026-11-21'),('monaki','2026-11-23')]: one(a,[date],a+'_dreamfestival_2026_second_presale','2次先行','2026-09-07T12:00:00+09:00','2026-09-13T23:59:00+09:00','https://dreamfestival.jp/information/')
+          one('frederic',['2026-10-12'],'frederic_umimoyasu_2026_trade','公式チケットトレード','2026-09-10T12:00:00+09:00','2026-10-11T11:59:00+09:00','https://frederic-official.com/news/detail/3748','umimoyasu')
+          one('kroi',['2026-09-22','2026-09-23'],'kroi_jungle_tokyo_2f_standing_20260905','2Fスタンディング追加先着販売','2026-09-05T19:30:00+09:00',None,'https://kroi.net/news/detail/89244','kroi live tour 2026')
+          one('miura_daichi',['2026-09-12','2026-09-13'],'miura_daichi_misato_production_seat_20260908','制作席追加先着販売','2026-09-08T18:00:00+09:00',None,'https://daichi-miura.jp/news/detail/1097')
+          one('miura_daichi',['2026-09-12','2026-09-13'],'miura_daichi_misato_equipment_same_day_20260911','機材席・当日引換券先着販売','2026-09-11T18:00:00+09:00',None,'https://daichi-miura.jp/news/detail/1099')
+          data=Path('data'); mp=data/'manifest.json'; m=json.loads(mp.read_text())
+          def h16(p): return hashlib.sha256(p.read_bytes()).hexdigest()[:16]
+          m['version']=int(m.get('version',0))+1; m['updatedAt']=datetime.now(timezone(timedelta(hours=9))).strftime('%Y-%m-%dT%H:%M:%S+09:00')
+          m.setdefault('files',{}).setdefault('artists',{})['hash']=h16(data/'artists.json')
+          hs={p.stem:h16(p) for p in sorted((data/'artist').glob('*.json'))}; m.setdefault('artists',{})
+          for a,h in hs.items(): m['artists'].setdefault(a,{})['hash']=h
+          for a in list(m['artists']):
+              if a not in hs: del m['artists'][a]
+          mp.write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n')
+          PY
+      - name: Commit data only
+        run: |
+          set -euo pipefail
+          git status --short
+          git config user.name 'github-actions[bot]'; git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/artist/hinatazaka46.json data/artist/bump_of_chicken.json data/artist/ae_group.json data/artist/novelbright.json data/artist/monaki.json data/artist/frederic.json data/artist/kroi.json data/artist/miura_daichi.json data/manifest.json
+          git diff --cached --quiet && exit 0
+          git commit -m 'update: apply weekly approved ticket updates batch 1a'
+          git push origin HEAD:audit/rescue-missing-performances-20260912
