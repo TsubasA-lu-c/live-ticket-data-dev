@@ -1,0 +1,35 @@
+name: Materialize Oishi relations 20260913
+on:
+  push:
+    branches: [audit/rescue-missing-performances-20260912]
+    paths: ['.github/workflows/materialize-oishi-relations-20260913.yml']
+permissions:
+  contents: write
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Materialize approved artist relations and refresh manifest
+        run: |
+          set -euo pipefail
+          tmp="$RUNNER_TEMP/collector"
+          git clone --quiet --branch audit/monitor-coverage-20260912 --single-branch https://github.com/TsubasA-lu-c/chatgpt-workspace.git "$tmp"
+          cp "$tmp/live-ticket-collector/source/tools/materialize_artist_live_relations.py" tools/materialize_artist_live_relations.py
+          cp "$tmp/live-ticket-collector/source/tools/update_manifest.py" tools/update_manifest.py
+          python3 tools/materialize_artist_live_relations.py --data-dir data
+          python3 tools/update_manifest.py
+          git diff --check
+          git diff -- data/artist/masayoshi_oishi.json data/artist/oishi_masayoshi.json data/manifest.json
+      - name: Commit data repair only
+        run: |
+          set -euo pipefail
+          git add -- data/artist/masayoshi_oishi.json data/artist/oishi_masayoshi.json data/manifest.json
+          if git diff --cached --quiet; then
+            echo 'No materialization changes needed'
+            exit 0
+          fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'data: materialize approved artist relations'
+          git push origin HEAD:audit/rescue-missing-performances-20260912
