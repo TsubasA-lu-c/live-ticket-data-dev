@@ -1,6 +1,11 @@
 name: Fix Masayoshi Oishi Suga Shikao performance kind
 
 on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/fix-masayoshi-oishi-suga-kind-20270130.yml'
   push:
     branches:
       - fix/masayoshi-oishi-suga-kind-20270130
