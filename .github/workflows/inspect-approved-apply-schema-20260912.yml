@@ -1,0 +1,37 @@
+name: Inspect approved apply schema 20260912
+on:
+  push:
+    branches: [audit/rescue-missing-performances-20260912]
+    paths: ['.github/workflows/inspect-approved-apply-schema-20260912.yml']
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: [self-hosted, macOS, ARM64]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          clean: false
+      - name: Inspect branch and representative data
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo 'HEAD:' $(git rev-parse HEAD)
+          echo 'STATUS:'
+          git status --short
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          ids=['mr_children','bump_of_chicken','yoasobi','fruits_zipper','spitz','vaundy','sakurazaka46','hana']
+          for aid in ids:
+              p=Path('data/artist')/f'{aid}.json'
+              d=json.loads(p.read_text())
+              print('\n===',aid,'===')
+              print('top keys', list(d.keys()))
+              for k in ['tours','performances','lotteries','applications','ticketApplications']:
+                  v=d.get(k)
+                  if isinstance(v,list):
+                      print(k,'count',len(v))
+                      if v: print(k,'sample',json.dumps(v[-1],ensure_ascii=False))
+          PY
