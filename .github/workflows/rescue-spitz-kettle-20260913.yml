@@ -1,0 +1,67 @@
+name: Rescue Spitz kettle 20260913
+on:
+  push:
+    branches: ['audit/rescue-missing-performances-20260912']
+    paths: ['.github/workflows/rescue-spitz-kettle-20260913.yml']
+permissions:
+  contents: write
+jobs:
+  rescue:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Add official 28-performance tour
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import hashlib,json
+          from datetime import datetime,timezone,timedelta
+          from pathlib import Path
+          p=Path('data/artist/spitz.json'); d=json.loads(p.read_text())
+          tid='spitz_jamboree_tour_2027_kettle'
+          source='https://spitz-web.com/live/202701/'
+          schedule=[
+          ('03-06','横浜アリーナ'),('03-07','横浜アリーナ'),('03-13','LaLa arena TOKYO-BAY'),('03-14','LaLa arena TOKYO-BAY'),
+          ('03-20','長野ビッグハット'),('03-21','長野ビッグハット'),('03-27','マリンメッセ福岡A館'),('03-28','マリンメッセ福岡A館'),
+          ('04-03','広島グリーンアリーナ'),('04-04','広島グリーンアリーナ'),('04-10','北海きたえーる'),('04-11','北海きたえーる'),
+          ('04-17','沖縄サントリーアリーナ'),('04-18','沖縄サントリーアリーナ'),('04-24','静岡エコパアリーナ'),('04-25','静岡エコパアリーナ'),
+          ('05-01','宮城・セキスイハイムスーパーアリーナ(グランディ21)'),('05-02','宮城・セキスイハイムスーパーアリーナ(グランディ21)'),
+          ('05-11','有明アリーナ'),('05-12','有明アリーナ'),('05-15','あなぶきアリーナ香川'),('05-16','あなぶきアリーナ香川'),
+          ('05-25','大阪城ホール'),('05-26','大阪城ホール'),('06-01','大阪城ホール'),('06-02','大阪城ホール'),
+          ('06-19','クロコくんホール'),('06-20','クロコくんホール')]
+          assert len(schedule)==28
+          if not any(x['id']==tid for x in d['tours']):
+              d['tours'].append({'id':tid,'artistId':'spitz','title':'SPITZ JAMBOREE TOUR 2027 "kettle"','startDate':'2027-03-06T12:00:00+09:00','endDate':'2027-06-20T12:00:00+09:00','prices':[],'source':'system','sourceUrl':source,'lastVerifiedAt':'2026-09-13T00:00:00+09:00'})
+          existing={x['id'] for x in d['performances']}
+          for md,venue in schedule:
+              date='2027-'+md
+              pid=f'{tid}_{md.replace("-","")}'
+              if pid in existing: continue
+              d['performances'].append({'id':pid,'tourId':tid,'venue':venue,'performanceAt':date+'T12:00:00+09:00','performanceDate':date,'performanceTimeEstimated':True,'doorOpenAt':None,'kind':'oneman','eventName':'SPITZ JAMBOREE TOUR 2027 "kettle"','source':'system','sourceUrl':source,'lastVerifiedAt':'2026-09-13T00:00:00+09:00'})
+          p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')
+          mpath=Path('data/manifest.json'); m=json.loads(mpath.read_text())
+          def h16(x): return hashlib.sha256(x.read_bytes()).hexdigest()[:16]
+          m['version']=int(m['version'])+1
+          JST=timezone(timedelta(hours=9)); m['updatedAt']=datetime.now(JST).strftime('%Y-%m-%dT%H:%M:%S+09:00')
+          m['files']['artists']['hash']=h16(Path('data/artists.json'))
+          for fp in Path('data/artist').glob('*.json'): m['artists'].setdefault(fp.stem,{})['hash']=h16(fp)
+          mpath.write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n')
+          PY
+          python3 - <<'PY'
+          import json
+          d=json.load(open('data/artist/spitz.json'))
+          ps=[x for x in d['performances'] if x['tourId']=='spitz_jamboree_tour_2027_kettle']
+          assert len(ps)==28
+          assert ps[0]['performanceDate']=='2027-03-06' and ps[-1]['performanceDate']=='2027-06-20'
+          assert all(x['performanceTimeEstimated'] is True for x in ps)
+          print('Spitz kettle rescue sanity: PASS',len(ps))
+          PY
+      - name: Commit data only
+        shell: bash
+        run: |
+          set -euo pipefail
+          git status --short
+          git add -- data/artist/spitz.json data/manifest.json
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'data: add SPITZ JAMBOREE TOUR 2027 kettle'
+          git push origin HEAD:audit/rescue-missing-performances-20260912
