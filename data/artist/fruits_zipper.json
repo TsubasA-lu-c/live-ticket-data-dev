@@ -774,8 +774,9 @@
       "source": "system",
       "sourceUrl": "https://fruitszipper.asobisystem.com/live_information/schedule/list/?month=11&viewMode=default&year=2026",
       "lastVerifiedAt": "2026-09-12T00:00:00+09:00",
-      "kind": "festival",
-      "performanceTimeEstimated": true
+      "kind": "fes",
+      "performanceTimeEstimated": true,
+      "performanceDate": "2026-11-07"
     },
     {
       "id": "fruits_zipper_gift_2026_1127",
@@ -786,8 +787,9 @@
       "source": "system",
       "sourceUrl": "https://fruitszipper.asobisystem.com/live_information/schedule/list/?month=11&viewMode=default&year=2026",
       "lastVerifiedAt": "2026-09-12T00:00:00+09:00",
-      "kind": "festival",
-      "performanceTimeEstimated": true
+      "kind": "fes",
+      "performanceTimeEstimated": true,
+      "performanceDate": "2026-11-27"
     },
     {
       "id": "fruits_zipper_gift_2026_1129",
@@ -798,8 +800,9 @@
       "source": "system",
       "sourceUrl": "https://fruitszipper.asobisystem.com/live_information/schedule/list/?month=11&viewMode=default&year=2026",
       "lastVerifiedAt": "2026-09-12T00:00:00+09:00",
-      "kind": "festival",
-      "performanceTimeEstimated": true
+      "kind": "fes",
+      "performanceTimeEstimated": true,
+      "performanceDate": "2026-11-29"
     }
   ],
   "lotteries": [
