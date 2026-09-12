@@ -1536,6 +1536,25 @@
         "xg_world_tour_the_core_final_2027_osaka_0227",
         "xg_world_tour_the_core_final_2027_osaka_0228"
       ]
+    },
+    {
+      "id": "xg_world_tour_the_core_final_2027_official_presale",
+      "tourId": "xg_world_tour_the_core_final_2027",
+      "type": "オフィシャル先行（抽選）",
+      "entryStartAt": "2026-09-07T15:00:00+09:00",
+      "entryEndAt": "2026-09-14T23:59:00+09:00",
+      "resultAt": "2026-09-19T15:00:00+09:00",
+      "paymentStartAt": "2026-09-19T15:00:00+09:00",
+      "paymentEndAt": "2026-09-24T23:59:00+09:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_final_2027_tokyo_0210",
+        "xg_world_tour_the_core_final_2027_tokyo_0211",
+        "xg_world_tour_the_core_final_2027_osaka_0227",
+        "xg_world_tour_the_core_final_2027_osaka_0228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.xgalx.com/xg/news/detail.php?id=1135785",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
