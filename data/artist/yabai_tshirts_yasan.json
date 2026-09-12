@@ -285,10 +285,15 @@
       "title": "ヤングスキニー「老いてもヤングスキニーツアー vol.7」",
       "startDate": "2027-02-04T00:00:00+09:00",
       "endDate": "2027-02-04T00:00:00+09:00",
-      "prices": null,
+      "prices": [
+        {
+          "label": "前売",
+          "amount": 5500
+        }
+      ],
       "source": "system",
-      "sourceUrl": "https://yabaitshirtsyasan.com/1/",
-      "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/293577/",
+      "lastVerifiedAt": "2026-09-13T08:29:03+09:00"
     }
   ],
   "performances": [
@@ -783,6 +788,18 @@
       "source": "system",
       "sourceUrl": "https://yabaitshirtsyasan.com/tanktopfes2026/",
       "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_oitemo_youngskinny_vol7_2027_nara_0204",
+      "tourId": "yabai_tshirts_yasan_oitemo_youngskinny_vol7_2027_0204",
+      "venue": "EVANS CASTLE HALL",
+      "performanceAt": "2027-02-04T19:00:00+09:00",
+      "doorOpenAt": "2027-02-04T18:15:00+09:00",
+      "kind": "taiban",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/293577/",
+      "lastVerifiedAt": "2026-09-13T08:29:03+09:00"
     }
   ],
   "lotteries": [
@@ -1063,6 +1080,22 @@
       "source": "system",
       "sourceUrl": "https://yabaitshirtsyasan.com/mtp_tour/",
       "lastVerifiedAt": "2026-09-10T20:59:10+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_oitemo_youngskinny_vol7_2027_prerequest2",
+      "tourId": "yabai_tshirts_yasan_oitemo_youngskinny_vol7_2027_0204",
+      "type": "プレリクエスト2次先行",
+      "entryStartAt": "2026-08-21T12:00:00+09:00",
+      "entryEndAt": "2026-09-01T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yabai_tshirts_yasan_oitemo_youngskinny_vol7_2027_nara_0204"
+      ],
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/293577/",
+      "lastVerifiedAt": "2026-09-13T08:29:03+09:00"
     }
   ],
   "appleMusicTracks": [
