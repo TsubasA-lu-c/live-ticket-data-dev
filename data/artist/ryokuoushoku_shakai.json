@@ -58,6 +58,17 @@
       "source": "system",
       "sourceUrl": "https://www.ryokushaka.com/daiyasai2026/",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_musubi_no_yumebanchi_2026",
+      "artistId": "ryokuoushoku_shakai",
+      "title": "結びの夢番地2026",
+      "startDate": "2026-12-12T00:00:00+09:00",
+      "endDate": "2026-12-12T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.musubinoyumebanchi.jp/",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -216,6 +227,20 @@
       "source": "system",
       "sourceUrl": "https://www.ryokushaka.com/daiyasai2026/",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_musubi_no_yumebanchi_2026_fukuyama_1212",
+      "tourId": "ryokuoushoku_shakai_musubi_no_yumebanchi_2026",
+      "venue": "広島県立ふくやま産業交流館 ビッグ・ローズ",
+      "performanceAt": "2026-12-12T12:00:00+09:00",
+      "performanceDate": "2026-12-12",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "結びの夢番地2026",
+      "source": "system",
+      "sourceUrl": "https://www.musubinoyumebanchi.jp/",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     }
   ],
   "lotteries": [
