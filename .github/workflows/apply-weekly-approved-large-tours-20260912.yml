@@ -1,0 +1,95 @@
+name: Apply weekly approved large tours 20260912
+on:
+  push:
+    branches: [audit/rescue-missing-performances-20260912]
+    paths: ['.github/workflows/apply-weekly-approved-large-tours-20260912.yml']
+permissions:
+  contents: write
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - name: Apply AIMYON SPITZ JO1
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          test "$(git merge-base HEAD origin/main)" = "b8366378b4f828cf27ae3b5f80d3c6945aff4710"
+          test -z "$(git status --short)"
+          python3 - <<'PY'
+          import json,hashlib
+          from pathlib import Path
+          from datetime import datetime,timezone,timedelta
+          R=Path('data/artist'); V='2026-09-12T00:00:00+09:00'
+          def load(a): p=R/f'{a}.json'; return p,json.loads(p.read_text())
+          def save(p,d): p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')
+          def dt(x): return x.get('performanceDate') or x.get('performanceAt','')[:10]
+          def addlot(d,o):
+              assert not any(x['id']==o['id'] for x in d['lotteries']),o['id']; d['lotteries'].append(o)
+          def lot(i,tid,typ,s,e,pids,u,result=None): return {'id':i,'tourId':tid,'type':typ,'entryStartAt':s,'entryEndAt':e,'resultAt':result,'paymentStartAt':None,'paymentEndAt':None,'performanceIds':pids,'source':'system','sourceUrl':u,'lastVerifiedAt':V}
+
+          # AIMYON: exact times for all existing 36 dates + 4 presales
+          p,d=load('aimyon'); tid='aimyon_tour_2027'; ps=[x for x in d['performances'] if x['tourId']==tid]; assert len(ps)==36,len(ps)
+          schedule={
+          '2027-02-06':('17:00','18:00'),'2027-02-07':('16:00','17:00'),'2027-02-13':('17:00','18:00'),'2027-02-14':('16:00','17:00'),'2027-02-20':('17:00','18:00'),'2027-02-21':('16:00','17:00'),
+          '2027-03-13':('16:30','18:00'),'2027-03-14':('15:30','17:00'),'2027-03-20':('17:00','18:00'),'2027-03-21':('16:00','17:00'),'2027-03-31':('17:30','18:30'),'2027-04-01':('17:30','18:30'),
+          '2027-04-17':('17:00','18:00'),'2027-04-18':('16:00','17:00'),'2027-04-21':('17:30','18:30'),'2027-04-22':('17:30','18:30'),'2027-04-28':('17:00','18:00'),'2027-04-29':('16:00','17:00'),
+          '2027-05-02':('16:30','18:00'),'2027-05-03':('15:30','17:00'),'2027-05-12':('17:30','18:30'),'2027-05-13':('17:30','18:30'),'2027-05-29':('17:00','18:00'),'2027-05-30':('16:00','17:00'),
+          '2027-06-05':('17:00','18:00'),'2027-06-06':('16:00','17:00'),'2027-06-12':('17:00','18:00'),'2027-06-13':('16:00','17:00'),'2027-06-22':('17:30','18:30'),'2027-06-23':('17:30','18:30'),
+          '2027-06-26':('17:00','18:00'),'2027-06-27':('16:00','17:00'),'2027-07-03':('17:00','18:00'),'2027-07-04':('16:00','17:00'),'2027-07-10':('17:00','18:00'),'2027-07-11':('16:00','17:00')}
+          assert {dt(x) for x in ps}==set(schedule),(len({dt(x) for x in ps}),len(schedule))
+          src='https://www.aimyong.net/feature/tour2027'
+          for x in ps:
+              day=dt(x); op,st=schedule[day]; x['doorOpenAt']=f'{day}T{op}:00+09:00'; x['performanceAt']=f'{day}T{st}:00+09:00'; x.pop('performanceTimeEstimated',None); x['sourceUrl']=src; x['lastVerifiedAt']=V
+          tour=next(x for x in d['tours'] if x['id']==tid); tour['title']='AIMYON TOUR 2027 - cosmic % -'; tour['sourceUrl']=src; tour['lastVerifiedAt']=V
+          front=[x['id'] for x in ps if dt(x)<='2027-04-29']; back=[x['id'] for x in ps if dt(x)>='2027-05-02']; assert len(front)==18 and len(back)==18
+          addlot(d,lot('aimyon_tour_2027_front_aim_presale',tid,'AIM会員優先予約','2026-10-03T12:00:00+09:00','2026-10-19T23:59:00+09:00',front,src))
+          addlot(d,lot('aimyon_tour_2027_front_cd_presale',tid,'BEST ALBUM CD封入先行予約','2026-10-21T12:00:00+09:00','2026-11-02T23:59:00+09:00',front,src))
+          addlot(d,lot('aimyon_tour_2027_back_aim_presale',tid,'AIM会員優先予約','2027-01-08T12:00:00+09:00','2027-01-18T23:59:00+09:00',back,src))
+          addlot(d,lot('aimyon_tour_2027_back_cd_presale',tid,'BEST ALBUM CD封入先行予約','2027-01-21T12:00:00+09:00','2027-01-29T23:59:00+09:00',back,src)); save(p,d)
+
+          # SPITZ: official 28-date list; no time/ticket inference
+          p,d=load('spitz'); tid='spitz_jamboree_tour_2027_kettle'; assert not any(x['id']==tid for x in d['tours'])
+          src='https://spitz-web.com/kettle/tour/schedule/'
+          sched=[
+          ('03-06','横浜アリーナ'),('03-07','横浜アリーナ'),('03-13','LaLa arena TOKYO-BAY'),('03-14','LaLa arena TOKYO-BAY'),('03-20','長野ビッグハット'),('03-21','長野ビッグハット'),('03-27','マリンメッセ福岡A館'),('03-28','マリンメッセ福岡A館'),
+          ('04-03','広島グリーンアリーナ'),('04-04','広島グリーンアリーナ'),('04-10','北海きたえーる'),('04-11','北海きたえーる'),('04-17','沖縄サントリーアリーナ'),('04-18','沖縄サントリーアリーナ'),('04-24','エコパアリーナ'),('04-25','エコパアリーナ'),
+          ('05-01','セキスイハイムスーパーアリーナ（グランディ21）'),('05-02','セキスイハイムスーパーアリーナ（グランディ21）'),('05-11','有明アリーナ'),('05-12','有明アリーナ'),('05-15','あなぶきアリーナ香川'),('05-16','あなぶきアリーナ香川'),('05-25','大阪城ホール'),('05-26','大阪城ホール'),('06-01','大阪城ホール'),('06-02','大阪城ホール'),('06-19','クロコくんホール'),('06-20','クロコくんホール')]
+          d['tours'].append({'id':tid,'artistId':'spitz','title':'SPITZ JAMBOREE TOUR 2027 “kettle”','startDate':'2027-03-06T00:00:00+09:00','endDate':'2027-06-20T00:00:00+09:00','prices':[],'source':'system','sourceUrl':src,'lastVerifiedAt':V})
+          for mmdd,venue in sched:
+              day='2027-'+mmdd; pid=tid+'_'+mmdd.replace('-',''); d['performances'].append({'id':pid,'tourId':tid,'venue':venue,'performanceAt':day+'T12:00:00+09:00','doorOpenAt':None,'source':'system','sourceUrl':src,'lastVerifiedAt':V,'kind':'oneman','performanceTimeEstimated':True})
+          save(p,d)
+
+          # JO1: actual AAO application start is unspecified; preserve deadline without misusing product reservation window
+          p,d=load('jo1'); tid='jo1_aao_showcase_tour_2026'; ps=[x for x in d['performances'] if x['tourId']==tid]; assert len(ps)==5
+          src='https://jo1.jp/news/detail/6350'; addlot(d,lot('jo1_aao_showcase_2026_entry',tid,'CD予約購入者限定エントリー',None,'2026-10-09T23:59:00+09:00',[x['id'] for x in ps],src))
+          dream=[x for x in d['performances'] if dt(x)=='2026-11-21' and 'dream' in next(t['title'] for t in d['tours'] if t['id']==x['tourId']).lower()]; assert len(dream)==1,len(dream); did=dream[0]['tourId']; dsrc=next(t['sourceUrl'] for t in d['tours'] if t['id']==did)
+          addlot(d,lot('jo1_dream_festival_2026_second_presale',did,'2次先行','2026-09-07T12:00:00+09:00','2026-09-13T23:59:00+09:00',[dream[0]['id']],dsrc)); save(p,d)
+
+          # manifest
+          mp=Path('data/manifest.json'); m=json.loads(mp.read_text()); h=lambda q:hashlib.sha256(q.read_bytes()).hexdigest()[:16]; m['version']+=1; m['updatedAt']=datetime.now(timezone(timedelta(hours=9))).strftime('%Y-%m-%dT%H:%M:%S+09:00'); m['files']['artists']['hash']=h(Path('data/artists.json'))
+          for q in R.glob('*.json'):m['artists'].setdefault(q.stem,{})['hash']=h(q)
+          mp.write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n')
+          PY
+          git diff --check
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          for aid in ['aimyon','spitz','jo1']:
+              d=json.loads((Path('data/artist')/(aid+'.json')).read_text()); tids={x['id'] for x in d['tours']}; pids={x['id'] for x in d['performances']}
+              assert len(tids)==len(d['tours']); assert len(pids)==len(d['performances'])
+              for x in d['performances']: assert x['tourId'] in tids
+              for x in d['lotteries']: assert x['tourId'] in tids and set(x.get('performanceIds') or [])<=pids
+          print('target validation OK')
+          PY
+      - name: Commit data only
+        shell: bash
+        run: |
+          set -euo pipefail
+          bad=$(git status --short | sed 's/^...//' | grep -Ev '^(data/artist/(aimyon|spitz|jo1)\.json|data/manifest\.json)$' || true); test -z "$bad" || { echo "$bad"; exit 1; }
+          git config user.name github-actions[bot]; git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add data/artist/aimyon.json data/artist/spitz.json data/artist/jo1.json data/manifest.json
+          git commit -m 'update: apply approved AIMYON SPITZ and JO1 changes'
+          git push origin HEAD:audit/rescue-missing-performances-20260912
