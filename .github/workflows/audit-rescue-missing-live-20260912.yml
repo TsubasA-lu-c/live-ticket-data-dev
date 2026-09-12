@@ -1,0 +1,141 @@
+name: Audit rescue missing live data 20260912
+on:
+  push:
+    branches: ['audit/monitoring-coverage-20260912']
+    paths: ['.github/workflows/audit-rescue-missing-live-20260912.yml']
+permissions:
+  contents: write
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audit/monitoring-coverage-20260912
+      - name: Check start status
+        run: git status --short
+      - name: Patch audited data
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import hashlib,json
+          from datetime import datetime, timezone, timedelta
+          from pathlib import Path
+
+          VERIFIED='2026-09-12T00:00:00+09:00'
+          def load(a):
+              p=Path('data/artist')/f'{a}.json'; return p,json.loads(p.read_text())
+          def save(p,d): p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')
+          def append_unique(items,obj):
+              if any(x.get('id')==obj['id'] for x in items): raise SystemExit(f"duplicate id {obj['id']}")
+              items.append(obj)
+
+          # Creepy Nuts: RIJF 2026 9/12. Exact artist slot time is not copied
+          # from third-party sources; preserve date-only semantics.
+          p,d=load('creepy_nuts')
+          tid='creepy_nuts_rock_in_japan_festival_2026'
+          append_unique(d['tours'],{
+              'id':tid,'artistId':'creepy_nuts','title':'ROCK IN JAPAN FESTIVAL 2026',
+              'startDate':'2026-09-12T00:00:00+09:00','endDate':'2026-09-12T00:00:00+09:00','prices':None,
+              'source':'system','sourceUrl':'https://rijfes.jp/2026/','lastVerifiedAt':VERIFIED})
+          append_unique(d['performances'],{
+              'id':'creepy_nuts_rijf_2026_0912','tourId':tid,'venue':'千葉市蘇我スポーツ公園',
+              'performanceAt':'2026-09-12T12:00:00+09:00','doorOpenAt':None,'kind':'fes','eventName':'ROCK IN JAPAN FESTIVAL 2026',
+              'source':'system','sourceUrl':'https://rijfes.jp/2026/artist/','lastVerifiedAt':VERIFIED,
+              'performanceDate':'2026-09-12','performanceTimeEstimated':True})
+          save(p,d)
+
+          # 10-FEET: F.A.D 30th series + Kishidan Banpaku.
+          p,d=load('10_feet')
+          fad='10_feet_fad30_261014_2026'
+          append_unique(d['tours'],{
+              'id':fad,'artistId':'10_feet','title':'F.A.D30周年シリーズ “261014”',
+              'startDate':'2026-10-14T00:00:00+09:00','endDate':'2026-10-14T00:00:00+09:00','prices':None,
+              'source':'system','sourceUrl':'https://10-feet.kyoto/contents/1101856','lastVerifiedAt':VERIFIED})
+          append_unique(d['performances'],{
+              'id':'10_feet_fad30_261014_2026_1014','tourId':fad,'venue':'F.A.D YOKOHAMA',
+              'performanceAt':'2026-10-14T19:00:00+09:00','doorOpenAt':'2026-10-14T18:15:00+09:00',
+              'kind':'taiban','eventName':'F.A.D30周年シリーズ “261014”','source':'system',
+              'sourceUrl':'https://eplus.jp/sf/detail/4581460001-P0030001P021001?P6=001','lastVerifiedAt':VERIFIED})
+          append_unique(d['lotteries'],{
+              'id':'10_feet_fad30_261014_2026_preorder','tourId':fad,'type':'プレオーダー受付（抽選）',
+              'entryStartAt':'2026-08-17T18:00:00+09:00','entryEndAt':'2026-08-23T23:59:00+09:00',
+              'resultAt':None,'paymentStartAt':None,'paymentEndAt':None,
+              'performanceIds':['10_feet_fad30_261014_2026_1014'],'source':'system',
+              'sourceUrl':'https://eplus.jp/sf/detail/4581460001-P0030001P021001?P6=001','lastVerifiedAt':VERIFIED})
+          append_unique(d['lotteries'],{
+              'id':'10_feet_fad30_261014_2026_general','tourId':fad,'type':'一般発売（先着）',
+              'entryStartAt':'2026-09-05T10:00:00+09:00','entryEndAt':'2026-10-13T18:00:00+09:00',
+              'resultAt':None,'paymentStartAt':None,'paymentEndAt':None,
+              'performanceIds':['10_feet_fad30_261014_2026_1014'],'source':'system',
+              'sourceUrl':'https://eplus.jp/sf/detail/4581460001-P0030001P021001?P6=001','lastVerifiedAt':VERIFIED})
+          kish='10_feet_kishidan_banpaku_2026'
+          append_unique(d['tours'],{
+              'id':kish,'artistId':'10_feet','title':'氣志團万博2026 ～房総爆音リゾート～',
+              'startDate':'2026-11-08T00:00:00+09:00','endDate':'2026-11-08T00:00:00+09:00','prices':None,
+              'source':'system','sourceUrl':'https://10-feet.kyoto/contents/1087996','lastVerifiedAt':VERIFIED})
+          append_unique(d['performances'],{
+              'id':'10_feet_kishidan_banpaku_2026_1108','tourId':kish,'venue':'幕張メッセ国際展示場 4～7ホール',
+              'performanceAt':'2026-11-08T12:00:00+09:00','doorOpenAt':None,'kind':'fes','eventName':'氣志團万博2026 ～房総爆音リゾート～',
+              'source':'system','sourceUrl':'https://10-feet.kyoto/contents/1087996','lastVerifiedAt':VERIFIED,
+              'performanceDate':'2026-11-08','performanceTimeEstimated':True})
+          append_unique(d['lotteries'],{
+              'id':'10_feet_kishidan_banpaku_2026_kishidan_fastest','tourId':kish,'type':'氣志團オフィシャルHP最速先行',
+              'entryStartAt':'2026-07-01T12:00:00+09:00','entryEndAt':'2026-07-20T23:59:00+09:00',
+              'resultAt':None,'paymentStartAt':None,'paymentEndAt':None,
+              'performanceIds':['10_feet_kishidan_banpaku_2026_1108'],'source':'system',
+              'sourceUrl':'https://10-feet.kyoto/contents/1087996','lastVerifiedAt':VERIFIED})
+          save(p,d)
+
+          # XG: current THE CORE FINAL official presale.
+          p,d=load('xg')
+          append_unique(d['lotteries'],{
+              'id':'xg_world_tour_the_core_final_2027_official_presale','tourId':'xg_world_tour_the_core_final_2027',
+              'type':'オフィシャル先行（抽選）','entryStartAt':'2026-09-07T15:00:00+09:00','entryEndAt':'2026-09-14T23:59:00+09:00',
+              'resultAt':'2026-09-19T15:00:00+09:00','paymentStartAt':'2026-09-19T15:00:00+09:00','paymentEndAt':'2026-09-24T23:59:00+09:00',
+              'performanceIds':['xg_world_tour_the_core_final_2027_tokyo_0210','xg_world_tour_the_core_final_2027_tokyo_0211','xg_world_tour_the_core_final_2027_osaka_0227','xg_world_tour_the_core_final_2027_osaka_0228'],
+              'source':'system','sourceUrl':'https://www.xgalx.com/xg/news/detail.php?id=1135785','lastVerifiedAt':VERIFIED})
+          save(p,d)
+
+          # CANDY TUNE: official resale windows for already-existing tour performances.
+          p,d=load('candy_tune')
+          for obj in [
+              {'id':'candy_tune_candy_tune_japan_tour_2026_autumn_resale_matsudo_0919','type':'公式リセール（松戸 9/19）','start':'2026-09-17T10:00:00+09:00','end':'2026-09-18T23:59:00+09:00','pid':'candy_tune_candy_tune_japan_tour_2026_autumn_20260919_6'},
+              {'id':'candy_tune_candy_tune_japan_tour_2026_autumn_resale_tokyo_1208','type':'公式リセール（東京 12/8）','start':'2026-12-06T10:00:00+09:00','end':'2026-12-07T23:59:00+09:00','pid':'candy_tune_candy_tune_japan_tour_2026_autumn_20261208_22'},
+              {'id':'candy_tune_candy_tune_japan_tour_2026_autumn_resale_tokyo_1209','type':'公式リセール（東京 12/9）','start':'2026-12-07T10:00:00+09:00','end':'2026-12-08T23:59:00+09:00','pid':'candy_tune_candy_tune_japan_tour_2026_autumn_20261209_23'},
+          ]:
+              append_unique(d['lotteries'],{
+                  'id':obj['id'],'tourId':'candy_tune_candy_tune_japan_tour_2026_autumn','type':obj['type'],
+                  'entryStartAt':obj['start'],'entryEndAt':obj['end'],'resultAt':None,'paymentStartAt':None,'paymentEndAt':None,
+                  'performanceIds':[obj['pid']],'source':'system','sourceUrl':'https://candytune.asobisystem.com/news/detail/88212','lastVerifiedAt':VERIFIED})
+          save(p,d)
+
+          # Update manifest only for changed artist payloads; artists.json is unchanged.
+          mp=Path('data/manifest.json'); m=json.loads(mp.read_text())
+          for a in ['creepy_nuts','10_feet','xg','candy_tune']:
+              raw=(Path('data/artist')/f'{a}.json').read_bytes()
+              m['artists'][a]['hash']=hashlib.sha256(raw).hexdigest()[:16]
+          m['version']=int(m.get('version',0))+1
+          m['updatedAt']='2026-09-12T19:35:00+09:00'
+          mp.write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n')
+          PY
+      - name: Verify intended diff only
+        shell: bash
+        run: |
+          set -euo pipefail
+          git status --short
+          actual="$(git status --short | awk '{print $2}' | sort)"
+          expected="$(printf '%s\n' data/artist/10_feet.json data/artist/candy_tune.json data/artist/creepy_nuts.json data/artist/xg.json data/manifest.json | sort)"
+          test "$actual" = "$expected"
+      - name: Commit audited rescue
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add data/artist/10_feet.json data/artist/candy_tune.json data/artist/creepy_nuts.json data/artist/xg.json data/manifest.json
+          git commit -m 'update: rescue audited live ticket omissions'
+          git push origin HEAD:audit/monitoring-coverage-20260912
+      - name: Check end status
+        run: git status --short
