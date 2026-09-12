@@ -908,6 +908,38 @@
       "source": "system",
       "sourceUrl": "https://rotten-g.com/contents/50",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "10_feet_fad30_261014_2026_eplus_presale",
+      "tourId": "10_feet_fad30_261014_2026",
+      "type": "e+プレオーダー",
+      "entryStartAt": "2026-08-17T18:00:00+09:00",
+      "entryEndAt": "2026-08-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "10_feet_fad30_261014_2026_yokohama_1014"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/4581460001-P0030001P021001?P6=001",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "10_feet_fad30_261014_2026_general",
+      "tourId": "10_feet_fad30_261014_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-09-05T10:00:00+09:00",
+      "entryEndAt": "2026-10-13T18:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "10_feet_fad30_261014_2026_yokohama_1014"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/4581460001-P0030001P021001?P6=001",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     }
   ]
 }

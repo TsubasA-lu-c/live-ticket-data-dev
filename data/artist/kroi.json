@@ -1387,6 +1387,23 @@
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/3354790001",
       "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "kroi_jungle_2026_tokyo_2f_standing_0905",
+      "tourId": "kroi_jungle_2026",
+      "type": "2Fスタンディング追加販売（先着）",
+      "entryStartAt": "2026-09-05T19:30:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kroi_jungle_2026_zepp_haneda_0922",
+        "kroi_jungle_2026_zepp_haneda_0923"
+      ],
+      "source": "system",
+      "sourceUrl": "https://special.kroi.net/tour/",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

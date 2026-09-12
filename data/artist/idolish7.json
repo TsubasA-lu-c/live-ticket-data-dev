@@ -484,6 +484,40 @@
       "source": "system",
       "sourceUrl": "https://idolish7.com/news/2026/19840",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "idolish7_4ward_fukuoka_2026_additional_general_0910",
+      "tourId": "idolish7_4ward_journey_2026",
+      "type": "追加一般発売",
+      "entryStartAt": "2026-09-10T18:00:00+09:00",
+      "entryEndAt": "2026-09-12T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "idolish7_4ward_journey_2026_fukuoka_0913_hiru",
+        "idolish7_4ward_journey_2026_fukuoka_0913_yoru"
+      ],
+      "source": "system",
+      "sourceUrl": "https://idolish7.com/4j/",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "idolish7_4ward_fukuoka_2026_same_day_conditional_0913",
+      "tourId": "idolish7_4ward_journey_2026",
+      "type": "当日券（残席がある場合のみ）",
+      "entryStartAt": "2026-09-13T00:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "idolish7_4ward_journey_2026_fukuoka_0913_hiru",
+        "idolish7_4ward_journey_2026_fukuoka_0913_yoru"
+      ],
+      "source": "system",
+      "sourceUrl": "https://idolish7.com/4j/",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

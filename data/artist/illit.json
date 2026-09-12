@@ -608,6 +608,25 @@
       "source": "system",
       "sourceUrl": "https://illit-official.jp/news/20260512/",
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "illit_press_start_encore_2026_lawson_0907",
+      "tourId": "illit_illit_live_press_start_encore_in_japan",
+      "type": "ローソンチケット先行",
+      "entryStartAt": "2026-09-07T17:00:00+09:00",
+      "entryEndAt": "2026-09-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "illit_illit_live_press_start_encore_in_japan_20261223_1",
+        "illit_illit_live_press_start_encore_in_japan_20261224_2",
+        "illit_illit_live_press_start_encore_in_japan_20261226_3",
+        "illit_illit_live_press_start_encore_in_japan_20261227_4"
+      ],
+      "source": "system",
+      "sourceUrl": "https://illit-official.jp/news/45f3fab57f90?CateID=1",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

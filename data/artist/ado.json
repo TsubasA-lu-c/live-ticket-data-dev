@@ -304,6 +304,22 @@
       "source": "system",
       "sourceUrl": "https://inkigayo-live.jp/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ado_inkigayo_2026_general_0910",
+      "tourId": "ado_inkigayo_live_tokyo_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-09-10T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ado_inkigayo_live_tokyo_2026_0923"
+      ],
+      "source": "system",
+      "sourceUrl": "https://inkigayo-live.jp/",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

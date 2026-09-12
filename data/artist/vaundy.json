@@ -480,28 +480,28 @@
     {
       "id": "vaundy_japan_arena_2728_kanagawa_1127",
       "tourId": "vaundy_japan_arena_2728",
-      "venue": "横浜某所",
-      "performanceAt": "2027-11-27T12:00:00+09:00",
-      "doorOpenAt": null,
+      "venue": "横浜アリーナ",
+      "performanceAt": "2027-11-27T18:00:00+09:00",
+      "doorOpenAt": "2027-11-27T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-08-28T20:00:00+09:00",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00",
       "performanceDate": "2027-11-27",
       "performanceTimeEstimated": true
     },
     {
       "id": "vaundy_japan_arena_2728_kanagawa_1128",
       "tourId": "vaundy_japan_arena_2728",
-      "venue": "横浜某所",
-      "performanceAt": "2027-11-28T12:00:00+09:00",
-      "doorOpenAt": null,
+      "venue": "横浜アリーナ",
+      "performanceAt": "2027-11-28T16:00:00+09:00",
+      "doorOpenAt": "2027-11-28T15:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-08-28T20:00:00+09:00",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00",
       "performanceDate": "2027-11-28",
       "performanceTimeEstimated": true
     },
@@ -943,6 +943,40 @@
       "source": "system",
       "sourceUrl": "https://member.vaundy.jp/news/detail/11223",
       "lastVerifiedAt": "2026-08-18T07:35:00+09:00"
+    },
+    {
+      "id": "vaundy_2027_yokohama_vaws_premium_presale",
+      "tourId": "vaundy_japan_arena_2728",
+      "type": "VAWS premium先行",
+      "entryStartAt": "2026-09-06T19:00:00+09:00",
+      "entryEndAt": "2026-09-18T23:59:00+09:00",
+      "resultAt": "2026-10-01T18:00:00+09:00",
+      "paymentStartAt": "2026-10-01T18:00:00+09:00",
+      "paymentEndAt": "2026-10-04T23:59:00+09:00",
+      "performanceIds": [
+        "vaundy_japan_arena_2728_kanagawa_1127",
+        "vaundy_japan_arena_2728_kanagawa_1128"
+      ],
+      "source": "system",
+      "sourceUrl": "https://vaundy.jp/news/detail/11145",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "vaundy_2027_yokohama_vaws_presale",
+      "tourId": "vaundy_japan_arena_2728",
+      "type": "VAWS先行",
+      "entryStartAt": "2026-09-19T12:00:00+09:00",
+      "entryEndAt": "2026-10-04T23:59:00+09:00",
+      "resultAt": "2026-10-10T18:00:00+09:00",
+      "paymentStartAt": "2026-10-10T18:00:00+09:00",
+      "paymentEndAt": "2026-10-13T23:59:00+09:00",
+      "performanceIds": [
+        "vaundy_japan_arena_2728_kanagawa_1127",
+        "vaundy_japan_arena_2728_kanagawa_1128"
+      ],
+      "source": "system",
+      "sourceUrl": "https://vaundy.jp/news/detail/11145",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
