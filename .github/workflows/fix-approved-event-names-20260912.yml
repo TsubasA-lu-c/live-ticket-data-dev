@@ -1,0 +1,56 @@
+name: Fix approved festival event names 20260912
+on:
+  push:
+    branches: [audit/rescue-missing-performances-20260912]
+    paths: ['.github/workflows/fix-approved-event-names-20260912.yml']
+permissions:
+  contents: write
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {ref: audit/rescue-missing-performances-20260912, fetch-depth: 0}
+      - name: Fill eventName from linked tour name and update manifest
+        run: |
+          python3 - <<'PY'
+          import json,hashlib
+          from pathlib import Path
+          from datetime import datetime,timezone,timedelta
+          targets={
+            'boku_aozora':['boku_aozora_beeeem_fes_vol11_2026_zepp_divercity_0929'],
+            'fruits_zipper':['fruits_zipper_larme_fes_2026_1107','fruits_zipper_gift_2026_1127','fruits_zipper_gift_2026_1129'],
+            'ive':['ive_inkigayo_live_tokyo_2026_0923'],
+            'kurayamisaka':['kurayamisaka_borofesta_2026_1101'],
+            'nogizaka46':['nogizaka46_gift_2026_day3_1129'],
+            'the_oral_cigarettes':['the_oral_cigarettes_wonderlivet_2026_korea_1120'],
+          }
+          data=Path('data')
+          touched=[]
+          for aid,pids in targets.items():
+            p=data/'artist'/f'{aid}.json'; d=json.loads(p.read_text())
+            tours={x['id']:x for x in d.get('tours',[])}; perfs={x['id']:x for x in d.get('performances',[])}
+            for pid in pids:
+              x=perfs.get(pid)
+              if not x: raise SystemExit(f'missing {aid}:{pid}')
+              tour=tours.get(x.get('tourId'))
+              if not tour or not tour.get('name'): raise SystemExit(f'missing tour name {aid}:{pid}')
+              x['eventName']=tour['name']
+            p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n'); touched.append(str(p))
+          mp=data/'manifest.json'; m=json.loads(mp.read_text()); h=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()[:16]
+          m['version']=int(m.get('version',0))+1; m['updatedAt']=datetime.now(timezone(timedelta(hours=9))).strftime('%Y-%m-%dT%H:%M:%S+09:00')
+          m.setdefault('files',{}).setdefault('artists',{})['hash']=h(data/'artists.json'); hs={p.stem:h(p) for p in sorted((data/'artist').glob('*.json'))}; m.setdefault('artists',{})
+          for a,v in hs.items(): m['artists'].setdefault(a,{})['hash']=v
+          for a in list(m['artists']):
+            if a not in hs: del m['artists'][a]
+          mp.write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n')
+          print('fixed',len(touched),'artist files')
+          PY
+      - name: Commit
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'; git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/artist/boku_aozora.json data/artist/fruits_zipper.json data/artist/ive.json data/artist/kurayamisaka.json data/artist/nogizaka46.json data/artist/the_oral_cigarettes.json data/manifest.json
+          git diff --cached --quiet && exit 0
+          git commit -m 'fix: add event names to approved festival performances'
+          git push origin HEAD:audit/rescue-missing-performances-20260912
