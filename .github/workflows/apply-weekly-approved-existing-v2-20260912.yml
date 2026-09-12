@@ -1,0 +1,94 @@
+name: Apply weekly approved existing data v2 20260912
+on:
+  push:
+    branches: [audit/rescue-missing-performances-20260912]
+    paths: ['.github/workflows/apply-weekly-approved-existing-v2-20260912.yml']
+permissions:
+  contents: write
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Guard branch state
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(git branch --show-current)" = "audit/rescue-missing-performances-20260912"
+          git fetch origin main
+          test "$(git merge-base HEAD origin/main)" = "b8366378b4f828cf27ae3b5f80d3c6945aff4710"
+          test -z "$(git status --short)"
+      - name: Reuse guarded approved-data transformation
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          text=Path('.github/workflows/apply-weekly-approved-existing-20260912.yml').read_text(encoding='utf-8')
+          marker='      - name: Apply approved existing-event updates\n'
+          section=text.split(marker,1)[1].split('      - name: Materialize, manifest, validate\n',1)[0]
+          start=section.index("          python3 - <<'PY'\n") + len("          python3 - <<'PY'\n")
+          end=section.rindex("          PY\n")
+          lines=section[start:end].splitlines()
+          code='\n'.join(line[10:] if line.startswith('          ') else line for line in lines)+'\n'
+          exec(compile(code,'weekly-approved-existing.py','exec'),{})
+          PY
+      - name: Update manifest with canonical algorithm
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json, hashlib
+          from datetime import datetime, timezone, timedelta
+          from pathlib import Path
+          data=Path('data'); manifest_path=data/'manifest.json'; manifest=json.loads(manifest_path.read_text(encoding='utf-8'))
+          def h(p): return hashlib.sha256(p.read_bytes()).hexdigest()[:16]
+          manifest['version']=int(manifest.get('version',0))+1
+          manifest['updatedAt']=datetime.now(timezone(timedelta(hours=9))).strftime('%Y-%m-%dT%H:%M:%S+09:00')
+          manifest.setdefault('files',{}).setdefault('artists',{})['hash']=h(data/'artists.json')
+          ah={p.stem:h(p) for p in sorted((data/'artist').glob('*.json'))}
+          ma=manifest.setdefault('artists',{})
+          for aid,v in ah.items(): ma.setdefault(aid,{})['hash']=v
+          for aid in list(ma):
+              if aid not in ah: del ma[aid]
+          manifest_path.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print('manifest version',manifest['version'])
+          PY
+      - name: Basic structural validation
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json, hashlib
+          from pathlib import Path
+          root=Path('data'); manifest=json.loads((root/'manifest.json').read_text())
+          def h(p): return hashlib.sha256(p.read_bytes()).hexdigest()[:16]
+          assert manifest['files']['artists']['hash']==h(root/'artists.json')
+          all_ids=set()
+          for p in sorted((root/'artist').glob('*.json')):
+              d=json.loads(p.read_text(encoding='utf-8')); assert d['artistId']==p.stem
+              tids=[x['id'] for x in d.get('tours',[])]; pids=[x['id'] for x in d.get('performances',[])]; lids=[x['id'] for x in d.get('lotteries',[])]
+              assert len(tids)==len(set(tids)); assert len(pids)==len(set(pids)); assert len(lids)==len(set(lids))
+              tset=set(tids); pset=set(pids)
+              for x in d.get('performances',[]): assert x['tourId'] in tset
+              for x in d.get('lotteries',[]): assert x['tourId'] in tset and set(x.get('performanceIds',[])) <= pset
+              assert manifest['artists'][p.stem]['hash']==h(p)
+          print('basic structure/hash OK')
+          PY
+      - name: Commit intended data only
+        shell: bash
+        run: |
+          set -euo pipefail
+          git status --short
+          allowed='^(data/artist/(hinatazaka46|vaundy|hana|sakurazaka46|bump_of_chicken|ae_group|novelbright|monaki|04_limited_sazabys|frederic|10_feet|kroi|miura_daichi|enhypen|illit|candy_tune|niziu|ado|equal_love|mr_children|yoasobi|idolish7|xg|oishi_masayoshi|masayoshi_oishi)\.json|data/manifest\.json)$'
+          bad=$(git status --short | sed 's/^...//' | grep -Ev "$allowed" || true)
+          if [ -n "$bad" ]; then echo "Unexpected diff:"; echo "$bad"; exit 1; fi
+          git diff --check
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/artist/*.json data/manifest.json
+          git diff --cached --quiet && exit 0
+          git commit -m 'update: apply weekly approved existing-event changes'
+          git push origin HEAD:audit/rescue-missing-performances-20260912
