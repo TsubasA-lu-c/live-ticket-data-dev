@@ -1,0 +1,135 @@
+name: Apply weekly approved new events 20260912
+on:
+  push:
+    branches: [audit/rescue-missing-performances-20260912]
+    paths: ['.github/workflows/apply-weekly-approved-new-events-20260912.yml']
+permissions:
+  contents: write
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - name: Apply guarded new events
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          test "$(git merge-base HEAD origin/main)" = "b8366378b4f828cf27ae3b5f80d3c6945aff4710"
+          test -z "$(git status --short)"
+          python3 - <<'PY'
+          import json, hashlib
+          from pathlib import Path
+          from datetime import datetime, timedelta, timezone
+          ROOT=Path('data/artist'); V='2026-09-12T00:00:00+09:00'; changed=set()
+          def load(a):
+              p=ROOT/f'{a}.json'; return p,json.loads(p.read_text(encoding='utf-8'))
+          def save(p,d): p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n',encoding='utf-8'); changed.add(str(p))
+          def datestr(x): return x.get('performanceDate') or x.get('performanceAt','')[:10]
+          def find_perfs(d, dates, title=None):
+              xs=[x for x in d['performances'] if datestr(x) in set(dates)]
+              if title:
+                  tids={t['id'] for t in d['tours'] if title.lower() in t.get('title','').lower()}; xs=[x for x in xs if x['tourId'] in tids]
+              if {datestr(x) for x in xs} != set(dates): raise AssertionError((d['artistId'],dates,title,[datestr(x) for x in xs]))
+              return xs
+          def add_tour(d, obj):
+              if any(x['id']==obj['id'] for x in d['tours']): raise AssertionError('tour exists '+obj['id'])
+              d['tours'].append(obj)
+          def add_perf(d,obj):
+              if any(x['id']==obj['id'] for x in d['performances']): raise AssertionError('perf exists '+obj['id'])
+              d['performances'].append(obj)
+          def add_lot(d,obj):
+              if any(x['id']==obj['id'] for x in d['lotteries']): raise AssertionError('lot exists '+obj['id'])
+              d['lotteries'].append(obj)
+          def t(a,id,title,start,end,url,prices=None): return {'id':id,'artistId':a,'title':title,'startDate':start,'endDate':end,'prices':prices or [],'source':'system','sourceUrl':url,'lastVerifiedAt':V}
+          def perf(id,tid,venue,at,url,door=None,kind='festival',estimated=False):
+              o={'id':id,'tourId':tid,'venue':venue,'performanceAt':at,'doorOpenAt':door,'source':'system','sourceUrl':url,'lastVerifiedAt':V,'kind':kind}
+              if estimated:o['performanceTimeEstimated']=True
+              return o
+          def lot(id,tid,typ,start,end,pids,url,result=None,paystart=None,payend=None): return {'id':id,'tourId':tid,'type':typ,'entryStartAt':start,'entryEndAt':end,'resultAt':result,'paymentStartAt':paystart,'paymentEndAt':payend,'performanceIds':pids,'source':'system','sourceUrl':url,'lastVerifiedAt':V}
+
+          # Nogizaka 42nd Under general + GIFT day3
+          p,d=load('nogizaka46'); ps=find_perfs(d,['2026-09-29','2026-09-30'],'42ndSG'); tid={x['tourId'] for x in ps}.pop(); under='https://www.nogizaka46.com/s/n46/news/detail/102236'
+          add_lot(d,lot('nogizaka46_42nd_under_live_2026_general_0912',tid,'一般発売（先着）','2026-09-12T12:00:00+09:00',None,[x['id'] for x in ps],under))
+          gid='nogizaka46_gift_2026'; gurl='https://gift-idol.jp/'
+          add_tour(d,t('nogizaka46',gid,'GIFT〜Girls Idol Festival Tokyo〜','2026-11-29T00:00:00+09:00','2026-11-29T00:00:00+09:00',gurl,[{'label':'1DAY共通チケット','amount':12000}]))
+          gp='nogizaka46_gift_2026_day3_1129'; add_perf(d,perf(gp,gid,'SGCホール有明 / TOYOTA ARENA TOKYO','2026-11-29T12:00:00+09:00',gurl,estimated=True))
+          add_lot(d,lot('nogizaka46_gift_2026_fastest',gid,'最速先行（抽選）','2026-08-18T12:00:00+09:00','2026-09-01T23:59:00+09:00',[gp],gurl)); save(p,d)
+
+          # L'Arc 35th fixed-price trade
+          p,d=load('larc_en_ciel'); tid='larc_en_ciel_35th_lanniversary_2026'; ps=[x for x in d['performances'] if x['tourId']==tid]; assert len(ps)==16
+          url='https://larc-en-ciel.com/s/n137/news/detail/13475'
+          by={datestr(x):x for x in ps}
+          add_lot(d,lot('larc_35th_2026_trade_fc_yoyogi_1009',tid,'定価トレード（FC限定公演・抽選）','2026-09-11T12:00:00+09:00','2026-09-14T23:59:00+09:00',[by['2026-10-09']['id']],url))
+          add_lot(d,lot('larc_35th_2026_trade_fc_ariake_1224',tid,'定価トレード（FC限定公演・抽選）','2026-12-04T12:00:00+09:00','2026-12-07T23:59:00+09:00',[by['2026-12-24']['id']],url))
+          for x in ps:
+              dt=datestr(x)
+              if dt in {'2026-10-09','2026-12-24'}: continue
+              show=datetime.fromisoformat(x['performanceAt']); start=(show-timedelta(days=3)).replace(hour=21,minute=0,second=0); end=show+timedelta(hours=1)
+              add_lot(d,lot(f"larc_35th_2026_trade_{dt[5:].replace('-','')}",tid,'定価トレード（先着）',start.isoformat(),end.isoformat(),[x['id']],url))
+          save(p,d)
+
+          # FRUITS ZIPPER LARME + GIFT
+          p,d=load('fruits_zipper'); fsrc='https://fruitszipper.asobisystem.com/live_information/schedule/list/?month=11&viewMode=default&year=2026'
+          for tid,title,dt,venue in [('fruits_zipper_larme_fes_2026','LARME FES\'26','2026-11-07','東京ガーデンシアター'),('fruits_zipper_gift_2026','GIFT〜Girls Idol Festival Tokyo〜','2026-11-27','SGCホール有明')]:
+              if not any(t0['id']==tid for t0 in d['tours']): add_tour(d,t('fruits_zipper',tid,title,dt+'T00:00:00+09:00',dt+'T00:00:00+09:00',fsrc))
+              add_perf(d,perf(tid+'_'+dt[5:].replace('-',''),tid,venue,dt+'T12:00:00+09:00',fsrc,estimated=True))
+          tid='fruits_zipper_gift_2026'; tour=[x for x in d['tours'] if x['id']==tid][0]; tour['endDate']='2026-11-29T00:00:00+09:00'
+          add_perf(d,perf('fruits_zipper_gift_2026_1129',tid,'TOYOTA ARENA TOKYO','2026-11-29T12:00:00+09:00',fsrc,estimated=True)); save(p,d)
+
+          # THE ORAL CIGARETTES WONDERLIVET
+          p,d=load('the_oral_cigarettes'); tid='the_oral_cigarettes_wonderlivet_2026'; src='https://theoralcigarettes.com/news/list/4?page=2'
+          add_tour(d,t('the_oral_cigarettes',tid,'WONDERLIVET 2026','2026-11-20T00:00:00+09:00','2026-11-20T00:00:00+09:00',src)); add_perf(d,perf(tid+'_korea_1120',tid,'KINTEX HALL 7・8・9・10（韓国）','2026-11-20T12:00:00+09:00',src,estimated=True)); save(p,d)
+
+          # 僕青 BEEEEM FES
+          p,d=load('boku_aozora'); tid='boku_aozora_beeeem_fes_vol11_2026'; src='https://bokuao.com/news/detail/5833'; pid=tid+'_zepp_divercity_0929'
+          add_tour(d,t('boku_aozora',tid,'BEEEEM FES Vol.11 DX SP','2026-09-29T00:00:00+09:00','2026-09-29T00:00:00+09:00',src,[{'label':'前方優先エリア','amount':11000},{'label':'一般','amount':5500},{'label':'女性/学生','amount':4500},{'label':'当日','amount':7000}]))
+          add_perf(d,perf(pid,tid,'Zepp DiverCity (TOKYO)','2026-09-29T17:30:00+09:00',src,'2026-09-29T16:30:00+09:00'))
+          add_lot(d,lot(tid+'_advance',tid,'抽選先行','2026-08-21T20:00:00+09:00','2026-09-09T23:59:00+09:00',[pid],src)); add_lot(d,lot(tid+'_general',tid,'一般販売','2026-09-14T20:00:00+09:00','2026-09-28T23:59:00+09:00',[pid],src)); save(p,d)
+
+          # LE SSERAFIM Kyocera
+          p,d=load('le_sserafim'); tid='le_sserafim_pureflow_kyocera_2026'; src='https://www.le-sserafim.jp/news/34281e5b5c57'; pids=[]
+          add_tour(d,t('le_sserafim',tid,"2026 LE SSERAFIM TOUR 'PUREFLOW' IN KYOCERA DOME OSAKA",'2026-12-19T00:00:00+09:00','2026-12-20T00:00:00+09:00',src,[{'label':'指定席','amount':16500},{'label':'VIP席','amount':27500}]))
+          for dt,op,st in [('2026-12-19','15:00','17:00'),('2026-12-20','14:00','16:00')]:
+              pid=tid+'_'+dt[5:].replace('-',''); pids.append(pid); add_perf(d,perf(pid,tid,'京セラドーム大阪',f'{dt}T{st}:00+09:00',src,f'{dt}T{op}:00+09:00',kind='oneman'))
+          add_lot(d,lot(tid+'_fearnot_jp',tid,'FEARNOT Membership (JP)会員先行抽選','2026-09-04T13:00:00+09:00','2026-09-10T23:59:00+09:00',pids,src,'2026-09-18T11:00:00+09:00','2026-09-18T11:00:00+09:00','2026-09-24T23:00:00+09:00')); save(p,d)
+
+          # IVE INKIGAYO day2
+          p,d=load('ive'); tid='ive_inkigayo_live_tokyo_2026'; src='https://inkigayo-live.jp/'; pid=tid+'_0923'
+          add_tour(d,t('ive',tid,'INKIGAYO LIVE in TOKYO','2026-09-23T00:00:00+09:00','2026-09-23T00:00:00+09:00',src,[{'label':'全席指定（単日券）','amount':18000}]))
+          add_perf(d,perf(pid,tid,'ベルーナドーム','2026-09-23T18:00:00+09:00',src,'2026-09-23T16:00:00+09:00'))
+          add_lot(d,lot(tid+'_general_0910',tid,'一般販売（先着）','2026-09-10T12:00:00+09:00',None,[pid],src)); save(p,d)
+
+          # kurayamisaka BOROFESTA
+          p,d=load('kurayamisaka'); tid='kurayamisaka_borofesta_2026'; src='https://borofesta.jp/news/news-1816/'; pid=tid+'_1101'
+          add_tour(d,t('kurayamisaka',tid,'ボロフェスタ2026〜25th Anniversary〜','2026-11-01T00:00:00+09:00','2026-11-01T00:00:00+09:00',src)); add_perf(d,perf(pid,tid,'京都KBSホール','2026-11-01T12:00:00+09:00',src,estimated=True)); add_lot(d,lot(tid+'_general_0820',tid,'一般発売','2026-08-20T18:00:00+09:00',None,[pid],src)); save(p,d)
+
+          # manifest canonical hash update
+          mp=Path('data/manifest.json'); m=json.loads(mp.read_text()); h=lambda q: hashlib.sha256(q.read_bytes()).hexdigest()[:16]; m['version']+=1; m['updatedAt']=datetime.now(timezone(timedelta(hours=9))).strftime('%Y-%m-%dT%H:%M:%S+09:00'); m['files']['artists']['hash']=h(Path('data/artists.json'))
+          for q in sorted(ROOT.glob('*.json')): m['artists'].setdefault(q.stem,{})['hash']=h(q)
+          mp.write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print('\n'.join(sorted(changed)))
+          PY
+          git diff --check
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          for p in Path('data/artist').glob('*.json'):
+              d=json.loads(p.read_text()); tids={x['id'] for x in d.get('tours',[])}; pids={x['id'] for x in d.get('performances',[])}
+              for x in d.get('performances',[]): assert x['tourId'] in tids
+              for x in d.get('lotteries',[]): assert x['tourId'] in tids and set(x.get('performanceIds') or []) <= pids
+          print('relations OK')
+          PY
+      - name: Commit data only
+        shell: bash
+        run: |
+          set -euo pipefail
+          git status --short
+          bad=$(git status --short | sed 's/^...//' | grep -Ev '^(data/artist/(nogizaka46|larc_en_ciel|fruits_zipper|the_oral_cigarettes|boku_aozora|le_sserafim|ive|kurayamisaka)\.json|data/manifest\.json)$' || true)
+          test -z "$bad" || { echo "$bad"; exit 1; }
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add data/artist/*.json data/manifest.json
+          git commit -m 'update: apply weekly approved new event batch'
+          git push origin HEAD:audit/rescue-missing-performances-20260912
