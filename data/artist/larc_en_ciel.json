@@ -545,6 +545,262 @@
       "source": "system",
       "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13470",
       "lastVerifiedAt": "2026-09-10T20:59:10+09:00"
+    },
+    {
+      "id": "larc_35th_2026_trade_fc_yoyogi_1009",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "type": "定価トレード（FC限定公演・抽選）",
+      "entryStartAt": "2026-09-11T12:00:00+09:00",
+      "entryEndAt": "2026-09-14T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "larc_en_ciel_35th_lanniversary_2026_yoyogi_1009"
+      ],
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13475",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "larc_35th_2026_trade_fc_ariake_1224",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "type": "定価トレード（FC限定公演・抽選）",
+      "entryStartAt": "2026-12-04T12:00:00+09:00",
+      "entryEndAt": "2026-12-07T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "larc_en_ciel_35th_lanniversary_2026_ariake_1224"
+      ],
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13475",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "larc_35th_2026_trade_1011",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "type": "定価トレード（先着）",
+      "entryStartAt": "2026-10-08T21:00:00+09:00",
+      "entryEndAt": "2026-10-11T18:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "larc_en_ciel_35th_lanniversary_2026_yoyogi_1011"
+      ],
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13475",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "larc_35th_2026_trade_1012",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "type": "定価トレード（先着）",
+      "entryStartAt": "2026-10-09T21:00:00+09:00",
+      "entryEndAt": "2026-10-12T17:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "larc_en_ciel_35th_lanniversary_2026_yoyogi_1012"
+      ],
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13475",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "larc_35th_2026_trade_1031",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "type": "定価トレード（先着）",
+      "entryStartAt": "2026-10-28T21:00:00+09:00",
+      "entryEndAt": "2026-10-31T18:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "larc_en_ciel_35th_lanniversary_2026_fukuoka_1031"
+      ],
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13475",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "larc_35th_2026_trade_1101",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "type": "定価トレード（先着）",
+      "entryStartAt": "2026-10-29T21:00:00+09:00",
+      "entryEndAt": "2026-11-01T17:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "larc_en_ciel_35th_lanniversary_2026_fukuoka_1101"
+      ],
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13475",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "larc_35th_2026_trade_1121",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "type": "定価トレード（先着）",
+      "entryStartAt": "2026-11-18T21:00:00+09:00",
+      "entryEndAt": "2026-11-21T18:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "larc_en_ciel_35th_lanniversary_2026_nagoya_1121"
+      ],
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13475",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "larc_35th_2026_trade_1122",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "type": "定価トレード（先着）",
+      "entryStartAt": "2026-11-19T21:00:00+09:00",
+      "entryEndAt": "2026-11-22T17:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "larc_en_ciel_35th_lanniversary_2026_nagoya_1122"
+      ],
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13475",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "larc_35th_2026_trade_1128",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "type": "定価トレード（先着）",
+      "entryStartAt": "2026-11-25T21:00:00+09:00",
+      "entryEndAt": "2026-11-28T18:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "larc_en_ciel_35th_lanniversary_2026_yokohama_1128"
+      ],
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13475",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "larc_35th_2026_trade_1129",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "type": "定価トレード（先着）",
+      "entryStartAt": "2026-11-26T21:00:00+09:00",
+      "entryEndAt": "2026-11-29T17:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "larc_en_ciel_35th_lanniversary_2026_yokohama_1129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13475",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "larc_35th_2026_trade_1212",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "type": "定価トレード（先着）",
+      "entryStartAt": "2026-12-09T21:00:00+09:00",
+      "entryEndAt": "2026-12-12T18:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "larc_en_ciel_35th_lanniversary_2026_chiba_1212"
+      ],
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13475",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "larc_35th_2026_trade_1213",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "type": "定価トレード（先着）",
+      "entryStartAt": "2026-12-10T21:00:00+09:00",
+      "entryEndAt": "2026-12-13T17:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "larc_en_ciel_35th_lanniversary_2026_chiba_1213"
+      ],
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13475",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "larc_35th_2026_trade_1216",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "type": "定価トレード（先着）",
+      "entryStartAt": "2026-12-13T21:00:00+09:00",
+      "entryEndAt": "2026-12-16T19:30:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "larc_en_ciel_35th_lanniversary_2026_osaka_1216"
+      ],
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13475",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "larc_35th_2026_trade_1217",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "type": "定価トレード（先着）",
+      "entryStartAt": "2026-12-14T21:00:00+09:00",
+      "entryEndAt": "2026-12-17T19:30:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "larc_en_ciel_35th_lanniversary_2026_osaka_1217"
+      ],
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13475",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "larc_35th_2026_trade_1226",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "type": "定価トレード（先着）",
+      "entryStartAt": "2026-12-23T21:00:00+09:00",
+      "entryEndAt": "2026-12-26T18:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "larc_en_ciel_35th_lanniversary_2026_ariake_1226"
+      ],
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13475",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "larc_35th_2026_trade_1227",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "type": "定価トレード（先着）",
+      "entryStartAt": "2026-12-24T21:00:00+09:00",
+      "entryEndAt": "2026-12-27T17:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "larc_en_ciel_35th_lanniversary_2026_ariake_1227"
+      ],
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13475",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
