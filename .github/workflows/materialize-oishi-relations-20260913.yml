@@ -12,24 +12,73 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Materialize approved artist relations and refresh manifest
+      - name: Deterministically materialize same-person alias pair
         run: |
           set -euo pipefail
-          tmp="$RUNNER_TEMP/collector"
-          git clone --quiet --branch audit/monitor-coverage-20260912 --single-branch https://github.com/TsubasA-lu-c/chatgpt-workspace.git "$tmp"
-          cp "$tmp/live-ticket-collector/source/tools/materialize_artist_live_relations.py" tools/materialize_artist_live_relations.py
-          cp "$tmp/live-ticket-collector/source/tools/update_manifest.py" tools/update_manifest.py
-          python3 tools/materialize_artist_live_relations.py --data-dir data
-          python3 tools/update_manifest.py
+          python3 - <<'PY'
+          import copy, hashlib, json
+          from datetime import datetime, timezone, timedelta
+          from pathlib import Path
+          data=Path('data'); ad=data/'artist'
+          ids=['masayoshi_oishi','oishi_masayoshi']
+          names={'masayoshi_oishi':'大石昌良','oishi_masayoshi':'オーイシマサヨシ'}
+          docs={i:json.loads((ad/f'{i}.json').read_text()) for i in ids}
+          def demat(doc):
+              r=copy.deepcopy(doc); tours=[]
+              for t0 in r.get('tours',[]):
+                  d=t0.get('relationDisplay')
+                  if isinstance(d,dict) and d.get('mirrored') is True: continue
+                  t=copy.deepcopy(t0)
+                  if isinstance(d,dict):
+                      off=d.get('officialTitle')
+                      if off: t['title']=off
+                      t.pop('relationDisplay',None)
+                  tours.append(t)
+              r['tours']=tours
+              r['performances']=[copy.deepcopy(x) for x in r.get('performances',[]) if not isinstance(x.get('relationMirror'),dict)]
+              r['lotteries']=[copy.deepcopy(x) for x in r.get('lotteries',[]) if not isinstance(x.get('relationMirror'),dict)]
+              return r
+          canon={i:demat(docs[i]) for i in ids}; out=copy.deepcopy(canon)
+          def mid(target, source_id): return f'{target}__rel__{source_id}'
+          for target in ids:
+              td=out[target]
+              for t in td.get('tours',[]):
+                  off=t['title']; t['title']=f'【{names[target]}】{off}'
+                  t['relationDisplay']={'sourceArtistId':target,'sourceTourId':t['id'],'officialTitle':off,'mirrored':False}
+              source=ids[1] if target==ids[0] else ids[0]; sd=canon[source]
+              perfs=sd.get('performances',[]); lots=sd.get('lotteries',[])
+              for st in sd.get('tours',[]):
+                  sid=st['id']; mtid=mid(target,sid); mt=copy.deepcopy(st)
+                  mt['id']=mtid; mt['artistId']=target; mt['title']=f'【{names[source]}】{st["title"]}'
+                  mt['relationDisplay']={'sourceArtistId':source,'sourceTourId':sid,'officialTitle':st['title'],'mirrored':True}
+                  td.setdefault('tours',[]).append(mt); pmap={}
+                  for sp in perfs:
+                      if sp.get('tourId')!=sid: continue
+                      mp=copy.deepcopy(sp); mpid=mid(target,sp['id']); pmap[sp['id']]=mpid
+                      mp['id']=mpid; mp['tourId']=mtid; mp['relationMirror']={'sourceArtistId':source,'sourceId':sp['id']}
+                      td.setdefault('performances',[]).append(mp)
+                  for sl in lots:
+                      if sl.get('tourId')!=sid: continue
+                      ml=copy.deepcopy(sl); ml['id']=mid(target,sl['id']); ml['tourId']=mtid
+                      ml['performanceIds']=[pmap[p] for p in sl.get('performanceIds',[])]
+                      ml['relationMirror']={'sourceArtistId':source,'sourceId':sl['id']}
+                      td.setdefault('lotteries',[]).append(ml)
+          for i in ids: (ad/f'{i}.json').write_text(json.dumps(out[i],ensure_ascii=False,indent=2)+'\n')
+          mpath=data/'manifest.json'; m=json.loads(mpath.read_text())
+          h=lambda p: hashlib.sha256(p.read_bytes()).hexdigest()[:16]
+          m['version']=m.get('version',0)+1
+          m['updatedAt']=datetime.now(timezone(timedelta(hours=9))).strftime('%Y-%m-%dT%H:%M:%S+09:00')
+          m['files']['artists']['hash']=h(data/'artists.json')
+          for p in sorted(ad.glob('*.json')): m['artists'].setdefault(p.stem,{})['hash']=h(p)
+          mpath.write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n')
+          print('materialized',ids,'manifest',m['version'])
+          PY
           git diff --check
           git diff -- data/artist/masayoshi_oishi.json data/artist/oishi_masayoshi.json data/manifest.json
       - name: Commit data repair only
         run: |
           set -euo pipefail
           git add -- data/artist/masayoshi_oishi.json data/artist/oishi_masayoshi.json data/manifest.json
-          if git diff --cached --quiet; then
-            echo 'No materialization changes needed'
-            exit 0
-          fi
+          if git diff --cached --quiet; then echo 'No materialization changes needed'; exit 0; fi
           git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'data: materialize approved artist relations'
           git push origin HEAD:audit/rescue-missing-performances-20260912
