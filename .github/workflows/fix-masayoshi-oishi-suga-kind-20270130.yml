@@ -28,43 +28,215 @@ jobs:
       - name: Check starting tree
         run: git status --short
 
-      - name: Correct performance kind
+      - name: Correct canonical kind, rematerialize aliases, refresh manifest
         shell: bash
         run: |
           set -euo pipefail
           python3 - <<'PY'
+          import copy
+          import hashlib
           import json
+          from datetime import datetime, timezone, timedelta
           from pathlib import Path
 
-          path = Path('data/artist/masayoshi_oishi.json')
-          data = json.loads(path.read_text(encoding='utf-8'))
-          target_id = 'masayoshi_oishi_suga_shikao_acoustic_supernova_sendai_2027_0130'
-          matches = [p for p in data['performances'] if p.get('id') == target_id]
-          assert len(matches) == 1, f'expected one target performance, got {len(matches)}'
-          target = matches[0]
-          assert target.get('kind') == 'fes', f'unexpected current kind: {target.get("kind")!r}'
-          target['kind'] = 'taiban'
-          path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-          PY
+          data_dir = Path('data')
+          artist_dir = data_dir / 'artist'
+          ids = ['masayoshi_oishi', 'oishi_masayoshi']
+          names = {
+              'masayoshi_oishi': '大石昌良',
+              'oishi_masayoshi': 'オーイシマサヨシ',
+          }
+          docs = {
+              artist_id: json.loads((artist_dir / f'{artist_id}.json').read_text(encoding='utf-8'))
+              for artist_id in ids
+          }
 
-      - name: Materialize relations and update manifest
-        shell: bash
-        run: |
-          set -euo pipefail
-          python3 tools/materialize_artist_live_relations.py
-          python3 tools/update_manifest.py
-          python3 tools/validate.py
+          def dematerialize(doc):
+              result = copy.deepcopy(doc)
+              tours = []
+              for source_tour in result.get('tours', []):
+                  display = source_tour.get('relationDisplay')
+                  if isinstance(display, dict) and display.get('mirrored') is True:
+                      continue
+                  tour = copy.deepcopy(source_tour)
+                  if isinstance(display, dict):
+                      official_title = display.get('officialTitle')
+                      if official_title:
+                          tour['title'] = official_title
+                      tour.pop('relationDisplay', None)
+                  tours.append(tour)
+              result['tours'] = tours
+              result['performances'] = [
+                  copy.deepcopy(item)
+                  for item in result.get('performances', [])
+                  if not isinstance(item.get('relationMirror'), dict)
+              ]
+              result['lotteries'] = [
+                  copy.deepcopy(item)
+                  for item in result.get('lotteries', [])
+                  if not isinstance(item.get('relationMirror'), dict)
+              ]
+              return result
+
+          canonical = {artist_id: dematerialize(docs[artist_id]) for artist_id in ids}
+
+          target_id = 'masayoshi_oishi_suga_shikao_acoustic_supernova_sendai_2027_0130'
+          matches = [
+              item for item in canonical['masayoshi_oishi'].get('performances', [])
+              if item.get('id') == target_id
+          ]
+          assert len(matches) == 1, f'expected one canonical target, got {len(matches)}'
+          assert matches[0].get('kind') == 'fes', f'unexpected current kind: {matches[0].get("kind")!r}'
+          matches[0]['kind'] = 'taiban'
+
+          output = copy.deepcopy(canonical)
+
+          def mirror_id(target, source_id):
+              return f'{target}__rel__{source_id}'
+
+          for target in ids:
+              target_doc = output[target]
+              for tour in target_doc.get('tours', []):
+                  official_title = tour['title']
+                  tour['title'] = f'【{names[target]}】{official_title}'
+                  tour['relationDisplay'] = {
+                      'sourceArtistId': target,
+                      'sourceTourId': tour['id'],
+                      'officialTitle': official_title,
+                      'mirrored': False,
+                  }
+
+              source = ids[1] if target == ids[0] else ids[0]
+              source_doc = canonical[source]
+              source_performances = source_doc.get('performances', [])
+              source_lotteries = source_doc.get('lotteries', [])
+
+              for source_tour in source_doc.get('tours', []):
+                  source_tour_id = source_tour['id']
+                  mirrored_tour_id = mirror_id(target, source_tour_id)
+                  mirrored_tour = copy.deepcopy(source_tour)
+                  mirrored_tour['id'] = mirrored_tour_id
+                  mirrored_tour['artistId'] = target
+                  mirrored_tour['title'] = f'【{names[source]}】{source_tour["title"]}'
+                  mirrored_tour['relationDisplay'] = {
+                      'sourceArtistId': source,
+                      'sourceTourId': source_tour_id,
+                      'officialTitle': source_tour['title'],
+                      'mirrored': True,
+                  }
+                  target_doc.setdefault('tours', []).append(mirrored_tour)
+
+                  performance_map = {}
+                  for source_performance in source_performances:
+                      if source_performance.get('tourId') != source_tour_id:
+                          continue
+                      mirrored_performance = copy.deepcopy(source_performance)
+                      mirrored_performance_id = mirror_id(target, source_performance['id'])
+                      performance_map[source_performance['id']] = mirrored_performance_id
+                      mirrored_performance['id'] = mirrored_performance_id
+                      mirrored_performance['tourId'] = mirrored_tour_id
+                      mirrored_performance['relationMirror'] = {
+                          'sourceArtistId': source,
+                          'sourceId': source_performance['id'],
+                      }
+                      target_doc.setdefault('performances', []).append(mirrored_performance)
+
+                  for source_lottery in source_lotteries:
+                      if source_lottery.get('tourId') != source_tour_id:
+                          continue
+                      mirrored_lottery = copy.deepcopy(source_lottery)
+                      mirrored_lottery['id'] = mirror_id(target, source_lottery['id'])
+                      mirrored_lottery['tourId'] = mirrored_tour_id
+                      mirrored_lottery['performanceIds'] = [
+                          performance_map[performance_id]
+                          for performance_id in source_lottery.get('performanceIds', [])
+                      ]
+                      mirrored_lottery['relationMirror'] = {
+                          'sourceArtistId': source,
+                          'sourceId': source_lottery['id'],
+                      }
+                      target_doc.setdefault('lotteries', []).append(mirrored_lottery)
+
+          for artist_id in ids:
+              (artist_dir / f'{artist_id}.json').write_text(
+                  json.dumps(output[artist_id], ensure_ascii=False, indent=2) + '\n',
+                  encoding='utf-8',
+              )
+
+          manifest_path = data_dir / 'manifest.json'
+          manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+
+          def short_hash(path):
+              return hashlib.sha256(path.read_bytes()).hexdigest()[:16]
+
+          manifest['version'] = manifest.get('version', 0) + 1
+          manifest['updatedAt'] = datetime.now(
+              timezone(timedelta(hours=9))
+          ).strftime('%Y-%m-%dT%H:%M:%S+09:00')
+          manifest['files']['artists']['hash'] = short_hash(data_dir / 'artists.json')
+          for path in sorted(artist_dir.glob('*.json')):
+              manifest['artists'].setdefault(path.stem, {})['hash'] = short_hash(path)
+          manifest_path.write_text(
+              json.dumps(manifest, ensure_ascii=False, indent=2) + '\n',
+              encoding='utf-8',
+          )
+
+          canonical_after = json.loads((artist_dir / 'masayoshi_oishi.json').read_text(encoding='utf-8'))
+          canonical_target = [
+              item for item in canonical_after['performances'] if item.get('id') == target_id
+          ]
+          assert len(canonical_target) == 1
+          assert canonical_target[0].get('kind') == 'taiban'
+
+          mirrored_id = mirror_id('oishi_masayoshi', target_id)
+          mirror_after = json.loads((artist_dir / 'oishi_masayoshi.json').read_text(encoding='utf-8'))
+          mirror_target = [
+              item for item in mirror_after['performances'] if item.get('id') == mirrored_id
+          ]
+          assert len(mirror_target) == 1
+          assert mirror_target[0].get('kind') == 'taiban'
+          assert mirror_target[0].get('relationMirror', {}).get('sourceId') == target_id
+
+          for path in sorted(artist_dir.glob('*.json')):
+              doc = json.loads(path.read_text(encoding='utf-8'))
+              tours = doc.get('tours', [])
+              performances = doc.get('performances', [])
+              lotteries = doc.get('lotteries', [])
+              tour_ids = [item['id'] for item in tours]
+              performance_ids = [item['id'] for item in performances]
+              lottery_ids = [item['id'] for item in lotteries]
+              assert len(tour_ids) == len(set(tour_ids)), f'duplicate tour id in {path}'
+              assert len(performance_ids) == len(set(performance_ids)), f'duplicate performance id in {path}'
+              assert len(lottery_ids) == len(set(lottery_ids)), f'duplicate lottery id in {path}'
+              tour_id_set = set(tour_ids)
+              performance_id_set = set(performance_ids)
+              for item in performances:
+                  assert item.get('tourId') in tour_id_set, f'unknown performance tour in {path}: {item.get("id")}'
+              for item in lotteries:
+                  assert item.get('tourId') in tour_id_set, f'unknown lottery tour in {path}: {item.get("id")}'
+                  for performance_id in item.get('performanceIds', []):
+                      assert performance_id in performance_id_set, f'unknown lottery performance in {path}: {performance_id}'
+
+          manifest_after = json.loads(manifest_path.read_text(encoding='utf-8'))
+          assert manifest_after['files']['artists']['hash'] == short_hash(data_dir / 'artists.json')
+          for path in sorted(artist_dir.glob('*.json')):
+              assert manifest_after['artists'][path.stem]['hash'] == short_hash(path), f'manifest mismatch: {path}'
+
+          print('validated canonical and mirrored taiban classification; manifest refreshed')
+          PY
 
       - name: Verify scoped diff and commit
         shell: bash
         run: |
           set -euo pipefail
           git status --short
+          git diff --check
           changed="$(git diff --name-only | sort)"
           printf '%s\n' "$changed"
           unexpected="$(printf '%s\n' "$changed" | grep -Ev '^(data/artist/masayoshi_oishi\.json|data/artist/oishi_masayoshi\.json|data/manifest\.json)$' || true)"
           test -z "$unexpected" || { echo "Unexpected changed files:"; echo "$unexpected"; exit 1; }
-          grep -A8 -B2 'masayoshi_oishi_suga_shikao_acoustic_supernova_sendai_2027_0130' data/artist/masayoshi_oishi.json | grep '"kind": "taiban"'
+          test "$(printf '%s\n' "$changed" | sed '/^$/d' | wc -l)" -eq 3
+          git diff -- data/artist/masayoshi_oishi.json data/artist/oishi_masayoshi.json data/manifest.json
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -- data/artist/masayoshi_oishi.json data/artist/oishi_masayoshi.json data/manifest.json
