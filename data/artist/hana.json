@@ -795,24 +795,84 @@
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
-      "id": "hana_born_to_bloom_2026_add_official_resale",
+      "id": "hana_born_to_bloom_2026_add_resale_0916",
       "tourId": "hana_born_to_bloom_2026_add",
       "type": "定価トレード（公式リセール）",
-      "entryStartAt": null,
-      "entryEndAt": null,
+      "entryStartAt": "2026-09-11T21:00:00+09:00",
+      "entryEndAt": "2026-09-16T18:30:00+09:00",
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
       "performanceIds": [
-        "hana_born_to_bloom_2026_add_osaka_0916",
-        "hana_born_to_bloom_2026_add_osaka_0917",
-        "hana_born_to_bloom_2026_add_tokyo_1029",
-        "hana_born_to_bloom_2026_add_tokyo_1030",
+        "hana_born_to_bloom_2026_add_osaka_0916"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/tour/borntobloom/",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_add_resale_0917",
+      "tourId": "hana_born_to_bloom_2026_add",
+      "type": "定価トレード（公式リセール）",
+      "entryStartAt": "2026-09-12T21:00:00+09:00",
+      "entryEndAt": "2026-09-17T18:30:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hana_born_to_bloom_2026_add_osaka_0917"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/tour/borntobloom/",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_add_resale_1029",
+      "tourId": "hana_born_to_bloom_2026_add",
+      "type": "定価トレード（公式リセール）",
+      "entryStartAt": "2026-10-24T21:00:00+09:00",
+      "entryEndAt": "2026-10-29T18:30:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hana_born_to_bloom_2026_add_tokyo_1029"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/tour/borntobloom/",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_add_resale_1030",
+      "tourId": "hana_born_to_bloom_2026_add",
+      "type": "定価トレード（公式リセール）",
+      "entryStartAt": "2026-10-25T21:00:00+09:00",
+      "entryEndAt": "2026-10-30T18:30:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hana_born_to_bloom_2026_add_tokyo_1030"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/tour/borntobloom/",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_add_resale_1031",
+      "tourId": "hana_born_to_bloom_2026_add",
+      "type": "定価トレード（公式リセール）",
+      "entryStartAt": "2026-10-26T21:00:00+09:00",
+      "entryEndAt": "2026-10-31T17:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
         "hana_born_to_bloom_2026_add_tokyo_1031"
       ],
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/tour/borntobloom/",
-      "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

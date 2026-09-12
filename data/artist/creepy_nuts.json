@@ -86,6 +86,17 @@
       "source": "system",
       "sourceUrl": "https://creepynuts.com/onemantour2027/",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "creepy_nuts_rock_in_japan_festival_2026",
+      "artistId": "creepy_nuts",
+      "title": "ROCK IN JAPAN FESTIVAL 2026",
+      "startDate": "2026-09-12T00:00:00+09:00",
+      "endDate": "2026-09-12T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://rijfes.jp/2026/timetable/",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -376,6 +387,20 @@
       "source": "system",
       "sourceUrl": "https://creepynuts.com/onemantour2027/",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "creepy_nuts_rock_in_japan_festival_2026_0912",
+      "tourId": "creepy_nuts_rock_in_japan_festival_2026",
+      "venue": "千葉市蘇我スポーツ公園",
+      "performanceAt": "2026-09-12T12:00:00+09:00",
+      "performanceDate": "2026-09-12",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "ROCK IN JAPAN FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://rijfes.jp/2026/timetable/",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     }
   ],
   "lotteries": [

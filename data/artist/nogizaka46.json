@@ -94,6 +94,22 @@
       "source": "system",
       "sourceUrl": "https://sp.nogizaka46.com/p/news/102219",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_gift_2026",
+      "artistId": "nogizaka46",
+      "title": "GIFT〜Girls Idol Festival Tokyo〜",
+      "startDate": "2026-11-29T00:00:00+09:00",
+      "endDate": "2026-11-29T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1DAY共通チケット",
+          "amount": 12000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://gift-idol.jp/",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -462,6 +478,20 @@
       "source": "system",
       "sourceUrl": "https://sp.nogizaka46.com/p/news/102219",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_gift_2026_day3_1129",
+      "tourId": "nogizaka46_gift_2026",
+      "venue": "SGCホール有明 / TOYOTA ARENA TOKYO",
+      "performanceAt": "2026-11-29T12:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://gift-idol.jp/",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00",
+      "kind": "fes",
+      "performanceTimeEstimated": true,
+      "performanceDate": "2026-11-29",
+      "eventName": "GIFT〜Girls Idol Festival Tokyo〜"
     }
   ],
   "lotteries": [
@@ -922,6 +952,39 @@
       "source": "system",
       "sourceUrl": "https://sp.nogizaka46.com/p/news/102219",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_42nd_under_live_2026_general_0912",
+      "tourId": "nogizaka46_42nd_under_live_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-09-12T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nogizaka46_42nd_under_live_2026_tokyo_0929",
+        "nogizaka46_42nd_under_live_2026_tokyo_0930"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102236",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_gift_2026_fastest",
+      "tourId": "nogizaka46_gift_2026",
+      "type": "最速先行（抽選）",
+      "entryStartAt": "2026-08-18T12:00:00+09:00",
+      "entryEndAt": "2026-09-01T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nogizaka46_gift_2026_day3_1129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://gift-idol.jp/",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

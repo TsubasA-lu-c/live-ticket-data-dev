@@ -104,6 +104,28 @@
       "source": "system",
       "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/88520",
       "lastVerifiedAt": "2026-09-01T00:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_larme_fes_2026",
+      "artistId": "fruits_zipper",
+      "title": "LARME FES'26",
+      "startDate": "2026-11-07T00:00:00+09:00",
+      "endDate": "2026-11-07T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/live_information/schedule/list/?month=11&viewMode=default&year=2026",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_gift_2026",
+      "artistId": "fruits_zipper",
+      "title": "GIFT〜Girls Idol Festival Tokyo〜",
+      "startDate": "2026-11-27T00:00:00+09:00",
+      "endDate": "2026-11-29T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/live_information/schedule/list/?month=11&viewMode=default&year=2026",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -742,6 +764,48 @@
       "source": "system",
       "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/88520",
       "lastVerifiedAt": "2026-09-01T00:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_larme_fes_2026_1107",
+      "tourId": "fruits_zipper_larme_fes_2026",
+      "venue": "東京ガーデンシアター",
+      "performanceAt": "2026-11-07T12:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/live_information/schedule/list/?month=11&viewMode=default&year=2026",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00",
+      "kind": "fes",
+      "performanceTimeEstimated": true,
+      "performanceDate": "2026-11-07",
+      "eventName": "LARME FES'26"
+    },
+    {
+      "id": "fruits_zipper_gift_2026_1127",
+      "tourId": "fruits_zipper_gift_2026",
+      "venue": "SGCホール有明",
+      "performanceAt": "2026-11-27T12:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/live_information/schedule/list/?month=11&viewMode=default&year=2026",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00",
+      "kind": "fes",
+      "performanceTimeEstimated": true,
+      "performanceDate": "2026-11-27",
+      "eventName": "GIFT〜Girls Idol Festival Tokyo〜"
+    },
+    {
+      "id": "fruits_zipper_gift_2026_1129",
+      "tourId": "fruits_zipper_gift_2026",
+      "venue": "TOYOTA ARENA TOKYO",
+      "performanceAt": "2026-11-29T12:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/live_information/schedule/list/?month=11&viewMode=default&year=2026",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00",
+      "kind": "fes",
+      "performanceTimeEstimated": true,
+      "performanceDate": "2026-11-29",
+      "eventName": "GIFT〜Girls Idol Festival Tokyo〜"
     }
   ],
   "lotteries": [

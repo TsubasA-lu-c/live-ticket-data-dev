@@ -1200,6 +1200,22 @@
       "source": "system",
       "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
       "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "novelbright_dream_festival_2026_second_presale",
+      "tourId": "novelbright_dream_festival_2026",
+      "type": "2次先行",
+      "entryStartAt": "2026-09-07T12:00:00+09:00",
+      "entryEndAt": "2026-09-13T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "novelbright_dream_festival_2026_1121"
+      ],
+      "source": "system",
+      "sourceUrl": "https://post.tv-asahi.co.jp/?p=832267",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

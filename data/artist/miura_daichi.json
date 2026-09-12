@@ -1045,6 +1045,40 @@
       "source": "system",
       "sourceUrl": "https://daichi-miura.jp/news/detail/1054",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_misato_2026_production_seat_0908",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "制作席追加販売（先着）",
+      "entryStartAt": "2026-09-08T18:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_misato_0912",
+        "miura_daichi_raw_bare_2026_misato_0913"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/913",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_misato_2026_equipment_seat_0911",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "機材席当日引換券（先着）",
+      "entryStartAt": "2026-09-11T18:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_misato_0912",
+        "miura_daichi_raw_bare_2026_misato_0913"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/913",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

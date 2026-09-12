@@ -91,6 +91,23 @@
       "source": "system",
       "sourceUrl": "https://www.mtvjapan.com/event/vmaj/2026/",
       "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_dream_festival_2026",
+      "artistId": "jo1",
+      "title": "テレビ朝日ドリームフェスティバル2026",
+      "startDate": "2026-11-21T00:00:00+09:00",
+      "endDate": "2026-11-21T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 13000,
+          "currency": "JPY"
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://dreamfestival.jp/",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -352,6 +369,20 @@
       "source": "system",
       "sourceUrl": "https://www.mtvjapan.com/event/vmaj/2026/",
       "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_dream_festival_2026_yokohama_1121",
+      "tourId": "jo1_dream_festival_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-11-21T12:00:00+09:00",
+      "doorOpenAt": null,
+      "performanceDate": "2026-11-21",
+      "performanceTimeEstimated": true,
+      "kind": "fes",
+      "eventName": "テレビ朝日ドリームフェスティバル2026",
+      "source": "system",
+      "sourceUrl": "https://dreamfestival.jp/",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -798,6 +829,40 @@
       "source": "system",
       "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
       "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_dream_festival_2026_official_2nd",
+      "tourId": "jo1_dream_festival_2026",
+      "type": "オフィシャル2次先行（抽選）",
+      "entryStartAt": "2026-09-07T12:00:00+09:00",
+      "entryEndAt": "2026-09-13T23:59:00+09:00",
+      "resultAt": null,
+      "paymentDeadline": null,
+      "performanceIds": [
+        "jo1_dream_festival_2026_yokohama_1121"
+      ],
+      "source": "system",
+      "sourceUrl": "https://dreamfestival.jp/",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_aao_showcase_tour_2026_serial_application",
+      "tourId": "jo1_aao_showcase_tour_2026",
+      "type": "11TH SINGLE “AAO” シリアル応募",
+      "entryStartAt": null,
+      "entryEndAt": "2026-10-09T23:59:00+09:00",
+      "resultAt": "2026-10-16T20:00:00+09:00",
+      "paymentDeadline": null,
+      "performanceIds": [
+        "jo1_aao_showcase_tour_2026_fukushima",
+        "jo1_aao_showcase_tour_2026_saitama",
+        "jo1_aao_showcase_tour_2026_nagano",
+        "jo1_aao_showcase_tour_2026_oita",
+        "jo1_aao_showcase_tour_2026_shiga"
+      ],
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/news/detail/6350",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

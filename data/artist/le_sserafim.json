@@ -40,6 +40,26 @@
       "source": "system",
       "sourceUrl": "https://www.summersonic.com/",
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_pureflow_kyocera_2026",
+      "artistId": "le_sserafim",
+      "title": "2026 LE SSERAFIM TOUR 'PUREFLOW' IN KYOCERA DOME OSAKA",
+      "startDate": "2026-12-19T00:00:00+09:00",
+      "endDate": "2026-12-20T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 16500
+        },
+        {
+          "label": "VIP席",
+          "amount": 27500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/news/34281e5b5c57",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -198,6 +218,28 @@
       "source": "system",
       "sourceUrl": "https://www.summersonic.com/info/tokyo/",
       "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
+    },
+    {
+      "id": "le_sserafim_pureflow_kyocera_2026_1219",
+      "tourId": "le_sserafim_pureflow_kyocera_2026",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2026-12-19T17:00:00+09:00",
+      "doorOpenAt": "2026-12-19T15:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/news/34281e5b5c57",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "le_sserafim_pureflow_kyocera_2026_1220",
+      "tourId": "le_sserafim_pureflow_kyocera_2026",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2026-12-20T16:00:00+09:00",
+      "doorOpenAt": "2026-12-20T14:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/news/34281e5b5c57",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00",
+      "kind": "oneman"
     }
   ],
   "lotteries": [
@@ -379,6 +421,23 @@
       "source": "system",
       "sourceUrl": "https://www.summersonic.com/tickets/tokyo/",
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_pureflow_kyocera_2026_fearnot_jp",
+      "tourId": "le_sserafim_pureflow_kyocera_2026",
+      "type": "FEARNOT Membership (JP)会員先行抽選",
+      "entryStartAt": "2026-09-04T13:00:00+09:00",
+      "entryEndAt": "2026-09-10T23:59:00+09:00",
+      "resultAt": "2026-09-18T11:00:00+09:00",
+      "paymentStartAt": "2026-09-18T11:00:00+09:00",
+      "paymentEndAt": "2026-09-24T23:00:00+09:00",
+      "performanceIds": [
+        "le_sserafim_pureflow_kyocera_2026_1219",
+        "le_sserafim_pureflow_kyocera_2026_1220"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/news/34281e5b5c57",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

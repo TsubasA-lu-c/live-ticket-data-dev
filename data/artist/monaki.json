@@ -889,6 +889,22 @@
       "source": "system",
       "sourceUrl": "https://monaki.jp/",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_dream_festival_2026_second_presale",
+      "tourId": "monaki_dream_festival_2026",
+      "type": "2次先行",
+      "entryStartAt": "2026-09-07T12:00:00+09:00",
+      "entryEndAt": "2026-09-13T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "monaki_dream_festival_2026_1123"
+      ],
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

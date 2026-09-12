@@ -131,6 +131,34 @@
       "source": "system",
       "sourceUrl": "https://bokuao.com/",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "boku_aozora_beeeem_fes_vol11_2026",
+      "artistId": "boku_aozora",
+      "title": "BEEEEM FES Vol.11 DX SP",
+      "startDate": "2026-09-29T00:00:00+09:00",
+      "endDate": "2026-09-29T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "前方優先エリア",
+          "amount": 11000
+        },
+        {
+          "label": "一般",
+          "amount": 5500
+        },
+        {
+          "label": "女性/学生",
+          "amount": 4500
+        },
+        {
+          "label": "当日",
+          "amount": 7000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/news/detail/5833",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -433,6 +461,19 @@
       "source": "system",
       "sourceUrl": "https://bokuao.com/",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "boku_aozora_beeeem_fes_vol11_2026_zepp_divercity_0929",
+      "tourId": "boku_aozora_beeeem_fes_vol11_2026",
+      "venue": "Zepp DiverCity (TOKYO)",
+      "performanceAt": "2026-09-29T17:30:00+09:00",
+      "doorOpenAt": "2026-09-29T16:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/news/detail/5833",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00",
+      "kind": "fes",
+      "performanceDate": "2026-09-29",
+      "eventName": "BEEEEM FES Vol.11 DX SP"
     }
   ],
   "lotteries": [
@@ -754,6 +795,38 @@
       "source": "system",
       "sourceUrl": "https://bokuao.com/news/detail/4922",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "boku_aozora_beeeem_fes_vol11_2026_advance",
+      "tourId": "boku_aozora_beeeem_fes_vol11_2026",
+      "type": "抽選先行",
+      "entryStartAt": "2026-08-21T20:00:00+09:00",
+      "entryEndAt": "2026-09-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "boku_aozora_beeeem_fes_vol11_2026_zepp_divercity_0929"
+      ],
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/news/detail/5833",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "boku_aozora_beeeem_fes_vol11_2026_general",
+      "tourId": "boku_aozora_beeeem_fes_vol11_2026",
+      "type": "一般販売",
+      "entryStartAt": "2026-09-14T20:00:00+09:00",
+      "entryEndAt": "2026-09-28T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "boku_aozora_beeeem_fes_vol11_2026_zepp_divercity_0929"
+      ],
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/news/detail/5833",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

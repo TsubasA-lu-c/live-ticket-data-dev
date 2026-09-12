@@ -168,6 +168,17 @@
       "source": "system",
       "sourceUrl": "https://buzzrhythm.live/",
       "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "kurayamisaka_borofesta_2026",
+      "artistId": "kurayamisaka",
+      "title": "ボロフェスタ2026〜25th Anniversary〜",
+      "startDate": "2026-11-01T00:00:00+09:00",
+      "endDate": "2026-11-01T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://borofesta.jp/news/news-1816/",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -362,6 +373,20 @@
       "source": "system",
       "sourceUrl": "https://buzzrhythm.live/",
       "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "kurayamisaka_borofesta_2026_1101",
+      "tourId": "kurayamisaka_borofesta_2026",
+      "venue": "京都KBSホール",
+      "performanceAt": "2026-11-01T12:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://borofesta.jp/news/news-1816/",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00",
+      "kind": "fes",
+      "performanceTimeEstimated": true,
+      "performanceDate": "2026-11-01",
+      "eventName": "ボロフェスタ2026〜25th Anniversary〜"
     }
   ],
   "lotteries": [
@@ -452,6 +477,22 @@
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/word/0000158088",
       "lastVerifiedAt": "2026-08-17T23:05:00+09:00"
+    },
+    {
+      "id": "kurayamisaka_borofesta_2026_general_0820",
+      "tourId": "kurayamisaka_borofesta_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-08-20T18:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kurayamisaka_borofesta_2026_1101"
+      ],
+      "source": "system",
+      "sourceUrl": "https://borofesta.jp/news/news-1816/",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

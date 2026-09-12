@@ -44,6 +44,23 @@
       }
     },
     {
+      "id": "masayoshi_oishi_suga_shikao_acoustic_supernova_sendai_2027",
+      "artistId": "masayoshi_oishi",
+      "title": "【大石昌良】スガ シカオ 30th ANNIVERSARY TOUR 2027 “ACOUSTIC SUPERNOVA” 宮城公演",
+      "startDate": "2027-01-30T00:00:00+09:00",
+      "endDate": "2027-01-30T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7933",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00",
+      "relationDisplay": {
+        "sourceArtistId": "masayoshi_oishi",
+        "sourceTourId": "masayoshi_oishi_suga_shikao_acoustic_supernova_sendai_2027",
+        "officialTitle": "スガ シカオ 30th ANNIVERSARY TOUR 2027 “ACOUSTIC SUPERNOVA” 宮城公演",
+        "mirrored": false
+      }
+    },
+    {
       "id": "masayoshi_oishi__rel__oishi_masayoshi_ningen_yokohama_0301",
       "artistId": "masayoshi_oishi",
       "title": "【オーイシマサヨシ】【神奈川】「ニンゲン」発売記念フリーライブ",
@@ -494,6 +511,91 @@
         "officialTitle": "オーイシ横アリ ～オーイシマサヨシ ワンマンライブ at 横浜アリーナ～",
         "mirrored": true
       }
+    },
+    {
+      "id": "masayoshi_oishi__rel__oishi_masayoshi_bunkyo_aidsai_2026",
+      "artistId": "masayoshi_oishi",
+      "title": "【オーイシマサヨシ】文教大学 越谷キャンパス 第59回藍蓼祭「オーイシマサヨシ Special Live in 文教大学」",
+      "startDate": "2026-10-30T00:00:00+09:00",
+      "endDate": "2026-10-30T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/news/7669",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00",
+      "relationDisplay": {
+        "sourceArtistId": "oishi_masayoshi",
+        "sourceTourId": "oishi_masayoshi_bunkyo_aidsai_2026",
+        "officialTitle": "文教大学 越谷キャンパス 第59回藍蓼祭「オーイシマサヨシ Special Live in 文教大学」",
+        "mirrored": true
+      }
+    },
+    {
+      "id": "masayoshi_oishi__rel__oishi_masayoshi_ehime_culture_fes_2026",
+      "artistId": "masayoshi_oishi",
+      "title": "【オーイシマサヨシ】愛媛県 県民総合文化祭 総合フェスティバル2026 愛顔えひめの文化祭2028 2年前プレイベント",
+      "startDate": "2026-10-31T00:00:00+09:00",
+      "endDate": "2026-10-31T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7918",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00",
+      "relationDisplay": {
+        "sourceArtistId": "oishi_masayoshi",
+        "sourceTourId": "oishi_masayoshi_ehime_culture_fes_2026",
+        "officialTitle": "愛媛県 県民総合文化祭 総合フェスティバル2026 愛顔えひめの文化祭2028 2年前プレイベント",
+        "mirrored": true
+      }
+    },
+    {
+      "id": "masayoshi_oishi__rel__oishi_masayoshi_nfu_festival_2026",
+      "artistId": "masayoshi_oishi",
+      "title": "【オーイシマサヨシ】日本福祉大学 美浜キャンパス 第74回福祉大学祭「オーイシマサヨシ Special LIVE」",
+      "startDate": "2026-11-07T00:00:00+09:00",
+      "endDate": "2026-11-07T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/news/7669",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00",
+      "relationDisplay": {
+        "sourceArtistId": "oishi_masayoshi",
+        "sourceTourId": "oishi_masayoshi_nfu_festival_2026",
+        "officialTitle": "日本福祉大学 美浜キャンパス 第74回福祉大学祭「オーイシマサヨシ Special LIVE」",
+        "mirrored": true
+      }
+    },
+    {
+      "id": "masayoshi_oishi__rel__oishi_masayoshi_hyper_game_final_day1_2026",
+      "artistId": "masayoshi_oishi",
+      "title": "【オーイシマサヨシ】配信者ハイパーゲーム大会 FINAL [DAY1]",
+      "startDate": "2026-11-28T00:00:00+09:00",
+      "endDate": "2026-11-28T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://lp.openrec.jp/hyper-game-event-final/",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00",
+      "relationDisplay": {
+        "sourceArtistId": "oishi_masayoshi",
+        "sourceTourId": "oishi_masayoshi_hyper_game_final_day1_2026",
+        "officialTitle": "配信者ハイパーゲーム大会 FINAL [DAY1]",
+        "mirrored": true
+      }
+    },
+    {
+      "id": "masayoshi_oishi__rel__oishi_masayoshi_hyper_game_final_day2_2026",
+      "artistId": "masayoshi_oishi",
+      "title": "【オーイシマサヨシ】配信者ハイパーゲーム大会 FINAL [DAY2]",
+      "startDate": "2026-11-29T00:00:00+09:00",
+      "endDate": "2026-11-29T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://lp.openrec.jp/hyper-game-event-final/",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00",
+      "relationDisplay": {
+        "sourceArtistId": "oishi_masayoshi",
+        "sourceTourId": "oishi_masayoshi_hyper_game_final_day2_2026",
+        "officialTitle": "配信者ハイパーゲーム大会 FINAL [DAY2]",
+        "mirrored": true
+      }
     }
   ],
   "performances": [
@@ -519,6 +621,18 @@
       "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
       "kind": "oneman",
       "doorOpenAt": "2026-09-23T15:00:00+09:00"
+    },
+    {
+      "id": "masayoshi_oishi_suga_shikao_acoustic_supernova_sendai_2027_0130",
+      "tourId": "masayoshi_oishi_suga_shikao_acoustic_supernova_sendai_2027",
+      "venue": "トークネットホール仙台",
+      "performanceAt": "2027-01-30T18:00:00+09:00",
+      "doorOpenAt": "2027-01-30T17:00:00+09:00",
+      "kind": "fes",
+      "eventName": "スガ シカオ 30th ANNIVERSARY TOUR 2027 “ACOUSTIC SUPERNOVA” 宮城公演",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7933",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     },
     {
       "id": "masayoshi_oishi__rel__oishi_masayoshi_ningen_yokohama_0301_20260301",
@@ -575,11 +689,11 @@
       "kind": "taiban",
       "performanceDate": "2026-03-29",
       "eventName": "MBSラジオ「押尾コータローの押しても弾いてもスペシャル！」公開録音",
+      "performanceTimeEstimated": true,
       "relationMirror": {
         "sourceArtistId": "oishi_masayoshi",
         "sourceId": "oishi_masayoshi_mbs_public_recording_0329_20260329"
-      },
-      "performanceTimeEstimated": true
+      }
     },
     {
       "id": "masayoshi_oishi__rel__oishi_masayoshi_oishi_ssa_release_0404_20260404_1",
@@ -810,11 +924,11 @@
       "kind": "fes",
       "performanceDate": "2026-07-12",
       "eventName": "Animelo Summer Live 2026 -Messenger-",
+      "performanceTimeEstimated": true,
       "relationMirror": {
         "sourceArtistId": "oishi_masayoshi",
         "sourceId": "oishi_masayoshi_anisama_0712_20260712"
-      },
-      "performanceTimeEstimated": true
+      }
     },
     {
       "id": "masayoshi_oishi__rel__oishi_masayoshi_kimi_kochi_0718_20260718_1",
@@ -855,11 +969,11 @@
       "kind": "fes",
       "performanceDate": "2026-08-10",
       "eventName": "LuckyFes’26",
+      "performanceTimeEstimated": true,
       "relationMirror": {
         "sourceArtistId": "oishi_masayoshi",
         "sourceId": "oishi_masayoshi_luckyfes_0810_20260810"
-      },
-      "performanceTimeEstimated": true
+      }
     },
     {
       "id": "masayoshi_oishi__rel__oishi_masayoshi_kariuta3_kanagawa_0830_20260830",
@@ -900,11 +1014,11 @@
       "kind": "fes",
       "performanceDate": "2026-09-06",
       "eventName": "『AZUR LANE MUSI9 FES.』AZUR LANE SPECIAL MUSI9 LIVE",
+      "performanceTimeEstimated": true,
       "relationMirror": {
         "sourceArtistId": "oishi_masayoshi",
         "sourceId": "oishi_masayoshi_azurlane_0906_20260906"
-      },
-      "performanceTimeEstimated": true
+      }
     },
     {
       "id": "masayoshi_oishi__rel__oishi_masayoshi_kariuta3_aichi_0919_20260919",
@@ -946,11 +1060,11 @@
       "kind": "fes",
       "performanceDate": "2026-10-11",
       "eventName": "高槻魂!!2026",
+      "performanceTimeEstimated": true,
       "relationMirror": {
         "sourceArtistId": "oishi_masayoshi",
         "sourceId": "oishi_masayoshi_takatsukidamashii_1011_20261011"
-      },
-      "performanceTimeEstimated": true
+      }
     },
     {
       "id": "masayoshi_oishi__rel__oishi_masayoshi_ipu_1017_20261017",
@@ -1044,6 +1158,92 @@
       "relationMirror": {
         "sourceArtistId": "oishi_masayoshi",
         "sourceId": "oishi_masayoshi_oishi_yokoari_2027_day2_0228"
+      }
+    },
+    {
+      "id": "masayoshi_oishi__rel__oishi_masayoshi_bunkyo_aidsai_2026_1030",
+      "tourId": "masayoshi_oishi__rel__oishi_masayoshi_bunkyo_aidsai_2026",
+      "venue": "文教大学 越谷キャンパス 体育館2階メインアリーナ",
+      "performanceAt": "2026-10-30T15:00:00+09:00",
+      "doorOpenAt": "2026-10-30T14:00:00+09:00",
+      "kind": "fes",
+      "eventName": "文教大学 越谷キャンパス 第59回藍蓼祭「オーイシマサヨシ Special Live in 文教大学」",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/news/7669",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00",
+      "relationMirror": {
+        "sourceArtistId": "oishi_masayoshi",
+        "sourceId": "oishi_masayoshi_bunkyo_aidsai_2026_1030"
+      }
+    },
+    {
+      "id": "masayoshi_oishi__rel__oishi_masayoshi_ehime_culture_fes_2026_1031",
+      "tourId": "masayoshi_oishi__rel__oishi_masayoshi_ehime_culture_fes_2026",
+      "venue": "愛媛県県民文化会館メインホール",
+      "performanceAt": "2026-10-31T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "愛媛県 県民総合文化祭 総合フェスティバル2026 愛顔えひめの文化祭2028 2年前プレイベント",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/schedules/7918",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00",
+      "performanceDate": "2026-10-31",
+      "performanceTimeEstimated": true,
+      "relationMirror": {
+        "sourceArtistId": "oishi_masayoshi",
+        "sourceId": "oishi_masayoshi_ehime_culture_fes_2026_1031"
+      }
+    },
+    {
+      "id": "masayoshi_oishi__rel__oishi_masayoshi_nfu_festival_2026_1107",
+      "tourId": "masayoshi_oishi__rel__oishi_masayoshi_nfu_festival_2026",
+      "venue": "日本福祉大学 美浜キャンパス 文化ホール",
+      "performanceAt": "2026-11-07T13:30:00+09:00",
+      "doorOpenAt": "2026-11-07T13:00:00+09:00",
+      "kind": "fes",
+      "eventName": "日本福祉大学 美浜キャンパス 第74回福祉大学祭「オーイシマサヨシ Special LIVE」",
+      "source": "system",
+      "sourceUrl": "https://www.014014.jp/news/7669",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00",
+      "relationMirror": {
+        "sourceArtistId": "oishi_masayoshi",
+        "sourceId": "oishi_masayoshi_nfu_festival_2026_1107"
+      }
+    },
+    {
+      "id": "masayoshi_oishi__rel__oishi_masayoshi_hyper_game_final_day1_2026_1128",
+      "tourId": "masayoshi_oishi__rel__oishi_masayoshi_hyper_game_final_day1_2026",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-11-28T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "配信者ハイパーゲーム大会 FINAL [DAY1]",
+      "source": "system",
+      "sourceUrl": "https://lp.openrec.jp/hyper-game-event-final/",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00",
+      "performanceDate": "2026-11-28",
+      "performanceTimeEstimated": true,
+      "relationMirror": {
+        "sourceArtistId": "oishi_masayoshi",
+        "sourceId": "oishi_masayoshi_hyper_game_final_day1_2026_1128"
+      }
+    },
+    {
+      "id": "masayoshi_oishi__rel__oishi_masayoshi_hyper_game_final_day2_2026_1129",
+      "tourId": "masayoshi_oishi__rel__oishi_masayoshi_hyper_game_final_day2_2026",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-11-29T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "配信者ハイパーゲーム大会 FINAL [DAY2]",
+      "source": "system",
+      "sourceUrl": "https://lp.openrec.jp/hyper-game-event-final/",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00",
+      "performanceDate": "2026-11-29",
+      "performanceTimeEstimated": true,
+      "relationMirror": {
+        "sourceArtistId": "oishi_masayoshi",
+        "sourceId": "oishi_masayoshi_hyper_game_final_day2_2026_1129"
       }
     }
   ],

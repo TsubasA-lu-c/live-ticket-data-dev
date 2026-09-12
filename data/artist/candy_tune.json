@@ -1869,6 +1869,54 @@
       "source": "system",
       "sourceUrl": "https://tgc.girlswalker.com/kawacolle/",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "candy_tune_candy_circus_2026_resale_0919",
+      "tourId": "candy_tune_candy_tune_japan_tour_2026_autumn",
+      "type": "公式リセール",
+      "entryStartAt": "2026-09-17T10:00:00+09:00",
+      "entryEndAt": "2026-09-18T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "candy_tune_candy_tune_japan_tour_2026_autumn_20260919_6"
+      ],
+      "source": "system",
+      "sourceUrl": "https://candytune.asobisystem.com/feature/candytune_nationwide_tour2026",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "candy_tune_candy_circus_2026_resale_1208",
+      "tourId": "candy_tune_candy_tune_japan_tour_2026_autumn",
+      "type": "公式リセール",
+      "entryStartAt": "2026-12-06T10:00:00+09:00",
+      "entryEndAt": "2026-12-07T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "candy_tune_candy_tune_japan_tour_2026_autumn_20261208_22"
+      ],
+      "source": "system",
+      "sourceUrl": "https://candytune.asobisystem.com/feature/candytune_nationwide_tour2026",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "candy_tune_candy_circus_2026_resale_1209",
+      "tourId": "candy_tune_candy_tune_japan_tour_2026_autumn",
+      "type": "公式リセール",
+      "entryStartAt": "2026-12-07T10:00:00+09:00",
+      "entryEndAt": "2026-12-08T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "candy_tune_candy_tune_japan_tour_2026_autumn_20261209_23"
+      ],
+      "source": "system",
+      "sourceUrl": "https://candytune.asobisystem.com/feature/candytune_nationwide_tour2026",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

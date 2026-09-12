@@ -158,6 +158,17 @@
       "source": "system",
       "sourceUrl": "https://theoralcigarettes.com/news/detail/3163",
       "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_wonderlivet_2026",
+      "artistId": "the_oral_cigarettes",
+      "title": "WONDERLIVET 2026",
+      "startDate": "2026-11-20T00:00:00+09:00",
+      "endDate": "2026-11-20T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/list/4?page=2",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -604,6 +615,20 @@
       "source": "system",
       "sourceUrl": "https://theoralcigarettes.com/news/detail/3163",
       "lastVerifiedAt": "2026-08-23T08:46:28+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_wonderlivet_2026_korea_1120",
+      "tourId": "the_oral_cigarettes_wonderlivet_2026",
+      "venue": "KINTEX HALL 7・8・9・10（韓国）",
+      "performanceAt": "2026-11-20T12:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/list/4?page=2",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00",
+      "kind": "fes",
+      "performanceTimeEstimated": true,
+      "performanceDate": "2026-11-20",
+      "eventName": "WONDERLIVET 2026"
     }
   ],
   "lotteries": [

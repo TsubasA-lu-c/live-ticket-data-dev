@@ -678,6 +678,25 @@
       "source": "system",
       "sourceUrl": "https://www.bumpofchicken.com/news/news/3849",
       "lastVerifiedAt": "2026-09-10T21:37:00+09:00"
+    },
+    {
+      "id": "bump_ratio_clavis_2027_dome_silver_week_presale",
+      "tourId": "bump_of_chicken_tour_2026",
+      "type": "ドーム公演 Silver Week 特別先行",
+      "entryStartAt": "2026-09-11T18:00:00+09:00",
+      "entryEndAt": "2026-09-27T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bump_of_chicken_ratio_clavis_osaka_0123",
+        "bump_of_chicken_ratio_clavis_osaka_0124",
+        "bump_of_chicken_ratio_clavis_tokyo_0206",
+        "bump_of_chicken_ratio_clavis_tokyo_0207"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bumpofchicken.com/live_information/2799",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

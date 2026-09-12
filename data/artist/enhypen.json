@@ -744,6 +744,29 @@
       "source": "system",
       "sourceUrl": "https://enhypen-jp.weverse.io/news/122a8f0efcc7",
       "lastVerifiedAt": "2026-08-28T18:39:00+09:00"
+    },
+    {
+      "id": "enhypen_blood_saga_2026_upgrade_0909",
+      "tourId": "enhypen_blood_saga_japan_2026",
+      "type": "アップグレード抽選（VIP/S席）",
+      "entryStartAt": "2026-09-09T17:00:00+09:00",
+      "entryEndAt": "2026-09-28T23:59:00+09:00",
+      "resultAt": "2026-10-08T19:00:00+09:00",
+      "paymentStartAt": "2026-10-08T19:00:00+09:00",
+      "paymentEndAt": "2026-10-13T23:00:00+09:00",
+      "performanceIds": [
+        "enhypen_blood_saga_japan_2026_tokyo_1201",
+        "enhypen_blood_saga_japan_2026_tokyo_1202",
+        "enhypen_blood_saga_japan_2026_nagoya_1226",
+        "enhypen_blood_saga_japan_2026_nagoya_1227",
+        "enhypen_blood_saga_japan_2026_fukuoka_0206",
+        "enhypen_blood_saga_japan_2026_fukuoka_0207",
+        "enhypen_blood_saga_japan_2026_osaka_0219",
+        "enhypen_blood_saga_japan_2026_osaka_0220"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
+      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
