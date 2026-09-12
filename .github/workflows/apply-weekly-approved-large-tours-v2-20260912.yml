@@ -1,0 +1,40 @@
+name: Apply weekly approved large tours v2 20260912
+on:
+  push:
+    branches: [audit/rescue-missing-performances-20260912]
+    paths: ['.github/workflows/apply-weekly-approved-large-tours-v2-20260912.yml']
+permissions:
+  contents: write
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - name: Reuse transformation with JO1 tour-level fix
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          test "$(git merge-base HEAD origin/main)" = "b8366378b4f828cf27ae3b5f80d3c6945aff4710"
+          test -z "$(git status --short)"
+          python3 - <<'PY'
+          from pathlib import Path
+          s=Path('.github/workflows/apply-weekly-approved-large-tours-20260912.yml').read_text()
+          sec=s.split('      - name: Apply AIMYON SPITZ JO1\n',1)[1].split('      - name: Commit data only\n',1)[0]
+          a=sec.index("          python3 - <<'PY'\n")+len("          python3 - <<'PY'\n"); b=sec.index("          PY\n",a)
+          code='\n'.join(x[10:] if x.startswith('          ') else x for x in sec[a:b].splitlines())+'\n'
+          code=code.replace("ps=[x for x in d['performances'] if x['tourId']==tid]; assert len(ps)==5", "ps=[x for x in d['performances'] if x['tourId']==tid]; assert len(ps)==0,len(ps)")
+          code=code.replace("[x['id'] for x in ps],src))\n          dream=", "None,src))\n          dream=")
+          exec(compile(code,'apply-large-v2.py','exec'),{})
+          PY
+          git diff --check
+      - name: Commit data only
+        shell: bash
+        run: |
+          set -euo pipefail
+          bad=$(git status --short | sed 's/^...//' | grep -Ev '^(data/artist/(aimyon|spitz|jo1)\.json|data/manifest\.json)$' || true); test -z "$bad" || { echo "$bad"; exit 1; }
+          git config user.name github-actions[bot]; git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add data/artist/aimyon.json data/artist/spitz.json data/artist/jo1.json data/manifest.json
+          git commit -m 'update: apply approved AIMYON SPITZ and JO1 changes'
+          git push origin HEAD:audit/rescue-missing-performances-20260912
