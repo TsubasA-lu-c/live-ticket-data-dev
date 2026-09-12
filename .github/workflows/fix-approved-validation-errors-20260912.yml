@@ -1,0 +1,62 @@
+name: Fix approved apply validation errors 20260912
+on:
+  push:
+    branches: [audit/rescue-missing-performances-20260912]
+    paths: ['.github/workflows/fix-approved-validation-errors-20260912.yml']
+permissions:
+  contents: write
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {ref: audit/rescue-missing-performances-20260912, fetch-depth: 0}
+      - name: Fix schema compatibility and manifest
+        run: |
+          python3 - <<'PY'
+          import json,hashlib
+          from pathlib import Path
+          from datetime import datetime,timezone,timedelta
+          data=Path('data')
+          fixes={
+            'boku_aozora': {'boku_aozora_beeeem_fes_vol11_2026_zepp_divercity_0929': ('2026-09-29', True)},
+            'fruits_zipper': {
+              'fruits_zipper_larme_fes_2026_1107': ('2026-11-07', True),
+              'fruits_zipper_gift_2026_1127': ('2026-11-27', True),
+              'fruits_zipper_gift_2026_1129': ('2026-11-29', True)},
+            'ive': {'ive_inkigayo_live_tokyo_2026_0923': ('2026-09-23', False)},
+            'kurayamisaka': {'kurayamisaka_borofesta_2026_1101': ('2026-11-01', True)},
+            'nogizaka46': {'nogizaka46_gift_2026_day3_1129': ('2026-11-29', True)},
+            'the_oral_cigarettes': {'the_oral_cigarettes_wonderlivet_2026_korea_1120': ('2026-11-20', True)},
+          }
+          touched=[]
+          for aid,rows in fixes.items():
+              p=data/'artist'/f'{aid}.json'; d=json.loads(p.read_text()); by={x['id']:x for x in d.get('performances',[])}
+              for pid,(date,needs_date) in rows.items():
+                  x=by.get(pid)
+                  if not x: raise SystemExit(f'missing {aid}:{pid}')
+                  if x.get('kind')=='festival': x['kind']='fes'
+                  if needs_date: x['performanceDate']=date
+              p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n'); touched.append(str(p))
+          p=data/'artist'/'vaundy.json'; d=json.loads(p.read_text()); by={x['id']:x for x in d.get('performances',[])}
+          for pid in ['vaundy_japan_arena_2728_kanagawa_1127','vaundy_japan_arena_2728_kanagawa_1128']:
+              x=by.get(pid)
+              if not x: raise SystemExit(f'missing vaundy:{pid}')
+              x['performanceTimeEstimated']=False
+          p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n'); touched.append(str(p))
+          mp=data/'manifest.json'; m=json.loads(mp.read_text()); h=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()[:16]
+          m['version']=int(m.get('version',0))+1; m['updatedAt']=datetime.now(timezone(timedelta(hours=9))).strftime('%Y-%m-%dT%H:%M:%S+09:00'); m.setdefault('files',{}).setdefault('artists',{})['hash']=h(data/'artists.json'); hs={p.stem:h(p) for p in sorted((data/'artist').glob('*.json'))}; m.setdefault('artists',{})
+          for a,x in hs.items():m['artists'].setdefault(a,{})['hash']=x
+          for a in list(m['artists']):
+              if a not in hs:del m['artists'][a]
+          mp.write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n')
+          print('fixed',*touched,sep='\n')
+          PY
+      - name: Commit
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'; git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/artist/boku_aozora.json data/artist/fruits_zipper.json data/artist/ive.json data/artist/kurayamisaka.json data/artist/nogizaka46.json data/artist/the_oral_cigarettes.json data/artist/vaundy.json data/manifest.json
+          git diff --cached --quiet && exit 0
+          git commit -m 'fix: normalize weekly approved performance schema'
+          git push origin HEAD:audit/rescue-missing-performances-20260912
