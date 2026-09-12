@@ -8,10 +8,22 @@
       "startDate": "2026-08-29T17:00:00+09:00",
       "endDate": "2026-08-30T17:00:00+09:00",
       "prices": [
-        { "label": "アリーナスタンディング", "amount": 10000 },
-        { "label": "スタンド指定席", "amount": 11000 },
-        { "label": "スタンド立見(立ち位置指定)", "amount": 9000 },
-        { "label": "車椅子席", "amount": 11000 },
+        {
+          "label": "アリーナスタンディング",
+          "amount": 10000
+        },
+        {
+          "label": "スタンド指定席",
+          "amount": 11000
+        },
+        {
+          "label": "スタンド立見(立ち位置指定)",
+          "amount": 9000
+        },
+        {
+          "label": "車椅子席",
+          "amount": 11000
+        },
         {
           "label": "注釈付き指定席",
           "amount": 10000
@@ -28,10 +40,22 @@
       "startDate": "2026-09-02T18:00:00+09:00",
       "endDate": "2026-09-03T18:00:00+09:00",
       "prices": [
-        { "label": "1Fスタンディング", "amount": 6900 },
-        { "label": "スタンドA指定席", "amount": 7800 },
-        { "label": "スタンドB指定席", "amount": 7300 },
-        { "label": "車椅子席", "amount": 7300 }
+        {
+          "label": "1Fスタンディング",
+          "amount": 6900
+        },
+        {
+          "label": "スタンドA指定席",
+          "amount": 7800
+        },
+        {
+          "label": "スタンドB指定席",
+          "amount": 7300
+        },
+        {
+          "label": "車椅子席",
+          "amount": 7300
+        }
       ],
       "source": "system",
       "sourceUrl": "https://sun-set.info/about/",
@@ -76,6 +100,17 @@
       "source": "system",
       "sourceUrl": "https://rockmansai.com/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_jamboree_tour_2027_kettle",
+      "artistId": "spitz",
+      "title": "SPITZ JAMBOREE TOUR 2027 \"kettle\"",
+      "startDate": "2027-03-06T12:00:00+09:00",
+      "endDate": "2027-06-20T12:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/live/202701/",
+      "lastVerifiedAt": "2026-09-13T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -162,6 +197,398 @@
       "source": "system",
       "sourceUrl": "https://rockmansai.com/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_jamboree_tour_2027_kettle_0306",
+      "tourId": "spitz_jamboree_tour_2027_kettle",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2027-03-06T12:00:00+09:00",
+      "performanceDate": "2027-03-06",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SPITZ JAMBOREE TOUR 2027 \"kettle\"",
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/live/202701/",
+      "lastVerifiedAt": "2026-09-13T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_jamboree_tour_2027_kettle_0307",
+      "tourId": "spitz_jamboree_tour_2027_kettle",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2027-03-07T12:00:00+09:00",
+      "performanceDate": "2027-03-07",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SPITZ JAMBOREE TOUR 2027 \"kettle\"",
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/live/202701/",
+      "lastVerifiedAt": "2026-09-13T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_jamboree_tour_2027_kettle_0313",
+      "tourId": "spitz_jamboree_tour_2027_kettle",
+      "venue": "LaLa arena TOKYO-BAY",
+      "performanceAt": "2027-03-13T12:00:00+09:00",
+      "performanceDate": "2027-03-13",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SPITZ JAMBOREE TOUR 2027 \"kettle\"",
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/live/202701/",
+      "lastVerifiedAt": "2026-09-13T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_jamboree_tour_2027_kettle_0314",
+      "tourId": "spitz_jamboree_tour_2027_kettle",
+      "venue": "LaLa arena TOKYO-BAY",
+      "performanceAt": "2027-03-14T12:00:00+09:00",
+      "performanceDate": "2027-03-14",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SPITZ JAMBOREE TOUR 2027 \"kettle\"",
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/live/202701/",
+      "lastVerifiedAt": "2026-09-13T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_jamboree_tour_2027_kettle_0320",
+      "tourId": "spitz_jamboree_tour_2027_kettle",
+      "venue": "長野ビッグハット",
+      "performanceAt": "2027-03-20T12:00:00+09:00",
+      "performanceDate": "2027-03-20",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SPITZ JAMBOREE TOUR 2027 \"kettle\"",
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/live/202701/",
+      "lastVerifiedAt": "2026-09-13T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_jamboree_tour_2027_kettle_0321",
+      "tourId": "spitz_jamboree_tour_2027_kettle",
+      "venue": "長野ビッグハット",
+      "performanceAt": "2027-03-21T12:00:00+09:00",
+      "performanceDate": "2027-03-21",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SPITZ JAMBOREE TOUR 2027 \"kettle\"",
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/live/202701/",
+      "lastVerifiedAt": "2026-09-13T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_jamboree_tour_2027_kettle_0327",
+      "tourId": "spitz_jamboree_tour_2027_kettle",
+      "venue": "マリンメッセ福岡A館",
+      "performanceAt": "2027-03-27T12:00:00+09:00",
+      "performanceDate": "2027-03-27",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SPITZ JAMBOREE TOUR 2027 \"kettle\"",
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/live/202701/",
+      "lastVerifiedAt": "2026-09-13T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_jamboree_tour_2027_kettle_0328",
+      "tourId": "spitz_jamboree_tour_2027_kettle",
+      "venue": "マリンメッセ福岡A館",
+      "performanceAt": "2027-03-28T12:00:00+09:00",
+      "performanceDate": "2027-03-28",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SPITZ JAMBOREE TOUR 2027 \"kettle\"",
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/live/202701/",
+      "lastVerifiedAt": "2026-09-13T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_jamboree_tour_2027_kettle_0403",
+      "tourId": "spitz_jamboree_tour_2027_kettle",
+      "venue": "広島グリーンアリーナ",
+      "performanceAt": "2027-04-03T12:00:00+09:00",
+      "performanceDate": "2027-04-03",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SPITZ JAMBOREE TOUR 2027 \"kettle\"",
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/live/202701/",
+      "lastVerifiedAt": "2026-09-13T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_jamboree_tour_2027_kettle_0404",
+      "tourId": "spitz_jamboree_tour_2027_kettle",
+      "venue": "広島グリーンアリーナ",
+      "performanceAt": "2027-04-04T12:00:00+09:00",
+      "performanceDate": "2027-04-04",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SPITZ JAMBOREE TOUR 2027 \"kettle\"",
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/live/202701/",
+      "lastVerifiedAt": "2026-09-13T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_jamboree_tour_2027_kettle_0410",
+      "tourId": "spitz_jamboree_tour_2027_kettle",
+      "venue": "北海きたえーる",
+      "performanceAt": "2027-04-10T12:00:00+09:00",
+      "performanceDate": "2027-04-10",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SPITZ JAMBOREE TOUR 2027 \"kettle\"",
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/live/202701/",
+      "lastVerifiedAt": "2026-09-13T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_jamboree_tour_2027_kettle_0411",
+      "tourId": "spitz_jamboree_tour_2027_kettle",
+      "venue": "北海きたえーる",
+      "performanceAt": "2027-04-11T12:00:00+09:00",
+      "performanceDate": "2027-04-11",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SPITZ JAMBOREE TOUR 2027 \"kettle\"",
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/live/202701/",
+      "lastVerifiedAt": "2026-09-13T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_jamboree_tour_2027_kettle_0417",
+      "tourId": "spitz_jamboree_tour_2027_kettle",
+      "venue": "沖縄サントリーアリーナ",
+      "performanceAt": "2027-04-17T12:00:00+09:00",
+      "performanceDate": "2027-04-17",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SPITZ JAMBOREE TOUR 2027 \"kettle\"",
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/live/202701/",
+      "lastVerifiedAt": "2026-09-13T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_jamboree_tour_2027_kettle_0418",
+      "tourId": "spitz_jamboree_tour_2027_kettle",
+      "venue": "沖縄サントリーアリーナ",
+      "performanceAt": "2027-04-18T12:00:00+09:00",
+      "performanceDate": "2027-04-18",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SPITZ JAMBOREE TOUR 2027 \"kettle\"",
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/live/202701/",
+      "lastVerifiedAt": "2026-09-13T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_jamboree_tour_2027_kettle_0424",
+      "tourId": "spitz_jamboree_tour_2027_kettle",
+      "venue": "静岡エコパアリーナ",
+      "performanceAt": "2027-04-24T12:00:00+09:00",
+      "performanceDate": "2027-04-24",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SPITZ JAMBOREE TOUR 2027 \"kettle\"",
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/live/202701/",
+      "lastVerifiedAt": "2026-09-13T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_jamboree_tour_2027_kettle_0425",
+      "tourId": "spitz_jamboree_tour_2027_kettle",
+      "venue": "静岡エコパアリーナ",
+      "performanceAt": "2027-04-25T12:00:00+09:00",
+      "performanceDate": "2027-04-25",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SPITZ JAMBOREE TOUR 2027 \"kettle\"",
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/live/202701/",
+      "lastVerifiedAt": "2026-09-13T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_jamboree_tour_2027_kettle_0501",
+      "tourId": "spitz_jamboree_tour_2027_kettle",
+      "venue": "宮城・セキスイハイムスーパーアリーナ(グランディ21)",
+      "performanceAt": "2027-05-01T12:00:00+09:00",
+      "performanceDate": "2027-05-01",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SPITZ JAMBOREE TOUR 2027 \"kettle\"",
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/live/202701/",
+      "lastVerifiedAt": "2026-09-13T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_jamboree_tour_2027_kettle_0502",
+      "tourId": "spitz_jamboree_tour_2027_kettle",
+      "venue": "宮城・セキスイハイムスーパーアリーナ(グランディ21)",
+      "performanceAt": "2027-05-02T12:00:00+09:00",
+      "performanceDate": "2027-05-02",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SPITZ JAMBOREE TOUR 2027 \"kettle\"",
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/live/202701/",
+      "lastVerifiedAt": "2026-09-13T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_jamboree_tour_2027_kettle_0511",
+      "tourId": "spitz_jamboree_tour_2027_kettle",
+      "venue": "有明アリーナ",
+      "performanceAt": "2027-05-11T12:00:00+09:00",
+      "performanceDate": "2027-05-11",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SPITZ JAMBOREE TOUR 2027 \"kettle\"",
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/live/202701/",
+      "lastVerifiedAt": "2026-09-13T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_jamboree_tour_2027_kettle_0512",
+      "tourId": "spitz_jamboree_tour_2027_kettle",
+      "venue": "有明アリーナ",
+      "performanceAt": "2027-05-12T12:00:00+09:00",
+      "performanceDate": "2027-05-12",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SPITZ JAMBOREE TOUR 2027 \"kettle\"",
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/live/202701/",
+      "lastVerifiedAt": "2026-09-13T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_jamboree_tour_2027_kettle_0515",
+      "tourId": "spitz_jamboree_tour_2027_kettle",
+      "venue": "あなぶきアリーナ香川",
+      "performanceAt": "2027-05-15T12:00:00+09:00",
+      "performanceDate": "2027-05-15",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SPITZ JAMBOREE TOUR 2027 \"kettle\"",
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/live/202701/",
+      "lastVerifiedAt": "2026-09-13T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_jamboree_tour_2027_kettle_0516",
+      "tourId": "spitz_jamboree_tour_2027_kettle",
+      "venue": "あなぶきアリーナ香川",
+      "performanceAt": "2027-05-16T12:00:00+09:00",
+      "performanceDate": "2027-05-16",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SPITZ JAMBOREE TOUR 2027 \"kettle\"",
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/live/202701/",
+      "lastVerifiedAt": "2026-09-13T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_jamboree_tour_2027_kettle_0525",
+      "tourId": "spitz_jamboree_tour_2027_kettle",
+      "venue": "大阪城ホール",
+      "performanceAt": "2027-05-25T12:00:00+09:00",
+      "performanceDate": "2027-05-25",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SPITZ JAMBOREE TOUR 2027 \"kettle\"",
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/live/202701/",
+      "lastVerifiedAt": "2026-09-13T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_jamboree_tour_2027_kettle_0526",
+      "tourId": "spitz_jamboree_tour_2027_kettle",
+      "venue": "大阪城ホール",
+      "performanceAt": "2027-05-26T12:00:00+09:00",
+      "performanceDate": "2027-05-26",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SPITZ JAMBOREE TOUR 2027 \"kettle\"",
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/live/202701/",
+      "lastVerifiedAt": "2026-09-13T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_jamboree_tour_2027_kettle_0601",
+      "tourId": "spitz_jamboree_tour_2027_kettle",
+      "venue": "大阪城ホール",
+      "performanceAt": "2027-06-01T12:00:00+09:00",
+      "performanceDate": "2027-06-01",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SPITZ JAMBOREE TOUR 2027 \"kettle\"",
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/live/202701/",
+      "lastVerifiedAt": "2026-09-13T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_jamboree_tour_2027_kettle_0602",
+      "tourId": "spitz_jamboree_tour_2027_kettle",
+      "venue": "大阪城ホール",
+      "performanceAt": "2027-06-02T12:00:00+09:00",
+      "performanceDate": "2027-06-02",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SPITZ JAMBOREE TOUR 2027 \"kettle\"",
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/live/202701/",
+      "lastVerifiedAt": "2026-09-13T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_jamboree_tour_2027_kettle_0619",
+      "tourId": "spitz_jamboree_tour_2027_kettle",
+      "venue": "クロコくんホール",
+      "performanceAt": "2027-06-19T12:00:00+09:00",
+      "performanceDate": "2027-06-19",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SPITZ JAMBOREE TOUR 2027 \"kettle\"",
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/live/202701/",
+      "lastVerifiedAt": "2026-09-13T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_jamboree_tour_2027_kettle_0620",
+      "tourId": "spitz_jamboree_tour_2027_kettle",
+      "venue": "クロコくんホール",
+      "performanceAt": "2027-06-20T12:00:00+09:00",
+      "performanceDate": "2027-06-20",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SPITZ JAMBOREE TOUR 2027 \"kettle\"",
+      "source": "system",
+      "sourceUrl": "https://spitz-web.com/live/202701/",
+      "lastVerifiedAt": "2026-09-13T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -174,7 +601,10 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["spitz_events_2026_miyagi_0829", "spitz_events_2026_miyagi_0830"],
+      "performanceIds": [
+        "spitz_events_2026_miyagi_0829",
+        "spitz_events_2026_miyagi_0830"
+      ],
       "source": "system",
       "sourceUrl": "https://www.rocknohosomichi.com/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
@@ -188,7 +618,10 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["spitz_events_2026_miyagi_0829", "spitz_events_2026_miyagi_0830"],
+      "performanceIds": [
+        "spitz_events_2026_miyagi_0829",
+        "spitz_events_2026_miyagi_0830"
+      ],
       "source": "system",
       "sourceUrl": "https://www.rocknohosomichi.com/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
@@ -202,7 +635,10 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["spitz_events_2026_miyagi_0829", "spitz_events_2026_miyagi_0830"],
+      "performanceIds": [
+        "spitz_events_2026_miyagi_0829",
+        "spitz_events_2026_miyagi_0830"
+      ],
       "source": "system",
       "sourceUrl": "https://www.rocknohosomichi.com/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
@@ -216,7 +652,10 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["spitz_events_2026_miyagi_0829", "spitz_events_2026_miyagi_0830"],
+      "performanceIds": [
+        "spitz_events_2026_miyagi_0829",
+        "spitz_events_2026_miyagi_0830"
+      ],
       "source": "system",
       "sourceUrl": "https://www.rocknohosomichi.com/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
@@ -230,7 +669,10 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["spitz_events_2026_miyagi_0829", "spitz_events_2026_miyagi_0830"],
+      "performanceIds": [
+        "spitz_events_2026_miyagi_0829",
+        "spitz_events_2026_miyagi_0830"
+      ],
       "source": "system",
       "sourceUrl": "https://www.rocknohosomichi.com/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
@@ -244,7 +686,10 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["spitz_events_2026_miyagi_0829", "spitz_events_2026_miyagi_0830"],
+      "performanceIds": [
+        "spitz_events_2026_miyagi_0829",
+        "spitz_events_2026_miyagi_0830"
+      ],
       "source": "system",
       "sourceUrl": "https://www.rocknohosomichi.com/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
@@ -258,7 +703,10 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["spitz_events_2026_miyagi_0829", "spitz_events_2026_miyagi_0830"],
+      "performanceIds": [
+        "spitz_events_2026_miyagi_0829",
+        "spitz_events_2026_miyagi_0830"
+      ],
       "source": "system",
       "sourceUrl": "https://www.rocknohosomichi.com/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
@@ -272,7 +720,10 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["spitz_events_2026_miyagi_0829", "spitz_events_2026_miyagi_0830"],
+      "performanceIds": [
+        "spitz_events_2026_miyagi_0829",
+        "spitz_events_2026_miyagi_0830"
+      ],
       "source": "system",
       "sourceUrl": "https://www.rocknohosomichi.com/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
@@ -286,7 +737,10 @@
       "resultAt": "2026-08-06T18:00:00+09:00",
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["spitz_events_2026_tokyo_0902", "spitz_events_2026_tokyo_0903"],
+      "performanceIds": [
+        "spitz_events_2026_tokyo_0902",
+        "spitz_events_2026_tokyo_0903"
+      ],
       "source": "system",
       "sourceUrl": "https://sun-set.info/ticket/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
@@ -300,7 +754,10 @@
       "resultAt": "2026-07-10T18:00:00+09:00",
       "paymentStartAt": null,
       "paymentEndAt": "2026-07-13T23:59:00+09:00",
-      "performanceIds": ["spitz_events_2026_tokyo_0902", "spitz_events_2026_tokyo_0903"],
+      "performanceIds": [
+        "spitz_events_2026_tokyo_0902",
+        "spitz_events_2026_tokyo_0903"
+      ],
       "source": "system",
       "sourceUrl": "https://sun-set.info/ticket/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
@@ -314,7 +771,10 @@
       "resultAt": "2026-06-27T18:00:00+09:00",
       "paymentStartAt": null,
       "paymentEndAt": "2026-06-30T23:59:00+09:00",
-      "performanceIds": ["spitz_events_2026_tokyo_0902", "spitz_events_2026_tokyo_0903"],
+      "performanceIds": [
+        "spitz_events_2026_tokyo_0902",
+        "spitz_events_2026_tokyo_0903"
+      ],
       "source": "system",
       "sourceUrl": "https://sun-set.info/ticket/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
@@ -328,7 +788,10 @@
       "resultAt": "2026-06-12T18:00:00+09:00",
       "paymentStartAt": null,
       "paymentEndAt": "2026-06-15T23:59:00+09:00",
-      "performanceIds": ["spitz_events_2026_tokyo_0902", "spitz_events_2026_tokyo_0903"],
+      "performanceIds": [
+        "spitz_events_2026_tokyo_0902",
+        "spitz_events_2026_tokyo_0903"
+      ],
       "source": "system",
       "sourceUrl": "https://sun-set.info/ticket/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
@@ -342,7 +805,10 @@
       "resultAt": "2026-07-11T13:00:00+09:00",
       "paymentStartAt": "2026-07-11T13:00:00+09:00",
       "paymentEndAt": "2026-07-13T21:00:00+09:00",
-      "performanceIds": ["spitz_events_2026_osaka_0917", "spitz_events_2026_osaka_0918"],
+      "performanceIds": [
+        "spitz_events_2026_osaka_0917",
+        "spitz_events_2026_osaka_0918"
+      ],
       "source": "system",
       "sourceUrl": "https://rrkonnichiwa.com/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
@@ -356,7 +822,9 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
-      "performanceIds": ["spitz_events_2026_tokyo_0922"],
+      "performanceIds": [
+        "spitz_events_2026_tokyo_0922"
+      ],
       "source": "system",
       "sourceUrl": "https://rockmansai.com/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
