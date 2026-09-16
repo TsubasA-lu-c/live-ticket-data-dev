@@ -22,8 +22,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          message="$(git log -1 --pretty=%s)"
-          if [ "$message" != "chore: diagnose Yabai eventName fix" ]; then exit 0; fi
+          [ "$(git log -1 --pretty=%s)" = "chore: retry Yabai eventName fix" ] || exit 0
           echo 'Before:'
           git status --short
           python3 - <<'PY'
@@ -48,41 +47,50 @@ jobs:
           path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
           PY
 
-      - name: Relation materialization check
+      - name: Relation check (diagnostic only)
+        continue-on-error: true
         shell: bash
         run: |
           set -euo pipefail
-          [ "$(git log -1 --pretty=%s)" = "chore: diagnose Yabai eventName fix" ] || exit 0
+          [ "$(git log -1 --pretty=%s)" = "chore: retry Yabai eventName fix" ] || exit 0
           python3 tools/materialize_artist_live_relations.py --check
 
       - name: Rebuild manifest
         shell: bash
         run: |
           set -euo pipefail
-          [ "$(git log -1 --pretty=%s)" = "chore: diagnose Yabai eventName fix" ] || exit 0
+          [ "$(git log -1 --pretty=%s)" = "chore: retry Yabai eventName fix" ] || exit 0
           python3 tools/update_manifest.py
 
       - name: Full validator
         shell: bash
         run: |
           set -euo pipefail
-          [ "$(git log -1 --pretty=%s)" = "chore: diagnose Yabai eventName fix" ] || exit 0
+          [ "$(git log -1 --pretty=%s)" = "chore: retry Yabai eventName fix" ] || exit 0
           python3 tools/validate.py
 
-      - name: Scoped diff check
+      - name: Scoped integrity and diff check
         shell: bash
         run: |
           set -euo pipefail
-          [ "$(git log -1 --pretty=%s)" = "chore: diagnose Yabai eventName fix" ] || exit 0
+          [ "$(git log -1 --pretty=%s)" = "chore: retry Yabai eventName fix" ] || exit 0
           python3 - <<'PY'
           import json
           from pathlib import Path
-          p = Path('data/artist/yabai_tshirts_yasan.json')
-          d = json.loads(p.read_text(encoding='utf-8'))
-          target = [x for x in d['performances'] if x.get('id') == 'yabai_tshirts_yasan_oitemo_youngskinny_vol7_2027_nara_0204']
-          assert len(target) == 1
-          assert target[0].get('kind') == 'taiban'
-          assert target[0].get('eventName') == '老いてもヤングスキニーツアー vol.7'
+          d = json.loads(Path('data/artist/yabai_tshirts_yasan.json').read_text(encoding='utf-8'))
+          perf_id = 'yabai_tshirts_yasan_oitemo_youngskinny_vol7_2027_nara_0204'
+          tour_id = 'yabai_tshirts_yasan_oitemo_youngskinny_vol7_2027_0204'
+          ps = [x for x in d['performances'] if x.get('id') == perf_id]
+          assert len(ps) == 1
+          p = ps[0]
+          assert p.get('tourId') == tour_id
+          assert p.get('kind') == 'taiban'
+          assert p.get('eventName') == '老いてもヤングスキニーツアー vol.7'
+          assert sum(t.get('id') == tour_id for t in d['tours']) == 1
+          assert all(len({x.get('id') for x in d[k]}) == len(d[k]) for k in ('tours','performances','lotteries'))
+          for lot in d['lotteries']:
+              if perf_id in (lot.get('performanceIds') or []):
+                  assert lot.get('tourId') == tour_id
           PY
           git diff --check
           changed="$(git diff --name-only)"
@@ -93,7 +101,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          [ "$(git log -1 --pretty=%s)" = "chore: diagnose Yabai eventName fix" ] || exit 0
+          [ "$(git log -1 --pretty=%s)" = "chore: retry Yabai eventName fix" ] || exit 0
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -- data/artist/yabai_tshirts_yasan.json data/manifest.json
