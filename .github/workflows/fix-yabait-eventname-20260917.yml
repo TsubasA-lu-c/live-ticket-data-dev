@@ -1,0 +1,88 @@
+name: Fix Yabai taiban eventName
+
+on:
+  push:
+    branches:
+      - fix/yabait-eventname-20260917
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: fix/yabait-eventname-20260917
+          fetch-depth: 0
+          clean: true
+
+      - name: Apply scoped correction
+        shell: bash
+        run: |
+          set -euo pipefail
+          message="$(git log -1 --pretty=%s)"
+          if [ "$message" != "chore: stage Yabai eventName fix" ]; then
+            echo "No-op for follow-up commit: $message"
+            exit 0
+          fi
+          echo 'Before:'
+          git status --short
+          python3 - <<'PY'
+          import json
+          from datetime import datetime, timezone, timedelta
+          from pathlib import Path
+
+          path = Path('data/artist/yabai_tshirts_yasan.json')
+          data = json.loads(path.read_text(encoding='utf-8'))
+          perf_id = 'yabai_tshirts_yasan_oitemo_youngskinny_vol7_2027_nara_0204'
+          expected_tour = 'yabai_tshirts_yasan_oitemo_youngskinny_vol7_2027_0204'
+          event_name = '老いてもヤングスキニーツアー vol.7'
+          matches = [p for p in data.get('performances', []) if p.get('id') == perf_id]
+          if len(matches) != 1:
+              raise SystemExit(f'expected exactly one performance {perf_id}, found {len(matches)}')
+          perf = matches[0]
+          if perf.get('tourId') != expected_tour:
+              raise SystemExit(f'unexpected tourId: {perf.get("tourId")}')
+          if perf.get('kind') != 'taiban':
+              raise SystemExit(f'unexpected kind: {perf.get("kind")}')
+          if perf.get('sourceUrl') != 'https://yabaitshirtsyasan.com/live/293577/':
+              raise SystemExit(f'unexpected sourceUrl: {perf.get("sourceUrl")}')
+          perf['eventName'] = event_name
+          perf['lastVerifiedAt'] = datetime.now(timezone(timedelta(hours=9))).strftime('%Y-%m-%dT%H:%M:%S+09:00')
+          path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          reread = json.loads(path.read_text(encoding='utf-8'))
+          fixed = next(p for p in reread['performances'] if p.get('id') == perf_id)
+          assert fixed['eventName'] == event_name
+          assert fixed['kind'] == 'taiban'
+          PY
+
+      - name: Rebuild manifest and validate
+        shell: bash
+        run: |
+          set -euo pipefail
+          message="$(git log -1 --pretty=%s)"
+          if [ "$message" != "chore: stage Yabai eventName fix" ]; then exit 0; fi
+          python3 tools/materialize_artist_live_relations.py --check
+          python3 tools/update_manifest.py
+          python3 tools/validate.py
+          git diff --check
+          changed="$(git diff --name-only)"
+          printf '%s\n' "$changed"
+          test "$changed" = $'data/artist/yabai_tshirts_yasan.json\ndata/manifest.json'
+
+      - name: Commit correction
+        shell: bash
+        run: |
+          set -euo pipefail
+          message="$(git log -1 --pretty=%s)"
+          if [ "$message" != "chore: stage Yabai eventName fix" ]; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- data/artist/yabai_tshirts_yasan.json data/manifest.json
+          git commit -m 'fix: set Yabai Youngskinny eventName'
+          echo 'After commit:'
+          git status --short
+          git push origin HEAD:fix/yabait-eventname-20260917
