@@ -1,9 +1,9 @@
 {
-  "version": 217,
-  "updatedAt": "2026-09-13T08:29:03+09:00",
+  "version": 218,
+  "updatedAt": "2026-09-16T23:21:17+09:00",
   "files": {
     "artists": {
-      "hash": "ca8c2f6af3633f17"
+      "hash": "2fbe0a00532ece80"
     }
   },
   "artists": {
@@ -351,6 +351,9 @@
     },
     "spyair": {
       "hash": "2a80b66e5efb51ff"
+    },
+    "dir_en_grey": {
+      "hash": "3e95364e96dc1683"
     }
   }
 }

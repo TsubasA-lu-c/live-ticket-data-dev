@@ -2455,5 +2455,21 @@
       "textColor3": "372a00",
       "textColor4": "3a3413"
     }
+  },
+  {
+    "id": "dir_en_grey",
+    "name": "DIR EN GREY",
+    "aliases": [
+      "ディル アングレイ",
+      "ディルアングレイ"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.direngrey.co.jp/",
+    "lastVerifiedAt": "2026-09-16T23:03:00+09:00",
+    "appleMusic": {
+      "artistId": "83870278"
+    }
   }
 ]
