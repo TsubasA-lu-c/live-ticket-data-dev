@@ -23,10 +23,7 @@ jobs:
         run: |
           set -euo pipefail
           message="$(git log -1 --pretty=%s)"
-          if [ "$message" != "chore: stage Yabai eventName fix" ]; then
-            echo "No-op for follow-up commit: $message"
-            exit 0
-          fi
+          if [ "$message" != "chore: diagnose Yabai eventName fix" ]; then exit 0; fi
           echo 'Before:'
           git status --short
           python3 - <<'PY'
@@ -43,31 +40,50 @@ jobs:
           if len(matches) != 1:
               raise SystemExit(f'expected exactly one performance {perf_id}, found {len(matches)}')
           perf = matches[0]
-          if perf.get('tourId') != expected_tour:
-              raise SystemExit(f'unexpected tourId: {perf.get("tourId")}')
-          if perf.get('kind') != 'taiban':
-              raise SystemExit(f'unexpected kind: {perf.get("kind")}')
-          if perf.get('sourceUrl') != 'https://yabaitshirtsyasan.com/live/293577/':
-              raise SystemExit(f'unexpected sourceUrl: {perf.get("sourceUrl")}')
+          assert perf.get('tourId') == expected_tour, perf
+          assert perf.get('kind') == 'taiban', perf
+          assert perf.get('sourceUrl') == 'https://yabaitshirtsyasan.com/live/293577/', perf
           perf['eventName'] = event_name
           perf['lastVerifiedAt'] = datetime.now(timezone(timedelta(hours=9))).strftime('%Y-%m-%dT%H:%M:%S+09:00')
           path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-
-          reread = json.loads(path.read_text(encoding='utf-8'))
-          fixed = next(p for p in reread['performances'] if p.get('id') == perf_id)
-          assert fixed['eventName'] == event_name
-          assert fixed['kind'] == 'taiban'
           PY
 
-      - name: Rebuild manifest and validate
+      - name: Relation materialization check
         shell: bash
         run: |
           set -euo pipefail
-          message="$(git log -1 --pretty=%s)"
-          if [ "$message" != "chore: stage Yabai eventName fix" ]; then exit 0; fi
+          [ "$(git log -1 --pretty=%s)" = "chore: diagnose Yabai eventName fix" ] || exit 0
           python3 tools/materialize_artist_live_relations.py --check
+
+      - name: Rebuild manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          [ "$(git log -1 --pretty=%s)" = "chore: diagnose Yabai eventName fix" ] || exit 0
           python3 tools/update_manifest.py
+
+      - name: Full validator
+        shell: bash
+        run: |
+          set -euo pipefail
+          [ "$(git log -1 --pretty=%s)" = "chore: diagnose Yabai eventName fix" ] || exit 0
           python3 tools/validate.py
+
+      - name: Scoped diff check
+        shell: bash
+        run: |
+          set -euo pipefail
+          [ "$(git log -1 --pretty=%s)" = "chore: diagnose Yabai eventName fix" ] || exit 0
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path('data/artist/yabai_tshirts_yasan.json')
+          d = json.loads(p.read_text(encoding='utf-8'))
+          target = [x for x in d['performances'] if x.get('id') == 'yabai_tshirts_yasan_oitemo_youngskinny_vol7_2027_nara_0204']
+          assert len(target) == 1
+          assert target[0].get('kind') == 'taiban'
+          assert target[0].get('eventName') == '老いてもヤングスキニーツアー vol.7'
+          PY
           git diff --check
           changed="$(git diff --name-only)"
           printf '%s\n' "$changed"
@@ -77,8 +93,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          message="$(git log -1 --pretty=%s)"
-          if [ "$message" != "chore: stage Yabai eventName fix" ]; then exit 0; fi
+          [ "$(git log -1 --pretty=%s)" = "chore: diagnose Yabai eventName fix" ] || exit 0
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -- data/artist/yabai_tshirts_yasan.json data/manifest.json
