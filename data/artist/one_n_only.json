@@ -236,6 +236,39 @@
       "source": "system",
       "sourceUrl": "https://one-n-only.jp/contents/1062887",
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "one_n_only_livejack_smash_beat_sp_2026",
+      "artistId": "one_n_only",
+      "title": "Livejack 2026 SMASH BEAT SP",
+      "startDate": "2026-10-31T00:00:00+09:00",
+      "endDate": "2026-10-31T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://one-n-only.jp/contents/1107421",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "one_n_only_recofes_2027",
+      "artistId": "one_n_only",
+      "title": "RECOFES.2027 in 東京国際フォーラム ホールA",
+      "startDate": "2027-02-23T00:00:00+09:00",
+      "endDate": "2027-02-23T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://one-n-only.jp/contents/1107093",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "one_n_only_merry_xmaswag_2026",
+      "artistId": "one_n_only",
+      "title": "Merry XmaSWAG 2026 ～メガホリ～",
+      "startDate": "2026-12-13T00:00:00+09:00",
+      "endDate": "2026-12-23T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://one-n-only.jp/contents/1109290",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -432,6 +465,78 @@
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00",
       "performanceDate": "2026-08-08",
       "performanceTimeEstimated": true
+    },
+    {
+      "id": "one_n_only_livejack_smash_beat_sp_2026_osaka_1031",
+      "tourId": "one_n_only_livejack_smash_beat_sp_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-10-31T15:30:00+09:00",
+      "doorOpenAt": "2026-10-31T14:30:00+09:00",
+      "kind": "fes",
+      "eventName": "Livejack 2026 SMASH BEAT SP",
+      "source": "system",
+      "sourceUrl": "https://one-n-only.jp/contents/1107421",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "one_n_only_recofes_2027_tokyo_0223",
+      "tourId": "one_n_only_recofes_2027",
+      "venue": "東京国際フォーラム ホールA",
+      "performanceAt": "2027-02-23T18:00:00+09:00",
+      "doorOpenAt": "2027-02-23T17:00:00+09:00",
+      "kind": "fes",
+      "eventName": "RECOFES.2027 in 東京国際フォーラム ホールA",
+      "source": "system",
+      "sourceUrl": "https://one-n-only.jp/contents/1107093",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "one_n_only_merry_xmaswag_2026_tokyo_1213",
+      "tourId": "one_n_only_merry_xmaswag_2026",
+      "venue": "東京国際フォーラム ホールA",
+      "performanceAt": "2026-12-13T18:00:00+09:00",
+      "doorOpenAt": "2026-12-13T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://one-n-only.jp/contents/1109290",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "one_n_only_merry_xmaswag_2026_osaka_1222",
+      "tourId": "one_n_only_merry_xmaswag_2026",
+      "venue": "グランキューブ大阪",
+      "performanceAt": "2026-12-22T18:30:00+09:00",
+      "doorOpenAt": "2026-12-22T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://one-n-only.jp/contents/1109290",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "one_n_only_merry_xmaswag_2026_osaka_1223_1230",
+      "tourId": "one_n_only_merry_xmaswag_2026",
+      "venue": "グランキューブ大阪",
+      "performanceAt": "2026-12-23T12:30:00+09:00",
+      "doorOpenAt": "2026-12-23T11:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://one-n-only.jp/contents/1109290",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "one_n_only_merry_xmaswag_2026_osaka_1223_1800",
+      "tourId": "one_n_only_merry_xmaswag_2026",
+      "venue": "グランキューブ大阪",
+      "performanceAt": "2026-12-23T18:00:00+09:00",
+      "doorOpenAt": "2026-12-23T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://one-n-only.jp/contents/1109290",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -806,6 +911,123 @@
       "source": "system",
       "sourceUrl": "https://one-n-only.jp/contents/1037998",
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "one_n_only_livejack_smash_beat_sp_2026_presale",
+      "tourId": "one_n_only_livejack_smash_beat_sp_2026",
+      "type": "オフィシャル先行",
+      "entryStartAt": "2026-09-04T12:00:00+09:00",
+      "entryEndAt": "2026-09-13T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "one_n_only_livejack_smash_beat_sp_2026_osaka_1031"
+      ],
+      "source": "system",
+      "sourceUrl": "https://one-n-only.jp/contents/1107421",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "one_n_only_livejack_smash_beat_sp_2026_general",
+      "tourId": "one_n_only_livejack_smash_beat_sp_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-09-26T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "one_n_only_livejack_smash_beat_sp_2026_osaka_1031"
+      ],
+      "source": "system",
+      "sourceUrl": "https://one-n-only.jp/contents/1107421",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "one_n_only_recofes_2027_swag",
+      "tourId": "one_n_only_recofes_2027",
+      "type": "SWAG/オフィシャルFC先行",
+      "entryStartAt": "2026-09-04T10:00:00+09:00",
+      "entryEndAt": "2026-10-12T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "one_n_only_recofes_2027_tokyo_0223"
+      ],
+      "source": "system",
+      "sourceUrl": "https://one-n-only.jp/contents/1107093",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "one_n_only_recofes_2027_playguide",
+      "tourId": "one_n_only_recofes_2027",
+      "type": "プレイガイド先行",
+      "entryStartAt": "2026-10-17T10:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "one_n_only_recofes_2027_tokyo_0223"
+      ],
+      "source": "system",
+      "sourceUrl": "https://one-n-only.jp/contents/1107093",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "one_n_only_merry_xmaswag_2026_swag",
+      "tourId": "one_n_only_merry_xmaswag_2026",
+      "type": "SWAG先行",
+      "entryStartAt": "2026-09-13T19:00:00+09:00",
+      "entryEndAt": "2026-09-27T23:59:00+09:00",
+      "resultAt": "2026-10-03T14:00:00+09:00",
+      "paymentStartAt": "2026-10-03T14:00:00+09:00",
+      "paymentEndAt": "2026-10-06T23:59:00+09:00",
+      "performanceIds": [
+        "one_n_only_merry_xmaswag_2026_tokyo_1213",
+        "one_n_only_merry_xmaswag_2026_osaka_1222",
+        "one_n_only_merry_xmaswag_2026_osaka_1223_1230",
+        "one_n_only_merry_xmaswag_2026_osaka_1223_1800"
+      ],
+      "source": "system",
+      "sourceUrl": "https://one-n-only.jp/contents/1109290",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "one_n_only_live_tour_2026_inferno_tokyo_machine_release",
+      "tourId": "one_n_only_live_tour_2026_inferno",
+      "type": "機材開放販売（先着）",
+      "entryStartAt": "2026-09-06T18:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "one_n_only_live_tour_2026_inferno_20260912_4",
+        "one_n_only_live_tour_2026_inferno_20260913_5"
+      ],
+      "source": "system",
+      "sourceUrl": "https://one-n-only.jp/contents/1107760",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "one_n_only_live_tour_2026_inferno_tokyo_machine_release_2nd",
+      "tourId": "one_n_only_live_tour_2026_inferno",
+      "type": "機材開放2次販売（先着）",
+      "entryStartAt": "2026-09-12T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "one_n_only_live_tour_2026_inferno_20260912_4",
+        "one_n_only_live_tour_2026_inferno_20260913_5"
+      ],
+      "source": "system",
+      "sourceUrl": "https://one-n-only.jp/contents/1109517",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
