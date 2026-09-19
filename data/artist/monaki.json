@@ -413,6 +413,26 @@
       "source": "system",
       "sourceUrl": "https://monaki.jp/",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_christmas_yade_2026",
+      "artistId": "monaki",
+      "title": "MONAKI「クリスマスやで☆しらんけど」",
+      "startDate": "2026-12-23T00:00:00+09:00",
+      "endDate": "2026-12-25T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1階スタンディング",
+          "amount": 6600
+        },
+        {
+          "label": "2階指定",
+          "amount": 7700
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/news/detail/89372",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -751,6 +771,34 @@
       "source": "system",
       "sourceUrl": "https://monaki.jp/",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_christmas_yade_2026_tokyo_1223",
+      "tourId": "monaki_christmas_yade_2026",
+      "venue": "Zepp DiverCity (TOKYO)",
+      "performanceAt": "2026-12-23T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/news/detail/89372",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00",
+      "performanceDate": "2026-12-23",
+      "performanceTimeEstimated": true
+    },
+    {
+      "id": "monaki_christmas_yade_2026_osaka_1225",
+      "tourId": "monaki_christmas_yade_2026",
+      "venue": "Zepp Osaka Bayside",
+      "performanceAt": "2026-12-25T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/news/detail/89372",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00",
+      "performanceDate": "2026-12-25",
+      "performanceTimeEstimated": true
     }
   ],
   "lotteries": [
@@ -905,6 +953,23 @@
       "source": "system",
       "sourceUrl": "https://monaki.jp/",
       "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_christmas_yade_2026_fc",
+      "tourId": "monaki_christmas_yade_2026",
+      "type": "モナキファミリークラブチケット先行",
+      "entryStartAt": "2026-09-10T12:00:00+09:00",
+      "entryEndAt": "2026-09-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "monaki_christmas_yade_2026_tokyo_1223",
+        "monaki_christmas_yade_2026_osaka_1225"
+      ],
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/news/detail/89372",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
