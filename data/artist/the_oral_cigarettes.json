@@ -169,6 +169,17 @@
       "source": "system",
       "sourceUrl": "https://theoralcigarettes.com/news/list/4?page=2",
       "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_dope_purple_hole_2027",
+      "artistId": "the_oral_cigarettes",
+      "title": "ALL-STANDING ARENA TOUR 2027「DOPE PURPLE HOLE」",
+      "startDate": "2027-02-21T00:00:00+09:00",
+      "endDate": "2027-04-25T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/detail/3269",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -629,6 +640,42 @@
       "performanceTimeEstimated": true,
       "performanceDate": "2026-11-20",
       "eventName": "WONDERLIVET 2026"
+    },
+    {
+      "id": "the_oral_cigarettes_dope_purple_hole_2027_nagoya_0221",
+      "tourId": "the_oral_cigarettes_dope_purple_hole_2027",
+      "venue": "ポートメッセなごや 第1展示館",
+      "performanceAt": "2027-02-21T18:00:00+09:00",
+      "doorOpenAt": "2027-02-21T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/detail/3269",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_dope_purple_hole_2027_makuhari_0304",
+      "tourId": "the_oral_cigarettes_dope_purple_hole_2027",
+      "venue": "幕張メッセ 国際展示場 1-2ホール",
+      "performanceAt": "2027-03-04T19:00:00+09:00",
+      "doorOpenAt": "2027-03-04T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/detail/3269",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_dope_purple_hole_2027_osaka_0425",
+      "tourId": "the_oral_cigarettes_dope_purple_hole_2027",
+      "venue": "インテックス大阪 5号館",
+      "performanceAt": "2027-04-25T18:00:00+09:00",
+      "doorOpenAt": "2027-04-25T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/detail/3269",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -687,6 +734,24 @@
       "source": "system",
       "sourceUrl": "https://theoralcigarettes.com/news/list/4",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_dope_purple_hole_2027_bkw_fc_1st",
+      "tourId": "the_oral_cigarettes_dope_purple_hole_2027",
+      "type": "BKW!! Premium Members会員1次受付",
+      "entryStartAt": "2026-09-12T21:00:00+09:00",
+      "entryEndAt": "2026-09-20T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "the_oral_cigarettes_dope_purple_hole_2027_nagoya_0221",
+        "the_oral_cigarettes_dope_purple_hole_2027_makuhari_0304",
+        "the_oral_cigarettes_dope_purple_hole_2027_osaka_0425"
+      ],
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/feature/ticket_standingarenatour2027_fc",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
