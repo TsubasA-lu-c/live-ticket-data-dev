@@ -164,6 +164,17 @@
       "source": "system",
       "sourceUrl": "https://macaroniempitsu.com/live/19377.html",
       "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
+    },
+    {
+      "id": "macaroni_empitsu_okkake_sports_festival_2026",
+      "artistId": "macaroni_empitsu",
+      "title": "OKKAKE感謝祭☆代々木体育館に集合！みんなで秋の大運動会？！",
+      "startDate": "2026-11-04T00:00:00+09:00",
+      "endDate": "2026-11-04T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/live/21076.html",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -442,6 +453,18 @@
       "source": "system",
       "sourceUrl": "https://kyotoonpaku.net/",
       "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "macaroni_empitsu_okkake_sports_festival_2026_yoyogi_1104",
+      "tourId": "macaroni_empitsu_okkake_sports_festival_2026",
+      "venue": "国立代々木競技場 第一体育館",
+      "performanceAt": "2026-11-04T19:00:00+09:00",
+      "doorOpenAt": "2026-11-04T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/live/21076.html",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -564,6 +587,22 @@
       "source": "system",
       "sourceUrl": "https://macaroniempitsu.com/",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "macaroni_empitsu_okkake_sports_festival_2026_fc",
+      "tourId": "macaroni_empitsu_okkake_sports_festival_2026",
+      "type": "OKKAKE会員限定先行",
+      "entryStartAt": "2026-09-18T18:00:00+09:00",
+      "entryEndAt": "2026-09-30T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "macaroni_empitsu_okkake_sports_festival_2026_yoyogi_1104"
+      ],
+      "source": "system",
+      "sourceUrl": "https://fc.macaroniempitsu.com/news/detail/100176",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
