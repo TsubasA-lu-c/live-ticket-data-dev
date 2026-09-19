@@ -376,6 +376,17 @@
       "source": "system",
       "sourceUrl": "https://10-feet.kyoto/contents/1087996",
       "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "10_feet_bukurock_festival_2027",
+      "artistId": "10_feet",
+      "title": "ブクロック!フェスティバル 2027幕張",
+      "startDate": "2027-02-11T00:00:00+09:00",
+      "endDate": "2027-02-11T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/3604630001-P0030019P021001?P1=0175",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -802,6 +813,18 @@
       "source": "system",
       "sourceUrl": "https://10-feet.kyoto/contents/live/page/2",
       "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "10_feet_bukurock_festival_2027_makuhari_0211",
+      "tourId": "10_feet_bukurock_festival_2027",
+      "venue": "幕張メッセ 国際展示場 1～3ホール",
+      "performanceAt": "2027-02-11T11:00:00+09:00",
+      "doorOpenAt": "2027-02-11T09:30:00+09:00",
+      "kind": "fes",
+      "eventName": "ブクロック!フェスティバル 2027幕張",
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/3604630001-P0030019P021001?P1=0175",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -940,6 +963,22 @@
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/4581460001-P0030001P021001?P6=001",
       "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "10_feet_bukurock_festival_2027_eplus_1st",
+      "tourId": "10_feet_bukurock_festival_2027",
+      "type": "イープラス 一次先行（抽選）",
+      "entryStartAt": "2026-09-10T20:00:00+09:00",
+      "entryEndAt": "2026-09-28T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "10_feet_bukurock_festival_2027_makuhari_0211"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/3604630001-P0030019P021001?P1=0175",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ]
 }
