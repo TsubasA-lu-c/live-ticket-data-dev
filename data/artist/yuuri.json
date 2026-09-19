@@ -138,6 +138,34 @@
       "source": "system",
       "sourceUrl": "https://www.yuuriweb.com/live/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_last_solo_concert_2026",
+      "artistId": "yuuri",
+      "title": "2026年 最後の単独公演🎄",
+      "startDate": "2026-12-19T00:00:00+09:00",
+      "endDate": "2026-12-19T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 9000
+        },
+        {
+          "label": "ゆーりんちの席",
+          "amount": 12500
+        },
+        {
+          "label": "注釈付きゆーりんちの席",
+          "amount": 12500
+        },
+        {
+          "label": "アップグレード",
+          "amount": 3500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://yuurinchi.com/contents/1107987",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -332,6 +360,18 @@
       "source": "system",
       "sourceUrl": "https://www.yuuriweb.com/live/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_last_solo_concert_2026_yokohama_1219",
+      "tourId": "yuuri_last_solo_concert_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-12-19T18:30:00+09:00",
+      "doorOpenAt": "2026-12-19T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://yuurinchi.com/contents/1107987",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -569,6 +609,38 @@
       "source": "system",
       "sourceUrl": "https://tickets.interpark.com/goods/26010352",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_last_solo_concert_2026_yuurinchi_fastest",
+      "tourId": "yuuri_last_solo_concert_2026",
+      "type": "ゆーりんち最速先行（9月6日開始・開始時刻未公表）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-09-13T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yuuri_last_solo_concert_2026_yokohama_1219"
+      ],
+      "source": "system",
+      "sourceUrl": "https://yuurinchi.com/contents/1107987",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_last_solo_concert_2026_yuurinchi_1st",
+      "tourId": "yuuri_last_solo_concert_2026",
+      "type": "ゆーりんち1次先行",
+      "entryStartAt": "2026-09-18T20:00:00+09:00",
+      "entryEndAt": "2026-09-27T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yuuri_last_solo_concert_2026_yokohama_1219"
+      ],
+      "source": "system",
+      "sourceUrl": "https://yuurinchi.com/contents/1111483",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
