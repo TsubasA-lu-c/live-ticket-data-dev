@@ -69,6 +69,26 @@
       "source": "system",
       "sourceUrl": "https://www.musubinoyumebanchi.jp/",
       "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_anami_groove_method_live_2026",
+      "artistId": "ryokuoushoku_shakai",
+      "title": "【穴見真吾】Groove-Method LIVE 2026",
+      "startDate": "2026-11-24T00:00:00+09:00",
+      "endDate": "2026-11-26T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1Fスタンディング",
+          "amount": 8800
+        },
+        {
+          "label": "2F指定席",
+          "amount": 11000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/ryokusyaka/info/587005",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -241,6 +261,30 @@
       "source": "system",
       "sourceUrl": "https://www.musubinoyumebanchi.jp/",
       "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_anami_groove_method_live_2026_namba_1124",
+      "tourId": "ryokuoushoku_shakai_anami_groove_method_live_2026",
+      "venue": "Zepp Namba",
+      "performanceAt": "2026-11-24T19:00:00+09:00",
+      "doorOpenAt": "2026-11-24T18:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "Groove-Method LIVE 2026",
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/ryokusyaka/info/587005",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_anami_groove_method_live_2026_haneda_1126",
+      "tourId": "ryokuoushoku_shakai_anami_groove_method_live_2026",
+      "venue": "Zepp Haneda (TOKYO)",
+      "performanceAt": "2026-11-26T19:00:00+09:00",
+      "doorOpenAt": "2026-11-26T18:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "Groove-Method LIVE 2026",
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/ryokusyaka/info/587005",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -693,6 +737,23 @@
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/2314540001?P6=001&P1=0402&P59=1",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_anami_groove_method_live_2026_pia_advance",
+      "tourId": "ryokuoushoku_shakai_anami_groove_method_live_2026",
+      "type": "チケットぴあ先行",
+      "entryStartAt": "2026-09-12T20:00:00+09:00",
+      "entryEndAt": "2026-09-27T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ryokuoushoku_shakai_anami_groove_method_live_2026_namba_1124",
+        "ryokuoushoku_shakai_anami_groove_method_live_2026_haneda_1126"
+      ],
+      "source": "system",
+      "sourceUrl": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2671037",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
