@@ -65,6 +65,17 @@
       "source": "system",
       "sourceUrl": "https://post.tv-asahi.co.jp/?p=832267",
       "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "ae_group_sano_suntory_daiku_2026",
+      "artistId": "ae_group",
+      "title": "【佐野晶哉】サントリー1万人の第九",
+      "startDate": "2026-12-06T00:00:00+09:00",
+      "endDate": "2026-12-06T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.suntory.co.jp/culture-sports/daiku/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -487,6 +498,18 @@
       "source": "system",
       "sourceUrl": "https://post.tv-asahi.co.jp/?p=832267",
       "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "ae_group_sano_suntory_daiku_2026_osaka_1206",
+      "tourId": "ae_group_sano_suntory_daiku_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-12-06T15:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "eventName": "サントリー1万人の第九",
+      "source": "system",
+      "sourceUrl": "https://www.mbs.jp/daiku/outline/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "lotteries": [
