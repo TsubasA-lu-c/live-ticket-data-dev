@@ -546,6 +546,57 @@
       "source": "system",
       "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/44706/",
       "lastVerifiedAt": "2026-09-10T21:37:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_ldh_live_expo_2026_exile_tribe_fc",
+      "tourId": "sandaime_j_soul_brothers_ldh_live_expo_2026",
+      "type": "EXILE TRIBE FC先行抽選予約",
+      "entryStartAt": "2026-08-19T15:00:00+09:00",
+      "entryEndAt": "2026-08-23T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_ldh_live_expo_2026_tokyo_1128",
+        "sandaime_j_soul_brothers_ldh_live_expo_2026_tokyo_1129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/44706/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_ldh_live_expo_2026_lawson",
+      "tourId": "sandaime_j_soul_brothers_ldh_live_expo_2026",
+      "type": "ローソンチケット先行",
+      "entryStartAt": "2026-08-26T15:00:00+09:00",
+      "entryEndAt": "2026-08-30T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_ldh_live_expo_2026_tokyo_1128",
+        "sandaime_j_soul_brothers_ldh_live_expo_2026_tokyo_1129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/44706/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_ldh_live_expo_2026_ticketbook",
+      "tourId": "sandaime_j_soul_brothers_ldh_live_expo_2026",
+      "type": "ticketbook先行",
+      "entryStartAt": "2026-08-26T15:00:00+09:00",
+      "entryEndAt": "2026-08-30T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_ldh_live_expo_2026_tokyo_1128",
+        "sandaime_j_soul_brothers_ldh_live_expo_2026_tokyo_1129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/44706/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
