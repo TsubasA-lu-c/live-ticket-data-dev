@@ -19,9 +19,18 @@
       "startDate": "2026-07-18T00:00:00+09:00",
       "endDate": "2026-07-19T00:00:00+09:00",
       "prices": [
-        {"label": "VIP席", "amount": 65000},
-        {"label": "SS席", "amount": 29800},
-        {"label": "一般席", "amount": 9800}
+        {
+          "label": "VIP席",
+          "amount": 65000
+        },
+        {
+          "label": "SS席",
+          "amount": 29800
+        },
+        {
+          "label": "一般席",
+          "amount": 9800
+        }
       ],
       "source": "system",
       "sourceUrl": "https://direngrey.co.jp/bio/289/",
@@ -34,10 +43,22 @@
       "startDate": "2026-11-12T00:00:00+09:00",
       "endDate": "2026-12-15T00:00:00+09:00",
       "prices": [
-        {"label": "｢a knot｣スタンディング", "amount": 9000},
-        {"label": "VIP Ticket", "amount": 29800},
-        {"label": "Exclusive Ticket", "amount": 19800},
-        {"label": "一般席", "amount": 9800}
+        {
+          "label": "｢a knot｣スタンディング",
+          "amount": 9000
+        },
+        {
+          "label": "VIP Ticket",
+          "amount": 29800
+        },
+        {
+          "label": "Exclusive Ticket",
+          "amount": 19800
+        },
+        {
+          "label": "一般席",
+          "amount": 9800
+        }
       ],
       "source": "system",
       "sourceUrl": "https://www.direngrey.co.jp/tour/japan.html",
@@ -621,6 +642,33 @@
       "source": "system",
       "sourceUrl": "https://www.direngrey.co.jp/tour/japan.html",
       "lastVerifiedAt": "2026-09-16T23:03:00+09:00"
+    },
+    {
+      "id": "dir_en_grey_30th_rettou_gekishin_angya_2026_general",
+      "tourId": "dir_en_grey_30th_rettou_gekishin_angya_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-10-31T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "dir_en_grey_30th_20261112",
+        "dir_en_grey_30th_20261113",
+        "dir_en_grey_30th_20261117",
+        "dir_en_grey_30th_20261119",
+        "dir_en_grey_30th_20261126",
+        "dir_en_grey_30th_20261128",
+        "dir_en_grey_30th_20261130",
+        "dir_en_grey_30th_20261205",
+        "dir_en_grey_30th_20261206",
+        "dir_en_grey_30th_20261210",
+        "dir_en_grey_30th_20261211",
+        "dir_en_grey_30th_20261215"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.direngrey.co.jp/tour/japan.html",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "lastVerifiedAt": "2026-09-16T23:03:00+09:00"
