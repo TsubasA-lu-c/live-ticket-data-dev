@@ -109,6 +109,26 @@
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/venezia_live",
       "lastVerifiedAt": "2026-08-23T09:00:00+09:00"
+    },
+    {
+      "id": "glay_exclusive_exofire_beginning_2026",
+      "artistId": "glay",
+      "title": "GLAY EXCLUSIVE LIVE 2026 “EXOFIRE” 〜THE BEGINNING〜",
+      "startDate": "2026-10-22T00:00:00+09:00",
+      "endDate": "2026-10-23T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 10000
+        },
+        {
+          "label": "着席指定席",
+          "amount": 10000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10328",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -675,6 +695,30 @@
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/venezia_live",
       "lastVerifiedAt": "2026-08-23T09:00:00+09:00"
+    },
+    {
+      "id": "glay_exclusive_exofire_beginning_2026_1022",
+      "tourId": "glay_exclusive_exofire_beginning_2026",
+      "venue": "SGCホール有明",
+      "performanceAt": "2026-10-22T19:00:00+09:00",
+      "doorOpenAt": "2026-10-22T18:15:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10328",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "glay_exclusive_exofire_beginning_2026_1023",
+      "tourId": "glay_exclusive_exofire_beginning_2026",
+      "venue": "SGCホール有明",
+      "performanceAt": "2026-10-23T19:00:00+09:00",
+      "doorOpenAt": "2026-10-23T18:15:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10328",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -899,6 +943,70 @@
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/news/detail/10271",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "glay_exclusive_exofire_beginning_2026_1022_serial_1st",
+      "tourId": "glay_exclusive_exofire_beginning_2026",
+      "type": "64th Single購入者限定・1次",
+      "entryStartAt": "2026-09-23T15:00:00+09:00",
+      "entryEndAt": "2026-09-30T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_exclusive_exofire_beginning_2026_1022"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10328",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "glay_exclusive_exofire_beginning_2026_1022_serial_2nd",
+      "tourId": "glay_exclusive_exofire_beginning_2026",
+      "type": "64th Single購入者限定・2次",
+      "entryStartAt": "2026-10-03T15:00:00+09:00",
+      "entryEndAt": "2026-10-07T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_exclusive_exofire_beginning_2026_1022"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10328",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "glay_exclusive_exofire_beginning_2026_1023_serial_1st",
+      "tourId": "glay_exclusive_exofire_beginning_2026",
+      "type": "18th Album購入者限定・1次",
+      "entryStartAt": "2026-09-23T15:00:00+09:00",
+      "entryEndAt": "2026-09-30T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_exclusive_exofire_beginning_2026_1023"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10328",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "glay_exclusive_exofire_beginning_2026_1023_serial_2nd",
+      "tourId": "glay_exclusive_exofire_beginning_2026",
+      "type": "18th Album購入者限定・2次",
+      "entryStartAt": "2026-10-03T15:00:00+09:00",
+      "entryEndAt": "2026-10-07T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_exclusive_exofire_beginning_2026_1023"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10328",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
