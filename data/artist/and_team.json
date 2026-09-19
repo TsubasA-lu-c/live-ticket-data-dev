@@ -141,6 +141,50 @@
       "source": "system",
       "sourceUrl": "https://www.andteam-official.jp/news/27d5af5ec7d5?categoryId=280",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_mark_on_me_showcase_2026",
+      "artistId": "and_team",
+      "title": "&TEAM SHOWCASE 'Mark on Me'",
+      "startDate": "2026-09-21T00:00:00+09:00",
+      "endDate": "2026-09-21T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/f1cb6ff12a87",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_mark_on_me_showcase_lune_2026",
+      "artistId": "and_team",
+      "title": "&TEAM SHOWCASE 'Mark on Me' ~ LUNÉ MEMBERSHIP ONLY ~",
+      "startDate": "2026-09-21T00:00:00+09:00",
+      "endDate": "2026-09-21T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/145d5db2741c",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_mark_on_me_showcase_hightouch_2026",
+      "artistId": "and_team",
+      "title": "『&TEAM SHOWCASE 'Mark on Me'』ショーケース会場ハイタッチ会",
+      "startDate": "2026-09-21T00:00:00+09:00",
+      "endDate": "2026-09-21T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/b828a0eef273",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_mark_on_me_showcase_afterparty_2026",
+      "artistId": "and_team",
+      "title": "『&TEAM SHOWCASE 'Mark on Me'』ショーケース限定アフターパーティー",
+      "startDate": "2026-09-21T00:00:00+09:00",
+      "endDate": "2026-09-21T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/42fe69a5e5ea",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -421,28 +465,28 @@
       "lastVerifiedAt": "2026-09-08T21:15:03+09:00"
     },
     {
-      "id": "and_team_mark_on_you_2026_2027_niigata_0119",
+      "id": "and_team_mark_on_you_2026_2027_osaka_0119",
       "tourId": "and_team_mark_on_you_2026_2027",
-      "venue": "新潟県民会館 大ホール",
+      "venue": "グランキューブ大阪",
       "performanceAt": "2027-01-19T18:00:00+09:00",
       "doorOpenAt": "2027-01-19T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://www.andteam-official.jp/news/021ab1de6a61",
-      "lastVerifiedAt": "2026-09-08T21:15:03+09:00"
+      "sourceUrl": "https://www.andteam-official.jp/news/6b68bd3f3336",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     },
     {
-      "id": "and_team_mark_on_you_2026_2027_niigata_0120",
+      "id": "and_team_mark_on_you_2026_2027_osaka_0120",
       "tourId": "and_team_mark_on_you_2026_2027",
-      "venue": "新潟県民会館 大ホール",
+      "venue": "グランキューブ大阪",
       "performanceAt": "2027-01-20T18:00:00+09:00",
       "doorOpenAt": "2027-01-20T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://www.andteam-official.jp/news/021ab1de6a61",
-      "lastVerifiedAt": "2026-09-08T21:15:03+09:00"
+      "sourceUrl": "https://www.andteam-official.jp/news/6b68bd3f3336",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     },
     {
       "id": "and_team_mark_on_you_2026_2027_okayama_0122",
@@ -1145,6 +1189,62 @@
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00",
       "performanceDate": "2026-09-06",
       "performanceTimeEstimated": true
+    },
+    {
+      "id": "and_team_mark_on_me_showcase_2026_tokyo_0921",
+      "tourId": "and_team_mark_on_me_showcase_2026",
+      "venue": "東京ガーデンシアター",
+      "performanceAt": "2026-09-21T12:00:00+09:00",
+      "performanceDate": "2026-09-21",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "&TEAM SHOWCASE 'Mark on Me'",
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/f1cb6ff12a87",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_mark_on_me_showcase_lune_2026_tokyo_0921",
+      "tourId": "and_team_mark_on_me_showcase_lune_2026",
+      "venue": "東京ガーデンシアター",
+      "performanceAt": "2026-09-21T12:00:00+09:00",
+      "performanceDate": "2026-09-21",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "&TEAM SHOWCASE 'Mark on Me' ~ LUNÉ MEMBERSHIP ONLY ~",
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/145d5db2741c",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_mark_on_me_showcase_hightouch_2026_tokyo_0921",
+      "tourId": "and_team_mark_on_me_showcase_hightouch_2026",
+      "venue": "東京ガーデンシアター",
+      "performanceAt": "2026-09-21T12:00:00+09:00",
+      "performanceDate": "2026-09-21",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ショーケース会場ハイタッチ会",
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/b828a0eef273",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_mark_on_me_showcase_afterparty_2026_tokyo_0921",
+      "tourId": "and_team_mark_on_me_showcase_afterparty_2026",
+      "venue": "東京ガーデンシアター",
+      "performanceAt": "2026-09-21T12:00:00+09:00",
+      "performanceDate": "2026-09-21",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ショーケース限定アフターパーティー",
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/42fe69a5e5ea",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1181,8 +1281,8 @@
         "and_team_mark_on_you_2026_2027_miyagi_0111",
         "and_team_mark_on_you_2026_2027_niigata_0115",
         "and_team_mark_on_you_2026_2027_niigata_0116",
-        "and_team_mark_on_you_2026_2027_niigata_0119",
-        "and_team_mark_on_you_2026_2027_niigata_0120",
+        "and_team_mark_on_you_2026_2027_osaka_0119",
+        "and_team_mark_on_you_2026_2027_osaka_0120",
         "and_team_mark_on_you_2026_2027_okayama_0122",
         "and_team_mark_on_you_2026_2027_okayama_0123",
         "and_team_mark_on_you_2026_2027_okinawa_0128"
@@ -1320,6 +1420,193 @@
       "source": "system",
       "sourceUrl": "https://www.andteam-official.jp/news/45db5e1f80f2",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_mark_on_me_showcase_2026_3format_firstcome",
+      "tourId": "and_team_mark_on_me_showcase_2026",
+      "type": "3形態セット先着販売枠",
+      "entryStartAt": "2026-07-30T18:00:00+09:00",
+      "entryEndAt": "2026-07-31T10:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "and_team_mark_on_me_showcase_2026_tokyo_0921"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/f1cb6ff12a87",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_mark_on_me_showcase_lune_2026_application_1",
+      "tourId": "and_team_mark_on_me_showcase_lune_2026",
+      "type": "応募抽選枠 第1回",
+      "entryStartAt": "2026-07-29T19:30:00+09:00",
+      "entryEndAt": "2026-08-04T10:59:00+09:00",
+      "resultAt": "2026-08-08T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "and_team_mark_on_me_showcase_lune_2026_tokyo_0921"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/f016edb41f47",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_mark_on_me_showcase_lune_2026_application_2",
+      "tourId": "and_team_mark_on_me_showcase_lune_2026",
+      "type": "応募抽選枠 第2回",
+      "entryStartAt": "2026-08-04T11:00:00+09:00",
+      "entryEndAt": "2026-08-14T10:59:00+09:00",
+      "resultAt": "2026-08-19T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "and_team_mark_on_me_showcase_lune_2026_tokyo_0921"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/f016edb41f47",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_mark_on_me_showcase_lune_2026_application_3",
+      "tourId": "and_team_mark_on_me_showcase_lune_2026",
+      "type": "応募抽選枠 第3回",
+      "entryStartAt": "2026-08-14T11:00:00+09:00",
+      "entryEndAt": "2026-08-28T10:59:00+09:00",
+      "resultAt": "2026-09-03T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "and_team_mark_on_me_showcase_lune_2026_tokyo_0921"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/f016edb41f47",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_mark_on_me_showcase_lune_2026_3format_firstcome",
+      "tourId": "and_team_mark_on_me_showcase_lune_2026",
+      "type": "3形態セット先着販売枠",
+      "entryStartAt": "2026-07-30T20:00:00+09:00",
+      "entryEndAt": "2026-07-31T10:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "and_team_mark_on_me_showcase_lune_2026_tokyo_0921"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/df625c00fc45",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_mark_on_me_showcase_hightouch_2026_application_1",
+      "tourId": "and_team_mark_on_me_showcase_hightouch_2026",
+      "type": "購入者応募抽選 第1回",
+      "entryStartAt": "2026-09-07T17:00:00+09:00",
+      "entryEndAt": "2026-09-09T10:59:00+09:00",
+      "resultAt": "2026-09-12T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "and_team_mark_on_me_showcase_hightouch_2026_tokyo_0921"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/b828a0eef273",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_mark_on_me_showcase_afterparty_2026_application_1",
+      "tourId": "and_team_mark_on_me_showcase_afterparty_2026",
+      "type": "購入者応募抽選 第1回",
+      "entryStartAt": "2026-09-07T17:00:00+09:00",
+      "entryEndAt": "2026-09-09T10:59:00+09:00",
+      "resultAt": "2026-09-12T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "and_team_mark_on_me_showcase_afterparty_2026_tokyo_0921"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/42fe69a5e5ea",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_mark_on_me_showcase_hightouch_2026_application_2",
+      "tourId": "and_team_mark_on_me_showcase_hightouch_2026",
+      "type": "購入者応募抽選 第2回",
+      "entryStartAt": "2026-09-09T11:00:00+09:00",
+      "entryEndAt": "2026-09-14T10:59:00+09:00",
+      "resultAt": "2026-09-18T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "and_team_mark_on_me_showcase_hightouch_2026_tokyo_0921"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/b828a0eef273",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_mark_on_me_showcase_afterparty_2026_application_2",
+      "tourId": "and_team_mark_on_me_showcase_afterparty_2026",
+      "type": "購入者応募抽選 第2回",
+      "entryStartAt": "2026-09-09T11:00:00+09:00",
+      "entryEndAt": "2026-09-14T10:59:00+09:00",
+      "resultAt": "2026-09-18T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "and_team_mark_on_me_showcase_afterparty_2026_tokyo_0921"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/42fe69a5e5ea",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_mark_on_you_2026_2027_lune_membership_fc_2nd",
+      "tourId": "and_team_mark_on_you_2026_2027",
+      "type": "&TEAM OFFICIAL FANCLUB LUNÉ MEMBERSHIP会員2次先行抽選",
+      "entryStartAt": "2026-09-18T13:00:00+09:00",
+      "entryEndAt": "2026-09-23T23:59:00+09:00",
+      "resultAt": "2026-09-30T11:00:00+09:00",
+      "paymentStartAt": "2026-09-30T11:00:00+09:00",
+      "paymentEndAt": null,
+      "performanceIds": [
+        "and_team_mark_on_you_2026_2027_tokyo_1015",
+        "and_team_mark_on_you_2026_2027_tokyo_1016",
+        "and_team_mark_on_you_2026_2027_shizuoka_1020",
+        "and_team_mark_on_you_2026_2027_iwate_1027",
+        "and_team_mark_on_you_2026_2027_iwate_1028",
+        "and_team_mark_on_you_2026_2027_aichi_1109",
+        "and_team_mark_on_you_2026_2027_aichi_1110",
+        "and_team_mark_on_you_2026_2027_osaka_1118",
+        "and_team_mark_on_you_2026_2027_osaka_1119",
+        "and_team_mark_on_you_2026_2027_hiroshima_1127",
+        "and_team_mark_on_you_2026_2027_fukuoka_1210",
+        "and_team_mark_on_you_2026_2027_fukuoka_1211",
+        "and_team_mark_on_you_2026_2027_ishikawa_1215",
+        "and_team_mark_on_you_2026_2027_ishikawa_1216",
+        "and_team_mark_on_you_2026_2027_ehime_1219",
+        "and_team_mark_on_you_2026_2027_ehime_1220",
+        "and_team_mark_on_you_2026_2027_hokkaido_1227",
+        "and_team_mark_on_you_2026_2027_kumamoto_0105",
+        "and_team_mark_on_you_2026_2027_kumamoto_0106",
+        "and_team_mark_on_you_2026_2027_miyagi_0110",
+        "and_team_mark_on_you_2026_2027_miyagi_0111",
+        "and_team_mark_on_you_2026_2027_niigata_0115",
+        "and_team_mark_on_you_2026_2027_niigata_0116",
+        "and_team_mark_on_you_2026_2027_osaka_0119",
+        "and_team_mark_on_you_2026_2027_osaka_0120",
+        "and_team_mark_on_you_2026_2027_okayama_0122",
+        "and_team_mark_on_you_2026_2027_okayama_0123",
+        "and_team_mark_on_you_2026_2027_okinawa_0128"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/6b68bd3f3336",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

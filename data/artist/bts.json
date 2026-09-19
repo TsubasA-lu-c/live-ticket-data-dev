@@ -1019,7 +1019,253 @@
       "lastVerifiedAt": "2026-09-13T00:00:00+09:00"
     }
   ],
-  "lotteries": [],
+  "lotteries": [
+    {
+      "id": "bts_arirang_japan_2026_fc_1st_vip",
+      "tourId": "bts_world_tour_arirang_japan_2026",
+      "type": "BTS JAPAN OFFICIAL FANCLUB 1次先行（VIP）",
+      "entryStartAt": "2026-01-22T21:00:00+09:00",
+      "entryEndAt": "2026-01-29T23:59:00+09:00",
+      "resultAt": "2026-02-06T12:00:00+09:00",
+      "paymentStartAt": "2026-02-06T12:00:00+09:00",
+      "paymentEndAt": "2026-02-09T23:00:00+09:00",
+      "performanceIds": [
+        "bts_world_tour_arirang_japan_2026_tokyo_dome_0417",
+        "bts_world_tour_arirang_japan_2026_tokyo_dome_0418"
+      ],
+      "source": "system",
+      "sourceUrl": "https://bts-official.jp/ticket/etR3BaHgQlQ%3D",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_japan_2026_fc_1st_ss_s",
+      "tourId": "bts_world_tour_arirang_japan_2026",
+      "type": "BTS JAPAN OFFICIAL FANCLUB 1次先行（SS/S）",
+      "entryStartAt": "2026-01-22T21:00:00+09:00",
+      "entryEndAt": "2026-01-29T23:59:00+09:00",
+      "resultAt": "2026-02-06T12:00:00+09:00",
+      "paymentStartAt": "2026-02-06T12:00:00+09:00",
+      "paymentEndAt": "2026-02-09T23:00:00+09:00",
+      "performanceIds": [
+        "bts_world_tour_arirang_japan_2026_tokyo_dome_0417",
+        "bts_world_tour_arirang_japan_2026_tokyo_dome_0418"
+      ],
+      "source": "system",
+      "sourceUrl": "https://bts-official.jp/ticket/acd1XYiEjuc%3D",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_japan_2026_fc_2nd_vip",
+      "tourId": "bts_world_tour_arirang_japan_2026",
+      "type": "BTS JAPAN OFFICIAL FANCLUB 2次先行（VIP）",
+      "entryStartAt": "2026-03-02T13:00:00+09:00",
+      "entryEndAt": "2026-03-08T23:59:00+09:00",
+      "resultAt": "2026-03-16T19:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_japan_2026_tokyo_dome_0417",
+        "bts_world_tour_arirang_japan_2026_tokyo_dome_0418"
+      ],
+      "source": "system",
+      "sourceUrl": "https://bts-official.jp/ticket/KzQp9gxBXws%3D",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_japan_2026_fc_2nd_ss_s",
+      "tourId": "bts_world_tour_arirang_japan_2026",
+      "type": "BTS JAPAN OFFICIAL FANCLUB 2次先行（SS/S）",
+      "entryStartAt": "2026-03-02T13:00:00+09:00",
+      "entryEndAt": "2026-03-08T23:59:00+09:00",
+      "resultAt": "2026-03-16T19:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_japan_2026_tokyo_dome_0417",
+        "bts_world_tour_arirang_japan_2026_tokyo_dome_0418"
+      ],
+      "source": "system",
+      "sourceUrl": "https://bts-official.jp/ticket/2LqadtzB-Uo%3D",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_japan_2026_equipment_release",
+      "tourId": "bts_world_tour_arirang_japan_2026",
+      "type": "機材開放席先着販売（SS/S）",
+      "entryStartAt": "2026-04-16T18:00:00+09:00",
+      "entryEndAt": "2026-04-16T19:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_japan_2026_tokyo_dome_0417",
+        "bts_world_tour_arirang_japan_2026_tokyo_dome_0418"
+      ],
+      "source": "system",
+      "sourceUrl": "https://bts-official.jp/ticket/26c9f4f0835e",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_singapore_2026_army_global_presale_application",
+      "tourId": "bts_world_tour_arirang_singapore_2026",
+      "type": "ARMY MEMBERSHIP (GLOBAL) Presale Application",
+      "entryStartAt": "2026-05-22T14:00:00+09:00",
+      "entryEndAt": "2026-05-25T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_singapore_2026_1217",
+        "bts_world_tour_arirang_singapore_2026_1219",
+        "bts_world_tour_arirang_singapore_2026_1220",
+        "bts_world_tour_arirang_singapore_2026_1222"
+      ],
+      "source": "system",
+      "sourceUrl": "https://weverse.io/bts/notice/36080?hl=ja",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_global_kaohsiung_army_presale_application",
+      "tourId": "bts_world_tour_arirang_global_2026_2027",
+      "type": "ARMY MEMBERSHIP (GLOBAL) Presale Application - Kaohsiung",
+      "entryStartAt": "2026-05-22T14:00:00+09:00",
+      "entryEndAt": "2026-05-27T12:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_global_2026_2027_kaohsiung_1119",
+        "bts_world_tour_arirang_global_2026_2027_kaohsiung_1121",
+        "bts_world_tour_arirang_global_2026_2027_kaohsiung_1122"
+      ],
+      "source": "system",
+      "sourceUrl": "https://weverse.io/bts/notice/36080?hl=ja",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_global_bangkok_army_presale_application",
+      "tourId": "bts_world_tour_arirang_global_2026_2027",
+      "type": "ARMY MEMBERSHIP (GLOBAL) Presale Application - Bangkok",
+      "entryStartAt": "2026-05-22T14:00:00+09:00",
+      "entryEndAt": "2026-05-27T12:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_global_2026_2027_bangkok_1203",
+        "bts_world_tour_arirang_global_2026_2027_bangkok_1205",
+        "bts_world_tour_arirang_global_2026_2027_bangkok_1206"
+      ],
+      "source": "system",
+      "sourceUrl": "https://weverse.io/bts/notice/36080?hl=ja",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_global_kuala_lumpur_army_presale_application",
+      "tourId": "bts_world_tour_arirang_global_2026_2027",
+      "type": "ARMY MEMBERSHIP (GLOBAL) Presale Application - Kuala Lumpur",
+      "entryStartAt": "2026-05-22T14:00:00+09:00",
+      "entryEndAt": "2026-05-27T12:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_global_2026_2027_kuala_lumpur_1212",
+        "bts_world_tour_arirang_global_2026_2027_kuala_lumpur_1213"
+      ],
+      "source": "system",
+      "sourceUrl": "https://weverse.io/bts/notice/36080?hl=ja",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_global_jakarta_army_presale_application",
+      "tourId": "bts_world_tour_arirang_global_2026_2027",
+      "type": "ARMY MEMBERSHIP (GLOBAL) Presale Application - Jakarta",
+      "entryStartAt": "2026-05-22T14:00:00+09:00",
+      "entryEndAt": "2026-05-27T12:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_global_2026_2027_jakarta_1226",
+        "bts_world_tour_arirang_global_2026_2027_jakarta_1227",
+        "bts_world_tour_arirang_global_2026_2027_jakarta_1229"
+      ],
+      "source": "system",
+      "sourceUrl": "https://weverse.io/bts/notice/36080?hl=ja",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_global_melbourne_au_army_presale_application",
+      "tourId": "bts_world_tour_arirang_global_2026_2027",
+      "type": "ARMY MEMBERSHIP (GLOBAL) Presale Application - Melbourne",
+      "entryStartAt": "2026-05-22T14:00:00+09:00",
+      "entryEndAt": "2026-05-27T12:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_global_2026_2027_melbourne_au_0212",
+        "bts_world_tour_arirang_global_2026_2027_melbourne_au_0213"
+      ],
+      "source": "system",
+      "sourceUrl": "https://weverse.io/bts/notice/36080?hl=ja",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_global_sydney_au_army_presale_application",
+      "tourId": "bts_world_tour_arirang_global_2026_2027",
+      "type": "ARMY MEMBERSHIP (GLOBAL) Presale Application - Sydney",
+      "entryStartAt": "2026-05-22T14:00:00+09:00",
+      "entryEndAt": "2026-05-27T12:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_global_2026_2027_sydney_au_0220",
+        "bts_world_tour_arirang_global_2026_2027_sydney_au_0221"
+      ],
+      "source": "system",
+      "sourceUrl": "https://weverse.io/bts/notice/36080?hl=ja",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_global_hong_kong_army_presale_application",
+      "tourId": "bts_world_tour_arirang_global_2026_2027",
+      "type": "ARMY MEMBERSHIP (GLOBAL) Presale Application - Hong Kong",
+      "entryStartAt": "2026-05-22T14:00:00+09:00",
+      "entryEndAt": "2026-05-27T12:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_global_2026_2027_hong_kong_0304",
+        "bts_world_tour_arirang_global_2026_2027_hong_kong_0306",
+        "bts_world_tour_arirang_global_2026_2027_hong_kong_0307"
+      ],
+      "source": "system",
+      "sourceUrl": "https://weverse.io/bts/notice/36080?hl=ja",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_global_bulacan_army_presale_application",
+      "tourId": "bts_world_tour_arirang_global_2026_2027",
+      "type": "ARMY MEMBERSHIP (GLOBAL) Presale Application - Bulacan",
+      "entryStartAt": "2026-05-22T14:00:00+09:00",
+      "entryEndAt": "2026-05-27T12:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_global_2026_2027_bulacan_0313",
+        "bts_world_tour_arirang_global_2026_2027_bulacan_0314",
+        "bts_world_tour_arirang_global_2026_2027_bulacan_0316"
+      ],
+      "source": "system",
+      "sourceUrl": "https://weverse.io/bts/notice/36080?hl=ja",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    }
+  ],
   "lastVerifiedAt": "2026-07-22T10:06:40+09:00",
   "sourceUrl": "https://bts-official.jp/",
   "appleMusicTracks": [

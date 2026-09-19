@@ -126,6 +126,17 @@
       "source": "system",
       "sourceUrl": "https://fruitszipper.asobisystem.com/live_information/schedule/list/?month=11&viewMode=default&year=2026",
       "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_asobiexpo_hawaii_2027",
+      "artistId": "fruits_zipper",
+      "title": "ASOBIEXPO HAWAII 2027",
+      "startDate": "2027-03-08T00:00:00-10:00",
+      "endDate": "2027-03-08T00:00:00-10:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://asobiexpo.com/hawaii2027/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -806,6 +817,20 @@
       "performanceTimeEstimated": true,
       "performanceDate": "2026-11-29",
       "eventName": "GIFT〜Girls Idol Festival Tokyo〜"
+    },
+    {
+      "id": "fruits_zipper_asobiexpo_hawaii_2027_honolulu_0308",
+      "tourId": "fruits_zipper_asobiexpo_hawaii_2027",
+      "venue": "Tom Moffatt Waikiki Shell",
+      "performanceAt": "2027-03-08T12:00:00-10:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "ASOBIEXPO HAWAII 2027",
+      "source": "system",
+      "sourceUrl": "https://asobiexpo.com/hawaii2027/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00",
+      "performanceDate": "2027-03-08",
+      "performanceTimeEstimated": true
     }
   ],
   "lotteries": [

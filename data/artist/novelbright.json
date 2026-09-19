@@ -23,6 +23,10 @@
         {
           "label": "指定席・着席指定席（アリーナ）",
           "amount": 9900
+        },
+        {
+          "label": "ステージサイド席",
+          "amount": 9900
         }
       ],
       "source": "system",
@@ -146,6 +150,17 @@
       "source": "system",
       "sourceUrl": "https://post.tv-asahi.co.jp/?p=832267",
       "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "novelbright_a_nation_2026",
+      "artistId": "novelbright",
+      "title": "a-nation 2026",
+      "startDate": "2026-10-04T00:00:00+09:00",
+      "endDate": "2026-10-04T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://a-nation.net/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -640,6 +655,20 @@
       "source": "system",
       "sourceUrl": "https://post.tv-asahi.co.jp/?p=832267",
       "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "novelbright_a_nation_2026_odaiba_1004",
+      "tourId": "novelbright_a_nation_2026",
+      "venue": "お台場a-nation特設会場",
+      "performanceAt": "2026-10-04T12:00:00+09:00",
+      "doorOpenAt": "2026-10-04T12:00:00+09:00",
+      "kind": "fes",
+      "eventName": "a-nation 2026",
+      "source": "system",
+      "sourceUrl": "https://a-nation.net/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00",
+      "performanceDate": "2026-10-04",
+      "performanceTimeEstimated": true
     }
   ],
   "lotteries": [
@@ -1216,6 +1245,119 @@
       "source": "system",
       "sourceUrl": "https://post.tv-asahi.co.jp/?p=832267",
       "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "novelbright_a_nation_2026_official_fastest",
+      "tourId": "novelbright_a_nation_2026",
+      "type": "オフィシャル最速先行（抽選）",
+      "entryStartAt": "2026-08-07T15:00:00+09:00",
+      "entryEndAt": "2026-08-18T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "novelbright_a_nation_2026_odaiba_1004"
+      ],
+      "source": "system",
+      "sourceUrl": "https://a-nation.net/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "novelbright_a_nation_2026_official_2nd_qoo10",
+      "tourId": "novelbright_a_nation_2026",
+      "type": "オフィシャル2次/Qoo10先行（抽選）",
+      "entryStartAt": "2026-08-25T15:00:00+09:00",
+      "entryEndAt": "2026-08-31T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "novelbright_a_nation_2026_odaiba_1004"
+      ],
+      "source": "system",
+      "sourceUrl": "https://a-nation.net/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "novelbright_a_nation_2026_official_firstcome",
+      "tourId": "novelbright_a_nation_2026",
+      "type": "オフィシャル先着先行",
+      "entryStartAt": "2026-09-01T15:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "novelbright_a_nation_2026_odaiba_1004"
+      ],
+      "source": "system",
+      "sourceUrl": "https://a-nation.net/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "novelbright_a_nation_2026_playguide",
+      "tourId": "novelbright_a_nation_2026",
+      "type": "プレイガイド先行（抽選）",
+      "entryStartAt": "2026-09-01T15:00:00+09:00",
+      "entryEndAt": "2026-09-08T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "novelbright_a_nation_2026_odaiba_1004"
+      ],
+      "source": "system",
+      "sourceUrl": "https://a-nation.net/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "novelbright_a_nation_2026_s_upgrade",
+      "tourId": "novelbright_a_nation_2026",
+      "type": "S席アップグレード抽選",
+      "entryStartAt": "2026-09-09T15:00:00+09:00",
+      "entryEndAt": "2026-09-13T23:59:00+09:00",
+      "resultAt": "2026-09-17T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "novelbright_a_nation_2026_odaiba_1004"
+      ],
+      "source": "system",
+      "sourceUrl": "https://a-nation.net/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "novelbright_a_nation_2026_general",
+      "tourId": "novelbright_a_nation_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-09-19T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "novelbright_a_nation_2026_odaiba_1004"
+      ],
+      "source": "system",
+      "sourceUrl": "https://a-nation.net/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "novelbright_pyramid_2026_himeji_stage_side_firstcome",
+      "tourId": "novelbright_pyramid_2026",
+      "type": "ステージサイド席 先着販売",
+      "entryStartAt": "2026-09-14T18:00:00+09:00",
+      "entryEndAt": "2026-09-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "novelbright_pyramid_2026_hyogo_0926",
+        "novelbright_pyramid_2026_hyogo_0927"
+      ],
+      "source": "system",
+      "sourceUrl": "https://novelbright.jp/news/detail/2475",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

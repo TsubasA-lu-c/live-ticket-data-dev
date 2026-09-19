@@ -96,6 +96,65 @@
       "source": "system",
       "sourceUrl": "https://sd-milk.com/contents/pages/kanshasai2026",
       "lastVerifiedAt": "2026-08-23T07:44:00+09:00"
+    },
+    {
+      "id": "milk_venue101_extra_2026",
+      "artistId": "milk",
+      "title": "NHK「Venue101 EXTRA」公開収録",
+      "startDate": "2026-09-19T00:00:00+09:00",
+      "endDate": "2026-09-19T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1098376",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_yoshida_recofes_2027",
+      "artistId": "milk",
+      "title": "【吉田仁人】RECOFES.2027 in 東京国際フォーラム ホールA",
+      "startDate": "2027-02-23T00:00:00+09:00",
+      "endDate": "2027-02-23T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 11000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1107008",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_yoshida_the_fake_2026",
+      "artistId": "milk",
+      "title": "【吉田仁人】ネオ朗読劇「THE FAKE」",
+      "startDate": "2026-10-02T00:00:00+09:00",
+      "endDate": "2026-10-04T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 9800
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://oz-official.com/thefake/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_sono_okayama_univ_talk_2026",
+      "artistId": "milk",
+      "title": "【曽野舜太】岡山大学祭(津島祭) トークショー",
+      "startDate": "2026-10-31T00:00:00+09:00",
+      "endDate": "2026-10-31T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "一般（指定席）",
+          "amount": 2000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1110113",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -568,6 +627,114 @@
       "lastVerifiedAt": "2026-08-23T07:44:00+09:00",
       "kind": "oneman",
       "eventName": "み！るきーず感謝祭2026 〜爆裂ホームパーティー〜"
+    },
+    {
+      "id": "milk_venue101_extra_2026_nhk_0919",
+      "tourId": "milk_venue101_extra_2026",
+      "venue": "NHKホール",
+      "performanceAt": "2026-09-19T19:30:00+09:00",
+      "doorOpenAt": "2026-09-19T18:45:00+09:00",
+      "kind": "fes",
+      "eventName": "NHK「Venue101 EXTRA」公開収録",
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1098376",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_yoshida_recofes_2027_tokyo_0223",
+      "tourId": "milk_yoshida_recofes_2027",
+      "venue": "東京国際フォーラム ホールA",
+      "performanceAt": "2027-02-23T18:00:00+09:00",
+      "doorOpenAt": "2027-02-23T17:00:00+09:00",
+      "kind": "fes",
+      "eventName": "RECOFES.2027 in 東京国際フォーラム ホールA",
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1107008",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_yoshida_the_fake_2026_yokohama_1002_1800",
+      "tourId": "milk_yoshida_the_fake_2026",
+      "venue": "テンネー記念ホール",
+      "performanceAt": "2026-10-02T18:00:00+09:00",
+      "doorOpenAt": "2026-10-02T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "ネオ朗読劇「THE FAKE」",
+      "source": "system",
+      "sourceUrl": "https://oz-official.com/thefake/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_yoshida_the_fake_2026_yokohama_1003_1300",
+      "tourId": "milk_yoshida_the_fake_2026",
+      "venue": "テンネー記念ホール",
+      "performanceAt": "2026-10-03T13:00:00+09:00",
+      "doorOpenAt": "2026-10-03T12:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "ネオ朗読劇「THE FAKE」",
+      "source": "system",
+      "sourceUrl": "https://oz-official.com/thefake/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_yoshida_the_fake_2026_yokohama_1003_1700",
+      "tourId": "milk_yoshida_the_fake_2026",
+      "venue": "テンネー記念ホール",
+      "performanceAt": "2026-10-03T17:00:00+09:00",
+      "doorOpenAt": "2026-10-03T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "ネオ朗読劇「THE FAKE」",
+      "source": "system",
+      "sourceUrl": "https://oz-official.com/thefake/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_yoshida_the_fake_2026_tokyo_1004_1300",
+      "tourId": "milk_yoshida_the_fake_2026",
+      "venue": "日本教育会館 一ツ橋ホール",
+      "performanceAt": "2026-10-04T13:00:00+09:00",
+      "doorOpenAt": "2026-10-04T12:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "ネオ朗読劇「THE FAKE」",
+      "source": "system",
+      "sourceUrl": "https://oz-official.com/thefake/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_yoshida_the_fake_2026_tokyo_1004_1700",
+      "tourId": "milk_yoshida_the_fake_2026",
+      "venue": "日本教育会館 一ツ橋ホール",
+      "performanceAt": "2026-10-04T17:00:00+09:00",
+      "doorOpenAt": "2026-10-04T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "ネオ朗読劇「THE FAKE」",
+      "source": "system",
+      "sourceUrl": "https://oz-official.com/thefake/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_sono_okayama_univ_talk_2026_1031_1200",
+      "tourId": "milk_sono_okayama_univ_talk_2026",
+      "venue": "岡山大学 清水記念体育館",
+      "performanceAt": "2026-10-31T12:00:00+09:00",
+      "doorOpenAt": "2026-10-31T11:20:00+09:00",
+      "kind": "oneman",
+      "eventName": "岡山大学祭(津島祭) トークショー",
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1110113",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_sono_okayama_univ_talk_2026_1031_1530",
+      "tourId": "milk_sono_okayama_univ_talk_2026",
+      "venue": "岡山大学 清水記念体育館",
+      "performanceAt": "2026-10-31T15:30:00+09:00",
+      "doorOpenAt": "2026-10-31T14:50:00+09:00",
+      "kind": "oneman",
+      "eventName": "岡山大学祭(津島祭) トークショー",
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1110113",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -886,6 +1053,545 @@
       "source": "system",
       "sourceUrl": "https://sd-milk.com/",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "milk_yoshida_recofes_2027_premium_milk",
+      "tourId": "milk_yoshida_recofes_2027",
+      "type": "PREMIUM MILK会員先行受付（抽選）",
+      "entryStartAt": "2026-09-04T10:00:00+09:00",
+      "entryEndAt": "2026-10-12T23:59:00+09:00",
+      "resultAt": "2026-10-16T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-10-25T23:59:00+09:00",
+      "performanceIds": [
+        "milk_yoshida_recofes_2027_tokyo_0223"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1107039",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_shakariki_revolution_2026_fukuoka_machine_release",
+      "tourId": "milk_shakariki_revolution_2026",
+      "type": "PREMIUM MILK会員限定 機材席開放販売（抽選）",
+      "entryStartAt": "2026-09-05T12:00:00+09:00",
+      "entryEndAt": "2026-09-07T23:59:00+09:00",
+      "resultAt": "2026-09-12T14:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_shakariki_revolution_2026_fukuoka_0926",
+        "milk_shakariki_revolution_2026_fukuoka_0927a",
+        "milk_shakariki_revolution_2026_fukuoka_0927b"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1107284",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_shakariki_revolution_2026_fukuoka_0926_trade",
+      "tourId": "milk_shakariki_revolution_2026",
+      "type": "チケプラTrade（毎日抽選型）",
+      "entryStartAt": "2026-09-18T18:00:00+09:00",
+      "entryEndAt": "2026-09-25T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_shakariki_revolution_2026_fukuoka_0926"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1107189",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_shakariki_revolution_2026_fukuoka_0927a_trade",
+      "tourId": "milk_shakariki_revolution_2026",
+      "type": "チケプラTrade（毎日抽選型）",
+      "entryStartAt": "2026-09-18T18:00:00+09:00",
+      "entryEndAt": "2026-09-26T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_shakariki_revolution_2026_fukuoka_0927a"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1107189",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_shakariki_revolution_2026_fukuoka_0927b_trade",
+      "tourId": "milk_shakariki_revolution_2026",
+      "type": "チケプラTrade（毎日抽選型）",
+      "entryStartAt": "2026-09-18T18:00:00+09:00",
+      "entryEndAt": "2026-09-26T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_shakariki_revolution_2026_fukuoka_0927b"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1107189",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_shakariki_revolution_2026_miyagi_1024_trade",
+      "tourId": "milk_shakariki_revolution_2026",
+      "type": "チケプラTrade（毎日抽選型）",
+      "entryStartAt": "2026-10-16T18:00:00+09:00",
+      "entryEndAt": "2026-10-23T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_shakariki_revolution_2026_miyagi_1024"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1107189",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_shakariki_revolution_2026_miyagi_1025a_trade",
+      "tourId": "milk_shakariki_revolution_2026",
+      "type": "チケプラTrade（毎日抽選型）",
+      "entryStartAt": "2026-10-16T18:00:00+09:00",
+      "entryEndAt": "2026-10-24T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_shakariki_revolution_2026_miyagi_1025a"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1107189",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_shakariki_revolution_2026_miyagi_1025b_trade",
+      "tourId": "milk_shakariki_revolution_2026",
+      "type": "チケプラTrade（毎日抽選型）",
+      "entryStartAt": "2026-10-16T18:00:00+09:00",
+      "entryEndAt": "2026-10-24T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_shakariki_revolution_2026_miyagi_1025b"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1107189",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_shakariki_revolution_2026_kanagawa_1121_trade",
+      "tourId": "milk_shakariki_revolution_2026",
+      "type": "チケプラTrade（毎日抽選型）",
+      "entryStartAt": "2026-11-13T18:00:00+09:00",
+      "entryEndAt": "2026-11-20T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_shakariki_revolution_2026_kanagawa_1121"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1107189",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_shakariki_revolution_2026_kanagawa_1122a_trade",
+      "tourId": "milk_shakariki_revolution_2026",
+      "type": "チケプラTrade（毎日抽選型）",
+      "entryStartAt": "2026-11-13T18:00:00+09:00",
+      "entryEndAt": "2026-11-21T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_shakariki_revolution_2026_kanagawa_1122a"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1107189",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_shakariki_revolution_2026_kanagawa_1122b_trade",
+      "tourId": "milk_shakariki_revolution_2026",
+      "type": "チケプラTrade（毎日抽選型）",
+      "entryStartAt": "2026-11-13T18:00:00+09:00",
+      "entryEndAt": "2026-11-21T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_shakariki_revolution_2026_kanagawa_1122b"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1107189",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_shakariki_revolution_2026_aichi_1212_trade",
+      "tourId": "milk_shakariki_revolution_2026",
+      "type": "チケプラTrade（毎日抽選型）",
+      "entryStartAt": "2026-12-04T18:00:00+09:00",
+      "entryEndAt": "2026-12-11T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_shakariki_revolution_2026_aichi_1212"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1107189",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_shakariki_revolution_2026_aichi_1213a_trade",
+      "tourId": "milk_shakariki_revolution_2026",
+      "type": "チケプラTrade（毎日抽選型）",
+      "entryStartAt": "2026-12-04T18:00:00+09:00",
+      "entryEndAt": "2026-12-12T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_shakariki_revolution_2026_aichi_1213a"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1107189",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_shakariki_revolution_2026_aichi_1213b_trade",
+      "tourId": "milk_shakariki_revolution_2026",
+      "type": "チケプラTrade（毎日抽選型）",
+      "entryStartAt": "2026-12-04T18:00:00+09:00",
+      "entryEndAt": "2026-12-12T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_shakariki_revolution_2026_aichi_1213b"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1107189",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_shakariki_revolution_2026_osaka_1225_trade",
+      "tourId": "milk_shakariki_revolution_2026",
+      "type": "チケプラTrade（毎日抽選型）",
+      "entryStartAt": "2026-12-17T18:00:00+09:00",
+      "entryEndAt": "2026-12-24T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_shakariki_revolution_2026_osaka_1225"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1107189",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_shakariki_revolution_2026_osaka_1226a_trade",
+      "tourId": "milk_shakariki_revolution_2026",
+      "type": "チケプラTrade（毎日抽選型）",
+      "entryStartAt": "2026-12-17T18:00:00+09:00",
+      "entryEndAt": "2026-12-25T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_shakariki_revolution_2026_osaka_1226a"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1107189",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_shakariki_revolution_2026_osaka_1226b_trade",
+      "tourId": "milk_shakariki_revolution_2026",
+      "type": "チケプラTrade（毎日抽選型）",
+      "entryStartAt": "2026-12-17T18:00:00+09:00",
+      "entryEndAt": "2026-12-25T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_shakariki_revolution_2026_osaka_1226b"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1107189",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_shakariki_revolution_2026_kanagawa2_0115_trade",
+      "tourId": "milk_shakariki_revolution_2026",
+      "type": "チケプラTrade（毎日抽選型）",
+      "entryStartAt": "2027-01-08T18:00:00+09:00",
+      "entryEndAt": "2027-01-14T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_shakariki_revolution_2026_kanagawa2_0115"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1107189",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_shakariki_revolution_2026_kanagawa2_0116a_trade",
+      "tourId": "milk_shakariki_revolution_2026",
+      "type": "チケプラTrade（毎日抽選型）",
+      "entryStartAt": "2027-01-08T18:00:00+09:00",
+      "entryEndAt": "2027-01-15T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_shakariki_revolution_2026_kanagawa2_0116a"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1107189",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_shakariki_revolution_2026_kanagawa2_0116b_trade",
+      "tourId": "milk_shakariki_revolution_2026",
+      "type": "チケプラTrade（毎日抽選型）",
+      "entryStartAt": "2027-01-08T18:00:00+09:00",
+      "entryEndAt": "2027-01-15T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_shakariki_revolution_2026_kanagawa2_0116b"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1107189",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_shakariki_revolution_2026_kanagawa2_0117_trade",
+      "tourId": "milk_shakariki_revolution_2026",
+      "type": "チケプラTrade（毎日抽選型）",
+      "entryStartAt": "2027-01-08T18:00:00+09:00",
+      "entryEndAt": "2027-01-16T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_shakariki_revolution_2026_kanagawa2_0117"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1107189",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_shakariki_revolution_2026_fukuoka_family_trade",
+      "tourId": "milk_shakariki_revolution_2026",
+      "type": "チケプラTrade（ファミリー席）",
+      "entryStartAt": "2026-09-18T18:00:00+09:00",
+      "entryEndAt": "2026-09-24T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_shakariki_revolution_2026_fukuoka_0926",
+        "milk_shakariki_revolution_2026_fukuoka_0927a",
+        "milk_shakariki_revolution_2026_fukuoka_0927b"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1107189",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_shakariki_revolution_2026_miyagi_family_trade",
+      "tourId": "milk_shakariki_revolution_2026",
+      "type": "チケプラTrade（ファミリー席）",
+      "entryStartAt": "2026-10-16T18:00:00+09:00",
+      "entryEndAt": "2026-10-22T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_shakariki_revolution_2026_miyagi_1024",
+        "milk_shakariki_revolution_2026_miyagi_1025a",
+        "milk_shakariki_revolution_2026_miyagi_1025b"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1107189",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_shakariki_revolution_2026_kanagawa_family_trade",
+      "tourId": "milk_shakariki_revolution_2026",
+      "type": "チケプラTrade（ファミリー席）",
+      "entryStartAt": "2026-11-13T18:00:00+09:00",
+      "entryEndAt": "2026-11-19T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_shakariki_revolution_2026_kanagawa_1121",
+        "milk_shakariki_revolution_2026_kanagawa_1122a",
+        "milk_shakariki_revolution_2026_kanagawa_1122b"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1107189",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_shakariki_revolution_2026_aichi_family_trade",
+      "tourId": "milk_shakariki_revolution_2026",
+      "type": "チケプラTrade（ファミリー席）",
+      "entryStartAt": "2026-12-04T18:00:00+09:00",
+      "entryEndAt": "2026-12-10T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_shakariki_revolution_2026_aichi_1212",
+        "milk_shakariki_revolution_2026_aichi_1213a",
+        "milk_shakariki_revolution_2026_aichi_1213b"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1107189",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_shakariki_revolution_2026_osaka_family_trade",
+      "tourId": "milk_shakariki_revolution_2026",
+      "type": "チケプラTrade（ファミリー席）",
+      "entryStartAt": "2026-12-17T18:00:00+09:00",
+      "entryEndAt": "2026-12-23T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_shakariki_revolution_2026_osaka_1225",
+        "milk_shakariki_revolution_2026_osaka_1226a",
+        "milk_shakariki_revolution_2026_osaka_1226b"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1107189",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_shakariki_revolution_2026_yokohama_family_trade",
+      "tourId": "milk_shakariki_revolution_2026",
+      "type": "チケプラTrade（ファミリー席）",
+      "entryStartAt": "2027-01-08T18:00:00+09:00",
+      "entryEndAt": "2027-01-13T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_shakariki_revolution_2026_kanagawa2_0115",
+        "milk_shakariki_revolution_2026_kanagawa2_0116a",
+        "milk_shakariki_revolution_2026_kanagawa2_0116b",
+        "milk_shakariki_revolution_2026_kanagawa2_0117"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1107189",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_shakariki_revolution_2026_kanagawa_lawson_resale",
+      "tourId": "milk_shakariki_revolution_2026",
+      "type": "ローチケ リセールサービス（1回抽選型）",
+      "entryStartAt": "2026-11-13T18:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": "2026-11-17T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_shakariki_revolution_2026_kanagawa_1121",
+        "milk_shakariki_revolution_2026_kanagawa_1122a",
+        "milk_shakariki_revolution_2026_kanagawa_1122b"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1107189",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_shakariki_revolution_2026_osaka_lawson_resale",
+      "tourId": "milk_shakariki_revolution_2026",
+      "type": "ローチケ リセールサービス（1回抽選型）",
+      "entryStartAt": "2026-12-17T18:00:00+09:00",
+      "entryEndAt": "2026-12-20T23:59:00+09:00",
+      "resultAt": "2026-12-22T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_shakariki_revolution_2026_osaka_1225",
+        "milk_shakariki_revolution_2026_osaka_1226a",
+        "milk_shakariki_revolution_2026_osaka_1226b"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1107189",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_shakariki_revolution_2026_yokohama_lawson_resale",
+      "tourId": "milk_shakariki_revolution_2026",
+      "type": "ローチケ リセールサービス（1回抽選型）",
+      "entryStartAt": "2027-01-08T18:00:00+09:00",
+      "entryEndAt": "2027-01-11T23:59:00+09:00",
+      "resultAt": "2027-01-13T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_shakariki_revolution_2026_kanagawa2_0115",
+        "milk_shakariki_revolution_2026_kanagawa2_0116a",
+        "milk_shakariki_revolution_2026_kanagawa2_0116b",
+        "milk_shakariki_revolution_2026_kanagawa2_0117"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1107189",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_yoshida_the_fake_2026_lottery",
+      "tourId": "milk_yoshida_the_fake_2026",
+      "type": "前売り券 抽選",
+      "entryStartAt": "2026-09-03T10:00:00+09:00",
+      "entryEndAt": "2026-09-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_yoshida_the_fake_2026_yokohama_1002_1800",
+        "milk_yoshida_the_fake_2026_yokohama_1003_1300",
+        "milk_yoshida_the_fake_2026_yokohama_1003_1700",
+        "milk_yoshida_the_fake_2026_tokyo_1004_1300",
+        "milk_yoshida_the_fake_2026_tokyo_1004_1700"
+      ],
+      "source": "system",
+      "sourceUrl": "https://oz-official.com/thefake/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_sono_okayama_univ_talk_2026_general",
+      "tourId": "milk_sono_okayama_univ_talk_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-10-10T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_sono_okayama_univ_talk_2026_1031_1200",
+        "milk_sono_okayama_univ_talk_2026_1031_1530"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1110113",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

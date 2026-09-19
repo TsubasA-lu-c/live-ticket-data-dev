@@ -536,6 +536,23 @@
       "source": "system",
       "sourceUrl": "https://www.wildbunchfest.jp/tickets/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_legacyzombie_2026_general_firstcome",
+      "tourId": "zutomayo_legacyzombie_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-09-19T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "zutomayo_legacyzombie_2026_nara_1010",
+        "zutomayo_legacyzombie_2026_nara_1011"
+      ],
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/bunka-denrai/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

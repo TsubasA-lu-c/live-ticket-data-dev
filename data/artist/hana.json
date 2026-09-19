@@ -215,6 +215,17 @@
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/asia-pop-girl-fest-2027/",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "hana_www26_2026",
+      "artistId": "hana",
+      "title": "MONGOL800 ga FESTIVAL What a Wonderful World!!26",
+      "startDate": "2026-11-08T00:00:00+09:00",
+      "endDate": "2026-11-08T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www800.asia/2026/about/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -440,6 +451,20 @@
       "sourceUrl": "https://hana.b-rave.tokyo/live/asia-pop-girl-fest-2027/",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00",
       "performanceDate": "2027-02-19",
+      "performanceTimeEstimated": true
+    },
+    {
+      "id": "hana_www26_2026_okinawa_1108",
+      "tourId": "hana_www26_2026",
+      "venue": "宜野湾港マリーナ・トロピカルビーチ特設会場",
+      "performanceAt": "2026-11-08T12:00:00+09:00",
+      "doorOpenAt": "2026-11-08T11:00:00+09:00",
+      "kind": "fes",
+      "eventName": "MONGOL800 ga FESTIVAL What a Wonderful World!!26",
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00",
+      "performanceDate": "2026-11-08",
       "performanceTimeEstimated": true
     }
   ],
@@ -873,6 +898,86 @@
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/tour/borntobloom/",
       "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_add_machine_osaka_0916",
+      "tourId": "hana_born_to_bloom_2026_add",
+      "type": "機材開放席販売（先着）",
+      "entryStartAt": "2026-09-15T18:00:00+09:00",
+      "entryEndAt": "2026-09-16T19:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hana_born_to_bloom_2026_add_osaka_0916"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/260915/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_add_machine_osaka_0917",
+      "tourId": "hana_born_to_bloom_2026_add",
+      "type": "機材開放席販売（先着）",
+      "entryStartAt": "2026-09-15T18:00:00+09:00",
+      "entryEndAt": "2026-09-17T19:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hana_born_to_bloom_2026_add_osaka_0917"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/260915/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_add_machine_tokyo_1029",
+      "tourId": "hana_born_to_bloom_2026_add",
+      "type": "機材開放席販売（先着）",
+      "entryStartAt": "2026-10-28T18:00:00+09:00",
+      "entryEndAt": "2026-10-29T19:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hana_born_to_bloom_2026_add_tokyo_1029"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/260915/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_add_machine_tokyo_1030",
+      "tourId": "hana_born_to_bloom_2026_add",
+      "type": "機材開放席販売（先着）",
+      "entryStartAt": "2026-10-28T18:00:00+09:00",
+      "entryEndAt": "2026-10-30T19:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hana_born_to_bloom_2026_add_tokyo_1030"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/260915/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "hana_born_to_bloom_2026_add_machine_tokyo_1031",
+      "tourId": "hana_born_to_bloom_2026_add",
+      "type": "機材開放席販売（先着）",
+      "entryStartAt": "2026-10-28T18:00:00+09:00",
+      "entryEndAt": "2026-10-31T17:30:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hana_born_to_bloom_2026_add_tokyo_1031"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/260915/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

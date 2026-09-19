@@ -86,6 +86,26 @@
       "source": "system",
       "sourceUrl": "https://inkigayo-live.jp/",
       "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_steal_the_wind_japan_2026_2027",
+      "artistId": "tomorrow_x_together",
+      "title": "TOMORROW X TOGETHER WORLD TOUR <STEAL THE WIND> IN JAPAN",
+      "startDate": "2026-12-19T00:00:00+09:00",
+      "endDate": "2027-02-21T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 16500
+        },
+        {
+          "label": "プレミアムシート",
+          "amount": 27500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/txt_steal_the_wind_in_japan",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -356,6 +376,102 @@
       "source": "system",
       "sourceUrl": "https://inkigayo-live.jp/",
       "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_steal_the_wind_japan_2026_fukuoka_1219",
+      "tourId": "tomorrow_x_together_steal_the_wind_japan_2026_2027",
+      "venue": "みずほPayPayドーム福岡",
+      "performanceAt": "2026-12-19T17:00:00+09:00",
+      "doorOpenAt": "2026-12-19T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/txt_steal_the_wind_in_japan",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_steal_the_wind_japan_2026_fukuoka_1220",
+      "tourId": "tomorrow_x_together_steal_the_wind_japan_2026_2027",
+      "venue": "みずほPayPayドーム福岡",
+      "performanceAt": "2026-12-20T16:00:00+09:00",
+      "doorOpenAt": "2026-12-20T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/txt_steal_the_wind_in_japan",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_steal_the_wind_japan_2027_tokyo_0107",
+      "tourId": "tomorrow_x_together_steal_the_wind_japan_2026_2027",
+      "venue": "東京ドーム",
+      "performanceAt": "2027-01-07T18:00:00+09:00",
+      "doorOpenAt": "2027-01-07T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/txt_steal_the_wind_in_japan",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_steal_the_wind_japan_2027_tokyo_0108",
+      "tourId": "tomorrow_x_together_steal_the_wind_japan_2026_2027",
+      "venue": "東京ドーム",
+      "performanceAt": "2027-01-08T18:00:00+09:00",
+      "doorOpenAt": "2027-01-08T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/txt_steal_the_wind_in_japan",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_steal_the_wind_japan_2027_osaka_0130",
+      "tourId": "tomorrow_x_together_steal_the_wind_japan_2026_2027",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2027-01-30T17:00:00+09:00",
+      "doorOpenAt": "2027-01-30T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/txt_steal_the_wind_in_japan",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_steal_the_wind_japan_2027_osaka_0131",
+      "tourId": "tomorrow_x_together_steal_the_wind_japan_2026_2027",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2027-01-31T16:00:00+09:00",
+      "doorOpenAt": "2027-01-31T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/txt_steal_the_wind_in_japan",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_steal_the_wind_japan_2027_nagoya_0220",
+      "tourId": "tomorrow_x_together_steal_the_wind_japan_2026_2027",
+      "venue": "バンテリンドーム ナゴヤ",
+      "performanceAt": "2027-02-20T17:00:00+09:00",
+      "doorOpenAt": "2027-02-20T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/txt_steal_the_wind_in_japan",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_steal_the_wind_japan_2027_nagoya_0221",
+      "tourId": "tomorrow_x_together_steal_the_wind_japan_2026_2027",
+      "venue": "バンテリンドーム ナゴヤ",
+      "performanceAt": "2027-02-21T17:00:00+09:00",
+      "doorOpenAt": "2027-02-21T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/txt_steal_the_wind_in_japan",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "lotteries": [

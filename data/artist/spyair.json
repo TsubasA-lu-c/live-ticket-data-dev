@@ -529,6 +529,20 @@
       "sourceUrl": "https://www.dreamlight-labs.com/de/artist/spyair-europe-tour",
       "lastVerifiedAt": "2026-09-08T21:52:00+09:00",
       "kind": "oneman"
+    },
+    {
+      "id": "spyair_europe_tour_2026_20261108",
+      "tourId": "spyair_europe_tour_2026",
+      "venue": "Magazzini Generali",
+      "performanceAt": "2026-11-08T12:00:00+01:00",
+      "performanceDate": "2026-11-08",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/spyair/live/55432",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "lotteries": [

@@ -65,6 +65,17 @@
       "source": "system",
       "sourceUrl": "https://boynextdoor-official.jp/News/69ba6708523f",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "boynextdoor_home_party_japan_2026",
+      "artistId": "boynextdoor",
+      "title": "BOYNEXTDOOR ‘HOME Party’ in JAPAN",
+      "startDate": "2026-12-10T00:00:00+09:00",
+      "endDate": "2026-12-10T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.universal-music.co.jp/boynextdoor/news/2026-09-18/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -403,6 +414,20 @@
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00",
       "performanceDate": "2026-09-26",
       "performanceTimeEstimated": true
+    },
+    {
+      "id": "boynextdoor_home_party_japan_2026_tachikawa_1210",
+      "tourId": "boynextdoor_home_party_japan_2026",
+      "venue": "立川ステージガーデン",
+      "performanceAt": "2026-12-10T12:00:00+09:00",
+      "performanceDate": "2026-12-10",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "BOYNEXTDOOR ‘HOME Party’ in JAPAN",
+      "source": "system",
+      "sourceUrl": "https://www.universal-music.co.jp/boynextdoor/news/2026-09-18/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -856,6 +881,38 @@
       "source": "system",
       "sourceUrl": "https://boynextdoor-official.jp/News/bc0078162179",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "boynextdoor_home_party_japan_2026_purchase_entry_1",
+      "tourId": "boynextdoor_home_party_japan_2026",
+      "type": "HOME購入者対象 HOME Party応募期間 第1回",
+      "entryStartAt": "2026-09-18T18:30:00+09:00",
+      "entryEndAt": "2026-09-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "boynextdoor_home_party_japan_2026_tachikawa_1210"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.universal-music.co.jp/boynextdoor/news/2026-09-18/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "boynextdoor_home_party_japan_2026_purchase_entry_2",
+      "tourId": "boynextdoor_home_party_japan_2026",
+      "type": "HOME購入者対象 HOME Party応募期間 第2回",
+      "entryStartAt": "2026-09-24T00:00:00+09:00",
+      "entryEndAt": "2026-10-04T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "boynextdoor_home_party_japan_2026_tachikawa_1210"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.universal-music.co.jp/boynextdoor/news/2026-09-18/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

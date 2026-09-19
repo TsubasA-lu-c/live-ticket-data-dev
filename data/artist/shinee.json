@@ -51,6 +51,17 @@
       "source": "system",
       "sourceUrl": "https://onew-fc.jp/contents/1091505",
       "lastVerifiedAt": "2026-09-03T21:39:00+09:00"
+    },
+    {
+      "id": "shinee_member_onew_venue101_extra_2026",
+      "artistId": "shinee",
+      "title": "【ONEW】NHK「Venue101 EXTRA」公開収録",
+      "startDate": "2026-09-19T00:00:00+09:00",
+      "endDate": "2026-09-19T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://onew-fc.jp/contents/1099035",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -161,6 +172,18 @@
       "source": "system",
       "sourceUrl": "https://onew-fc.jp/contents/1091505",
       "lastVerifiedAt": "2026-09-03T21:39:00+09:00"
+    },
+    {
+      "id": "shinee_member_onew_venue101_extra_2026_nhk_0919",
+      "tourId": "shinee_member_onew_venue101_extra_2026",
+      "venue": "NHKホール",
+      "performanceAt": "2026-09-19T19:30:00+09:00",
+      "doorOpenAt": "2026-09-19T18:45:00+09:00",
+      "kind": "fes",
+      "eventName": "NHK「Venue101 EXTRA」公開収録",
+      "source": "system",
+      "sourceUrl": "https://onew-fc.jp/contents/1099035",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -231,6 +254,72 @@
       "source": "system",
       "sourceUrl": "https://onew-fc.jp/contents/1099178",
       "lastVerifiedAt": "2026-09-03T21:39:00+09:00"
+    },
+    {
+      "id": "shinee_member_onew_live_q_2026_premium_upgrade",
+      "tourId": "shinee_member_onew_live_q_2026",
+      "type": "プレミアムシート アップグレード抽選",
+      "entryStartAt": "2026-08-12T18:00:00+09:00",
+      "entryEndAt": "2026-08-17T23:59:00+09:00",
+      "resultAt": "2026-08-21T12:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "shinee_member_onew_live_q_2026_tokyo_0922",
+        "shinee_member_onew_live_q_2026_tokyo_0923"
+      ],
+      "source": "system",
+      "sourceUrl": "https://onew-fc.jp/contents/1099178",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "shinee_member_onew_live_q_2026_general",
+      "tourId": "shinee_member_onew_live_q_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-08-22T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "shinee_member_onew_live_q_2026_tokyo_0922",
+        "shinee_member_onew_live_q_2026_tokyo_0923"
+      ],
+      "source": "system",
+      "sourceUrl": "https://onew-fc.jp/contents/1102758",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "shinee_member_onew_live_q_2026_anypass_resale_0922",
+      "tourId": "shinee_member_onew_live_q_2026",
+      "type": "AnyPASS公式リセール（9/22公演・プレミアム席除外）",
+      "entryStartAt": "2026-09-17T15:00:00+09:00",
+      "entryEndAt": "2026-09-21T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "shinee_member_onew_live_q_2026_tokyo_0922"
+      ],
+      "source": "system",
+      "sourceUrl": "https://onew-fc.jp/contents/1110576",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "shinee_member_onew_live_q_2026_anypass_resale_0923",
+      "tourId": "shinee_member_onew_live_q_2026",
+      "type": "AnyPASS公式リセール（9/23公演・プレミアム席除外）",
+      "entryStartAt": "2026-09-18T15:00:00+09:00",
+      "entryEndAt": "2026-09-22T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "shinee_member_onew_live_q_2026_tokyo_0923"
+      ],
+      "source": "system",
+      "sourceUrl": "https://onew-fc.jp/contents/1110576",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "lastVerifiedAt": "2026-09-03T21:39:00+09:00",

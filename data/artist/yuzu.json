@@ -58,6 +58,17 @@
       "source": "system",
       "sourceUrl": "https://yuzu-official.com/",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "yuzu_yujin_50th_birthday_2027",
+      "artistId": "yuzu",
+      "title": "【北川悠仁】ゆずの輪 presents Yujin’s 50th Birthday Special Live 2027 DRESS CODE -6Pチーズ-",
+      "startDate": "2027-01-12T00:00:00+09:00",
+      "endDate": "2027-01-14T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://yuzu-official.com/pages/yujin-birthday2027/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -362,6 +373,30 @@
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00",
       "performanceDate": "2026-11-22",
       "performanceTimeEstimated": true
+    },
+    {
+      "id": "yuzu_yujin_50th_birthday_2027_osaka_0112",
+      "tourId": "yuzu_yujin_50th_birthday_2027",
+      "venue": "フェスティバルホール",
+      "performanceAt": "2027-01-12T18:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://yuzu-official.com/pages/yujin-birthday2027/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "yuzu_yujin_50th_birthday_2027_yokohama_0114",
+      "tourId": "yuzu_yujin_50th_birthday_2027",
+      "venue": "パシフィコ横浜 国立大ホール",
+      "performanceAt": "2027-01-14T18:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://yuzu-official.com/pages/yujin-birthday2027/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -434,6 +469,23 @@
       "source": "system",
       "sourceUrl": "https://yuzu-official.com/pages/30th_opening_ceremony/",
       "lastVerifiedAt": "2026-08-18T07:29:00+09:00"
+    },
+    {
+      "id": "yuzu_yujin_50th_birthday_2027_yuzunowa",
+      "tourId": "yuzu_yujin_50th_birthday_2027",
+      "type": "ゆずの輪会員先行",
+      "entryStartAt": "2026-09-04T18:00:00+09:00",
+      "entryEndAt": "2026-09-13T23:59:00+09:00",
+      "resultAt": "2026-09-18T12:00:00+09:00",
+      "paymentStartAt": "2026-09-18T12:00:00+09:00",
+      "paymentEndAt": "2026-09-23T23:59:00+09:00",
+      "performanceIds": [
+        "yuzu_yujin_50th_birthday_2027_osaka_0112",
+        "yuzu_yujin_50th_birthday_2027_yokohama_0114"
+      ],
+      "source": "system",
+      "sourceUrl": "https://yuzu-official.com/contents/information/f0cc93d1-c440-4fe4-af9c-a27c7dd8b57b",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

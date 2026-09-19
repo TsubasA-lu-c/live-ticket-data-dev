@@ -281,6 +281,45 @@
       "source": "system",
       "sourceUrl": "https://www.mtvjapan.com/event/vmaj/2026/",
       "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_busan_rock_festival_2026",
+      "artistId": "aina_the_end",
+      "title": "2026 Busan International Rock Festival",
+      "startDate": "2026-10-04T00:00:00+09:00",
+      "endDate": "2026-10-04T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/schedule/live_detail.php?c=media&id=1118404",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_radio_crazy_2026",
+      "artistId": "aina_the_end",
+      "title": "FM802 ROCK FESTIVAL RADIO CRAZY 2026",
+      "startDate": "2026-12-26T00:00:00+09:00",
+      "endDate": "2026-12-26T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1DAY",
+          "amount": 13500
+        },
+        {
+          "label": "2DAYS",
+          "amount": 26000
+        },
+        {
+          "label": "3DAYS",
+          "amount": 38500
+        },
+        {
+          "label": "KING CRAZY",
+          "amount": 48000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.radiocrazy.fm/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -583,6 +622,34 @@
       "source": "system",
       "sourceUrl": "https://www.mtvjapan.com/event/vmaj/2026/",
       "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_busan_rock_festival_2026_1004",
+      "tourId": "aina_the_end_busan_rock_festival_2026",
+      "venue": "Samnak Ecological Park（三楽生態公園）",
+      "performanceAt": "2026-10-04T12:00:00+09:00",
+      "performanceDate": "2026-10-04",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "2026 Busan International Rock Festival",
+      "source": "system",
+      "sourceUrl": "https://ainatheend.jp/schedule/live_detail.php?c=media&id=1118404",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_radio_crazy_2026_osaka_1226",
+      "tourId": "aina_the_end_radio_crazy_2026",
+      "venue": "インテックス大阪",
+      "performanceAt": "2026-12-26T12:00:00+09:00",
+      "performanceDate": "2026-12-26",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": "2026-12-26T10:00:00+09:00",
+      "kind": "fes",
+      "eventName": "FM802 ROCK FESTIVAL RADIO CRAZY 2026",
+      "source": "system",
+      "sourceUrl": "https://radiocrazy.fm/artist/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -857,6 +924,70 @@
       "source": "system",
       "sourceUrl": "https://l-tike.com/order/?gBaseVenueCd=39911&gCarrierCd=01&gEntryMthd=03&gLcode=91553&gPfKey=20260729000002261973&gScheduleNo=2",
       "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_busan_rock_festival_2026_early_bird_1",
+      "tourId": "aina_the_end_busan_rock_festival_2026",
+      "type": "Early Bird 3-day pass（先着）",
+      "entryStartAt": "2026-06-18T14:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aina_the_end_busan_rock_festival_2026_1004"
+      ],
+      "source": "system",
+      "sourceUrl": "https://busanrockfestival.com/notice/2026notice_12/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_busan_rock_festival_2026_early_bird_2",
+      "tourId": "aina_the_end_busan_rock_festival_2026",
+      "type": "2nd Early Bird（先着）",
+      "entryStartAt": "2026-07-16T14:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aina_the_end_busan_rock_festival_2026_1004"
+      ],
+      "source": "system",
+      "sourceUrl": "https://busanrockfestival.com/notice/2026notice_12/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_radio_crazy_2026_first_entry",
+      "tourId": "aina_the_end_radio_crazy_2026",
+      "type": "オフィシャル/会員 先行受付",
+      "entryStartAt": "2026-09-07T18:00:00+09:00",
+      "entryEndAt": "2026-09-14T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aina_the_end_radio_crazy_2026_osaka_1226"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.radiocrazy.fm/ticket/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_radio_crazy_2026_official_hp",
+      "tourId": "aina_the_end_radio_crazy_2026",
+      "type": "オフィシャルHP販売",
+      "entryStartAt": "2026-09-17T00:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aina_the_end_radio_crazy_2026_osaka_1226"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.radiocrazy.fm/ticket/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

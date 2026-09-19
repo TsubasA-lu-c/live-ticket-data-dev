@@ -539,6 +539,23 @@
       }
     },
     {
+      "id": "oishi_masayoshi_pokemon_card_30th_celebration_2026",
+      "artistId": "oishi_masayoshi",
+      "title": "【オーイシマサヨシ】ポケモンカードゲーム30th CELEBRATION EVENT",
+      "startDate": "2026-10-25T00:00:00+09:00",
+      "endDate": "2026-10-25T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.30th.pokemon-card.com/event/30thevent/stage?type=chiba",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00",
+      "relationDisplay": {
+        "sourceArtistId": "oishi_masayoshi",
+        "sourceTourId": "oishi_masayoshi_pokemon_card_30th_celebration_2026",
+        "officialTitle": "ポケモンカードゲーム30th CELEBRATION EVENT",
+        "mirrored": false
+      }
+    },
+    {
       "id": "oishi_masayoshi__rel__masayoshi_oishi_sound_connection_0704",
       "artistId": "oishi_masayoshi",
       "title": "【大石昌良】SOUND CONNECTION -Acoustic Sessions-",
@@ -1052,6 +1069,20 @@
       "performanceTimeEstimated": true
     },
     {
+      "id": "oishi_masayoshi_pokemon_card_30th_celebration_2026_1025",
+      "tourId": "oishi_masayoshi_pokemon_card_30th_celebration_2026",
+      "venue": "幕張メッセ 国際展示場 展示ホール4〜7",
+      "performanceAt": "2026-10-25T12:00:00+09:00",
+      "performanceDate": "2026-10-25",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "ポケモンカードゲーム30th CELEBRATION EVENT",
+      "source": "system",
+      "sourceUrl": "https://www.30th.pokemon-card.com/event/30thevent/stage?type=chiba",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
       "id": "oishi_masayoshi__rel__masayoshi_oishi_sound_connection_0704_20260704",
       "tourId": "oishi_masayoshi__rel__masayoshi_oishi_sound_connection_0704",
       "venue": "大阪城音楽堂",
@@ -1126,21 +1157,6 @@
       "sourceUrl": "https://www.014014.jp/news/7763",
       "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
       "paymentDeadlineAt": "2026-07-26T23:59:00+09:00",
-      "performanceIds": [
-        "oishi_masayoshi_budokan3_0922_20260922"
-      ]
-    },
-    {
-      "id": "oishi_masayoshi_budokan3_0922_streaming",
-      "tourId": "oishi_masayoshi_budokan3_0922",
-      "type": "配信チケット",
-      "entryStartAt": "2026-07-25T12:00:00+09:00",
-      "entryEndAt": "2026-09-29T23:59:00+09:00",
-      "resultAt": null,
-      "source": "system",
-      "sourceUrl": "https://www.014014.jp/schedules/7265",
-      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
-      "ticketUrl": "https://abema.go.link/kwm3H",
       "performanceIds": [
         "oishi_masayoshi_budokan3_0922_20260922"
       ]
@@ -1360,25 +1376,6 @@
       "relationMirror": {
         "sourceArtistId": "masayoshi_oishi",
         "sourceId": "masayoshi_oishi_budokan_0923_first_come"
-      }
-    },
-    {
-      "id": "oishi_masayoshi__rel__masayoshi_oishi_budokan_0923_streaming",
-      "tourId": "oishi_masayoshi__rel__masayoshi_oishi_budokan_0923",
-      "type": "配信チケット",
-      "entryStartAt": "2026-07-25T12:00:00+09:00",
-      "entryEndAt": "2026-09-30T23:59:00+09:00",
-      "resultAt": null,
-      "source": "system",
-      "sourceUrl": "https://www.014014.jp/news/7786",
-      "lastVerifiedAt": "2026-08-29T09:09:00+09:00",
-      "ticketUrl": "https://abema.go.link/kwm3H",
-      "performanceIds": [
-        "oishi_masayoshi__rel__masayoshi_oishi_budokan_0923_20260923"
-      ],
-      "relationMirror": {
-        "sourceArtistId": "masayoshi_oishi",
-        "sourceId": "masayoshi_oishi_budokan_0923_streaming"
       }
     }
   ],

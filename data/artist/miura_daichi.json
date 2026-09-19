@@ -11,6 +11,10 @@
         {
           "label": "全席指定",
           "amount": 9900
+        },
+        {
+          "label": "制作席追加販売 指定席",
+          "amount": 9900
         }
       ],
       "source": "system",
@@ -1079,6 +1083,631 @@
       "source": "system",
       "sourceUrl": "https://daichi-miura.jp/news/detail/913",
       "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_osaka_production_seat",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "大阪公演 制作席追加販売（先着）",
+      "entryStartAt": "2026-09-18T18:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_osaka_0920",
+        "miura_daichi_raw_bare_2026_osaka_0921"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1105",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_osaka_0920_trade_paper",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケプラTrade（紙チケット・対象先行購入分）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-09-15T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_osaka_0920"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_osaka_0920_trade_electronic",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケプラTrade（電子チケット・対象先行購入分）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-09-19T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_osaka_0920"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_osaka_0921_trade_paper",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケプラTrade（紙チケット・対象先行購入分）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-09-16T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_osaka_0921"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_osaka_0921_trade_electronic",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケプラTrade（電子チケット・対象先行購入分）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-09-20T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_osaka_0921"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_ariake_0924_trade_paper",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケプラTrade（紙チケット・対象先行購入分）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-09-19T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_ariake_0924"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_ariake_0924_trade_electronic",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケプラTrade（電子チケット・対象先行購入分）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-09-23T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_ariake_0924"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_ariake_0925_trade_paper",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケプラTrade（紙チケット・対象先行購入分）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-09-20T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_ariake_0925"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_ariake_0925_trade_electronic",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケプラTrade（電子チケット・対象先行購入分）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-09-24T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_ariake_0925"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_kawaguchi_1006_trade_paper",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケプラTrade（紙チケット・対象先行購入分）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-10-01T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_kawaguchi_1006"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_kawaguchi_1006_trade_electronic",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケプラTrade（電子チケット・対象先行購入分）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-10-05T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_kawaguchi_1006"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_fuji_1017_trade_paper",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケプラTrade（紙チケット・対象先行購入分）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-10-12T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_fuji_1017"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_fuji_1017_trade_electronic",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケプラTrade（電子チケット・対象先行購入分）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-10-16T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_fuji_1017"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_gifu_1018_trade_paper",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケプラTrade（紙チケット・対象先行購入分）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-10-13T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_gifu_1018"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_gifu_1018_trade_electronic",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケプラTrade（電子チケット・対象先行購入分）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-10-17T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_gifu_1018"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_matsudo_1024_trade_paper",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケプラTrade（紙チケット・対象先行購入分）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-10-19T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_matsudo_1024"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_matsudo_1024_trade_electronic",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケプラTrade（電子チケット・対象先行購入分）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-10-23T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_matsudo_1024"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_sendai_1030_trade_paper",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケプラTrade（紙チケット・対象先行購入分）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-10-25T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_sendai_1030"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_sendai_1030_trade_electronic",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケプラTrade（電子チケット・対象先行購入分）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-10-29T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_sendai_1030"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_morioka_1031_trade_paper",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケプラTrade（紙チケット・対象先行購入分）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-10-26T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_morioka_1031"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_morioka_1031_trade_electronic",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケプラTrade（電子チケット・対象先行購入分）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-10-30T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_morioka_1031"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_kochi_1106_trade_paper",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケプラTrade（紙チケット・対象先行購入分）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-11-01T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_kochi_1106"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_kochi_1106_trade_electronic",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケプラTrade（電子チケット・対象先行購入分）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-11-05T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_kochi_1106"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_kurashiki_1108_trade_paper",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケプラTrade（紙チケット・対象先行購入分）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-11-03T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_kurashiki_1108"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_kurashiki_1108_trade_electronic",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケプラTrade（電子チケット・対象先行購入分）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-11-07T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_kurashiki_1108"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_yokosuka_1118_trade_paper",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケプラTrade（紙チケット・対象先行購入分）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-11-13T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_yokosuka_1118"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_yokosuka_1118_trade_electronic",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケプラTrade（電子チケット・対象先行購入分）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-11-17T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_yokosuka_1118"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_kobe_1122_trade_paper",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケプラTrade（紙チケット・対象先行購入分）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-11-17T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_kobe_1122"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_kobe_1122_trade_electronic",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケプラTrade（電子チケット・対象先行購入分）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-11-21T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_kobe_1122"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_kobe_1123_trade_paper",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケプラTrade（紙チケット・対象先行購入分）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-11-18T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_kobe_1123"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_kobe_1123_trade_electronic",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケプラTrade（電子チケット・対象先行購入分）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-11-22T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_kobe_1123"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_fukuoka_1127_trade_paper",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケプラTrade（紙チケット・対象先行購入分）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-11-22T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_fukuoka_1127"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_fukuoka_1127_trade_electronic",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケプラTrade（電子チケット・対象先行購入分）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-11-26T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_fukuoka_1127"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_kumamoto_1129_trade_paper",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケプラTrade（紙チケット・対象先行購入分）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-11-24T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_kumamoto_1129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_kumamoto_1129_trade_electronic",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケプラTrade（電子チケット・対象先行購入分）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-11-28T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_kumamoto_1129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_aichi_1219_trade_paper",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケプラTrade（紙チケット・対象先行購入分）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-12-14T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_aichi_1219"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_aichi_1219_trade_electronic",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケプラTrade（電子チケット・対象先行購入分）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-12-18T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_aichi_1219"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_aichi_1220_trade_paper",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケプラTrade（紙チケット・対象先行購入分）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-12-15T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_aichi_1220"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_aichi_1220_trade_electronic",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "チケプラTrade（電子チケット・対象先行購入分）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-12-19T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_aichi_1220"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

@@ -415,6 +415,28 @@
       "source": "system",
       "sourceUrl": "https://candytune.asobisystem.com/news/detail/87766",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "candy_tune_gift_2026",
+      "artistId": "candy_tune",
+      "title": "GIFT ～Girls Idol Festival Tokyo～",
+      "startDate": "2026-11-28T00:00:00+09:00",
+      "endDate": "2026-11-28T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.tv-asahi.co.jp/event/renew/contents/0452/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "candy_tune_asobiexpo_hawaii_2027",
+      "artistId": "candy_tune",
+      "title": "ASOBIEXPO HAWAII 2027",
+      "startDate": "2027-03-08T00:00:00-10:00",
+      "endDate": "2027-03-08T00:00:00-10:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://asobiexpo.com/hawaii2027/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -1171,6 +1193,34 @@
       "source": "system",
       "sourceUrl": "https://candytune.asobisystem.com/news/detail/87766",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "candy_tune_gift_2026_1128",
+      "tourId": "candy_tune_gift_2026",
+      "venue": "SGCホール有明 / TOYOTA ARENA TOKYO（出演会場未発表）",
+      "performanceAt": "2026-11-28T12:00:00+09:00",
+      "performanceDate": "2026-11-28",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "GIFT ～Girls Idol Festival Tokyo～ DAY-2",
+      "source": "system",
+      "sourceUrl": "https://ticket.tv-asahi.co.jp/ex/project/gift",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "candy_tune_asobiexpo_hawaii_2027_honolulu_0308",
+      "tourId": "candy_tune_asobiexpo_hawaii_2027",
+      "venue": "Tom Moffatt Waikiki Shell",
+      "performanceAt": "2027-03-08T12:00:00-10:00",
+      "performanceDate": "2027-03-08",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "ASOBIEXPO HAWAII 2027",
+      "source": "system",
+      "sourceUrl": "https://asobiexpo.com/hawaii2027/",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "lotteries": [
