@@ -49,6 +49,17 @@
       "source": "system",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/milet_music/info/583678",
       "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "milet_asia_tour_2027",
+      "artistId": "milet",
+      "title": "milet Asia Tour 2027",
+      "startDate": "2027-01-24T00:00:00+08:00",
+      "endDate": "2027-04-11T00:00:00+08:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/milet_music/info/586778",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -315,9 +326,82 @@
       "source": "system",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/milet_music/info/583678",
       "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "milet_asia_tour_2027_hongkong_0124",
+      "tourId": "milet_asia_tour_2027",
+      "venue": "AsiaWorld-Arena",
+      "performanceAt": "2027-01-24T12:00:00+08:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/milet_music/info/586778",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00",
+      "performanceDate": "2027-01-24",
+      "performanceTimeEstimated": true
+    },
+    {
+      "id": "milet_asia_tour_2027_singapore_0227",
+      "tourId": "milet_asia_tour_2027",
+      "venue": "The Star Theatre",
+      "performanceAt": "2027-02-27T12:00:00+08:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/milet_music/info/586778",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00",
+      "performanceDate": "2027-02-27",
+      "performanceTimeEstimated": true
+    },
+    {
+      "id": "milet_asia_tour_2027_taipei_0410",
+      "tourId": "milet_asia_tour_2027",
+      "venue": "Taipei Arena",
+      "performanceAt": "2027-04-10T12:00:00+08:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/milet_music/info/586778",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00",
+      "performanceDate": "2027-04-10",
+      "performanceTimeEstimated": true
+    },
+    {
+      "id": "milet_asia_tour_2027_taipei_0411",
+      "tourId": "milet_asia_tour_2027",
+      "venue": "Taipei Arena",
+      "performanceAt": "2027-04-11T12:00:00+08:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/milet_music/info/586778",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00",
+      "performanceDate": "2027-04-11",
+      "performanceTimeEstimated": true
     }
   ],
-  "lotteries": [],
+  "lotteries": [
+    {
+      "id": "milet_asia_tour_2027_singapore_general",
+      "tourId": "milet_asia_tour_2027",
+      "type": "Singapore ticket sale",
+      "entryStartAt": "2026-09-18T12:00:00+08:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milet_asia_tour_2027_singapore_0227"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/milet_music/info/586778",
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    }
+  ],
   "appleMusicTracks": [
     {
       "songId": "6793972646",
