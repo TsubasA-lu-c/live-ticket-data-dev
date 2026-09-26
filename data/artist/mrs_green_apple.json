@@ -595,6 +595,29 @@
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
       "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "mrs_green_apple_ringojam_shadows_2026_gate3_df02b642",
+      "tourId": "mrs_green_apple_ringojam_shadows_2026",
+      "type": "Ringo Jam全会員先行（東京・佐賀・福井・長野公演）",
+      "entryStartAt": "2026-09-24T12:00:00+09:00",
+      "entryEndAt": "2026-09-30T05:00:00+09:00",
+      "resultAt": "2026-10-10T14:00:00+09:00",
+      "paymentStartAt": "2026-10-10T14:00:00+09:00",
+      "paymentEndAt": "2026-10-12T23:59:00+09:00",
+      "performanceIds": [
+        "mrs_green_apple_ringojam_shadows_2026_tokyo_1028",
+        "mrs_green_apple_ringojam_shadows_2026_tokyo_1029",
+        "mrs_green_apple_ringojam_shadows_2026_saga_1104",
+        "mrs_green_apple_ringojam_shadows_2026_saga_1105",
+        "mrs_green_apple_ringojam_shadows_2026_fukui_1113",
+        "mrs_green_apple_ringojam_shadows_2026_fukui_1114",
+        "mrs_green_apple_ringojam_shadows_2026_nagano_1118",
+        "mrs_green_apple_ringojam_shadows_2026_nagano_1119"
+      ],
+      "source": "system",
+      "sourceUrl": "https://mrsgreenapple.com/news/detail/23017",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
