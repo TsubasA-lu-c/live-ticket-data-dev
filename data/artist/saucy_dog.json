@@ -220,6 +220,28 @@
       "source": "system",
       "sourceUrl": "https://saucydog.jp/news/5/?range=past_event_end_time&sort=desc",
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "saucy_dog_merry_rock_parade_2026",
+      "artistId": "saucy_dog",
+      "title": "MERRY ROCK PARADE 2026",
+      "startDate": "2026-12-19T00:00:00+09:00",
+      "endDate": "2026-12-19T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://saucydog.jp/news/detail/2148",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "saucy_dog_radio_crazy_2026",
+      "artistId": "saucy_dog",
+      "title": "FM802 ROCK FESTIVAL RADIO CRAZY2026",
+      "startDate": "2026-12-27T00:00:00+09:00",
+      "endDate": "2026-12-27T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://saucydog.jp/news/detail/2145",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -496,6 +518,30 @@
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00",
       "performanceDate": "2026-08-16",
       "performanceTimeEstimated": true
+    },
+    {
+      "id": "saucy_dog_merry_rock_parade_2026_1219",
+      "tourId": "saucy_dog_merry_rock_parade_2026",
+      "venue": "ポートメッセなごや1号館～3号館",
+      "performanceAt": "2026-12-19T11:00:00+09:00",
+      "doorOpenAt": "2026-12-19T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "MERRY ROCK PARADE 2026",
+      "source": "system",
+      "sourceUrl": "https://saucydog.jp/news/detail/2148",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "saucy_dog_radio_crazy_2026_1227",
+      "tourId": "saucy_dog_radio_crazy_2026",
+      "venue": "インテックス大阪",
+      "performanceAt": "2026-12-27T11:00:00+09:00",
+      "doorOpenAt": "2026-12-27T10:00:00+09:00",
+      "kind": "fes",
+      "eventName": "FM802 ROCK FESTIVAL RADIO CRAZY2026",
+      "source": "system",
+      "sourceUrl": "https://saucydog.jp/news/detail/2145",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -702,6 +748,54 @@
       "source": "system",
       "sourceUrl": "https://saucydog.jp/news/detail/1679",
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "saucy_dog_merry_rock_parade_2026_official_1st",
+      "tourId": "saucy_dog_merry_rock_parade_2026",
+      "type": "オフィシャル1次先行受付（抽選）",
+      "entryStartAt": "2026-09-25T18:00:00+09:00",
+      "entryEndAt": "2026-10-04T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "saucy_dog_merry_rock_parade_2026_1219"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.merryrockparade.jp/ticket.html",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "saucy_dog_radio_crazy_2026_official_hp_1st",
+      "tourId": "saucy_dog_radio_crazy_2026",
+      "type": "オフィシャルHP1次受付（抽選）",
+      "entryStartAt": "2026-09-17T20:00:00+09:00",
+      "entryEndAt": "2026-09-25T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "saucy_dog_radio_crazy_2026_1227"
+      ],
+      "source": "system",
+      "sourceUrl": "https://radiocrazy.fm/ticket/index.php",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "saucy_dog_buzzrhythm_live_2026_owners_presale",
+      "tourId": "saucy_dog_buzzrhythm_live_2026",
+      "type": "サウシードッグオーナーズ会員先着先行",
+      "entryStartAt": "2026-09-17T12:00:00+09:00",
+      "entryEndAt": "2026-10-07T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "saucy_dog_buzzrhythm_2026_1106"
+      ],
+      "source": "system",
+      "sourceUrl": "https://saucydog.jp/news/detail/2135",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
