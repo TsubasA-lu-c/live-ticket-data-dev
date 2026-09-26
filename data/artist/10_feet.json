@@ -387,6 +387,16 @@
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/3604630001-P0030019P021001?P1=0175",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "10_feet_gate3_2026_0408aeea",
+      "artistId": "10_feet",
+      "title": "MERRY ROCK PARADE 2026",
+      "startDate": "2026-12-20T00:00:00+09:00",
+      "endDate": "2026-12-20T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.merryrockparade.jp/artist.html",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -555,8 +565,9 @@
       "kind": "fes",
       "eventName": "ROCK IN JAPAN FESTIVAL 2026",
       "source": "system",
-      "sourceUrl": "https://10-feet.kyoto/contents/1074738",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "sourceUrl": "https://rijfes.jp/2026/timetable/",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00",
+      "eventStatus": "cancelled"
     },
     {
       "id": "10_feet_fes_nakatsugawa_2026_nakatsugawa_0919",
@@ -825,6 +836,18 @@
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/3604630001-P0030019P021001?P1=0175",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "10_feet_gate3_2026_0408aeea_20261220_01",
+      "tourId": "10_feet_gate3_2026_0408aeea",
+      "venue": "ポートメッセなごや 1号館・2号館・3号館",
+      "performanceAt": "2026-12-20T11:00:00+09:00",
+      "doorOpenAt": "2026-12-20T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "MERRY ROCK PARADE 2026",
+      "source": "system",
+      "sourceUrl": "https://www.merryrockparade.jp/artist.html",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -979,6 +1002,54 @@
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/3604630001-P0030019P021001?P1=0175",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "10_feet_kowarete_2026_gate3_2aee980f",
+      "tourId": "10_feet_kowarete_2026",
+      "type": "FINAL 一般発売（先着）",
+      "entryStartAt": "2026-09-05T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "10_feet_kowarete_2026_final_1003"
+      ],
+      "source": "system",
+      "sourceUrl": "https://10-feet.kyoto/pages/kowaretekierumade_final",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "10_feet_kowarete_2026_gate3_063bf5ad",
+      "tourId": "10_feet_kowarete_2026",
+      "type": "FINAL 公式リセール（抽選・スタンディング一般）",
+      "entryStartAt": "2026-09-23T12:00:00+09:00",
+      "entryEndAt": "2026-09-30T10:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "10_feet_kowarete_2026_final_1003"
+      ],
+      "source": "system",
+      "sourceUrl": "https://l-tike.com/order/?gBaseVenueCd=50410&gCarrierCd=08&gEntryMthd=03&gLcode=92811&gPfKey=20260629000002239924&gPfName=%EF%BC%91%EF%BC%90%EF%BC%8D%EF%BC%A6%EF%BC%A5%EF%BC%A5%EF%BC%B4&gScheduleNo=1",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "10_feet_gate3_2026_0408aeea_gate3_0da2aeb5",
+      "tourId": "10_feet_gate3_2026_0408aeea",
+      "type": "オフィシャル1次先行受付（抽選）",
+      "entryStartAt": "2026-09-25T18:00:00+09:00",
+      "entryEndAt": "2026-10-04T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "10_feet_gate3_2026_0408aeea_20261220_01"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.merryrockparade.jp/ticket.html",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     }
   ]
 }
