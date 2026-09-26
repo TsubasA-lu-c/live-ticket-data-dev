@@ -144,6 +144,16 @@
       "source": "system",
       "sourceUrl": "https://skyhi.tokyo/live/2026/2058",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_gate3_2026_ecfff7f5",
+      "artistId": "sky_hi",
+      "title": "OMEN -The Origin- Organized by Aile The Shota × RaySTA",
+      "startDate": "2026-11-07T00:00:00+09:00",
+      "endDate": "2026-11-07T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/news/2141",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -398,6 +408,18 @@
       "source": "system",
       "sourceUrl": "https://skyhi.tokyo/live/2026/2058",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_gate3_2026_ecfff7f5_20261107_01",
+      "tourId": "sky_hi_gate3_2026_ecfff7f5",
+      "venue": "豊洲PIT",
+      "performanceAt": "2026-11-07T18:00:00+09:00",
+      "doorOpenAt": "2026-11-07T17:00:00+09:00",
+      "kind": "fes",
+      "eventName": "OMEN -The Origin- Organized by Aile The Shota × RaySTA",
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/news/2141",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -482,6 +504,22 @@
       "source": "system",
       "sourceUrl": "https://skyhi.tokyo/",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_gate3_2026_ecfff7f5_gate3_73fabd50",
+      "tourId": "sky_hi_gate3_2026_ecfff7f5",
+      "type": "第2回チケット抽選受付",
+      "entryStartAt": "2026-09-21T21:00:00+09:00",
+      "entryEndAt": "2026-09-27T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sky_hi_gate3_2026_ecfff7f5_20261107_01"
+      ],
+      "source": "system",
+      "sourceUrl": "https://skyhi.tokyo/news/2141",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
