@@ -135,6 +135,16 @@
       "source": "system",
       "sourceUrl": "https://ebidan.jp/feature/ebidan_the_live_2026",
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "bullet_train_gate3_2026_e08ba969",
+      "artistId": "bullet_train",
+      "title": "15th Anniversary Special Event「超特急×DISH//」",
+      "startDate": "2026-12-25T00:00:00+09:00",
+      "endDate": "2026-12-25T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://ebidan.jp/news/detail/1110191",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -343,6 +353,30 @@
       "source": "system",
       "sourceUrl": "https://ebidan.jp/feature/ebidan_the_live_2026",
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "bullet_train_gate3_2026_e08ba969_20261225_01",
+      "tourId": "bullet_train_gate3_2026_e08ba969",
+      "venue": "国立代々木競技場 第一体育館",
+      "performanceAt": "2026-12-25T14:00:00+09:00",
+      "doorOpenAt": "2026-12-25T13:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "15th Anniversary Special Event「超特急×DISH//」<1部>",
+      "source": "system",
+      "sourceUrl": "https://ebidan.jp/news/detail/1110191",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "bullet_train_gate3_2026_e08ba969_20261225_02",
+      "tourId": "bullet_train_gate3_2026_e08ba969",
+      "venue": "国立代々木競技場 第一体育館",
+      "performanceAt": "2026-12-25T18:00:00+09:00",
+      "doorOpenAt": "2026-12-25T17:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "15th Anniversary Special Event「超特急×DISH//」<2部>",
+      "source": "system",
+      "sourceUrl": "https://ebidan.jp/news/detail/1110191",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -668,6 +702,40 @@
       "source": "system",
       "sourceUrl": "https://bullettrain.jp/news/detail/110170",
       "lastVerifiedAt": "2026-09-10T21:37:00+09:00"
+    },
+    {
+      "id": "bullet_train_x_8a48501900_gate3_45918d1c",
+      "tourId": "bullet_train_x_8a48501900",
+      "type": "夢の青春8きっぷ会員限定 機材席開放販売（抽選）",
+      "entryStartAt": "2026-09-14T18:00:00+09:00",
+      "entryEndAt": "2026-09-27T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bullet_train_x_8a48501900_20261125_1",
+        "bullet_train_x_8a48501900_20261126_2"
+      ],
+      "source": "system",
+      "sourceUrl": "https://bullettrain.jp/news/detail/110168",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "bullet_train_gate3_2026_e08ba969_gate3_b9b04cb2",
+      "tourId": "bullet_train_gate3_2026_e08ba969",
+      "type": "『夢の青春8きっぷ』『皿組GOLD』会員限定先行（抽選）",
+      "entryStartAt": "2026-09-26T19:00:00+09:00",
+      "entryEndAt": "2026-10-12T23:59:00+09:00",
+      "resultAt": "2026-10-22T14:00:00+09:00",
+      "paymentStartAt": "2026-10-22T14:00:00+09:00",
+      "paymentEndAt": "2026-10-25T23:59:00+09:00",
+      "performanceIds": [
+        "bullet_train_gate3_2026_e08ba969_20261225_01",
+        "bullet_train_gate3_2026_e08ba969_20261225_02"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ebidan.jp/news/detail/1110191",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
