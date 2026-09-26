@@ -105,6 +105,16 @@
       "source": "system",
       "sourceUrl": "https://befirst.tokyo/live/260808_hitc/",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "be_first_gate3_2026_75772f3f",
+      "artistId": "be_first",
+      "title": "UVERworld vs BE:FIRST",
+      "startDate": "2026-12-26T00:00:00+09:00",
+      "endDate": "2026-12-26T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://befirst.tokyo/news/",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -343,6 +353,18 @@
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00",
       "performanceDate": "2026-08-08",
       "performanceTimeEstimated": true
+    },
+    {
+      "id": "be_first_gate3_2026_75772f3f_20261226_01",
+      "tourId": "be_first_gate3_2026_75772f3f",
+      "venue": "日本武道館",
+      "performanceAt": "2026-12-26T18:00:00+09:00",
+      "doorOpenAt": "2026-12-26T17:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "UVERworld vs BE:FIRST",
+      "source": "system",
+      "sourceUrl": "https://www.uverworld.jp/news/detail/3231",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -426,6 +448,22 @@
       "source": "system",
       "sourceUrl": "https://befirst.tokyo/music/watchme-event/",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "be_first_gate3_2026_75772f3f_gate3_b9658787",
+      "tourId": "be_first_gate3_2026_75772f3f",
+      "type": "チケット先行予約（抽選）",
+      "entryStartAt": "2026-10-01T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "be_first_gate3_2026_75772f3f_20261226_01"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.uverworld.jp/news/detail/3231",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
