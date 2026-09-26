@@ -188,6 +188,36 @@
       "source": "system",
       "sourceUrl": "https://www.04limitedsazabys.com/live_information/list/?limit=20&page=2&range=future",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_gate3_2026_4d9f2b09",
+      "artistId": "04_limited_sazabys",
+      "title": "TENDOUJI \"EASY PUNK PARK SPECIAL EDITION!!!\"",
+      "startDate": "2026-11-17T00:00:00+09:00",
+      "endDate": "2026-11-17T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/live_information/list/?limit=20&page=2&range=future",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_gate3_2026_49cc134d",
+      "artistId": "04_limited_sazabys",
+      "title": "RADIO CRAZY 2026",
+      "startDate": "2026-12-26T00:00:00+09:00",
+      "endDate": "2026-12-26T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/live_information/list/?limit=20&page=2&range=future",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_gate3_2026_0408aeea",
+      "artistId": "04_limited_sazabys",
+      "title": "MERRY ROCK PARADE 2026",
+      "startDate": "2026-12-20T00:00:00+09:00",
+      "endDate": "2026-12-20T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.merryrockparade.jp/artist.html",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -646,6 +676,42 @@
       "source": "system",
       "sourceUrl": "https://www.04limitedsazabys.com/live_information/list/?limit=20&page=2&range=future",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_gate3_2026_4d9f2b09_20261117_01",
+      "tourId": "04_limited_sazabys_gate3_2026_4d9f2b09",
+      "venue": "F.A.D YOKOHAMA",
+      "performanceAt": "2026-11-17T19:00:00+09:00",
+      "doorOpenAt": "2026-11-17T18:15:00+09:00",
+      "kind": "taiban",
+      "eventName": "TENDOUJI \"EASY PUNK PARK SPECIAL EDITION!!!\"",
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/live_information/list/?limit=20&page=2&range=future",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_gate3_2026_49cc134d_20261226_01",
+      "tourId": "04_limited_sazabys_gate3_2026_49cc134d",
+      "venue": "インテックス大阪",
+      "performanceAt": "2026-12-26T11:00:00+09:00",
+      "doorOpenAt": "2026-12-26T10:00:00+09:00",
+      "kind": "fes",
+      "eventName": "RADIO CRAZY 2026",
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/live_information/list/?limit=20&page=2&range=future",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_gate3_2026_0408aeea_20261220_01",
+      "tourId": "04_limited_sazabys_gate3_2026_0408aeea",
+      "venue": "ポートメッセなごや 1号館・2号館・3号館",
+      "performanceAt": "2026-12-20T11:00:00+09:00",
+      "doorOpenAt": "2026-12-20T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "MERRY ROCK PARADE 2026",
+      "source": "system",
+      "sourceUrl": "https://www.merryrockparade.jp/artist.html",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -930,6 +996,22 @@
       "source": "system",
       "sourceUrl": "https://www.04limitedsazabys.com/feature/tour2026",
       "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_gate3_2026_0408aeea_gate3_1ad0663a",
+      "tourId": "04_limited_sazabys_gate3_2026_0408aeea",
+      "type": "オフィシャル1次先行受付（抽選）",
+      "entryStartAt": "2026-09-25T18:00:00+09:00",
+      "entryEndAt": "2026-10-04T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "04_limited_sazabys_gate3_2026_0408aeea_20261220_01"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.merryrockparade.jp/ticket.html",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
