@@ -437,6 +437,17 @@
       "source": "system",
       "sourceUrl": "https://asobiexpo.com/hawaii2027/",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "candy_tune_gate3_2026_7c3e7c68",
+      "artistId": "candy_tune",
+      "title": "CANDY TUNE 4thシングル / SWEET STEADY 3rdシングル / MORE STAR 1stシングル発売記念大特典会",
+      "startDate": "2026-10-11T00:00:00+09:00",
+      "endDate": "2026-10-11T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://candytune.asobisystem.com/news/detail/91037",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00",
+      "prices": null
     }
   ],
   "performances": [
@@ -1069,10 +1080,11 @@
       "kind": "fes",
       "eventName": "ROCK IN JAPAN FESTIVAL 2026",
       "source": "system",
-      "sourceUrl": "https://rijfes.jp/2026/artist/3782/",
-      "lastVerifiedAt": "2026-08-28T10:03:00+09:00",
+      "sourceUrl": "https://rijfes.jp/2026/timetable/",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00",
       "performanceDate": "2026-09-21",
-      "performanceTimeEstimated": true
+      "performanceTimeEstimated": true,
+      "eventStatus": "cancelled"
     },
     {
       "id": "candy_tune_3rd_anniversary_live_2026_budokan_0605",
@@ -1221,6 +1233,19 @@
       "source": "system",
       "sourceUrl": "https://asobiexpo.com/hawaii2027/",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "candy_tune_gate3_2026_7c3e7c68_20261011_01",
+      "tourId": "candy_tune_gate3_2026_7c3e7c68",
+      "venue": "西日本総合展示場",
+      "performanceAt": "2026-10-11T10:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "CANDY TUNE / SWEET STEADY / MORE STAR 大特典会",
+      "source": "system",
+      "sourceUrl": "https://candytune.asobisystem.com/news/detail/91037",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00",
+      "note": "第1部開始10:00。全6部の特典会を同日1イベントとして扱う。"
     }
   ],
   "lotteries": [
@@ -1967,6 +1992,22 @@
       "source": "system",
       "sourceUrl": "https://candytune.asobisystem.com/feature/candytune_nationwide_tour2026",
       "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "candy_tune_gate3_2026_7c3e7c68_gate3_67d4dce0",
+      "tourId": "candy_tune_gate3_2026_7c3e7c68",
+      "type": "大特典会参加対象商品 予約受付（先着）",
+      "entryStartAt": "2026-09-25T21:00:00+09:00",
+      "entryEndAt": "2026-09-27T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "candy_tune_gate3_2026_7c3e7c68_20261011_01"
+      ],
+      "source": "system",
+      "sourceUrl": "https://candytune.asobisystem.com/news/detail/91037",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
