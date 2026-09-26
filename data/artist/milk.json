@@ -1592,6 +1592,24 @@
       "source": "system",
       "sourceUrl": "https://sd-milk.com/contents/1110113",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_shakariki_revolution_2026_fukuoka_last_minute_equipment_release",
+      "tourId": "milk_shakariki_revolution_2026",
+      "type": "福岡公演 直前機材席開放販売（先着・着席指定席）",
+      "entryStartAt": "2026-09-26T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_shakariki_revolution_2026_fukuoka_0926",
+        "milk_shakariki_revolution_2026_fukuoka_0927a",
+        "milk_shakariki_revolution_2026_fukuoka_0927b"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1112760",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
