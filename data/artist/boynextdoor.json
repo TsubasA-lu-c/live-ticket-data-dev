@@ -76,6 +76,17 @@
       "source": "system",
       "sourceUrl": "https://www.universal-music.co.jp/boynextdoor/news/2026-09-18/",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "boynextdoor_gate3_2026_a9d5b8d2",
+      "artistId": "boynextdoor",
+      "title": "BOYNEXTDOOR 1st Studio Album Repackage『HOME: DELUXE』メンバー全員ハイタッチ会",
+      "startDate": "2026-12-10T00:00:00+09:00",
+      "endDate": "2026-12-10T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://boynextdoor-official.jp/news/43868a1b8b8b",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00",
+      "prices": null
     }
   ],
   "performances": [
@@ -428,6 +439,21 @@
       "source": "system",
       "sourceUrl": "https://www.universal-music.co.jp/boynextdoor/news/2026-09-18/",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "boynextdoor_gate3_2026_a9d5b8d2_20261210_01",
+      "tourId": "boynextdoor_gate3_2026_a9d5b8d2",
+      "venue": "立川ステージガーデン",
+      "performanceAt": "2026-12-10T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "BOYNEXTDOOR 1st Studio Album Repackage『HOME: DELUXE』メンバー全員ハイタッチ会",
+      "source": "system",
+      "sourceUrl": "https://boynextdoor-official.jp/news/43868a1b8b8b",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00",
+      "performanceDate": "2026-12-10",
+      "performanceTimeEstimated": true,
+      "note": "開催時刻は当選者へ後日案内。12:00は旧クライアント互換値。"
     }
   ],
   "lotteries": [
@@ -913,6 +939,23 @@
       "source": "system",
       "sourceUrl": "https://www.universal-music.co.jp/boynextdoor/news/2026-09-18/",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "boynextdoor_gate3_2026_a9d5b8d2_gate3_5f7c225a",
+      "tourId": "boynextdoor_gate3_2026_a9d5b8d2",
+      "type": "『HOME: DELUXE』メンバー全員ハイタッチ会 応募抽選",
+      "entryStartAt": "2026-09-29T18:00:00+09:00",
+      "entryEndAt": "2026-10-02T23:59:00+09:00",
+      "resultAt": "2026-10-07T17:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "boynextdoor_gate3_2026_a9d5b8d2_20261210_01"
+      ],
+      "source": "system",
+      "sourceUrl": "https://boynextdoor-official.jp/news/43868a1b8b8b",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00",
+      "note": "対象商品の予約期間は9/25 17:00〜9/27 23:59。応募自体は9/29 18:00〜10/2 23:59。"
     }
   ],
   "appleMusicTracks": [
