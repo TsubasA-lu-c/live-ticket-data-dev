@@ -131,6 +131,54 @@
       "source": "system",
       "sourceUrl": "https://www.hiroshima-continew.com/",
       "lastVerifiedAt": "2026-09-10T19:32:37+09:00"
+    },
+    {
+      "id": "golden_bomber_christmas_saikyo_2026",
+      "artistId": "golden_bomber",
+      "title": "ゴールデンボンバークリスマスライブ ～埼京線大爆破～",
+      "startDate": "2026-12-22T00:00:00+09:00",
+      "endDate": "2026-12-23T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 8800
+        },
+        {
+          "label": "着席指定席",
+          "amount": 9900
+        },
+        {
+          "label": "指定席（U-18）",
+          "amount": 5500
+        },
+        {
+          "label": "親子席",
+          "amount": 7700
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1113122",
+      "lastVerifiedAt": "2026-09-26T22:26:00+09:00"
+    },
+    {
+      "id": "golden_bomber_breakerz_live_2027_vs",
+      "artistId": "golden_bomber",
+      "title": "BREAKERZ LIVE 2027 -VS-",
+      "startDate": "2027-03-05T00:00:00+09:00",
+      "endDate": "2027-03-05T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1階スタンディング（前売）",
+          "amount": 11000
+        },
+        {
+          "label": "2階指定席（前売）",
+          "amount": 12000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://breakerz-web.net/special/20th/live-2027-vs-/",
+      "lastVerifiedAt": "2026-09-26T22:26:00+09:00"
     }
   ],
   "performances": [
@@ -457,6 +505,42 @@
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/4401630001-P0030002P021002",
       "lastVerifiedAt": "2026-09-10T19:32:37+09:00"
+    },
+    {
+      "id": "golden_bomber_christmas_saikyo_2026_omiya_1222",
+      "tourId": "golden_bomber_christmas_saikyo_2026",
+      "venue": "大宮ソニックシティ 大ホール",
+      "performanceAt": "2026-12-22T18:30:00+09:00",
+      "doorOpenAt": "2026-12-22T17:45:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1113122",
+      "lastVerifiedAt": "2026-09-26T22:26:00+09:00"
+    },
+    {
+      "id": "golden_bomber_christmas_saikyo_2026_omiya_1223",
+      "tourId": "golden_bomber_christmas_saikyo_2026",
+      "venue": "大宮ソニックシティ 大ホール",
+      "performanceAt": "2026-12-23T18:30:00+09:00",
+      "doorOpenAt": "2026-12-23T17:45:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1113122",
+      "lastVerifiedAt": "2026-09-26T22:26:00+09:00"
+    },
+    {
+      "id": "golden_bomber_breakerz_live_2027_vs_yokohama_0305",
+      "tourId": "golden_bomber_breakerz_live_2027_vs",
+      "venue": "KT Zepp Yokohama",
+      "performanceAt": "2027-03-05T19:00:00+09:00",
+      "doorOpenAt": "2027-03-05T18:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "BREAKERZ LIVE 2027 -VS-",
+      "source": "system",
+      "sourceUrl": "https://breakerz-web.net/special/20th/live-2027-vs-/",
+      "lastVerifiedAt": "2026-09-26T22:26:00+09:00"
     }
   ],
   "lotteries": [
@@ -765,6 +849,73 @@
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/4401630001-P0030002P021002",
       "lastVerifiedAt": "2026-09-10T19:32:37+09:00"
+    },
+    {
+      "id": "golden_bomber_christmas_saikyo_2026_fc_marukin",
+      "tourId": "golden_bomber_christmas_saikyo_2026",
+      "type": "FC[マルキン]抽選受付",
+      "entryStartAt": "2026-09-29T15:00:00+09:00",
+      "entryEndAt": "2026-10-05T23:59:00+09:00",
+      "resultAt": "2026-10-10T15:00:00+09:00",
+      "paymentStartAt": "2026-10-10T15:00:00+09:00",
+      "paymentEndAt": "2026-10-14T23:59:00+09:00",
+      "performanceIds": [
+        "golden_bomber_christmas_saikyo_2026_omiya_1222",
+        "golden_bomber_christmas_saikyo_2026_omiya_1223"
+      ],
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1113122",
+      "lastVerifiedAt": "2026-09-26T22:26:00+09:00"
+    },
+    {
+      "id": "golden_bomber_christmas_saikyo_2026_mobile",
+      "tourId": "golden_bomber_christmas_saikyo_2026",
+      "type": "モバイル会員抽選受付",
+      "entryStartAt": "2026-10-10T15:00:00+09:00",
+      "entryEndAt": "2026-10-14T23:59:00+09:00",
+      "resultAt": "2026-10-21T15:00:00+09:00",
+      "paymentStartAt": "2026-10-21T15:00:00+09:00",
+      "paymentEndAt": "2026-10-25T23:59:00+09:00",
+      "performanceIds": [
+        "golden_bomber_christmas_saikyo_2026_omiya_1222",
+        "golden_bomber_christmas_saikyo_2026_omiya_1223"
+      ],
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1113122",
+      "lastVerifiedAt": "2026-09-26T22:26:00+09:00"
+    },
+    {
+      "id": "golden_bomber_christmas_saikyo_2026_general",
+      "tourId": "golden_bomber_christmas_saikyo_2026",
+      "type": "一般発売（先着・予定）",
+      "entryStartAt": "2026-10-31T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "golden_bomber_christmas_saikyo_2026_omiya_1222",
+        "golden_bomber_christmas_saikyo_2026_omiya_1223"
+      ],
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1113122",
+      "lastVerifiedAt": "2026-09-26T22:26:00+09:00"
+    },
+    {
+      "id": "golden_bomber_breakerz_live_2027_vs_fc_presale",
+      "tourId": "golden_bomber_breakerz_live_2027_vs",
+      "type": "FC先行抽選受付",
+      "entryStartAt": "2026-10-13T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "golden_bomber_breakerz_live_2027_vs_yokohama_0305"
+      ],
+      "source": "system",
+      "sourceUrl": "https://breakerz-web.net/special/20th/live-2027-vs-/",
+      "lastVerifiedAt": "2026-09-26T22:26:00+09:00"
     }
   ],
   "appleMusicTracks": [
@@ -790,5 +941,5 @@
       "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/39/db/1e/39db1e45-29cf-5dd3-613c-d8764cd6dd84/006364_4562390690309.jpg/{w}x{h}{c}.{f}"
     }
   ],
-  "lastVerifiedAt": "2026-09-03T21:39:00+09:00"
+  "lastVerifiedAt": "2026-09-26T22:26:00+09:00"
 }
