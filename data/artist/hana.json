@@ -226,6 +226,16 @@
       "source": "system",
       "sourceUrl": "https://www800.asia/2026/about/",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "hana_gate3_2026_05c8b241",
+      "artistId": "hana",
+      "title": "2026 FIREBALL Fest. 火球祭",
+      "startDate": "2026-11-15T00:00:00+09:00",
+      "endDate": "2026-11-15T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -466,6 +476,21 @@
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00",
       "performanceDate": "2026-11-08",
       "performanceTimeEstimated": true
+    },
+    {
+      "id": "hana_gate3_2026_05c8b241_20261115_01",
+      "tourId": "hana_gate3_2026_05c8b241",
+      "venue": "樂天桃園棒球場",
+      "performanceAt": "2026-11-15T12:00:00+08:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "2026 FIREBALL Fest. 火球祭",
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00",
+      "performanceDate": "2026-11-15",
+      "performanceTimeEstimated": true,
+      "note": "HANA公式で11/15出演確定。開演時刻未発表のため、12:00+08:00は旧クライアント互換値で実時刻ではない。"
     }
   ],
   "lotteries": [

@@ -486,6 +486,23 @@
       "source": "system",
       "sourceUrl": "https://yuzu-official.com/contents/information/f0cc93d1-c440-4fe4-af9c-a27c7dd8b57b",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "yuzu_yujin_50th_birthday_2027_gate3_ba310f44",
+      "tourId": "yuzu_yujin_50th_birthday_2027",
+      "type": "ゆずの輪会員2次先行",
+      "entryStartAt": "2026-09-18T15:00:00+09:00",
+      "entryEndAt": "2026-09-23T23:59:00+09:00",
+      "resultAt": "2026-09-30T12:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yuzu_yujin_50th_birthday_2027_osaka_0112",
+        "yuzu_yujin_50th_birthday_2027_yokohama_0114"
+      ],
+      "source": "system",
+      "sourceUrl": "https://yuzu-official.com/pages/yujin-birthday2027/",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

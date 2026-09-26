@@ -677,6 +677,22 @@
       "source": "system",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/spyair/info/585431",
       "lastVerifiedAt": "2026-09-08T21:52:00+09:00"
+    },
+    {
+      "id": "spyair_just_like_this_2026_gate3_daaba239",
+      "tourId": "spyair_just_like_this_2026",
+      "type": "機材席開放 注釈付き指定席（先着）",
+      "entryStartAt": "2026-09-18T18:00:00+09:00",
+      "entryEndAt": "2026-09-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "spyair_just_like_this_2026_20260926"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/spyair/info/586945",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

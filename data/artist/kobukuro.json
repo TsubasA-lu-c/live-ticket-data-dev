@@ -6,7 +6,7 @@
       "artistId": "kobukuro",
       "title": "KOBUKURO LIVE TOUR 2026 霞日和",
       "startDate": "2026-07-25T00:00:00+09:00",
-      "endDate": "2026-11-01T00:00:00+09:00",
+      "endDate": "2026-12-19T00:00:00+09:00",
       "prices": [
         {
           "label": "全席指定",
@@ -14,8 +14,8 @@
         }
       ],
       "source": "system",
-      "sourceUrl": "https://kobukuro.com/feature/kobukuro_tour2026",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "sourceUrl": "https://kobukuro.com/special_site/kobukuro_tour2026/detail/342",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     },
     {
       "id": "kobukuro_fes_expo_beat_jam_2026",
@@ -376,6 +376,18 @@
       "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
       "performanceDate": "2026-12-06",
       "performanceTimeEstimated": true
+    },
+    {
+      "id": "kobukuro_kasumibiyori_2026_osaka_add_1219",
+      "tourId": "kobukuro_kasumibiyori_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-12-19T16:00:00+09:00",
+      "doorOpenAt": "2026-12-19T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://kobukuro.com/special_site/kobukuro_tour2026/detail/342",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -699,6 +711,22 @@
       "source": "system",
       "sourceUrl": "https://kobukuro.com/feature/kobukuro_kasumibiyori",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "kobukuro_kasumibiyori_2026_gate3_204cdb14",
+      "tourId": "kobukuro_kasumibiyori_2026",
+      "type": "追加公演 ファンサイト会員先行",
+      "entryStartAt": "2026-09-25T22:00:00+09:00",
+      "entryEndAt": "2026-10-01T14:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kobukuro_kasumibiyori_2026_osaka_add_1219"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kobukuro.com/special_site/kobukuro_tour2026/detail/342",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

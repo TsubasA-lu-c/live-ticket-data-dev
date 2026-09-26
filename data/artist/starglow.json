@@ -104,6 +104,30 @@
       "source": "system",
       "sourceUrl": "https://starglow.tokyo/news/live/976/",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_gate3_2027_951f1e69",
+      "artistId": "starglow",
+      "title": "STARGLOW 1st Arena Tour 2027 Aurora - The Dawn -",
+      "startDate": "2027-01-16T00:00:00+09:00",
+      "endDate": "2027-04-11T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://starglow.tokyo/special/tour2027aurora/",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "SS指定席（アップグレード）",
+          "amount": 18000
+        },
+        {
+          "label": "一般指定席",
+          "amount": 13000
+        },
+        {
+          "label": "着席指定席",
+          "amount": 13000
+        }
+      ]
     }
   ],
   "performances": [
@@ -478,6 +502,174 @@
       "source": "system",
       "sourceUrl": "https://fest-inazuma.com/about/",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_gate3_2027_951f1e69_20270116_01",
+      "tourId": "starglow_gate3_2027_951f1e69",
+      "venue": "朱鷺メッセ",
+      "performanceAt": "2027-01-16T18:00:00+09:00",
+      "doorOpenAt": "2027-01-16T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starglow.tokyo/special/tour2027aurora/",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_gate3_2027_951f1e69_20270117_02",
+      "tourId": "starglow_gate3_2027_951f1e69",
+      "venue": "朱鷺メッセ",
+      "performanceAt": "2027-01-17T16:00:00+09:00",
+      "doorOpenAt": "2027-01-17T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starglow.tokyo/special/tour2027aurora/",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_gate3_2027_951f1e69_20270130_03",
+      "tourId": "starglow_gate3_2027_951f1e69",
+      "venue": "AICHI SKY EXPO HALL A",
+      "performanceAt": "2027-01-30T17:00:00+09:00",
+      "doorOpenAt": "2027-01-30T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starglow.tokyo/special/tour2027aurora/",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_gate3_2027_951f1e69_20270131_04",
+      "tourId": "starglow_gate3_2027_951f1e69",
+      "venue": "AICHI SKY EXPO HALL A",
+      "performanceAt": "2027-01-31T16:00:00+09:00",
+      "doorOpenAt": "2027-01-31T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starglow.tokyo/special/tour2027aurora/",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_gate3_2027_951f1e69_20270206_05",
+      "tourId": "starglow_gate3_2027_951f1e69",
+      "venue": "マリンメッセ福岡 B館",
+      "performanceAt": "2027-02-06T17:00:00+09:00",
+      "doorOpenAt": "2027-02-06T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starglow.tokyo/special/tour2027aurora/",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_gate3_2027_951f1e69_20270207_06",
+      "tourId": "starglow_gate3_2027_951f1e69",
+      "venue": "マリンメッセ福岡 B館",
+      "performanceAt": "2027-02-07T16:00:00+09:00",
+      "doorOpenAt": "2027-02-07T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starglow.tokyo/special/tour2027aurora/",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_gate3_2027_951f1e69_20270227_07",
+      "tourId": "starglow_gate3_2027_951f1e69",
+      "venue": "北海きたえーる",
+      "performanceAt": "2027-02-27T17:00:00+09:00",
+      "doorOpenAt": "2027-02-27T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starglow.tokyo/special/tour2027aurora/",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_gate3_2027_951f1e69_20270228_08",
+      "tourId": "starglow_gate3_2027_951f1e69",
+      "venue": "北海きたえーる",
+      "performanceAt": "2027-02-28T16:00:00+09:00",
+      "doorOpenAt": "2027-02-28T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starglow.tokyo/special/tour2027aurora/",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_gate3_2027_951f1e69_20270313_09",
+      "tourId": "starglow_gate3_2027_951f1e69",
+      "venue": "広島グリーンアリーナ",
+      "performanceAt": "2027-03-13T17:00:00+09:00",
+      "doorOpenAt": "2027-03-13T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starglow.tokyo/special/tour2027aurora/",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_gate3_2027_951f1e69_20270314_10",
+      "tourId": "starglow_gate3_2027_951f1e69",
+      "venue": "広島グリーンアリーナ",
+      "performanceAt": "2027-03-14T16:00:00+09:00",
+      "doorOpenAt": "2027-03-14T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starglow.tokyo/special/tour2027aurora/",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_gate3_2027_951f1e69_20270327_11",
+      "tourId": "starglow_gate3_2027_951f1e69",
+      "venue": "GLION ARENA KOBE",
+      "performanceAt": "2027-03-27T16:00:00+09:00",
+      "doorOpenAt": "2027-03-27T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starglow.tokyo/special/tour2027aurora/",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_gate3_2027_951f1e69_20270328_12",
+      "tourId": "starglow_gate3_2027_951f1e69",
+      "venue": "GLION ARENA KOBE",
+      "performanceAt": "2027-03-28T16:00:00+09:00",
+      "doorOpenAt": "2027-03-28T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starglow.tokyo/special/tour2027aurora/",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_gate3_2027_951f1e69_20270410_13",
+      "tourId": "starglow_gate3_2027_951f1e69",
+      "venue": "有明アリーナ",
+      "performanceAt": "2027-04-10T17:00:00+09:00",
+      "doorOpenAt": "2027-04-10T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starglow.tokyo/special/tour2027aurora/",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_gate3_2027_951f1e69_20270411_14",
+      "tourId": "starglow_gate3_2027_951f1e69",
+      "venue": "有明アリーナ",
+      "performanceAt": "2027-04-11T16:00:00+09:00",
+      "doorOpenAt": "2027-04-11T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starglow.tokyo/special/tour2027aurora/",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -516,6 +708,124 @@
       "source": "system",
       "sourceUrl": "https://starglow.tokyo/news/live/1327/",
       "lastVerifiedAt": "2026-08-10T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_gate3_2027_951f1e69_gate3_08ba055d",
+      "tourId": "starglow_gate3_2027_951f1e69",
+      "type": "STARGLOW Official Fan Club「STARS」会員 最速先行（2026/09/22開始・開始時刻未公表）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-10-04T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "starglow_gate3_2027_951f1e69_20270116_01",
+        "starglow_gate3_2027_951f1e69_20270117_02",
+        "starglow_gate3_2027_951f1e69_20270130_03",
+        "starglow_gate3_2027_951f1e69_20270131_04",
+        "starglow_gate3_2027_951f1e69_20270206_05",
+        "starglow_gate3_2027_951f1e69_20270207_06",
+        "starglow_gate3_2027_951f1e69_20270227_07",
+        "starglow_gate3_2027_951f1e69_20270228_08",
+        "starglow_gate3_2027_951f1e69_20270313_09",
+        "starglow_gate3_2027_951f1e69_20270314_10",
+        "starglow_gate3_2027_951f1e69_20270327_11",
+        "starglow_gate3_2027_951f1e69_20270328_12",
+        "starglow_gate3_2027_951f1e69_20270410_13",
+        "starglow_gate3_2027_951f1e69_20270411_14"
+      ],
+      "source": "system",
+      "sourceUrl": "https://starglow.tokyo/special/tour2027aurora/",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00",
+      "note": "公式は2026-09-22開始を明記するが開始時刻は未公表。DevではentryStartAt=nullで保持し、開始日は受付名とsourceで明示する。"
+    },
+    {
+      "id": "starglow_gate3_2027_951f1e69_gate3_b50e64e3",
+      "tourId": "starglow_gate3_2027_951f1e69",
+      "type": "B-Town〈Architect〉会員 最速先行（2026/09/22開始・開始時刻未公表）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-10-04T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "starglow_gate3_2027_951f1e69_20270116_01",
+        "starglow_gate3_2027_951f1e69_20270117_02",
+        "starglow_gate3_2027_951f1e69_20270130_03",
+        "starglow_gate3_2027_951f1e69_20270131_04",
+        "starglow_gate3_2027_951f1e69_20270206_05",
+        "starglow_gate3_2027_951f1e69_20270207_06",
+        "starglow_gate3_2027_951f1e69_20270227_07",
+        "starglow_gate3_2027_951f1e69_20270228_08",
+        "starglow_gate3_2027_951f1e69_20270313_09",
+        "starglow_gate3_2027_951f1e69_20270314_10",
+        "starglow_gate3_2027_951f1e69_20270327_11",
+        "starglow_gate3_2027_951f1e69_20270328_12",
+        "starglow_gate3_2027_951f1e69_20270410_13",
+        "starglow_gate3_2027_951f1e69_20270411_14"
+      ],
+      "source": "system",
+      "sourceUrl": "https://starglow.tokyo/special/tour2027aurora/",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00",
+      "note": "公式は2026-09-22開始を明記するが開始時刻は未公表。DevではentryStartAt=nullで保持し、開始日は受付名とsourceで明示する。"
+    },
+    {
+      "id": "starglow_gate3_2027_951f1e69_gate3_0a585c32",
+      "tourId": "starglow_gate3_2027_951f1e69",
+      "type": "B-Town〈Resident〉会員先行",
+      "entryStartAt": "2026-10-10T12:00:00+09:00",
+      "entryEndAt": "2026-10-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "starglow_gate3_2027_951f1e69_20270116_01",
+        "starglow_gate3_2027_951f1e69_20270117_02",
+        "starglow_gate3_2027_951f1e69_20270130_03",
+        "starglow_gate3_2027_951f1e69_20270131_04",
+        "starglow_gate3_2027_951f1e69_20270206_05",
+        "starglow_gate3_2027_951f1e69_20270207_06",
+        "starglow_gate3_2027_951f1e69_20270227_07",
+        "starglow_gate3_2027_951f1e69_20270228_08",
+        "starglow_gate3_2027_951f1e69_20270313_09",
+        "starglow_gate3_2027_951f1e69_20270314_10",
+        "starglow_gate3_2027_951f1e69_20270327_11",
+        "starglow_gate3_2027_951f1e69_20270328_12",
+        "starglow_gate3_2027_951f1e69_20270410_13",
+        "starglow_gate3_2027_951f1e69_20270411_14"
+      ],
+      "source": "system",
+      "sourceUrl": "https://starglow.tokyo/special/tour2027aurora/",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_gate3_2027_951f1e69_gate3_9274420e",
+      "tourId": "starglow_gate3_2027_951f1e69",
+      "type": "ローソンチケット先行",
+      "entryStartAt": "2026-10-23T15:00:00+09:00",
+      "entryEndAt": "2026-11-01T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "starglow_gate3_2027_951f1e69_20270116_01",
+        "starglow_gate3_2027_951f1e69_20270117_02",
+        "starglow_gate3_2027_951f1e69_20270130_03",
+        "starglow_gate3_2027_951f1e69_20270131_04",
+        "starglow_gate3_2027_951f1e69_20270206_05",
+        "starglow_gate3_2027_951f1e69_20270207_06",
+        "starglow_gate3_2027_951f1e69_20270227_07",
+        "starglow_gate3_2027_951f1e69_20270228_08",
+        "starglow_gate3_2027_951f1e69_20270313_09",
+        "starglow_gate3_2027_951f1e69_20270314_10",
+        "starglow_gate3_2027_951f1e69_20270327_11",
+        "starglow_gate3_2027_951f1e69_20270328_12",
+        "starglow_gate3_2027_951f1e69_20270410_13",
+        "starglow_gate3_2027_951f1e69_20270411_14"
+      ],
+      "source": "system",
+      "sourceUrl": "https://starglow.tokyo/special/tour2027aurora/",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

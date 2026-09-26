@@ -438,6 +438,40 @@
       "source": "system",
       "sourceUrl": "https://www.le-sserafim.jp/news/34281e5b5c57",
       "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_pureflow_kyocera_2026_gate3_d4ca1bac",
+      "tourId": "le_sserafim_pureflow_kyocera_2026",
+      "type": "FEARNOT Membership (JP)会員2次先行抽選",
+      "entryStartAt": "2026-09-18T17:00:00+09:00",
+      "entryEndAt": "2026-09-24T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "le_sserafim_pureflow_kyocera_2026_1219",
+        "le_sserafim_pureflow_kyocera_2026_1220"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/news?categoryId=254",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_pureflow_kyocera_2026_gate3_fe76d166",
+      "tourId": "le_sserafim_pureflow_kyocera_2026",
+      "type": "ローチケLEncoreカード会員抽選先行・プレリクエスト抽選先行",
+      "entryStartAt": "2026-09-25T17:00:00+09:00",
+      "entryEndAt": "2026-10-05T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "le_sserafim_pureflow_kyocera_2026_1219",
+        "le_sserafim_pureflow_kyocera_2026_1220"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/news/c3c8ff82cde6",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

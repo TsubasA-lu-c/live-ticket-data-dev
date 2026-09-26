@@ -175,6 +175,16 @@
       "source": "system",
       "sourceUrl": "https://macaroniempitsu.com/live/21076.html",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "macaroni_empitsu_gate3_2026_f33230c0",
+      "artistId": "macaroni_empitsu",
+      "title": "結びの夢番地2026 supported by みろくの里",
+      "startDate": "2026-12-12T00:00:00+09:00",
+      "endDate": "2026-12-12T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/news/21116.html",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -465,6 +475,18 @@
       "source": "system",
       "sourceUrl": "https://macaroniempitsu.com/live/21076.html",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "macaroni_empitsu_gate3_2026_f33230c0_20261212_01",
+      "tourId": "macaroni_empitsu_gate3_2026_f33230c0",
+      "venue": "広島県立ふくやま産業交流館 ビッグ・ローズ",
+      "performanceAt": "2026-12-12T11:30:00+09:00",
+      "doorOpenAt": "2026-12-12T10:45:00+09:00",
+      "kind": "fes",
+      "eventName": "結びの夢番地2026 supported by みろくの里",
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/news/21116.html",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -603,6 +625,226 @@
       "source": "system",
       "sourceUrl": "https://fc.macaroniempitsu.com/news/detail/100176",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "macaroni_empitsu_gate3_2026_f33230c0_gate3_9c809356",
+      "tourId": "macaroni_empitsu_gate3_2026_f33230c0",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-09-26T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "macaroni_empitsu_gate3_2026_f33230c0_20261212_01"
+      ],
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/news/21116.html",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "macaroni_empitsu_vol22_2026_gate3_d5b96ec8",
+      "tourId": "macaroni_empitsu_vol22_2026",
+      "type": "大阪公演追加販売（先着）",
+      "entryStartAt": "2026-09-20T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "macaroni_empitsu_vol22_2026_osaka_1003",
+        "macaroni_empitsu_vol22_2026_osaka_1004"
+      ],
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/news",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "macaroni_empitsu_vol22_2026_gate3_454fa6ef",
+      "tourId": "macaroni_empitsu_vol22_2026",
+      "type": "公式チケットトレード",
+      "entryStartAt": "2026-09-23T12:00:00+09:00",
+      "entryEndAt": "2026-10-02T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "macaroni_empitsu_vol22_2026_osaka_1003"
+      ],
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/news",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00",
+      "note": "apply時に既存Performance日付から決定論的にentryStartAt/entryEndAtを算出する。"
+    },
+    {
+      "id": "macaroni_empitsu_vol22_2026_gate3_1383faff",
+      "tourId": "macaroni_empitsu_vol22_2026",
+      "type": "公式チケットトレード",
+      "entryStartAt": "2026-09-24T12:00:00+09:00",
+      "entryEndAt": "2026-10-03T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "macaroni_empitsu_vol22_2026_osaka_1004"
+      ],
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/news",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00",
+      "note": "apply時に既存Performance日付から決定論的にentryStartAt/entryEndAtを算出する。"
+    },
+    {
+      "id": "macaroni_empitsu_vol22_2026_gate3_150e7f4a",
+      "tourId": "macaroni_empitsu_vol22_2026",
+      "type": "公式チケットトレード",
+      "entryStartAt": "2026-10-14T12:00:00+09:00",
+      "entryEndAt": "2026-10-23T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "macaroni_empitsu_vol22_2026_fukuoka_1024"
+      ],
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/news",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00",
+      "note": "apply時に既存Performance日付から決定論的にentryStartAt/entryEndAtを算出する。"
+    },
+    {
+      "id": "macaroni_empitsu_vol22_2026_gate3_d01d991c",
+      "tourId": "macaroni_empitsu_vol22_2026",
+      "type": "公式チケットトレード",
+      "entryStartAt": "2026-10-15T12:00:00+09:00",
+      "entryEndAt": "2026-10-24T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "macaroni_empitsu_vol22_2026_fukuoka_1025"
+      ],
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/news",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00",
+      "note": "apply時に既存Performance日付から決定論的にentryStartAt/entryEndAtを算出する。"
+    },
+    {
+      "id": "macaroni_empitsu_vol22_2026_gate3_7b5801c0",
+      "tourId": "macaroni_empitsu_vol22_2026",
+      "type": "公式チケットトレード",
+      "entryStartAt": "2026-10-21T12:00:00+09:00",
+      "entryEndAt": "2026-10-30T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "macaroni_empitsu_vol22_2026_hokkaido_1031"
+      ],
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/news",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00",
+      "note": "apply時に既存Performance日付から決定論的にentryStartAt/entryEndAtを算出する。"
+    },
+    {
+      "id": "macaroni_empitsu_vol22_2026_gate3_2393db9c",
+      "tourId": "macaroni_empitsu_vol22_2026",
+      "type": "公式チケットトレード",
+      "entryStartAt": "2026-10-24T12:00:00+09:00",
+      "entryEndAt": "2026-11-02T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "macaroni_empitsu_vol22_2026_tokyo_1103"
+      ],
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/news",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00",
+      "note": "apply時に既存Performance日付から決定論的にentryStartAt/entryEndAtを算出する。"
+    },
+    {
+      "id": "macaroni_empitsu_vol22_2026_gate3_1faa3cea",
+      "tourId": "macaroni_empitsu_vol22_2026",
+      "type": "公式チケットトレード",
+      "entryStartAt": "2026-11-11T12:00:00+09:00",
+      "entryEndAt": "2026-11-20T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "macaroni_empitsu_vol22_2026_miyagi_1121"
+      ],
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/news",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00",
+      "note": "apply時に既存Performance日付から決定論的にentryStartAt/entryEndAtを算出する。"
+    },
+    {
+      "id": "macaroni_empitsu_vol22_2026_gate3_e029152b",
+      "tourId": "macaroni_empitsu_vol22_2026",
+      "type": "公式チケットトレード",
+      "entryStartAt": "2026-11-19T12:00:00+09:00",
+      "entryEndAt": "2026-11-28T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "macaroni_empitsu_vol22_2026_hyogo_1129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/news",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00",
+      "note": "apply時に既存Performance日付から決定論的にentryStartAt/entryEndAtを算出する。"
+    },
+    {
+      "id": "macaroni_empitsu_vol22_2026_gate3_2b45e0bf",
+      "tourId": "macaroni_empitsu_vol22_2026",
+      "type": "公式チケットトレード",
+      "entryStartAt": "2026-11-25T12:00:00+09:00",
+      "entryEndAt": "2026-12-04T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "macaroni_empitsu_vol22_2026_tokyo_1205"
+      ],
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/news",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00",
+      "note": "apply時に既存Performance日付から決定論的にentryStartAt/entryEndAtを算出する。"
+    },
+    {
+      "id": "macaroni_empitsu_vol22_2026_gate3_de1fc7df",
+      "tourId": "macaroni_empitsu_vol22_2026",
+      "type": "公式チケットトレード",
+      "entryStartAt": "2026-11-26T12:00:00+09:00",
+      "entryEndAt": "2026-12-05T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "macaroni_empitsu_vol22_2026_tokyo_1206"
+      ],
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/news",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00",
+      "note": "apply時に既存Performance日付から決定論的にentryStartAt/entryEndAtを算出する。"
+    },
+    {
+      "id": "macaroni_empitsu_vol22_2026_gate3_c93c6737",
+      "tourId": "macaroni_empitsu_vol22_2026",
+      "type": "公式チケットトレード",
+      "entryStartAt": "2026-12-16T12:00:00+09:00",
+      "entryEndAt": "2026-12-25T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "macaroni_empitsu_vol22_2026_aichi_1226"
+      ],
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/news",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00",
+      "note": "apply時に既存Performance日付から決定論的にentryStartAt/entryEndAtを算出する。"
     }
   ],
   "appleMusicTracks": [

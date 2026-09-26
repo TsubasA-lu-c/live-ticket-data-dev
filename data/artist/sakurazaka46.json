@@ -298,8 +298,9 @@
       "kind": "fes",
       "eventName": "ROCK IN JAPAN FESTIVAL 2026",
       "source": "system",
-      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00650",
-      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/list?cd=event&ima=0000",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00",
+      "eventStatus": "cancelled"
     },
     {
       "id": "sakurazaka46_music_expo_taipei_2026_1025",
@@ -720,11 +721,12 @@
       "paymentStartAt": null,
       "paymentEndAt": null,
       "performanceIds": [
+        "sakurazaka46_6th_anniversary_2026_chiba_1114",
         "sakurazaka46_6th_anniversary_2026_chiba_1115"
       ],
       "source": "system",
-      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00665?ima=0000",
-      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+      "sourceUrl": "https://sakurazaka46.com/s/s46/page/6th_anniversary",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     },
     {
       "id": "sakurazaka46_6th_anniv_lawson_presale_1010",
@@ -736,11 +738,12 @@
       "paymentStartAt": null,
       "paymentEndAt": null,
       "performanceIds": [
+        "sakurazaka46_6th_anniversary_2026_chiba_1114",
         "sakurazaka46_6th_anniversary_2026_chiba_1115"
       ],
       "source": "system",
-      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00665?ima=0000",
-      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+      "sourceUrl": "https://sakurazaka46.com/s/s46/page/6th_anniversary",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     },
     {
       "id": "sakurazaka46_6th_anniv_aeon_presale_1022",
@@ -752,11 +755,12 @@
       "paymentStartAt": null,
       "paymentEndAt": null,
       "performanceIds": [
+        "sakurazaka46_6th_anniversary_2026_chiba_1114",
         "sakurazaka46_6th_anniversary_2026_chiba_1115"
       ],
       "source": "system",
-      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00665?ima=0000",
-      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+      "sourceUrl": "https://sakurazaka46.com/s/s46/page/6th_anniversary",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     },
     {
       "id": "sakurazaka46_6th_anniv_general_1031",
@@ -768,11 +772,44 @@
       "paymentStartAt": null,
       "paymentEndAt": null,
       "performanceIds": [
+        "sakurazaka46_6th_anniversary_2026_chiba_1114",
         "sakurazaka46_6th_anniversary_2026_chiba_1115"
       ],
       "source": "system",
-      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00665?ima=0000",
-      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+      "sourceUrl": "https://sakurazaka46.com/s/s46/page/6th_anniversary",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_backslive_15th_2026_gate3_9e9e7a2f",
+      "tourId": "sakurazaka46_backslive_15th_2026",
+      "type": "公式チケット・トレード（9/29公演）",
+      "entryStartAt": "2026-09-22T18:00:00+09:00",
+      "entryEndAt": "2026-09-28T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sakurazaka46_backslive_15th_2026_tokyo_0929"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00686?ima=0000",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_backslive_15th_2026_gate3_d9a3c8f6",
+      "tourId": "sakurazaka46_backslive_15th_2026",
+      "type": "公式チケット・トレード（9/30公演）",
+      "entryStartAt": "2026-09-22T18:00:00+09:00",
+      "entryEndAt": "2026-09-29T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sakurazaka46_backslive_15th_2026_tokyo_0930"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00686?ima=0000",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

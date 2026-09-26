@@ -1559,6 +1559,36 @@
       "source": "system",
       "sourceUrl": "https://www.bea-net.com/liveinformation/artist/2607ikimonogakari.html",
       "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_gate3_812c8031",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "一般発売（第二弾発表公演・先着）",
+      "entryStartAt": "2026-09-26T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_niigata_1115",
+        "ikimonogakari_angyar_2026_wakayama_1123",
+        "ikimonogakari_angyar_2026_sendai_0207",
+        "ikimonogakari_angyar_2026_fukui_0227",
+        "ikimonogakari_angyar_2026_toyama_0228",
+        "ikimonogakari_angyar_2026_nara_0306",
+        "ikimonogakari_angyar_2026_kyoto_0307",
+        "ikimonogakari_angyar_2026_aichi1_0320",
+        "ikimonogakari_angyar_2026_aichi2_0321",
+        "ikimonogakari_angyar_2026_okinawa_0327",
+        "ikimonogakari_angyar_2026_ishikawa_0403",
+        "ikimonogakari_angyar_2026_nagano_0404",
+        "ikimonogakari_angyar_2026_tokyo_0410",
+        "ikimonogakari_angyar_2026_tochigi_0424",
+        "ikimonogakari_angyar_2026_saitama_0425"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/news/live/20260925-1",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
