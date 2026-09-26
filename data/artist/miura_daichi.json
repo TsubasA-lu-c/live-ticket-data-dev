@@ -6,7 +6,7 @@
       "artistId": "miura_daichi",
       "title": "DAICHI MIURA LIVE TOUR 2026 Raw / Bare",
       "startDate": "2026-09-12T00:00:00+09:00",
-      "endDate": "2026-12-20T00:00:00+09:00",
+      "endDate": "2027-03-18T00:00:00+09:00",
       "prices": [
         {
           "label": "全席指定",
@@ -18,8 +18,8 @@
         }
       ],
       "source": "system",
-      "sourceUrl": "https://daichi-miura.jp/news/detail/913",
-      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1108",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     },
     {
       "id": "miura_daichi_premium_listening_event_2026",
@@ -73,6 +73,16 @@
       "source": "system",
       "sourceUrl": "https://daichi-miura.jp/news/detail/942",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_gate3_2027_54289bf1",
+      "artistId": "miura_daichi",
+      "title": "超英雄祭 ALL HEROES LIVE & SHOW 2027",
+      "startDate": "2027-01-21T00:00:00+09:00",
+      "endDate": "2027-01-21T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1120",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -399,6 +409,90 @@
       "source": "system",
       "sourceUrl": "https://daichi-miura.jp/news/detail/942",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_hiroshima_0124",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "venue": "上野学園ホール",
+      "performanceAt": "2027-01-24T17:30:00+09:00",
+      "doorOpenAt": "2027-01-24T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1108",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_kyoto_0126",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "venue": "ロームシアター京都",
+      "performanceAt": "2027-01-26T18:30:00+09:00",
+      "doorOpenAt": "2027-01-26T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1108",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_sapporo_0210",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "venue": "カナモトホール（札幌市民ホール）",
+      "performanceAt": "2027-02-10T18:30:00+09:00",
+      "doorOpenAt": "2027-02-10T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1108",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_sapporo_0211",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "venue": "カナモトホール（札幌市民ホール）",
+      "performanceAt": "2027-02-11T16:00:00+09:00",
+      "doorOpenAt": "2027-02-11T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1108",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_kanazawa_0221",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "venue": "金沢歌劇座",
+      "performanceAt": "2027-02-21T17:30:00+09:00",
+      "doorOpenAt": "2027-02-21T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1108",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_tokyo_garden_0318",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "venue": "東京ガーデンシアター",
+      "performanceAt": "2027-03-18T18:30:00+09:00",
+      "doorOpenAt": "2027-03-18T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1108",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_gate3_2027_54289bf1_20270121_01",
+      "tourId": "miura_daichi_gate3_2027_54289bf1",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2027-01-21T18:30:00+09:00",
+      "doorOpenAt": "2027-01-21T17:30:00+09:00",
+      "kind": "fes",
+      "eventName": "超英雄祭 ALL HEROES LIVE & SHOW 2027",
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1120",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1708,6 +1802,28 @@
       "source": "system",
       "sourceUrl": "https://daichi-miura.jp/news/detail/1096",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_gate3_c822d7ba",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "追加公演 FC先行（2026/09/25開始・開始時刻未公表）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-10-06T23:59:00+09:00",
+      "resultAt": "2026-10-09T18:00:00+09:00",
+      "paymentStartAt": "2026-10-09T18:00:00+09:00",
+      "paymentEndAt": "2026-10-12T23:00:00+09:00",
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_hiroshima_0124",
+        "miura_daichi_raw_bare_2026_kyoto_0126",
+        "miura_daichi_raw_bare_2026_sapporo_0210",
+        "miura_daichi_raw_bare_2026_sapporo_0211",
+        "miura_daichi_raw_bare_2026_kanazawa_0221",
+        "miura_daichi_raw_bare_2026_tokyo_garden_0318"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1107",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00",
+      "note": "公式は2026-09-25開始を明記するが開始時刻は未公表。DevではentryStartAt=nullで保持し、開始日は受付名とsourceで明示する。"
     }
   ],
   "appleMusicTracks": [
