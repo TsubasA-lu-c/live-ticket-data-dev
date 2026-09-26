@@ -704,6 +704,125 @@
       "source": "system",
       "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00878?ima=0000",
       "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_18th_hinatazaka_live_2026_gate3_2eed6911",
+      "tourId": "hinatazaka46_18th_hinatazaka_live_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-09-19T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hinatazaka46_18th_hinatazaka_live_2026_1006",
+        "hinatazaka46_18th_hinatazaka_live_2026_1007"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00917?ima=0000",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_hinakuri_2026_gate3_f37fbdea",
+      "tourId": "hinatazaka46_hinakuri_2026",
+      "type": "オフィシャル先行",
+      "entryStartAt": "2026-10-05T12:00:00+09:00",
+      "entryEndAt": "2026-10-12T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hinatazaka46_hinakuri_2026_kobe_1121",
+        "hinatazaka46_hinakuri_2026_kobe_1122",
+        "hinatazaka46_hinakuri_2026_kobe_1123",
+        "hinatazaka46_hinakuri_2026_yoyogi_1209",
+        "hinatazaka46_hinakuri_2026_yoyogi_1210",
+        "hinatazaka46_hinakuri_2026_yoyogi_1211",
+        "hinatazaka46_hinakuri_2026_nagoya_1222",
+        "hinatazaka46_hinakuri_2026_nagoya_1223",
+        "hinatazaka46_hinakuri_2026_nagoya_1224"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/s/official/page/hinachri2026",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_hinakuri_2026_gate3_a3f9d732",
+      "tourId": "hinatazaka46_hinakuri_2026",
+      "type": "ローソンチケット先行",
+      "entryStartAt": "2026-10-16T12:00:00+09:00",
+      "entryEndAt": "2026-10-26T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hinatazaka46_hinakuri_2026_kobe_1121",
+        "hinatazaka46_hinakuri_2026_kobe_1122",
+        "hinatazaka46_hinakuri_2026_kobe_1123",
+        "hinatazaka46_hinakuri_2026_yoyogi_1209",
+        "hinatazaka46_hinakuri_2026_yoyogi_1210",
+        "hinatazaka46_hinakuri_2026_yoyogi_1211",
+        "hinatazaka46_hinakuri_2026_nagoya_1222",
+        "hinatazaka46_hinakuri_2026_nagoya_1223",
+        "hinatazaka46_hinakuri_2026_nagoya_1224"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/s/official/page/hinachri2026",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_hinakuri_2026_gate3_dd7a4bf7",
+      "tourId": "hinatazaka46_hinakuri_2026",
+      "type": "一般販売（兵庫公演）",
+      "entryStartAt": "2026-11-07T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hinatazaka46_hinakuri_2026_kobe_1121",
+        "hinatazaka46_hinakuri_2026_kobe_1122",
+        "hinatazaka46_hinakuri_2026_kobe_1123"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/s/official/page/hinachri2026",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_hinakuri_2026_gate3_c2e391f8",
+      "tourId": "hinatazaka46_hinakuri_2026",
+      "type": "一般販売（東京公演）",
+      "entryStartAt": "2026-11-14T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hinatazaka46_hinakuri_2026_yoyogi_1209",
+        "hinatazaka46_hinakuri_2026_yoyogi_1210",
+        "hinatazaka46_hinakuri_2026_yoyogi_1211"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/s/official/page/hinachri2026",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_hinakuri_2026_gate3_a15eb2d6",
+      "tourId": "hinatazaka46_hinakuri_2026",
+      "type": "一般販売（愛知公演）",
+      "entryStartAt": "2026-11-28T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hinatazaka46_hinakuri_2026_nagoya_1222",
+        "hinatazaka46_hinakuri_2026_nagoya_1223",
+        "hinatazaka46_hinakuri_2026_nagoya_1224"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/s/official/page/hinachri2026",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
