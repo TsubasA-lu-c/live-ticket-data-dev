@@ -1243,8 +1243,9 @@
       "kind": "oneman",
       "eventName": "ショーケース限定アフターパーティー",
       "source": "system",
-      "sourceUrl": "https://www.andteam-official.jp/news/42fe69a5e5ea",
-      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+      "sourceUrl": "https://www.andteam-official.jp/news/1792d197be29",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00",
+      "eventStatus": "cancelled"
     }
   ],
   "lotteries": [
@@ -1607,6 +1608,20 @@
       "source": "system",
       "sourceUrl": "https://www.andteam-official.jp/news/6b68bd3f3336",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_mark_on_you_2026_2027_gate3_a97ba6f9",
+      "tourId": "and_team_mark_on_you_2026_2027",
+      "type": "LUNÉ Membership会員 プレミアムシートアップグレード抽選受付",
+      "entryStartAt": "2026-09-25T13:00:00+09:00",
+      "entryEndAt": "2026-09-28T23:59:00+09:00",
+      "resultAt": "2026-10-03T11:00:00+09:00",
+      "paymentStartAt": "2026-10-03T11:00:00+09:00",
+      "paymentEndAt": "2026-10-04T23:00:00+09:00",
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/b9254142a9c6",
+      "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
