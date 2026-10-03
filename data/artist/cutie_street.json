@@ -1258,7 +1258,8 @@
       "eventName": "CUTIE STREET 佐野愛花 生誕祭 2026",
       "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/90590",
       "source": "system",
-      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "cutie_street_sano_aika_birthday_2026"
     },
     {
       "id": "cutie_street_hiroshima_continew_fes_2026_1205",
@@ -1270,7 +1271,8 @@
       "eventName": "HIROSHIMA CONTI-NeW FeS 2026",
       "sourceUrl": "https://cutiestreet.asobisystem.com/live_information/detail/42404",
       "source": "system",
-      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "cutie_street_hiroshima_continew_fes_2026"
     }
   ],
   "lotteries": [
@@ -1613,7 +1615,8 @@
       ],
       "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/88521",
       "source": "system",
-      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "cutie_street_sano_aika_birthday_2026"
     },
     {
       "id": "cutie_street_sano_aika_birthday_2026_paid_fc",
@@ -1628,7 +1631,8 @@
       ],
       "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/90590",
       "source": "system",
-      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "cutie_street_sano_aika_birthday_2026"
     },
     {
       "id": "cutie_street_hiroshima_continew_fes_2026_official_1st",
@@ -1643,7 +1647,8 @@
       ],
       "sourceUrl": "https://eplus.jp/hiroshima-continew/",
       "source": "system",
-      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "cutie_street_hiroshima_continew_fes_2026"
     },
     {
       "id": "cutie_street_hiroshima_continew_fes_2026_official_2nd",
@@ -1658,7 +1663,8 @@
       ],
       "sourceUrl": "https://eplus.jp/hiroshima-continew/",
       "source": "system",
-      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "cutie_street_hiroshima_continew_fes_2026"
     },
     {
       "id": "cutie_street_hiroshima_continew_fes_2026_official_3rd",
@@ -1673,7 +1679,8 @@
       ],
       "sourceUrl": "https://eplus.jp/hiroshima-continew/",
       "source": "system",
-      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "cutie_street_hiroshima_continew_fes_2026"
     },
     {
       "id": "cutie_street_japan_arena_tour_2026_autumn_playguide_fastest",
