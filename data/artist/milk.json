@@ -1610,6 +1610,42 @@
       "source": "system",
       "sourceUrl": "https://sd-milk.com/contents/1112760",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "milk_shakariki_revolution_2026_miyagi_machine_release",
+      "tourId": "milk_shakariki_revolution_2026",
+      "type": "PREMIUM MILK会員限定 機材席開放販売（抽選）",
+      "entryStartAt": "2026-10-03T12:00:00+09:00",
+      "entryEndAt": "2026-10-05T23:59:00+09:00",
+      "resultAt": "2026-10-10T14:00:00+09:00",
+      "paymentStartAt": "2026-10-10T14:00:00+09:00",
+      "paymentEndAt": "2026-10-10T14:00:00+09:00",
+      "performanceIds": [
+        "milk_shakariki_revolution_2026_miyagi_1024",
+        "milk_shakariki_revolution_2026_miyagi_1025a",
+        "milk_shakariki_revolution_2026_miyagi_1025b"
+      ],
+      "sourceUrl": "https://sd-milk.com/contents/1115594",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "milk_shakariki_revolution_2026_miyagi_ebidan_ticket_chance_resale",
+      "tourId": "milk_shakariki_revolution_2026",
+      "type": "EBiDAN TICKET CHANCE（ローチケリセール・1回抽選型）",
+      "entryStartAt": "2026-10-16T18:00:00+09:00",
+      "entryEndAt": "2026-10-18T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_shakariki_revolution_2026_miyagi_1024",
+        "milk_shakariki_revolution_2026_miyagi_1025a",
+        "milk_shakariki_revolution_2026_miyagi_1025b"
+      ],
+      "sourceUrl": "https://sd-milk.com/contents/1115594",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
