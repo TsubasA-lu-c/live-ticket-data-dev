@@ -223,6 +223,22 @@
       "source": "system",
       "sourceUrl": "https://not-equal-me.jp/news/detail/7758",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "not_equal_me_tgc_toyama_2026",
+      "title": "SBI GROUP presents TGC TOYAMA 2026 by TOKYO GIRLS COLLECTION",
+      "startDate": "2026-11-21T00:00:00+09:00",
+      "endDate": "2026-11-21T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "スタンド席 一般販売",
+          "amount": 10000
+        }
+      ],
+      "sourceUrl": "https://not-equal-me.jp/news/detail/7788",
+      "artistId": "not_equal_me",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -519,24 +535,24 @@
       "tourId": "not_equal_me_missione_2026",
       "venue": "KT Zepp YOKOHAMA",
       "performanceAt": "2026-11-22T14:30:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-11-22T13:30:00+09:00",
       "kind": "oneman",
       "eventName": "≠MissionE 公開収録＆ミニLIVE",
       "source": "system",
-      "sourceUrl": "https://not-equal-me.jp/",
-      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+      "sourceUrl": "https://not-equal-me.jp/news/detail/7702",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     },
     {
       "id": "not_equal_me_missione_2026_night",
       "tourId": "not_equal_me_missione_2026",
       "venue": "KT Zepp YOKOHAMA",
       "performanceAt": "2026-11-22T18:30:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-11-22T17:30:00+09:00",
       "kind": "oneman",
       "eventName": "≠MissionE 公開収録＆ミニLIVE",
       "source": "system",
-      "sourceUrl": "https://not-equal-me.jp/",
-      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+      "sourceUrl": "https://not-equal-me.jp/news/detail/7702",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     },
     {
       "id": "not_equal_me_kawanago_birthday_20260908_1",
@@ -555,48 +571,60 @@
       "tourId": "not_equal_me_tanizaki_birthday_20261028",
       "venue": "都内某所",
       "performanceAt": "2026-10-28T15:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-10-28T14:15:00+09:00",
       "kind": "oneman",
       "eventName": "谷崎 早耶 生誕祭",
       "source": "system",
-      "sourceUrl": "https://not-equal-me.jp/",
-      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+      "sourceUrl": "https://not-equal-me.jp/news/detail/7785",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     },
     {
       "id": "not_equal_me_kanisawa_birthday_20261028_1",
       "tourId": "not_equal_me_kanisawa_birthday_20261028",
       "venue": "都内某所",
       "performanceAt": "2026-10-28T17:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-10-28T16:15:00+09:00",
       "kind": "oneman",
       "eventName": "蟹沢 萌子 生誕祭",
       "source": "system",
-      "sourceUrl": "https://not-equal-me.jp/",
-      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+      "sourceUrl": "https://not-equal-me.jp/news/detail/7785",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     },
     {
       "id": "not_equal_me_special_performance_2026_keio_1107",
       "tourId": "not_equal_me_special_performance_2026",
       "venue": "京王アリーナTOKYO",
       "performanceAt": "2026-11-07T17:30:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-11-07T16:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://not-equal-me.jp/news/detail/7758",
-      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     },
     {
       "id": "not_equal_me_special_performance_2026_keio_1108",
       "tourId": "not_equal_me_special_performance_2026",
       "venue": "京王アリーナTOKYO",
       "performanceAt": "2026-11-08T16:30:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-11-08T15:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://not-equal-me.jp/news/detail/7758",
-      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "not_equal_me_tgc_toyama_2026_1121",
+      "performanceDate": "2026-11-21",
+      "performanceAt": "2026-11-21T14:00:00+09:00",
+      "doorOpenAt": "2026-11-21T12:30:00+09:00",
+      "venue": "YKK AP ARENA",
+      "kind": "fes",
+      "eventName": "SBI GROUP presents TGC TOYAMA 2026 by TOKYO GIRLS COLLECTION",
+      "sourceUrl": "https://not-equal-me.jp/news/detail/7788",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -685,7 +713,7 @@
       "tourId": "not_equal_me_missione_2026",
       "type": "FC先行",
       "entryStartAt": "2026-08-29T17:00:00+09:00",
-      "entryEndAt": null,
+      "entryEndAt": "2026-09-06T23:59:00+09:00",
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
@@ -694,8 +722,8 @@
         "not_equal_me_missione_2026_night"
       ],
       "source": "system",
-      "sourceUrl": "https://not-equal-me.jp/",
-      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+      "sourceUrl": "https://not-equal-me.jp/news/detail/7702",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     },
     {
       "id": "not_equal_me_kawanago_birthday_20260908_fc_2",
@@ -761,6 +789,70 @@
       "source": "system",
       "sourceUrl": "https://not-equal-me.jp/news/detail/7758",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "not_equal_me_tanizaki_birthday_20261028_fc_2nd",
+      "tourId": "not_equal_me_tanizaki_birthday_20261028",
+      "type": "FC限定チケット2次受付（抽選）",
+      "entryStartAt": "2026-10-01T16:00:00+09:00",
+      "entryEndAt": "2026-10-05T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "not_equal_me_tanizaki_birthday_20261028_1"
+      ],
+      "sourceUrl": "https://not-equal-me.jp/news/detail/7785",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "not_equal_me_kanisawa_birthday_20261028_fc_2nd",
+      "tourId": "not_equal_me_kanisawa_birthday_20261028",
+      "type": "FC限定チケット2次受付（抽選）",
+      "entryStartAt": "2026-10-01T16:00:00+09:00",
+      "entryEndAt": "2026-10-05T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "not_equal_me_kanisawa_birthday_20261028_1"
+      ],
+      "sourceUrl": "https://not-equal-me.jp/news/detail/7785",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "not_equal_me_missione_2026_official",
+      "tourId": "not_equal_me_missione_2026",
+      "type": "オフィシャル先行販売（抽選）",
+      "entryStartAt": "2026-09-09T17:00:00+09:00",
+      "entryEndAt": "2026-09-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "not_equal_me_missione_2026_day",
+        "not_equal_me_missione_2026_night"
+      ],
+      "sourceUrl": "https://not-equal-me.jp/news/detail/7702",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "not_equal_me_tgc_toyama_2026_general",
+      "type": "一般販売（先着）",
+      "entryStartAt": "2026-09-26T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "not_equal_me_tgc_toyama_2026_1121"
+      ],
+      "sourceUrl": "https://tgc.girlswalker.com/toyama/2026/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
