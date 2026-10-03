@@ -798,7 +798,8 @@
       "eventName": "マグロック&ポップ 2026",
       "sourceUrl": "https://magurockpop.com/",
       "source": "system",
-      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "mazzel_magurock_pop_2026"
     }
   ],
   "lotteries": [
@@ -979,7 +980,8 @@
       ],
       "sourceUrl": "https://magurockpop.com/ticket/",
       "source": "system",
-      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "mazzel_magurock_pop_2026"
     },
     {
       "id": "mazzel_fes_bmsg_2026_btown_architect",
