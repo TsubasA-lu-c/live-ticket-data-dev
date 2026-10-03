@@ -1824,6 +1824,24 @@
       "sourceUrl": "https://daichi-miura.jp/news/detail/1107",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00",
       "note": "公式は2026-09-25開始を明記するが開始時刻は未公表。DevではentryStartAt=nullで保持し、開始日は受付名とsourceで明示する。"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_general_1003",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "一般発売（先着・10/3発売分）",
+      "entryStartAt": "2026-10-03T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_matsudo_1024",
+        "miura_daichi_raw_bare_2026_sendai_1030",
+        "miura_daichi_raw_bare_2026_morioka_1031"
+      ],
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1054",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
