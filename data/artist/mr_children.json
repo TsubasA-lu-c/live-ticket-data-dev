@@ -985,6 +985,55 @@
       "source": "system",
       "sourceUrl": "https://tour.mrchildren.jp/",
       "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_final_osaka_1015",
+      "tourId": "mr_children_saturday_park_2026",
+      "type": "最終抽選（大阪振替公演 10/15）",
+      "entryStartAt": "2026-09-20T19:00:00+09:00",
+      "entryEndAt": "2026-10-06T23:59:00+09:00",
+      "resultAt": "2026-10-13T20:30:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mr_children_saturday_park_2026_osaka_1015"
+      ],
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_final_osaka_1014",
+      "tourId": "mr_children_saturday_park_2026",
+      "type": "最終抽選（大阪振替公演 10/14）",
+      "entryStartAt": "2026-09-28T18:00:00+09:00",
+      "entryEndAt": "2026-10-06T23:59:00+09:00",
+      "resultAt": "2026-10-13T20:30:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mr_children_saturday_park_2026_osaka_1014"
+      ],
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_final_shizuoka",
+      "tourId": "mr_children_saturday_park_2026",
+      "type": "最終抽選（静岡公演）",
+      "entryStartAt": "2026-10-02T19:00:00+09:00",
+      "entryEndAt": "2026-10-18T23:59:00+09:00",
+      "resultAt": "2026-10-23T20:30:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mr_children_saturday_park_2026_shizuoka_1024",
+        "mr_children_saturday_park_2026_shizuoka_1025"
+      ],
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
