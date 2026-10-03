@@ -767,6 +767,52 @@
       "source": "system",
       "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
       "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "enhypen_blood_saga_japan_2026_playguide_firstcome_0926",
+      "tourId": "enhypen_blood_saga_japan_2026",
+      "type": "プレイガイド先着先行",
+      "entryStartAt": "2026-09-26T13:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "enhypen_blood_saga_japan_2026_tokyo_1201",
+        "enhypen_blood_saga_japan_2026_tokyo_1202",
+        "enhypen_blood_saga_japan_2026_nagoya_1226",
+        "enhypen_blood_saga_japan_2026_nagoya_1227",
+        "enhypen_blood_saga_japan_2026_fukuoka_0206",
+        "enhypen_blood_saga_japan_2026_fukuoka_0207",
+        "enhypen_blood_saga_japan_2026_osaka_0219",
+        "enhypen_blood_saga_japan_2026_osaka_0220"
+      ],
+      "sourceUrl": "https://enhypen-jp.weverse.io/news/81ef744ba5bb",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "enhypen_blood_saga_japan_2026_general_1031",
+      "tourId": "enhypen_blood_saga_japan_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-10-31T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "enhypen_blood_saga_japan_2026_tokyo_1201",
+        "enhypen_blood_saga_japan_2026_tokyo_1202",
+        "enhypen_blood_saga_japan_2026_nagoya_1226",
+        "enhypen_blood_saga_japan_2026_nagoya_1227",
+        "enhypen_blood_saga_japan_2026_fukuoka_0206",
+        "enhypen_blood_saga_japan_2026_fukuoka_0207",
+        "enhypen_blood_saga_japan_2026_osaka_0219",
+        "enhypen_blood_saga_japan_2026_osaka_0220"
+      ],
+      "sourceUrl": "https://enhypen-jp.weverse.io/news/81ef744ba5bb",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
