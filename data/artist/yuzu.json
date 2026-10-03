@@ -503,6 +503,24 @@
       "source": "system",
       "sourceUrl": "https://yuzu-official.com/pages/yujin-birthday2027/",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "yuzu_30th_kokoro_2026_general_1003",
+      "tourId": "yuzu_30th_kokoro_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-10-03T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yuzu_30th_kokoro_2026_karena_1023",
+        "yuzu_30th_kokoro_2026_karena_1024",
+        "yuzu_30th_kokoro_2026_karena_1025"
+      ],
+      "sourceUrl": "https://yuzu-official.com/contents/information/ab7bcd2e-4673-4f18-b27e-0f57e7a2b1b6",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
