@@ -132,6 +132,36 @@
       "source": "system",
       "sourceUrl": "https://radiocrazy.fm/",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_mihara_kenji_802_psy_tone_radio_2026",
+      "title": "【三原健司】JR西日本 presents 大阪ステーションシティ15周年記念「802 PSY TONE RADIO in 大阪駅」",
+      "startDate": "2026-10-03T00:00:00+09:00",
+      "endDate": "2026-10-03T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 4000
+        },
+        {
+          "label": "立ち見",
+          "amount": 3000
+        }
+      ],
+      "sourceUrl": "https://frederic-official.com/news/detail/3762",
+      "artistId": "frederic",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_takahashi_takeru_gfest_2026",
+      "title": "【高橋武】GFEST.2026 斎遊記 GFEST. SPECIAL BAND SET",
+      "startDate": "2026-10-11T00:00:00+09:00",
+      "endDate": "2026-10-11T00:00:00+09:00",
+      "sourceUrl": "https://frederic-official.com/news/detail/3753",
+      "artistId": "frederic",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -446,6 +476,32 @@
       "source": "system",
       "sourceUrl": "https://radiocrazy.fm/",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_mihara_kenji_802_psy_tone_radio_2026_osaka_1003",
+      "performanceDate": "2026-10-03",
+      "performanceAt": "2026-10-03T14:00:00+09:00",
+      "doorOpenAt": "2026-10-03T13:00:00+09:00",
+      "venue": "JR大阪駅・大阪ステーションシティ 5F「時空（とき）の広場」",
+      "kind": "taiban",
+      "eventName": "802 PSY TONE RADIO in 大阪駅",
+      "sourceUrl": "https://funky802.com/site/pickup_detail/8294",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "frederic_mihara_kenji_802_psy_tone_radio_2026"
+    },
+    {
+      "id": "frederic_takahashi_takeru_gfest_2026_gunma_1011",
+      "performanceDate": "2026-10-11",
+      "performanceAt": "2026-10-11T10:30:00+09:00",
+      "doorOpenAt": "2026-10-11T09:30:00+09:00",
+      "venue": "Gメッセ群馬",
+      "kind": "fes",
+      "eventName": "斎遊記 GFEST. SPECIAL BAND SET",
+      "sourceUrl": "https://frederic-official.com/news/detail/3753",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "frederic_takahashi_takeru_gfest_2026"
     }
   ],
   "lotteries": [
@@ -1057,6 +1113,86 @@
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/0344660008-P0030029",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_preorder_0117_oct02",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "type": "プレオーダー（1/17公演）",
+      "entryStartAt": "2026-10-02T18:00:00+09:00",
+      "entryEndAt": "2026-10-12T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_haneda_0117"
+      ],
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_mihara_kenji_802_psy_tone_radio_2026_fm802_1st",
+      "type": "FM802 HP1次受付",
+      "entryStartAt": "2026-08-01T23:30:00+09:00",
+      "entryEndAt": "2026-08-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_mihara_kenji_802_psy_tone_radio_2026_osaka_1003"
+      ],
+      "sourceUrl": "https://funky802.com/site/pickup_detail/8294",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "frederic_mihara_kenji_802_psy_tone_radio_2026"
+    },
+    {
+      "id": "frederic_mihara_kenji_802_psy_tone_radio_2026_platinum",
+      "type": "FM802 RADIPASS PLATINUM会員受付",
+      "entryStartAt": "2026-08-01T23:30:00+09:00",
+      "entryEndAt": "2026-08-22T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_mihara_kenji_802_psy_tone_radio_2026_osaka_1003"
+      ],
+      "sourceUrl": "https://funky802.com/site/pickup_detail/8294",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "frederic_mihara_kenji_802_psy_tone_radio_2026"
+    },
+    {
+      "id": "frederic_mihara_kenji_802_psy_tone_radio_2026_fm802_2nd",
+      "type": "FM802 HP2次受付",
+      "entryStartAt": "2026-08-18T00:00:00+09:00",
+      "entryEndAt": "2026-08-25T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_mihara_kenji_802_psy_tone_radio_2026_osaka_1003"
+      ],
+      "sourceUrl": "https://funky802.com/site/pickup_detail/8294",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "frederic_mihara_kenji_802_psy_tone_radio_2026"
+    },
+    {
+      "id": "frederic_mihara_kenji_802_psy_tone_radio_2026_gold",
+      "type": "FM802 RADIPASS GOLD会員受付",
+      "entryStartAt": "2026-08-28T10:00:00+09:00",
+      "entryEndAt": "2026-09-08T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_mihara_kenji_802_psy_tone_radio_2026_osaka_1003"
+      ],
+      "sourceUrl": "https://funky802.com/site/pickup_detail/8294",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "frederic_mihara_kenji_802_psy_tone_radio_2026"
     }
   ],
   "appleMusicTracks": [
