@@ -447,7 +447,8 @@
       "eventName": "BAMBOOM NIGHT 2026",
       "sourceUrl": "https://wanima-live.com/bamboomnight2026/",
       "source": "system",
-      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "wanima_bamboom_night_2026"
     }
   ],
   "lotteries": [
@@ -694,7 +695,8 @@
       ],
       "sourceUrl": "https://wanima.net/contents/1114506",
       "source": "system",
-      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "wanima_bamboom_night_2026"
     }
   ],
   "appleMusicTracks": [
