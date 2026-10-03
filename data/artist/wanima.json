@@ -77,6 +77,26 @@
       "source": "system",
       "sourceUrl": "https://www.red-hot.ne.jp/play/detail.php?pid=py28189",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "wanima_bamboom_night_2026",
+      "title": "BAMBOOM NIGHT 2026",
+      "startDate": "2026-12-15T00:00:00+09:00",
+      "endDate": "2026-12-15T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "スタンディング",
+          "amount": 8250
+        },
+        {
+          "label": "指定席",
+          "amount": 8800
+        }
+      ],
+      "sourceUrl": "https://wanima-live.com/bamboomnight2026/",
+      "artistId": "wanima",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -416,6 +436,19 @@
       "source": "system",
       "sourceUrl": "https://www.red-hot.ne.jp/play/detail.php?pid=py28189",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "wanima_bamboom_night_2026_tokyo_1215",
+      "performanceDate": "2026-12-15",
+      "performanceAt": "2026-12-15T18:30:00+09:00",
+      "doorOpenAt": "2026-12-15T17:30:00+09:00",
+      "venue": "東京ガーデンシアター",
+      "kind": "oneman",
+      "eventName": "BAMBOOM NIGHT 2026",
+      "sourceUrl": "https://wanima-live.com/bamboomnight2026/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "wanima_bamboom_night_2026"
     }
   ],
   "lotteries": [
@@ -648,6 +681,22 @@
       "source": "system",
       "sourceUrl": "https://eplus.jp/live-azuma/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "wanima_bamboom_night_2026_members",
+      "type": "WANIMA MEMBERS会員先行（抽選）",
+      "entryStartAt": "2026-09-29T20:00:00+09:00",
+      "entryEndAt": "2026-10-12T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "wanima_bamboom_night_2026_tokyo_1215"
+      ],
+      "sourceUrl": "https://wanima.net/contents/1114506",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "wanima_bamboom_night_2026"
     }
   ],
   "appleMusicTracks": [
