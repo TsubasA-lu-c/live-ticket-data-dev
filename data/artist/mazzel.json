@@ -174,6 +174,26 @@
       "source": "system",
       "sourceUrl": "https://post.tv-asahi.co.jp/?p=832267",
       "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "mazzel_magurock_pop_2026",
+      "title": "マグロック&ポップ 2026",
+      "startDate": "2026-10-03T00:00:00+09:00",
+      "endDate": "2026-10-03T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1日券",
+          "amount": 11000
+        },
+        {
+          "label": "GOLDスタンディング1日券",
+          "amount": 26000
+        }
+      ],
+      "sourceUrl": "https://magurockpop.com/",
+      "artistId": "mazzel",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -767,6 +787,19 @@
       "source": "system",
       "sourceUrl": "https://post.tv-asahi.co.jp/?p=832267",
       "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "mazzel_magurock_pop_2026_shizuoka_1003",
+      "performanceDate": "2026-10-03",
+      "performanceAt": "2026-10-03T11:00:00+09:00",
+      "doorOpenAt": "2026-10-03T10:00:00+09:00",
+      "venue": "清水マリンパーク",
+      "kind": "fes",
+      "eventName": "マグロック&ポップ 2026",
+      "sourceUrl": "https://magurockpop.com/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "mazzel_magurock_pop_2026"
     }
   ],
   "lotteries": [
@@ -933,6 +966,172 @@
       "source": "system",
       "sourceUrl": "https://dreamfestival.jp/",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "mazzel_magurock_pop_2026_general",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-08-29T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mazzel_magurock_pop_2026_shizuoka_1003"
+      ],
+      "sourceUrl": "https://magurockpop.com/ticket/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "mazzel_magurock_pop_2026"
+    },
+    {
+      "id": "mazzel_fes_bmsg_2026_btown_architect",
+      "tourId": "mazzel_fes_bmsg_2026",
+      "type": "B-Town〈Architect〉会員先行（抽選）",
+      "entryStartAt": "2026-07-01T18:00:00+09:00",
+      "entryEndAt": "2026-07-08T23:59:00+09:00",
+      "resultAt": "2026-07-15T17:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mazzel_fes_bmsg_2026_bmsg_1010",
+        "mazzel_fes_bmsg_2026_bmsg_1011",
+        "mazzel_fes_bmsg_2026_bmsg_1012"
+      ],
+      "sourceUrl": "https://bmsgfes.tokyo/2026/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "mazzel_fes_bmsg_2026_btown_resident_muzeum",
+      "tourId": "mazzel_fes_bmsg_2026",
+      "type": "B-Town〈Resident〉/B with U各出演Artist FC会員先行（抽選）",
+      "entryStartAt": "2026-07-15T18:00:00+09:00",
+      "entryEndAt": "2026-07-20T23:59:00+09:00",
+      "resultAt": "2026-08-01T17:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mazzel_fes_bmsg_2026_bmsg_1010",
+        "mazzel_fes_bmsg_2026_bmsg_1011",
+        "mazzel_fes_bmsg_2026_bmsg_1012"
+      ],
+      "sourceUrl": "https://bmsgfes.tokyo/2026/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "mazzel_fes_bmsg_2026_upgrade",
+      "tourId": "mazzel_fes_bmsg_2026",
+      "type": "SS/S指定席 特典付きプレミアム席アップグレード抽選",
+      "entryStartAt": "2026-08-26T18:00:00+09:00",
+      "entryEndAt": "2026-09-02T23:59:00+09:00",
+      "resultAt": "2026-09-09T17:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mazzel_fes_bmsg_2026_bmsg_1010",
+        "mazzel_fes_bmsg_2026_bmsg_1011",
+        "mazzel_fes_bmsg_2026_bmsg_1012"
+      ],
+      "sourceUrl": "https://bmsgfes.tokyo/2026/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "mazzel_fes_bmsg_2026_resale_1010",
+      "tourId": "mazzel_fes_bmsg_2026",
+      "type": "公式リセール（10/10公演・先着）",
+      "entryStartAt": "2026-09-30T13:00:00+09:00",
+      "entryEndAt": "2026-10-10T06:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mazzel_fes_bmsg_2026_bmsg_1010"
+      ],
+      "sourceUrl": "https://bmsgfes.tokyo/news/260930",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "mazzel_fes_bmsg_2026_resale_1011",
+      "tourId": "mazzel_fes_bmsg_2026",
+      "type": "公式リセール（10/11公演・先着）",
+      "entryStartAt": "2026-10-01T13:00:00+09:00",
+      "entryEndAt": "2026-10-11T06:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mazzel_fes_bmsg_2026_bmsg_1011"
+      ],
+      "sourceUrl": "https://bmsgfes.tokyo/news/260930",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "mazzel_fes_bmsg_2026_resale_1012",
+      "tourId": "mazzel_fes_bmsg_2026",
+      "type": "公式リセール（10/12公演・先着）",
+      "entryStartAt": "2026-10-02T13:00:00+09:00",
+      "entryEndAt": "2026-10-12T06:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mazzel_fes_bmsg_2026_bmsg_1012"
+      ],
+      "sourceUrl": "https://bmsgfes.tokyo/news/260930",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "mazzel_dream_festival_2026_ichihaya",
+      "tourId": "mazzel_dream_festival_2026",
+      "type": "いち早プレリザーブ（抽選）",
+      "entryStartAt": "2026-08-25T12:00:00+09:00",
+      "entryEndAt": "2026-08-30T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mazzel_dream_festival_2026_1123"
+      ],
+      "sourceUrl": "https://dreamfestival.jp/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "mazzel_dream_festival_2026_official_fastest",
+      "tourId": "mazzel_dream_festival_2026",
+      "type": "オフィシャル最速先行（抽選）",
+      "entryStartAt": "2026-08-31T12:00:00+09:00",
+      "entryEndAt": "2026-09-06T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mazzel_dream_festival_2026_1123"
+      ],
+      "sourceUrl": "https://dreamfestival.jp/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "mazzel_dream_festival_2026_official_2nd",
+      "tourId": "mazzel_dream_festival_2026",
+      "type": "オフィシャル2次先行（抽選）",
+      "entryStartAt": "2026-09-07T12:00:00+09:00",
+      "entryEndAt": "2026-09-13T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mazzel_dream_festival_2026_1123"
+      ],
+      "sourceUrl": "https://dreamfestival.jp/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
