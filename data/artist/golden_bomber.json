@@ -179,6 +179,26 @@
       "source": "system",
       "sourceUrl": "https://breakerz-web.net/special/20th/live-2027-vs-/",
       "lastVerifiedAt": "2026-09-26T22:26:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_jun_utahiroba_everyday_host_2026",
+      "title": "【歌広場淳】HAPPEY MUSICAL「えぶりでいホスト」",
+      "startDate": "2026-11-06T00:00:00+09:00",
+      "endDate": "2026-11-15T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "平日 全席指定",
+          "amount": 10800
+        },
+        {
+          "label": "土日 全席指定",
+          "amount": 11800
+        }
+      ],
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1092896",
+      "artistId": "golden_bomber",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -541,6 +561,198 @@
       "source": "system",
       "sourceUrl": "https://breakerz-web.net/special/20th/live-2027-vs-/",
       "lastVerifiedAt": "2026-09-26T22:26:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_jun_utahiroba_everyday_host_2026_1106_1930",
+      "performanceDate": "2026-11-06",
+      "performanceAt": "2026-11-06T19:30:00+09:00",
+      "doorOpenAt": null,
+      "venue": "シアターH",
+      "kind": "oneman",
+      "eventName": "HAPPEY MUSICAL「えぶりでいホスト」",
+      "sourceUrl": "https://everydayhost-musical.com/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_jun_utahiroba_everyday_host_2026_1107_1530",
+      "performanceDate": "2026-11-07",
+      "performanceAt": "2026-11-07T15:30:00+09:00",
+      "doorOpenAt": null,
+      "venue": "シアターH",
+      "kind": "oneman",
+      "eventName": "HAPPEY MUSICAL「えぶりでいホスト」",
+      "sourceUrl": "https://everydayhost-musical.com/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_jun_utahiroba_everyday_host_2026_1107_1930",
+      "performanceDate": "2026-11-07",
+      "performanceAt": "2026-11-07T19:30:00+09:00",
+      "doorOpenAt": null,
+      "venue": "シアターH",
+      "kind": "oneman",
+      "eventName": "HAPPEY MUSICAL「えぶりでいホスト」",
+      "sourceUrl": "https://everydayhost-musical.com/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_jun_utahiroba_everyday_host_2026_1108_1200",
+      "performanceDate": "2026-11-08",
+      "performanceAt": "2026-11-08T12:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "シアターH",
+      "kind": "oneman",
+      "eventName": "HAPPEY MUSICAL「えぶりでいホスト」",
+      "sourceUrl": "https://everydayhost-musical.com/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_jun_utahiroba_everyday_host_2026_1108_1530",
+      "performanceDate": "2026-11-08",
+      "performanceAt": "2026-11-08T15:30:00+09:00",
+      "doorOpenAt": null,
+      "venue": "シアターH",
+      "kind": "oneman",
+      "eventName": "HAPPEY MUSICAL「えぶりでいホスト」",
+      "sourceUrl": "https://everydayhost-musical.com/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_jun_utahiroba_everyday_host_2026_1108_1930",
+      "performanceDate": "2026-11-08",
+      "performanceAt": "2026-11-08T19:30:00+09:00",
+      "doorOpenAt": null,
+      "venue": "シアターH",
+      "kind": "oneman",
+      "eventName": "HAPPEY MUSICAL「えぶりでいホスト」",
+      "sourceUrl": "https://everydayhost-musical.com/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_jun_utahiroba_everyday_host_2026_1110_1930",
+      "performanceDate": "2026-11-10",
+      "performanceAt": "2026-11-10T19:30:00+09:00",
+      "doorOpenAt": null,
+      "venue": "シアターH",
+      "kind": "oneman",
+      "eventName": "HAPPEY MUSICAL「えぶりでいホスト」",
+      "sourceUrl": "https://everydayhost-musical.com/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_jun_utahiroba_everyday_host_2026_1111_1530",
+      "performanceDate": "2026-11-11",
+      "performanceAt": "2026-11-11T15:30:00+09:00",
+      "doorOpenAt": null,
+      "venue": "シアターH",
+      "kind": "oneman",
+      "eventName": "HAPPEY MUSICAL「えぶりでいホスト」",
+      "sourceUrl": "https://everydayhost-musical.com/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_jun_utahiroba_everyday_host_2026_1111_1930",
+      "performanceDate": "2026-11-11",
+      "performanceAt": "2026-11-11T19:30:00+09:00",
+      "doorOpenAt": null,
+      "venue": "シアターH",
+      "kind": "oneman",
+      "eventName": "HAPPEY MUSICAL「えぶりでいホスト」",
+      "sourceUrl": "https://everydayhost-musical.com/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_jun_utahiroba_everyday_host_2026_1112_1930",
+      "performanceDate": "2026-11-12",
+      "performanceAt": "2026-11-12T19:30:00+09:00",
+      "doorOpenAt": null,
+      "venue": "シアターH",
+      "kind": "oneman",
+      "eventName": "HAPPEY MUSICAL「えぶりでいホスト」",
+      "sourceUrl": "https://everydayhost-musical.com/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_jun_utahiroba_everyday_host_2026_1113_1930",
+      "performanceDate": "2026-11-13",
+      "performanceAt": "2026-11-13T19:30:00+09:00",
+      "doorOpenAt": null,
+      "venue": "シアターH",
+      "kind": "oneman",
+      "eventName": "HAPPEY MUSICAL「えぶりでいホスト」",
+      "sourceUrl": "https://everydayhost-musical.com/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_jun_utahiroba_everyday_host_2026_1114_1200",
+      "performanceDate": "2026-11-14",
+      "performanceAt": "2026-11-14T12:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "シアターH",
+      "kind": "oneman",
+      "eventName": "HAPPEY MUSICAL「えぶりでいホスト」",
+      "sourceUrl": "https://everydayhost-musical.com/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_jun_utahiroba_everyday_host_2026_1114_1530",
+      "performanceDate": "2026-11-14",
+      "performanceAt": "2026-11-14T15:30:00+09:00",
+      "doorOpenAt": null,
+      "venue": "シアターH",
+      "kind": "oneman",
+      "eventName": "HAPPEY MUSICAL「えぶりでいホスト」",
+      "sourceUrl": "https://everydayhost-musical.com/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_jun_utahiroba_everyday_host_2026_1114_1930",
+      "performanceDate": "2026-11-14",
+      "performanceAt": "2026-11-14T19:30:00+09:00",
+      "doorOpenAt": null,
+      "venue": "シアターH",
+      "kind": "oneman",
+      "eventName": "HAPPEY MUSICAL「えぶりでいホスト」",
+      "sourceUrl": "https://everydayhost-musical.com/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_jun_utahiroba_everyday_host_2026_1115_1200",
+      "performanceDate": "2026-11-15",
+      "performanceAt": "2026-11-15T12:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "シアターH",
+      "kind": "oneman",
+      "eventName": "HAPPEY MUSICAL「えぶりでいホスト」",
+      "sourceUrl": "https://everydayhost-musical.com/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_jun_utahiroba_everyday_host_2026_1115_1530",
+      "performanceDate": "2026-11-15",
+      "performanceAt": "2026-11-15T15:30:00+09:00",
+      "doorOpenAt": null,
+      "venue": "シアターH",
+      "kind": "oneman",
+      "eventName": "HAPPEY MUSICAL「えぶりでいホスト」",
+      "sourceUrl": "https://everydayhost-musical.com/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -916,6 +1128,114 @@
       "source": "system",
       "sourceUrl": "https://breakerz-web.net/special/20th/live-2027-vs-/",
       "lastVerifiedAt": "2026-09-26T22:26:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_jun_utahiroba_everyday_host_2026_marukin",
+      "type": "FC[マルキン]先行抽選受付",
+      "entryStartAt": "2026-07-17T18:00:00+09:00",
+      "entryEndAt": "2026-07-26T23:59:00+09:00",
+      "resultAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1092896",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_jun_utahiroba_everyday_host_2026_nelkeha",
+      "type": "ネルケハ！先行（抽選）",
+      "entryStartAt": "2026-07-17T18:00:00+09:00",
+      "entryEndAt": "2026-07-26T23:59:00+09:00",
+      "resultAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "sourceUrl": "https://everydayhost-musical.com/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_jun_utahiroba_everyday_host_2026_official",
+      "type": "オフィシャル先行（抽選）",
+      "entryStartAt": "2026-07-17T18:00:00+09:00",
+      "entryEndAt": "2026-07-26T23:59:00+09:00",
+      "resultAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "sourceUrl": "https://everydayhost-musical.com/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_jun_utahiroba_everyday_host_2026_j25",
+      "type": "2.5フレンズ先行（抽選）",
+      "entryStartAt": "2026-08-01T18:00:00+09:00",
+      "entryEndAt": "2026-08-11T23:59:00+09:00",
+      "resultAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "sourceUrl": "https://everydayhost-musical.com/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_jun_utahiroba_everyday_host_2026_official_2nd",
+      "type": "オフィシャル2次先行（抽選）",
+      "entryStartAt": "2026-08-13T18:00:00+09:00",
+      "entryEndAt": "2026-08-24T23:59:00+09:00",
+      "resultAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "sourceUrl": "https://everydayhost-musical.com/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_jun_utahiroba_everyday_host_2026_ichihaya",
+      "type": "いち早プレリザーブ（抽選）",
+      "entryStartAt": "2026-08-29T18:00:00+09:00",
+      "entryEndAt": "2026-09-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "sourceUrl": "https://everydayhost-musical.com/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_jun_utahiroba_everyday_host_2026_prereserve",
+      "type": "プレリザーブ先行（抽選）",
+      "entryStartAt": "2026-09-14T18:00:00+09:00",
+      "entryEndAt": "2026-09-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "sourceUrl": "https://everydayhost-musical.com/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_jun_utahiroba_everyday_host_2026_prereserve_2nd",
+      "type": "プレリザーブ2次先行（抽選）",
+      "entryStartAt": "2026-09-24T18:00:00+09:00",
+      "entryEndAt": "2026-09-28T23:59:00+09:00",
+      "resultAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "sourceUrl": "https://everydayhost-musical.com/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "golden_bomber_member_jun_utahiroba_everyday_host_2026_general",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-10-03T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "sourceUrl": "https://everydayhost-musical.com/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
