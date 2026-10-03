@@ -596,6 +596,48 @@
       "source": "system",
       "sourceUrl": "https://www.universal-music.co.jp/txt/news/2026-07-28/",
       "lastVerifiedAt": "2026-08-18T07:20:00+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_steal_the_wind_japan_2026_2027_moa_jp",
+      "tourId": "tomorrow_x_together_steal_the_wind_japan_2026_2027",
+      "type": "MOA Membership (JP)会員先行抽選",
+      "entryStartAt": "2026-09-15T13:00:00+09:00",
+      "entryEndAt": "2026-09-23T23:59:00+09:00",
+      "resultAt": "2026-10-02T11:00:00+09:00",
+      "paymentStartAt": "2026-10-02T11:00:00+09:00",
+      "paymentEndAt": "2026-10-05T23:00:00+09:00",
+      "performanceIds": [
+        "tomorrow_x_together_steal_the_wind_japan_2026_fukuoka_1219",
+        "tomorrow_x_together_steal_the_wind_japan_2026_fukuoka_1220",
+        "tomorrow_x_together_steal_the_wind_japan_2027_tokyo_0107",
+        "tomorrow_x_together_steal_the_wind_japan_2027_tokyo_0108",
+        "tomorrow_x_together_steal_the_wind_japan_2027_osaka_0130",
+        "tomorrow_x_together_steal_the_wind_japan_2027_osaka_0131",
+        "tomorrow_x_together_steal_the_wind_japan_2027_nagoya_0220",
+        "tomorrow_x_together_steal_the_wind_japan_2027_nagoya_0221"
+      ],
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/txt_steal_the_wind_in_japan",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_steal_the_wind_japan_2026_2027_moa_global_us_tokyo_osaka",
+      "tourId": "tomorrow_x_together_steal_the_wind_japan_2026_2027",
+      "type": "MOA Membership (GLOBAL/US)会員先行抽選（東京・大阪）",
+      "entryStartAt": "2026-10-03T13:00:00+09:00",
+      "entryEndAt": "2026-10-07T23:59:00+09:00",
+      "resultAt": "2026-10-14T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "tomorrow_x_together_steal_the_wind_japan_2027_tokyo_0107",
+        "tomorrow_x_together_steal_the_wind_japan_2027_tokyo_0108",
+        "tomorrow_x_together_steal_the_wind_japan_2027_osaka_0130",
+        "tomorrow_x_together_steal_the_wind_japan_2027_osaka_0131"
+      ],
+      "sourceUrl": "https://weverse.io/txt/notice/39253?hl=ja",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     }
   ],
   "lastVerifiedAt": "2026-07-22T10:26:13+09:00",
