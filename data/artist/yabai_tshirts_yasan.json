@@ -334,6 +334,26 @@
       "source": "system",
       "sourceUrl": "https://yabaitshirtsyasan.com/live/294415/",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_harukamirai_yoroo_gekijo_2026",
+      "title": "ハルカミライ「ヨーロー劇場 2026-2027 66分ライブツアー」",
+      "startDate": "2026-11-27T00:00:00+09:00",
+      "endDate": "2026-11-27T00:00:00+09:00",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/296393/",
+      "artistId": "yabai_tshirts_yasan",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_mega_vegas_2027",
+      "title": "MEGA VEGAS 2027",
+      "startDate": "2027-03-20T00:00:00+09:00",
+      "endDate": "2027-03-21T00:00:00+09:00",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/296390/",
+      "artistId": "yabai_tshirts_yasan",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -906,6 +926,19 @@
       "performanceDate": "2026-11-18",
       "performanceTimeEstimated": true,
       "note": "公式アーティストページでは開場/開演時刻未公表。12:00は旧クライアント互換値。"
+    },
+    {
+      "id": "yabai_tshirts_yasan_harukamirai_yoroo_gekijo_2026_ina_1127",
+      "performanceDate": "2026-11-27",
+      "performanceAt": "2026-11-27T19:00:00+09:00",
+      "doorOpenAt": "2026-11-27T18:00:00+09:00",
+      "venue": "伊那GRAMHOUSE",
+      "kind": "taiban",
+      "eventName": "ヨーロー劇場 2026-2027 66分ライブツアー",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/296393/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "yabai_tshirts_yasan_harukamirai_yoroo_gekijo_2026"
     }
   ],
   "lotteries": [
@@ -1251,6 +1284,54 @@
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/2288480002-P0030012",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_harukamirai_yoroo_gekijo_2026_official",
+      "type": "オフィシャル先行（抽選）",
+      "entryStartAt": "2026-10-01T20:00:00+09:00",
+      "entryEndAt": "2026-10-04T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yabai_tshirts_yasan_harukamirai_yoroo_gekijo_2026_ina_1127"
+      ],
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/296393/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "yabai_tshirts_yasan_harukamirai_yoroo_gekijo_2026"
+    },
+    {
+      "id": "yabai_tshirts_yasan_mtp_tour_2026_resale_osaka_1008",
+      "tourId": "yabai_tshirts_yasan_mtp_tour_2026",
+      "type": "公式チケットリセール（抽選）",
+      "entryStartAt": "2026-09-28T12:00:00+09:00",
+      "entryEndAt": "2026-10-04T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yabai_tshirts_yasan_mtp_tour_2026_osaka_1008"
+      ],
+      "sourceUrl": "https://yabaitshirtsyasan.com/news/295985/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_mtp_tour_2026_resale_sendai_1012",
+      "tourId": "yabai_tshirts_yasan_mtp_tour_2026",
+      "type": "公式チケットリセール（抽選）",
+      "entryStartAt": "2026-10-02T12:00:00+09:00",
+      "entryEndAt": "2026-10-08T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yabai_tshirts_yasan_mtp_tour_2026_sendai_1012"
+      ],
+      "sourceUrl": "https://yabaitshirtsyasan.com/news/295985/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
