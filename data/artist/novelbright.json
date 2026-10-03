@@ -1486,6 +1486,103 @@
       "source": "system",
       "sourceUrl": "https://novelbright.jp/news/detail/2484",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "novelbright_pyramid_2026_kanagawa_1007_additional_firstcome",
+      "tourId": "novelbright_pyramid_2026",
+      "type": "10/7神奈川 追加先着販売（立見指定）",
+      "entryStartAt": "2026-10-03T10:00:00+09:00",
+      "entryEndAt": "2026-10-06T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "novelbright_pyramid_2026_kanagawa_1007"
+      ],
+      "sourceUrl": "https://novelbright.jp/news/detail/2487",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "novelbright_pyramid_2026_kanagawa_1008_additional_firstcome",
+      "tourId": "novelbright_pyramid_2026",
+      "type": "10/8神奈川 追加先着販売（立見指定）",
+      "entryStartAt": "2026-10-03T10:00:00+09:00",
+      "entryEndAt": "2026-10-07T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "novelbright_pyramid_2026_kanagawa_1008"
+      ],
+      "sourceUrl": "https://novelbright.jp/news/detail/2487",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "novelbright_pyramid_2026_osaka_1016_1017_additional_firstcome",
+      "tourId": "novelbright_pyramid_2026",
+      "type": "大阪公演 追加先着販売（ステージサイド席）",
+      "entryStartAt": "2026-10-03T10:00:00+09:00",
+      "entryEndAt": "2026-10-06T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "novelbright_pyramid_2026_osaka_1016",
+        "novelbright_pyramid_2026_osaka_1017"
+      ],
+      "sourceUrl": "https://novelbright.jp/news/detail/2487",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "novelbright_dream_festival_2026_ichihaya",
+      "tourId": "novelbright_dream_festival_2026",
+      "type": "いち早プレリザーブ（抽選）",
+      "entryStartAt": "2026-08-25T12:00:00+09:00",
+      "entryEndAt": "2026-08-30T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "novelbright_dream_festival_2026_1121"
+      ],
+      "sourceUrl": "https://dreamfestival.jp/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "novelbright_dream_festival_2026_official_fastest",
+      "tourId": "novelbright_dream_festival_2026",
+      "type": "オフィシャル最速先行（抽選）",
+      "entryStartAt": "2026-08-31T12:00:00+09:00",
+      "entryEndAt": "2026-09-06T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "novelbright_dream_festival_2026_1121"
+      ],
+      "sourceUrl": "https://dreamfestival.jp/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "novelbright_dream_festival_2026_official_3rd",
+      "tourId": "novelbright_dream_festival_2026",
+      "type": "オフィシャル3次先行（抽選）",
+      "entryStartAt": "2026-09-14T12:00:00+09:00",
+      "entryEndAt": "2026-09-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "novelbright_dream_festival_2026_1121"
+      ],
+      "sourceUrl": "https://dreamfestival.jp/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
