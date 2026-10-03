@@ -401,6 +401,24 @@
       "source": "system",
       "sourceUrl": "https://idolish7.com/news/2026/19840",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "idolish7_mezzo_visiblive_violamare_2027_app_2nd",
+      "tourId": "idolish7_mezzo_visiblive_violamare_2027",
+      "type": "アプリ2次先行",
+      "entryStartAt": "2026-10-01T12:00:00+09:00",
+      "entryEndAt": "2026-10-19T23:59:00+09:00",
+      "resultAt": "2026-10-31T13:00:00+09:00",
+      "paymentStartAt": "2026-10-31T13:00:00+09:00",
+      "paymentEndAt": "2026-11-04T21:00:00+09:00",
+      "performanceIds": [
+        "idolish7_mezzo_visiblive_violamare_2027_0306_legame",
+        "idolish7_mezzo_visiblive_violamare_2027_0307_agitato",
+        "idolish7_mezzo_visiblive_violamare_2027_0307_cantabile"
+      ],
+      "sourceUrl": "https://idolish7.com/news/2026/19840",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
