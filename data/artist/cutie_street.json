@@ -677,6 +677,32 @@
       "source": "system",
       "sourceUrl": "https://asobiexpo.com/hawaii2027/",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_sano_aika_birthday_2026",
+      "title": "CUTIE STREET 佐野愛花 生誕祭 2026",
+      "startDate": "2026-11-26T00:00:00+09:00",
+      "endDate": "2026-11-26T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "一般指定席",
+          "amount": 6500
+        }
+      ],
+      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/90590",
+      "artistId": "cutie_street",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_hiroshima_continew_fes_2026",
+      "title": "HIROSHIMA CONTI-NeW FeS 2026",
+      "startDate": "2026-12-05T00:00:00+09:00",
+      "endDate": "2026-12-05T00:00:00+09:00",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/live_information/detail/42404",
+      "artistId": "cutie_street",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -1221,6 +1247,30 @@
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00",
       "performanceDate": "2027-03-08",
       "performanceTimeEstimated": true
+    },
+    {
+      "id": "cutie_street_sano_aika_birthday_2026_ariake_1126",
+      "performanceDate": "2026-11-26",
+      "performanceAt": "2026-11-26T19:00:00+09:00",
+      "doorOpenAt": "2026-11-26T17:30:00+09:00",
+      "venue": "SGCホール有明",
+      "kind": "oneman",
+      "eventName": "CUTIE STREET 佐野愛花 生誕祭 2026",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/90590",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_hiroshima_continew_fes_2026_1205",
+      "performanceDate": "2026-12-05",
+      "performanceAt": "2026-12-05T11:00:00+09:00",
+      "doorOpenAt": "2026-12-05T10:00:00+09:00",
+      "venue": "広島グリーンアリーナ",
+      "kind": "fes",
+      "eventName": "HIROSHIMA CONTI-NeW FeS 2026",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/live_information/detail/42404",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1514,6 +1564,234 @@
       "source": "system",
       "sourceUrl": "https://tgc.girlswalker.com/kawacolle/",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_japan_arena_tour_2026_autumn_miyagi_1003_same_day",
+      "tourId": "cutie_street_japan_arena_tour_2026_autumn",
+      "type": "宮城10/3公演 当日券（先着）",
+      "entryStartAt": "2026-10-03T16:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "cutie_street_japan_arena_tour_2026_autumn_sekisui_super_arena_1003"
+      ],
+      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/91906",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_japan_arena_tour_2026_autumn_upgrade_2nd_fukuoka_kobe",
+      "tourId": "cutie_street_japan_arena_tour_2026_autumn",
+      "type": "アップグレード2次受付（福岡・神戸）",
+      "entryStartAt": "2026-09-28T12:00:00+09:00",
+      "entryEndAt": "2026-09-29T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "cutie_street_japan_arena_tour_2026_autumn_marine_messe_fukuoka_1028",
+        "cutie_street_japan_arena_tour_2026_autumn_marine_messe_fukuoka_1029",
+        "cutie_street_japan_arena_tour_2026_autumn_kobe_world_1031",
+        "cutie_street_japan_arena_tour_2026_autumn_kobe_world_1101"
+      ],
+      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/90591",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_sano_aika_birthday_2026_annual_fc",
+      "type": "年額コース会員先行（抽選）",
+      "entryStartAt": "2026-08-31T19:00:00+09:00",
+      "entryEndAt": "2026-09-10T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "cutie_street_sano_aika_birthday_2026_ariake_1126"
+      ],
+      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/88521",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_sano_aika_birthday_2026_paid_fc",
+      "type": "有料ファンクラブ会員先行（抽選）",
+      "entryStartAt": "2026-09-28T12:00:00+09:00",
+      "entryEndAt": "2026-10-07T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "cutie_street_sano_aika_birthday_2026_ariake_1126"
+      ],
+      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/90590",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_hiroshima_continew_fes_2026_official_1st",
+      "type": "オフィシャル一次先行（2日券・先着）",
+      "entryStartAt": "2026-07-16T12:00:00+09:00",
+      "entryEndAt": "2026-07-30T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "cutie_street_hiroshima_continew_fes_2026_1205"
+      ],
+      "sourceUrl": "https://eplus.jp/hiroshima-continew/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_hiroshima_continew_fes_2026_official_2nd",
+      "type": "オフィシャル二次先行（2日券・先着）",
+      "entryStartAt": "2026-07-31T12:00:00+09:00",
+      "entryEndAt": "2026-09-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "cutie_street_hiroshima_continew_fes_2026_1205"
+      ],
+      "sourceUrl": "https://eplus.jp/hiroshima-continew/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_hiroshima_continew_fes_2026_official_3rd",
+      "type": "オフィシャル三次先行（1日券/2日券・先着）",
+      "entryStartAt": "2026-09-10T12:00:00+09:00",
+      "entryEndAt": "2026-10-31T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "cutie_street_hiroshima_continew_fes_2026_1205"
+      ],
+      "sourceUrl": "https://eplus.jp/hiroshima-continew/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_japan_arena_tour_2026_autumn_playguide_fastest",
+      "tourId": "cutie_street_japan_arena_tour_2026_autumn",
+      "type": "プレイガイド最速先行",
+      "entryStartAt": "2026-08-15T12:00:00+09:00",
+      "entryEndAt": "2026-09-06T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "cutie_street_japan_arena_tour_2026_autumn_yokohama_arena_0923",
+        "cutie_street_japan_arena_tour_2026_autumn_ariake_arena_0929",
+        "cutie_street_japan_arena_tour_2026_autumn_ariake_arena_0930",
+        "cutie_street_japan_arena_tour_2026_autumn_sekisui_super_arena_1003",
+        "cutie_street_japan_arena_tour_2026_autumn_sekisui_super_arena_1004",
+        "cutie_street_japan_arena_tour_2026_autumn_marine_messe_fukuoka_1028",
+        "cutie_street_japan_arena_tour_2026_autumn_marine_messe_fukuoka_1029",
+        "cutie_street_japan_arena_tour_2026_autumn_kobe_world_1031",
+        "cutie_street_japan_arena_tour_2026_autumn_kobe_world_1101",
+        "cutie_street_japan_arena_tour_2026_autumn_hiroshima_green_arena_1114",
+        "cutie_street_japan_arena_tour_2026_autumn_hiroshima_green_arena_1115",
+        "cutie_street_japan_arena_tour_2026_autumn_ig_arena_1128",
+        "cutie_street_japan_arena_tour_2026_autumn_ig_arena_1129"
+      ],
+      "sourceUrl": "https://cutiestreet.asobisystem.com/feature/autumntour",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_japan_arena_tour_2026_autumn_upgrade_kanagawa_tokyo",
+      "tourId": "cutie_street_japan_arena_tour_2026_autumn",
+      "type": "アップグレード抽選（神奈川・東京）",
+      "entryStartAt": "2026-09-01T12:00:00+09:00",
+      "entryEndAt": "2026-09-06T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "cutie_street_japan_arena_tour_2026_autumn_yokohama_arena_0923",
+        "cutie_street_japan_arena_tour_2026_autumn_ariake_arena_0929",
+        "cutie_street_japan_arena_tour_2026_autumn_ariake_arena_0930"
+      ],
+      "sourceUrl": "https://cutiestreet.asobisystem.com/feature/autumntour",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_japan_arena_tour_2026_autumn_upgrade_miyagi_fukuoka_kobe",
+      "tourId": "cutie_street_japan_arena_tour_2026_autumn",
+      "type": "アップグレード抽選（宮城・福岡・兵庫）",
+      "entryStartAt": "2026-09-03T12:00:00+09:00",
+      "entryEndAt": "2026-09-08T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "cutie_street_japan_arena_tour_2026_autumn_sekisui_super_arena_1003",
+        "cutie_street_japan_arena_tour_2026_autumn_sekisui_super_arena_1004",
+        "cutie_street_japan_arena_tour_2026_autumn_marine_messe_fukuoka_1028",
+        "cutie_street_japan_arena_tour_2026_autumn_marine_messe_fukuoka_1029",
+        "cutie_street_japan_arena_tour_2026_autumn_kobe_world_1031",
+        "cutie_street_japan_arena_tour_2026_autumn_kobe_world_1101"
+      ],
+      "sourceUrl": "https://cutiestreet.asobisystem.com/feature/autumntour",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_japan_arena_tour_2026_autumn_ariake_general",
+      "tourId": "cutie_street_japan_arena_tour_2026_autumn",
+      "type": "有明アリーナ一般発売",
+      "entryStartAt": "2026-09-12T10:00:00+09:00",
+      "entryEndAt": "2026-09-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "cutie_street_japan_arena_tour_2026_autumn_ariake_arena_0929",
+        "cutie_street_japan_arena_tour_2026_autumn_ariake_arena_0930"
+      ],
+      "sourceUrl": "https://cutiestreet.asobisystem.com/feature/autumntour",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_japan_arena_tour_2026_autumn_ariake_same_day_exchange",
+      "tourId": "cutie_street_japan_arena_tour_2026_autumn",
+      "type": "有明アリーナ当日引換券",
+      "entryStartAt": "2026-09-24T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "cutie_street_japan_arena_tour_2026_autumn_ariake_arena_0929",
+        "cutie_street_japan_arena_tour_2026_autumn_ariake_arena_0930"
+      ],
+      "sourceUrl": "https://cutiestreet.asobisystem.com/feature/autumntour",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_japan_arena_tour_2026_autumn_miyagi_general",
+      "tourId": "cutie_street_japan_arena_tour_2026_autumn",
+      "type": "宮城公演一般発売",
+      "entryStartAt": "2026-09-19T10:00:00+09:00",
+      "entryEndAt": "2026-09-27T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "cutie_street_japan_arena_tour_2026_autumn_sekisui_super_arena_1003",
+        "cutie_street_japan_arena_tour_2026_autumn_sekisui_super_arena_1004"
+      ],
+      "sourceUrl": "https://cutiestreet.asobisystem.com/feature/autumntour",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
