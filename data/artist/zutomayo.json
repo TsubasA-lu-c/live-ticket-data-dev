@@ -553,6 +553,134 @@
       "source": "system",
       "sourceUrl": "https://zutomayo.net/bunka-denrai/",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_legacyzombie_2026_resale_premium_1010",
+      "tourId": "zutomayo_legacyzombie_2026",
+      "type": "公式リセール（Premium Area / チケットぴあ）",
+      "entryStartAt": "2026-10-03T10:00:00+09:00",
+      "entryEndAt": "2026-10-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "zutomayo_legacyzombie_2026_nara_1010"
+      ],
+      "sourceUrl": "https://zutomayo.net/news/654/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_legacyzombie_2026_resale_premium_1011",
+      "tourId": "zutomayo_legacyzombie_2026",
+      "type": "公式リセール（Premium Area / チケットぴあ）",
+      "entryStartAt": "2026-10-04T10:00:00+09:00",
+      "entryEndAt": "2026-10-10T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "zutomayo_legacyzombie_2026_nara_1011"
+      ],
+      "sourceUrl": "https://zutomayo.net/news/654/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_legacyzombie_2026_resale_pia_1010",
+      "tourId": "zutomayo_legacyzombie_2026",
+      "type": "公式リセール（チケットぴあ）",
+      "entryStartAt": "2026-10-03T10:00:00+09:00",
+      "entryEndAt": "2026-10-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "zutomayo_legacyzombie_2026_nara_1010"
+      ],
+      "sourceUrl": "https://zutomayo.net/news/654/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_legacyzombie_2026_resale_pia_1011",
+      "tourId": "zutomayo_legacyzombie_2026",
+      "type": "公式リセール（チケットぴあ）",
+      "entryStartAt": "2026-10-04T10:00:00+09:00",
+      "entryEndAt": "2026-10-10T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "zutomayo_legacyzombie_2026_nara_1011"
+      ],
+      "sourceUrl": "https://zutomayo.net/news/654/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_legacyzombie_2026_resale_lawson_1010",
+      "tourId": "zutomayo_legacyzombie_2026",
+      "type": "公式リセール（ローソンチケット）",
+      "entryStartAt": "2026-10-03T12:00:00+09:00",
+      "entryEndAt": "2026-10-06T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "zutomayo_legacyzombie_2026_nara_1010"
+      ],
+      "sourceUrl": "https://zutomayo.net/news/654/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_legacyzombie_2026_resale_lawson_1011",
+      "tourId": "zutomayo_legacyzombie_2026",
+      "type": "公式リセール（ローソンチケット）",
+      "entryStartAt": "2026-10-04T12:00:00+09:00",
+      "entryEndAt": "2026-10-07T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "zutomayo_legacyzombie_2026_nara_1011"
+      ],
+      "sourceUrl": "https://zutomayo.net/news/654/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_legacyzombie_2026_resale_eplus_1010",
+      "tourId": "zutomayo_legacyzombie_2026",
+      "type": "公式リセール（イープラス）",
+      "entryStartAt": "2026-10-03T10:00:00+09:00",
+      "entryEndAt": "2026-10-07T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "zutomayo_legacyzombie_2026_nara_1010"
+      ],
+      "sourceUrl": "https://zutomayo.net/news/654/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_legacyzombie_2026_resale_eplus_1011",
+      "tourId": "zutomayo_legacyzombie_2026",
+      "type": "公式リセール（イープラス）",
+      "entryStartAt": "2026-10-04T10:00:00+09:00",
+      "entryEndAt": "2026-10-08T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "zutomayo_legacyzombie_2026_nara_1011"
+      ],
+      "sourceUrl": "https://zutomayo.net/news/654/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
