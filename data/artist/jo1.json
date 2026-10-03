@@ -237,61 +237,66 @@
       "id": "jo1_north_american_tour_animal_2026_toronto_1002",
       "tourId": "jo1_north_american_tour_animal_2026",
       "venue": "DANFORTH MUSIC HALL（Toronto）",
-      "performanceAt": "2026-10-03T08:30:00+09:00",
+      "performanceAt": "2026-10-02T19:30:00-04:00",
       "doorOpenAt": "2026-10-03T07:30:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://jo1.jp/news/detail/6116",
-      "lastVerifiedAt": "2026-08-17T22:58:00+09:00"
+      "sourceUrl": "https://cloud.jo1.jp/news/detail/6237",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "performanceDate": "2026-10-02"
     },
     {
       "id": "jo1_north_american_tour_animal_2026_newyork_1004",
       "tourId": "jo1_north_american_tour_animal_2026",
-      "venue": "TERMINAL 5（New York）",
-      "performanceAt": "2026-10-05T08:30:00+09:00",
+      "venue": "WEBSTER HALL（New York）",
+      "performanceAt": "2026-10-04T19:30:00-04:00",
       "doorOpenAt": "2026-10-05T07:30:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://jo1.jp/news/detail/6116",
-      "lastVerifiedAt": "2026-08-17T22:58:00+09:00"
+      "sourceUrl": "https://cloud.jo1.jp/news/detail/6237",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "performanceDate": "2026-10-04"
     },
     {
       "id": "jo1_north_american_tour_animal_2026_chicago_1006",
       "tourId": "jo1_north_american_tour_animal_2026",
       "venue": "COPERNICUS CENTER（Chicago）",
-      "performanceAt": "2026-10-07T09:30:00+09:00",
+      "performanceAt": "2026-10-06T19:30:00-05:00",
       "doorOpenAt": "2026-10-07T08:30:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://jo1.jp/news/detail/6116",
-      "lastVerifiedAt": "2026-08-17T22:58:00+09:00"
+      "sourceUrl": "https://cloud.jo1.jp/news/detail/6237",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "performanceDate": "2026-10-06"
     },
     {
       "id": "jo1_north_american_tour_animal_2026_sanfrancisco_1008",
       "tourId": "jo1_north_american_tour_animal_2026",
       "venue": "THE WARFIELD（San Francisco）",
-      "performanceAt": "2026-10-09T11:30:00+09:00",
+      "performanceAt": "2026-10-08T19:30:00-07:00",
       "doorOpenAt": "2026-10-09T10:30:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://jo1.jp/news/detail/6116",
-      "lastVerifiedAt": "2026-08-17T22:58:00+09:00"
+      "sourceUrl": "https://cloud.jo1.jp/news/detail/6237",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "performanceDate": "2026-10-08"
     },
     {
       "id": "jo1_north_american_tour_animal_2026_losangeles_1011",
       "tourId": "jo1_north_american_tour_animal_2026",
       "venue": "THE NOVO（Los Angeles）",
-      "performanceAt": "2026-10-12T11:30:00+09:00",
+      "performanceAt": "2026-10-11T19:30:00-07:00",
       "doorOpenAt": "2026-10-12T10:30:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://jo1.jp/news/detail/6116",
-      "lastVerifiedAt": "2026-08-17T22:58:00+09:00"
+      "sourceUrl": "https://cloud.jo1.jp/news/detail/6237",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "performanceDate": "2026-10-11"
     },
     {
       "id": "jo1_aao_showcase_tour_2026_fukushima",
