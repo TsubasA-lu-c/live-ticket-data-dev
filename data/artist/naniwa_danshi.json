@@ -847,6 +847,29 @@
       "source": "system",
       "sourceUrl": "https://starto.jp/s/p/live/10489",
       "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "naniwa_danshi_nd5_2026_general_chiba",
+      "tourId": "naniwa_danshi_nd5_2026",
+      "type": "一般発売（千葉公演・先着）",
+      "entryStartAt": "2026-10-04T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "naniwa_danshi_nd5_2026_chiba_1024_1300",
+        "naniwa_danshi_nd5_2026_chiba_1024_1800",
+        "naniwa_danshi_nd5_2026_chiba_1025_1230",
+        "naniwa_danshi_nd5_2026_chiba_1025_1730",
+        "naniwa_danshi_nd5_2026_chiba_1026_1800",
+        "naniwa_danshi_nd5_2026_chiba_1027_1300",
+        "naniwa_danshi_nd5_2026_chiba_1027_1800",
+        "naniwa_danshi_nd5_2026_chiba_1028_1500"
+      ],
+      "sourceUrl": "https://starto.jp/s/p/live/10489",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
