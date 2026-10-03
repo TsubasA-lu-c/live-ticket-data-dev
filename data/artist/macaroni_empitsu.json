@@ -845,6 +845,39 @@
       "sourceUrl": "https://macaroniempitsu.com/news",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00",
       "note": "apply時に既存Performance日付から決定論的にentryStartAt/entryEndAtを算出する。"
+    },
+    {
+      "id": "macaroni_empitsu_vol22_2026_fukuoka_additional_1004",
+      "tourId": "macaroni_empitsu_vol22_2026",
+      "type": "福岡公演追加販売（先着）",
+      "entryStartAt": "2026-10-04T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "macaroni_empitsu_vol22_2026_fukuoka_1024",
+        "macaroni_empitsu_vol22_2026_fukuoka_1025"
+      ],
+      "sourceUrl": "https://macaroniempitsu.com/news/21165.html",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "macaroni_empitsu_okkake_sports_festival_2026_fc_2nd",
+      "tourId": "macaroni_empitsu_okkake_sports_festival_2026",
+      "type": "OKKAKE会員限定2次先行",
+      "entryStartAt": "2026-10-03T12:00:00+09:00",
+      "entryEndAt": "2026-10-19T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "macaroni_empitsu_okkake_sports_festival_2026_yoyogi_1104"
+      ],
+      "sourceUrl": "https://macaroniempitsu.com/news/21171.html",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

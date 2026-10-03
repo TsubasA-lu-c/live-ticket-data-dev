@@ -31,6 +31,42 @@
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/zenjinmito_2026",
       "lastVerifiedAt": "2026-08-23T07:44:00+09:00"
+    },
+    {
+      "id": "mrs_green_apple_harmony2_2027",
+      "title": "Mrs. GREEN APPLE on “Harmony2”",
+      "startDate": "2027-02-20T00:00:00+09:00",
+      "endDate": "2027-06-02T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "Ringo Jamシート",
+          "amount": 23000
+        },
+        {
+          "label": "SS指定",
+          "amount": 18000
+        },
+        {
+          "label": "S指定",
+          "amount": 15000
+        },
+        {
+          "label": "着席指定",
+          "amount": 18000
+        },
+        {
+          "label": "Ringo Jamバリアフリー指定",
+          "amount": 23000
+        },
+        {
+          "label": "バリアフリー指定",
+          "amount": 18000
+        }
+      ],
+      "sourceUrl": "https://mrsgreenapple.com/news/detail/23132",
+      "artistId": "mrs_green_apple",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -441,6 +477,266 @@
       "lastVerifiedAt": "2026-08-23T07:44:00+09:00",
       "kind": "oneman",
       "eventName": null
+    },
+    {
+      "id": "mrs_green_apple_harmony2_2027_yokohama_0220",
+      "performanceDate": "2027-02-20",
+      "performanceAt": "2027-02-20T18:00:00+09:00",
+      "doorOpenAt": "2027-02-20T16:30:00+09:00",
+      "venue": "Kアリーナ横浜",
+      "kind": "oneman",
+      "eventName": null,
+      "sourceUrl": "https://mrsgreenapple.com/news/detail/23132",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "mrs_green_apple_harmony2_2027"
+    },
+    {
+      "id": "mrs_green_apple_harmony2_2027_yokohama_0221",
+      "performanceDate": "2027-02-21",
+      "performanceAt": "2027-02-21T18:00:00+09:00",
+      "doorOpenAt": "2027-02-21T16:30:00+09:00",
+      "venue": "Kアリーナ横浜",
+      "kind": "oneman",
+      "eventName": null,
+      "sourceUrl": "https://mrsgreenapple.com/news/detail/23132",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "mrs_green_apple_harmony2_2027"
+    },
+    {
+      "id": "mrs_green_apple_harmony2_2027_yokohama_0227",
+      "performanceDate": "2027-02-27",
+      "performanceAt": "2027-02-27T18:00:00+09:00",
+      "doorOpenAt": "2027-02-27T16:30:00+09:00",
+      "venue": "Kアリーナ横浜",
+      "kind": "oneman",
+      "eventName": null,
+      "sourceUrl": "https://mrsgreenapple.com/news/detail/23132",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "mrs_green_apple_harmony2_2027"
+    },
+    {
+      "id": "mrs_green_apple_harmony2_2027_yokohama_0228",
+      "performanceDate": "2027-02-28",
+      "performanceAt": "2027-02-28T18:00:00+09:00",
+      "doorOpenAt": "2027-02-28T16:30:00+09:00",
+      "venue": "Kアリーナ横浜",
+      "kind": "oneman",
+      "eventName": null,
+      "sourceUrl": "https://mrsgreenapple.com/news/detail/23132",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "mrs_green_apple_harmony2_2027"
+    },
+    {
+      "id": "mrs_green_apple_harmony2_2027_yokohama_0306",
+      "performanceDate": "2027-03-06",
+      "performanceAt": "2027-03-06T18:00:00+09:00",
+      "doorOpenAt": "2027-03-06T16:30:00+09:00",
+      "venue": "Kアリーナ横浜",
+      "kind": "oneman",
+      "eventName": null,
+      "sourceUrl": "https://mrsgreenapple.com/news/detail/23132",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "mrs_green_apple_harmony2_2027"
+    },
+    {
+      "id": "mrs_green_apple_harmony2_2027_yokohama_0307",
+      "performanceDate": "2027-03-07",
+      "performanceAt": "2027-03-07T18:00:00+09:00",
+      "doorOpenAt": "2027-03-07T16:30:00+09:00",
+      "venue": "Kアリーナ横浜",
+      "kind": "oneman",
+      "eventName": null,
+      "sourceUrl": "https://mrsgreenapple.com/news/detail/23132",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "mrs_green_apple_harmony2_2027"
+    },
+    {
+      "id": "mrs_green_apple_harmony2_2027_yokohama_0310",
+      "performanceDate": "2027-03-10",
+      "performanceAt": "2027-03-10T19:00:00+09:00",
+      "doorOpenAt": "2027-03-10T17:30:00+09:00",
+      "venue": "Kアリーナ横浜",
+      "kind": "oneman",
+      "eventName": null,
+      "sourceUrl": "https://mrsgreenapple.com/news/detail/23132",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "mrs_green_apple_harmony2_2027"
+    },
+    {
+      "id": "mrs_green_apple_harmony2_2027_yokohama_0311",
+      "performanceDate": "2027-03-11",
+      "performanceAt": "2027-03-11T19:00:00+09:00",
+      "doorOpenAt": "2027-03-11T17:30:00+09:00",
+      "venue": "Kアリーナ横浜",
+      "kind": "oneman",
+      "eventName": null,
+      "sourceUrl": "https://mrsgreenapple.com/news/detail/23132",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "mrs_green_apple_harmony2_2027"
+    },
+    {
+      "id": "mrs_green_apple_harmony2_2027_yokohama_0316",
+      "performanceDate": "2027-03-16",
+      "performanceAt": "2027-03-16T19:00:00+09:00",
+      "doorOpenAt": "2027-03-16T17:30:00+09:00",
+      "venue": "Kアリーナ横浜",
+      "kind": "oneman",
+      "eventName": null,
+      "sourceUrl": "https://mrsgreenapple.com/news/detail/23132",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "mrs_green_apple_harmony2_2027"
+    },
+    {
+      "id": "mrs_green_apple_harmony2_2027_yokohama_0317",
+      "performanceDate": "2027-03-17",
+      "performanceAt": "2027-03-17T19:00:00+09:00",
+      "doorOpenAt": "2027-03-17T17:30:00+09:00",
+      "venue": "Kアリーナ横浜",
+      "kind": "oneman",
+      "eventName": null,
+      "sourceUrl": "https://mrsgreenapple.com/news/detail/23132",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "mrs_green_apple_harmony2_2027"
+    },
+    {
+      "id": "mrs_green_apple_harmony2_2027_yokohama_0421",
+      "performanceDate": "2027-04-21",
+      "performanceAt": "2027-04-21T19:00:00+09:00",
+      "doorOpenAt": "2027-04-21T17:30:00+09:00",
+      "venue": "Kアリーナ横浜",
+      "kind": "oneman",
+      "eventName": null,
+      "sourceUrl": "https://mrsgreenapple.com/news/detail/23132",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "mrs_green_apple_harmony2_2027"
+    },
+    {
+      "id": "mrs_green_apple_harmony2_2027_yokohama_0422",
+      "performanceDate": "2027-04-22",
+      "performanceAt": "2027-04-22T19:00:00+09:00",
+      "doorOpenAt": "2027-04-22T17:30:00+09:00",
+      "venue": "Kアリーナ横浜",
+      "kind": "oneman",
+      "eventName": null,
+      "sourceUrl": "https://mrsgreenapple.com/news/detail/23132",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "mrs_green_apple_harmony2_2027"
+    },
+    {
+      "id": "mrs_green_apple_harmony2_2027_yokohama_0508",
+      "performanceDate": "2027-05-08",
+      "performanceAt": "2027-05-08T18:00:00+09:00",
+      "doorOpenAt": "2027-05-08T16:30:00+09:00",
+      "venue": "Kアリーナ横浜",
+      "kind": "oneman",
+      "eventName": null,
+      "sourceUrl": "https://mrsgreenapple.com/news/detail/23132",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "mrs_green_apple_harmony2_2027"
+    },
+    {
+      "id": "mrs_green_apple_harmony2_2027_yokohama_0509",
+      "performanceDate": "2027-05-09",
+      "performanceAt": "2027-05-09T18:00:00+09:00",
+      "doorOpenAt": "2027-05-09T16:30:00+09:00",
+      "venue": "Kアリーナ横浜",
+      "kind": "oneman",
+      "eventName": null,
+      "sourceUrl": "https://mrsgreenapple.com/news/detail/23132",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "mrs_green_apple_harmony2_2027"
+    },
+    {
+      "id": "mrs_green_apple_harmony2_2027_yokohama_0512",
+      "performanceDate": "2027-05-12",
+      "performanceAt": "2027-05-12T19:00:00+09:00",
+      "doorOpenAt": "2027-05-12T17:30:00+09:00",
+      "venue": "Kアリーナ横浜",
+      "kind": "oneman",
+      "eventName": null,
+      "sourceUrl": "https://mrsgreenapple.com/news/detail/23132",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "mrs_green_apple_harmony2_2027"
+    },
+    {
+      "id": "mrs_green_apple_harmony2_2027_yokohama_0513",
+      "performanceDate": "2027-05-13",
+      "performanceAt": "2027-05-13T19:00:00+09:00",
+      "doorOpenAt": "2027-05-13T17:30:00+09:00",
+      "venue": "Kアリーナ横浜",
+      "kind": "oneman",
+      "eventName": null,
+      "sourceUrl": "https://mrsgreenapple.com/news/detail/23132",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "mrs_green_apple_harmony2_2027"
+    },
+    {
+      "id": "mrs_green_apple_harmony2_2027_yokohama_0518",
+      "performanceDate": "2027-05-18",
+      "performanceAt": "2027-05-18T19:00:00+09:00",
+      "doorOpenAt": "2027-05-18T17:30:00+09:00",
+      "venue": "Kアリーナ横浜",
+      "kind": "oneman",
+      "eventName": null,
+      "sourceUrl": "https://mrsgreenapple.com/news/detail/23132",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "mrs_green_apple_harmony2_2027"
+    },
+    {
+      "id": "mrs_green_apple_harmony2_2027_yokohama_0519",
+      "performanceDate": "2027-05-19",
+      "performanceAt": "2027-05-19T19:00:00+09:00",
+      "doorOpenAt": "2027-05-19T17:30:00+09:00",
+      "venue": "Kアリーナ横浜",
+      "kind": "oneman",
+      "eventName": null,
+      "sourceUrl": "https://mrsgreenapple.com/news/detail/23132",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "mrs_green_apple_harmony2_2027"
+    },
+    {
+      "id": "mrs_green_apple_harmony2_2027_yokohama_0601",
+      "performanceDate": "2027-06-01",
+      "performanceAt": "2027-06-01T19:00:00+09:00",
+      "doorOpenAt": "2027-06-01T17:30:00+09:00",
+      "venue": "Kアリーナ横浜",
+      "kind": "oneman",
+      "eventName": null,
+      "sourceUrl": "https://mrsgreenapple.com/news/detail/23132",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "mrs_green_apple_harmony2_2027"
+    },
+    {
+      "id": "mrs_green_apple_harmony2_2027_yokohama_0602",
+      "performanceDate": "2027-06-02",
+      "performanceAt": "2027-06-02T19:00:00+09:00",
+      "doorOpenAt": "2027-06-02T17:30:00+09:00",
+      "venue": "Kアリーナ横浜",
+      "kind": "oneman",
+      "eventName": null,
+      "sourceUrl": "https://mrsgreenapple.com/news/detail/23132",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "mrs_green_apple_harmony2_2027"
     }
   ],
   "lotteries": [
@@ -618,6 +914,58 @@
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/news/detail/23017",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "mrs_green_apple_harmony2_2027_ringojam_annual_cd_fastest",
+      "type": "Ringo Jam年会員＋CD購入者限定 最速先行（抽選）",
+      "entryStartAt": "2026-09-30T22:00:00+09:00",
+      "entryEndAt": "2026-10-13T23:59:00+09:00",
+      "resultAt": "2026-10-29T20:00:00+09:00",
+      "paymentStartAt": "2026-10-29T20:00:00+09:00",
+      "paymentEndAt": "2026-11-02T23:59:00+09:00",
+      "performanceIds": [
+        "mrs_green_apple_harmony2_2027_yokohama_0220",
+        "mrs_green_apple_harmony2_2027_yokohama_0221",
+        "mrs_green_apple_harmony2_2027_yokohama_0227",
+        "mrs_green_apple_harmony2_2027_yokohama_0228",
+        "mrs_green_apple_harmony2_2027_yokohama_0306",
+        "mrs_green_apple_harmony2_2027_yokohama_0307",
+        "mrs_green_apple_harmony2_2027_yokohama_0310",
+        "mrs_green_apple_harmony2_2027_yokohama_0311",
+        "mrs_green_apple_harmony2_2027_yokohama_0316",
+        "mrs_green_apple_harmony2_2027_yokohama_0317",
+        "mrs_green_apple_harmony2_2027_yokohama_0421",
+        "mrs_green_apple_harmony2_2027_yokohama_0422",
+        "mrs_green_apple_harmony2_2027_yokohama_0508",
+        "mrs_green_apple_harmony2_2027_yokohama_0509",
+        "mrs_green_apple_harmony2_2027_yokohama_0512",
+        "mrs_green_apple_harmony2_2027_yokohama_0513",
+        "mrs_green_apple_harmony2_2027_yokohama_0518",
+        "mrs_green_apple_harmony2_2027_yokohama_0519",
+        "mrs_green_apple_harmony2_2027_yokohama_0601",
+        "mrs_green_apple_harmony2_2027_yokohama_0602"
+      ],
+      "sourceUrl": "https://mrsgreenapple.com/news/detail/23132",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "mrs_green_apple_harmony2_2027"
+    },
+    {
+      "id": "mrs_green_apple_ringojam_shadows_2026_kagawa_lastminute",
+      "tourId": "mrs_green_apple_ringojam_shadows_2026",
+      "type": "香川公演 直前追加販売（Ringo Jam会員限定・先着）",
+      "entryStartAt": "2026-09-30T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mrs_green_apple_ringojam_shadows_2026_kagawa_0930",
+        "mrs_green_apple_ringojam_shadows_2026_kagawa_1001"
+      ],
+      "sourceUrl": "https://mrsgreenapple.com/special_site/shadows/detail/327",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
