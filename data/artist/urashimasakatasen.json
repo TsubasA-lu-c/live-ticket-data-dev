@@ -464,15 +464,117 @@
       "id": "urashimasakatasen_halloweeeen_2026_saisoku",
       "tourId": "urashimasakatasen_halloweeeen_2026",
       "type": "最速先行（プレオーダー抽選）",
-      "entryStartAt": "2026-07-20T21:00:00+09:00",
+      "entryStartAt": "2026-07-20T22:00:00+09:00",
       "entryEndAt": "2026-08-02T23:59:00+09:00",
       "resultAt": "2026-08-08T13:00:00+09:00",
       "paymentStartAt": null,
       "paymentEndAt": "2026-08-10T21:00:00+09:00",
       "performanceIds": null,
       "source": "system",
-      "sourceUrl": "https://eplus.jp/sf/s/page/irg/usss_hw26mg_saisoku",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "sourceUrl": "https://eplus.jp/sf/detail/1067170001",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "urashimasakatasen_halloweeeen_2026_x_presale",
+      "tourId": "urashimasakatasen_halloweeeen_2026",
+      "type": "X先行（抽選）",
+      "entryStartAt": "2026-08-12T18:00:00+09:00",
+      "entryEndAt": "2026-08-24T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "urashimasakatasen_halloweeeen_2026_tokyo_1010",
+        "urashimasakatasen_halloweeeen_2026_tokyo_1011",
+        "urashimasakatasen_halloweeeen_2026_hyogo_1024",
+        "urashimasakatasen_halloweeeen_2026_hyogo_1025"
+      ],
+      "sourceUrl": "https://eplus.jp/sf/detail/1067170001",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "urashimasakatasen_halloweeeen_2026_familymart",
+      "tourId": "urashimasakatasen_halloweeeen_2026",
+      "type": "FamilyMart先行（抽選）",
+      "entryStartAt": "2026-09-01T18:00:00+09:00",
+      "entryEndAt": "2026-09-07T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "urashimasakatasen_halloweeeen_2026_tokyo_1010",
+        "urashimasakatasen_halloweeeen_2026_tokyo_1011",
+        "urashimasakatasen_halloweeeen_2026_hyogo_1024",
+        "urashimasakatasen_halloweeeen_2026_hyogo_1025"
+      ],
+      "sourceUrl": "https://eplus.jp/sf/detail/1067170001",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "urashimasakatasen_halloweeeen_2026_general_20261010",
+      "tourId": "urashimasakatasen_halloweeeen_2026",
+      "type": "一般発売（先着・2026-10-10公演）",
+      "entryStartAt": "2026-09-19T10:00:00+09:00",
+      "entryEndAt": "2026-10-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "urashimasakatasen_halloweeeen_2026_tokyo_1010"
+      ],
+      "sourceUrl": "https://eplus.jp/sf/detail/1067170001",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "urashimasakatasen_halloweeeen_2026_general_20261011",
+      "tourId": "urashimasakatasen_halloweeeen_2026",
+      "type": "一般発売（先着・2026-10-11公演）",
+      "entryStartAt": "2026-09-19T10:00:00+09:00",
+      "entryEndAt": "2026-10-10T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "urashimasakatasen_halloweeeen_2026_tokyo_1011"
+      ],
+      "sourceUrl": "https://eplus.jp/sf/detail/1067170001",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "urashimasakatasen_halloweeeen_2026_general_20261024",
+      "tourId": "urashimasakatasen_halloweeeen_2026",
+      "type": "一般発売（先着・2026-10-24公演）",
+      "entryStartAt": "2026-09-19T10:00:00+09:00",
+      "entryEndAt": "2026-10-23T20:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "urashimasakatasen_halloweeeen_2026_hyogo_1024"
+      ],
+      "sourceUrl": "https://eplus.jp/sf/detail/1067170001",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "urashimasakatasen_halloweeeen_2026_general_20261025",
+      "tourId": "urashimasakatasen_halloweeeen_2026",
+      "type": "一般発売（先着・2026-10-25公演）",
+      "entryStartAt": "2026-09-19T10:00:00+09:00",
+      "entryEndAt": "2026-10-24T20:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "urashimasakatasen_halloweeeen_2026_hyogo_1025"
+      ],
+      "sourceUrl": "https://eplus.jp/sf/detail/1067170001",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
