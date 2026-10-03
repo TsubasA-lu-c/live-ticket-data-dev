@@ -624,7 +624,8 @@
       "eventName": "SBI GROUP presents TGC TOYAMA 2026 by TOKYO GIRLS COLLECTION",
       "sourceUrl": "https://not-equal-me.jp/news/detail/7788",
       "source": "system",
-      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "not_equal_me_tgc_toyama_2026"
     }
   ],
   "lotteries": [
@@ -852,7 +853,8 @@
       ],
       "sourceUrl": "https://tgc.girlswalker.com/toyama/2026/",
       "source": "system",
-      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "not_equal_me_tgc_toyama_2026"
     }
   ],
   "appleMusicTracks": [
