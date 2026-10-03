@@ -2149,6 +2149,33 @@
       "source": "system",
       "sourceUrl": "https://musical-toukenranbu.jp/pages/shinkenranbusai2026",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_aichi_same_day_exchange",
+      "tourId": "touken_ranbu_musical_tsukiyo_ichiru_2026",
+      "type": "愛知公演 S席・当日引換券",
+      "entryStartAt": "2026-10-02T18:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "touken_ranbu_musical_tsukiyo_ichiru_2026_aichi_1003",
+        "touken_ranbu_musical_tsukiyo_ichiru_2026_aichi_1004_1300",
+        "touken_ranbu_musical_tsukiyo_ichiru_2026_aichi_1004_1830",
+        "touken_ranbu_musical_tsukiyo_ichiru_2026_aichi_1006_1300",
+        "touken_ranbu_musical_tsukiyo_ichiru_2026_aichi_1006_1830",
+        "touken_ranbu_musical_tsukiyo_ichiru_2026_aichi_1007_1300",
+        "touken_ranbu_musical_tsukiyo_ichiru_2026_aichi_1007_1830",
+        "touken_ranbu_musical_tsukiyo_ichiru_2026_aichi_1008",
+        "touken_ranbu_musical_tsukiyo_ichiru_2026_aichi_1009",
+        "touken_ranbu_musical_tsukiyo_ichiru_2026_aichi_1010_1300",
+        "touken_ranbu_musical_tsukiyo_ichiru_2026_aichi_1010_1830",
+        "touken_ranbu_musical_tsukiyo_ichiru_2026_aichi_1011"
+      ],
+      "sourceUrl": "https://musical-toukenranbu.jp/contents/help_musical/autumn2026_aichi",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
