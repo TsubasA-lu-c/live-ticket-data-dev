@@ -956,6 +956,40 @@
       "sourceUrl": "https://boynextdoor-official.jp/news/43868a1b8b8b",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00",
       "note": "対象商品の予約期間は9/25 17:00〜9/27 23:59。応募自体は9/29 18:00〜10/2 23:59。"
+    },
+    {
+      "id": "boynextdoor_knock_on_vol2_chiba_onedoor_additional_firstcome",
+      "tourId": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan",
+      "type": "千葉公演 ONEDOOR Membership (JP)会員追加先着販売",
+      "entryStartAt": "2026-10-03T13:00:00+09:00",
+      "entryEndAt": "2026-10-06T18:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20261010_12",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20261011_13"
+      ],
+      "sourceUrl": "https://boynextdoor-official.jp/News/419bbc9a12e6",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "boynextdoor_knock_on_vol2_chiba_general_additional_firstcome",
+      "tourId": "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan",
+      "type": "千葉公演 一般追加先着販売",
+      "entryStartAt": "2026-10-06T19:00:00+09:00",
+      "entryEndAt": "2026-10-08T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20261010_12",
+        "boynextdoor_boynextdoor_tour_knock_on_vol_2_in_japan_20261011_13"
+      ],
+      "sourceUrl": "https://boynextdoor-official.jp/News/419bbc9a12e6",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
