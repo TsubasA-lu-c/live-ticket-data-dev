@@ -76,7 +76,122 @@
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
     }
   ],
-  "lotteries": [],
+  "lotteries": [
+    {
+      "id": "seventeen_yakusoku_fanmeeting_2026_carat_1st",
+      "tourId": "seventeen_yakusoku_fanmeeting_2026",
+      "type": "CARAT会員先行抽選",
+      "entryStartAt": "2026-04-02T13:00:00+09:00",
+      "entryEndAt": "2026-04-05T23:59:00+09:00",
+      "resultAt": "2026-04-10T11:00:00+09:00",
+      "paymentStartAt": "2026-04-10T11:00:00+09:00",
+      "paymentEndAt": "2026-04-12T23:00:00+09:00",
+      "performanceIds": [
+        "seventeen_yakusoku_fanmeeting_2026_tokyo_0513",
+        "seventeen_yakusoku_fanmeeting_2026_tokyo_0514",
+        "seventeen_yakusoku_fanmeeting_2026_osaka_0523",
+        "seventeen_yakusoku_fanmeeting_2026_osaka_0524"
+      ],
+      "sourceUrl": "https://www.seventeen-17.jp/statics/2026_yakusoku",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "seventeen_yakusoku_fanmeeting_2026_caramoba_1st",
+      "tourId": "seventeen_yakusoku_fanmeeting_2026",
+      "type": "カラモバ会員先行抽選",
+      "entryStartAt": "2026-04-07T13:00:00+09:00",
+      "entryEndAt": "2026-04-10T23:59:00+09:00",
+      "resultAt": "2026-04-17T11:00:00+09:00",
+      "paymentStartAt": "2026-04-17T11:00:00+09:00",
+      "paymentEndAt": "2026-04-19T23:00:00+09:00",
+      "performanceIds": [
+        "seventeen_yakusoku_fanmeeting_2026_tokyo_0513",
+        "seventeen_yakusoku_fanmeeting_2026_tokyo_0514",
+        "seventeen_yakusoku_fanmeeting_2026_osaka_0523",
+        "seventeen_yakusoku_fanmeeting_2026_osaka_0524"
+      ],
+      "sourceUrl": "https://www.seventeen-17.jp/statics/2026_yakusoku",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "seventeen_yakusoku_fanmeeting_2026_carat_2nd",
+      "tourId": "seventeen_yakusoku_fanmeeting_2026",
+      "type": "CARAT会員2次先行抽選",
+      "entryStartAt": "2026-04-17T13:00:00+09:00",
+      "entryEndAt": "2026-04-19T23:59:00+09:00",
+      "resultAt": "2026-04-24T19:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "seventeen_yakusoku_fanmeeting_2026_tokyo_0513",
+        "seventeen_yakusoku_fanmeeting_2026_tokyo_0514",
+        "seventeen_yakusoku_fanmeeting_2026_osaka_0523",
+        "seventeen_yakusoku_fanmeeting_2026_osaka_0524"
+      ],
+      "sourceUrl": "https://www.seventeen-17.jp/statics/2026_yakusoku",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "seventeen_yakusoku_fanmeeting_2026_caramoba_2nd",
+      "tourId": "seventeen_yakusoku_fanmeeting_2026",
+      "type": "カラモバ会員2次先行抽選",
+      "entryStartAt": "2026-04-17T13:00:00+09:00",
+      "entryEndAt": "2026-04-19T23:59:00+09:00",
+      "resultAt": "2026-04-24T19:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "seventeen_yakusoku_fanmeeting_2026_tokyo_0513",
+        "seventeen_yakusoku_fanmeeting_2026_tokyo_0514",
+        "seventeen_yakusoku_fanmeeting_2026_osaka_0523",
+        "seventeen_yakusoku_fanmeeting_2026_osaka_0524"
+      ],
+      "sourceUrl": "https://www.seventeen-17.jp/statics/2026_yakusoku",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "seventeen_yakusoku_fanmeeting_2026_lawson",
+      "tourId": "seventeen_yakusoku_fanmeeting_2026",
+      "type": "ローチケLEncoreカード会員抽選先行・プレリクエスト抽選先行",
+      "entryStartAt": "2026-04-24T20:00:00+09:00",
+      "entryEndAt": "2026-04-26T23:59:00+09:00",
+      "resultAt": "2026-04-29T15:00:00+09:00",
+      "paymentStartAt": "2026-04-29T15:00:00+09:00",
+      "paymentEndAt": null,
+      "performanceIds": [
+        "seventeen_yakusoku_fanmeeting_2026_tokyo_0513",
+        "seventeen_yakusoku_fanmeeting_2026_tokyo_0514",
+        "seventeen_yakusoku_fanmeeting_2026_osaka_0523",
+        "seventeen_yakusoku_fanmeeting_2026_osaka_0524"
+      ],
+      "sourceUrl": "https://www.seventeen-17.jp/statics/2026_yakusoku",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "seventeen_yakusoku_fanmeeting_2026_general",
+      "tourId": "seventeen_yakusoku_fanmeeting_2026",
+      "type": "一般販売（先着）",
+      "entryStartAt": "2026-05-02T13:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "seventeen_yakusoku_fanmeeting_2026_tokyo_0513",
+        "seventeen_yakusoku_fanmeeting_2026_tokyo_0514",
+        "seventeen_yakusoku_fanmeeting_2026_osaka_0523",
+        "seventeen_yakusoku_fanmeeting_2026_osaka_0524"
+      ],
+      "sourceUrl": "https://www.seventeen-17.jp/statics/2026_yakusoku",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    }
+  ],
   "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
   "appleMusicTracks": [
     {
