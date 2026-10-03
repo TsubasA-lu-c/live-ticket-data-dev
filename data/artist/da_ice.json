@@ -1272,6 +1272,74 @@
       "source": "system",
       "sourceUrl": "https://www.da-ice.jp/en/news/detail.php?id=1135885",
       "lastVerifiedAt": "2026-09-10T19:32:37+09:00"
+    },
+    {
+      "id": "da_ice_day_hall_phase_2026_official_side_b_0910",
+      "tourId": "da_ice_day_hall_phase_2026",
+      "type": "オフィシャル先行（Side B / 抽選）",
+      "entryStartAt": "2026-09-10T15:00:00+09:00",
+      "entryEndAt": "2026-09-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "da_ice_day_hall_phase_2026_osaka_1014",
+        "da_ice_day_hall_phase_2026_gifu_1021",
+        "da_ice_day_hall_phase_2026_oita_1027",
+        "da_ice_day_hall_phase_2026_wakayama_1029",
+        "da_ice_day_hall_phase_2026_ehime_1106",
+        "da_ice_day_hall_phase_2026_tokyo_1118",
+        "da_ice_day_hall_phase_2026_sendai_1129",
+        "da_ice_day_hall_phase_2026_kurashiki_1201",
+        "da_ice_day_hall_phase_2026_nagano_1203",
+        "da_ice_day_hall_phase_2026_takasaki_1205",
+        "da_ice_day_hall_phase_2026_ichikawa_1210"
+      ],
+      "sourceUrl": "https://www.da-ice.jp/schedule/tour.php?id=1003063",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "da_ice_day_hall_phase_2026_lawson_fastest_side_a_0910",
+      "tourId": "da_ice_day_hall_phase_2026",
+      "type": "ローソンチケット最速先行（Side A / 抽選）",
+      "entryStartAt": "2026-09-10T15:00:00+09:00",
+      "entryEndAt": "2026-09-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "da_ice_day_hall_phase_2026_osaka_1013",
+        "da_ice_day_hall_phase_2026_aichi_1022",
+        "da_ice_day_hall_phase_2026_fukuoka_1025",
+        "da_ice_day_hall_phase_2026_yokosuka_1102",
+        "da_ice_day_hall_phase_2026_omiya_1104",
+        "da_ice_day_hall_phase_2026_kyoto_1108",
+        "da_ice_day_hall_phase_2026_tokyo_1117",
+        "da_ice_day_hall_phase_2026_kagawa_1124",
+        "da_ice_day_hall_phase_2026_kanazawa_1126",
+        "da_ice_day_hall_phase_2026_hiroshima_1207",
+        "da_ice_day_hall_phase_2026_sapporo_1215"
+      ],
+      "sourceUrl": "https://www.da-ice.jp/schedule/tour.php?id=1003063",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "da_ice_dream_festival_2026_official_3rd",
+      "tourId": "da_ice_dream_festival_2026",
+      "type": "オフィシャル3次先行（抽選）",
+      "entryStartAt": "2026-09-14T12:00:00+09:00",
+      "entryEndAt": "2026-09-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "da_ice_dream_festival_2026_1122"
+      ],
+      "sourceUrl": "https://dreamfestival.jp/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
