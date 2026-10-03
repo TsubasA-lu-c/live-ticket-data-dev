@@ -20,6 +20,22 @@
       "source": "system",
       "sourceUrl": "https://starto.jp/s/p/live/10431",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "timelesz_member_endless_shock_memories_continue_2026_tokyo",
+      "title": "【佐藤勝利・寺西拓人・原嘉孝】Endless SHOCK Memories -CONTINUE-",
+      "startDate": "2026-11-28T00:00:00+09:00",
+      "endDate": "2026-11-30T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 14700
+        }
+      ],
+      "sourceUrl": "https://www.tohostage.com/shock/",
+      "artistId": "timelesz",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -358,6 +374,58 @@
       "source": "system",
       "sourceUrl": "https://starto.jp/s/p/live/10431",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "timelesz_member_endless_shock_memories_continue_2026_tokyo_1128_1800",
+      "performanceDate": "2026-11-28",
+      "performanceAt": "2026-11-28T18:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "東京ガーデンシアター",
+      "kind": "oneman",
+      "eventName": "Endless SHOCK Memories -CONTINUE-",
+      "sourceUrl": "https://www.tohostage.com/shock/ticket_tokyo.html",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "timelesz_member_endless_shock_memories_continue_2026_tokyo"
+    },
+    {
+      "id": "timelesz_member_endless_shock_memories_continue_2026_tokyo_1129_1300",
+      "performanceDate": "2026-11-29",
+      "performanceAt": "2026-11-29T13:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "東京ガーデンシアター",
+      "kind": "oneman",
+      "eventName": "Endless SHOCK Memories -CONTINUE-",
+      "sourceUrl": "https://www.tohostage.com/shock/ticket_tokyo.html",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "timelesz_member_endless_shock_memories_continue_2026_tokyo"
+    },
+    {
+      "id": "timelesz_member_endless_shock_memories_continue_2026_tokyo_1129_1900",
+      "performanceDate": "2026-11-29",
+      "performanceAt": "2026-11-29T19:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "東京ガーデンシアター",
+      "kind": "oneman",
+      "eventName": "Endless SHOCK Memories -CONTINUE-",
+      "sourceUrl": "https://www.tohostage.com/shock/ticket_tokyo.html",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "timelesz_member_endless_shock_memories_continue_2026_tokyo"
+    },
+    {
+      "id": "timelesz_member_endless_shock_memories_continue_2026_tokyo_1130_1300",
+      "performanceDate": "2026-11-30",
+      "performanceAt": "2026-11-30T13:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "東京ガーデンシアター",
+      "kind": "oneman",
+      "eventName": "Endless SHOCK Memories -CONTINUE-",
+      "sourceUrl": "https://www.tohostage.com/shock/ticket_tokyo.html",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "timelesz_member_endless_shock_memories_continue_2026_tokyo"
     }
   ],
   "lotteries": [
@@ -403,6 +471,63 @@
       "source": "system",
       "sourceUrl": "https://matsujun911.com/timelesz-2026-ticket-8497",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "timelesz_member_endless_shock_memories_continue_2026_familyclub",
+      "type": "ファミリークラブ会員受付（抽選）",
+      "entryStartAt": "2026-09-24T15:00:00+09:00",
+      "entryEndAt": "2026-09-28T12:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "timelesz_member_endless_shock_memories_continue_2026_tokyo_1128_1800",
+        "timelesz_member_endless_shock_memories_continue_2026_tokyo_1129_1300",
+        "timelesz_member_endless_shock_memories_continue_2026_tokyo_1129_1900",
+        "timelesz_member_endless_shock_memories_continue_2026_tokyo_1130_1300"
+      ],
+      "sourceUrl": "https://starto.jp/s/p/live/10593?artist=52",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "timelesz_member_endless_shock_memories_continue_2026_tokyo"
+    },
+    {
+      "id": "timelesz_member_endless_shock_memories_continue_2026_toho_premium_firstcome",
+      "type": "東宝ナビザーブ TOHO-ONEプレミアム先行先着",
+      "entryStartAt": "2026-11-01T11:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "timelesz_member_endless_shock_memories_continue_2026_tokyo_1128_1800",
+        "timelesz_member_endless_shock_memories_continue_2026_tokyo_1129_1300",
+        "timelesz_member_endless_shock_memories_continue_2026_tokyo_1129_1900",
+        "timelesz_member_endless_shock_memories_continue_2026_tokyo_1130_1300"
+      ],
+      "sourceUrl": "https://www.tohostage.com/shock/ticket_tokyo.html",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "timelesz_member_endless_shock_memories_continue_2026_tokyo"
+    },
+    {
+      "id": "timelesz_member_endless_shock_memories_continue_2026_general",
+      "type": "一般前売（先着）",
+      "entryStartAt": "2026-11-11T11:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "timelesz_member_endless_shock_memories_continue_2026_tokyo_1128_1800",
+        "timelesz_member_endless_shock_memories_continue_2026_tokyo_1129_1300",
+        "timelesz_member_endless_shock_memories_continue_2026_tokyo_1129_1900",
+        "timelesz_member_endless_shock_memories_continue_2026_tokyo_1130_1300"
+      ],
+      "sourceUrl": "https://www.tohostage.com/shock/ticket_tokyo.html",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "timelesz_member_endless_shock_memories_continue_2026_tokyo"
     }
   ],
   "appleMusicTracks": [
