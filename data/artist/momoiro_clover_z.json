@@ -338,6 +338,26 @@
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_valentine_2027",
+      "title": "ニッポン放送 ももいろクローバーZ ももクロくらぶxoxo ～バレンタイン DE NIGHT だぁ～Z！2027「裏」「表」",
+      "startDate": "2027-02-13T00:00:00+09:00",
+      "endDate": "2027-02-14T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定（配信視聴券付）",
+          "amount": 9700
+        },
+        {
+          "label": "お子様ファミリー席（配信視聴券付）",
+          "amount": 9700
+        }
+      ],
+      "sourceUrl": "https://www.momoclo.net/archives/news/260927_01",
+      "artistId": "momoiro_clover_z",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -701,6 +721,32 @@
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_valentine_2027_ura_0213",
+      "performanceDate": "2027-02-13",
+      "performanceAt": "2027-02-13T16:00:00+09:00",
+      "doorOpenAt": "2027-02-13T15:00:00+09:00",
+      "venue": "横浜アリーナ",
+      "kind": "oneman",
+      "eventName": "裏",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260927_01",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "momoiro_clover_z_valentine_2027"
+    },
+    {
+      "id": "momoiro_clover_z_valentine_2027_omote_0214",
+      "performanceDate": "2027-02-14",
+      "performanceAt": "2027-02-14T15:30:00+09:00",
+      "doorOpenAt": "2027-02-14T14:30:00+09:00",
+      "venue": "横浜アリーナ",
+      "kind": "oneman",
+      "eventName": "表",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260927_01",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "momoiro_clover_z_valentine_2027"
     }
   ],
   "lotteries": [
@@ -949,6 +995,74 @@
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260909_01",
       "lastVerifiedAt": "2026-09-10T20:59:10+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_akimonoshinsai_2026_general",
+      "tourId": "momoiro_clover_z_akimonoshinsai_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-08-18T18:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "momoiro_clover_z_akimonoshinsai_2026_chiba_1017",
+        "momoiro_clover_z_akimonoshinsai_2026_chiba_1018"
+      ],
+      "sourceUrl": "https://www.momoclo.net/tohjinsai2026/ticket.html",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_akimonoshinsai_2026_kinrin_rear",
+      "tourId": "momoiro_clover_z_akimonoshinsai_2026",
+      "type": "近隣後方チケット（先着）",
+      "entryStartAt": "2026-10-01T18:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "momoiro_clover_z_akimonoshinsai_2026_chiba_1017",
+        "momoiro_clover_z_akimonoshinsai_2026_chiba_1018"
+      ],
+      "sourceUrl": "https://www.momoclo.net/archives/news/260930_01",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_akimonoshinsai_2026_villager_trial_reserved",
+      "tourId": "momoiro_clover_z_akimonoshinsai_2026",
+      "type": "村民お試し指定席（先着・長生村交流センター）",
+      "entryStartAt": "2026-10-03T09:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "momoiro_clover_z_akimonoshinsai_2026_chiba_1017",
+        "momoiro_clover_z_akimonoshinsai_2026_chiba_1018"
+      ],
+      "sourceUrl": "https://www.momoclo.net/archives/news/260930_01",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_valentine_2027_ae",
+      "type": "ANGEL EYES会員先行（抽選）",
+      "entryStartAt": "2026-09-27T22:00:00+09:00",
+      "entryEndAt": "2026-10-12T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "momoiro_clover_z_valentine_2027_ura_0213",
+        "momoiro_clover_z_valentine_2027_omote_0214"
+      ],
+      "sourceUrl": "https://www.momoclo.net/archives/news/260927_01",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "tourId": "momoiro_clover_z_valentine_2027"
     }
   ],
   "appleMusicTracks": [
