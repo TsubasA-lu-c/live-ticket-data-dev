@@ -59,10 +59,31 @@
       "title": "うたの☆プリンスさまっ♪ 15th Anniversary LIVE WE LOVE ST☆RISH",
       "startDate": "2027-01-23T00:00:00+09:00",
       "endDate": "2027-01-31T00:00:00+09:00",
-      "prices": null,
+      "prices": [
+        {
+          "label": "神奈川 プレミアムアリーナ席",
+          "amount": 20000
+        },
+        {
+          "label": "神奈川 アリーナ席",
+          "amount": 18000
+        },
+        {
+          "label": "神奈川 ロアースタンド席",
+          "amount": 15000
+        },
+        {
+          "label": "神奈川 ミドルスタンド席",
+          "amount": 12000
+        },
+        {
+          "label": "神奈川 アッパースタンド席",
+          "amount": 9000
+        }
+      ],
       "source": "system",
       "sourceUrl": "https://15th.utapri.tv/event/",
-      "lastVerifiedAt": "2026-08-18T07:35:00+09:00"
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -274,57 +295,53 @@
       "id": "uta_no_prince_sama_15th_we_love_starish_2027_yokohama_0123",
       "tourId": "uta_no_prince_sama_15th_we_love_starish_2027",
       "venue": "Kアリーナ横浜",
-      "performanceAt": "2027-01-23T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2027-01-23T17:30:00+09:00",
+      "doorOpenAt": "2027-01-23T15:30:00+09:00",
       "kind": "oneman",
-      "eventName": "うたの☆プリンスさまっ♪ 15th Anniversary LIVE WE LOVE ST☆RISH",
+      "eventName": "うたの☆プリンスさまっ♪ 15th Anniversary LIVE WE LOVE ST☆RISH -SHINING RAINBOW-",
       "source": "system",
       "sourceUrl": "https://15th.utapri.tv/event/",
-      "lastVerifiedAt": "2026-08-28T20:00:00+09:00",
-      "performanceDate": "2027-01-23",
-      "performanceTimeEstimated": true
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "performanceDate": "2027-01-23"
     },
     {
       "id": "uta_no_prince_sama_15th_we_love_starish_2027_yokohama_0124",
       "tourId": "uta_no_prince_sama_15th_we_love_starish_2027",
       "venue": "Kアリーナ横浜",
-      "performanceAt": "2027-01-24T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2027-01-24T15:00:00+09:00",
+      "doorOpenAt": "2027-01-24T13:00:00+09:00",
       "kind": "oneman",
-      "eventName": "うたの☆プリンスさまっ♪ 15th Anniversary LIVE WE LOVE ST☆RISH",
+      "eventName": "うたの☆プリンスさまっ♪ 15th Anniversary LIVE WE LOVE ST☆RISH -SHINING RAINBOW-",
       "source": "system",
       "sourceUrl": "https://15th.utapri.tv/event/",
-      "lastVerifiedAt": "2026-08-28T20:00:00+09:00",
-      "performanceDate": "2027-01-24",
-      "performanceTimeEstimated": true
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "performanceDate": "2027-01-24"
     },
     {
       "id": "uta_no_prince_sama_15th_we_love_starish_2027_aichi_0130",
       "tourId": "uta_no_prince_sama_15th_we_love_starish_2027",
       "venue": "IGアリーナ",
-      "performanceAt": "2027-01-30T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2027-01-30T17:30:00+09:00",
+      "doorOpenAt": "2027-01-30T15:30:00+09:00",
       "kind": "oneman",
-      "eventName": "うたの☆プリンスさまっ♪ 15th Anniversary LIVE WE LOVE ST☆RISH",
+      "eventName": "うたの☆プリンスさまっ♪ 15th Anniversary LIVE WE LOVE ST☆RISH -SINGING STAR-",
       "source": "system",
       "sourceUrl": "https://15th.utapri.tv/event/",
-      "lastVerifiedAt": "2026-08-28T20:00:00+09:00",
-      "performanceDate": "2027-01-30",
-      "performanceTimeEstimated": true
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "performanceDate": "2027-01-30"
     },
     {
       "id": "uta_no_prince_sama_15th_we_love_starish_2027_aichi_0131",
       "tourId": "uta_no_prince_sama_15th_we_love_starish_2027",
       "venue": "IGアリーナ",
-      "performanceAt": "2027-01-31T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2027-01-31T15:00:00+09:00",
+      "doorOpenAt": "2027-01-31T13:00:00+09:00",
       "kind": "oneman",
-      "eventName": "うたの☆プリンスさまっ♪ 15th Anniversary LIVE WE LOVE ST☆RISH",
+      "eventName": "うたの☆プリンスさまっ♪ 15th Anniversary LIVE WE LOVE ST☆RISH -SINGING STAR-",
       "source": "system",
       "sourceUrl": "https://15th.utapri.tv/event/",
-      "lastVerifiedAt": "2026-08-28T20:00:00+09:00",
-      "performanceDate": "2027-01-31",
-      "performanceTimeEstimated": true
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
+      "performanceDate": "2027-01-31"
     }
   ],
   "lotteries": [
@@ -564,6 +581,25 @@
       "source": "system",
       "sourceUrl": "https://assbe.utapri-sss.com/schedule_ticket/",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "uta_no_prince_sama_15th_we_love_starish_2027_cd_premium",
+      "tourId": "uta_no_prince_sama_15th_we_love_starish_2027",
+      "type": "ST☆RISHニューシングル封入シリアル プレミア先行抽選",
+      "entryStartAt": "2026-10-21T10:00:00+09:00",
+      "entryEndAt": "2026-11-01T23:59:00+09:00",
+      "resultAt": "2026-11-06T13:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "uta_no_prince_sama_15th_we_love_starish_2027_yokohama_0123",
+        "uta_no_prince_sama_15th_we_love_starish_2027_yokohama_0124",
+        "uta_no_prince_sama_15th_we_love_starish_2027_aichi_0130",
+        "uta_no_prince_sama_15th_we_love_starish_2027_aichi_0131"
+      ],
+      "sourceUrl": "https://15th.utapri.tv/event/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
