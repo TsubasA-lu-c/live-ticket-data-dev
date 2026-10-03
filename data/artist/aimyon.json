@@ -753,6 +753,40 @@
       "source": "system",
       "sourceUrl": "https://www.aimyong.net/feature/tour2027",
       "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "aimyon_10th_budokan_2026_lawson_exclusive",
+      "tourId": "aimyon_10th_budokan_2026",
+      "type": "ローチケ独占先行予約",
+      "entryStartAt": "2026-08-21T12:00:00+09:00",
+      "entryEndAt": "2026-08-31T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aimyon_10th_budokan_2026_tokyo_1130",
+        "aimyon_10th_budokan_2026_tokyo_1201"
+      ],
+      "sourceUrl": "https://www.aimyong.net/feature/tententen_budokan",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "aimyon_10th_budokan_2026_general",
+      "tourId": "aimyon_10th_budokan_2026",
+      "type": "一般販売（先着）",
+      "entryStartAt": "2026-10-03T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aimyon_10th_budokan_2026_tokyo_1130",
+        "aimyon_10th_budokan_2026_tokyo_1201"
+      ],
+      "sourceUrl": "https://www.aimyong.net/feature/tententen_budokan",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
