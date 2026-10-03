@@ -1009,6 +1009,57 @@
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11261",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "vaundy_2027_yokohama_vaws_premium_overseas_presale",
+      "tourId": "vaundy_japan_arena_2728",
+      "type": "VAWS premium（海外在住）先行",
+      "entryStartAt": "2026-09-06T19:00:00+09:00",
+      "entryEndAt": "2026-09-18T23:59:00+09:00",
+      "resultAt": "2026-10-01T18:00:00+09:00",
+      "paymentStartAt": "2026-10-01T18:00:00+09:00",
+      "paymentEndAt": null,
+      "performanceIds": [
+        "vaundy_japan_arena_2728_kanagawa_1127",
+        "vaundy_japan_arena_2728_kanagawa_1128"
+      ],
+      "sourceUrl": "https://member.vaundy.jp/news/detail/11274",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "vaundy_2027_yokohama_vaws_overseas_presale",
+      "tourId": "vaundy_japan_arena_2728",
+      "type": "VAWS（海外在住）先行",
+      "entryStartAt": "2026-09-19T12:00:00+09:00",
+      "entryEndAt": "2026-10-04T23:59:00+09:00",
+      "resultAt": "2026-10-10T18:00:00+09:00",
+      "paymentStartAt": "2026-10-10T18:00:00+09:00",
+      "paymentEndAt": null,
+      "performanceIds": [
+        "vaundy_japan_arena_2728_kanagawa_1127",
+        "vaundy_japan_arena_2728_kanagawa_1128"
+      ],
+      "sourceUrl": "https://member.vaundy.jp/news/detail/11274",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "vaundy_2027_yokohama_seven_eleven_lottery",
+      "tourId": "vaundy_japan_arena_2728",
+      "type": "セブン‐イレブン抽選先行",
+      "entryStartAt": "2026-10-05T12:00:00+09:00",
+      "entryEndAt": "2026-10-18T23:59:00+09:00",
+      "resultAt": "2026-10-24T18:00:00+09:00",
+      "paymentStartAt": "2026-10-24T18:00:00+09:00",
+      "paymentEndAt": "2026-10-27T23:59:00+09:00",
+      "performanceIds": [
+        "vaundy_japan_arena_2728_kanagawa_1127",
+        "vaundy_japan_arena_2728_kanagawa_1128"
+      ],
+      "sourceUrl": "https://member.vaundy.jp/news/detail/11274",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
