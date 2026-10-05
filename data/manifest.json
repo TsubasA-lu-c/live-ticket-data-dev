@@ -1,9 +1,9 @@
 {
-  "version": 225,
-  "updatedAt": "2026-10-03T23:28:00+09:00",
+  "version": 226,
+  "updatedAt": "2026-10-05T18:15:00+09:00",
   "files": {
     "artists": {
-      "hash": "b156988b0c511f27"
+      "hash": "db1a24fb5e7c0666"
     }
   },
   "artists": {
@@ -20,7 +20,7 @@
       "hash": "dc89d7f16c00ea72"
     },
     "mr_children": {
-      "hash": "b0b337bc69d8b364"
+      "hash": "9fa83b709c0b9d90"
     },
     "official_hige_dandism": {
       "hash": "ede5920806fb9bca"

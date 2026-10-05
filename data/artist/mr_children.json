@@ -6,7 +6,7 @@
       "artistId": "mr_children",
       "title": "Mr.Children Tour 2026 \"Saturday in the park\"",
       "startDate": "2026-04-04T00:00:00+09:00",
-      "endDate": "2026-12-03T00:00:00+09:00",
+      "endDate": "2026-12-27T00:00:00+09:00",
       "prices": [
         {
           "label": "指定席",
@@ -23,7 +23,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://tour.mrchildren.jp/",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-10-05T18:15:00+09:00"
     }
   ],
   "performances": [
@@ -402,6 +402,28 @@
       "lastVerifiedAt": "2026-08-28T19:50:09+09:00",
       "kind": "oneman",
       "hidden": true
+    },
+    {
+      "id": "mr_children_saturday_park_2026_taipei_1226",
+      "tourId": "mr_children_saturday_park_2026",
+      "venue": "Taipei Arena",
+      "performanceAt": "2026-12-26T17:00:00+09:00",
+      "doorOpenAt": "2026-12-26T15:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/taipei.html",
+      "lastVerifiedAt": "2026-10-05T18:15:00+09:00",
+      "kind": "oneman"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_taipei_1227",
+      "tourId": "mr_children_saturday_park_2026",
+      "venue": "Taipei Arena",
+      "performanceAt": "2026-12-27T16:00:00+09:00",
+      "doorOpenAt": "2026-12-27T14:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/taipei.html",
+      "lastVerifiedAt": "2026-10-05T18:15:00+09:00",
+      "kind": "oneman"
     }
   ],
   "lotteries": [
@@ -1034,6 +1056,40 @@
       "sourceUrl": "https://tour.mrchildren.jp/",
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_fm_jtb_taipei",
+      "tourId": "mr_children_saturday_park_2026",
+      "type": "FATHER&MOTHER会員先行 JTBチケット付き鑑賞ツアー",
+      "entryStartAt": "2026-10-05T18:00:00+09:00",
+      "entryEndAt": "2026-10-13T18:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mr_children_saturday_park_2026_taipei_1226",
+        "mr_children_saturday_park_2026_taipei_1227"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/taipei.html",
+      "lastVerifiedAt": "2026-10-05T18:15:00+09:00"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_taipei_local_presale",
+      "tourId": "mr_children_saturday_park_2026",
+      "type": "現地販売 抽選先行",
+      "entryStartAt": "2026-10-17T13:00:00+09:00",
+      "entryEndAt": "2026-10-20T13:00:00+09:00",
+      "resultAt": "2026-10-22T13:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mr_children_saturday_park_2026_taipei_1226",
+        "mr_children_saturday_park_2026_taipei_1227"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/taipei.html",
+      "lastVerifiedAt": "2026-10-05T18:15:00+09:00"
     }
   ],
   "appleMusicTracks": [
