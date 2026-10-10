@@ -297,13 +297,13 @@
     {
       "id": "momoiro_clover_z_ayaka_solo_2027",
       "artistId": "momoiro_clover_z",
-      "title": "佐々木彩夏 ソロコンサート",
+      "title": "【佐々木彩夏】AYAKA NATION 2026 in 東京体育館",
       "startDate": "2027-01-30T00:00:00+09:00",
       "endDate": "2027-01-30T00:00:00+09:00",
       "prices": null,
       "source": "system",
-      "sourceUrl": "https://www.momoclo.net/archives/news/260611_05",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "sourceUrl": "https://www.momoclo.net/archives/news/261007_01",
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
     },
     {
       "id": "momoiro_clover_z_tokyo_momoclo_land_2026",
@@ -747,6 +747,19 @@
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
       "tourId": "momoiro_clover_z_valentine_2027"
+    },
+    {
+      "id": "momoiro_clover_z_ayaka_solo_2027_tokyo_0130",
+      "tourId": "momoiro_clover_z_ayaka_solo_2027",
+      "performanceDate": "2027-01-30",
+      "performanceAt": "2027-01-30T18:00:00+09:00",
+      "doorOpenAt": "2027-01-30T17:00:00+09:00",
+      "venue": "東京体育館",
+      "kind": "oneman",
+      "eventName": "AYAKA NATION 2026 in 東京体育館",
+      "sourceUrl": "https://www.momoclo.net/archives/news/261007_01",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
     }
   ],
   "lotteries": [
@@ -1063,6 +1076,78 @@
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
       "tourId": "momoiro_clover_z_valentine_2027"
+    },
+    {
+      "id": "momoiro_clover_z_ayaka_nation_2026_ae",
+      "tourId": "momoiro_clover_z_ayaka_solo_2027",
+      "type": "ANGEL EYES会員先行（抽選）",
+      "entryStartAt": "2026-10-07T19:00:00+09:00",
+      "entryEndAt": "2026-10-12T23:59:00+09:00",
+      "resultAt": "2026-10-20T13:00:00+09:00",
+      "paymentStartAt": "2026-10-20T13:00:00+09:00",
+      "paymentEndAt": "2026-10-25T23:59:00+09:00",
+      "performanceIds": [
+        "momoiro_clover_z_ayaka_solo_2027_tokyo_0130"
+      ],
+      "sourceUrl": "https://www.momoclo.net/archives/news/261007_01",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_xmas_2026_resale_group1",
+      "tourId": "momoiro_clover_z_xmas_2026",
+      "type": "鈴木式マッチングシステムZ（公式抽選リセール・グループ1）",
+      "entryStartAt": "2026-10-08T13:00:00+09:00",
+      "entryEndAt": "2026-10-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "momoiro_clover_z_xmas_2026_tokyo_1030",
+        "momoiro_clover_z_xmas_2026_hiroshima_1102",
+        "momoiro_clover_z_xmas_2026_hyogo_1106",
+        "momoiro_clover_z_xmas_2026_kyoto_1107"
+      ],
+      "sourceUrl": "https://www.momoclo.net/archives/news/261008_01",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_xmas_2026_resale_group2",
+      "tourId": "momoiro_clover_z_xmas_2026",
+      "type": "鈴木式マッチングシステムZ（公式抽選リセール・グループ2）",
+      "entryStartAt": "2026-10-30T13:00:00+09:00",
+      "entryEndAt": "2026-11-08T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "momoiro_clover_z_xmas_2026_niigata_1122",
+        "momoiro_clover_z_xmas_2026_aichi_1123",
+        "momoiro_clover_z_xmas_2026_fukuoka_1127",
+        "momoiro_clover_z_xmas_2026_sapporo_1203"
+      ],
+      "sourceUrl": "https://www.momoclo.net/archives/news/261008_01",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_xmas_2026_resale_group3",
+      "tourId": "momoiro_clover_z_xmas_2026",
+      "type": "鈴木式マッチングシステムZ（公式抽選リセール・グループ3）",
+      "entryStartAt": "2026-11-18T13:00:00+09:00",
+      "entryEndAt": "2026-11-26T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "momoiro_clover_z_xmas_2026_tokyo_1212",
+        "momoiro_clover_z_xmas_2026_tokyo_1213",
+        "momoiro_clover_z_xmas_2026_tokyo_1211"
+      ],
+      "sourceUrl": "https://www.momoclo.net/archives/news/261008_01",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
     }
   ],
   "appleMusicTracks": [
