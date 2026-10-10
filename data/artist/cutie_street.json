@@ -703,6 +703,46 @@
       "artistId": "cutie_street",
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_risa_furusawa_birthday_2026",
+      "title": "CUTIE STREET 古澤里紗 生誕祭 2026",
+      "startDate": "2026-11-09T00:00:00+09:00",
+      "endDate": "2026-11-09T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "一般指定席",
+          "amount": 6500
+        },
+        {
+          "label": "お見送り会付指定席",
+          "amount": 12000
+        }
+      ],
+      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/92297",
+      "artistId": "cutie_street",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
+    },
+    {
+      "id": "cutie_street_kana_itakura_birthday_2026",
+      "title": "CUTIE STREET 板倉可奈 生誕祭 2026",
+      "startDate": "2026-11-11T00:00:00+09:00",
+      "endDate": "2026-11-11T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "一般指定席",
+          "amount": 6500
+        },
+        {
+          "label": "お見送り会付指定席",
+          "amount": 12000
+        }
+      ],
+      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/92298",
+      "artistId": "cutie_street",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
     }
   ],
   "performances": [
@@ -1273,6 +1313,45 @@
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
       "tourId": "cutie_street_hiroshima_continew_fes_2026"
+    },
+    {
+      "id": "cutie_street_risa_furusawa_birthday_2026_ariake",
+      "tourId": "cutie_street_risa_furusawa_birthday_2026",
+      "performanceDate": "2026-11-09",
+      "performanceAt": "2026-11-09T19:00:00+09:00",
+      "doorOpenAt": "2026-11-09T17:30:00+09:00",
+      "venue": "SGCホール有明",
+      "kind": "oneman",
+      "eventName": "CUTIE STREET 古澤里紗 生誕祭 2026",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/92297",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
+    },
+    {
+      "id": "cutie_street_kana_itakura_birthday_2026_ariake",
+      "tourId": "cutie_street_kana_itakura_birthday_2026",
+      "performanceDate": "2026-11-11",
+      "performanceAt": "2026-11-11T19:00:00+09:00",
+      "doorOpenAt": "2026-11-11T17:30:00+09:00",
+      "venue": "SGCホール有明",
+      "kind": "oneman",
+      "eventName": "CUTIE STREET 板倉可奈 生誕祭 2026",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/92298",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
+    },
+    {
+      "id": "cutie_street_miyako_island_rock_festival_2026_1017_miyako",
+      "tourId": "cutie_street_miyako_island_rock_festival_2026_1017",
+      "performanceDate": "2026-10-17",
+      "performanceAt": "2026-10-17T11:00:00+09:00",
+      "doorOpenAt": "2026-10-17T10:00:00+09:00",
+      "venue": "宮古島コースタルリゾートヒララ トゥリバー地区ヘッドランド特設会場",
+      "kind": "fes",
+      "eventName": "MIYAKO ISLAND ROCK FESTIVAL 2026",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/live_information/detail/39680",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
     }
   ],
   "lotteries": [
@@ -1799,6 +1878,118 @@
       "sourceUrl": "https://cutiestreet.asobisystem.com/feature/autumntour",
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_risa_furusawa_birthday_2026_annual_presale",
+      "tourId": "cutie_street_risa_furusawa_birthday_2026",
+      "type": "CUTIE STREET FC年会費コース会員先行（抽選）",
+      "entryStartAt": "2026-08-31T19:00:00+09:00",
+      "entryEndAt": "2026-09-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "cutie_street_risa_furusawa_birthday_2026_ariake"
+      ],
+      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/88510",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
+    },
+    {
+      "id": "cutie_street_risa_furusawa_birthday_2026_fc_presale_2nd",
+      "tourId": "cutie_street_risa_furusawa_birthday_2026",
+      "type": "CUTIE STREET FC年会費・月会費コース会員先行（抽選）",
+      "entryStartAt": "2026-09-16T12:00:00+09:00",
+      "entryEndAt": "2026-09-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "cutie_street_risa_furusawa_birthday_2026_ariake"
+      ],
+      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/43664",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
+    },
+    {
+      "id": "cutie_street_risa_furusawa_birthday_2026_upgrade",
+      "tourId": "cutie_street_risa_furusawa_birthday_2026",
+      "type": "お見送り会付指定席アップグレード抽選（購入済チケット対象）",
+      "entryStartAt": "2026-10-09T12:00:00+09:00",
+      "entryEndAt": "2026-10-14T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "cutie_street_risa_furusawa_birthday_2026_ariake"
+      ],
+      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/92297",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
+    },
+    {
+      "id": "cutie_street_kana_itakura_birthday_2026_annual_presale",
+      "tourId": "cutie_street_kana_itakura_birthday_2026",
+      "type": "CUTIE STREET FC年会費コース会員先行（抽選）",
+      "entryStartAt": "2026-08-31T19:00:00+09:00",
+      "entryEndAt": "2026-09-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "cutie_street_kana_itakura_birthday_2026_ariake"
+      ],
+      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/88514",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
+    },
+    {
+      "id": "cutie_street_kana_itakura_birthday_2026_fc_presale_2nd",
+      "tourId": "cutie_street_kana_itakura_birthday_2026",
+      "type": "CUTIE STREET FC年会費・月会費コース会員先行（抽選）",
+      "entryStartAt": "2026-09-16T12:00:00+09:00",
+      "entryEndAt": "2026-09-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "cutie_street_kana_itakura_birthday_2026_ariake"
+      ],
+      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/43664",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
+    },
+    {
+      "id": "cutie_street_kana_itakura_birthday_2026_upgrade",
+      "tourId": "cutie_street_kana_itakura_birthday_2026",
+      "type": "お見送り会付指定席アップグレード抽選（購入済チケット対象）",
+      "entryStartAt": "2026-10-09T12:00:00+09:00",
+      "entryEndAt": "2026-10-14T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "cutie_street_kana_itakura_birthday_2026_ariake"
+      ],
+      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/92298",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
+    },
+    {
+      "id": "cutie_street_miyako_island_2026_general",
+      "tourId": "cutie_street_miyako_island_rock_festival_2026_1017",
+      "type": "イープラス一般発売（先着）",
+      "entryStartAt": "2026-07-17T10:00:00+09:00",
+      "entryEndAt": "2026-10-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "cutie_street_miyako_island_rock_festival_2026_1017_miyako"
+      ],
+      "sourceUrl": "https://eplus.jp/sf/detail/0401040001-P0030021P021001",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
     }
   ],
   "appleMusicTracks": [

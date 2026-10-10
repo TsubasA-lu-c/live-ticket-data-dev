@@ -155,6 +155,34 @@
       "source": "system",
       "sourceUrl": "https://sd-milk.com/contents/1110113",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_yoshida_navilera_reading_drama_2027",
+      "title": "【吉田仁人】リーディングドラマ「ナビレラ」",
+      "startDate": "2027-02-26T00:00:00+09:00",
+      "endDate": "2027-03-24T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "大阪・東京 全席指定",
+          "amount": 10000
+        },
+        {
+          "label": "宮城 全席指定",
+          "amount": 9500
+        },
+        {
+          "label": "鹿児島 S席",
+          "amount": 9500
+        },
+        {
+          "label": "鹿児島 A席",
+          "amount": 8000
+        }
+      ],
+      "sourceUrl": "https://sd-milk.com/contents/1116796",
+      "artistId": "milk",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
     }
   ],
   "performances": [
@@ -735,6 +763,214 @@
       "source": "system",
       "sourceUrl": "https://sd-milk.com/contents/1110113",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milk_yoshida_navilera_2027_20270226_1800",
+      "tourId": "milk_yoshida_navilera_reading_drama_2027",
+      "performanceDate": "2027-02-26",
+      "performanceAt": "2027-02-26T18:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "COOL JAPAN PARK OSAKA TTホール",
+      "kind": "oneman",
+      "eventName": "【吉田仁人】リーディングドラマ「ナビレラ」",
+      "sourceUrl": "https://sd-milk.com/contents/1116796",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
+    },
+    {
+      "id": "milk_yoshida_navilera_2027_20270227_1300",
+      "tourId": "milk_yoshida_navilera_reading_drama_2027",
+      "performanceDate": "2027-02-27",
+      "performanceAt": "2027-02-27T13:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "COOL JAPAN PARK OSAKA TTホール",
+      "kind": "oneman",
+      "eventName": "【吉田仁人】リーディングドラマ「ナビレラ」",
+      "sourceUrl": "https://sd-milk.com/contents/1116796",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
+    },
+    {
+      "id": "milk_yoshida_navilera_2027_20270227_1700",
+      "tourId": "milk_yoshida_navilera_reading_drama_2027",
+      "performanceDate": "2027-02-27",
+      "performanceAt": "2027-02-27T17:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "COOL JAPAN PARK OSAKA TTホール",
+      "kind": "oneman",
+      "eventName": "【吉田仁人】リーディングドラマ「ナビレラ」",
+      "sourceUrl": "https://sd-milk.com/contents/1116796",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
+    },
+    {
+      "id": "milk_yoshida_navilera_2027_20270228_1300",
+      "tourId": "milk_yoshida_navilera_reading_drama_2027",
+      "performanceDate": "2027-02-28",
+      "performanceAt": "2027-02-28T13:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "COOL JAPAN PARK OSAKA TTホール",
+      "kind": "oneman",
+      "eventName": "【吉田仁人】リーディングドラマ「ナビレラ」",
+      "sourceUrl": "https://sd-milk.com/contents/1116796",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
+    },
+    {
+      "id": "milk_yoshida_navilera_2027_20270228_1700",
+      "tourId": "milk_yoshida_navilera_reading_drama_2027",
+      "performanceDate": "2027-02-28",
+      "performanceAt": "2027-02-28T17:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "COOL JAPAN PARK OSAKA TTホール",
+      "kind": "oneman",
+      "eventName": "【吉田仁人】リーディングドラマ「ナビレラ」",
+      "sourceUrl": "https://sd-milk.com/contents/1116796",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
+    },
+    {
+      "id": "milk_yoshida_navilera_2027_20270303_1400",
+      "tourId": "milk_yoshida_navilera_reading_drama_2027",
+      "performanceDate": "2027-03-03",
+      "performanceAt": "2027-03-03T14:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "シアターH",
+      "kind": "oneman",
+      "eventName": "【吉田仁人】リーディングドラマ「ナビレラ」",
+      "sourceUrl": "https://sd-milk.com/contents/1116796",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
+    },
+    {
+      "id": "milk_yoshida_navilera_2027_20270304_1300",
+      "tourId": "milk_yoshida_navilera_reading_drama_2027",
+      "performanceDate": "2027-03-04",
+      "performanceAt": "2027-03-04T13:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "シアターH",
+      "kind": "oneman",
+      "eventName": "【吉田仁人】リーディングドラマ「ナビレラ」",
+      "sourceUrl": "https://sd-milk.com/contents/1116796",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
+    },
+    {
+      "id": "milk_yoshida_navilera_2027_20270305_1300",
+      "tourId": "milk_yoshida_navilera_reading_drama_2027",
+      "performanceDate": "2027-03-05",
+      "performanceAt": "2027-03-05T13:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "シアターH",
+      "kind": "oneman",
+      "eventName": "【吉田仁人】リーディングドラマ「ナビレラ」",
+      "sourceUrl": "https://sd-milk.com/contents/1116796",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
+    },
+    {
+      "id": "milk_yoshida_navilera_2027_20270305_1700",
+      "tourId": "milk_yoshida_navilera_reading_drama_2027",
+      "performanceDate": "2027-03-05",
+      "performanceAt": "2027-03-05T17:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "シアターH",
+      "kind": "oneman",
+      "eventName": "【吉田仁人】リーディングドラマ「ナビレラ」",
+      "sourceUrl": "https://sd-milk.com/contents/1116796",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
+    },
+    {
+      "id": "milk_yoshida_navilera_2027_20270306_1300",
+      "tourId": "milk_yoshida_navilera_reading_drama_2027",
+      "performanceDate": "2027-03-06",
+      "performanceAt": "2027-03-06T13:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "シアターH",
+      "kind": "oneman",
+      "eventName": "【吉田仁人】リーディングドラマ「ナビレラ」",
+      "sourceUrl": "https://sd-milk.com/contents/1116796",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
+    },
+    {
+      "id": "milk_yoshida_navilera_2027_20270306_1700",
+      "tourId": "milk_yoshida_navilera_reading_drama_2027",
+      "performanceDate": "2027-03-06",
+      "performanceAt": "2027-03-06T17:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "シアターH",
+      "kind": "oneman",
+      "eventName": "【吉田仁人】リーディングドラマ「ナビレラ」",
+      "sourceUrl": "https://sd-milk.com/contents/1116796",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
+    },
+    {
+      "id": "milk_yoshida_navilera_2027_20270307_1300",
+      "tourId": "milk_yoshida_navilera_reading_drama_2027",
+      "performanceDate": "2027-03-07",
+      "performanceAt": "2027-03-07T13:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "シアターH",
+      "kind": "oneman",
+      "eventName": "【吉田仁人】リーディングドラマ「ナビレラ」",
+      "sourceUrl": "https://sd-milk.com/contents/1116796",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
+    },
+    {
+      "id": "milk_yoshida_navilera_2027_20270307_1700",
+      "tourId": "milk_yoshida_navilera_reading_drama_2027",
+      "performanceDate": "2027-03-07",
+      "performanceAt": "2027-03-07T17:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "シアターH",
+      "kind": "oneman",
+      "eventName": "【吉田仁人】リーディングドラマ「ナビレラ」",
+      "sourceUrl": "https://sd-milk.com/contents/1116796",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
+    },
+    {
+      "id": "milk_yoshida_navilera_2027_20270319_1700",
+      "tourId": "milk_yoshida_navilera_reading_drama_2027",
+      "performanceDate": "2027-03-19",
+      "performanceAt": "2027-03-19T17:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "電力ホール",
+      "kind": "oneman",
+      "eventName": "【吉田仁人】リーディングドラマ「ナビレラ」",
+      "sourceUrl": "https://sd-milk.com/contents/1116796",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
+    },
+    {
+      "id": "milk_yoshida_navilera_2027_20270324_1500",
+      "tourId": "milk_yoshida_navilera_reading_drama_2027",
+      "performanceDate": "2027-03-24",
+      "performanceAt": "2027-03-24T15:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "宝山ホール（鹿児島県文化センター）",
+      "kind": "oneman",
+      "eventName": "【吉田仁人】リーディングドラマ「ナビレラ」",
+      "sourceUrl": "https://sd-milk.com/contents/1116796",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
+    },
+    {
+      "id": "milk_yoshida_navilera_2027_20270324_1900",
+      "tourId": "milk_yoshida_navilera_reading_drama_2027",
+      "performanceDate": "2027-03-24",
+      "performanceAt": "2027-03-24T19:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "宝山ホール（鹿児島県文化センター）",
+      "kind": "oneman",
+      "eventName": "【吉田仁人】リーディングドラマ「ナビレラ」",
+      "sourceUrl": "https://sd-milk.com/contents/1116796",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
     }
   ],
   "lotteries": [
@@ -1646,6 +1882,37 @@
       "sourceUrl": "https://sd-milk.com/contents/1115594",
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "milk_yoshida_navilera_2027_kirari",
+      "tourId": "milk_yoshida_navilera_reading_drama_2027",
+      "type": "＋KIRARI『吉田仁人の会』先行（抽選）",
+      "entryStartAt": "2026-10-08T12:00:00+09:00",
+      "entryEndAt": "2026-10-18T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_yoshida_navilera_2027_20270226_1800",
+        "milk_yoshida_navilera_2027_20270227_1300",
+        "milk_yoshida_navilera_2027_20270227_1700",
+        "milk_yoshida_navilera_2027_20270228_1300",
+        "milk_yoshida_navilera_2027_20270228_1700",
+        "milk_yoshida_navilera_2027_20270303_1400",
+        "milk_yoshida_navilera_2027_20270304_1300",
+        "milk_yoshida_navilera_2027_20270305_1300",
+        "milk_yoshida_navilera_2027_20270305_1700",
+        "milk_yoshida_navilera_2027_20270306_1300",
+        "milk_yoshida_navilera_2027_20270306_1700",
+        "milk_yoshida_navilera_2027_20270307_1300",
+        "milk_yoshida_navilera_2027_20270307_1700",
+        "milk_yoshida_navilera_2027_20270319_1700",
+        "milk_yoshida_navilera_2027_20270324_1500",
+        "milk_yoshida_navilera_2027_20270324_1900"
+      ],
+      "sourceUrl": "https://sd-milk.com/contents/1116796",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
     }
   ],
   "appleMusicTracks": [
