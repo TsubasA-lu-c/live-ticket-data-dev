@@ -61,6 +61,28 @@
       }
     },
     {
+      "id": "masayoshi_oishi_aa_subarashiki_nichijo_osaka_2026",
+      "title": "【大石昌良】大石昌良『嗚呼、素晴らしき日常』発売記念フリーライブ",
+      "startDate": "2026-11-14T00:00:00+09:00",
+      "endDate": "2026-11-14T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "自由観覧",
+          "amount": 0
+        }
+      ],
+      "sourceUrl": "https://www.014014.jp/schedules/8008",
+      "artistId": "masayoshi_oishi",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:26:08+09:00",
+      "relationDisplay": {
+        "sourceArtistId": "masayoshi_oishi",
+        "sourceTourId": "masayoshi_oishi_aa_subarashiki_nichijo_osaka_2026",
+        "officialTitle": "大石昌良『嗚呼、素晴らしき日常』発売記念フリーライブ",
+        "mirrored": false
+      }
+    },
+    {
       "id": "masayoshi_oishi__rel__oishi_masayoshi_ningen_yokohama_0301",
       "artistId": "masayoshi_oishi",
       "title": "【オーイシマサヨシ】【神奈川】「ニンゲン」発売記念フリーライブ",
@@ -669,28 +691,6 @@
         "officialTitle": "【オーイシマサヨシ】オーイシ武道館 Vol.4・Vol.5",
         "mirrored": true
       }
-    },
-    {
-      "id": "masayoshi_oishi_aa_subarashiki_nichijo_osaka_2026",
-      "title": "【大石昌良】大石昌良『嗚呼、素晴らしき日常』発売記念フリーライブ",
-      "startDate": "2026-11-14T00:00:00+09:00",
-      "endDate": "2026-11-14T00:00:00+09:00",
-      "prices": [
-        {
-          "label": "自由観覧",
-          "amount": 0
-        }
-      ],
-      "sourceUrl": "https://www.014014.jp/schedules/8008",
-      "artistId": "masayoshi_oishi",
-      "source": "system",
-      "lastVerifiedAt": "2026-10-10T20:26:08+09:00",
-      "relationDisplay": {
-        "sourceArtistId": "masayoshi_oishi",
-        "sourceTourId": "masayoshi_oishi_aa_subarashiki_nichijo_osaka_2026",
-        "officialTitle": "大石昌良『嗚呼、素晴らしき日常』発売記念フリーライブ",
-        "mirrored": false
-      }
     }
   ],
   "performances": [
@@ -728,6 +728,19 @@
       "source": "system",
       "sourceUrl": "https://www.014014.jp/schedules/7933",
       "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "masayoshi_oishi_aa_subarashiki_nichijo_osaka_2026_1114",
+      "tourId": "masayoshi_oishi_aa_subarashiki_nichijo_osaka_2026",
+      "performanceDate": "2026-11-14",
+      "performanceAt": "2026-11-14T14:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "セブンパーク天美 AMAMI STADIUM",
+      "kind": "oneman",
+      "eventName": "嗚呼、素晴らしき日常 発売記念フリーライブ",
+      "sourceUrl": "https://www.014014.jp/schedules/8008",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:26:08+09:00"
     },
     {
       "id": "masayoshi_oishi__rel__oishi_masayoshi_ningen_yokohama_0301_20260301",
@@ -1406,19 +1419,6 @@
         "sourceArtistId": "oishi_masayoshi",
         "sourceId": "oishi_masayoshi_gate3_2027_650af621_20271024_02"
       }
-    },
-    {
-      "id": "masayoshi_oishi_aa_subarashiki_nichijo_osaka_2026_1114",
-      "tourId": "masayoshi_oishi_aa_subarashiki_nichijo_osaka_2026",
-      "performanceDate": "2026-11-14",
-      "performanceAt": "2026-11-14T14:00:00+09:00",
-      "doorOpenAt": null,
-      "venue": "セブンパーク天美 AMAMI STADIUM",
-      "kind": "oneman",
-      "eventName": "嗚呼、素晴らしき日常 発売記念フリーライブ",
-      "sourceUrl": "https://www.014014.jp/schedules/8008",
-      "source": "system",
-      "lastVerifiedAt": "2026-10-10T20:26:08+09:00"
     }
   ],
   "lotteries": [
