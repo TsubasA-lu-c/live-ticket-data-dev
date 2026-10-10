@@ -83,6 +83,16 @@
       "source": "system",
       "sourceUrl": "https://daichi-miura.jp/news/detail/1120",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_disaster_relief_2027",
+      "title": "災害支援基金コンサート",
+      "startDate": "2027-01-20T00:00:00+09:00",
+      "endDate": "2027-01-20T00:00:00+09:00",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1126",
+      "artistId": "miura_daichi",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
     }
   ],
   "performances": [
@@ -311,8 +321,9 @@
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://daichi-miura.jp/news/detail/913",
-      "lastVerifiedAt": "2026-08-17T23:20:00+09:00"
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1124",
+      "lastVerifiedAt": "2026-10-10T20:24:16+09:00",
+      "eventStatus": "postponed"
     },
     {
       "id": "miura_daichi_raw_bare_2026_aichi_1219",
@@ -493,6 +504,20 @@
       "source": "system",
       "sourceUrl": "https://daichi-miura.jp/news/detail/1120",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_disaster_relief_2027_budokan_0120",
+      "tourId": "miura_daichi_disaster_relief_2027",
+      "performanceDate": "2027-01-20",
+      "performanceAt": "2027-01-20T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "venue": "日本武道館",
+      "kind": "fes",
+      "eventName": "災害支援基金コンサート",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1126",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
     }
   ],
   "lotteries": [
@@ -1842,6 +1867,27 @@
       "sourceUrl": "https://daichi-miura.jp/news/detail/1054",
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_additional_fc_2nd_oct09",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "追加公演FC2次（抽選）",
+      "entryStartAt": "2026-10-09T18:00:00+09:00",
+      "entryEndAt": "2026-10-20T23:59:00+09:00",
+      "resultAt": "2026-10-23T18:00:00+09:00",
+      "paymentStartAt": "2026-10-23T18:00:00+09:00",
+      "paymentEndAt": "2026-10-26T23:00:00+09:00",
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_hiroshima_0124",
+        "miura_daichi_raw_bare_2026_kyoto_0126",
+        "miura_daichi_raw_bare_2026_sapporo_0210",
+        "miura_daichi_raw_bare_2026_sapporo_0211",
+        "miura_daichi_raw_bare_2026_kanazawa_0221",
+        "miura_daichi_raw_bare_2026_tokyo_garden_0318"
+      ],
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1129",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
     }
   ],
   "appleMusicTracks": [

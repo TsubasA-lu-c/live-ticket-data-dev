@@ -239,6 +239,30 @@
       "artistId": "not_equal_me",
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "not_equal_me_ogi_hana_tensura_stage3_2026",
+      "title": "【尾木波菜】舞台『転生したらスライムだった件』3-魔王覚醒編＆八星輝翔編-",
+      "startDate": "2026-10-22T00:00:00+09:00",
+      "endDate": "2026-10-25T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "VIP席",
+          "amount": 15800
+        },
+        {
+          "label": "S席",
+          "amount": 12800
+        },
+        {
+          "label": "A席",
+          "amount": 8800
+        }
+      ],
+      "sourceUrl": "https://stage-tensura.com/",
+      "artistId": "not_equal_me",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
     }
   ],
   "performances": [
@@ -626,6 +650,110 @@
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
       "tourId": "not_equal_me_tgc_toyama_2026"
+    },
+    {
+      "id": "not_equal_me_ogi_hana_tensura_stage3_2026_20261022_1400",
+      "tourId": "not_equal_me_ogi_hana_tensura_stage3_2026",
+      "performanceDate": "2026-10-22",
+      "performanceAt": "2026-10-22T14:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "シアター1010",
+      "kind": "oneman",
+      "eventName": "舞台『転生したらスライムだった件』3-魔王覚醒編＆八星輝翔編-",
+      "sourceUrl": "https://stage-tensura.com/information1.php",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
+    },
+    {
+      "id": "not_equal_me_ogi_hana_tensura_stage3_2026_20261022_1900",
+      "tourId": "not_equal_me_ogi_hana_tensura_stage3_2026",
+      "performanceDate": "2026-10-22",
+      "performanceAt": "2026-10-22T19:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "シアター1010",
+      "kind": "oneman",
+      "eventName": "舞台『転生したらスライムだった件』3-魔王覚醒編＆八星輝翔編-",
+      "sourceUrl": "https://stage-tensura.com/information1.php",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
+    },
+    {
+      "id": "not_equal_me_ogi_hana_tensura_stage3_2026_20261023_1400",
+      "tourId": "not_equal_me_ogi_hana_tensura_stage3_2026",
+      "performanceDate": "2026-10-23",
+      "performanceAt": "2026-10-23T14:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "シアター1010",
+      "kind": "oneman",
+      "eventName": "舞台『転生したらスライムだった件』3-魔王覚醒編＆八星輝翔編-",
+      "sourceUrl": "https://stage-tensura.com/information1.php",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
+    },
+    {
+      "id": "not_equal_me_ogi_hana_tensura_stage3_2026_20261023_1900",
+      "tourId": "not_equal_me_ogi_hana_tensura_stage3_2026",
+      "performanceDate": "2026-10-23",
+      "performanceAt": "2026-10-23T19:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "シアター1010",
+      "kind": "oneman",
+      "eventName": "舞台『転生したらスライムだった件』3-魔王覚醒編＆八星輝翔編-",
+      "sourceUrl": "https://stage-tensura.com/information1.php",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
+    },
+    {
+      "id": "not_equal_me_ogi_hana_tensura_stage3_2026_20261024_1300",
+      "tourId": "not_equal_me_ogi_hana_tensura_stage3_2026",
+      "performanceDate": "2026-10-24",
+      "performanceAt": "2026-10-24T13:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "シアター1010",
+      "kind": "oneman",
+      "eventName": "舞台『転生したらスライムだった件』3-魔王覚醒編＆八星輝翔編-",
+      "sourceUrl": "https://stage-tensura.com/information1.php",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
+    },
+    {
+      "id": "not_equal_me_ogi_hana_tensura_stage3_2026_20261024_1800",
+      "tourId": "not_equal_me_ogi_hana_tensura_stage3_2026",
+      "performanceDate": "2026-10-24",
+      "performanceAt": "2026-10-24T18:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "シアター1010",
+      "kind": "oneman",
+      "eventName": "舞台『転生したらスライムだった件』3-魔王覚醒編＆八星輝翔編-",
+      "sourceUrl": "https://stage-tensura.com/information1.php",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
+    },
+    {
+      "id": "not_equal_me_ogi_hana_tensura_stage3_2026_20261025_1200",
+      "tourId": "not_equal_me_ogi_hana_tensura_stage3_2026",
+      "performanceDate": "2026-10-25",
+      "performanceAt": "2026-10-25T12:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "シアター1010",
+      "kind": "oneman",
+      "eventName": "舞台『転生したらスライムだった件』3-魔王覚醒編＆八星輝翔編-",
+      "sourceUrl": "https://stage-tensura.com/information1.php",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
+    },
+    {
+      "id": "not_equal_me_ogi_hana_tensura_stage3_2026_20261025_1630",
+      "tourId": "not_equal_me_ogi_hana_tensura_stage3_2026",
+      "performanceDate": "2026-10-25",
+      "performanceAt": "2026-10-25T16:30:00+09:00",
+      "doorOpenAt": null,
+      "venue": "シアター1010",
+      "kind": "oneman",
+      "eventName": "舞台『転生したらスライムだった件』3-魔王覚醒編＆八星輝翔編-",
+      "sourceUrl": "https://stage-tensura.com/information1.php",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
     }
   ],
   "lotteries": [
@@ -855,6 +983,161 @@
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
       "tourId": "not_equal_me_tgc_toyama_2026"
+    },
+    {
+      "id": "not_equal_me_special_performance_2026_general_presale_oct03",
+      "tourId": "not_equal_me_special_performance_2026",
+      "type": "一般先行（抽選）",
+      "entryStartAt": "2026-10-03T19:00:00+09:00",
+      "entryEndAt": "2026-10-12T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "not_equal_me_special_performance_2026_keio_1107",
+        "not_equal_me_special_performance_2026_keio_1108"
+      ],
+      "sourceUrl": "https://not-equal-me.jp/news/detail/7793",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
+    },
+    {
+      "id": "not_equal_me_ogi_hana_tensura_stage3_2026_fc",
+      "tourId": "not_equal_me_ogi_hana_tensura_stage3_2026",
+      "type": "出演者FC先行（抽選）",
+      "entryStartAt": "2026-07-01T12:00:00+09:00",
+      "entryEndAt": "2026-07-13T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261022_1400",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261022_1900",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261023_1400",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261023_1900",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261024_1300",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261024_1800",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261025_1200",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261025_1630"
+      ],
+      "sourceUrl": "https://stage-tensura.com/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
+    },
+    {
+      "id": "not_equal_me_ogi_hana_tensura_stage3_2026_official_first",
+      "tourId": "not_equal_me_ogi_hana_tensura_stage3_2026",
+      "type": "オフィシャル1次先行（抽選）",
+      "entryStartAt": "2026-07-14T12:00:00+09:00",
+      "entryEndAt": "2026-07-27T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261022_1400",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261022_1900",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261023_1400",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261023_1900",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261024_1300",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261024_1800",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261025_1200",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261025_1630"
+      ],
+      "sourceUrl": "https://stage-tensura.com/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
+    },
+    {
+      "id": "not_equal_me_ogi_hana_tensura_stage3_2026_sirius",
+      "tourId": "not_equal_me_ogi_hana_tensura_stage3_2026",
+      "type": "シリウス先行（抽選）",
+      "entryStartAt": "2026-07-24T12:00:00+09:00",
+      "entryEndAt": "2026-08-11T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261022_1400",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261022_1900",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261023_1400",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261023_1900",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261024_1300",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261024_1800",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261025_1200",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261025_1630"
+      ],
+      "sourceUrl": "https://stage-tensura.com/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
+    },
+    {
+      "id": "not_equal_me_ogi_hana_tensura_stage3_2026_official_second",
+      "tourId": "not_equal_me_ogi_hana_tensura_stage3_2026",
+      "type": "オフィシャル2次先行（抽選）",
+      "entryStartAt": "2026-07-28T12:00:00+09:00",
+      "entryEndAt": "2026-08-11T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261022_1400",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261022_1900",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261023_1400",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261023_1900",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261024_1300",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261024_1800",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261025_1200",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261025_1630"
+      ],
+      "sourceUrl": "https://stage-tensura.com/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
+    },
+    {
+      "id": "not_equal_me_ogi_hana_tensura_stage3_2026_prerequest_first",
+      "tourId": "not_equal_me_ogi_hana_tensura_stage3_2026",
+      "type": "プレリクエスト1次先行（先着）",
+      "entryStartAt": "2026-08-16T12:00:00+09:00",
+      "entryEndAt": "2026-08-24T22:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261022_1400",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261022_1900",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261023_1400",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261023_1900",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261024_1300",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261024_1800",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261025_1200",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261025_1630"
+      ],
+      "sourceUrl": "https://stage-tensura.com/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
+    },
+    {
+      "id": "not_equal_me_ogi_hana_tensura_stage3_2026_general",
+      "tourId": "not_equal_me_ogi_hana_tensura_stage3_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-08-29T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261022_1400",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261022_1900",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261023_1400",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261023_1900",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261024_1300",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261024_1800",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261025_1200",
+        "not_equal_me_ogi_hana_tensura_stage3_2026_20261025_1630"
+      ],
+      "sourceUrl": "https://stage-tensura.com/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
     }
   ],
   "appleMusicTracks": [

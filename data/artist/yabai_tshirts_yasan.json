@@ -939,6 +939,32 @@
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
       "tourId": "yabai_tshirts_yasan_harukamirai_yoroo_gekijo_2026"
+    },
+    {
+      "id": "yabai_tshirts_yasan_tanktop_festival_2027_day1",
+      "tourId": "yabai_tshirts_yasan_tanktop_festival_2027",
+      "performanceDate": "2027-05-08",
+      "performanceAt": "2027-05-08T16:00:00+09:00",
+      "doorOpenAt": "2027-05-08T09:30:00+09:00",
+      "venue": "志摩スペイン村パルケエスパーニャ",
+      "kind": "oneman",
+      "eventName": "Tank-top Festival 2027 DAY1 ONE-MAN SHOW",
+      "sourceUrl": "https://yabaitshirtsyasan.com/tanktopfes2027/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_tanktop_festival_2027_day2",
+      "tourId": "yabai_tshirts_yasan_tanktop_festival_2027",
+      "performanceDate": "2027-05-09",
+      "performanceAt": "2027-05-09T11:20:00+09:00",
+      "doorOpenAt": "2027-05-09T09:30:00+09:00",
+      "venue": "志摩スペイン村パルケエスパーニャ",
+      "kind": "fes",
+      "eventName": "Tank-top Festival 2027 DAY2 WACHA-WACHA SHOW",
+      "sourceUrl": "https://yabaitshirtsyasan.com/tanktopfes2027/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
     }
   ],
   "lotteries": [
@@ -1332,6 +1358,40 @@
       "sourceUrl": "https://yabaitshirtsyasan.com/news/295985/",
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_tanktop_festival_2027_member_zero",
+      "tourId": "yabai_tshirts_yasan_tanktop_festival_2027",
+      "type": "顧客倶楽部部員限定 超最速0次先行（抽選）",
+      "entryStartAt": "2026-10-07T20:00:00+09:00",
+      "entryEndAt": "2026-10-12T23:59:00+09:00",
+      "resultAt": "2026-10-16T15:00:00+09:00",
+      "paymentStartAt": "2026-10-16T15:00:00+09:00",
+      "paymentEndAt": "2026-10-20T23:00:00+09:00",
+      "performanceIds": [
+        "yabai_tshirts_yasan_tanktop_festival_2027_day1",
+        "yabai_tshirts_yasan_tanktop_festival_2027_day2"
+      ],
+      "sourceUrl": "https://yabaitshirtsyasan.com/tanktopfes2027/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_tanktop_festival_2027_official_first",
+      "tourId": "yabai_tshirts_yasan_tanktop_festival_2027",
+      "type": "オフィシャル1次先行（抽選）",
+      "entryStartAt": "2026-10-07T20:00:00+09:00",
+      "entryEndAt": "2026-10-20T23:59:00+09:00",
+      "resultAt": "2026-10-24T15:00:00+09:00",
+      "paymentStartAt": "2026-10-24T15:00:00+09:00",
+      "paymentEndAt": "2026-10-28T23:00:00+09:00",
+      "performanceIds": [
+        "yabai_tshirts_yasan_tanktop_festival_2027_day1",
+        "yabai_tshirts_yasan_tanktop_festival_2027_day2"
+      ],
+      "sourceUrl": "https://yabaitshirtsyasan.com/tanktopfes2027/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
     }
   ],
   "appleMusicTracks": [
