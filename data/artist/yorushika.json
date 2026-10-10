@@ -32,6 +32,16 @@
       "source": "system",
       "sourceUrl": "https://yorushika.com/feature/livetour2026_ichininsho",
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "yorushika_suis_tk_budokan_guest_2026",
+      "title": "【suis】TK from 凛として時雨 15th Anniversary FINAL『生癖 -seiheki-』",
+      "startDate": "2026-12-27T00:00:00+09:00",
+      "endDate": "2026-12-27T00:00:00+09:00",
+      "sourceUrl": "https://yorushika.com/news/detail/11836",
+      "artistId": "yorushika",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:52+09:00"
     }
   ],
   "performances": [
@@ -178,6 +188,19 @@
       "source": "system",
       "sourceUrl": "https://yorushika.com/feature/livetour2026_ichininsho",
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "yorushika_suis_tk_budokan_guest_2026_1227",
+      "tourId": "yorushika_suis_tk_budokan_guest_2026",
+      "performanceDate": "2026-12-27",
+      "performanceAt": "2026-12-27T18:00:00+09:00",
+      "doorOpenAt": "2026-12-27T17:00:00+09:00",
+      "venue": "日本武道館",
+      "kind": "taiban",
+      "eventName": "TK from 凛として時雨 TOUR 2026 生癖 -seiheki- 15th Anniversary FINAL",
+      "sourceUrl": "https://www.15th.tkofficial.jp/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:52+09:00"
     }
   ],
   "lotteries": [
@@ -430,6 +453,22 @@
       "source": "system",
       "sourceUrl": "https://yorushika.com/feature/livetour2026_ichininsho",
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "yorushika_suis_tk_budokan_guest_2026_general_1010",
+      "tourId": "yorushika_suis_tk_budokan_guest_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-10-10T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yorushika_suis_tk_budokan_guest_2026_1227"
+      ],
+      "sourceUrl": "https://yorushika.com/news/detail/11836",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:52+09:00"
     }
   ],
   "appleMusicTracks": [

@@ -966,6 +966,38 @@
       "sourceUrl": "https://mrsgreenapple.com/special_site/shadows/detail/327",
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "mrs_green_apple_shadows_2026_chiba_trade_20261014",
+      "tourId": "mrs_green_apple_ringojam_shadows_2026",
+      "type": "公式チケットトレード（千葉公演・抽選）",
+      "entryStartAt": "2026-10-04T18:00:00+09:00",
+      "entryEndAt": "2026-10-11T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mrs_green_apple_ringojam_shadows_2026_chiba_1014"
+      ],
+      "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+    },
+    {
+      "id": "mrs_green_apple_shadows_2026_chiba_trade_20261015",
+      "tourId": "mrs_green_apple_ringojam_shadows_2026",
+      "type": "公式チケットトレード（千葉公演・抽選）",
+      "entryStartAt": "2026-10-04T18:00:00+09:00",
+      "entryEndAt": "2026-10-12T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mrs_green_apple_ringojam_shadows_2026_chiba_1015"
+      ],
+      "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
     }
   ],
   "appleMusicTracks": [

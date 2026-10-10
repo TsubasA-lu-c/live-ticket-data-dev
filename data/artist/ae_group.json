@@ -625,6 +625,23 @@
       "sourceUrl": "https://dreamfestival.jp/",
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "ae_group_kamigata_fes_2026_pia_general",
+      "tourId": "ae_group_fes_kamigata_2026",
+      "type": "一般発売（チケットぴあ・先着）",
+      "entryStartAt": null,
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ae_group_fes_kamigata_2026_osaka_1031",
+        "ae_group_fes_kamigata_2026_osaka_1101"
+      ],
+      "sourceUrl": "https://starto.jp/s/p/live/10587?tab=ticket",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
     }
   ],
   "appleMusicTracks": [

@@ -1017,6 +1017,19 @@
       "source": "system",
       "sourceUrl": "https://btsworldtourofficial.com/",
       "lastVerifiedAt": "2026-09-13T00:00:00+09:00"
+    },
+    {
+      "id": "bts_world_tour_arirang_global_2026_2027_melbourne_au_0210",
+      "tourId": "bts_world_tour_arirang_global_2026_2027",
+      "performanceDate": "2027-02-10",
+      "performanceAt": "2027-02-10T17:00:00+11:00",
+      "doorOpenAt": null,
+      "venue": "Marvel Stadium",
+      "kind": "oneman",
+      "eventName": "BTS WORLD TOUR 'ARIRANG'",
+      "sourceUrl": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-melbourne-docklands-10-02-2027/event/250064BBD99DD435",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
     }
   ],
   "lotteries": [
@@ -1264,6 +1277,38 @@
       "source": "system",
       "sourceUrl": "https://weverse.io/bts/notice/36080?hl=ja",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_global_melbourne_au_0210_army_presale",
+      "tourId": "bts_world_tour_arirang_global_2026_2027",
+      "type": "ARMY MEMBERSHIP (GLOBAL) 追加公演先行",
+      "entryStartAt": "2026-06-03T10:00:00+10:00",
+      "entryEndAt": "2026-06-04T09:00:00+10:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_global_2026_2027_melbourne_au_0210"
+      ],
+      "sourceUrl": "https://weverse.io/bts/notice/36364",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
+    },
+    {
+      "id": "bts_arirang_global_melbourne_au_0210_general_sale",
+      "tourId": "bts_world_tour_arirang_global_2026_2027",
+      "type": "Ticketmaster一般発売（先着）",
+      "entryStartAt": "2026-06-04T10:00:00+10:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_global_2026_2027_melbourne_au_0210"
+      ],
+      "sourceUrl": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-melbourne-docklands-10-02-2027/event/250064BBD99DD435",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
     }
   ],
   "lastVerifiedAt": "2026-07-22T10:06:40+09:00",

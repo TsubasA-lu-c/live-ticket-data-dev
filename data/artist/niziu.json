@@ -63,6 +63,22 @@
       "source": "system",
       "sourceUrl": "https://inkigayo-live.jp/",
       "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "niziu_live_with_u_2026_2027_who_u_niziu_fes",
+      "title": "NiziU Live with U 2026-2027 \"Who? U! NiziU Fes.”",
+      "startDate": "2026-11-22T00:00:00+09:00",
+      "endDate": "2027-01-24T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 13500
+        }
+      ],
+      "sourceUrl": "https://niziu.com/s/n123/news/detail/12235",
+      "artistId": "niziu",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:25:21+09:00"
     }
   ],
   "performances": [
@@ -281,6 +297,149 @@
       "source": "system",
       "sourceUrl": "https://inkigayo-live.jp/",
       "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "niziu_who_u_2026_2027_20261122",
+      "tourId": "niziu_live_with_u_2026_2027_who_u_niziu_fes",
+      "performanceDate": "2026-11-22",
+      "performanceAt": "2026-11-22T17:00:00+09:00",
+      "doorOpenAt": "2026-11-22T16:00:00+09:00",
+      "venue": "ジーライオンアリーナ神戸",
+      "kind": "oneman",
+      "eventName": "NiziU Live with U 2026-2027 \"Who? U! NiziU Fes.”",
+      "sourceUrl": "https://niziu.com/s/n123/news/detail/12235",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:25:21+09:00"
+    },
+    {
+      "id": "niziu_who_u_2026_2027_20261123",
+      "tourId": "niziu_live_with_u_2026_2027_who_u_niziu_fes",
+      "performanceDate": "2026-11-23",
+      "performanceAt": "2026-11-23T16:00:00+09:00",
+      "doorOpenAt": "2026-11-23T15:00:00+09:00",
+      "venue": "ジーライオンアリーナ神戸",
+      "kind": "oneman",
+      "eventName": "NiziU Live with U 2026-2027 \"Who? U! NiziU Fes.”",
+      "sourceUrl": "https://niziu.com/s/n123/news/detail/12235",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:25:21+09:00"
+    },
+    {
+      "id": "niziu_who_u_2026_2027_20261128",
+      "tourId": "niziu_live_with_u_2026_2027_who_u_niziu_fes",
+      "performanceDate": "2026-11-28",
+      "performanceAt": "2026-11-28T17:00:00+09:00",
+      "doorOpenAt": "2026-11-28T16:00:00+09:00",
+      "venue": "北海きたえーる",
+      "kind": "oneman",
+      "eventName": "NiziU Live with U 2026-2027 \"Who? U! NiziU Fes.”",
+      "sourceUrl": "https://niziu.com/s/n123/news/detail/12235",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:25:21+09:00"
+    },
+    {
+      "id": "niziu_who_u_2026_2027_20261204",
+      "tourId": "niziu_live_with_u_2026_2027_who_u_niziu_fes",
+      "performanceDate": "2026-12-04",
+      "performanceAt": "2026-12-04T18:30:00+09:00",
+      "doorOpenAt": "2026-12-04T17:30:00+09:00",
+      "venue": "ポートメッセなごや第1展示館",
+      "kind": "oneman",
+      "eventName": "NiziU Live with U 2026-2027 \"Who? U! NiziU Fes.”",
+      "sourceUrl": "https://niziu.com/s/n123/news/detail/12235",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:25:21+09:00"
+    },
+    {
+      "id": "niziu_who_u_2026_2027_20261205",
+      "tourId": "niziu_live_with_u_2026_2027_who_u_niziu_fes",
+      "performanceDate": "2026-12-05",
+      "performanceAt": "2026-12-05T14:30:00+09:00",
+      "doorOpenAt": "2026-12-05T13:30:00+09:00",
+      "venue": "ポートメッセなごや第1展示館",
+      "kind": "oneman",
+      "eventName": "NiziU Live with U 2026-2027 \"Who? U! NiziU Fes.”",
+      "sourceUrl": "https://niziu.com/s/n123/news/detail/12235",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:25:21+09:00"
+    },
+    {
+      "id": "niziu_who_u_2026_2027_20261219",
+      "tourId": "niziu_live_with_u_2026_2027_who_u_niziu_fes",
+      "performanceDate": "2026-12-19",
+      "performanceAt": "2026-12-19T17:00:00+09:00",
+      "doorOpenAt": "2026-12-19T16:00:00+09:00",
+      "venue": "北九州メッセ",
+      "kind": "oneman",
+      "eventName": "NiziU Live with U 2026-2027 \"Who? U! NiziU Fes.”",
+      "sourceUrl": "https://niziu.com/s/n123/news/detail/12235",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:25:21+09:00"
+    },
+    {
+      "id": "niziu_who_u_2026_2027_20261220",
+      "tourId": "niziu_live_with_u_2026_2027_who_u_niziu_fes",
+      "performanceDate": "2026-12-20",
+      "performanceAt": "2026-12-20T16:00:00+09:00",
+      "doorOpenAt": "2026-12-20T15:00:00+09:00",
+      "venue": "北九州メッセ",
+      "kind": "oneman",
+      "eventName": "NiziU Live with U 2026-2027 \"Who? U! NiziU Fes.”",
+      "sourceUrl": "https://niziu.com/s/n123/news/detail/12235",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:25:21+09:00"
+    },
+    {
+      "id": "niziu_who_u_2026_2027_20270120",
+      "tourId": "niziu_live_with_u_2026_2027_who_u_niziu_fes",
+      "performanceDate": "2027-01-20",
+      "performanceAt": "2027-01-20T18:30:00+09:00",
+      "doorOpenAt": "2027-01-20T17:30:00+09:00",
+      "venue": "国立代々木競技場 第一体育館",
+      "kind": "oneman",
+      "eventName": "NiziU Live with U 2026-2027 \"Who? U! NiziU Fes.”",
+      "sourceUrl": "https://niziu.com/s/n123/news/detail/12235",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:25:21+09:00"
+    },
+    {
+      "id": "niziu_who_u_2026_2027_20270121",
+      "tourId": "niziu_live_with_u_2026_2027_who_u_niziu_fes",
+      "performanceDate": "2027-01-21",
+      "performanceAt": "2027-01-21T18:30:00+09:00",
+      "doorOpenAt": "2027-01-21T17:30:00+09:00",
+      "venue": "国立代々木競技場 第一体育館",
+      "kind": "oneman",
+      "eventName": "NiziU Live with U 2026-2027 \"Who? U! NiziU Fes.”",
+      "sourceUrl": "https://niziu.com/s/n123/news/detail/12235",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:25:21+09:00"
+    },
+    {
+      "id": "niziu_who_u_2026_2027_20270123",
+      "tourId": "niziu_live_with_u_2026_2027_who_u_niziu_fes",
+      "performanceDate": "2027-01-23",
+      "performanceAt": "2027-01-23T17:00:00+09:00",
+      "doorOpenAt": "2027-01-23T16:00:00+09:00",
+      "venue": "国立代々木競技場 第一体育館",
+      "kind": "oneman",
+      "eventName": "NiziU Live with U 2026-2027 \"Who? U! NiziU Fes.”",
+      "sourceUrl": "https://niziu.com/s/n123/news/detail/12235",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:25:21+09:00"
+    },
+    {
+      "id": "niziu_who_u_2026_2027_20270124",
+      "tourId": "niziu_live_with_u_2026_2027_who_u_niziu_fes",
+      "performanceDate": "2027-01-24",
+      "performanceAt": "2027-01-24T16:00:00+09:00",
+      "doorOpenAt": "2027-01-24T15:00:00+09:00",
+      "venue": "国立代々木競技場 第一体育館",
+      "kind": "oneman",
+      "eventName": "NiziU Live with U 2026-2027 \"Who? U! NiziU Fes.”",
+      "sourceUrl": "https://niziu.com/s/n123/news/detail/12235",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:25:21+09:00"
     }
   ],
   "lotteries": [
@@ -698,6 +857,84 @@
       "source": "system",
       "sourceUrl": "https://inkigayo-live.jp/",
       "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "niziu_who_u_2026_2027_w_member_fastest",
+      "tourId": "niziu_live_with_u_2026_2027_who_u_niziu_fes",
+      "type": "WithU・WithU MOBILE W会員最速先行（抽選）",
+      "entryStartAt": "2026-10-06T20:00:00+09:00",
+      "entryEndAt": "2026-10-12T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "niziu_who_u_2026_2027_20261122",
+        "niziu_who_u_2026_2027_20261123",
+        "niziu_who_u_2026_2027_20261128",
+        "niziu_who_u_2026_2027_20261204",
+        "niziu_who_u_2026_2027_20261205",
+        "niziu_who_u_2026_2027_20261219",
+        "niziu_who_u_2026_2027_20261220",
+        "niziu_who_u_2026_2027_20270120",
+        "niziu_who_u_2026_2027_20270121",
+        "niziu_who_u_2026_2027_20270123",
+        "niziu_who_u_2026_2027_20270124"
+      ],
+      "sourceUrl": "https://niziu.com/s/n123/news/detail/12235",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:25:21+09:00"
+    },
+    {
+      "id": "niziu_who_u_2026_2027_withu",
+      "tourId": "niziu_live_with_u_2026_2027_who_u_niziu_fes",
+      "type": "WithU先行（抽選）",
+      "entryStartAt": "2026-10-13T20:00:00+09:00",
+      "entryEndAt": "2026-10-18T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "niziu_who_u_2026_2027_20261122",
+        "niziu_who_u_2026_2027_20261123",
+        "niziu_who_u_2026_2027_20261128",
+        "niziu_who_u_2026_2027_20261204",
+        "niziu_who_u_2026_2027_20261205",
+        "niziu_who_u_2026_2027_20261219",
+        "niziu_who_u_2026_2027_20261220",
+        "niziu_who_u_2026_2027_20270120",
+        "niziu_who_u_2026_2027_20270121",
+        "niziu_who_u_2026_2027_20270123",
+        "niziu_who_u_2026_2027_20270124"
+      ],
+      "sourceUrl": "https://niziu.com/s/n123/news/detail/12235",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:25:21+09:00"
+    },
+    {
+      "id": "niziu_who_u_2026_2027_withu_mobile",
+      "tourId": "niziu_live_with_u_2026_2027_who_u_niziu_fes",
+      "type": "WithU MOBILE先行（抽選）",
+      "entryStartAt": "2026-10-19T20:00:00+09:00",
+      "entryEndAt": "2026-10-24T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "niziu_who_u_2026_2027_20261122",
+        "niziu_who_u_2026_2027_20261123",
+        "niziu_who_u_2026_2027_20261128",
+        "niziu_who_u_2026_2027_20261204",
+        "niziu_who_u_2026_2027_20261205",
+        "niziu_who_u_2026_2027_20261219",
+        "niziu_who_u_2026_2027_20261220",
+        "niziu_who_u_2026_2027_20270120",
+        "niziu_who_u_2026_2027_20270121",
+        "niziu_who_u_2026_2027_20270123",
+        "niziu_who_u_2026_2027_20270124"
+      ],
+      "sourceUrl": "https://niziu.com/s/n123/news/detail/12235",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:25:21+09:00"
     }
   ],
   "appleMusicTracks": [

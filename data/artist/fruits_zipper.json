@@ -147,6 +147,68 @@
       "artistId": "fruits_zipper",
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_amane_tsukiashi_birthday_2026",
+      "title": "【月足天音】FRUITS ZIPPER 月足天音 生誕祭 2026",
+      "startDate": "2026-10-29T00:00:00+09:00",
+      "endDate": "2026-10-29T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "お見送り会付指定席",
+          "amount": 12000
+        },
+        {
+          "label": "一般指定席",
+          "amount": 7000
+        }
+      ],
+      "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/90870",
+      "artistId": "fruits_zipper",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
+    },
+    {
+      "id": "fruits_zipper_suzuka_chinzei_birthday_2026",
+      "title": "【鎮西寿々歌】FRUITS ZIPPER 鎮西寿々歌 生誕祭 2026",
+      "startDate": "2026-11-24T00:00:00+09:00",
+      "endDate": "2026-11-24T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "一般指定席",
+          "amount": 7000
+        }
+      ],
+      "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/90867",
+      "artistId": "fruits_zipper",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
+    },
+    {
+      "id": "fruits_zipper_noel_hayase_birthday_2026",
+      "title": "【早瀬ノエル】FRUITS ZIPPER 早瀬ノエル 生誕祭 2026",
+      "startDate": "2026-12-17T00:00:00+09:00",
+      "endDate": "2026-12-17T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "一般指定席",
+          "amount": 7000
+        }
+      ],
+      "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/92290",
+      "artistId": "fruits_zipper",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
+    },
+    {
+      "id": "fruits_zipper_disaster_relief_fund_concert_2027",
+      "title": "災害支援基金コンサート",
+      "startDate": "2027-01-19T00:00:00+09:00",
+      "endDate": "2027-01-19T00:00:00+09:00",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/92309",
+      "artistId": "fruits_zipper",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
     }
   ],
   "performances": [
@@ -854,6 +916,59 @@
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
       "tourId": "fruits_zipper_hiroshima_continew_fes_2026"
+    },
+    {
+      "id": "fruits_zipper_amane_tsukiashi_birthday_2026_tokyo",
+      "tourId": "fruits_zipper_amane_tsukiashi_birthday_2026",
+      "performanceDate": "2026-10-29",
+      "performanceAt": "2026-10-29T19:00:00+09:00",
+      "doorOpenAt": "2026-10-29T17:30:00+09:00",
+      "venue": "SGCホール有明",
+      "kind": "oneman",
+      "eventName": "FRUITS ZIPPER 月足天音 生誕祭 2026",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/90870",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
+    },
+    {
+      "id": "fruits_zipper_suzuka_chinzei_birthday_2026_tokyo",
+      "tourId": "fruits_zipper_suzuka_chinzei_birthday_2026",
+      "performanceDate": "2026-11-24",
+      "performanceAt": "2026-11-24T19:00:00+09:00",
+      "doorOpenAt": "2026-11-24T17:30:00+09:00",
+      "venue": "SGCホール有明",
+      "kind": "oneman",
+      "eventName": "FRUITS ZIPPER 鎮西寿々歌 生誕祭 2026",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/90867",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
+    },
+    {
+      "id": "fruits_zipper_noel_hayase_birthday_2026_tokyo",
+      "tourId": "fruits_zipper_noel_hayase_birthday_2026",
+      "performanceDate": "2026-12-17",
+      "performanceAt": "2026-12-17T19:00:00+09:00",
+      "doorOpenAt": "2026-12-17T17:30:00+09:00",
+      "venue": "SGCホール有明",
+      "kind": "oneman",
+      "eventName": "FRUITS ZIPPER 早瀬ノエル 生誕祭 2026",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/92290",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
+    },
+    {
+      "id": "fruits_zipper_disaster_relief_fund_concert_2027_tokyo_0119",
+      "tourId": "fruits_zipper_disaster_relief_fund_concert_2027",
+      "performanceDate": "2027-01-19",
+      "performanceAt": "2027-01-19T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "venue": "日本武道館",
+      "kind": "fes",
+      "eventName": "災害支援基金コンサート",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/92309",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
     }
   ],
   "lotteries": [
@@ -1803,6 +1918,54 @@
       "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/88139",
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_amane_tsukiashi_birthday_2026_fc_presale",
+      "tourId": "fruits_zipper_amane_tsukiashi_birthday_2026",
+      "type": "FRUITS ZIPPER OFFICIAL FANCLUB有料会員先行（抽選）",
+      "entryStartAt": "2026-09-30T18:00:00+09:00",
+      "entryEndAt": "2026-10-05T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fruits_zipper_amane_tsukiashi_birthday_2026_tokyo"
+      ],
+      "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/90870",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
+    },
+    {
+      "id": "fruits_zipper_suzuka_chinzei_birthday_2026_fc_presale",
+      "tourId": "fruits_zipper_suzuka_chinzei_birthday_2026",
+      "type": "FRUITS ZIPPER OFFICIAL FANCLUB年会費コース会員先行（抽選）",
+      "entryStartAt": "2026-09-29T12:00:00+09:00",
+      "entryEndAt": "2026-10-06T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fruits_zipper_suzuka_chinzei_birthday_2026_tokyo"
+      ],
+      "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/90867",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
+    },
+    {
+      "id": "fruits_zipper_noel_hayase_birthday_2026_fc_presale",
+      "tourId": "fruits_zipper_noel_hayase_birthday_2026",
+      "type": "FRUITS ZIPPER OFFICIAL FANCLUB年会費コース会員先行（抽選）",
+      "entryStartAt": "2026-10-09T12:00:00+09:00",
+      "entryEndAt": "2026-10-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fruits_zipper_noel_hayase_birthday_2026_tokyo"
+      ],
+      "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/92290",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
     }
   ],
   "appleMusicTracks": [

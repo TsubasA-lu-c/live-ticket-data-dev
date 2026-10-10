@@ -1085,6 +1085,56 @@
       "source": "system",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102241",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_6th_gen_2026_general_oct10",
+      "tourId": "nogizaka46_6th_gen_nationwide_tour_2026",
+      "type": "楽天チケット一般発売（先着）",
+      "entryStartAt": "2026-10-10T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nogizaka46_6th_gen_nationwide_tour_2026_1026",
+        "nogizaka46_6th_gen_nationwide_tour_2026_1027",
+        "nogizaka46_6th_gen_nationwide_tour_2026_1110",
+        "nogizaka46_6th_gen_nationwide_tour_2026_1111",
+        "nogizaka46_6th_gen_nationwide_tour_2026_1117",
+        "nogizaka46_6th_gen_nationwide_tour_2026_1118",
+        "nogizaka46_6th_gen_nationwide_tour_2026_1124",
+        "nogizaka46_6th_gen_nationwide_tour_2026_1125",
+        "nogizaka46_6th_gen_nationwide_tour_2026_1201",
+        "nogizaka46_6th_gen_nationwide_tour_2026_1202"
+      ],
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102284?ima=0019&pri1=202610",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:22:44+09:00"
+    },
+    {
+      "id": "nogizaka46_6th_gen_2026_official_resale_oct11",
+      "tourId": "nogizaka46_6th_gen_nationwide_tour_2026",
+      "type": "公式リセール",
+      "entryStartAt": "2026-10-11T12:00:00+09:00",
+      "entryEndAt": "2026-10-13T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nogizaka46_6th_gen_nationwide_tour_2026_1026",
+        "nogizaka46_6th_gen_nationwide_tour_2026_1027",
+        "nogizaka46_6th_gen_nationwide_tour_2026_1110",
+        "nogizaka46_6th_gen_nationwide_tour_2026_1111",
+        "nogizaka46_6th_gen_nationwide_tour_2026_1117",
+        "nogizaka46_6th_gen_nationwide_tour_2026_1118",
+        "nogizaka46_6th_gen_nationwide_tour_2026_1124",
+        "nogizaka46_6th_gen_nationwide_tour_2026_1125",
+        "nogizaka46_6th_gen_nationwide_tour_2026_1201",
+        "nogizaka46_6th_gen_nationwide_tour_2026_1202"
+      ],
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102284?ima=0019&pri1=202610",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:22:44+09:00"
     }
   ],
   "appleMusicTracks": [

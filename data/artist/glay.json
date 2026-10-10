@@ -129,6 +129,26 @@
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/news/detail/10328",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "glay_takuro_journey_without_a_map_2026",
+      "title": "【TAKURO】GLAY TAKURO Christmas Live「Journey without a map 2026」",
+      "startDate": "2026-12-22T00:00:00+09:00",
+      "endDate": "2026-12-22T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "テーブル席",
+          "amount": 12000
+        },
+        {
+          "label": "ペアシート（2名1セット）",
+          "amount": 26000
+        }
+      ],
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10355",
+      "artistId": "glay",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
     }
   ],
   "performances": [
@@ -719,6 +739,32 @@
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/news/detail/10328",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "glay_takuro_journey_without_a_map_2026_1222_1800",
+      "tourId": "glay_takuro_journey_without_a_map_2026",
+      "performanceDate": "2026-12-22",
+      "performanceAt": "2026-12-22T18:00:00+09:00",
+      "doorOpenAt": "2026-12-22T17:00:00+09:00",
+      "venue": "COTTON CLUB",
+      "kind": "oneman",
+      "eventName": "1st STAGE",
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10355",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+    },
+    {
+      "id": "glay_takuro_journey_without_a_map_2026_1222_2030",
+      "tourId": "glay_takuro_journey_without_a_map_2026",
+      "performanceDate": "2026-12-22",
+      "performanceAt": "2026-12-22T20:30:00+09:00",
+      "doorOpenAt": "2026-12-22T19:45:00+09:00",
+      "venue": "COTTON CLUB",
+      "kind": "oneman",
+      "eventName": "2nd STAGE",
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10355",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
     }
   ],
   "lotteries": [
@@ -1007,6 +1053,428 @@
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/news/detail/10328",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "glay_takuro_journey_without_a_map_2026_happy_swing_presale",
+      "tourId": "glay_takuro_journey_without_a_map_2026",
+      "type": "HAPPY SWING会員先行（抽選）",
+      "entryStartAt": "2026-10-08T15:00:00+09:00",
+      "entryEndAt": "2026-10-12T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_takuro_journey_without_a_map_2026_1222_1800",
+        "glay_takuro_journey_without_a_map_2026_1222_2030"
+      ],
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10355",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_lawson_miyagi_tokyo_1016",
+      "tourId": "glay_exofire_2026",
+      "type": "ローソンチケット先行抽選（宮城・東京）",
+      "entryStartAt": "2026-10-16T15:00:00+09:00",
+      "entryEndAt": "2026-10-21T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_exofire_2026_miyagi_1121",
+        "glay_exofire_2026_miyagi_1122",
+        "glay_exofire_2026_tokyo_1128",
+        "glay_exofire_2026_tokyo_1129"
+      ],
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10359",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_lawson_hyogo_1102",
+      "tourId": "glay_exofire_2026",
+      "type": "ローソンチケット先行抽選（兵庫）",
+      "entryStartAt": "2026-11-02T15:00:00+09:00",
+      "entryEndAt": "2026-11-09T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_exofire_2026_hyogo_0116",
+        "glay_exofire_2026_hyogo_0117"
+      ],
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10359",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_upgrade_2026",
+      "tourId": "glay_exofire_2026",
+      "type": "アップグレード抽選（2026年開催公演）",
+      "entryStartAt": "2026-10-13T15:00:00+09:00",
+      "entryEndAt": "2026-10-18T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_exofire_2026_osaka_1107",
+        "glay_exofire_2026_osaka_1108",
+        "glay_exofire_2026_miyagi_1121",
+        "glay_exofire_2026_miyagi_1122",
+        "glay_exofire_2026_tokyo_1128",
+        "glay_exofire_2026_tokyo_1129",
+        "glay_exofire_2026_niigata_1205",
+        "glay_exofire_2026_hokkaido_1212",
+        "glay_exofire_2026_hokkaido_1213",
+        "glay_exofire_2026_fukuoka_1219",
+        "glay_exofire_2026_fukuoka_1220"
+      ],
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10359",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_upgrade_2027",
+      "tourId": "glay_exofire_2026",
+      "type": "アップグレード抽選（2027年開催公演）",
+      "entryStartAt": "2026-12-15T15:00:00+09:00",
+      "entryEndAt": "2026-12-20T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_exofire_2026_hyogo_0116",
+        "glay_exofire_2026_hyogo_0117",
+        "glay_exofire_2026_hiroshima_0130",
+        "glay_exofire_2026_hiroshima_0131",
+        "glay_exofire_2026_aichi_0206",
+        "glay_exofire_2026_aichi_0207",
+        "glay_exofire_2026_hakodate_0211",
+        "glay_exofire_2026_hakodate_0213",
+        "glay_exofire_2026_hakodate_0214",
+        "glay_exofire_2026_yokohama_0220",
+        "glay_exofire_2026_yokohama_0221"
+      ],
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10359",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_equipment_release_nov",
+      "tourId": "glay_exofire_2026",
+      "type": "機材開放席受付（11月公演）",
+      "entryStartAt": "2026-10-27T15:00:00+09:00",
+      "entryEndAt": "2026-11-02T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_exofire_2026_osaka_1107",
+        "glay_exofire_2026_osaka_1108",
+        "glay_exofire_2026_miyagi_1121",
+        "glay_exofire_2026_miyagi_1122",
+        "glay_exofire_2026_tokyo_1128",
+        "glay_exofire_2026_tokyo_1129"
+      ],
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10359",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_equipment_release_dec",
+      "tourId": "glay_exofire_2026",
+      "type": "機材開放席受付（12月公演）",
+      "entryStartAt": "2026-11-24T15:00:00+09:00",
+      "entryEndAt": "2026-11-29T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_exofire_2026_niigata_1205",
+        "glay_exofire_2026_hokkaido_1212",
+        "glay_exofire_2026_hokkaido_1213",
+        "glay_exofire_2026_fukuoka_1219",
+        "glay_exofire_2026_fukuoka_1220"
+      ],
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10359",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_equipment_release_jan",
+      "tourId": "glay_exofire_2026",
+      "type": "機材開放席受付（1月公演）",
+      "entryStartAt": "2026-12-18T15:00:00+09:00",
+      "entryEndAt": "2026-12-23T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_exofire_2026_hyogo_0116",
+        "glay_exofire_2026_hyogo_0117",
+        "glay_exofire_2026_hiroshima_0130",
+        "glay_exofire_2026_hiroshima_0131"
+      ],
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10359",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_equipment_release_feb",
+      "tourId": "glay_exofire_2026",
+      "type": "機材開放席受付（2月公演）",
+      "entryStartAt": "2027-01-25T15:00:00+09:00",
+      "entryEndAt": "2027-01-30T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_exofire_2026_aichi_0206",
+        "glay_exofire_2026_aichi_0207",
+        "glay_exofire_2026_hakodate_0211",
+        "glay_exofire_2026_hakodate_0213",
+        "glay_exofire_2026_hakodate_0214",
+        "glay_exofire_2026_yokohama_0220",
+        "glay_exofire_2026_yokohama_0221"
+      ],
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10359",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_general_niigata_1114",
+      "tourId": "glay_exofire_2026",
+      "type": "新潟公演一般発売（先着）",
+      "entryStartAt": "2026-11-14T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_exofire_2026_niigata_1205"
+      ],
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10359",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_general_fukuoka_1114",
+      "tourId": "glay_exofire_2026",
+      "type": "福岡公演2日目一般発売（先着）",
+      "entryStartAt": "2026-11-14T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_exofire_2026_fukuoka_1220"
+      ],
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10359",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_general_hiroshima_1206",
+      "tourId": "glay_exofire_2026",
+      "type": "広島公演2日目一般発売（先着）",
+      "entryStartAt": "2026-12-06T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_exofire_2026_hiroshima_0131"
+      ],
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10359",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_resale_osaka",
+      "tourId": "glay_exofire_2026",
+      "type": "公式リセール（osaka公演）",
+      "entryStartAt": "2026-10-24T15:00:00+09:00",
+      "entryEndAt": "2026-10-26T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_exofire_2026_osaka_1107",
+        "glay_exofire_2026_osaka_1108"
+      ],
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10359",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_resale_miyagi",
+      "tourId": "glay_exofire_2026",
+      "type": "公式リセール（miyagi公演）",
+      "entryStartAt": "2026-11-07T15:00:00+09:00",
+      "entryEndAt": "2026-11-09T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_exofire_2026_miyagi_1121",
+        "glay_exofire_2026_miyagi_1122"
+      ],
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10359",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_resale_tokyo",
+      "tourId": "glay_exofire_2026",
+      "type": "公式リセール（tokyo公演）",
+      "entryStartAt": "2026-11-14T15:00:00+09:00",
+      "entryEndAt": "2026-11-16T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_exofire_2026_tokyo_1128",
+        "glay_exofire_2026_tokyo_1129"
+      ],
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10359",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_resale_niigata",
+      "tourId": "glay_exofire_2026",
+      "type": "公式リセール（niigata公演）",
+      "entryStartAt": "2026-11-21T15:00:00+09:00",
+      "entryEndAt": "2026-11-23T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_exofire_2026_niigata_1205"
+      ],
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10359",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_resale_hokkaido",
+      "tourId": "glay_exofire_2026",
+      "type": "公式リセール（hokkaido公演）",
+      "entryStartAt": "2026-11-28T15:00:00+09:00",
+      "entryEndAt": "2026-11-30T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_exofire_2026_hokkaido_1212",
+        "glay_exofire_2026_hokkaido_1213"
+      ],
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10359",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_resale_fukuoka",
+      "tourId": "glay_exofire_2026",
+      "type": "公式リセール（fukuoka公演）",
+      "entryStartAt": "2026-12-05T15:00:00+09:00",
+      "entryEndAt": "2026-12-07T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_exofire_2026_fukuoka_1219",
+        "glay_exofire_2026_fukuoka_1220"
+      ],
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10359",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_resale_hyogo",
+      "tourId": "glay_exofire_2026",
+      "type": "公式リセール（hyogo公演）",
+      "entryStartAt": "2027-01-02T15:00:00+09:00",
+      "entryEndAt": "2027-01-04T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_exofire_2026_hyogo_0116",
+        "glay_exofire_2026_hyogo_0117"
+      ],
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10359",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_resale_hiroshima",
+      "tourId": "glay_exofire_2026",
+      "type": "公式リセール（hiroshima公演）",
+      "entryStartAt": "2027-01-16T15:00:00+09:00",
+      "entryEndAt": "2027-01-18T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_exofire_2026_hiroshima_0130",
+        "glay_exofire_2026_hiroshima_0131"
+      ],
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10359",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_resale_aichi",
+      "tourId": "glay_exofire_2026",
+      "type": "公式リセール（aichi公演）",
+      "entryStartAt": "2027-01-23T15:00:00+09:00",
+      "entryEndAt": "2027-01-25T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_exofire_2026_aichi_0206",
+        "glay_exofire_2026_aichi_0207"
+      ],
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10359",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_resale_hakodate",
+      "tourId": "glay_exofire_2026",
+      "type": "公式リセール（hakodate公演）",
+      "entryStartAt": "2027-01-28T15:00:00+09:00",
+      "entryEndAt": "2027-01-31T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_exofire_2026_hakodate_0211",
+        "glay_exofire_2026_hakodate_0213",
+        "glay_exofire_2026_hakodate_0214"
+      ],
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10359",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+    },
+    {
+      "id": "glay_exofire_2026_resale_yokohama",
+      "tourId": "glay_exofire_2026",
+      "type": "公式リセール（yokohama公演）",
+      "entryStartAt": "2027-02-06T15:00:00+09:00",
+      "entryEndAt": "2027-02-08T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_exofire_2026_yokohama_0220",
+        "glay_exofire_2026_yokohama_0221"
+      ],
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10359",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
     }
   ],
   "appleMusicTracks": [

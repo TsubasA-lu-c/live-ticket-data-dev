@@ -1507,6 +1507,70 @@
       "source": "system",
       "sourceUrl": "https://bokuao.com/news/detail/5897",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "boku_aozora_kumo_bbble_r1_resale_1008",
+      "tourId": "boku_aozora_kumo_team_series_2026_2027",
+      "type": "公式トレード（B♡BBLE 第1回戦）",
+      "entryStartAt": "2026-10-08T18:00:00+09:00",
+      "entryEndAt": "2026-10-10T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "boku_aozora_kumo_bbble_r1_1011"
+      ],
+      "sourceUrl": "https://bokuao.com/news/detail/5978",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
+    },
+    {
+      "id": "boku_aozora_kumo_gekka_r1_resale_1008",
+      "tourId": "boku_aozora_kumo_team_series_2026_2027",
+      "type": "公式トレード（月華 第1回戦）",
+      "entryStartAt": "2026-10-08T18:00:00+09:00",
+      "entryEndAt": "2026-10-12T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "boku_aozora_kumo_gekka_r1_1013"
+      ],
+      "sourceUrl": "https://bokuao.com/news/detail/5978",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
+    },
+    {
+      "id": "boku_aozora_winter_2026_fc_2nd_1005",
+      "tourId": "boku_aozora_last_live_2026",
+      "type": "FC2次先行抽選受付",
+      "entryStartAt": "2026-10-05T12:00:00+09:00",
+      "entryEndAt": "2026-10-12T23:59:00+09:00",
+      "resultAt": "2026-10-16T12:00:00+09:00",
+      "paymentStartAt": "2026-10-16T12:00:00+09:00",
+      "paymentEndAt": "2026-10-19T23:59:00+09:00",
+      "performanceIds": [
+        "boku_aozora_last_live_2026_kanadevia_1214"
+      ],
+      "sourceUrl": "https://bokuao.com/news/detail/5961",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
+    },
+    {
+      "id": "boku_aozora_winter_2026_friends_2nd_1005",
+      "tourId": "boku_aozora_last_live_2026",
+      "type": "FCお友達紹介キャンペーン抽選受付（2次）",
+      "entryStartAt": "2026-10-05T12:00:00+09:00",
+      "entryEndAt": "2026-10-12T23:59:00+09:00",
+      "resultAt": "2026-10-16T12:00:00+09:00",
+      "paymentStartAt": "2026-10-16T12:00:00+09:00",
+      "paymentEndAt": "2026-10-19T23:59:00+09:00",
+      "performanceIds": [
+        "boku_aozora_last_live_2026_kanadevia_1214"
+      ],
+      "sourceUrl": "https://bokuao.com/news/detail/5961",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
     }
   ],
   "appleMusicTracks": [

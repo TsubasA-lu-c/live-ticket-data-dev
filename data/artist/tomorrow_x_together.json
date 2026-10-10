@@ -638,6 +638,29 @@
       "sourceUrl": "https://weverse.io/txt/notice/39253?hl=ja",
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_steal_wind_japan_2026_moa_jp_2nd",
+      "tourId": "tomorrow_x_together_steal_the_wind_japan_2026_2027",
+      "type": "MOA Membership (JP)会員2次先行抽選",
+      "entryStartAt": "2026-10-05T13:00:00+09:00",
+      "entryEndAt": "2026-10-08T23:59:00+09:00",
+      "resultAt": "2026-10-19T18:00:00+09:00",
+      "paymentStartAt": "2026-10-19T18:00:00+09:00",
+      "paymentEndAt": null,
+      "performanceIds": [
+        "tomorrow_x_together_steal_the_wind_japan_2026_fukuoka_1219",
+        "tomorrow_x_together_steal_the_wind_japan_2026_fukuoka_1220",
+        "tomorrow_x_together_steal_the_wind_japan_2027_tokyo_0107",
+        "tomorrow_x_together_steal_the_wind_japan_2027_tokyo_0108",
+        "tomorrow_x_together_steal_the_wind_japan_2027_osaka_0130",
+        "tomorrow_x_together_steal_the_wind_japan_2027_osaka_0131",
+        "tomorrow_x_together_steal_the_wind_japan_2027_nagoya_0220",
+        "tomorrow_x_together_steal_the_wind_japan_2027_nagoya_0221"
+      ],
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/txt_steal_the_wind_in_japan",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:52+09:00"
     }
   ],
   "lastVerifiedAt": "2026-07-22T10:26:13+09:00",

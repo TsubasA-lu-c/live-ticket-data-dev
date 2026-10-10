@@ -521,6 +521,54 @@
       "sourceUrl": "https://yuzu-official.com/contents/information/ab7bcd2e-4673-4f18-b27e-0f57e7a2b1b6",
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "yuzu_30th_kokoro_2026_resale_20261023",
+      "tourId": "yuzu_30th_kokoro_2026",
+      "type": "公式リセール（AnyPASS STORE・先着）",
+      "entryStartAt": "2026-10-09T18:00:00+09:00",
+      "entryEndAt": "2026-10-22T14:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yuzu_30th_kokoro_2026_karena_1023"
+      ],
+      "sourceUrl": "https://yuzu-official.com/contents/information/2a4a5f08-9bff-457b-9ac7-d6a620676c3a",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+    },
+    {
+      "id": "yuzu_30th_kokoro_2026_resale_20261024",
+      "tourId": "yuzu_30th_kokoro_2026",
+      "type": "公式リセール（AnyPASS STORE・先着）",
+      "entryStartAt": "2026-10-10T18:00:00+09:00",
+      "entryEndAt": "2026-10-23T14:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yuzu_30th_kokoro_2026_karena_1024"
+      ],
+      "sourceUrl": "https://yuzu-official.com/contents/information/2a4a5f08-9bff-457b-9ac7-d6a620676c3a",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+    },
+    {
+      "id": "yuzu_30th_kokoro_2026_resale_20261025",
+      "tourId": "yuzu_30th_kokoro_2026",
+      "type": "公式リセール（AnyPASS STORE・先着）",
+      "entryStartAt": "2026-10-11T18:00:00+09:00",
+      "entryEndAt": "2026-10-24T14:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yuzu_30th_kokoro_2026_karena_1025"
+      ],
+      "sourceUrl": "https://yuzu-official.com/contents/information/2a4a5f08-9bff-457b-9ac7-d6a620676c3a",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
     }
   ],
   "appleMusicTracks": [
