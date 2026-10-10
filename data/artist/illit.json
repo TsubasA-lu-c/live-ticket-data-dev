@@ -665,6 +665,23 @@
       "source": "system",
       "sourceUrl": "https://illit-official.jp/news/28471f47c9d8",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "illit_press_start_encore_2026_pia_eplus_oct10",
+      "tourId": "illit_illit_live_press_start_encore_in_japan",
+      "type": "チケットぴあ・イープラス 先着受付",
+      "entryStartAt": "2026-10-10T13:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "illit_illit_live_press_start_encore_in_japan_20261223_1",
+        "illit_illit_live_press_start_encore_in_japan_20261224_2"
+      ],
+      "sourceUrl": "https://illit-official.jp/news/64c58db8e132",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:25:21+09:00"
     }
   ],
   "appleMusicTracks": [
