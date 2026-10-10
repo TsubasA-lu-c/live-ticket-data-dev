@@ -62,6 +62,22 @@
       "source": "system",
       "sourceUrl": "https://onew-fc.jp/contents/1099035",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "shinee_member_minho_feral_tokyo_2027",
+      "title": "【MINHO】MINHO CONCERT ＜MEAN : of feral＞ in TOKYO",
+      "startDate": "2027-02-20T00:00:00+09:00",
+      "endDate": "2027-02-21T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 15800
+        }
+      ],
+      "sourceUrl": "https://shinee.jp/news/2026/1006_2441.html",
+      "artistId": "shinee",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:52+09:00"
     }
   ],
   "performances": [
@@ -184,6 +200,32 @@
       "source": "system",
       "sourceUrl": "https://onew-fc.jp/contents/1099035",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "shinee_minho_feral_2027_20270220",
+      "tourId": "shinee_member_minho_feral_tokyo_2027",
+      "performanceDate": "2027-02-20",
+      "performanceAt": "2027-02-20T17:00:00+09:00",
+      "doorOpenAt": "2027-02-20T16:00:00+09:00",
+      "venue": "両国国技館",
+      "kind": "oneman",
+      "eventName": "MINHO CONCERT ＜MEAN : of feral＞ in TOKYO",
+      "sourceUrl": "https://shinee.jp/news/2026/1006_2441.html",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:52+09:00"
+    },
+    {
+      "id": "shinee_minho_feral_2027_20270221",
+      "tourId": "shinee_member_minho_feral_tokyo_2027",
+      "performanceDate": "2027-02-21",
+      "performanceAt": "2027-02-21T16:00:00+09:00",
+      "doorOpenAt": "2027-02-21T15:00:00+09:00",
+      "venue": "両国国技館",
+      "kind": "oneman",
+      "eventName": "MINHO CONCERT ＜MEAN : of feral＞ in TOKYO",
+      "sourceUrl": "https://shinee.jp/news/2026/1006_2441.html",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:52+09:00"
     }
   ],
   "lotteries": [
@@ -320,6 +362,23 @@
       "source": "system",
       "sourceUrl": "https://onew-fc.jp/contents/1110576",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "shinee_minho_feral_2027_fc_fastest",
+      "tourId": "shinee_member_minho_feral_tokyo_2027",
+      "type": "SHINee WORLD Jファンクラブ最速先行（抽選）",
+      "entryStartAt": "2026-10-06T18:00:00+09:00",
+      "entryEndAt": "2026-10-19T23:59:00+09:00",
+      "resultAt": "2026-10-26T20:00:00+09:00",
+      "paymentStartAt": "2026-10-26T20:00:00+09:00",
+      "paymentEndAt": "2026-10-31T23:59:00+09:00",
+      "performanceIds": [
+        "shinee_minho_feral_2027_20270220",
+        "shinee_minho_feral_2027_20270221"
+      ],
+      "sourceUrl": "https://shinee.jp/news/2026/1006_2441.html",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:52+09:00"
     }
   ],
   "lastVerifiedAt": "2026-09-03T21:39:00+09:00",

@@ -320,6 +320,16 @@
       "source": "system",
       "sourceUrl": "https://www.radiocrazy.fm/",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_fukuoka_music_fes_2027",
+      "title": "FUKUOKA MUSIC FES.2027",
+      "startDate": "2027-01-30T00:00:00+09:00",
+      "endDate": "2027-01-30T00:00:00+09:00",
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1136554",
+      "artistId": "aina_the_end",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:52+09:00"
     }
   ],
   "performances": [
@@ -650,6 +660,19 @@
       "source": "system",
       "sourceUrl": "https://radiocrazy.fm/artist/",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_fukuoka_music_fes_2027_0130",
+      "tourId": "aina_the_end_fukuoka_music_fes_2027",
+      "performanceDate": "2027-01-30",
+      "performanceAt": "2027-01-30T10:20:00+09:00",
+      "doorOpenAt": "2027-01-30T09:00:00+09:00",
+      "venue": "みずほPayPayドーム福岡",
+      "kind": "fes",
+      "eventName": "FUKUOKA MUSIC FES.2027",
+      "sourceUrl": "https://fukuokamusic-fes.com/2027/index.html",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:52+09:00"
     }
   ],
   "lotteries": [
@@ -988,6 +1011,22 @@
       "source": "system",
       "sourceUrl": "https://www.radiocrazy.fm/ticket/",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_fukuoka_music_fes_2027_official_2nd",
+      "tourId": "aina_the_end_fukuoka_music_fes_2027",
+      "type": "オフィシャル2次先行（抽選）",
+      "entryStartAt": "2026-10-08T18:00:00+09:00",
+      "entryEndAt": "2026-10-18T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aina_the_end_fukuoka_music_fes_2027_0130"
+      ],
+      "sourceUrl": "https://fukuokamusic-fes.com/2027/index.html",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:24:52+09:00"
     }
   ],
   "appleMusicTracks": [
