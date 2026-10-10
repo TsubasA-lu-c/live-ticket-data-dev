@@ -870,6 +870,23 @@
       "sourceUrl": "https://starto.jp/s/p/live/10489",
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "naniwa_danshi_kamigata_expo_park_2026_general",
+      "tourId": "naniwa_danshi_fes_kamigata_expo_park_2026",
+      "type": "一般発売（チケットぴあ・先着）",
+      "entryStartAt": null,
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "naniwa_danshi_fes_kamigata_expo_park_2026_banpaku_1031",
+        "naniwa_danshi_fes_kamigata_expo_park_2026_banpaku_1101"
+      ],
+      "sourceUrl": "https://starto.jp/s/p/live/10587?tab=ticket",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:22:44+09:00"
     }
   ],
   "appleMusicTracks": [

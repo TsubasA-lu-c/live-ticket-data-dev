@@ -143,7 +143,7 @@
       "id": "yuuri_last_solo_concert_2026",
       "artistId": "yuuri",
       "title": "2026年 最後の単独公演🎄",
-      "startDate": "2026-12-19T00:00:00+09:00",
+      "startDate": "2026-12-13T00:00:00+09:00",
       "endDate": "2026-12-19T00:00:00+09:00",
       "prices": [
         {
@@ -165,7 +165,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://yuurinchi.com/contents/1107987",
-      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-10-10T20:22:44+09:00"
     }
   ],
   "performances": [
@@ -372,6 +372,19 @@
       "source": "system",
       "sourceUrl": "https://yuurinchi.com/contents/1107987",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_last_solo_concert_2026_yokohama_1213",
+      "tourId": "yuuri_last_solo_concert_2026",
+      "performanceDate": "2026-12-13",
+      "performanceAt": "2026-12-13T18:30:00+09:00",
+      "doorOpenAt": "2026-12-13T17:00:00+09:00",
+      "venue": "Kアリーナ横浜",
+      "kind": "oneman",
+      "eventName": "2026年 最後の単独公演！の1週間前に追加公演🎄",
+      "sourceUrl": "https://yuurinchi.com/contents/1117177",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:22:44+09:00"
     }
   ],
   "lotteries": [
@@ -673,6 +686,22 @@
       "sourceUrl": "https://yuurinchi.com/contents/1113231",
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_last_solo_concert_2026_yuurinchi_fastest_1213",
+      "tourId": "yuuri_last_solo_concert_2026",
+      "type": "ゆーりんち限定最速抽選先行（12/13追加公演）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-10-18T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yuuri_last_solo_concert_2026_yokohama_1213"
+      ],
+      "sourceUrl": "https://yuurinchi.com/contents/1117177",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:22:44+09:00"
     }
   ],
   "appleMusicTracks": [

@@ -277,6 +277,230 @@
       "source": "system",
       "sourceUrl": "https://ticket.kenshiyonezu.jp/tour/2026",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yonezu_kenshi_ghost_2026_nagano_1106_official_resale",
+      "tourId": "yonezu_kenshi_ghost_2026",
+      "type": "公式リセール（抽選）",
+      "entryStartAt": "2026-10-07T12:00:00+09:00",
+      "entryEndAt": "2026-11-06T08:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yonezu_kenshi_ghost_2026_nagano_1106"
+      ],
+      "sourceUrl": "https://reissuerecords.net/2026/10/06/2026-tour-ghost/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:22:44+09:00"
+    },
+    {
+      "id": "yonezu_kenshi_ghost_2026_nagano_1107_official_resale",
+      "tourId": "yonezu_kenshi_ghost_2026",
+      "type": "公式リセール（抽選）",
+      "entryStartAt": "2026-10-07T12:00:00+09:00",
+      "entryEndAt": "2026-11-07T08:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yonezu_kenshi_ghost_2026_nagano_1107"
+      ],
+      "sourceUrl": "https://reissuerecords.net/2026/10/06/2026-tour-ghost/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:22:44+09:00"
+    },
+    {
+      "id": "yonezu_kenshi_ghost_2026_kanagawa_1111_official_resale",
+      "tourId": "yonezu_kenshi_ghost_2026",
+      "type": "公式リセール（抽選）",
+      "entryStartAt": "2026-10-11T12:00:00+09:00",
+      "entryEndAt": "2026-11-11T08:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yonezu_kenshi_ghost_2026_kanagawa_1111"
+      ],
+      "sourceUrl": "https://reissuerecords.net/2026/10/06/2026-tour-ghost/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:22:44+09:00"
+    },
+    {
+      "id": "yonezu_kenshi_ghost_2026_kanagawa_1112_official_resale",
+      "tourId": "yonezu_kenshi_ghost_2026",
+      "type": "公式リセール（抽選）",
+      "entryStartAt": "2026-10-12T12:00:00+09:00",
+      "entryEndAt": "2026-11-12T08:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yonezu_kenshi_ghost_2026_kanagawa_1112"
+      ],
+      "sourceUrl": "https://reissuerecords.net/2026/10/06/2026-tour-ghost/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:22:44+09:00"
+    },
+    {
+      "id": "yonezu_kenshi_ghost_2026_osaka_1118_official_resale",
+      "tourId": "yonezu_kenshi_ghost_2026",
+      "type": "公式リセール（抽選）",
+      "entryStartAt": "2026-10-18T12:00:00+09:00",
+      "entryEndAt": "2026-11-18T08:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yonezu_kenshi_ghost_2026_osaka_1118"
+      ],
+      "sourceUrl": "https://reissuerecords.net/2026/10/06/2026-tour-ghost/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:22:44+09:00"
+    },
+    {
+      "id": "yonezu_kenshi_ghost_2026_osaka_1119_official_resale",
+      "tourId": "yonezu_kenshi_ghost_2026",
+      "type": "公式リセール（抽選）",
+      "entryStartAt": "2026-10-19T12:00:00+09:00",
+      "entryEndAt": "2026-11-19T08:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yonezu_kenshi_ghost_2026_osaka_1119"
+      ],
+      "sourceUrl": "https://reissuerecords.net/2026/10/06/2026-tour-ghost/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:22:44+09:00"
+    },
+    {
+      "id": "yonezu_kenshi_ghost_2026_fukuoka_1127_official_resale",
+      "tourId": "yonezu_kenshi_ghost_2026",
+      "type": "公式リセール（抽選）",
+      "entryStartAt": "2026-10-27T12:00:00+09:00",
+      "entryEndAt": "2026-11-27T08:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yonezu_kenshi_ghost_2026_fukuoka_1127"
+      ],
+      "sourceUrl": "https://reissuerecords.net/2026/10/06/2026-tour-ghost/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:22:44+09:00"
+    },
+    {
+      "id": "yonezu_kenshi_ghost_2026_fukuoka_1128_official_resale",
+      "tourId": "yonezu_kenshi_ghost_2026",
+      "type": "公式リセール（抽選）",
+      "entryStartAt": "2026-10-28T12:00:00+09:00",
+      "entryEndAt": "2026-11-28T08:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yonezu_kenshi_ghost_2026_fukuoka_1128"
+      ],
+      "sourceUrl": "https://reissuerecords.net/2026/10/06/2026-tour-ghost/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:22:44+09:00"
+    },
+    {
+      "id": "yonezu_kenshi_ghost_2026_miyagi_1203_official_resale",
+      "tourId": "yonezu_kenshi_ghost_2026",
+      "type": "公式リセール（抽選）",
+      "entryStartAt": "2026-11-03T12:00:00+09:00",
+      "entryEndAt": "2026-12-03T08:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yonezu_kenshi_ghost_2026_miyagi_1203"
+      ],
+      "sourceUrl": "https://reissuerecords.net/2026/10/06/2026-tour-ghost/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:22:44+09:00"
+    },
+    {
+      "id": "yonezu_kenshi_ghost_2026_miyagi_1204_official_resale",
+      "tourId": "yonezu_kenshi_ghost_2026",
+      "type": "公式リセール（抽選）",
+      "entryStartAt": "2026-11-04T12:00:00+09:00",
+      "entryEndAt": "2026-12-04T08:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yonezu_kenshi_ghost_2026_miyagi_1204"
+      ],
+      "sourceUrl": "https://reissuerecords.net/2026/10/06/2026-tour-ghost/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:22:44+09:00"
+    },
+    {
+      "id": "yonezu_kenshi_ghost_2026_aichi_1208_official_resale",
+      "tourId": "yonezu_kenshi_ghost_2026",
+      "type": "公式リセール（抽選）",
+      "entryStartAt": "2026-11-08T12:00:00+09:00",
+      "entryEndAt": "2026-12-08T08:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yonezu_kenshi_ghost_2026_aichi_1208"
+      ],
+      "sourceUrl": "https://reissuerecords.net/2026/10/06/2026-tour-ghost/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:22:44+09:00"
+    },
+    {
+      "id": "yonezu_kenshi_ghost_2026_aichi_1209_official_resale",
+      "tourId": "yonezu_kenshi_ghost_2026",
+      "type": "公式リセール（抽選）",
+      "entryStartAt": "2026-11-09T12:00:00+09:00",
+      "entryEndAt": "2026-12-09T08:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yonezu_kenshi_ghost_2026_aichi_1209"
+      ],
+      "sourceUrl": "https://reissuerecords.net/2026/10/06/2026-tour-ghost/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:22:44+09:00"
+    },
+    {
+      "id": "yonezu_kenshi_ghost_2026_kanagawa_1216_official_resale",
+      "tourId": "yonezu_kenshi_ghost_2026",
+      "type": "公式リセール（抽選）",
+      "entryStartAt": "2026-11-16T12:00:00+09:00",
+      "entryEndAt": "2026-12-16T08:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yonezu_kenshi_ghost_2026_kanagawa_1216"
+      ],
+      "sourceUrl": "https://reissuerecords.net/2026/10/06/2026-tour-ghost/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:22:44+09:00"
+    },
+    {
+      "id": "yonezu_kenshi_ghost_2026_kanagawa_1217_official_resale",
+      "tourId": "yonezu_kenshi_ghost_2026",
+      "type": "公式リセール（抽選）",
+      "entryStartAt": "2026-11-17T12:00:00+09:00",
+      "entryEndAt": "2026-12-17T08:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yonezu_kenshi_ghost_2026_kanagawa_1217"
+      ],
+      "sourceUrl": "https://reissuerecords.net/2026/10/06/2026-tour-ghost/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:22:44+09:00"
     }
   ],
   "appleMusicTracks": [

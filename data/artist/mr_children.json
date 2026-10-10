@@ -407,23 +407,25 @@
       "id": "mr_children_saturday_park_2026_taipei_1226",
       "tourId": "mr_children_saturday_park_2026",
       "venue": "Taipei Arena",
-      "performanceAt": "2026-12-26T17:00:00+09:00",
-      "doorOpenAt": "2026-12-26T15:30:00+09:00",
+      "performanceAt": "2026-12-26T17:00:00+08:00",
+      "doorOpenAt": "2026-12-26T15:30:00+08:00",
       "source": "system",
       "sourceUrl": "https://tour.mrchildren.jp/taipei.html",
-      "lastVerifiedAt": "2026-10-05T18:15:00+09:00",
-      "kind": "oneman"
+      "lastVerifiedAt": "2026-10-10T20:22:44+09:00",
+      "kind": "oneman",
+      "performanceDate": "2026-12-26"
     },
     {
       "id": "mr_children_saturday_park_2026_taipei_1227",
       "tourId": "mr_children_saturday_park_2026",
       "venue": "Taipei Arena",
-      "performanceAt": "2026-12-27T16:00:00+09:00",
-      "doorOpenAt": "2026-12-27T14:30:00+09:00",
+      "performanceAt": "2026-12-27T16:00:00+08:00",
+      "doorOpenAt": "2026-12-27T14:30:00+08:00",
       "source": "system",
       "sourceUrl": "https://tour.mrchildren.jp/taipei.html",
-      "lastVerifiedAt": "2026-10-05T18:15:00+09:00",
-      "kind": "oneman"
+      "lastVerifiedAt": "2026-10-10T20:22:44+09:00",
+      "kind": "oneman",
+      "performanceDate": "2026-12-27"
     }
   ],
   "lotteries": [
@@ -1090,6 +1092,67 @@
       "source": "system",
       "sourceUrl": "https://tour.mrchildren.jp/taipei.html",
       "lastVerifiedAt": "2026-10-05T18:15:00+09:00"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_final_tokyo_1031_1101",
+      "tourId": "mr_children_saturday_park_2026",
+      "type": "最終抽選（東京・有明アリーナ）",
+      "entryStartAt": "2026-10-09T19:00:00+09:00",
+      "entryEndAt": "2026-10-25T23:59:00+09:00",
+      "resultAt": "2026-10-30T20:30:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mr_children_saturday_park_2026_tokyo_1031",
+        "mr_children_saturday_park_2026_tokyo_1101"
+      ],
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:22:44+09:00"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_trade_oct",
+      "tourId": "mr_children_saturday_park_2026",
+      "type": "定価トレード（2026年10月公演（福井・静岡・東京、11/1東京最終日を含む）・抽選）",
+      "entryStartAt": "2026-08-31T19:00:00+09:00",
+      "entryEndAt": "2026-09-06T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mr_children_saturday_park_2026_fukui_1003",
+        "mr_children_saturday_park_2026_fukui_1004",
+        "mr_children_saturday_park_2026_shizuoka_1024",
+        "mr_children_saturday_park_2026_shizuoka_1025",
+        "mr_children_saturday_park_2026_tokyo_1031",
+        "mr_children_saturday_park_2026_tokyo_1101"
+      ],
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:22:44+09:00"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_trade_nov_dec",
+      "tourId": "mr_children_saturday_park_2026",
+      "type": "定価トレード（2026年11〜12月公演（福岡・佐賀・広島・神奈川）・抽選）",
+      "entryStartAt": "2026-10-06T19:00:00+09:00",
+      "entryEndAt": "2026-10-12T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mr_children_saturday_park_2026_fukuoka_1107",
+        "mr_children_saturday_park_2026_fukuoka_1108",
+        "mr_children_saturday_park_2026_saga_1114",
+        "mr_children_saturday_park_2026_saga_1115",
+        "mr_children_saturday_park_2026_hiroshima_1121",
+        "mr_children_saturday_park_2026_hiroshima_1122",
+        "mr_children_saturday_park_2026_kanagawa_1202",
+        "mr_children_saturday_park_2026_kanagawa_1203"
+      ],
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-10T20:22:44+09:00"
     }
   ],
   "appleMusicTracks": [
