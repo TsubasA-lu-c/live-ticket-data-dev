@@ -104,6 +104,30 @@
       "artistId": "sakurazaka46",
       "source": "system",
       "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+    },
+    {
+      "id": "sakurazaka46_16th_backs_live_2026",
+      "artistId": "sakurazaka46",
+      "title": "櫻坂46 16th Single BACKS LIVE!!",
+      "startDate": "2026-12-15T00:00:00+09:00",
+      "endDate": "2026-12-16T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "Leminoスペシャルシート",
+          "amount": 15800
+        },
+        {
+          "label": "全席指定",
+          "amount": 9800
+        },
+        {
+          "label": "親子・女性エリア",
+          "amount": 9800
+        }
+      ],
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/T00006?ima=0000",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
     }
   ],
   "performances": [
@@ -336,6 +360,30 @@
       "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00692?ima=0000",
       "source": "system",
       "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+    },
+    {
+      "id": "sakurazaka46_16th_backs_live_2026_20261215",
+      "tourId": "sakurazaka46_16th_backs_live_2026",
+      "performanceDate": "2026-12-15",
+      "performanceAt": "2026-12-15T19:00:00+09:00",
+      "doorOpenAt": "2026-12-15T17:30:00+09:00",
+      "venue": "ぴあアリーナMM",
+      "kind": "oneman",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/T00006?ima=0000",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "sakurazaka46_16th_backs_live_2026_20261216",
+      "tourId": "sakurazaka46_16th_backs_live_2026",
+      "performanceDate": "2026-12-16",
+      "performanceAt": "2026-12-16T19:00:00+09:00",
+      "doorOpenAt": "2026-12-16T17:30:00+09:00",
+      "venue": "ぴあアリーナMM",
+      "kind": "oneman",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/T00006?ima=0000",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
     }
   ],
   "lotteries": [
@@ -866,6 +914,108 @@
       "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/T00004?ima=0000",
       "source": "system",
       "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+    },
+    {
+      "id": "sakurazaka46_16th_backs_live_2026_fc",
+      "tourId": "sakurazaka46_16th_backs_live_2026",
+      "type": "ファンクラブ抽選先行",
+      "entryStartAt": "2026-10-14T22:00:00+09:00",
+      "entryEndAt": "2026-10-20T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sakurazaka46_16th_backs_live_2026_20261215",
+        "sakurazaka46_16th_backs_live_2026_20261216"
+      ],
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/T00006?ima=0000",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "sakurazaka46_16th_backs_live_2026_lemino_special",
+      "tourId": "sakurazaka46_16th_backs_live_2026",
+      "type": "Leminoスペシャルシート先行",
+      "entryStartAt": "2026-10-14T22:00:00+09:00",
+      "entryEndAt": "2026-10-20T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sakurazaka46_16th_backs_live_2026_20261215",
+        "sakurazaka46_16th_backs_live_2026_20261216"
+      ],
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/T00006?ima=0000",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "sakurazaka46_16th_backs_live_2026_lemino_sakura",
+      "tourId": "sakurazaka46_16th_backs_live_2026",
+      "type": "Lemino櫻坂46パック先行",
+      "entryStartAt": "2026-10-14T22:00:00+09:00",
+      "entryEndAt": "2026-10-20T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sakurazaka46_16th_backs_live_2026_20261215",
+        "sakurazaka46_16th_backs_live_2026_20261216"
+      ],
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/T00006?ima=0000",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "sakurazaka46_16th_backs_live_2026_official",
+      "tourId": "sakurazaka46_16th_backs_live_2026",
+      "type": "オフィシャル先行",
+      "entryStartAt": "2026-10-24T12:00:00+09:00",
+      "entryEndAt": "2026-11-01T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sakurazaka46_16th_backs_live_2026_20261215",
+        "sakurazaka46_16th_backs_live_2026_20261216"
+      ],
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/T00006?ima=0000",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "sakurazaka46_16th_backs_live_2026_aeon",
+      "tourId": "sakurazaka46_16th_backs_live_2026",
+      "type": "イオンカード先行",
+      "entryStartAt": "2026-11-18T12:00:00+09:00",
+      "entryEndAt": "2026-11-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sakurazaka46_16th_backs_live_2026_20261215",
+        "sakurazaka46_16th_backs_live_2026_20261216"
+      ],
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/T00006?ima=0000",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "sakurazaka46_16th_backs_live_2026_general",
+      "tourId": "sakurazaka46_16th_backs_live_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-11-29T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sakurazaka46_16th_backs_live_2026_20261215",
+        "sakurazaka46_16th_backs_live_2026_20261216"
+      ],
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/T00006?ima=0000",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
     }
   ],
   "appleMusicTracks": [
