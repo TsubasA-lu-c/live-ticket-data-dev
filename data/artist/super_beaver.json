@@ -92,6 +92,22 @@
       "source": "system",
       "sourceUrl": "https://sp.super-beaver.com/feature/tour2728?_normalbrowse_=1",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "super_beaver_budokan_sp_2027",
+      "artistId": "super_beaver",
+      "title": "都会のラクダSP at 日本武道館 〜ラクダフロムトウキョウジャパン〜（2027）",
+      "startDate": "2027-03-31T00:00:00+09:00",
+      "endDate": "2027-04-01T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席・立見・車椅子席など",
+          "amount": 10500
+        }
+      ],
+      "sourceUrl": "https://sp.super-beaver.com/feature/budokan2027",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
     }
   ],
   "performances": [
@@ -970,6 +986,30 @@
       "source": "system",
       "sourceUrl": "https://sp.super-beaver.com/feature/tour2728?_normalbrowse_=1",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "super_beaver_budokan_sp_2027_0331",
+      "tourId": "super_beaver_budokan_sp_2027",
+      "performanceDate": "2027-03-31",
+      "performanceAt": "2027-03-31T18:30:00+09:00",
+      "doorOpenAt": "2027-03-31T17:30:00+09:00",
+      "kind": "oneman",
+      "venue": "日本武道館",
+      "sourceUrl": "https://sp.super-beaver.com/feature/budokan2027",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "super_beaver_budokan_sp_2027_0401",
+      "tourId": "super_beaver_budokan_sp_2027",
+      "performanceDate": "2027-04-01",
+      "performanceAt": "2027-04-01T18:30:00+09:00",
+      "doorOpenAt": "2027-04-01T17:30:00+09:00",
+      "kind": "oneman",
+      "venue": "日本武道館",
+      "sourceUrl": "https://sp.super-beaver.com/feature/budokan2027",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
     }
   ],
   "lotteries": [
@@ -1734,6 +1774,23 @@
       "source": "system",
       "sourceUrl": "https://sp.super-beaver.com/feature/dometour2026",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "super_beaver_budokan_sp_2027_fc_20261016",
+      "tourId": "super_beaver_budokan_sp_2027",
+      "type": "友の会会員限定チケット受付（抽選）",
+      "entryStartAt": "2026-10-16T21:00:00+09:00",
+      "entryEndAt": "2026-10-19T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "super_beaver_budokan_sp_2027_0331",
+        "super_beaver_budokan_sp_2027_0401"
+      ],
+      "sourceUrl": "https://sp.super-beaver.com/feature/budokan2027",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
     }
   ],
   "appleMusicTracks": [

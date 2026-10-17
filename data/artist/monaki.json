@@ -433,6 +433,28 @@
       "source": "system",
       "sourceUrl": "https://monaki.jp/news/detail/89372",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_fes_sanmar_sonic_2026",
+      "artistId": "monaki",
+      "title": "女川町町制施行100周年記念祭 SANMAR SONIC",
+      "startDate": "2026-11-01T00:00:00+09:00",
+      "endDate": "2026-11-01T00:00:00+09:00",
+      "prices": null,
+      "sourceUrl": "https://monaki.jp/live_information/detail/44634",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "monaki_fes_tgc_toyama_2026",
+      "artistId": "monaki",
+      "title": "TGC 富山 2026",
+      "startDate": "2026-11-21T00:00:00+09:00",
+      "endDate": "2026-11-21T00:00:00+09:00",
+      "prices": null,
+      "sourceUrl": "https://monaki.jp/live_information/detail/44491",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
     }
   ],
   "performances": [
@@ -799,6 +821,33 @@
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00",
       "performanceDate": "2026-12-25",
       "performanceTimeEstimated": true
+    },
+    {
+      "id": "monaki_fes_sanmar_sonic_2026_20261101",
+      "tourId": "monaki_fes_sanmar_sonic_2026",
+      "performanceDate": "2026-11-01",
+      "venue": "女川町総合運動場 第二多目的運動場",
+      "doorOpenAt": "2026-11-01T09:00:00+09:00",
+      "performanceAt": "2026-11-01T10:00:00+09:00",
+      "kind": "fes",
+      "eventName": "女川町町制施行100周年記念祭 SANMAR SONIC",
+      "sourceUrl": "https://monaki.jp/live_information/detail/44634",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "monaki_fes_tgc_toyama_2026_20261121",
+      "tourId": "monaki_fes_tgc_toyama_2026",
+      "performanceDate": "2026-11-21",
+      "venue": "YKK AP ARENA",
+      "doorOpenAt": null,
+      "performanceAt": "2026-11-21T12:00:00+09:00",
+      "kind": "fes",
+      "eventName": "TGC 富山 2026",
+      "sourceUrl": "https://monaki.jp/live_information/detail/44491",
+      "performanceTimeEstimated": true,
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
     }
   ],
   "lotteries": [
@@ -987,6 +1036,22 @@
       "sourceUrl": "https://monaki.jp/news/detail/92179",
       "source": "system",
       "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
+    },
+    {
+      "id": "monaki_fes_sanmar_sonic_2026_second",
+      "tourId": "monaki_fes_sanmar_sonic_2026",
+      "type": "SANMAR SONIC チケット二次先行（抽選）",
+      "entryStartAt": "2026-09-04T18:00:00+09:00",
+      "entryEndAt": "2026-09-13T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "monaki_fes_sanmar_sonic_2026_20261101"
+      ],
+      "sourceUrl": "https://monaki.jp/live_information/detail/44634",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
     }
   ],
   "appleMusicTracks": [
