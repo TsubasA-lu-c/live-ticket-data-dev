@@ -1143,6 +1143,251 @@
       "source": "system",
       "sourceUrl": "https://newacousticcamp.com/ticket/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "ellegarden_bad_for_education_ii_2026_regional_first",
+      "tourId": "ellegarden_bad_for_education_tour_ii_2026",
+      "type": "1次先行受付（抽選・福岡/愛知/大阪/宮城/北海道）",
+      "entryStartAt": "2026-08-14T18:00:00+09:00",
+      "entryEndAt": "2026-08-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ellegarden_bad_for_education_ii_2026_fukuoka_1013",
+        "ellegarden_bad_for_education_ii_2026_fukuoka_1014",
+        "ellegarden_bad_for_education_ii_2026_nagoya_1022",
+        "ellegarden_bad_for_education_ii_2026_nagoya_1023",
+        "ellegarden_bad_for_education_ii_2026_osaka_1027",
+        "ellegarden_bad_for_education_ii_2026_osaka_1028",
+        "ellegarden_bad_for_education_ii_2026_sendai_1102",
+        "ellegarden_bad_for_education_ii_2026_sendai_1103",
+        "ellegarden_bad_for_education_ii_2026_sapporo_1117",
+        "ellegarden_bad_for_education_ii_2026_sapporo_1118"
+      ],
+      "sourceUrl": "https://www.universal-music.co.jp/ellegarden/news/2026-08-10/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "ellegarden_bad_for_education_ii_2026_regional_second",
+      "tourId": "ellegarden_bad_for_education_tour_ii_2026",
+      "type": "2次先行受付（抽選・福岡/愛知/大阪/宮城/北海道）",
+      "entryStartAt": "2026-09-04T18:00:00+09:00",
+      "entryEndAt": "2026-09-13T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ellegarden_bad_for_education_ii_2026_fukuoka_1013",
+        "ellegarden_bad_for_education_ii_2026_fukuoka_1014",
+        "ellegarden_bad_for_education_ii_2026_nagoya_1022",
+        "ellegarden_bad_for_education_ii_2026_nagoya_1023",
+        "ellegarden_bad_for_education_ii_2026_osaka_1027",
+        "ellegarden_bad_for_education_ii_2026_osaka_1028",
+        "ellegarden_bad_for_education_ii_2026_sendai_1102",
+        "ellegarden_bad_for_education_ii_2026_sendai_1103",
+        "ellegarden_bad_for_education_ii_2026_sapporo_1117",
+        "ellegarden_bad_for_education_ii_2026_sapporo_1118"
+      ],
+      "sourceUrl": "https://www.universal-music.co.jp/ellegarden/news/2026-08-10/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "ellegarden_bad_for_education_ii_2026_regional_general",
+      "tourId": "ellegarden_bad_for_education_tour_ii_2026",
+      "type": "一般発売（先着・福岡/愛知/大阪/宮城/北海道）",
+      "entryStartAt": "2026-09-27T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ellegarden_bad_for_education_ii_2026_fukuoka_1013",
+        "ellegarden_bad_for_education_ii_2026_fukuoka_1014",
+        "ellegarden_bad_for_education_ii_2026_nagoya_1022",
+        "ellegarden_bad_for_education_ii_2026_nagoya_1023",
+        "ellegarden_bad_for_education_ii_2026_osaka_1027",
+        "ellegarden_bad_for_education_ii_2026_osaka_1028",
+        "ellegarden_bad_for_education_ii_2026_sendai_1102",
+        "ellegarden_bad_for_education_ii_2026_sendai_1103",
+        "ellegarden_bad_for_education_ii_2026_sapporo_1117",
+        "ellegarden_bad_for_education_ii_2026_sapporo_1118"
+      ],
+      "sourceUrl": "https://www.universal-music.co.jp/ellegarden/news/2026-08-10/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "ellegarden_bad_for_education_ii_2026_trade_fukuoka",
+      "tourId": "ellegarden_bad_for_education_tour_ii_2026",
+      "type": "公式トレード抽選（fukuoka公演）",
+      "entryStartAt": "2026-10-03T18:00:00+09:00",
+      "entryEndAt": "2026-10-05T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ellegarden_bad_for_education_ii_2026_fukuoka_1013",
+        "ellegarden_bad_for_education_ii_2026_fukuoka_1014"
+      ],
+      "sourceUrl": "https://www.universal-music.co.jp/ellegarden/news/2026-08-10/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "ellegarden_bad_for_education_ii_2026_trade_nagoya",
+      "tourId": "ellegarden_bad_for_education_tour_ii_2026",
+      "type": "公式トレード抽選（nagoya公演）",
+      "entryStartAt": "2026-10-12T18:00:00+09:00",
+      "entryEndAt": "2026-10-14T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ellegarden_bad_for_education_ii_2026_nagoya_1022",
+        "ellegarden_bad_for_education_ii_2026_nagoya_1023"
+      ],
+      "sourceUrl": "https://www.universal-music.co.jp/ellegarden/news/2026-08-10/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "ellegarden_bad_for_education_ii_2026_trade_osaka",
+      "tourId": "ellegarden_bad_for_education_tour_ii_2026",
+      "type": "公式トレード抽選（osaka公演）",
+      "entryStartAt": "2026-10-17T18:00:00+09:00",
+      "entryEndAt": "2026-10-19T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ellegarden_bad_for_education_ii_2026_osaka_1027",
+        "ellegarden_bad_for_education_ii_2026_osaka_1028"
+      ],
+      "sourceUrl": "https://www.universal-music.co.jp/ellegarden/news/2026-08-10/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "ellegarden_bad_for_education_ii_2026_trade_sendai",
+      "tourId": "ellegarden_bad_for_education_tour_ii_2026",
+      "type": "公式トレード抽選（sendai公演）",
+      "entryStartAt": "2026-10-24T18:00:00+09:00",
+      "entryEndAt": "2026-10-26T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ellegarden_bad_for_education_ii_2026_sendai_1102",
+        "ellegarden_bad_for_education_ii_2026_sendai_1103"
+      ],
+      "sourceUrl": "https://www.universal-music.co.jp/ellegarden/news/2026-08-10/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "ellegarden_bad_for_education_ii_2026_trade_sapporo",
+      "tourId": "ellegarden_bad_for_education_tour_ii_2026",
+      "type": "公式トレード抽選（sapporo公演）",
+      "entryStartAt": "2026-11-07T18:00:00+09:00",
+      "entryEndAt": "2026-11-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ellegarden_bad_for_education_ii_2026_sapporo_1117",
+        "ellegarden_bad_for_education_ii_2026_sapporo_1118"
+      ],
+      "sourceUrl": "https://www.universal-music.co.jp/ellegarden/news/2026-08-10/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "ellegarden_bad_for_education_ii_2026_tokyo_first",
+      "tourId": "ellegarden_bad_for_education_tour_ii_2026",
+      "type": "東京GRAND FINALE 1次先行（抽選）",
+      "entryStartAt": "2026-10-02T18:00:00+09:00",
+      "entryEndAt": "2026-10-12T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ellegarden_bad_for_education_ii_2026_tokyo_1208",
+        "ellegarden_bad_for_education_ii_2026_tokyo_1209"
+      ],
+      "sourceUrl": "https://www.universal-music.co.jp/ellegarden/news/2026-08-10/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "ellegarden_bad_for_education_ii_2026_tokyo_second",
+      "tourId": "ellegarden_bad_for_education_tour_ii_2026",
+      "type": "東京GRAND FINALE 2次先行（抽選）",
+      "entryStartAt": "2026-10-23T18:00:00+09:00",
+      "entryEndAt": "2026-11-01T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ellegarden_bad_for_education_ii_2026_tokyo_1208",
+        "ellegarden_bad_for_education_ii_2026_tokyo_1209"
+      ],
+      "sourceUrl": "https://www.universal-music.co.jp/ellegarden/news/2026-08-10/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "ellegarden_bad_for_education_ii_2026_tokyo_general",
+      "tourId": "ellegarden_bad_for_education_tour_ii_2026",
+      "type": "東京GRAND FINALE 一般発売（先着）",
+      "entryStartAt": "2026-11-14T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ellegarden_bad_for_education_ii_2026_tokyo_1208",
+        "ellegarden_bad_for_education_ii_2026_tokyo_1209"
+      ],
+      "sourceUrl": "https://www.universal-music.co.jp/ellegarden/news/2026-08-10/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "ellegarden_bad_for_education_ii_2026_tokyo_trade",
+      "tourId": "ellegarden_bad_for_education_tour_ii_2026",
+      "type": "東京GRAND FINALE 公式トレード抽選",
+      "entryStartAt": "2026-11-22T18:00:00+09:00",
+      "entryEndAt": "2026-11-24T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ellegarden_bad_for_education_ii_2026_tokyo_1208",
+        "ellegarden_bad_for_education_ii_2026_tokyo_1209"
+      ],
+      "sourceUrl": "https://www.universal-music.co.jp/ellegarden/news/2026-08-10/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "ellegarden_bad_for_education_ii_2026_seoul_general",
+      "tourId": "ellegarden_bad_for_education_tour_ii_2026",
+      "type": "ソウル公演 一般発売（先着）",
+      "entryStartAt": "2026-09-01T19:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ellegarden_bad_for_education_ii_2026_seoul_1128",
+        "ellegarden_bad_for_education_ii_2026_seoul_1129"
+      ],
+      "sourceUrl": "https://www.universal-music.co.jp/ellegarden/news/2026-08-10/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
     }
   ],
   "appleMusicTracks": [

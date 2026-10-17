@@ -236,6 +236,17 @@
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "hana_melon_music_awards_2026",
+      "artistId": "hana",
+      "title": "The 18th Melon Music Awards (MMA2026)",
+      "startDate": "2026-11-14T00:00:00+09:00",
+      "endDate": "2026-11-14T00:00:00+09:00",
+      "prices": null,
+      "sourceUrl": "https://hana.b-rave.tokyo/live/mma2026/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
     }
   ],
   "performances": [
@@ -491,6 +502,20 @@
       "performanceDate": "2026-11-15",
       "performanceTimeEstimated": true,
       "note": "HANA公式で11/15出演確定。開演時刻未発表のため、12:00+08:00は旧クライアント互換値で実時刻ではない。"
+    },
+    {
+      "id": "hana_melon_music_awards_2026_seoul_1114",
+      "tourId": "hana_melon_music_awards_2026",
+      "performanceDate": "2026-11-14",
+      "performanceAt": "2026-11-14T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "venue": "高尺スカイドーム（Gocheok Sky Dome）",
+      "kind": "fes",
+      "eventName": "The 18th Melon Music Awards (MMA2026)",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/mma2026/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
     }
   ],
   "lotteries": [
