@@ -734,15 +734,31 @@
       "type": "大阪城ホール追加公演 チケプラ先行（抽選）",
       "entryStartAt": "2026-10-06T18:00:00+09:00",
       "entryEndAt": "2026-10-12T23:59:00+09:00",
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
+      "resultAt": "2026-10-16T14:00:00+09:00",
+      "paymentStartAt": "2026-10-16T14:00:00+09:00",
+      "paymentEndAt": "2026-10-20T23:59:00+09:00",
       "performanceIds": [
         "kobukuro_kasumibiyori_2026_osaka_add_1219"
       ],
-      "sourceUrl": "https://kobukuro.com/special_site/kobukuro_tour2026/detail/344",
+      "sourceUrl": "https://kobukuro.com/feature/tour2026_ticket",
       "source": "system",
-      "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "kobukuro_kasumibiyori_2026_osaka_add_1219_tixplus_2nd",
+      "tourId": "kobukuro_kasumibiyori_2026",
+      "type": "大阪城ホール追加公演 チケプラ二次先行（抽選）",
+      "entryStartAt": "2026-10-21T18:00:00+09:00",
+      "entryEndAt": "2026-10-25T23:59:00+09:00",
+      "resultAt": "2026-10-29T14:00:00+09:00",
+      "paymentStartAt": "2026-10-29T14:00:00+09:00",
+      "paymentEndAt": "2026-11-02T23:59:00+09:00",
+      "performanceIds": [
+        "kobukuro_kasumibiyori_2026_osaka_add_1219"
+      ],
+      "sourceUrl": "https://kobukuro.com/feature/tour2026_ticket",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
     }
   ],
   "appleMusicTracks": [

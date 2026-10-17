@@ -161,6 +161,17 @@
       "source": "system",
       "sourceUrl": "https://a-nation.net/",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "novelbright_fes_merryrock_2026",
+      "artistId": "novelbright",
+      "title": "MERRY ROCK PARADE 2026",
+      "startDate": "2026-12-20T00:00:00+09:00",
+      "endDate": "2026-12-20T00:00:00+09:00",
+      "prices": null,
+      "sourceUrl": "https://novelbright.jp/news/detail/2493",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
     }
   ],
   "performances": [
@@ -669,6 +680,19 @@
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00",
       "performanceDate": "2026-10-04",
       "performanceTimeEstimated": true
+    },
+    {
+      "id": "novelbright_fes_merryrock_2026_nagoya_1220",
+      "tourId": "novelbright_fes_merryrock_2026",
+      "performanceDate": "2026-12-20",
+      "venue": "ポートメッセなごや1号館～3号館",
+      "doorOpenAt": "2026-12-20T09:00:00+09:00",
+      "performanceAt": "2026-12-20T11:00:00+09:00",
+      "kind": "fes",
+      "eventName": "MERRY ROCK PARADE 2026",
+      "sourceUrl": "https://novelbright.jp/news/detail/2493",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
     }
   ],
   "lotteries": [
@@ -1583,6 +1607,54 @@
       "sourceUrl": "https://dreamfestival.jp/",
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "novelbright_fes_merryrock_2026_official_second",
+      "tourId": "novelbright_fes_merryrock_2026",
+      "type": "MERRY ROCK PARADE オフィシャル二次抽選",
+      "entryStartAt": "2026-10-16T18:00:00+09:00",
+      "entryEndAt": "2026-10-25T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "novelbright_fes_merryrock_2026_nagoya_1220"
+      ],
+      "sourceUrl": "https://www.merryrockparade.jp/ticket.html",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "novelbright_pyramid_2026_osaka_1016_equipment_stage_additional_oct14",
+      "tourId": "novelbright_pyramid_2026",
+      "type": "大阪10/16 機材開放席/ステージサイド席追加販売（先着）",
+      "entryStartAt": "2026-10-14T10:00:00+09:00",
+      "entryEndAt": "2026-10-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "novelbright_pyramid_2026_osaka_1016"
+      ],
+      "sourceUrl": "https://novelbright.jp/news/detail/2492",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "novelbright_pyramid_2026_osaka_1017_equipment_stage_additional_oct14",
+      "tourId": "novelbright_pyramid_2026",
+      "type": "大阪10/17 機材開放席/ステージサイド席追加販売（先着）",
+      "entryStartAt": "2026-10-14T10:00:00+09:00",
+      "entryEndAt": "2026-10-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "novelbright_pyramid_2026_osaka_1017"
+      ],
+      "sourceUrl": "https://novelbright.jp/news/detail/2492",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
     }
   ],
   "appleMusicTracks": [
