@@ -884,6 +884,26 @@
       "source": "system",
       "sourceUrl": "https://dreamfestival.jp/",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_aao_showcase_tour_2026_fc_store_invitation",
+      "tourId": "jo1_aao_showcase_tour_2026",
+      "type": "JO1 OFFICIAL STORE FC限定枠ご招待（CD予約抽選）",
+      "entryStartAt": "2026-08-24T17:00:00+09:00",
+      "entryEndAt": "2026-09-06T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "jo1_aao_showcase_tour_2026_fukushima",
+        "jo1_aao_showcase_tour_2026_saitama",
+        "jo1_aao_showcase_tour_2026_nagano",
+        "jo1_aao_showcase_tour_2026_oita",
+        "jo1_aao_showcase_tour_2026_shiga"
+      ],
+      "source": "system",
+      "sourceUrl": "https://cloud.jo1.jp/news/detail/6347",
+      "lastVerifiedAt": "2026-10-17T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
