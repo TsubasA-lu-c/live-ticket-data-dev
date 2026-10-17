@@ -18,60 +18,114 @@
       "id": "king_gnu_10th_anniversary_kickoff_2027_tokyo_0217",
       "tourId": "king_gnu_10th_anniversary_kickoff_2027",
       "venue": "東京ドーム",
-      "performanceAt": "2027-02-17T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2027-02-17T18:30:00+09:00",
+      "doorOpenAt": "2027-02-17T16:30:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://www.sonymusic.co.jp/artist/kinggnu/info/585061",
-      "lastVerifiedAt": "2026-08-28T20:00:00+09:00",
-      "performanceDate": "2027-02-17",
-      "performanceTimeEstimated": true
+      "sourceUrl": "https://clubgnu.com/10th_KICKOFF/",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z",
+      "performanceDate": "2027-02-17"
     },
     {
       "id": "king_gnu_10th_anniversary_kickoff_2027_tokyo_0218",
       "tourId": "king_gnu_10th_anniversary_kickoff_2027",
       "venue": "東京ドーム",
-      "performanceAt": "2027-02-18T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2027-02-18T18:30:00+09:00",
+      "doorOpenAt": "2027-02-18T16:30:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://www.sonymusic.co.jp/artist/kinggnu/info/585061",
-      "lastVerifiedAt": "2026-08-28T20:00:00+09:00",
-      "performanceDate": "2027-02-18",
-      "performanceTimeEstimated": true
+      "sourceUrl": "https://clubgnu.com/10th_KICKOFF/",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z",
+      "performanceDate": "2027-02-18"
     },
     {
       "id": "king_gnu_10th_anniversary_kickoff_2027_osaka_0313",
       "tourId": "king_gnu_10th_anniversary_kickoff_2027",
       "venue": "京セラドーム大阪",
-      "performanceAt": "2027-03-13T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2027-03-13T17:00:00+09:00",
+      "doorOpenAt": "2027-03-13T15:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://www.sonymusic.co.jp/artist/kinggnu/info/585061",
-      "lastVerifiedAt": "2026-08-28T20:00:00+09:00",
-      "performanceDate": "2027-03-13",
-      "performanceTimeEstimated": true
+      "sourceUrl": "https://clubgnu.com/10th_KICKOFF/",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z",
+      "performanceDate": "2027-03-13"
     },
     {
       "id": "king_gnu_10th_anniversary_kickoff_2027_osaka_0314",
       "tourId": "king_gnu_10th_anniversary_kickoff_2027",
       "venue": "京セラドーム大阪",
-      "performanceAt": "2027-03-14T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2027-03-14T17:00:00+09:00",
+      "doorOpenAt": "2027-03-14T15:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://www.sonymusic.co.jp/artist/kinggnu/info/585061",
-      "lastVerifiedAt": "2026-08-28T20:00:00+09:00",
-      "performanceDate": "2027-03-14",
-      "performanceTimeEstimated": true
+      "sourceUrl": "https://clubgnu.com/10th_KICKOFF/",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z",
+      "performanceDate": "2027-03-14"
     }
   ],
-  "lotteries": [],
+  "lotteries": [
+    {
+      "id": "king_gnu_kickoff_2027_fc_premium_oct05",
+      "tourId": "king_gnu_10th_anniversary_kickoff_2027",
+      "type": "CLUB GNU最速FC先行 SS・バルコニー抽選（申込・同行者とも会員）",
+      "entryStartAt": "2026-10-05T18:00:00+09:00",
+      "entryEndAt": "2026-10-22T23:59:00+09:00",
+      "resultAt": "2026-11-03T15:00:00+09:00",
+      "paymentStartAt": "2026-11-03T15:00:00+09:00",
+      "paymentEndAt": "2026-11-08T23:59:00+09:00",
+      "performanceIds": [
+        "king_gnu_10th_anniversary_kickoff_2027_tokyo_0217",
+        "king_gnu_10th_anniversary_kickoff_2027_tokyo_0218",
+        "king_gnu_10th_anniversary_kickoff_2027_osaka_0313",
+        "king_gnu_10th_anniversary_kickoff_2027_osaka_0314"
+      ],
+      "sourceUrl": "https://clubgnu.com/10th_KICKOFF/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "king_gnu_kickoff_2027_fc_reserved_oct05",
+      "tourId": "king_gnu_10th_anniversary_kickoff_2027",
+      "type": "CLUB GNU最速FC先行 指定・着席限定抽選",
+      "entryStartAt": "2026-10-05T18:00:00+09:00",
+      "entryEndAt": "2026-10-22T23:59:00+09:00",
+      "resultAt": "2026-11-03T15:00:00+09:00",
+      "paymentStartAt": "2026-11-03T15:00:00+09:00",
+      "paymentEndAt": "2026-11-08T23:59:00+09:00",
+      "performanceIds": [
+        "king_gnu_10th_anniversary_kickoff_2027_tokyo_0217",
+        "king_gnu_10th_anniversary_kickoff_2027_tokyo_0218",
+        "king_gnu_10th_anniversary_kickoff_2027_osaka_0313",
+        "king_gnu_10th_anniversary_kickoff_2027_osaka_0314"
+      ],
+      "sourceUrl": "https://clubgnu.com/10th_KICKOFF/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "king_gnu_kickoff_2027_fc_second_nov10",
+      "tourId": "king_gnu_10th_anniversary_kickoff_2027",
+      "type": "CLUB GNU FC 2次抽選",
+      "entryStartAt": "2026-11-10T18:00:00+09:00",
+      "entryEndAt": "2026-11-19T23:59:00+09:00",
+      "resultAt": "2026-12-02T15:00:00+09:00",
+      "paymentStartAt": "2026-12-02T15:00:00+09:00",
+      "paymentEndAt": "2026-12-06T23:59:00+09:00",
+      "performanceIds": [
+        "king_gnu_10th_anniversary_kickoff_2027_tokyo_0217",
+        "king_gnu_10th_anniversary_kickoff_2027_tokyo_0218",
+        "king_gnu_10th_anniversary_kickoff_2027_osaka_0313",
+        "king_gnu_10th_anniversary_kickoff_2027_osaka_0314"
+      ],
+      "sourceUrl": "https://clubgnu.com/10th_KICKOFF/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    }
+  ],
   "appleMusicTracks": [
     {
       "songId": "6794271993",

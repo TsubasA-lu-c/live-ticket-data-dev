@@ -464,6 +464,111 @@
       "source": "system",
       "sourceUrl": "https://www.uverworld.jp/news/detail/3231",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "be_first_dome_2027_besty_fc_first",
+      "tourId": "be_first_dome_tour_2027",
+      "type": "BESTY会員一次抽選",
+      "entryStartAt": "2026-05-22T18:00:00+09:00",
+      "entryEndAt": "2026-05-31T23:59:00+09:00",
+      "resultAt": "2026-06-06T17:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "be_first_dome_tour_2027_tokyodome_0111",
+        "be_first_dome_tour_2027_tokyodome_0112",
+        "be_first_dome_tour_2027_fukuoka_0213",
+        "be_first_dome_tour_2027_fukuoka_0214",
+        "be_first_dome_tour_2027_belluna_0306",
+        "be_first_dome_tour_2027_belluna_0307"
+      ],
+      "sourceUrl": "https://befirst.tokyo/tour/dometour2027/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "be_first_dome_2027_architect_first",
+      "tourId": "be_first_dome_tour_2027",
+      "type": "B-Town Architect会員一次抽選",
+      "entryStartAt": "2026-05-22T18:00:00+09:00",
+      "entryEndAt": "2026-05-31T23:59:00+09:00",
+      "resultAt": "2026-06-06T17:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "be_first_dome_tour_2027_tokyodome_0111",
+        "be_first_dome_tour_2027_tokyodome_0112",
+        "be_first_dome_tour_2027_fukuoka_0213",
+        "be_first_dome_tour_2027_fukuoka_0214",
+        "be_first_dome_tour_2027_belluna_0306",
+        "be_first_dome_tour_2027_belluna_0307"
+      ],
+      "sourceUrl": "https://befirst.tokyo/tour/dometour2027/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "be_first_dome_2027_resident_first",
+      "tourId": "be_first_dome_tour_2027",
+      "type": "B-Town Resident会員先行",
+      "entryStartAt": "2026-06-06T18:00:00+09:00",
+      "entryEndAt": "2026-06-11T23:59:00+09:00",
+      "resultAt": "2026-06-18T17:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "be_first_dome_tour_2027_tokyodome_0111",
+        "be_first_dome_tour_2027_tokyodome_0112",
+        "be_first_dome_tour_2027_fukuoka_0213",
+        "be_first_dome_tour_2027_fukuoka_0214",
+        "be_first_dome_tour_2027_belluna_0306",
+        "be_first_dome_tour_2027_belluna_0307"
+      ],
+      "sourceUrl": "https://befirst.tokyo/tour/dometour2027/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "be_first_dome_2027_lencore_first",
+      "tourId": "be_first_dome_tour_2027",
+      "type": "ローチケLEncore抽選先行",
+      "entryStartAt": "2026-06-24T15:00:00+09:00",
+      "entryEndAt": "2026-07-05T23:59:00+09:00",
+      "resultAt": "2026-07-10T17:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "be_first_dome_tour_2027_tokyodome_0111",
+        "be_first_dome_tour_2027_tokyodome_0112",
+        "be_first_dome_tour_2027_fukuoka_0213",
+        "be_first_dome_tour_2027_fukuoka_0214",
+        "be_first_dome_tour_2027_belluna_0306",
+        "be_first_dome_tour_2027_belluna_0307"
+      ],
+      "sourceUrl": "https://befirst.tokyo/tour/dometour2027/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "be_first_dome_2027_prerequest_first",
+      "tourId": "be_first_dome_tour_2027",
+      "type": "ローチケプレリクエスト抽選先行",
+      "entryStartAt": "2026-06-24T15:00:00+09:00",
+      "entryEndAt": "2026-07-05T23:59:00+09:00",
+      "resultAt": "2026-07-10T17:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "be_first_dome_tour_2027_tokyodome_0111",
+        "be_first_dome_tour_2027_tokyodome_0112",
+        "be_first_dome_tour_2027_fukuoka_0213",
+        "be_first_dome_tour_2027_fukuoka_0214",
+        "be_first_dome_tour_2027_belluna_0306",
+        "be_first_dome_tour_2027_belluna_0307"
+      ],
+      "sourceUrl": "https://befirst.tokyo/tour/dometour2027/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
     }
   ],
   "appleMusicTracks": [
