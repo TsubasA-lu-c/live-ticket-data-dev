@@ -330,6 +330,39 @@
       "artistId": "aina_the_end",
       "source": "system",
       "lastVerifiedAt": "2026-10-10T20:24:52+09:00"
+    },
+    {
+      "id": "aina_the_end_spotify_stage_tokyo_2026",
+      "artistId": "aina_the_end",
+      "title": "Spotify On Stage Tokyo 2026 -10th Anniversary Special-",
+      "startDate": "2026-12-20T00:00:00+09:00",
+      "endDate": "2026-12-20T00:00:00+09:00",
+      "prices": null,
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1136687",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "aina_the_end_countdown_japan_2627",
+      "artistId": "aina_the_end",
+      "title": "COUNTDOWN JAPAN 26/27",
+      "startDate": "2026-12-29T00:00:00+09:00",
+      "endDate": "2026-12-29T00:00:00+09:00",
+      "prices": null,
+      "sourceUrl": "https://www.ainatheend.jp/news/detail.php?id=1136630",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "aina_the_end_matsuri_2027_bangkok",
+      "artistId": "aina_the_end",
+      "title": "matsuri ‘27: Japanese Music Experience BANGKOK",
+      "startDate": "2027-02-13T00:00:00+07:00",
+      "endDate": "2027-02-13T00:00:00+07:00",
+      "prices": null,
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1136688",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
     }
   ],
   "performances": [
@@ -673,6 +706,47 @@
       "sourceUrl": "https://fukuokamusic-fes.com/2027/index.html",
       "source": "system",
       "lastVerifiedAt": "2026-10-10T20:24:52+09:00"
+    },
+    {
+      "id": "aina_the_end_spotify_stage_tokyo_2026_20261220",
+      "tourId": "aina_the_end_spotify_stage_tokyo_2026",
+      "performanceDate": "2026-12-20",
+      "performanceAt": "2026-12-20T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "venue": "東京ガーデンシアター",
+      "kind": "taiban",
+      "eventName": "Spotify On Stage Tokyo 2026 -10th Anniversary Special-",
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1136687",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "aina_the_end_countdown_japan_2627_20261229",
+      "tourId": "aina_the_end_countdown_japan_2627",
+      "performanceDate": "2026-12-29",
+      "performanceAt": "2026-12-29T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "venue": "幕張メッセ国際展示場1～11ホール・イベントホール",
+      "kind": "fes",
+      "eventName": "COUNTDOWN JAPAN 26/27",
+      "sourceUrl": "https://www.ainatheend.jp/news/detail.php?id=1136630",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "aina_the_end_matsuri_2027_bangkok_20270213",
+      "tourId": "aina_the_end_matsuri_2027_bangkok",
+      "performanceDate": "2027-02-13",
+      "performanceAt": "2027-02-13T18:00:00+07:00",
+      "doorOpenAt": null,
+      "venue": "UOB LIVE（Bangkok, Thailand）",
+      "kind": "fes",
+      "eventName": "matsuri ‘27: Japanese Music Experience BANGKOK",
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1136688",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
     }
   ],
   "lotteries": [
@@ -1027,6 +1101,22 @@
       "sourceUrl": "https://fukuokamusic-fes.com/2027/index.html",
       "source": "system",
       "lastVerifiedAt": "2026-10-10T20:24:52+09:00"
+    },
+    {
+      "id": "aina_the_end_matsuri_2027_bangkok_general_nov01",
+      "tourId": "aina_the_end_matsuri_2027_bangkok",
+      "type": "THAI TICKET MAJOR一般発売（先着）",
+      "entryStartAt": "2026-11-01T13:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aina_the_end_matsuri_2027_bangkok_20270213"
+      ],
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1136688",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
     }
   ],
   "appleMusicTracks": [

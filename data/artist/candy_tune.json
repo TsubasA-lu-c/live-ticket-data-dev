@@ -448,6 +448,17 @@
       "sourceUrl": "https://candytune.asobisystem.com/news/detail/91037",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00",
       "prices": null
+    },
+    {
+      "id": "candy_tune_fes_liveazuma_2026",
+      "artistId": "candy_tune",
+      "title": "LIVE AZUMA 2026",
+      "startDate": "2026-10-17T00:00:00+09:00",
+      "endDate": "2026-10-17T00:00:00+09:00",
+      "prices": null,
+      "sourceUrl": "https://liveazuma.jp/about/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
     }
   ],
   "performances": [
@@ -1246,6 +1257,19 @@
       "sourceUrl": "https://candytune.asobisystem.com/news/detail/91037",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00",
       "note": "第1部開始10:00。全6部の特典会を同日1イベントとして扱う。"
+    },
+    {
+      "id": "candy_tune_fes_liveazuma_2026_fukushima_1017",
+      "tourId": "candy_tune_fes_liveazuma_2026",
+      "performanceDate": "2026-10-17",
+      "performanceAt": "2026-10-17T10:50:00+09:00",
+      "doorOpenAt": "2026-10-17T10:00:00+09:00",
+      "venue": "福島あづま球場（あづま総合運動公園）",
+      "kind": "fes",
+      "eventName": "LIVE AZUMA 2026",
+      "sourceUrl": "https://liveazuma.jp/about/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
     }
   ],
   "lotteries": [
