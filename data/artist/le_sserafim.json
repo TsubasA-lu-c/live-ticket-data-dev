@@ -472,6 +472,58 @@
       "source": "system",
       "sourceUrl": "https://www.le-sserafim.jp/news/c3c8ff82cde6",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_pureflow_kyocera_2026_general_advanced_oct10",
+      "tourId": "le_sserafim_pureflow_kyocera_2026",
+      "type": "一般先行（先着）",
+      "entryStartAt": "2026-10-10T13:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "le_sserafim_pureflow_kyocera_2026_1219",
+        "le_sserafim_pureflow_kyocera_2026_1220"
+      ],
+      "sourceUrl": "https://www.le-sserafim.jp/news/332313879668?categoryId=254",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "le_sserafim_pureflow_kyocera_2026_general_nov07",
+      "tourId": "le_sserafim_pureflow_kyocera_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-11-07T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "le_sserafim_pureflow_kyocera_2026_1219",
+        "le_sserafim_pureflow_kyocera_2026_1220"
+      ],
+      "sourceUrl": "https://www.le-sserafim.jp/news/332313879668?categoryId=254",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "le_sserafim_pureflow_kyocera_2026_fearnot_upgrade_oct16",
+      "tourId": "le_sserafim_pureflow_kyocera_2026",
+      "type": "FEARNOT Membership (JP)会員 VIP席アップグレード（抽選）",
+      "entryStartAt": "2026-10-16T17:00:00+09:00",
+      "entryEndAt": "2026-10-21T23:59:00+09:00",
+      "resultAt": "2026-10-30T19:00:00+09:00",
+      "paymentStartAt": "2026-10-30T19:00:00+09:00",
+      "paymentEndAt": "2026-11-03T23:00:00+09:00",
+      "performanceIds": [
+        "le_sserafim_pureflow_kyocera_2026_1219",
+        "le_sserafim_pureflow_kyocera_2026_1220"
+      ],
+      "sourceUrl": "https://www.le-sserafim.jp/news/f466a777ff2d?categoryId=254",
+      "note": "FC1次・2次先行指定席当選かつ入金済みの会員のみ。既存チケット差額11,000円。",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
     }
   ],
   "appleMusicTracks": [

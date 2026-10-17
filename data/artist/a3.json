@@ -824,6 +824,42 @@
       "source": "system",
       "sourceUrl": "https://mankai-stage.jp/act3-2/ss2026/schedule-tickets",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "a3_10th_2027_app_presale_oct08",
+      "tourId": "a3_10th_full_blooming_live_2027",
+      "type": "ダイヤパス保有者アプリ先行抽選",
+      "entryStartAt": "2026-10-08T00:00:00+09:00",
+      "entryEndAt": "2026-10-19T23:59:00+09:00",
+      "resultAt": "2026-10-23T19:00:00+09:00",
+      "paymentStartAt": "2026-10-23T19:00:00+09:00",
+      "paymentEndAt": "2026-10-26T23:59:00+09:00",
+      "performanceIds": [
+        "a3_10th_full_blooming_live_2027_day1",
+        "a3_10th_full_blooming_live_2027_day2"
+      ],
+      "sourceUrl": "https://www.a3-liber.jp/news/20261007-2640",
+      "note": "アプリのダイヤパス購入/有効保持で取得したシリアルが必要",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "a3_10th_2027_radio_membership_oct27",
+      "tourId": "a3_10th_full_blooming_live_2027",
+      "type": "A3! 10th AnniversAry Blooming Radioポッドキャストメンバーシップ先行抽選",
+      "entryStartAt": "2026-10-27T19:00:00+09:00",
+      "entryEndAt": "2026-11-09T23:59:00+09:00",
+      "resultAt": "2026-11-12T19:00:00+09:00",
+      "paymentStartAt": "2026-11-12T19:00:00+09:00",
+      "paymentEndAt": "2026-11-15T23:59:00+09:00",
+      "performanceIds": [
+        "a3_10th_full_blooming_live_2027_day1",
+        "a3_10th_full_blooming_live_2027_day2"
+      ],
+      "sourceUrl": "https://news.ponycanyon.co.jp/2026/10/126847",
+      "note": "有料ポッドキャスト『満開プラン』会員シリアル対象、加入期限11/3 23:59",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
     }
   ],
   "appleMusicTracks": [

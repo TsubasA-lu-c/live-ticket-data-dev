@@ -1772,31 +1772,29 @@
       "entryStartAt": "2026-10-10T14:00:00+09:00",
       "entryEndAt": "2026-10-12T23:59:00+09:00",
       "resultAt": "2026-10-17T11:00:00+09:00",
-      "paymentStartAt": "2026-10-17T11:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "sourceUrl": "https://www.andteam-official.jp/news/e0a2647106d0",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "and_team_mark_on_you_2026_tokyo_equipment_release_oct14",
+      "tourId": "and_team_mark_on_you_2026_2027",
+      "type": "東京10/15・16 機材開放席一般先着販売",
+      "entryStartAt": "2026-10-14T18:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
       "paymentEndAt": null,
       "performanceIds": [
-        "and_team_mark_on_you_2026_2027_iwate_1027",
-        "and_team_mark_on_you_2026_2027_iwate_1028",
-        "and_team_mark_on_you_2026_2027_hiroshima_1127",
-        "and_team_mark_on_you_2026_2027_fukuoka_1210",
-        "and_team_mark_on_you_2026_2027_fukuoka_1211",
-        "and_team_mark_on_you_2026_2027_ishikawa_1215",
-        "and_team_mark_on_you_2026_2027_ishikawa_1216",
-        "and_team_mark_on_you_2026_2027_ehime_1219",
-        "and_team_mark_on_you_2026_2027_ehime_1220",
-        "and_team_mark_on_you_2026_2027_hokkaido_1227",
-        "and_team_mark_on_you_2026_2027_kumamoto_0105",
-        "and_team_mark_on_you_2026_2027_miyagi_0110",
-        "and_team_mark_on_you_2026_2027_miyagi_0111",
-        "and_team_mark_on_you_2026_2027_niigata_0115",
-        "and_team_mark_on_you_2026_2027_niigata_0116",
-        "and_team_mark_on_you_2026_2027_okayama_0122",
-        "and_team_mark_on_you_2026_2027_okayama_0123",
-        "and_team_mark_on_you_2026_2027_okinawa_0128"
+        "and_team_mark_on_you_2026_2027_tokyo_1015",
+        "and_team_mark_on_you_2026_2027_tokyo_1016"
       ],
-      "sourceUrl": "https://www.andteam-official.jp/news/df0dcd6b811a",
+      "sourceUrl": "https://www.andteam-official.jp/news/e82226ec71dc?search=concert+tour",
       "source": "system",
-      "lastVerifiedAt": "2026-10-10T20:24:52+09:00"
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
     }
   ],
   "appleMusicTracks": [

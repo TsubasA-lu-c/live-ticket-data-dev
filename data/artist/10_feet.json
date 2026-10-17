@@ -407,6 +407,66 @@
       "artistId": "10_feet",
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "10_feet_taiban_unframed_2026",
+      "artistId": "10_feet",
+      "title": "TOWER RECORDS \"NO MUSIC, NO LIFE.\" presents UNFRAMED -30th Anniversary Live Series-",
+      "startDate": "2026-11-20T00:00:00+09:00",
+      "endDate": "2026-11-20T00:00:00+09:00",
+      "prices": null,
+      "sourceUrl": "https://10-feet.kyoto/contents/1118905",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "10_feet_taiban_wstudiored_2026",
+      "artistId": "10_feet",
+      "title": "WstudioRED 10th ANNIVERSARY LIVE -EXTRA STAGE-",
+      "startDate": "2026-11-30T00:00:00+09:00",
+      "endDate": "2026-11-30T00:00:00+09:00",
+      "prices": null,
+      "sourceUrl": "https://10-feet.kyoto/contents/1118726",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "10_feet_taiban_quattro_crossing_2026",
+      "artistId": "10_feet",
+      "title": "HIROSHIMA CLUB QUATTRO 25th ANNIVERSARY \"QUATTRO CROSSING\"",
+      "startDate": "2026-12-02T00:00:00+09:00",
+      "endDate": "2026-12-02T00:00:00+09:00",
+      "prices": null,
+      "sourceUrl": "https://10-feet.kyoto/contents/1119778",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "10_feet_fes_countdown_japan_2026",
+      "artistId": "10_feet",
+      "title": "COUNTDOWN JAPAN 26/27",
+      "startDate": "2026-12-31T00:00:00+09:00",
+      "endDate": "2026-12-31T00:00:00+09:00",
+      "prices": null,
+      "sourceUrl": "https://10-feet.kyoto/contents/1118987",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "10_feet_taiban_10freak_history_2027",
+      "artistId": "10_feet",
+      "title": "10-FEET x G-FREAK FACTORY 30th Anniversary『10-FREAK HISTORY』〜2本○○○〜",
+      "startDate": "2027-04-01T00:00:00+09:00",
+      "endDate": "2027-04-21T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全自由（税別）",
+          "amount": 5000
+        }
+      ],
+      "sourceUrl": "https://10-feet.kyoto/pages/10-freakhistory",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
     }
   ],
   "performances": [
@@ -858,6 +918,124 @@
       "source": "system",
       "sourceUrl": "https://www.merryrockparade.jp/artist.html",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "10_feet_taiban_unframed_2026_20261120",
+      "tourId": "10_feet_taiban_unframed_2026",
+      "performanceDate": "2026-11-20",
+      "venue": "Zepp Fukuoka",
+      "doorOpenAt": "2026-11-20T17:30:00+09:00",
+      "performanceAt": "2026-11-20T18:30:00+09:00",
+      "kind": "taiban",
+      "eventName": "TOWER RECORDS \"NO MUSIC, NO LIFE.\" presents UNFRAMED -30th Anniversary Live Series-",
+      "sourceUrl": "https://10-feet.kyoto/contents/1118905",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "10_feet_taiban_wstudiored_2026_20261130",
+      "tourId": "10_feet_taiban_wstudiored_2026",
+      "performanceDate": "2026-11-30",
+      "venue": "松山WstudioRED",
+      "doorOpenAt": "2026-11-30T18:30:00+09:00",
+      "performanceAt": "2026-11-30T19:15:00+09:00",
+      "kind": "taiban",
+      "eventName": "WstudioRED 10th ANNIVERSARY LIVE -EXTRA STAGE-",
+      "sourceUrl": "https://10-feet.kyoto/contents/1118726",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "10_feet_taiban_quattro_crossing_2026_20261202",
+      "tourId": "10_feet_taiban_quattro_crossing_2026",
+      "performanceDate": "2026-12-02",
+      "venue": "広島CLUB QUATTRO",
+      "doorOpenAt": "2026-12-02T18:00:00+09:00",
+      "performanceAt": "2026-12-02T19:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "HIROSHIMA CLUB QUATTRO 25th ANNIVERSARY \"QUATTRO CROSSING\"",
+      "sourceUrl": "https://10-feet.kyoto/contents/1119778",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "10_feet_fes_countdown_japan_2026_20261231",
+      "tourId": "10_feet_fes_countdown_japan_2026",
+      "performanceDate": "2026-12-31",
+      "venue": "幕張メッセ国際展示場1〜11ホール・イベントホール",
+      "doorOpenAt": null,
+      "performanceAt": "2026-12-31T12:00:00+09:00",
+      "kind": "fes",
+      "eventName": "COUNTDOWN JAPAN 26/27",
+      "sourceUrl": "https://10-feet.kyoto/contents/1118987",
+      "performanceTimeEstimated": true,
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "10_feet_taiban_10freak_history_2027_20270401",
+      "tourId": "10_feet_taiban_10freak_history_2027",
+      "performanceDate": "2027-04-01",
+      "venue": "サッポロファクトリーホール",
+      "doorOpenAt": "2027-04-01T17:45:00+09:00",
+      "performanceAt": "2027-04-01T18:30:00+09:00",
+      "kind": "taiban",
+      "eventName": "10-FEET x G-FREAK FACTORY 30th Anniversary『10-FREAK HISTORY』〜2本○○○〜",
+      "sourceUrl": "https://10-feet.kyoto/pages/10-freakhistory",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "10_feet_taiban_10freak_history_2027_20270412",
+      "tourId": "10_feet_taiban_10freak_history_2027",
+      "performanceDate": "2027-04-12",
+      "venue": "大阪GORILLA HALL",
+      "doorOpenAt": "2027-04-12T17:45:00+09:00",
+      "performanceAt": "2027-04-12T18:30:00+09:00",
+      "kind": "taiban",
+      "eventName": "10-FEET x G-FREAK FACTORY 30th Anniversary『10-FREAK HISTORY』〜2本○○○〜",
+      "sourceUrl": "https://10-feet.kyoto/pages/10-freakhistory",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "10_feet_taiban_10freak_history_2027_20270414",
+      "tourId": "10_feet_taiban_10freak_history_2027",
+      "performanceDate": "2027-04-14",
+      "venue": "高松festhalle",
+      "doorOpenAt": "2027-04-14T17:45:00+09:00",
+      "performanceAt": "2027-04-14T18:30:00+09:00",
+      "kind": "taiban",
+      "eventName": "10-FEET x G-FREAK FACTORY 30th Anniversary『10-FREAK HISTORY』〜2本○○○〜",
+      "sourceUrl": "https://10-feet.kyoto/pages/10-freakhistory",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "10_feet_taiban_10freak_history_2027_20270419",
+      "tourId": "10_feet_taiban_10freak_history_2027",
+      "performanceDate": "2027-04-19",
+      "venue": "広島CLUB QUATTRO",
+      "doorOpenAt": "2027-04-19T17:45:00+09:00",
+      "performanceAt": "2027-04-19T18:30:00+09:00",
+      "kind": "taiban",
+      "eventName": "10-FEET x G-FREAK FACTORY 30th Anniversary『10-FREAK HISTORY』〜2本○○○〜",
+      "sourceUrl": "https://10-feet.kyoto/pages/10-freakhistory",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "10_feet_taiban_10freak_history_2027_20270421",
+      "tourId": "10_feet_taiban_10freak_history_2027",
+      "performanceDate": "2027-04-21",
+      "venue": "福岡UNITEDLAB",
+      "doorOpenAt": "2027-04-21T17:45:00+09:00",
+      "performanceAt": "2027-04-21T18:30:00+09:00",
+      "kind": "taiban",
+      "eventName": "10-FEET x G-FREAK FACTORY 30th Anniversary『10-FREAK HISTORY』〜2本○○○〜",
+      "sourceUrl": "https://10-feet.kyoto/pages/10-freakhistory",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
     }
   ],
   "lotteries": [
@@ -1060,6 +1238,62 @@
       "source": "system",
       "sourceUrl": "https://www.merryrockparade.jp/ticket.html",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "10_feet_10freak_history_2027_mobile_zero",
+      "tourId": "10_feet_taiban_10freak_history_2027",
+      "type": "10-FEET MOBILE会員限定 超最速オフィシャル0次先行（抽選）",
+      "entryStartAt": "2026-10-10T20:00:00+09:00",
+      "entryEndAt": "2026-10-13T23:59:00+09:00",
+      "resultAt": "2026-10-17T15:00:00+09:00",
+      "paymentStartAt": "2026-10-17T15:00:00+09:00",
+      "paymentEndAt": "2026-10-21T23:00:00+09:00",
+      "performanceIds": [
+        "10_feet_taiban_10freak_history_2027_20270401",
+        "10_feet_taiban_10freak_history_2027_20270412",
+        "10_feet_taiban_10freak_history_2027_20270414",
+        "10_feet_taiban_10freak_history_2027_20270419",
+        "10_feet_taiban_10freak_history_2027_20270421"
+      ],
+      "sourceUrl": "https://10-feet.kyoto/pages/10-freakhistory",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "10_feet_10freak_history_2027_official_first",
+      "tourId": "10_feet_taiban_10freak_history_2027",
+      "type": "オフィシャル1次先行（抽選）",
+      "entryStartAt": "2026-10-14T20:00:00+09:00",
+      "entryEndAt": "2026-10-20T23:59:00+09:00",
+      "resultAt": "2026-10-24T15:00:00+09:00",
+      "paymentStartAt": "2026-10-24T15:00:00+09:00",
+      "paymentEndAt": "2026-10-28T23:00:00+09:00",
+      "performanceIds": [
+        "10_feet_taiban_10freak_history_2027_20270401",
+        "10_feet_taiban_10freak_history_2027_20270412",
+        "10_feet_taiban_10freak_history_2027_20270414",
+        "10_feet_taiban_10freak_history_2027_20270419",
+        "10_feet_taiban_10freak_history_2027_20270421"
+      ],
+      "sourceUrl": "https://10-feet.kyoto/pages/10-freakhistory",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "10_feet_wstudiored_2026_general",
+      "tourId": "10_feet_taiban_wstudiored_2026",
+      "type": "一般チケット（先着）",
+      "entryStartAt": "2026-10-17T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "10_feet_taiban_wstudiored_2026_20261130"
+      ],
+      "sourceUrl": "https://10-feet.kyoto/contents/1118726",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
     }
   ]
 }

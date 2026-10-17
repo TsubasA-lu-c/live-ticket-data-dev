@@ -914,15 +914,16 @@
       "type": "HOME購入者対象 HOME Party応募期間 第1回",
       "entryStartAt": "2026-09-18T18:30:00+09:00",
       "entryEndAt": "2026-09-23T23:59:00+09:00",
-      "resultAt": null,
+      "resultAt": "2026-10-01T17:00:00+09:00",
       "paymentStartAt": null,
       "paymentEndAt": null,
       "performanceIds": [
         "boynextdoor_home_party_japan_2026_tachikawa_1210"
       ],
       "source": "system",
-      "sourceUrl": "https://www.universal-music.co.jp/boynextdoor/news/2026-09-18/",
-      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+      "sourceUrl": "https://boynextdoor-official.jp/news/f30f4e4d20f8?CateID=&SearchWord=",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z",
+      "note": "当落17:00頃"
     },
     {
       "id": "boynextdoor_home_party_japan_2026_purchase_entry_2",
@@ -930,15 +931,16 @@
       "type": "HOME購入者対象 HOME Party応募期間 第2回",
       "entryStartAt": "2026-09-24T00:00:00+09:00",
       "entryEndAt": "2026-10-04T23:59:00+09:00",
-      "resultAt": null,
+      "resultAt": "2026-10-14T17:00:00+09:00",
       "paymentStartAt": null,
       "paymentEndAt": null,
       "performanceIds": [
         "boynextdoor_home_party_japan_2026_tachikawa_1210"
       ],
       "source": "system",
-      "sourceUrl": "https://www.universal-music.co.jp/boynextdoor/news/2026-09-18/",
-      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+      "sourceUrl": "https://boynextdoor-official.jp/news/f30f4e4d20f8?CateID=&SearchWord=",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z",
+      "note": "当落17:00頃"
     },
     {
       "id": "boynextdoor_gate3_2026_a9d5b8d2_gate3_5f7c225a",

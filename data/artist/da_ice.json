@@ -1340,6 +1340,60 @@
       "sourceUrl": "https://dreamfestival.jp/",
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "da_ice_day_hall_phase_2026_playguide_firstcome_oct17_four_providers",
+      "tourId": "da_ice_day_hall_phase_2026",
+      "type": "プレイガイド先着先行（mu-mo/ローチケ/ぴあ/イープラス）",
+      "entryStartAt": "2026-10-17T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "da_ice_day_hall_phase_2026_ehime_1106",
+        "da_ice_day_hall_phase_2026_kanazawa_1126",
+        "da_ice_day_hall_phase_2026_sendai_1129",
+        "da_ice_day_hall_phase_2026_nagano_1203"
+      ],
+      "sourceUrl": "https://da-ice.jp/news/detail.php?id=1135399",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "da_ice_day_hall_phase_2026_playguide_firstcome_oct17_mumo_lawson",
+      "tourId": "da_ice_day_hall_phase_2026",
+      "type": "プレイガイド先着先行（mu-mo/ローチケ）",
+      "entryStartAt": "2026-10-17T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "da_ice_day_hall_phase_2026_oita_1027",
+        "da_ice_day_hall_phase_2026_wakayama_1029"
+      ],
+      "sourceUrl": "https://da-ice.jp/news/detail.php?id=1135399",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "da_ice_day_hall_phase_2026_playguide_firstcome_oct17_mumo_only",
+      "tourId": "da_ice_day_hall_phase_2026",
+      "type": "mu-mo TICKET先着先行",
+      "entryStartAt": "2026-10-17T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "da_ice_day_hall_phase_2026_yokosuka_1102",
+        "da_ice_day_hall_phase_2026_tokyo_1117",
+        "da_ice_day_hall_phase_2026_tokyo_1118"
+      ],
+      "sourceUrl": "https://da-ice.jp/news/detail.php?id=1135399",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
     }
   ],
   "appleMusicTracks": [

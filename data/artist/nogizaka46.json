@@ -110,6 +110,17 @@
       "source": "system",
       "sourceUrl": "https://gift-idol.jp/",
       "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_event_2026_sixth_gen_zennyasai",
+      "artistId": "nogizaka46",
+      "title": "乃木坂46「6期生全国ツアー2026」前夜祭（ミニトーク＆お見送り会）",
+      "startDate": "2026-10-25T00:00:00+09:00",
+      "endDate": "2026-11-30T00:00:00+09:00",
+      "prices": null,
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102332",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
     }
   ],
   "performances": [
@@ -492,6 +503,71 @@
       "performanceTimeEstimated": true,
       "performanceDate": "2026-11-29",
       "eventName": "GIFT〜Girls Idol Festival Tokyo〜"
+    },
+    {
+      "id": "nogizaka46_event_2026_sixth_gen_zennyasai_saitama_1025",
+      "tourId": "nogizaka46_event_2026_sixth_gen_zennyasai",
+      "performanceDate": "2026-10-25",
+      "performanceAt": "2026-10-25T15:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "エミテラス所沢 2F TOKOROZAWA e-CUBE",
+      "kind": "oneman",
+      "eventName": "乃木坂46 6期生全国ツアー2026 前夜祭（ミニトーク＆お見送り会）",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102332",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "nogizaka46_event_2026_sixth_gen_zennyasai_hokkaido_1109",
+      "tourId": "nogizaka46_event_2026_sixth_gen_zennyasai",
+      "performanceDate": "2026-11-09",
+      "performanceAt": "2026-11-09T18:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "ラソラ札幌 イベントコート（Aタウン1F）",
+      "kind": "oneman",
+      "eventName": "乃木坂46 6期生全国ツアー2026 前夜祭（ミニトーク＆お見送り会）",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102332",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "nogizaka46_event_2026_sixth_gen_zennyasai_osaka_1116",
+      "tourId": "nogizaka46_event_2026_sixth_gen_zennyasai",
+      "performanceDate": "2026-11-16",
+      "performanceAt": "2026-11-16T18:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "あべのキューズモール 3Fスカイコート",
+      "kind": "oneman",
+      "eventName": "乃木坂46 6期生全国ツアー2026 前夜祭（ミニトーク＆お見送り会）",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102332",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "nogizaka46_event_2026_sixth_gen_zennyasai_aichi_1123",
+      "tourId": "nogizaka46_event_2026_sixth_gen_zennyasai",
+      "performanceDate": "2026-11-23",
+      "performanceAt": "2026-11-23T15:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "ららぽーと名古屋みなとアクルス デカゴン",
+      "kind": "oneman",
+      "eventName": "乃木坂46 6期生全国ツアー2026 前夜祭（ミニトーク＆お見送り会）",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102332",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "nogizaka46_event_2026_sixth_gen_zennyasai_fukuoka_1130",
+      "tourId": "nogizaka46_event_2026_sixth_gen_zennyasai",
+      "performanceDate": "2026-11-30",
+      "performanceAt": "2026-11-30T18:30:00+09:00",
+      "doorOpenAt": null,
+      "venue": "ららぽーと福岡 1Fメディアパーク",
+      "kind": "oneman",
+      "eventName": "乃木坂46 6期生全国ツアー2026 前夜祭（ミニトーク＆お見送り会）",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102332",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
     }
   ],
   "lotteries": [

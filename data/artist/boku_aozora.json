@@ -313,6 +313,17 @@
       "source": "system",
       "sourceUrl": "https://bokuao.com/news/detail/5826",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "boku_aozora_atahiro_2026",
+      "artistId": "boku_aozora",
+      "title": "あたヒロ2026～いつでもあたしがヒロイン神うたアイドル歌合戦～",
+      "startDate": "2026-11-06T00:00:00+09:00",
+      "endDate": "2026-11-06T00:00:00+09:00",
+      "prices": null,
+      "sourceUrl": "https://bokuao.com/news/detail/6025",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
     }
   ],
   "performances": [
@@ -1007,6 +1018,19 @@
       "performanceDate": "2027-01-17",
       "performanceTimeEstimated": true,
       "note": "開催時刻未公表。12:00は旧クライアント互換値。"
+    },
+    {
+      "id": "boku_aozora_atahiro_2026_nagoya_1106",
+      "tourId": "boku_aozora_atahiro_2026",
+      "performanceDate": "2026-11-06",
+      "performanceAt": "2026-11-06T18:00:00+09:00",
+      "doorOpenAt": "2026-11-06T17:00:00+09:00",
+      "venue": "COMTEC PORTBASE",
+      "kind": "taiban",
+      "eventName": "あたヒロ2026～いつでもあたしがヒロイン神うたアイドル歌合戦～",
+      "sourceUrl": "https://bokuao.com/news/detail/6025",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
     }
   ],
   "lotteries": [

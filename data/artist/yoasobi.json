@@ -6,7 +6,7 @@
       "artistId": "yoasobi",
       "title": "YOASOBI ASIA 10-CITY DOME & STADIUM TOUR 2026-2027",
       "startDate": "2026-10-24T00:00:00+09:00",
-      "endDate": "2026-12-06T00:00:00+09:00",
+      "endDate": "2027-01-10T00:00:00+08:00",
       "prices": [
         {
           "label": "指定席",
@@ -22,8 +22,8 @@
         }
       ],
       "source": "system",
-      "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "sourceUrl": "https://www.yoasobi-music.jp/news/586385",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
     },
     {
       "id": "yoasobi_north_america_2026",
@@ -35,6 +35,17 @@
       "source": "system",
       "sourceUrl": "https://www.yoasobi-music.jp/live/55188",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yoasobi_spotify_on_stage_tokyo_2026",
+      "artistId": "yoasobi",
+      "title": "Spotify On Stage Tokyo 2026 -10th Anniversary Special- with YOASOBI",
+      "startDate": "2026-12-19T00:00:00+09:00",
+      "endDate": "2026-12-19T00:00:00+09:00",
+      "prices": null,
+      "sourceUrl": "https://www.yoasobi-music.jp/news/587546",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
     }
   ],
   "performances": [
@@ -236,6 +247,43 @@
       "source": "system",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
       "kind": "oneman"
+    },
+    {
+      "id": "yoasobi_asia_dome_2026_taipei_20270109",
+      "tourId": "yoasobi_asia_dome_2026",
+      "performanceDate": "2027-01-09",
+      "performanceAt": "2027-01-09T18:00:00+08:00",
+      "doorOpenAt": "2027-01-09T15:00:00+08:00",
+      "venue": "Taipei Dome",
+      "kind": "oneman",
+      "sourceUrl": "https://www.yoasobi-music.jp/news/586385",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "yoasobi_asia_dome_2026_taipei_20270110",
+      "tourId": "yoasobi_asia_dome_2026",
+      "performanceDate": "2027-01-10",
+      "performanceAt": "2027-01-10T18:00:00+08:00",
+      "doorOpenAt": "2027-01-10T15:00:00+08:00",
+      "venue": "Taipei Dome",
+      "kind": "oneman",
+      "sourceUrl": "https://www.yoasobi-music.jp/news/586385",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "yoasobi_spotify_on_stage_tokyo_2026_tokyo_1219",
+      "tourId": "yoasobi_spotify_on_stage_tokyo_2026",
+      "performanceDate": "2026-12-19",
+      "performanceAt": "2026-12-19T18:00:00+09:00",
+      "doorOpenAt": "2026-12-19T17:00:00+09:00",
+      "venue": "東京ガーデンシアター",
+      "kind": "oneman",
+      "eventName": "Spotify On Stage Tokyo 2026 -10th Anniversary Special- with YOASOBI",
+      "sourceUrl": "https://www.yoasobi-music.jp/news/587546",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
     }
   ],
   "lotteries": [
@@ -426,6 +474,97 @@
       "source": "system",
       "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
       "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "yoasobi_superplanet_domestic_general_oct10",
+      "tourId": "yoasobi_asia_dome_2026",
+      "type": "国内公演 ローチケ・e+・ぴあ 一般発売（先着）",
+      "entryStartAt": "2026-10-10T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yoasobi_asia_dome_2026_osaka_1024",
+        "yoasobi_asia_dome_2026_osaka_1025",
+        "yoasobi_asia_dome_2026_aichi_1107",
+        "yoasobi_asia_dome_2026_aichi_1108",
+        "yoasobi_asia_dome_2026_hokkaido_1114",
+        "yoasobi_asia_dome_2026_hokkaido_1115",
+        "yoasobi_asia_dome_2026_fukuoka_1128",
+        "yoasobi_asia_dome_2026_fukuoka_1129",
+        "yoasobi_asia_dome_2026_tokyo_1205",
+        "yoasobi_asia_dome_2026_tokyo_1206"
+      ],
+      "sourceUrl": "https://www.yoasobi-music.jp/news/587488",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "yoasobi_superplanet_taipei_cube_presale",
+      "tourId": "yoasobi_asia_dome_2026",
+      "type": "台北 Cathay United CUBEカード会員限定先行販売",
+      "entryStartAt": "2026-09-16T12:00:00+08:00",
+      "entryEndAt": "2026-09-16T18:00:00+08:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yoasobi_asia_dome_2026_taipei_20270109",
+        "yoasobi_asia_dome_2026_taipei_20270110"
+      ],
+      "sourceUrl": "https://www.yoasobi-music.jp/news/586385",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "yoasobi_superplanet_taipei_realname_1st",
+      "tourId": "yoasobi_asia_dome_2026",
+      "type": "台北第1弾実名制抽選受付",
+      "entryStartAt": "2026-09-17T12:00:00+08:00",
+      "entryEndAt": "2026-09-20T19:00:00+08:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yoasobi_asia_dome_2026_taipei_20270109",
+        "yoasobi_asia_dome_2026_taipei_20270110"
+      ],
+      "sourceUrl": "https://www.yoasobi-music.jp/news/586385",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "yoasobi_spotify_premium_invitation_oct13",
+      "tourId": "yoasobi_spotify_on_stage_tokyo_2026",
+      "type": "Spotify Premiumトップリスナー限定招待抽選（一般発売なし）",
+      "entryStartAt": "2026-10-13T12:00:00+09:00",
+      "entryEndAt": "2026-10-19T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yoasobi_spotify_on_stage_tokyo_2026_tokyo_1219"
+      ],
+      "sourceUrl": "https://www.yoasobi-music.jp/news/587546",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "yoasobi_yoas_fc_spotify_invitation_oct13",
+      "tourId": "yoasobi_spotify_on_stage_tokyo_2026",
+      "type": "YOA’S会員かつSpotify Premium限定招待抽選",
+      "entryStartAt": "2026-10-13T12:00:00+09:00",
+      "entryEndAt": "2026-10-19T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yoasobi_spotify_on_stage_tokyo_2026_tokyo_1219"
+      ],
+      "sourceUrl": "https://www.yoasobi-music.jp/news/587546",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
     }
   ],
   "appleMusicTracks": [
