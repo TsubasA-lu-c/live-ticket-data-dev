@@ -1170,6 +1170,23 @@
       "sourceUrl": "https://tour.mrchildren.jp/",
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_final_saga_1114_1115",
+      "type": "最終抽選（佐賀・SAGAアリーナ）",
+      "entryStartAt": "2026-10-23T19:00:00+09:00",
+      "entryEndAt": "2026-11-08T23:59:00+09:00",
+      "resultAt": "2026-11-13T20:30:00+09:00",
+      "performanceIds": [
+        "mr_children_saturday_park_2026_saga_1114",
+        "mr_children_saturday_park_2026_saga_1115"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "lastVerifiedAt": "2026-10-25",
+      "tourId": "mr_children_saturday_park_2026",
+      "paymentStartAt": null,
+      "paymentEndAt": null
     }
   ],
   "appleMusicTracks": [
