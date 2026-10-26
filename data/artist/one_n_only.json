@@ -1028,6 +1028,25 @@
       "source": "system",
       "sourceUrl": "https://one-n-only.jp/contents/1109517",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "one_n_only_merry_xmaswag_2026_kirari_oct17",
+      "tourId": "one_n_only_merry_xmaswag_2026",
+      "type": "+KIRARI会員先行（抽選）",
+      "entryStartAt": "2026-10-17T15:00:00+09:00",
+      "entryEndAt": "2026-10-25T23:59:00+09:00",
+      "resultAt": "2026-10-30T14:00:00+09:00",
+      "paymentStartAt": "2026-10-30T14:00:00+09:00",
+      "paymentEndAt": "2026-11-02T23:59:00+09:00",
+      "performanceIds": [
+        "one_n_only_merry_xmaswag_2026_tokyo_1213",
+        "one_n_only_merry_xmaswag_2026_osaka_1222",
+        "one_n_only_merry_xmaswag_2026_osaka_1223_1230",
+        "one_n_only_merry_xmaswag_2026_osaka_1223_1800"
+      ],
+      "sourceUrl": "https://one-n-only.jp/contents/1119927",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-26"
     }
   ],
   "appleMusicTracks": [

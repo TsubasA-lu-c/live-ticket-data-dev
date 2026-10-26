@@ -915,7 +915,7 @@
       "tourId": "niziu_live_with_u_2026_2027_who_u_niziu_fes",
       "type": "WithU MOBILE先行（抽選）",
       "entryStartAt": "2026-10-19T20:00:00+09:00",
-      "entryEndAt": "2026-10-24T23:59:00+09:00",
+      "entryEndAt": "2026-10-25T23:59:00+09:00",
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
@@ -932,9 +932,35 @@
         "niziu_who_u_2026_2027_20270123",
         "niziu_who_u_2026_2027_20270124"
       ],
-      "sourceUrl": "https://niziu.com/s/n123/news/detail/12235",
+      "sourceUrl": "https://niziu.com/s/n123/news/detail/12249?ima=4024",
       "source": "system",
-      "lastVerifiedAt": "2026-10-10T20:25:21+09:00"
+      "lastVerifiedAt": "2026-10-25"
+    },
+    {
+      "id": "niziu_who_u_2026_2027_pia_ichihaya_oct25",
+      "tourId": "niziu_live_with_u_2026_2027_who_u_niziu_fes",
+      "type": "ぴあプレミアム会員 いち早プレリザーブ（抽選）",
+      "entryStartAt": "2026-10-25T20:00:00+09:00",
+      "entryEndAt": "2026-10-29T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "niziu_who_u_2026_2027_20261122",
+        "niziu_who_u_2026_2027_20261123",
+        "niziu_who_u_2026_2027_20261128",
+        "niziu_who_u_2026_2027_20261204",
+        "niziu_who_u_2026_2027_20261205",
+        "niziu_who_u_2026_2027_20261219",
+        "niziu_who_u_2026_2027_20261220",
+        "niziu_who_u_2026_2027_20270120",
+        "niziu_who_u_2026_2027_20270121",
+        "niziu_who_u_2026_2027_20270123",
+        "niziu_who_u_2026_2027_20270124"
+      ],
+      "source": "system",
+      "sourceUrl": "https://niziu.com/s/n123/page/livewithu2026_2027?ima=5025",
+      "lastVerifiedAt": "2026-10-26"
     }
   ],
   "appleMusicTracks": [

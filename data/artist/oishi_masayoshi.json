@@ -691,6 +691,16 @@
         "officialTitle": "大石昌良『嗚呼、素晴らしき日常』発売記念フリーライブ",
         "mirrored": true
       }
+    },
+    {
+      "id": "oishi_masayoshi_club014_bonenkai_2026",
+      "title": "CLUB014限定！オーイシマサヨシ忘年会ライブ！",
+      "startDate": "2026-12-02T00:00:00+09:00",
+      "endDate": "2026-12-17T00:00:00+09:00",
+      "sourceUrl": "https://club014.jp/news/?id=551",
+      "artistId": "oishi_masayoshi",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-26"
     }
   ],
   "performances": [
@@ -1259,6 +1269,39 @@
         "sourceArtistId": "masayoshi_oishi",
         "sourceId": "masayoshi_oishi_aa_subarashiki_nichijo_osaka_2026_1114"
       }
+    },
+    {
+      "id": "oishi_masayoshi_club014_bonenkai_2026_20261202",
+      "tourId": "oishi_masayoshi_club014_bonenkai_2026",
+      "performanceAt": "2026-12-02T19:00:00+09:00",
+      "doorOpenAt": "2026-12-02T18:00:00+09:00",
+      "venue": "CLUB CITTA’",
+      "kind": "oneman",
+      "sourceUrl": "https://club014.jp/news/?id=551",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "id": "oishi_masayoshi_club014_bonenkai_2026_20261203",
+      "tourId": "oishi_masayoshi_club014_bonenkai_2026",
+      "performanceAt": "2026-12-03T19:00:00+09:00",
+      "doorOpenAt": "2026-12-03T18:00:00+09:00",
+      "venue": "CLUB CITTA’",
+      "kind": "oneman",
+      "sourceUrl": "https://club014.jp/news/?id=551",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "id": "oishi_masayoshi_club014_bonenkai_2026_20261217",
+      "tourId": "oishi_masayoshi_club014_bonenkai_2026",
+      "performanceAt": "2026-12-17T19:00:00+09:00",
+      "doorOpenAt": "2026-12-17T18:00:00+09:00",
+      "venue": "BIGCAT",
+      "kind": "oneman",
+      "sourceUrl": "https://club014.jp/news/?id=551",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-26"
     }
   ],
   "lotteries": [
@@ -1541,6 +1584,41 @@
         "sourceArtistId": "masayoshi_oishi",
         "sourceId": "masayoshi_oishi_budokan_0923_first_come"
       }
+    },
+    {
+      "id": "oishi_masayoshi_bonenkai_2026_club014_fc_oct19",
+      "tourId": "oishi_masayoshi_club014_bonenkai_2026",
+      "type": "CLUB014会員先行抽選",
+      "entryStartAt": "2026-10-19T21:00:00+09:00",
+      "entryEndAt": "2026-11-03T23:59:00+09:00",
+      "resultAt": "2026-11-06T19:00:00+09:00",
+      "paymentStartAt": "2026-11-06T19:00:00+09:00",
+      "paymentEndAt": "2026-11-09T23:59:00+09:00",
+      "performanceIds": [
+        "oishi_masayoshi_club014_bonenkai_2026_20261202",
+        "oishi_masayoshi_club014_bonenkai_2026_20261203",
+        "oishi_masayoshi_club014_bonenkai_2026_20261217"
+      ],
+      "sourceUrl": "https://club014.jp/news/?id=551",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "id": "oishi_masayoshi_budokan_vol4_vol5_fc_second_oct23",
+      "tourId": "oishi_masayoshi_gate3_2027_650af621",
+      "type": "CLUB014会員2次先行抽選",
+      "entryStartAt": "2026-10-23T19:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": "2026-11-20T19:00:00+09:00",
+      "paymentStartAt": "2026-11-20T19:00:00+09:00",
+      "paymentEndAt": "2026-11-23T23:59:00+09:00",
+      "performanceIds": [
+        "oishi_masayoshi_gate3_2027_650af621_20271023_01",
+        "oishi_masayoshi_gate3_2027_650af621_20271024_02"
+      ],
+      "sourceUrl": "https://club014.jp/news/?id=554",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-26"
     }
   ],
   "appleMusicTracks": [
