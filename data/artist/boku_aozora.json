@@ -1697,6 +1697,22 @@
       "source": "system",
       "sourceUrl": "https://bokuao.com/news/detail/6004",
       "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "boku_aozora_winter_2026_premium_upgrade_oct24",
+      "tourId": "boku_aozora_last_live_2026",
+      "type": "VIPプレミアム／プレミアム席アップグレード抽選（FC1・2次、オフィシャル、ぴあ最速先行既購入者限定）",
+      "entryStartAt": "2026-10-24T12:00:00+09:00",
+      "entryEndAt": "2026-11-01T23:59:00+09:00",
+      "resultAt": "2026-11-06T12:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "boku_aozora_last_live_2026_kanadevia_1214"
+      ],
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/news/detail/6057",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
