@@ -700,7 +700,7 @@
       "sourceUrl": "https://club014.jp/news/?id=551",
       "artistId": "masayoshi_oishi",
       "source": "system",
-      "lastVerifiedAt": "2026-10-26",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
       "relationDisplay": {
         "sourceArtistId": "oishi_masayoshi",
         "sourceTourId": "oishi_masayoshi_club014_bonenkai_2026",
@@ -1445,7 +1445,7 @@
       "kind": "oneman",
       "sourceUrl": "https://club014.jp/news/?id=551",
       "source": "system",
-      "lastVerifiedAt": "2026-10-26",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
       "relationMirror": {
         "sourceArtistId": "oishi_masayoshi",
         "sourceId": "oishi_masayoshi_club014_bonenkai_2026_20261202"
@@ -1460,7 +1460,7 @@
       "kind": "oneman",
       "sourceUrl": "https://club014.jp/news/?id=551",
       "source": "system",
-      "lastVerifiedAt": "2026-10-26",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
       "relationMirror": {
         "sourceArtistId": "oishi_masayoshi",
         "sourceId": "oishi_masayoshi_club014_bonenkai_2026_20261203"
@@ -1475,7 +1475,7 @@
       "kind": "oneman",
       "sourceUrl": "https://club014.jp/news/?id=551",
       "source": "system",
-      "lastVerifiedAt": "2026-10-26",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
       "relationMirror": {
         "sourceArtistId": "oishi_masayoshi",
         "sourceId": "oishi_masayoshi_club014_bonenkai_2026_20261217"
@@ -1814,7 +1814,7 @@
       ],
       "sourceUrl": "https://club014.jp/news/?id=554",
       "source": "system",
-      "lastVerifiedAt": "2026-10-26",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
       "relationMirror": {
         "sourceArtistId": "oishi_masayoshi",
         "sourceId": "oishi_masayoshi_budokan_vol4_vol5_fc_second_oct23"
@@ -1836,7 +1836,7 @@
       ],
       "sourceUrl": "https://club014.jp/news/?id=551",
       "source": "system",
-      "lastVerifiedAt": "2026-10-26",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
       "relationMirror": {
         "sourceArtistId": "oishi_masayoshi",
         "sourceId": "oishi_masayoshi_bonenkai_2026_club014_fc_oct19"

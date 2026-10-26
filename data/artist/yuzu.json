@@ -78,7 +78,7 @@
       "endDate": "2027-05-16T00:00:00+09:00",
       "source": "system",
       "sourceUrl": "https://yuzu-official.com/contents/information/002b2902-89ce-4485-9314-0e9107a53257",
-      "lastVerifiedAt": "2026-10-26",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
       "prices": [
         {
           "label": "YZ席",
@@ -444,7 +444,7 @@
       "eventName": "YUZU 30th ANNIVERSARY STADIUM LIVE 2027 日産スタジアム DAY1「ゆ」",
       "source": "system",
       "sourceUrl": "https://yuzu-official.com/contents/information/002b2902-89ce-4485-9314-0e9107a53257",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "yuzu_30th_stadium_nissan_2027_0516",
@@ -456,7 +456,7 @@
       "eventName": "YUZU 30th ANNIVERSARY STADIUM LIVE 2027 日産スタジアム DAY2「ず」",
       "source": "system",
       "sourceUrl": "https://yuzu-official.com/contents/information/002b2902-89ce-4485-9314-0e9107a53257",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -641,7 +641,7 @@
       ],
       "sourceUrl": "https://yuzu-official.com/contents/information/46e23994-8ce5-4178-b331-4d6c2e104ca9",
       "source": "system",
-      "lastVerifiedAt": "2026-10-25",
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00",
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null
@@ -657,7 +657,7 @@
       ],
       "sourceUrl": "https://yuzu-official.com/contents/information/46e23994-8ce5-4178-b331-4d6c2e104ca9",
       "source": "system",
-      "lastVerifiedAt": "2026-10-25",
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00",
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null
@@ -673,7 +673,7 @@
       ],
       "sourceUrl": "https://yuzu-official.com/contents/information/46e23994-8ce5-4178-b331-4d6c2e104ca9",
       "source": "system",
-      "lastVerifiedAt": "2026-10-25",
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00",
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null
@@ -693,7 +693,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://yuzu-official.com/pages/30_stadiumlive_2027/",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
