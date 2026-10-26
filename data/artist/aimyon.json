@@ -94,7 +94,7 @@
       "endDate": "2026-12-19T00:00:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.aimyong.net/news/detail/3666",
-      "lastVerifiedAt": "2026-10-25"
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -611,8 +611,9 @@
       "kind": "fes",
       "source": "system",
       "sourceUrl": "https://www.aimyong.net/news/detail/3666",
-      "lastVerifiedAt": "2026-10-25",
-      "note": "フェス開演11:00は個人出演時刻ではない。12:00は旧クライアント互換の推定仮値。"
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00",
+      "note": "フェス開演11:00は個人出演時刻ではない。12:00は旧クライアント互換の推定仮値。",
+      "eventName": "MERRY ROCK PARADE 2026"
     }
   ],
   "lotteries": [

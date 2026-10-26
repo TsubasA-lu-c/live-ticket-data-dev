@@ -468,7 +468,7 @@
       "sourceUrl": "https://candytune.asobisystem.com/news/detail/93706",
       "artistId": "candy_tune",
       "source": "system",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "candy_tune_disaster_relief_2027",
@@ -478,7 +478,7 @@
       "sourceUrl": "https://candytune.asobisystem.com/news/detail/92301",
       "artistId": "candy_tune",
       "source": "system",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "candy_tune_kawaii_lab_5th_2027",
@@ -502,7 +502,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "candy_tune_larme_fes_2026",
@@ -512,7 +512,7 @@
       "endDate": "2026-11-07T00:00:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/schedule/5963/",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "candy_tune_agestock_waseda_2026",
@@ -522,7 +522,7 @@
       "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/45614",
       "artistId": "candy_tune",
       "source": "system",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "candy_tune_murakawa_birthday_2026",
@@ -538,7 +538,7 @@
       ],
       "artistId": "candy_tune",
       "source": "system",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "candy_tune_fukuyama_birthday_2026",
@@ -554,7 +554,7 @@
       ],
       "artistId": "candy_tune",
       "source": "system",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "candy_tune_kawaii_lab_christmas_2026",
@@ -564,7 +564,7 @@
       "sourceUrl": "https://candytune.asobisystem.com/news/detail/85442",
       "artistId": "candy_tune",
       "source": "system",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -1385,8 +1385,9 @@
       "venue": "東京ガーデンシアター",
       "source": "system",
       "sourceUrl": "https://candytune.asobisystem.com/news/detail/93706",
-      "lastVerifiedAt": "2026-10-25",
-      "kind": "fes"
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00",
+      "kind": "fes",
+      "eventName": "KAWAII LAB. ファンクラブ限定フリーライブ"
     },
     {
       "id": "candy_tune_disaster_relief_2027_budokan_0119",
@@ -1396,8 +1397,9 @@
       "venue": "日本武道館",
       "source": "system",
       "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/93365",
-      "lastVerifiedAt": "2026-10-25",
-      "kind": "fes"
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00",
+      "kind": "fes",
+      "eventName": "災害支援基金コンサート"
     },
     {
       "id": "candy_tune_kawaii_lab_5th_2027_20270130",
@@ -1409,7 +1411,7 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "candy_tune_kawaii_lab_5th_2027_20270131",
@@ -1421,7 +1423,7 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "candy_tune_kawaii_lab_5th_2027_20270213",
@@ -1433,7 +1435,7 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "candy_tune_kawaii_lab_5th_2027_20270214",
@@ -1445,7 +1447,7 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "candy_tune_kawaii_lab_5th_2027_20270220",
@@ -1457,7 +1459,7 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "candy_tune_kawaii_lab_5th_2027_20270221",
@@ -1469,7 +1471,7 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "candy_tune_kawaii_lab_5th_2027_20270320",
@@ -1481,7 +1483,7 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "candy_tune_kawaii_lab_5th_2027_20270321",
@@ -1493,7 +1495,7 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "candy_tune_kawaii_lab_5th_2027_20270403",
@@ -1505,7 +1507,7 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "candy_tune_kawaii_lab_5th_2027_20270404",
@@ -1517,7 +1519,7 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "candy_tune_larme_fes_2026_tokyo_1107",
@@ -1529,7 +1531,7 @@
       "eventName": "LARME FES'26",
       "source": "system",
       "sourceUrl": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/schedule/5963/",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "candy_tune_agestock_waseda_2026_1108",
@@ -1540,7 +1542,7 @@
       "kind": "oneman",
       "source": "system",
       "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/45614",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "candy_tune_murakawa_birthday_2026_1203",
@@ -1551,7 +1553,7 @@
       "kind": "oneman",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92965",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "candy_tune_fukuyama_birthday_2026_1216",
@@ -1562,7 +1564,7 @@
       "kind": "oneman",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92964",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "candy_tune_kawaii_lab_christmas_2026_1212",
@@ -1573,7 +1575,8 @@
       "kind": "fes",
       "source": "system",
       "sourceUrl": "https://candytune.asobisystem.com/news/detail/85442",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
+      "eventName": "KAWAII LAB. Christmas SESSION 2026"
     },
     {
       "id": "candy_tune_kawaii_lab_christmas_2026_1213",
@@ -1584,7 +1587,8 @@
       "kind": "fes",
       "source": "system",
       "sourceUrl": "https://candytune.asobisystem.com/news/detail/85442",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
+      "eventName": "KAWAII LAB. Christmas SESSION 2026"
     }
   ],
   "lotteries": [
@@ -2396,7 +2400,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://candytune.asobisystem.com/news/detail/93706",
-      "lastVerifiedAt": "2026-10-25",
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00",
       "tourId": "candy_tune_kawaii_lab_fc_free_2026",
       "resultAt": null,
       "paymentStartAt": null,
@@ -2412,7 +2416,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/93365",
-      "lastVerifiedAt": "2026-10-25",
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00",
       "tourId": "candy_tune_disaster_relief_2027",
       "resultAt": null,
       "paymentStartAt": null,
@@ -2441,7 +2445,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "candy_tune_murakawa_birthday_2026_kawaiilab_fc_oct17",
@@ -2457,7 +2461,7 @@
       "paymentStartAt": null,
       "paymentEndAt": null,
       "source": "system",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "candy_tune_fukuyama_birthday_2026_kawaiilab_fc_oct17",
@@ -2473,7 +2477,7 @@
       "paymentStartAt": null,
       "paymentEndAt": null,
       "source": "system",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "candy_tune_christmas_session_2026_candy_fc_jul26",
@@ -2490,7 +2494,7 @@
       "paymentStartAt": null,
       "paymentEndAt": null,
       "source": "system",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

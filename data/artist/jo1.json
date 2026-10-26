@@ -117,7 +117,7 @@
       "sourceUrl": "https://jo1.jp/news/detail/6461",
       "artistId": "jo1",
       "source": "system",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -292,7 +292,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://jo1.jp/news/detail/6430",
-      "lastVerifiedAt": "2026-10-25",
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00",
       "performanceDate": "2026-10-08",
       "eventStatus": "cancelled"
     },
@@ -409,7 +409,8 @@
       "kind": "fes",
       "source": "system",
       "sourceUrl": "https://jo1.jp/news/detail/6461",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
+      "eventName": "LAPOSTA 2027"
     },
     {
       "id": "jo1_laposta_2027_20270124",
@@ -420,7 +421,8 @@
       "kind": "fes",
       "source": "system",
       "sourceUrl": "https://jo1.jp/news/detail/6461",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
+      "eventName": "LAPOSTA 2027"
     },
     {
       "id": "jo1_laposta_2027_20270206",
@@ -431,7 +433,8 @@
       "kind": "fes",
       "source": "system",
       "sourceUrl": "https://jo1.jp/news/detail/6461",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
+      "eventName": "LAPOSTA 2027"
     },
     {
       "id": "jo1_laposta_2027_20270207",
@@ -442,7 +445,8 @@
       "kind": "fes",
       "source": "system",
       "sourceUrl": "https://jo1.jp/news/detail/6461",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
+      "eventName": "LAPOSTA 2027"
     }
   ],
   "lotteries": [
@@ -977,7 +981,7 @@
       "tourId": "jo1_laposta_2027",
       "source": "system",
       "sourceUrl": "https://jo1.jp/news/detail/6461",
-      "lastVerifiedAt": "2026-10-25"
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00"
     },
     {
       "id": "jo1_laposta_2027_fc_general_nov04",
@@ -996,7 +1000,7 @@
       "tourId": "jo1_laposta_2027",
       "source": "system",
       "sourceUrl": "https://jo1.jp/news/detail/6461",
-      "lastVerifiedAt": "2026-10-25"
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

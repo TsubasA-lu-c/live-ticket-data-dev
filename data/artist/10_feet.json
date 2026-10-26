@@ -476,7 +476,7 @@
       "endDate": "2026-12-04T00:00:00+09:00",
       "source": "system",
       "sourceUrl": "https://10-feet.kyoto/contents/1120792",
-      "lastVerifiedAt": "2026-10-25"
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00"
     },
     {
       "id": "10_feet_ran_echizen_2026",
@@ -486,7 +486,7 @@
       "endDate": "2026-12-10T00:00:00+09:00",
       "source": "system",
       "sourceUrl": "https://10-feet.kyoto/contents/1121766",
-      "lastVerifiedAt": "2026-10-25"
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00"
     },
     {
       "id": "10_feet_kyoto_daisakusen_2027",
@@ -496,7 +496,7 @@
       "endDate": "2027-07-11T00:00:00+09:00",
       "source": "system",
       "sourceUrl": "https://kyoto-daisakusen.kyoto/27/",
-      "lastVerifiedAt": "2026-10-25"
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -1077,7 +1077,8 @@
       "kind": "taiban",
       "source": "system",
       "sourceUrl": "https://10-feet.kyoto/contents/1120792",
-      "lastVerifiedAt": "2026-10-25"
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00",
+      "eventName": "FUSE 20th Anniversary"
     },
     {
       "id": "10_feet_ran_echizen_2026_fukui_1210",
@@ -1089,7 +1090,8 @@
       "kind": "taiban",
       "source": "system",
       "sourceUrl": "https://10-feet.kyoto/contents/1121766",
-      "lastVerifiedAt": "2026-10-25"
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00",
+      "eventName": "乱シリーズ・越前・アオッサの乱 2026"
     },
     {
       "id": "10_feet_kyoto_daisakusen_2027_0703",
@@ -1102,8 +1104,9 @@
       "kind": "fes",
       "source": "system",
       "sourceUrl": "https://10-feet.kyoto/contents/1115763",
-      "lastVerifiedAt": "2026-10-25",
-      "note": "11:00はフェス全体の開演。個別出演時刻未発表のためperformanceAtは12:00の仮値（performanceTimeEstimated=true）。"
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00",
+      "note": "11:00はフェス全体の開演。個別出演時刻未発表のためperformanceAtは12:00の仮値（performanceTimeEstimated=true）。",
+      "eventName": "京都大作戦2027"
     },
     {
       "id": "10_feet_kyoto_daisakusen_2027_0704",
@@ -1116,8 +1119,9 @@
       "kind": "fes",
       "source": "system",
       "sourceUrl": "https://10-feet.kyoto/contents/1115764",
-      "lastVerifiedAt": "2026-10-25",
-      "note": "11:00はフェス全体の開演。個別出演時刻未発表のためperformanceAtは12:00の仮値（performanceTimeEstimated=true）。"
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00",
+      "note": "11:00はフェス全体の開演。個別出演時刻未発表のためperformanceAtは12:00の仮値（performanceTimeEstimated=true）。",
+      "eventName": "京都大作戦2027"
     },
     {
       "id": "10_feet_kyoto_daisakusen_2027_0710",
@@ -1130,8 +1134,9 @@
       "kind": "fes",
       "source": "system",
       "sourceUrl": "https://10-feet.kyoto/contents/1115765",
-      "lastVerifiedAt": "2026-10-25",
-      "note": "11:00はフェス全体の開演。個別出演時刻未発表のためperformanceAtは12:00の仮値（performanceTimeEstimated=true）。"
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00",
+      "note": "11:00はフェス全体の開演。個別出演時刻未発表のためperformanceAtは12:00の仮値（performanceTimeEstimated=true）。",
+      "eventName": "京都大作戦2027"
     },
     {
       "id": "10_feet_kyoto_daisakusen_2027_0711",
@@ -1144,8 +1149,9 @@
       "kind": "fes",
       "source": "system",
       "sourceUrl": "https://10-feet.kyoto/contents/1115766",
-      "lastVerifiedAt": "2026-10-25",
-      "note": "11:00はフェス全体の開演。個別出演時刻未発表のためperformanceAtは12:00の仮値（performanceTimeEstimated=true）。"
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00",
+      "note": "11:00はフェス全体の開演。個別出演時刻未発表のためperformanceAtは12:00の仮値（performanceTimeEstimated=true）。",
+      "eventName": "京都大作戦2027"
     }
   ],
   "lotteries": [
@@ -1416,7 +1422,7 @@
       ],
       "sourceUrl": "https://10-feet.kyoto/contents/1120792",
       "source": "system",
-      "lastVerifiedAt": "2026-10-26",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null
@@ -1432,7 +1438,7 @@
       ],
       "sourceUrl": "https://10-feet.kyoto/contents/1121766",
       "source": "system",
-      "lastVerifiedAt": "2026-10-26",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null
@@ -1454,7 +1460,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://10-feet.kyoto/contents/1120753",
-      "lastVerifiedAt": "2026-10-25"
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00"
     }
   ]
 }

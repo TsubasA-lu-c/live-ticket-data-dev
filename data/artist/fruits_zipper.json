@@ -218,7 +218,7 @@
       "endDate": "2026-11-08T00:00:00+09:00",
       "artistId": "fruits_zipper",
       "source": "system",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "fruits_zipper_kawaii_lab_5th_2027",
@@ -242,7 +242,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -1001,7 +1001,7 @@
       "eventName": "災害支援基金コンサート",
       "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/93365",
       "source": "system",
-      "lastVerifiedAt": "2026-10-25"
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00"
     },
     {
       "id": "fruits_zipper_fc_live_joy3_2026_tokyo_1108",
@@ -1011,7 +1011,7 @@
       "venue": "東京ガーデンシアター",
       "source": "system",
       "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/93670",
-      "lastVerifiedAt": "2026-10-25",
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00",
       "kind": "oneman"
     },
     {
@@ -1024,7 +1024,7 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "fruits_zipper_kawaii_lab_5th_2027_20270131",
@@ -1036,7 +1036,7 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "fruits_zipper_kawaii_lab_5th_2027_20270213",
@@ -1048,7 +1048,7 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "fruits_zipper_kawaii_lab_5th_2027_20270214",
@@ -1060,7 +1060,7 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "fruits_zipper_kawaii_lab_5th_2027_20270220",
@@ -1072,7 +1072,7 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "fruits_zipper_kawaii_lab_5th_2027_20270221",
@@ -1084,7 +1084,7 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "fruits_zipper_kawaii_lab_5th_2027_20270320",
@@ -1096,7 +1096,7 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "fruits_zipper_kawaii_lab_5th_2027_20270321",
@@ -1108,7 +1108,7 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "fruits_zipper_kawaii_lab_5th_2027_20270403",
@@ -1120,7 +1120,7 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "fruits_zipper_kawaii_lab_5th_2027_20270404",
@@ -1132,7 +1132,7 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -2141,7 +2141,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/93670",
-      "lastVerifiedAt": "2026-10-25",
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00",
       "tourId": "fruits_zipper_fc_live_joy3_2026",
       "resultAt": null,
       "paymentStartAt": null,
@@ -2157,7 +2157,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/93365",
-      "lastVerifiedAt": "2026-10-25",
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00",
       "tourId": "fruits_zipper_disaster_relief_fund_concert_2027",
       "resultAt": null,
       "paymentStartAt": null,
@@ -2186,7 +2186,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

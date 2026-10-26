@@ -752,7 +752,7 @@
       "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/93709",
       "artistId": "cutie_street",
       "source": "system",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "cutie_street_kawaii_lab_5th_2027",
@@ -776,7 +776,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "cutie_street_larme_fes_2026",
@@ -786,7 +786,7 @@
       "endDate": "2026-11-07T00:00:00+09:00",
       "source": "system",
       "sourceUrl": "https://cutiestreet.asobisystem.com/live_information/detail/46327",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "cutie_street_cutie_land_minilive_2026",
@@ -796,7 +796,7 @@
       "endDate": "2026-11-08T00:00:00+09:00",
       "source": "system",
       "sourceUrl": "https://cutiestreet.asobisystem.com/live_information/detail/45466",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "cutie_street_countdown_japan_2026",
@@ -806,7 +806,7 @@
       "endDate": "2026-12-27T00:00:00+09:00",
       "source": "system",
       "sourceUrl": "https://cutiestreet.asobisystem.com/live_information/detail/46324",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -1425,8 +1425,9 @@
       "venue": "東京ガーデンシアター",
       "source": "system",
       "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/93709",
-      "lastVerifiedAt": "2026-10-25",
-      "kind": "fes"
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00",
+      "kind": "fes",
+      "eventName": "KAWAII LAB. ファンクラブ限定フリーライブ"
     },
     {
       "id": "cutie_street_kawaii_lab_5th_2027_20270130",
@@ -1438,7 +1439,7 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "cutie_street_kawaii_lab_5th_2027_20270131",
@@ -1450,7 +1451,7 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "cutie_street_kawaii_lab_5th_2027_20270213",
@@ -1462,7 +1463,7 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "cutie_street_kawaii_lab_5th_2027_20270214",
@@ -1474,7 +1475,7 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "cutie_street_kawaii_lab_5th_2027_20270220",
@@ -1486,7 +1487,7 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "cutie_street_kawaii_lab_5th_2027_20270221",
@@ -1498,7 +1499,7 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "cutie_street_kawaii_lab_5th_2027_20270320",
@@ -1510,7 +1511,7 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "cutie_street_kawaii_lab_5th_2027_20270321",
@@ -1522,7 +1523,7 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "cutie_street_kawaii_lab_5th_2027_20270403",
@@ -1534,7 +1535,7 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "cutie_street_kawaii_lab_5th_2027_20270404",
@@ -1546,7 +1547,7 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "cutie_street_larme_fes_2026_tokyo_1107",
@@ -1558,7 +1559,7 @@
       "eventName": "LARME FES'26",
       "source": "system",
       "sourceUrl": "https://cutiestreet.asobisystem.com/live_information/detail/46327",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "cutie_street_cutie_land_minilive_2026_ishikawa_1108",
@@ -1570,7 +1571,7 @@
       "eventName": "CUTIE LAND リリース記念 ミニライブ＆お渡し会",
       "source": "system",
       "sourceUrl": "https://cutiestreet.asobisystem.com/live_information/detail/45466",
-      "lastVerifiedAt": "2026-10-26",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
       "performanceTimeEstimated": true
     },
     {
@@ -1583,7 +1584,7 @@
       "eventName": "COUNTDOWN JAPAN 26/27",
       "source": "system",
       "sourceUrl": "https://cutiestreet.asobisystem.com/live_information/detail/46324",
-      "lastVerifiedAt": "2026-10-26",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
       "performanceTimeEstimated": true
     }
   ],
@@ -2234,7 +2235,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/93709",
-      "lastVerifiedAt": "2026-10-25",
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00",
       "tourId": "cutie_street_kawaii_lab_fc_free_2026",
       "resultAt": null,
       "paymentStartAt": null,
@@ -2263,7 +2264,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
