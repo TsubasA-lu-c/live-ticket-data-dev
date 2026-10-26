@@ -707,6 +707,22 @@
         "officialTitle": "大石昌良『嗚呼、素晴らしき日常』発売記念フリーライブ",
         "mirrored": true
       }
+    },
+    {
+      "id": "oishi_masayoshi_hiroshima_continew_fes_2026",
+      "artistId": "oishi_masayoshi",
+      "title": "【オーイシマサヨシ】HIROSHIMA CONTI-NeW FeS 2026",
+      "startDate": "2026-12-06T00:00:00+09:00",
+      "endDate": "2026-12-06T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.hiroshima-continew.com/music/",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
+      "relationDisplay": {
+        "sourceArtistId": "oishi_masayoshi",
+        "sourceTourId": "oishi_masayoshi_hiroshima_continew_fes_2026",
+        "officialTitle": "HIROSHIMA CONTI-NeW FeS 2026",
+        "mirrored": false
+      }
     }
   ],
   "performances": [
@@ -1308,6 +1324,21 @@
         "sourceArtistId": "masayoshi_oishi",
         "sourceId": "masayoshi_oishi_aa_subarashiki_nichijo_osaka_2026_1114"
       }
+    },
+    {
+      "id": "oishi_masayoshi_hiroshima_continew_fes_2026_1206",
+      "tourId": "oishi_masayoshi_hiroshima_continew_fes_2026",
+      "performanceAt": "2026-12-06T12:00:00+09:00",
+      "performanceDate": "2026-12-06",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "venue": "広島グリーンアリーナ 大アリーナ",
+      "kind": "fes",
+      "eventName": "HIROSHIMA CONTI-NeW FeS 2026",
+      "source": "system",
+      "sourceUrl": "https://www.hiroshima-continew.com/music/",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
+      "note": "12:00は配信互換用推定値であり本人ステージ開始時刻ではない。主催出演者の日別一覧で12/6出演を確認。12/5出演扱いしない。"
     }
   ],
   "lotteries": [
