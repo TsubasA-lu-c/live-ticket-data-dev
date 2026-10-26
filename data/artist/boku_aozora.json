@@ -324,6 +324,36 @@
       "sourceUrl": "https://bokuao.com/news/detail/6025",
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "boku_aozora_mms_massive_music_showcase_2026",
+      "artistId": "boku_aozora",
+      "title": "〖M.M.S〗Massive Music Showcase Vol.1",
+      "startDate": "2026-11-11T00:00:00+09:00",
+      "endDate": "2026-11-11T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/news/detail/6004",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "一般",
+          "amount": 4500
+        },
+        {
+          "label": "前方優先エリア",
+          "amount": 10000
+        }
+      ]
+    },
+    {
+      "id": "boku_aozora_bokuha_mikatada_laquaa_2026",
+      "artistId": "boku_aozora",
+      "title": "「僕は味方だ」発売記念 ミニライブ＆特典会 in ラクーア",
+      "startDate": "2026-11-17T00:00:00+09:00",
+      "endDate": "2026-11-17T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/news/detail/6042",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -1027,6 +1057,32 @@
       "sourceUrl": "https://bokuao.com/news/detail/6025",
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "boku_aozora_mms_massive_music_showcase_2026_tokyo_1111",
+      "tourId": "boku_aozora_mms_massive_music_showcase_2026",
+      "venue": "Spotify O-EAST",
+      "performanceAt": "2026-11-11T17:00:00+09:00",
+      "doorOpenAt": "2026-11-11T16:00:00+09:00",
+      "kind": "fes",
+      "eventName": "〖M.M.S〗Massive Music Showcase Vol.1",
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/news/detail/6004",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "boku_aozora_bokuha_mikatada_laquaa_2026_tokyo_1117",
+      "tourId": "boku_aozora_bokuha_mikatada_laquaa_2026",
+      "venue": "東京ドームシティ ラクーアガーデンステージ",
+      "performanceAt": "2026-11-17T12:00:00+09:00",
+      "performanceDate": "2026-11-17",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "「僕は味方だ」リリースイベント（ミニライブ・特典会）",
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/news/detail/6042",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1625,6 +1681,22 @@
       "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
       "paymentStartAt": null,
       "paymentEndAt": null
+    },
+    {
+      "id": "boku_aozora_mms_massive_music_showcase_2026_lawson_pre_oct10",
+      "tourId": "boku_aozora_mms_massive_music_showcase_2026",
+      "type": "ローチケ 先行抽選（M.M.S）",
+      "entryStartAt": "2026-10-10T20:00:00+09:00",
+      "entryEndAt": "2026-10-28T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "boku_aozora_mms_massive_music_showcase_2026_tokyo_1111"
+      ],
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/news/detail/6004",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
