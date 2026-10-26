@@ -242,7 +242,7 @@
       "artistId": "kroi",
       "source": "system",
       "sourceUrl": "https://kroi.net/live_information/detail/44496",
-      "lastVerifiedAt": "2026-10-26",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
       "startDate": "2026-11-09T00:00:00+09:00",
       "endDate": "2026-11-09T00:00:00+09:00"
     },
@@ -254,7 +254,7 @@
       "endDate": "2026-11-25T00:00:00+09:00",
       "source": "system",
       "sourceUrl": "https://kroi.net/live_information/detail/40600",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -739,7 +739,8 @@
       "kind": "taiban",
       "sourceUrl": "https://kroi.net/live_information/detail/44496",
       "source": "system",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
+      "eventName": "礼賛presents 2MAN LIVE「ON TIME 2026」"
     },
     {
       "id": "kroi_jcb_the_live_2026_takanawa_1125",
@@ -751,7 +752,7 @@
       "eventName": "JCB THE LIVE",
       "source": "system",
       "sourceUrl": "https://kroi.net/live_information/detail/40600",
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1809,7 +1810,7 @@
       ],
       "sourceUrl": "https://kroi.net/live_information/detail/44496",
       "source": "system",
-      "lastVerifiedAt": "2026-10-26",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null
