@@ -324,6 +324,36 @@
       "sourceUrl": "https://bokuao.com/news/detail/6025",
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "boku_aozora_mms_massive_music_showcase_2026",
+      "artistId": "boku_aozora",
+      "title": "〖M.M.S〗Massive Music Showcase Vol.1",
+      "startDate": "2026-11-11T00:00:00+09:00",
+      "endDate": "2026-11-11T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/news/detail/6004",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "一般",
+          "amount": 4500
+        },
+        {
+          "label": "前方優先エリア",
+          "amount": 10000
+        }
+      ]
+    },
+    {
+      "id": "boku_aozora_bokuha_mikatada_laquaa_2026",
+      "artistId": "boku_aozora",
+      "title": "「僕は味方だ」発売記念 ミニライブ＆特典会 in ラクーア",
+      "startDate": "2026-11-17T00:00:00+09:00",
+      "endDate": "2026-11-17T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/news/detail/6042",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -718,57 +748,53 @@
       "id": "boku_aozora_kumo_bbble_r2_1109",
       "tourId": "boku_aozora_kumo_team_series_2026_2027",
       "venue": "I’M A SHOW",
-      "performanceAt": "2026-11-09T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-11-09T18:30:00+09:00",
+      "doorOpenAt": "2026-11-09T17:45:00+09:00",
       "kind": "oneman",
       "eventName": "雲組～B♡BBLE～公演 第2回戦",
       "source": "system",
-      "sourceUrl": "https://bokuao.com/news/detail/5858",
+      "sourceUrl": "https://bokuao.com/feature/kumogumi_tokusetsu",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00",
-      "performanceDate": "2026-11-09",
-      "performanceTimeEstimated": true
+      "performanceDate": "2026-11-09"
     },
     {
       "id": "boku_aozora_kumo_gekka_r2_1116",
       "tourId": "boku_aozora_kumo_team_series_2026_2027",
       "venue": "SHIBUYA PLEASURE PLEASURE",
-      "performanceAt": "2026-11-16T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-11-16T18:30:00+09:00",
+      "doorOpenAt": "2026-11-16T17:45:00+09:00",
       "kind": "oneman",
       "eventName": "雲組-月華-公演 第2回戦",
       "source": "system",
-      "sourceUrl": "https://bokuao.com/news/detail/5858",
+      "sourceUrl": "https://bokuao.com/feature/kumogumi_tokusetsu",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00",
-      "performanceDate": "2026-11-16",
-      "performanceTimeEstimated": true
+      "performanceDate": "2026-11-16"
     },
     {
       "id": "boku_aozora_kumo_gekka_r3_1121",
       "tourId": "boku_aozora_kumo_team_series_2026_2027",
       "venue": "SHIBUYA PLEASURE PLEASURE",
-      "performanceAt": "2026-11-21T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-11-21T19:00:00+09:00",
+      "doorOpenAt": "2026-11-21T18:15:00+09:00",
       "kind": "oneman",
       "eventName": "雲組-月華-公演 第3回戦",
       "source": "system",
-      "sourceUrl": "https://bokuao.com/news/detail/5858",
+      "sourceUrl": "https://bokuao.com/feature/kumogumi_tokusetsu",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00",
-      "performanceDate": "2026-11-21",
-      "performanceTimeEstimated": true
+      "performanceDate": "2026-11-21"
     },
     {
       "id": "boku_aozora_kumo_bbble_r3_1121",
       "tourId": "boku_aozora_kumo_team_series_2026_2027",
       "venue": "SHIBUYA PLEASURE PLEASURE",
-      "performanceAt": "2026-11-21T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-11-21T14:30:00+09:00",
+      "doorOpenAt": "2026-11-21T13:45:00+09:00",
       "kind": "oneman",
       "eventName": "雲組～B♡BBLE～公演 第3回戦",
       "source": "system",
-      "sourceUrl": "https://bokuao.com/news/detail/5858",
+      "sourceUrl": "https://bokuao.com/feature/kumogumi_tokusetsu",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00",
-      "performanceDate": "2026-11-21",
-      "performanceTimeEstimated": true
+      "performanceDate": "2026-11-21"
     },
     {
       "id": "boku_aozora_kumo_gekka_r4_1224",
@@ -1031,6 +1057,32 @@
       "sourceUrl": "https://bokuao.com/news/detail/6025",
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "boku_aozora_mms_massive_music_showcase_2026_tokyo_1111",
+      "tourId": "boku_aozora_mms_massive_music_showcase_2026",
+      "venue": "Spotify O-EAST",
+      "performanceAt": "2026-11-11T17:00:00+09:00",
+      "doorOpenAt": "2026-11-11T16:00:00+09:00",
+      "kind": "fes",
+      "eventName": "〖M.M.S〗Massive Music Showcase Vol.1",
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/news/detail/6004",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "boku_aozora_bokuha_mikatada_laquaa_2026_tokyo_1117",
+      "tourId": "boku_aozora_bokuha_mikatada_laquaa_2026",
+      "venue": "東京ドームシティ ラクーアガーデンステージ",
+      "performanceAt": "2026-11-17T12:00:00+09:00",
+      "performanceDate": "2026-11-17",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "「僕は味方だ」リリースイベント（ミニライブ・特典会）",
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/news/detail/6042",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1595,6 +1647,72 @@
       "sourceUrl": "https://bokuao.com/news/detail/5961",
       "source": "system",
       "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
+    },
+    {
+      "id": "boku_aozora_kumo_bbble_r2r3_fc_oct11",
+      "type": "B♡BBLE 第2・3回戦 FC先行（抽選）",
+      "entryStartAt": "2026-10-11T20:00:00+09:00",
+      "entryEndAt": "2026-10-19T23:59:00+09:00",
+      "performanceIds": [
+        "boku_aozora_kumo_bbble_r2_1109",
+        "boku_aozora_kumo_bbble_r3_1121"
+      ],
+      "tourId": "boku_aozora_kumo_team_series_2026_2027",
+      "resultAt": null,
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/feature/kumogumi_tokusetsu",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null
+    },
+    {
+      "id": "boku_aozora_kumo_gekka_r2r3_fc_oct13",
+      "type": "月華 第2・3回戦 FC先行（抽選）",
+      "entryStartAt": "2026-10-13T21:00:00+09:00",
+      "entryEndAt": "2026-10-21T23:59:00+09:00",
+      "performanceIds": [
+        "boku_aozora_kumo_gekka_r2_1116",
+        "boku_aozora_kumo_gekka_r3_1121"
+      ],
+      "tourId": "boku_aozora_kumo_team_series_2026_2027",
+      "resultAt": null,
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/feature/kumogumi_tokusetsu",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null
+    },
+    {
+      "id": "boku_aozora_mms_massive_music_showcase_2026_lawson_pre_oct10",
+      "tourId": "boku_aozora_mms_massive_music_showcase_2026",
+      "type": "ローチケ 先行抽選（M.M.S）",
+      "entryStartAt": "2026-10-10T20:00:00+09:00",
+      "entryEndAt": "2026-10-28T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "boku_aozora_mms_massive_music_showcase_2026_tokyo_1111"
+      ],
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/news/detail/6004",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "boku_aozora_winter_2026_premium_upgrade_oct24",
+      "tourId": "boku_aozora_last_live_2026",
+      "type": "VIPプレミアム／プレミアム席アップグレード抽選（FC1・2次、オフィシャル、ぴあ最速先行既購入者限定）",
+      "entryStartAt": "2026-10-24T12:00:00+09:00",
+      "entryEndAt": "2026-11-01T23:59:00+09:00",
+      "resultAt": "2026-11-06T12:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "boku_aozora_last_live_2026_kanadevia_1214"
+      ],
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/news/detail/6057",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
