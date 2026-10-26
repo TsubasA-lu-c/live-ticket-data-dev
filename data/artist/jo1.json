@@ -108,6 +108,16 @@
       "source": "system",
       "sourceUrl": "https://dreamfestival.jp/",
       "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_laposta_2027",
+      "title": "LAPOSTA 2027",
+      "startDate": "2027-01-23T00:00:00+09:00",
+      "endDate": "2027-02-07T00:00:00+09:00",
+      "sourceUrl": "https://jo1.jp/news/detail/6461",
+      "artistId": "jo1",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-26"
     }
   ],
   "performances": [
@@ -281,9 +291,10 @@
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://cloud.jo1.jp/news/detail/6237",
-      "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
-      "performanceDate": "2026-10-08"
+      "sourceUrl": "https://jo1.jp/news/detail/6430",
+      "lastVerifiedAt": "2026-10-25",
+      "performanceDate": "2026-10-08",
+      "eventStatus": "cancelled"
     },
     {
       "id": "jo1_north_american_tour_animal_2026_losangeles_1011",
@@ -388,6 +399,50 @@
       "source": "system",
       "sourceUrl": "https://dreamfestival.jp/",
       "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_laposta_2027_20270123",
+      "tourId": "jo1_laposta_2027",
+      "performanceAt": "2027-01-23T18:00:00+09:00",
+      "doorOpenAt": "2027-01-23T16:00:00+09:00",
+      "venue": "東京ドーム",
+      "kind": "fes",
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/news/detail/6461",
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "id": "jo1_laposta_2027_20270124",
+      "tourId": "jo1_laposta_2027",
+      "performanceAt": "2027-01-24T17:00:00+09:00",
+      "doorOpenAt": "2027-01-24T15:00:00+09:00",
+      "venue": "東京ドーム",
+      "kind": "fes",
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/news/detail/6461",
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "id": "jo1_laposta_2027_20270206",
+      "tourId": "jo1_laposta_2027",
+      "performanceAt": "2027-02-06T18:00:00+09:00",
+      "doorOpenAt": "2027-02-06T16:00:00+09:00",
+      "venue": "京セラドーム大阪",
+      "kind": "fes",
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/news/detail/6461",
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "id": "jo1_laposta_2027_20270207",
+      "tourId": "jo1_laposta_2027",
+      "performanceAt": "2027-02-07T16:00:00+09:00",
+      "doorOpenAt": "2027-02-07T14:00:00+09:00",
+      "venue": "京セラドーム大阪",
+      "kind": "fes",
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/news/detail/6461",
+      "lastVerifiedAt": "2026-10-26"
     }
   ],
   "lotteries": [
@@ -904,6 +959,44 @@
       "source": "system",
       "sourceUrl": "https://cloud.jo1.jp/news/detail/6347",
       "lastVerifiedAt": "2026-10-17T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_laposta_2027_fc_fastest_oct24",
+      "type": "JO1 OFFICIAL FANCLUB 最速先行（抽選）",
+      "entryStartAt": "2026-10-24T12:00:00+09:00",
+      "entryEndAt": "2026-11-03T23:59:00+09:00",
+      "resultAt": "2026-11-13T20:00:00+09:00",
+      "paymentStartAt": "2026-11-13T20:00:00+09:00",
+      "paymentEndAt": "2026-11-16T23:59:00+09:00",
+      "performanceIds": [
+        "jo1_laposta_2027_20270123",
+        "jo1_laposta_2027_20270124",
+        "jo1_laposta_2027_20270206",
+        "jo1_laposta_2027_20270207"
+      ],
+      "tourId": "jo1_laposta_2027",
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/news/detail/6461",
+      "lastVerifiedAt": "2026-10-25"
+    },
+    {
+      "id": "jo1_laposta_2027_fc_general_nov04",
+      "type": "JO1 OFFICIAL FANCLUB会員先行（抽選）",
+      "entryStartAt": "2026-11-04T12:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": "2026-11-26T20:00:00+09:00",
+      "paymentStartAt": "2026-11-26T20:00:00+09:00",
+      "paymentEndAt": "2026-11-30T23:59:00+09:00",
+      "performanceIds": [
+        "jo1_laposta_2027_20270123",
+        "jo1_laposta_2027_20270124",
+        "jo1_laposta_2027_20270206",
+        "jo1_laposta_2027_20270207"
+      ],
+      "tourId": "jo1_laposta_2027",
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/news/detail/6461",
+      "lastVerifiedAt": "2026-10-25"
     }
   ],
   "appleMusicTracks": [

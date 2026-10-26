@@ -777,6 +777,98 @@
       "sourceUrl": "https://txt-official.jp/news/16bb8ad6a062?categoryId=240",
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "txt_steal_wind_lawson_oct22",
+      "tourId": "tomorrow_x_together_steal_the_wind_japan_2026_2027",
+      "type": "ローチケ プレリク先行",
+      "entryStartAt": "2026-10-22T13:00:00+09:00",
+      "entryEndAt": "2026-10-25T23:59:00+09:00",
+      "resultAt": "2026-10-29T18:00:00+09:00",
+      "paymentStartAt": "2026-10-29T18:00:00+09:00",
+      "paymentEndAt": null,
+      "performanceIds": [
+        "tomorrow_x_together_steal_the_wind_japan_2026_fukuoka_1219",
+        "tomorrow_x_together_steal_the_wind_japan_2026_fukuoka_1220",
+        "tomorrow_x_together_steal_the_wind_japan_2027_tokyo_0107",
+        "tomorrow_x_together_steal_the_wind_japan_2027_tokyo_0108",
+        "tomorrow_x_together_steal_the_wind_japan_2027_osaka_0130",
+        "tomorrow_x_together_steal_the_wind_japan_2027_osaka_0131",
+        "tomorrow_x_together_steal_the_wind_japan_2027_nagoya_0220",
+        "tomorrow_x_together_steal_the_wind_japan_2027_nagoya_0221"
+      ],
+      "source": "system",
+      "sourceUrl": "https://txt-official.jp/news/6b86fe24af47",
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "id": "txt_steal_wind_eplus_oct22",
+      "tourId": "tomorrow_x_together_steal_the_wind_japan_2026_2027",
+      "type": "イープラスプレオーダー先行",
+      "entryStartAt": "2026-10-22T13:00:00+09:00",
+      "entryEndAt": "2026-10-25T23:59:00+09:00",
+      "resultAt": "2026-10-29T18:00:00+09:00",
+      "paymentStartAt": "2026-10-29T18:00:00+09:00",
+      "paymentEndAt": null,
+      "performanceIds": [
+        "tomorrow_x_together_steal_the_wind_japan_2026_fukuoka_1219",
+        "tomorrow_x_together_steal_the_wind_japan_2026_fukuoka_1220",
+        "tomorrow_x_together_steal_the_wind_japan_2027_tokyo_0107",
+        "tomorrow_x_together_steal_the_wind_japan_2027_tokyo_0108",
+        "tomorrow_x_together_steal_the_wind_japan_2027_osaka_0130",
+        "tomorrow_x_together_steal_the_wind_japan_2027_osaka_0131",
+        "tomorrow_x_together_steal_the_wind_japan_2027_nagoya_0220",
+        "tomorrow_x_together_steal_the_wind_japan_2027_nagoya_0221"
+      ],
+      "source": "system",
+      "sourceUrl": "https://txt-official.jp/news/6b86fe24af47",
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "id": "txt_steal_wind_pia_oct23",
+      "tourId": "tomorrow_x_together_steal_the_wind_japan_2026_2027",
+      "type": "チケットぴあ先行",
+      "entryStartAt": "2026-10-23T11:00:00+09:00",
+      "entryEndAt": "2026-10-25T23:59:00+09:00",
+      "resultAt": "2026-10-29T18:00:00+09:00",
+      "paymentStartAt": "2026-10-29T18:00:00+09:00",
+      "paymentEndAt": null,
+      "performanceIds": [
+        "tomorrow_x_together_steal_the_wind_japan_2026_fukuoka_1219",
+        "tomorrow_x_together_steal_the_wind_japan_2026_fukuoka_1220",
+        "tomorrow_x_together_steal_the_wind_japan_2027_tokyo_0107",
+        "tomorrow_x_together_steal_the_wind_japan_2027_tokyo_0108",
+        "tomorrow_x_together_steal_the_wind_japan_2027_osaka_0130",
+        "tomorrow_x_together_steal_the_wind_japan_2027_osaka_0131",
+        "tomorrow_x_together_steal_the_wind_japan_2027_nagoya_0220",
+        "tomorrow_x_together_steal_the_wind_japan_2027_nagoya_0221"
+      ],
+      "source": "system",
+      "sourceUrl": "https://txt-official.jp/news/6b86fe24af47",
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "id": "txt_steal_wind_lawson_prereq2_oct26",
+      "tourId": "tomorrow_x_together_steal_the_wind_japan_2026_2027",
+      "type": "ローチケプレリクエスト2次抽選先行",
+      "entryStartAt": "2026-10-26T13:00:00+09:00",
+      "entryEndAt": "2026-11-02T23:59:00+09:00",
+      "resultAt": "2026-11-06T18:00:00+09:00",
+      "paymentStartAt": "2026-11-06T18:00:00+09:00",
+      "paymentEndAt": null,
+      "performanceIds": [
+        "tomorrow_x_together_steal_the_wind_japan_2026_fukuoka_1219",
+        "tomorrow_x_together_steal_the_wind_japan_2026_fukuoka_1220",
+        "tomorrow_x_together_steal_the_wind_japan_2027_tokyo_0107",
+        "tomorrow_x_together_steal_the_wind_japan_2027_tokyo_0108",
+        "tomorrow_x_together_steal_the_wind_japan_2027_osaka_0130",
+        "tomorrow_x_together_steal_the_wind_japan_2027_osaka_0131",
+        "tomorrow_x_together_steal_the_wind_japan_2027_nagoya_0220",
+        "tomorrow_x_together_steal_the_wind_japan_2027_nagoya_0221"
+      ],
+      "source": "system",
+      "sourceUrl": "https://txt-official.jp/news/6b86fe24af47",
+      "lastVerifiedAt": "2026-10-26"
     }
   ],
   "lastVerifiedAt": "2026-07-22T10:26:13+09:00",

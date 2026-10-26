@@ -235,6 +235,26 @@
       "source": "system",
       "sourceUrl": "https://special.kroi.net/tour/",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "kroi_raisan_on_time_2026",
+      "title": "礼賛presents 2MAN LIVE「ON TIME 2026」",
+      "artistId": "kroi",
+      "source": "system",
+      "sourceUrl": "https://kroi.net/live_information/detail/44496",
+      "lastVerifiedAt": "2026-10-26",
+      "startDate": "2026-11-09T00:00:00+09:00",
+      "endDate": "2026-11-09T00:00:00+09:00"
+    },
+    {
+      "id": "kroi_jcb_the_live_2026",
+      "artistId": "kroi",
+      "title": "JCB THE LIVE",
+      "startDate": "2026-11-25T00:00:00+09:00",
+      "endDate": "2026-11-25T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://kroi.net/live_information/detail/40600",
+      "lastVerifiedAt": "2026-10-26"
     }
   ],
   "performances": [
@@ -709,6 +729,29 @@
       "source": "system",
       "sourceUrl": "https://special.kroi.net/tour/",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "kroi_raisan_on_time_2026_haneda_1109",
+      "tourId": "kroi_raisan_on_time_2026",
+      "performanceAt": "2026-11-09T19:00:00+09:00",
+      "doorOpenAt": "2026-11-09T18:00:00+09:00",
+      "venue": "Zepp Haneda(TOKYO)",
+      "kind": "taiban",
+      "sourceUrl": "https://kroi.net/live_information/detail/44496",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-26"
+    },
+    {
+      "id": "kroi_jcb_the_live_2026_takanawa_1125",
+      "tourId": "kroi_jcb_the_live_2026",
+      "venue": "MoN Takanawa: The Museum of Narratives",
+      "performanceAt": "2026-11-25T19:00:00+09:00",
+      "doorOpenAt": "2026-11-25T18:00:00+09:00",
+      "kind": "fes",
+      "eventName": "JCB THE LIVE",
+      "source": "system",
+      "sourceUrl": "https://kroi.net/live_information/detail/40600",
+      "lastVerifiedAt": "2026-10-26"
     }
   ],
   "lotteries": [
@@ -1754,6 +1797,22 @@
       "source": "system",
       "sourceUrl": "https://kroi.net/news/detail/90281",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "kroi_raisan_on_time_2026_final_lottery",
+      "tourId": "kroi_raisan_on_time_2026",
+      "type": "最終抽選先行",
+      "entryStartAt": "2026-09-02T18:00:00+09:00",
+      "entryEndAt": "2026-09-09T23:59:00+09:00",
+      "performanceIds": [
+        "kroi_raisan_on_time_2026_haneda_1109"
+      ],
+      "sourceUrl": "https://kroi.net/live_information/detail/44496",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-26",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null
     }
   ],
   "appleMusicTracks": [

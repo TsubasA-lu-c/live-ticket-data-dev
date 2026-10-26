@@ -718,57 +718,53 @@
       "id": "boku_aozora_kumo_bbble_r2_1109",
       "tourId": "boku_aozora_kumo_team_series_2026_2027",
       "venue": "I’M A SHOW",
-      "performanceAt": "2026-11-09T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-11-09T18:30:00+09:00",
+      "doorOpenAt": "2026-11-09T17:45:00+09:00",
       "kind": "oneman",
       "eventName": "雲組～B♡BBLE～公演 第2回戦",
       "source": "system",
-      "sourceUrl": "https://bokuao.com/news/detail/5858",
+      "sourceUrl": "https://bokuao.com/feature/kumogumi_tokusetsu",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00",
-      "performanceDate": "2026-11-09",
-      "performanceTimeEstimated": true
+      "performanceDate": "2026-11-09"
     },
     {
       "id": "boku_aozora_kumo_gekka_r2_1116",
       "tourId": "boku_aozora_kumo_team_series_2026_2027",
       "venue": "SHIBUYA PLEASURE PLEASURE",
-      "performanceAt": "2026-11-16T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-11-16T18:30:00+09:00",
+      "doorOpenAt": "2026-11-16T17:45:00+09:00",
       "kind": "oneman",
       "eventName": "雲組-月華-公演 第2回戦",
       "source": "system",
-      "sourceUrl": "https://bokuao.com/news/detail/5858",
+      "sourceUrl": "https://bokuao.com/feature/kumogumi_tokusetsu",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00",
-      "performanceDate": "2026-11-16",
-      "performanceTimeEstimated": true
+      "performanceDate": "2026-11-16"
     },
     {
       "id": "boku_aozora_kumo_gekka_r3_1121",
       "tourId": "boku_aozora_kumo_team_series_2026_2027",
       "venue": "SHIBUYA PLEASURE PLEASURE",
-      "performanceAt": "2026-11-21T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-11-21T19:00:00+09:00",
+      "doorOpenAt": "2026-11-21T18:15:00+09:00",
       "kind": "oneman",
       "eventName": "雲組-月華-公演 第3回戦",
       "source": "system",
-      "sourceUrl": "https://bokuao.com/news/detail/5858",
+      "sourceUrl": "https://bokuao.com/feature/kumogumi_tokusetsu",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00",
-      "performanceDate": "2026-11-21",
-      "performanceTimeEstimated": true
+      "performanceDate": "2026-11-21"
     },
     {
       "id": "boku_aozora_kumo_bbble_r3_1121",
       "tourId": "boku_aozora_kumo_team_series_2026_2027",
       "venue": "SHIBUYA PLEASURE PLEASURE",
-      "performanceAt": "2026-11-21T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-11-21T14:30:00+09:00",
+      "doorOpenAt": "2026-11-21T13:45:00+09:00",
       "kind": "oneman",
       "eventName": "雲組～B♡BBLE～公演 第3回戦",
       "source": "system",
-      "sourceUrl": "https://bokuao.com/news/detail/5858",
+      "sourceUrl": "https://bokuao.com/feature/kumogumi_tokusetsu",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00",
-      "performanceDate": "2026-11-21",
-      "performanceTimeEstimated": true
+      "performanceDate": "2026-11-21"
     },
     {
       "id": "boku_aozora_kumo_gekka_r4_1224",
@@ -1595,6 +1591,40 @@
       "sourceUrl": "https://bokuao.com/news/detail/5961",
       "source": "system",
       "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
+    },
+    {
+      "id": "boku_aozora_kumo_bbble_r2r3_fc_oct11",
+      "type": "B♡BBLE 第2・3回戦 FC先行（抽選）",
+      "entryStartAt": "2026-10-11T20:00:00+09:00",
+      "entryEndAt": "2026-10-19T23:59:00+09:00",
+      "performanceIds": [
+        "boku_aozora_kumo_bbble_r2_1109",
+        "boku_aozora_kumo_bbble_r3_1121"
+      ],
+      "tourId": "boku_aozora_kumo_team_series_2026_2027",
+      "resultAt": null,
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/feature/kumogumi_tokusetsu",
+      "lastVerifiedAt": "2026-10-26",
+      "paymentStartAt": null,
+      "paymentEndAt": null
+    },
+    {
+      "id": "boku_aozora_kumo_gekka_r2r3_fc_oct13",
+      "type": "月華 第2・3回戦 FC先行（抽選）",
+      "entryStartAt": "2026-10-13T21:00:00+09:00",
+      "entryEndAt": "2026-10-21T23:59:00+09:00",
+      "performanceIds": [
+        "boku_aozora_kumo_gekka_r2_1116",
+        "boku_aozora_kumo_gekka_r3_1121"
+      ],
+      "tourId": "boku_aozora_kumo_team_series_2026_2027",
+      "resultAt": null,
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/feature/kumogumi_tokusetsu",
+      "lastVerifiedAt": "2026-10-26",
+      "paymentStartAt": null,
+      "paymentEndAt": null
     }
   ],
   "appleMusicTracks": [
