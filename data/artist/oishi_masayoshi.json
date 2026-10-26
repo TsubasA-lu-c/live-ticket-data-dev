@@ -612,6 +612,38 @@
       }
     },
     {
+      "id": "oishi_masayoshi_club014_bonenkai_2026",
+      "title": "【オーイシマサヨシ】CLUB014限定！オーイシマサヨシ忘年会ライブ！",
+      "startDate": "2026-12-02T00:00:00+09:00",
+      "endDate": "2026-12-17T00:00:00+09:00",
+      "sourceUrl": "https://club014.jp/news/?id=551",
+      "artistId": "oishi_masayoshi",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
+      "relationDisplay": {
+        "sourceArtistId": "oishi_masayoshi",
+        "sourceTourId": "oishi_masayoshi_club014_bonenkai_2026",
+        "officialTitle": "CLUB014限定！オーイシマサヨシ忘年会ライブ！",
+        "mirrored": false
+      }
+    },
+    {
+      "id": "oishi_masayoshi_hiroshima_continew_fes_2026",
+      "artistId": "oishi_masayoshi",
+      "title": "【オーイシマサヨシ】HIROSHIMA CONTI-NeW FeS 2026",
+      "startDate": "2026-12-06T00:00:00+09:00",
+      "endDate": "2026-12-06T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.hiroshima-continew.com/music/",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
+      "relationDisplay": {
+        "sourceArtistId": "oishi_masayoshi",
+        "sourceTourId": "oishi_masayoshi_hiroshima_continew_fes_2026",
+        "officialTitle": "HIROSHIMA CONTI-NeW FeS 2026",
+        "mirrored": false
+      }
+    },
+    {
       "id": "oishi_masayoshi__rel__masayoshi_oishi_sound_connection_0704",
       "artistId": "oishi_masayoshi",
       "title": "【大石昌良】SOUND CONNECTION -Acoustic Sessions-",
@@ -1197,6 +1229,54 @@
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
     },
     {
+      "id": "oishi_masayoshi_club014_bonenkai_2026_20261202",
+      "tourId": "oishi_masayoshi_club014_bonenkai_2026",
+      "performanceAt": "2026-12-02T19:00:00+09:00",
+      "doorOpenAt": "2026-12-02T18:00:00+09:00",
+      "venue": "CLUB CITTA’",
+      "kind": "oneman",
+      "sourceUrl": "https://club014.jp/news/?id=551",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "oishi_masayoshi_club014_bonenkai_2026_20261203",
+      "tourId": "oishi_masayoshi_club014_bonenkai_2026",
+      "performanceAt": "2026-12-03T19:00:00+09:00",
+      "doorOpenAt": "2026-12-03T18:00:00+09:00",
+      "venue": "CLUB CITTA’",
+      "kind": "oneman",
+      "sourceUrl": "https://club014.jp/news/?id=551",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "oishi_masayoshi_club014_bonenkai_2026_20261217",
+      "tourId": "oishi_masayoshi_club014_bonenkai_2026",
+      "performanceAt": "2026-12-17T19:00:00+09:00",
+      "doorOpenAt": "2026-12-17T18:00:00+09:00",
+      "venue": "BIGCAT",
+      "kind": "oneman",
+      "sourceUrl": "https://club014.jp/news/?id=551",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "oishi_masayoshi_hiroshima_continew_fes_2026_1206",
+      "tourId": "oishi_masayoshi_hiroshima_continew_fes_2026",
+      "performanceAt": "2026-12-06T12:00:00+09:00",
+      "performanceDate": "2026-12-06",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "venue": "広島グリーンアリーナ 大アリーナ",
+      "kind": "fes",
+      "eventName": "HIROSHIMA CONTI-NeW FeS 2026",
+      "source": "system",
+      "sourceUrl": "https://www.hiroshima-continew.com/music/",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
+      "note": "12:00は配信互換用推定値であり本人ステージ開始時刻ではない。主催出演者の日別一覧で12/6出演を確認。12/5出演扱いしない。"
+    },
+    {
       "id": "oishi_masayoshi__rel__masayoshi_oishi_sound_connection_0704_20260704",
       "tourId": "oishi_masayoshi__rel__masayoshi_oishi_sound_connection_0704",
       "venue": "大阪城音楽堂",
@@ -1465,6 +1545,41 @@
       "source": "system",
       "sourceUrl": "https://www.014014.jp/news/8002",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "oishi_masayoshi_bonenkai_2026_club014_fc_oct19",
+      "tourId": "oishi_masayoshi_club014_bonenkai_2026",
+      "type": "CLUB014会員先行抽選",
+      "entryStartAt": "2026-10-19T21:00:00+09:00",
+      "entryEndAt": "2026-11-03T23:59:00+09:00",
+      "resultAt": "2026-11-06T19:00:00+09:00",
+      "paymentStartAt": "2026-11-06T19:00:00+09:00",
+      "paymentEndAt": "2026-11-09T23:59:00+09:00",
+      "performanceIds": [
+        "oishi_masayoshi_club014_bonenkai_2026_20261202",
+        "oishi_masayoshi_club014_bonenkai_2026_20261203",
+        "oishi_masayoshi_club014_bonenkai_2026_20261217"
+      ],
+      "sourceUrl": "https://club014.jp/news/?id=551",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "oishi_masayoshi_budokan_vol4_vol5_fc_second_oct23",
+      "tourId": "oishi_masayoshi_gate3_2027_650af621",
+      "type": "CLUB014会員2次先行抽選",
+      "entryStartAt": "2026-10-23T19:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": "2026-11-20T19:00:00+09:00",
+      "paymentStartAt": "2026-11-20T19:00:00+09:00",
+      "paymentEndAt": "2026-11-23T23:59:00+09:00",
+      "performanceIds": [
+        "oishi_masayoshi_gate3_2027_650af621_20271023_01",
+        "oishi_masayoshi_gate3_2027_650af621_20271024_02"
+      ],
+      "sourceUrl": "https://club014.jp/news/?id=554",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     },
     {
       "id": "oishi_masayoshi__rel__masayoshi_oishi_sound_connection_0704_general",

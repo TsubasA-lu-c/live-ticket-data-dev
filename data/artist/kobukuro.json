@@ -759,6 +759,38 @@
       "sourceUrl": "https://kobukuro.com/feature/tour2026_ticket",
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "kobukuro_kasumibiyori_2026_kanagawa_1031_trade_1021",
+      "tourId": "kobukuro_kasumibiyori_2026",
+      "type": "公式チケプラトレード（神奈川10/31・抽選）",
+      "entryStartAt": "2026-10-21T12:00:00+09:00",
+      "entryEndAt": "2026-10-31T11:59:00+09:00",
+      "performanceIds": [
+        "kobukuro_kasumibiyori_2026_kanagawa_1031"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kobukuro.com/feature/tour2026_news",
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null
+    },
+    {
+      "id": "kobukuro_kasumibiyori_2026_kanagawa_1101_trade_1021",
+      "tourId": "kobukuro_kasumibiyori_2026",
+      "type": "公式チケプラトレード（神奈川11/1・抽選）",
+      "entryStartAt": "2026-10-21T12:00:00+09:00",
+      "entryEndAt": "2026-11-01T11:59:00+09:00",
+      "performanceIds": [
+        "kobukuro_kasumibiyori_2026_kanagawa_1101"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kobukuro.com/feature/tour2026_news",
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null
     }
   ],
   "appleMusicTracks": [

@@ -85,6 +85,16 @@
       "source": "system",
       "sourceUrl": "https://www.aimyong.net/feature/tour2027",
       "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "aimyon_fes_merry_rock_parade_2026",
+      "artistId": "aimyon",
+      "title": "MERRY ROCK PARADE 2026",
+      "startDate": "2026-12-19T00:00:00+09:00",
+      "endDate": "2026-12-19T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/news/detail/3666",
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -589,6 +599,21 @@
       "lastVerifiedAt": "2026-09-12T00:00:00+09:00",
       "kind": "oneman",
       "performanceTimeEstimated": false
+    },
+    {
+      "id": "aimyon_fes_merry_rock_parade_2026_1219",
+      "tourId": "aimyon_fes_merry_rock_parade_2026",
+      "performanceDate": "2026-12-19",
+      "performanceAt": "2026-12-19T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": "2026-12-19T09:00:00+09:00",
+      "venue": "ポートメッセなごや１号館～３号館",
+      "kind": "fes",
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/news/detail/3666",
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00",
+      "note": "フェス開演11:00は個人出演時刻ではない。12:00は旧クライアント互換の推定仮値。",
+      "eventName": "MERRY ROCK PARADE 2026"
     }
   ],
   "lotteries": [
