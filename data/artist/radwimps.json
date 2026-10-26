@@ -363,6 +363,23 @@
       "source": "system",
       "sourceUrl": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2671037",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "radwimps_yurinchi_2026_omawari_additional_resale_nov01",
+      "tourId": "radwimps_yurinchi_fc_tour_2026",
+      "type": "公式リセール（追加公演・抽選）",
+      "entryStartAt": "2026-11-01T13:00:00+09:00",
+      "entryEndAt": "2026-11-04T12:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "radwimps_yurinchi_fc_tour_2026_yokohama_1110",
+        "radwimps_yurinchi_fc_tour_2026_yokohama_1111"
+      ],
+      "source": "system",
+      "sourceUrl": "https://radwimps.jp/news/16619/",
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

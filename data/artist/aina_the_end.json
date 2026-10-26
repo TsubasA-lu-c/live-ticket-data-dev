@@ -363,6 +363,34 @@
       "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1136688",
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "aina_the_end_live_tour_2027",
+      "artistId": "aina_the_end",
+      "title": "AiNA THE END LIVE TOUR 2027",
+      "startDate": "2027-03-07T00:00:00+09:00",
+      "endDate": "2027-10-16T00:00:00+08:00",
+      "prices": [
+        {
+          "label": "Special love ticket（FC限定）",
+          "amount": 15000
+        },
+        {
+          "label": "一般指定席",
+          "amount": 10000
+        },
+        {
+          "label": "着席指定席",
+          "amount": 10000
+        },
+        {
+          "label": "中学生以下割引チケット",
+          "amount": 5000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.ainatheend.jp/news/detail.php?id=1136806",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -399,8 +427,9 @@
       "kind": "fes",
       "eventName": "MUSIC EXPO LIVE 2026 in TAIPEI DAY1",
       "source": "system",
-      "sourceUrl": "https://musicexpolive.com/",
-      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+      "sourceUrl": "https://kham.com.tw/application/UTK01/UTK0105_.aspx",
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00",
+      "eventStatus": "cancelled"
     },
     {
       "id": "aina_the_end_summer_sonic_2026_tokyo_0814",
@@ -747,6 +776,237 @@
       "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1136688",
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "aina_the_end_live_tour_2027_hyogo_kobe_20270307",
+      "tourId": "aina_the_end_live_tour_2027",
+      "venue": "神戸国際会館こくさいホール",
+      "performanceAt": "2027-03-07T19:00:00+09:00",
+      "doorOpenAt": "2027-03-07T18:00:00+09:00",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://www.ainatheend.jp/news/detail.php?id=1136806",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_live_tour_2027_kagawa_takamatsu_20270313",
+      "tourId": "aina_the_end_live_tour_2027",
+      "venue": "サンポートホール高松",
+      "performanceAt": "2027-03-13T17:00:00+09:00",
+      "doorOpenAt": "2027-03-13T16:00:00+09:00",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://www.ainatheend.jp/news/detail.php?id=1136806",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_live_tour_2027_niigata_20270320",
+      "tourId": "aina_the_end_live_tour_2027",
+      "venue": "新潟県民会館",
+      "performanceAt": "2027-03-20T17:00:00+09:00",
+      "doorOpenAt": "2027-03-20T16:00:00+09:00",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://www.ainatheend.jp/news/detail.php?id=1136806",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_live_tour_2027_aichi_nagoya_20270322",
+      "tourId": "aina_the_end_live_tour_2027",
+      "venue": "Niterra 日本特殊陶業市民会館フォレストホール",
+      "performanceAt": "2027-03-22T17:00:00+09:00",
+      "doorOpenAt": "2027-03-22T16:00:00+09:00",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://www.ainatheend.jp/news/detail.php?id=1136806",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_live_tour_2027_hiroshima_20270402",
+      "tourId": "aina_the_end_live_tour_2027",
+      "venue": "広島上野学園ホール",
+      "performanceAt": "2027-04-02T19:00:00+09:00",
+      "doorOpenAt": "2027-04-02T18:00:00+09:00",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://www.ainatheend.jp/news/detail.php?id=1136806",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_live_tour_2027_osaka_20270404",
+      "tourId": "aina_the_end_live_tour_2027",
+      "venue": "大阪フェスティバルホール",
+      "performanceAt": "2027-04-04T17:00:00+09:00",
+      "doorOpenAt": "2027-04-04T16:00:00+09:00",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://www.ainatheend.jp/news/detail.php?id=1136806",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_live_tour_2027_tokyo_shibuya_20270411",
+      "tourId": "aina_the_end_live_tour_2027",
+      "venue": "LINE CUBE SHIBUYA",
+      "performanceAt": "2027-04-11T17:00:00+09:00",
+      "doorOpenAt": "2027-04-11T16:00:00+09:00",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://www.ainatheend.jp/news/detail.php?id=1136806",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_live_tour_2027_kumamoto_20270416",
+      "tourId": "aina_the_end_live_tour_2027",
+      "venue": "市民会館シアーズホーム夢ホール（熊本市民会館）",
+      "performanceAt": "2027-04-16T19:00:00+09:00",
+      "doorOpenAt": "2027-04-16T18:00:00+09:00",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://www.ainatheend.jp/news/detail.php?id=1136806",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_live_tour_2027_fukuoka_20270418",
+      "tourId": "aina_the_end_live_tour_2027",
+      "venue": "福岡サンパレス",
+      "performanceAt": "2027-04-18T17:00:00+09:00",
+      "doorOpenAt": "2027-04-18T16:00:00+09:00",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://www.ainatheend.jp/news/detail.php?id=1136806",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_live_tour_2027_okayama_20270507",
+      "tourId": "aina_the_end_live_tour_2027",
+      "venue": "岡山芸術創造劇場ハレノワ 大劇場",
+      "performanceAt": "2027-05-07T19:00:00+09:00",
+      "doorOpenAt": "2027-05-07T18:00:00+09:00",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://www.ainatheend.jp/news/detail.php?id=1136806",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_live_tour_2027_shizuoka_fuji_20270509",
+      "tourId": "aina_the_end_live_tour_2027",
+      "venue": "富士市文化会館ロゼシアター",
+      "performanceAt": "2027-05-09T18:30:00+09:00",
+      "doorOpenAt": "2027-05-09T17:30:00+09:00",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://www.ainatheend.jp/news/detail.php?id=1136806",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_live_tour_2027_ishikawa_kanazawa_20270516",
+      "tourId": "aina_the_end_live_tour_2027",
+      "venue": "金沢歌劇座",
+      "performanceAt": "2027-05-16T17:00:00+09:00",
+      "doorOpenAt": "2027-05-16T16:00:00+09:00",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://www.ainatheend.jp/news/detail.php?id=1136806",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_live_tour_2027_iwate_morioka_20270520",
+      "tourId": "aina_the_end_live_tour_2027",
+      "venue": "盛岡市民文化ホール",
+      "performanceAt": "2027-05-20T19:00:00+09:00",
+      "doorOpenAt": "2027-05-20T18:00:00+09:00",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://www.ainatheend.jp/news/detail.php?id=1136806",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_live_tour_2027_kanagawa_sagamihara_20270522",
+      "tourId": "aina_the_end_live_tour_2027",
+      "venue": "相模女子大学グリーンホール・大ホール",
+      "performanceAt": "2027-05-22T18:30:00+09:00",
+      "doorOpenAt": "2027-05-22T17:30:00+09:00",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://www.ainatheend.jp/news/detail.php?id=1136806",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_live_tour_2027_gunma_takasaki_20270530",
+      "tourId": "aina_the_end_live_tour_2027",
+      "venue": "高崎芸術劇場・大劇場",
+      "performanceAt": "2027-05-30T17:00:00+09:00",
+      "doorOpenAt": "2027-05-30T16:00:00+09:00",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://www.ainatheend.jp/news/detail.php?id=1136806",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_live_tour_2027_hokkaido_hakodate_20270602",
+      "tourId": "aina_the_end_live_tour_2027",
+      "venue": "函館サーモン・まるなまホール(函館市民会館）",
+      "performanceAt": "2027-06-02T19:00:00+09:00",
+      "doorOpenAt": "2027-06-02T18:00:00+09:00",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://www.ainatheend.jp/news/detail.php?id=1136806",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_live_tour_2027_hokkaido_sapporo_20270604",
+      "tourId": "aina_the_end_live_tour_2027",
+      "venue": "カナモトホール",
+      "performanceAt": "2027-06-04T19:00:00+09:00",
+      "doorOpenAt": "2027-06-04T18:00:00+09:00",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://www.ainatheend.jp/news/detail.php?id=1136806",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_live_tour_2027_ehime_matsuyama_20270612",
+      "tourId": "aina_the_end_live_tour_2027",
+      "venue": "松山市民会館",
+      "performanceAt": "2027-06-12T17:00:00+09:00",
+      "doorOpenAt": "2027-06-12T16:00:00+09:00",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://www.ainatheend.jp/news/detail.php?id=1136806",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_live_tour_2027_miyagi_sendai_20270620",
+      "tourId": "aina_the_end_live_tour_2027",
+      "venue": "東京エレクトロンホール宮城",
+      "performanceAt": "2027-06-20T17:00:00+09:00",
+      "doorOpenAt": "2027-06-20T16:00:00+09:00",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://www.ainatheend.jp/news/detail.php?id=1136806",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_live_tour_2027_tokyo_ariake_a_20270628",
+      "tourId": "aina_the_end_live_tour_2027",
+      "venue": "SGC HALL ARIAKE",
+      "performanceAt": "2027-06-28T19:00:00+09:00",
+      "doorOpenAt": "2027-06-28T18:00:00+09:00",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://www.ainatheend.jp/news/detail.php?id=1136806",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_live_tour_2027_tokyo_ariake_b_20270629",
+      "tourId": "aina_the_end_live_tour_2027",
+      "venue": "SGC HALL ARIAKE",
+      "performanceAt": "2027-06-29T19:00:00+09:00",
+      "doorOpenAt": "2027-06-29T18:00:00+09:00",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://www.ainatheend.jp/news/detail.php?id=1136806",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     }
   ],
   "lotteries": [

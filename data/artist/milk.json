@@ -183,6 +183,16 @@
       "artistId": "milk",
       "source": "system",
       "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
+    },
+    {
+      "id": "milk_spotify_on_stage_tokyo_2026",
+      "artistId": "milk",
+      "title": "Spotify On Stage Tokyo 2026 -10th Anniversary Special-",
+      "startDate": "2026-12-20T00:00:00+09:00",
+      "endDate": "2026-12-20T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1116721",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -971,6 +981,18 @@
       "sourceUrl": "https://sd-milk.com/contents/1116796",
       "source": "system",
       "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
+    },
+    {
+      "id": "milk_spotify_on_stage_tokyo_2026_tokyo_1220",
+      "tourId": "milk_spotify_on_stage_tokyo_2026",
+      "venue": "東京ガーデンシアター",
+      "performanceAt": "2026-12-20T17:30:00+09:00",
+      "doorOpenAt": "2026-12-20T16:30:00+09:00",
+      "kind": "fes",
+      "eventName": "Spotify On Stage Tokyo 2026 -10th Anniversary Special-",
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1116721",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1913,6 +1935,24 @@
       "sourceUrl": "https://sd-milk.com/contents/1116796",
       "source": "system",
       "lastVerifiedAt": "2026-10-10T20:23:47+09:00"
+    },
+    {
+      "id": "milk_shakariki_revolution_2026_miyagi_machine_release_lastminute_oct24",
+      "tourId": "milk_shakariki_revolution_2026",
+      "type": "宮城公演 直前機材席開放販売（先着）",
+      "entryStartAt": "2026-10-24T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_shakariki_revolution_2026_miyagi_1024",
+        "milk_shakariki_revolution_2026_miyagi_1025a",
+        "milk_shakariki_revolution_2026_miyagi_1025b"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1121210",
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

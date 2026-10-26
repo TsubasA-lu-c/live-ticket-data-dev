@@ -509,15 +509,14 @@
       "id": "miura_daichi_disaster_relief_2027_budokan_0120",
       "tourId": "miura_daichi_disaster_relief_2027",
       "performanceDate": "2027-01-20",
-      "performanceAt": "2027-01-20T12:00:00+09:00",
-      "performanceTimeEstimated": true,
-      "doorOpenAt": null,
+      "performanceAt": "2027-01-20T18:00:00+09:00",
+      "doorOpenAt": "2027-01-20T17:00:00+09:00",
       "venue": "日本武道館",
       "kind": "fes",
       "eventName": "災害支援基金コンサート",
-      "sourceUrl": "https://daichi-miura.jp/news/detail/1126",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1142",
       "source": "system",
-      "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1888,6 +1887,22 @@
       "sourceUrl": "https://daichi-miura.jp/news/detail/1129",
       "source": "system",
       "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
+    },
+    {
+      "id": "miura_daichi_disaster_relief_2027_official_oct19",
+      "tourId": "miura_daichi_disaster_relief_2027",
+      "type": "オフィシャル先行（抽選）",
+      "entryStartAt": "2026-10-19T20:00:00+09:00",
+      "entryEndAt": "2026-11-01T23:59:00+09:00",
+      "resultAt": null,
+      "performanceIds": [
+        "miura_daichi_disaster_relief_2027_budokan_0120"
+      ],
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1142",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null
     }
   ],
   "appleMusicTracks": [

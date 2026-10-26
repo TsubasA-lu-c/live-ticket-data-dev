@@ -308,6 +308,75 @@
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/2901490006",
       "lastVerifiedAt": "2026-09-10T07:56:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_prema_2026_trade_fukuoka_oct20",
+      "type": "公式チケットトレード（福岡2公演）",
+      "entryStartAt": "2026-10-20T12:00:00+09:00",
+      "entryEndAt": "2026-10-25T23:59:00+09:00",
+      "resultAt": null,
+      "performanceIds": [
+        "fujii_kaze_prema_world_2026_fukuoka_1114",
+        "fujii_kaze_prema_world_2026_fukuoka_1115"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00",
+      "tourId": "fujii_kaze_prema_world_2026",
+      "paymentStartAt": null,
+      "paymentEndAt": null
+    },
+    {
+      "id": "fujii_kaze_prema_2026_trade_osaka_nov14",
+      "type": "公式チケットトレード（大阪3公演）",
+      "entryStartAt": "2026-11-14T12:00:00+09:00",
+      "entryEndAt": "2026-11-19T23:59:00+09:00",
+      "resultAt": null,
+      "performanceIds": [
+        "fujii_kaze_prema_world_2026_osaka_1210",
+        "fujii_kaze_prema_world_2026_osaka_1212",
+        "fujii_kaze_prema_world_2026_osaka_1213"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00",
+      "tourId": "fujii_kaze_prema_world_2026",
+      "paymentStartAt": null,
+      "paymentEndAt": null
+    },
+    {
+      "id": "fujii_kaze_prema_2026_trade_tokyo_nov24",
+      "type": "公式チケットトレード（東京2公演）",
+      "entryStartAt": "2026-11-24T12:00:00+09:00",
+      "entryEndAt": "2026-11-29T23:59:00+09:00",
+      "resultAt": null,
+      "performanceIds": [
+        "fujii_kaze_prema_world_2026_tokyo_1219",
+        "fujii_kaze_prema_world_2026_tokyo_1220"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00",
+      "tourId": "fujii_kaze_prema_world_2026",
+      "paymentStartAt": null,
+      "paymentEndAt": null
+    },
+    {
+      "id": "fujii_kaze_piano_recital_2026_second_lottery_oct24",
+      "tourId": "fujii_kaze_piano_recital_2026",
+      "type": "2次抽選受付（ピアノリサイタル・東京ドーム）",
+      "entryStartAt": "2026-10-24T12:00:00+09:00",
+      "entryEndAt": "2026-10-27T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fujii_kaze_piano_recital_2026_tokyo_1120",
+        "fujii_kaze_piano_recital_2026_tokyo_1121"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/fpr/",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

@@ -69,6 +69,42 @@
       "source": "system",
       "sourceUrl": "https://yuzu-official.com/pages/yujin-birthday2027/",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "yuzu_30th_stadium_nissan_2027",
+      "artistId": "yuzu",
+      "title": "YUZU 30th ANNIVERSARY STADIUM LIVE 2027 日産スタジアム",
+      "startDate": "2027-05-15T00:00:00+09:00",
+      "endDate": "2027-05-16T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://yuzu-official.com/contents/information/002b2902-89ce-4485-9314-0e9107a53257",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "YZ席",
+          "amount": 22800
+        },
+        {
+          "label": "着席指定席",
+          "amount": 15800
+        },
+        {
+          "label": "指定席",
+          "amount": 13200
+        },
+        {
+          "label": "車椅子席",
+          "amount": 13200
+        },
+        {
+          "label": "親子席",
+          "amount": 9900
+        },
+        {
+          "label": "U-18席",
+          "amount": 7700
+        }
+      ]
     }
   ],
   "performances": [
@@ -397,6 +433,30 @@
       "source": "system",
       "sourceUrl": "https://yuzu-official.com/pages/yujin-birthday2027/",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "yuzu_30th_stadium_nissan_2027_0515",
+      "tourId": "yuzu_30th_stadium_nissan_2027",
+      "venue": "日産スタジアム",
+      "performanceAt": "2027-05-15T17:00:00+09:00",
+      "doorOpenAt": "2027-05-15T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "YUZU 30th ANNIVERSARY STADIUM LIVE 2027 日産スタジアム DAY1「ゆ」",
+      "source": "system",
+      "sourceUrl": "https://yuzu-official.com/contents/information/002b2902-89ce-4485-9314-0e9107a53257",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "yuzu_30th_stadium_nissan_2027_0516",
+      "tourId": "yuzu_30th_stadium_nissan_2027",
+      "venue": "日産スタジアム",
+      "performanceAt": "2027-05-16T17:00:00+09:00",
+      "doorOpenAt": "2027-05-16T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "YUZU 30th ANNIVERSARY STADIUM LIVE 2027 日産スタジアム DAY2「ず」",
+      "source": "system",
+      "sourceUrl": "https://yuzu-official.com/contents/information/002b2902-89ce-4485-9314-0e9107a53257",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -569,6 +629,71 @@
       "sourceUrl": "https://yuzu-official.com/contents/information/2a4a5f08-9bff-457b-9ac7-d6a620676c3a",
       "source": "system",
       "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+    },
+    {
+      "id": "yuzu_30th_kokoro_2026_same_day_eplus_1023",
+      "tourId": "yuzu_30th_kokoro_2026",
+      "type": "当日引換券販売（イープラス・先着）",
+      "entryStartAt": "2026-10-23T12:00:00+09:00",
+      "entryEndAt": "2026-10-23T16:30:00+09:00",
+      "performanceIds": [
+        "yuzu_30th_kokoro_2026_karena_1023"
+      ],
+      "sourceUrl": "https://yuzu-official.com/contents/information/46e23994-8ce5-4178-b331-4d6c2e104ca9",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null
+    },
+    {
+      "id": "yuzu_30th_kokoro_2026_same_day_eplus_1024",
+      "tourId": "yuzu_30th_kokoro_2026",
+      "type": "当日引換券販売（イープラス・先着）",
+      "entryStartAt": "2026-10-24T12:00:00+09:00",
+      "entryEndAt": "2026-10-24T15:00:00+09:00",
+      "performanceIds": [
+        "yuzu_30th_kokoro_2026_karena_1024"
+      ],
+      "sourceUrl": "https://yuzu-official.com/contents/information/46e23994-8ce5-4178-b331-4d6c2e104ca9",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null
+    },
+    {
+      "id": "yuzu_30th_kokoro_2026_same_day_eplus_1025",
+      "tourId": "yuzu_30th_kokoro_2026",
+      "type": "当日引換券販売（イープラス・先着）",
+      "entryStartAt": "2026-10-25T12:00:00+09:00",
+      "entryEndAt": "2026-10-25T15:00:00+09:00",
+      "performanceIds": [
+        "yuzu_30th_kokoro_2026_karena_1025"
+      ],
+      "sourceUrl": "https://yuzu-official.com/contents/information/46e23994-8ce5-4178-b331-4d6c2e104ca9",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null
+    },
+    {
+      "id": "yuzu_30th_stadium_2027_yuzunowa_fc_oct25",
+      "tourId": "yuzu_30th_stadium_nissan_2027",
+      "type": "ゆずの輪会員先行（抽選・日産スタジアム2DAYS）",
+      "entryStartAt": "2026-10-25T19:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": "2026-11-21T12:00:00+09:00",
+      "paymentStartAt": "2026-11-21T12:00:00+09:00",
+      "paymentEndAt": "2026-11-26T23:59:00+09:00",
+      "performanceIds": [
+        "yuzu_30th_stadium_nissan_2027_0515",
+        "yuzu_30th_stadium_nissan_2027_0516"
+      ],
+      "source": "system",
+      "sourceUrl": "https://yuzu-official.com/pages/30_stadiumlive_2027/",
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
