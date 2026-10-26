@@ -467,6 +467,36 @@
       "sourceUrl": "https://10-feet.kyoto/pages/10-freakhistory",
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "10_feet_fuse_20th_2026",
+      "artistId": "10_feet",
+      "title": "FUSE 20th Anniversary",
+      "startDate": "2026-12-04T00:00:00+09:00",
+      "endDate": "2026-12-04T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://10-feet.kyoto/contents/1120792",
+      "lastVerifiedAt": "2026-10-25"
+    },
+    {
+      "id": "10_feet_ran_echizen_2026",
+      "artistId": "10_feet",
+      "title": "乱シリーズ・越前・アオッサの乱 2026",
+      "startDate": "2026-12-10T00:00:00+09:00",
+      "endDate": "2026-12-10T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://10-feet.kyoto/contents/1121766",
+      "lastVerifiedAt": "2026-10-25"
+    },
+    {
+      "id": "10_feet_kyoto_daisakusen_2027",
+      "artistId": "10_feet",
+      "title": "京都大作戦2027",
+      "startDate": "2027-07-03T00:00:00+09:00",
+      "endDate": "2027-07-11T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://kyoto-daisakusen.kyoto/27/",
+      "lastVerifiedAt": "2026-10-25"
     }
   ],
   "performances": [
@@ -1036,6 +1066,86 @@
       "sourceUrl": "https://10-feet.kyoto/pages/10-freakhistory",
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "10_feet_fuse_20th_2026_kokura_1204",
+      "tourId": "10_feet_fuse_20th_2026",
+      "performanceDate": "2026-12-04",
+      "performanceAt": "2026-12-04T19:00:00+09:00",
+      "doorOpenAt": "2026-12-04T18:15:00+09:00",
+      "venue": "小倉FUSE",
+      "kind": "taiban",
+      "source": "system",
+      "sourceUrl": "https://10-feet.kyoto/contents/1120792",
+      "lastVerifiedAt": "2026-10-25"
+    },
+    {
+      "id": "10_feet_ran_echizen_2026_fukui_1210",
+      "tourId": "10_feet_ran_echizen_2026",
+      "performanceDate": "2026-12-10",
+      "performanceAt": "2026-12-10T18:00:00+09:00",
+      "doorOpenAt": "2026-12-10T17:15:00+09:00",
+      "venue": "福井県県民ホール",
+      "kind": "taiban",
+      "source": "system",
+      "sourceUrl": "https://10-feet.kyoto/contents/1121766",
+      "lastVerifiedAt": "2026-10-25"
+    },
+    {
+      "id": "10_feet_kyoto_daisakusen_2027_0703",
+      "tourId": "10_feet_kyoto_daisakusen_2027",
+      "performanceDate": "2027-07-03",
+      "performanceAt": "2027-07-03T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": "2027-07-03T09:30:00+09:00",
+      "venue": "京都府立山城総合運動公園 太陽が丘特設野外ステージ",
+      "kind": "fes",
+      "source": "system",
+      "sourceUrl": "https://10-feet.kyoto/contents/1115763",
+      "lastVerifiedAt": "2026-10-25",
+      "note": "11:00はフェス全体の開演。個別出演時刻未発表のためperformanceAtは12:00の仮値（performanceTimeEstimated=true）。"
+    },
+    {
+      "id": "10_feet_kyoto_daisakusen_2027_0704",
+      "tourId": "10_feet_kyoto_daisakusen_2027",
+      "performanceDate": "2027-07-04",
+      "performanceAt": "2027-07-04T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": "2027-07-04T09:30:00+09:00",
+      "venue": "京都府立山城総合運動公園 太陽が丘特設野外ステージ",
+      "kind": "fes",
+      "source": "system",
+      "sourceUrl": "https://10-feet.kyoto/contents/1115764",
+      "lastVerifiedAt": "2026-10-25",
+      "note": "11:00はフェス全体の開演。個別出演時刻未発表のためperformanceAtは12:00の仮値（performanceTimeEstimated=true）。"
+    },
+    {
+      "id": "10_feet_kyoto_daisakusen_2027_0710",
+      "tourId": "10_feet_kyoto_daisakusen_2027",
+      "performanceDate": "2027-07-10",
+      "performanceAt": "2027-07-10T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": "2027-07-10T09:30:00+09:00",
+      "venue": "京都府立山城総合運動公園 太陽が丘特設野外ステージ",
+      "kind": "fes",
+      "source": "system",
+      "sourceUrl": "https://10-feet.kyoto/contents/1115765",
+      "lastVerifiedAt": "2026-10-25",
+      "note": "11:00はフェス全体の開演。個別出演時刻未発表のためperformanceAtは12:00の仮値（performanceTimeEstimated=true）。"
+    },
+    {
+      "id": "10_feet_kyoto_daisakusen_2027_0711",
+      "tourId": "10_feet_kyoto_daisakusen_2027",
+      "performanceDate": "2027-07-11",
+      "performanceAt": "2027-07-11T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": "2027-07-11T09:30:00+09:00",
+      "venue": "京都府立山城総合運動公園 太陽が丘特設野外ステージ",
+      "kind": "fes",
+      "source": "system",
+      "sourceUrl": "https://10-feet.kyoto/contents/1115766",
+      "lastVerifiedAt": "2026-10-25",
+      "note": "11:00はフェス全体の開演。個別出演時刻未発表のためperformanceAtは12:00の仮値（performanceTimeEstimated=true）。"
     }
   ],
   "lotteries": [
@@ -1294,6 +1404,57 @@
       "sourceUrl": "https://10-feet.kyoto/contents/1118726",
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "10_feet_fuse20_2026_general_oct21",
+      "tourId": "10_feet_fuse_20th_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-10-21T12:00:00+09:00",
+      "entryEndAt": null,
+      "performanceIds": [
+        "10_feet_fuse_20th_2026_kokura_1204"
+      ],
+      "sourceUrl": "https://10-feet.kyoto/contents/1120792",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-26",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null
+    },
+    {
+      "id": "10_feet_ran_echizen_2026_hokutike_lottery",
+      "tourId": "10_feet_ran_echizen_2026",
+      "type": "ホクチケ抽選先行",
+      "entryStartAt": null,
+      "entryEndAt": "2026-10-22T23:59:00+09:00",
+      "performanceIds": [
+        "10_feet_ran_echizen_2026_fukui_1210"
+      ],
+      "sourceUrl": "https://10-feet.kyoto/contents/1121766",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-26",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null
+    },
+    {
+      "id": "10_feet_kyoto_daisakusen_2027_hannari_first_oct21",
+      "tourId": "10_feet_kyoto_daisakusen_2027",
+      "type": "京都大作戦はんなり会1次先行（抽選）",
+      "entryStartAt": "2026-10-21T12:00:00+09:00",
+      "entryEndAt": "2026-11-01T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "10_feet_kyoto_daisakusen_2027_0703",
+        "10_feet_kyoto_daisakusen_2027_0704",
+        "10_feet_kyoto_daisakusen_2027_0710",
+        "10_feet_kyoto_daisakusen_2027_0711"
+      ],
+      "source": "system",
+      "sourceUrl": "https://10-feet.kyoto/contents/1120753",
+      "lastVerifiedAt": "2026-10-25"
     }
   ]
 }
