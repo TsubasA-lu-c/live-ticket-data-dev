@@ -828,7 +828,7 @@
       "type": "e+一般リセール受付（北海道11/13・11/15／抽選）",
       "entryStartAt": "2026-10-29T12:00:00+09:00",
       "entryEndAt": "2026-11-03T23:59:00+09:00",
-      "resultAt": null,
+      "resultAt": "2026-11-07T13:00:00+09:00",
       "paymentStartAt": null,
       "paymentEndAt": null,
       "performanceIds": [
@@ -853,6 +853,158 @@
       "sourceUrl": "https://www.thaiticketmajor.com/concert/matsuri-27-japanese-music-experience-bangkok.html",
       "source": "system",
       "lastVerifiedAt": "2026-10-31T23:51:33.037+09:00"
+    },
+    {
+      "id": "lisa_lace_up_2026_resale_yamanashi_1018",
+      "tourId": "lisa_lace_up_2026",
+      "type": "e+一般リセール受付（山梨10/18／抽選）",
+      "entryStartAt": "2026-10-01T12:00:00+09:00",
+      "entryEndAt": "2026-10-06T23:59:00+09:00",
+      "resultAt": "2026-10-10T13:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "lisa_lace_up_2026_yamanashi_1018"
+      ],
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/lisa/info/587187",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-01T00:19:38+09:00"
+    },
+    {
+      "id": "lisa_lace_up_2026_resale_osaka_1024_1025",
+      "tourId": "lisa_lace_up_2026",
+      "type": "e+一般リセール受付（大阪10/24・10/25／抽選）",
+      "entryStartAt": "2026-10-08T12:00:00+09:00",
+      "entryEndAt": "2026-10-13T23:59:00+09:00",
+      "resultAt": "2026-10-17T13:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "lisa_lace_up_2026_osaka_1024",
+        "lisa_lace_up_2026_osaka_1025"
+      ],
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/lisa/info/587187",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-01T00:19:38+09:00"
+    },
+    {
+      "id": "lisa_lace_up_2026_resale_fukuoka_oita_1101_1103",
+      "tourId": "lisa_lace_up_2026",
+      "type": "e+一般リセール受付（福岡11/1・大分11/3／抽選）",
+      "entryStartAt": "2026-10-17T12:00:00+09:00",
+      "entryEndAt": "2026-10-22T23:59:00+09:00",
+      "resultAt": "2026-10-28T13:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "lisa_lace_up_2026_fukuoka_1101",
+        "lisa_lace_up_2026_oita_1103"
+      ],
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/lisa/info/587187",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-01T00:19:38+09:00"
+    },
+    {
+      "id": "lisa_lace_up_2026_resale_kagawa_ehime_1121_1123",
+      "tourId": "lisa_lace_up_2026",
+      "type": "e+一般リセール受付（香川11/21・愛媛11/23／抽選）",
+      "entryStartAt": "2026-11-05T12:00:00+09:00",
+      "entryEndAt": "2026-11-10T23:59:00+09:00",
+      "resultAt": "2026-11-14T13:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "lisa_lace_up_2026_kagawa_1121",
+        "lisa_lace_up_2026_ehime_1123"
+      ],
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/lisa/info/587187",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-01T00:19:38+09:00"
+    },
+    {
+      "id": "lisa_lace_up_2026_resale_toyama_ishikawa_1212_1213",
+      "tourId": "lisa_lace_up_2026",
+      "type": "e+一般リセール受付（富山12/12・石川12/13／抽選）",
+      "entryStartAt": "2026-11-26T12:00:00+09:00",
+      "entryEndAt": "2026-12-01T23:59:00+09:00",
+      "resultAt": "2026-12-05T13:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "lisa_lace_up_2026_toyama_1212",
+        "lisa_lace_up_2026_ishikawa_1213"
+      ],
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/lisa/info/587187",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-01T00:19:38+09:00"
+    },
+    {
+      "id": "lisa_lace_up_2026_resale_hiroshima_tottori_1218_1220",
+      "tourId": "lisa_lace_up_2026",
+      "type": "e+一般リセール受付（広島12/18・鳥取12/20／抽選）",
+      "entryStartAt": "2026-12-03T12:00:00+09:00",
+      "entryEndAt": "2026-12-08T23:59:00+09:00",
+      "resultAt": "2026-12-12T13:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "lisa_lace_up_2026_hiroshima_1218",
+        "lisa_lace_up_2026_tottori_1220"
+      ],
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/lisa/info/587187",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-01T00:19:38+09:00"
+    },
+    {
+      "id": "lisa_lace_up_2026_resale_tokyo_20270109_0110",
+      "tourId": "lisa_lace_up_2026",
+      "type": "e+一般リセール受付（東京2027/1/9・1/10／抽選）",
+      "entryStartAt": "2026-12-17T12:00:00+09:00",
+      "entryEndAt": "2026-12-22T23:59:00+09:00",
+      "resultAt": "2026-12-26T13:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "lisa_lace_up_2026_tokyo_0109",
+        "lisa_lace_up_2026_tokyo_0110"
+      ],
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/lisa/info/587187",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-01T00:19:38+09:00"
+    },
+    {
+      "id": "lisa_lace_up_2026_resale_miyagi_iwate_20270116_0117",
+      "tourId": "lisa_lace_up_2026",
+      "type": "e+一般リセール受付（宮城2027/1/16・岩手1/17／抽選）",
+      "entryStartAt": "2026-12-30T12:00:00+09:00",
+      "entryEndAt": "2027-01-04T23:59:00+09:00",
+      "resultAt": "2027-01-09T13:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "lisa_lace_up_2026_miyagi_0116",
+        "lisa_lace_up_2026_iwate_0117"
+      ],
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/lisa/info/587187",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-01T00:19:38+09:00"
+    },
+    {
+      "id": "lisa_lace_up_2026_resale_aichi_gifu_20270128_0130",
+      "tourId": "lisa_lace_up_2026",
+      "type": "e+一般リセール受付（愛知2027/1/28・岐阜1/30／抽選）",
+      "entryStartAt": "2027-01-14T12:00:00+09:00",
+      "entryEndAt": "2027-01-19T23:59:00+09:00",
+      "resultAt": "2027-01-23T13:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "lisa_lace_up_2026_aichi_0128",
+        "lisa_lace_up_2026_gifu_0130"
+      ],
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/lisa/info/587187",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-01T00:19:38+09:00"
     }
   ],
   "appleMusicTracks": [
