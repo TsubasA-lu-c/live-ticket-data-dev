@@ -273,6 +273,17 @@
       "sourceUrl": "https://saucydog.jp/news/detail/2182",
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "saucy_dog_fukuoka_music_fes_2027_0131",
+      "artistId": "saucy_dog",
+      "title": "FUKUOKA MUSIC FES.2027",
+      "startDate": "2027-01-31T00:00:00+09:00",
+      "endDate": "2027-01-31T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://saucydog.jp/news/5/?page=2&range=future_event_end_time&sort=asc",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -911,6 +922,21 @@
       "sourceUrl": "https://saucydog.jp/news/detail/2182",
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "saucy_dog_fukuoka_music_fes_2027_20270131",
+      "tourId": "saucy_dog_fukuoka_music_fes_2027_0131",
+      "venue": "みずほPayPayドーム福岡",
+      "performanceAt": "2027-01-31T12:00:00+09:00",
+      "performanceDate": "2027-01-31",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "fes",
+      "kindReviewed": true,
+      "eventName": "FUKUOKA MUSIC FES.2027",
+      "source": "system",
+      "sourceUrl": "https://saucydog.jp/news/5/?page=2&range=future_event_end_time&sort=asc",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
     }
   ],
   "lotteries": [
