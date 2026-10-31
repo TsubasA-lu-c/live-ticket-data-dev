@@ -483,6 +483,28 @@
       "source": "system",
       "sourceUrl": "https://monaki.jp/news/detail/94770",
       "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_tgc_shizuoka_2027",
+      "artistId": "monaki",
+      "title": "SDGs推進 TGC しずおか 2027 by TOKYO GIRLS COLLECTION",
+      "startDate": "2027-01-09T00:00:00+09:00",
+      "endDate": "2027-01-09T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://tgc.girlswalker.com/shizuoka/2027/",
+      "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
+    },
+    {
+      "id": "monaki_hamanako_special_live_2027",
+      "artistId": "monaki",
+      "title": "ボートレース浜名湖 モナキスペシャルライブ",
+      "startDate": "2027-01-16T00:00:00+09:00",
+      "endDate": "2027-01-16T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/live_information/detail/46847",
+      "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
     }
   ],
   "performances": [
@@ -906,6 +928,36 @@
       "source": "system",
       "sourceUrl": "https://monaki.jp/news/detail/94770",
       "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_tgc_shizuoka_2027_0109",
+      "tourId": "monaki_tgc_shizuoka_2027",
+      "performanceDate": "2027-01-09",
+      "venue": "ツインメッセ静岡 北館大展示場",
+      "performanceAt": "2027-01-09T14:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "fes",
+      "kindReviewed": true,
+      "eventName": "SDGs推進 TGC しずおか 2027 by TOKYO GIRLS COLLECTION",
+      "source": "system",
+      "sourceUrl": "https://tgc.girlswalker.com/shizuoka/2027/",
+      "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
+    },
+    {
+      "id": "monaki_hamanako_special_live_2027_0116",
+      "tourId": "monaki_hamanako_special_live_2027",
+      "performanceDate": "2027-01-16",
+      "venue": "ボートレース浜名湖 サンホール",
+      "performanceAt": "2027-01-16T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "kindReviewed": true,
+      "eventName": "ボートレース浜名湖 モナキスペシャルライブ",
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/live_information/detail/46847",
+      "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
     }
   ],
   "lotteries": [
