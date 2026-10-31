@@ -7,7 +7,24 @@
       "title": "Koda Kumi Live Tour 2027 ～Kingdom～",
       "startDate": "2027-03-05T00:00:00+09:00",
       "endDate": "2027-09-05T00:00:00+09:00",
-      "prices": null,
+      "prices": [
+        {
+          "label": "グッズ付き一般指定席",
+          "amount": 20800
+        },
+        {
+          "label": "一般指定席",
+          "amount": 12800
+        },
+        {
+          "label": "グッズ付き一般着席指定席",
+          "amount": 21800
+        },
+        {
+          "label": "一般着席指定席",
+          "amount": 13800
+        }
+      ],
       "sourceUrl": "https://rhythmzone.net/koda/news/detail.php?id=1136681",
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
@@ -225,11 +242,11 @@
     {
       "id": "koda_kumi_kingdom_2027_20270731",
       "tourId": "koda_kumi_kingdom_2027",
-      "performanceDate": "2027-07-31",
-      "performanceAt": "2027-07-31T12:00:00+09:00",
-      "performanceTimeEstimated": true,
-      "doorOpenAt": null,
-      "venue": "高崎芸術劇場 大劇場",
+      "performanceDate": "2027-06-05",
+      "performanceAt": "2027-06-05T18:30:00+09:00",
+      "performanceTimeEstimated": false,
+      "doorOpenAt": "2027-06-05T17:30:00+09:00",
+      "venue": "美喜仁桐生文化会館（桐生市市民文化会館）シルクホール",
       "kind": "oneman",
       "sourceUrl": "https://rhythmzone.net/koda/news/detail.php?id=1136681",
       "source": "system",
@@ -275,7 +292,107 @@
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
     }
   ],
-  "lotteries": [],
+  "lotteries": [
+    {
+      "id": "koda_kumi_kingdom_2027_w_member_fastest_nov01",
+      "tourId": "koda_kumi_kingdom_2027",
+      "type": "倖田組×KK App W会員最速抽選",
+      "entryStartAt": "2026-11-01T15:00:00+09:00",
+      "entryEndAt": "2026-11-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": "2026-11-18T15:00:00+09:00",
+      "paymentEndAt": "2026-11-23T23:59:00+09:00",
+      "performanceIds": [
+        "koda_kumi_kingdom_2027_20270305",
+        "koda_kumi_kingdom_2027_20270322",
+        "koda_kumi_kingdom_2027_20270328",
+        "koda_kumi_kingdom_2027_20270404",
+        "koda_kumi_kingdom_2027_20270424",
+        "koda_kumi_kingdom_2027_20270501",
+        "koda_kumi_kingdom_2027_20270503",
+        "koda_kumi_kingdom_2027_20270515",
+        "koda_kumi_kingdom_2027_20270612",
+        "koda_kumi_kingdom_2027_20270620",
+        "koda_kumi_kingdom_2027_20270626",
+        "koda_kumi_kingdom_2027_20270703",
+        "koda_kumi_kingdom_2027_20270704",
+        "koda_kumi_kingdom_2027_20270719",
+        "koda_kumi_kingdom_2027_20270723",
+        "koda_kumi_kingdom_2027_20270724",
+        "koda_kumi_kingdom_2027_20270731",
+        "koda_kumi_kingdom_2027_20270820",
+        "koda_kumi_kingdom_2027_20270822",
+        "koda_kumi_kingdom_2027_20270905"
+      ],
+      "sourceUrl": "https://rhythmzone.net/koda/news/detail.php?id=1136681"
+    },
+    {
+      "id": "koda_kumi_kingdom_2027_kodagumi_nov10",
+      "tourId": "koda_kumi_kingdom_2027",
+      "type": "倖田組プラン会員抽選",
+      "entryStartAt": "2026-11-10T15:00:00+09:00",
+      "entryEndAt": "2026-11-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": "2026-12-02T15:00:00+09:00",
+      "paymentEndAt": "2026-12-06T23:59:00+09:00",
+      "performanceIds": [
+        "koda_kumi_kingdom_2027_20270305",
+        "koda_kumi_kingdom_2027_20270322",
+        "koda_kumi_kingdom_2027_20270328",
+        "koda_kumi_kingdom_2027_20270404",
+        "koda_kumi_kingdom_2027_20270424",
+        "koda_kumi_kingdom_2027_20270501",
+        "koda_kumi_kingdom_2027_20270503",
+        "koda_kumi_kingdom_2027_20270515",
+        "koda_kumi_kingdom_2027_20270612",
+        "koda_kumi_kingdom_2027_20270620",
+        "koda_kumi_kingdom_2027_20270626",
+        "koda_kumi_kingdom_2027_20270703",
+        "koda_kumi_kingdom_2027_20270704",
+        "koda_kumi_kingdom_2027_20270719",
+        "koda_kumi_kingdom_2027_20270723",
+        "koda_kumi_kingdom_2027_20270724",
+        "koda_kumi_kingdom_2027_20270731",
+        "koda_kumi_kingdom_2027_20270820",
+        "koda_kumi_kingdom_2027_20270822",
+        "koda_kumi_kingdom_2027_20270905"
+      ],
+      "sourceUrl": "https://rhythmzone.net/koda/news/detail.php?id=1136681"
+    },
+    {
+      "id": "koda_kumi_kingdom_2027_kkapp_nov18",
+      "tourId": "koda_kumi_kingdom_2027",
+      "type": "KK Appプラン会員抽選",
+      "entryStartAt": "2026-11-18T15:00:00+09:00",
+      "entryEndAt": "2026-11-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": "2026-12-02T15:00:00+09:00",
+      "paymentEndAt": "2026-12-06T23:59:00+09:00",
+      "performanceIds": [
+        "koda_kumi_kingdom_2027_20270305",
+        "koda_kumi_kingdom_2027_20270322",
+        "koda_kumi_kingdom_2027_20270328",
+        "koda_kumi_kingdom_2027_20270404",
+        "koda_kumi_kingdom_2027_20270424",
+        "koda_kumi_kingdom_2027_20270501",
+        "koda_kumi_kingdom_2027_20270503",
+        "koda_kumi_kingdom_2027_20270515",
+        "koda_kumi_kingdom_2027_20270612",
+        "koda_kumi_kingdom_2027_20270620",
+        "koda_kumi_kingdom_2027_20270626",
+        "koda_kumi_kingdom_2027_20270703",
+        "koda_kumi_kingdom_2027_20270704",
+        "koda_kumi_kingdom_2027_20270719",
+        "koda_kumi_kingdom_2027_20270723",
+        "koda_kumi_kingdom_2027_20270724",
+        "koda_kumi_kingdom_2027_20270731",
+        "koda_kumi_kingdom_2027_20270820",
+        "koda_kumi_kingdom_2027_20270822",
+        "koda_kumi_kingdom_2027_20270905"
+      ],
+      "sourceUrl": "https://rhythmzone.net/koda/news/detail.php?id=1136681"
+    }
+  ],
   "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
   "appleMusicTracks": [
     {

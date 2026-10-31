@@ -379,6 +379,21 @@
       "sourceUrl": "https://shinee.jp/news/2026/1006_2441.html",
       "source": "system",
       "lastVerifiedAt": "2026-10-10T20:24:52+09:00"
+    },
+    {
+      "id": "shinee_minho_feral_2027_fc_2nd_oct27",
+      "tourId": "shinee_member_minho_feral_tokyo_2027",
+      "type": "SHINee WORLD Jファンクラブ2次先行（MINHOソロ抽選）",
+      "entryStartAt": "2026-10-27T18:00:00+09:00",
+      "entryEndAt": "2026-11-08T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-11-17T23:59:00+09:00",
+      "performanceIds": [
+        "shinee_minho_feral_2027_20270220",
+        "shinee_minho_feral_2027_20270221"
+      ],
+      "sourceUrl": "https://shinee.jp/news/2026/1027_2447.html"
     }
   ],
   "lastVerifiedAt": "2026-09-03T21:39:00+09:00",
