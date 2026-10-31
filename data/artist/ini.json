@@ -135,6 +135,17 @@
       "source": "system",
       "sourceUrl": "https://ini-official.com/news/detail/4485",
       "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "ini_mama_awards_2026_1120",
+      "artistId": "ini",
+      "title": "2026 MAMA AWARDS CHAPTER 1",
+      "startDate": "2026-11-20T00:00:00+09:00",
+      "endDate": "2026-11-20T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/schedule/detail/4496",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -446,6 +457,21 @@
       "eventName": "OTRN [Sound Lab]／西洸人（INI）出演",
       "source": "system",
       "sourceUrl": "https://jetmusic-official.com/uncategorized/otrn-sound-lab/",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "ini_mama_awards_2026_1120_kyocera",
+      "tourId": "ini_mama_awards_2026_1120",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2026-11-20T12:00:00+09:00",
+      "performanceDate": "2026-11-20",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "fes",
+      "kindReviewed": true,
+      "eventName": "2026 MAMA AWARDS（INI出演予定）",
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/schedule/detail/4496",
       "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
     }
   ],
