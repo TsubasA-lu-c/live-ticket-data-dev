@@ -1903,6 +1903,48 @@
       "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
       "paymentStartAt": null,
       "paymentEndAt": null
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_add_risingpro_mobile_oct23",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "Raw/Bare追加公演RISINGPROモバイル会員抽選",
+      "entryStartAt": "2026-10-23T18:00:00+09:00",
+      "entryEndAt": "2026-10-28T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-11-03T23:00:00+09:00",
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_hiroshima_0124",
+        "miura_daichi_raw_bare_2026_kyoto_0126",
+        "miura_daichi_raw_bare_2026_sapporo_0210",
+        "miura_daichi_raw_bare_2026_sapporo_0211",
+        "miura_daichi_raw_bare_2026_kanazawa_0221",
+        "miura_daichi_raw_bare_2026_tokyo_garden_0318"
+      ],
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1144",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:51:21+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_add_pia_presale_oct29",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "Raw/Bare追加公演ぴあプレリザーブ先行（抽選）",
+      "entryStartAt": "2026-10-29T18:00:00+09:00",
+      "entryEndAt": "2026-11-09T23:59:00+09:00",
+      "resultAt": "2026-11-12T18:00:00+09:00",
+      "paymentStartAt": "2026-11-12T18:00:00+09:00",
+      "paymentEndAt": "2026-11-15T23:59:00+09:00",
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_hiroshima_0124",
+        "miura_daichi_raw_bare_2026_kyoto_0126",
+        "miura_daichi_raw_bare_2026_sapporo_0210",
+        "miura_daichi_raw_bare_2026_sapporo_0211",
+        "miura_daichi_raw_bare_2026_kanazawa_0221",
+        "miura_daichi_raw_bare_2026_tokyo_garden_0318"
+      ],
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1149",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:51:21+09:00"
     }
   ],
   "appleMusicTracks": [

@@ -63,6 +63,22 @@
       "source": "system",
       "sourceUrl": "https://ini-official.com/news/detail/4382",
       "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "ini_laposta_2027",
+      "artistId": "ini",
+      "title": "LAPOSTA 2027",
+      "startDate": "2027-01-23T00:00:00+09:00",
+      "endDate": "2027-02-07T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 15400
+        }
+      ],
+      "sourceUrl": "https://cf.ini-official.com/news/detail/4526",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:51:21+09:00"
     }
   ],
   "performances": [
@@ -283,6 +299,58 @@
       "source": "system",
       "sourceUrl": "https://ini-official.com/news/detail/4382",
       "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "ini_laposta_2027_20270123",
+      "tourId": "ini_laposta_2027",
+      "performanceDate": "2027-01-23",
+      "performanceAt": "2027-01-23T18:00:00+09:00",
+      "doorOpenAt": "2027-01-23T16:00:00+09:00",
+      "venue": "東京ドーム",
+      "kind": "fes",
+      "eventName": "LAPOSTA 2027 INI出演",
+      "sourceUrl": "https://cf.ini-official.com/news/detail/4526",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:51:21+09:00"
+    },
+    {
+      "id": "ini_laposta_2027_20270124",
+      "tourId": "ini_laposta_2027",
+      "performanceDate": "2027-01-24",
+      "performanceAt": "2027-01-24T17:00:00+09:00",
+      "doorOpenAt": "2027-01-24T15:00:00+09:00",
+      "venue": "東京ドーム",
+      "kind": "fes",
+      "eventName": "LAPOSTA 2027 INI出演",
+      "sourceUrl": "https://cf.ini-official.com/news/detail/4526",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:51:21+09:00"
+    },
+    {
+      "id": "ini_laposta_2027_20270206",
+      "tourId": "ini_laposta_2027",
+      "performanceDate": "2027-02-06",
+      "performanceAt": "2027-02-06T18:00:00+09:00",
+      "doorOpenAt": "2027-02-06T16:00:00+09:00",
+      "venue": "京セラドーム大阪",
+      "kind": "fes",
+      "eventName": "LAPOSTA 2027 INI出演",
+      "sourceUrl": "https://cf.ini-official.com/news/detail/4526",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:51:21+09:00"
+    },
+    {
+      "id": "ini_laposta_2027_20270207",
+      "tourId": "ini_laposta_2027",
+      "performanceDate": "2027-02-07",
+      "performanceAt": "2027-02-07T16:00:00+09:00",
+      "doorOpenAt": "2027-02-07T14:00:00+09:00",
+      "venue": "京セラドーム大阪",
+      "kind": "fes",
+      "eventName": "LAPOSTA 2027 INI出演",
+      "sourceUrl": "https://cf.ini-official.com/news/detail/4526",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:51:21+09:00"
     }
   ],
   "lotteries": [
@@ -616,6 +684,44 @@
       "sourceUrl": "https://ini-official.com/news/detail/4266",
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "ini_laposta_2027_fc_fastest_oct24",
+      "tourId": "ini_laposta_2027",
+      "type": "INI FC最速先行",
+      "entryStartAt": "2026-10-24T12:00:00+09:00",
+      "entryEndAt": "2026-11-03T23:59:00+09:00",
+      "resultAt": "2026-11-13T20:00:00+09:00",
+      "paymentStartAt": "2026-11-13T20:00:00+09:00",
+      "paymentEndAt": "2026-11-16T23:59:00+09:00",
+      "performanceIds": [
+        "ini_laposta_2027_20270123",
+        "ini_laposta_2027_20270124",
+        "ini_laposta_2027_20270206",
+        "ini_laposta_2027_20270207"
+      ],
+      "sourceUrl": "https://cf.ini-official.com/news/detail/4526",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:51:21+09:00"
+    },
+    {
+      "id": "ini_laposta_2027_fc_general_nov04",
+      "tourId": "ini_laposta_2027",
+      "type": "INI FC会員先行",
+      "entryStartAt": "2026-11-04T12:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": "2026-11-26T20:00:00+09:00",
+      "paymentStartAt": "2026-11-26T20:00:00+09:00",
+      "paymentEndAt": "2026-11-30T23:59:00+09:00",
+      "performanceIds": [
+        "ini_laposta_2027_20270123",
+        "ini_laposta_2027_20270124",
+        "ini_laposta_2027_20270206",
+        "ini_laposta_2027_20270207"
+      ],
+      "sourceUrl": "https://cf.ini-official.com/news/detail/4526",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:51:21+09:00"
     }
   ],
   "appleMusicTracks": [
