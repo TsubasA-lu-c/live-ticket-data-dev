@@ -107,6 +107,23 @@
       "source": "system",
       "sourceUrl": "https://www.music-bank.jp/",
       "lastVerifiedAt": "2026-11-01T00:16:36+09:00"
+    },
+    {
+      "id": "ini_thank_you_from_ini_5th_2027_0210",
+      "artistId": "ini",
+      "title": "Thank YOU From INI ～5th Anniversary Fan Meeting～",
+      "startDate": "2027-02-10T19:00:00+09:00",
+      "endDate": "2027-02-10T19:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 10000,
+          "currency": "JPY"
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/news/detail/4540",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -392,6 +409,18 @@
       "source": "system",
       "sourceUrl": "https://www.music-bank.jp/",
       "lastVerifiedAt": "2026-11-01T00:16:36+09:00"
+    },
+    {
+      "id": "ini_thank_you_from_ini_5th_2027_0210_ariake",
+      "tourId": "ini_thank_you_from_ini_5th_2027_0210",
+      "venue": "有明アリーナ",
+      "performanceAt": "2027-02-10T19:00:00+09:00",
+      "doorOpenAt": "2027-02-10T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "Thank YOU From INI ～5th Anniversary Fan Meeting～",
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/news/detail/4540",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -795,6 +824,22 @@
       "sourceUrl": "https://dreamfestival.jp/",
       "source": "system",
       "lastVerifiedAt": "2026-11-01T00:33:06+09:00"
+    },
+    {
+      "id": "ini_thank_you_from_ini_5th_2027_0210_official_fc",
+      "tourId": "ini_thank_you_from_ini_5th_2027_0210",
+      "type": "INI OFFICIAL FANCLUB先行（抽選）",
+      "entryStartAt": "2026-11-01T12:00:00+09:00",
+      "entryEndAt": "2026-11-08T23:59:00+09:00",
+      "resultAt": "2026-11-13T13:00:00+09:00",
+      "paymentStartAt": "2026-11-13T13:00:00+09:00",
+      "paymentEndAt": "2026-11-16T21:00:00+09:00",
+      "performanceIds": [
+        "ini_thank_you_from_ini_5th_2027_0210_ariake"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/news/detail/4540",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
