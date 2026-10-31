@@ -1099,7 +1099,8 @@
         "mrs_green_apple_ringojam_shadows_2026_tokyo_1028",
         "mrs_green_apple_ringojam_shadows_2026_tokyo_1029"
       ],
-      "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows"
+      "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
+      "source": "system"
     },
     {
       "id": "mrs_shadows_2026_tokyo_trade_1028",
@@ -1113,7 +1114,8 @@
       "performanceIds": [
         "mrs_green_apple_ringojam_shadows_2026_tokyo_1028"
       ],
-      "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows"
+      "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
+      "source": "system"
     },
     {
       "id": "mrs_shadows_2026_tokyo_trade_1029",
@@ -1127,7 +1129,8 @@
       "performanceIds": [
         "mrs_green_apple_ringojam_shadows_2026_tokyo_1029"
       ],
-      "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows"
+      "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
+      "source": "system"
     }
   ],
   "appleMusicTracks": [

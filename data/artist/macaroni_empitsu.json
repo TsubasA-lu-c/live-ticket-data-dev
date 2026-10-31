@@ -1033,7 +1033,8 @@
       "performanceIds": [
         "macaroni_empitsu_okkake_sports_festival_2026_yoyogi_1104"
       ],
-      "sourceUrl": "https://macaroniempitsu.com/news"
+      "sourceUrl": "https://macaroniempitsu.com/news",
+      "source": "system"
     },
     {
       "id": "macaroni_empitsu_vol22_2026_miyagi_additional_20261024",
@@ -1047,7 +1048,8 @@
       "performanceIds": [
         "macaroni_empitsu_vol22_2026_miyagi_1121"
       ],
-      "sourceUrl": "https://macaroniempitsu.com/news"
+      "sourceUrl": "https://macaroniempitsu.com/news",
+      "source": "system"
     }
   ],
   "appleMusicTracks": [

@@ -197,7 +197,9 @@
           "amount": 3000
         }
       ],
-      "sourceUrl": "https://blazeupnagasaki.net/"
+      "sourceUrl": "https://blazeupnagasaki.net/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T15:36:54.088+09:00"
     },
     {
       "id": "the_oral_cigarettes_neverland_forever_2026",
@@ -741,7 +743,8 @@
       "kind": "fes",
       "eventName": "BLAZE UP NAGASAKI 2026 THE ORAL CIGARETTES出演",
       "sourceUrl": "https://theoralcigarettes.com/news/list/4",
-      "performanceTimeEstimated": true
+      "performanceTimeEstimated": true,
+      "source": "system"
     },
     {
       "id": "the_oral_cigarettes_neverland_forever_2026_nara_1215",
@@ -885,7 +888,8 @@
       "performanceIds": [
         "the_oral_cigarettes_blaze_up_nagasaki_2026_1206"
       ],
-      "sourceUrl": "https://blazeupnagasaki.net/"
+      "sourceUrl": "https://blazeupnagasaki.net/",
+      "source": "system"
     },
     {
       "id": "the_oral_cigarettes_neverland_forever_2026_presale_1022",

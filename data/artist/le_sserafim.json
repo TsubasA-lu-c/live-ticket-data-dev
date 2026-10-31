@@ -68,7 +68,9 @@
       "startDate": "2026-12-26T00:00:00+09:00",
       "endDate": "2026-12-26T00:00:00+09:00",
       "prices": null,
-      "sourceUrl": "https://www.le-sserafim.jp/news/70b62745ece7"
+      "sourceUrl": "https://www.le-sserafim.jp/news/70b62745ece7",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T15:44:45.640+09:00"
     }
   ],
   "performances": [
@@ -259,7 +261,8 @@
       "venue": "幕張メッセ国際展示場1～11ホール",
       "kind": "fes",
       "eventName": "COUNTDOWN JAPAN 26/27 LE SSERAFIM 出演",
-      "sourceUrl": "https://www.le-sserafim.jp/news/70b62745ece7"
+      "sourceUrl": "https://www.le-sserafim.jp/news/70b62745ece7",
+      "source": "system"
     }
   ],
   "lotteries": [
@@ -557,7 +560,8 @@
       "performanceIds": [
         "le_sserafim_countdown_japan_2627_1226"
       ],
-      "sourceUrl": "https://countdownjapan.jp/2627/ticket/"
+      "sourceUrl": "https://countdownjapan.jp/2627/ticket/",
+      "source": "system"
     }
   ],
   "appleMusicTracks": [

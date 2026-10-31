@@ -152,7 +152,9 @@
       "startDate": "2026-12-26T00:00:00+09:00",
       "endDate": "2026-12-26T00:00:00+09:00",
       "prices": null,
-      "sourceUrl": "https://da-ice.jp/news/detail.php?id=1136922"
+      "sourceUrl": "https://da-ice.jp/news/detail.php?id=1136922",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T15:43:17.539+09:00"
     }
   ],
   "performances": [
@@ -887,7 +889,8 @@
       "venue": "幕張メッセ国際展示場1～11ホール",
       "kind": "fes",
       "eventName": "COUNTDOWN JAPAN 26/27 Da-iCE出演",
-      "sourceUrl": "https://da-ice.jp/news/detail.php?id=1136922"
+      "sourceUrl": "https://da-ice.jp/news/detail.php?id=1136922",
+      "source": "system"
     }
   ],
   "lotteries": [
@@ -1427,7 +1430,8 @@
       "performanceIds": [
         "da_ice_countdown_japan_2627_1226"
       ],
-      "sourceUrl": "https://countdownjapan.jp/2627/ticket/"
+      "sourceUrl": "https://countdownjapan.jp/2627/ticket/",
+      "source": "system"
     }
   ],
   "appleMusicTracks": [
