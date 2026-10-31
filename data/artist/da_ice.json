@@ -1432,6 +1432,22 @@
       ],
       "sourceUrl": "https://countdownjapan.jp/2627/ticket/",
       "source": "system"
+    },
+    {
+      "id": "da_ice_dream_festival_2026_upgrade_2nd_1101",
+      "tourId": "da_ice_dream_festival_2026",
+      "type": "アップグレードチケット席2次受付（抽選・既購入者限定）",
+      "entryStartAt": "2026-11-01T12:00:00+09:00",
+      "entryEndAt": "2026-11-04T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "da_ice_dream_festival_2026_1122"
+      ],
+      "sourceUrl": "https://dreamfestival.jp/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-01T00:33:06+09:00"
     }
   ],
   "appleMusicTracks": [

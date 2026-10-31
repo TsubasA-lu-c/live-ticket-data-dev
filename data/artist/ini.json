@@ -779,6 +779,22 @@
       "source": "system",
       "sourceUrl": "https://www.music-bank.jp/",
       "lastVerifiedAt": "2026-11-01T00:16:36+09:00"
+    },
+    {
+      "id": "ini_dream_festival_2026_upgrade_2nd_1101",
+      "tourId": "ini_dream_festival_2026",
+      "type": "アップグレードチケット席2次受付（抽選・既購入者限定）",
+      "entryStartAt": "2026-11-01T12:00:00+09:00",
+      "entryEndAt": "2026-11-04T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ini_dream_festival_2026_1122"
+      ],
+      "sourceUrl": "https://dreamfestival.jp/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-01T00:33:06+09:00"
     }
   ],
   "appleMusicTracks": [
