@@ -380,6 +380,33 @@
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/261003_01",
       "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_vogue_romance_arena_2027",
+      "artistId": "momoiro_clover_z",
+      "title": "MOMOIRO CLOVER Z ARENA TOUR 2027 “VOGUE AND ROMANCE”",
+      "startDate": "2027-03-20T00:00:00+09:00",
+      "endDate": "2027-05-09T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席・着席指定席",
+          "amount": 12800,
+          "currency": "JPY"
+        },
+        {
+          "label": "お子様ファミリー席・大人",
+          "amount": 12800,
+          "currency": "JPY"
+        },
+        {
+          "label": "お子様ファミリー席・子供",
+          "amount": 5000,
+          "currency": "JPY"
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/261017_01",
+      "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
     }
   ],
   "performances": [
@@ -880,6 +907,90 @@
       "sourceUrl": "https://www.momoclo.net/archives/news/261003_01",
       "lastVerifiedAt": "2026-11-01T00:00:00+09:00",
       "kindReviewed": true
+    },
+    {
+      "id": "momoiro_clover_z_vogue_romance_arena_2027_kanagawa_0320",
+      "tourId": "momoiro_clover_z_vogue_romance_arena_2027",
+      "performanceDate": "2027-03-20",
+      "performanceAt": "2027-03-20T17:30:00+09:00",
+      "doorOpenAt": "2027-03-20T16:30:00+09:00",
+      "venue": "ぴあアリーナMM",
+      "kind": "oneman",
+      "kindReviewed": true,
+      "eventName": "MOMOIRO CLOVER Z ARENA TOUR 2027 “VOGUE AND ROMANCE”「Chronostasis」",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/261017_01",
+      "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_vogue_romance_arena_2027_kanagawa_0321",
+      "tourId": "momoiro_clover_z_vogue_romance_arena_2027",
+      "performanceDate": "2027-03-21",
+      "performanceAt": "2027-03-21T16:30:00+09:00",
+      "doorOpenAt": "2027-03-21T15:30:00+09:00",
+      "venue": "ぴあアリーナMM",
+      "kind": "oneman",
+      "kindReviewed": true,
+      "eventName": "MOMOIRO CLOVER Z ARENA TOUR 2027 “VOGUE AND ROMANCE”「Singularity」",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/261017_01",
+      "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_vogue_romance_arena_2027_hyogo_0424",
+      "tourId": "momoiro_clover_z_vogue_romance_arena_2027",
+      "performanceDate": "2027-04-24",
+      "performanceAt": "2027-04-24T17:30:00+09:00",
+      "doorOpenAt": "2027-04-24T16:30:00+09:00",
+      "venue": "ワールド記念ホール",
+      "kind": "oneman",
+      "kindReviewed": true,
+      "eventName": "MOMOIRO CLOVER Z ARENA TOUR 2027 “VOGUE AND ROMANCE”「Chronostasis」",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/261017_01",
+      "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_vogue_romance_arena_2027_hyogo_0425",
+      "tourId": "momoiro_clover_z_vogue_romance_arena_2027",
+      "performanceDate": "2027-04-25",
+      "performanceAt": "2027-04-25T16:30:00+09:00",
+      "doorOpenAt": "2027-04-25T15:30:00+09:00",
+      "venue": "ワールド記念ホール",
+      "kind": "oneman",
+      "kindReviewed": true,
+      "eventName": "MOMOIRO CLOVER Z ARENA TOUR 2027 “VOGUE AND ROMANCE”「Singularity」",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/261017_01",
+      "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_vogue_romance_arena_2027_tokyo_0508",
+      "tourId": "momoiro_clover_z_vogue_romance_arena_2027",
+      "performanceDate": "2027-05-08",
+      "performanceAt": "2027-05-08T17:30:00+09:00",
+      "doorOpenAt": "2027-05-08T16:30:00+09:00",
+      "venue": "有明アリーナ",
+      "kind": "oneman",
+      "kindReviewed": true,
+      "eventName": "MOMOIRO CLOVER Z ARENA TOUR 2027 “VOGUE AND ROMANCE”「Chronostasis」",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/261017_01",
+      "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_vogue_romance_arena_2027_tokyo_0509",
+      "tourId": "momoiro_clover_z_vogue_romance_arena_2027",
+      "performanceDate": "2027-05-09",
+      "performanceAt": "2027-05-09T16:30:00+09:00",
+      "doorOpenAt": "2027-05-09T15:30:00+09:00",
+      "venue": "有明アリーナ",
+      "kind": "oneman",
+      "kindReviewed": true,
+      "eventName": "MOMOIRO CLOVER Z ARENA TOUR 2027 “VOGUE AND ROMANCE”「Singularity」",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/261017_01",
+      "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
     }
   ],
   "lotteries": [
@@ -1322,6 +1433,27 @@
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/261003_01",
       "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_vogue_romance_arena_2027_ae_advance",
+      "tourId": "momoiro_clover_z_vogue_romance_arena_2027",
+      "type": "ANGEL EYES会員先行抽選（終了）",
+      "entryStartAt": "2026-10-17T18:00:00+09:00",
+      "entryEndAt": "2026-10-25T23:59:00+09:00",
+      "resultAt": "2026-10-31T13:00:00+09:00",
+      "paymentStartAt": "2026-10-31T13:00:00+09:00",
+      "paymentEndAt": "2026-11-04T23:59:00+09:00",
+      "performanceIds": [
+        "momoiro_clover_z_vogue_romance_arena_2027_kanagawa_0320",
+        "momoiro_clover_z_vogue_romance_arena_2027_kanagawa_0321",
+        "momoiro_clover_z_vogue_romance_arena_2027_hyogo_0424",
+        "momoiro_clover_z_vogue_romance_arena_2027_hyogo_0425",
+        "momoiro_clover_z_vogue_romance_arena_2027_tokyo_0508",
+        "momoiro_clover_z_vogue_romance_arena_2027_tokyo_0509"
+      ],
+      "sourceUrl": "https://www.momoclo.net/archives/news/261017_01",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
     }
   ],
   "appleMusicTracks": [
