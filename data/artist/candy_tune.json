@@ -565,6 +565,15 @@
       "artistId": "candy_tune",
       "source": "system",
       "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "candy_tune_atmoscon_2026_night",
+      "artistId": "candy_tune",
+      "title": "atmoscon 2026 -夜- 3rd LIVE STAGE",
+      "startDate": "2026-11-01T00:00:00+09:00",
+      "endDate": "2026-11-01T00:00:00+09:00",
+      "prices": null,
+      "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/43493"
     }
   ],
   "performances": [
@@ -1589,6 +1598,18 @@
       "sourceUrl": "https://candytune.asobisystem.com/news/detail/85442",
       "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
       "eventName": "KAWAII LAB. Christmas SESSION 2026"
+    },
+    {
+      "id": "candy_tune_atmoscon_2026_night_1101",
+      "tourId": "candy_tune_atmoscon_2026_night",
+      "performanceDate": "2026-11-01",
+      "performanceAt": "2026-11-01T12:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "新宿住友ビル B1F 住友ホール",
+      "kind": "fes",
+      "eventName": "atmoscon 2026 3rd LIVE STAGE CANDY TUNE出演",
+      "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/43493",
+      "performanceTimeEstimated": true
     }
   ],
   "lotteries": [

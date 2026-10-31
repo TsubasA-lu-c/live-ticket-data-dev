@@ -354,6 +354,15 @@
       "source": "system",
       "sourceUrl": "https://bokuao.com/news/detail/6042",
       "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "boku_aozora_myth_fes_2027",
+      "artistId": "boku_aozora",
+      "title": "Mythフェス-アイドル花火- SATELLITE vol.1",
+      "startDate": "2027-01-16T00:00:00+09:00",
+      "endDate": "2027-01-16T00:00:00+09:00",
+      "prices": null,
+      "sourceUrl": "https://bokuao.com/news/detail/6080"
     }
   ],
   "performances": [
@@ -1083,6 +1092,18 @@
       "source": "system",
       "sourceUrl": "https://bokuao.com/news/detail/6042",
       "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "boku_aozora_myth_fes_2027_0116",
+      "tourId": "boku_aozora_myth_fes_2027",
+      "performanceDate": "2027-01-16",
+      "performanceAt": "2027-01-16T12:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "GORILLA HALL OSAKA",
+      "kind": "fes",
+      "eventName": "Mythフェス-アイドル花火- SATELLITE vol.1 僕青出演",
+      "sourceUrl": "https://bokuao.com/news/detail/6080",
+      "performanceTimeEstimated": true
     }
   ],
   "lotteries": [

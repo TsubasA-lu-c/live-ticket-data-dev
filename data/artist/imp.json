@@ -44,6 +44,15 @@
       "source": "system",
       "sourceUrl": "https://buzzrhythm.live/",
       "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "imp_period_special_showcase_2026",
+      "artistId": "imp",
+      "title": "IMP. 3rd ALBUM『PERIOD.』SPECIAL SHOWCASE",
+      "startDate": "2026-12-16T00:00:00+09:00",
+      "endDate": "2026-12-16T00:00:00+09:00",
+      "prices": null,
+      "sourceUrl": "https://tobe-official.jp/artists/imp/news/2455?page=1"
     }
   ],
   "performances": [
@@ -82,9 +91,62 @@
       "source": "system",
       "sourceUrl": "https://buzzrhythm.live/",
       "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "imp_period_special_showcase_2026_1216_slot1",
+      "tourId": "imp_period_special_showcase_2026",
+      "performanceDate": "2026-12-16",
+      "performanceAt": "2026-12-16T12:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "Shibuya LOVEZ（東京都渋谷区）",
+      "kind": "oneman",
+      "eventName": "IMP. 3rd ALBUM PERIOD. SPECIAL SHOWCASE 第1回公演",
+      "sourceUrl": "https://tobe-official.jp/artists/imp/news/2455?page=1",
+      "performanceTimeEstimated": true
+    },
+    {
+      "id": "imp_period_special_showcase_2026_1216_slot2",
+      "tourId": "imp_period_special_showcase_2026",
+      "performanceDate": "2026-12-16",
+      "performanceAt": "2026-12-16T12:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "Shibuya LOVEZ（東京都渋谷区）",
+      "kind": "oneman",
+      "eventName": "IMP. 3rd ALBUM PERIOD. SPECIAL SHOWCASE 第2回公演",
+      "sourceUrl": "https://tobe-official.jp/artists/imp/news/2455?page=1",
+      "performanceTimeEstimated": true
+    },
+    {
+      "id": "imp_period_special_showcase_2026_1216_slot3",
+      "tourId": "imp_period_special_showcase_2026",
+      "performanceDate": "2026-12-16",
+      "performanceAt": "2026-12-16T12:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "Shibuya LOVEZ（東京都渋谷区）",
+      "kind": "oneman",
+      "eventName": "IMP. 3rd ALBUM PERIOD. SPECIAL SHOWCASE 第3回公演",
+      "sourceUrl": "https://tobe-official.jp/artists/imp/news/2455?page=1",
+      "performanceTimeEstimated": true
     }
   ],
-  "lotteries": [],
+  "lotteries": [
+    {
+      "id": "imp_period_special_showcase_2026_tobe_album_purchase_oct29",
+      "tourId": "imp_period_special_showcase_2026",
+      "type": "対象CD予約購入者 抽選招待（約4000名）",
+      "entryStartAt": "2026-10-29T18:00:00+09:00",
+      "entryEndAt": "2026-11-12T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "imp_period_special_showcase_2026_1216_slot1",
+        "imp_period_special_showcase_2026_1216_slot2",
+        "imp_period_special_showcase_2026_1216_slot3"
+      ],
+      "sourceUrl": "https://tobe-official.jp/artists/imp/news/2455?page=1"
+    }
+  ],
   "appleMusicTracks": [
     {
       "songId": "1878296127",
