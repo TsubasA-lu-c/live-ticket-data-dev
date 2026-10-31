@@ -565,6 +565,91 @@
       "sourceUrl": "https://www.yoasobi-music.jp/news/587546",
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "yoasobi_superplanet_2026_osaka_official_resale",
+      "tourId": "yoasobi_asia_dome_2026",
+      "type": "大阪公演 ローソンチケット公式リセール（抽選）",
+      "entryStartAt": "2026-10-17T15:00:00+09:00",
+      "entryEndAt": "2026-10-19T23:59:00+09:00",
+      "resultAt": "2026-10-22T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yoasobi_asia_dome_2026_osaka_1024",
+        "yoasobi_asia_dome_2026_osaka_1025"
+      ],
+      "sourceUrl": "https://www.yoasobi-music.jp/news/587745",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-01T00:07:58+09:00"
+    },
+    {
+      "id": "yoasobi_superplanet_2026_aichi_official_resale",
+      "tourId": "yoasobi_asia_dome_2026",
+      "type": "愛知公演 ローソンチケット公式リセール（抽選）",
+      "entryStartAt": "2026-10-31T15:00:00+09:00",
+      "entryEndAt": "2026-11-03T23:59:00+09:00",
+      "resultAt": "2026-11-05T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yoasobi_asia_dome_2026_aichi_1107",
+        "yoasobi_asia_dome_2026_aichi_1108"
+      ],
+      "sourceUrl": "https://www.yoasobi-music.jp/news/587745",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-01T00:07:58+09:00"
+    },
+    {
+      "id": "yoasobi_superplanet_2026_hokkaido_official_resale",
+      "tourId": "yoasobi_asia_dome_2026",
+      "type": "北海道公演 ローソンチケット公式リセール（抽選）",
+      "entryStartAt": "2026-11-07T15:00:00+09:00",
+      "entryEndAt": "2026-11-09T23:59:00+09:00",
+      "resultAt": "2026-11-12T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yoasobi_asia_dome_2026_hokkaido_1114",
+        "yoasobi_asia_dome_2026_hokkaido_1115"
+      ],
+      "sourceUrl": "https://www.yoasobi-music.jp/news/587745",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-01T00:07:58+09:00"
+    },
+    {
+      "id": "yoasobi_superplanet_2026_fukuoka_official_resale",
+      "tourId": "yoasobi_asia_dome_2026",
+      "type": "福岡公演 ローソンチケット公式リセール（抽選）",
+      "entryStartAt": "2026-11-21T15:00:00+09:00",
+      "entryEndAt": "2026-11-23T23:59:00+09:00",
+      "resultAt": "2026-11-26T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yoasobi_asia_dome_2026_fukuoka_1128",
+        "yoasobi_asia_dome_2026_fukuoka_1129"
+      ],
+      "sourceUrl": "https://www.yoasobi-music.jp/news/587745",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-01T00:07:58+09:00"
+    },
+    {
+      "id": "yoasobi_superplanet_2026_tokyo_official_resale",
+      "tourId": "yoasobi_asia_dome_2026",
+      "type": "東京公演 ローソンチケット公式リセール（抽選）",
+      "entryStartAt": "2026-11-28T15:00:00+09:00",
+      "entryEndAt": "2026-11-30T23:59:00+09:00",
+      "resultAt": "2026-12-03T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yoasobi_asia_dome_2026_tokyo_1205",
+        "yoasobi_asia_dome_2026_tokyo_1206"
+      ],
+      "sourceUrl": "https://www.yoasobi-music.jp/news/587745",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-01T00:07:58+09:00"
     }
   ],
   "appleMusicTracks": [
