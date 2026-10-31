@@ -64,6 +64,34 @@
       "source": "system",
       "sourceUrl": "https://ateez-official.jp/contents/1106095",
       "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_music_bank_global_festival_2026_20261212",
+      "artistId": "ateez",
+      "title": "2026 MUSIC BANK GLOBAL FESTIVAL IN JAPAN",
+      "startDate": "2026-12-12T00:00:00+09:00",
+      "endDate": "2026-12-12T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "単日券・全席指定",
+          "amount": 22000
+        },
+        {
+          "label": "2日通し券・全席指定",
+          "amount": 40000
+        },
+        {
+          "label": "プレミアムラウンジ付きアリーナ席（単日券）",
+          "amount": 150000
+        },
+        {
+          "label": "プレミアムラウンジ付きスタンド席（単日券）",
+          "amount": 120000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.music-bank.jp/",
+      "lastVerifiedAt": "2026-11-01T00:16:36+09:00"
     }
   ],
   "performances": [
@@ -328,6 +356,19 @@
       "source": "system",
       "sourceUrl": "https://ateez-official.jp/contents/1106520",
       "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_music_bank_global_festival_2026_20261212_mu_fg_stadium",
+      "tourId": "ateez_music_bank_global_festival_2026_20261212",
+      "venue": "MUFGスタジアム（国立競技場）",
+      "performanceDate": "2026-12-12",
+      "performanceAt": "2026-12-12T17:00:00+09:00",
+      "doorOpenAt": "2026-12-12T15:00:00+09:00",
+      "kind": "fes",
+      "eventName": "2026 MUSIC BANK GLOBAL FESTIVAL IN JAPAN",
+      "source": "system",
+      "sourceUrl": "https://www.music-bank.jp/",
+      "lastVerifiedAt": "2026-11-01T00:16:36+09:00"
     }
   ],
   "lotteries": [
@@ -747,6 +788,22 @@
       "source": "system",
       "sourceUrl": "https://ateez-official.jp/contents/1088399",
       "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_music_bank_global_festival_2026_20261212_official_4th_oct23",
+      "tourId": "ateez_music_bank_global_festival_2026_20261212",
+      "type": "オフィシャル4次先行（単日券・抽選）",
+      "entryStartAt": "2026-10-23T19:00:00+09:00",
+      "entryEndAt": "2026-10-26T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ateez_music_bank_global_festival_2026_20261212_mu_fg_stadium"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.music-bank.jp/",
+      "lastVerifiedAt": "2026-11-01T00:16:36+09:00"
     }
   ],
   "appleMusicTracks": [
