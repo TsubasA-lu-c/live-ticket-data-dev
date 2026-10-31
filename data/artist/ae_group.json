@@ -659,6 +659,22 @@
       "sourceUrl": "https://2026.kamigataboyz.com/",
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "ae_group_dream_festival_2026_upgrade_2nd_1101",
+      "tourId": "ae_group_dream_festival_2026",
+      "type": "アップグレードチケット席2次受付（抽選・既購入者限定）",
+      "entryStartAt": "2026-11-01T12:00:00+09:00",
+      "entryEndAt": "2026-11-04T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ae_group_dream_festival_2026_1121"
+      ],
+      "sourceUrl": "https://dreamfestival.jp/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-01T00:33:06+09:00"
     }
   ],
   "appleMusicTracks": [

@@ -1406,6 +1406,22 @@
       "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/news/63/",
       "source": "system",
       "lastVerifiedAt": "2026-10-31T18:29:15+09:00"
+    },
+    {
+      "id": "mazzel_dream_festival_2026_upgrade_2nd_1101",
+      "tourId": "mazzel_dream_festival_2026",
+      "type": "アップグレードチケット席2次受付（抽選・既購入者限定）",
+      "entryStartAt": "2026-11-01T12:00:00+09:00",
+      "entryEndAt": "2026-11-04T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mazzel_dream_festival_2026_1123"
+      ],
+      "sourceUrl": "https://dreamfestival.jp/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-01T00:33:06+09:00"
     }
   ],
   "appleMusicTracks": [
