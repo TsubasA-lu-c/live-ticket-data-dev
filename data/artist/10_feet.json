@@ -497,6 +497,30 @@
       "source": "system",
       "sourceUrl": "https://kyoto-daisakusen.kyoto/27/",
       "lastVerifiedAt": "2026-10-25T00:00:00+09:00"
+    },
+    {
+      "id": "10_feet_budokan_30th_2027",
+      "artistId": "10_feet",
+      "title": "10-FEET 30th Anniversary ONE-MAN LIVE『10-FEET HISTORY』～日本武道館～",
+      "startDate": "2027-04-27T00:00:00+09:00",
+      "endDate": "2027-04-27T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "一般",
+          "amount": 8888
+        },
+        {
+          "label": "家族チケット 中高生",
+          "amount": 7777
+        },
+        {
+          "label": "家族チケット 小学生",
+          "amount": 6666
+        }
+      ],
+      "sourceUrl": "https://10-feet.kyoto/pages/budokan",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:43:07+09:00"
     }
   ],
   "performances": [
@@ -1152,6 +1176,19 @@
       "lastVerifiedAt": "2026-10-25T00:00:00+09:00",
       "note": "11:00はフェス全体の開演。個別出演時刻未発表のためperformanceAtは12:00の仮値（performanceTimeEstimated=true）。",
       "eventName": "京都大作戦2027"
+    },
+    {
+      "id": "10_feet_budokan_30th_2027_0427",
+      "tourId": "10_feet_budokan_30th_2027",
+      "performanceDate": "2027-04-27",
+      "performanceAt": "2027-04-27T18:00:00+09:00",
+      "doorOpenAt": "2027-04-27T17:00:00+09:00",
+      "venue": "日本武道館",
+      "kind": "oneman",
+      "eventName": "10-FEET 30th Anniversary ONE-MAN LIVE『10-FEET HISTORY』",
+      "sourceUrl": "https://10-feet.kyoto/pages/budokan",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:43:07+09:00"
     }
   ],
   "lotteries": [
@@ -1461,6 +1498,22 @@
       "source": "system",
       "sourceUrl": "https://10-feet.kyoto/contents/1120753",
       "lastVerifiedAt": "2026-10-25T00:00:00+09:00"
+    },
+    {
+      "id": "10_feet_budokan_30th_2027_mobile_zero_20261029",
+      "tourId": "10_feet_budokan_30th_2027",
+      "type": "超最速オフィシャル0次先行（10-FEET MOBILE会員抽選）",
+      "entryStartAt": "2026-10-29T21:30:00+09:00",
+      "entryEndAt": "2026-11-03T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "10_feet_budokan_30th_2027_0427"
+      ],
+      "sourceUrl": "https://10-feet.kyoto/pages/budokan",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:43:07+09:00"
     }
   ]
 }
