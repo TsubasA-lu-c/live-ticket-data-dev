@@ -1052,6 +1052,23 @@
       "sourceUrl": "https://monaki.jp/live_information/detail/44634",
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "monaki_first_tour_2026_additional_general_20261024",
+      "tourId": "monaki_1st_tour_2026",
+      "type": "追加公演Zepp Fukuoka／Sapporo一般発売（先着）",
+      "entryStartAt": "2026-10-24T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "monaki_1st_tour_2026_fukuoka_1118",
+        "monaki_1st_tour_2026_sapporo_1127"
+      ],
+      "sourceUrl": "https://monaki.jp/news/detail/93891",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:43:07+09:00"
     }
   ],
   "appleMusicTracks": [

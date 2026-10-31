@@ -702,6 +702,54 @@
       "sourceUrl": "https://yuurinchi.com/contents/1117177",
       "source": "system",
       "lastVerifiedAt": "2026-10-10T20:22:44+09:00"
+    },
+    {
+      "id": "yuuri_last_solo_concert_2026_official_first_dec13_20261023",
+      "tourId": "yuuri_last_solo_concert_2026",
+      "type": "12/13追加公演 オフィシャル1次抽選先行",
+      "entryStartAt": "2026-10-23T20:00:00+09:00",
+      "entryEndAt": "2026-11-01T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yuuri_last_solo_concert_2026_yokohama_1213"
+      ],
+      "sourceUrl": "https://eplus.jp/sf/detail/3413260010",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:43:07+09:00"
+    },
+    {
+      "id": "yuuri_last_solo_concert_2026_official_first_dec19_20261002",
+      "tourId": "yuuri_last_solo_concert_2026",
+      "type": "12/19公演 オフィシャル1次抽選先行",
+      "entryStartAt": "2026-10-02T20:00:00+09:00",
+      "entryEndAt": "2026-10-12T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yuuri_last_solo_concert_2026_yokohama_1219"
+      ],
+      "sourceUrl": "https://eplus.jp/sf/detail/3413260010",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:43:07+09:00"
+    },
+    {
+      "id": "yuuri_last_solo_concert_2026_official_firstcome_dec19_20261020",
+      "tourId": "yuuri_last_solo_concert_2026",
+      "type": "12/19公演 オフィシャル先着先行",
+      "entryStartAt": "2026-10-20T20:00:00+09:00",
+      "entryEndAt": "2026-11-29T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yuuri_last_solo_concert_2026_yokohama_1219"
+      ],
+      "sourceUrl": "https://eplus.jp/sf/detail/3413260010",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:43:07+09:00"
     }
   ],
   "appleMusicTracks": [
