@@ -20,6 +20,26 @@
       "source": "system",
       "sourceUrl": "https://gre4n-boyz.com/news/193",
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "gre4n_boyz_labo03_2027",
+      "artistId": "gre4n_boyz",
+      "title": "GRe4N BOYZ イマーシブライブシアターLABO 03",
+      "startDate": "2027-01-24T00:00:00+09:00",
+      "endDate": "2027-01-24T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "前売スタンディング",
+          "amount": 15000
+        },
+        {
+          "label": "前売2F指定",
+          "amount": 15000
+        }
+      ],
+      "sourceUrl": "https://gre4n-boyz.com/live/159",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:23:53+09:00"
     }
   ],
   "performances": [
@@ -538,6 +558,18 @@
       "source": "system",
       "sourceUrl": "https://gre4n-boyz.com/live/156",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "gre4n_boyz_labo03_2027_0124",
+      "tourId": "gre4n_boyz_labo03_2027",
+      "performanceAt": "2027-01-24T18:00:00+09:00",
+      "doorOpenAt": "2027-01-24T17:00:00+09:00",
+      "venue": "Zepp DiverCity (TOKYO)",
+      "kind": "oneman",
+      "eventName": "GRe4N BOYZ イマーシブライブシアターLABO 03",
+      "sourceUrl": "https://gre4n-boyz.com/live/159",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:23:53+09:00"
     }
   ],
   "lotteries": [
@@ -610,6 +642,22 @@
       "source": "system",
       "sourceUrl": "https://gre4n-boyz.com/news/218",
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "gre4n_boyz_labo03_2027_fc_premium_1st",
+      "tourId": "gre4n_boyz_labo03_2027",
+      "type": "GRe4N CReW Club プレミアムコース会員1次先行予約（抽選）",
+      "entryStartAt": "2026-10-18T19:30:00+09:00",
+      "entryEndAt": "2026-11-01T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "gre4n_boyz_labo03_2027_0124"
+      ],
+      "sourceUrl": "https://gre4n-boyz.com/live/159",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:23:53+09:00"
     }
   ],
   "appleMusicTracks": [
