@@ -52,6 +52,26 @@
       "source": "system",
       "sourceUrl": "https://starto.jp/s/p/live/10577",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "naniwa_danshi_dome_nd5plus_2026_2027",
+      "artistId": "naniwa_danshi",
+      "title": "なにわ男子 DOME LIVE 2026-2027「ND⁵⁺」～あけおめぇ 初夢ぇ Stay with MEE～",
+      "startDate": "2026-12-31T00:00:00+09:00",
+      "endDate": "2027-01-16T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "ファミリークラブ会員チケット",
+          "amount": 11000
+        },
+        {
+          "label": "一般チケット",
+          "amount": 11500
+        }
+      ],
+      "sourceUrl": "https://starto.jp/s/p/live/10617",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:31:31+09:00"
     }
   ],
   "performances": [
@@ -642,6 +662,58 @@
       "source": "system",
       "sourceUrl": "https://starto.jp/s/p/live/10577",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "naniwa_danshi_dome_nd5plus_2026_2027_osaka_1231",
+      "tourId": "naniwa_danshi_dome_nd5plus_2026_2027",
+      "performanceDate": "2026-12-31",
+      "performanceAt": "2026-12-31T22:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "京セラドーム大阪",
+      "kind": "oneman",
+      "eventName": "なにわ男子 DOME LIVE 2026-2027「ND⁵⁺」",
+      "sourceUrl": "https://starto.jp/s/p/live/10617",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:31:31+09:00"
+    },
+    {
+      "id": "naniwa_danshi_dome_nd5plus_2026_2027_osaka_0101",
+      "tourId": "naniwa_danshi_dome_nd5plus_2026_2027",
+      "performanceDate": "2027-01-01",
+      "performanceAt": "2027-01-01T18:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "京セラドーム大阪",
+      "kind": "oneman",
+      "eventName": "なにわ男子 DOME LIVE 2026-2027「ND⁵⁺」",
+      "sourceUrl": "https://starto.jp/s/p/live/10617",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:31:31+09:00"
+    },
+    {
+      "id": "naniwa_danshi_dome_nd5plus_2026_2027_tokyo_0115",
+      "tourId": "naniwa_danshi_dome_nd5plus_2026_2027",
+      "performanceDate": "2027-01-15",
+      "performanceAt": "2027-01-15T18:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "東京ドーム",
+      "kind": "oneman",
+      "eventName": "なにわ男子 DOME LIVE 2026-2027「ND⁵⁺」",
+      "sourceUrl": "https://starto.jp/s/p/live/10617",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:31:31+09:00"
+    },
+    {
+      "id": "naniwa_danshi_dome_nd5plus_2026_2027_tokyo_0116",
+      "tourId": "naniwa_danshi_dome_nd5plus_2026_2027",
+      "performanceDate": "2027-01-16",
+      "performanceAt": "2027-01-16T17:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "東京ドーム",
+      "kind": "oneman",
+      "eventName": "なにわ男子 DOME LIVE 2026-2027「ND⁵⁺」",
+      "sourceUrl": "https://starto.jp/s/p/live/10617",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:31:31+09:00"
     }
   ],
   "lotteries": [

@@ -107,6 +107,46 @@
       "source": "system",
       "sourceUrl": "https://www.universal-music.co.jp/ado/news/2025-11-23/",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "ado_utatte_mita_tour_2027",
+      "artistId": "ado",
+      "title": "Adoの歌ってみたツアー2027",
+      "startDate": "2027-01-10T00:00:00+09:00",
+      "endDate": "2027-02-28T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "VIP席",
+          "amount": 20000
+        },
+        {
+          "label": "ファミリー席(着席指定席)",
+          "amount": 15000
+        },
+        {
+          "label": "S席",
+          "amount": 15000
+        },
+        {
+          "label": "S席(着席指定席)",
+          "amount": 15000
+        },
+        {
+          "label": "A席",
+          "amount": 10000
+        },
+        {
+          "label": "A席(着席指定席)",
+          "amount": 10000
+        },
+        {
+          "label": "車椅子席",
+          "amount": 15000
+        }
+      ],
+      "sourceUrl": "https://www.universal-music.co.jp/ado/news/2026-10-19/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:31:31+09:00"
     }
   ],
   "performances": [
@@ -205,6 +245,78 @@
       "source": "system",
       "sourceUrl": "https://www.universal-music.co.jp/ado/news/2025-11-23/",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "ado_utatte_mita_tour_2027_tokyo_0110",
+      "tourId": "ado_utatte_mita_tour_2027",
+      "performanceDate": "2027-01-10",
+      "performanceAt": "2027-01-10T17:00:00+09:00",
+      "doorOpenAt": "2027-01-10T15:30:00+09:00",
+      "venue": "有明アリーナ",
+      "kind": "oneman",
+      "sourceUrl": "https://www.universal-music.co.jp/ado/news/2026-10-19/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:31:31+09:00"
+    },
+    {
+      "id": "ado_utatte_mita_tour_2027_tokyo_0111",
+      "tourId": "ado_utatte_mita_tour_2027",
+      "performanceDate": "2027-01-11",
+      "performanceAt": "2027-01-11T16:00:00+09:00",
+      "doorOpenAt": "2027-01-11T14:30:00+09:00",
+      "venue": "有明アリーナ",
+      "kind": "oneman",
+      "sourceUrl": "https://www.universal-music.co.jp/ado/news/2026-10-19/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:31:31+09:00"
+    },
+    {
+      "id": "ado_utatte_mita_tour_2027_osaka_0130",
+      "tourId": "ado_utatte_mita_tour_2027",
+      "performanceDate": "2027-01-30",
+      "performanceAt": "2027-01-30T17:00:00+09:00",
+      "doorOpenAt": "2027-01-30T15:30:00+09:00",
+      "venue": "Asueアリーナ大阪",
+      "kind": "oneman",
+      "sourceUrl": "https://www.universal-music.co.jp/ado/news/2026-10-19/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:31:31+09:00"
+    },
+    {
+      "id": "ado_utatte_mita_tour_2027_osaka_0131",
+      "tourId": "ado_utatte_mita_tour_2027",
+      "performanceDate": "2027-01-31",
+      "performanceAt": "2027-01-31T16:00:00+09:00",
+      "doorOpenAt": "2027-01-31T14:30:00+09:00",
+      "venue": "Asueアリーナ大阪",
+      "kind": "oneman",
+      "sourceUrl": "https://www.universal-music.co.jp/ado/news/2026-10-19/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:31:31+09:00"
+    },
+    {
+      "id": "ado_utatte_mita_tour_2027_aichi_0227",
+      "tourId": "ado_utatte_mita_tour_2027",
+      "performanceDate": "2027-02-27",
+      "performanceAt": "2027-02-27T17:00:00+09:00",
+      "doorOpenAt": "2027-02-27T15:30:00+09:00",
+      "venue": "ポートメッセなごや 第1展示館",
+      "kind": "oneman",
+      "sourceUrl": "https://www.universal-music.co.jp/ado/news/2026-10-19/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:31:31+09:00"
+    },
+    {
+      "id": "ado_utatte_mita_tour_2027_aichi_0228",
+      "tourId": "ado_utatte_mita_tour_2027",
+      "performanceDate": "2027-02-28",
+      "performanceAt": "2027-02-28T16:00:00+09:00",
+      "doorOpenAt": "2027-02-28T14:30:00+09:00",
+      "venue": "ポートメッセなごや 第1展示館",
+      "kind": "oneman",
+      "sourceUrl": "https://www.universal-music.co.jp/ado/news/2026-10-19/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:31:31+09:00"
     }
   ],
   "lotteries": [
@@ -320,6 +432,27 @@
       "source": "system",
       "sourceUrl": "https://inkigayo-live.jp/",
       "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "ado_utatte_mita_tour_2027_fanclub_fastest_20261020",
+      "tourId": "ado_utatte_mita_tour_2027",
+      "type": "ドキドキ秘密基地 会員最速先行抽選",
+      "entryStartAt": "2026-10-20T10:00:00+09:00",
+      "entryEndAt": "2026-10-27T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ado_utatte_mita_tour_2027_tokyo_0110",
+        "ado_utatte_mita_tour_2027_tokyo_0111",
+        "ado_utatte_mita_tour_2027_osaka_0130",
+        "ado_utatte_mita_tour_2027_osaka_0131",
+        "ado_utatte_mita_tour_2027_aichi_0227",
+        "ado_utatte_mita_tour_2027_aichi_0228"
+      ],
+      "sourceUrl": "https://www.universal-music.co.jp/ado/news/2026-10-19/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:31:31+09:00"
     }
   ],
   "appleMusicTracks": [
