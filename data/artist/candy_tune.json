@@ -576,6 +576,28 @@
       "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/43493",
       "source": "system",
       "lastVerifiedAt": "2026-10-31T17:07:29.343+09:00"
+    },
+    {
+      "id": "candy_tune_tgc_toyama_2026_1121",
+      "artistId": "candy_tune",
+      "title": "TOKYO GIRLS COLLECTION 富山 2026",
+      "startDate": "2026-11-21T00:00:00+09:00",
+      "endDate": "2026-11-21T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/44995",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "candy_tune_wonderlivet_2026_1122",
+      "artistId": "candy_tune",
+      "title": "WONDERLIVET 2026",
+      "startDate": "2026-11-22T00:00:00+09:00",
+      "endDate": "2026-11-22T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/44263",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -1613,6 +1635,36 @@
       "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/43493",
       "performanceTimeEstimated": true,
       "source": "system"
+    },
+    {
+      "id": "candy_tune_tgc_toyama_2026_1121_performance",
+      "tourId": "candy_tune_tgc_toyama_2026_1121",
+      "venue": "YKK AP ARENA",
+      "performanceAt": "2026-11-21T12:00:00+09:00",
+      "performanceDate": "2026-11-21",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "fes",
+      "kindReviewed": true,
+      "eventName": "TOKYO GIRLS COLLECTION 富山 2026",
+      "source": "system",
+      "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/44995",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "candy_tune_wonderlivet_2026_1122_performance",
+      "tourId": "candy_tune_wonderlivet_2026_1122",
+      "venue": "KINTEX HALL 7-10",
+      "performanceAt": "2026-11-22T12:00:00+09:00",
+      "performanceDate": "2026-11-22",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "fes",
+      "kindReviewed": true,
+      "eventName": "WONDERLIVET 2026",
+      "source": "system",
+      "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/44263",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
     }
   ],
   "lotteries": [
