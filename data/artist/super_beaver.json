@@ -1791,6 +1791,23 @@
       "sourceUrl": "https://sp.super-beaver.com/feature/budokan2027",
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "super_beaver_budokan_sp_2027_fc_2nd_oct24",
+      "tourId": "super_beaver_budokan_sp_2027",
+      "type": "友の会会員限定チケット2次受付（抽選）",
+      "entryStartAt": "2026-10-24T13:00:00+09:00",
+      "entryEndAt": "2026-11-01T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "super_beaver_budokan_sp_2027_0331",
+        "super_beaver_budokan_sp_2027_0401"
+      ],
+      "sourceUrl": "https://sp.super-beaver.com/feature/budokan2027",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T15:02:35.474+09:00"
     }
   ],
   "appleMusicTracks": [
