@@ -243,6 +243,17 @@
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
       "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_countdown_japan_2627_1226",
+      "artistId": "fruits_zipper",
+      "title": "COUNTDOWN JAPAN 26/27",
+      "startDate": "2026-12-26T00:00:00+09:00",
+      "endDate": "2026-12-26T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/live_information/detail/46325",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -1133,6 +1144,21 @@
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
       "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_countdown_japan_2627_20261226",
+      "tourId": "fruits_zipper_countdown_japan_2627_1226",
+      "venue": "幕張メッセ国際展示場1〜11ホール",
+      "performanceAt": "2026-12-26T12:00:00+09:00",
+      "performanceDate": "2026-12-26",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "fes",
+      "kindReviewed": true,
+      "eventName": "COUNTDOWN JAPAN 26/27",
+      "source": "system",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/live_information/detail/46325",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -2187,6 +2213,22 @@
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
       "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_countdown_japan_2627_1226_second_presale",
+      "tourId": "fruits_zipper_countdown_japan_2627_1226",
+      "type": "COUNTDOWN JAPAN 26/27 第2次抽選先行（12月26日対象）",
+      "entryStartAt": "2026-10-28T12:15:00+09:00",
+      "entryEndAt": "2026-11-02T16:00:00+09:00",
+      "resultAt": "2026-11-06T16:00:00+09:00",
+      "paymentStartAt": "2026-11-06T16:00:00+09:00",
+      "paymentEndAt": "2026-11-09T16:00:00+09:00",
+      "performanceIds": [
+        "fruits_zipper_countdown_japan_2627_20261226"
+      ],
+      "source": "system",
+      "sourceUrl": "https://countdownjapan.jp/2627/ticket/",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
