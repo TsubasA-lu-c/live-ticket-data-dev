@@ -60,6 +60,15 @@
       "source": "system",
       "sourceUrl": "https://www.le-sserafim.jp/news/34281e5b5c57",
       "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_countdown_japan_2627",
+      "artistId": "le_sserafim",
+      "title": "COUNTDOWN JAPAN 26/27",
+      "startDate": "2026-12-26T00:00:00+09:00",
+      "endDate": "2026-12-26T00:00:00+09:00",
+      "prices": null,
+      "sourceUrl": "https://www.le-sserafim.jp/news/70b62745ece7"
     }
   ],
   "performances": [
@@ -240,6 +249,17 @@
       "sourceUrl": "https://www.le-sserafim.jp/news/34281e5b5c57",
       "lastVerifiedAt": "2026-09-12T00:00:00+09:00",
       "kind": "oneman"
+    },
+    {
+      "id": "le_sserafim_countdown_japan_2627_1226",
+      "tourId": "le_sserafim_countdown_japan_2627",
+      "performanceDate": "2026-12-26",
+      "performanceAt": "2026-12-26T12:00:00+09:00",
+      "doorOpenAt": "2026-12-26T09:30:00+09:00",
+      "venue": "幕張メッセ国際展示場1～11ホール",
+      "kind": "fes",
+      "eventName": "COUNTDOWN JAPAN 26/27 LE SSERAFIM 出演",
+      "sourceUrl": "https://www.le-sserafim.jp/news/70b62745ece7"
     }
   ],
   "lotteries": [
@@ -524,6 +544,20 @@
       "note": "FC1次・2次先行指定席当選かつ入金済みの会員のみ。既存チケット差額11,000円。",
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "le_sserafim_countdown_japan_2627_2nd_ticket_20261028",
+      "tourId": "le_sserafim_countdown_japan_2627",
+      "type": "第2次抽選先行（Jフェスアプリ、参加日指定）",
+      "entryStartAt": "2026-10-28T12:15:00+09:00",
+      "entryEndAt": "2026-11-02T16:00:00+09:00",
+      "resultAt": "2026-11-06T16:00:00+09:00",
+      "paymentStartAt": "2026-11-06T16:00:00+09:00",
+      "paymentEndAt": "2026-11-09T16:00:00+09:00",
+      "performanceIds": [
+        "le_sserafim_countdown_japan_2627_1226"
+      ],
+      "sourceUrl": "https://countdownjapan.jp/2627/ticket/"
     }
   ],
   "appleMusicTracks": [
