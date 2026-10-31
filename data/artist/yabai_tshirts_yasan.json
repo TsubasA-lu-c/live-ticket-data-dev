@@ -1392,6 +1392,23 @@
       "sourceUrl": "https://yabaitshirtsyasan.com/tanktopfes2027/",
       "source": "system",
       "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_tanktop_festival_2027_official_2nd_20261024",
+      "tourId": "yabai_tshirts_yasan_tanktop_festival_2027",
+      "type": "オフィシャル2次先行（抽選）",
+      "entryStartAt": "2026-10-24T20:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": "2026-11-19T15:00:00+09:00",
+      "paymentStartAt": "2026-11-19T15:00:00+09:00",
+      "paymentEndAt": "2026-11-23T23:00:00+09:00",
+      "performanceIds": [
+        "yabai_tshirts_yasan_tanktop_festival_2027_day1",
+        "yabai_tshirts_yasan_tanktop_festival_2027_day2"
+      ],
+      "sourceUrl": "https://yabaitshirtsyasan.com/tanktopfes2027/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:29:15+09:00"
     }
   ],
   "appleMusicTracks": [

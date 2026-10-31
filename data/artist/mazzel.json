@@ -1132,6 +1132,280 @@
       "sourceUrl": "https://dreamfestival.jp/",
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "mazzel_play_at_the_muzeum2_2026_resale_1102",
+      "tourId": "mazzel_play_at_the_muzeum2_2026",
+      "type": "MAZZEL 2nd Fan Meeting AnyPASS STORE公式リセール（11/02公演・会員限定・先着）",
+      "entryStartAt": "2026-10-20T12:00:00+09:00",
+      "entryEndAt": "2026-11-02T08:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mazzel_play_at_the_muzeum2_2026_fukushima_1102"
+      ],
+      "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/news/63/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:29:15+09:00"
+    },
+    {
+      "id": "mazzel_play_at_the_muzeum2_2026_resale_1103",
+      "tourId": "mazzel_play_at_the_muzeum2_2026",
+      "type": "MAZZEL 2nd Fan Meeting AnyPASS STORE公式リセール（11/03公演・会員限定・先着）",
+      "entryStartAt": "2026-10-21T12:00:00+09:00",
+      "entryEndAt": "2026-11-03T08:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mazzel_play_at_the_muzeum2_2026_miyagi_1103"
+      ],
+      "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/news/63/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:29:15+09:00"
+    },
+    {
+      "id": "mazzel_play_at_the_muzeum2_2026_resale_1107",
+      "tourId": "mazzel_play_at_the_muzeum2_2026",
+      "type": "MAZZEL 2nd Fan Meeting AnyPASS STORE公式リセール（11/07公演・会員限定・先着）",
+      "entryStartAt": "2026-10-25T12:00:00+09:00",
+      "entryEndAt": "2026-11-07T08:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mazzel_play_at_the_muzeum2_2026_niigata_1107"
+      ],
+      "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/news/63/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:29:15+09:00"
+    },
+    {
+      "id": "mazzel_play_at_the_muzeum2_2026_resale_1110",
+      "tourId": "mazzel_play_at_the_muzeum2_2026",
+      "type": "MAZZEL 2nd Fan Meeting AnyPASS STORE公式リセール（11/10公演・会員限定・先着）",
+      "entryStartAt": "2026-10-28T12:00:00+09:00",
+      "entryEndAt": "2026-11-10T08:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mazzel_play_at_the_muzeum2_2026_pacifico_1110"
+      ],
+      "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/news/63/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:29:15+09:00"
+    },
+    {
+      "id": "mazzel_play_at_the_muzeum2_2026_resale_1117",
+      "tourId": "mazzel_play_at_the_muzeum2_2026",
+      "type": "MAZZEL 2nd Fan Meeting AnyPASS STORE公式リセール（11/17公演・会員限定・先着）",
+      "entryStartAt": "2026-11-04T12:00:00+09:00",
+      "entryEndAt": "2026-11-17T08:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mazzel_play_at_the_muzeum2_2026_kurashiki_1117"
+      ],
+      "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/news/63/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:29:15+09:00"
+    },
+    {
+      "id": "mazzel_play_at_the_muzeum2_2026_resale_1118",
+      "tourId": "mazzel_play_at_the_muzeum2_2026",
+      "type": "MAZZEL 2nd Fan Meeting AnyPASS STORE公式リセール（11/18公演・会員限定・先着）",
+      "entryStartAt": "2026-11-05T12:00:00+09:00",
+      "entryEndAt": "2026-11-18T08:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mazzel_play_at_the_muzeum2_2026_hiroshima_1118"
+      ],
+      "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/news/63/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:29:15+09:00"
+    },
+    {
+      "id": "mazzel_play_at_the_muzeum2_2026_resale_1125",
+      "tourId": "mazzel_play_at_the_muzeum2_2026",
+      "type": "MAZZEL 2nd Fan Meeting AnyPASS STORE公式リセール（11/25公演・会員限定・先着）",
+      "entryStartAt": "2026-11-12T12:00:00+09:00",
+      "entryEndAt": "2026-11-25T08:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mazzel_play_at_the_muzeum2_2026_kobe_1125a",
+        "mazzel_play_at_the_muzeum2_2026_kobe_1125b"
+      ],
+      "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/news/63/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:29:15+09:00"
+    },
+    {
+      "id": "mazzel_play_at_the_muzeum2_2026_resale_1126",
+      "tourId": "mazzel_play_at_the_muzeum2_2026",
+      "type": "MAZZEL 2nd Fan Meeting AnyPASS STORE公式リセール（11/26公演・会員限定・先着）",
+      "entryStartAt": "2026-11-13T12:00:00+09:00",
+      "entryEndAt": "2026-11-26T08:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mazzel_play_at_the_muzeum2_2026_osaka_1126"
+      ],
+      "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/news/63/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:29:15+09:00"
+    },
+    {
+      "id": "mazzel_play_at_the_muzeum2_2026_resale_1201",
+      "tourId": "mazzel_play_at_the_muzeum2_2026",
+      "type": "MAZZEL 2nd Fan Meeting AnyPASS STORE公式リセール（12/01公演・会員限定・先着）",
+      "entryStartAt": "2026-11-18T12:00:00+09:00",
+      "entryEndAt": "2026-12-01T08:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mazzel_play_at_the_muzeum2_2026_omiya_1201"
+      ],
+      "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/news/63/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:29:15+09:00"
+    },
+    {
+      "id": "mazzel_play_at_the_muzeum2_2026_resale_1203",
+      "tourId": "mazzel_play_at_the_muzeum2_2026",
+      "type": "MAZZEL 2nd Fan Meeting AnyPASS STORE公式リセール（12/03公演・会員限定・先着）",
+      "entryStartAt": "2026-11-20T12:00:00+09:00",
+      "entryEndAt": "2026-12-03T08:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mazzel_play_at_the_muzeum2_2026_gunma_1203"
+      ],
+      "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/news/63/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:29:15+09:00"
+    },
+    {
+      "id": "mazzel_play_at_the_muzeum2_2026_resale_1204",
+      "tourId": "mazzel_play_at_the_muzeum2_2026",
+      "type": "MAZZEL 2nd Fan Meeting AnyPASS STORE公式リセール（12/04公演・会員限定・先着）",
+      "entryStartAt": "2026-11-21T12:00:00+09:00",
+      "entryEndAt": "2026-12-04T08:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mazzel_play_at_the_muzeum2_2026_utsunomiya_1204"
+      ],
+      "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/news/63/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:29:15+09:00"
+    },
+    {
+      "id": "mazzel_play_at_the_muzeum2_2026_resale_1207",
+      "tourId": "mazzel_play_at_the_muzeum2_2026",
+      "type": "MAZZEL 2nd Fan Meeting AnyPASS STORE公式リセール（12/07公演・会員限定・先着）",
+      "entryStartAt": "2026-11-24T12:00:00+09:00",
+      "entryEndAt": "2026-12-07T08:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mazzel_play_at_the_muzeum2_2026_fukuoka_1207a",
+        "mazzel_play_at_the_muzeum2_2026_fukuoka_1207b"
+      ],
+      "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/news/63/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:29:15+09:00"
+    },
+    {
+      "id": "mazzel_play_at_the_muzeum2_2026_resale_1211",
+      "tourId": "mazzel_play_at_the_muzeum2_2026",
+      "type": "MAZZEL 2nd Fan Meeting AnyPASS STORE公式リセール（12/11公演・会員限定・先着）",
+      "entryStartAt": "2026-11-28T12:00:00+09:00",
+      "entryEndAt": "2026-12-11T08:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mazzel_play_at_the_muzeum2_2026_aichi_1211"
+      ],
+      "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/news/63/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:29:15+09:00"
+    },
+    {
+      "id": "mazzel_play_at_the_muzeum2_2026_resale_1215",
+      "tourId": "mazzel_play_at_the_muzeum2_2026",
+      "type": "MAZZEL 2nd Fan Meeting AnyPASS STORE公式リセール（12/15公演・会員限定・先着）",
+      "entryStartAt": "2026-12-02T12:00:00+09:00",
+      "entryEndAt": "2026-12-15T08:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mazzel_play_at_the_muzeum2_2026_kagawa_1215"
+      ],
+      "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/news/63/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:29:15+09:00"
+    },
+    {
+      "id": "mazzel_play_at_the_muzeum2_2026_resale_1216",
+      "tourId": "mazzel_play_at_the_muzeum2_2026",
+      "type": "MAZZEL 2nd Fan Meeting AnyPASS STORE公式リセール（12/16公演・会員限定・先着）",
+      "entryStartAt": "2026-12-03T12:00:00+09:00",
+      "entryEndAt": "2026-12-16T08:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mazzel_play_at_the_muzeum2_2026_kochi_1216"
+      ],
+      "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/news/63/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:29:15+09:00"
+    },
+    {
+      "id": "mazzel_play_at_the_muzeum2_2026_resale_1221",
+      "tourId": "mazzel_play_at_the_muzeum2_2026",
+      "type": "MAZZEL 2nd Fan Meeting AnyPASS STORE公式リセール（12/21公演・会員限定・先着）",
+      "entryStartAt": "2026-12-08T12:00:00+09:00",
+      "entryEndAt": "2026-12-21T08:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mazzel_play_at_the_muzeum2_2026_hamamatsu_1221"
+      ],
+      "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/news/63/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:29:15+09:00"
+    },
+    {
+      "id": "mazzel_play_at_the_muzeum2_2026_resale_1223",
+      "tourId": "mazzel_play_at_the_muzeum2_2026",
+      "type": "MAZZEL 2nd Fan Meeting AnyPASS STORE公式リセール（12/23公演・会員限定・先着）",
+      "entryStartAt": "2026-12-10T12:00:00+09:00",
+      "entryEndAt": "2026-12-23T08:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mazzel_play_at_the_muzeum2_2026_kumamoto_1223"
+      ],
+      "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/news/63/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:29:15+09:00"
     }
   ],
   "appleMusicTracks": [

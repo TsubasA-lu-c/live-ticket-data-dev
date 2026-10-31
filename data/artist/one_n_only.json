@@ -1047,6 +1047,25 @@
       "sourceUrl": "https://one-n-only.jp/contents/1119927",
       "source": "system",
       "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "one_n_only_merry_xmaswag_2026_lawson_prerequest_oct30",
+      "tourId": "one_n_only_merry_xmaswag_2026",
+      "type": "ローソンチケットプレリクエスト先行（抽選）",
+      "entryStartAt": "2026-10-30T18:00:00+09:00",
+      "entryEndAt": "2026-11-08T23:59:00+09:00",
+      "resultAt": "2026-11-13T14:00:00+09:00",
+      "paymentStartAt": "2026-11-13T14:00:00+09:00",
+      "paymentEndAt": "2026-11-16T23:59:00+09:00",
+      "performanceIds": [
+        "one_n_only_merry_xmaswag_2026_tokyo_1213",
+        "one_n_only_merry_xmaswag_2026_osaka_1222",
+        "one_n_only_merry_xmaswag_2026_osaka_1223_1230",
+        "one_n_only_merry_xmaswag_2026_osaka_1223_1800"
+      ],
+      "sourceUrl": "https://one-n-only.jp/contents/1123651",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:29:15+09:00"
     }
   ],
   "appleMusicTracks": [
