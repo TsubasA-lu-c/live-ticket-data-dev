@@ -330,6 +330,17 @@
       "source": "system",
       "sourceUrl": "https://babymetal.com/mob/news/diarKiji.php?cd=TOUR_TO&lang=ja&site=TO&so=a",
       "lastVerifiedAt": "2026-08-23T09:00:00+09:00"
+    },
+    {
+      "id": "babymetal_su_metal_matsuri_2027_bangkok",
+      "artistId": "babymetal",
+      "title": "【SU-METAL】matsuri ‘27: Japanese Music Experience BANGKOK",
+      "startDate": "2027-02-13T00:00:00+07:00",
+      "endDate": "2027-02-13T00:00:00+07:00",
+      "prices": null,
+      "sourceUrl": "https://babymetal.com/mob/news/diarKijiShw.php?id=309498&ima=2015&lang=ja&site=TO",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T23:51:33.037+09:00"
     }
   ],
   "performances": [
@@ -730,6 +741,19 @@
       "sourceUrl": "https://babymetal.com/mob/news/diarKiji.php?cd=TOUR_TO&lang=ja&site=TO&so=a",
       "lastVerifiedAt": "2026-08-23T10:55:18+09:00",
       "performanceTimeEstimated": true
+    },
+    {
+      "id": "babymetal_su_metal_matsuri_2027_bangkok_0213",
+      "tourId": "babymetal_su_metal_matsuri_2027_bangkok",
+      "performanceDate": "2027-02-13",
+      "performanceAt": "2027-02-13T18:00:00+07:00",
+      "doorOpenAt": null,
+      "venue": "UOB LIVE（Bangkok, Thailand）",
+      "kind": "fes",
+      "eventName": "matsuri ‘27: Japanese Music Experience BANGKOK",
+      "sourceUrl": "https://babymetal.com/mob/news/diarKijiShw.php?id=309498&ima=2015&lang=ja&site=TO",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T23:51:33.037+09:00"
     }
   ],
   "lotteries": [
@@ -774,6 +798,22 @@
       "source": "system",
       "sourceUrl": "https://www.summersonic.com/tickets/",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "babymetal_su_metal_matsuri_2027_bangkok_general_nov01",
+      "tourId": "babymetal_su_metal_matsuri_2027_bangkok",
+      "type": "THAI TICKET MAJOR一般発売（先着）",
+      "entryStartAt": "2026-11-01T11:00:00+07:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "babymetal_su_metal_matsuri_2027_bangkok_0213"
+      ],
+      "sourceUrl": "https://www.thaiticketmajor.com/concert/matsuri-27-japanese-music-experience-bangkok.html",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T23:51:33.037+09:00"
     }
   ],
   "appleMusicTracks": [
