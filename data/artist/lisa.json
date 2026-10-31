@@ -133,6 +133,17 @@
       "source": "system",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/lisa/info/580574",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "lisa_matsuri_2027_bangkok",
+      "artistId": "lisa",
+      "title": "matsuri ‘27: Japanese Music Experience BANGKOK",
+      "startDate": "2027-02-13T00:00:00+07:00",
+      "endDate": "2027-02-13T00:00:00+07:00",
+      "prices": null,
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/lisa/info/587695",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T23:51:33.037+09:00"
     }
   ],
   "performances": [
@@ -583,6 +594,19 @@
       "source": "system",
       "sourceUrl": "https://troxy.co.uk/event/lisa/",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "lisa_matsuri_2027_bangkok_0213",
+      "tourId": "lisa_matsuri_2027_bangkok",
+      "performanceDate": "2027-02-13",
+      "performanceAt": "2027-02-13T18:00:00+07:00",
+      "doorOpenAt": null,
+      "venue": "UOB LIVE（Bangkok, Thailand）",
+      "kind": "fes",
+      "eventName": "matsuri ‘27: Japanese Music Experience BANGKOK",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/lisa/info/587695",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T23:51:33.037+09:00"
     }
   ],
   "lotteries": [
@@ -813,6 +837,22 @@
       ],
       "sourceUrl": "https://eplus.jp/lisa2026resale/",
       "source": "system"
+    },
+    {
+      "id": "lisa_matsuri_2027_bangkok_general_nov01",
+      "tourId": "lisa_matsuri_2027_bangkok",
+      "type": "THAI TICKET MAJOR一般発売（先着）",
+      "entryStartAt": "2026-11-01T11:00:00+07:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "lisa_matsuri_2027_bangkok_0213"
+      ],
+      "sourceUrl": "https://www.thaiticketmajor.com/concert/matsuri-27-japanese-music-experience-bangkok.html",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T23:51:33.037+09:00"
     }
   ],
   "appleMusicTracks": [
