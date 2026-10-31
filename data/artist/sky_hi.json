@@ -199,11 +199,12 @@
       "venue": "豊洲PIT",
       "performanceAt": "2026-12-11T19:00:00+09:00",
       "doorOpenAt": "2026-12-11T18:00:00+09:00",
-      "kind": "oneman",
+      "kind": "taiban",
       "eventName": "SKY-HI X UVERworld",
       "source": "system",
       "sourceUrl": "https://skyhi.tokyo/",
-      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00",
+      "kindReviewed": true
     },
     {
       "id": "sky_hi_event_2026_toyosu_pit_toyosu_1212",
