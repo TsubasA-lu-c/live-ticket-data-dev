@@ -89,7 +89,7 @@
       "artistId": "nogizaka46",
       "title": "乃木坂46 6期生全国ツアー2026",
       "startDate": "2026-10-26T00:00:00+09:00",
-      "endDate": "2026-12-02T00:00:00+09:00",
+      "endDate": "2026-12-16T00:00:00+09:00",
       "prices": null,
       "source": "system",
       "sourceUrl": "https://sp.nogizaka46.com/p/news/102219",
@@ -121,6 +121,15 @@
       "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102332",
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "nogizaka46_43rd_under_live_2026",
+      "artistId": "nogizaka46",
+      "title": "乃木坂46 43rdSGアンダーライブ",
+      "startDate": "2026-12-17T00:00:00+09:00",
+      "endDate": "2026-12-18T00:00:00+09:00",
+      "prices": null,
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/page/underlive"
     }
   ],
   "performances": [
@@ -568,6 +577,39 @@
       "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102332",
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "nogizaka46_43rd_under_live_2026_17",
+      "tourId": "nogizaka46_43rd_under_live_2026",
+      "performanceDate": "2026-12-17",
+      "performanceAt": "2026-12-17T18:30:00+09:00",
+      "doorOpenAt": "2026-12-17T17:00:00+09:00",
+      "venue": "日本武道館",
+      "kind": "oneman",
+      "eventName": "乃木坂46 43rdSGアンダーライブ",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/page/underlive"
+    },
+    {
+      "id": "nogizaka46_43rd_under_live_2026_18",
+      "tourId": "nogizaka46_43rd_under_live_2026",
+      "performanceDate": "2026-12-18",
+      "performanceAt": "2026-12-18T18:30:00+09:00",
+      "doorOpenAt": "2026-12-18T17:00:00+09:00",
+      "venue": "日本武道館",
+      "kind": "oneman",
+      "eventName": "乃木坂46 43rdSGアンダーライブ",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/page/underlive"
+    },
+    {
+      "id": "nogizaka46_6th_gen_nationwide_tour_2026_final_1216",
+      "tourId": "nogizaka46_6th_gen_nationwide_tour_2026",
+      "performanceDate": "2026-12-16",
+      "performanceAt": "2026-12-16T18:30:00+09:00",
+      "doorOpenAt": "2026-12-16T17:00:00+09:00",
+      "venue": "日本武道館",
+      "kind": "oneman",
+      "eventName": "乃木坂46 6期生全国ツアー2026 FINAL!",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/page/6thgen_tour2026"
     }
   ],
   "lotteries": [
@@ -1211,6 +1253,36 @@
       "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102284?ima=0019&pri1=202610",
       "source": "system",
       "lastVerifiedAt": "2026-10-10T20:22:44+09:00"
+    },
+    {
+      "id": "nogizaka46_43rd_under_live_2026_nogidoga_premium_20261101",
+      "tourId": "nogizaka46_43rd_under_live_2026",
+      "type": "のぎ動画プレミアムシート先行",
+      "entryStartAt": "2026-11-01T12:00:00+09:00",
+      "entryEndAt": "2026-11-08T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nogizaka46_43rd_under_live_2026_17",
+        "nogizaka46_43rd_under_live_2026_18"
+      ],
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/page/underlive"
+    },
+    {
+      "id": "nogizaka46_43rd_under_live_2026_mobile_1st_20261101",
+      "tourId": "nogizaka46_43rd_under_live_2026",
+      "type": "乃木坂46モバイルチケット先行",
+      "entryStartAt": "2026-11-01T12:00:00+09:00",
+      "entryEndAt": "2026-11-08T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nogizaka46_43rd_under_live_2026_17",
+        "nogizaka46_43rd_under_live_2026_18"
+      ],
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/page/underlive"
     }
   ],
   "appleMusicTracks": [
