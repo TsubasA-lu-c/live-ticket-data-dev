@@ -1020,6 +1020,34 @@
       "sourceUrl": "https://macaroniempitsu.com/news",
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "macaroni_empitsu_okkake_sports_festival_2026_fc_final_firstcome_20261024",
+      "tourId": "macaroni_empitsu_okkake_sports_festival_2026",
+      "type": "OKKAKE最終先着先行",
+      "entryStartAt": "2026-10-24T12:00:00+09:00",
+      "entryEndAt": "2026-11-03T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "macaroni_empitsu_okkake_sports_festival_2026_yoyogi_1104"
+      ],
+      "sourceUrl": "https://macaroniempitsu.com/news"
+    },
+    {
+      "id": "macaroni_empitsu_vol22_2026_miyagi_additional_20261024",
+      "tourId": "macaroni_empitsu_vol22_2026",
+      "type": "11/21宮城公演追加販売（先着）",
+      "entryStartAt": "2026-10-24T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "macaroni_empitsu_vol22_2026_miyagi_1121"
+      ],
+      "sourceUrl": "https://macaroniempitsu.com/news"
     }
   ],
   "appleMusicTracks": [
