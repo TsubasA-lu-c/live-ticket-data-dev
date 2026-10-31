@@ -162,6 +162,62 @@
       "artistId": "frederic",
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_countdown_japan_2627",
+      "artistId": "frederic",
+      "title": "COUNTDOWN JAPAN 26/27",
+      "startDate": "2026-12-26T00:00:00+09:00",
+      "endDate": "2026-12-26T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "12/26 1日券",
+          "amount": 15000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3777",
+      "lastVerifiedAt": "2026-11-01T01:00:00+09:00"
+    },
+    {
+      "id": "frederic_fuzakete_night_2027",
+      "artistId": "frederic",
+      "title": "BOAT RACE鳴門 PRESENTS 四星球企画「ふざけてナイト」",
+      "startDate": "2027-02-21T00:00:00+09:00",
+      "endDate": "2027-02-21T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "一般Ticket",
+          "amount": 9800
+        },
+        {
+          "label": "小学生Ticket",
+          "amount": 5000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://su-xing-cyu.com/contents/1103253",
+      "lastVerifiedAt": "2026-11-01T01:00:00+09:00"
+    },
+    {
+      "id": "frederic_kanaboon_jack_in_tour_2027",
+      "artistId": "frederic",
+      "title": "KANA-BOON「Jack in tour 2027」",
+      "startDate": "2027-03-25T00:00:00+09:00",
+      "endDate": "2027-03-26T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "スタンディング",
+          "amount": 5800
+        },
+        {
+          "label": "指定席",
+          "amount": 6300
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://sp.kanaboon.jp/feature/jackin2027",
+      "lastVerifiedAt": "2026-11-01T01:00:00+09:00"
     }
   ],
   "performances": [
@@ -502,6 +558,58 @@
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
       "tourId": "frederic_takahashi_takeru_gfest_2026"
+    },
+    {
+      "id": "frederic_countdown_japan_2627_1226",
+      "tourId": "frederic_countdown_japan_2627",
+      "performanceDate": "2026-12-26",
+      "performanceAt": "2026-12-26T12:00:00+09:00",
+      "doorOpenAt": "2026-12-26T09:30:00+09:00",
+      "venue": "幕張メッセ国際展示場1～11ホール",
+      "kind": "fes",
+      "eventName": "COUNTDOWN JAPAN 26/27",
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3777",
+      "lastVerifiedAt": "2026-11-01T01:00:00+09:00"
+    },
+    {
+      "id": "frederic_fuzakete_night_2027_naruto_0221",
+      "tourId": "frederic_fuzakete_night_2027",
+      "performanceDate": "2027-02-21",
+      "performanceAt": "2027-02-21T10:00:00+09:00",
+      "doorOpenAt": "2027-02-21T09:00:00+09:00",
+      "venue": "BOAT RACE鳴門（UZU HALL／なるちゃんホール／芝生広場）",
+      "kind": "fes",
+      "eventName": "BOAT RACE鳴門 PRESENTS 四星球企画「ふざけてナイト」",
+      "source": "system",
+      "sourceUrl": "https://su-xing-cyu.com/contents/1103253",
+      "lastVerifiedAt": "2026-11-01T01:00:00+09:00"
+    },
+    {
+      "id": "frederic_kanaboon_jack_in_tour_2027_ex_theater_0325",
+      "tourId": "frederic_kanaboon_jack_in_tour_2027",
+      "performanceDate": "2027-03-25",
+      "performanceAt": "2027-03-25T19:00:00+09:00",
+      "doorOpenAt": "2027-03-25T18:00:00+09:00",
+      "venue": "EX THEATER ROPPONGI",
+      "kind": "taiban",
+      "eventName": "KANA-BOON Jack in tour 2027（ゲスト：フレデリック）",
+      "source": "system",
+      "sourceUrl": "https://sp.kanaboon.jp/feature/jackin2027",
+      "lastVerifiedAt": "2026-11-01T01:00:00+09:00"
+    },
+    {
+      "id": "frederic_kanaboon_jack_in_tour_2027_ex_theater_0326",
+      "tourId": "frederic_kanaboon_jack_in_tour_2027",
+      "performanceDate": "2027-03-26",
+      "performanceAt": "2027-03-26T19:00:00+09:00",
+      "doorOpenAt": "2027-03-26T18:00:00+09:00",
+      "venue": "EX THEATER ROPPONGI",
+      "kind": "taiban",
+      "eventName": "KANA-BOON Jack in tour 2027（ゲスト：フレデリック）",
+      "source": "system",
+      "sourceUrl": "https://sp.kanaboon.jp/feature/jackin2027",
+      "lastVerifiedAt": "2026-11-01T01:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1225,6 +1333,87 @@
       "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
       "source": "system",
       "lastVerifiedAt": "2026-10-31T15:00:25.177+09:00"
+    },
+    {
+      "id": "frederic_countdown_japan_2627_second_20261028",
+      "tourId": "frederic_countdown_japan_2627",
+      "type": "第2次抽選先行（Jフェスアプリ／12月26日1日券・対象日指定）",
+      "entryStartAt": "2026-10-28T12:15:00+09:00",
+      "entryEndAt": "2026-11-02T16:00:00+09:00",
+      "resultAt": "2026-11-06T16:00:00+09:00",
+      "paymentStartAt": "2026-11-06T16:00:00+09:00",
+      "paymentEndAt": "2026-11-09T16:00:00+09:00",
+      "performanceIds": [
+        "frederic_countdown_japan_2627_1226"
+      ],
+      "source": "system",
+      "sourceUrl": "https://countdownjapan.jp/2627/ticket/",
+      "lastVerifiedAt": "2026-11-01T01:00:00+09:00"
+    },
+    {
+      "id": "frederic_fuzakete_night_2027_lawson_prerequest_1020",
+      "tourId": "frederic_fuzakete_night_2027",
+      "type": "ローソンチケット 抽選プレリク先行",
+      "entryStartAt": "2026-10-20T12:00:00+09:00",
+      "entryEndAt": "2026-11-03T23:59:00+09:00",
+      "resultAt": "2026-11-06T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_fuzakete_night_2027_naruto_0221"
+      ],
+      "source": "system",
+      "sourceUrl": "https://l-tike.com/su-xing-cyu/",
+      "lastVerifiedAt": "2026-11-01T01:00:00+09:00"
+    },
+    {
+      "id": "frederic_fuzakete_night_2027_pia_prereserve_1020",
+      "tourId": "frederic_fuzakete_night_2027",
+      "type": "チケットぴあ 先行抽選プレリザーブ",
+      "entryStartAt": "2026-10-20T11:00:00+09:00",
+      "entryEndAt": "2026-11-01T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_fuzakete_night_2027_naruto_0221"
+      ],
+      "source": "system",
+      "sourceUrl": "https://w.pia.jp/t/su-xing-cyu-fes2027/",
+      "lastVerifiedAt": "2026-11-01T01:00:00+09:00"
+    },
+    {
+      "id": "frederic_fuzakete_night_2027_eplus_preorder_1020",
+      "tourId": "frederic_fuzakete_night_2027",
+      "type": "イープラス 抽選プレオーダー",
+      "entryStartAt": "2026-10-20T12:00:00+09:00",
+      "entryEndAt": "2026-10-28T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_fuzakete_night_2027_naruto_0221"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/su-xing-cyu/",
+      "lastVerifiedAt": "2026-11-01T01:00:00+09:00"
+    },
+    {
+      "id": "frederic_kanaboon_jack_in_tour_2027_fc_second_1028",
+      "tourId": "frederic_kanaboon_jack_in_tour_2027",
+      "type": "KANA-BOON公式FC「カナブーンメイト」2次先行（各日2枚まで）",
+      "entryStartAt": "2026-10-28T18:00:00+09:00",
+      "entryEndAt": "2026-11-03T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_kanaboon_jack_in_tour_2027_ex_theater_0325",
+        "frederic_kanaboon_jack_in_tour_2027_ex_theater_0326"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sp.kanaboon.jp/feature/jackin2027",
+      "lastVerifiedAt": "2026-11-01T01:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
