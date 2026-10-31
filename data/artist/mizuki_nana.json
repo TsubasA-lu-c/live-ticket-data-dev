@@ -46,6 +46,17 @@
       "source": "system",
       "sourceUrl": "https://www.mizukinana.jp/schedule/",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "mizuki_nana_summer_tour_2027",
+      "artistId": "mizuki_nana",
+      "title": "水樹奈々 2027年夏ツアー（正式名称未発表）",
+      "startDate": "2027-07-31T00:00:00+09:00",
+      "endDate": "2027-10-24T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.mizukinana.jp/news/",
+      "lastVerifiedAt": "2026-10-31T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -108,6 +119,76 @@
       "source": "system",
       "sourceUrl": "https://www.city.ichikawa.lg.jp/page/72572.html",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "mizuki_nana_summer_tour_2027_20270731",
+      "tourId": "mizuki_nana_summer_tour_2027",
+      "venue": "ワールド記念ホール",
+      "performanceDate": "2027-07-31",
+      "performanceAt": "2027-07-31T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "水樹奈々 2027年夏ツアー（正式名称未発表）",
+      "source": "system",
+      "sourceUrl": "https://www.mizukinana.jp/news/",
+      "lastVerifiedAt": "2026-10-31T00:00:00+09:00"
+    },
+    {
+      "id": "mizuki_nana_summer_tour_2027_20270801",
+      "tourId": "mizuki_nana_summer_tour_2027",
+      "venue": "ワールド記念ホール",
+      "performanceDate": "2027-08-01",
+      "performanceAt": "2027-08-01T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "水樹奈々 2027年夏ツアー（正式名称未発表）",
+      "source": "system",
+      "sourceUrl": "https://www.mizukinana.jp/news/",
+      "lastVerifiedAt": "2026-10-31T00:00:00+09:00"
+    },
+    {
+      "id": "mizuki_nana_summer_tour_2027_20271022",
+      "tourId": "mizuki_nana_summer_tour_2027",
+      "venue": "有明アリーナ",
+      "performanceDate": "2027-10-22",
+      "performanceAt": "2027-10-22T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "水樹奈々 2027年夏ツアー（正式名称未発表）",
+      "source": "system",
+      "sourceUrl": "https://www.mizukinana.jp/news/",
+      "lastVerifiedAt": "2026-10-31T00:00:00+09:00"
+    },
+    {
+      "id": "mizuki_nana_summer_tour_2027_20271023",
+      "tourId": "mizuki_nana_summer_tour_2027",
+      "venue": "有明アリーナ",
+      "performanceDate": "2027-10-23",
+      "performanceAt": "2027-10-23T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "水樹奈々 2027年夏ツアー（正式名称未発表）",
+      "source": "system",
+      "sourceUrl": "https://www.mizukinana.jp/news/",
+      "lastVerifiedAt": "2026-10-31T00:00:00+09:00"
+    },
+    {
+      "id": "mizuki_nana_summer_tour_2027_20271024",
+      "tourId": "mizuki_nana_summer_tour_2027",
+      "venue": "有明アリーナ",
+      "performanceDate": "2027-10-24",
+      "performanceAt": "2027-10-24T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "水樹奈々 2027年夏ツアー（正式名称未発表）",
+      "source": "system",
+      "sourceUrl": "https://www.mizukinana.jp/news/",
+      "lastVerifiedAt": "2026-10-31T00:00:00+09:00"
     }
   ],
   "lotteries": [
