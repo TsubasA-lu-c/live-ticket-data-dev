@@ -124,6 +124,17 @@
       "source": "system",
       "sourceUrl": "https://ini-official.com/news/detail/4540",
       "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "ini_nishi_hiroto_otrn_sound_lab_2026_1101",
+      "artistId": "ini",
+      "title": "【西洸人】OTRN [Sound Lab]",
+      "startDate": "2026-11-01T00:00:00+09:00",
+      "endDate": "2026-11-01T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://ini-official.com/news/detail/4485",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -420,6 +431,21 @@
       "eventName": "Thank YOU From INI ～5th Anniversary Fan Meeting～",
       "source": "system",
       "sourceUrl": "https://ini-official.com/news/detail/4540",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "ini_nishi_hiroto_otrn_sound_lab_2026_1101_yokohama",
+      "tourId": "ini_nishi_hiroto_otrn_sound_lab_2026_1101",
+      "venue": "横浜BUNTAI",
+      "performanceAt": "2026-11-01T12:00:00+09:00",
+      "performanceDate": "2026-11-01",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "fes",
+      "kindReviewed": true,
+      "eventName": "OTRN [Sound Lab]／西洸人（INI）出演",
+      "source": "system",
+      "sourceUrl": "https://jetmusic-official.com/uncategorized/otrn-sound-lab/",
       "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
     }
   ],
