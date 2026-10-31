@@ -43,6 +43,26 @@
       "source": "system",
       "sourceUrl": "https://urashimasakatasen.com/live/",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "urashimasakatasen_senra_calea_2026",
+      "artistId": "urashimasakatasen",
+      "title": "【センラ】SENRA LIVE TOUR 2026 Calea",
+      "startDate": "2026-11-03T00:00:00+09:00",
+      "endDate": "2026-11-27T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席（会場別レプリカチケット特典付）",
+          "amount": 7500
+        },
+        {
+          "label": "着席指定席（神奈川公演のみ）",
+          "amount": 7500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://urashimasakatasen.com/senra/",
+      "lastVerifiedAt": "2026-11-01T00:50:26+09:00"
     }
   ],
   "performances": [
@@ -429,6 +449,124 @@
       "source": "system",
       "sourceUrl": "https://urashimasakatasen.com/live/",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "urashimasakatasen_senra_calea_2026_niigata_1103",
+      "tourId": "urashimasakatasen_senra_calea_2026",
+      "venue": "新潟県民会館 大ホール",
+      "performanceDate": "2026-11-03",
+      "performanceAt": "2026-11-03T17:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SENRA LIVE TOUR 2026 Calea",
+      "source": "system",
+      "sourceUrl": "https://www.niigata-kenminkaikan.jp/event/",
+      "lastVerifiedAt": "2026-11-01T00:50:26+09:00"
+    },
+    {
+      "id": "urashimasakatasen_senra_calea_2026_aichi_1105",
+      "tourId": "urashimasakatasen_senra_calea_2026",
+      "venue": "刈谷市総合文化センター 大ホール",
+      "performanceDate": "2026-11-05",
+      "performanceAt": "2026-11-05T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SENRA LIVE TOUR 2026 Calea",
+      "source": "system",
+      "sourceUrl": "https://urashimasakatasen.com/senra/",
+      "lastVerifiedAt": "2026-11-01T00:50:26+09:00",
+      "performanceTimeEstimated": true
+    },
+    {
+      "id": "urashimasakatasen_senra_calea_2026_osaka_1107",
+      "tourId": "urashimasakatasen_senra_calea_2026",
+      "venue": "大阪国際会議場（グランキューブ大阪）メインホール",
+      "performanceDate": "2026-11-07",
+      "performanceAt": "2026-11-07T17:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SENRA LIVE TOUR 2026 Calea",
+      "source": "system",
+      "sourceUrl": "https://ftp.kyodo-osaka.co.jp/search/detail/12842",
+      "lastVerifiedAt": "2026-11-01T00:50:26+09:00"
+    },
+    {
+      "id": "urashimasakatasen_senra_calea_2026_kanagawa_1112",
+      "tourId": "urashimasakatasen_senra_calea_2026",
+      "venue": "鎌倉芸術館 大ホール",
+      "performanceDate": "2026-11-12",
+      "performanceAt": "2026-11-12T18:00:00+09:00",
+      "doorOpenAt": "2026-11-12T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "SENRA LIVE TOUR 2026 Calea",
+      "source": "system",
+      "sourceUrl": "https://diskgarage.com/ticket/detail/102348",
+      "lastVerifiedAt": "2026-11-01T00:50:26+09:00"
+    },
+    {
+      "id": "urashimasakatasen_senra_calea_2026_miyagi_1114",
+      "tourId": "urashimasakatasen_senra_calea_2026",
+      "venue": "仙台サンプラザホール",
+      "performanceDate": "2026-11-14",
+      "performanceAt": "2026-11-14T17:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SENRA LIVE TOUR 2026 Calea",
+      "source": "system",
+      "sourceUrl": "https://www.kyodo-tohoku.com/artist/896/",
+      "lastVerifiedAt": "2026-11-01T00:50:26+09:00"
+    },
+    {
+      "id": "urashimasakatasen_senra_calea_2026_ishikawa_1117",
+      "tourId": "urashimasakatasen_senra_calea_2026",
+      "venue": "金沢歌劇座",
+      "performanceDate": "2026-11-17",
+      "performanceAt": "2026-11-17T18:00:00+09:00",
+      "doorOpenAt": "2026-11-17T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "SENRA LIVE TOUR 2026 Calea",
+      "source": "system",
+      "sourceUrl": "https://www.kagekiza.gr.jp/event/6863",
+      "lastVerifiedAt": "2026-11-01T00:50:26+09:00"
+    },
+    {
+      "id": "urashimasakatasen_senra_calea_2026_nara_1119",
+      "tourId": "urashimasakatasen_senra_calea_2026",
+      "venue": "なら100年会館 大ホール",
+      "performanceDate": "2026-11-19",
+      "performanceAt": "2026-11-19T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SENRA LIVE TOUR 2026 Calea",
+      "source": "system",
+      "sourceUrl": "https://www.nara100.com/calendar/l_event2.html",
+      "lastVerifiedAt": "2026-11-01T00:50:26+09:00"
+    },
+    {
+      "id": "urashimasakatasen_senra_calea_2026_fukuoka_1123",
+      "tourId": "urashimasakatasen_senra_calea_2026",
+      "venue": "福岡市民ホール 大ホール",
+      "performanceDate": "2026-11-23",
+      "performanceAt": "2026-11-23T17:00:00+09:00",
+      "doorOpenAt": "2026-11-23T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "SENRA LIVE TOUR 2026 Calea",
+      "source": "system",
+      "sourceUrl": "https://www.kyodo-west.co.jp/schedule.php?m=11",
+      "lastVerifiedAt": "2026-11-01T00:50:26+09:00"
+    },
+    {
+      "id": "urashimasakatasen_senra_calea_2026_tokyo_1127",
+      "tourId": "urashimasakatasen_senra_calea_2026",
+      "venue": "日本武道館",
+      "performanceDate": "2026-11-27",
+      "performanceAt": "2026-11-27T17:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "SENRA LIVE TOUR 2026 Calea -non defective-",
+      "source": "system",
+      "sourceUrl": "https://diskgarage.com/search?kw_venue=%E6%97%A5%E6%9C%AC%E6%AD%A6%E9%81%93%E9%A4%A8",
+      "lastVerifiedAt": "2026-11-01T00:50:26+09:00"
     }
   ],
   "lotteries": [
@@ -575,6 +713,30 @@
       "sourceUrl": "https://eplus.jp/sf/detail/1067170001",
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "urashimasakatasen_senra_calea_2026_eplus_fastest_july14_july26",
+      "tourId": "urashimasakatasen_senra_calea_2026",
+      "type": "チケット最速先行（抽選・会場別レプリカチケット特典付）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-07-26T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "urashimasakatasen_senra_calea_2026_niigata_1103",
+        "urashimasakatasen_senra_calea_2026_aichi_1105",
+        "urashimasakatasen_senra_calea_2026_osaka_1107",
+        "urashimasakatasen_senra_calea_2026_kanagawa_1112",
+        "urashimasakatasen_senra_calea_2026_miyagi_1114",
+        "urashimasakatasen_senra_calea_2026_ishikawa_1117",
+        "urashimasakatasen_senra_calea_2026_nara_1119",
+        "urashimasakatasen_senra_calea_2026_fukuoka_1123",
+        "urashimasakatasen_senra_calea_2026_tokyo_1127"
+      ],
+      "source": "system",
+      "sourceUrl": "https://urashimasakatasen.com/senra/",
+      "lastVerifiedAt": "2026-11-01T00:50:26+09:00"
     }
   ],
   "appleMusicTracks": [
