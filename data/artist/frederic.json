@@ -1209,6 +1209,22 @@
       "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_preorder_0117_oct30",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "type": "プレオーダー（1月17日公演・10/30開始）",
+      "entryStartAt": "2026-10-30T18:00:00+09:00",
+      "entryEndAt": "2026-11-08T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_haneda_0117"
+      ],
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T15:00:25.177+09:00"
     }
   ],
   "appleMusicTracks": [
