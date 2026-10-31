@@ -1235,6 +1235,24 @@
       "sourceUrl": "https://www.aiko.com/live/",
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "aiko_llp26_2026_2027_official_2nd_oct22_added",
+      "tourId": "aiko_llp26_2026_2027",
+      "type": "オフィシャル2次先行（大阪城ホール・日本武道館追加公演）",
+      "entryStartAt": "2026-10-22T12:00:00+09:00",
+      "entryEndAt": "2026-11-01T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aiko_llp26_2026_2027_osaka_1231",
+        "aiko_llp26_2026_2027_tokyo_add_0217",
+        "aiko_llp26_2026_2027_tokyo_add_0218"
+      ],
+      "sourceUrl": "https://www.aiko.com/live/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T15:00:25.177+09:00"
     }
   ],
   "appleMusicTracks": [

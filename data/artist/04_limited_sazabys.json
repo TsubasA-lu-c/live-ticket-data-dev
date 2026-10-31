@@ -713,6 +713,17 @@
       "source": "system",
       "sourceUrl": "https://www.merryrockparade.jp/artist.html",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_one_man_tour_2026_kt_zepp_yokohama_1116",
+      "tourId": "04_limited_sazabys_one_man_tour_2026",
+      "venue": "KT Zepp Yokohama",
+      "performanceAt": "2026-11-16T19:00:00+09:00",
+      "doorOpenAt": "2026-11-16T18:00:00+09:00",
+      "kind": "oneman",
+      "sourceUrl": "https://www.04limitedsazabys.com/feature/view",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T15:00:25.177+09:00"
     }
   ],
   "lotteries": [
@@ -1013,6 +1024,22 @@
       "source": "system",
       "sourceUrl": "https://www.merryrockparade.jp/ticket.html",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_one_man_tour_2026_yokohama_1116_general_oct24",
+      "tourId": "04_limited_sazabys_one_man_tour_2026",
+      "type": "一般発売（11月16日横浜振替公演・先着）",
+      "entryStartAt": "2026-10-24T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "04_limited_sazabys_one_man_tour_2026_kt_zepp_yokohama_1116"
+      ],
+      "sourceUrl": "https://www.04limitedsazabys.com/feature/view",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T15:00:25.177+09:00"
     }
   ],
   "appleMusicTracks": [

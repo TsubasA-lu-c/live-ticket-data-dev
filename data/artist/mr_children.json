@@ -1187,6 +1187,23 @@
       "tourId": "mr_children_saturday_park_2026",
       "paymentStartAt": null,
       "paymentEndAt": null
+    },
+    {
+      "id": "mr_children_saturday_park_2026_final_hiroshima_1121_1122",
+      "tourId": "mr_children_saturday_park_2026",
+      "type": "最終抽選（広島・広島グリーンアリーナ）",
+      "entryStartAt": "2026-10-30T19:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": "2026-11-20T20:30:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mr_children_saturday_park_2026_hiroshima_1121",
+        "mr_children_saturday_park_2026_hiroshima_1122"
+      ],
+      "sourceUrl": "https://tour.mrchildren.jp/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T15:00:25.177+09:00"
     }
   ],
   "appleMusicTracks": [
