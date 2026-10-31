@@ -455,6 +455,34 @@
       "sourceUrl": "https://monaki.jp/live_information/detail/44491",
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "monaki_countdown_japan_2627_1227",
+      "artistId": "monaki",
+      "title": "COUNTDOWN JAPAN 26/27",
+      "startDate": "2026-12-27T00:00:00+09:00",
+      "endDate": "2026-12-27T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/news/detail/94337",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_yamafes_2027_osaka_0226",
+      "artistId": "monaki",
+      "title": "三代目 J SOUL BROTHERS 山下健二郎のZERO BASE presents 超★山フェス2027 ～SUPER WEST～",
+      "startDate": "2027-02-26T00:00:00+09:00",
+      "endDate": "2027-02-26T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 11000,
+          "currency": "JPY"
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/news/detail/94770",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -848,6 +876,36 @@
       "performanceTimeEstimated": true,
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "monaki_countdown_japan_2627_1227_performance",
+      "tourId": "monaki_countdown_japan_2627_1227",
+      "venue": "幕張メッセ国際展示場",
+      "performanceAt": "2026-12-27T12:00:00+09:00",
+      "performanceDate": "2026-12-27",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "fes",
+      "kindReviewed": true,
+      "eventName": "COUNTDOWN JAPAN 26/27",
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/news/detail/94337",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_yamafes_2027_osaka_0226_performance",
+      "tourId": "monaki_yamafes_2027_osaka_0226",
+      "venue": "大阪国際会議場（グランキューブ大阪）メインホール",
+      "performanceAt": "2027-02-26T12:00:00+09:00",
+      "performanceDate": "2027-02-26",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "fes",
+      "kindReviewed": true,
+      "eventName": "三代目 J SOUL BROTHERS 山下健二郎のZERO BASE presents 超★山フェス2027 ～SUPER WEST～",
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/news/detail/94770",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
     }
   ],
   "lotteries": [
