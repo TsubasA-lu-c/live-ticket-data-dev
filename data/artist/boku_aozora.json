@@ -362,7 +362,9 @@
       "startDate": "2027-01-16T00:00:00+09:00",
       "endDate": "2027-01-16T00:00:00+09:00",
       "prices": null,
-      "sourceUrl": "https://bokuao.com/news/detail/6080"
+      "sourceUrl": "https://bokuao.com/news/detail/6080",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T15:43:17.539+09:00"
     }
   ],
   "performances": [
@@ -1103,7 +1105,8 @@
       "kind": "fes",
       "eventName": "Mythフェス-アイドル花火- SATELLITE vol.1 僕青出演",
       "sourceUrl": "https://bokuao.com/news/detail/6080",
-      "performanceTimeEstimated": true
+      "performanceTimeEstimated": true,
+      "source": "system"
     }
   ],
   "lotteries": [

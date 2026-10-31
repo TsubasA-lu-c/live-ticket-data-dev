@@ -57,7 +57,9 @@
           "amount": 15000
         }
       ],
-      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/587971"
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/587971",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T17:11:52.008+09:00"
     }
   ],
   "performances": [
@@ -494,7 +496,8 @@
       "venue": "幕張メッセ国際展示場1〜11ホール・イベントホール",
       "kind": "fes",
       "eventName": "COUNTDOWN JAPAN 26/27 中島健人出演",
-      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/587971"
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/587971",
+      "source": "system"
     }
   ],
   "lotteries": [
@@ -612,7 +615,8 @@
       "performanceIds": [
         "nakajima_kento_countdown_japan_2627_1230"
       ],
-      "sourceUrl": "https://countdownjapan.jp/2627/ticket/"
+      "sourceUrl": "https://countdownjapan.jp/2627/ticket/",
+      "source": "system"
     }
   ],
   "appleMusicTracks": [

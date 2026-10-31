@@ -573,7 +573,9 @@
       "startDate": "2026-11-01T00:00:00+09:00",
       "endDate": "2026-11-01T00:00:00+09:00",
       "prices": null,
-      "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/43493"
+      "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/43493",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T17:07:29.343+09:00"
     }
   ],
   "performances": [
@@ -1609,7 +1611,8 @@
       "kind": "fes",
       "eventName": "atmoscon 2026 3rd LIVE STAGE CANDY TUNE出演",
       "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/43493",
-      "performanceTimeEstimated": true
+      "performanceTimeEstimated": true,
+      "source": "system"
     }
   ],
   "lotteries": [

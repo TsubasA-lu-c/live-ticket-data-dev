@@ -52,7 +52,9 @@
       "startDate": "2026-12-16T00:00:00+09:00",
       "endDate": "2026-12-16T00:00:00+09:00",
       "prices": null,
-      "sourceUrl": "https://tobe-official.jp/artists/imp/news/2455?page=1"
+      "sourceUrl": "https://tobe-official.jp/artists/imp/news/2455?page=1",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T15:40:57.323+09:00"
     }
   ],
   "performances": [
@@ -102,7 +104,8 @@
       "kind": "oneman",
       "eventName": "IMP. 3rd ALBUM PERIOD. SPECIAL SHOWCASE 第1回公演",
       "sourceUrl": "https://tobe-official.jp/artists/imp/news/2455?page=1",
-      "performanceTimeEstimated": true
+      "performanceTimeEstimated": true,
+      "source": "system"
     },
     {
       "id": "imp_period_special_showcase_2026_1216_slot2",
@@ -114,7 +117,8 @@
       "kind": "oneman",
       "eventName": "IMP. 3rd ALBUM PERIOD. SPECIAL SHOWCASE 第2回公演",
       "sourceUrl": "https://tobe-official.jp/artists/imp/news/2455?page=1",
-      "performanceTimeEstimated": true
+      "performanceTimeEstimated": true,
+      "source": "system"
     },
     {
       "id": "imp_period_special_showcase_2026_1216_slot3",
@@ -126,7 +130,8 @@
       "kind": "oneman",
       "eventName": "IMP. 3rd ALBUM PERIOD. SPECIAL SHOWCASE 第3回公演",
       "sourceUrl": "https://tobe-official.jp/artists/imp/news/2455?page=1",
-      "performanceTimeEstimated": true
+      "performanceTimeEstimated": true,
+      "source": "system"
     }
   ],
   "lotteries": [
@@ -144,7 +149,8 @@
         "imp_period_special_showcase_2026_1216_slot2",
         "imp_period_special_showcase_2026_1216_slot3"
       ],
-      "sourceUrl": "https://tobe-official.jp/artists/imp/news/2455?page=1"
+      "sourceUrl": "https://tobe-official.jp/artists/imp/news/2455?page=1",
+      "source": "system"
     }
   ],
   "appleMusicTracks": [

@@ -134,7 +134,9 @@
           "amount": 14000
         }
       ],
-      "sourceUrl": "https://www.beams.co.jp/news/5049/"
+      "sourceUrl": "https://www.beams.co.jp/news/5049/",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T15:22:16.761+09:00"
     }
   ],
   "performances": [
@@ -861,7 +863,8 @@
       "venue": "国立代々木競技場 代々木第一体育館",
       "kind": "fes",
       "eventName": "BEAMS MUSIC FESTIVAL『BE FES』",
-      "sourceUrl": "https://www.beams.co.jp/news/5049/"
+      "sourceUrl": "https://www.beams.co.jp/news/5049/",
+      "source": "system"
     }
   ],
   "lotteries": [
@@ -1148,7 +1151,8 @@
       "performanceIds": [
         "spitz_fes_beams_be_fes_2027_yoyogi_0206"
       ],
-      "sourceUrl": "https://www.beams.co.jp/news/5049/"
+      "sourceUrl": "https://www.beams.co.jp/news/5049/",
+      "source": "system"
     },
     {
       "id": "spitz_jamboree_kettle_2027_spitzbergen_fc_20261028",
@@ -1189,7 +1193,8 @@
         "spitz_jamboree_tour_2027_kettle_0619",
         "spitz_jamboree_tour_2027_kettle_0620"
       ],
-      "sourceUrl": "https://spitz-web.com/maintenance.html"
+      "sourceUrl": "https://spitz-web.com/maintenance.html",
+      "source": "system"
     }
   ],
   "appleMusicTracks": [
