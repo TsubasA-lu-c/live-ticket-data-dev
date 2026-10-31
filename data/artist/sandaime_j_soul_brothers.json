@@ -597,6 +597,36 @@
       "source": "system",
       "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/44706/",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_jsb_forever_one_grand_finale_2026_lastminute_official_fc_1029",
+      "tourId": "sandaime_j_soul_brothers_jsb_forever_one_grand_finale_2026",
+      "type": "三代目 J SOUL BROTHERS FC直前販売（先着）",
+      "entryStartAt": "2026-10-29T18:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_jsb_forever_one_grand_finale_2026_osaka_1031",
+        "sandaime_j_soul_brothers_jsb_forever_one_grand_finale_2026_osaka_1101"
+      ],
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/news/46943/"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_jsb_forever_one_grand_finale_2026_lastminute_ticketbook_1029",
+      "tourId": "sandaime_j_soul_brothers_jsb_forever_one_grand_finale_2026",
+      "type": "ticketbook直前販売（先着）",
+      "entryStartAt": "2026-10-29T19:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_jsb_forever_one_grand_finale_2026_osaka_1031",
+        "sandaime_j_soul_brothers_jsb_forever_one_grand_finale_2026_osaka_1101"
+      ],
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/news/46943/"
     }
   ],
   "appleMusicTracks": [

@@ -697,6 +697,20 @@
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
       "tourId": "wanima_bamboom_night_2026"
+    },
+    {
+      "id": "wanima_bamboom_night_2026_official_first_20261017",
+      "tourId": "wanima_bamboom_night_2026",
+      "type": "オフィシャル一次先行（抽選）",
+      "entryStartAt": "2026-10-17T15:00:00+09:00",
+      "entryEndAt": "2026-10-26T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "wanima_bamboom_night_2026_tokyo_1215"
+      ],
+      "sourceUrl": "https://wanima.net/contents/1119943"
     }
   ],
   "appleMusicTracks": [
