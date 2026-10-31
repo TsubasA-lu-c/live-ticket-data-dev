@@ -797,6 +797,21 @@
       "sourceUrl": "https://www.sonymusic.co.jp/artist/lisa/info/585159",
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "lisa_lace_up_2026_resale_hokkaido_20261029",
+      "tourId": "lisa_lace_up_2026",
+      "type": "e+一般リセール受付（北海道11/13・11/15／抽選）",
+      "entryStartAt": "2026-10-29T12:00:00+09:00",
+      "entryEndAt": "2026-11-03T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "lisa_lace_up_2026_hokkaido_1113",
+        "lisa_lace_up_2026_hokkaido_1115"
+      ],
+      "sourceUrl": "https://eplus.jp/lisa2026resale/"
     }
   ],
   "appleMusicTracks": [
