@@ -284,6 +284,28 @@
       "source": "system",
       "sourceUrl": "https://saucydog.jp/news/5/?page=2&range=future_event_end_time&sort=asc",
       "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "saucy_dog_ishihara_ska_showdown_2027_0223",
+      "artistId": "saucy_dog",
+      "title": "【石原慎也】東京スカパラダイスオーケストラ ARENA TOUR 2027［SKA］SHOWDOWN Episode2（ゲスト出演）",
+      "startDate": "2027-02-23T00:00:00+09:00",
+      "endDate": "2027-02-23T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 9900,
+          "currency": "JPY"
+        },
+        {
+          "label": "指定席学生チケット",
+          "amount": 6600,
+          "currency": "JPY"
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://live.tokyoska.net/arenatour2027/",
+      "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
     }
   ],
   "performances": [
@@ -937,6 +959,21 @@
       "source": "system",
       "sourceUrl": "https://saucydog.jp/news/5/?page=2&range=future_event_end_time&sort=asc",
       "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "saucy_dog_ishihara_ska_showdown_2027_0223_nagoya",
+      "tourId": "saucy_dog_ishihara_ska_showdown_2027_0223",
+      "performanceDate": "2027-02-23",
+      "venue": "クロコくんホール（日本ガイシホール）",
+      "performanceAt": "2027-02-23T18:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": "2027-02-23T17:00:00+09:00",
+      "kind": "taiban",
+      "kindReviewed": true,
+      "eventName": "石原慎也(Saucy Dog) ゲスト出演：東京スカパラダイスオーケストラ ARENA TOUR 2027",
+      "source": "system",
+      "sourceUrl": "https://live.tokyoska.net/arenatour2027/",
+      "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
     }
   ],
   "lotteries": [
