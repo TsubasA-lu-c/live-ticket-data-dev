@@ -53,6 +53,17 @@
       "source": "system",
       "sourceUrl": "https://xgalx.com/en/xg/schedule/detail.php?id=1117307",
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00"
+    },
+    {
+      "id": "xg_spotify_on_stage_tokyo_2026",
+      "artistId": "xg",
+      "title": "Spotify On Stage Tokyo 2026 -10th Anniversary Special-",
+      "startDate": "2026-12-20T00:00:00+09:00",
+      "endDate": "2026-12-20T00:00:00+09:00",
+      "prices": null,
+      "sourceUrl": "https://xgalx.com/xg/news/detail.php?id=1136661",
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:39:12+09:00"
     }
   ],
   "performances": [
@@ -472,9 +483,10 @@
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
-      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
-      "performanceTimeEstimated": true
+      "sourceUrl": "https://xgalx.com/xg/news/detail.php?id=1136489",
+      "lastVerifiedAt": "2026-10-31T18:39:12+09:00",
+      "performanceTimeEstimated": true,
+      "eventStatus": "cancelled"
     },
     {
       "id": "xg_world_tour_the_core_2026_mexico_city_1122",
@@ -486,9 +498,10 @@
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
-      "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
-      "performanceTimeEstimated": true
+      "sourceUrl": "https://xgalx.com/xg/news/detail.php?id=1136489",
+      "lastVerifiedAt": "2026-10-31T18:39:12+09:00",
+      "performanceTimeEstimated": true,
+      "eventStatus": "cancelled"
     },
     {
       "id": "xg_world_tour_the_core_final_2027_tokyo_0210",
@@ -565,6 +578,20 @@
       "lastVerifiedAt": "2026-08-28T10:03:00+09:00",
       "performanceDate": "2026-09-12",
       "performanceTimeEstimated": true
+    },
+    {
+      "id": "xg_spotify_on_stage_tokyo_2026_1220",
+      "tourId": "xg_spotify_on_stage_tokyo_2026",
+      "performanceDate": "2026-12-20",
+      "performanceAt": "2026-12-20T12:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "東京ガーデンシアター",
+      "kind": "fes",
+      "eventName": "Spotify On Stage Tokyo 2026 XG出演",
+      "sourceUrl": "https://xgalx.com/xg/news/detail.php?id=1136661",
+      "performanceTimeEstimated": true,
+      "source": "system",
+      "lastVerifiedAt": "2026-10-31T18:39:12+09:00"
     }
   ],
   "lotteries": [
