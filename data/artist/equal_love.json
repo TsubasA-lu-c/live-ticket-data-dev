@@ -38,7 +38,16 @@
       "title": "=LOVE in TOKYO DOME",
       "startDate": "2027-01-19T00:00:00+09:00",
       "endDate": "2027-01-20T00:00:00+09:00",
-      "prices": null,
+      "prices": [
+        {
+          "label": "プレミアムチケット",
+          "amount": 29800
+        },
+        {
+          "label": "通常チケット",
+          "amount": 13000
+        }
+      ],
       "source": "system",
       "sourceUrl": "https://equal-love.jp/news/detail/11613",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
@@ -1233,6 +1242,21 @@
       "source": "system",
       "sourceUrl": "https://equal-love.jp/news/detail/11885",
       "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "equal_love_tokyo_dome_2027_fc_oct26",
+      "tourId": "equal_love_tokyo_dome_2027",
+      "type": "FC会員対象抽選先行（550円コース）",
+      "entryStartAt": "2026-10-26T18:00:00+09:00",
+      "entryEndAt": "2026-11-01T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "equal_love_tokyo_dome_2027_dome_0119",
+        "equal_love_tokyo_dome_2027_dome_0120"
+      ],
+      "sourceUrl": "https://equal-love.jp/news/detail/12299"
     }
   ],
   "appleMusicTracks": [
