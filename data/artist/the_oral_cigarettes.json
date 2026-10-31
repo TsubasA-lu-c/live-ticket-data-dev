@@ -198,6 +198,42 @@
         }
       ],
       "sourceUrl": "https://blazeupnagasaki.net/"
+    },
+    {
+      "id": "the_oral_cigarettes_neverland_forever_2026",
+      "artistId": "the_oral_cigarettes",
+      "title": "NEVERLAND 30TH ANNIVERSARY \"NEVERLAND FOREVER\"",
+      "startDate": "2026-12-15T00:00:00+09:00",
+      "endDate": "2026-12-15T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "オールスタンディング",
+          "amount": 6000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/list/4?page=2",
+      "lastVerifiedAt": "2026-10-31T21:25:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_kanaboon_jack_in_tour_2027",
+      "artistId": "the_oral_cigarettes",
+      "title": "KANA-BOON「Jack in tour 2027」",
+      "startDate": "2027-02-27T00:00:00+09:00",
+      "endDate": "2027-02-28T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1Fスタンディング",
+          "amount": 5800
+        },
+        {
+          "label": "指定席",
+          "amount": 6300
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/list/4?page=2",
+      "lastVerifiedAt": "2026-10-31T21:25:00+09:00"
     }
   ],
   "performances": [
@@ -706,6 +742,42 @@
       "eventName": "BLAZE UP NAGASAKI 2026 THE ORAL CIGARETTES出演",
       "sourceUrl": "https://theoralcigarettes.com/news/list/4",
       "performanceTimeEstimated": true
+    },
+    {
+      "id": "the_oral_cigarettes_neverland_forever_2026_nara_1215",
+      "tourId": "the_oral_cigarettes_neverland_forever_2026",
+      "venue": "奈良 Live House NEVERLAND",
+      "performanceAt": "2026-12-15T19:00:00+09:00",
+      "doorOpenAt": "2026-12-15T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "NEVERLAND 30TH ANNIVERSARY \"NEVERLAND FOREVER\"",
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/list/4?page=2",
+      "lastVerifiedAt": "2026-10-31T21:25:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_kanaboon_jack_in_tour_2027_osaka_0227",
+      "tourId": "the_oral_cigarettes_kanaboon_jack_in_tour_2027",
+      "venue": "なんばHatch",
+      "performanceAt": "2027-02-27T18:00:00+09:00",
+      "doorOpenAt": "2027-02-27T17:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "KANA-BOON「Jack in tour 2027」 w/ KANA-BOON",
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/list/4?page=2",
+      "lastVerifiedAt": "2026-10-31T21:25:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_kanaboon_jack_in_tour_2027_osaka_0228",
+      "tourId": "the_oral_cigarettes_kanaboon_jack_in_tour_2027",
+      "venue": "なんばHatch",
+      "performanceAt": "2027-02-28T18:00:00+09:00",
+      "doorOpenAt": "2027-02-28T17:00:00+09:00",
+      "kind": "taiban",
+      "eventName": "KANA-BOON「Jack in tour 2027」 w/ KANA-BOON",
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/list/4?page=2",
+      "lastVerifiedAt": "2026-10-31T21:25:00+09:00"
     }
   ],
   "lotteries": [
@@ -814,6 +886,22 @@
         "the_oral_cigarettes_blaze_up_nagasaki_2026_1206"
       ],
       "sourceUrl": "https://blazeupnagasaki.net/"
+    },
+    {
+      "id": "the_oral_cigarettes_neverland_forever_2026_presale_1022",
+      "tourId": "the_oral_cigarettes_neverland_forever_2026",
+      "type": "一般先行受付",
+      "entryStartAt": "2026-10-22T12:00:00+09:00",
+      "entryEndAt": "2026-10-28T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "the_oral_cigarettes_neverland_forever_2026_nara_1215"
+      ],
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/list/4?page=2",
+      "lastVerifiedAt": "2026-10-31T21:25:00+09:00"
     }
   ],
   "appleMusicTracks": [
