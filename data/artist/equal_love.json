@@ -358,6 +358,17 @@
       "source": "system",
       "sourceUrl": "https://equal-love.jp/feature/specialsite_sanamorohashisolo",
       "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "equal_love_nagoya_dome_2027",
+      "artistId": "equal_love",
+      "title": "＝LOVE DOME LIVE in NAGOYA「全ては＝LOVE」",
+      "startDate": "2027-02-24T00:00:00+09:00",
+      "endDate": "2027-02-25T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/news/detail/12275",
+      "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
     }
   ],
   "performances": [
@@ -1000,6 +1011,34 @@
       "source": "system",
       "sourceUrl": "https://equal-love.jp/feature/specialsite_sanamorohashisolo",
       "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "equal_love_nagoya_dome_2027_24",
+      "tourId": "equal_love_nagoya_dome_2027",
+      "performanceDate": "2027-02-24",
+      "venue": "バンテリンドーム ナゴヤ",
+      "performanceAt": "2027-02-24T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "＝LOVE DOME LIVE in NAGOYA「全ては＝LOVE」",
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/news/detail/12275",
+      "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
+    },
+    {
+      "id": "equal_love_nagoya_dome_2027_25",
+      "tourId": "equal_love_nagoya_dome_2027",
+      "performanceDate": "2027-02-25",
+      "venue": "バンテリンドーム ナゴヤ",
+      "performanceAt": "2027-02-25T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "＝LOVE DOME LIVE in NAGOYA「全ては＝LOVE」",
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/news/detail/12275",
+      "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
     }
   ],
   "lotteries": [
@@ -1319,6 +1358,40 @@
       "source": "system",
       "sourceUrl": "https://equal-love.jp/news/detail/12253",
       "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "equal_love_nagoya_dome_2027_fc_fastest",
+      "tourId": "equal_love_nagoya_dome_2027",
+      "type": "＝LOVE DOME LIVE in NAGOYA FC最速先行（会員＋会員）",
+      "entryStartAt": "2026-11-20T18:00:00+09:00",
+      "entryEndAt": "2026-11-29T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "equal_love_nagoya_dome_2027_0224",
+        "equal_love_nagoya_dome_2027_0225"
+      ],
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/news/detail/12275",
+      "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
+    },
+    {
+      "id": "equal_love_nagoya_dome_2027_fc_advance",
+      "tourId": "equal_love_nagoya_dome_2027",
+      "type": "＝LOVE DOME LIVE in NAGOYA FC先行",
+      "entryStartAt": "2026-12-05T17:30:00+09:00",
+      "entryEndAt": "2026-12-13T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "equal_love_nagoya_dome_2027_0224",
+        "equal_love_nagoya_dome_2027_0225"
+      ],
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/news/detail/12275",
+      "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
     }
   ],
   "appleMusicTracks": [
