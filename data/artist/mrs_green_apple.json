@@ -1085,6 +1085,49 @@
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/news/detail/23280",
       "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "mrs_shadows_2026_tokyo_lastminute_1026",
+      "tourId": "mrs_green_apple_ringojam_shadows_2026",
+      "type": "Ringo Jam東京直前追加先着",
+      "entryStartAt": "2026-10-26T14:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mrs_green_apple_ringojam_shadows_2026_tokyo_1028",
+        "mrs_green_apple_ringojam_shadows_2026_tokyo_1029"
+      ],
+      "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows"
+    },
+    {
+      "id": "mrs_shadows_2026_tokyo_trade_1028",
+      "tourId": "mrs_green_apple_ringojam_shadows_2026",
+      "type": "東京10/28公式トレード抽選",
+      "entryStartAt": "2026-10-18T18:00:00+09:00",
+      "entryEndAt": "2026-10-25T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mrs_green_apple_ringojam_shadows_2026_tokyo_1028"
+      ],
+      "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows"
+    },
+    {
+      "id": "mrs_shadows_2026_tokyo_trade_1029",
+      "tourId": "mrs_green_apple_ringojam_shadows_2026",
+      "type": "東京10/29公式トレード抽選",
+      "entryStartAt": "2026-10-18T18:00:00+09:00",
+      "entryEndAt": "2026-10-26T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mrs_green_apple_ringojam_shadows_2026_tokyo_1029"
+      ],
+      "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows"
     }
   ],
   "appleMusicTracks": [

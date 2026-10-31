@@ -121,6 +121,20 @@
       "artistId": "spitz",
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_fes_beams_be_fes_2027",
+      "artistId": "spitz",
+      "title": "BEAMS MUSIC FESTIVAL『BE FES』2027",
+      "startDate": "2027-02-06T00:00:00+09:00",
+      "endDate": "2027-02-06T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "チケット",
+          "amount": 14000
+        }
+      ],
+      "sourceUrl": "https://www.beams.co.jp/news/5049/"
     }
   ],
   "performances": [
@@ -837,6 +851,17 @@
       "sourceUrl": "https://spitz-web.com/live/202601/",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
       "tourId": "spitz_gogoska9_2026"
+    },
+    {
+      "id": "spitz_fes_beams_be_fes_2027_yoyogi_0206",
+      "tourId": "spitz_fes_beams_be_fes_2027",
+      "performanceDate": "2027-02-06",
+      "performanceAt": "2027-02-06T11:00:00+09:00",
+      "doorOpenAt": "2027-02-06T10:00:00+09:00",
+      "venue": "国立代々木競技場 代々木第一体育館",
+      "kind": "fes",
+      "eventName": "BEAMS MUSIC FESTIVAL『BE FES』",
+      "sourceUrl": "https://www.beams.co.jp/news/5049/"
     }
   ],
   "lotteries": [
@@ -1110,6 +1135,61 @@
       "source": "system",
       "sourceUrl": "https://www.rocknohosomichi.com/",
       "lastVerifiedAt": "2026-08-27T00:00:00+09:00"
+    },
+    {
+      "id": "spitz_fes_beams_be_fes_2027_official_fastest_20261030",
+      "tourId": "spitz_fes_beams_be_fes_2027",
+      "type": "オフィシャル最速先行（抽選）",
+      "entryStartAt": "2026-10-30T12:00:00+09:00",
+      "entryEndAt": "2026-11-04T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "spitz_fes_beams_be_fes_2027_yoyogi_0206"
+      ],
+      "sourceUrl": "https://www.beams.co.jp/news/5049/"
+    },
+    {
+      "id": "spitz_jamboree_kettle_2027_spitzbergen_fc_20261028",
+      "tourId": "spitz_jamboree_tour_2027_kettle",
+      "type": "Spitzbergen会員限定先行",
+      "entryStartAt": "2026-10-28T15:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "spitz_jamboree_tour_2027_kettle_0306",
+        "spitz_jamboree_tour_2027_kettle_0307",
+        "spitz_jamboree_tour_2027_kettle_0313",
+        "spitz_jamboree_tour_2027_kettle_0314",
+        "spitz_jamboree_tour_2027_kettle_0320",
+        "spitz_jamboree_tour_2027_kettle_0321",
+        "spitz_jamboree_tour_2027_kettle_0327",
+        "spitz_jamboree_tour_2027_kettle_0328",
+        "spitz_jamboree_tour_2027_kettle_0403",
+        "spitz_jamboree_tour_2027_kettle_0404",
+        "spitz_jamboree_tour_2027_kettle_0410",
+        "spitz_jamboree_tour_2027_kettle_0411",
+        "spitz_jamboree_tour_2027_kettle_0417",
+        "spitz_jamboree_tour_2027_kettle_0418",
+        "spitz_jamboree_tour_2027_kettle_0424",
+        "spitz_jamboree_tour_2027_kettle_0425",
+        "spitz_jamboree_tour_2027_kettle_0501",
+        "spitz_jamboree_tour_2027_kettle_0502",
+        "spitz_jamboree_tour_2027_kettle_0511",
+        "spitz_jamboree_tour_2027_kettle_0512",
+        "spitz_jamboree_tour_2027_kettle_0515",
+        "spitz_jamboree_tour_2027_kettle_0516",
+        "spitz_jamboree_tour_2027_kettle_0525",
+        "spitz_jamboree_tour_2027_kettle_0526",
+        "spitz_jamboree_tour_2027_kettle_0601",
+        "spitz_jamboree_tour_2027_kettle_0602",
+        "spitz_jamboree_tour_2027_kettle_0619",
+        "spitz_jamboree_tour_2027_kettle_0620"
+      ],
+      "sourceUrl": "https://spitz-web.com/maintenance.html"
     }
   ],
   "appleMusicTracks": [
