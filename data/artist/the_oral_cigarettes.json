@@ -180,6 +180,24 @@
       "source": "system",
       "sourceUrl": "https://theoralcigarettes.com/news/detail/3269",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_blaze_up_nagasaki_2026",
+      "artistId": "the_oral_cigarettes",
+      "title": "BLAZE UP NAGASAKI 2026",
+      "startDate": "2026-12-06T00:00:00+09:00",
+      "endDate": "2026-12-06T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "一般1day",
+          "amount": 10800
+        },
+        {
+          "label": "中高生1day",
+          "amount": 3000
+        }
+      ],
+      "sourceUrl": "https://blazeupnagasaki.net/"
     }
   ],
   "performances": [
@@ -676,6 +694,18 @@
       "source": "system",
       "sourceUrl": "https://theoralcigarettes.com/news/detail/3269",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_blaze_up_nagasaki_2026_1206",
+      "tourId": "the_oral_cigarettes_blaze_up_nagasaki_2026",
+      "performanceDate": "2026-12-06",
+      "performanceAt": "2026-12-06T12:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "出島メッセ長崎 イベント・展示ホール",
+      "kind": "fes",
+      "eventName": "BLAZE UP NAGASAKI 2026 THE ORAL CIGARETTES出演",
+      "sourceUrl": "https://theoralcigarettes.com/news/list/4",
+      "performanceTimeEstimated": true
     }
   ],
   "lotteries": [
@@ -770,6 +800,20 @@
       "sourceUrl": "https://theoralcigarettes.com/feature/ticket_standingarenatour2027_fc2",
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_blaze_up_nagasaki_2026_general_oct24",
+      "tourId": "the_oral_cigarettes_blaze_up_nagasaki_2026",
+      "type": "BLAZE UP NAGASAKI 2026一般先着販売",
+      "entryStartAt": "2026-10-24T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "the_oral_cigarettes_blaze_up_nagasaki_2026_1206"
+      ],
+      "sourceUrl": "https://blazeupnagasaki.net/"
     }
   ],
   "appleMusicTracks": [
