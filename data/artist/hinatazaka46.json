@@ -70,6 +70,14 @@
         {
           "label": "親子・女性エリア",
           "amount": 11000
+        },
+        {
+          "label": "注釈付き指定席",
+          "amount": 10000
+        },
+        {
+          "label": "注釈付き見切れ席",
+          "amount": 9800
         }
       ],
       "source": "system",
@@ -797,7 +805,7 @@
       "id": "hinatazaka46_hinakuri_2026_gate3_dd7a4bf7",
       "tourId": "hinatazaka46_hinakuri_2026",
       "type": "一般販売（兵庫公演）",
-      "entryStartAt": "2026-11-07T12:00:00+09:00",
+      "entryStartAt": "2026-11-14T12:00:00+09:00",
       "entryEndAt": null,
       "resultAt": null,
       "paymentStartAt": null,
@@ -878,6 +886,28 @@
       "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00921",
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_hinakuri_2026_lawson_second_20261031",
+      "tourId": "hinatazaka46_hinakuri_2026",
+      "type": "ローソンチケット2次先行（抽選）",
+      "entryStartAt": "2026-10-31T12:00:00+09:00",
+      "entryEndAt": "2026-11-03T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hinatazaka46_hinakuri_2026_kobe_1121",
+        "hinatazaka46_hinakuri_2026_kobe_1122",
+        "hinatazaka46_hinakuri_2026_kobe_1123",
+        "hinatazaka46_hinakuri_2026_yoyogi_1209",
+        "hinatazaka46_hinakuri_2026_yoyogi_1210",
+        "hinatazaka46_hinakuri_2026_yoyogi_1211",
+        "hinatazaka46_hinakuri_2026_nagoya_1222",
+        "hinatazaka46_hinakuri_2026_nagoya_1223",
+        "hinatazaka46_hinakuri_2026_nagoya_1224"
+      ],
+      "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00928"
     }
   ],
   "appleMusicTracks": [
