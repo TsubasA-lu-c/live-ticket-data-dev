@@ -907,7 +907,8 @@
       "kind": "fes",
       "performanceTimeEstimated": true,
       "performanceDate": "2026-11-07",
-      "eventName": "LARME FES'26"
+      "eventName": "LARME FES'26",
+      "kindReviewed": true
     },
     {
       "id": "fruits_zipper_gift_2026_1127",
@@ -921,7 +922,8 @@
       "kind": "fes",
       "performanceTimeEstimated": true,
       "performanceDate": "2026-11-27",
-      "eventName": "GIFT〜Girls Idol Festival Tokyo〜"
+      "eventName": "GIFT〜Girls Idol Festival Tokyo〜",
+      "kindReviewed": true
     },
     {
       "id": "fruits_zipper_gift_2026_1129",
@@ -935,7 +937,8 @@
       "kind": "fes",
       "performanceTimeEstimated": true,
       "performanceDate": "2026-11-29",
-      "eventName": "GIFT〜Girls Idol Festival Tokyo〜"
+      "eventName": "GIFT〜Girls Idol Festival Tokyo〜",
+      "kindReviewed": true
     },
     {
       "id": "fruits_zipper_asobiexpo_hawaii_2027_honolulu_0308",
@@ -949,7 +952,8 @@
       "sourceUrl": "https://asobiexpo.com/hawaii2027/",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00",
       "performanceDate": "2027-03-08",
-      "performanceTimeEstimated": true
+      "performanceTimeEstimated": true,
+      "kindReviewed": true
     },
     {
       "id": "fruits_zipper_hiroshima_continew_fes_2026_1205",
@@ -962,7 +966,8 @@
       "sourceUrl": "https://hiroshima-continew.com/music/",
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
-      "tourId": "fruits_zipper_hiroshima_continew_fes_2026"
+      "tourId": "fruits_zipper_hiroshima_continew_fes_2026",
+      "kindReviewed": true
     },
     {
       "id": "fruits_zipper_amane_tsukiashi_birthday_2026_tokyo",
@@ -1014,7 +1019,8 @@
       "eventName": "災害支援基金コンサート",
       "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/93365",
       "source": "system",
-      "lastVerifiedAt": "2026-10-25T00:00:00+09:00"
+      "lastVerifiedAt": "2026-10-25T00:00:00+09:00",
+      "kindReviewed": true
     },
     {
       "id": "fruits_zipper_fc_live_joy3_2026_tokyo_1108",

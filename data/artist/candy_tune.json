@@ -1394,7 +1394,8 @@
       "eventName": "ASOBIEXPO HAWAII 2027",
       "source": "system",
       "sourceUrl": "https://asobiexpo.com/hawaii2027/",
-      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00",
+      "kindReviewed": true
     },
     {
       "id": "candy_tune_gate3_2026_7c3e7c68_20261011_01",
@@ -1432,7 +1433,8 @@
       "sourceUrl": "https://candytune.asobisystem.com/news/detail/93706",
       "lastVerifiedAt": "2026-10-25T00:00:00+09:00",
       "kind": "fes",
-      "eventName": "KAWAII LAB. ファンクラブ限定フリーライブ"
+      "eventName": "KAWAII LAB. ファンクラブ限定フリーライブ",
+      "kindReviewed": true
     },
     {
       "id": "candy_tune_disaster_relief_2027_budokan_0119",
@@ -1444,7 +1446,8 @@
       "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/93365",
       "lastVerifiedAt": "2026-10-25T00:00:00+09:00",
       "kind": "fes",
-      "eventName": "災害支援基金コンサート"
+      "eventName": "災害支援基金コンサート",
+      "kindReviewed": true
     },
     {
       "id": "candy_tune_kawaii_lab_5th_2027_20270130",
@@ -1586,7 +1589,8 @@
       "eventName": "LARME FES'26",
       "source": "system",
       "sourceUrl": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/schedule/5963/",
-      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
+      "kindReviewed": true
     },
     {
       "id": "candy_tune_agestock_waseda_2026_1108",
@@ -1658,7 +1662,8 @@
       "eventName": "atmoscon 2026 3rd LIVE STAGE CANDY TUNE出演",
       "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/43493",
       "performanceTimeEstimated": true,
-      "source": "system"
+      "source": "system",
+      "kindReviewed": true
     },
     {
       "id": "candy_tune_tgc_toyama_2026_1121_performance",
