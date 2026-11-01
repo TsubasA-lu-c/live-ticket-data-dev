@@ -376,6 +376,24 @@
       "source": "system",
       "sourceUrl": "https://yabaitshirtsyasan.com/live/page/2/",
       "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_longman_no_brakes_20270221",
+      "artistId": "yabai_tshirts_yasan",
+      "title": "LONGMAN tour 2026-2027「No Brakes」",
+      "startDate": "2027-02-21T00:00:00+09:00",
+      "endDate": "2027-02-21T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "前売",
+          "amount": 4500,
+          "currency": "JPY",
+          "note": "別途ドリンク代"
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/299602/",
+      "lastVerifiedAt": "2026-11-01T18:00:00+09:00"
     }
   ],
   "performances": [
@@ -1017,6 +1035,21 @@
       "source": "system",
       "sourceUrl": "https://yabaitshirtsyasan.com/live/page/2/",
       "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_longman_no_brakes_20270221_matsuyama",
+      "tourId": "yabai_tshirts_yasan_longman_no_brakes_20270221",
+      "performanceDate": "2027-02-21",
+      "venue": "松山WstudioRED",
+      "performanceAt": "2027-02-21T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "kindReviewed": true,
+      "eventName": "LONGMAN tour 2026-2027「No Brakes」 w/ ヤバイTシャツ屋さん",
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/299602/",
+      "lastVerifiedAt": "2026-11-01T18:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1461,6 +1494,22 @@
       "sourceUrl": "https://yabaitshirtsyasan.com/tanktopfes2027/",
       "source": "system",
       "lastVerifiedAt": "2026-10-31T18:29:15+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_longman_no_brakes_20270221_taiban_advance",
+      "tourId": "yabai_tshirts_yasan_longman_no_brakes_20270221",
+      "type": "対バン先行（終了）",
+      "entryStartAt": "2026-10-21T18:00:00+09:00",
+      "entryEndAt": "2026-10-25T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yabai_tshirts_yasan_longman_no_brakes_20270221_matsuyama"
+      ],
+      "source": "system",
+      "sourceUrl": "https://longman.jp/news/8/",
+      "lastVerifiedAt": "2026-11-01T18:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
