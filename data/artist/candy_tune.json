@@ -576,6 +576,39 @@
       "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/43493",
       "source": "system",
       "lastVerifiedAt": "2026-10-31T17:07:29.343+09:00"
+    },
+    {
+      "id": "candy_tune_tgc_toyama_2026_1121",
+      "artistId": "candy_tune",
+      "title": "TOKYO GIRLS COLLECTION 富山 2026",
+      "startDate": "2026-11-21T00:00:00+09:00",
+      "endDate": "2026-11-21T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/44995",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "candy_tune_wonderlivet_2026_1122",
+      "artistId": "candy_tune",
+      "title": "WONDERLIVET 2026",
+      "startDate": "2026-11-22T00:00:00+09:00",
+      "endDate": "2026-11-22T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/44263",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "candy_tune_countdown_japan_2627_1226",
+      "artistId": "candy_tune",
+      "title": "COUNTDOWN JAPAN 26/27",
+      "startDate": "2026-12-26T00:00:00+09:00",
+      "endDate": "2026-12-26T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/46912",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -1337,7 +1370,7 @@
     {
       "id": "candy_tune_gift_2026_1128",
       "tourId": "candy_tune_gift_2026",
-      "venue": "SGCホール有明 / TOYOTA ARENA TOKYO（出演会場未発表）",
+      "venue": null,
       "performanceAt": "2026-11-28T12:00:00+09:00",
       "performanceDate": "2026-11-28",
       "performanceTimeEstimated": true,
@@ -1346,7 +1379,8 @@
       "eventName": "GIFT ～Girls Idol Festival Tokyo～ DAY-2",
       "source": "system",
       "sourceUrl": "https://ticket.tv-asahi.co.jp/ex/project/gift",
-      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00",
+      "kindReviewed": true
     },
     {
       "id": "candy_tune_asobiexpo_hawaii_2027_honolulu_0308",
@@ -1360,7 +1394,8 @@
       "eventName": "ASOBIEXPO HAWAII 2027",
       "source": "system",
       "sourceUrl": "https://asobiexpo.com/hawaii2027/",
-      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00",
+      "kindReviewed": true
     },
     {
       "id": "candy_tune_gate3_2026_7c3e7c68_20261011_01",
@@ -1398,7 +1433,8 @@
       "sourceUrl": "https://candytune.asobisystem.com/news/detail/93706",
       "lastVerifiedAt": "2026-10-25T00:00:00+09:00",
       "kind": "fes",
-      "eventName": "KAWAII LAB. ファンクラブ限定フリーライブ"
+      "eventName": "KAWAII LAB. ファンクラブ限定フリーライブ",
+      "kindReviewed": true
     },
     {
       "id": "candy_tune_disaster_relief_2027_budokan_0119",
@@ -1410,7 +1446,8 @@
       "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/93365",
       "lastVerifiedAt": "2026-10-25T00:00:00+09:00",
       "kind": "fes",
-      "eventName": "災害支援基金コンサート"
+      "eventName": "災害支援基金コンサート",
+      "kindReviewed": true
     },
     {
       "id": "candy_tune_kawaii_lab_5th_2027_20270130",
@@ -1422,7 +1459,8 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
+      "kindReviewed": true
     },
     {
       "id": "candy_tune_kawaii_lab_5th_2027_20270131",
@@ -1434,7 +1472,8 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
+      "kindReviewed": true
     },
     {
       "id": "candy_tune_kawaii_lab_5th_2027_20270213",
@@ -1446,7 +1485,8 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
+      "kindReviewed": true
     },
     {
       "id": "candy_tune_kawaii_lab_5th_2027_20270214",
@@ -1458,7 +1498,8 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
+      "kindReviewed": true
     },
     {
       "id": "candy_tune_kawaii_lab_5th_2027_20270220",
@@ -1470,7 +1511,8 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
+      "kindReviewed": true
     },
     {
       "id": "candy_tune_kawaii_lab_5th_2027_20270221",
@@ -1482,7 +1524,8 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
+      "kindReviewed": true
     },
     {
       "id": "candy_tune_kawaii_lab_5th_2027_20270320",
@@ -1494,7 +1537,8 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
+      "kindReviewed": true
     },
     {
       "id": "candy_tune_kawaii_lab_5th_2027_20270321",
@@ -1506,7 +1550,8 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
+      "kindReviewed": true
     },
     {
       "id": "candy_tune_kawaii_lab_5th_2027_20270403",
@@ -1518,7 +1563,8 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
+      "kindReviewed": true
     },
     {
       "id": "candy_tune_kawaii_lab_5th_2027_20270404",
@@ -1530,7 +1576,8 @@
       "eventName": "KAWAII LAB. 5th ANNIVERSARY TOUR",
       "source": "system",
       "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/92410",
-      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
+      "kindReviewed": true
     },
     {
       "id": "candy_tune_larme_fes_2026_tokyo_1107",
@@ -1542,7 +1589,8 @@
       "eventName": "LARME FES'26",
       "source": "system",
       "sourceUrl": "https://www.shopping-sumitomo-rd.com/tokyo_garden_theater/schedule/5963/",
-      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
+      "kindReviewed": true
     },
     {
       "id": "candy_tune_agestock_waseda_2026_1108",
@@ -1587,7 +1635,8 @@
       "source": "system",
       "sourceUrl": "https://candytune.asobisystem.com/news/detail/85442",
       "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
-      "eventName": "KAWAII LAB. Christmas SESSION 2026"
+      "eventName": "KAWAII LAB. Christmas SESSION 2026",
+      "kindReviewed": true
     },
     {
       "id": "candy_tune_kawaii_lab_christmas_2026_1213",
@@ -1599,7 +1648,8 @@
       "source": "system",
       "sourceUrl": "https://candytune.asobisystem.com/news/detail/85442",
       "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
-      "eventName": "KAWAII LAB. Christmas SESSION 2026"
+      "eventName": "KAWAII LAB. Christmas SESSION 2026",
+      "kindReviewed": true
     },
     {
       "id": "candy_tune_atmoscon_2026_night_1101",
@@ -1612,7 +1662,53 @@
       "eventName": "atmoscon 2026 3rd LIVE STAGE CANDY TUNE出演",
       "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/43493",
       "performanceTimeEstimated": true,
-      "source": "system"
+      "source": "system",
+      "kindReviewed": true
+    },
+    {
+      "id": "candy_tune_tgc_toyama_2026_1121_performance",
+      "tourId": "candy_tune_tgc_toyama_2026_1121",
+      "venue": "YKK AP ARENA",
+      "performanceAt": "2026-11-21T12:00:00+09:00",
+      "performanceDate": "2026-11-21",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "fes",
+      "kindReviewed": true,
+      "eventName": "TOKYO GIRLS COLLECTION 富山 2026",
+      "source": "system",
+      "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/44995",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "candy_tune_wonderlivet_2026_1122_performance",
+      "tourId": "candy_tune_wonderlivet_2026_1122",
+      "venue": "KINTEX HALL 7-10",
+      "performanceAt": "2026-11-22T12:00:00+09:00",
+      "performanceDate": "2026-11-22",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "fes",
+      "kindReviewed": true,
+      "eventName": "WONDERLIVET 2026",
+      "source": "system",
+      "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/44263",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "candy_tune_countdown_japan_2627_20261226",
+      "tourId": "candy_tune_countdown_japan_2627_1226",
+      "venue": "幕張メッセ国際展示場1～11ホール",
+      "performanceAt": "2026-12-26T12:00:00+09:00",
+      "performanceDate": "2026-12-26",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "fes",
+      "kindReviewed": true,
+      "eventName": "COUNTDOWN JAPAN 26/27",
+      "source": "system",
+      "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/46912",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -2519,6 +2615,22 @@
       "paymentEndAt": null,
       "source": "system",
       "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "candy_tune_countdown_japan_2627_1226_second_presale",
+      "tourId": "candy_tune_countdown_japan_2627_1226",
+      "type": "COUNTDOWN JAPAN 26/27 第2次抽選先行（12月26日対象）",
+      "entryStartAt": "2026-10-28T12:15:00+09:00",
+      "entryEndAt": "2026-11-02T16:00:00+09:00",
+      "resultAt": "2026-11-06T16:00:00+09:00",
+      "paymentStartAt": "2026-11-06T16:00:00+09:00",
+      "paymentEndAt": "2026-11-09T16:00:00+09:00",
+      "performanceIds": [
+        "candy_tune_countdown_japan_2627_20261226"
+      ],
+      "source": "system",
+      "sourceUrl": "https://countdownjapan.jp/2627/ticket/",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

@@ -194,6 +194,17 @@
       "artistId": "mazzel",
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "mazzel_fukuoka_music_fes_2027_0130",
+      "artistId": "mazzel",
+      "title": "FUKUOKA MUSIC FES.2027",
+      "startDate": "2027-01-30T00:00:00+09:00",
+      "endDate": "2027-01-30T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://mazzel.tokyo/live/5739/",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -786,7 +797,8 @@
       "eventName": "15th Anniversary テレビ朝日ドリームフェスティバル2026",
       "source": "system",
       "sourceUrl": "https://post.tv-asahi.co.jp/?p=832267",
-      "lastVerifiedAt": "2026-09-03T00:00:00+09:00"
+      "lastVerifiedAt": "2026-09-03T00:00:00+09:00",
+      "kindReviewed": true
     },
     {
       "id": "mazzel_magurock_pop_2026_shizuoka_1003",
@@ -800,6 +812,21 @@
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
       "tourId": "mazzel_magurock_pop_2026"
+    },
+    {
+      "id": "mazzel_fukuoka_music_fes_2027_20270130",
+      "tourId": "mazzel_fukuoka_music_fes_2027_0130",
+      "venue": "みずほPayPayドーム福岡",
+      "performanceAt": "2027-01-30T12:00:00+09:00",
+      "performanceDate": "2027-01-30",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "fes",
+      "kindReviewed": true,
+      "eventName": "FUKUOKA MUSIC FES.2027",
+      "source": "system",
+      "sourceUrl": "https://mazzel.tokyo/live/5739/",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
     }
   ],
   "lotteries": [

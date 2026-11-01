@@ -358,6 +358,55 @@
       "artistId": "momoiro_clover_z",
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_tamai_shiori_billboard_2027",
+      "artistId": "momoiro_clover_z",
+      "title": "【玉井詩織】玉井詩織 Billboard Live Tour 2027 〜With the music〜",
+      "startDate": "2027-01-21T00:00:00+09:00",
+      "endDate": "2027-01-25T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260821_01",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_takagi_reni_christmas_2026",
+      "artistId": "momoiro_clover_z",
+      "title": "【高城れに】毎日がクリスマス 2026",
+      "startDate": "2026-12-14T00:00:00+09:00",
+      "endDate": "2026-12-14T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/261003_01",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_vogue_romance_arena_2027",
+      "artistId": "momoiro_clover_z",
+      "title": "MOMOIRO CLOVER Z ARENA TOUR 2027 “VOGUE AND ROMANCE”",
+      "startDate": "2027-03-20T00:00:00+09:00",
+      "endDate": "2027-05-09T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席・着席指定席",
+          "amount": 12800,
+          "currency": "JPY"
+        },
+        {
+          "label": "お子様ファミリー席・大人",
+          "amount": 12800,
+          "currency": "JPY"
+        },
+        {
+          "label": "お子様ファミリー席・子供",
+          "amount": 5000,
+          "currency": "JPY"
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/261017_01",
+      "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
     }
   ],
   "performances": [
@@ -431,7 +480,8 @@
       "eventName": "サントリー オールフリー presents 氣志團万博2026 〜房総爆音リゾート〜",
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260701_01",
-      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00",
+      "kindReviewed": true
     },
     {
       "id": "momoiro_clover_z_xmas_2026_tokyo_1212",
@@ -564,7 +614,8 @@
       "eventName": "SPOOKY PUMPKIN 2026 ～PURO ALL NIGHT HALLOWEEN PARTY～（佐々木彩夏出演）",
       "source": "system",
       "sourceUrl": "https://www.puroland.jp/event-campaign/spookypumpkin2026/",
-      "lastVerifiedAt": "2026-08-17T23:45:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:45:00+09:00",
+      "kindReviewed": true
     },
     {
       "id": "momoiro_clover_z_xmas_2026_tokyo_1030",
@@ -720,7 +771,8 @@
       "eventName": "15th Anniversary テレビ朝日ドリームフェスティバル2026",
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/",
-      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00",
+      "kindReviewed": true
     },
     {
       "id": "momoiro_clover_z_valentine_2027_ura_0213",
@@ -760,6 +812,188 @@
       "sourceUrl": "https://www.momoclo.net/archives/news/261007_01",
       "source": "system",
       "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_tamai_shiori_billboard_2027_0121_1",
+      "tourId": "momoiro_clover_z_tamai_shiori_billboard_2027",
+      "venue": "ビルボードライブ東京",
+      "performanceAt": "2027-01-21T18:00:00+09:00",
+      "doorOpenAt": "2027-01-21T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "玉井詩織 Billboard Live Tour 2027 〜With the music〜",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260821_01",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_tamai_shiori_billboard_2027_0121_2",
+      "tourId": "momoiro_clover_z_tamai_shiori_billboard_2027",
+      "venue": "ビルボードライブ東京",
+      "performanceAt": "2027-01-21T21:00:00+09:00",
+      "doorOpenAt": "2027-01-21T20:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "玉井詩織 Billboard Live Tour 2027 〜With the music〜",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260821_01",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_tamai_shiori_billboard_2027_0122_1",
+      "tourId": "momoiro_clover_z_tamai_shiori_billboard_2027",
+      "venue": "ビルボードライブ東京",
+      "performanceAt": "2027-01-22T18:00:00+09:00",
+      "doorOpenAt": "2027-01-22T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "玉井詩織 Billboard Live Tour 2027 〜With the music〜",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260821_01",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_tamai_shiori_billboard_2027_0122_2",
+      "tourId": "momoiro_clover_z_tamai_shiori_billboard_2027",
+      "venue": "ビルボードライブ東京",
+      "performanceAt": "2027-01-22T21:00:00+09:00",
+      "doorOpenAt": "2027-01-22T20:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "玉井詩織 Billboard Live Tour 2027 〜With the music〜",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260821_01",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_tamai_shiori_billboard_2027_0125_1",
+      "tourId": "momoiro_clover_z_tamai_shiori_billboard_2027",
+      "venue": "ビルボードライブ大阪",
+      "performanceAt": "2027-01-25T18:00:00+09:00",
+      "doorOpenAt": "2027-01-25T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "玉井詩織 Billboard Live Tour 2027 〜With the music〜",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260821_01",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_tamai_shiori_billboard_2027_0125_2",
+      "tourId": "momoiro_clover_z_tamai_shiori_billboard_2027",
+      "venue": "ビルボードライブ大阪",
+      "performanceAt": "2027-01-25T21:00:00+09:00",
+      "doorOpenAt": "2027-01-25T20:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "玉井詩織 Billboard Live Tour 2027 〜With the music〜",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260821_01",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_takagi_reni_christmas_2026_1214_1",
+      "tourId": "momoiro_clover_z_takagi_reni_christmas_2026",
+      "venue": "横浜赤レンガ倉庫1号館3Fホール",
+      "performanceAt": "2026-12-14T16:00:00+09:00",
+      "doorOpenAt": "2026-12-14T15:15:00+09:00",
+      "kind": "oneman",
+      "eventName": "高城れに 毎日がクリスマス 2026（トーク＆ライブ）",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/261003_01",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00",
+      "kindReviewed": true
+    },
+    {
+      "id": "momoiro_clover_z_takagi_reni_christmas_2026_1214_2",
+      "tourId": "momoiro_clover_z_takagi_reni_christmas_2026",
+      "venue": "横浜赤レンガ倉庫1号館3Fホール",
+      "performanceAt": "2026-12-14T19:00:00+09:00",
+      "doorOpenAt": "2026-12-14T18:15:00+09:00",
+      "kind": "oneman",
+      "eventName": "高城れに 毎日がクリスマス 2026（クリスマスライブ）",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/261003_01",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00",
+      "kindReviewed": true
+    },
+    {
+      "id": "momoiro_clover_z_vogue_romance_arena_2027_kanagawa_0320",
+      "tourId": "momoiro_clover_z_vogue_romance_arena_2027",
+      "performanceDate": "2027-03-20",
+      "performanceAt": "2027-03-20T17:30:00+09:00",
+      "doorOpenAt": "2027-03-20T16:30:00+09:00",
+      "venue": "ぴあアリーナMM",
+      "kind": "oneman",
+      "kindReviewed": true,
+      "eventName": "MOMOIRO CLOVER Z ARENA TOUR 2027 “VOGUE AND ROMANCE”「Chronostasis」",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/261017_01",
+      "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_vogue_romance_arena_2027_kanagawa_0321",
+      "tourId": "momoiro_clover_z_vogue_romance_arena_2027",
+      "performanceDate": "2027-03-21",
+      "performanceAt": "2027-03-21T16:30:00+09:00",
+      "doorOpenAt": "2027-03-21T15:30:00+09:00",
+      "venue": "ぴあアリーナMM",
+      "kind": "oneman",
+      "kindReviewed": true,
+      "eventName": "MOMOIRO CLOVER Z ARENA TOUR 2027 “VOGUE AND ROMANCE”「Singularity」",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/261017_01",
+      "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_vogue_romance_arena_2027_hyogo_0424",
+      "tourId": "momoiro_clover_z_vogue_romance_arena_2027",
+      "performanceDate": "2027-04-24",
+      "performanceAt": "2027-04-24T17:30:00+09:00",
+      "doorOpenAt": "2027-04-24T16:30:00+09:00",
+      "venue": "ワールド記念ホール",
+      "kind": "oneman",
+      "kindReviewed": true,
+      "eventName": "MOMOIRO CLOVER Z ARENA TOUR 2027 “VOGUE AND ROMANCE”「Chronostasis」",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/261017_01",
+      "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_vogue_romance_arena_2027_hyogo_0425",
+      "tourId": "momoiro_clover_z_vogue_romance_arena_2027",
+      "performanceDate": "2027-04-25",
+      "performanceAt": "2027-04-25T16:30:00+09:00",
+      "doorOpenAt": "2027-04-25T15:30:00+09:00",
+      "venue": "ワールド記念ホール",
+      "kind": "oneman",
+      "kindReviewed": true,
+      "eventName": "MOMOIRO CLOVER Z ARENA TOUR 2027 “VOGUE AND ROMANCE”「Singularity」",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/261017_01",
+      "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_vogue_romance_arena_2027_tokyo_0508",
+      "tourId": "momoiro_clover_z_vogue_romance_arena_2027",
+      "performanceDate": "2027-05-08",
+      "performanceAt": "2027-05-08T17:30:00+09:00",
+      "doorOpenAt": "2027-05-08T16:30:00+09:00",
+      "venue": "有明アリーナ",
+      "kind": "oneman",
+      "kindReviewed": true,
+      "eventName": "MOMOIRO CLOVER Z ARENA TOUR 2027 “VOGUE AND ROMANCE”「Chronostasis」",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/261017_01",
+      "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_vogue_romance_arena_2027_tokyo_0509",
+      "tourId": "momoiro_clover_z_vogue_romance_arena_2027",
+      "performanceDate": "2027-05-09",
+      "performanceAt": "2027-05-09T16:30:00+09:00",
+      "doorOpenAt": "2027-05-09T15:30:00+09:00",
+      "venue": "有明アリーナ",
+      "kind": "oneman",
+      "kindReviewed": true,
+      "eventName": "MOMOIRO CLOVER Z ARENA TOUR 2027 “VOGUE AND ROMANCE”「Singularity」",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/261017_01",
+      "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
     }
   ],
   "lotteries": [
@@ -1164,6 +1398,65 @@
       "sourceUrl": "https://dreamfestival.jp/",
       "source": "system",
       "lastVerifiedAt": "2026-11-01T00:33:06+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_tamai_shiori_billboard_2027_ae_advance",
+      "tourId": "momoiro_clover_z_tamai_shiori_billboard_2027",
+      "type": "ANGEL EYES会員先行抽選（終了）",
+      "entryStartAt": "2026-08-21T19:00:00+09:00",
+      "entryEndAt": "2026-08-30T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "momoiro_clover_z_tamai_shiori_billboard_2027_0121_1",
+        "momoiro_clover_z_tamai_shiori_billboard_2027_0121_2",
+        "momoiro_clover_z_tamai_shiori_billboard_2027_0122_1",
+        "momoiro_clover_z_tamai_shiori_billboard_2027_0122_2",
+        "momoiro_clover_z_tamai_shiori_billboard_2027_0125_1",
+        "momoiro_clover_z_tamai_shiori_billboard_2027_0125_2"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260821_01",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_takagi_reni_christmas_2026_pia_presale",
+      "tourId": "momoiro_clover_z_takagi_reni_christmas_2026",
+      "type": "チケットぴあ プリセール（先着）",
+      "entryStartAt": "2026-10-27T18:00:00+09:00",
+      "entryEndAt": "2026-11-03T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "momoiro_clover_z_takagi_reni_christmas_2026_1214_1",
+        "momoiro_clover_z_takagi_reni_christmas_2026_1214_2"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/261003_01",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_vogue_romance_arena_2027_ae_advance",
+      "tourId": "momoiro_clover_z_vogue_romance_arena_2027",
+      "type": "ANGEL EYES会員先行抽選（終了）",
+      "entryStartAt": "2026-10-17T18:00:00+09:00",
+      "entryEndAt": "2026-10-25T23:59:00+09:00",
+      "resultAt": "2026-10-31T13:00:00+09:00",
+      "paymentStartAt": "2026-10-31T13:00:00+09:00",
+      "paymentEndAt": "2026-11-04T23:59:00+09:00",
+      "performanceIds": [
+        "momoiro_clover_z_vogue_romance_arena_2027_kanagawa_0320",
+        "momoiro_clover_z_vogue_romance_arena_2027_kanagawa_0321",
+        "momoiro_clover_z_vogue_romance_arena_2027_hyogo_0424",
+        "momoiro_clover_z_vogue_romance_arena_2027_hyogo_0425",
+        "momoiro_clover_z_vogue_romance_arena_2027_tokyo_0508",
+        "momoiro_clover_z_vogue_romance_arena_2027_tokyo_0509"
+      ],
+      "sourceUrl": "https://www.momoclo.net/archives/news/261017_01",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
     }
   ],
   "appleMusicTracks": [

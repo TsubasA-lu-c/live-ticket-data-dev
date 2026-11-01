@@ -290,7 +290,8 @@
       "kind": "fes",
       "eventName": "COUNTDOWN JAPAN 26/27 LE SSERAFIM 出演",
       "sourceUrl": "https://www.le-sserafim.jp/news/70b62745ece7",
-      "source": "system"
+      "source": "system",
+      "kindReviewed": true
     },
     {
       "id": "le_sserafim_music_bank_global_festival_2026_20261213_mu_fg_stadium",
@@ -303,7 +304,8 @@
       "eventName": "2026 MUSIC BANK GLOBAL FESTIVAL IN JAPAN",
       "source": "system",
       "sourceUrl": "https://www.music-bank.jp/",
-      "lastVerifiedAt": "2026-11-01T00:16:36+09:00"
+      "lastVerifiedAt": "2026-11-01T00:16:36+09:00",
+      "kindReviewed": true
     }
   ],
   "lotteries": [

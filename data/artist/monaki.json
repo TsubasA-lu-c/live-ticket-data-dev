@@ -455,6 +455,56 @@
       "sourceUrl": "https://monaki.jp/live_information/detail/44491",
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "monaki_countdown_japan_2627_1227",
+      "artistId": "monaki",
+      "title": "COUNTDOWN JAPAN 26/27",
+      "startDate": "2026-12-27T00:00:00+09:00",
+      "endDate": "2026-12-27T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/news/detail/94337",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_yamafes_2027_osaka_0226",
+      "artistId": "monaki",
+      "title": "三代目 J SOUL BROTHERS 山下健二郎のZERO BASE presents 超★山フェス2027 ～SUPER WEST～",
+      "startDate": "2027-02-26T00:00:00+09:00",
+      "endDate": "2027-02-26T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 11000,
+          "currency": "JPY"
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/news/detail/94770",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_tgc_shizuoka_2027",
+      "artistId": "monaki",
+      "title": "SDGs推進 TGC しずおか 2027 by TOKYO GIRLS COLLECTION",
+      "startDate": "2027-01-09T00:00:00+09:00",
+      "endDate": "2027-01-09T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://tgc.girlswalker.com/shizuoka/2027/",
+      "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
+    },
+    {
+      "id": "monaki_hamanako_special_live_2027",
+      "artistId": "monaki",
+      "title": "ボートレース浜名湖 モナキスペシャルライブ",
+      "startDate": "2027-01-16T00:00:00+09:00",
+      "endDate": "2027-01-16T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/live_information/detail/46847",
+      "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
     }
   ],
   "performances": [
@@ -624,7 +674,8 @@
       "eventName": "氣志團万博2026 ～房総爆音リゾート～",
       "source": "system",
       "sourceUrl": "https://monaki.jp/live_information/detail/41915",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kindReviewed": true
     },
     {
       "id": "monaki_debut_memorial_live_2026_yutopia_takara_0531_1",
@@ -696,7 +747,8 @@
       "eventName": "15th Anniversary テレビ朝日ドリームフェスティバル2026",
       "source": "system",
       "sourceUrl": "https://monaki.jp/",
-      "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-30T00:00:00+09:00",
+      "kindReviewed": true
     },
     {
       "id": "monaki_ario_sapporo_release_2026_0911",
@@ -833,7 +885,8 @@
       "eventName": "女川町町制施行100周年記念祭 SANMAR SONIC",
       "sourceUrl": "https://monaki.jp/live_information/detail/44634",
       "source": "system",
-      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z",
+      "kindReviewed": true
     },
     {
       "id": "monaki_fes_tgc_toyama_2026_20261121",
@@ -847,7 +900,68 @@
       "sourceUrl": "https://monaki.jp/live_information/detail/44491",
       "performanceTimeEstimated": true,
       "source": "system",
-      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z",
+      "kindReviewed": true
+    },
+    {
+      "id": "monaki_countdown_japan_2627_1227_performance",
+      "tourId": "monaki_countdown_japan_2627_1227",
+      "venue": "幕張メッセ国際展示場",
+      "performanceAt": "2026-12-27T12:00:00+09:00",
+      "performanceDate": "2026-12-27",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "fes",
+      "kindReviewed": true,
+      "eventName": "COUNTDOWN JAPAN 26/27",
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/news/detail/94337",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_yamafes_2027_osaka_0226_performance",
+      "tourId": "monaki_yamafes_2027_osaka_0226",
+      "venue": "大阪国際会議場（グランキューブ大阪）メインホール",
+      "performanceAt": "2027-02-26T12:00:00+09:00",
+      "performanceDate": "2027-02-26",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "fes",
+      "kindReviewed": true,
+      "eventName": "三代目 J SOUL BROTHERS 山下健二郎のZERO BASE presents 超★山フェス2027 ～SUPER WEST～",
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/news/detail/94770",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_tgc_shizuoka_2027_0109",
+      "tourId": "monaki_tgc_shizuoka_2027",
+      "performanceDate": "2027-01-09",
+      "venue": "ツインメッセ静岡 北館大展示場",
+      "performanceAt": "2027-01-09T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "fes",
+      "kindReviewed": true,
+      "eventName": "SDGs推進 TGC しずおか 2027 by TOKYO GIRLS COLLECTION",
+      "source": "system",
+      "sourceUrl": "https://tgc.girlswalker.com/shizuoka/2027/",
+      "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
+    },
+    {
+      "id": "monaki_hamanako_special_live_2027_0116",
+      "tourId": "monaki_hamanako_special_live_2027",
+      "performanceDate": "2027-01-16",
+      "venue": "ボートレース浜名湖 サンホール",
+      "performanceAt": "2027-01-16T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "kindReviewed": true,
+      "eventName": "ボートレース浜名湖 モナキスペシャルライブ",
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/live_information/detail/46847",
+      "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
     }
   ],
   "lotteries": [

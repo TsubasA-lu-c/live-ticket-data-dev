@@ -341,6 +341,34 @@
       "source": "system",
       "sourceUrl": "https://equal-love.jp/news/detail/11851",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "id": "equal_love_morohashi_sana_serenade_2026_1114",
+      "artistId": "equal_love",
+      "title": "【諸橋沙夏】＝LOVE 諸橋沙夏 2nd Solo concert ～ Serenade For You ～",
+      "startDate": "2026-11-14T17:00:00+09:00",
+      "endDate": "2026-11-14T17:00:00+09:00",
+      "prices": [
+        {
+          "label": "通常チケット",
+          "amount": 9900,
+          "currency": "JPY"
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/feature/specialsite_sanamorohashisolo",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "equal_love_nagoya_dome_2027",
+      "artistId": "equal_love",
+      "title": "＝LOVE DOME LIVE in NAGOYA「全ては＝LOVE」",
+      "startDate": "2027-02-24T00:00:00+09:00",
+      "endDate": "2027-02-25T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/news/detail/12275",
+      "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
     }
   ],
   "performances": [
@@ -970,7 +998,48 @@
       "sourceUrl": "https://equal-love.jp/news/detail/11851",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00",
       "performanceDate": "2026-11-27",
-      "performanceTimeEstimated": true
+      "performanceTimeEstimated": true,
+      "kindReviewed": true
+    },
+    {
+      "id": "equal_love_morohashi_sana_serenade_2026_1114_performance",
+      "tourId": "equal_love_morohashi_sana_serenade_2026_1114",
+      "venue": "さいたま市文化センター 大ホール",
+      "performanceAt": "2026-11-14T17:00:00+09:00",
+      "doorOpenAt": "2026-11-14T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "＝LOVE 諸橋沙夏 2nd Solo concert ～ Serenade For You ～",
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/feature/specialsite_sanamorohashisolo",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "equal_love_nagoya_dome_2027_0224",
+      "tourId": "equal_love_nagoya_dome_2027",
+      "performanceDate": "2027-02-24",
+      "venue": "バンテリンドーム ナゴヤ",
+      "performanceAt": "2027-02-24T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "＝LOVE DOME LIVE in NAGOYA「全ては＝LOVE」",
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/news/detail/12275",
+      "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
+    },
+    {
+      "id": "equal_love_nagoya_dome_2027_0225",
+      "tourId": "equal_love_nagoya_dome_2027",
+      "performanceDate": "2027-02-25",
+      "venue": "バンテリンドーム ナゴヤ",
+      "performanceAt": "2027-02-25T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "＝LOVE DOME LIVE in NAGOYA「全ては＝LOVE」",
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/news/detail/12275",
+      "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
     }
   ],
   "lotteries": [
@@ -1258,6 +1327,72 @@
       ],
       "sourceUrl": "https://equal-love.jp/news/detail/12299",
       "source": "system"
+    },
+    {
+      "id": "equal_love_morohashi_sana_serenade_2026_1114_fc_advance",
+      "tourId": "equal_love_morohashi_sana_serenade_2026_1114",
+      "type": "＝LOVE Official Fan Club会員先行（抽選）",
+      "entryStartAt": "2026-10-01T17:30:00+09:00",
+      "entryEndAt": "2026-10-06T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "equal_love_morohashi_sana_serenade_2026_1114_performance"
+      ],
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/feature/specialsite_sanamorohashisolo",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "equal_love_morohashi_sana_serenade_2026_1114_general_advance",
+      "tourId": "equal_love_morohashi_sana_serenade_2026_1114",
+      "type": "一般先行抽選",
+      "entryStartAt": "2026-10-09T18:30:00+09:00",
+      "entryEndAt": "2026-10-19T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "equal_love_morohashi_sana_serenade_2026_1114_performance"
+      ],
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/news/detail/12253",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "equal_love_nagoya_dome_2027_fc_fastest",
+      "tourId": "equal_love_nagoya_dome_2027",
+      "type": "＝LOVE DOME LIVE in NAGOYA FC最速先行（会員＋会員）",
+      "entryStartAt": "2026-11-20T18:00:00+09:00",
+      "entryEndAt": "2026-11-29T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "equal_love_nagoya_dome_2027_0224",
+        "equal_love_nagoya_dome_2027_0225"
+      ],
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/news/detail/12275",
+      "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
+    },
+    {
+      "id": "equal_love_nagoya_dome_2027_fc_advance",
+      "tourId": "equal_love_nagoya_dome_2027",
+      "type": "＝LOVE DOME LIVE in NAGOYA FC先行",
+      "entryStartAt": "2026-12-05T17:30:00+09:00",
+      "entryEndAt": "2026-12-13T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "equal_love_nagoya_dome_2027_0224",
+        "equal_love_nagoya_dome_2027_0225"
+      ],
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/news/detail/12275",
+      "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
     }
   ],
   "appleMusicTracks": [

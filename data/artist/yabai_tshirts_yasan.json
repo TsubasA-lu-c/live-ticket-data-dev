@@ -354,6 +354,46 @@
       "artistId": "yabai_tshirts_yasan",
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_shinsei_kamattechan_17sai_osaka_2026_1120",
+      "artistId": "yabai_tshirts_yasan",
+      "title": "神聖かまってちゃん tour 2026「17歳の処方箋」",
+      "startDate": "2026-11-20T00:00:00+09:00",
+      "endDate": "2026-11-20T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/297146/",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_countdown_japan_2627_1227",
+      "artistId": "yabai_tshirts_yasan",
+      "title": "COUNTDOWN JAPAN 26/27",
+      "startDate": "2026-12-27T00:00:00+09:00",
+      "endDate": "2026-12-27T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/page/2/",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_longman_no_brakes_20270221",
+      "artistId": "yabai_tshirts_yasan",
+      "title": "LONGMAN tour 2026-2027「No Brakes」",
+      "startDate": "2027-02-21T00:00:00+09:00",
+      "endDate": "2027-02-21T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "前売",
+          "amount": 4500,
+          "currency": "JPY",
+          "note": "別途ドリンク代"
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/299602/",
+      "lastVerifiedAt": "2026-11-01T18:00:00+09:00"
     }
   ],
   "performances": [
@@ -536,7 +576,8 @@
       "eventName": "HEY-SMITH “ALL OVER JAPAN TOUR”",
       "source": "system",
       "sourceUrl": "https://yabaitshirtsyasan.com/live/268157/",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kindReviewed": true
     },
     {
       "id": "yabai_tshirts_yasan_fes_heysmith_kumamoto_2027_on_0213",
@@ -548,7 +589,8 @@
       "eventName": "HEY-SMITH “ALL OVER JAPAN TOUR”",
       "source": "system",
       "sourceUrl": "https://yabaitshirtsyasan.com/live/268191/",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kindReviewed": true
     },
     {
       "id": "yabai_tshirts_yasan_fes_heysmith_kumamoto_2027_on_0214",
@@ -560,7 +602,8 @@
       "eventName": "HEY-SMITH “ALL OVER JAPAN TOUR”",
       "source": "system",
       "sourceUrl": "https://yabaitshirtsyasan.com/live/268224/",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kindReviewed": true
     },
     {
       "id": "yabai_tshirts_yasan_mtp_tour_2026_niigata_0817",
@@ -965,6 +1008,51 @@
       "sourceUrl": "https://yabaitshirtsyasan.com/tanktopfes2027/",
       "source": "system",
       "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_shinsei_kamattechan_17sai_osaka_2026_1120_performance",
+      "tourId": "yabai_tshirts_yasan_shinsei_kamattechan_17sai_osaka_2026_1120",
+      "venue": "大阪GORILLA HALL",
+      "performanceAt": "2026-11-20T12:00:00+09:00",
+      "performanceDate": "2026-11-20",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "kindReviewed": true,
+      "eventName": "神聖かまってちゃん tour 2026「17歳の処方箋」",
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/297146/",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_countdown_japan_2627_1227_performance",
+      "tourId": "yabai_tshirts_yasan_countdown_japan_2627_1227",
+      "venue": "幕張メッセ国際展示場1〜11ホール・イベントホール",
+      "performanceAt": "2026-12-27T12:00:00+09:00",
+      "performanceDate": "2026-12-27",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "fes",
+      "kindReviewed": true,
+      "eventName": "COUNTDOWN JAPAN 26/27",
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/page/2/",
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_longman_no_brakes_20270221_matsuyama",
+      "tourId": "yabai_tshirts_yasan_longman_no_brakes_20270221",
+      "performanceDate": "2027-02-21",
+      "venue": "松山WstudioRED",
+      "performanceAt": "2027-02-21T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "kindReviewed": true,
+      "eventName": "LONGMAN tour 2026-2027「No Brakes」 w/ ヤバイTシャツ屋さん",
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/299602/",
+      "lastVerifiedAt": "2026-11-01T18:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1409,6 +1497,22 @@
       "sourceUrl": "https://yabaitshirtsyasan.com/tanktopfes2027/",
       "source": "system",
       "lastVerifiedAt": "2026-10-31T18:29:15+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_longman_no_brakes_20270221_taiban_advance",
+      "tourId": "yabai_tshirts_yasan_longman_no_brakes_20270221",
+      "type": "対バン先行（終了）",
+      "entryStartAt": "2026-10-21T18:00:00+09:00",
+      "entryEndAt": "2026-10-25T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yabai_tshirts_yasan_longman_no_brakes_20270221_matsuyama"
+      ],
+      "source": "system",
+      "sourceUrl": "https://longman.jp/news/8/",
+      "lastVerifiedAt": "2026-11-01T18:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
