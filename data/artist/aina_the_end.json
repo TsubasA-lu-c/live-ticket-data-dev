@@ -1012,14 +1012,15 @@
       "id": "aina_the_end_live_tour_2027_taipei_20271016",
       "tourId": "aina_the_end_live_tour_2027",
       "performanceDate": "2027-10-16",
-      "performanceAt": "2027-10-16T12:00:00+08:00",
+      "performanceAt": "2027-10-16T19:00:00+08:00",
       "doorOpenAt": null,
       "venue": "台北国際会議中心",
       "kind": "oneman",
       "eventName": "AiNA THE END LIVE TOUR 2027 台北公演",
       "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1136806",
-      "performanceTimeEstimated": true,
-      "source": "system"
+      "performanceTimeEstimated": false,
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1705,6 +1706,22 @@
       ],
       "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1136806",
       "source": "system"
+    },
+    {
+      "id": "aina_the_end_live_tour_2027_taipei_general_20261112",
+      "tourId": "aina_the_end_live_tour_2027",
+      "type": "台北公演 現地一般発売（先着）",
+      "entryStartAt": "2026-11-12T10:00:00+08:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aina_the_end_live_tour_2027_taipei_20271016"
+      ],
+      "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1136806",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
