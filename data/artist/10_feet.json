@@ -1514,6 +1514,38 @@
       "sourceUrl": "https://10-feet.kyoto/pages/budokan",
       "source": "system",
       "lastVerifiedAt": "2026-10-31T18:43:07+09:00"
+    },
+    {
+      "id": "10_feet_budokan_30th_2027_official_first_20261104",
+      "tourId": "10_feet_budokan_30th_2027",
+      "type": "オフィシャル1次先行（抽選・一般対象）",
+      "entryStartAt": "2026-11-04T20:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "10_feet_budokan_30th_2027_0427"
+      ],
+      "sourceUrl": "https://10-feet.kyoto/contents/1125056",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "10_feet_bukurock_festival_2027_eplus_fourth_20261030",
+      "tourId": "10_feet_bukurock_festival_2027",
+      "type": "ブクロック!フェスティバル 2027幕張 イープラス四次先行（抽選）",
+      "entryStartAt": "2026-10-30T20:00:00+09:00",
+      "entryEndAt": "2026-11-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "10_feet_bukurock_festival_2027_makuhari_0211"
+      ],
+      "sourceUrl": "https://eplus.jp/sf/detail/3604630001",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ]
 }

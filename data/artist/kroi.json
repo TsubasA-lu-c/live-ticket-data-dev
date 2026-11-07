@@ -1814,6 +1814,36 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null
+    },
+    {
+      "id": "kroi_gate3_2027_dd1642e1_pia_fastest_nov07",
+      "tourId": "kroi_gate3_2027_dd1642e1",
+      "type": "ぴあ最速先行（抽選）",
+      "entryStartAt": "2026-11-07T12:00:00+09:00",
+      "entryEndAt": "2026-11-29T23:59:00+09:00",
+      "resultAt": "2026-12-03T18:00:00+09:00",
+      "paymentStartAt": "2026-12-03T18:00:00+09:00",
+      "paymentEndAt": "2026-12-07T23:59:00+09:00",
+      "performanceIds": [
+        "kroi_gate3_2027_dd1642e1_20270605_01",
+        "kroi_gate3_2027_dd1642e1_20270607_02",
+        "kroi_gate3_2027_dd1642e1_20270611_03",
+        "kroi_gate3_2027_dd1642e1_20270618_04",
+        "kroi_gate3_2027_dd1642e1_20270620_05",
+        "kroi_gate3_2027_dd1642e1_20270626_06",
+        "kroi_gate3_2027_dd1642e1_20270703_07",
+        "kroi_gate3_2027_dd1642e1_20270704_08",
+        "kroi_gate3_2027_dd1642e1_20270710_09",
+        "kroi_gate3_2027_dd1642e1_20270711_10",
+        "kroi_gate3_2027_dd1642e1_20270716_11",
+        "kroi_gate3_2027_dd1642e1_20270717_12",
+        "kroi_gate3_2027_dd1642e1_20270719_13",
+        "kroi_gate3_2027_dd1642e1_20270722_14",
+        "kroi_gate3_2027_dd1642e1_20270731_15"
+      ],
+      "sourceUrl": "https://special.kroi.net/tour/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

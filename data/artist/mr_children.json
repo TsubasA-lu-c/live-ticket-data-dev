@@ -1204,6 +1204,23 @@
       "sourceUrl": "https://tour.mrchildren.jp/",
       "source": "system",
       "lastVerifiedAt": "2026-10-31T15:00:25.177+09:00"
+    },
+    {
+      "id": "mr_children_saturday_park_2026_taipei_local_general_20261114",
+      "tourId": "mr_children_saturday_park_2026",
+      "type": "現地一般発売（先着）",
+      "entryStartAt": "2026-11-14T12:00:00+08:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mr_children_saturday_park_2026_taipei_1226",
+        "mr_children_saturday_park_2026_taipei_1227"
+      ],
+      "sourceUrl": "https://tour.mrchildren.jp/taipei.html",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

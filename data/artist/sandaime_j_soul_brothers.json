@@ -72,6 +72,17 @@
       "source": "system",
       "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/44706/",
       "lastVerifiedAt": "2026-09-10T21:37:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_stadium_live_2027",
+      "artistId": "sandaime_j_soul_brothers",
+      "title": "三代目 J SOUL BROTHERS STADIUM LIVE 2027",
+      "startDate": "2027-10-23T00:00:00+09:00",
+      "endDate": "2027-10-24T00:00:00+09:00",
+      "prices": null,
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/46837/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -194,6 +205,30 @@
       "source": "system",
       "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/44706/",
       "lastVerifiedAt": "2026-09-10T21:37:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_stadium_live_2027_osaka_1023",
+      "tourId": "sandaime_j_soul_brothers_stadium_live_2027",
+      "venue": "ヤンマースタジアム長居",
+      "performanceAt": "2027-10-23T17:00:00+09:00",
+      "doorOpenAt": "2027-10-23T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "三代目 J SOUL BROTHERS STADIUM LIVE 2027",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/46837/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_stadium_live_2027_osaka_1024",
+      "tourId": "sandaime_j_soul_brothers_stadium_live_2027",
+      "venue": "ヤンマースタジアム長居",
+      "performanceAt": "2027-10-24T17:00:00+09:00",
+      "doorOpenAt": "2027-10-24T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "三代目 J SOUL BROTHERS STADIUM LIVE 2027",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/46837/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "lotteries": [

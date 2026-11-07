@@ -869,6 +869,29 @@
       "source": "system",
       "sourceUrl": "https://txt-official.jp/news/6b86fe24af47",
       "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "tomorrow_x_together_steal_wind_japan_special_firstcome_20261107",
+      "tourId": "tomorrow_x_together_steal_the_wind_japan_2026_2027",
+      "type": "特別先着受付（国内外販売ルート）",
+      "entryStartAt": "2026-11-07T13:00:00+09:00",
+      "entryEndAt": "2026-11-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "tomorrow_x_together_steal_the_wind_japan_2026_fukuoka_1219",
+        "tomorrow_x_together_steal_the_wind_japan_2026_fukuoka_1220",
+        "tomorrow_x_together_steal_the_wind_japan_2027_tokyo_0107",
+        "tomorrow_x_together_steal_the_wind_japan_2027_tokyo_0108",
+        "tomorrow_x_together_steal_the_wind_japan_2027_osaka_0130",
+        "tomorrow_x_together_steal_the_wind_japan_2027_osaka_0131",
+        "tomorrow_x_together_steal_the_wind_japan_2027_nagoya_0220",
+        "tomorrow_x_together_steal_the_wind_japan_2027_nagoya_0221"
+      ],
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/txt_steal_the_wind_in_japan",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "lastVerifiedAt": "2026-07-22T10:26:13+09:00",

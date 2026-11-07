@@ -218,6 +218,77 @@
       "source": "system",
       "sourceUrl": "https://www.merryrockparade.jp/artist.html",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_yontown_shinnenkai_2027",
+      "artistId": "04_limited_sazabys",
+      "title": "YON TOWN 町内新年会",
+      "startDate": "2027-01-15T00:00:00+09:00",
+      "endDate": "2027-01-15T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全券種",
+          "amount": 5555
+        }
+      ],
+      "sourceUrl": "https://www.04limitedsazabys.com/feature/shinnennkai2027",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_kotori_torirock_2026_1204",
+      "artistId": "04_limited_sazabys",
+      "title": "KOTORI presents TORI ROCK FESTIVAL'26",
+      "startDate": "2026-12-04T00:00:00+09:00",
+      "endDate": "2026-12-04T00:00:00+09:00",
+      "prices": null,
+      "sourceUrl": "https://eplus.jp/sf/detail/2900730001?P1=0402&P59=1&P6=001",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_kue_2026_1212",
+      "artistId": "04_limited_sazabys",
+      "title": "響都超特急2026",
+      "startDate": "2026-12-12T00:00:00+09:00",
+      "endDate": "2026-12-12T00:00:00+09:00",
+      "prices": null,
+      "sourceUrl": "https://www.sound-c.co.jp/schedule/detail/10430/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_countdown_japan_2627_1231",
+      "artistId": "04_limited_sazabys",
+      "title": "COUNTDOWN JAPAN 26/27",
+      "startDate": "2026-12-31T00:00:00+09:00",
+      "endDate": "2026-12-31T00:00:00+09:00",
+      "prices": null,
+      "sourceUrl": "https://countdownjapan.jp/2627/artist/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_hype_like_it_2027_0124",
+      "artistId": "04_limited_sazabys",
+      "title": "Hype Like it! 2027",
+      "startDate": "2027-01-24T00:00:00+09:00",
+      "endDate": "2027-01-24T00:00:00+09:00",
+      "prices": null,
+      "sourceUrl": "https://eplus.jp/sf/detail/4569750001",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_fukuoka_music_fes_2027_0130",
+      "artistId": "04_limited_sazabys",
+      "title": "FUKUOKA MUSIC FES.2027",
+      "startDate": "2027-01-30T00:00:00+09:00",
+      "endDate": "2027-01-30T00:00:00+09:00",
+      "prices": null,
+      "sourceUrl": "https://fukuokamusic-fes.com/2027/index.html",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -610,13 +681,14 @@
       "id": "04_limited_sazabys_fes_new_horizon_2026_toyota_arena_tokyo_1228",
       "tourId": "04_limited_sazabys_fes_new_horizon_2026",
       "venue": "TOYOTA ARENA TOKYO",
-      "performanceAt": "2026-12-28T00:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-12-28T11:00:00+09:00",
+      "doorOpenAt": "2026-12-28T09:30:00+09:00",
       "kind": "fes",
       "eventName": "Sammy presents NEW HORIZON FEST 2026",
       "source": "system",
       "sourceUrl": "https://www.04limitedsazabys.com/news/detail/2353",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00",
+      "performanceTimeEstimated": false
     },
     {
       "id": "04_limited_sazabys_yon_town_8th_2026_female_0808",
@@ -724,6 +796,83 @@
       "sourceUrl": "https://www.04limitedsazabys.com/feature/view",
       "source": "system",
       "lastVerifiedAt": "2026-10-31T15:00:25.177+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_yontown_shinnenkai_2027_nagoya_0115",
+      "tourId": "04_limited_sazabys_yontown_shinnenkai_2027",
+      "performanceAt": "2027-01-15T19:00:00+09:00",
+      "doorOpenAt": "2027-01-15T18:00:00+09:00",
+      "venue": "名古屋ダイアモンドホール",
+      "kind": "oneman",
+      "eventName": "YON TOWN 町内新年会",
+      "sourceUrl": "https://www.04limitedsazabys.com/feature/shinnennkai2027",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_kotori_torirock_2026_1204_performance",
+      "tourId": "04_limited_sazabys_kotori_torirock_2026_1204",
+      "performanceAt": "2026-12-04T18:00:00+09:00",
+      "doorOpenAt": "2026-12-04T17:00:00+09:00",
+      "venue": "豊洲PIT",
+      "kind": "fes",
+      "kindReviewed": true,
+      "eventName": "KOTORI presents TORI ROCK FESTIVAL'26（04 Limited Sazabys出演）",
+      "sourceUrl": "https://eplus.jp/sf/detail/2900730001?P1=0402&P59=1&P6=001",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_kue_2026_1212_performance",
+      "tourId": "04_limited_sazabys_kue_2026_1212",
+      "performanceAt": "2026-12-12T11:00:00+09:00",
+      "doorOpenAt": "2026-12-12T10:00:00+09:00",
+      "venue": "京都パルスプラザ",
+      "kind": "fes",
+      "kindReviewed": true,
+      "eventName": "響都超特急2026（04 Limited Sazabys出演）",
+      "sourceUrl": "https://www.sound-c.co.jp/schedule/detail/10430/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_countdown_japan_2627_1231_performance",
+      "tourId": "04_limited_sazabys_countdown_japan_2627_1231",
+      "performanceAt": "2026-12-31T15:40:00+09:00",
+      "doorOpenAt": "2026-12-31T12:30:00+09:00",
+      "venue": "幕張メッセ国際展示場1～11ホール・イベントホール",
+      "kind": "fes",
+      "kindReviewed": true,
+      "eventName": "COUNTDOWN JAPAN 26/27（04 Limited Sazabys出演）",
+      "sourceUrl": "https://countdownjapan.jp/2627/artist/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_hype_like_it_2027_0124_performance",
+      "tourId": "04_limited_sazabys_hype_like_it_2027_0124",
+      "performanceAt": "2027-01-24T11:00:00+09:00",
+      "doorOpenAt": "2027-01-24T09:00:00+09:00",
+      "venue": "幕張メッセ国際展示場1～3ホール",
+      "kind": "fes",
+      "kindReviewed": true,
+      "eventName": "Hype Like it! 2027（04 Limited Sazabys出演）",
+      "sourceUrl": "https://eplus.jp/sf/detail/4569750001",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_fukuoka_music_fes_2027_0130_performance",
+      "tourId": "04_limited_sazabys_fukuoka_music_fes_2027_0130",
+      "performanceAt": "2027-01-30T10:20:00+09:00",
+      "doorOpenAt": "2027-01-30T09:00:00+09:00",
+      "venue": "みずほPayPayドーム福岡",
+      "kind": "fes",
+      "kindReviewed": true,
+      "eventName": "FUKUOKA MUSIC FES.2027（04 Limited Sazabys出演）",
+      "sourceUrl": "https://fukuokamusic-fes.com/2027/index.html",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1040,6 +1189,86 @@
       "sourceUrl": "https://www.04limitedsazabys.com/feature/view",
       "source": "system",
       "lastVerifiedAt": "2026-10-31T15:00:25.177+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_yontown_shinnenkai_2027_longterm_20261105",
+      "tourId": "04_limited_sazabys_yontown_shinnenkai_2027",
+      "type": "YON TOWN長期会員先行（抽選）",
+      "entryStartAt": "2026-11-05T21:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": "2026-11-19T18:00:00+09:00",
+      "paymentStartAt": "2026-11-19T18:00:00+09:00",
+      "paymentEndAt": "2026-11-23T23:59:00+09:00",
+      "performanceIds": [
+        "04_limited_sazabys_yontown_shinnenkai_2027_nagoya_0115"
+      ],
+      "sourceUrl": "https://www.04limitedsazabys.com/feature/shinnennkai2027",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_kotori_torirock_2026_1204_eplus_general_20261022",
+      "tourId": "04_limited_sazabys_kotori_torirock_2026_1204",
+      "type": "イープラス一般発売（先着、12/4）",
+      "entryStartAt": "2026-10-22T12:00:00+09:00",
+      "entryEndAt": "2026-12-03T18:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "04_limited_sazabys_kotori_torirock_2026_1204_performance"
+      ],
+      "sourceUrl": "https://eplus.jp/sf/detail/2900730001?P1=0402&P59=1&P6=001",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_kue_2026_1212_general_20261107",
+      "tourId": "04_limited_sazabys_kue_2026_1212",
+      "type": "響都超特急 一般発売（先着、12/12）",
+      "entryStartAt": "2026-11-07T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "04_limited_sazabys_kue_2026_1212_performance"
+      ],
+      "sourceUrl": "https://www.sound-c.co.jp/schedule/detail/10430/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_hype_like_it_2027_0124_eplus_final_firstcome_20261102",
+      "tourId": "04_limited_sazabys_hype_like_it_2027_0124",
+      "type": "Hype Like it! 最終先着先行（1/24券）",
+      "entryStartAt": "2026-11-02T20:00:00+09:00",
+      "entryEndAt": "2026-11-18T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "04_limited_sazabys_hype_like_it_2027_0124_performance"
+      ],
+      "sourceUrl": "https://eplus.jp/sf/detail/4569750001",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_fukuoka_music_fes_2027_0130_official_third_20261027",
+      "tourId": "04_limited_sazabys_fukuoka_music_fes_2027_0130",
+      "type": "福フェス オフィシャル3次先行（抽選・1/30）",
+      "entryStartAt": "2026-10-27T18:00:00+09:00",
+      "entryEndAt": "2026-11-08T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "04_limited_sazabys_fukuoka_music_fes_2027_0130_performance"
+      ],
+      "sourceUrl": "https://fukuokamusic-fes.com/2027/index.html",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

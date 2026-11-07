@@ -108,6 +108,17 @@
       "sourceUrl": "https://sp.super-beaver.com/feature/budokan2027",
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "super_beaver_countdown_japan_2627_20261227",
+      "artistId": "super_beaver",
+      "title": "COUNTDOWN JAPAN 26/27",
+      "startDate": "2026-12-27T00:00:00+09:00",
+      "endDate": "2026-12-27T00:00:00+09:00",
+      "prices": null,
+      "sourceUrl": "https://sp.super-beaver.com/live_information/detail/6093",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -1010,6 +1021,19 @@
       "sourceUrl": "https://sp.super-beaver.com/feature/budokan2027",
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "super_beaver_countdown_japan_2627_20261227_makuhari_1227",
+      "tourId": "super_beaver_countdown_japan_2627_20261227",
+      "venue": "幕張メッセ国際展示場1～11ホール・イベントホール",
+      "performanceAt": "2026-12-27T12:00:00+09:00",
+      "doorOpenAt": "2026-12-27T09:30:00+09:00",
+      "kind": "fes",
+      "kindReviewed": true,
+      "eventName": "COUNTDOWN JAPAN 26/27（SUPER BEAVER出演）",
+      "sourceUrl": "https://sp.super-beaver.com/live_information/detail/6093",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "lotteries": [

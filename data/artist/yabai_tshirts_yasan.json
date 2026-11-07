@@ -394,6 +394,17 @@
       "source": "system",
       "sourceUrl": "https://yabaitshirtsyasan.com/live/299602/",
       "lastVerifiedAt": "2026-11-01T18:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_anisama_fukuoka_2027",
+      "artistId": "yabai_tshirts_yasan",
+      "title": "ANISAMA FUKUOKA 2027",
+      "startDate": "2027-03-13T00:00:00+09:00",
+      "endDate": "2027-03-13T00:00:00+09:00",
+      "prices": null,
+      "sourceUrl": "https://anisama.tv/2027/fukuoka/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -752,26 +763,26 @@
     {
       "id": "yabai_tshirts_yasan_mtp_tour_2026_haneda_1110",
       "tourId": "yabai_tshirts_yasan_mtp_tour_2026",
-      "venue": "Zepp Haneda(TOKYO)",
+      "venue": "Zepp Haneda",
       "performanceAt": "2026-11-10T19:00:00+09:00",
       "doorOpenAt": "2026-11-10T18:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://yabaitshirtsyasan.com/mtp_tour/",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     },
     {
       "id": "yabai_tshirts_yasan_mtp_tour_2026_haneda_1111",
       "tourId": "yabai_tshirts_yasan_mtp_tour_2026",
-      "venue": "Zepp Haneda(TOKYO)",
+      "venue": "Zepp Haneda",
       "performanceAt": "2026-11-11T19:00:00+09:00",
       "doorOpenAt": "2026-11-11T18:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://yabaitshirtsyasan.com/mtp_tour/",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     },
     {
       "id": "yabai_tshirts_yasan_fes_gfest_2026_on_1010",
@@ -1053,6 +1064,19 @@
       "source": "system",
       "sourceUrl": "https://yabaitshirtsyasan.com/live/299602/",
       "lastVerifiedAt": "2026-11-01T18:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_anisama_fukuoka_2027_fukuoka_0313",
+      "tourId": "yabai_tshirts_yasan_anisama_fukuoka_2027",
+      "venue": "みずほPayPayドーム福岡",
+      "performanceAt": "2027-03-13T15:00:00+09:00",
+      "doorOpenAt": "2027-03-13T13:30:00+09:00",
+      "kind": "fes",
+      "kindReviewed": true,
+      "eventName": "ANISAMA FUKUOKA 2027",
+      "sourceUrl": "https://anisama.tv/2027/fukuoka/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "lotteries": [

@@ -92,6 +92,26 @@
       "source": "system",
       "sourceUrl": "https://www.music-bank.jp/",
       "lastVerifiedAt": "2026-11-01T00:16:36+09:00"
+    },
+    {
+      "id": "ateez_zero_to_all_japan_2027",
+      "artistId": "ateez",
+      "title": "2027 ATEEZ WORLD TOUR [ZERO TO ALL] IN JAPAN",
+      "startDate": "2027-02-02T00:00:00+09:00",
+      "endDate": "2027-02-14T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 16500
+        },
+        {
+          "label": "アップグレードチケット（追加料金）",
+          "amount": 11000
+        }
+      ],
+      "sourceUrl": "https://ateez-official.jp/contents/1123026",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -370,6 +390,54 @@
       "sourceUrl": "https://www.music-bank.jp/",
       "lastVerifiedAt": "2026-11-01T00:16:36+09:00",
       "kindReviewed": true
+    },
+    {
+      "id": "ateez_zero_to_all_japan_2027_tokyo_0202",
+      "tourId": "ateez_zero_to_all_japan_2027",
+      "venue": "国立代々木競技場 第一体育館",
+      "performanceAt": "2027-02-02T18:30:00+09:00",
+      "doorOpenAt": "2027-02-02T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "2027 ATEEZ WORLD TOUR [ZERO TO ALL] IN JAPAN",
+      "sourceUrl": "https://ateez-official.jp/contents/1123026",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_zero_to_all_japan_2027_tokyo_0203",
+      "tourId": "ateez_zero_to_all_japan_2027",
+      "venue": "国立代々木競技場 第一体育館",
+      "performanceAt": "2027-02-03T18:30:00+09:00",
+      "doorOpenAt": "2027-02-03T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "2027 ATEEZ WORLD TOUR [ZERO TO ALL] IN JAPAN",
+      "sourceUrl": "https://ateez-official.jp/contents/1123026",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_zero_to_all_japan_2027_kobe_0213",
+      "tourId": "ateez_zero_to_all_japan_2027",
+      "venue": "GLION ARENA KOBE",
+      "performanceAt": "2027-02-13T17:30:00+09:00",
+      "doorOpenAt": "2027-02-13T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "2027 ATEEZ WORLD TOUR [ZERO TO ALL] IN JAPAN",
+      "sourceUrl": "https://ateez-official.jp/contents/1123026",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_zero_to_all_japan_2027_kobe_0214",
+      "tourId": "ateez_zero_to_all_japan_2027",
+      "venue": "GLION ARENA KOBE",
+      "performanceAt": "2027-02-14T15:30:00+09:00",
+      "doorOpenAt": "2027-02-14T14:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "2027 ATEEZ WORLD TOUR [ZERO TO ALL] IN JAPAN",
+      "sourceUrl": "https://ateez-official.jp/contents/1123026",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -805,6 +873,25 @@
       "source": "system",
       "sourceUrl": "https://www.music-bank.jp/",
       "lastVerifiedAt": "2026-11-01T00:16:36+09:00"
+    },
+    {
+      "id": "ateez_zero_to_all_japan_2027_annual_fc_first_20261106",
+      "tourId": "ateez_zero_to_all_japan_2027",
+      "type": "ATEEZ JAPAN OFFICIAL FANCLUB年間会員1次先行（抽選）",
+      "entryStartAt": "2026-11-06T12:00:00+09:00",
+      "entryEndAt": "2026-11-23T23:59:00+09:00",
+      "resultAt": "2026-11-28T20:00:00+09:00",
+      "paymentStartAt": "2026-11-28T20:00:00+09:00",
+      "paymentEndAt": "2026-12-01T23:59:00+09:00",
+      "performanceIds": [
+        "ateez_zero_to_all_japan_2027_tokyo_0202",
+        "ateez_zero_to_all_japan_2027_tokyo_0203",
+        "ateez_zero_to_all_japan_2027_kobe_0213",
+        "ateez_zero_to_all_japan_2027_kobe_0214"
+      ],
+      "sourceUrl": "https://ateez-official.jp/contents/1123026",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

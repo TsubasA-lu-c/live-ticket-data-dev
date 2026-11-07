@@ -155,6 +155,17 @@
       "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00693?ima=0000",
       "source": "system",
       "lastVerifiedAt": "2026-10-31T15:28:30.918+09:00"
+    },
+    {
+      "id": "sakurazaka46_aeon_card_with_you_vol6_2026",
+      "artistId": "sakurazaka46",
+      "title": "SAKURAZAKA46 Live，AEON CARD with YOU！Vol.6",
+      "startDate": "2026-12-26T00:00:00+09:00",
+      "endDate": "2026-12-26T00:00:00+09:00",
+      "prices": null,
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00695?ima=0000&link=ROBO009",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -424,6 +435,18 @@
       "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00693?ima=0000",
       "source": "system",
       "kindReviewed": true
+    },
+    {
+      "id": "sakurazaka46_aeon_card_with_you_vol6_2026_kanadevia_1226",
+      "tourId": "sakurazaka46_aeon_card_with_you_vol6_2026",
+      "performanceAt": "2026-12-26T19:00:00+09:00",
+      "doorOpenAt": "2026-12-26T18:00:00+09:00",
+      "venue": "Kanadevia Hall",
+      "kind": "oneman",
+      "eventName": "SAKURAZAKA46 Live，AEON CARD with YOU！Vol.6",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00695?ima=0000&link=ROBO009",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1071,6 +1094,22 @@
       ],
       "sourceUrl": "https://countdownjapan.jp/2627/ticket/",
       "source": "system"
+    },
+    {
+      "id": "sakurazaka46_aeon_card_with_you_vol6_2026_aeon_presale_nov27",
+      "tourId": "sakurazaka46_aeon_card_with_you_vol6_2026",
+      "type": "イオンカード1次先行（抽選）",
+      "entryStartAt": "2026-11-27T12:00:00+09:00",
+      "entryEndAt": "2026-12-02T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sakurazaka46_aeon_card_with_you_vol6_2026_kanadevia_1226"
+      ],
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00695?ima=0000&link=ROBO009",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

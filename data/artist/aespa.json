@@ -61,6 +61,17 @@
       "source": "system",
       "sourceUrl": "https://www.music-bank.jp/",
       "lastVerifiedAt": "2026-11-01T00:16:36+09:00"
+    },
+    {
+      "id": "aespa_my_bogoshipda_2026",
+      "artistId": "aespa",
+      "title": "2026 aespa FAN MEETING “MY 보고싶다 ae가”",
+      "startDate": "2026-11-28T00:00:00+09:00",
+      "endDate": "2026-11-29T00:00:00+09:00",
+      "prices": null,
+      "sourceUrl": "https://weverse.io/aespa/notice/40306",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -343,14 +354,14 @@
     {
       "id": "aespa_synk_complaexity_2026_milan_20270129",
       "tourId": "aespa_synk_complaexity_2026",
-      "venue": "Santa Giulia Arena",
+      "venue": "Unipol Dome",
       "performanceAt": "2027-01-29T18:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://weverse.io/aespa/notice/35317",
-      "lastVerifiedAt": "2026-10-31T18:51:21+09:00"
+      "sourceUrl": "https://unipoldome.it/events/aespa",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     },
     {
       "id": "aespa_synk_complaexity_2026_barcelona_20270131",
@@ -509,6 +520,30 @@
       "sourceUrl": "https://www.music-bank.jp/",
       "lastVerifiedAt": "2026-11-01T00:16:36+09:00",
       "kindReviewed": true
+    },
+    {
+      "id": "aespa_my_bogoshipda_2026_seoul_1128",
+      "tourId": "aespa_my_bogoshipda_2026",
+      "venue": "Korea University Hwajeong Tiger Dome",
+      "performanceAt": "2026-11-28T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "2026 aespa FAN MEETING “MY 보고싶다 ae가”",
+      "sourceUrl": "https://weverse.io/aespa/notice/40306",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "aespa_my_bogoshipda_2026_seoul_1129",
+      "tourId": "aespa_my_bogoshipda_2026",
+      "venue": "Korea University Hwajeong Tiger Dome",
+      "performanceAt": "2026-11-29T16:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "2026 aespa FAN MEETING “MY 보고싶다 ae가”",
+      "sourceUrl": "https://weverse.io/aespa/notice/40306",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -567,6 +602,57 @@
       "source": "system",
       "sourceUrl": "https://www.music-bank.jp/",
       "lastVerifiedAt": "2026-11-01T00:16:36+09:00"
+    },
+    {
+      "id": "aespa_my_bogoshipda_2026_korean_fc_20261027",
+      "tourId": "aespa_my_bogoshipda_2026",
+      "type": "Melon Ticket韓国サイトMY会員先行（先着）",
+      "entryStartAt": "2026-10-27T20:00:00+09:00",
+      "entryEndAt": "2026-10-27T23:59:59+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aespa_my_bogoshipda_2026_seoul_1128",
+        "aespa_my_bogoshipda_2026_seoul_1129"
+      ],
+      "sourceUrl": "https://weverse.io/aespa/notice/40306",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "aespa_my_bogoshipda_2026_global_fc_20261028",
+      "tourId": "aespa_my_bogoshipda_2026",
+      "type": "Melon Ticket Global MY会員先行（先着）",
+      "entryStartAt": "2026-10-28T20:00:00+09:00",
+      "entryEndAt": "2026-10-28T23:59:59+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aespa_my_bogoshipda_2026_seoul_1128",
+        "aespa_my_bogoshipda_2026_seoul_1129"
+      ],
+      "sourceUrl": "https://weverse.io/aespa/notice/40306",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "aespa_my_bogoshipda_2026_general_20261029",
+      "tourId": "aespa_my_bogoshipda_2026",
+      "type": "Melon Ticket一般発売（先着）",
+      "entryStartAt": "2026-10-29T20:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aespa_my_bogoshipda_2026_seoul_1128",
+        "aespa_my_bogoshipda_2026_seoul_1129"
+      ],
+      "sourceUrl": "https://weverse.io/aespa/notice/40306",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

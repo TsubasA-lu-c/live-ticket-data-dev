@@ -682,6 +682,25 @@
       "sourceUrl": "https://illit-official.jp/news/64c58db8e132",
       "source": "system",
       "lastVerifiedAt": "2026-10-10T20:25:21+09:00"
+    },
+    {
+      "id": "illit_press_start_encore_2026_gllit_jp_vip_upgrade_20261022",
+      "tourId": "illit_illit_live_press_start_encore_in_japan",
+      "type": "GLLIT Membership (JP)会員VIP席アップグレード抽選（指定席当選済み対象）",
+      "entryStartAt": "2026-10-22T17:00:00+09:00",
+      "entryEndAt": "2026-10-28T23:59:00+09:00",
+      "resultAt": "2026-11-06T15:00:00+09:00",
+      "paymentStartAt": "2026-11-06T15:00:00+09:00",
+      "paymentEndAt": "2026-11-09T23:00:00+09:00",
+      "performanceIds": [
+        "illit_illit_live_press_start_encore_in_japan_20261223_1",
+        "illit_illit_live_press_start_encore_in_japan_20261224_2",
+        "illit_illit_live_press_start_encore_in_japan_20261226_3",
+        "illit_illit_live_press_start_encore_in_japan_20261227_4"
+      ],
+      "sourceUrl": "https://illit-official.jp/news/be59fccc0bed",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

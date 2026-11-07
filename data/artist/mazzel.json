@@ -355,26 +355,26 @@
     {
       "id": "mazzel_play_at_the_muzeum2_2026_kobe_1125a",
       "tourId": "mazzel_play_at_the_muzeum2_2026",
-      "venue": "神戸国際会館こくさいホール",
+      "venue": "神戸国際会館 こくさいホール",
       "performanceAt": "2026-11-25T15:00:00+09:00",
       "doorOpenAt": "2026-11-25T14:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     },
     {
       "id": "mazzel_play_at_the_muzeum2_2026_kobe_1125b",
       "tourId": "mazzel_play_at_the_muzeum2_2026",
-      "venue": "神戸国際会館こくさいホール",
+      "venue": "神戸国際会館 こくさいホール",
       "performanceAt": "2026-11-25T19:00:00+09:00",
       "doorOpenAt": "2026-11-25T18:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     },
     {
       "id": "mazzel_play_at_the_muzeum2_2026_osaka_1126",
@@ -391,14 +391,14 @@
     {
       "id": "mazzel_play_at_the_muzeum2_2026_omiya_1201",
       "tourId": "mazzel_play_at_the_muzeum2_2026",
-      "venue": "大宮ソニックシティ",
+      "venue": "大宮ソニックシティ 大ホール",
       "performanceAt": "2026-12-01T18:00:00+09:00",
       "doorOpenAt": "2026-12-01T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     },
     {
       "id": "mazzel_play_at_the_muzeum2_2026_gunma_1203",
@@ -451,14 +451,14 @@
     {
       "id": "mazzel_play_at_the_muzeum2_2026_aichi_1211",
       "tourId": "mazzel_play_at_the_muzeum2_2026",
-      "venue": "愛知県芸術劇場 大ホール",
+      "venue": "愛知県芸術劇場大ホール",
       "performanceAt": "2026-12-11T18:00:00+09:00",
       "doorOpenAt": "2026-12-11T17:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     },
     {
       "id": "mazzel_play_at_the_muzeum2_2026_kagawa_1215",
@@ -499,14 +499,14 @@
     {
       "id": "mazzel_play_at_the_muzeum2_2026_kumamoto_1223",
       "tourId": "mazzel_play_at_the_muzeum2_2026",
-      "venue": "熊本城ホール",
+      "venue": "熊本城ホール メインホール",
       "performanceAt": "2026-12-23T16:30:00+09:00",
       "doorOpenAt": "2026-12-23T15:30:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/",
-      "lastVerifiedAt": "2026-07-11T00:00:00+09:00"
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     },
     {
       "id": "mazzel_asuto_music_park_2026_0905",
@@ -817,16 +817,16 @@
       "id": "mazzel_fukuoka_music_fes_2027_20270130",
       "tourId": "mazzel_fukuoka_music_fes_2027_0130",
       "venue": "みずほPayPayドーム福岡",
-      "performanceAt": "2027-01-30T12:00:00+09:00",
+      "performanceAt": "2027-01-30T10:20:00+09:00",
       "performanceDate": "2027-01-30",
-      "performanceTimeEstimated": true,
-      "doorOpenAt": null,
+      "performanceTimeEstimated": false,
+      "doorOpenAt": "2027-01-30T09:00:00+09:00",
       "kind": "fes",
       "kindReviewed": true,
       "eventName": "FUKUOKA MUSIC FES.2027",
       "source": "system",
       "sourceUrl": "https://mazzel.tokyo/live/5739/",
-      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1449,6 +1449,38 @@
       "sourceUrl": "https://dreamfestival.jp/",
       "source": "system",
       "lastVerifiedAt": "2026-11-01T00:33:06+09:00"
+    },
+    {
+      "id": "mazzel_play_at_the_muzeum2_2026_pacifico_muzeum_additional_20261109",
+      "tourId": "mazzel_play_at_the_muzeum2_2026",
+      "type": "MUZEUM会員 追加先着販売（11/10横浜公演）",
+      "entryStartAt": "2026-11-09T18:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mazzel_play_at_the_muzeum2_2026_pacifico_1110"
+      ],
+      "sourceUrl": "https://mazzel.tokyo/tour/play_at_the_muzeum2/news/90/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "mazzel_fukuoka_music_fes_2027_official_third_20261027",
+      "tourId": "mazzel_fukuoka_music_fes_2027_0130",
+      "type": "福フェス オフィシャル3次先行（抽選・1/30公演券）",
+      "entryStartAt": "2026-10-27T18:00:00+09:00",
+      "entryEndAt": "2026-11-08T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mazzel_fukuoka_music_fes_2027_20270130"
+      ],
+      "sourceUrl": "https://fukuokamusic-fes.com/2027/index.html",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

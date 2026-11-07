@@ -230,6 +230,22 @@
       "artistId": "iris",
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "iris_final_live_tour_2027",
+      "artistId": "iris",
+      "title": "i☆Ris Final Live Tour 2027",
+      "startDate": "2027-04-29T00:00:00+09:00",
+      "endDate": "2027-07-25T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 10500
+        }
+      ],
+      "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2027-04-29&id=1003091&ldate=2027-07-25",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -892,6 +908,210 @@
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1136439",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
       "tourId": "iris_nyanpokora_fes_vol3_2026"
+    },
+    {
+      "id": "iris_final_live_tour_2027_chiba_0429",
+      "tourId": "iris_final_live_tour_2027",
+      "performanceAt": "2027-04-29T17:00:00+09:00",
+      "doorOpenAt": "2027-04-29T16:00:00+09:00",
+      "venue": "市川市文化会館 大ホール",
+      "kind": "oneman",
+      "eventName": "i☆Ris Final Live Tour 2027",
+      "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2027-04-29&id=1003091&ldate=2027-07-25",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "iris_final_live_tour_2027_kanagawa_0501",
+      "tourId": "iris_final_live_tour_2027",
+      "performanceAt": "2027-05-01T17:30:00+09:00",
+      "doorOpenAt": "2027-05-01T17:00:00+09:00",
+      "venue": "KT Zepp Yokohama",
+      "kind": "oneman",
+      "eventName": "i☆Ris Final Live Tour 2027",
+      "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2027-04-29&id=1003091&ldate=2027-07-25",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "iris_final_live_tour_2027_aichi_0502_day",
+      "tourId": "iris_final_live_tour_2027",
+      "performanceAt": "2027-05-02T15:00:00+09:00",
+      "doorOpenAt": "2027-05-02T14:15:00+09:00",
+      "venue": "Niterra日本特殊陶業市民会館 ビレッジホール",
+      "kind": "oneman",
+      "eventName": "i☆Ris Final Live Tour 2027",
+      "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2027-04-29&id=1003091&ldate=2027-07-25",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "iris_final_live_tour_2027_aichi_0502_night",
+      "tourId": "iris_final_live_tour_2027",
+      "performanceAt": "2027-05-02T19:00:00+09:00",
+      "doorOpenAt": "2027-05-02T18:15:00+09:00",
+      "venue": "Niterra日本特殊陶業市民会館 ビレッジホール",
+      "kind": "oneman",
+      "eventName": "i☆Ris Final Live Tour 2027",
+      "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2027-04-29&id=1003091&ldate=2027-07-25",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "iris_final_live_tour_2027_fukuoka_0505",
+      "tourId": "iris_final_live_tour_2027",
+      "performanceAt": "2027-05-05T17:30:00+09:00",
+      "doorOpenAt": "2027-05-05T17:00:00+09:00",
+      "venue": "Zepp Fukuoka",
+      "kind": "oneman",
+      "eventName": "i☆Ris Final Live Tour 2027",
+      "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2027-04-29&id=1003091&ldate=2027-07-25",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "iris_final_live_tour_2027_saitama_0509",
+      "tourId": "iris_final_live_tour_2027",
+      "performanceAt": "2027-05-09T18:00:00+09:00",
+      "doorOpenAt": "2027-05-09T17:15:00+09:00",
+      "venue": "三郷市文化会館",
+      "kind": "oneman",
+      "eventName": "i☆Ris Final Live Tour 2027",
+      "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2027-04-29&id=1003091&ldate=2027-07-25",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "iris_final_live_tour_2027_hokkaido_0516_day",
+      "tourId": "iris_final_live_tour_2027",
+      "performanceAt": "2027-05-16T15:00:00+09:00",
+      "doorOpenAt": "2027-05-16T14:15:00+09:00",
+      "venue": "Zepp Sapporo",
+      "kind": "oneman",
+      "eventName": "i☆Ris Final Live Tour 2027",
+      "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2027-04-29&id=1003091&ldate=2027-07-25",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "iris_final_live_tour_2027_hokkaido_0516_night",
+      "tourId": "iris_final_live_tour_2027",
+      "performanceAt": "2027-05-16T19:00:00+09:00",
+      "doorOpenAt": "2027-05-16T18:15:00+09:00",
+      "venue": "Zepp Sapporo",
+      "kind": "oneman",
+      "eventName": "i☆Ris Final Live Tour 2027",
+      "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2027-04-29&id=1003091&ldate=2027-07-25",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "iris_final_live_tour_2027_gifu_0523",
+      "tourId": "iris_final_live_tour_2027",
+      "performanceAt": "2027-05-23T18:00:00+09:00",
+      "doorOpenAt": "2027-05-23T17:00:00+09:00",
+      "venue": "長良川国際会議場 メインホール",
+      "kind": "oneman",
+      "eventName": "i☆Ris Final Live Tour 2027",
+      "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2027-04-29&id=1003091&ldate=2027-07-25",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "iris_final_live_tour_2027_osaka_0530_day",
+      "tourId": "iris_final_live_tour_2027",
+      "performanceAt": "2027-05-30T15:00:00+09:00",
+      "doorOpenAt": "2027-05-30T14:15:00+09:00",
+      "venue": "Zepp Namba",
+      "kind": "oneman",
+      "eventName": "i☆Ris Final Live Tour 2027",
+      "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2027-04-29&id=1003091&ldate=2027-07-25",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "iris_final_live_tour_2027_osaka_0530_night",
+      "tourId": "iris_final_live_tour_2027",
+      "performanceAt": "2027-05-30T19:00:00+09:00",
+      "doorOpenAt": "2027-05-30T18:15:00+09:00",
+      "venue": "Zepp Namba",
+      "kind": "oneman",
+      "eventName": "i☆Ris Final Live Tour 2027",
+      "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2027-04-29&id=1003091&ldate=2027-07-25",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "iris_final_live_tour_2027_akita_0612",
+      "tourId": "iris_final_live_tour_2027",
+      "performanceAt": "2027-06-12T17:30:00+09:00",
+      "doorOpenAt": "2027-06-12T17:00:00+09:00",
+      "venue": "あきた芸術劇場ミルハス中ホール",
+      "kind": "oneman",
+      "eventName": "i☆Ris Final Live Tour 2027",
+      "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2027-04-29&id=1003091&ldate=2027-07-25",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "iris_final_live_tour_2027_miyagi_0613",
+      "tourId": "iris_final_live_tour_2027",
+      "performanceAt": "2027-06-13T17:30:00+09:00",
+      "doorOpenAt": "2027-06-13T17:00:00+09:00",
+      "venue": "仙台PIT",
+      "kind": "oneman",
+      "eventName": "i☆Ris Final Live Tour 2027",
+      "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2027-04-29&id=1003091&ldate=2027-07-25",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "iris_final_live_tour_2027_okinawa_0626_day",
+      "tourId": "iris_final_live_tour_2027",
+      "performanceAt": "2027-06-26T14:30:00+09:00",
+      "doorOpenAt": "2027-06-26T14:00:00+09:00",
+      "venue": "ミュージックタウン音市場",
+      "kind": "oneman",
+      "eventName": "i☆Ris Final Live Tour 2027",
+      "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2027-04-29&id=1003091&ldate=2027-07-25",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "iris_final_live_tour_2027_okinawa_0626_night",
+      "tourId": "iris_final_live_tour_2027",
+      "performanceAt": "2027-06-26T18:00:00+09:00",
+      "doorOpenAt": "2027-06-26T17:30:00+09:00",
+      "venue": "ミュージックタウン音市場",
+      "kind": "oneman",
+      "eventName": "i☆Ris Final Live Tour 2027",
+      "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2027-04-29&id=1003091&ldate=2027-07-25",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "iris_final_live_tour_2027_tokyo_0725_day",
+      "tourId": "iris_final_live_tour_2027",
+      "performanceAt": "2027-07-25T15:00:00+09:00",
+      "doorOpenAt": "2027-07-25T14:00:00+09:00",
+      "venue": "立川ステージガーデン",
+      "kind": "oneman",
+      "eventName": "i☆Ris Final Live Tour 2027",
+      "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2027-04-29&id=1003091&ldate=2027-07-25",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "iris_final_live_tour_2027_tokyo_0725_night",
+      "tourId": "iris_final_live_tour_2027",
+      "performanceAt": "2027-07-25T19:00:00+09:00",
+      "doorOpenAt": "2027-07-25T18:00:00+09:00",
+      "venue": "立川ステージガーデン",
+      "kind": "oneman",
+      "eventName": "i☆Ris Final Live Tour 2027",
+      "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2027-04-29&id=1003091&ldate=2027-07-25",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1140,6 +1360,38 @@
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
       "tourId": "iris_nyanpokora_fes_vol3_2026"
+    },
+    {
+      "id": "iris_final_live_tour_2027_nijikai_fc_20261103",
+      "tourId": "iris_final_live_tour_2027",
+      "type": "虹会FC会員先行（抽選）",
+      "entryStartAt": "2026-11-03T21:30:00+09:00",
+      "entryEndAt": "2026-11-23T23:59:00+09:00",
+      "resultAt": "2026-11-27T13:00:00+09:00",
+      "paymentStartAt": "2026-11-27T13:00:00+09:00",
+      "paymentEndAt": "2026-12-02T23:00:00+09:00",
+      "performanceIds": [
+        "iris_final_live_tour_2027_chiba_0429",
+        "iris_final_live_tour_2027_kanagawa_0501",
+        "iris_final_live_tour_2027_aichi_0502_day",
+        "iris_final_live_tour_2027_aichi_0502_night",
+        "iris_final_live_tour_2027_fukuoka_0505",
+        "iris_final_live_tour_2027_saitama_0509",
+        "iris_final_live_tour_2027_hokkaido_0516_day",
+        "iris_final_live_tour_2027_hokkaido_0516_night",
+        "iris_final_live_tour_2027_gifu_0523",
+        "iris_final_live_tour_2027_osaka_0530_day",
+        "iris_final_live_tour_2027_osaka_0530_night",
+        "iris_final_live_tour_2027_akita_0612",
+        "iris_final_live_tour_2027_miyagi_0613",
+        "iris_final_live_tour_2027_okinawa_0626_day",
+        "iris_final_live_tour_2027_okinawa_0626_night",
+        "iris_final_live_tour_2027_tokyo_0725_day",
+        "iris_final_live_tour_2027_tokyo_0725_night"
+      ],
+      "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2027-04-29&id=1003091&ldate=2027-07-25",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
