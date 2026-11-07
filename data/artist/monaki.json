@@ -850,29 +850,29 @@
       "id": "monaki_christmas_yade_2026_tokyo_1223",
       "tourId": "monaki_christmas_yade_2026",
       "venue": "Zepp DiverCity (TOKYO)",
-      "performanceAt": "2026-12-23T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-12-23T19:00:00+09:00",
+      "doorOpenAt": "2026-12-23T18:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://monaki.jp/news/detail/89372",
-      "lastVerifiedAt": "2026-09-19T00:00:00+09:00",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00",
       "performanceDate": "2026-12-23",
-      "performanceTimeEstimated": true
+      "performanceTimeEstimated": false
     },
     {
       "id": "monaki_christmas_yade_2026_osaka_1225",
       "tourId": "monaki_christmas_yade_2026",
       "venue": "Zepp Osaka Bayside",
-      "performanceAt": "2026-12-25T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-12-25T19:00:00+09:00",
+      "doorOpenAt": "2026-12-25T18:00:00+09:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://monaki.jp/news/detail/89372",
-      "lastVerifiedAt": "2026-09-19T00:00:00+09:00",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00",
       "performanceDate": "2026-12-25",
-      "performanceTimeEstimated": true
+      "performanceTimeEstimated": false
     },
     {
       "id": "monaki_fes_sanmar_sonic_2026_20261101",
@@ -922,16 +922,16 @@
       "id": "monaki_yamafes_2027_osaka_0226_performance",
       "tourId": "monaki_yamafes_2027_osaka_0226",
       "venue": "大阪国際会議場（グランキューブ大阪）メインホール",
-      "performanceAt": "2027-02-26T12:00:00+09:00",
+      "performanceAt": "2027-02-26T18:00:00+09:00",
       "performanceDate": "2027-02-26",
-      "performanceTimeEstimated": true,
-      "doorOpenAt": null,
+      "performanceTimeEstimated": false,
+      "doorOpenAt": "2027-02-26T17:00:00+09:00",
       "kind": "fes",
       "kindReviewed": true,
       "eventName": "三代目 J SOUL BROTHERS 山下健二郎のZERO BASE presents 超★山フェス2027 ～SUPER WEST～",
       "source": "system",
       "sourceUrl": "https://monaki.jp/news/detail/94770",
-      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     },
     {
       "id": "monaki_tgc_shizuoka_2027_0109",
@@ -1199,6 +1199,39 @@
       "sourceUrl": "https://dreamfestival.jp/",
       "source": "system",
       "lastVerifiedAt": "2026-11-01T00:33:06+09:00"
+    },
+    {
+      "id": "monaki_christmas_yade_2026_general_20261107",
+      "tourId": "monaki_christmas_yade_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-11-07T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "monaki_christmas_yade_2026_tokyo_1223",
+        "monaki_christmas_yade_2026_osaka_1225"
+      ],
+      "sourceUrl": "https://monaki.jp/news/detail/95095",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_yamafes_2027_fanclub_20261109",
+      "tourId": "monaki_yamafes_2027_osaka_0226",
+      "type": "モナキファミリークラブ会員先行（抽選）",
+      "entryStartAt": "2026-11-09T15:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "monaki_yamafes_2027_osaka_0226_performance"
+      ],
+      "sourceUrl": "https://monaki.jp/news/detail/95423",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
