@@ -957,16 +957,16 @@
       "id": "saucy_dog_fukuoka_music_fes_2027_20270131",
       "tourId": "saucy_dog_fukuoka_music_fes_2027_0131",
       "venue": "みずほPayPayドーム福岡",
-      "performanceAt": "2027-01-31T12:00:00+09:00",
+      "performanceAt": "2027-01-31T10:20:00+09:00",
       "performanceDate": "2027-01-31",
-      "performanceTimeEstimated": true,
-      "doorOpenAt": null,
+      "performanceTimeEstimated": false,
+      "doorOpenAt": "2027-01-31T09:00:00+09:00",
       "kind": "fes",
       "kindReviewed": true,
       "eventName": "FUKUOKA MUSIC FES.2027",
       "source": "system",
       "sourceUrl": "https://saucydog.jp/news/5/?page=2&range=future_event_end_time&sort=asc",
-      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     },
     {
       "id": "saucy_dog_ishihara_ska_showdown_2027_0223_nagoya",
@@ -1290,6 +1290,66 @@
       "sourceUrl": "https://saucydog.jp/news/detail/2189",
       "source": "system",
       "lastVerifiedAt": "2026-10-31T18:29:15+09:00"
+    },
+    {
+      "id": "saucy_dog_tadoru_2027_series2_fc_20261102",
+      "tourId": "saucy_dog_tadoru_47_pref_2027",
+      "type": "サウシードッグオーナーズ Series2 FC会員先行（抽選）",
+      "entryStartAt": "2026-11-02T12:00:00+09:00",
+      "entryEndAt": "2026-11-08T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "saucy_dog_tadoru_2027_20270511",
+        "saucy_dog_tadoru_2027_20270513",
+        "saucy_dog_tadoru_2027_20270518",
+        "saucy_dog_tadoru_2027_20270519",
+        "saucy_dog_tadoru_2027_20270525",
+        "saucy_dog_tadoru_2027_20270526",
+        "saucy_dog_tadoru_2027_20270608",
+        "saucy_dog_tadoru_2027_20270615",
+        "saucy_dog_tadoru_2027_20270617",
+        "saucy_dog_tadoru_2027_20270618",
+        "saucy_dog_tadoru_2027_20270622",
+        "saucy_dog_tadoru_2027_20270623",
+        "saucy_dog_tadoru_2027_20270630"
+      ],
+      "sourceUrl": "https://saucydog.jp/news/detail/2190",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "saucy_dog_hype_like_it_2027_eplus_final_20261102",
+      "tourId": "saucy_dog_hype_like_it_2027",
+      "type": "Hype Like it! 1/23イープラス最終先着先行",
+      "entryStartAt": "2026-11-02T20:00:00+09:00",
+      "entryEndAt": "2026-11-18T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "saucy_dog_hype_like_it_2027_0123"
+      ],
+      "sourceUrl": "https://eplus.jp/sf/detail/4569750001",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "saucy_dog_fukuoka_music_fes_2027_official_third_20261027",
+      "tourId": "saucy_dog_fukuoka_music_fes_2027_0131",
+      "type": "福フェス オフィシャル3次先行（抽選・1/31公演）",
+      "entryStartAt": "2026-10-27T18:00:00+09:00",
+      "entryEndAt": "2026-11-08T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "saucy_dog_fukuoka_music_fes_2027_20270131"
+      ],
+      "sourceUrl": "https://fukuokamusic-fes.com/2027/index.html",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
