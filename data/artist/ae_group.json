@@ -76,6 +76,22 @@
       "source": "system",
       "sourceUrl": "https://www.suntory.co.jp/culture-sports/daiku/",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "ae_group_acchikocchi_ae_thankyou_2027",
+      "artistId": "ae_group",
+      "title": "あっちこっちAぇ! 感謝祭 祝・全国制覇☝ニッポンAぇ! とこアワード",
+      "startDate": "2027-01-28T00:00:00+09:00",
+      "endDate": "2027-01-28T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 8500
+        }
+      ],
+      "sourceUrl": "https://www.asahi.co.jp/acchikocchi/event/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -510,6 +526,30 @@
       "source": "system",
       "sourceUrl": "https://www.mbs.jp/daiku/outline/",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "ae_group_acchikocchi_ae_thankyou_2027_osaka_0128_day",
+      "tourId": "ae_group_acchikocchi_ae_thankyou_2027",
+      "venue": "グランキューブ大阪（大阪府立国際会議場）",
+      "performanceAt": "2027-01-28T14:00:00+09:00",
+      "doorOpenAt": "2027-01-28T13:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "あっちこっちAぇ! 感謝祭（昼公演）",
+      "sourceUrl": "https://www.asahi.co.jp/acchikocchi/event/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "ae_group_acchikocchi_ae_thankyou_2027_osaka_0128_night",
+      "tourId": "ae_group_acchikocchi_ae_thankyou_2027",
+      "venue": "グランキューブ大阪（大阪府立国際会議場）",
+      "performanceAt": "2027-01-28T18:00:00+09:00",
+      "doorOpenAt": "2027-01-28T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "あっちこっちAぇ! 感謝祭（夜公演）",
+      "sourceUrl": "https://www.asahi.co.jp/acchikocchi/event/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "lotteries": [
