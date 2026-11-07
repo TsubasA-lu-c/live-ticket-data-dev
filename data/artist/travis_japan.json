@@ -151,6 +151,17 @@
       "sourceUrl": "https://starto.jp/s/p/live/10616?artist=60",
       "source": "system",
       "lastVerifiedAt": "2026-10-31T18:31:31+09:00"
+    },
+    {
+      "id": "travis_japan_jewelry_basket_release_live_2027",
+      "artistId": "travis_japan",
+      "title": "Travis Japan 'Jewelry Basket' 発売記念イベント",
+      "startDate": "2027-01-20T00:00:00+09:00",
+      "endDate": "2027-01-27T00:00:00+09:00",
+      "prices": null,
+      "sourceUrl": "https://www.universal-music.co.jp/travisjapan/news/2026-10-28/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -2209,6 +2220,66 @@
       "sourceUrl": "https://starto.jp/s/p/live/10616?artist=60",
       "source": "system",
       "lastVerifiedAt": "2026-10-31T18:31:31+09:00"
+    },
+    {
+      "id": "travis_japan_jewelry_basket_release_live_2027_osaka_0120_day",
+      "tourId": "travis_japan_jewelry_basket_release_live_2027",
+      "performanceDate": "2027-01-20",
+      "performanceAt": "2027-01-20T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "venue": null,
+      "kind": "oneman",
+      "eventName": "Travis Japan 'Jewelry Basket' 発売記念イベント（昼の部／大阪府内）",
+      "venueAnnouncement": "大阪府内某所（詳細は当選者にのみ通知）",
+      "sourceUrl": "https://www.universal-music.co.jp/travisjapan/news/2026-10-28/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "travis_japan_jewelry_basket_release_live_2027_osaka_0120_night",
+      "tourId": "travis_japan_jewelry_basket_release_live_2027",
+      "performanceDate": "2027-01-20",
+      "performanceAt": "2027-01-20T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "venue": null,
+      "kind": "oneman",
+      "eventName": "Travis Japan 'Jewelry Basket' 発売記念イベント（夜の部／大阪府内）",
+      "venueAnnouncement": "大阪府内某所（詳細は当選者にのみ通知）",
+      "sourceUrl": "https://www.universal-music.co.jp/travisjapan/news/2026-10-28/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "travis_japan_jewelry_basket_release_live_2027_kanagawa_0127_day",
+      "tourId": "travis_japan_jewelry_basket_release_live_2027",
+      "performanceDate": "2027-01-27",
+      "performanceAt": "2027-01-27T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "venue": null,
+      "kind": "oneman",
+      "eventName": "Travis Japan 'Jewelry Basket' 発売記念イベント（昼の部／神奈川県内）",
+      "venueAnnouncement": "神奈川県内某所（詳細は当選者にのみ通知）",
+      "sourceUrl": "https://www.universal-music.co.jp/travisjapan/news/2026-10-28/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "travis_japan_jewelry_basket_release_live_2027_kanagawa_0127_night",
+      "tourId": "travis_japan_jewelry_basket_release_live_2027",
+      "performanceDate": "2027-01-27",
+      "performanceAt": "2027-01-27T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "venue": null,
+      "kind": "oneman",
+      "eventName": "Travis Japan 'Jewelry Basket' 発売記念イベント（夜の部／神奈川県内）",
+      "venueAnnouncement": "神奈川県内某所（詳細は当選者にのみ通知）",
+      "sourceUrl": "https://www.universal-music.co.jp/travisjapan/news/2026-10-28/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -2430,6 +2501,25 @@
       "sourceUrl": "https://starto.jp/s/p/live/10616?artist=60",
       "source": "system",
       "lastVerifiedAt": "2026-10-31T18:31:31+09:00"
+    },
+    {
+      "id": "travis_japan_jewelry_basket_release_live_2027_cd_serial_20261117",
+      "tourId": "travis_japan_jewelry_basket_release_live_2027",
+      "type": "アルバム封入シリアル応募抽選",
+      "entryStartAt": null,
+      "entryEndAt": "2026-11-29T23:59:00+09:00",
+      "resultAt": "2026-12-23T12:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "travis_japan_jewelry_basket_release_live_2027_osaka_0120_day",
+        "travis_japan_jewelry_basket_release_live_2027_osaka_0120_night",
+        "travis_japan_jewelry_basket_release_live_2027_kanagawa_0127_day",
+        "travis_japan_jewelry_basket_release_live_2027_kanagawa_0127_night"
+      ],
+      "sourceUrl": "https://www.universal-music.co.jp/travisjapan/news/2026-10-28/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
