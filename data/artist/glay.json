@@ -1093,19 +1093,21 @@
     {
       "id": "glay_exofire_2026_lawson_hyogo_1102",
       "tourId": "glay_exofire_2026",
-      "type": "ローソンチケット先行抽選（兵庫）",
+      "type": "ローソンチケット先行抽選（札幌・兵庫）",
       "entryStartAt": "2026-11-02T15:00:00+09:00",
       "entryEndAt": "2026-11-09T23:00:00+09:00",
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
       "performanceIds": [
+        "glay_exofire_2026_hokkaido_1212",
+        "glay_exofire_2026_hokkaido_1213",
         "glay_exofire_2026_hyogo_0116",
         "glay_exofire_2026_hyogo_0117"
       ],
-      "sourceUrl": "https://www.glay.co.jp/news/detail/10359",
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10406",
       "source": "system",
-      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_upgrade_2026",
