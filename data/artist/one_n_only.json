@@ -269,6 +269,17 @@
       "source": "system",
       "sourceUrl": "https://one-n-only.jp/contents/1109290",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "one_n_only_mega_golden_release_minilive_2026",
+      "artistId": "one_n_only",
+      "title": "ONE N' ONLY メジャー2ndアルバム『MEGA GOLDEN』リリースイベント（ミニライブ・特典会）",
+      "startDate": "2026-12-02T00:00:00+09:00",
+      "endDate": "2026-12-06T00:00:00+09:00",
+      "prices": null,
+      "sourceUrl": "https://one-n-only.jp/contents/1116016",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -537,6 +548,48 @@
       "source": "system",
       "sourceUrl": "https://one-n-only.jp/contents/1109290",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "one_n_only_mega_golden_release_minilive_2026_kanto_1202",
+      "tourId": "one_n_only_mega_golden_release_minilive_2026",
+      "performanceDate": "2026-12-02",
+      "performanceAt": "2026-12-02T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "venue": null,
+      "kind": "oneman",
+      "eventName": "ONE N' ONLY 『MEGA GOLDEN』リリースイベント（ミニライブ・特典会） 関東（会場未発表）",
+      "sourceUrl": "https://one-n-only.jp/contents/1116016",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "one_n_only_mega_golden_release_minilive_2026_kansai_1205",
+      "tourId": "one_n_only_mega_golden_release_minilive_2026",
+      "performanceDate": "2026-12-05",
+      "performanceAt": "2026-12-05T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "venue": null,
+      "kind": "oneman",
+      "eventName": "ONE N' ONLY 『MEGA GOLDEN』リリースイベント（ミニライブ・特典会） 関西（会場未発表）",
+      "sourceUrl": "https://one-n-only.jp/contents/1116016",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "one_n_only_mega_golden_release_minilive_2026_kanto_1206",
+      "tourId": "one_n_only_mega_golden_release_minilive_2026",
+      "performanceDate": "2026-12-06",
+      "performanceAt": "2026-12-06T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "venue": null,
+      "kind": "oneman",
+      "eventName": "ONE N' ONLY 『MEGA GOLDEN』リリースイベント（ミニライブ・特典会） 関東（会場未発表）",
+      "sourceUrl": "https://one-n-only.jp/contents/1116016",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "lotteries": [
