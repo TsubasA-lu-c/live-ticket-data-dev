@@ -6,7 +6,7 @@
       "artistId": "ikimonogakari",
       "title": "いきものがかりの みなさん、こんにつあー!! 2026-2027 超全国あんぎゃー!! 〜47都道府県ぐるっと日本一周しまSHOW!!〜",
       "startDate": "2026-04-18T00:00:00+09:00",
-      "endDate": "2027-04-25T00:00:00+09:00",
+      "endDate": "2027-09-05T00:00:00+09:00",
       "prices": [
         {
           "label": "指定席",
@@ -23,7 +23,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
-      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     },
     {
       "id": "ikimonogakari_20th_anniversary_fes_2026",
@@ -492,6 +492,210 @@
       "source": "system",
       "sourceUrl": "https://ikimonogakari.com/news/live/20260125-1",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_tokyo_0411",
+      "tourId": "ikimonogakari_angyar_2026",
+      "performanceAt": "2027-04-11T17:00:00+09:00",
+      "doorOpenAt": "2027-04-11T16:00:00+09:00",
+      "venue": "SGC HALL ARIAKE",
+      "kind": "oneman",
+      "eventName": "いきものがかりの みなさん、こんにつあー!! 2026-2027 超全国あんぎゃー!! 〜47都道府県ぐるっと日本一周しまSHOW!!〜",
+      "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_ibaraki_0605",
+      "tourId": "ikimonogakari_angyar_2026",
+      "performanceAt": "2027-06-05T18:00:00+09:00",
+      "doorOpenAt": "2027-06-05T17:00:00+09:00",
+      "venue": "水戸市民会館グロービスホール",
+      "kind": "oneman",
+      "eventName": "いきものがかりの みなさん、こんにつあー!! 2026-2027 超全国あんぎゃー!! 〜47都道府県ぐるっと日本一周しまSHOW!!〜",
+      "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_saga_0619",
+      "tourId": "ikimonogakari_angyar_2026",
+      "performanceAt": "2027-06-19T18:00:00+09:00",
+      "doorOpenAt": "2027-06-19T17:00:00+09:00",
+      "venue": "ミズ ウェルビー ホール（佐賀市文化会館）",
+      "kind": "oneman",
+      "eventName": "いきものがかりの みなさん、こんにつあー!! 2026-2027 超全国あんぎゃー!! 〜47都道府県ぐるっと日本一周しまSHOW!!〜",
+      "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_shizuoka_0626",
+      "tourId": "ikimonogakari_angyar_2026",
+      "performanceAt": "2027-06-26T18:00:00+09:00",
+      "doorOpenAt": "2027-06-26T17:00:00+09:00",
+      "venue": "アクトシティ浜松 大ホール",
+      "kind": "oneman",
+      "eventName": "いきものがかりの みなさん、こんにつあー!! 2026-2027 超全国あんぎゃー!! 〜47都道府県ぐるっと日本一周しまSHOW!!〜",
+      "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_gifu_0627",
+      "tourId": "ikimonogakari_angyar_2026",
+      "performanceAt": "2027-06-27T18:00:00+09:00",
+      "doorOpenAt": "2027-06-27T17:00:00+09:00",
+      "venue": "長良川国際会議場 メインホール",
+      "kind": "oneman",
+      "eventName": "いきものがかりの みなさん、こんにつあー!! 2026-2027 超全国あんぎゃー!! 〜47都道府県ぐるっと日本一周しまSHOW!!〜",
+      "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_akita_0703",
+      "tourId": "ikimonogakari_angyar_2026",
+      "performanceAt": "2027-07-03T18:00:00+09:00",
+      "doorOpenAt": "2027-07-03T17:00:00+09:00",
+      "venue": "あきた芸術劇場ミルハス 大ホール",
+      "kind": "oneman",
+      "eventName": "いきものがかりの みなさん、こんにつあー!! 2026-2027 超全国あんぎゃー!! 〜47都道府県ぐるっと日本一周しまSHOW!!〜",
+      "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_fukushima_0710",
+      "tourId": "ikimonogakari_angyar_2026",
+      "performanceAt": "2027-07-10T18:00:00+09:00",
+      "doorOpenAt": "2027-07-10T17:00:00+09:00",
+      "venue": "とうほう・みんなの文化センター 大ホール",
+      "kind": "oneman",
+      "eventName": "いきものがかりの みなさん、こんにつあー!! 2026-2027 超全国あんぎゃー!! 〜47都道府県ぐるっと日本一周しまSHOW!!〜",
+      "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_tokushima_0717",
+      "tourId": "ikimonogakari_angyar_2026",
+      "performanceAt": "2027-07-17T18:00:00+09:00",
+      "doorOpenAt": "2027-07-17T17:00:00+09:00",
+      "venue": "鳴門市文化会館",
+      "kind": "oneman",
+      "eventName": "いきものがかりの みなさん、こんにつあー!! 2026-2027 超全国あんぎゃー!! 〜47都道府県ぐるっと日本一周しまSHOW!!〜",
+      "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_kochi_0719",
+      "tourId": "ikimonogakari_angyar_2026",
+      "performanceAt": "2027-07-19T18:00:00+09:00",
+      "doorOpenAt": "2027-07-19T17:00:00+09:00",
+      "venue": "新来島高知重工ホール オレンジホール",
+      "kind": "oneman",
+      "eventName": "いきものがかりの みなさん、こんにつあー!! 2026-2027 超全国あんぎゃー!! 〜47都道府県ぐるっと日本一周しまSHOW!!〜",
+      "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_yamanashi_0731",
+      "tourId": "ikimonogakari_angyar_2026",
+      "performanceAt": "2027-07-31T18:00:00+09:00",
+      "doorOpenAt": "2027-07-31T17:00:00+09:00",
+      "venue": "YCC県民文化ホール 大ホール",
+      "kind": "oneman",
+      "eventName": "いきものがかりの みなさん、こんにつあー!! 2026-2027 超全国あんぎゃー!! 〜47都道府県ぐるっと日本一周しまSHOW!!〜",
+      "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_osaka_0805",
+      "tourId": "ikimonogakari_angyar_2026",
+      "performanceAt": "2027-08-05T18:00:00+09:00",
+      "doorOpenAt": "2027-08-05T17:00:00+09:00",
+      "venue": "フェスティバルホール",
+      "kind": "oneman",
+      "eventName": "いきものがかりの みなさん、こんにつあー!! 2026-2027 超全国あんぎゃー!! 〜47都道府県ぐるっと日本一周しまSHOW!!〜",
+      "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_osaka_0806",
+      "tourId": "ikimonogakari_angyar_2026",
+      "performanceAt": "2027-08-06T18:00:00+09:00",
+      "doorOpenAt": "2027-08-06T17:00:00+09:00",
+      "venue": "フェスティバルホール",
+      "kind": "oneman",
+      "eventName": "いきものがかりの みなさん、こんにつあー!! 2026-2027 超全国あんぎゃー!! 〜47都道府県ぐるっと日本一周しまSHOW!!〜",
+      "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_iwate_0814",
+      "tourId": "ikimonogakari_angyar_2026",
+      "performanceAt": "2027-08-14T18:00:00+09:00",
+      "doorOpenAt": "2027-08-14T17:00:00+09:00",
+      "venue": "トーサイクラシックホール岩手 大ホール",
+      "kind": "oneman",
+      "eventName": "いきものがかりの みなさん、こんにつあー!! 2026-2027 超全国あんぎゃー!! 〜47都道府県ぐるっと日本一周しまSHOW!!〜",
+      "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_mie_0821",
+      "tourId": "ikimonogakari_angyar_2026",
+      "performanceAt": "2027-08-21T18:00:00+09:00",
+      "doorOpenAt": "2027-08-21T17:00:00+09:00",
+      "venue": "三重県文化会館 大ホール",
+      "kind": "oneman",
+      "eventName": "いきものがかりの みなさん、こんにつあー!! 2026-2027 超全国あんぎゃー!! 〜47都道府県ぐるっと日本一周しまSHOW!!〜",
+      "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_hyogo_0822",
+      "tourId": "ikimonogakari_angyar_2026",
+      "performanceAt": "2027-08-22T18:00:00+09:00",
+      "doorOpenAt": "2027-08-22T17:00:00+09:00",
+      "venue": "神戸国際会館こくさいホール",
+      "kind": "oneman",
+      "eventName": "いきものがかりの みなさん、こんにつあー!! 2026-2027 超全国あんぎゃー!! 〜47都道府県ぐるっと日本一周しまSHOW!!〜",
+      "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_miyazaki_0904",
+      "tourId": "ikimonogakari_angyar_2026",
+      "performanceAt": "2027-09-04T18:00:00+09:00",
+      "doorOpenAt": "2027-09-04T17:00:00+09:00",
+      "venue": "都城市総合文化ホール 大ホール",
+      "kind": "oneman",
+      "eventName": "いきものがかりの みなさん、こんにつあー!! 2026-2027 超全国あんぎゃー!! 〜47都道府県ぐるっと日本一周しまSHOW!!〜",
+      "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_kagoshima_0905",
+      "tourId": "ikimonogakari_angyar_2026",
+      "performanceAt": "2027-09-05T18:00:00+09:00",
+      "doorOpenAt": "2027-09-05T17:00:00+09:00",
+      "venue": "宝山ホール（鹿児島県文化センター）",
+      "kind": "oneman",
+      "eventName": "いきものがかりの みなさん、こんにつあー!! 2026-2027 超全国あんぎゃー!! 〜47都道府県ぐるっと日本一周しまSHOW!!〜",
+      "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1829,6 +2033,38 @@
       "sourceUrl": "https://ikimonogakari.com/news/live/20261031-1",
       "source": "system",
       "lastVerifiedAt": "2026-10-31T18:23:53+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_fc_fastest_third_20261103",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "超1年2組 第三弾発表公演FC最速先行（抽選）",
+      "entryStartAt": "2026-11-03T12:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": "2026-11-21T18:00:00+09:00",
+      "paymentStartAt": "2026-11-21T18:00:00+09:00",
+      "paymentEndAt": "2026-11-25T23:59:00+09:00",
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_tokyo_0411",
+        "ikimonogakari_angyar_2026_ibaraki_0605",
+        "ikimonogakari_angyar_2026_saga_0619",
+        "ikimonogakari_angyar_2026_shizuoka_0626",
+        "ikimonogakari_angyar_2026_gifu_0627",
+        "ikimonogakari_angyar_2026_akita_0703",
+        "ikimonogakari_angyar_2026_fukushima_0710",
+        "ikimonogakari_angyar_2026_tokushima_0717",
+        "ikimonogakari_angyar_2026_kochi_0719",
+        "ikimonogakari_angyar_2026_yamanashi_0731",
+        "ikimonogakari_angyar_2026_osaka_0805",
+        "ikimonogakari_angyar_2026_osaka_0806",
+        "ikimonogakari_angyar_2026_iwate_0814",
+        "ikimonogakari_angyar_2026_mie_0821",
+        "ikimonogakari_angyar_2026_hyogo_0822",
+        "ikimonogakari_angyar_2026_miyazaki_0904",
+        "ikimonogakari_angyar_2026_kagoshima_0905"
+      ],
+      "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
