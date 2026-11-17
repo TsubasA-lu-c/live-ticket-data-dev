@@ -87,6 +87,33 @@
       "sourceUrl": "https://boynextdoor-official.jp/news/43868a1b8b8b",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00",
       "prices": null
+    },
+    {
+      "id": "boynextdoor_music_bank_global_festival_2026_20261213",
+      "artistId": "boynextdoor",
+      "title": "2026 MUSIC BANK GLOBAL FESTIVAL IN JAPAN",
+      "startDate": "2026-12-13T00:00:00+09:00",
+      "endDate": "2026-12-13T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "単日券・全席指定",
+          "amount": 22000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.music-bank.jp/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "boynextdoor_sbs_gayo_daejeon_2026",
+      "artistId": "boynextdoor",
+      "title": "2026 SBS GAYO DAEJEON",
+      "startDate": "2026-12-25T00:00:00+09:00",
+      "endDate": "2026-12-25T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008837439",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "performances": [
@@ -454,6 +481,34 @@
       "performanceDate": "2026-12-10",
       "performanceTimeEstimated": true,
       "note": "開催時刻は当選者へ後日案内。12:00は旧クライアント互換値。"
+    },
+    {
+      "id": "boynextdoor_music_bank_global_festival_2026_20261213_mu_fg_stadium",
+      "tourId": "boynextdoor_music_bank_global_festival_2026_20261213",
+      "performanceDate": "2026-12-13",
+      "venue": "MUFGスタジアム（国立競技場）",
+      "performanceAt": "2026-12-13T17:00:00+09:00",
+      "doorOpenAt": "2026-12-13T15:00:00+09:00",
+      "kind": "fes",
+      "eventName": "2026 MUSIC BANK GLOBAL FESTIVAL IN JAPAN",
+      "source": "system",
+      "sourceUrl": "https://www.music-bank.jp/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "boynextdoor_sbs_gayo_daejeon_2026_25",
+      "tourId": "boynextdoor_sbs_gayo_daejeon_2026",
+      "performanceDate": "2026-12-25",
+      "performanceAt": "2026-12-25T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "venue": "KINTEX",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "2026 SBS GAYO DAEJEON",
+      "note": "出演名義: BOYNEXTDOOR。施設内ホール・フェス全体の開演時刻は未確認。12:00は時刻未定の互換値。",
+      "source": "system",
+      "sourceUrl": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008837439",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1009,6 +1064,86 @@
       "sourceUrl": "https://boynextdoor-official.jp/news/844384c1eb1f",
       "source": "system",
       "lastVerifiedAt": "2026-10-10T20:25:21+09:00"
+    },
+    {
+      "id": "boynextdoor_music_bank_global_festival_2026_20261213_pia_prereserve_1st_20261110",
+      "tourId": "boynextdoor_music_bank_global_festival_2026_20261213",
+      "type": "プレリザーブ1次（単日券・抽選）",
+      "entryStartAt": "2026-11-10T19:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "boynextdoor_music_bank_global_festival_2026_20261213_mu_fg_stadium"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.music-bank.jp/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "boynextdoor_music_bank_global_festival_2026_20261213_pia_premium_lounge_4th_20261110",
+      "tourId": "boynextdoor_music_bank_global_festival_2026_20261213",
+      "type": "プレミアムラウンジ付き単日券4次先行（抽選）",
+      "entryStartAt": "2026-11-10T19:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "boynextdoor_music_bank_global_festival_2026_20261213_mu_fg_stadium"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.music-bank.jp/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "boynextdoor_home_party_japan_2026_line_music_900plays_20260928",
+      "tourId": "boynextdoor_home_party_japan_2026",
+      "type": "LINE MUSIC「ANIMAL」900回以上再生応募抽選（HOME Party招待）",
+      "entryStartAt": "2026-09-28T18:00:00+09:00",
+      "entryEndAt": "2026-10-12T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "boynextdoor_home_party_japan_2026_tachikawa_1210"
+      ],
+      "source": "system",
+      "sourceUrl": "https://boynextdoor-official.jp/news/201dd763b1a1",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "boynextdoor_home_party_japan_2026_album_download_20260928",
+      "tourId": "boynextdoor_home_party_japan_2026",
+      "type": "『HOME: DELUXE』アルバムダウンロード応募抽選（HOME Party招待）",
+      "entryStartAt": "2026-09-28T18:00:00+09:00",
+      "entryEndAt": "2026-10-12T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "boynextdoor_home_party_japan_2026_tachikawa_1210"
+      ],
+      "source": "system",
+      "sourceUrl": "https://boynextdoor-official.jp/news/201dd763b1a1",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "boynextdoor_sbs_gayo_daejeon_2026_nol_unionpay_presale",
+      "tourId": "boynextdoor_sbs_gayo_daejeon_2026",
+      "type": "NOL World 海外向けUnionPay先着（シャトル付きパッケージ）",
+      "entryStartAt": "2026-11-09T14:00:00+09:00",
+      "entryEndAt": "2026-11-10T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "boynextdoor_sbs_gayo_daejeon_2026_25"
+      ],
+      "source": "system",
+      "sourceUrl": "https://world.nol.com/ticket/places/26000518/products/26015364",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

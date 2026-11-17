@@ -11,6 +11,17 @@
       "source": "system",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/kinggnu/info/585061",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "king_gnu_us_tour_2027",
+      "artistId": "king_gnu",
+      "title": "King Gnu US TOUR '27",
+      "startDate": "2027-03-26T00:00:00-07:00",
+      "endDate": "2027-04-03T00:00:00-04:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/kinggnu/info/588333",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "performances": [
@@ -69,6 +80,58 @@
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z",
       "performanceDate": "2027-03-14",
       "performanceTimeEstimated": false
+    },
+    {
+      "id": "king_gnu_us_tour_2027_los_angeles_0326",
+      "tourId": "king_gnu_us_tour_2027",
+      "performanceDate": "2027-03-26",
+      "performanceAt": "2027-03-26T20:00:00-07:00",
+      "doorOpenAt": "2027-03-26T18:30:00-07:00",
+      "venue": "The Wiltern",
+      "kind": "oneman",
+      "eventName": "King Gnu US TOUR '27",
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/kinggnu/info/588333",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "king_gnu_us_tour_2027_los_angeles_0327",
+      "tourId": "king_gnu_us_tour_2027",
+      "performanceDate": "2027-03-27",
+      "performanceAt": "2027-03-27T20:00:00-07:00",
+      "doorOpenAt": "2027-03-27T18:30:00-07:00",
+      "venue": "The Wiltern",
+      "kind": "oneman",
+      "eventName": "King Gnu US TOUR '27",
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/kinggnu/info/588333",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "king_gnu_us_tour_2027_new_york_0402",
+      "tourId": "king_gnu_us_tour_2027",
+      "performanceDate": "2027-04-02",
+      "performanceAt": "2027-04-02T20:00:00-04:00",
+      "doorOpenAt": "2027-04-02T18:30:00-04:00",
+      "venue": "Brooklyn Paramount",
+      "kind": "oneman",
+      "eventName": "King Gnu US TOUR '27",
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/kinggnu/info/588333",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "king_gnu_us_tour_2027_new_york_0403",
+      "tourId": "king_gnu_us_tour_2027",
+      "performanceDate": "2027-04-03",
+      "performanceAt": "2027-04-03T20:00:00-04:00",
+      "doorOpenAt": "2027-04-03T18:30:00-04:00",
+      "venue": "Brooklyn Paramount",
+      "kind": "oneman",
+      "eventName": "King Gnu US TOUR '27",
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/kinggnu/info/588333",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -77,7 +140,7 @@
       "tourId": "king_gnu_10th_anniversary_kickoff_2027",
       "type": "CLUB GNU最速FC先行 SS・バルコニー抽選（申込・同行者とも会員）",
       "entryStartAt": "2026-10-05T18:00:00+09:00",
-      "entryEndAt": "2026-10-22T23:59:00+09:00",
+      "entryEndAt": "2026-10-24T23:59:00+09:00",
       "resultAt": "2026-11-03T15:00:00+09:00",
       "paymentStartAt": "2026-11-03T15:00:00+09:00",
       "paymentEndAt": "2026-11-08T23:59:00+09:00",
@@ -96,7 +159,7 @@
       "tourId": "king_gnu_10th_anniversary_kickoff_2027",
       "type": "CLUB GNU最速FC先行 指定・着席限定抽選",
       "entryStartAt": "2026-10-05T18:00:00+09:00",
-      "entryEndAt": "2026-10-22T23:59:00+09:00",
+      "entryEndAt": "2026-10-24T23:59:00+09:00",
       "resultAt": "2026-11-03T15:00:00+09:00",
       "paymentStartAt": "2026-11-03T15:00:00+09:00",
       "paymentEndAt": "2026-11-08T23:59:00+09:00",
@@ -128,6 +191,134 @@
       "sourceUrl": "https://clubgnu.com/10th_KICKOFF/",
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "king_gnu_us_tour_2027_los_angeles_local",
+      "tourId": "king_gnu_us_tour_2027",
+      "type": "現地先行",
+      "entryStartAt": "2026-11-04T10:00:00-08:00",
+      "entryEndAt": "2026-11-05T22:00:00-08:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "king_gnu_us_tour_2027_los_angeles_0326"
+      ],
+      "source": "system",
+      "sourceUrl": "https://clubgnu.com/US_tour27/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "king_gnu_us_tour_2027_los_angeles_livenation",
+      "tourId": "king_gnu_us_tour_2027",
+      "type": "Live Nation先行",
+      "entryStartAt": "2026-11-05T10:00:00-08:00",
+      "entryEndAt": "2026-11-05T22:00:00-08:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "king_gnu_us_tour_2027_los_angeles_0326"
+      ],
+      "source": "system",
+      "sourceUrl": "https://clubgnu.com/US_tour27/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "king_gnu_us_tour_2027_los_angeles_general",
+      "tourId": "king_gnu_us_tour_2027",
+      "type": "一般発売",
+      "entryStartAt": "2026-11-06T10:00:00-08:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "king_gnu_us_tour_2027_los_angeles_0326"
+      ],
+      "source": "system",
+      "sourceUrl": "https://clubgnu.com/US_tour27/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "king_gnu_us_tour_2027_los_angeles_additional",
+      "tourId": "king_gnu_us_tour_2027",
+      "type": "追加公演 一般発売",
+      "entryStartAt": "2026-11-06T10:00:00-08:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "king_gnu_us_tour_2027_los_angeles_0327"
+      ],
+      "source": "system",
+      "sourceUrl": "https://clubgnu.com/US_tour27/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "king_gnu_us_tour_2027_new_york_local",
+      "tourId": "king_gnu_us_tour_2027",
+      "type": "現地先行",
+      "entryStartAt": "2026-11-04T10:00:00-05:00",
+      "entryEndAt": "2026-11-05T22:00:00-05:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "king_gnu_us_tour_2027_new_york_0402"
+      ],
+      "source": "system",
+      "sourceUrl": "https://clubgnu.com/US_tour27/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "king_gnu_us_tour_2027_new_york_livenation",
+      "tourId": "king_gnu_us_tour_2027",
+      "type": "Live Nation先行",
+      "entryStartAt": "2026-11-05T10:00:00-05:00",
+      "entryEndAt": "2026-11-05T22:00:00-05:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "king_gnu_us_tour_2027_new_york_0402"
+      ],
+      "source": "system",
+      "sourceUrl": "https://clubgnu.com/US_tour27/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "king_gnu_us_tour_2027_new_york_general",
+      "tourId": "king_gnu_us_tour_2027",
+      "type": "一般発売",
+      "entryStartAt": "2026-11-06T10:00:00-05:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "king_gnu_us_tour_2027_new_york_0402"
+      ],
+      "source": "system",
+      "sourceUrl": "https://clubgnu.com/US_tour27/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "king_gnu_us_tour_2027_new_york_additional",
+      "tourId": "king_gnu_us_tour_2027",
+      "type": "追加公演 一般発売",
+      "entryStartAt": "2026-11-06T10:00:00-05:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "king_gnu_us_tour_2027_new_york_0403"
+      ],
+      "source": "system",
+      "sourceUrl": "https://clubgnu.com/US_tour27/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

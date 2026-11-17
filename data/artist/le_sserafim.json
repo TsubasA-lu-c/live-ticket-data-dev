@@ -99,6 +99,26 @@
       "source": "system",
       "sourceUrl": "https://www.music-bank.jp/",
       "lastVerifiedAt": "2026-11-01T00:16:36+09:00"
+    },
+    {
+      "id": "le_sserafim_mama_awards_2026_20261121",
+      "artistId": "le_sserafim",
+      "title": "2026 MAMA AWARDS CHAPTER 2",
+      "startDate": "2026-11-21T00:00:00+09:00",
+      "endDate": "2026-11-21T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "一般指定席",
+          "amount": 25000
+        },
+        {
+          "label": "一般指定席（バルコニー席）",
+          "amount": 25000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.cj.net/jp/press-release/view/1132",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "performances": [
@@ -291,7 +311,8 @@
       "eventName": "COUNTDOWN JAPAN 26/27 LE SSERAFIM 出演",
       "sourceUrl": "https://www.le-sserafim.jp/news/70b62745ece7",
       "source": "system",
-      "kindReviewed": true
+      "kindReviewed": true,
+      "note": "12:00はイベント全体の開演予定時刻です。"
     },
     {
       "id": "le_sserafim_music_bank_global_festival_2026_20261213_mu_fg_stadium",
@@ -306,6 +327,21 @@
       "sourceUrl": "https://www.music-bank.jp/",
       "lastVerifiedAt": "2026-11-01T00:16:36+09:00",
       "kindReviewed": true
+    },
+    {
+      "id": "le_sserafim_mama_awards_2026_20261121_kyocera",
+      "tourId": "le_sserafim_mama_awards_2026_20261121",
+      "performanceDate": "2026-11-21",
+      "performanceAt": "2026-11-21T15:00:00+09:00",
+      "performanceTimeEstimated": false,
+      "doorOpenAt": "2026-11-21T12:30:00+09:00",
+      "venue": "京セラドーム大阪",
+      "kind": "fes",
+      "eventName": "2026 MAMA AWARDS CHAPTER 2",
+      "note": "授賞式全体の開始15:00。LE SSERAFIM個別の出演開始時刻は未公表。",
+      "source": "system",
+      "sourceUrl": "https://www.cj.net/jp/press-release/view/1132",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -621,6 +657,54 @@
       "source": "system",
       "sourceUrl": "https://www.music-bank.jp/",
       "lastVerifiedAt": "2026-11-01T00:16:36+09:00"
+    },
+    {
+      "id": "le_sserafim_music_bank_global_festival_2026_20261213_pia_prereserve_1st_20261110",
+      "tourId": "le_sserafim_music_bank_global_festival_2026_20261213",
+      "type": "プレリザーブ1次（単日券・抽選）",
+      "entryStartAt": "2026-11-10T19:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "le_sserafim_music_bank_global_festival_2026_20261213_mu_fg_stadium"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.music-bank.jp/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_music_bank_global_festival_2026_20261213_pia_premium_lounge_4th_20261110",
+      "tourId": "le_sserafim_music_bank_global_festival_2026_20261213",
+      "type": "プレミアムラウンジ付き単日券4次先行（抽選）",
+      "entryStartAt": "2026-11-10T19:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "le_sserafim_music_bank_global_festival_2026_20261213_mu_fg_stadium"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.music-bank.jp/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "le_sserafim_mama_awards_2026_20261121_general",
+      "tourId": "le_sserafim_mama_awards_2026_20261121",
+      "type": "一般発売（Qoo10）",
+      "entryStartAt": "2026-11-12T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "le_sserafim_mama_awards_2026_20261121_kyocera"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.qoo10.jp/gmkt.inc/Special/Special.aspx?sid=367181",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

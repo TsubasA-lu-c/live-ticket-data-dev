@@ -194,6 +194,73 @@
       "sourceUrl": "https://novelbright.jp/news/detail/2525",
       "source": "system",
       "lastVerifiedAt": "2026-10-31T18:46:15+09:00"
+    },
+    {
+      "id": "novelbright_takenaka_yudai_diva_tour_2027_2028",
+      "artistId": "novelbright",
+      "title": "【竹中雄大】竹中雄大 DIVA TOUR 2027-2028",
+      "startDate": "2027-02-05T00:00:00+09:00",
+      "endDate": "2027-03-19T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席S",
+          "amount": 12000
+        },
+        {
+          "label": "指定席A",
+          "amount": 10000
+        },
+        {
+          "label": "着席指定席",
+          "amount": 10000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://novelbright.jp/feature/yudai_diva2",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "novelbright_sapporo_collection_2026_takanaka_solo",
+      "artistId": "novelbright",
+      "title": "【竹中雄大】SAPPORO COLLECTION 2026 AUTUMN/WINTER",
+      "startDate": "2026-11-22T00:00:00+09:00",
+      "endDate": "2026-11-22T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://sapporo-collection.jp/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "novelbright_musubi_yumebanchi_2026",
+      "artistId": "novelbright",
+      "title": "結びの夢番地 2026",
+      "startDate": "2026-12-12T00:00:00+09:00",
+      "endDate": "2026-12-12T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "一日券",
+          "amount": 9000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.musubinoyumebanchi.jp/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "novelbright_radio_crazy_2026",
+      "artistId": "novelbright",
+      "title": "FM802 ROCK FESTIVAL RADIO CRAZY 2026",
+      "startDate": "2026-12-27T00:00:00+09:00",
+      "endDate": "2026-12-27T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "一日券",
+          "amount": 13500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://kyodo-osaka.co.jp/news/detail/788",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "performances": [
@@ -981,7 +1048,8 @@
       "sourceUrl": "https://novelbright.jp/news/detail/2525",
       "source": "system",
       "lastVerifiedAt": "2026-10-31T18:46:15+09:00",
-      "kindReviewed": true
+      "kindReviewed": true,
+      "note": "12:00はイベント全体の開演予定時刻です。"
     },
     {
       "id": "novelbright_asia_2026_taipei_20270213",
@@ -997,6 +1065,141 @@
       "performanceTimeEstimated": true,
       "source": "system",
       "lastVerifiedAt": "2026-10-31T18:46:15+09:00"
+    },
+    {
+      "id": "novelbright_takenaka_yudai_diva_tour_2027_2028_fukuoka_0205",
+      "tourId": "novelbright_takenaka_yudai_diva_tour_2027_2028",
+      "performanceDate": "2027-02-05",
+      "performanceAt": "2027-02-05T18:30:00+09:00",
+      "doorOpenAt": "2027-02-05T17:30:00+09:00",
+      "venue": "福岡市民ホール 大ホール",
+      "kind": "oneman",
+      "eventName": "【竹中雄大】竹中雄大 DIVA TOUR 2027-2028",
+      "source": "system",
+      "sourceUrl": "https://novelbright.jp/feature/yudai_diva2",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "novelbright_takenaka_yudai_diva_tour_2027_2028_kumamoto_0207",
+      "tourId": "novelbright_takenaka_yudai_diva_tour_2027_2028",
+      "performanceDate": "2027-02-07",
+      "performanceAt": "2027-02-07T17:00:00+09:00",
+      "doorOpenAt": "2027-02-07T16:00:00+09:00",
+      "venue": "熊本城ホール シビックホール",
+      "kind": "oneman",
+      "eventName": "【竹中雄大】竹中雄大 DIVA TOUR 2027-2028",
+      "source": "system",
+      "sourceUrl": "https://novelbright.jp/feature/yudai_diva2",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "novelbright_takenaka_yudai_diva_tour_2027_2028_hiroshima_0210",
+      "tourId": "novelbright_takenaka_yudai_diva_tour_2027_2028",
+      "performanceDate": "2027-02-10",
+      "performanceAt": "2027-02-10T18:30:00+09:00",
+      "doorOpenAt": "2027-02-10T17:30:00+09:00",
+      "venue": "広島JMSアステールプラザ 大ホール",
+      "kind": "oneman",
+      "eventName": "【竹中雄大】竹中雄大 DIVA TOUR 2027-2028",
+      "source": "system",
+      "sourceUrl": "https://novelbright.jp/feature/yudai_diva2",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "novelbright_takenaka_yudai_diva_tour_2027_2028_sapporo_0223",
+      "tourId": "novelbright_takenaka_yudai_diva_tour_2027_2028",
+      "performanceDate": "2027-02-23",
+      "performanceAt": "2027-02-23T17:00:00+09:00",
+      "doorOpenAt": "2027-02-23T16:00:00+09:00",
+      "venue": "カナモトホール（札幌市民ホール）",
+      "kind": "oneman",
+      "eventName": "【竹中雄大】竹中雄大 DIVA TOUR 2027-2028",
+      "source": "system",
+      "sourceUrl": "https://novelbright.jp/feature/yudai_diva2",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "novelbright_takenaka_yudai_diva_tour_2027_2028_sendai_0306",
+      "tourId": "novelbright_takenaka_yudai_diva_tour_2027_2028",
+      "performanceDate": "2027-03-06",
+      "performanceAt": "2027-03-06T18:00:00+09:00",
+      "doorOpenAt": "2027-03-06T17:00:00+09:00",
+      "venue": "トークネットホール仙台 大ホール",
+      "kind": "oneman",
+      "eventName": "【竹中雄大】竹中雄大 DIVA TOUR 2027-2028",
+      "source": "system",
+      "sourceUrl": "https://novelbright.jp/feature/yudai_diva2",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "novelbright_takenaka_yudai_diva_tour_2027_2028_himeji_0312",
+      "tourId": "novelbright_takenaka_yudai_diva_tour_2027_2028",
+      "performanceDate": "2027-03-12",
+      "performanceAt": "2027-03-12T18:30:00+09:00",
+      "doorOpenAt": "2027-03-12T17:30:00+09:00",
+      "venue": "アクリエひめじ 大ホール",
+      "kind": "oneman",
+      "eventName": "【竹中雄大】竹中雄大 DIVA TOUR 2027-2028",
+      "source": "system",
+      "sourceUrl": "https://novelbright.jp/feature/yudai_diva2",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "novelbright_takenaka_yudai_diva_tour_2027_2028_osaka_0319",
+      "tourId": "novelbright_takenaka_yudai_diva_tour_2027_2028",
+      "performanceDate": "2027-03-19",
+      "performanceAt": "2027-03-19T18:30:00+09:00",
+      "doorOpenAt": "2027-03-19T17:30:00+09:00",
+      "venue": "NHK大阪ホール",
+      "kind": "oneman",
+      "eventName": "【竹中雄大】竹中雄大 DIVA TOUR 2027-2028",
+      "source": "system",
+      "sourceUrl": "https://novelbright.jp/feature/yudai_diva2",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "novelbright_sapporo_collection_2026_takanaka_solo_1122",
+      "tourId": "novelbright_sapporo_collection_2026_takanaka_solo",
+      "performanceDate": "2026-11-22",
+      "performanceAt": "2026-11-22T14:00:00+09:00",
+      "performanceTimeEstimated": false,
+      "doorOpenAt": "2026-11-22T13:00:00+09:00",
+      "venue": "札幌コンベンションセンター",
+      "kind": "fes",
+      "eventName": "【竹中雄大】SAPPORO COLLECTION 2026 AUTUMN/WINTER",
+      "note": "主催ARTIST欄に竹中雄大(Novelbright)を掲載。開演14:00はファッションイベント全体の開始で本人歌唱時刻は未公表",
+      "source": "system",
+      "sourceUrl": "https://sapporo-collection.jp/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "novelbright_musubi_yumebanchi_2026_fukuyama_1212",
+      "tourId": "novelbright_musubi_yumebanchi_2026",
+      "performanceDate": "2026-12-12",
+      "performanceAt": "2026-12-12T11:30:00+09:00",
+      "performanceTimeEstimated": false,
+      "doorOpenAt": "2026-12-12T10:45:00+09:00",
+      "venue": "広島県立ふくやま産業交流館 ビッグ・ローズ",
+      "kind": "fes",
+      "eventName": "結びの夢番地 2026",
+      "note": "主催掲載の12/12 Novelbright出演、開演はフェス全体で個別セトリ時刻ではない",
+      "source": "system",
+      "sourceUrl": "https://www.musubinoyumebanchi.jp/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "novelbright_radio_crazy_2026_osaka_1227",
+      "tourId": "novelbright_radio_crazy_2026",
+      "performanceDate": "2026-12-27",
+      "performanceAt": "2026-12-27T11:00:00+09:00",
+      "doorOpenAt": "2026-12-27T10:00:00+09:00",
+      "venue": "インテックス大阪",
+      "kind": "fes",
+      "eventName": "FM802 ROCK FESTIVAL RADIO CRAZY 2026",
+      "note": "主催の12/27出演Novelbright確定。11:00はフェス全体開始、個別の出演時刻は未公表",
+      "source": "system",
+      "sourceUrl": "https://kyodo-osaka.co.jp/news/detail/788",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1991,6 +2194,50 @@
       "sourceUrl": "https://dreamfestival.jp/",
       "source": "system",
       "lastVerifiedAt": "2026-11-01T00:33:06+09:00"
+    },
+    {
+      "id": "novelbright_takenaka_yudai_diva_tour_2027_2028_bubble_20261110",
+      "tourId": "novelbright_takenaka_yudai_diva_tour_2027_2028",
+      "type": "竹中雄大 bubble会員抽選先行",
+      "entryStartAt": "2026-11-10T18:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": "2026-11-20T13:00:00+09:00",
+      "paymentStartAt": "2026-11-20T13:00:00+09:00",
+      "paymentEndAt": "2026-11-24T23:59:00+09:00",
+      "performanceIds": [
+        "novelbright_takenaka_yudai_diva_tour_2027_2028_fukuoka_0205",
+        "novelbright_takenaka_yudai_diva_tour_2027_2028_kumamoto_0207",
+        "novelbright_takenaka_yudai_diva_tour_2027_2028_hiroshima_0210",
+        "novelbright_takenaka_yudai_diva_tour_2027_2028_sapporo_0223",
+        "novelbright_takenaka_yudai_diva_tour_2027_2028_sendai_0306",
+        "novelbright_takenaka_yudai_diva_tour_2027_2028_himeji_0312",
+        "novelbright_takenaka_yudai_diva_tour_2027_2028_osaka_0319"
+      ],
+      "source": "system",
+      "sourceUrl": "https://novelbright.jp/feature/yudai_diva2",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "novelbright_takenaka_yudai_diva_tour_2027_2028_lawson_exclusive_20261128",
+      "tourId": "novelbright_takenaka_yudai_diva_tour_2027_2028",
+      "type": "竹中雄大 ローソンチケット独占先行（抽選）",
+      "entryStartAt": "2026-11-28T13:00:00+09:00",
+      "entryEndAt": "2026-12-08T23:59:00+09:00",
+      "resultAt": "2026-12-12T13:00:00+09:00",
+      "paymentStartAt": "2026-12-12T13:00:00+09:00",
+      "paymentEndAt": "2026-12-16T23:59:00+09:00",
+      "performanceIds": [
+        "novelbright_takenaka_yudai_diva_tour_2027_2028_fukuoka_0205",
+        "novelbright_takenaka_yudai_diva_tour_2027_2028_kumamoto_0207",
+        "novelbright_takenaka_yudai_diva_tour_2027_2028_hiroshima_0210",
+        "novelbright_takenaka_yudai_diva_tour_2027_2028_sapporo_0223",
+        "novelbright_takenaka_yudai_diva_tour_2027_2028_sendai_0306",
+        "novelbright_takenaka_yudai_diva_tour_2027_2028_himeji_0312",
+        "novelbright_takenaka_yudai_diva_tour_2027_2028_osaka_0319"
+      ],
+      "source": "system",
+      "sourceUrl": "https://novelbright.jp/feature/yudai_diva2",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

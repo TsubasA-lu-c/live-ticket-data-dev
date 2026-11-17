@@ -269,10 +269,10 @@
       "id": "yonezu_kenshi_world_ghost_2026_2027_singapore_0129",
       "tourId": "yonezu_kenshi_world_ghost_2026_2027",
       "performanceDate": "2027-01-29",
-      "performanceAt": "2027-01-29T12:00:00+08:00",
-      "performanceTimeEstimated": true,
+      "performanceAt": "2027-01-29T20:00:00+08:00",
+      "performanceTimeEstimated": false,
       "doorOpenAt": null,
-      "venue": "SINGAPORE INDOOR",
+      "venue": "SINGAPORE INDOOR STADIUM",
       "kind": "oneman",
       "sourceUrl": "https://reissuerecords.net/2026/10/15/kenshi-yonezu-2026-2027-world-tour-ghost/",
       "source": "system",
@@ -386,8 +386,8 @@
       "id": "yonezu_kenshi_world_ghost_2026_2027_singapore_0130",
       "tourId": "yonezu_kenshi_world_ghost_2026_2027",
       "performanceDate": "2027-01-30",
-      "performanceAt": "2027-01-30T12:00:00+08:00",
-      "performanceTimeEstimated": true,
+      "performanceAt": "2027-01-30T20:00:00+08:00",
+      "performanceTimeEstimated": false,
       "doorOpenAt": null,
       "venue": "SINGAPORE INDOOR STADIUM",
       "kind": "oneman",
@@ -707,6 +707,124 @@
       "sourceUrl": "https://reissuerecords.net/2026/10/06/2026-tour-ghost/",
       "source": "system",
       "lastVerifiedAt": "2026-10-10T20:22:44+09:00"
+    },
+    {
+      "id": "yonezu_kenshi_world_ghost_2026_2027_general_korea_20261022",
+      "tourId": "yonezu_kenshi_world_ghost_2026_2027",
+      "type": "一般発売（korea 現地時間）",
+      "entryStartAt": "2026-10-22T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yonezu_kenshi_world_ghost_2026_2027_seoul_0114",
+        "yonezu_kenshi_world_ghost_2026_2027_seoul_0116",
+        "yonezu_kenshi_world_ghost_2026_2027_seoul_0117"
+      ],
+      "source": "system",
+      "sourceUrl": "https://news.livenationentertainment.com/news/kenshi-yonezu-announces-dates-in-north-america-asia-europe-and-the-uk-on-ghost-world-tour",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "yonezu_kenshi_world_ghost_2026_2027_general_pacific_20261022",
+      "tourId": "yonezu_kenshi_world_ghost_2026_2027",
+      "type": "一般発売（pacific 現地時間）",
+      "entryStartAt": "2026-10-22T12:00:00-07:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yonezu_kenshi_world_ghost_2026_2027_oakland_0204",
+        "yonezu_kenshi_world_ghost_2026_2027_los_angeles_0206"
+      ],
+      "source": "system",
+      "sourceUrl": "https://news.livenationentertainment.com/news/kenshi-yonezu-announces-dates-in-north-america-asia-europe-and-the-uk-on-ghost-world-tour",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "yonezu_kenshi_world_ghost_2026_2027_general_mexico_20261022",
+      "tourId": "yonezu_kenshi_world_ghost_2026_2027",
+      "type": "一般発売（mexico 現地時間）",
+      "entryStartAt": "2026-10-22T12:00:00-06:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yonezu_kenshi_world_ghost_2026_2027_mexico_city_0209"
+      ],
+      "source": "system",
+      "sourceUrl": "https://news.livenationentertainment.com/news/kenshi-yonezu-announces-dates-in-north-america-asia-europe-and-the-uk-on-ghost-world-tour",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "yonezu_kenshi_world_ghost_2026_2027_general_eastern_20261022",
+      "tourId": "yonezu_kenshi_world_ghost_2026_2027",
+      "type": "一般発売（eastern 現地時間）",
+      "entryStartAt": "2026-10-22T12:00:00-04:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yonezu_kenshi_world_ghost_2026_2027_newark_0212",
+        "yonezu_kenshi_world_ghost_2026_2027_toronto_0214"
+      ],
+      "source": "system",
+      "sourceUrl": "https://news.livenationentertainment.com/news/kenshi-yonezu-announces-dates-in-north-america-asia-europe-and-the-uk-on-ghost-world-tour",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "yonezu_kenshi_world_ghost_2026_2027_general_uk_20261022",
+      "tourId": "yonezu_kenshi_world_ghost_2026_2027",
+      "type": "一般発売（uk 現地時間）",
+      "entryStartAt": "2026-10-22T12:00:00+01:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yonezu_kenshi_world_ghost_2026_2027_london_0224"
+      ],
+      "source": "system",
+      "sourceUrl": "https://news.livenationentertainment.com/news/kenshi-yonezu-announces-dates-in-north-america-asia-europe-and-the-uk-on-ghost-world-tour",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "yonezu_kenshi_world_ghost_2026_2027_general_europe_20261022",
+      "tourId": "yonezu_kenshi_world_ghost_2026_2027",
+      "type": "一般発売（europe 現地時間）",
+      "entryStartAt": "2026-10-22T12:00:00+02:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yonezu_kenshi_world_ghost_2026_2027_paris_0226",
+        "yonezu_kenshi_world_ghost_2026_2027_amsterdam_0228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://news.livenationentertainment.com/news/kenshi-yonezu-announces-dates-in-north-america-asia-europe-and-the-uk-on-ghost-world-tour",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "yonezu_kenshi_world_ghost_2026_2027_general_singapore_20261023",
+      "tourId": "yonezu_kenshi_world_ghost_2026_2027",
+      "type": "一般発売（singapore 現地時間）",
+      "entryStartAt": "2026-10-23T12:00:00+08:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yonezu_kenshi_world_ghost_2026_2027_singapore_0129",
+        "yonezu_kenshi_world_ghost_2026_2027_singapore_0130"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ticketmaster.sg/activity/detail/27sg_kenshiyonezu",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

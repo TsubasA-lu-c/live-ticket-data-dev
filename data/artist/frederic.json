@@ -218,6 +218,22 @@
       "source": "system",
       "sourceUrl": "https://sp.kanaboon.jp/feature/jackin2027",
       "lastVerifiedAt": "2026-11-01T01:00:00+09:00"
+    },
+    {
+      "id": "frederic_myflagment_2027_tokyo_0301",
+      "artistId": "frederic",
+      "title": "MY FLAGMENT",
+      "startDate": "2027-03-01T00:00:00+09:00",
+      "endDate": "2027-03-01T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "オールスタンディング",
+          "amount": 5800
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://event.myflagment.com/news/270301-02",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "performances": [
@@ -275,8 +291,8 @@
       "venue": "Zepp Haneda(TOKYO)",
       "performanceAt": "2027-01-17T18:00:00+09:00",
       "doorOpenAt": "2027-01-17T17:00:00+09:00",
-      "kind": "oneman",
-      "eventName": null,
+      "kind": "taiban",
+      "eventName": "UMIMOYASU 2026-2027 MOVE -BRAND NEW MOVE-",
       "source": "system",
       "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
@@ -571,7 +587,8 @@
       "source": "system",
       "sourceUrl": "https://frederic-official.com/news/detail/3777",
       "lastVerifiedAt": "2026-11-01T01:00:00+09:00",
-      "kindReviewed": true
+      "kindReviewed": true,
+      "note": "12:00はイベント全体の開演予定時刻です。"
     },
     {
       "id": "frederic_fuzakete_night_2027_naruto_0221",
@@ -614,6 +631,19 @@
       "sourceUrl": "https://sp.kanaboon.jp/feature/jackin2027",
       "lastVerifiedAt": "2026-11-01T01:00:00+09:00",
       "kindReviewed": true
+    },
+    {
+      "id": "frederic_myflagment_2027_tokyo_0301_performance",
+      "tourId": "frederic_myflagment_2027_tokyo_0301",
+      "performanceDate": "2027-03-01",
+      "performanceAt": "2027-03-01T18:30:00+09:00",
+      "doorOpenAt": "2027-03-01T17:30:00+09:00",
+      "venue": "SHIBUYA CLUB QUATTRO",
+      "kind": "fes",
+      "eventName": "MY FLAGMENT（フレデリック × muque）",
+      "source": "system",
+      "sourceUrl": "https://event.myflagment.com/news/270301-02",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1418,6 +1448,22 @@
       "source": "system",
       "sourceUrl": "https://sp.kanaboon.jp/feature/jackin2027",
       "lastVerifiedAt": "2026-11-01T01:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_final_preorder_0117_nov13",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "type": "UMIMOYASU 2026-2027 MOVE 2027年1月公演 最終先行",
+      "entryStartAt": "2026-11-13T18:00:00+09:00",
+      "entryEndAt": "2026-11-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_haneda_0117"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3793",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

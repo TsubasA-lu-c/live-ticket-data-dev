@@ -83,6 +83,150 @@
       "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/46837/",
       "source": "system",
       "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027",
+      "artistId": "sandaime_j_soul_brothers",
+      "title": "【今市隆二】RYUJI IMAICHI RILY’S NIGHT 2027 “BLACK”",
+      "startDate": "2027-03-03T00:00:00+09:00",
+      "endDate": "2027-05-15T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "RILY’S SEAT",
+          "amount": 13200
+        },
+        {
+          "label": "PREMIUM RILY’S SEAT",
+          "amount": 19800
+        },
+        {
+          "label": "VIP RILY’S SEAT",
+          "amount": 39600
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/news/47010/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_yamafes_2027",
+      "artistId": "sandaime_j_soul_brothers",
+      "title": "三代目 J SOUL BROTHERS 山下健二郎のZERO BASE presents 超★山フェス2027 ～HYPER EAST～ / ～SUPER WEST～",
+      "startDate": "2027-01-30T00:00:00+09:00",
+      "endDate": "2027-02-26T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 11000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://m.tribe-m.jp/news/detail?group_id=389&news_id=55859",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_omi_moon_night_2026",
+      "artistId": "sandaime_j_soul_brothers",
+      "title": "【ØMI】ØMI MOON NIGHT 2026 \"Ø to 3\" 〜今年もお世話になりました!!大忘年会SPECIAL〜",
+      "startDate": "2026-12-19T00:00:00+09:00",
+      "endDate": "2026-12-20T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 13200
+        },
+        {
+          "label": "プレミアムチケット（リハーサル観覧付き）",
+          "amount": 19800
+        },
+        {
+          "label": "プレミアムチケット（リハーサル観覧・グッズ付き）",
+          "amount": 26400
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/44974/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_naoki_stay_for_tea_2026_2027",
+      "artistId": "sandaime_j_soul_brothers",
+      "title": "【小林直己】NAOKI KOBAYASHI SPECIAL SHOWCASE 2026〜2027 “STAY FOR TEA”",
+      "startDate": "2026-11-07T00:00:00+09:00",
+      "endDate": "2027-01-17T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 11000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/45038/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_gan_kokokara_2027",
+      "artistId": "sandaime_j_soul_brothers",
+      "title": "【岩田剛典】GAN FAN MEETING TOUR 2027 “kokokara”",
+      "startDate": "2027-04-18T00:00:00+09:00",
+      "endDate": "2027-07-10T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "国内公演 指定席",
+          "amount": 12100
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://takanori-iwata.com/contents/1123844",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_gan_5th_anniversary_2027",
+      "artistId": "sandaime_j_soul_brothers",
+      "title": "【岩田剛典】GAN 5TH ANNIVERSARY LIVE \"2.0\"",
+      "startDate": "2027-09-18T00:00:00+09:00",
+      "endDate": "2027-09-19T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 13200
+        },
+        {
+          "label": "アップグレード席",
+          "amount": 19800
+        },
+        {
+          "label": "オリジナルグッズ付きアップグレード席",
+          "amount": 26400
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://takanori-iwata.com/contents/1116134",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_naoto_honest_park_2027",
+      "artistId": "sandaime_j_soul_brothers",
+      "title": "【NAOTO】NAOTO PRESENTS HONEST PARK 2027 \"DANCE DANCE BOUNCE\"",
+      "startDate": "2027-06-29T00:00:00+09:00",
+      "endDate": "2027-07-28T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 13200
+        },
+        {
+          "label": "プレミアムチケット",
+          "amount": 19800
+        },
+        {
+          "label": "プレミアムチケット（オリジナルグッズ付き）",
+          "amount": 26400
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://jsb3.exfamily.jp/s/ldh02/news/detail/11514?ima=0000",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "performances": [
@@ -229,6 +373,542 @@
       "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/46837/",
       "source": "system",
       "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270303",
+      "tourId": "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027",
+      "performanceDate": "2027-03-03",
+      "performanceAt": "2027-03-03T18:30:00+09:00",
+      "doorOpenAt": "2027-03-03T17:45:00+09:00",
+      "venue": "ミズ ウェルビー ホール",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/news/47010/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270305",
+      "tourId": "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027",
+      "performanceDate": "2027-03-05",
+      "performanceAt": "2027-03-05T18:30:00+09:00",
+      "doorOpenAt": "2027-03-05T17:45:00+09:00",
+      "venue": "宮崎市民文化ホール",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/news/47010/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270312",
+      "tourId": "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027",
+      "performanceDate": "2027-03-12",
+      "performanceAt": "2027-03-12T18:30:00+09:00",
+      "doorOpenAt": "2027-03-12T17:45:00+09:00",
+      "venue": "長良川国際会議場",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/news/47010/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270318",
+      "tourId": "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027",
+      "performanceDate": "2027-03-18",
+      "performanceAt": "2027-03-18T18:30:00+09:00",
+      "doorOpenAt": "2027-03-18T17:45:00+09:00",
+      "venue": "金沢歌劇座",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/news/47010/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270321",
+      "tourId": "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027",
+      "performanceDate": "2027-03-21",
+      "performanceAt": "2027-03-21T16:30:00+09:00",
+      "doorOpenAt": "2027-03-21T15:45:00+09:00",
+      "venue": "札幌文化芸術劇場hitaru",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/news/47010/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270417",
+      "tourId": "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027",
+      "performanceDate": "2027-04-17",
+      "performanceAt": "2027-04-17T17:00:00+09:00",
+      "doorOpenAt": "2027-04-17T16:15:00+09:00",
+      "venue": "米子コンベンションセンター BiG SHiP",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/news/47010/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270419",
+      "tourId": "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027",
+      "performanceDate": "2027-04-19",
+      "performanceAt": "2027-04-19T18:30:00+09:00",
+      "doorOpenAt": "2027-04-19T17:45:00+09:00",
+      "venue": "倉敷市民会館",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/news/47010/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270423",
+      "tourId": "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027",
+      "performanceDate": "2027-04-23",
+      "performanceAt": "2027-04-23T18:30:00+09:00",
+      "doorOpenAt": "2027-04-23T17:30:00+09:00",
+      "venue": "神戸国際会館 こくさいホール",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/news/47010/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270425",
+      "tourId": "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027",
+      "performanceDate": "2027-04-25",
+      "performanceAt": "2027-04-25T16:30:00+09:00",
+      "doorOpenAt": "2027-04-25T15:30:00+09:00",
+      "venue": "和歌山県民文化会館 大ホール",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/news/47010/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270508",
+      "tourId": "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027",
+      "performanceDate": "2027-05-08",
+      "performanceAt": "2027-05-08T17:00:00+09:00",
+      "doorOpenAt": "2027-05-08T16:00:00+09:00",
+      "venue": "河口湖ステラシアター",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/news/47010/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270509",
+      "tourId": "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027",
+      "performanceDate": "2027-05-09",
+      "performanceAt": "2027-05-09T17:00:00+09:00",
+      "doorOpenAt": "2027-05-09T16:00:00+09:00",
+      "venue": "河口湖ステラシアター",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/news/47010/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270515",
+      "tourId": "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027",
+      "performanceDate": "2027-05-15",
+      "performanceAt": "2027-05-15T17:00:00+09:00",
+      "doorOpenAt": "2027-05-15T16:15:00+09:00",
+      "venue": "トーサイクラシックホール岩手",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/news/47010/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_yamafes_2027_tokyo_0130",
+      "tourId": "sandaime_j_soul_brothers_yamafes_2027",
+      "performanceDate": "2027-01-30",
+      "performanceAt": "2027-01-30T16:30:00+09:00",
+      "doorOpenAt": "2027-01-30T15:30:00+09:00",
+      "venue": "東京国際フォーラム ホールA",
+      "kind": "fes",
+      "eventName": "三代目 J SOUL BROTHERS 山下健二郎のZERO BASE presents 超★山フェス2027 ～HYPER EAST～",
+      "source": "system",
+      "sourceUrl": "https://m.tribe-m.jp/news/detail?group_id=389&news_id=55859",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_yamafes_2027_osaka_0226",
+      "tourId": "sandaime_j_soul_brothers_yamafes_2027",
+      "performanceDate": "2027-02-26",
+      "performanceAt": "2027-02-26T18:00:00+09:00",
+      "doorOpenAt": "2027-02-26T17:00:00+09:00",
+      "venue": "大阪国際会議場(グランキューブ大阪) メインホール",
+      "kind": "fes",
+      "eventName": "三代目 J SOUL BROTHERS 山下健二郎のZERO BASE presents 超★山フェス2027 ～SUPER WEST～",
+      "source": "system",
+      "sourceUrl": "https://m.tribe-m.jp/news/detail?group_id=389&news_id=55859",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_omi_moon_night_2026_20261219",
+      "tourId": "sandaime_j_soul_brothers_member_omi_moon_night_2026",
+      "venue": "GLION ARENA KOBE",
+      "performanceDate": "2026-12-19",
+      "performanceAt": "2026-12-19T17:30:00+09:00",
+      "doorOpenAt": "2026-12-19T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "ØMI MOON NIGHT 2026 \"Ø to 3\" 〜今年もお世話になりました!!大忘年会SPECIAL〜",
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/44974/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_omi_moon_night_2026_20261220",
+      "tourId": "sandaime_j_soul_brothers_member_omi_moon_night_2026",
+      "venue": "GLION ARENA KOBE",
+      "performanceDate": "2026-12-20",
+      "performanceAt": "2026-12-20T17:00:00+09:00",
+      "doorOpenAt": "2026-12-20T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "ØMI MOON NIGHT 2026 \"Ø to 3\" 〜今年もお世話になりました!!大忘年会SPECIAL〜",
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/44974/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_naoki_stay_for_tea_2026_2027_20270117_01",
+      "tourId": "sandaime_j_soul_brothers_member_naoki_stay_for_tea_2026_2027",
+      "venue": "イエスシアター",
+      "performanceDate": "2027-01-17",
+      "performanceAt": "2027-01-17T14:30:00+09:00",
+      "doorOpenAt": "2027-01-17T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "NAOKI KOBAYASHI SPECIAL SHOWCASE 2026〜2027 “STAY FOR TEA”",
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/45038/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_naoki_stay_for_tea_2026_2027_20270117_02",
+      "tourId": "sandaime_j_soul_brothers_member_naoki_stay_for_tea_2026_2027",
+      "venue": "イエスシアター",
+      "performanceDate": "2027-01-17",
+      "performanceAt": "2027-01-17T17:30:00+09:00",
+      "doorOpenAt": "2027-01-17T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "NAOKI KOBAYASHI SPECIAL SHOWCASE 2026〜2027 “STAY FOR TEA”",
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/45038/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_gan_kokokara_2027_0418",
+      "tourId": "sandaime_j_soul_brothers_member_gan_kokokara_2027",
+      "venue": "リンクステーションホール青森",
+      "performanceDate": "2027-04-18",
+      "performanceAt": "2027-04-18T16:30:00+09:00",
+      "doorOpenAt": "2027-04-18T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "GAN FAN MEETING TOUR 2027 “kokokara”",
+      "source": "system",
+      "sourceUrl": "https://takanori-iwata.com/contents/1126023",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_gan_kokokara_2027_0420",
+      "tourId": "sandaime_j_soul_brothers_member_gan_kokokara_2027",
+      "venue": "札幌市教育文化会館 大ホール",
+      "performanceDate": "2027-04-20",
+      "performanceAt": "2027-04-20T18:00:00+09:00",
+      "doorOpenAt": "2027-04-20T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "GAN FAN MEETING TOUR 2027 “kokokara”",
+      "source": "system",
+      "sourceUrl": "https://takanori-iwata.com/contents/1126023",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_gan_kokokara_2027_0429",
+      "tourId": "sandaime_j_soul_brothers_member_gan_kokokara_2027",
+      "venue": "和歌山県民文化会館 大ホール",
+      "performanceDate": "2027-04-29",
+      "performanceAt": "2027-04-29T16:30:00+09:00",
+      "doorOpenAt": "2027-04-29T15:45:00+09:00",
+      "kind": "oneman",
+      "eventName": "GAN FAN MEETING TOUR 2027 “kokokara”",
+      "source": "system",
+      "sourceUrl": "https://takanori-iwata.com/contents/1126023",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_gan_kokokara_2027_0501",
+      "tourId": "sandaime_j_soul_brothers_member_gan_kokokara_2027",
+      "venue": "KDDI維新ホール",
+      "performanceDate": "2027-05-01",
+      "performanceAt": "2027-05-01T16:30:00+09:00",
+      "doorOpenAt": "2027-05-01T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "GAN FAN MEETING TOUR 2027 “kokokara”",
+      "source": "system",
+      "sourceUrl": "https://takanori-iwata.com/contents/1126023",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_gan_kokokara_2027_0504",
+      "tourId": "sandaime_j_soul_brothers_member_gan_kokokara_2027",
+      "venue": "熊本城ホール メインホール",
+      "performanceDate": "2027-05-04",
+      "performanceAt": "2027-05-04T16:30:00+09:00",
+      "doorOpenAt": "2027-05-04T15:45:00+09:00",
+      "kind": "oneman",
+      "eventName": "GAN FAN MEETING TOUR 2027 “kokokara”",
+      "source": "system",
+      "sourceUrl": "https://takanori-iwata.com/contents/1126023",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_gan_kokokara_2027_0506",
+      "tourId": "sandaime_j_soul_brothers_member_gan_kokokara_2027",
+      "venue": "神戸国際会館こくさいホール",
+      "performanceDate": "2027-05-06",
+      "performanceAt": "2027-05-06T18:00:00+09:00",
+      "doorOpenAt": "2027-05-06T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "GAN FAN MEETING TOUR 2027 “kokokara”",
+      "source": "system",
+      "sourceUrl": "https://takanori-iwata.com/contents/1126023",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_gan_kokokara_2027_0507",
+      "tourId": "sandaime_j_soul_brothers_member_gan_kokokara_2027",
+      "venue": "本多の森 北電ホール",
+      "performanceDate": "2027-05-07",
+      "performanceAt": "2027-05-07T18:00:00+09:00",
+      "doorOpenAt": "2027-05-07T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "GAN FAN MEETING TOUR 2027 “kokokara”",
+      "source": "system",
+      "sourceUrl": "https://takanori-iwata.com/contents/1126023",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_gan_kokokara_2027_0509",
+      "tourId": "sandaime_j_soul_brothers_member_gan_kokokara_2027",
+      "venue": "サンポートホール高松",
+      "performanceDate": "2027-05-09",
+      "performanceAt": "2027-05-09T16:30:00+09:00",
+      "doorOpenAt": "2027-05-09T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "GAN FAN MEETING TOUR 2027 “kokokara”",
+      "source": "system",
+      "sourceUrl": "https://takanori-iwata.com/contents/1126023",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_gan_kokokara_2027_0515",
+      "tourId": "sandaime_j_soul_brothers_member_gan_kokokara_2027",
+      "venue": "広島文化学園HBGホール",
+      "performanceDate": "2027-05-15",
+      "performanceAt": "2027-05-15T18:00:00+09:00",
+      "doorOpenAt": "2027-05-15T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "GAN FAN MEETING TOUR 2027 “kokokara”",
+      "source": "system",
+      "sourceUrl": "https://takanori-iwata.com/contents/1126023",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_gan_kokokara_2027_0615",
+      "tourId": "sandaime_j_soul_brothers_member_gan_kokokara_2027",
+      "venue": "ロームシアター京都メインホール",
+      "performanceDate": "2027-06-15",
+      "performanceAt": "2027-06-15T18:00:00+09:00",
+      "doorOpenAt": "2027-06-15T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "GAN FAN MEETING TOUR 2027 “kokokara”",
+      "source": "system",
+      "sourceUrl": "https://takanori-iwata.com/contents/1126023",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_gan_kokokara_2027_0625",
+      "tourId": "sandaime_j_soul_brothers_member_gan_kokokara_2027",
+      "venue": "福岡サンパレス ホテル＆ホール",
+      "performanceDate": "2027-06-25",
+      "performanceAt": "2027-06-25T18:00:00+09:00",
+      "doorOpenAt": "2027-06-25T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "GAN FAN MEETING TOUR 2027 “kokokara”",
+      "source": "system",
+      "sourceUrl": "https://takanori-iwata.com/contents/1126023",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_gan_kokokara_2027_0627",
+      "tourId": "sandaime_j_soul_brothers_member_gan_kokokara_2027",
+      "venue": "仙台サンプラザホール",
+      "performanceDate": "2027-06-27",
+      "performanceAt": "2027-06-27T18:00:00+09:00",
+      "doorOpenAt": "2027-06-27T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "GAN FAN MEETING TOUR 2027 “kokokara”",
+      "source": "system",
+      "sourceUrl": "https://takanori-iwata.com/contents/1126023",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_gan_kokokara_2027_0703",
+      "tourId": "sandaime_j_soul_brothers_member_gan_kokokara_2027",
+      "venue": "愛知県芸術劇場 大ホール",
+      "performanceDate": "2027-07-03",
+      "performanceAt": "2027-07-03T18:00:00+09:00",
+      "doorOpenAt": "2027-07-03T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "GAN FAN MEETING TOUR 2027 “kokokara”",
+      "source": "system",
+      "sourceUrl": "https://takanori-iwata.com/contents/1126023",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_gan_kokokara_2027_0710",
+      "tourId": "sandaime_j_soul_brothers_member_gan_kokokara_2027",
+      "venue": "沖縄コンベンションセンター 劇場棟",
+      "performanceDate": "2027-07-10",
+      "performanceAt": "2027-07-10T16:30:00+09:00",
+      "doorOpenAt": "2027-07-10T15:45:00+09:00",
+      "kind": "oneman",
+      "eventName": "GAN FAN MEETING TOUR 2027 “kokokara”",
+      "source": "system",
+      "sourceUrl": "https://takanori-iwata.com/contents/1126023",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_gan_kokokara_2027_0529",
+      "tourId": "sandaime_j_soul_brothers_member_gan_kokokara_2027",
+      "venue": "PORTAL HONGKONG",
+      "performanceDate": "2027-05-29",
+      "performanceAt": "2027-05-29T12:00:00+08:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "GAN FAN MEETING TOUR 2027 “kokokara”",
+      "source": "system",
+      "sourceUrl": "https://takanori-iwata.com/contents/1123844",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_gan_kokokara_2027_0605",
+      "tourId": "sandaime_j_soul_brothers_member_gan_kokokara_2027",
+      "venue": "MOONDOG",
+      "performanceDate": "2027-06-05",
+      "performanceAt": "2027-06-05T12:00:00+08:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "GAN FAN MEETING TOUR 2027 “kokokara”",
+      "source": "system",
+      "sourceUrl": "https://takanori-iwata.com/contents/1123844",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_gan_kokokara_2027_0613",
+      "tourId": "sandaime_j_soul_brothers_member_gan_kokokara_2027",
+      "venue": "YES24 WANDERLOCH HALL",
+      "performanceDate": "2027-06-13",
+      "performanceAt": "2027-06-13T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "GAN FAN MEETING TOUR 2027 “kokokara”",
+      "source": "system",
+      "sourceUrl": "https://takanori-iwata.com/contents/1123844",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_gan_5th_anniversary_2027_0918",
+      "tourId": "sandaime_j_soul_brothers_member_gan_5th_anniversary_2027",
+      "venue": "有明アリーナ",
+      "performanceDate": "2027-09-18",
+      "performanceAt": "2027-09-18T18:00:00+09:00",
+      "doorOpenAt": "2027-09-18T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "GAN 5TH ANNIVERSARY LIVE \"2.0\"",
+      "source": "system",
+      "sourceUrl": "https://takanori-iwata.com/contents/1116134",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_gan_5th_anniversary_2027_0919",
+      "tourId": "sandaime_j_soul_brothers_member_gan_5th_anniversary_2027",
+      "venue": "有明アリーナ",
+      "performanceDate": "2027-09-19",
+      "performanceAt": "2027-09-19T16:00:00+09:00",
+      "doorOpenAt": "2027-09-19T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "GAN 5TH ANNIVERSARY LIVE \"2.0\"",
+      "source": "system",
+      "sourceUrl": "https://takanori-iwata.com/contents/1116134",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_naoto_honest_park_2027_0629",
+      "tourId": "sandaime_j_soul_brothers_member_naoto_honest_park_2027",
+      "venue": "日本武道館",
+      "performanceDate": "2027-06-29",
+      "performanceAt": "2027-06-29T18:00:00+09:00",
+      "doorOpenAt": "2027-06-29T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "NAOTO PRESENTS HONEST PARK 2027 \"DANCE DANCE BOUNCE\"",
+      "source": "system",
+      "sourceUrl": "https://jsb3.exfamily.jp/s/ldh02/news/detail/11514?ima=0000",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_naoto_honest_park_2027_0630",
+      "tourId": "sandaime_j_soul_brothers_member_naoto_honest_park_2027",
+      "venue": "日本武道館",
+      "performanceDate": "2027-06-30",
+      "performanceAt": "2027-06-30T18:00:00+09:00",
+      "doorOpenAt": "2027-06-30T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "NAOTO PRESENTS HONEST PARK 2027 \"DANCE DANCE BOUNCE\"",
+      "source": "system",
+      "sourceUrl": "https://jsb3.exfamily.jp/s/ldh02/news/detail/11514?ima=0000",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_naoto_honest_park_2027_0727",
+      "tourId": "sandaime_j_soul_brothers_member_naoto_honest_park_2027",
+      "venue": "グランキューブ大阪（大阪府立国際会議場）",
+      "performanceDate": "2027-07-27",
+      "performanceAt": "2027-07-27T18:30:00+09:00",
+      "doorOpenAt": "2027-07-27T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "NAOTO PRESENTS HONEST PARK 2027 \"DANCE DANCE BOUNCE\"",
+      "source": "system",
+      "sourceUrl": "https://jsb3.exfamily.jp/s/ldh02/news/detail/11514?ima=0000",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_naoto_honest_park_2027_0728",
+      "tourId": "sandaime_j_soul_brothers_member_naoto_honest_park_2027",
+      "venue": "グランキューブ大阪（大阪府立国際会議場）",
+      "performanceDate": "2027-07-28",
+      "performanceAt": "2027-07-28T18:30:00+09:00",
+      "doorOpenAt": "2027-07-28T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "NAOTO PRESENTS HONEST PARK 2027 \"DANCE DANCE BOUNCE\"",
+      "source": "system",
+      "sourceUrl": "https://jsb3.exfamily.jp/s/ldh02/news/detail/11514?ima=0000",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -664,6 +1344,559 @@
       ],
       "sourceUrl": "https://www.ldh-liveschedule.jp/sys/news/46943/",
       "source": "system"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_jsb_fc",
+      "tourId": "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027",
+      "type": "三代目 J SOUL BROTHERS OFFICIAL FAN CLUB先行（抽選）",
+      "entryStartAt": "2026-11-09T15:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270303",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270305",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270312",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270318",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270321",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270417",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270419",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270423",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270425",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270508",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270509",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270515"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/news/47010/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_exile_fc",
+      "tourId": "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027",
+      "type": "EXILE TRIBE FC先行（抽選）",
+      "entryStartAt": "2026-11-18T15:00:00+09:00",
+      "entryEndAt": "2026-11-22T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270303",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270305",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270312",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270318",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270321",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270417",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270419",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270423",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270425",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270508",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270509",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270515"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/news/47010/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_lawson",
+      "tourId": "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027",
+      "type": "ローソンチケット先行",
+      "entryStartAt": "2026-11-25T15:00:00+09:00",
+      "entryEndAt": "2026-11-29T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270303",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270305",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270312",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270318",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270321",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270417",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270419",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270423",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270425",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270508",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270509",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270515"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/news/47010/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_ticketbook",
+      "tourId": "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027",
+      "type": "ticketbook先行（抽選）",
+      "entryStartAt": "2026-11-25T15:00:00+09:00",
+      "entryEndAt": "2026-11-29T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270303",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270305",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270312",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270318",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270321",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270417",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270419",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270423",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270425",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270508",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270509",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270515"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/news/47010/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_premium_upgrade",
+      "tourId": "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027",
+      "type": "PREMIUM RILY’S SEATアップグレード（FC先行購入者対象・抽選）",
+      "entryStartAt": "2026-12-07T15:00:00+09:00",
+      "entryEndAt": "2026-12-13T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270303",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270305",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270312",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270318",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270321",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270417",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270419",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270423",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270425",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270508",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270509",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270515"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/news/47010/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_vip_upgrade",
+      "tourId": "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027",
+      "type": "VIP RILY’S SEATアップグレード（PREMIUM購入者対象・抽選）",
+      "entryStartAt": "2026-12-28T15:00:00+09:00",
+      "entryEndAt": "2027-01-04T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270303",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270305",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270312",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270318",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270321",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270417",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270419",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270423",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270425",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270508",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270509",
+        "sandaime_j_soul_brothers_imaichi_rilys_night_black_2027_20270515"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/news/47010/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_yamafes_2027_artist_fc",
+      "tourId": "sandaime_j_soul_brothers_yamafes_2027",
+      "type": "OFFICIAL FAN CLUB先行（抽選）",
+      "entryStartAt": "2026-11-02T15:00:00+09:00",
+      "entryEndAt": "2026-11-08T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_yamafes_2027_tokyo_0130",
+        "sandaime_j_soul_brothers_yamafes_2027_osaka_0226"
+      ],
+      "source": "system",
+      "sourceUrl": "https://m.tribe-m.jp/news/detail?group_id=389&news_id=55859",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_yamafes_2027_exile_fc",
+      "tourId": "sandaime_j_soul_brothers_yamafes_2027",
+      "type": "EXILE TRIBE FC先行（抽選）",
+      "entryStartAt": "2026-11-09T15:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_yamafes_2027_tokyo_0130",
+        "sandaime_j_soul_brothers_yamafes_2027_osaka_0226"
+      ],
+      "source": "system",
+      "sourceUrl": "https://m.tribe-m.jp/news/detail?group_id=389&news_id=55859",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_yamafes_2027_ticketbook",
+      "tourId": "sandaime_j_soul_brothers_yamafes_2027",
+      "type": "ticketbook先行（抽選）",
+      "entryStartAt": "2026-11-16T15:00:00+09:00",
+      "entryEndAt": "2026-11-22T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_yamafes_2027_tokyo_0130",
+        "sandaime_j_soul_brothers_yamafes_2027_osaka_0226"
+      ],
+      "source": "system",
+      "sourceUrl": "https://m.tribe-m.jp/news/detail?group_id=389&news_id=55859",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_yamafes_2027_lawson",
+      "tourId": "sandaime_j_soul_brothers_yamafes_2027",
+      "type": "ローソンチケット先行（抽選）",
+      "entryStartAt": "2026-11-16T15:00:00+09:00",
+      "entryEndAt": "2026-11-22T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_yamafes_2027_tokyo_0130",
+        "sandaime_j_soul_brothers_yamafes_2027_osaka_0226"
+      ],
+      "source": "system",
+      "sourceUrl": "https://m.tribe-m.jp/news/detail?group_id=389&news_id=55859",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_yamafes_2027_radio",
+      "tourId": "sandaime_j_soul_brothers_yamafes_2027",
+      "type": "ZERO BASE番組先行（抽選）",
+      "entryStartAt": "2026-11-23T15:00:00+09:00",
+      "entryEndAt": "2026-11-29T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_yamafes_2027_tokyo_0130",
+        "sandaime_j_soul_brothers_yamafes_2027_osaka_0226"
+      ],
+      "source": "system",
+      "sourceUrl": "https://m.tribe-m.jp/news/detail?group_id=389&news_id=55859",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_yamafes_2027_ticketbook_second",
+      "tourId": "sandaime_j_soul_brothers_yamafes_2027",
+      "type": "ticketbook2次先行（先着）",
+      "entryStartAt": "2026-12-12T10:00:00+09:00",
+      "entryEndAt": "2026-12-20T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_yamafes_2027_tokyo_0130",
+        "sandaime_j_soul_brothers_yamafes_2027_osaka_0226"
+      ],
+      "source": "system",
+      "sourceUrl": "https://m.tribe-m.jp/news/detail?group_id=389&news_id=55859",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_yamafes_2027_general",
+      "tourId": "sandaime_j_soul_brothers_yamafes_2027",
+      "type": "ticketbook一般発売（先着）",
+      "entryStartAt": "2026-12-26T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_yamafes_2027_tokyo_0130",
+        "sandaime_j_soul_brothers_yamafes_2027_osaka_0226"
+      ],
+      "source": "system",
+      "sourceUrl": "https://m.tribe-m.jp/news/detail?group_id=389&news_id=55859",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_omi_moon_night_2026_fc",
+      "tourId": "sandaime_j_soul_brothers_member_omi_moon_night_2026",
+      "type": "三代目 J SOUL BROTHERS OFFICIAL FAN CLUB先行（抽選）",
+      "entryStartAt": "2026-08-17T15:00:00+09:00",
+      "entryEndAt": "2026-08-23T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_member_omi_moon_night_2026_20261219",
+        "sandaime_j_soul_brothers_member_omi_moon_night_2026_20261220"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/44974/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_omi_moon_night_2026_upgrade",
+      "tourId": "sandaime_j_soul_brothers_member_omi_moon_night_2026",
+      "type": "プレミアムチケットアップグレード（FC先行購入者限定・抽選）",
+      "entryStartAt": "2026-09-28T15:00:00+09:00",
+      "entryEndAt": "2026-10-04T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_member_omi_moon_night_2026_20261219",
+        "sandaime_j_soul_brothers_member_omi_moon_night_2026_20261220"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/44974/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_omi_moon_night_2026_additional",
+      "tourId": "sandaime_j_soul_brothers_member_omi_moon_night_2026",
+      "type": "FC追加販売（抽選・注釈付き指定席）",
+      "entryStartAt": "2026-11-04T15:00:00+09:00",
+      "entryEndAt": "2026-11-08T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_member_omi_moon_night_2026_20261219",
+        "sandaime_j_soul_brothers_member_omi_moon_night_2026_20261220"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/44974/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_naoki_stay_for_tea_2026_2027_fc_first",
+      "tourId": "sandaime_j_soul_brothers_member_naoki_stay_for_tea_2026_2027",
+      "type": "三代目 J SOUL BROTHERS OFFICIAL FAN CLUB先行（抽選）",
+      "entryStartAt": "2026-08-30T15:00:00+09:00",
+      "entryEndAt": "2026-09-06T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_member_naoki_stay_for_tea_2026_2027_20270117_01",
+        "sandaime_j_soul_brothers_member_naoki_stay_for_tea_2026_2027_20270117_02"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/45038/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_gan_kokokara_2027_annual",
+      "tourId": "sandaime_j_soul_brothers_member_gan_kokokara_2027",
+      "type": "TEAM G年会員先行（国内14公演・抽選）",
+      "entryStartAt": "2026-11-10T15:00:00+09:00",
+      "entryEndAt": "2026-11-16T23:59:00+09:00",
+      "resultAt": "2026-11-21T12:00:00+09:00",
+      "paymentStartAt": "2026-11-21T12:00:00+09:00",
+      "paymentEndAt": "2026-11-24T23:59:00+09:00",
+      "performanceIds": [
+        "sandaime_j_soul_brothers_member_gan_kokokara_2027_0418",
+        "sandaime_j_soul_brothers_member_gan_kokokara_2027_0420",
+        "sandaime_j_soul_brothers_member_gan_kokokara_2027_0429",
+        "sandaime_j_soul_brothers_member_gan_kokokara_2027_0501",
+        "sandaime_j_soul_brothers_member_gan_kokokara_2027_0504",
+        "sandaime_j_soul_brothers_member_gan_kokokara_2027_0506",
+        "sandaime_j_soul_brothers_member_gan_kokokara_2027_0507",
+        "sandaime_j_soul_brothers_member_gan_kokokara_2027_0509",
+        "sandaime_j_soul_brothers_member_gan_kokokara_2027_0515",
+        "sandaime_j_soul_brothers_member_gan_kokokara_2027_0615",
+        "sandaime_j_soul_brothers_member_gan_kokokara_2027_0625",
+        "sandaime_j_soul_brothers_member_gan_kokokara_2027_0627",
+        "sandaime_j_soul_brothers_member_gan_kokokara_2027_0703",
+        "sandaime_j_soul_brothers_member_gan_kokokara_2027_0710"
+      ],
+      "source": "system",
+      "sourceUrl": "https://takanori-iwata.com/contents/1126023",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_gan_kokokara_2027_member",
+      "tourId": "sandaime_j_soul_brothers_member_gan_kokokara_2027",
+      "type": "TEAM G会員先行（国内14公演・抽選）",
+      "entryStartAt": "2026-11-21T18:00:00+09:00",
+      "entryEndAt": "2026-11-29T23:59:00+09:00",
+      "resultAt": "2026-12-04T12:00:00+09:00",
+      "paymentStartAt": "2026-12-04T12:00:00+09:00",
+      "paymentEndAt": "2026-12-07T23:59:00+09:00",
+      "performanceIds": [
+        "sandaime_j_soul_brothers_member_gan_kokokara_2027_0418",
+        "sandaime_j_soul_brothers_member_gan_kokokara_2027_0420",
+        "sandaime_j_soul_brothers_member_gan_kokokara_2027_0429",
+        "sandaime_j_soul_brothers_member_gan_kokokara_2027_0501",
+        "sandaime_j_soul_brothers_member_gan_kokokara_2027_0504",
+        "sandaime_j_soul_brothers_member_gan_kokokara_2027_0506",
+        "sandaime_j_soul_brothers_member_gan_kokokara_2027_0507",
+        "sandaime_j_soul_brothers_member_gan_kokokara_2027_0509",
+        "sandaime_j_soul_brothers_member_gan_kokokara_2027_0515",
+        "sandaime_j_soul_brothers_member_gan_kokokara_2027_0615",
+        "sandaime_j_soul_brothers_member_gan_kokokara_2027_0625",
+        "sandaime_j_soul_brothers_member_gan_kokokara_2027_0627",
+        "sandaime_j_soul_brothers_member_gan_kokokara_2027_0703",
+        "sandaime_j_soul_brothers_member_gan_kokokara_2027_0710"
+      ],
+      "source": "system",
+      "sourceUrl": "https://takanori-iwata.com/contents/1126023",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_gan_5th_anniversary_2027_annual",
+      "tourId": "sandaime_j_soul_brothers_member_gan_5th_anniversary_2027",
+      "type": "TEAM G年会員先行（抽選）",
+      "entryStartAt": "2026-10-05T18:00:00+09:00",
+      "entryEndAt": "2026-10-12T23:59:00+09:00",
+      "resultAt": "2026-10-17T12:00:00+09:00",
+      "paymentStartAt": "2026-10-17T12:00:00+09:00",
+      "paymentEndAt": "2026-10-20T23:59:00+09:00",
+      "performanceIds": [
+        "sandaime_j_soul_brothers_member_gan_5th_anniversary_2027_0918",
+        "sandaime_j_soul_brothers_member_gan_5th_anniversary_2027_0919"
+      ],
+      "source": "system",
+      "sourceUrl": "https://takanori-iwata.com/contents/1116134",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_gan_5th_anniversary_2027_member",
+      "tourId": "sandaime_j_soul_brothers_member_gan_5th_anniversary_2027",
+      "type": "TEAM G会員先行（抽選）",
+      "entryStartAt": "2026-10-17T18:00:00+09:00",
+      "entryEndAt": "2026-10-25T23:59:00+09:00",
+      "resultAt": "2026-10-30T12:00:00+09:00",
+      "paymentStartAt": "2026-10-30T12:00:00+09:00",
+      "paymentEndAt": "2026-11-02T23:59:00+09:00",
+      "performanceIds": [
+        "sandaime_j_soul_brothers_member_gan_5th_anniversary_2027_0918",
+        "sandaime_j_soul_brothers_member_gan_5th_anniversary_2027_0919"
+      ],
+      "source": "system",
+      "sourceUrl": "https://takanori-iwata.com/contents/1116134",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_gan_5th_anniversary_2027_jsb_fc",
+      "tourId": "sandaime_j_soul_brothers_member_gan_5th_anniversary_2027",
+      "type": "三代目 J SOUL BROTHERS FC先行（抽選）",
+      "entryStartAt": "2026-11-02T18:00:00+09:00",
+      "entryEndAt": "2026-11-08T23:59:00+09:00",
+      "resultAt": "2026-11-14T12:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_member_gan_5th_anniversary_2027_0918",
+        "sandaime_j_soul_brothers_member_gan_5th_anniversary_2027_0919"
+      ],
+      "source": "system",
+      "sourceUrl": "https://e-ticketbook.com/gan5th-live/2611-3jsb/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_naoto_honest_park_2027_fc",
+      "tourId": "sandaime_j_soul_brothers_member_naoto_honest_park_2027",
+      "type": "三代目 J SOUL BROTHERS FC先行（抽選）",
+      "entryStartAt": "2027-01-25T15:00:00+09:00",
+      "entryEndAt": "2027-01-31T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_member_naoto_honest_park_2027_0629",
+        "sandaime_j_soul_brothers_member_naoto_honest_park_2027_0630",
+        "sandaime_j_soul_brothers_member_naoto_honest_park_2027_0727",
+        "sandaime_j_soul_brothers_member_naoto_honest_park_2027_0728"
+      ],
+      "source": "system",
+      "sourceUrl": "https://jsb3.exfamily.jp/s/ldh02/news/detail/11514?ima=0000",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_naoto_honest_park_2027_upgrade",
+      "tourId": "sandaime_j_soul_brothers_member_naoto_honest_park_2027",
+      "type": "FC先行当選者限定プレミアムアップグレード（抽選）",
+      "entryStartAt": "2027-03-15T15:00:00+09:00",
+      "entryEndAt": "2027-03-21T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_member_naoto_honest_park_2027_0629",
+        "sandaime_j_soul_brothers_member_naoto_honest_park_2027_0630",
+        "sandaime_j_soul_brothers_member_naoto_honest_park_2027_0727",
+        "sandaime_j_soul_brothers_member_naoto_honest_park_2027_0728"
+      ],
+      "source": "system",
+      "sourceUrl": "https://jsb3.exfamily.jp/s/ldh02/news/detail/11514?ima=0000",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_naoto_honest_park_2027_tribe",
+      "tourId": "sandaime_j_soul_brothers_member_naoto_honest_park_2027",
+      "type": "EXILE TRIBE FC先行（抽選）",
+      "entryStartAt": "2027-02-03T15:00:00+09:00",
+      "entryEndAt": "2027-02-07T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_member_naoto_honest_park_2027_0629",
+        "sandaime_j_soul_brothers_member_naoto_honest_park_2027_0630",
+        "sandaime_j_soul_brothers_member_naoto_honest_park_2027_0727",
+        "sandaime_j_soul_brothers_member_naoto_honest_park_2027_0728"
+      ],
+      "source": "system",
+      "sourceUrl": "https://jsb3.exfamily.jp/s/ldh02/news/detail/11514?ima=0000",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_naoto_honest_park_2027_lawson",
+      "tourId": "sandaime_j_soul_brothers_member_naoto_honest_park_2027",
+      "type": "ローソンチケット先行",
+      "entryStartAt": "2027-02-10T15:00:00+09:00",
+      "entryEndAt": "2027-02-14T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_member_naoto_honest_park_2027_0629",
+        "sandaime_j_soul_brothers_member_naoto_honest_park_2027_0630",
+        "sandaime_j_soul_brothers_member_naoto_honest_park_2027_0727",
+        "sandaime_j_soul_brothers_member_naoto_honest_park_2027_0728"
+      ],
+      "source": "system",
+      "sourceUrl": "https://jsb3.exfamily.jp/s/ldh02/news/detail/11514?ima=0000",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_member_naoto_honest_park_2027_ticketbook",
+      "tourId": "sandaime_j_soul_brothers_member_naoto_honest_park_2027",
+      "type": "ticketbook先行",
+      "entryStartAt": "2027-02-10T15:00:00+09:00",
+      "entryEndAt": "2027-02-14T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_member_naoto_honest_park_2027_0629",
+        "sandaime_j_soul_brothers_member_naoto_honest_park_2027_0630",
+        "sandaime_j_soul_brothers_member_naoto_honest_park_2027_0727",
+        "sandaime_j_soul_brothers_member_naoto_honest_park_2027_0728"
+      ],
+      "source": "system",
+      "sourceUrl": "https://jsb3.exfamily.jp/s/ldh02/news/detail/11514?ima=0000",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

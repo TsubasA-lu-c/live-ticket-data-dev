@@ -1352,7 +1352,8 @@
       "eventName": "GIFT ～Girls Idol Festival Tokyo～",
       "source": "system",
       "sourceUrl": "https://ticket.tv-asahi.co.jp/ex/project/gift",
-      "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-09-19T00:00:00+09:00",
+      "note": "18:00はイベント全体の開演予定時刻です。"
     },
     {
       "id": "cutie_street_asobiexpo_hawaii_2027_honolulu_0308",
@@ -1596,14 +1597,15 @@
       "tourId": "cutie_street_countdown_japan_2026",
       "venue": "幕張メッセ国際展示場1〜11ホール・イベントホール",
       "performanceAt": "2026-12-27T12:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-12-27T09:30:00+09:00",
       "kind": "fes",
       "eventName": "COUNTDOWN JAPAN 26/27",
       "source": "system",
       "sourceUrl": "https://cutiestreet.asobisystem.com/live_information/detail/46324",
       "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
-      "performanceTimeEstimated": true,
-      "performanceDate": "2026-12-27"
+      "performanceTimeEstimated": false,
+      "performanceDate": "2026-12-27",
+      "note": "12:00はイベント全体の開演予定時刻です。"
     },
     {
       "id": "cutie_street_haruka_sakuraba_birthday_2027_ariake_0129",
@@ -2351,6 +2353,23 @@
       "source": "system",
       "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/93573",
       "lastVerifiedAt": "2026-10-31T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_christmas_session_2026_fc_second_upgrade_20261112",
+      "tourId": "cutie_street_event_2026_kawaii_lab_christmas_session",
+      "type": "CUTIE STREET FC購入者 アップグレード2次抽選",
+      "entryStartAt": "2026-11-12T18:00:00+09:00",
+      "entryEndAt": "2026-11-19T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "cutie_street_event_2026_kawaii_lab_christmas_session_ariake_1212",
+        "cutie_street_event_2026_kawaii_lab_christmas_session_ariake_1213"
+      ],
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/96002",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

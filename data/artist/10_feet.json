@@ -521,6 +521,49 @@
       "sourceUrl": "https://10-feet.kyoto/pages/budokan",
       "source": "system",
       "lastVerifiedAt": "2026-10-31T18:43:07+09:00"
+    },
+    {
+      "id": "10_feet_hype_like_it_2027",
+      "artistId": "10_feet",
+      "title": "Hype Like it! 2027",
+      "startDate": "2027-01-24T00:00:00+09:00",
+      "endDate": "2027-01-24T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1日券",
+          "amount": 11000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://10-feet.kyoto/contents/1126201",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "10_feet_mwam_the_circus_2027",
+      "artistId": "10_feet",
+      "title": "MAN WITH A MISSION LIVE TOUR “The Circus” 【ゲスト：10-FEET】",
+      "startDate": "2027-02-06T00:00:00+09:00",
+      "endDate": "2027-02-06T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://10-feet.kyoto/contents/1128061",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "10_feet_radio_crazy_2026",
+      "artistId": "10_feet",
+      "title": "FM802 ROCK FESTIVAL RADIO CRAZY 2026",
+      "startDate": "2026-12-28T00:00:00+09:00",
+      "endDate": "2026-12-28T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1DAY TICKET",
+          "amount": 13500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://kyodo-osaka.co.jp/news/detail/788",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "performances": [
@@ -1017,14 +1060,15 @@
       "tourId": "10_feet_fes_countdown_japan_2026",
       "performanceDate": "2026-12-31",
       "venue": "幕張メッセ国際展示場1〜11ホール・イベントホール",
-      "doorOpenAt": null,
-      "performanceAt": "2026-12-31T12:00:00+09:00",
+      "doorOpenAt": "2026-12-31T12:30:00+09:00",
+      "performanceAt": "2026-12-31T15:40:00+09:00",
       "kind": "fes",
       "eventName": "COUNTDOWN JAPAN 26/27",
       "sourceUrl": "https://10-feet.kyoto/contents/1118987",
-      "performanceTimeEstimated": true,
+      "performanceTimeEstimated": false,
       "source": "system",
-      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z",
+      "note": "15:40はイベント全体の開演予定時刻です。"
     },
     {
       "id": "10_feet_taiban_10freak_history_2027_20270401",
@@ -1189,6 +1233,48 @@
       "sourceUrl": "https://10-feet.kyoto/pages/budokan",
       "source": "system",
       "lastVerifiedAt": "2026-10-31T18:43:07+09:00"
+    },
+    {
+      "id": "10_feet_hype_like_it_2027_makuhari_0124",
+      "tourId": "10_feet_hype_like_it_2027",
+      "performanceDate": "2027-01-24",
+      "performanceAt": "2027-01-24T11:00:00+09:00",
+      "doorOpenAt": "2027-01-24T09:00:00+09:00",
+      "venue": "幕張メッセ国際展示場 1～3ホール",
+      "kind": "fes",
+      "eventName": "Hype Like it!",
+      "note": "11:00はフェス全体開始。10-FEET個別の出演時刻は未発表。",
+      "source": "system",
+      "sourceUrl": "https://10-feet.kyoto/contents/1126201",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "10_feet_mwam_the_circus_2027_tokushima_0206",
+      "tourId": "10_feet_mwam_the_circus_2027",
+      "performanceDate": "2027-02-06",
+      "performanceAt": "2027-02-06T17:00:00+09:00",
+      "doorOpenAt": "2027-02-06T16:00:00+09:00",
+      "venue": "アスティとくしま 多目的ホール",
+      "kind": "taiban",
+      "eventName": "MAN WITH A MISSION LIVE TOUR “The Circus”",
+      "note": "MWAM主催、GUEST=10-FEET。17:00は公演全体の開演で10-FEET単独出演時刻は未公表。",
+      "source": "system",
+      "sourceUrl": "https://www.mwamjapan.info/contents/1127344",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "10_feet_radio_crazy_2026_1228",
+      "tourId": "10_feet_radio_crazy_2026",
+      "performanceDate": "2026-12-28",
+      "performanceAt": "2026-12-28T11:00:00+09:00",
+      "doorOpenAt": "2026-12-28T10:00:00+09:00",
+      "venue": "インテックス大阪",
+      "kind": "fes",
+      "eventName": "FM802 ROCK FESTIVAL RADIO CRAZY 2026",
+      "note": "11:00はイベント全体開演でこのアーティストの出演時刻未発表。イベント入場10:00。",
+      "source": "system",
+      "sourceUrl": "https://kyodo-osaka.co.jp/news/detail/788",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1521,7 +1607,7 @@
       "type": "オフィシャル1次先行（抽選・一般対象）",
       "entryStartAt": "2026-11-04T20:00:00+09:00",
       "entryEndAt": "2026-11-15T23:59:00+09:00",
-      "resultAt": null,
+      "resultAt": "2026-11-19T15:00:00+09:00",
       "paymentStartAt": null,
       "paymentEndAt": null,
       "performanceIds": [
@@ -1546,6 +1632,102 @@
       "sourceUrl": "https://eplus.jp/sf/detail/3604630001",
       "source": "system",
       "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "10_feet_hype_like_it_2027_eplus_final_firstcome_20261102",
+      "tourId": "10_feet_hype_like_it_2027",
+      "type": "イープラス最終先着先行（1月24日単日券）",
+      "entryStartAt": "2026-11-02T20:00:00+09:00",
+      "entryEndAt": "2026-11-18T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "10_feet_hype_like_it_2027_makuhari_0124"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/4569750001",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "10_feet_mwam_the_circus_2027_official_hp_20261114",
+      "tourId": "10_feet_mwam_the_circus_2027",
+      "type": "MWAM公式HP先行（抽選・2月6日徳島）",
+      "entryStartAt": "2026-11-14T12:00:00+09:00",
+      "entryEndAt": "2026-11-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "10_feet_mwam_the_circus_2027_tokushima_0206"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.mwamjapan.info/contents/1127344",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "10_feet_radio_crazy_2026_eplus_hp_5th_1106",
+      "tourId": "10_feet_radio_crazy_2026",
+      "type": "オフィシャルHP5次受付（抽選）",
+      "entryStartAt": "2026-11-06T00:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "10_feet_radio_crazy_2026_1228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kyodo-osaka.co.jp/news/detail/788",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "10_feet_radio_crazy_2026_pia_1106",
+      "tourId": "10_feet_radio_crazy_2026",
+      "type": "チケットぴあ先行受付（抽選）",
+      "entryStartAt": "2026-11-06T00:00:00+09:00",
+      "entryEndAt": "2026-11-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "10_feet_radio_crazy_2026_1228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kyodo-osaka.co.jp/news/detail/788",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "10_feet_radio_crazy_2026_lawson_1106",
+      "tourId": "10_feet_radio_crazy_2026",
+      "type": "ローソンチケット先行受付（抽選）",
+      "entryStartAt": "2026-11-06T00:00:00+09:00",
+      "entryEndAt": "2026-11-17T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "10_feet_radio_crazy_2026_1228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kyodo-osaka.co.jp/news/detail/788",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "10_feet_bukurock_festival_2027_eplus_general_20261114",
+      "tourId": "10_feet_bukurock_festival_2027",
+      "type": "一般発売（イープラス・先着）",
+      "entryStartAt": "2026-11-14T10:00:00+09:00",
+      "entryEndAt": "2027-02-07T18:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "10_feet_bukurock_festival_2027_makuhari_0211"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/3604630001-P0030019",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ]
 }

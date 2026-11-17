@@ -78,6 +78,81 @@
       "artistId": "shinee",
       "source": "system",
       "lastVerifiedAt": "2026-10-10T20:24:52+09:00"
+    },
+    {
+      "id": "shinee_minho_feral_seoul_2026",
+      "artistId": "shinee",
+      "title": "【MINHO】MINHO CONCERT ＜MEAN : of feral＞ in SEOUL",
+      "startDate": "2026-11-28T00:00:00+09:00",
+      "endDate": "2026-11-29T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://weverse.io/shinee/notice/39355",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "shinee_minho_feral_taipei_2027",
+      "artistId": "shinee",
+      "title": "【MINHO】MINHO CONCERT ＜MEAN : of feral＞ in TAIPEI",
+      "startDate": "2027-01-02T00:00:00+08:00",
+      "endDate": "2027-01-02T00:00:00+08:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://weverse.io/shinee/notice/39845",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "shinee_minho_feral_hongkong_2027",
+      "artistId": "shinee",
+      "title": "【MINHO】MINHO CONCERT ＜MEAN : of feral＞ in HONG KONG",
+      "startDate": "2027-01-23T00:00:00+08:00",
+      "endDate": "2027-01-23T00:00:00+08:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://weverse.io/shinee/notice/39692",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "shinee_member_onew_the_live_2027_japan",
+      "artistId": "shinee",
+      "title": "【ONEW】2027 ONEW CONCERT［ONEW THE LIVE］IN JAPAN",
+      "startDate": "2027-01-14T00:00:00+09:00",
+      "endDate": "2027-01-15T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全指定席",
+          "amount": 14800
+        },
+        {
+          "label": "プレミアムシート",
+          "amount": 21400
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://onew-fc.jp/contents/1127331",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "shinee_member_taemin_liminal_world_tour_2026_2027",
+      "artistId": "shinee",
+      "title": "【TAEMIN】2026–27 TAEMIN WORLD TOUR <LiMiNaL>",
+      "startDate": "2026-09-18T00:00:00+09:00",
+      "endDate": null,
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://taemintour.com/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "shinee_sbs_gayo_daejeon_2026",
+      "artistId": "shinee",
+      "title": "2026 SBS GAYO DAEJEON",
+      "startDate": "2026-12-25T00:00:00+09:00",
+      "endDate": "2026-12-25T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008837439",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "performances": [
@@ -226,6 +301,245 @@
       "sourceUrl": "https://shinee.jp/news/2026/1006_2441.html",
       "source": "system",
       "lastVerifiedAt": "2026-10-10T20:24:52+09:00"
+    },
+    {
+      "id": "shinee_minho_feral_seoul_2026_1128",
+      "tourId": "shinee_minho_feral_seoul_2026",
+      "performanceDate": "2026-11-28",
+      "performanceAt": "2026-11-28T17:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "KBS ARENA",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://weverse.io/shinee/notice/39355",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "shinee_minho_feral_seoul_2026_1129",
+      "tourId": "shinee_minho_feral_seoul_2026",
+      "performanceDate": "2026-11-29",
+      "performanceAt": "2026-11-29T16:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "KBS ARENA",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://weverse.io/shinee/notice/39355",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "shinee_minho_feral_taipei_2027_0102",
+      "tourId": "shinee_minho_feral_taipei_2027",
+      "performanceDate": "2027-01-02",
+      "performanceAt": "2027-01-02T18:00:00+08:00",
+      "doorOpenAt": null,
+      "venue": "NTU SPORTS CENTER",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://weverse.io/shinee/notice/39845",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "shinee_minho_feral_hongkong_2027_0123",
+      "tourId": "shinee_minho_feral_hongkong_2027",
+      "performanceDate": "2027-01-23",
+      "performanceAt": "2027-01-23T12:00:00+08:00",
+      "doorOpenAt": null,
+      "venue": "MACPHERSON STADIUM",
+      "kind": "oneman",
+      "eventName": null,
+      "performanceTimeEstimated": true,
+      "source": "system",
+      "sourceUrl": "https://weverse.io/shinee/notice/39692",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "shinee_member_onew_the_live_2027_japan_tokyo_0114",
+      "tourId": "shinee_member_onew_the_live_2027_japan",
+      "performanceDate": "2027-01-14",
+      "performanceAt": "2027-01-14T18:30:00+09:00",
+      "doorOpenAt": "2027-01-14T17:30:00+09:00",
+      "venue": "東京ガーデンシアター",
+      "kind": "oneman",
+      "eventName": "2027 ONEW CONCERT［ONEW THE LIVE］IN JAPAN",
+      "source": "system",
+      "sourceUrl": "https://onew-fc.jp/contents/1127331",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "shinee_member_onew_the_live_2027_japan_tokyo_0115",
+      "tourId": "shinee_member_onew_the_live_2027_japan",
+      "performanceDate": "2027-01-15",
+      "performanceAt": "2027-01-15T18:30:00+09:00",
+      "doorOpenAt": "2027-01-15T17:30:00+09:00",
+      "venue": "東京ガーデンシアター",
+      "kind": "oneman",
+      "eventName": "2027 ONEW CONCERT［ONEW THE LIVE］IN JAPAN",
+      "source": "system",
+      "sourceUrl": "https://onew-fc.jp/contents/1127331",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "shinee_member_taemin_liminal_world_tour_2026_2027_paris_1116",
+      "tourId": "shinee_member_taemin_liminal_world_tour_2026_2027",
+      "performanceDate": "2026-11-16",
+      "performanceAt": "2026-11-16T20:00:00+01:00",
+      "doorOpenAt": null,
+      "venue": "Adidas Arena",
+      "kind": "oneman",
+      "eventName": "2026–27 TAEMIN WORLD TOUR <LiMiNaL>",
+      "source": "system",
+      "sourceUrl": "https://www.ticketmaster.com/taemin-tickets/artist/3345754?tt_scene=anchor_view",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "shinee_member_taemin_liminal_world_tour_2026_2027_berlin_1118",
+      "tourId": "shinee_member_taemin_liminal_world_tour_2026_2027",
+      "performanceDate": "2026-11-18",
+      "performanceAt": "2026-11-18T20:00:00+01:00",
+      "doorOpenAt": "2026-11-18T19:00:00+01:00",
+      "venue": "Uber Eats Music Hall",
+      "kind": "oneman",
+      "eventName": "2026–27 TAEMIN WORLD TOUR <LiMiNaL>",
+      "source": "system",
+      "sourceUrl": "https://www.uber-eats-music-hall.de/en/events/detail/taemin",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "shinee_member_taemin_liminal_world_tour_2026_2027_frankfurt_1120",
+      "tourId": "shinee_member_taemin_liminal_world_tour_2026_2027",
+      "performanceDate": "2026-11-20",
+      "performanceAt": "2026-11-20T20:00:00+01:00",
+      "doorOpenAt": "2026-11-20T18:30:00+01:00",
+      "venue": "myticket Jahrhunderthalle Frankfurt",
+      "kind": "oneman",
+      "eventName": "2026–27 TAEMIN WORLD TOUR <LiMiNaL>",
+      "source": "system",
+      "sourceUrl": "https://www.myticket-jahrhunderthalle.de/programm/taemin/20-11-2026/20-00",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "shinee_member_taemin_liminal_world_tour_2026_2027_london_1122",
+      "tourId": "shinee_member_taemin_liminal_world_tour_2026_2027",
+      "performanceDate": "2026-11-22",
+      "performanceAt": "2026-11-22T19:30:00+00:00",
+      "doorOpenAt": "2026-11-22T18:00:00+00:00",
+      "venue": "OVO Arena Wembley",
+      "kind": "oneman",
+      "eventName": "2026–27 TAEMIN WORLD TOUR <LiMiNaL>",
+      "source": "system",
+      "sourceUrl": "https://www.axs.com/uk/events/1576501/taemin-tickets?skin=wembley",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "shinee_member_taemin_liminal_world_tour_2026_2027_amsterdam_1124",
+      "tourId": "shinee_member_taemin_liminal_world_tour_2026_2027",
+      "performanceDate": "2026-11-24",
+      "performanceAt": "2026-11-24T20:00:00+01:00",
+      "doorOpenAt": null,
+      "venue": "AFAS Live",
+      "kind": "oneman",
+      "eventName": "2026–27 TAEMIN WORLD TOUR <LiMiNaL>",
+      "source": "system",
+      "sourceUrl": "https://www.ticketmaster.nl/event/781959205",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "shinee_member_taemin_liminal_world_tour_2026_2027_istanbul_1127",
+      "tourId": "shinee_member_taemin_liminal_world_tour_2026_2027",
+      "performanceDate": "2026-11-27",
+      "performanceAt": "2026-11-27T20:30:00+03:00",
+      "doorOpenAt": null,
+      "venue": "Ülker Sports Arena",
+      "kind": "oneman",
+      "eventName": "2026–27 TAEMIN WORLD TOUR <LiMiNaL>",
+      "source": "system",
+      "sourceUrl": "https://www.biletix.com/etkinlik/5FC27/IZMIR/en/taemin-world-tour-liminal-27-11-2026-istanbul",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "shinee_member_taemin_liminal_world_tour_2026_2027_lodz_1129",
+      "tourId": "shinee_member_taemin_liminal_world_tour_2026_2027",
+      "performanceDate": "2026-11-29",
+      "performanceAt": "2026-11-29T12:00:00+01:00",
+      "doorOpenAt": null,
+      "venue": "Atlas Arena",
+      "kind": "oneman",
+      "eventName": "2026–27 TAEMIN WORLD TOUR <LiMiNaL>",
+      "performanceTimeEstimated": true,
+      "note": "開場18:00（現地時間）、開演時刻は未発表。12:00は時刻未定を表す互換上の仮値。",
+      "source": "system",
+      "sourceUrl": "https://taemin-poland.tixyapp.com/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "shinee_member_taemin_liminal_world_tour_2026_2027_helsinki_1201",
+      "tourId": "shinee_member_taemin_liminal_world_tour_2026_2027",
+      "performanceDate": "2026-12-01",
+      "performanceAt": "2026-12-01T19:30:00+02:00",
+      "doorOpenAt": null,
+      "venue": "Helsinki Ice Hall",
+      "kind": "oneman",
+      "eventName": "2026–27 TAEMIN WORLD TOUR <LiMiNaL>",
+      "source": "system",
+      "sourceUrl": "https://mticket.eu/en/events/taemin-world-tour-liminal",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "shinee_member_taemin_liminal_world_tour_2026_2027_madrid_1203",
+      "tourId": "shinee_member_taemin_liminal_world_tour_2026_2027",
+      "performanceDate": "2026-12-03",
+      "performanceAt": "2026-12-03T20:30:00+01:00",
+      "doorOpenAt": null,
+      "venue": "Palacio Vistalegre",
+      "kind": "oneman",
+      "eventName": "2026–27 TAEMIN WORLD TOUR <LiMiNaL>",
+      "source": "system",
+      "sourceUrl": "https://mticket.eu/en/events/taemin-world-tour-liminal",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "shinee_member_taemin_liminal_world_tour_2026_2027_almaty_1206",
+      "tourId": "shinee_member_taemin_liminal_world_tour_2026_2027",
+      "performanceDate": "2026-12-06",
+      "performanceAt": "2026-12-06T19:30:00+05:00",
+      "doorOpenAt": null,
+      "venue": "Almaty Arena",
+      "kind": "oneman",
+      "eventName": "2026–27 TAEMIN WORLD TOUR <LiMiNaL>",
+      "source": "system",
+      "sourceUrl": "https://parklive.world/shows/taemin-almaty",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "shinee_member_taemin_liminal_world_tour_2026_2027_tbilisi_1209",
+      "tourId": "shinee_member_taemin_liminal_world_tour_2026_2027",
+      "performanceDate": "2026-12-09",
+      "performanceAt": "2026-12-09T19:30:00+04:00",
+      "doorOpenAt": null,
+      "venue": "Palas of Sports",
+      "kind": "oneman",
+      "eventName": "2026–27 TAEMIN WORLD TOUR <LiMiNaL>",
+      "source": "system",
+      "sourceUrl": "https://parklive.world/shows/taemin-tbilisi",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "shinee_sbs_gayo_daejeon_2026_25",
+      "tourId": "shinee_sbs_gayo_daejeon_2026",
+      "performanceDate": "2026-12-25",
+      "performanceAt": "2026-12-25T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "venue": "KINTEX",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "2026 SBS GAYO DAEJEON",
+      "note": "出演名義: SHINee。施設内ホール・フェス全体の開演時刻は未確認。12:00は時刻未定の互換値。",
+      "source": "system",
+      "sourceUrl": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008837439",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -386,8 +700,8 @@
       "type": "SHINee WORLD Jファンクラブ2次先行（MINHOソロ抽選）",
       "entryStartAt": "2026-10-27T18:00:00+09:00",
       "entryEndAt": "2026-11-08T23:59:00+09:00",
-      "resultAt": null,
-      "paymentStartAt": null,
+      "resultAt": "2026-11-13T20:00:00+09:00",
+      "paymentStartAt": "2026-11-13T20:00:00+09:00",
       "paymentEndAt": "2026-11-17T23:59:00+09:00",
       "performanceIds": [
         "shinee_minho_feral_2027_20270220",
@@ -395,6 +709,189 @@
       ],
       "sourceUrl": "https://shinee.jp/news/2026/1027_2447.html",
       "source": "system"
+    },
+    {
+      "id": "shinee_minho_feral_seoul_fc_kr",
+      "tourId": "shinee_minho_feral_seoul_2026",
+      "type": "SHINee WORLD韓国先行",
+      "entryStartAt": "2026-09-30T20:00:00+09:00",
+      "entryEndAt": "2026-09-30T23:59:59+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "shinee_minho_feral_seoul_2026_1128",
+        "shinee_minho_feral_seoul_2026_1129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://weverse.io/shinee/notice/39355",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "shinee_minho_feral_seoul_fc_global",
+      "tourId": "shinee_minho_feral_seoul_2026",
+      "type": "SHINee WORLD海外向け先行",
+      "entryStartAt": "2026-10-01T20:00:00+09:00",
+      "entryEndAt": "2026-10-01T23:59:59+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "shinee_minho_feral_seoul_2026_1128",
+        "shinee_minho_feral_seoul_2026_1129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://weverse.io/shinee/notice/39355",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "shinee_minho_feral_seoul_fc_accessible",
+      "tourId": "shinee_minho_feral_seoul_2026",
+      "type": "車椅子席ファンクラブ先行",
+      "entryStartAt": "2026-09-30T10:00:00+09:00",
+      "entryEndAt": "2026-10-01T18:59:59+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "shinee_minho_feral_seoul_2026_1128",
+        "shinee_minho_feral_seoul_2026_1129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://weverse.io/shinee/notice/39355",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "shinee_minho_feral_seoul_general",
+      "tourId": "shinee_minho_feral_seoul_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-10-02T20:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "shinee_minho_feral_seoul_2026_1128",
+        "shinee_minho_feral_seoul_2026_1129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://weverse.io/shinee/notice/39355",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "shinee_minho_feral_seoul_general_accessible",
+      "tourId": "shinee_minho_feral_seoul_2026",
+      "type": "車椅子席一般発売",
+      "entryStartAt": "2026-10-02T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "shinee_minho_feral_seoul_2026_1128",
+        "shinee_minho_feral_seoul_2026_1129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://weverse.io/shinee/notice/39355",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "shinee_minho_feral_taipei_fc",
+      "tourId": "shinee_minho_feral_taipei_2027",
+      "type": "SHINee WORLD Membership (GL)先行",
+      "entryStartAt": "2026-11-05T11:00:00+08:00",
+      "entryEndAt": "2026-11-05T18:59:00+08:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "shinee_minho_feral_taipei_2027_0102"
+      ],
+      "source": "system",
+      "sourceUrl": "https://weverse.io/shinee/notice/39845",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "shinee_minho_feral_taipei_general",
+      "tourId": "shinee_minho_feral_taipei_2027",
+      "type": "一般発売",
+      "entryStartAt": "2026-11-07T11:00:00+08:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "shinee_minho_feral_taipei_2027_0102"
+      ],
+      "source": "system",
+      "sourceUrl": "https://weverse.io/shinee/notice/39845",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "shinee_member_onew_the_live_2027_japan_fc_presale_1",
+      "tourId": "shinee_member_onew_the_live_2027_japan",
+      "type": "JJINGGU JAPAN 1次先行（抽選）",
+      "entryStartAt": "2026-11-13T19:00:00+09:00",
+      "entryEndAt": "2026-11-17T23:59:00+09:00",
+      "resultAt": "2026-11-21T12:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-11-24T23:59:00+09:00",
+      "performanceIds": [
+        "shinee_member_onew_the_live_2027_japan_tokyo_0114",
+        "shinee_member_onew_the_live_2027_japan_tokyo_0115"
+      ],
+      "source": "system",
+      "sourceUrl": "https://onew-fc.jp/contents/1127331",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "shinee_member_onew_the_live_2027_japan_fc_presale_2",
+      "tourId": "shinee_member_onew_the_live_2027_japan",
+      "type": "JJINGGU JAPAN 2次先行（抽選）",
+      "entryStartAt": "2026-11-18T18:00:00+09:00",
+      "entryEndAt": "2026-11-24T23:59:00+09:00",
+      "resultAt": "2026-11-28T12:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-12-01T23:59:00+09:00",
+      "performanceIds": [
+        "shinee_member_onew_the_live_2027_japan_tokyo_0114",
+        "shinee_member_onew_the_live_2027_japan_tokyo_0115"
+      ],
+      "source": "system",
+      "sourceUrl": "https://onew-fc.jp/contents/1127331",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "shinee_member_taemin_liminal_world_tour_2026_2027_lodz_general_1005",
+      "tourId": "shinee_member_taemin_liminal_world_tour_2026_2027",
+      "type": "Łódź 一般発売（先着）",
+      "entryStartAt": "2026-10-05T12:00:00+02:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "shinee_member_taemin_liminal_world_tour_2026_2027_lodz_1129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://taemin-poland.tixyapp.com/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "shinee_sbs_gayo_daejeon_2026_nol_unionpay_presale",
+      "tourId": "shinee_sbs_gayo_daejeon_2026",
+      "type": "NOL World 海外向けUnionPay先着（シャトル付きパッケージ）",
+      "entryStartAt": "2026-11-09T14:00:00+09:00",
+      "entryEndAt": "2026-11-10T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "shinee_sbs_gayo_daejeon_2026_25"
+      ],
+      "source": "system",
+      "sourceUrl": "https://world.nol.com/ticket/places/26000518/products/26015364",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "lastVerifiedAt": "2026-09-03T21:39:00+09:00",

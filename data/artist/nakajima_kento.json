@@ -498,7 +498,8 @@
       "eventName": "COUNTDOWN JAPAN 26/27 中島健人出演",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/587971",
       "source": "system",
-      "kindReviewed": true
+      "kindReviewed": true,
+      "note": "12:00はイベント全体の開演予定時刻です。"
     }
   ],
   "lotteries": [
@@ -618,6 +619,22 @@
       ],
       "sourceUrl": "https://countdownjapan.jp/2627/ticket/",
       "source": "system"
+    },
+    {
+      "id": "nakajima_kento_countdown_japan_2627_official_resale_20261207",
+      "tourId": "nakajima_kento_countdown_japan_2627",
+      "type": "COUNTDOWN JAPAN 26/27 公式リセール（購入申込・抽選／12月30日券）",
+      "entryStartAt": "2026-12-07T16:00:00+09:00",
+      "entryEndAt": "2026-12-14T16:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nakajima_kento_countdown_japan_2627_1230"
+      ],
+      "source": "system",
+      "sourceUrl": "https://countdownjapan.jp/2627/news/5987/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

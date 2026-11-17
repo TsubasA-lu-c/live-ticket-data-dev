@@ -405,6 +405,22 @@
       "sourceUrl": "https://anisama.tv/2027/fukuoka/",
       "source": "system",
       "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_radio_crazy_2026",
+      "artistId": "yabai_tshirts_yasan",
+      "title": "FM802 ROCK FESTIVAL RADIO CRAZY 2026",
+      "startDate": "2026-12-26T00:00:00+09:00",
+      "endDate": "2026-12-26T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1DAY TICKET",
+          "amount": 13500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://kyodo-osaka.co.jp/news/detail/788",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "performances": [
@@ -1041,14 +1057,15 @@
       "venue": "幕張メッセ国際展示場1〜11ホール・イベントホール",
       "performanceAt": "2026-12-27T12:00:00+09:00",
       "performanceDate": "2026-12-27",
-      "performanceTimeEstimated": true,
-      "doorOpenAt": null,
+      "performanceTimeEstimated": false,
+      "doorOpenAt": "2026-12-27T09:30:00+09:00",
       "kind": "fes",
       "kindReviewed": true,
       "eventName": "COUNTDOWN JAPAN 26/27",
       "source": "system",
       "sourceUrl": "https://yabaitshirtsyasan.com/live/page/2/",
-      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00",
+      "note": "12:00はイベント全体の開演予定時刻です。"
     },
     {
       "id": "yabai_tshirts_yasan_longman_no_brakes_20270221_matsuyama",
@@ -1077,6 +1094,20 @@
       "sourceUrl": "https://anisama.tv/2027/fukuoka/",
       "source": "system",
       "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_radio_crazy_2026_1226",
+      "tourId": "yabai_tshirts_yasan_radio_crazy_2026",
+      "performanceDate": "2026-12-26",
+      "performanceAt": "2026-12-26T11:00:00+09:00",
+      "doorOpenAt": "2026-12-26T10:00:00+09:00",
+      "venue": "インテックス大阪",
+      "kind": "fes",
+      "eventName": "FM802 ROCK FESTIVAL RADIO CRAZY 2026",
+      "note": "11:00はイベント全体開演でこのアーティストの出演時刻未発表。イベント入場10:00。",
+      "source": "system",
+      "sourceUrl": "https://kyodo-osaka.co.jp/news/detail/788",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1537,6 +1568,54 @@
       "source": "system",
       "sourceUrl": "https://longman.jp/news/8/",
       "lastVerifiedAt": "2026-11-01T18:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_radio_crazy_2026_eplus_hp_5th_1106",
+      "tourId": "yabai_tshirts_yasan_radio_crazy_2026",
+      "type": "オフィシャルHP5次受付（抽選）",
+      "entryStartAt": "2026-11-06T00:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yabai_tshirts_yasan_radio_crazy_2026_1226"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kyodo-osaka.co.jp/news/detail/788",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_radio_crazy_2026_pia_1106",
+      "tourId": "yabai_tshirts_yasan_radio_crazy_2026",
+      "type": "チケットぴあ先行受付（抽選）",
+      "entryStartAt": "2026-11-06T00:00:00+09:00",
+      "entryEndAt": "2026-11-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yabai_tshirts_yasan_radio_crazy_2026_1226"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kyodo-osaka.co.jp/news/detail/788",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_radio_crazy_2026_lawson_1106",
+      "tourId": "yabai_tshirts_yasan_radio_crazy_2026",
+      "type": "ローソンチケット先行受付（抽選）",
+      "entryStartAt": "2026-11-06T00:00:00+09:00",
+      "entryEndAt": "2026-11-17T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yabai_tshirts_yasan_radio_crazy_2026_1226"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kyodo-osaka.co.jp/news/detail/788",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

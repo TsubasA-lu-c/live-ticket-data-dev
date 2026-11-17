@@ -728,6 +728,22 @@
       "sourceUrl": "https://wanima-live.com/bamboomnight2026/",
       "source": "system",
       "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "wanima_bamboom_night_2026_general_20261115",
+      "tourId": "wanima_bamboom_night_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-11-15T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "wanima_bamboom_night_2026_tokyo_1215"
+      ],
+      "source": "system",
+      "sourceUrl": "https://wanima-live.com/bamboomnight2026/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

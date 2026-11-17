@@ -121,7 +121,12 @@
       "title": "GIFT ～Girls Idol Festival Tokyo～",
       "startDate": "2026-11-28T00:00:00+09:00",
       "endDate": "2026-11-28T00:00:00+09:00",
-      "prices": null,
+      "prices": [
+        {
+          "label": "1DAY共通チケット",
+          "amount": 12000
+        }
+      ],
       "source": "system",
       "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00883?ima=0000",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
@@ -414,7 +419,8 @@
       "eventName": "GIFT ～Girls Idol Festival Tokyo～",
       "source": "system",
       "sourceUrl": "https://ticket.tv-asahi.co.jp/ex/project/gift",
-      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-23T00:00:00+09:00",
+      "note": "13:00はイベント全体の開演予定時刻です。"
     },
     {
       "id": "hinatazaka46_hinata_medleytown_opening_festa_2026_miyazaki_1010",
@@ -909,6 +915,118 @@
       ],
       "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00928",
       "source": "system"
+    },
+    {
+      "id": "hinatazaka46_hinakuri_2026_official_trade_kobe_21",
+      "tourId": "hinatazaka46_hinakuri_2026",
+      "type": "ひなくり2026 兵庫・FC限定公式チケットトレード（抽選）",
+      "entryStartAt": "2026-11-14T18:00:00+09:00",
+      "entryEndAt": "2026-11-20T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hinatazaka46_hinakuri_2026_kobe_1121"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00931",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_hinakuri_2026_official_trade_kobe_22",
+      "tourId": "hinatazaka46_hinakuri_2026",
+      "type": "ひなくり2026 兵庫・FC限定公式チケットトレード（抽選）",
+      "entryStartAt": "2026-11-14T18:00:00+09:00",
+      "entryEndAt": "2026-11-21T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hinatazaka46_hinakuri_2026_kobe_1122"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00931",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_hinakuri_2026_official_trade_kobe_23",
+      "tourId": "hinatazaka46_hinakuri_2026",
+      "type": "ひなくり2026 兵庫・FC限定公式チケットトレード（抽選）",
+      "entryStartAt": "2026-11-14T18:00:00+09:00",
+      "entryEndAt": "2026-11-22T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hinatazaka46_hinakuri_2026_kobe_1123"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00931",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_gift_girls_idol_festival_tokyo_2026_fastest_2026",
+      "tourId": "hinatazaka46_gift_girls_idol_festival_tokyo_2026",
+      "type": "最速先行（抽選）",
+      "entryStartAt": "2026-08-18T12:00:00+09:00",
+      "entryEndAt": "2026-09-01T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hinatazaka46_gift_girls_idol_festival_tokyo_2026_1128"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.gift-idol.jp/ticket.html",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_gift_girls_idol_festival_tokyo_2026_second_2026",
+      "tourId": "hinatazaka46_gift_girls_idol_festival_tokyo_2026",
+      "type": "2次先行（抽選）",
+      "entryStartAt": "2026-09-05T12:00:00+09:00",
+      "entryEndAt": "2026-09-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hinatazaka46_gift_girls_idol_festival_tokyo_2026_1128"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.gift-idol.jp/ticket.html",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_gift_girls_idol_festival_tokyo_2026_third_2026",
+      "tourId": "hinatazaka46_gift_girls_idol_festival_tokyo_2026",
+      "type": "3次先行（先着）",
+      "entryStartAt": "2026-09-19T12:00:00+09:00",
+      "entryEndAt": "2026-09-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hinatazaka46_gift_girls_idol_festival_tokyo_2026_1128"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.gift-idol.jp/ticket.html",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_gift_girls_idol_festival_tokyo_2026_general_day28_2026",
+      "tourId": "hinatazaka46_gift_girls_idol_festival_tokyo_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-10-03T10:00:00+09:00",
+      "entryEndAt": "2026-11-27T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hinatazaka46_gift_girls_idol_festival_tokyo_2026_1128"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.gift-idol.jp/ticket.html",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

@@ -204,7 +204,17 @@
       "sourceUrl": "https://macaroniempitsu.com/news",
       "artistId": "macaroni_empitsu",
       "source": "system",
-      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00",
+      "prices": [
+        {
+          "label": "アリーナVIP指定席",
+          "amount": 14000
+        },
+        {
+          "label": "一般指定席",
+          "amount": 11000
+        }
+      ]
     },
     {
       "id": "macaroni_empitsu_radio_crazy_2026",
@@ -554,7 +564,8 @@
       "eventName": "Spotify On Stage Tokyo 2026 -10th Anniversary Special-",
       "sourceUrl": "https://macaroniempitsu.com/news",
       "source": "system",
-      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00",
+      "note": "開演時刻はイベント全体の開始時刻。出演者ごとの出演時刻は未公表。"
     },
     {
       "id": "macaroni_empitsu_radio_crazy_2026_1228",
@@ -580,7 +591,8 @@
       "eventName": "COUNTDOWN JAPAN 26/27 supported by au",
       "sourceUrl": "https://macaroniempitsu.com/live/21302.html",
       "source": "system",
-      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z",
+      "note": "12:00はイベント全体の開演予定時刻です。"
     }
   ],
   "lotteries": [
@@ -1050,6 +1062,55 @@
       ],
       "sourceUrl": "https://macaroniempitsu.com/news",
       "source": "system"
+    },
+    {
+      "id": "macaroni_empitsu_vol22_2026_tokyo_additional_20261115",
+      "tourId": "macaroni_empitsu_vol22_2026",
+      "type": "東京12/5・12/6公演 追加販売（先着）",
+      "entryStartAt": "2026-11-15T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "macaroni_empitsu_vol22_2026_tokyo_1205",
+        "macaroni_empitsu_vol22_2026_tokyo_1206"
+      ],
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/news",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "macaroni_empitsu_fukuoka_music_fes_2027_official_3rd_20261027",
+      "tourId": "macaroni_empitsu_fukuoka_music_fes_2027",
+      "type": "オフィシャル3次先行（抽選・1/31公演）",
+      "entryStartAt": "2026-10-27T18:00:00+09:00",
+      "entryEndAt": "2026-11-08T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "macaroni_empitsu_fukuoka_music_fes_2027_fukuoka_0131"
+      ],
+      "source": "system",
+      "sourceUrl": "https://fukuokamusic-fes.com/2027/index.html",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "macaroni_empitsu_spotify_on_stage_tokyo_2026_general_1110",
+      "tourId": "macaroni_empitsu_spotify_on_stage_tokyo_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-11-10T10:00:00+09:00",
+      "entryEndAt": "2026-12-19T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "macaroni_empitsu_spotify_on_stage_tokyo_2026_1220"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/3015200001",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

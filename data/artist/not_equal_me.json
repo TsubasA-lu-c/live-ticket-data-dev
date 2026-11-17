@@ -263,6 +263,38 @@
       "artistId": "not_equal_me",
       "source": "system",
       "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
+    },
+    {
+      "id": "not_equal_me_grand_concert_2026",
+      "artistId": "not_equal_me",
+      "title": "≠ME GRAND CONCERT",
+      "startDate": "2026-12-24T00:00:00+09:00",
+      "endDate": "2026-12-24T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "プレミアム",
+          "amount": 24800
+        },
+        {
+          "label": "通常",
+          "amount": 9900
+        },
+        {
+          "label": "テラススイート",
+          "amount": 12000
+        },
+        {
+          "label": "見切れ",
+          "amount": 8800
+        },
+        {
+          "label": "ステージバック",
+          "amount": 7700
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/pages/specialsite_grandconcert",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "performances": [
@@ -649,7 +681,9 @@
       "sourceUrl": "https://not-equal-me.jp/news/detail/7788",
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
-      "tourId": "not_equal_me_tgc_toyama_2026"
+      "tourId": "not_equal_me_tgc_toyama_2026",
+      "performanceTimeEstimated": false,
+      "note": "イベント全体の開演予定時刻。≠ME個別の出演時刻は未発表。"
     },
     {
       "id": "not_equal_me_ogi_hana_tensura_stage3_2026_20261022_1400",
@@ -754,6 +788,19 @@
       "sourceUrl": "https://stage-tensura.com/information1.php",
       "source": "system",
       "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
+    },
+    {
+      "id": "not_equal_me_grand_concert_2026_toyota_1224",
+      "tourId": "not_equal_me_grand_concert_2026",
+      "performanceDate": "2026-12-24",
+      "performanceAt": "2026-12-24T18:00:00+09:00",
+      "doorOpenAt": "2026-12-24T16:30:00+09:00",
+      "venue": "TOYOTA ARENA TOKYO",
+      "kind": "oneman",
+      "eventName": "≠ME GRAND CONCERT",
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/pages/specialsite_grandconcert",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1138,6 +1185,38 @@
       "sourceUrl": "https://stage-tensura.com/",
       "source": "system",
       "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
+    },
+    {
+      "id": "not_equal_me_grand_concert_2026_general_oct31",
+      "tourId": "not_equal_me_grand_concert_2026",
+      "type": "一般先行（抽選・通常席）",
+      "entryStartAt": "2026-10-31T17:30:00+09:00",
+      "entryEndAt": "2026-11-08T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "not_equal_me_grand_concert_2026_toyota_1224"
+      ],
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/news/detail/8059",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "not_equal_me_grand_concert_2026_fc_terrace_nov12",
+      "tourId": "not_equal_me_grand_concert_2026",
+      "type": "FC販売（テラススイート/ステージ見切れ/ステージバック・抽選）",
+      "entryStartAt": "2026-11-12T18:00:00+09:00",
+      "entryEndAt": "2026-11-17T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "not_equal_me_grand_concert_2026_toyota_1224"
+      ],
+      "source": "system",
+      "sourceUrl": "https://not-equal-me.jp/news/detail/8110",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

@@ -145,6 +145,17 @@
       "source": "system",
       "sourceUrl": "https://ebidan.jp/news/detail/1110191",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "bullet_train_countdown_japan_2627",
+      "artistId": "bullet_train",
+      "title": "COUNTDOWN JAPAN 26/27",
+      "startDate": "2026-12-26T00:00:00+09:00",
+      "endDate": "2026-12-26T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://countdownjapan.jp/2627/artist/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "performances": [
@@ -377,6 +388,20 @@
       "source": "system",
       "sourceUrl": "https://ebidan.jp/news/detail/1110191",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "bullet_train_countdown_japan_2627_20261226",
+      "tourId": "bullet_train_countdown_japan_2627",
+      "venue": "幕張メッセ国際展示場1〜11ホール",
+      "performanceDate": "2026-12-26",
+      "performanceAt": "2026-12-26T12:00:00+09:00",
+      "doorOpenAt": "2026-12-26T09:30:00+09:00",
+      "kind": "fes",
+      "eventName": "COUNTDOWN JAPAN 26/27",
+      "note": "12:00はイベント全体の開演予定時刻です。",
+      "source": "system",
+      "sourceUrl": "https://countdownjapan.s3.amazonaws.com/2627/img/timetable/1111_hz8dnswxxn/tt_1226.png",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -483,8 +508,7 @@
       "tourId": "bullet_train_x_8a48501900",
       "paymentStartAt": null,
       "performanceIds": [
-        "bullet_train_x_8a48501900_20261125_1",
-        "bullet_train_x_8a48501900_20261126_2"
+        "bullet_train_x_8a48501900_20261125_1"
       ],
       "source": "system",
       "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
@@ -500,8 +524,7 @@
       "tourId": "bullet_train_x_8a48501900",
       "paymentStartAt": null,
       "performanceIds": [
-        "bullet_train_x_8a48501900_20261125_1",
-        "bullet_train_x_8a48501900_20261126_2"
+        "bullet_train_x_8a48501900_20261125_1"
       ],
       "source": "system",
       "lastVerifiedAt": "2026-08-28T00:00:00+09:00"
@@ -517,7 +540,6 @@
       "tourId": "bullet_train_x_8a48501900",
       "paymentStartAt": null,
       "performanceIds": [
-        "bullet_train_x_8a48501900_20261125_1",
         "bullet_train_x_8a48501900_20261126_2"
       ],
       "source": "system",
@@ -534,7 +556,6 @@
       "tourId": "bullet_train_x_8a48501900",
       "paymentStartAt": null,
       "performanceIds": [
-        "bullet_train_x_8a48501900_20261125_1",
         "bullet_train_x_8a48501900_20261126_2"
       ],
       "source": "system",
@@ -551,7 +572,6 @@
       "tourId": "bullet_train_x_8a48501900",
       "paymentStartAt": null,
       "performanceIds": [
-        "bullet_train_x_8a48501900_20261125_1",
         "bullet_train_x_8a48501900_20261126_2"
       ],
       "source": "system",
@@ -753,6 +773,154 @@
       "sourceUrl": "https://bullettrain.jp/news/detail/110221",
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "bullet_train_signal_stage_seats_nov14",
+      "tourId": "bullet_train_x_8a48501900",
+      "type": "ステージプラン確定機材席開放 一般発売（先着）",
+      "entryStartAt": "2026-11-14T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bullet_train_x_8a48501900_20261125_1",
+        "bullet_train_x_8a48501900_20261126_2"
+      ],
+      "source": "system",
+      "sourceUrl": "https://bullettrain.jp/news/detail/110259",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "bullet_train_dish_lawson_prerequest_nov14",
+      "tourId": "bullet_train_gate3_2026_e08ba969",
+      "type": "ローソンチケットプレリクエスト先行（抽選）",
+      "entryStartAt": "2026-11-14T17:00:00+09:00",
+      "entryEndAt": "2026-11-23T23:59:00+09:00",
+      "resultAt": "2026-11-28T14:00:00+09:00",
+      "paymentStartAt": "2026-11-28T14:00:00+09:00",
+      "paymentEndAt": "2026-12-01T23:59:00+09:00",
+      "performanceIds": [
+        "bullet_train_gate3_2026_e08ba969_20261225_01",
+        "bullet_train_gate3_2026_e08ba969_20261225_02"
+      ],
+      "source": "system",
+      "sourceUrl": "https://bullettrain.jp/news/detail/110262",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "bullet_train_dish_2026_fc_second_20261022",
+      "tourId": "bullet_train_gate3_2026_e08ba969",
+      "type": "夢の青春8きっぷ／皿組GOLD会員限定2次先行（抽選）",
+      "entryStartAt": "2026-10-22T18:00:00+09:00",
+      "entryEndAt": "2026-11-03T23:59:00+09:00",
+      "resultAt": "2026-11-13T14:00:00+09:00",
+      "paymentStartAt": "2026-11-13T14:00:00+09:00",
+      "paymentEndAt": "2026-11-16T23:59:00+09:00",
+      "performanceIds": [
+        "bullet_train_gate3_2026_e08ba969_20261225_01",
+        "bullet_train_gate3_2026_e08ba969_20261225_02"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ebidan.jp/news/detail/1110226",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "bullet_train_countdown_japan_2627_presale_1",
+      "tourId": "bullet_train_countdown_japan_2627",
+      "type": "第1次抽選先行",
+      "entryStartAt": "2026-10-14T12:15:00+09:00",
+      "entryEndAt": "2026-10-20T16:00:00+09:00",
+      "resultAt": "2026-10-23T16:00:00+09:00",
+      "paymentStartAt": "2026-10-23T16:00:00+09:00",
+      "paymentEndAt": "2026-10-26T16:00:00+09:00",
+      "performanceIds": [
+        "bullet_train_countdown_japan_2627_20261226"
+      ],
+      "source": "system",
+      "sourceUrl": "https://countdownjapan.jp/2627/ticket/preorder01/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "bullet_train_countdown_japan_2627_presale_2",
+      "tourId": "bullet_train_countdown_japan_2627",
+      "type": "第2次抽選先行",
+      "entryStartAt": "2026-10-28T12:15:00+09:00",
+      "entryEndAt": "2026-11-02T16:00:00+09:00",
+      "resultAt": "2026-11-06T16:00:00+09:00",
+      "paymentStartAt": "2026-11-06T16:00:00+09:00",
+      "paymentEndAt": "2026-11-09T16:00:00+09:00",
+      "performanceIds": [
+        "bullet_train_countdown_japan_2627_20261226"
+      ],
+      "source": "system",
+      "sourceUrl": "https://countdownjapan.jp/2627/ticket/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "bullet_train_countdown_japan_2627_official_resale_20261207",
+      "tourId": "bullet_train_countdown_japan_2627",
+      "type": "CDJ公式リセール（購入申込・抽選／12月26日券）",
+      "entryStartAt": "2026-12-07T16:00:00+09:00",
+      "entryEndAt": "2026-12-14T16:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bullet_train_countdown_japan_2627_20261226"
+      ],
+      "source": "system",
+      "sourceUrl": "https://countdownjapan.jp/2627/news/5987/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "bullet_train_signal_20261125_tixplus_trade",
+      "tourId": "bullet_train_x_8a48501900",
+      "type": "チケプラTrade（毎日抽選・会員条件あり）",
+      "entryStartAt": "2026-11-16T18:00:00+09:00",
+      "entryEndAt": "2026-11-24T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bullet_train_x_8a48501900_20261125_1"
+      ],
+      "source": "system",
+      "sourceUrl": "https://bullettrain.jp/news/detail/110266",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "bullet_train_signal_20261126_tixplus_trade",
+      "tourId": "bullet_train_x_8a48501900",
+      "type": "チケプラTrade（毎日抽選・会員条件あり）",
+      "entryStartAt": "2026-11-16T18:00:00+09:00",
+      "entryEndAt": "2026-11-25T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bullet_train_x_8a48501900_20261126_2"
+      ],
+      "source": "system",
+      "sourceUrl": "https://bullettrain.jp/news/detail/110266",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "bullet_train_signal_202611_lawson_resale",
+      "tourId": "bullet_train_x_8a48501900",
+      "type": "ローチケ リセールサービス（抽選）",
+      "entryStartAt": "2026-11-16T18:00:00+09:00",
+      "entryEndAt": "2026-11-19T23:59:00+09:00",
+      "resultAt": "2026-11-21T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bullet_train_x_8a48501900_20261125_1",
+        "bullet_train_x_8a48501900_20261126_2"
+      ],
+      "source": "system",
+      "sourceUrl": "https://bullettrain.jp/news/detail/110266",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

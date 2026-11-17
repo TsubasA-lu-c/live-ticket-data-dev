@@ -60,6 +60,33 @@
       "source": "system",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/milet_music/info/586778",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milet_matsuri_2027_bangkok",
+      "artistId": "milet",
+      "title": "matsuri ‘27: Japanese Music Experience BANGKOK",
+      "startDate": "2027-02-13T00:00:00+07:00",
+      "endDate": "2027-02-13T00:00:00+07:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.ceipa.net/news/detail/1000088",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "milet_radio_crazy_2026",
+      "artistId": "milet",
+      "title": "FM802 ROCK FESTIVAL RADIO CRAZY 2026",
+      "startDate": "2026-12-28T00:00:00+09:00",
+      "endDate": "2026-12-28T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1DAY TICKET",
+          "amount": 13500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://kyodo-osaka.co.jp/news/detail/788",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "performances": [
@@ -382,6 +409,33 @@
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00",
       "performanceDate": "2027-04-11",
       "performanceTimeEstimated": true
+    },
+    {
+      "id": "milet_matsuri_2027_bangkok_0213",
+      "tourId": "milet_matsuri_2027_bangkok",
+      "performanceDate": "2027-02-13",
+      "performanceAt": "2027-02-13T18:00:00+07:00",
+      "doorOpenAt": null,
+      "venue": "UOB LIVE（Bangkok, Thailand）",
+      "kind": "fes",
+      "eventName": "matsuri ‘27: Japanese Music Experience BANGKOK",
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/milet_music/info/587643?id=aep261016",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "milet_radio_crazy_2026_1228",
+      "tourId": "milet_radio_crazy_2026",
+      "performanceDate": "2026-12-28",
+      "performanceAt": "2026-12-28T11:00:00+09:00",
+      "doorOpenAt": "2026-12-28T10:00:00+09:00",
+      "venue": "インテックス大阪",
+      "kind": "fes",
+      "eventName": "FM802 ROCK FESTIVAL RADIO CRAZY 2026",
+      "note": "11:00はイベント全体開演でこのアーティストの出演時刻未発表。イベント入場10:00。",
+      "source": "system",
+      "sourceUrl": "https://kyodo-osaka.co.jp/news/detail/788",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -400,6 +454,70 @@
       "source": "system",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/milet_music/info/586778",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "milet_matsuri_2027_bangkok_general_nov01",
+      "tourId": "milet_matsuri_2027_bangkok",
+      "type": "THAI TICKET MAJOR一般発売（先着）",
+      "entryStartAt": "2026-11-01T11:00:00+07:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milet_matsuri_2027_bangkok_0213"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.ceipa.net/news/detail/1000088",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "milet_radio_crazy_2026_eplus_hp_5th_1106",
+      "tourId": "milet_radio_crazy_2026",
+      "type": "オフィシャルHP5次受付（抽選）",
+      "entryStartAt": "2026-11-06T00:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milet_radio_crazy_2026_1228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kyodo-osaka.co.jp/news/detail/788",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "milet_radio_crazy_2026_pia_1106",
+      "tourId": "milet_radio_crazy_2026",
+      "type": "チケットぴあ先行受付（抽選）",
+      "entryStartAt": "2026-11-06T00:00:00+09:00",
+      "entryEndAt": "2026-11-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milet_radio_crazy_2026_1228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kyodo-osaka.co.jp/news/detail/788",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "milet_radio_crazy_2026_lawson_1106",
+      "tourId": "milet_radio_crazy_2026",
+      "type": "ローソンチケット先行受付（抽選）",
+      "entryStartAt": "2026-11-06T00:00:00+09:00",
+      "entryEndAt": "2026-11-17T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milet_radio_crazy_2026_1228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kyodo-osaka.co.jp/news/detail/788",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

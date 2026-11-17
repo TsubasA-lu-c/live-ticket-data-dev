@@ -825,9 +825,9 @@
     {
       "id": "monaki_yutopia_takara_20261129_1",
       "tourId": "monaki_yutopia_takara_20261129",
-      "venue": "湯～とぴあ宝",
+      "venue": "湯～とぴあ宝 おたから亭",
       "performanceAt": "2026-11-29T11:30:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-11-29T11:00:00+09:00",
       "kind": "oneman",
       "eventName": "湯～とぴあ宝「モナキスペシャルライブ」",
       "source": "system",
@@ -837,9 +837,9 @@
     {
       "id": "monaki_yutopia_takara_20261129_2",
       "tourId": "monaki_yutopia_takara_20261129",
-      "venue": "湯～とぴあ宝",
+      "venue": "湯～とぴあ宝 おたから亭",
       "performanceAt": "2026-11-29T16:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-11-29T15:30:00+09:00",
       "kind": "oneman",
       "eventName": "湯～とぴあ宝「モナキスペシャルライブ」",
       "source": "system",
@@ -893,12 +893,12 @@
       "tourId": "monaki_fes_tgc_toyama_2026",
       "performanceDate": "2026-11-21",
       "venue": "YKK AP ARENA",
-      "doorOpenAt": null,
-      "performanceAt": "2026-11-21T12:00:00+09:00",
+      "doorOpenAt": "2026-11-21T12:30:00+09:00",
+      "performanceAt": "2026-11-21T14:00:00+09:00",
       "kind": "fes",
       "eventName": "TGC 富山 2026",
       "sourceUrl": "https://monaki.jp/live_information/detail/44491",
-      "performanceTimeEstimated": true,
+      "performanceTimeEstimated": false,
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z",
       "kindReviewed": true
@@ -906,17 +906,18 @@
     {
       "id": "monaki_countdown_japan_2627_1227_performance",
       "tourId": "monaki_countdown_japan_2627_1227",
-      "venue": "幕張メッセ国際展示場",
+      "venue": "幕張メッセ国際展示場1〜11ホール",
       "performanceAt": "2026-12-27T12:00:00+09:00",
       "performanceDate": "2026-12-27",
-      "performanceTimeEstimated": true,
-      "doorOpenAt": null,
+      "performanceTimeEstimated": false,
+      "doorOpenAt": "2026-12-27T09:30:00+09:00",
       "kind": "fes",
       "kindReviewed": true,
       "eventName": "COUNTDOWN JAPAN 26/27",
       "source": "system",
       "sourceUrl": "https://monaki.jp/news/detail/94337",
-      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00",
+      "note": "12:00はイベント全体の開演予定時刻です。"
     },
     {
       "id": "monaki_yamafes_2027_osaka_0226_performance",
@@ -938,9 +939,9 @@
       "tourId": "monaki_tgc_shizuoka_2027",
       "performanceDate": "2027-01-09",
       "venue": "ツインメッセ静岡 北館大展示場",
-      "performanceAt": "2027-01-09T12:00:00+09:00",
-      "performanceTimeEstimated": true,
-      "doorOpenAt": null,
+      "performanceAt": "2027-01-09T14:00:00+09:00",
+      "performanceTimeEstimated": false,
+      "doorOpenAt": "2027-01-09T12:30:00+09:00",
       "kind": "fes",
       "kindReviewed": true,
       "eventName": "SDGs推進 TGC しずおか 2027 by TOKYO GIRLS COLLECTION",
@@ -1232,6 +1233,22 @@
       "sourceUrl": "https://monaki.jp/news/detail/95423",
       "source": "system",
       "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_countdown_japan_2627_1227_official_resale_20261207",
+      "tourId": "monaki_countdown_japan_2627_1227",
+      "type": "CDJ公式リセール（購入申込・抽選／12月27日券）",
+      "entryStartAt": "2026-12-07T16:00:00+09:00",
+      "entryEndAt": "2026-12-14T16:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "monaki_countdown_japan_2627_1227_performance"
+      ],
+      "source": "system",
+      "sourceUrl": "https://countdownjapan.jp/2627/news/5987/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

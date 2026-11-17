@@ -674,6 +674,38 @@
       "sourceUrl": "https://gre4n-boyz.com/live/159",
       "source": "system",
       "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "gre4n_boyz_labo03_2027_fc_premium_3rd_regular_nov09",
+      "tourId": "gre4n_boyz_labo03_2027",
+      "type": "GRe4N CReW Club プレミアム会員3次／レギュラー会員先行予約（抽選）",
+      "entryStartAt": "2026-11-09T12:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "gre4n_boyz_labo03_2027_0124"
+      ],
+      "source": "system",
+      "sourceUrl": "https://gre4n-boyz.com/live/159",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "gre4n_boyz_labo03_2027_fc_premium_4th_regular_2nd_nov16",
+      "tourId": "gre4n_boyz_labo03_2027",
+      "type": "GRe4N CReW Club プレミアム会員4次／レギュラー会員2次先行予約（抽選）",
+      "entryStartAt": "2026-11-16T12:00:00+09:00",
+      "entryEndAt": "2026-11-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "gre4n_boyz_labo03_2027_0124"
+      ],
+      "source": "system",
+      "sourceUrl": "https://gre4n-boyz.com/live/159",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

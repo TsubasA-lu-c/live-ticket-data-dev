@@ -657,13 +657,96 @@
       ],
       "sourceUrl": "https://www.014014.jp/schedule/live",
       "source": "system",
+      "lastVerifiedAt": "2026-10-31T17:11:52.008+09:00",
       "relationDisplay": {
         "sourceArtistId": "oishi_masayoshi",
         "sourceTourId": "oishi_masayoshi_countdown_japan_2627",
         "officialTitle": "COUNTDOWN JAPAN 26/27 supported by au",
         "mirrored": false
-      },
-      "lastVerifiedAt": "2026-10-31T17:11:52.008+09:00"
+      }
+    },
+    {
+      "id": "oishi_masayoshi_anisama_fukuoka_2027",
+      "artistId": "oishi_masayoshi",
+      "title": "【オーイシマサヨシ】ANISAMA FUKUOKA 2027",
+      "startDate": "2027-03-13T00:00:00+09:00",
+      "endDate": "2027-03-13T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "ダイヤモンド席",
+          "amount": 24500,
+          "currency": "JPY"
+        },
+        {
+          "label": "アリーナA席",
+          "amount": 15000,
+          "currency": "JPY"
+        },
+        {
+          "label": "アリーナB席",
+          "amount": 12800,
+          "currency": "JPY"
+        },
+        {
+          "label": "アクティブワイド席",
+          "amount": 13800,
+          "currency": "JPY"
+        },
+        {
+          "label": "スタンドA席",
+          "amount": 12500,
+          "currency": "JPY"
+        },
+        {
+          "label": "スタンドB席",
+          "amount": 10800,
+          "currency": "JPY"
+        },
+        {
+          "label": "ゆったり席",
+          "amount": 13800,
+          "currency": "JPY"
+        },
+        {
+          "label": "ソファ席",
+          "amount": 13800,
+          "currency": "JPY"
+        },
+        {
+          "label": "カウンター席",
+          "amount": 13800,
+          "currency": "JPY"
+        },
+        {
+          "label": "ボックスファイブ",
+          "amount": 70000,
+          "currency": "JPY"
+        },
+        {
+          "label": "中学生席",
+          "amount": 1500,
+          "currency": "JPY"
+        },
+        {
+          "label": "高校生席",
+          "amount": 3000,
+          "currency": "JPY"
+        },
+        {
+          "label": "ユニバーサルエリア席",
+          "amount": 12800,
+          "currency": "JPY"
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://anisama.tv/2027/fukuoka/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00",
+      "relationDisplay": {
+        "sourceArtistId": "oishi_masayoshi",
+        "sourceTourId": "oishi_masayoshi_anisama_fukuoka_2027",
+        "officialTitle": "ANISAMA FUKUOKA 2027",
+        "mirrored": false
+      }
     },
     {
       "id": "oishi_masayoshi__rel__masayoshi_oishi_sound_connection_0704",
@@ -1309,7 +1392,23 @@
       "eventName": "COUNTDOWN JAPAN 26/27 オーイシマサヨシ出演",
       "sourceUrl": "https://www.014014.jp/schedule/live",
       "source": "system",
-      "kindReviewed": true
+      "kindReviewed": true,
+      "note": "12:00はイベント全体の開演予定時刻です。"
+    },
+    {
+      "id": "oishi_masayoshi_anisama_fukuoka_2027_0313",
+      "tourId": "oishi_masayoshi_anisama_fukuoka_2027",
+      "venue": "みずほPayPayドーム福岡",
+      "performanceAt": "2027-03-13T15:00:00+09:00",
+      "performanceDate": "2027-03-13",
+      "performanceTimeEstimated": false,
+      "doorOpenAt": "2027-03-13T13:30:00+09:00",
+      "kind": "fes",
+      "eventName": "ANISAMA FUKUOKA 2027",
+      "note": "掲載時刻はイベント全体の開演時刻です。出演者ごとの出演時刻は未公表です。",
+      "source": "system",
+      "sourceUrl": "https://anisama.tv/2027/fukuoka/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     },
     {
       "id": "oishi_masayoshi__rel__masayoshi_oishi_sound_connection_0704_20260704",
@@ -1630,6 +1729,22 @@
       ],
       "sourceUrl": "https://countdownjapan.jp/2627/ticket/",
       "source": "system"
+    },
+    {
+      "id": "oishi_masayoshi_anisama_fukuoka_2027_danime_fastest_20261104",
+      "tourId": "oishi_masayoshi_anisama_fukuoka_2027",
+      "type": "dアニメストア会員限定 最速先行抽選",
+      "entryStartAt": "2026-11-04T19:30:00+09:00",
+      "entryEndAt": "2026-11-29T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "oishi_masayoshi_anisama_fukuoka_2027_0313"
+      ],
+      "source": "system",
+      "sourceUrl": "https://anisama.tv/2027/fukuoka/news/article26110401.html",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     },
     {
       "id": "oishi_masayoshi__rel__masayoshi_oishi_sound_connection_0704_general",

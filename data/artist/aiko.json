@@ -1271,6 +1271,40 @@
       "sourceUrl": "https://www.aiko.com/live/",
       "source": "system",
       "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "aiko_llp26_2026_2027_baby_stage_release_nov13",
+      "tourId": "aiko_llp26_2026_2027",
+      "type": "Baby Peenats会員限定 ステージプラン確定追加販売（愛知・抽選）",
+      "entryStartAt": "2026-11-13T12:00:00+09:00",
+      "entryEndAt": "2026-11-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aiko_llp26_2026_2027_nagoya_1202",
+        "aiko_llp26_2026_2027_nagoya_1203"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.aiko.com/live/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "aiko_llp26_2026_2027_eplus_stage_release_nov14",
+      "tourId": "aiko_llp26_2026_2027",
+      "type": "イープラス ステージプラン確定追加販売（愛知・抽選）",
+      "entryStartAt": "2026-11-14T12:00:00+09:00",
+      "entryEndAt": "2026-11-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aiko_llp26_2026_2027_nagoya_1202",
+        "aiko_llp26_2026_2027_nagoya_1203"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.aiko.com/live/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

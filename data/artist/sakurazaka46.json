@@ -162,7 +162,20 @@
       "title": "SAKURAZAKA46 Live，AEON CARD with YOU！Vol.6",
       "startDate": "2026-12-26T00:00:00+09:00",
       "endDate": "2026-12-26T00:00:00+09:00",
-      "prices": null,
+      "prices": [
+        {
+          "label": "スペシャルシート（ドリンク代込）",
+          "amount": 15500
+        },
+        {
+          "label": "全席指定（ドリンク代込）",
+          "amount": 9500
+        },
+        {
+          "label": "親子・女性エリア（ドリンク代込）",
+          "amount": 9500
+        }
+      ],
       "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00695?ima=0000&link=ROBO009",
       "source": "system",
       "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
@@ -390,14 +403,15 @@
       "id": "sakurazaka46_fukuoka_music_fes_2027_fukuoka_0131",
       "tourId": "sakurazaka46_fukuoka_music_fes_2027",
       "performanceDate": "2027-01-31",
-      "performanceAt": "2027-01-31T10:20:00+09:00",
+      "performanceAt": "2027-01-31T12:00:00+09:00",
       "doorOpenAt": "2027-01-31T09:00:00+09:00",
       "venue": "みずほPayPayドーム福岡",
       "kind": "fes",
       "eventName": "FUKUOKA MUSIC FES.2027",
       "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00692?ima=0000",
       "source": "system",
-      "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+      "lastVerifiedAt": "2026-10-10T20:23:15+09:00",
+      "performanceTimeEstimated": true
     },
     {
       "id": "sakurazaka46_16th_backs_live_2026_20261215",
@@ -434,7 +448,8 @@
       "eventName": "COUNTDOWN JAPAN 26/27 櫻坂46 12月26日出演",
       "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00693?ima=0000",
       "source": "system",
-      "kindReviewed": true
+      "kindReviewed": true,
+      "note": "12:00はイベント全体の開演予定時刻です。"
     },
     {
       "id": "sakurazaka46_aeon_card_with_you_vol6_2026_kanadevia_1226",
@@ -1110,6 +1125,86 @@
       "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00695?ima=0000&link=ROBO009",
       "source": "system",
       "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_aeon_card_vol6_special_bank_nov27",
+      "tourId": "sakurazaka46_aeon_card_with_you_vol6_2026",
+      "type": "スペシャルシート先行（イオン銀行口座設定者限定／抽選）",
+      "entryStartAt": "2026-11-27T12:00:00+09:00",
+      "entryEndAt": "2026-12-02T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sakurazaka46_aeon_card_with_you_vol6_2026_kanadevia_1226"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00705",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_aeon_card_vol6_second_dec06",
+      "tourId": "sakurazaka46_aeon_card_with_you_vol6_2026",
+      "type": "イオンカード2次先行（抽選）",
+      "entryStartAt": "2026-12-06T12:00:00+09:00",
+      "entryEndAt": "2026-12-13T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sakurazaka46_aeon_card_with_you_vol6_2026_kanadevia_1226"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00705",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_aeon_card_vol6_final_dec17",
+      "tourId": "sakurazaka46_aeon_card_with_you_vol6_2026",
+      "type": "イオンカード最終販売（先着）",
+      "entryStartAt": "2026-12-17T12:00:00+09:00",
+      "entryEndAt": "2026-12-24T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sakurazaka46_aeon_card_with_you_vol6_2026_kanadevia_1226"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00705",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_fukuoka_music_fes_2027_official_3rd_20261027",
+      "tourId": "sakurazaka46_fukuoka_music_fes_2027",
+      "type": "オフィシャル3次先行（抽選）",
+      "entryStartAt": "2026-10-27T18:00:00+09:00",
+      "entryEndAt": "2026-11-08T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sakurazaka46_fukuoka_music_fes_2027_fukuoka_0131"
+      ],
+      "source": "system",
+      "sourceUrl": "https://fukuokamusic-fes.com/2027/index.html",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_countdown_japan_2627_official_resale_20261207",
+      "tourId": "sakurazaka46_countdown_japan_2627",
+      "type": "CDJ公式リセール（購入申込・抽選／12月26日券）",
+      "entryStartAt": "2026-12-07T16:00:00+09:00",
+      "entryEndAt": "2026-12-14T16:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sakurazaka46_countdown_japan_2627_20261226"
+      ],
+      "source": "system",
+      "sourceUrl": "https://countdownjapan.jp/2627/news/5987/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

@@ -255,6 +255,100 @@
       "source": "system",
       "sourceUrl": "https://kroi.net/live_information/detail/40600",
       "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "kroi_radio_crazy_2026",
+      "artistId": "kroi",
+      "title": "FM802 ROCK FESTIVAL RADIO CRAZY 2026",
+      "startDate": "2026-12-26T00:00:00+09:00",
+      "endDate": "2026-12-26T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1DAY TICKET",
+          "amount": 13500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://kyodo-osaka.co.jp/news/detail/788",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "kroi_attack_on_volume_2026",
+      "artistId": "kroi",
+      "title": "ATTACK ON VOLUME",
+      "startDate": "2026-12-04T00:00:00+07:00",
+      "endDate": "2026-12-04T00:00:00+07:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://kroi.net/live_information/detail/47136",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "kroi_wonderfruit_2026",
+      "artistId": "kroi",
+      "title": "Wonderfruit 2026",
+      "startDate": "2026-12-05T00:00:00+07:00",
+      "endDate": "2026-12-05T00:00:00+07:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://kroi.net/live_information/detail/47018",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "kroi_countdown_japan_2627_2026",
+      "artistId": "kroi",
+      "title": "COUNTDOWN JAPAN 26/27",
+      "startDate": "2026-12-31T00:00:00+09:00",
+      "endDate": "2026-12-31T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "12月31日 1日券",
+          "amount": 16000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://kroi.net/live_information/detail/46909",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "kroi_incognito_takasaki_2027",
+      "artistId": "kroi",
+      "title": "INCOGNITO × Kroi",
+      "startDate": "2027-01-24T00:00:00+09:00",
+      "endDate": "2027-01-24T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1階 スタンディング",
+          "amount": 7000
+        },
+        {
+          "label": "1階 U-23",
+          "amount": 3000
+        },
+        {
+          "label": "2階 指定席",
+          "amount": 8500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.takasaki-foundation.or.jp/theatre/concert_detail.php?key=2456",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "kroi_incognito_bluenote_2027",
+      "artistId": "kroi",
+      "title": "Kroi featuring INCOGNITO horns",
+      "startDate": "2027-01-26T00:00:00+09:00",
+      "endDate": "2027-01-26T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "ミュージックチャージ",
+          "amount": 12000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bluenote.co.jp/jp/artists/kroi-incognito/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "performances": [
@@ -753,6 +847,106 @@
       "source": "system",
       "sourceUrl": "https://kroi.net/live_information/detail/40600",
       "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+    },
+    {
+      "id": "kroi_radio_crazy_2026_1226",
+      "tourId": "kroi_radio_crazy_2026",
+      "performanceDate": "2026-12-26",
+      "performanceAt": "2026-12-26T11:00:00+09:00",
+      "doorOpenAt": "2026-12-26T10:00:00+09:00",
+      "venue": "インテックス大阪",
+      "kind": "fes",
+      "eventName": "FM802 ROCK FESTIVAL RADIO CRAZY 2026",
+      "note": "11:00はイベント全体開演でこのアーティストの出演時刻未発表。イベント入場10:00。",
+      "source": "system",
+      "sourceUrl": "https://kyodo-osaka.co.jp/news/detail/788",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "kroi_attack_on_volume_2026_1204",
+      "tourId": "kroi_attack_on_volume_2026",
+      "performanceDate": "2026-12-04",
+      "performanceAt": "2026-12-04T17:00:00+07:00",
+      "doorOpenAt": null,
+      "venue": "The Street Hall Flr.5, The Street Ratchada",
+      "kind": "fes",
+      "eventName": "ATTACK ON VOLUME",
+      "note": "販売元の17:00はイベント開始表記。Kroi個別出演時刻未発表。料金はTHBのため円価格に変換しない。",
+      "performanceTimeEstimated": false,
+      "source": "system",
+      "sourceUrl": "https://kroi.net/live_information/detail/47136",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "kroi_wonderfruit_2026_1205",
+      "tourId": "kroi_wonderfruit_2026",
+      "performanceDate": "2026-12-05",
+      "performanceAt": "2026-12-05T12:00:00+07:00",
+      "doorOpenAt": null,
+      "venue": "The Fields at Siam Country Club",
+      "kind": "fes",
+      "eventName": "Wonderfruit 2026",
+      "note": "出演日は公式確定。開場・開演時刻は未確認のため現地正午の推定値。料金はTHB。",
+      "performanceTimeEstimated": true,
+      "source": "system",
+      "sourceUrl": "https://kroi.net/live_information/detail/47018",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "kroi_countdown_japan_2627_2026_1231",
+      "tourId": "kroi_countdown_japan_2627_2026",
+      "performanceDate": "2026-12-31",
+      "performanceAt": "2026-12-31T15:40:00+09:00",
+      "doorOpenAt": "2026-12-31T12:30:00+09:00",
+      "venue": "幕張メッセ国際展示場1～11ホール・イベントホール",
+      "kind": "fes",
+      "eventName": "COUNTDOWN JAPAN 26/27",
+      "note": "15:40はイベント全体開演。Kroi出演は12月31日26:05（1月1日02:05）。",
+      "source": "system",
+      "sourceUrl": "https://kroi.net/live_information/detail/46909",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "kroi_incognito_takasaki_2027_0124",
+      "tourId": "kroi_incognito_takasaki_2027",
+      "performanceDate": "2027-01-24",
+      "performanceAt": "2027-01-24T17:00:00+09:00",
+      "doorOpenAt": "2027-01-24T16:15:00+09:00",
+      "venue": "高崎芸術劇場 スタジオシアター",
+      "kind": "fes",
+      "eventName": "INCOGNITO × Kroi",
+      "note": "INCOGNITOとKroiによる共同イベント。",
+      "source": "system",
+      "sourceUrl": "https://www.takasaki-foundation.or.jp/theatre/concert_detail.php?key=2456",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "kroi_incognito_bluenote_2027_0126_1800",
+      "tourId": "kroi_incognito_bluenote_2027",
+      "performanceDate": "2027-01-26",
+      "performanceAt": "2027-01-26T18:00:00+09:00",
+      "doorOpenAt": "2027-01-26T17:00:00+09:00",
+      "venue": "ブルーノート東京",
+      "kind": "oneman",
+      "eventName": "Kroi featuring INCOGNITO horns",
+      "note": "Kroi主体の演奏にINCOGNITO hornsがフィーチャリング。第1部。",
+      "source": "system",
+      "sourceUrl": "https://www.bluenote.co.jp/jp/artists/kroi-incognito/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "kroi_incognito_bluenote_2027_0126_2030",
+      "tourId": "kroi_incognito_bluenote_2027",
+      "performanceDate": "2027-01-26",
+      "performanceAt": "2027-01-26T20:30:00+09:00",
+      "doorOpenAt": "2027-01-26T19:45:00+09:00",
+      "venue": "ブルーノート東京",
+      "kind": "oneman",
+      "eventName": "Kroi featuring INCOGNITO horns",
+      "note": "Kroi主体の演奏にINCOGNITO hornsがフィーチャリング。第2部。",
+      "source": "system",
+      "sourceUrl": "https://www.bluenote.co.jp/jp/artists/kroi-incognito/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1844,6 +2038,232 @@
       "sourceUrl": "https://special.kroi.net/tour/",
       "source": "system",
       "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "kroi_radio_crazy_2026_eplus_hp_5th_1106",
+      "tourId": "kroi_radio_crazy_2026",
+      "type": "オフィシャルHP5次受付（抽選）",
+      "entryStartAt": "2026-11-06T00:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kroi_radio_crazy_2026_1226"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kyodo-osaka.co.jp/news/detail/788",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "kroi_radio_crazy_2026_pia_1106",
+      "tourId": "kroi_radio_crazy_2026",
+      "type": "チケットぴあ先行受付（抽選）",
+      "entryStartAt": "2026-11-06T00:00:00+09:00",
+      "entryEndAt": "2026-11-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kroi_radio_crazy_2026_1226"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kyodo-osaka.co.jp/news/detail/788",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "kroi_radio_crazy_2026_lawson_1106",
+      "tourId": "kroi_radio_crazy_2026",
+      "type": "ローソンチケット先行受付（抽選）",
+      "entryStartAt": "2026-11-06T00:00:00+09:00",
+      "entryEndAt": "2026-11-17T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kroi_radio_crazy_2026_1226"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kyodo-osaka.co.jp/news/detail/788",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "kroi_attack_on_volume_2026_early_bird",
+      "tourId": "kroi_attack_on_volume_2026",
+      "type": "Early Bird（先着・THB）",
+      "entryStartAt": "2026-11-06T12:00:00+07:00",
+      "entryEndAt": "2026-11-26T23:59:00+07:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kroi_attack_on_volume_2026_1204"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.zipeventapp.com/e/Attack-on-Volume",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "kroi_attack_on_volume_2026_regular",
+      "tourId": "kroi_attack_on_volume_2026",
+      "type": "Regular（先着・THB）",
+      "entryStartAt": "2026-11-20T12:00:00+07:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kroi_attack_on_volume_2026_1204"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.zipeventapp.com/e/Attack-on-Volume",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "kroi_countdown_japan_2627_2026_first",
+      "tourId": "kroi_countdown_japan_2627_2026",
+      "type": "第1次抽選先行",
+      "entryStartAt": "2026-10-14T12:15:00+09:00",
+      "entryEndAt": "2026-10-20T16:00:00+09:00",
+      "resultAt": "2026-10-23T16:00:00+09:00",
+      "paymentStartAt": "2026-10-23T16:00:00+09:00",
+      "paymentEndAt": "2026-10-26T16:00:00+09:00",
+      "performanceIds": [
+        "kroi_countdown_japan_2627_2026_1231"
+      ],
+      "source": "system",
+      "sourceUrl": "https://countdownjapan.jp/2627/ticket/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "kroi_countdown_japan_2627_2026_second",
+      "tourId": "kroi_countdown_japan_2627_2026",
+      "type": "第2次抽選先行",
+      "entryStartAt": "2026-10-28T12:15:00+09:00",
+      "entryEndAt": "2026-11-02T16:00:00+09:00",
+      "resultAt": "2026-11-06T16:00:00+09:00",
+      "paymentStartAt": "2026-11-06T16:00:00+09:00",
+      "paymentEndAt": "2026-11-09T16:00:00+09:00",
+      "performanceIds": [
+        "kroi_countdown_japan_2627_2026_1231"
+      ],
+      "source": "system",
+      "sourceUrl": "https://countdownjapan.jp/2627/ticket/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "kroi_countdown_japan_2627_2026_resale",
+      "tourId": "kroi_countdown_japan_2627_2026",
+      "type": "公式リセール購入申込（抽選）",
+      "entryStartAt": "2026-12-07T16:00:00+09:00",
+      "entryEndAt": "2026-12-14T16:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kroi_countdown_japan_2627_2026_1231"
+      ],
+      "source": "system",
+      "sourceUrl": "https://countdownjapan.jp/2627/news/5987/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "kroi_incognito_takasaki_2027_theatre_web",
+      "tourId": "kroi_incognito_takasaki_2027",
+      "type": "高崎芸術劇場 Web販売",
+      "entryStartAt": "2026-10-31T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kroi_incognito_takasaki_2027_0124"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.takasaki-foundation.or.jp/theatre/concert_detail.php?key=2456",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "kroi_incognito_takasaki_2027_phone",
+      "tourId": "kroi_incognito_takasaki_2027",
+      "type": "高崎芸術劇場 電話販売",
+      "entryStartAt": "2026-11-04T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kroi_incognito_takasaki_2027_0124"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.takasaki-foundation.or.jp/theatre/concert_detail.php?key=2456",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "kroi_incognito_takasaki_2027_counter",
+      "tourId": "kroi_incognito_takasaki_2027",
+      "type": "高崎芸術劇場 窓口販売",
+      "entryStartAt": "2026-11-05T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kroi_incognito_takasaki_2027_0124"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.takasaki-foundation.or.jp/theatre/concert_detail.php?key=2456",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "kroi_incognito_takasaki_2027_eplus",
+      "tourId": "kroi_incognito_takasaki_2027",
+      "type": "イープラス一般発売（先着）",
+      "entryStartAt": "2026-10-31T12:00:00+09:00",
+      "entryEndAt": "2027-01-23T18:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kroi_incognito_takasaki_2027_0124"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/4619750001-P0030001",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "kroi_incognito_bluenote_2027_jam_session",
+      "tourId": "kroi_incognito_bluenote_2027",
+      "type": "Jam Session会員先行 Web予約",
+      "entryStartAt": "2026-10-28T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kroi_incognito_bluenote_2027_0126_1800",
+        "kroi_incognito_bluenote_2027_0126_2030"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bluenote.co.jp/jp/artists/kroi-incognito/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "kroi_incognito_bluenote_2027_general",
+      "tourId": "kroi_incognito_bluenote_2027",
+      "type": "一般 Web予約",
+      "entryStartAt": "2026-11-04T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kroi_incognito_bluenote_2027_0126_1800",
+        "kroi_incognito_bluenote_2027_0126_2030"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.bluenote.co.jp/jp/artists/kroi-incognito/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

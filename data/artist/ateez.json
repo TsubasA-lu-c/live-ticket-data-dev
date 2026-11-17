@@ -112,6 +112,61 @@
       "sourceUrl": "https://ateez-official.jp/contents/1123026",
       "source": "system",
       "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_melon_music_awards_2026",
+      "artistId": "ateez",
+      "title": "The 18th Melon Music Awards (MMA2026)",
+      "startDate": "2026-11-14T00:00:00+09:00",
+      "endDate": "2026-11-14T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://cdnimg.melon.co.kr/svc/images/musicstory/2026/10/1d/9ed/202610140835055387.jpg/melon/optimize/90",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "ateez_zero_to_all_incheon_2027",
+      "artistId": "ateez",
+      "title": "2027 ATEEZ WORLD TOUR [ZERO TO ALL] IN INCHEON",
+      "startDate": "2027-01-22T00:00:00+09:00",
+      "endDate": "2027-01-24T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://ateez.bstage.in/contents/6ae94a808d38027a8d6b8b65",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "ateez_asia_artist_awards_2026",
+      "artistId": "ateez",
+      "title": "2026 Asia Artist Awards in Kaohsiung",
+      "startDate": "2026-12-05T00:00:00+08:00",
+      "endDate": "2026-12-06T00:00:00+08:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.asiaartistawards.com/news/detail/187663",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "ateez_sbs_gayo_daejeon_2026",
+      "artistId": "ateez",
+      "title": "2026 SBS GAYO DAEJEON",
+      "startDate": "2026-12-25T00:00:00+09:00",
+      "endDate": "2026-12-25T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008837439",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "ateez_d_awards_paris_2027_15",
+      "artistId": "ateez",
+      "title": "【JONGHO】D AWARDS 2027 in PARIS",
+      "startDate": "2027-01-15T00:00:00+01:00",
+      "endDate": "2027-01-15T00:00:00+01:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.plenitudearena.com/d-awards-le-line-up-setoffe-pour-le-show-a-la-plenitude-arena/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "performances": [
@@ -438,6 +493,118 @@
       "sourceUrl": "https://ateez-official.jp/contents/1123026",
       "source": "system",
       "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_melon_music_awards_2026_seoul_1114",
+      "tourId": "ateez_melon_music_awards_2026",
+      "performanceDate": "2026-11-14",
+      "performanceAt": "2026-11-14T18:00:00+09:00",
+      "performanceTimeEstimated": false,
+      "doorOpenAt": null,
+      "venue": "高尺スカイドーム（Gocheok Sky Dome）",
+      "kind": "fes",
+      "eventName": "The 18th Melon Music Awards (MMA2026)",
+      "note": "授賞式全体18:00開始。個別出演時刻は未発表。",
+      "source": "system",
+      "sourceUrl": "https://cdnimg.melon.co.kr/svc/images/musicstory/2026/10/1d/9ed/202610140835055387.jpg/melon/optimize/90",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "ateez_zero_to_all_incheon_2027_22",
+      "tourId": "ateez_zero_to_all_incheon_2027",
+      "performanceDate": "2027-01-22",
+      "performanceAt": "2027-01-22T19:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "NAVER ARENA at INSPIRE",
+      "kind": "oneman",
+      "eventName": "2027 ATEEZ WORLD TOUR [ZERO TO ALL] IN INCHEON",
+      "source": "system",
+      "sourceUrl": "https://ateez.bstage.in/contents/6ae94a808d38027a8d6b8b65",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "ateez_zero_to_all_incheon_2027_23",
+      "tourId": "ateez_zero_to_all_incheon_2027",
+      "performanceDate": "2027-01-23",
+      "performanceAt": "2027-01-23T17:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "NAVER ARENA at INSPIRE",
+      "kind": "oneman",
+      "eventName": "2027 ATEEZ WORLD TOUR [ZERO TO ALL] IN INCHEON",
+      "source": "system",
+      "sourceUrl": "https://ateez.bstage.in/contents/6ae94a808d38027a8d6b8b65",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "ateez_zero_to_all_incheon_2027_24",
+      "tourId": "ateez_zero_to_all_incheon_2027",
+      "performanceDate": "2027-01-24",
+      "performanceAt": "2027-01-24T16:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "NAVER ARENA at INSPIRE",
+      "kind": "oneman",
+      "eventName": "2027 ATEEZ WORLD TOUR [ZERO TO ALL] IN INCHEON",
+      "source": "system",
+      "sourceUrl": "https://ateez.bstage.in/contents/6ae94a808d38027a8d6b8b65",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "ateez_asia_artist_awards_2026_05",
+      "tourId": "ateez_asia_artist_awards_2026",
+      "performanceDate": "2026-12-05",
+      "performanceAt": "2026-12-05T17:00:00+08:00",
+      "doorOpenAt": null,
+      "venue": "Kaohsiung National Stadium",
+      "kind": "fes",
+      "eventName": "2026 Asia Artist Awards in Kaohsiung 【ATEEZ】",
+      "note": "17:00は授賞式全体の開始時刻。個別出演時刻は未公表。出演名義: ATEEZ",
+      "source": "system",
+      "sourceUrl": "https://www.asiaartistawards.com/news/detail/187663",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "ateez_asia_artist_awards_2026_06",
+      "tourId": "ateez_asia_artist_awards_2026",
+      "performanceDate": "2026-12-06",
+      "performanceAt": "2026-12-06T17:00:00+08:00",
+      "doorOpenAt": null,
+      "venue": "Kaohsiung National Stadium",
+      "kind": "fes",
+      "eventName": "2026 Asia Artist Awards in Kaohsiung 【MINGI・SEONGHWA・WOOYOUNG (ATEEZ)】",
+      "note": "17:00は授賞式全体の開始時刻。個別出演時刻は未公表。出演名義: MINGI・SEONGHWA・WOOYOUNG (ATEEZ)",
+      "source": "system",
+      "sourceUrl": "https://www.asiaartistawards.com/news/detail/187663",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "ateez_sbs_gayo_daejeon_2026_25",
+      "tourId": "ateez_sbs_gayo_daejeon_2026",
+      "performanceDate": "2026-12-25",
+      "performanceAt": "2026-12-25T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "venue": "KINTEX",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "2026 SBS GAYO DAEJEON",
+      "note": "出演名義: ATEEZ。施設内ホール・フェス全体の開演時刻は未確認。12:00は時刻未定の互換値。",
+      "source": "system",
+      "sourceUrl": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008837439",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "ateez_d_awards_paris_2027_15_performance",
+      "tourId": "ateez_d_awards_paris_2027_15",
+      "performanceDate": "2027-01-15",
+      "performanceAt": "2027-01-15T19:00:00+01:00",
+      "performanceTimeEstimated": false,
+      "doorOpenAt": null,
+      "venue": "Plenitude Arena",
+      "kind": "fes",
+      "eventName": "D AWARDS 2027 in PARIS 【JONGHO (ATEEZ)】",
+      "note": "19:00 is the venue announced provisional ceremony start (local Paris time); individual stage times are not established.",
+      "source": "system",
+      "sourceUrl": "https://www.plenitudearena.com/d-awards-le-line-up-setoffe-pour-le-show-a-la-plenitude-arena/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -892,6 +1059,261 @@
       "sourceUrl": "https://ateez-official.jp/contents/1123026",
       "source": "system",
       "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "ateez_music_bank_global_festival_2026_20261212_pia_prereserve_1st_20261110",
+      "tourId": "ateez_music_bank_global_festival_2026_20261212",
+      "type": "プレリザーブ1次（単日券・抽選）",
+      "entryStartAt": "2026-11-10T19:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ateez_music_bank_global_festival_2026_20261212_mu_fg_stadium"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.music-bank.jp/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "ateez_music_bank_global_festival_2026_20261212_pia_premium_lounge_4th_20261110",
+      "tourId": "ateez_music_bank_global_festival_2026_20261212",
+      "type": "プレミアムラウンジ付き単日券4次先行（抽選）",
+      "entryStartAt": "2026-11-10T19:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ateez_music_bank_global_festival_2026_20261212_mu_fg_stadium"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.music-bank.jp/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "ateez_melon_music_awards_2026_gold_14",
+      "tourId": "ateez_melon_music_awards_2026",
+      "type": "Melon GOLD以上 1次発売",
+      "entryStartAt": "2026-10-19T20:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ateez_melon_music_awards_2026_seoul_1114"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.melon.com/en/mma/2026/info/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "ateez_melon_music_awards_2026_paid_14",
+      "tourId": "ateez_melon_music_awards_2026",
+      "type": "Melon有料会員 2次発売",
+      "entryStartAt": "2026-10-22T20:00:00+09:00",
+      "entryEndAt": "2026-11-13T10:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ateez_melon_music_awards_2026_seoul_1114"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.melon.com/en/mma/2026/info/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "ateez_zero_to_all_incheon_2027_domestic",
+      "tourId": "ateez_zero_to_all_incheon_2027",
+      "type": "韓国会員先行",
+      "entryStartAt": "2026-12-03T20:00:00+09:00",
+      "entryEndAt": "2026-12-03T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ateez_zero_to_all_incheon_2027_22",
+        "ateez_zero_to_all_incheon_2027_23",
+        "ateez_zero_to_all_incheon_2027_24"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ateez.bstage.in/contents/6ae94a808d38027a8d6b8b65",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "ateez_zero_to_all_incheon_2027_global",
+      "tourId": "ateez_zero_to_all_incheon_2027",
+      "type": "グローバル会員先行",
+      "entryStartAt": "2026-12-07T20:00:00+09:00",
+      "entryEndAt": "2026-12-07T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ateez_zero_to_all_incheon_2027_22",
+        "ateez_zero_to_all_incheon_2027_23",
+        "ateez_zero_to_all_incheon_2027_24"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ateez.bstage.in/contents/6ae94a808d38027a8d6b8b65",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "ateez_zero_to_all_incheon_2027_general",
+      "tourId": "ateez_zero_to_all_incheon_2027",
+      "type": "一般発売",
+      "entryStartAt": "2026-12-08T20:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ateez_zero_to_all_incheon_2027_22",
+        "ateez_zero_to_all_incheon_2027_23",
+        "ateez_zero_to_all_incheon_2027_24"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ateez.bstage.in/contents/6ae94a808d38027a8d6b8b65",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "ateez_zero_to_all_incheon_2027_wheelchair_members",
+      "tourId": "ateez_zero_to_all_incheon_2027",
+      "type": "車椅子席 会員先行（電話）",
+      "entryStartAt": "2026-12-08T09:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ateez_zero_to_all_incheon_2027_22",
+        "ateez_zero_to_all_incheon_2027_23",
+        "ateez_zero_to_all_incheon_2027_24"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ateez.bstage.in/contents/6ae94a808d38027a8d6b8b65",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "ateez_zero_to_all_incheon_2027_wheelchair_general",
+      "tourId": "ateez_zero_to_all_incheon_2027",
+      "type": "車椅子席 一般発売（電話）",
+      "entryStartAt": "2026-12-09T09:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ateez_zero_to_all_incheon_2027_22",
+        "ateez_zero_to_all_incheon_2027_23",
+        "ateez_zero_to_all_incheon_2027_24"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ateez.bstage.in/contents/6ae94a808d38027a8d6b8b65",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "ateez_asia_artist_awards_2026_priority",
+      "tourId": "ateez_asia_artist_awards_2026",
+      "type": "AAA優先購入",
+      "entryStartAt": "2026-05-31T11:00:00+08:00",
+      "entryEndAt": "2026-05-31T13:00:00+08:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ateez_asia_artist_awards_2026_05",
+        "ateez_asia_artist_awards_2026_06"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_aaa",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "ateez_asia_artist_awards_2026_early",
+      "tourId": "ateez_asia_artist_awards_2026",
+      "type": "AAA早鳥先行",
+      "entryStartAt": "2026-05-31T16:00:00+08:00",
+      "entryEndAt": "2026-05-31T23:59:00+08:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ateez_asia_artist_awards_2026_05",
+        "ateez_asia_artist_awards_2026_06"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_aaa",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "ateez_asia_artist_awards_2026_sinopac",
+      "tourId": "ateez_asia_artist_awards_2026",
+      "type": "永豐VIP先行",
+      "entryStartAt": "2026-09-17T12:00:00+08:00",
+      "entryEndAt": "2026-09-17T17:00:00+08:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ateez_asia_artist_awards_2026_05",
+        "ateez_asia_artist_awards_2026_06"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_aaa",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "ateez_asia_artist_awards_2026_samsung",
+      "tourId": "ateez_asia_artist_awards_2026",
+      "type": "Samsung先行",
+      "entryStartAt": "2026-09-18T12:00:00+08:00",
+      "entryEndAt": "2026-09-18T17:00:00+08:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ateez_asia_artist_awards_2026_05",
+        "ateez_asia_artist_awards_2026_06"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_aaa",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "ateez_asia_artist_awards_2026_general",
+      "tourId": "ateez_asia_artist_awards_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-09-19T13:00:00+08:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ateez_asia_artist_awards_2026_05",
+        "ateez_asia_artist_awards_2026_06"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_aaa",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "ateez_sbs_gayo_daejeon_2026_nol_unionpay_presale",
+      "tourId": "ateez_sbs_gayo_daejeon_2026",
+      "type": "NOL World 海外向けUnionPay先着（シャトル付きパッケージ）",
+      "entryStartAt": "2026-11-09T14:00:00+09:00",
+      "entryEndAt": "2026-11-10T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ateez_sbs_gayo_daejeon_2026_25"
+      ],
+      "source": "system",
+      "sourceUrl": "https://world.nol.com/ticket/places/26000518/products/26015364",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

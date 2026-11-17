@@ -57,6 +57,17 @@
       "source": "system",
       "sourceUrl": "https://www.mizukinana.jp/news/",
       "lastVerifiedAt": "2026-10-31T00:00:00+09:00"
+    },
+    {
+      "id": "mizuki_nana_fc_event_x_2027",
+      "artistId": "mizuki_nana",
+      "title": "S.C. NANA NET ファンクラブイベントⅩ",
+      "startDate": "2027-01-23T00:00:00+09:00",
+      "endDate": "2027-01-24T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.mizukinana.jp/biography/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "performances": [
@@ -189,6 +200,32 @@
       "source": "system",
       "sourceUrl": "https://www.mizukinana.jp/news/",
       "lastVerifiedAt": "2026-10-31T00:00:00+09:00"
+    },
+    {
+      "id": "mizuki_nana_fc_event_x_2027_tokyo_0123",
+      "tourId": "mizuki_nana_fc_event_x_2027",
+      "performanceDate": "2027-01-23",
+      "performanceAt": "2027-01-23T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "venue": "京王アリーナTOKYO",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://www.mizukinana.jp/biography/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "mizuki_nana_fc_event_x_2027_tokyo_0124",
+      "tourId": "mizuki_nana_fc_event_x_2027",
+      "performanceDate": "2027-01-24",
+      "performanceAt": "2027-01-24T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "venue": "京王アリーナTOKYO",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://www.mizukinana.jp/biography/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "lotteries": [
