@@ -149,6 +149,43 @@
       "artistId": "glay",
       "source": "system",
       "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+    },
+    {
+      "id": "glay_taipei_live_2027_exofire",
+      "artistId": "glay",
+      "title": "GLAY Taipei LIVE 2027 “EXOFIRE”",
+      "startDate": "2027-03-06T00:00:00+08:00",
+      "endDate": "2027-03-07T00:00:00+08:00",
+      "prices": [
+        {
+          "label": "NTD 5,800（日本販売価格）",
+          "amount": 29000,
+          "currency": "JPY"
+        },
+        {
+          "label": "NTD 4,800（日本販売価格）",
+          "amount": 24000,
+          "currency": "JPY"
+        },
+        {
+          "label": "NTD 4,200（日本販売価格）",
+          "amount": 21000,
+          "currency": "JPY"
+        },
+        {
+          "label": "NTD 3,800（日本販売価格）",
+          "amount": 19000,
+          "currency": "JPY"
+        },
+        {
+          "label": "NTD 3,000（日本販売価格）",
+          "amount": 15000,
+          "currency": "JPY"
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/Taipei_live2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "performances": [
@@ -765,6 +802,30 @@
       "sourceUrl": "https://www.glay.co.jp/news/detail/10355",
       "source": "system",
       "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+    },
+    {
+      "id": "glay_taipei_live_2027_exofire_taipei_0306",
+      "tourId": "glay_taipei_live_2027_exofire",
+      "venue": "台北流行音楽中心 Taipei Music Center",
+      "performanceAt": "2027-03-06T19:00:00+08:00",
+      "doorOpenAt": "2027-03-06T18:00:00+08:00",
+      "kind": "oneman",
+      "eventName": "GLAY Taipei LIVE 2027 “EXOFIRE”",
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/Taipei_live2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "glay_taipei_live_2027_exofire_taipei_0307",
+      "tourId": "glay_taipei_live_2027_exofire",
+      "venue": "台北流行音楽中心 Taipei Music Center",
+      "performanceAt": "2027-03-07T18:00:00+08:00",
+      "doorOpenAt": "2027-03-07T17:00:00+08:00",
+      "kind": "oneman",
+      "eventName": "GLAY Taipei LIVE 2027 “EXOFIRE”",
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/Taipei_live2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1477,6 +1538,40 @@
       "sourceUrl": "https://www.glay.co.jp/news/detail/10359",
       "source": "system",
       "lastVerifiedAt": "2026-10-10T20:23:15+09:00"
+    },
+    {
+      "id": "glay_taipei_live_2027_exofire_happyswing_fc",
+      "tourId": "glay_taipei_live_2027_exofire",
+      "type": "HAPPY SWING会員先行抽選",
+      "entryStartAt": "2026-11-09T15:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_taipei_live_2027_exofire_taipei_0306",
+        "glay_taipei_live_2027_exofire_taipei_0307"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/live?id=65",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "glay_taipei_live_2027_exofire_mobile_fc",
+      "tourId": "glay_taipei_live_2027_exofire",
+      "type": "GLAY MOBILE会員先行抽選",
+      "entryStartAt": "2026-11-18T15:00:00+09:00",
+      "entryEndAt": "2026-11-23T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_taipei_live_2027_exofire_taipei_0306",
+        "glay_taipei_live_2027_exofire_taipei_0307"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/live?id=65",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

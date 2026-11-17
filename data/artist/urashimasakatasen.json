@@ -63,6 +63,22 @@
       "source": "system",
       "sourceUrl": "https://urashimasakatasen.com/senra/",
       "lastVerifiedAt": "2026-11-01T00:50:26+09:00"
+    },
+    {
+      "id": "urashimasakatasen_utattemita_super_festival_2027",
+      "artistId": "urashimasakatasen",
+      "title": "浦島坂田船 ～歌ってみた超祭り！～",
+      "startDate": "2027-02-06T00:00:00+09:00",
+      "endDate": "2027-02-07T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "公演日別特典付・指定席",
+          "amount": 9200
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://urashimasakatasen.com/utattemita/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "performances": [
@@ -509,7 +525,7 @@
       "venue": "仙台サンプラザホール",
       "performanceDate": "2026-11-14",
       "performanceAt": "2026-11-14T17:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-11-14T16:00:00+09:00",
       "kind": "oneman",
       "eventName": "SENRA LIVE TOUR 2026 Calea",
       "source": "system",
@@ -535,7 +551,7 @@
       "venue": "なら100年会館 大ホール",
       "performanceDate": "2026-11-19",
       "performanceAt": "2026-11-19T18:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-11-19T17:00:00+09:00",
       "kind": "oneman",
       "eventName": "SENRA LIVE TOUR 2026 Calea",
       "source": "system",
@@ -561,12 +577,36 @@
       "venue": "日本武道館",
       "performanceDate": "2026-11-27",
       "performanceAt": "2026-11-27T17:00:00+09:00",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-11-27T16:00:00+09:00",
       "kind": "oneman",
       "eventName": "SENRA LIVE TOUR 2026 Calea -non defective-",
       "source": "system",
       "sourceUrl": "https://diskgarage.com/search?kw_venue=%E6%97%A5%E6%9C%AC%E6%AD%A6%E9%81%93%E9%A4%A8",
       "lastVerifiedAt": "2026-11-01T00:50:26+09:00"
+    },
+    {
+      "id": "urashimasakatasen_utattemita_super_festival_2027_ariake_0206",
+      "tourId": "urashimasakatasen_utattemita_super_festival_2027",
+      "venue": "有明アリーナ",
+      "performanceAt": "2027-02-06T17:00:00+09:00",
+      "doorOpenAt": "2027-02-06T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "浦島坂田船 ～歌ってみた超祭り！～",
+      "source": "system",
+      "sourceUrl": "https://urashimasakatasen.com/utattemita/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "urashimasakatasen_utattemita_super_festival_2027_ariake_0207",
+      "tourId": "urashimasakatasen_utattemita_super_festival_2027",
+      "venue": "有明アリーナ",
+      "performanceAt": "2027-02-07T15:00:00+09:00",
+      "doorOpenAt": "2027-02-07T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "浦島坂田船 ～歌ってみた超祭り！～",
+      "source": "system",
+      "sourceUrl": "https://urashimasakatasen.com/utattemita/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "lotteries": [

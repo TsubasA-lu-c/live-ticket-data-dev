@@ -990,16 +990,17 @@
       "id": "equal_love_gift_girls_idol_festival_tokyo_2026_1127",
       "tourId": "equal_love_gift_girls_idol_festival_tokyo_2026",
       "venue": "SGCホール有明",
-      "performanceAt": "2026-11-27T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-11-27T18:00:00+09:00",
+      "doorOpenAt": "2026-11-27T17:00:00+09:00",
       "kind": "fes",
       "eventName": "GIFT ～Girls Idol Festival Tokyo～",
       "source": "system",
       "sourceUrl": "https://equal-love.jp/news/detail/11851",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00",
       "performanceDate": "2026-11-27",
-      "performanceTimeEstimated": true,
-      "kindReviewed": true
+      "performanceTimeEstimated": false,
+      "kindReviewed": true,
+      "note": "18:00はイベント全体の開演予定時刻です。"
     },
     {
       "id": "equal_love_morohashi_sana_serenade_2026_1114_performance",
@@ -1393,6 +1394,23 @@
       "source": "system",
       "sourceUrl": "https://equal-love.jp/news/detail/12275",
       "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
+    },
+    {
+      "id": "equal_love_tokyo_dome_2027_mitsui_shopping_park_20261109",
+      "tourId": "equal_love_tokyo_dome_2027",
+      "type": "三井ショッピングパークポイント会員 チケット抽選販売",
+      "entryStartAt": "2026-11-09T18:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "equal_love_tokyo_dome_2027_dome_0119",
+        "equal_love_tokyo_dome_2027_dome_0120"
+      ],
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/news/detail/12399",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

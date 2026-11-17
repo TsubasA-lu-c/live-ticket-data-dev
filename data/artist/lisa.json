@@ -144,6 +144,22 @@
       "sourceUrl": "https://www.sonymusic.co.jp/artist/lisa/info/587695",
       "source": "system",
       "lastVerifiedAt": "2026-10-31T23:51:33.037+09:00"
+    },
+    {
+      "id": "lisa_countdown_japan_2627_20261231",
+      "artistId": "lisa",
+      "title": "COUNTDOWN JAPAN 26/27",
+      "startDate": "2026-12-31T00:00:00+09:00",
+      "endDate": "2026-12-31T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "12月31日 1日券",
+          "amount": 16000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.red-hot.ne.jp/play/detail.php?pid=py28857",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "performances": [
@@ -608,6 +624,21 @@
       "source": "system",
       "lastVerifiedAt": "2026-10-31T23:51:33.037+09:00",
       "kindReviewed": true
+    },
+    {
+      "id": "lisa_countdown_japan_2627_20261231_performance",
+      "tourId": "lisa_countdown_japan_2627_20261231",
+      "performanceDate": "2026-12-31",
+      "performanceAt": "2026-12-31T15:40:00+09:00",
+      "doorOpenAt": "2026-12-31T12:30:00+09:00",
+      "performanceTimeEstimated": false,
+      "venue": "幕張メッセ国際展示場1～11ホール・イベントホール",
+      "kind": "fes",
+      "eventName": "COUNTDOWN JAPAN 26/27",
+      "note": "15:40はイベント全体の開演予定。個別出演時刻は別途確認。",
+      "source": "system",
+      "sourceUrl": "https://www.red-hot.ne.jp/play/detail.php?pid=py28857",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1006,6 +1037,54 @@
       "sourceUrl": "https://www.sonymusic.co.jp/artist/lisa/info/587187",
       "source": "system",
       "lastVerifiedAt": "2026-11-01T00:19:38+09:00"
+    },
+    {
+      "id": "lisa_countdown_japan_2627_20261231_first",
+      "tourId": "lisa_countdown_japan_2627_20261231",
+      "type": "第1次抽選先行",
+      "entryStartAt": "2026-10-14T12:15:00+09:00",
+      "entryEndAt": "2026-10-20T16:00:00+09:00",
+      "resultAt": "2026-10-23T16:00:00+09:00",
+      "paymentStartAt": "2026-10-23T16:00:00+09:00",
+      "paymentEndAt": "2026-10-26T16:00:00+09:00",
+      "performanceIds": [
+        "lisa_countdown_japan_2627_20261231_performance"
+      ],
+      "source": "system",
+      "sourceUrl": "https://countdownjapan.jp/2627/ticket/preorder01/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "lisa_countdown_japan_2627_20261231_second",
+      "tourId": "lisa_countdown_japan_2627_20261231",
+      "type": "第2次抽選先行",
+      "entryStartAt": "2026-10-28T12:15:00+09:00",
+      "entryEndAt": "2026-11-02T16:00:00+09:00",
+      "resultAt": "2026-11-06T16:00:00+09:00",
+      "paymentStartAt": "2026-11-06T16:00:00+09:00",
+      "paymentEndAt": "2026-11-09T16:00:00+09:00",
+      "performanceIds": [
+        "lisa_countdown_japan_2627_20261231_performance"
+      ],
+      "source": "system",
+      "sourceUrl": "https://countdownjapan.jp/2627/ticket/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "lisa_countdown_japan_2627_20261231_resale",
+      "tourId": "lisa_countdown_japan_2627_20261231",
+      "type": "公式リセール購入申込（抽選）",
+      "entryStartAt": "2026-12-07T16:00:00+09:00",
+      "entryEndAt": "2026-12-14T16:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "lisa_countdown_japan_2627_20261231_performance"
+      ],
+      "source": "system",
+      "sourceUrl": "https://countdownjapan.jp/2627/news/5987/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

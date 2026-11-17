@@ -394,6 +394,72 @@
       "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
       "source": "system",
       "lastVerifiedAt": "2026-10-31T15:00:25.177+09:00"
+    },
+    {
+      "id": "fujii_kaze_piano_recital_2026_final_20261114",
+      "tourId": "fujii_kaze_piano_recital_2026",
+      "type": "藤井風 ピアノリサイタル 最終チケット抽選受付",
+      "entryStartAt": "2026-11-14T19:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fujii_kaze_piano_recital_2026_tokyo_1120",
+        "fujii_kaze_piano_recital_2026_tokyo_1121"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/2901490006",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_piano_recital_2026_official_trade_20261105",
+      "tourId": "fujii_kaze_piano_recital_2026",
+      "type": "藤井風 ピアノリサイタル 公式チケットトレード（抽選）",
+      "entryStartAt": "2026-11-05T12:00:00+09:00",
+      "entryEndAt": "2026-11-08T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fujii_kaze_piano_recital_2026_tokyo_1120",
+        "fujii_kaze_piano_recital_2026_tokyo_1121"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/fpr/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_prema_world_2026_seoul_local_20260617",
+      "tourId": "fujii_kaze_prema_world_2026",
+      "type": "韓国国内向け一般発売",
+      "entryStartAt": "2026-06-17T19:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fujii_kaze_prema_world_2026_seoul_0109"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_prema_world_2026_seoul_global_20260618",
+      "tourId": "fujii_kaze_prema_world_2026",
+      "type": "海外向け一般発売",
+      "entryStartAt": "2026-06-18T19:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fujii_kaze_prema_world_2026_seoul_0109"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

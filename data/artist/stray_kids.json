@@ -48,6 +48,88 @@
       "source": "system",
       "sourceUrl": "https://www.music-bank.jp/",
       "lastVerifiedAt": "2026-11-01T00:16:36+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_japan_stadium_2027",
+      "artistId": "stray_kids",
+      "title": "Stray Kids World Tour ＜RUN IT JAPAN＞ 2027スタジアム公演",
+      "startDate": "2027-04-24T00:00:00+09:00",
+      "endDate": "2027-05-05T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 15500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/StrayKids/info/588400",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027",
+      "artistId": "stray_kids",
+      "title": "Stray Kids World Tour <RUN IT> 北米・欧州",
+      "startDate": "2027-05-16T00:00:00-07:00",
+      "endDate": "2027-07-31T00:00:00-07:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_hong_kong_2026",
+      "artistId": "stray_kids",
+      "title": "Stray Kids World Tour <RUN IT HONG KONG>",
+      "startDate": "2026-12-05T00:00:00+08:00",
+      "endDate": "2026-12-05T00:00:00+08:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.livenation.hk/event/stray-kids-world-tour-run-it-hong-kong--hong-kong-tickets-edp1691372",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_taipei_2026",
+      "artistId": "stray_kids",
+      "title": "Stray Kids World Tour <RUN IT TAIPEI>",
+      "startDate": "2026-12-12T00:00:00+08:00",
+      "endDate": "2026-12-12T00:00:00+08:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.livenation.com.tw/event/stray-kids-world-tour-run-it-taipei--taipei-tickets-edp1695879",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_bangkok_2027",
+      "artistId": "stray_kids",
+      "title": "Stray Kids World Tour <RUN IT BANGKOK>",
+      "startDate": "2027-01-16T00:00:00+07:00",
+      "endDate": "2027-01-17T00:00:00+07:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.livenationtero.co.th/event/stray-kids-world-tour-run-it-bangkok--bangkok-tickets-edp1692297",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_singapore_2027",
+      "artistId": "stray_kids",
+      "title": "Stray Kids World Tour <RUN IT SINGAPORE>",
+      "startDate": "2027-03-06T00:00:00+08:00",
+      "endDate": "2027-03-07T00:00:00+08:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.livenation.sg/event/stray-kids-world-tour-run-it-singapore--singapore-tickets-edp1692516",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_sbs_gayo_daejeon_2026",
+      "artistId": "stray_kids",
+      "title": "2026 SBS GAYO DAEJEON",
+      "startDate": "2026-12-25T00:00:00+09:00",
+      "endDate": "2026-12-25T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008837439",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "performances": [
@@ -184,6 +266,448 @@
       "sourceUrl": "https://www.music-bank.jp/",
       "lastVerifiedAt": "2026-11-01T00:16:36+09:00",
       "kindReviewed": true
+    },
+    {
+      "id": "stray_kids_run_it_japan_stadium_2027_nissan_0424",
+      "tourId": "stray_kids_run_it_japan_stadium_2027",
+      "performanceDate": "2027-04-24",
+      "performanceAt": "2027-04-24T17:30:00+09:00",
+      "doorOpenAt": "2027-04-24T15:30:00+09:00",
+      "venue": "日産スタジアム",
+      "kind": "oneman",
+      "eventName": "Stray Kids World Tour ＜RUN IT JAPAN＞",
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/StrayKids/info/588400",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_japan_stadium_2027_nissan_0425",
+      "tourId": "stray_kids_run_it_japan_stadium_2027",
+      "performanceDate": "2027-04-25",
+      "performanceAt": "2027-04-25T17:00:00+09:00",
+      "doorOpenAt": "2027-04-25T15:00:00+09:00",
+      "venue": "日産スタジアム",
+      "kind": "oneman",
+      "eventName": "Stray Kids World Tour ＜RUN IT JAPAN＞",
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/StrayKids/info/588400",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_japan_stadium_2027_nagai_0504",
+      "tourId": "stray_kids_run_it_japan_stadium_2027",
+      "performanceDate": "2027-05-04",
+      "performanceAt": "2027-05-04T17:00:00+09:00",
+      "doorOpenAt": "2027-05-04T15:00:00+09:00",
+      "venue": "ヤンマースタジアム長居",
+      "kind": "oneman",
+      "eventName": "Stray Kids World Tour ＜RUN IT JAPAN＞",
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/StrayKids/info/588400",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_japan_stadium_2027_nagai_0505",
+      "tourId": "stray_kids_run_it_japan_stadium_2027",
+      "performanceDate": "2027-05-05",
+      "performanceAt": "2027-05-05T16:30:00+09:00",
+      "doorOpenAt": "2027-05-05T14:30:00+09:00",
+      "venue": "ヤンマースタジアム長居",
+      "kind": "oneman",
+      "eventName": "Stray Kids World Tour ＜RUN IT JAPAN＞",
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/StrayKids/info/588400",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_seattle",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "performanceDate": "2027-05-16",
+      "performanceAt": "2027-05-16T12:00:00-07:00",
+      "doorOpenAt": null,
+      "venue": "Lumen Field",
+      "kind": "oneman",
+      "eventName": "Stray Kids World Tour <RUN IT>",
+      "performanceTimeEstimated": true,
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_vancouver",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "performanceDate": "2027-05-19",
+      "performanceAt": "2027-05-19T12:00:00-07:00",
+      "doorOpenAt": null,
+      "venue": "BC Place",
+      "kind": "oneman",
+      "eventName": "Stray Kids World Tour <RUN IT>",
+      "performanceTimeEstimated": true,
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_santa_clara",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "performanceDate": "2027-05-22",
+      "performanceAt": "2027-05-22T12:00:00-07:00",
+      "doorOpenAt": null,
+      "venue": "Levi’s Stadium",
+      "kind": "oneman",
+      "eventName": "Stray Kids World Tour <RUN IT>",
+      "performanceTimeEstimated": true,
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_san_diego",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "performanceDate": "2027-05-25",
+      "performanceAt": "2027-05-25T12:00:00-07:00",
+      "doorOpenAt": null,
+      "venue": "PETCO Park",
+      "kind": "oneman",
+      "eventName": "Stray Kids World Tour <RUN IT>",
+      "performanceTimeEstimated": true,
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_los_angeles",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "performanceDate": "2027-05-29",
+      "performanceAt": "2027-05-29T12:00:00-07:00",
+      "doorOpenAt": null,
+      "venue": "SoFi Stadium",
+      "kind": "oneman",
+      "eventName": "Stray Kids World Tour <RUN IT>",
+      "performanceTimeEstimated": true,
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_arlington",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "performanceDate": "2027-06-03",
+      "performanceAt": "2027-06-03T12:00:00-05:00",
+      "doorOpenAt": null,
+      "venue": "AT&T Stadium",
+      "kind": "oneman",
+      "eventName": "Stray Kids World Tour <RUN IT>",
+      "performanceTimeEstimated": true,
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_houston",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "performanceDate": "2027-06-05",
+      "performanceAt": "2027-06-05T12:00:00-05:00",
+      "doorOpenAt": null,
+      "venue": "Reliant Stadium",
+      "kind": "oneman",
+      "eventName": "Stray Kids World Tour <RUN IT>",
+      "performanceTimeEstimated": true,
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_atlanta",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "performanceDate": "2027-06-08",
+      "performanceAt": "2027-06-08T12:00:00-04:00",
+      "doorOpenAt": null,
+      "venue": "Mercedes-Benz Stadium",
+      "kind": "oneman",
+      "eventName": "Stray Kids World Tour <RUN IT>",
+      "performanceTimeEstimated": true,
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_miami",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "performanceDate": "2027-06-11",
+      "performanceAt": "2027-06-11T12:00:00-04:00",
+      "doorOpenAt": null,
+      "venue": "Hard Rock Stadium",
+      "kind": "oneman",
+      "eventName": "Stray Kids World Tour <RUN IT>",
+      "performanceTimeEstimated": true,
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_orlando",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "performanceDate": "2027-06-14",
+      "performanceAt": "2027-06-14T12:00:00-04:00",
+      "doorOpenAt": null,
+      "venue": "Camping World Stadium",
+      "kind": "oneman",
+      "eventName": "Stray Kids World Tour <RUN IT>",
+      "performanceTimeEstimated": true,
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_chicago",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "performanceDate": "2027-06-18",
+      "performanceAt": "2027-06-18T12:00:00-05:00",
+      "doorOpenAt": null,
+      "venue": "Soldier Field",
+      "kind": "oneman",
+      "eventName": "Stray Kids World Tour <RUN IT>",
+      "performanceTimeEstimated": true,
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_baltimore",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "performanceDate": "2027-06-22",
+      "performanceAt": "2027-06-22T12:00:00-04:00",
+      "doorOpenAt": null,
+      "venue": "M&T Bank Stadium",
+      "kind": "oneman",
+      "eventName": "Stray Kids World Tour <RUN IT>",
+      "performanceTimeEstimated": true,
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_toronto",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "performanceDate": "2027-06-25",
+      "performanceAt": "2027-06-25T12:00:00-04:00",
+      "doorOpenAt": null,
+      "venue": "Rogers Stadium",
+      "kind": "oneman",
+      "eventName": "Stray Kids World Tour <RUN IT>",
+      "performanceTimeEstimated": true,
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_east_rutherford",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "performanceDate": "2027-06-29",
+      "performanceAt": "2027-06-29T12:00:00-04:00",
+      "doorOpenAt": null,
+      "venue": "MetLife Stadium",
+      "kind": "oneman",
+      "eventName": "Stray Kids World Tour <RUN IT>",
+      "performanceTimeEstimated": true,
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_paris",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "performanceDate": "2027-07-09",
+      "performanceAt": "2027-07-09T12:00:00+02:00",
+      "doorOpenAt": null,
+      "venue": "Plenitude Arena",
+      "kind": "oneman",
+      "eventName": "Stray Kids World Tour <RUN IT>",
+      "performanceTimeEstimated": true,
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_london",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "performanceDate": "2027-07-13",
+      "performanceAt": "2027-07-13T12:00:00+01:00",
+      "doorOpenAt": null,
+      "venue": "Tottenham Hotspur Stadium",
+      "kind": "oneman",
+      "eventName": "Stray Kids World Tour <RUN IT>",
+      "performanceTimeEstimated": true,
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_munich",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "performanceDate": "2027-07-17",
+      "performanceAt": "2027-07-17T12:00:00+02:00",
+      "doorOpenAt": null,
+      "venue": "Allianz Arena",
+      "kind": "oneman",
+      "eventName": "Stray Kids World Tour <RUN IT>",
+      "performanceTimeEstimated": true,
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_vienna",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "performanceDate": "2027-07-21",
+      "performanceAt": "2027-07-21T12:00:00+02:00",
+      "doorOpenAt": null,
+      "venue": "Ernst-Happel-Stadion",
+      "kind": "oneman",
+      "eventName": "Stray Kids World Tour <RUN IT>",
+      "performanceTimeEstimated": true,
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_barcelona",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "performanceDate": "2027-07-24",
+      "performanceAt": "2027-07-24T12:00:00+02:00",
+      "doorOpenAt": null,
+      "venue": "Estadi Olímpic Lluís Companys",
+      "kind": "oneman",
+      "eventName": "Stray Kids World Tour <RUN IT>",
+      "performanceTimeEstimated": true,
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_arnhem",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "performanceDate": "2027-07-27",
+      "performanceAt": "2027-07-27T12:00:00+02:00",
+      "doorOpenAt": null,
+      "venue": "GelreDome",
+      "kind": "oneman",
+      "eventName": "Stray Kids World Tour <RUN IT>",
+      "performanceTimeEstimated": true,
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_milan",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "performanceDate": "2027-07-31",
+      "performanceAt": "2027-07-31T12:00:00+02:00",
+      "doorOpenAt": null,
+      "venue": "San Siro Stadium",
+      "kind": "oneman",
+      "eventName": "Stray Kids World Tour <RUN IT>",
+      "performanceTimeEstimated": true,
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_hong_kong_2026_hong_kong",
+      "tourId": "stray_kids_run_it_hong_kong_2026",
+      "performanceDate": "2026-12-05",
+      "performanceAt": "2026-12-05T17:00:00+08:00",
+      "doorOpenAt": null,
+      "venue": "Kai Tak Stadium",
+      "kind": "oneman",
+      "eventName": "Stray Kids World Tour <RUN IT>",
+      "source": "system",
+      "sourceUrl": "https://www.livenation.hk/event/stray-kids-world-tour-run-it-hong-kong--hong-kong-tickets-edp1691372",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_taipei_2026_taipei",
+      "tourId": "stray_kids_run_it_taipei_2026",
+      "performanceDate": "2026-12-12",
+      "performanceAt": "2026-12-12T12:00:00+08:00",
+      "doorOpenAt": null,
+      "venue": "臺北大巨蛋 Taipei Dome",
+      "kind": "oneman",
+      "eventName": "Stray Kids World Tour <RUN IT>",
+      "performanceTimeEstimated": true,
+      "source": "system",
+      "sourceUrl": "https://www.livenation.com.tw/event/stray-kids-world-tour-run-it-taipei--taipei-tickets-edp1695879",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_bangkok_2027_bangkok_0116",
+      "tourId": "stray_kids_run_it_bangkok_2027",
+      "performanceDate": "2027-01-16",
+      "performanceAt": "2027-01-16T12:00:00+07:00",
+      "doorOpenAt": null,
+      "venue": "Impact Arena",
+      "kind": "oneman",
+      "eventName": "Stray Kids World Tour <RUN IT>",
+      "performanceTimeEstimated": true,
+      "source": "system",
+      "sourceUrl": "https://www.livenationtero.co.th/event/stray-kids-world-tour-run-it-bangkok--bangkok-tickets-edp1692297",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_bangkok_2027_bangkok_0117",
+      "tourId": "stray_kids_run_it_bangkok_2027",
+      "performanceDate": "2027-01-17",
+      "performanceAt": "2027-01-17T12:00:00+07:00",
+      "doorOpenAt": null,
+      "venue": "Impact Arena",
+      "kind": "oneman",
+      "eventName": "Stray Kids World Tour <RUN IT>",
+      "performanceTimeEstimated": true,
+      "source": "system",
+      "sourceUrl": "https://www.livenationtero.co.th/event/stray-kids-world-tour-run-it-bangkok--bangkok-tickets-edp1692297",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_singapore_2027_singapore_0306",
+      "tourId": "stray_kids_run_it_singapore_2027",
+      "performanceDate": "2027-03-06",
+      "performanceAt": "2027-03-06T18:00:00+08:00",
+      "doorOpenAt": null,
+      "venue": "Singapore Indoor Stadium",
+      "kind": "oneman",
+      "eventName": "Stray Kids World Tour <RUN IT>",
+      "source": "system",
+      "sourceUrl": "https://www.livenation.sg/event/stray-kids-world-tour-run-it-singapore--singapore-tickets-edp1692516",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_singapore_2027_singapore_0307",
+      "tourId": "stray_kids_run_it_singapore_2027",
+      "performanceDate": "2027-03-07",
+      "performanceAt": "2027-03-07T18:00:00+08:00",
+      "doorOpenAt": null,
+      "venue": "Singapore Indoor Stadium",
+      "kind": "oneman",
+      "eventName": "Stray Kids World Tour <RUN IT>",
+      "source": "system",
+      "sourceUrl": "https://www.livenation.sg/event/stray-kids-world-tour-run-it-singapore--singapore-tickets-edp1692516",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_sbs_gayo_daejeon_2026_25",
+      "tourId": "stray_kids_sbs_gayo_daejeon_2026",
+      "performanceDate": "2026-12-25",
+      "performanceAt": "2026-12-25T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "venue": "KINTEX",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "2026 SBS GAYO DAEJEON",
+      "note": "出演名義: Stray Kids。施設内ホール・フェス全体の開演時刻は未確認。12:00は時刻未定の互換値。",
+      "source": "system",
+      "sourceUrl": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008837439",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -359,6 +883,640 @@
       "source": "system",
       "sourceUrl": "https://www.music-bank.jp/",
       "lastVerifiedAt": "2026-11-01T00:16:36+09:00"
+    },
+    {
+      "id": "stray_kids_music_bank_global_festival_2026_20261213_pia_prereserve_1st_20261110",
+      "tourId": "stray_kids_music_bank_global_festival_2026_20261213",
+      "type": "プレリザーブ1次（単日券・抽選）",
+      "entryStartAt": "2026-11-10T19:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_music_bank_global_festival_2026_20261213_mu_fg_stadium"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.music-bank.jp/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_music_bank_global_festival_2026_20261213_pia_premium_lounge_4th_20261110",
+      "tourId": "stray_kids_music_bank_global_festival_2026_20261213",
+      "type": "プレミアムラウンジ付き単日券4次先行（抽選）",
+      "entryStartAt": "2026-11-10T19:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_music_bank_global_festival_2026_20261213_mu_fg_stadium"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.music-bank.jp/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_japan_stadium_2027_w_fc_20261109",
+      "tourId": "stray_kids_run_it_japan_stadium_2027",
+      "type": "W会員最速先行（抽選）",
+      "entryStartAt": "2026-11-09T22:00:00+09:00",
+      "entryEndAt": "2026-11-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_run_it_japan_stadium_2027_nissan_0424",
+        "stray_kids_run_it_japan_stadium_2027_nissan_0425",
+        "stray_kids_run_it_japan_stadium_2027_nagai_0504",
+        "stray_kids_run_it_japan_stadium_2027_nagai_0505"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/StrayKids/info/588400",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_japan_stadium_2027_stay_japan_fc_20261126",
+      "tourId": "stray_kids_run_it_japan_stadium_2027",
+      "type": "STAY JAPAN先行（抽選）",
+      "entryStartAt": "2026-11-26T19:00:00+09:00",
+      "entryEndAt": "2026-12-06T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_run_it_japan_stadium_2027_nissan_0424",
+        "stray_kids_run_it_japan_stadium_2027_nissan_0425",
+        "stray_kids_run_it_japan_stadium_2027_nagai_0504",
+        "stray_kids_run_it_japan_stadium_2027_nagai_0505"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/StrayKids/info/588400",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_japan_stadium_2027_stay_japan_mobile_20261211",
+      "tourId": "stray_kids_run_it_japan_stadium_2027",
+      "type": "STAY JAPAN MOBILE先行（抽選）",
+      "entryStartAt": "2026-12-11T19:00:00+09:00",
+      "entryEndAt": "2026-12-20T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_run_it_japan_stadium_2027_nissan_0424",
+        "stray_kids_run_it_japan_stadium_2027_nissan_0425",
+        "stray_kids_run_it_japan_stadium_2027_nagai_0504",
+        "stray_kids_run_it_japan_stadium_2027_nagai_0505"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/StrayKids/info/588400",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_stay_minus0800",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "type": "STAY会員先行（現地時間）",
+      "entryStartAt": "2026-11-18T11:00:00-08:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_run_it_world_na_europe_2027_seattle",
+        "stray_kids_run_it_world_na_europe_2027_santa_clara",
+        "stray_kids_run_it_world_na_europe_2027_san_diego",
+        "stray_kids_run_it_world_na_europe_2027_los_angeles"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_artist_minus0800",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "type": "アーティスト先行（事前登録者・現地時間）",
+      "entryStartAt": "2026-11-18T15:00:00-08:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_run_it_world_na_europe_2027_seattle",
+        "stray_kids_run_it_world_na_europe_2027_santa_clara",
+        "stray_kids_run_it_world_na_europe_2027_san_diego",
+        "stray_kids_run_it_world_na_europe_2027_los_angeles"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_general_minus0800",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "type": "一般発売（現地時間）",
+      "entryStartAt": "2026-11-19T15:00:00-08:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_run_it_world_na_europe_2027_seattle",
+        "stray_kids_run_it_world_na_europe_2027_santa_clara",
+        "stray_kids_run_it_world_na_europe_2027_san_diego",
+        "stray_kids_run_it_world_na_europe_2027_los_angeles"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_stay_minus0700",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "type": "STAY会員先行（現地時間）",
+      "entryStartAt": "2026-11-18T11:00:00-07:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_run_it_world_na_europe_2027_vancouver"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_artist_minus0700",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "type": "アーティスト先行（事前登録者・現地時間）",
+      "entryStartAt": "2026-11-18T15:00:00-07:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_run_it_world_na_europe_2027_vancouver"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_general_minus0700",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "type": "一般発売（現地時間）",
+      "entryStartAt": "2026-11-19T15:00:00-07:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_run_it_world_na_europe_2027_vancouver"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_stay_minus0600",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "type": "STAY会員先行（現地時間）",
+      "entryStartAt": "2026-11-18T11:00:00-06:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_run_it_world_na_europe_2027_arlington",
+        "stray_kids_run_it_world_na_europe_2027_houston",
+        "stray_kids_run_it_world_na_europe_2027_chicago"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_artist_minus0600",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "type": "アーティスト先行（事前登録者・現地時間）",
+      "entryStartAt": "2026-11-18T15:00:00-06:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_run_it_world_na_europe_2027_arlington",
+        "stray_kids_run_it_world_na_europe_2027_houston",
+        "stray_kids_run_it_world_na_europe_2027_chicago"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_general_minus0600",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "type": "一般発売（現地時間）",
+      "entryStartAt": "2026-11-19T15:00:00-06:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_run_it_world_na_europe_2027_arlington",
+        "stray_kids_run_it_world_na_europe_2027_houston",
+        "stray_kids_run_it_world_na_europe_2027_chicago"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_stay_minus0500",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "type": "STAY会員先行（現地時間）",
+      "entryStartAt": "2026-11-18T11:00:00-05:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_run_it_world_na_europe_2027_atlanta",
+        "stray_kids_run_it_world_na_europe_2027_miami",
+        "stray_kids_run_it_world_na_europe_2027_orlando",
+        "stray_kids_run_it_world_na_europe_2027_baltimore",
+        "stray_kids_run_it_world_na_europe_2027_toronto",
+        "stray_kids_run_it_world_na_europe_2027_east_rutherford"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_artist_minus0500",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "type": "アーティスト先行（事前登録者・現地時間）",
+      "entryStartAt": "2026-11-18T15:00:00-05:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_run_it_world_na_europe_2027_atlanta",
+        "stray_kids_run_it_world_na_europe_2027_miami",
+        "stray_kids_run_it_world_na_europe_2027_orlando",
+        "stray_kids_run_it_world_na_europe_2027_baltimore",
+        "stray_kids_run_it_world_na_europe_2027_toronto",
+        "stray_kids_run_it_world_na_europe_2027_east_rutherford"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_general_minus0500",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "type": "一般発売（現地時間）",
+      "entryStartAt": "2026-11-19T15:00:00-05:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_run_it_world_na_europe_2027_atlanta",
+        "stray_kids_run_it_world_na_europe_2027_miami",
+        "stray_kids_run_it_world_na_europe_2027_orlando",
+        "stray_kids_run_it_world_na_europe_2027_baltimore",
+        "stray_kids_run_it_world_na_europe_2027_toronto",
+        "stray_kids_run_it_world_na_europe_2027_east_rutherford"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_stay_plus0100",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "type": "STAY会員先行（現地時間）",
+      "entryStartAt": "2026-11-18T11:00:00+01:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_run_it_world_na_europe_2027_paris",
+        "stray_kids_run_it_world_na_europe_2027_munich",
+        "stray_kids_run_it_world_na_europe_2027_vienna",
+        "stray_kids_run_it_world_na_europe_2027_barcelona",
+        "stray_kids_run_it_world_na_europe_2027_arnhem",
+        "stray_kids_run_it_world_na_europe_2027_milan"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_artist_plus0100",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "type": "アーティスト先行（事前登録者・現地時間）",
+      "entryStartAt": "2026-11-18T15:00:00+01:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_run_it_world_na_europe_2027_paris",
+        "stray_kids_run_it_world_na_europe_2027_munich",
+        "stray_kids_run_it_world_na_europe_2027_vienna",
+        "stray_kids_run_it_world_na_europe_2027_barcelona",
+        "stray_kids_run_it_world_na_europe_2027_arnhem",
+        "stray_kids_run_it_world_na_europe_2027_milan"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_general_plus0100",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "type": "一般発売（現地時間）",
+      "entryStartAt": "2026-11-19T15:00:00+01:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_run_it_world_na_europe_2027_paris",
+        "stray_kids_run_it_world_na_europe_2027_munich",
+        "stray_kids_run_it_world_na_europe_2027_vienna",
+        "stray_kids_run_it_world_na_europe_2027_barcelona",
+        "stray_kids_run_it_world_na_europe_2027_arnhem",
+        "stray_kids_run_it_world_na_europe_2027_milan"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_stay_plus0000",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "type": "STAY会員先行（現地時間）",
+      "entryStartAt": "2026-11-18T11:00:00+00:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_run_it_world_na_europe_2027_london"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_artist_plus0000",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "type": "アーティスト先行（事前登録者・現地時間）",
+      "entryStartAt": "2026-11-18T15:00:00+00:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_run_it_world_na_europe_2027_london"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_world_na_europe_2027_general_plus0000",
+      "tourId": "stray_kids_run_it_world_na_europe_2027",
+      "type": "一般発売（現地時間）",
+      "entryStartAt": "2026-11-19T15:00:00+00:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_run_it_world_na_europe_2027_london"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.metlifestadium.com/news/detail/stray-kids-announce-2027-world-tour-run-it-at-metlife-stadium-on-june-29-2027",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_hong_kong_2026_stay",
+      "tourId": "stray_kids_run_it_hong_kong_2026",
+      "type": "STAY会員先行",
+      "entryStartAt": "2026-09-01T12:00:00+08:00",
+      "entryEndAt": "2026-09-01T23:59:00+08:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_run_it_hong_kong_2026_hong_kong"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.livenation.hk/event/stray-kids-world-tour-run-it-hong-kong--hong-kong-tickets-edp1691372",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_hong_kong_2026_hsbc",
+      "tourId": "stray_kids_run_it_hong_kong_2026",
+      "type": "HSBC Mastercard先行",
+      "entryStartAt": "2026-09-02T13:00:00+08:00",
+      "entryEndAt": "2026-09-02T23:59:00+08:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_run_it_hong_kong_2026_hong_kong"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.livenation.hk/event/stray-kids-world-tour-run-it-hong-kong--hong-kong-tickets-edp1691372",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_hong_kong_2026_trip",
+      "tourId": "stray_kids_run_it_hong_kong_2026",
+      "type": "Trip.com先行",
+      "entryStartAt": "2026-09-02T14:00:00+08:00",
+      "entryEndAt": "2026-09-02T23:59:00+08:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_run_it_hong_kong_2026_hong_kong"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.livenation.hk/event/stray-kids-world-tour-run-it-hong-kong--hong-kong-tickets-edp1691372",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_hong_kong_2026_ln",
+      "tourId": "stray_kids_run_it_hong_kong_2026",
+      "type": "Live Nation会員先行",
+      "entryStartAt": "2026-09-03T12:00:00+08:00",
+      "entryEndAt": "2026-09-03T23:59:00+08:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_run_it_hong_kong_2026_hong_kong"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.livenation.hk/event/stray-kids-world-tour-run-it-hong-kong--hong-kong-tickets-edp1691372",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_hong_kong_2026_general",
+      "tourId": "stray_kids_run_it_hong_kong_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-09-04T12:00:00+08:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_run_it_hong_kong_2026_hong_kong"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.livenation.hk/event/stray-kids-world-tour-run-it-hong-kong--hong-kong-tickets-edp1691372",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_taipei_2026_stay",
+      "tourId": "stray_kids_run_it_taipei_2026",
+      "type": "STAY会員先行",
+      "entryStartAt": "2026-09-15T09:00:00+08:00",
+      "entryEndAt": "2026-09-15T23:59:00+08:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_run_it_taipei_2026_taipei"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.livenation.com.tw/event/stray-kids-world-tour-run-it-taipei--taipei-tickets-edp1695879",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_taipei_2026_ln",
+      "tourId": "stray_kids_run_it_taipei_2026",
+      "type": "Live Nation先行",
+      "entryStartAt": "2026-09-16T11:00:00+08:00",
+      "entryEndAt": "2026-09-16T23:59:00+08:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_run_it_taipei_2026_taipei"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.livenation.com.tw/event/stray-kids-world-tour-run-it-taipei--taipei-tickets-edp1695879",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_taipei_2026_general",
+      "tourId": "stray_kids_run_it_taipei_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-09-17T11:00:00+08:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_run_it_taipei_2026_taipei"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.livenation.com.tw/event/stray-kids-world-tour-run-it-taipei--taipei-tickets-edp1695879",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_bangkok_2027_stay",
+      "tourId": "stray_kids_run_it_bangkok_2027",
+      "type": "STAY会員先行",
+      "entryStartAt": "2026-09-21T10:00:00+07:00",
+      "entryEndAt": "2026-09-21T22:00:00+07:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_run_it_bangkok_2027_bangkok_0116",
+        "stray_kids_run_it_bangkok_2027_bangkok_0117"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.livenationtero.co.th/event/stray-kids-world-tour-run-it-bangkok--bangkok-tickets-edp1692297",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_bangkok_2027_ln",
+      "tourId": "stray_kids_run_it_bangkok_2027",
+      "type": "Live Nation会員先行",
+      "entryStartAt": "2026-09-22T10:00:00+07:00",
+      "entryEndAt": "2026-09-22T22:00:00+07:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_run_it_bangkok_2027_bangkok_0116",
+        "stray_kids_run_it_bangkok_2027_bangkok_0117"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.livenationtero.co.th/event/stray-kids-world-tour-run-it-bangkok--bangkok-tickets-edp1692297",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_bangkok_2027_general",
+      "tourId": "stray_kids_run_it_bangkok_2027",
+      "type": "一般発売",
+      "entryStartAt": "2026-09-23T10:00:00+07:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_run_it_bangkok_2027_bangkok_0116",
+        "stray_kids_run_it_bangkok_2027_bangkok_0117"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.livenationtero.co.th/event/stray-kids-world-tour-run-it-bangkok--bangkok-tickets-edp1692297",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_run_it_singapore_2027_ln",
+      "tourId": "stray_kids_run_it_singapore_2027",
+      "type": "Live Nation会員先行",
+      "entryStartAt": "2026-09-01T10:00:00+08:00",
+      "entryEndAt": "2026-09-01T23:59:00+08:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_run_it_singapore_2027_singapore_0306",
+        "stray_kids_run_it_singapore_2027_singapore_0307"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.livenation.sg/event/stray-kids-world-tour-run-it-singapore--singapore-tickets-edp1692516",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "stray_kids_sbs_gayo_daejeon_2026_nol_unionpay_presale",
+      "tourId": "stray_kids_sbs_gayo_daejeon_2026",
+      "type": "NOL World 海外向けUnionPay先着（シャトル付きパッケージ）",
+      "entryStartAt": "2026-11-09T14:00:00+09:00",
+      "entryEndAt": "2026-11-10T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "stray_kids_sbs_gayo_daejeon_2026_25"
+      ],
+      "source": "system",
+      "sourceUrl": "https://world.nol.com/ticket/places/26000518/products/26015364",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

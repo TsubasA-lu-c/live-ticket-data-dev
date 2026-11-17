@@ -283,8 +283,8 @@
       "venue": "SangSang Madang（ソウル）",
       "performanceAt": "2027-01-09T18:30:00+09:00",
       "doorOpenAt": "2027-01-09T18:00:00+09:00",
-      "kind": "oneman",
-      "eventName": null,
+      "kind": "fes",
+      "eventName": "AOSAKA: kurayamisaka & parannoul",
       "source": "system",
       "sourceUrl": "https://kurayamisaka.com/live/",
       "lastVerifiedAt": "2026-10-31T18:39:12+09:00"
@@ -411,7 +411,8 @@
       "sourceUrl": "https://kurayamisaka.com/live/",
       "source": "system",
       "lastVerifiedAt": "2026-10-31T18:39:12+09:00",
-      "kindReviewed": true
+      "kindReviewed": true,
+      "note": "15:40はイベント全体の開演予定時刻です。"
     }
   ],
   "lotteries": [
@@ -534,6 +535,38 @@
       "sourceUrl": "https://countdownjapan.jp/2627/ticket/",
       "source": "system",
       "lastVerifiedAt": "2026-10-31T18:39:12+09:00"
+    },
+    {
+      "id": "kurayamisaka_countdown_japan_2627_official_resale_20261207",
+      "tourId": "kurayamisaka_countdown_japan_2627",
+      "type": "CDJ公式リセール（購入申込・抽選／12月31日券）",
+      "entryStartAt": "2026-12-07T16:00:00+09:00",
+      "entryEndAt": "2026-12-14T16:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kurayamisaka_countdown_japan_2627_1231"
+      ],
+      "source": "system",
+      "sourceUrl": "https://countdownjapan.jp/2627/news/5987/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "kurayamisaka_tte_doko_9_2026_seoul_yes24_20260917",
+      "tourId": "kurayamisaka_tte_doko_9_2026",
+      "type": "YES24 一般販売（韓国）",
+      "entryStartAt": "2026-09-17T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kurayamisaka_tte_doko_9_2026_seoul_0109"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.highjinkx.com/aosaka",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

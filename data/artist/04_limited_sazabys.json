@@ -6,7 +6,7 @@
       "artistId": "04_limited_sazabys",
       "title": "04 Limited Sazabys VIEW tour 2026",
       "startDate": "2026-10-02T00:00:00+09:00",
-      "endDate": "2026-11-05T00:00:00+09:00",
+      "endDate": "2026-11-16T00:00:00+09:00",
       "prices": [
         {
           "label": "スタンディング",
@@ -846,7 +846,8 @@
       "eventName": "COUNTDOWN JAPAN 26/27（04 Limited Sazabys出演）",
       "sourceUrl": "https://countdownjapan.jp/2627/artist/",
       "source": "system",
-      "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+      "lastVerifiedAt": "2026-11-07T00:00:00+09:00",
+      "note": "15:40はイベント全体の開演予定時刻です。"
     },
     {
       "id": "04_limited_sazabys_hype_like_it_2027_0124_performance",

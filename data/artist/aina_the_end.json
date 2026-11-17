@@ -337,7 +337,18 @@
       "title": "Spotify On Stage Tokyo 2026 -10th Anniversary Special-",
       "startDate": "2026-12-20T00:00:00+09:00",
       "endDate": "2026-12-20T00:00:00+09:00",
-      "prices": null,
+      "prices": [
+        {
+          "label": "アリーナVIP指定席",
+          "amount": 14000,
+          "currency": "JPY"
+        },
+        {
+          "label": "一般指定席",
+          "amount": 11000,
+          "currency": "JPY"
+        }
+      ],
       "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1136687",
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
@@ -713,9 +724,9 @@
       "id": "aina_the_end_radio_crazy_2026_osaka_1226",
       "tourId": "aina_the_end_radio_crazy_2026",
       "venue": "インテックス大阪",
-      "performanceAt": "2026-12-26T12:00:00+09:00",
+      "performanceAt": "2026-12-26T11:00:00+09:00",
       "performanceDate": "2026-12-26",
-      "performanceTimeEstimated": true,
+      "performanceTimeEstimated": false,
       "doorOpenAt": "2026-12-26T10:00:00+09:00",
       "kind": "fes",
       "eventName": "FM802 ROCK FESTIVAL RADIO CRAZY 2026",
@@ -740,29 +751,31 @@
       "id": "aina_the_end_spotify_stage_tokyo_2026_20261220",
       "tourId": "aina_the_end_spotify_stage_tokyo_2026",
       "performanceDate": "2026-12-20",
-      "performanceAt": "2026-12-20T12:00:00+09:00",
-      "performanceTimeEstimated": true,
-      "doorOpenAt": null,
+      "performanceAt": "2026-12-20T17:30:00+09:00",
+      "performanceTimeEstimated": false,
+      "doorOpenAt": "2026-12-20T16:30:00+09:00",
       "venue": "東京ガーデンシアター",
-      "kind": "taiban",
+      "kind": "fes",
       "eventName": "Spotify On Stage Tokyo 2026 -10th Anniversary Special-",
       "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1136687",
       "source": "system",
-      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z",
+      "note": "掲載時刻はイベント全体の開演時刻です。出演者ごとの出演時刻は未公表です。"
     },
     {
       "id": "aina_the_end_countdown_japan_2627_20261229",
       "tourId": "aina_the_end_countdown_japan_2627",
       "performanceDate": "2026-12-29",
       "performanceAt": "2026-12-29T12:00:00+09:00",
-      "performanceTimeEstimated": true,
-      "doorOpenAt": null,
+      "performanceTimeEstimated": false,
+      "doorOpenAt": "2026-12-29T09:30:00+09:00",
       "venue": "幕張メッセ国際展示場1～11ホール・イベントホール",
       "kind": "fes",
       "eventName": "COUNTDOWN JAPAN 26/27",
       "sourceUrl": "https://www.ainatheend.jp/news/detail.php?id=1136630",
       "source": "system",
-      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z",
+      "note": "12:00はイベント全体の開演予定時刻です。"
     },
     {
       "id": "aina_the_end_matsuri_2027_bangkok_20270213",
@@ -1722,6 +1735,54 @@
       "sourceUrl": "https://ainatheend.jp/news/detail.php?id=1136806",
       "source": "system",
       "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_spotify_on_stage_general_20261110",
+      "tourId": "aina_the_end_spotify_stage_tokyo_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-11-10T10:00:00+09:00",
+      "entryEndAt": "2026-12-19T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aina_the_end_spotify_stage_tokyo_2026_20261220"
+      ],
+      "source": "system",
+      "sourceUrl": "https://spotifynewsroom.jp/2026-10-16/spotify-on-stage-tokyo-2026/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_fukuoka_music_fes_2027_official_3rd_20261027",
+      "tourId": "aina_the_end_fukuoka_music_fes_2027",
+      "type": "オフィシャル3次先行（抽選・1/30公演）",
+      "entryStartAt": "2026-10-27T18:00:00+09:00",
+      "entryEndAt": "2026-11-08T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aina_the_end_fukuoka_music_fes_2027_0130"
+      ],
+      "source": "system",
+      "sourceUrl": "https://fukuokamusic-fes.com/2027/index.html",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "aina_the_end_countdown_japan_2627_official_resale_20261207",
+      "tourId": "aina_the_end_countdown_japan_2627",
+      "type": "CDJ公式リセール（購入申込・抽選／12月29日券）",
+      "entryStartAt": "2026-12-07T16:00:00+09:00",
+      "entryEndAt": "2026-12-14T16:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aina_the_end_countdown_japan_2627_20261229"
+      ],
+      "source": "system",
+      "sourceUrl": "https://countdownjapan.jp/2627/news/5987/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

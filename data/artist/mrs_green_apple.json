@@ -248,7 +248,8 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00",
+      "eventStatus": "postponed"
     },
     {
       "id": "mrs_green_apple_ringojam_shadows_2026_nagano_1119",
@@ -260,7 +261,8 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-08-17T23:36:00+09:00"
+      "lastVerifiedAt": "2026-08-17T23:36:00+09:00",
+      "eventStatus": "postponed"
     },
     {
       "id": "mrs_green_apple_ringojam_shadows_2026_chiba2_1128",
@@ -1131,6 +1133,41 @@
       ],
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
       "source": "system"
+    },
+    {
+      "id": "mrs_green_apple_harmony2_2027_ringojam_all_members_nov11",
+      "tourId": "mrs_green_apple_harmony2_2027",
+      "type": "Ringo Jam 全会員先行（抽選）",
+      "entryStartAt": "2026-11-11T20:00:00+09:00",
+      "entryEndAt": "2026-11-23T23:59:00+09:00",
+      "resultAt": "2026-12-05T20:00:00+09:00",
+      "paymentStartAt": "2026-12-05T20:00:00+09:00",
+      "paymentEndAt": "2026-12-09T23:59:00+09:00",
+      "performanceIds": [
+        "mrs_green_apple_harmony2_2027_yokohama_0220",
+        "mrs_green_apple_harmony2_2027_yokohama_0221",
+        "mrs_green_apple_harmony2_2027_yokohama_0227",
+        "mrs_green_apple_harmony2_2027_yokohama_0228",
+        "mrs_green_apple_harmony2_2027_yokohama_0306",
+        "mrs_green_apple_harmony2_2027_yokohama_0307",
+        "mrs_green_apple_harmony2_2027_yokohama_0310",
+        "mrs_green_apple_harmony2_2027_yokohama_0311",
+        "mrs_green_apple_harmony2_2027_yokohama_0316",
+        "mrs_green_apple_harmony2_2027_yokohama_0317",
+        "mrs_green_apple_harmony2_2027_yokohama_0421",
+        "mrs_green_apple_harmony2_2027_yokohama_0422",
+        "mrs_green_apple_harmony2_2027_yokohama_0508",
+        "mrs_green_apple_harmony2_2027_yokohama_0509",
+        "mrs_green_apple_harmony2_2027_yokohama_0512",
+        "mrs_green_apple_harmony2_2027_yokohama_0513",
+        "mrs_green_apple_harmony2_2027_yokohama_0518",
+        "mrs_green_apple_harmony2_2027_yokohama_0519",
+        "mrs_green_apple_harmony2_2027_yokohama_0601",
+        "mrs_green_apple_harmony2_2027_yokohama_0602"
+      ],
+      "source": "system",
+      "sourceUrl": "https://mrsgreenapple.com/news/detail/23363",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

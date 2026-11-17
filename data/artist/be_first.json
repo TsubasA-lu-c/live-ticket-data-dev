@@ -476,7 +476,7 @@
       "tourId": "be_first_gate3_2026_75772f3f",
       "type": "チケット先行予約（抽選）",
       "entryStartAt": "2026-10-01T12:00:00+09:00",
-      "entryEndAt": null,
+      "entryEndAt": "2026-10-12T23:59:00+09:00",
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
@@ -671,6 +671,22 @@
       "tourId": "be_first_dome_tour_2027",
       "paymentStartAt": null,
       "paymentEndAt": null
+    },
+    {
+      "id": "be_first_uverworld_vs_2026_nsw_2nd_20261018",
+      "tourId": "be_first_gate3_2026_75772f3f",
+      "type": "UVERworld NSW会員2次先行（抽選）",
+      "entryStartAt": "2026-10-18T12:00:00+09:00",
+      "entryEndAt": "2026-10-25T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "be_first_gate3_2026_75772f3f_20261226_01"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.uverworld.jp/news/detail/3231",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

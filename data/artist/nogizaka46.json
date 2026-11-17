@@ -132,6 +132,54 @@
       "sourceUrl": "https://www.nogizaka46.com/s/n46/page/underlive",
       "source": "system",
       "lastVerifiedAt": "2026-10-31T15:18:53.103+09:00"
+    },
+    {
+      "id": "nogizaka46_appreciation_festival_2026",
+      "artistId": "nogizaka46",
+      "title": "乃木坂46 大感謝祭2026",
+      "startDate": "2026-12-19T00:00:00+09:00",
+      "endDate": "2026-12-19T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "のぎ動画 アリーナ指定",
+          "amount": 15800
+        },
+        {
+          "label": "指定席",
+          "amount": 9800
+        },
+        {
+          "label": "親子・女性エリア",
+          "amount": 9800
+        },
+        {
+          "label": "注釈付指定席",
+          "amount": 8800
+        },
+        {
+          "label": "注釈付立見",
+          "amount": 8500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102412",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_star_tanjo_six_live_2027",
+      "artistId": "nogizaka46",
+      "title": "乃木坂スター誕生！SIX LIVE",
+      "startDate": "2027-01-16T00:00:00+09:00",
+      "endDate": "2027-01-17T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 9900
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102395",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "performances": [
@@ -504,16 +552,17 @@
     {
       "id": "nogizaka46_gift_2026_day3_1129",
       "tourId": "nogizaka46_gift_2026",
-      "venue": "SGCホール有明 / TOYOTA ARENA TOKYO",
-      "performanceAt": "2026-11-29T12:00:00+09:00",
-      "doorOpenAt": null,
+      "venue": null,
+      "performanceAt": "2026-11-29T13:00:00+09:00",
+      "doorOpenAt": "2026-11-29T11:30:00+09:00",
       "source": "system",
       "sourceUrl": "https://gift-idol.jp/",
       "lastVerifiedAt": "2026-09-12T00:00:00+09:00",
       "kind": "fes",
-      "performanceTimeEstimated": true,
+      "performanceTimeEstimated": false,
       "performanceDate": "2026-11-29",
-      "eventName": "GIFT〜Girls Idol Festival Tokyo〜"
+      "eventName": "GIFT〜Girls Idol Festival Tokyo〜",
+      "note": "13:00はイベント全体の開演予定時刻です。"
     },
     {
       "id": "nogizaka46_event_2026_sixth_gen_zennyasai_saitama_1025",
@@ -615,6 +664,45 @@
       "eventName": "乃木坂46 6期生全国ツアー2026 FINAL!",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/page/6thgen_tour2026",
       "source": "system"
+    },
+    {
+      "id": "nogizaka46_appreciation_festival_2026_20261219",
+      "tourId": "nogizaka46_appreciation_festival_2026",
+      "performanceDate": "2026-12-19",
+      "performanceAt": "2026-12-19T17:30:00+09:00",
+      "doorOpenAt": "2026-12-19T16:00:00+09:00",
+      "venue": "日本武道館",
+      "kind": "oneman",
+      "eventName": "乃木坂46 大感謝祭2026",
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102391",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_star_tanjo_six_live_2027_20270116",
+      "tourId": "nogizaka46_star_tanjo_six_live_2027",
+      "performanceDate": "2027-01-16",
+      "performanceAt": "2027-01-16T18:00:00+09:00",
+      "doorOpenAt": "2027-01-16T16:30:00+09:00",
+      "venue": "有明アリーナ",
+      "kind": "oneman",
+      "eventName": "乃木坂スター誕生！SIX LIVE",
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102395",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_star_tanjo_six_live_2027_20270117",
+      "tourId": "nogizaka46_star_tanjo_six_live_2027",
+      "performanceDate": "2027-01-17",
+      "performanceAt": "2027-01-17T18:00:00+09:00",
+      "doorOpenAt": "2027-01-17T16:30:00+09:00",
+      "venue": "有明アリーナ",
+      "kind": "oneman",
+      "eventName": "乃木坂スター誕生！SIX LIVE",
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102395",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1290,6 +1378,252 @@
       ],
       "sourceUrl": "https://www.nogizaka46.com/s/n46/page/underlive",
       "source": "system"
+    },
+    {
+      "id": "nogizaka46_6th_gen_final_2026_mobile_second_nov14",
+      "tourId": "nogizaka46_6th_gen_nationwide_tour_2026",
+      "type": "乃木坂46モバイル会員2次先行",
+      "entryStartAt": "2026-11-14T12:00:00+09:00",
+      "entryEndAt": "2026-11-22T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nogizaka46_6th_gen_nationwide_tour_2026_final_1216"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102409",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_6th_gen_final_2026_nogidoga_nov14",
+      "tourId": "nogizaka46_6th_gen_nationwide_tour_2026",
+      "type": "のぎ動画先行",
+      "entryStartAt": "2026-11-14T12:00:00+09:00",
+      "entryEndAt": "2026-11-22T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nogizaka46_6th_gen_nationwide_tour_2026_final_1216"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102409",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_6th_gen_final_2026_mail_nov14",
+      "tourId": "nogizaka46_6th_gen_nationwide_tour_2026",
+      "type": "メール会員先行",
+      "entryStartAt": "2026-11-14T12:00:00+09:00",
+      "entryEndAt": "2026-11-22T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nogizaka46_6th_gen_nationwide_tour_2026_final_1216"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102409",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_6th_gen_final_2026_message_nov14",
+      "tourId": "nogizaka46_6th_gen_nationwide_tour_2026",
+      "type": "メッセージアプリ先行",
+      "entryStartAt": "2026-11-14T12:00:00+09:00",
+      "entryEndAt": "2026-11-22T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nogizaka46_6th_gen_nationwide_tour_2026_final_1216"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102409",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_43rd_under_live_2026_mobile_second_nov14",
+      "tourId": "nogizaka46_43rd_under_live_2026",
+      "type": "乃木坂46モバイル会員2次先行",
+      "entryStartAt": "2026-11-14T12:00:00+09:00",
+      "entryEndAt": "2026-11-22T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nogizaka46_43rd_under_live_2026_17",
+        "nogizaka46_43rd_under_live_2026_18"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102410",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_43rd_under_live_2026_nogidoga_nov14",
+      "tourId": "nogizaka46_43rd_under_live_2026",
+      "type": "のぎ動画先行",
+      "entryStartAt": "2026-11-14T12:00:00+09:00",
+      "entryEndAt": "2026-11-22T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nogizaka46_43rd_under_live_2026_17",
+        "nogizaka46_43rd_under_live_2026_18"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102410",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_43rd_under_live_2026_mail_nov14",
+      "tourId": "nogizaka46_43rd_under_live_2026",
+      "type": "メール会員先行",
+      "entryStartAt": "2026-11-14T12:00:00+09:00",
+      "entryEndAt": "2026-11-22T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nogizaka46_43rd_under_live_2026_17",
+        "nogizaka46_43rd_under_live_2026_18"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102410",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_43rd_under_live_2026_message_nov14",
+      "tourId": "nogizaka46_43rd_under_live_2026",
+      "type": "メッセージアプリ先行",
+      "entryStartAt": "2026-11-14T12:00:00+09:00",
+      "entryEndAt": "2026-11-22T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nogizaka46_43rd_under_live_2026_17",
+        "nogizaka46_43rd_under_live_2026_18"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102410",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_gift_2026_second_2026",
+      "tourId": "nogizaka46_gift_2026",
+      "type": "2次先行（抽選）",
+      "entryStartAt": "2026-09-05T12:00:00+09:00",
+      "entryEndAt": "2026-09-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nogizaka46_gift_2026_day3_1129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.gift-idol.jp/ticket.html",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_gift_2026_third_2026",
+      "tourId": "nogizaka46_gift_2026",
+      "type": "3次先行（先着）",
+      "entryStartAt": "2026-09-19T12:00:00+09:00",
+      "entryEndAt": "2026-09-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nogizaka46_gift_2026_day3_1129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.gift-idol.jp/ticket.html",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_gift_2026_general_day29_2026",
+      "tourId": "nogizaka46_gift_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-10-03T10:00:00+09:00",
+      "entryEndAt": "2026-11-28T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nogizaka46_gift_2026_day3_1129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.gift-idol.jp/ticket.html",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_appreciation_festival_2026_mobile",
+      "tourId": "nogizaka46_appreciation_festival_2026",
+      "type": "モバイル会員先行（抽選）",
+      "entryStartAt": "2026-11-15T12:00:00+09:00",
+      "entryEndAt": "2026-11-22T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nogizaka46_appreciation_festival_2026_20261219"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102412",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_appreciation_festival_2026_nogidoga",
+      "tourId": "nogizaka46_appreciation_festival_2026",
+      "type": "のぎ動画プレミアムシート先行（抽選）",
+      "entryStartAt": "2026-11-15T12:00:00+09:00",
+      "entryEndAt": "2026-11-22T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nogizaka46_appreciation_festival_2026_20261219"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102412",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_star_tanjo_six_live_2027_mobile_first",
+      "tourId": "nogizaka46_star_tanjo_six_live_2027",
+      "type": "モバイル会員先行（抽選）",
+      "entryStartAt": "2026-11-10T12:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nogizaka46_star_tanjo_six_live_2027_20270116",
+        "nogizaka46_star_tanjo_six_live_2027_20270117"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102395",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_star_tanjo_six_live_2027_mobile_second",
+      "tourId": "nogizaka46_star_tanjo_six_live_2027",
+      "type": "モバイル会員2次先行（抽選）",
+      "entryStartAt": "2026-11-17T12:00:00+09:00",
+      "entryEndAt": "2026-11-24T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nogizaka46_star_tanjo_six_live_2027_20270116",
+        "nogizaka46_star_tanjo_six_live_2027_20270117"
+      ],
+      "source": "system",
+      "sourceUrl": "https://nogistarlive.jp/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

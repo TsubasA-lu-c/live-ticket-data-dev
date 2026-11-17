@@ -112,10 +112,10 @@
       "id": "bts_world_tour_arirang_global_2026_2027_kaohsiung_1119",
       "tourId": "bts_world_tour_arirang_global_2026_2027",
       "venue": "Kaohsiung National Stadium",
-      "performanceAt": "2026-11-19T12:00:00+08:00",
+      "performanceAt": "2026-11-19T19:00:00+08:00",
       "performanceDate": "2026-11-19",
-      "performanceTimeEstimated": true,
-      "doorOpenAt": null,
+      "performanceTimeEstimated": false,
+      "doorOpenAt": "2026-11-19T16:30:00+08:00",
       "kind": "oneman",
       "eventName": "BTS WORLD TOUR 'ARIRANG'",
       "source": "system",
@@ -126,10 +126,10 @@
       "id": "bts_world_tour_arirang_global_2026_2027_kaohsiung_1121",
       "tourId": "bts_world_tour_arirang_global_2026_2027",
       "venue": "Kaohsiung National Stadium",
-      "performanceAt": "2026-11-21T12:00:00+08:00",
+      "performanceAt": "2026-11-21T19:00:00+08:00",
       "performanceDate": "2026-11-21",
-      "performanceTimeEstimated": true,
-      "doorOpenAt": null,
+      "performanceTimeEstimated": false,
+      "doorOpenAt": "2026-11-21T16:30:00+08:00",
       "kind": "oneman",
       "eventName": "BTS WORLD TOUR 'ARIRANG'",
       "source": "system",
@@ -140,10 +140,10 @@
       "id": "bts_world_tour_arirang_global_2026_2027_kaohsiung_1122",
       "tourId": "bts_world_tour_arirang_global_2026_2027",
       "venue": "Kaohsiung National Stadium",
-      "performanceAt": "2026-11-22T12:00:00+08:00",
+      "performanceAt": "2026-11-22T19:00:00+08:00",
       "performanceDate": "2026-11-22",
-      "performanceTimeEstimated": true,
-      "doorOpenAt": null,
+      "performanceTimeEstimated": false,
+      "doorOpenAt": "2026-11-22T16:30:00+08:00",
       "kind": "oneman",
       "eventName": "BTS WORLD TOUR 'ARIRANG'",
       "source": "system",
@@ -196,9 +196,9 @@
       "id": "bts_world_tour_arirang_global_2026_2027_kuala_lumpur_1212",
       "tourId": "bts_world_tour_arirang_global_2026_2027",
       "venue": "TM Stadium Nasional",
-      "performanceAt": "2026-12-12T12:00:00+08:00",
+      "performanceAt": "2026-12-12T19:30:00+08:00",
       "performanceDate": "2026-12-12",
-      "performanceTimeEstimated": true,
+      "performanceTimeEstimated": false,
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": "BTS WORLD TOUR 'ARIRANG'",
@@ -210,9 +210,9 @@
       "id": "bts_world_tour_arirang_global_2026_2027_kuala_lumpur_1213",
       "tourId": "bts_world_tour_arirang_global_2026_2027",
       "venue": "TM Stadium Nasional",
-      "performanceAt": "2026-12-13T12:00:00+08:00",
+      "performanceAt": "2026-12-13T19:30:00+08:00",
       "performanceDate": "2026-12-13",
-      "performanceTimeEstimated": true,
+      "performanceTimeEstimated": false,
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": "BTS WORLD TOUR 'ARIRANG'",
@@ -266,10 +266,10 @@
       "id": "bts_world_tour_arirang_global_2026_2027_melbourne_au_0212",
       "tourId": "bts_world_tour_arirang_global_2026_2027",
       "venue": "Marvel Stadium",
-      "performanceAt": "2027-02-12T12:00:00+11:00",
+      "performanceAt": "2027-02-12T20:00:00+11:00",
       "performanceDate": "2027-02-12",
-      "performanceTimeEstimated": true,
-      "doorOpenAt": null,
+      "performanceTimeEstimated": false,
+      "doorOpenAt": "2027-02-12T17:00:00+11:00",
       "kind": "oneman",
       "eventName": "BTS WORLD TOUR 'ARIRANG'",
       "source": "system",
@@ -280,10 +280,10 @@
       "id": "bts_world_tour_arirang_global_2026_2027_melbourne_au_0213",
       "tourId": "bts_world_tour_arirang_global_2026_2027",
       "venue": "Marvel Stadium",
-      "performanceAt": "2027-02-13T12:00:00+11:00",
+      "performanceAt": "2027-02-13T20:00:00+11:00",
       "performanceDate": "2027-02-13",
-      "performanceTimeEstimated": true,
-      "doorOpenAt": null,
+      "performanceTimeEstimated": false,
+      "doorOpenAt": "2027-02-13T17:00:00+11:00",
       "kind": "oneman",
       "eventName": "BTS WORLD TOUR 'ARIRANG'",
       "source": "system",
@@ -294,10 +294,10 @@
       "id": "bts_world_tour_arirang_global_2026_2027_sydney_au_0220",
       "tourId": "bts_world_tour_arirang_global_2026_2027",
       "venue": "Accor Stadium",
-      "performanceAt": "2027-02-20T12:00:00+11:00",
+      "performanceAt": "2027-02-20T20:00:00+11:00",
       "performanceDate": "2027-02-20",
-      "performanceTimeEstimated": true,
-      "doorOpenAt": null,
+      "performanceTimeEstimated": false,
+      "doorOpenAt": "2027-02-20T17:00:00+11:00",
       "kind": "oneman",
       "eventName": "BTS WORLD TOUR 'ARIRANG'",
       "source": "system",
@@ -308,10 +308,10 @@
       "id": "bts_world_tour_arirang_global_2026_2027_sydney_au_0221",
       "tourId": "bts_world_tour_arirang_global_2026_2027",
       "venue": "Accor Stadium",
-      "performanceAt": "2027-02-21T12:00:00+11:00",
+      "performanceAt": "2027-02-21T20:00:00+11:00",
       "performanceDate": "2027-02-21",
-      "performanceTimeEstimated": true,
-      "doorOpenAt": null,
+      "performanceTimeEstimated": false,
+      "doorOpenAt": "2027-02-21T17:00:00+11:00",
       "kind": "oneman",
       "eventName": "BTS WORLD TOUR 'ARIRANG'",
       "source": "system",
@@ -322,9 +322,9 @@
       "id": "bts_world_tour_arirang_global_2026_2027_hong_kong_0304",
       "tourId": "bts_world_tour_arirang_global_2026_2027",
       "venue": "Kai Tak Stadium",
-      "performanceAt": "2027-03-04T12:00:00+08:00",
+      "performanceAt": "2027-03-04T19:30:00+08:00",
       "performanceDate": "2027-03-04",
-      "performanceTimeEstimated": true,
+      "performanceTimeEstimated": false,
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": "BTS WORLD TOUR 'ARIRANG'",
@@ -336,9 +336,9 @@
       "id": "bts_world_tour_arirang_global_2026_2027_hong_kong_0306",
       "tourId": "bts_world_tour_arirang_global_2026_2027",
       "venue": "Kai Tak Stadium",
-      "performanceAt": "2027-03-06T12:00:00+08:00",
+      "performanceAt": "2027-03-06T19:30:00+08:00",
       "performanceDate": "2027-03-06",
-      "performanceTimeEstimated": true,
+      "performanceTimeEstimated": false,
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": "BTS WORLD TOUR 'ARIRANG'",
@@ -350,9 +350,9 @@
       "id": "bts_world_tour_arirang_global_2026_2027_hong_kong_0307",
       "tourId": "bts_world_tour_arirang_global_2026_2027",
       "venue": "Kai Tak Stadium",
-      "performanceAt": "2027-03-07T12:00:00+08:00",
+      "performanceAt": "2027-03-07T19:30:00+08:00",
       "performanceDate": "2027-03-07",
-      "performanceTimeEstimated": true,
+      "performanceTimeEstimated": false,
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": "BTS WORLD TOUR 'ARIRANG'",
@@ -1022,14 +1022,15 @@
       "id": "bts_world_tour_arirang_global_2026_2027_melbourne_au_0210",
       "tourId": "bts_world_tour_arirang_global_2026_2027",
       "performanceDate": "2027-02-10",
-      "performanceAt": "2027-02-10T17:00:00+11:00",
-      "doorOpenAt": null,
+      "performanceAt": "2027-02-10T20:00:00+11:00",
+      "doorOpenAt": "2027-02-10T17:00:00+11:00",
       "venue": "Marvel Stadium",
       "kind": "oneman",
       "eventName": "BTS WORLD TOUR 'ARIRANG'",
       "sourceUrl": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-melbourne-docklands-10-02-2027/event/250064BBD99DD435",
       "source": "system",
-      "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
+      "lastVerifiedAt": "2026-10-10T20:24:16+09:00",
+      "performanceTimeEstimated": false
     }
   ],
   "lotteries": [
@@ -1218,6 +1219,7 @@
       "paymentStartAt": null,
       "paymentEndAt": null,
       "performanceIds": [
+        "bts_world_tour_arirang_global_2026_2027_melbourne_au_0210",
         "bts_world_tour_arirang_global_2026_2027_melbourne_au_0212",
         "bts_world_tour_arirang_global_2026_2027_melbourne_au_0213"
       ],
@@ -1309,6 +1311,529 @@
       "sourceUrl": "https://www.ticketmaster.com.au/bts-world-tour-arirang-in-melbourne-docklands-10-02-2027/event/250064BBD99DD435",
       "source": "system",
       "lastVerifiedAt": "2026-10-10T20:24:16+09:00"
+    },
+    {
+      "id": "bts_arirang_jakarta_additional_20260619_member",
+      "tourId": "bts_world_tour_arirang_global_2026_2027",
+      "type": "ARMY MEMBERSHIP 追加公演先行",
+      "entryStartAt": "2026-06-19T12:00:00+07:00",
+      "entryEndAt": "2026-06-19T22:00:00+07:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_global_2026_2027_jakarta_1229"
+      ],
+      "source": "system",
+      "sourceUrl": "https://weverse.io/bts/notice/36777",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_jakarta_additional_20260620_general",
+      "tourId": "bts_world_tour_arirang_global_2026_2027",
+      "type": "追加公演一般発売",
+      "entryStartAt": "2026-06-20T12:00:00+07:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_global_2026_2027_jakarta_1229"
+      ],
+      "source": "system",
+      "sourceUrl": "https://weverse.io/bts/notice/36777",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_bulacan_additional_20260619_member",
+      "tourId": "bts_world_tour_arirang_global_2026_2027",
+      "type": "ARMY MEMBERSHIP 追加公演先行",
+      "entryStartAt": "2026-06-19T09:00:00+08:00",
+      "entryEndAt": "2026-06-19T22:00:00+08:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_global_2026_2027_bulacan_0316"
+      ],
+      "source": "system",
+      "sourceUrl": "https://weverse.io/bts/notice/36777",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_bulacan_additional_20260620_general",
+      "tourId": "bts_world_tour_arirang_global_2026_2027",
+      "type": "追加公演一般発売",
+      "entryStartAt": "2026-06-20T09:00:00+08:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_global_2026_2027_bulacan_0316"
+      ],
+      "source": "system",
+      "sourceUrl": "https://weverse.io/bts/notice/36777",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_melbourne_original_20260602_member",
+      "tourId": "bts_world_tour_arirang_global_2026_2027",
+      "type": "ARMY MEMBERSHIP先行",
+      "entryStartAt": "2026-06-02T10:00:00+10:00",
+      "entryEndAt": "2026-06-04T09:00:00+10:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_global_2026_2027_melbourne_au_0212",
+        "bts_world_tour_arirang_global_2026_2027_melbourne_au_0213"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.livenation.com.au/bts-tickets-adp830746",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_melbourne_original_20260604_general",
+      "tourId": "bts_world_tour_arirang_global_2026_2027",
+      "type": "一般発売",
+      "entryStartAt": "2026-06-04T10:00:00+10:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_global_2026_2027_melbourne_au_0212",
+        "bts_world_tour_arirang_global_2026_2027_melbourne_au_0213"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.livenation.com.au/bts-tickets-adp830746",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_sydney_original_20260602_member",
+      "tourId": "bts_world_tour_arirang_global_2026_2027",
+      "type": "ARMY MEMBERSHIP先行",
+      "entryStartAt": "2026-06-02T13:00:00+10:00",
+      "entryEndAt": "2026-06-04T09:00:00+10:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_global_2026_2027_sydney_au_0220",
+        "bts_world_tour_arirang_global_2026_2027_sydney_au_0221"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.livenation.com.au/bts-tickets-adp830746",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_sydney_original_20260604_general",
+      "tourId": "bts_world_tour_arirang_global_2026_2027",
+      "type": "一般発売",
+      "entryStartAt": "2026-06-04T13:00:00+10:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_global_2026_2027_sydney_au_0220",
+        "bts_world_tour_arirang_global_2026_2027_sydney_au_0221"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.livenation.com.au/bts-tickets-adp830746",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_singapore_2026_20260603_army",
+      "tourId": "bts_world_tour_arirang_singapore_2026",
+      "type": "ARMY MEMBERSHIP先行",
+      "entryStartAt": "2026-06-03T12:00:00+08:00",
+      "entryEndAt": "2026-06-03T22:00:00+08:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_singapore_2026_1217",
+        "bts_world_tour_arirang_singapore_2026_1219",
+        "bts_world_tour_arirang_singapore_2026_1220",
+        "bts_world_tour_arirang_singapore_2026_1222"
+      ],
+      "source": "system",
+      "sourceUrl": "https://main.login.ticketmaster.sg/activity/detail/26sg_bts",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_singapore_2026_20260604_livenation",
+      "tourId": "bts_world_tour_arirang_singapore_2026",
+      "type": "Live Nation会員先行",
+      "entryStartAt": "2026-06-04T12:00:00+08:00",
+      "entryEndAt": "2026-06-04T22:00:00+08:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_singapore_2026_1217",
+        "bts_world_tour_arirang_singapore_2026_1219",
+        "bts_world_tour_arirang_singapore_2026_1220",
+        "bts_world_tour_arirang_singapore_2026_1222"
+      ],
+      "source": "system",
+      "sourceUrl": "https://main.login.ticketmaster.sg/activity/detail/26sg_bts",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_singapore_2026_20260605_general",
+      "tourId": "bts_world_tour_arirang_singapore_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-06-05T12:00:00+08:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_singapore_2026_1217",
+        "bts_world_tour_arirang_singapore_2026_1219",
+        "bts_world_tour_arirang_singapore_2026_1220",
+        "bts_world_tour_arirang_singapore_2026_1222"
+      ],
+      "source": "system",
+      "sourceUrl": "https://main.login.ticketmaster.sg/activity/detail/26sg_bts",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_kaohsiung_20260602_army",
+      "tourId": "bts_world_tour_arirang_global_2026_2027",
+      "type": "ARMY MEMBERSHIP先行",
+      "entryStartAt": "2026-06-02T12:00:00+08:00",
+      "entryEndAt": "2026-06-02T22:00:00+08:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_global_2026_2027_kaohsiung_1119",
+        "bts_world_tour_arirang_global_2026_2027_kaohsiung_1121",
+        "bts_world_tour_arirang_global_2026_2027_kaohsiung_1122"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_btskns",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_kaohsiung_20260603_livenation",
+      "tourId": "bts_world_tour_arirang_global_2026_2027",
+      "type": "Live Nation会員先行",
+      "entryStartAt": "2026-06-03T12:00:00+08:00",
+      "entryEndAt": "2026-06-03T22:00:00+08:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_global_2026_2027_kaohsiung_1119",
+        "bts_world_tour_arirang_global_2026_2027_kaohsiung_1121",
+        "bts_world_tour_arirang_global_2026_2027_kaohsiung_1122"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_btskns",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_kaohsiung_20260604_general",
+      "tourId": "bts_world_tour_arirang_global_2026_2027",
+      "type": "一般発売",
+      "entryStartAt": "2026-06-04T12:00:00+08:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_global_2026_2027_kaohsiung_1119",
+        "bts_world_tour_arirang_global_2026_2027_kaohsiung_1121",
+        "bts_world_tour_arirang_global_2026_2027_kaohsiung_1122"
+      ],
+      "source": "system",
+      "sourceUrl": "https://tixcraft.com/activity/detail/26_btskns",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_kuala_lumpur_20260603_army",
+      "tourId": "bts_world_tour_arirang_global_2026_2027",
+      "type": "ARMY MEMBERSHIP先行",
+      "entryStartAt": "2026-06-03T11:00:00+08:00",
+      "entryEndAt": "2026-06-03T22:00:00+08:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_global_2026_2027_kuala_lumpur_1212",
+        "bts_world_tour_arirang_global_2026_2027_kuala_lumpur_1213"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.livenation.my/event/bts-world-tour-arirang-in-kuala-lumpur-kuala-lumpur-tickets-edp1675786",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_kuala_lumpur_20260604_trip",
+      "tourId": "bts_world_tour_arirang_global_2026_2027",
+      "type": "Trip.com先行",
+      "entryStartAt": "2026-06-04T09:00:00+08:00",
+      "entryEndAt": "2026-06-04T23:59:00+08:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_global_2026_2027_kuala_lumpur_1212",
+        "bts_world_tour_arirang_global_2026_2027_kuala_lumpur_1213"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.livenation.my/event/bts-world-tour-arirang-in-kuala-lumpur-kuala-lumpur-tickets-edp1675786",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_kuala_lumpur_20260604_livenation",
+      "tourId": "bts_world_tour_arirang_global_2026_2027",
+      "type": "Live Nation会員先行",
+      "entryStartAt": "2026-06-04T11:00:00+08:00",
+      "entryEndAt": "2026-06-04T22:00:00+08:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_global_2026_2027_kuala_lumpur_1212",
+        "bts_world_tour_arirang_global_2026_2027_kuala_lumpur_1213"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.livenation.my/event/bts-world-tour-arirang-in-kuala-lumpur-kuala-lumpur-tickets-edp1675786",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_kuala_lumpur_20260605_general",
+      "tourId": "bts_world_tour_arirang_global_2026_2027",
+      "type": "一般発売",
+      "entryStartAt": "2026-06-05T11:00:00+08:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_global_2026_2027_kuala_lumpur_1212",
+        "bts_world_tour_arirang_global_2026_2027_kuala_lumpur_1213"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.livenation.my/event/bts-world-tour-arirang-in-kuala-lumpur-kuala-lumpur-tickets-edp1675786",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_hong_kong_20260609_army",
+      "tourId": "bts_world_tour_arirang_global_2026_2027",
+      "type": "ARMY MEMBERSHIP先行",
+      "entryStartAt": "2026-06-09T11:00:00+08:00",
+      "entryEndAt": "2026-06-09T22:00:00+08:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_global_2026_2027_hong_kong_0304",
+        "bts_world_tour_arirang_global_2026_2027_hong_kong_0306",
+        "bts_world_tour_arirang_global_2026_2027_hong_kong_0307"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.livenation.hk/en/event/bts-world-tour-arirang-in-hong-kong-hong-kong-tickets-edp1675688",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_hong_kong_20260610_trip",
+      "tourId": "bts_world_tour_arirang_global_2026_2027",
+      "type": "Trip.com先行",
+      "entryStartAt": "2026-06-10T10:00:00+08:00",
+      "entryEndAt": "2026-06-10T23:59:00+08:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_global_2026_2027_hong_kong_0304",
+        "bts_world_tour_arirang_global_2026_2027_hong_kong_0306",
+        "bts_world_tour_arirang_global_2026_2027_hong_kong_0307"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.livenation.hk/en/event/bts-world-tour-arirang-in-hong-kong-hong-kong-tickets-edp1675688",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_hong_kong_20260610_livenation",
+      "tourId": "bts_world_tour_arirang_global_2026_2027",
+      "type": "Live Nation会員先行",
+      "entryStartAt": "2026-06-10T11:00:00+08:00",
+      "entryEndAt": "2026-06-10T22:00:00+08:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_global_2026_2027_hong_kong_0304",
+        "bts_world_tour_arirang_global_2026_2027_hong_kong_0306",
+        "bts_world_tour_arirang_global_2026_2027_hong_kong_0307"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.livenation.hk/en/event/bts-world-tour-arirang-in-hong-kong-hong-kong-tickets-edp1675688",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_hong_kong_20260611_general",
+      "tourId": "bts_world_tour_arirang_global_2026_2027",
+      "type": "一般発売",
+      "entryStartAt": "2026-06-11T11:00:00+08:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_global_2026_2027_hong_kong_0304",
+        "bts_world_tour_arirang_global_2026_2027_hong_kong_0306",
+        "bts_world_tour_arirang_global_2026_2027_hong_kong_0307"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.livenation.hk/en/event/bts-world-tour-arirang-in-hong-kong-hong-kong-tickets-edp1675688",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_bangkok_original_20260609_army",
+      "tourId": "bts_world_tour_arirang_global_2026_2027",
+      "type": "ARMY MEMBERSHIP先行",
+      "entryStartAt": "2026-06-09T10:00:00+07:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_global_2026_2027_bangkok_1203",
+        "bts_world_tour_arirang_global_2026_2027_bangkok_1205",
+        "bts_world_tour_arirang_global_2026_2027_bangkok_1206"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.btsworldtourofficial.com/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_bangkok_original_20260611_general",
+      "tourId": "bts_world_tour_arirang_global_2026_2027",
+      "type": "一般発売",
+      "entryStartAt": "2026-06-11T10:00:00+07:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_global_2026_2027_bangkok_1203",
+        "bts_world_tour_arirang_global_2026_2027_bangkok_1205",
+        "bts_world_tour_arirang_global_2026_2027_bangkok_1206"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.btsworldtourofficial.com/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_jakarta_original_20260609_army",
+      "tourId": "bts_world_tour_arirang_global_2026_2027",
+      "type": "ARMY MEMBERSHIP先行",
+      "entryStartAt": "2026-06-09T12:00:00+07:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_global_2026_2027_jakarta_1226",
+        "bts_world_tour_arirang_global_2026_2027_jakarta_1227"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.btsworldtourofficial.com/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_jakarta_original_20260611_general",
+      "tourId": "bts_world_tour_arirang_global_2026_2027",
+      "type": "一般発売",
+      "entryStartAt": "2026-06-11T12:00:00+07:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_global_2026_2027_jakarta_1226",
+        "bts_world_tour_arirang_global_2026_2027_jakarta_1227"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.btsworldtourofficial.com/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_bulacan_original_20260609_army",
+      "tourId": "bts_world_tour_arirang_global_2026_2027",
+      "type": "ARMY MEMBERSHIP先行",
+      "entryStartAt": "2026-06-09T11:00:00+08:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_global_2026_2027_bulacan_0313",
+        "bts_world_tour_arirang_global_2026_2027_bulacan_0314"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.btsworldtourofficial.com/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_bulacan_original_20260611_general",
+      "tourId": "bts_world_tour_arirang_global_2026_2027",
+      "type": "一般発売",
+      "entryStartAt": "2026-06-11T11:00:00+08:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_global_2026_2027_bulacan_0313",
+        "bts_world_tour_arirang_global_2026_2027_bulacan_0314"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.btsworldtourofficial.com/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_bangkok_20260610_trip",
+      "tourId": "bts_world_tour_arirang_global_2026_2027",
+      "type": "Trip.com先行",
+      "entryStartAt": "2026-06-10T10:00:00+07:00",
+      "entryEndAt": "2026-06-10T23:59:00+07:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_global_2026_2027_bangkok_1203",
+        "bts_world_tour_arirang_global_2026_2027_bangkok_1205",
+        "bts_world_tour_arirang_global_2026_2027_bangkok_1206"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.livenationtero.co.th/event/bts-world-tour-arirang-in-bangkok-bangkok-tickets-edp1675488",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "bts_arirang_bangkok_20260610_livenation",
+      "tourId": "bts_world_tour_arirang_global_2026_2027",
+      "type": "Live Nation Tero会員先行",
+      "entryStartAt": "2026-06-10T10:00:00+07:00",
+      "entryEndAt": "2026-06-10T23:59:00+07:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "bts_world_tour_arirang_global_2026_2027_bangkok_1203",
+        "bts_world_tour_arirang_global_2026_2027_bangkok_1205",
+        "bts_world_tour_arirang_global_2026_2027_bangkok_1206"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.livenationtero.co.th/event/bts-world-tour-arirang-in-bangkok-bangkok-tickets-edp1675488",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "lastVerifiedAt": "2026-07-22T10:06:40+09:00",

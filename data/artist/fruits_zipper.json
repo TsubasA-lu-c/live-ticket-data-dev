@@ -122,7 +122,20 @@
       "title": "GIFT〜Girls Idol Festival Tokyo〜",
       "startDate": "2026-11-27T00:00:00+09:00",
       "endDate": "2026-11-29T00:00:00+09:00",
-      "prices": [],
+      "prices": [
+        {
+          "label": "DAY-1 アリーナスタンディング",
+          "amount": 12000
+        },
+        {
+          "label": "DAY-1 スタンド指定席",
+          "amount": 12000
+        },
+        {
+          "label": "DAY-3 1DAY共通チケット",
+          "amount": 12000
+        }
+      ],
       "source": "system",
       "sourceUrl": "https://fruitszipper.asobisystem.com/live_information/schedule/list/?month=11&viewMode=default&year=2026",
       "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
@@ -254,6 +267,17 @@
       "source": "system",
       "sourceUrl": "https://fruitszipper.asobisystem.com/live_information/detail/46325",
       "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_5th_stadium_tour_2027",
+      "artistId": "fruits_zipper",
+      "title": "FRUITS ZIPPER 5周年記念スタジアムツアー 2027",
+      "startDate": "2027-06-12T00:00:00+09:00",
+      "endDate": "2027-07-11T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/96457",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "performances": [
@@ -914,31 +938,33 @@
       "id": "fruits_zipper_gift_2026_1127",
       "tourId": "fruits_zipper_gift_2026",
       "venue": "SGCホール有明",
-      "performanceAt": "2026-11-27T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-11-27T18:00:00+09:00",
+      "doorOpenAt": "2026-11-27T17:00:00+09:00",
       "source": "system",
       "sourceUrl": "https://fruitszipper.asobisystem.com/live_information/schedule/list/?month=11&viewMode=default&year=2026",
       "lastVerifiedAt": "2026-09-12T00:00:00+09:00",
       "kind": "fes",
-      "performanceTimeEstimated": true,
+      "performanceTimeEstimated": false,
       "performanceDate": "2026-11-27",
       "eventName": "GIFT〜Girls Idol Festival Tokyo〜",
-      "kindReviewed": true
+      "kindReviewed": true,
+      "note": "18:00はイベント全体の開演予定時刻です。"
     },
     {
       "id": "fruits_zipper_gift_2026_1129",
       "tourId": "fruits_zipper_gift_2026",
       "venue": "TOYOTA ARENA TOKYO",
-      "performanceAt": "2026-11-29T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-11-29T13:00:00+09:00",
+      "doorOpenAt": "2026-11-29T11:30:00+09:00",
       "source": "system",
       "sourceUrl": "https://fruitszipper.asobisystem.com/live_information/schedule/list/?month=11&viewMode=default&year=2026",
       "lastVerifiedAt": "2026-09-12T00:00:00+09:00",
       "kind": "fes",
-      "performanceTimeEstimated": true,
+      "performanceTimeEstimated": false,
       "performanceDate": "2026-11-29",
       "eventName": "GIFT〜Girls Idol Festival Tokyo〜",
-      "kindReviewed": true
+      "kindReviewed": true,
+      "note": "13:00はイベント全体の開演予定時刻です。"
     },
     {
       "id": "fruits_zipper_asobiexpo_hawaii_2027_honolulu_0308",
@@ -1169,14 +1195,71 @@
       "venue": "幕張メッセ国際展示場1～11ホール",
       "performanceAt": "2026-12-26T12:00:00+09:00",
       "performanceDate": "2026-12-26",
-      "performanceTimeEstimated": true,
-      "doorOpenAt": null,
+      "performanceTimeEstimated": false,
+      "doorOpenAt": "2026-12-26T09:30:00+09:00",
       "kind": "fes",
       "kindReviewed": true,
       "eventName": "COUNTDOWN JAPAN 26/27",
       "source": "system",
       "sourceUrl": "https://fruitszipper.asobisystem.com/live_information/detail/46325",
-      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00",
+      "note": "12:00はイベント全体の開演予定時刻です。"
+    },
+    {
+      "id": "fruits_zipper_5th_stadium_tour_2027_hyogo_0612",
+      "tourId": "fruits_zipper_5th_stadium_tour_2027",
+      "performanceDate": "2027-06-12",
+      "performanceAt": "2027-06-12T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "venue": "ノエビアスタジアム神戸",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "FRUITS ZIPPER 5周年記念スタジアムツアー",
+      "source": "system",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/96457",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_5th_stadium_tour_2027_hyogo_0613",
+      "tourId": "fruits_zipper_5th_stadium_tour_2027",
+      "performanceDate": "2027-06-13",
+      "performanceAt": "2027-06-13T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "venue": "ノエビアスタジアム神戸",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "FRUITS ZIPPER 5周年記念スタジアムツアー",
+      "source": "system",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/96457",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_5th_stadium_tour_2027_tokyo_0710",
+      "tourId": "fruits_zipper_5th_stadium_tour_2027",
+      "performanceDate": "2027-07-10",
+      "performanceAt": "2027-07-10T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "venue": "MUFGスタジアム（国立競技場）",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "FRUITS ZIPPER 5周年記念スタジアムツアー",
+      "source": "system",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/96457",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_5th_stadium_tour_2027_tokyo_0711",
+      "tourId": "fruits_zipper_5th_stadium_tour_2027",
+      "performanceDate": "2027-07-11",
+      "performanceAt": "2027-07-11T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "venue": "MUFGスタジアム（国立競技場）",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "FRUITS ZIPPER 5周年記念スタジアムツアー",
+      "source": "system",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/96457",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -2247,6 +2330,138 @@
       "source": "system",
       "sourceUrl": "https://countdownjapan.jp/2627/ticket/",
       "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_christmas_session_2026_fc_second_upgrade_20261112",
+      "tourId": "fruits_zipper_kawaii_lab_christmas_2026",
+      "type": "FRUITS ZIPPER FC購入者 アップグレード2次抽選",
+      "entryStartAt": "2026-11-12T18:00:00+09:00",
+      "entryEndAt": "2026-11-19T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fruits_zipper_kawaii_lab_christmas_2026_ariake_1212",
+        "fruits_zipper_kawaii_lab_christmas_2026_ariake_1213"
+      ],
+      "source": "system",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/95999",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_disaster_relief_fund_concert_2027_official_second_20261107",
+      "tourId": "fruits_zipper_disaster_relief_fund_concert_2027",
+      "type": "オフィシャル2次先行（抽選）",
+      "entryStartAt": "2026-11-07T20:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fruits_zipper_disaster_relief_fund_concert_2027_tokyo_0119"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.rising-pro.jp/news/news_archives/news.html?aid=rising&nID=VFV6JREYUe",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_annx_yokohama_arena_2027_third_20261110",
+      "tourId": "fruits_zipper_annx_yokohama_arena_2027",
+      "type": "3次先行（WEB・抽選）",
+      "entryStartAt": "2026-11-10T00:00:00+09:00",
+      "entryEndAt": "2026-11-24T01:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fruits_zipper_annx_yokohama_arena_2027_0123"
+      ],
+      "source": "system",
+      "sourceUrl": "https://event.1242.com/events/fzannx/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_gift_2026_fastest_2026",
+      "tourId": "fruits_zipper_gift_2026",
+      "type": "最速先行（抽選）",
+      "entryStartAt": "2026-08-18T12:00:00+09:00",
+      "entryEndAt": "2026-09-01T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fruits_zipper_gift_2026_1127",
+        "fruits_zipper_gift_2026_1129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.gift-idol.jp/ticket.html",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_gift_2026_second_2026",
+      "tourId": "fruits_zipper_gift_2026",
+      "type": "2次先行（抽選）",
+      "entryStartAt": "2026-09-05T12:00:00+09:00",
+      "entryEndAt": "2026-09-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fruits_zipper_gift_2026_1127",
+        "fruits_zipper_gift_2026_1129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.gift-idol.jp/ticket.html",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_gift_2026_third_2026",
+      "tourId": "fruits_zipper_gift_2026",
+      "type": "3次先行（先着）",
+      "entryStartAt": "2026-09-19T12:00:00+09:00",
+      "entryEndAt": "2026-09-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fruits_zipper_gift_2026_1127",
+        "fruits_zipper_gift_2026_1129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.gift-idol.jp/ticket.html",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_gift_2026_general_day27_2026",
+      "tourId": "fruits_zipper_gift_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-10-03T10:00:00+09:00",
+      "entryEndAt": "2026-11-26T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fruits_zipper_gift_2026_1127"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.gift-idol.jp/ticket.html",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_gift_2026_general_day29_2026",
+      "tourId": "fruits_zipper_gift_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-10-03T10:00:00+09:00",
+      "entryEndAt": "2026-11-28T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fruits_zipper_gift_2026_1129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.gift-idol.jp/ticket.html",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

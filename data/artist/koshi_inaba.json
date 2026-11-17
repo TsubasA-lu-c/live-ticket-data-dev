@@ -76,6 +76,22 @@
       "source": "system",
       "sourceUrl": "https://bz-vermillion.com/news/260102.html",
       "lastVerifiedAt": "2026-09-03T07:18:37+09:00"
+    },
+    {
+      "id": "koshi_inaba_countdown_japan_2627_20261229",
+      "artistId": "koshi_inaba",
+      "title": "COUNTDOWN JAPAN 26/27",
+      "startDate": "2026-12-29T00:00:00+09:00",
+      "endDate": "2026-12-29T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "12月29日 1日券",
+          "amount": 15000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.red-hot.ne.jp/play/detail.php?pid=py28855",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "performances": [
@@ -534,6 +550,21 @@
       "source": "system",
       "sourceUrl": "https://www.red-hot.ne.jp/play/detail.php?pid=py27671",
       "lastVerifiedAt": "2026-09-03T07:18:37+09:00"
+    },
+    {
+      "id": "koshi_inaba_countdown_japan_2627_20261229_performance",
+      "tourId": "koshi_inaba_countdown_japan_2627_20261229",
+      "performanceDate": "2026-12-29",
+      "performanceAt": "2026-12-29T12:00:00+09:00",
+      "doorOpenAt": "2026-12-29T09:30:00+09:00",
+      "performanceTimeEstimated": false,
+      "venue": "幕張メッセ国際展示場1～11ホール・イベントホール",
+      "kind": "fes",
+      "eventName": "COUNTDOWN JAPAN 26/27",
+      "note": "12:00はイベント全体の開演時刻。稲葉浩志の個別出演時刻は別途確認。",
+      "source": "system",
+      "sourceUrl": "https://www.red-hot.ne.jp/play/detail.php?pid=py28855",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1085,6 +1116,180 @@
       "source": "system",
       "sourceUrl": "https://t.pia.jp/pia/ticketInformation.do?lotRlsCd=05577",
       "lastVerifiedAt": "2026-09-03T07:18:37+09:00"
+    },
+    {
+      "id": "koshi_inaba_env_2026_2027_arena_ponta_20261026",
+      "tourId": "koshi_inaba_env_2026_2027",
+      "type": "Pontaパス特別先行（アリーナ・抽選）",
+      "entryStartAt": "2026-10-26T12:00:00+09:00",
+      "entryEndAt": "2026-11-03T23:59:00+09:00",
+      "resultAt": "2026-11-07T20:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-11-10T23:59:00+09:00",
+      "performanceIds": [
+        "koshi_inaba_env_2026_2027_kobe_0109",
+        "koshi_inaba_env_2026_2027_kobe_0110",
+        "koshi_inaba_env_2026_2027_nagoya_0116",
+        "koshi_inaba_env_2026_2027_nagoya_0117",
+        "koshi_inaba_env_2026_2027_miyagi_0123",
+        "koshi_inaba_env_2026_2027_yokohama_0128",
+        "koshi_inaba_env_2026_2027_yokohama_0130",
+        "koshi_inaba_env_2026_2027_yokohama_0131"
+      ],
+      "source": "system",
+      "sourceUrl": "https://cpn.livepocket.jp/koshiinaba-en5-arena/index.html",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "koshi_inaba_env_2026_2027_hall_stamp_20260802",
+      "tourId": "koshi_inaba_env_2026_2027",
+      "type": "SOUND CREATOR STAMP先行（和歌山・京都、抽選）",
+      "entryStartAt": "2026-08-02T12:00:00+09:00",
+      "entryEndAt": "2026-08-06T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "koshi_inaba_env_2026_2027_wakayama_1128",
+        "koshi_inaba_env_2026_2027_kyoto_1130"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.sound-c.co.jp/schedule/detail/10471/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "koshi_inaba_env_2026_2027_hall_sfp_20260808",
+      "tourId": "koshi_inaba_env_2026_2027",
+      "type": "SFP WEB会員先行（三重・岐阜、抽選）",
+      "entryStartAt": "2026-08-08T12:00:00+09:00",
+      "entryEndAt": "2026-08-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "koshi_inaba_env_2026_2027_mie_1211",
+        "koshi_inaba_env_2026_2027_gifu_1213"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.sundayfolk.com/liveinfo/5in61qi/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "koshi_inaba_env_2026_2027_arena_pia_ichihaya_20261104",
+      "tourId": "koshi_inaba_env_2026_2027",
+      "type": "いち早プレリザーブ（アリーナ・抽選）",
+      "entryStartAt": "2026-11-04T12:00:00+09:00",
+      "entryEndAt": "2026-11-10T23:59:00+09:00",
+      "resultAt": "2026-11-14T20:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "koshi_inaba_env_2026_2027_kobe_0109",
+        "koshi_inaba_env_2026_2027_kobe_0110",
+        "koshi_inaba_env_2026_2027_nagoya_0116",
+        "koshi_inaba_env_2026_2027_nagoya_0117",
+        "koshi_inaba_env_2026_2027_miyagi_0123",
+        "koshi_inaba_env_2026_2027_yokohama_0128",
+        "koshi_inaba_env_2026_2027_yokohama_0130",
+        "koshi_inaba_env_2026_2027_yokohama_0131"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.kyodo-tohoku.com/artist/1117/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "koshi_inaba_env_2026_2027_arena_seven_20261111",
+      "tourId": "koshi_inaba_env_2026_2027",
+      "type": "セブン-イレブンWEB抽選先行（アリーナ）",
+      "entryStartAt": "2026-11-11T12:00:00+09:00",
+      "entryEndAt": "2026-11-23T23:59:00+09:00",
+      "resultAt": "2026-11-27T20:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "koshi_inaba_env_2026_2027_kobe_0109",
+        "koshi_inaba_env_2026_2027_kobe_0110",
+        "koshi_inaba_env_2026_2027_nagoya_0116",
+        "koshi_inaba_env_2026_2027_nagoya_0117",
+        "koshi_inaba_env_2026_2027_miyagi_0123",
+        "koshi_inaba_env_2026_2027_yokohama_0128",
+        "koshi_inaba_env_2026_2027_yokohama_0130",
+        "koshi_inaba_env_2026_2027_yokohama_0131"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.kyodo-tohoku.com/artist/1117/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "koshi_inaba_env_2026_2027_arena_general_20261205",
+      "tourId": "koshi_inaba_env_2026_2027",
+      "type": "一般発売（アリーナ・先着）",
+      "entryStartAt": "2026-12-05T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "koshi_inaba_env_2026_2027_kobe_0109",
+        "koshi_inaba_env_2026_2027_kobe_0110",
+        "koshi_inaba_env_2026_2027_nagoya_0116",
+        "koshi_inaba_env_2026_2027_nagoya_0117",
+        "koshi_inaba_env_2026_2027_miyagi_0123",
+        "koshi_inaba_env_2026_2027_yokohama_0128",
+        "koshi_inaba_env_2026_2027_yokohama_0130",
+        "koshi_inaba_env_2026_2027_yokohama_0131"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.kyodo-tohoku.com/artist/1117/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "koshi_inaba_countdown_japan_2627_20261229_first",
+      "tourId": "koshi_inaba_countdown_japan_2627_20261229",
+      "type": "第1次抽選先行",
+      "entryStartAt": "2026-10-14T12:15:00+09:00",
+      "entryEndAt": "2026-10-20T16:00:00+09:00",
+      "resultAt": "2026-10-23T16:00:00+09:00",
+      "paymentStartAt": "2026-10-23T16:00:00+09:00",
+      "paymentEndAt": "2026-10-26T16:00:00+09:00",
+      "performanceIds": [
+        "koshi_inaba_countdown_japan_2627_20261229_performance"
+      ],
+      "source": "system",
+      "sourceUrl": "https://countdownjapan.jp/2627/ticket/preorder01/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "koshi_inaba_countdown_japan_2627_20261229_second",
+      "tourId": "koshi_inaba_countdown_japan_2627_20261229",
+      "type": "第2次抽選先行",
+      "entryStartAt": "2026-10-28T12:15:00+09:00",
+      "entryEndAt": "2026-11-02T16:00:00+09:00",
+      "resultAt": "2026-11-06T16:00:00+09:00",
+      "paymentStartAt": "2026-11-06T16:00:00+09:00",
+      "paymentEndAt": "2026-11-09T16:00:00+09:00",
+      "performanceIds": [
+        "koshi_inaba_countdown_japan_2627_20261229_performance"
+      ],
+      "source": "system",
+      "sourceUrl": "https://countdownjapan.jp/2627/ticket/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "koshi_inaba_countdown_japan_2627_20261229_resale",
+      "tourId": "koshi_inaba_countdown_japan_2627_20261229",
+      "type": "公式リセール購入申込（抽選）",
+      "entryStartAt": "2026-12-07T16:00:00+09:00",
+      "entryEndAt": "2026-12-14T16:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "koshi_inaba_countdown_japan_2627_20261229_performance"
+      ],
+      "source": "system",
+      "sourceUrl": "https://countdownjapan.jp/2627/news/5987/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ]
 }

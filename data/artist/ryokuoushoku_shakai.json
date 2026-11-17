@@ -100,6 +100,38 @@
       "source": "system",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/ryokusyaka/live/",
       "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_radio_crazy_2026",
+      "artistId": "ryokuoushoku_shakai",
+      "title": "FM802 ROCK FESTIVAL RADIO CRAZY 2026",
+      "startDate": "2026-12-27T00:00:00+09:00",
+      "endDate": "2026-12-27T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1DAY TICKET",
+          "amount": 13500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://kyodo-osaka.co.jp/news/detail/788",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_merry_rock_parade_2026",
+      "artistId": "ryokuoushoku_shakai",
+      "title": "MERRY ROCK PARADE 2026",
+      "startDate": "2026-12-20T00:00:00+09:00",
+      "endDate": "2026-12-20T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1日券",
+          "amount": 10450
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.merryrockparade.jp/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "performances": [
@@ -306,14 +338,44 @@
       "venue": "幕張メッセ国際展示場1～11ホール・イベントホール",
       "performanceAt": "2026-12-30T12:00:00+09:00",
       "performanceDate": "2026-12-30",
-      "performanceTimeEstimated": true,
-      "doorOpenAt": null,
+      "performanceTimeEstimated": false,
+      "doorOpenAt": "2026-12-30T09:30:00+09:00",
       "kind": "fes",
       "kindReviewed": true,
       "eventName": "COUNTDOWN JAPAN 26/27",
       "source": "system",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/ryokusyaka/live/",
-      "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+      "lastVerifiedAt": "2026-11-01T00:00:00+09:00",
+      "note": "12:00はイベント全体の開演予定時刻です。"
+    },
+    {
+      "id": "ryokuoushoku_shakai_radio_crazy_2026_1227",
+      "tourId": "ryokuoushoku_shakai_radio_crazy_2026",
+      "performanceDate": "2026-12-27",
+      "performanceAt": "2026-12-27T11:00:00+09:00",
+      "doorOpenAt": "2026-12-27T10:00:00+09:00",
+      "venue": "インテックス大阪",
+      "kind": "fes",
+      "eventName": "FM802 ROCK FESTIVAL RADIO CRAZY 2026",
+      "note": "11:00はイベント全体開演でこのアーティストの出演時刻未発表。イベント入場10:00。",
+      "source": "system",
+      "sourceUrl": "https://kyodo-osaka.co.jp/news/detail/788",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_merry_rock_parade_2026_nagoya_1220",
+      "tourId": "ryokuoushoku_shakai_merry_rock_parade_2026",
+      "performanceDate": "2026-12-20",
+      "performanceAt": "2026-12-20T11:00:00+09:00",
+      "performanceTimeEstimated": false,
+      "doorOpenAt": "2026-12-20T09:00:00+09:00",
+      "venue": "ポートメッセなごや 1号館～3号館",
+      "kind": "fes",
+      "eventName": "MERRY ROCK PARADE 2026",
+      "note": "11:00はフェス全体開演（緑黄色社会の個別出演時刻は未公表）",
+      "source": "system",
+      "sourceUrl": "https://www.merryrockparade.jp/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -799,6 +861,54 @@
       "source": "system",
       "sourceUrl": "https://countdownjapan.jp/2627/ticket/",
       "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_radio_crazy_2026_eplus_hp_5th_1106",
+      "tourId": "ryokuoushoku_shakai_radio_crazy_2026",
+      "type": "オフィシャルHP5次受付（抽選）",
+      "entryStartAt": "2026-11-06T00:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ryokuoushoku_shakai_radio_crazy_2026_1227"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kyodo-osaka.co.jp/news/detail/788",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_radio_crazy_2026_pia_1106",
+      "tourId": "ryokuoushoku_shakai_radio_crazy_2026",
+      "type": "チケットぴあ先行受付（抽選）",
+      "entryStartAt": "2026-11-06T00:00:00+09:00",
+      "entryEndAt": "2026-11-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ryokuoushoku_shakai_radio_crazy_2026_1227"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kyodo-osaka.co.jp/news/detail/788",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "ryokuoushoku_shakai_radio_crazy_2026_lawson_1106",
+      "tourId": "ryokuoushoku_shakai_radio_crazy_2026",
+      "type": "ローソンチケット先行受付（抽選）",
+      "entryStartAt": "2026-11-06T00:00:00+09:00",
+      "entryEndAt": "2026-11-17T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ryokuoushoku_shakai_radio_crazy_2026_1227"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kyodo-osaka.co.jp/news/detail/788",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

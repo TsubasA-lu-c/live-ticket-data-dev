@@ -6,7 +6,7 @@
       "artistId": "aimer",
       "title": "Aimer Premium Concert 2026「“Sing like a Stray Cat” -hiss-」",
       "startDate": "2026-11-03T00:00:00+09:00",
-      "endDate": "2026-11-03T00:00:00+09:00",
+      "endDate": "2027-01-23T00:00:00+09:00",
       "prices": [
         {
           "label": "指定席",
@@ -16,6 +16,38 @@
       "source": "system",
       "sourceUrl": "https://15th-noraneko.aimer-official.com/live/",
       "lastVerifiedAt": "2026-09-10T21:37:00+09:00"
+    },
+    {
+      "id": "aimer_radio_crazy_2026",
+      "artistId": "aimer",
+      "title": "FM802 ROCK FESTIVAL RADIO CRAZY 2026",
+      "startDate": "2026-12-28T00:00:00+09:00",
+      "endDate": "2026-12-28T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "1DAY TICKET",
+          "amount": 13500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://kyodo-osaka.co.jp/news/detail/788",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "aimer_countdown_japan_2627_2026",
+      "artistId": "aimer",
+      "title": "COUNTDOWN JAPAN 26/27",
+      "startDate": "2026-12-31T00:00:00+09:00",
+      "endDate": "2026-12-31T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "12月31日 1日券",
+          "amount": 16000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://red-hot.ne.jp/play/detail.php?pid=py28857",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "performances": [
@@ -30,6 +62,45 @@
       "source": "system",
       "sourceUrl": "https://15th-noraneko.aimer-official.com/live/",
       "lastVerifiedAt": "2026-09-10T21:37:00+09:00"
+    },
+    {
+      "id": "aimer_premium_concert_2026_hiss_tokyo_20270123",
+      "tourId": "aimer_premium_concert_2026_hiss",
+      "performanceAt": "2027-01-23T17:30:00+09:00",
+      "doorOpenAt": "2027-01-23T16:30:00+09:00",
+      "venue": "東京国際フォーラム ホールA",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://15th-noraneko.aimer-official.com/live/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "aimer_radio_crazy_2026_1228",
+      "tourId": "aimer_radio_crazy_2026",
+      "performanceDate": "2026-12-28",
+      "performanceAt": "2026-12-28T11:00:00+09:00",
+      "doorOpenAt": "2026-12-28T10:00:00+09:00",
+      "venue": "インテックス大阪",
+      "kind": "fes",
+      "eventName": "FM802 ROCK FESTIVAL RADIO CRAZY 2026",
+      "note": "11:00はイベント全体開演でこのアーティストの出演時刻未発表。イベント入場10:00。",
+      "source": "system",
+      "sourceUrl": "https://kyodo-osaka.co.jp/news/detail/788",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "aimer_countdown_japan_2627_2026_1231",
+      "tourId": "aimer_countdown_japan_2627_2026",
+      "performanceDate": "2026-12-31",
+      "performanceAt": "2026-12-31T15:40:00+09:00",
+      "doorOpenAt": "2026-12-31T12:30:00+09:00",
+      "venue": "幕張メッセ国際展示場1～11ホール・イベントホール",
+      "kind": "fes",
+      "eventName": "COUNTDOWN JAPAN 26/27",
+      "note": "15:40はイベント全体開演。Aimerの個別出演時刻はタイムテーブル画像の確認待ち。",
+      "source": "system",
+      "sourceUrl": "https://red-hot.ne.jp/play/detail.php?pid=py28857",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -48,6 +119,150 @@
       "source": "system",
       "sourceUrl": "https://15th-noraneko.aimer-official.com/live/",
       "lastVerifiedAt": "2026-09-10T21:37:00+09:00"
+    },
+    {
+      "id": "aimer_hiss_tokyo_20270123_night_owls_fastest_20261114",
+      "tourId": "aimer_premium_concert_2026_hiss",
+      "type": "NIGHT OWLS最速先行（年会員限定・抽選）",
+      "entryStartAt": "2026-11-14T12:00:00+09:00",
+      "entryEndAt": "2026-11-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aimer_premium_concert_2026_hiss_tokyo_20270123"
+      ],
+      "source": "system",
+      "sourceUrl": "https://nightowls.aimer-official.com/news/detail/55",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "aimer_hiss_tokyo_20270123_night_owls_second_20261201",
+      "tourId": "aimer_premium_concert_2026_hiss",
+      "type": "NIGHT OWLS二次先行（抽選）",
+      "entryStartAt": "2026-12-01T18:00:00+09:00",
+      "entryEndAt": "2026-12-06T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aimer_premium_concert_2026_hiss_tokyo_20270123"
+      ],
+      "source": "system",
+      "sourceUrl": "https://15th-noraneko.aimer-official.com/live/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "aimer_hiss_tokyo_20270123_night_owls_firstcome_20261212",
+      "tourId": "aimer_premium_concert_2026_hiss",
+      "type": "NIGHT OWLS先着",
+      "entryStartAt": "2026-12-12T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aimer_premium_concert_2026_hiss_tokyo_20270123"
+      ],
+      "source": "system",
+      "sourceUrl": "https://15th-noraneko.aimer-official.com/live/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "aimer_radio_crazy_2026_eplus_hp_5th_1106",
+      "tourId": "aimer_radio_crazy_2026",
+      "type": "オフィシャルHP5次受付（抽選）",
+      "entryStartAt": "2026-11-06T00:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aimer_radio_crazy_2026_1228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kyodo-osaka.co.jp/news/detail/788",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "aimer_radio_crazy_2026_pia_1106",
+      "tourId": "aimer_radio_crazy_2026",
+      "type": "チケットぴあ先行受付（抽選）",
+      "entryStartAt": "2026-11-06T00:00:00+09:00",
+      "entryEndAt": "2026-11-16T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aimer_radio_crazy_2026_1228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kyodo-osaka.co.jp/news/detail/788",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "aimer_radio_crazy_2026_lawson_1106",
+      "tourId": "aimer_radio_crazy_2026",
+      "type": "ローソンチケット先行受付（抽選）",
+      "entryStartAt": "2026-11-06T00:00:00+09:00",
+      "entryEndAt": "2026-11-17T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aimer_radio_crazy_2026_1228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kyodo-osaka.co.jp/news/detail/788",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "aimer_countdown_japan_2627_2026_first",
+      "tourId": "aimer_countdown_japan_2627_2026",
+      "type": "第1次抽選先行",
+      "entryStartAt": "2026-10-14T12:15:00+09:00",
+      "entryEndAt": "2026-10-20T16:00:00+09:00",
+      "resultAt": "2026-10-23T16:00:00+09:00",
+      "paymentStartAt": "2026-10-23T16:00:00+09:00",
+      "paymentEndAt": "2026-10-26T16:00:00+09:00",
+      "performanceIds": [
+        "aimer_countdown_japan_2627_2026_1231"
+      ],
+      "source": "system",
+      "sourceUrl": "https://countdownjapan.jp/2627/ticket/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "aimer_countdown_japan_2627_2026_second",
+      "tourId": "aimer_countdown_japan_2627_2026",
+      "type": "第2次抽選先行",
+      "entryStartAt": "2026-10-28T12:15:00+09:00",
+      "entryEndAt": "2026-11-02T16:00:00+09:00",
+      "resultAt": "2026-11-06T16:00:00+09:00",
+      "paymentStartAt": "2026-11-06T16:00:00+09:00",
+      "paymentEndAt": "2026-11-09T16:00:00+09:00",
+      "performanceIds": [
+        "aimer_countdown_japan_2627_2026_1231"
+      ],
+      "source": "system",
+      "sourceUrl": "https://countdownjapan.jp/2627/ticket/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "aimer_countdown_japan_2627_2026_resale",
+      "tourId": "aimer_countdown_japan_2627_2026",
+      "type": "公式リセール購入申込（抽選）",
+      "entryStartAt": "2026-12-07T16:00:00+09:00",
+      "entryEndAt": "2026-12-14T16:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aimer_countdown_japan_2627_2026_1231"
+      ],
+      "source": "system",
+      "sourceUrl": "https://countdownjapan.jp/2627/news/5987/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "lastVerifiedAt": "2026-08-09T00:00:00+09:00",

@@ -951,7 +951,8 @@
       "sourceUrl": "https://saucydog.jp/news/detail/2182",
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z",
-      "kindReviewed": true
+      "kindReviewed": true,
+      "note": "12:00はイベント全体の開演予定時刻です。"
     },
     {
       "id": "saucy_dog_fukuoka_music_fes_2027_20270131",
@@ -1243,9 +1244,9 @@
       "type": "サウシードッグオーナーズ Series1会員先行（抽選）",
       "entryStartAt": "2026-10-09T20:00:00+09:00",
       "entryEndAt": "2026-10-18T23:59:00+09:00",
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
+      "resultAt": "2026-10-24T13:00:00+09:00",
+      "paymentStartAt": "2026-10-24T13:00:00+09:00",
+      "paymentEndAt": "2026-10-27T21:00:00+09:00",
       "performanceIds": [
         "saucy_dog_tadoru_2027_20270323",
         "saucy_dog_tadoru_2027_20270324",
@@ -1270,9 +1271,9 @@
       "type": "サウシードッグオーナーズ Series1 FC2次先行（抽選）",
       "entryStartAt": "2026-10-26T12:00:00+09:00",
       "entryEndAt": "2026-11-01T23:59:00+09:00",
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
+      "resultAt": "2026-11-07T13:00:00+09:00",
+      "paymentStartAt": "2026-11-07T13:00:00+09:00",
+      "paymentEndAt": "2026-11-10T21:00:00+09:00",
       "performanceIds": [
         "saucy_dog_tadoru_2027_20270323",
         "saucy_dog_tadoru_2027_20270324",
@@ -1297,9 +1298,9 @@
       "type": "サウシードッグオーナーズ Series2 FC会員先行（抽選）",
       "entryStartAt": "2026-11-02T12:00:00+09:00",
       "entryEndAt": "2026-11-08T23:59:00+09:00",
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
+      "resultAt": "2026-11-14T13:00:00+09:00",
+      "paymentStartAt": "2026-11-14T13:00:00+09:00",
+      "paymentEndAt": "2026-11-17T21:00:00+09:00",
       "performanceIds": [
         "saucy_dog_tadoru_2027_20270511",
         "saucy_dog_tadoru_2027_20270513",

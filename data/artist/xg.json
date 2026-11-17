@@ -60,7 +60,16 @@
       "title": "Spotify On Stage Tokyo 2026 -10th Anniversary Special-",
       "startDate": "2026-12-20T00:00:00+09:00",
       "endDate": "2026-12-20T00:00:00+09:00",
-      "prices": null,
+      "prices": [
+        {
+          "label": "アリーナVIP指定席",
+          "amount": 14000
+        },
+        {
+          "label": "一般指定席",
+          "amount": 11000
+        }
+      ],
       "sourceUrl": "https://xgalx.com/xg/news/detail.php?id=1136661",
       "source": "system",
       "lastVerifiedAt": "2026-10-31T18:39:12+09:00"
@@ -463,15 +472,15 @@
       "id": "xg_world_tour_the_core_2026_newark_1114",
       "tourId": "xg_world_tour_the_core_2026",
       "venue": "Prudential Center",
-      "performanceAt": "2026-11-14T12:00:00+09:00",
+      "performanceAt": "2026-11-14T20:00:00-05:00",
       "performanceDate": "2026-11-14",
-      "doorOpenAt": null,
+      "doorOpenAt": "2026-11-14T18:30:00-05:00",
       "kind": "oneman",
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://xgalx.com/en/xg/tour/thecore/",
       "lastVerifiedAt": "2026-08-28T00:00:00+09:00",
-      "performanceTimeEstimated": true
+      "performanceTimeEstimated": false
     },
     {
       "id": "xg_world_tour_the_core_2026_dallas_1117",
@@ -583,13 +592,13 @@
       "id": "xg_spotify_on_stage_tokyo_2026_1220",
       "tourId": "xg_spotify_on_stage_tokyo_2026",
       "performanceDate": "2026-12-20",
-      "performanceAt": "2026-12-20T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-12-20T17:30:00+09:00",
+      "doorOpenAt": "2026-12-20T16:30:00+09:00",
       "venue": "東京ガーデンシアター",
       "kind": "fes",
       "eventName": "Spotify On Stage Tokyo 2026 XG出演",
       "sourceUrl": "https://xgalx.com/xg/news/detail.php?id=1136661",
-      "performanceTimeEstimated": true,
+      "performanceTimeEstimated": false,
       "source": "system",
       "lastVerifiedAt": "2026-10-31T18:39:12+09:00",
       "kindReviewed": true
@@ -1583,6 +1592,470 @@
       "source": "system",
       "sourceUrl": "https://xgalx.com/xg/news/detail.php?id=1135211",
       "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_final_2027_two_day_final_20261109_tokyo",
+      "tourId": "xg_world_tour_the_core_final_2027",
+      "type": "2DAYSチケット最終先行（抽選・tokyo2公演）",
+      "entryStartAt": "2026-11-09T15:00:00+09:00",
+      "entryEndAt": "2026-11-16T23:59:00+09:00",
+      "resultAt": "2026-11-21T15:00:00+09:00",
+      "paymentStartAt": "2026-11-21T15:00:00+09:00",
+      "paymentEndAt": "2026-11-25T23:59:00+09:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_final_2027_tokyo_0210",
+        "xg_world_tour_the_core_final_2027_tokyo_0211"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.xgalx.com/xg/news/detail.php?id=1137166",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_final_2027_two_day_final_20261109_osaka",
+      "tourId": "xg_world_tour_the_core_final_2027",
+      "type": "2DAYSチケット最終先行（抽選・osaka2公演）",
+      "entryStartAt": "2026-11-09T15:00:00+09:00",
+      "entryEndAt": "2026-11-16T23:59:00+09:00",
+      "resultAt": "2026-11-21T15:00:00+09:00",
+      "paymentStartAt": "2026-11-21T15:00:00+09:00",
+      "paymentEndAt": "2026-11-25T23:59:00+09:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_final_2027_osaka_0227",
+        "xg_world_tour_the_core_final_2027_osaka_0228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.xgalx.com/xg/news/detail.php?id=1137166",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "xg_spotify_on_stage_tokyo_2026_general_1110",
+      "tourId": "xg_spotify_on_stage_tokyo_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-11-10T10:00:00+09:00",
+      "entryEndAt": "2026-12-19T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "xg_spotify_on_stage_tokyo_2026_1220"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/3015200001",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_final_2027_mumo_0915",
+      "tourId": "xg_world_tour_the_core_final_2027",
+      "type": "mu-mo TICKET先行（抽選）",
+      "entryStartAt": "2026-09-15T15:00:00+09:00",
+      "entryEndAt": "2026-09-24T23:59:00+09:00",
+      "resultAt": "2026-10-01T15:00:00+09:00",
+      "paymentStartAt": "2026-10-01T15:00:00+09:00",
+      "paymentEndAt": "2026-10-05T23:59:00+09:00",
+      "performanceIds": [
+        "xg_world_tour_the_core_final_2027_tokyo_0210",
+        "xg_world_tour_the_core_final_2027_tokyo_0211",
+        "xg_world_tour_the_core_final_2027_osaka_0227",
+        "xg_world_tour_the_core_final_2027_osaka_0228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/xg/news/detail.php?id=1135948",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_final_2027_official_first_0925",
+      "tourId": "xg_world_tour_the_core_final_2027",
+      "type": "オフィシャルチケット先行（先着）",
+      "entryStartAt": "2026-09-25T15:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_final_2027_tokyo_0210",
+        "xg_world_tour_the_core_final_2027_tokyo_0211",
+        "xg_world_tour_the_core_final_2027_osaka_0227",
+        "xg_world_tour_the_core_final_2027_osaka_0228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://xgalx.com/xg/news/detail.php?id=1136150",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_final_2027_ponta_1104",
+      "tourId": "xg_world_tour_the_core_final_2027",
+      "type": "Pontaパス会員特別先行（先着）",
+      "entryStartAt": "2026-11-04T10:00:00+09:00",
+      "entryEndAt": "2026-11-17T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_final_2027_tokyo_0210",
+        "xg_world_tour_the_core_final_2027_tokyo_0211",
+        "xg_world_tour_the_core_final_2027_osaka_0227",
+        "xg_world_tour_the_core_final_2027_osaka_0228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://cpn.livepocket.jp/xg-tour-thecore/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_final_2027_eplus_tokyo_0915",
+      "tourId": "xg_world_tour_the_core_final_2027",
+      "type": "イープラス東京先行（抽選）",
+      "entryStartAt": "2026-09-15T15:00:00+09:00",
+      "entryEndAt": "2026-09-24T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_final_2027_tokyo_0210",
+        "xg_world_tour_the_core_final_2027_tokyo_0211"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/3983380002",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_final_2027_eplus_tokyo_0925",
+      "tourId": "xg_world_tour_the_core_final_2027",
+      "type": "イープラス東京2次先行（抽選）",
+      "entryStartAt": "2026-09-25T15:00:00+09:00",
+      "entryEndAt": "2026-10-05T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_final_2027_tokyo_0210",
+        "xg_world_tour_the_core_final_2027_tokyo_0211"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/3983380002",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_final_2027_eplus_tokyo_1006",
+      "tourId": "xg_world_tour_the_core_final_2027",
+      "type": "イープラス東京3次先行（抽選）",
+      "entryStartAt": "2026-10-06T15:00:00+09:00",
+      "entryEndAt": "2026-10-14T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_final_2027_tokyo_0210",
+        "xg_world_tour_the_core_final_2027_tokyo_0211"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/3983380002",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_final_2027_eplus_tokyo_1015",
+      "tourId": "xg_world_tour_the_core_final_2027",
+      "type": "イープラス東京先行（先着）",
+      "entryStartAt": "2026-10-15T15:00:00+09:00",
+      "entryEndAt": "2026-12-25T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_final_2027_tokyo_0210",
+        "xg_world_tour_the_core_final_2027_tokyo_0211"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/3983380002",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_final_2027_eplus_osaka_0915",
+      "tourId": "xg_world_tour_the_core_final_2027",
+      "type": "イープラス大阪先行（抽選）",
+      "entryStartAt": "2026-09-15T15:00:00+09:00",
+      "entryEndAt": "2026-09-24T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_final_2027_osaka_0227",
+        "xg_world_tour_the_core_final_2027_osaka_0228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/3983380002",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_final_2027_eplus_osaka_0925",
+      "tourId": "xg_world_tour_the_core_final_2027",
+      "type": "イープラス大阪プレオーダー（抽選）",
+      "entryStartAt": "2026-09-25T12:00:00+09:00",
+      "entryEndAt": "2026-10-01T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_final_2027_osaka_0227",
+        "xg_world_tour_the_core_final_2027_osaka_0228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/3983380002",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_final_2027_eplus_osaka_1003",
+      "tourId": "xg_world_tour_the_core_final_2027",
+      "type": "イープラス大阪2次プレオーダー（抽選）",
+      "entryStartAt": "2026-10-03T12:00:00+09:00",
+      "entryEndAt": "2026-10-14T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_final_2027_osaka_0227",
+        "xg_world_tour_the_core_final_2027_osaka_0228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/3983380002",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_final_2027_eplus_osaka_1016",
+      "tourId": "xg_world_tour_the_core_final_2027",
+      "type": "イープラス大阪3次プレオーダー（抽選）",
+      "entryStartAt": "2026-10-16T12:00:00+09:00",
+      "entryEndAt": "2026-10-28T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_final_2027_osaka_0227",
+        "xg_world_tour_the_core_final_2027_osaka_0228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/3983380002",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_final_2027_eplus_osaka_1030",
+      "tourId": "xg_world_tour_the_core_final_2027",
+      "type": "イープラス大阪4次プレオーダー（抽選）",
+      "entryStartAt": "2026-10-30T12:00:00+09:00",
+      "entryEndAt": "2026-11-10T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_final_2027_osaka_0227",
+        "xg_world_tour_the_core_final_2027_osaka_0228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/3983380002",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_final_2027_eplus_osaka_1112",
+      "tourId": "xg_world_tour_the_core_final_2027",
+      "type": "イープラス大阪プレオーダー（抽選）",
+      "entryStartAt": "2026-11-12T12:00:00+09:00",
+      "entryEndAt": "2026-11-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_final_2027_osaka_0227",
+        "xg_world_tour_the_core_final_2027_osaka_0228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/3983380002",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_final_2027_lawson_osaka_0925",
+      "tourId": "xg_world_tour_the_core_final_2027",
+      "type": "ローチケ大阪プレリク先行",
+      "entryStartAt": "2026-09-25T12:00:00+09:00",
+      "entryEndAt": "2026-10-05T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_final_2027_osaka_0227",
+        "xg_world_tour_the_core_final_2027_osaka_0228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://l-tike.com/order/?gLcode=55796",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_final_2027_lawson_osaka_1009",
+      "tourId": "xg_world_tour_the_core_final_2027",
+      "type": "ローチケ大阪プレリク先行",
+      "entryStartAt": "2026-10-09T12:00:00+09:00",
+      "entryEndAt": "2026-10-19T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_final_2027_osaka_0227",
+        "xg_world_tour_the_core_final_2027_osaka_0228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://l-tike.com/order/?gLcode=55796",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_final_2027_lawson_osaka_1023",
+      "tourId": "xg_world_tour_the_core_final_2027",
+      "type": "ローチケ大阪プレリク先行（抽選）",
+      "entryStartAt": "2026-10-23T12:00:00+09:00",
+      "entryEndAt": "2026-11-08T23:59:00+09:00",
+      "resultAt": "2026-11-11T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_final_2027_osaka_0227",
+        "xg_world_tour_the_core_final_2027_osaka_0228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://l-tike.com/order/?gBaseVenueCd=54019&gCarrierCd=01&gEntryMthd=03&gLcode=55796&gPfKey=20260908000002291759%2C20260908000002291758&gPfName=%EF%BC%B8%EF%BC%A7&gScheduleNo=3",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_final_2027_lawson_osaka_1109",
+      "tourId": "xg_world_tour_the_core_final_2027",
+      "type": "ローチケ大阪プレリク先行（抽選）",
+      "entryStartAt": "2026-11-09T12:00:00+09:00",
+      "entryEndAt": "2026-11-16T23:59:00+09:00",
+      "resultAt": "2026-11-19T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_final_2027_osaka_0227",
+        "xg_world_tour_the_core_final_2027_osaka_0228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://l-tike.com/order/?gBaseVenueCd=54019&gCarrierCd=01&gEntryMthd=03&gLcode=55796&gPfKey=20260908000002291759%2C20260908000002291758&gPfName=%EF%BC%B8%EF%BC%A7&gScheduleNo=4",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_final_2027_lawson_tokyo_encore_0925",
+      "tourId": "xg_world_tour_the_core_final_2027",
+      "type": "ローチケ東京LEncore先行（抽選）",
+      "entryStartAt": "2026-09-25T15:00:00+09:00",
+      "entryEndAt": "2026-10-05T23:59:00+09:00",
+      "resultAt": "2026-10-10T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_final_2027_tokyo_0210",
+        "xg_world_tour_the_core_final_2027_tokyo_0211"
+      ],
+      "source": "system",
+      "sourceUrl": "https://l-tike.com/order/?gLcode=74841&gPfKey=20260908000002291332",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_final_2027_lawson_tokyo_pre_0925",
+      "tourId": "xg_world_tour_the_core_final_2027",
+      "type": "ローチケ東京プレリク先行（抽選）",
+      "entryStartAt": "2026-09-25T15:00:00+09:00",
+      "entryEndAt": "2026-10-05T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_final_2027_tokyo_0210",
+        "xg_world_tour_the_core_final_2027_tokyo_0211"
+      ],
+      "source": "system",
+      "sourceUrl": "https://l-tike.com/order/?gLcode=74841&gPfKey=20260908000002291332",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_final_2027_lawson_tokyo_encore_1006",
+      "tourId": "xg_world_tour_the_core_final_2027",
+      "type": "ローチケ東京LEncore先行（抽選）",
+      "entryStartAt": "2026-10-06T15:00:00+09:00",
+      "entryEndAt": "2026-10-14T23:59:00+09:00",
+      "resultAt": "2026-10-21T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_final_2027_tokyo_0210",
+        "xg_world_tour_the_core_final_2027_tokyo_0211"
+      ],
+      "source": "system",
+      "sourceUrl": "https://l-tike.com/order/?gLcode=74841&gPfKey=20260908000002291332",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_final_2027_lawson_tokyo_pre_1006",
+      "tourId": "xg_world_tour_the_core_final_2027",
+      "type": "ローチケ東京プレリク先行（抽選）",
+      "entryStartAt": "2026-10-06T15:00:00+09:00",
+      "entryEndAt": "2026-10-14T23:59:00+09:00",
+      "resultAt": "2026-10-21T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_final_2027_tokyo_0210",
+        "xg_world_tour_the_core_final_2027_tokyo_0211"
+      ],
+      "source": "system",
+      "sourceUrl": "https://l-tike.com/order/?gBaseVenueCd=3A144&gCarrierCd=01&gEntryMthd=03&gLcode=74841&gPfKey=20260908000002291332%2C20260908000002291331&gPfName=%EF%BC%B8%EF%BC%A7&gScheduleNo=4",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_final_2027_lawson_tokyo_pre_1015",
+      "tourId": "xg_world_tour_the_core_final_2027",
+      "type": "ローチケ東京プレリク先行（先着）",
+      "entryStartAt": "2026-10-15T15:00:00+09:00",
+      "entryEndAt": "2026-12-25T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_final_2027_tokyo_0210",
+        "xg_world_tour_the_core_final_2027_tokyo_0211"
+      ],
+      "source": "system",
+      "sourceUrl": "https://l-tike.com/order/?gLcode=74841&gPfKey=20260908000002291332",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_final_2027_yumebanchi_oasis",
+      "tourId": "xg_world_tour_the_core_final_2027",
+      "type": "夢番地 OASiS会員先行（抽選）",
+      "entryStartAt": "2026-10-13T11:00:00+09:00",
+      "entryEndAt": "2026-10-16T12:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_final_2027_osaka_0227",
+        "xg_world_tour_the_core_final_2027_osaka_0228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.yumebanchi.jp/event/54077/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "xg_world_tour_the_core_final_2027_yumebanchi_web",
+      "tourId": "xg_world_tour_the_core_final_2027",
+      "type": "夢番地WEB会員先行（抽選）",
+      "entryStartAt": "2026-10-13T12:00:00+09:00",
+      "entryEndAt": "2026-10-16T12:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "xg_world_tour_the_core_final_2027_osaka_0227",
+        "xg_world_tour_the_core_final_2027_osaka_0228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.yumebanchi.jp/event/54077/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

@@ -600,6 +600,44 @@
       "sourceUrl": "https://15th.utapri.tv/event/",
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "uta_no_prince_sama_15th_we_love_starish_2027_eplus_presale_nov06",
+      "tourId": "uta_no_prince_sama_15th_we_love_starish_2027",
+      "type": "イープラス先行抽選販売",
+      "entryStartAt": "2026-11-06T18:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": "2026-11-20T13:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "uta_no_prince_sama_15th_we_love_starish_2027_yokohama_0123",
+        "uta_no_prince_sama_15th_we_love_starish_2027_yokohama_0124",
+        "uta_no_prince_sama_15th_we_love_starish_2027_aichi_0130",
+        "uta_no_prince_sama_15th_we_love_starish_2027_aichi_0131"
+      ],
+      "source": "system",
+      "sourceUrl": "https://15th.utapri.tv/event/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "uta_no_prince_sama_15th_we_love_starish_2027_general_dec05",
+      "tourId": "uta_no_prince_sama_15th_we_love_starish_2027",
+      "type": "一般販売（先着）",
+      "entryStartAt": "2026-12-05T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "uta_no_prince_sama_15th_we_love_starish_2027_yokohama_0123",
+        "uta_no_prince_sama_15th_we_love_starish_2027_yokohama_0124",
+        "uta_no_prince_sama_15th_we_love_starish_2027_aichi_0130",
+        "uta_no_prince_sama_15th_we_love_starish_2027_aichi_0131"
+      ],
+      "source": "system",
+      "sourceUrl": "https://15th.utapri.tv/event/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

@@ -329,7 +329,7 @@
       "id": "yuuri_live_hong_kong_2026_1127",
       "tourId": "yuuri_live_hong_kong_2026",
       "venue": "AsiaWorld-Expo Hall 10（香港）",
-      "performanceAt": "2026-11-27T20:00:00+09:00",
+      "performanceAt": "2026-11-27T20:00:00+08:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": null,
@@ -595,7 +595,7 @@
       "tourId": "yuuri_live_hong_kong_2026",
       "type": "一般発売（先着）",
       "entryStartAt": "2026-08-07T13:00:00+09:00",
-      "entryEndAt": null,
+      "entryEndAt": "2026-11-27T20:00:00+08:00",
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
@@ -750,6 +750,38 @@
       "sourceUrl": "https://eplus.jp/sf/detail/3413260010",
       "source": "system",
       "lastVerifiedAt": "2026-10-31T18:43:07+09:00"
+    },
+    {
+      "id": "yuuri_last_solo_concert_2026_yuurinchi_firstcome_dec13_20261110",
+      "tourId": "yuuri_last_solo_concert_2026",
+      "type": "12/13追加公演 ゆーりんち限定先着先行（ゆーりんちの席のみ）",
+      "entryStartAt": "2026-11-10T20:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yuuri_last_solo_concert_2026_yokohama_1213"
+      ],
+      "source": "system",
+      "sourceUrl": "https://yuurinchi.com/contents/1125670",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "yuuri_last_solo_concert_2026_official_advance_dec13_end_20261115",
+      "tourId": "yuuri_last_solo_concert_2026",
+      "type": "12/13追加公演 オフィシャル先行（指定席・受付開始未確認）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yuuri_last_solo_concert_2026_yokohama_1213"
+      ],
+      "source": "system",
+      "sourceUrl": "https://yuurinchi.com/contents/1125670",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

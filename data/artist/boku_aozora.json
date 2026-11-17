@@ -825,15 +825,15 @@
       "id": "boku_aozora_kumo_bbble_r4_1224",
       "tourId": "boku_aozora_kumo_team_series_2026_2027",
       "venue": "SHIBUYA PLEASURE PLEASURE",
-      "performanceAt": "2026-12-24T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-12-24T19:00:00+09:00",
+      "doorOpenAt": "2026-12-24T18:15:00+09:00",
       "kind": "oneman",
       "eventName": "雲組～B♡BBLE～公演 第4回戦",
       "source": "system",
       "sourceUrl": "https://bokuao.com/news/detail/5858",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00",
       "performanceDate": "2026-12-24",
-      "performanceTimeEstimated": true
+      "performanceTimeEstimated": false
     },
     {
       "id": "boku_aozora_kumo_super_0130",
@@ -1085,10 +1085,10 @@
       "id": "boku_aozora_bokuha_mikatada_laquaa_2026_tokyo_1117",
       "tourId": "boku_aozora_bokuha_mikatada_laquaa_2026",
       "venue": "東京ドームシティ ラクーアガーデンステージ",
-      "performanceAt": "2026-11-17T12:00:00+09:00",
+      "performanceAt": "2026-11-17T19:00:00+09:00",
       "performanceDate": "2026-11-17",
-      "performanceTimeEstimated": true,
-      "doorOpenAt": null,
+      "performanceTimeEstimated": false,
+      "doorOpenAt": "2026-11-17T18:30:00+09:00",
       "kind": "oneman",
       "eventName": "「僕は味方だ」リリースイベント（ミニライブ・特典会）",
       "source": "system",
@@ -1786,6 +1786,22 @@
       "sourceUrl": "https://bokuao.com/news/detail/6143",
       "source": "system",
       "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "boku_aozora_bokuha_mikatada_laquaa_2026_line_entry_20261112",
+      "tourId": "boku_aozora_bokuha_mikatada_laquaa_2026",
+      "type": "ラクーア無料ミニライブ 入場整理券事前受付（入場枠超過時抽選）",
+      "entryStartAt": "2026-11-12T21:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "boku_aozora_bokuha_mikatada_laquaa_2026_tokyo_1117"
+      ],
+      "source": "system",
+      "sourceUrl": "https://bokuao.com/news/detail/6184",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

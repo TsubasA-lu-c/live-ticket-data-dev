@@ -380,6 +380,38 @@
       "source": "system",
       "sourceUrl": "https://radwimps.jp/news/16619/",
       "lastVerifiedAt": "2026-10-25T00:00:00+09:00"
+    },
+    {
+      "id": "radwimps_yurinchi_2026_okawari_extra_firstcome_20261110",
+      "tourId": "radwimps_yurinchi_fc_tour_2026",
+      "type": "「おかわり」追加公演 追加販売（先着・2026-11-10公演）",
+      "entryStartAt": "2026-11-09T19:00:00+09:00",
+      "entryEndAt": "2026-11-10T16:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "radwimps_yurinchi_fc_tour_2026_yokohama_1110"
+      ],
+      "source": "system",
+      "sourceUrl": "https://radwimps.jp/yurinchi/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "radwimps_yurinchi_2026_okawari_extra_firstcome_20261111",
+      "tourId": "radwimps_yurinchi_fc_tour_2026",
+      "type": "「おかわり」追加公演 追加販売（先着・2026-11-11公演）",
+      "entryStartAt": "2026-11-09T19:00:00+09:00",
+      "entryEndAt": "2026-11-11T16:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "radwimps_yurinchi_fc_tour_2026_yokohama_1111"
+      ],
+      "source": "system",
+      "sourceUrl": "https://radwimps.jp/yurinchi/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

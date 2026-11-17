@@ -192,7 +192,17 @@
       "endDate": "2026-12-20T00:00:00+09:00",
       "source": "system",
       "sourceUrl": "https://sd-milk.com/contents/1116721",
-      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "アリーナVIP指定席",
+          "amount": 14000
+        },
+        {
+          "label": "一般指定席",
+          "amount": 11000
+        }
+      ]
     }
   ],
   "performances": [
@@ -992,7 +1002,8 @@
       "eventName": "Spotify On Stage Tokyo 2026 -10th Anniversary Special-",
       "source": "system",
       "sourceUrl": "https://sd-milk.com/contents/1116721",
-      "lastVerifiedAt": "2026-10-26T00:00:00+09:00"
+      "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
+      "note": "開演時刻はイベント全体の開始時刻。出演者ごとの出演時刻は未公表。"
     }
   ],
   "lotteries": [
@@ -1970,6 +1981,84 @@
       ],
       "sourceUrl": "https://sd-milk.com/contents/1122835",
       "source": "system"
+    },
+    {
+      "id": "milk_yoshida_navilera_2027_official_20261022",
+      "tourId": "milk_yoshida_navilera_reading_drama_2027",
+      "type": "公式サイト先行（抽選）",
+      "entryStartAt": "2026-10-22T10:00:00+09:00",
+      "entryEndAt": "2026-10-28T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_yoshida_navilera_2027_20270226_1800",
+        "milk_yoshida_navilera_2027_20270227_1300",
+        "milk_yoshida_navilera_2027_20270227_1700",
+        "milk_yoshida_navilera_2027_20270228_1300",
+        "milk_yoshida_navilera_2027_20270228_1700",
+        "milk_yoshida_navilera_2027_20270303_1400",
+        "milk_yoshida_navilera_2027_20270304_1300",
+        "milk_yoshida_navilera_2027_20270305_1300",
+        "milk_yoshida_navilera_2027_20270305_1700",
+        "milk_yoshida_navilera_2027_20270306_1300",
+        "milk_yoshida_navilera_2027_20270306_1700",
+        "milk_yoshida_navilera_2027_20270307_1300",
+        "milk_yoshida_navilera_2027_20270307_1700",
+        "milk_yoshida_navilera_2027_20270319_1700",
+        "milk_yoshida_navilera_2027_20270324_1500",
+        "milk_yoshida_navilera_2027_20270324_1900"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1116796",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "milk_yoshida_navilera_2027_general_20261114",
+      "tourId": "milk_yoshida_navilera_reading_drama_2027",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-11-14T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_yoshida_navilera_2027_20270226_1800",
+        "milk_yoshida_navilera_2027_20270227_1300",
+        "milk_yoshida_navilera_2027_20270227_1700",
+        "milk_yoshida_navilera_2027_20270228_1300",
+        "milk_yoshida_navilera_2027_20270228_1700",
+        "milk_yoshida_navilera_2027_20270303_1400",
+        "milk_yoshida_navilera_2027_20270304_1300",
+        "milk_yoshida_navilera_2027_20270305_1300",
+        "milk_yoshida_navilera_2027_20270305_1700",
+        "milk_yoshida_navilera_2027_20270306_1300",
+        "milk_yoshida_navilera_2027_20270306_1700",
+        "milk_yoshida_navilera_2027_20270307_1300",
+        "milk_yoshida_navilera_2027_20270307_1700",
+        "milk_yoshida_navilera_2027_20270319_1700",
+        "milk_yoshida_navilera_2027_20270324_1500",
+        "milk_yoshida_navilera_2027_20270324_1900"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1116796",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "milk_spotify_on_stage_tokyo_2026_general_1110",
+      "tourId": "milk_spotify_on_stage_tokyo_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-11-10T10:00:00+09:00",
+      "entryEndAt": "2026-12-19T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_spotify_on_stage_tokyo_2026_tokyo_1220"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/3015200001",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

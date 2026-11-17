@@ -426,7 +426,7 @@
       "entryStartAt": "2026-12-04T18:00:00+09:00",
       "entryEndAt": "2026-12-20T23:59:00+09:00",
       "resultAt": null,
-      "paymentStartAt": null,
+      "paymentStartAt": "2026-12-25T15:00:00+09:00",
       "paymentEndAt": "2026-12-28T23:00:00+09:00",
       "performanceIds": [
         "hypnosis_mic_13th_live_2027_20270807",
@@ -435,6 +435,38 @@
       "sourceUrl": "https://hypnosismic.com/news/hm261004/",
       "source": "system",
       "lastVerifiedAt": "2026-10-10T20:24:52+09:00"
+    },
+    {
+      "id": "hypnosis_mic_13th_live_2027_official_resale_0807",
+      "tourId": "hypnosis_mic_13th_live_2027",
+      "type": "公式リセール（公演別・予定）",
+      "entryStartAt": "2027-07-24T12:00:00+09:00",
+      "entryEndAt": "2027-08-06T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hypnosis_mic_13th_live_2027_20270807"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hypster-fc.com/feature/ticket-13thlive2026-fc?_normalbrowse_=1",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "hypnosis_mic_13th_live_2027_official_resale_0808",
+      "tourId": "hypnosis_mic_13th_live_2027",
+      "type": "公式リセール（公演別・予定）",
+      "entryStartAt": "2027-07-24T12:00:00+09:00",
+      "entryEndAt": "2027-08-07T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hypnosis_mic_13th_live_2027_20270808"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hypster-fc.com/feature/ticket-13thlive2026-fc?_normalbrowse_=1",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "lastVerifiedAt": "2026-08-17T21:53:00+09:00",

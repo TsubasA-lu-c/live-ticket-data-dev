@@ -1945,6 +1945,59 @@
       "sourceUrl": "https://daichi-miura.jp/news/detail/1149",
       "source": "system",
       "lastVerifiedAt": "2026-10-31T18:51:21+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_additional_lawson_nov10",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "2027追加6公演 ローソンチケット先行（抽選）",
+      "entryStartAt": "2026-11-10T18:00:00+09:00",
+      "entryEndAt": "2026-11-23T23:59:00+09:00",
+      "resultAt": "2026-11-26T18:00:00+09:00",
+      "paymentStartAt": "2026-11-26T18:00:00+09:00",
+      "paymentEndAt": "2026-11-29T23:00:00+09:00",
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_hiroshima_0124",
+        "miura_daichi_raw_bare_2026_kyoto_0126",
+        "miura_daichi_raw_bare_2026_sapporo_0210",
+        "miura_daichi_raw_bare_2026_sapporo_0211",
+        "miura_daichi_raw_bare_2026_kanazawa_0221",
+        "miura_daichi_raw_bare_2026_tokyo_garden_0318"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1153",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_raw_bare_2026_yokosuka_production_seats_nov11",
+      "tourId": "miura_daichi_raw_bare_2026",
+      "type": "11/18神奈川 制作席開放追加販売（先着）",
+      "entryStartAt": "2026-11-11T17:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_raw_bare_2026_yokosuka_1118"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1154",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "miura_daichi_disaster_relief_2027_official_second_20261107",
+      "tourId": "miura_daichi_disaster_relief_2027",
+      "type": "オフィシャル2次先行（抽選・1/20出演日）",
+      "entryStartAt": "2026-11-07T20:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "miura_daichi_disaster_relief_2027_budokan_0120"
+      ],
+      "source": "system",
+      "sourceUrl": "https://daichi-miura.jp/news/detail/1142",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

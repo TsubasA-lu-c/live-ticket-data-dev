@@ -769,6 +769,30 @@
       "sourceUrl": "https://member.vaundy.jp/news/detail/11261",
       "lastVerifiedAt": "2026-08-23T00:00:00+09:00",
       "kindReviewed": true
+    },
+    {
+      "id": "vaundy_japan_arena_2728_chiba_1204",
+      "tourId": "vaundy_japan_arena_2728",
+      "venue": "LaLa arena TOKYO-BAY",
+      "performanceDate": "2027-12-04",
+      "performanceAt": "2027-12-04T18:00:00+09:00",
+      "doorOpenAt": "2027-12-04T17:00:00+09:00",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://vaundy.jp/news/detail/11145",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "vaundy_japan_arena_2728_chiba_1205",
+      "tourId": "vaundy_japan_arena_2728",
+      "venue": "LaLa arena TOKYO-BAY",
+      "performanceDate": "2027-12-05",
+      "performanceAt": "2027-12-05T16:00:00+09:00",
+      "doorOpenAt": "2027-12-05T15:00:00+09:00",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://vaundy.jp/news/detail/11145",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1151,6 +1175,91 @@
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
       "source": "system",
       "lastVerifiedAt": "2026-10-31T18:43:07+09:00"
+    },
+    {
+      "id": "vaundy_japan_arena_2728_chiba_vaws_premium_20261107",
+      "tourId": "vaundy_japan_arena_2728",
+      "type": "VAWS premium先行（千葉追加公演）",
+      "entryStartAt": "2026-11-07T18:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": "2026-11-20T18:00:00+09:00",
+      "paymentStartAt": "2026-11-20T18:00:00+09:00",
+      "paymentEndAt": "2026-11-23T23:59:00+09:00",
+      "performanceIds": [
+        "vaundy_japan_arena_2728_chiba_1204",
+        "vaundy_japan_arena_2728_chiba_1205"
+      ],
+      "source": "system",
+      "sourceUrl": "https://member.vaundy.jp/news/detail/11328",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "vaundy_japan_arena_2728_chiba_vaws_premium_overseas_20261107",
+      "tourId": "vaundy_japan_arena_2728",
+      "type": "VAWS premium（海外在住）先行（千葉追加公演）",
+      "entryStartAt": "2026-11-07T18:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": "2026-11-20T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "vaundy_japan_arena_2728_chiba_1204",
+        "vaundy_japan_arena_2728_chiba_1205"
+      ],
+      "source": "system",
+      "sourceUrl": "https://member.vaundy.jp/news/detail/11328",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "vaundy_japan_arena_2728_chiba_vaws_20261116",
+      "tourId": "vaundy_japan_arena_2728",
+      "type": "VAWS先行（千葉追加公演）",
+      "entryStartAt": "2026-11-16T12:00:00+09:00",
+      "entryEndAt": "2026-11-23T23:59:00+09:00",
+      "resultAt": "2026-11-28T18:00:00+09:00",
+      "paymentStartAt": "2026-11-28T18:00:00+09:00",
+      "paymentEndAt": "2026-11-30T23:59:00+09:00",
+      "performanceIds": [
+        "vaundy_japan_arena_2728_chiba_1204",
+        "vaundy_japan_arena_2728_chiba_1205"
+      ],
+      "source": "system",
+      "sourceUrl": "https://member.vaundy.jp/news/detail/11328",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "vaundy_japan_arena_2728_chiba_vaws_overseas_20261116",
+      "tourId": "vaundy_japan_arena_2728",
+      "type": "VAWS（海外在住）先行（千葉追加公演）",
+      "entryStartAt": "2026-11-16T12:00:00+09:00",
+      "entryEndAt": "2026-11-23T23:59:00+09:00",
+      "resultAt": "2026-11-28T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "vaundy_japan_arena_2728_chiba_1204",
+        "vaundy_japan_arena_2728_chiba_1205"
+      ],
+      "source": "system",
+      "sourceUrl": "https://member.vaundy.jp/news/detail/11328",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "vaundy_japan_arena_2728_chiba_pia_fastest_20261120",
+      "tourId": "vaundy_japan_arena_2728",
+      "type": "ぴあ最速抽選先行（千葉追加公演）",
+      "entryStartAt": "2026-11-20T12:00:00+09:00",
+      "entryEndAt": "2026-11-26T23:59:00+09:00",
+      "resultAt": "2026-12-03T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "vaundy_japan_arena_2728_chiba_1204",
+        "vaundy_japan_arena_2728_chiba_1205"
+      ],
+      "source": "system",
+      "sourceUrl": "https://member.vaundy.jp/news/detail/11328",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

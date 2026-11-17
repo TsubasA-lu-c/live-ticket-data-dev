@@ -531,15 +531,16 @@
       "id": "hana_melon_music_awards_2026_seoul_1114",
       "tourId": "hana_melon_music_awards_2026",
       "performanceDate": "2026-11-14",
-      "performanceAt": "2026-11-14T12:00:00+09:00",
-      "performanceTimeEstimated": true,
+      "performanceAt": "2026-11-14T18:00:00+09:00",
+      "performanceTimeEstimated": false,
       "doorOpenAt": null,
       "venue": "高尺スカイドーム（Gocheok Sky Dome）",
       "kind": "fes",
       "eventName": "The 18th Melon Music Awards (MMA2026)",
       "sourceUrl": "https://hana.b-rave.tokyo/live/mma2026/",
       "source": "system",
-      "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+      "lastVerifiedAt": "2026-10-17T09:27:36.992Z",
+      "note": "授賞式全体18:00開始。HANAの個別出演時刻は未発表。"
     },
     {
       "id": "hana_born_to_bloom_ii_2027_yokohama_0320",
@@ -1472,7 +1473,7 @@
       "entryEndAt": "2026-11-15T23:59:00+09:00",
       "resultAt": "2026-11-25T12:00:00+09:00",
       "paymentStartAt": null,
-      "paymentEndAt": null,
+      "paymentEndAt": "2026-11-30T23:59:00+09:00",
       "performanceIds": [
         "hana_born_to_bloom_ii_2027_yokohama_0320",
         "hana_born_to_bloom_ii_2027_yokohama_0321",
@@ -1517,7 +1518,7 @@
       "entryEndAt": "2026-11-15T23:59:00+09:00",
       "resultAt": "2026-11-25T12:00:00+09:00",
       "paymentStartAt": null,
-      "paymentEndAt": null,
+      "paymentEndAt": "2026-11-30T23:59:00+09:00",
       "performanceIds": [
         "hana_born_to_bloom_ii_2027_yokohama_0320",
         "hana_born_to_bloom_ii_2027_yokohama_0321",
@@ -1562,7 +1563,7 @@
       "entryEndAt": "2026-12-06T23:59:00+09:00",
       "resultAt": "2026-12-15T12:00:00+09:00",
       "paymentStartAt": null,
-      "paymentEndAt": null,
+      "paymentEndAt": "2026-12-19T23:59:00+09:00",
       "performanceIds": [
         "hana_born_to_bloom_ii_2027_yokohama_0320",
         "hana_born_to_bloom_ii_2027_yokohama_0321",
@@ -1598,6 +1599,72 @@
       "sourceUrl": "https://hana.b-rave.tokyo/tour/borntobloom2/",
       "source": "system",
       "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "hana_asia_pop_girl_fest_2027_ticketboard_first_20261031",
+      "tourId": "hana_asia_pop_girl_fest_2027",
+      "type": "Ticket Board先行①（抽選）",
+      "entryStartAt": "2026-10-31T18:00:00+09:00",
+      "entryEndAt": "2026-11-08T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hana_asia_pop_girl_fest_2027_0122",
+        "hana_asia_pop_girl_fest_2027_0123"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/asia-pop-girl-fest-2027_ticket/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "hana_asia_pop_girl_fest_2027_ticketboard_second_20261114",
+      "tourId": "hana_asia_pop_girl_fest_2027",
+      "type": "Ticket Board先行②（抽選）",
+      "entryStartAt": "2026-11-14T18:00:00+09:00",
+      "entryEndAt": "2026-11-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hana_asia_pop_girl_fest_2027_0122",
+        "hana_asia_pop_girl_fest_2027_0123"
+      ],
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/asia-pop-girl-fest-2027_ticket/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "hana_melon_music_awards_2026_gold_14",
+      "tourId": "hana_melon_music_awards_2026",
+      "type": "Melon GOLD以上 1次発売",
+      "entryStartAt": "2026-10-19T20:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hana_melon_music_awards_2026_seoul_1114"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.melon.com/en/mma/2026/info/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "hana_melon_music_awards_2026_paid_14",
+      "tourId": "hana_melon_music_awards_2026",
+      "type": "Melon有料会員 2次発売",
+      "entryStartAt": "2026-10-22T20:00:00+09:00",
+      "entryEndAt": "2026-11-13T10:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hana_melon_music_awards_2026_seoul_1114"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.melon.com/en/mma/2026/info/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

@@ -1019,6 +1019,116 @@
       "source": "system",
       "sourceUrl": "https://www.music-bank.jp/",
       "lastVerifiedAt": "2026-11-01T00:16:36+09:00"
+    },
+    {
+      "id": "niziu_music_bank_global_festival_2026_20261212_pia_prereserve_1st_20261110",
+      "tourId": "niziu_music_bank_global_festival_2026_20261212",
+      "type": "プレリザーブ1次（単日券・抽選）",
+      "entryStartAt": "2026-11-10T19:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "niziu_music_bank_global_festival_2026_20261212_mu_fg_stadium"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.music-bank.jp/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "niziu_music_bank_global_festival_2026_20261212_pia_premium_lounge_4th_20261110",
+      "tourId": "niziu_music_bank_global_festival_2026_20261212",
+      "type": "プレミアムラウンジ付き単日券4次先行（抽選）",
+      "entryStartAt": "2026-11-10T19:00:00+09:00",
+      "entryEndAt": "2026-11-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "niziu_music_bank_global_festival_2026_20261212_mu_fg_stadium"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.music-bank.jp/",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "niziu_who_u_2026_2027_seven_eleven_20261028",
+      "tourId": "niziu_live_with_u_2026_2027_who_u_niziu_fes",
+      "type": "セブン-イレブン先行（抽選）",
+      "entryStartAt": "2026-10-28T20:00:00+09:00",
+      "entryEndAt": "2026-11-01T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "niziu_who_u_2026_2027_20261122",
+        "niziu_who_u_2026_2027_20261123",
+        "niziu_who_u_2026_2027_20261128",
+        "niziu_who_u_2026_2027_20261204",
+        "niziu_who_u_2026_2027_20261205",
+        "niziu_who_u_2026_2027_20261219",
+        "niziu_who_u_2026_2027_20261220",
+        "niziu_who_u_2026_2027_20270120",
+        "niziu_who_u_2026_2027_20270121",
+        "niziu_who_u_2026_2027_20270123",
+        "niziu_who_u_2026_2027_20270124"
+      ],
+      "source": "system",
+      "sourceUrl": "https://niziu.com/s/n123/page/livewithu2026_2027?ima=3307",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "niziu_who_u_2026_2027_general_20261114",
+      "tourId": "niziu_live_with_u_2026_2027_who_u_niziu_fes",
+      "type": "一般発売（先着順）",
+      "entryStartAt": "2026-11-14T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "niziu_who_u_2026_2027_20261122",
+        "niziu_who_u_2026_2027_20261123",
+        "niziu_who_u_2026_2027_20261128",
+        "niziu_who_u_2026_2027_20261204",
+        "niziu_who_u_2026_2027_20261205",
+        "niziu_who_u_2026_2027_20261219",
+        "niziu_who_u_2026_2027_20261220",
+        "niziu_who_u_2026_2027_20270120",
+        "niziu_who_u_2026_2027_20270121",
+        "niziu_who_u_2026_2027_20270123",
+        "niziu_who_u_2026_2027_20270124"
+      ],
+      "source": "system",
+      "sourceUrl": "https://niziu.com/s/n123/page/livewithu2026_2027?ima=3307",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "niziu_who_u_2026_2027_overseas_general_20261114",
+      "tourId": "niziu_live_with_u_2026_2027_who_u_niziu_fes",
+      "type": "海外在住者向け一般発売（先着順）",
+      "entryStartAt": "2026-11-14T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "niziu_who_u_2026_2027_20261122",
+        "niziu_who_u_2026_2027_20261123",
+        "niziu_who_u_2026_2027_20261128",
+        "niziu_who_u_2026_2027_20261204",
+        "niziu_who_u_2026_2027_20261205",
+        "niziu_who_u_2026_2027_20261219",
+        "niziu_who_u_2026_2027_20261220",
+        "niziu_who_u_2026_2027_20270120",
+        "niziu_who_u_2026_2027_20270121",
+        "niziu_who_u_2026_2027_20270123",
+        "niziu_who_u_2026_2027_20270124"
+      ],
+      "source": "system",
+      "sourceUrl": "https://niziu.com/s/n123/page/livewithu2026_2027?ima=3307",
+      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
