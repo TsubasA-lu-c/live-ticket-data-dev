@@ -1217,6 +1217,22 @@
       "source": "system",
       "sourceUrl": "https://not-equal-me.jp/news/detail/8110",
       "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "not_equal_me_grand_concert_2026_fc_first_oct20",
+      "tourId": "not_equal_me_grand_concert_2026",
+      "type": "≠ME Official Fan Club会員抽選先行",
+      "entryStartAt": "2026-10-20T01:56:00+09:00",
+      "entryEndAt": "2026-10-27T23:59:00+09:00",
+      "performanceIds": [
+        "not_equal_me_grand_concert_2026_toyota_1224"
+      ],
+      "sourceUrl": "https://not-equal-me.jp/pages/specialsite_grandconcert",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null
     }
   ],
   "appleMusicTracks": [

@@ -128,6 +128,17 @@
           "amount": 13000
         }
       ]
+    },
+    {
+      "id": "starglow_hiroshima_continew_fes_2026",
+      "artistId": "starglow",
+      "title": "HIROSHIMA CONTI-NeW FeS 2026",
+      "startDate": "2026-12-05T00:00:00+09:00",
+      "endDate": "2026-12-05T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://starglow.tokyo/news/live/1542/",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -670,6 +681,21 @@
       "source": "system",
       "sourceUrl": "https://starglow.tokyo/special/tour2027aurora/",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_hiroshima_continew_fes_2026_1205",
+      "tourId": "starglow_hiroshima_continew_fes_2026",
+      "performanceDate": "2026-12-05",
+      "performanceAt": "2026-12-05T12:00:00+09:00",
+      "doorOpenAt": null,
+      "venue": "広島グリーンアリーナ",
+      "kind": "fes",
+      "source": "system",
+      "sourceUrl": "https://starglow.tokyo/news/live/1542/",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "kindReviewed": true,
+      "eventName": "HIROSHIMA CONTI-NeW FeS 2026"
     }
   ],
   "lotteries": [
@@ -955,6 +981,50 @@
       "sourceUrl": "https://eplus.jp/starglow/",
       "source": "system",
       "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_aurora_2027_lawson_prereq_20261113",
+      "tourId": "starglow_gate3_2027_951f1e69",
+      "type": "ローソンチケット先行（プレリク／対象公演によりLEncoreもあり・抽選）",
+      "entryStartAt": "2026-11-13T15:00:00+09:00",
+      "entryEndAt": "2026-11-23T23:59:00+09:00",
+      "resultAt": "2026-11-26T12:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "starglow_gate3_2027_951f1e69_20270116_01",
+        "starglow_gate3_2027_951f1e69_20270117_02",
+        "starglow_gate3_2027_951f1e69_20270131_04",
+        "starglow_gate3_2027_951f1e69_20270227_07",
+        "starglow_gate3_2027_951f1e69_20270228_08",
+        "starglow_gate3_2027_951f1e69_20270313_09",
+        "starglow_gate3_2027_951f1e69_20270314_10"
+      ],
+      "source": "system",
+      "sourceUrl": "https://l-tike.com/starglow/",
+      "lastVerifiedAt": "2026-11-22T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_aurora_2027_eplus_preorder2_20261113",
+      "tourId": "starglow_gate3_2027_951f1e69",
+      "type": "イープラス2次プレオーダー（抽選）",
+      "entryStartAt": "2026-11-13T15:00:00+09:00",
+      "entryEndAt": "2026-11-23T23:59:00+09:00",
+      "resultAt": "2026-11-26T12:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "starglow_gate3_2027_951f1e69_20270116_01",
+        "starglow_gate3_2027_951f1e69_20270117_02",
+        "starglow_gate3_2027_951f1e69_20270131_04",
+        "starglow_gate3_2027_951f1e69_20270227_07",
+        "starglow_gate3_2027_951f1e69_20270228_08",
+        "starglow_gate3_2027_951f1e69_20270313_09",
+        "starglow_gate3_2027_951f1e69_20270314_10"
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/starglow/",
+      "lastVerifiedAt": "2026-11-22T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

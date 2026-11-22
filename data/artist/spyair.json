@@ -152,6 +152,17 @@
       "artistId": "spyair",
       "source": "system",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00"
+    },
+    {
+      "id": "spyair_sv_league_all_star_2027",
+      "artistId": "spyair",
+      "title": "エムット presents SV.LEAGUE ALL STAR GAMES 2026-27 HOKKAIDO（SPYAIRライブ出演）",
+      "startDate": "2027-01-30T00:00:00+09:00",
+      "endDate": "2027-01-30T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://www.hkdballpark.com/news/1171/",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -601,6 +612,21 @@
       "sourceUrl": "https://www.sonymusic.co.jp/artist/spyair/info/587174",
       "lastVerifiedAt": "2026-10-03T00:00:00+09:00",
       "tourId": "spyair_japan_tour_2026_2027_ep01"
+    },
+    {
+      "id": "spyair_sv_league_all_star_2027_0130",
+      "tourId": "spyair_sv_league_all_star_2027",
+      "performanceDate": "2027-01-30",
+      "performanceAt": "2027-01-30T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "venue": "エスコンフィールドHOKKAIDO",
+      "kind": "oneman",
+      "kindReviewed": true,
+      "eventName": "SV.LEAGUE ALL STAR GAMES 2026-27（SPYAIRスペシャルライブ）",
+      "source": "system",
+      "sourceUrl": "https://www.hkdballpark.com/news/1171/",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -786,6 +812,22 @@
       "source": "system",
       "sourceUrl": "https://l-tike.com/order/?gBaseVenueCd=8A098&gCarrierCd=01&gEntryMthd=03&gLcode=91632&gPfKey=20260930000002304668&gPfName=%EF%BC%B3%EF%BC%B0%EF%BC%B9%EF%BC%A1%EF%BC%A9%EF%BC%B2&gScheduleNo=5",
       "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "spyair_ep01_tokyo_general_20261115",
+      "tourId": "spyair_japan_tour_2026_2027_ep01",
+      "type": "SPYAIR JAPAN TOUR EP.01 東京公演 DISK GARAGE一般発売（先着）",
+      "entryStartAt": "2026-11-15T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "spyair_japan_tour_2026_2027_ep01_tokyo_1222"
+      ],
+      "source": "system",
+      "sourceUrl": "https://diskgarage.com/ticket/detail/102952",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

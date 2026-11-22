@@ -1270,6 +1270,22 @@
       "sourceUrl": "https://fukuokamusic-fes.com/2027/index.html",
       "source": "system",
       "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "04_limited_sazabys_yontown_shinnenkai_2027_regular_20261119",
+      "tourId": "04_limited_sazabys_yontown_shinnenkai_2027",
+      "type": "YON TOWN通常会員抽選先行",
+      "entryStartAt": "2026-11-19T18:00:00+09:00",
+      "entryEndAt": "2026-11-29T23:59:00+09:00",
+      "resultAt": "2026-12-03T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-12-06T23:59:00+09:00",
+      "performanceIds": [
+        "04_limited_sazabys_yontown_shinnenkai_2027_nagoya_0115"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.04limitedsazabys.com/feature/shinnennkai2027",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

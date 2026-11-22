@@ -1168,6 +1168,55 @@
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/news/detail/23363",
       "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "mrs_green_apple_ringojam_shadows_2026_trade_20261128",
+      "tourId": "mrs_green_apple_ringojam_shadows_2026",
+      "type": "千葉11/28 公式チケットトレード（抽選）",
+      "entryStartAt": "2026-11-18T15:00:00+09:00",
+      "entryEndAt": "2026-11-25T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mrs_green_apple_ringojam_shadows_2026_chiba2_1128"
+      ],
+      "source": "system",
+      "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "mrs_green_apple_ringojam_shadows_2026_trade_20261129",
+      "tourId": "mrs_green_apple_ringojam_shadows_2026",
+      "type": "千葉11/29 公式チケットトレード（抽選）",
+      "entryStartAt": "2026-11-18T15:00:00+09:00",
+      "entryEndAt": "2026-11-26T11:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mrs_green_apple_ringojam_shadows_2026_chiba2_1129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "mrs_green_apple_ringojam_shadows_2026_aichi_all_fc_20261120",
+      "tourId": "mrs_green_apple_ringojam_shadows_2026",
+      "type": "Ringo Jam全会員先行（愛知12/27・28）",
+      "entryStartAt": "2026-11-20T12:00:00+09:00",
+      "entryEndAt": "2026-11-26T05:00:00+09:00",
+      "resultAt": "2026-12-05T14:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-12-09T23:59:00+09:00",
+      "performanceIds": [
+        "mrs_green_apple_ringojam_shadows_2026_aichi_1227",
+        "mrs_green_apple_ringojam_shadows_2026_aichi_1228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

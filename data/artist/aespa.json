@@ -83,6 +83,26 @@
       "source": "system",
       "sourceUrl": "https://cdnimg.melon.co.kr/svc/images/musicstory/2026/10/1d/9ed/202610140835055387.jpg/melon/optimize/90",
       "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "aespa_synk_complaexity_japan_dome_2027",
+      "artistId": "aespa",
+      "title": "2027 aespa LIVE TOUR – SYNK : COMPLaeXITY in JAPAN",
+      "startDate": "2027-03-06T00:00:00+09:00",
+      "endDate": "2027-04-04T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 14800
+        },
+        {
+          "label": "プレミアムシート",
+          "amount": 25800
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://aespa-official.jp/news/dometour2027-fc/",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -578,6 +598,54 @@
       "source": "system",
       "sourceUrl": "https://cdnimg.melon.co.kr/svc/images/musicstory/2026/10/1d/9ed/202610140835055387.jpg/melon/optimize/90",
       "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "aespa_synk_complaexity_japan_dome_2027_tokyo_0306",
+      "tourId": "aespa_synk_complaexity_japan_dome_2027",
+      "performanceDate": "2027-03-06",
+      "performanceAt": "2027-03-06T18:30:00+09:00",
+      "doorOpenAt": "2027-03-06T16:30:00+09:00",
+      "venue": "東京ドーム",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://aespa-official.jp/news/dometour2027-fc/",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "aespa_synk_complaexity_japan_dome_2027_tokyo_0307",
+      "tourId": "aespa_synk_complaexity_japan_dome_2027",
+      "performanceDate": "2027-03-07",
+      "performanceAt": "2027-03-07T16:00:00+09:00",
+      "doorOpenAt": "2027-03-07T14:00:00+09:00",
+      "venue": "東京ドーム",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://aespa-official.jp/news/dometour2027-fc/",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "aespa_synk_complaexity_japan_dome_2027_osaka_0403",
+      "tourId": "aespa_synk_complaexity_japan_dome_2027",
+      "performanceDate": "2027-04-03",
+      "performanceAt": "2027-04-03T18:30:00+09:00",
+      "doorOpenAt": "2027-04-03T16:30:00+09:00",
+      "venue": "京セラドーム大阪",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://aespa-official.jp/news/dometour2027-fc/",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "aespa_synk_complaexity_japan_dome_2027_osaka_0404",
+      "tourId": "aespa_synk_complaexity_japan_dome_2027",
+      "performanceDate": "2027-04-04",
+      "performanceAt": "2027-04-04T16:00:00+09:00",
+      "doorOpenAt": "2027-04-04T14:00:00+09:00",
+      "venue": "京セラドーム大阪",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://aespa-official.jp/news/dometour2027-fc/",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1039,6 +1107,25 @@
       "source": "system",
       "sourceUrl": "https://www.melon.com/en/mma/2026/info/",
       "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "aespa_synk_complaexity_japan_dome_2027_myj_fc_first_20261116",
+      "tourId": "aespa_synk_complaexity_japan_dome_2027",
+      "type": "MY-J MEMBERSHIP JP会員最速抽選先行",
+      "entryStartAt": "2026-11-16T18:00:00+09:00",
+      "entryEndAt": "2026-11-29T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "aespa_synk_complaexity_japan_dome_2027_tokyo_0306",
+        "aespa_synk_complaexity_japan_dome_2027_tokyo_0307",
+        "aespa_synk_complaexity_japan_dome_2027_osaka_0403",
+        "aespa_synk_complaexity_japan_dome_2027_osaka_0404"
+      ],
+      "source": "system",
+      "sourceUrl": "https://aespa-official.jp/news/dometour2027-fc/",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

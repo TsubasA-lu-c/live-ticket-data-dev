@@ -210,6 +210,49 @@
       "artistId": "golden_bomber",
       "source": "system",
       "lastVerifiedAt": "2026-10-10T20:22:44+09:00"
+    },
+    {
+      "artistId": "golden_bomber",
+      "id": "golden_bomber_taiko_no_tatsujin_25th_2026",
+      "title": "『太鼓の達人』25周年×ゴールデンボンバー コラボステージ",
+      "startDate": "2026-12-04T00:00:00+09:00",
+      "endDate": "2026-12-04T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1129099",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "artistId": "golden_bomber",
+      "id": "golden_bomber_kiryuin_radio_mitaina_57_2026",
+      "title": "【鬼龍院翔】ラジオみたいなイベント vol.57",
+      "startDate": "2026-12-16T00:00:00+09:00",
+      "endDate": "2026-12-16T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席自由",
+          "amount": 3500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1125186",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "artistId": "golden_bomber",
+      "id": "golden_bomber_utahiroba_aki_dohan_2026",
+      "title": "【歌広場淳】ミュージカルお疲れさま！秋の同伴キャンペーン",
+      "startDate": "2026-11-22T00:00:00+09:00",
+      "endDate": "2026-11-22T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席自由",
+          "amount": 3500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1121246",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -1053,6 +1096,56 @@
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z",
       "performanceTimeEstimated": false
+    },
+    {
+      "id": "golden_bomber_taiko_no_tatsujin_25th_2026_1204",
+      "tourId": "golden_bomber_taiko_no_tatsujin_25th_2026",
+      "performanceDate": "2026-12-04",
+      "performanceAt": "2026-12-04T18:30:00+09:00",
+      "doorOpenAt": "2026-12-04T17:30:00+09:00",
+      "venue": "池袋サンシャインシティ 噴水広場",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1129099",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00",
+      "kindReviewed": true,
+      "eventName": "太鼓の達人25周年 コラボステージ"
+    },
+    {
+      "id": "golden_bomber_kiryuin_radio_mitaina_57_2026_1216_day",
+      "tourId": "golden_bomber_kiryuin_radio_mitaina_57_2026",
+      "performanceDate": "2026-12-16",
+      "performanceAt": "2026-12-16T14:30:00+09:00",
+      "doorOpenAt": "2026-12-16T14:00:00+09:00",
+      "venue": "LOFT/PLUS ONE（東京・新宿）",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1125186",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "golden_bomber_kiryuin_radio_mitaina_57_2026_1216_night",
+      "tourId": "golden_bomber_kiryuin_radio_mitaina_57_2026",
+      "performanceDate": "2026-12-16",
+      "performanceAt": "2026-12-16T18:00:00+09:00",
+      "doorOpenAt": "2026-12-16T17:30:00+09:00",
+      "venue": "LOFT/PLUS ONE（東京・新宿）",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1125186",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "golden_bomber_utahiroba_aki_dohan_2026_1122",
+      "tourId": "golden_bomber_utahiroba_aki_dohan_2026",
+      "performanceDate": "2026-11-22",
+      "performanceAt": "2026-11-22T12:30:00+09:00",
+      "doorOpenAt": "2026-11-22T12:00:00+09:00",
+      "venue": "株式会社アイ・オー・データ機器 本社第2ビル6F多目的室（石川県金沢市）",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1121246",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1793,6 +1886,56 @@
       "note": "2027/1/9 10:00開始予定。状況により実施しない公演の可能性あり。",
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "golden_bomber_kiryuin_radio_mitaina_57_2026_fc_20261111",
+      "tourId": "golden_bomber_kiryuin_radio_mitaina_57_2026",
+      "type": "マルキンFC抽選先行",
+      "entryStartAt": "2026-11-11T12:00:00+09:00",
+      "entryEndAt": "2026-11-13T23:59:00+09:00",
+      "resultAt": "2026-11-14T14:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-11-16T23:59:00+09:00",
+      "performanceIds": [
+        "golden_bomber_kiryuin_radio_mitaina_57_2026_1216_day",
+        "golden_bomber_kiryuin_radio_mitaina_57_2026_1216_night"
+      ],
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1125186",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "golden_bomber_kiryuin_radio_mitaina_57_2026_general_20261117",
+      "tourId": "golden_bomber_kiryuin_radio_mitaina_57_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-11-17T18:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "golden_bomber_kiryuin_radio_mitaina_57_2026_1216_day",
+        "golden_bomber_kiryuin_radio_mitaina_57_2026_1216_night"
+      ],
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1125186",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "golden_bomber_utahiroba_aki_dohan_2026_general_20261106",
+      "tourId": "golden_bomber_utahiroba_aki_dohan_2026",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2026-11-06T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "golden_bomber_utahiroba_aki_dohan_2026_1122"
+      ],
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1121246",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

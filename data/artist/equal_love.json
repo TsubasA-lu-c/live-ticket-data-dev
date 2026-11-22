@@ -1019,28 +1019,28 @@
       "tourId": "equal_love_nagoya_dome_2027",
       "performanceDate": "2027-02-24",
       "venue": "バンテリンドーム ナゴヤ",
-      "performanceAt": "2027-02-24T12:00:00+09:00",
-      "performanceTimeEstimated": true,
-      "doorOpenAt": null,
+      "performanceAt": "2027-02-24T18:00:00+09:00",
+      "performanceTimeEstimated": false,
+      "doorOpenAt": "2027-02-24T16:00:00+09:00",
       "kind": "oneman",
       "eventName": "＝LOVE DOME LIVE in NAGOYA「全ては＝LOVE」",
       "source": "system",
-      "sourceUrl": "https://equal-love.jp/news/detail/12275",
-      "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
+      "sourceUrl": "https://equal-love.jp/news/detail/12473",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     },
     {
       "id": "equal_love_nagoya_dome_2027_0225",
       "tourId": "equal_love_nagoya_dome_2027",
       "performanceDate": "2027-02-25",
       "venue": "バンテリンドーム ナゴヤ",
-      "performanceAt": "2027-02-25T12:00:00+09:00",
-      "performanceTimeEstimated": true,
-      "doorOpenAt": null,
+      "performanceAt": "2027-02-25T18:00:00+09:00",
+      "performanceTimeEstimated": false,
+      "doorOpenAt": "2027-02-25T16:00:00+09:00",
       "kind": "oneman",
       "eventName": "＝LOVE DOME LIVE in NAGOYA「全ては＝LOVE」",
       "source": "system",
-      "sourceUrl": "https://equal-love.jp/news/detail/12275",
-      "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
+      "sourceUrl": "https://equal-love.jp/news/detail/12473",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1411,6 +1411,23 @@
       "source": "system",
       "sourceUrl": "https://equal-love.jp/news/detail/12399",
       "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "equal_love_tokyo_dome_2027_general_lottery_20261121",
+      "tourId": "equal_love_tokyo_dome_2027",
+      "type": "一般先行（ローソンチケット・抽選）",
+      "entryStartAt": "2026-11-21T19:30:00+09:00",
+      "entryEndAt": "2026-11-29T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "equal_love_tokyo_dome_2027_dome_0119",
+        "equal_love_tokyo_dome_2027_dome_0120"
+      ],
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/news/detail/12474",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

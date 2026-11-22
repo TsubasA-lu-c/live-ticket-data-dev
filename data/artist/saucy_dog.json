@@ -1351,6 +1351,34 @@
       "sourceUrl": "https://fukuokamusic-fes.com/2027/index.html",
       "source": "system",
       "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "saucy_dog_tadoru_2027_series2_fc_2nd_20261116",
+      "tourId": "saucy_dog_tadoru_47_pref_2027",
+      "type": "サウシードッグオーナーズ Series2 FC2次先行（抽選）",
+      "entryStartAt": "2026-11-16T12:00:00+09:00",
+      "entryEndAt": "2026-11-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "saucy_dog_tadoru_2027_20270511",
+        "saucy_dog_tadoru_2027_20270513",
+        "saucy_dog_tadoru_2027_20270518",
+        "saucy_dog_tadoru_2027_20270519",
+        "saucy_dog_tadoru_2027_20270525",
+        "saucy_dog_tadoru_2027_20270526",
+        "saucy_dog_tadoru_2027_20270608",
+        "saucy_dog_tadoru_2027_20270615",
+        "saucy_dog_tadoru_2027_20270617",
+        "saucy_dog_tadoru_2027_20270618",
+        "saucy_dog_tadoru_2027_20270622",
+        "saucy_dog_tadoru_2027_20270623",
+        "saucy_dog_tadoru_2027_20270630"
+      ],
+      "source": "system",
+      "sourceUrl": "https://saucydog.jp/feature/tadorutour2027",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

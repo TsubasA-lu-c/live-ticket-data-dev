@@ -179,6 +179,54 @@
       "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00695?ima=0000&link=ROBO009",
       "source": "system",
       "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_tamura_hono_graduation_2027",
+      "artistId": "sakurazaka46",
+      "title": "櫻坂46「田村保乃 卒業コンサート」",
+      "startDate": "2027-01-28T00:00:00+09:00",
+      "endDate": "2027-01-29T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定・親子女性エリア",
+          "amount": 11000
+        },
+        {
+          "label": "Leminoスペシャルシート",
+          "amount": 17000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00707",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_arena_tour_2027",
+      "artistId": "sakurazaka46",
+      "title": "櫻坂46 アリーナツアー2027「タイトル未定」",
+      "startDate": "2027-03-10T00:00:00+09:00",
+      "endDate": "2027-04-22T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定（愛知・大阪・広島・宮城・福岡）",
+          "amount": 11000
+        },
+        {
+          "label": "Leminoスペシャルシート（愛知・大阪・広島・宮城・福岡）",
+          "amount": 17000
+        },
+        {
+          "label": "全席指定（埼玉）",
+          "amount": 12000
+        },
+        {
+          "label": "Leminoスペシャルシート（埼玉）",
+          "amount": 18000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/G00246",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -403,15 +451,16 @@
       "id": "sakurazaka46_fukuoka_music_fes_2027_fukuoka_0131",
       "tourId": "sakurazaka46_fukuoka_music_fes_2027",
       "performanceDate": "2027-01-31",
-      "performanceAt": "2027-01-31T12:00:00+09:00",
+      "performanceAt": "2027-01-31T10:20:00+09:00",
       "doorOpenAt": "2027-01-31T09:00:00+09:00",
       "venue": "みずほPayPayドーム福岡",
       "kind": "fes",
       "eventName": "FUKUOKA MUSIC FES.2027",
-      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00692?ima=0000",
+      "sourceUrl": "https://fukuokamusic-fes.com/2027/index.html",
       "source": "system",
-      "lastVerifiedAt": "2026-10-10T20:23:15+09:00",
-      "performanceTimeEstimated": true
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00",
+      "performanceTimeEstimated": false,
+      "kindReviewed": true
     },
     {
       "id": "sakurazaka46_16th_backs_live_2026_20261215",
@@ -462,6 +511,174 @@
       "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00695?ima=0000&link=ROBO009",
       "source": "system",
       "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_tamura_hono_graduation_2027_0128",
+      "tourId": "sakurazaka46_tamura_hono_graduation_2027",
+      "performanceDate": "2027-01-28",
+      "performanceAt": "2027-01-28T19:00:00+09:00",
+      "doorOpenAt": "2027-01-28T17:30:00+09:00",
+      "venue": "国立代々木競技場 第一体育館",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00707",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_tamura_hono_graduation_2027_0129",
+      "tourId": "sakurazaka46_tamura_hono_graduation_2027",
+      "performanceDate": "2027-01-29",
+      "performanceAt": "2027-01-29T18:30:00+09:00",
+      "doorOpenAt": "2027-01-29T17:00:00+09:00",
+      "venue": "国立代々木競技場 第一体育館",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/E00707",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_arena_tour_2027_aichi_0310",
+      "tourId": "sakurazaka46_arena_tour_2027",
+      "performanceDate": "2027-03-10",
+      "performanceAt": "2027-03-10T19:00:00+09:00",
+      "doorOpenAt": "2027-03-10T17:30:00+09:00",
+      "venue": "クロコくんホール（日本ガイシホール）",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/G00246",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_arena_tour_2027_aichi_0311",
+      "tourId": "sakurazaka46_arena_tour_2027",
+      "performanceDate": "2027-03-11",
+      "performanceAt": "2027-03-11T19:00:00+09:00",
+      "doorOpenAt": "2027-03-11T17:30:00+09:00",
+      "venue": "クロコくんホール（日本ガイシホール）",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/G00246",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_arena_tour_2027_osaka_0320",
+      "tourId": "sakurazaka46_arena_tour_2027",
+      "performanceDate": "2027-03-20",
+      "performanceAt": "2027-03-20T17:30:00+09:00",
+      "doorOpenAt": "2027-03-20T16:00:00+09:00",
+      "venue": "大阪城ホール",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/G00246",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_arena_tour_2027_osaka_0321",
+      "tourId": "sakurazaka46_arena_tour_2027",
+      "performanceDate": "2027-03-21",
+      "performanceAt": "2027-03-21T15:30:00+09:00",
+      "doorOpenAt": "2027-03-21T14:00:00+09:00",
+      "venue": "大阪城ホール",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/G00246",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_arena_tour_2027_hiroshima_0327",
+      "tourId": "sakurazaka46_arena_tour_2027",
+      "performanceDate": "2027-03-27",
+      "performanceAt": "2027-03-27T17:30:00+09:00",
+      "doorOpenAt": "2027-03-27T16:00:00+09:00",
+      "venue": "広島グリーンアリーナ",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/G00246",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_arena_tour_2027_hiroshima_0328",
+      "tourId": "sakurazaka46_arena_tour_2027",
+      "performanceDate": "2027-03-28",
+      "performanceAt": "2027-03-28T17:30:00+09:00",
+      "doorOpenAt": "2027-03-28T16:00:00+09:00",
+      "venue": "広島グリーンアリーナ",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/G00246",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_arena_tour_2027_miyagi_0403",
+      "tourId": "sakurazaka46_arena_tour_2027",
+      "performanceDate": "2027-04-03",
+      "performanceAt": "2027-04-03T17:30:00+09:00",
+      "doorOpenAt": "2027-04-03T16:00:00+09:00",
+      "venue": "セキスイハイムスーパーアリーナ",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/G00246",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_arena_tour_2027_miyagi_0404",
+      "tourId": "sakurazaka46_arena_tour_2027",
+      "performanceDate": "2027-04-04",
+      "performanceAt": "2027-04-04T17:30:00+09:00",
+      "doorOpenAt": "2027-04-04T16:00:00+09:00",
+      "venue": "セキスイハイムスーパーアリーナ",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/G00246",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_arena_tour_2027_fukuoka_0410",
+      "tourId": "sakurazaka46_arena_tour_2027",
+      "performanceDate": "2027-04-10",
+      "performanceAt": "2027-04-10T17:30:00+09:00",
+      "doorOpenAt": "2027-04-10T16:00:00+09:00",
+      "venue": "マリンメッセ福岡A館",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/G00246",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_arena_tour_2027_fukuoka_0411",
+      "tourId": "sakurazaka46_arena_tour_2027",
+      "performanceDate": "2027-04-11",
+      "performanceAt": "2027-04-11T17:30:00+09:00",
+      "doorOpenAt": "2027-04-11T16:00:00+09:00",
+      "venue": "マリンメッセ福岡A館",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/G00246",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_arena_tour_2027_saitama_0421",
+      "tourId": "sakurazaka46_arena_tour_2027",
+      "performanceDate": "2027-04-21",
+      "performanceAt": "2027-04-21T19:00:00+09:00",
+      "doorOpenAt": "2027-04-21T16:30:00+09:00",
+      "venue": "GMOアリーナさいたま",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/G00246",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_arena_tour_2027_saitama_0422",
+      "tourId": "sakurazaka46_arena_tour_2027",
+      "performanceDate": "2027-04-22",
+      "performanceAt": "2027-04-22T19:00:00+09:00",
+      "doorOpenAt": "2027-04-22T16:30:00+09:00",
+      "venue": "GMOアリーナさいたま",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/news/detail/G00246",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1205,6 +1422,108 @@
       "source": "system",
       "sourceUrl": "https://countdownjapan.jp/2627/news/5987/",
       "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_tamura_hono_graduation_2027_fc_20261119",
+      "tourId": "sakurazaka46_tamura_hono_graduation_2027",
+      "type": "ファンクラブ抽選先行",
+      "entryStartAt": "2026-11-19T12:00:00+09:00",
+      "entryEndAt": "2026-11-29T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sakurazaka46_tamura_hono_graduation_2027_0128",
+        "sakurazaka46_tamura_hono_graduation_2027_0129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/page/ht_graduation_concert",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_tamura_hono_graduation_2027_lemino_special_20261119",
+      "tourId": "sakurazaka46_tamura_hono_graduation_2027",
+      "type": "Leminoスペシャルシート先行",
+      "entryStartAt": "2026-11-19T12:00:00+09:00",
+      "entryEndAt": "2026-11-29T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sakurazaka46_tamura_hono_graduation_2027_0128",
+        "sakurazaka46_tamura_hono_graduation_2027_0129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/page/ht_graduation_concert",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_tamura_hono_graduation_2027_lemino_pack_20261119",
+      "tourId": "sakurazaka46_tamura_hono_graduation_2027",
+      "type": "Lemino櫻坂46パック先行",
+      "entryStartAt": "2026-11-19T12:00:00+09:00",
+      "entryEndAt": "2026-11-29T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sakurazaka46_tamura_hono_graduation_2027_0128",
+        "sakurazaka46_tamura_hono_graduation_2027_0129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/page/ht_graduation_concert",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_tamura_hono_graduation_2027_official_20261212",
+      "tourId": "sakurazaka46_tamura_hono_graduation_2027",
+      "type": "オフィシャル先行",
+      "entryStartAt": "2026-12-12T12:00:00+09:00",
+      "entryEndAt": "2026-12-20T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sakurazaka46_tamura_hono_graduation_2027_0128",
+        "sakurazaka46_tamura_hono_graduation_2027_0129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/page/ht_graduation_concert",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_tamura_hono_graduation_2027_aeon_20261228",
+      "tourId": "sakurazaka46_tamura_hono_graduation_2027",
+      "type": "イオンカード先行",
+      "entryStartAt": "2026-12-28T12:00:00+09:00",
+      "entryEndAt": "2027-01-05T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sakurazaka46_tamura_hono_graduation_2027_0128",
+        "sakurazaka46_tamura_hono_graduation_2027_0129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/page/ht_graduation_concert",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "sakurazaka46_tamura_hono_graduation_2027_general_20270116",
+      "tourId": "sakurazaka46_tamura_hono_graduation_2027",
+      "type": "一般発売（先着）",
+      "entryStartAt": "2027-01-16T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sakurazaka46_tamura_hono_graduation_2027_0128",
+        "sakurazaka46_tamura_hono_graduation_2027_0129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sakurazaka46.com/s/s46/page/ht_graduation_concert",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

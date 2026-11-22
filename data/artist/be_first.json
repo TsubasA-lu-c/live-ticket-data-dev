@@ -687,6 +687,23 @@
       "source": "system",
       "sourceUrl": "https://www.uverworld.jp/news/detail/3231",
       "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "be_first_dome_2027_cd_serial_osaka_20261118",
+      "tourId": "be_first_dome_tour_2027",
+      "type": "BE:4U CD封入シリアル先行（大阪追加2公演限定）",
+      "entryStartAt": "2026-11-18T18:00:00+09:00",
+      "entryEndAt": "2026-11-24T23:59:00+09:00",
+      "resultAt": "2026-11-28T17:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "be_first_dome_tour_2027_osaka_0116",
+        "be_first_dome_tour_2027_osaka_0117"
+      ],
+      "source": "system",
+      "sourceUrl": "https://befirst.tokyo/tour/dometour2027/",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

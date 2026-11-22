@@ -236,6 +236,33 @@
       "source": "system",
       "sourceUrl": "https://theoralcigarettes.com/news/list/4?page=2",
       "lastVerifiedAt": "2026-10-31T21:25:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_whats_good_asia_seoul_2027",
+      "artistId": "the_oral_cigarettes",
+      "title": "WHAT'S GOOD, ASIA? In Seoul",
+      "startDate": "2027-04-03T00:00:00+09:00",
+      "endDate": "2027-04-03T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/list/2",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_wander_about_2027_hokuriku_koshinetsu",
+      "artistId": "the_oral_cigarettes",
+      "title": "THE ORAL CIGARETTES presents \"WANDER ABOUT 放浪 TOUR 2027 北陸・甲信越 編\"",
+      "startDate": "2027-05-18T00:00:00+09:00",
+      "endDate": "2027-05-27T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "スタンディング",
+          "amount": 5500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/list/4?page=2&parentId=13",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -737,15 +764,16 @@
       "id": "the_oral_cigarettes_blaze_up_nagasaki_2026_1206",
       "tourId": "the_oral_cigarettes_blaze_up_nagasaki_2026",
       "performanceDate": "2026-12-06",
-      "performanceAt": "2026-12-06T12:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-12-06T11:00:00+09:00",
+      "doorOpenAt": "2026-12-06T09:00:00+09:00",
       "venue": "出島メッセ長崎 イベント・展示ホール",
       "kind": "fes",
       "eventName": "BLAZE UP NAGASAKI 2026 THE ORAL CIGARETTES出演",
-      "sourceUrl": "https://theoralcigarettes.com/news/list/4",
-      "performanceTimeEstimated": true,
+      "sourceUrl": "https://blazeupnagasaki.net/",
+      "performanceTimeEstimated": false,
       "source": "system",
-      "kindReviewed": true
+      "kindReviewed": true,
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     },
     {
       "id": "the_oral_cigarettes_neverland_forever_2026_nara_1215",
@@ -782,6 +810,96 @@
       "source": "system",
       "sourceUrl": "https://theoralcigarettes.com/news/list/4?page=2",
       "lastVerifiedAt": "2026-10-31T21:25:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_whats_good_asia_seoul_2027_0403",
+      "tourId": "the_oral_cigarettes_whats_good_asia_seoul_2027",
+      "performanceDate": "2027-04-03",
+      "performanceAt": "2027-04-03T18:00:00+09:00",
+      "doorOpenAt": "2027-04-03T17:30:00+09:00",
+      "venue": "YES24 LIVE HALL（韓国・ソウル）",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/list/2",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_wander_about_2027_hokuriku_koshinetsu_kofu_0518",
+      "tourId": "the_oral_cigarettes_wander_about_2027_hokuriku_koshinetsu",
+      "performanceDate": "2027-05-18",
+      "performanceAt": "2027-05-18T19:00:00+09:00",
+      "doorOpenAt": "2027-05-18T18:30:00+09:00",
+      "venue": "甲府CONVICTION",
+      "kind": "oneman",
+      "eventName": "THE ORAL CIGARETTES presents \"WANDER ABOUT 放浪 TOUR 2027 北陸・甲信越 編\"",
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/list/4?page=2&parentId=13",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_wander_about_2027_hokuriku_koshinetsu_nagano_0519",
+      "tourId": "the_oral_cigarettes_wander_about_2027_hokuriku_koshinetsu",
+      "performanceDate": "2027-05-19",
+      "performanceAt": "2027-05-19T19:00:00+09:00",
+      "doorOpenAt": "2027-05-19T18:30:00+09:00",
+      "venue": "NAGANO CLUB JUNK BOX",
+      "kind": "oneman",
+      "eventName": "THE ORAL CIGARETTES presents \"WANDER ABOUT 放浪 TOUR 2027 北陸・甲信越 編\"",
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/list/4?page=2&parentId=13",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_wander_about_2027_hokuriku_koshinetsu_niigata_0521",
+      "tourId": "the_oral_cigarettes_wander_about_2027_hokuriku_koshinetsu",
+      "performanceDate": "2027-05-21",
+      "performanceAt": "2027-05-21T19:00:00+09:00",
+      "doorOpenAt": "2027-05-21T18:30:00+09:00",
+      "venue": "NIIGATA LOTS",
+      "kind": "oneman",
+      "eventName": "THE ORAL CIGARETTES presents \"WANDER ABOUT 放浪 TOUR 2027 北陸・甲信越 編\"",
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/list/4?page=2&parentId=13",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_wander_about_2027_hokuriku_koshinetsu_fukui_0524",
+      "tourId": "the_oral_cigarettes_wander_about_2027_hokuriku_koshinetsu",
+      "performanceDate": "2027-05-24",
+      "performanceAt": "2027-05-24T19:00:00+09:00",
+      "doorOpenAt": "2027-05-24T18:30:00+09:00",
+      "venue": "福井CHOP",
+      "kind": "oneman",
+      "eventName": "THE ORAL CIGARETTES presents \"WANDER ABOUT 放浪 TOUR 2027 北陸・甲信越 編\"",
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/list/4?page=2&parentId=13",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_wander_about_2027_hokuriku_koshinetsu_toyama_0525",
+      "tourId": "the_oral_cigarettes_wander_about_2027_hokuriku_koshinetsu",
+      "performanceDate": "2027-05-25",
+      "performanceAt": "2027-05-25T19:00:00+09:00",
+      "doorOpenAt": "2027-05-25T18:30:00+09:00",
+      "venue": "富山SOUL POWER",
+      "kind": "oneman",
+      "eventName": "THE ORAL CIGARETTES presents \"WANDER ABOUT 放浪 TOUR 2027 北陸・甲信越 編\"",
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/list/4?page=2&parentId=13",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_wander_about_2027_hokuriku_koshinetsu_kanazawa_0527",
+      "tourId": "the_oral_cigarettes_wander_about_2027_hokuriku_koshinetsu",
+      "performanceDate": "2027-05-27",
+      "performanceAt": "2027-05-27T19:00:00+09:00",
+      "doorOpenAt": "2027-05-27T18:30:00+09:00",
+      "venue": "金沢 EIGHT HALL",
+      "kind": "oneman",
+      "eventName": "THE ORAL CIGARETTES presents \"WANDER ABOUT 放浪 TOUR 2027 北陸・甲信越 編\"",
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/list/4?page=2&parentId=13",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -957,6 +1075,90 @@
       "source": "system",
       "sourceUrl": "https://theoralcigarettes.com/news/list/4",
       "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "the_oral_cigarettes_whats_good_asia_seoul_2027_yes24_general_20261211",
+      "tourId": "the_oral_cigarettes_whats_good_asia_seoul_2027",
+      "type": "韓国公演 YES24 TICKET一般発売（先着）",
+      "entryStartAt": "2026-12-11T18:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "the_oral_cigarettes_whats_good_asia_seoul_2027_0403"
+      ],
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/list/2",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_kanaboon_jack_in_2027_fc_first_20260918",
+      "tourId": "the_oral_cigarettes_kanaboon_jack_in_tour_2027",
+      "type": "カナブーンメイト先行（各公演2枚まで）",
+      "entryStartAt": "2026-09-18T18:00:00+09:00",
+      "entryEndAt": "2026-09-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "the_oral_cigarettes_kanaboon_jack_in_tour_2027_osaka_0227",
+        "the_oral_cigarettes_kanaboon_jack_in_tour_2027_osaka_0228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sp.kanaboon.jp/feature/jackin2027",
+      "lastVerifiedAt": "2026-11-22T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_kanaboon_jack_in_2027_official_first_20260927",
+      "tourId": "the_oral_cigarettes_kanaboon_jack_in_tour_2027",
+      "type": "オフィシャル先行（各公演4枚まで）",
+      "entryStartAt": "2026-09-27T18:00:00+09:00",
+      "entryEndAt": "2026-10-04T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "the_oral_cigarettes_kanaboon_jack_in_tour_2027_osaka_0227",
+        "the_oral_cigarettes_kanaboon_jack_in_tour_2027_osaka_0228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sp.kanaboon.jp/feature/jackin2027",
+      "lastVerifiedAt": "2026-11-22T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_kanaboon_jack_in_2027_fc_second_20261028",
+      "tourId": "the_oral_cigarettes_kanaboon_jack_in_tour_2027",
+      "type": "カナブーンメイト2次先行（各公演2枚まで）",
+      "entryStartAt": "2026-10-28T18:00:00+09:00",
+      "entryEndAt": "2026-11-03T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "the_oral_cigarettes_kanaboon_jack_in_tour_2027_osaka_0227",
+        "the_oral_cigarettes_kanaboon_jack_in_tour_2027_osaka_0228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sp.kanaboon.jp/feature/jackin2027",
+      "lastVerifiedAt": "2026-11-22T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_kanaboon_jack_in_2027_official_third_20261116",
+      "tourId": "the_oral_cigarettes_kanaboon_jack_in_tour_2027",
+      "type": "オフィシャル3次先行（各公演4枚まで）",
+      "entryStartAt": "2026-11-16T12:00:00+09:00",
+      "entryEndAt": "2026-11-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "the_oral_cigarettes_kanaboon_jack_in_tour_2027_osaka_0227",
+        "the_oral_cigarettes_kanaboon_jack_in_tour_2027_osaka_0228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sp.kanaboon.jp/feature/jackin2027",
+      "lastVerifiedAt": "2026-11-22T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

@@ -1450,6 +1450,38 @@
       "sourceUrl": "https://dreamfestival.jp/",
       "source": "system",
       "lastVerifiedAt": "2026-11-01T00:33:06+09:00"
+    },
+    {
+      "id": "da_ice_dome_phase_2027_tokyo_annotated_general_20261118",
+      "tourId": "da_ice_dome_phase_2027",
+      "type": "東京ドーム注釈付き指定席 プレイガイド先着受付",
+      "entryStartAt": "2026-11-18T21:00:00+09:00",
+      "entryEndAt": null,
+      "performanceIds": [
+        "da_ice_dome_phase_2027_tokyo_dome_0204"
+      ],
+      "sourceUrl": "https://www.da-ice.jp/news/detail.php?id=1133028",
+      "source": "system",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null
+    },
+    {
+      "id": "da_ice_day_hall_phase_2026_sendai_1129_obstructed_view_sale_20261121",
+      "tourId": "da_ice_day_hall_phase_2026",
+      "type": "11/29仙台公演 見切れ指定席追加販売（ローソンチケット・先着）",
+      "entryStartAt": "2026-11-21T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "da_ice_day_hall_phase_2026_sendai_1129"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.da-ice.jp/schedule/tour.php?id=1003063",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

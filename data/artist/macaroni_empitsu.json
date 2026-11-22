@@ -237,6 +237,17 @@
       "sourceUrl": "https://macaroniempitsu.com/live/21302.html",
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "macaroni_empitsu_midosuji_runway_2026",
+      "artistId": "macaroni_empitsu",
+      "title": "御堂筋ランウェイ2026",
+      "startDate": "2026-11-23T00:00:00+09:00",
+      "endDate": "2026-11-23T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/news/21525.html",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -593,6 +604,21 @@
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z",
       "note": "12:00はイベント全体の開演予定時刻です。"
+    },
+    {
+      "id": "macaroni_empitsu_midosuji_runway_2026_1123",
+      "tourId": "macaroni_empitsu_midosuji_runway_2026",
+      "performanceDate": "2026-11-23",
+      "performanceAt": "2026-11-23T14:00:00+09:00",
+      "doorOpenAt": "2026-11-23T12:45:00+09:00",
+      "venue": "大阪 御堂筋（淀屋橋交差点～船場中央3交差点）",
+      "kind": "fes",
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/news/21525.html",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00",
+      "kindReviewed": true,
+      "eventName": "御堂筋ランウェイ2026",
+      "note": "イベント全体の開演14:00・開場12:45。御堂筋スペシャルライブ出演枠は14:40頃（公式タイムテーブル）。Performance.performanceAtはCOLLECTION_RULES §4.5に従いイベント全体の開演。"
     }
   ],
   "lotteries": [

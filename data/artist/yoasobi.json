@@ -6,7 +6,7 @@
       "artistId": "yoasobi",
       "title": "YOASOBI 11-CITY ASIA-OCEANIA TOUR 2026-2027 “超惑星”",
       "startDate": "2026-10-24T00:00:00+09:00",
-      "endDate": "2027-01-10T00:00:00+08:00",
+      "endDate": "2027-04-17T00:00:00+09:00",
       "prices": [
         {
           "label": "指定席",
@@ -284,6 +284,75 @@
       "sourceUrl": "https://www.yoasobi-music.jp/news/587546",
       "source": "system",
       "lastVerifiedAt": "2026-10-17T09:27:36.992Z"
+    },
+    {
+      "id": "yoasobi_asia_dome_2026_hong_kong_20270121",
+      "tourId": "yoasobi_asia_dome_2026",
+      "performanceDate": "2027-01-21",
+      "performanceAt": "2027-01-21T20:00:00+08:00",
+      "venue": "AsiaWorld-Arena (Hall 1)",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://www.asiaworld-expo.com/en-us/whats-on/upcoming-events/events/yoasobi-live-in-hong-kong-2027/",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "yoasobi_asia_dome_2026_hong_kong_20270122",
+      "tourId": "yoasobi_asia_dome_2026",
+      "performanceDate": "2027-01-22",
+      "performanceAt": "2027-01-22T12:00:00+08:00",
+      "performanceTimeEstimated": true,
+      "venue": "AsiaWorld-Arena (Hall 1)",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://www.asiaworld-expo.com/en-us/whats-on/upcoming-events/events/yoasobi-live-in-hong-kong-2027/",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "yoasobi_asia_dome_2026_singapore_20270220",
+      "tourId": "yoasobi_asia_dome_2026",
+      "performanceDate": "2027-02-20",
+      "performanceAt": "2027-02-20T19:00:00+08:00",
+      "venue": "National Stadium, Singapore",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://yoasobi.sozolive.asia/",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "yoasobi_asia_dome_2026_melbourne_20270317",
+      "tourId": "yoasobi_asia_dome_2026",
+      "performanceDate": "2027-03-17",
+      "performanceAt": "2027-03-17T12:00:00+11:00",
+      "performanceTimeEstimated": true,
+      "venue": "Rod Laver Arena",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://www.livenation.com.au/event/yoasobi-11-city-asia-oceania-tour-2026-2027-super-planet-in-australia-melbourne-tickets-edp1711891",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "yoasobi_asia_dome_2026_sydney_20270319",
+      "tourId": "yoasobi_asia_dome_2026",
+      "performanceDate": "2027-03-19",
+      "performanceAt": "2027-03-19T12:00:00+11:00",
+      "performanceTimeEstimated": true,
+      "venue": "Afterpay Arena",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://www.livenation.com.au/event/yoasobi-11-city-asia-oceania-tour-2026-2027-super-planet-in-australia-sydney-tickets-edp1711894",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "yoasobi_asia_dome_2026_goyang_20270417",
+      "tourId": "yoasobi_asia_dome_2026",
+      "performanceDate": "2027-04-17",
+      "performanceAt": "2027-04-17T19:30:00+09:00",
+      "venue": "GOYANG STADIUM",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://weverse.io/yoasobi/notice/40746?hl=ja",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -650,6 +719,55 @@
       "sourceUrl": "https://www.yoasobi-music.jp/news/587745",
       "source": "system",
       "lastVerifiedAt": "2026-11-01T00:07:58+09:00"
+    },
+    {
+      "id": "yoasobi_superplanet_hong_kong_general_20261117",
+      "tourId": "yoasobi_asia_dome_2026",
+      "type": "香港公演一般発売（Ticketflap）",
+      "entryStartAt": "2026-11-17T15:00:00+08:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yoasobi_asia_dome_2026_hong_kong_20270121",
+        "yoasobi_asia_dome_2026_hong_kong_20270122"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.asiaworld-expo.com/en-us/whats-on/upcoming-events/events/yoasobi-live-in-hong-kong-2027/",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "yoasobi_superplanet_goyang_global_membership_20261130",
+      "tourId": "yoasobi_asia_dome_2026",
+      "type": "YOASOBI GLOBAL MEMBERSHIP会員先着販売",
+      "entryStartAt": "2026-11-30T18:00:00+09:00",
+      "entryEndAt": "2026-11-30T18:59:59+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yoasobi_asia_dome_2026_goyang_20270417"
+      ],
+      "source": "system",
+      "sourceUrl": "https://weverse.io/yoasobi/notice/40746?hl=ja",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "yoasobi_superplanet_goyang_general_20261130",
+      "tourId": "yoasobi_asia_dome_2026",
+      "type": "Melon Ticket 一般先着販売",
+      "entryStartAt": "2026-11-30T20:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yoasobi_asia_dome_2026_goyang_20270417"
+      ],
+      "source": "system",
+      "sourceUrl": "https://weverse.io/yoasobi/notice/40746?hl=ja",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

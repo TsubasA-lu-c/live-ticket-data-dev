@@ -58,6 +58,22 @@
       "source": "system",
       "sourceUrl": "https://kobukuro.com/feature/kobukuro_kasumibiyori",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "kobukuro_kanofes_2027_day2",
+      "artistId": "kobukuro",
+      "title": "サンドウィッチマン×狩野英孝×MUSIC カノフェス2027（DAY2）",
+      "startDate": "2027-02-21T00:00:00+09:00",
+      "endDate": "2027-02-21T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 13000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://kobukuro.com/news/detail/105279",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -388,6 +404,21 @@
       "source": "system",
       "sourceUrl": "https://kobukuro.com/special_site/kobukuro_tour2026/detail/342",
       "lastVerifiedAt": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "kobukuro_kanofes_2027_day2_sendai_0221",
+      "tourId": "kobukuro_kanofes_2027_day2",
+      "performanceDate": "2027-02-21",
+      "performanceAt": "2027-02-21T14:00:00+09:00",
+      "doorOpenAt": "2027-02-21T13:00:00+09:00",
+      "venue": "ゼビオアリーナ仙台",
+      "kind": "fes",
+      "kindReviewed": true,
+      "eventName": "サンドウィッチマン×狩野英孝×MUSIC カノフェス2027（DAY2）",
+      "source": "system",
+      "sourceUrl": "https://grapecom.jp/information/news/kanofes2027/",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00",
+      "note": "14:00はフェスDAY2全体の開演時刻。コブクロ本人の演奏出演時間は公式未発表。"
     }
   ],
   "lotteries": [
@@ -791,6 +822,134 @@
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null
+    },
+    {
+      "id": "kobukuro_kanofes_2027_day2_sandwichman_club_20261024",
+      "tourId": "kobukuro_kanofes_2027_day2",
+      "type": "サンドウィッチマン倶楽部プレミアム会員限定抽選先行",
+      "entryStartAt": "2026-10-24T14:00:00+09:00",
+      "entryEndAt": "2026-11-01T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kobukuro_kanofes_2027_day2_sendai_0221"
+      ],
+      "source": "system",
+      "sourceUrl": "https://grapecom.jp/information/news/kanofes2027/",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "kobukuro_kanofes_2027_day2_maseki_live_circle_20261024",
+      "tourId": "kobukuro_kanofes_2027_day2",
+      "type": "マセキライブサークル会員限定抽選先行",
+      "entryStartAt": "2026-10-24T14:00:00+09:00",
+      "entryEndAt": "2026-11-01T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kobukuro_kanofes_2027_day2_sendai_0221"
+      ],
+      "source": "system",
+      "sourceUrl": "https://grapecom.jp/information/news/kanofes2027/",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "kobukuro_kanofes_2027_day2_eiko_go_20261104",
+      "tourId": "kobukuro_kanofes_2027_day2",
+      "type": "EIKO!GO!!抽選先行",
+      "entryStartAt": "2026-11-04T15:00:00+09:00",
+      "entryEndAt": "2026-11-08T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kobukuro_kanofes_2027_day2_sendai_0221"
+      ],
+      "source": "system",
+      "sourceUrl": "https://grapecom.jp/information/news/kanofes2027/",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "kobukuro_kanofes_2027_day2_lawson_prereq_1st_20261111",
+      "tourId": "kobukuro_kanofes_2027_day2",
+      "type": "ローソンチケットプレリクエスト1次抽選先行",
+      "entryStartAt": "2026-11-11T15:00:00+09:00",
+      "entryEndAt": "2026-11-17T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kobukuro_kanofes_2027_day2_sendai_0221"
+      ],
+      "source": "system",
+      "sourceUrl": "https://grapecom.jp/information/news/kanofes2027/",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "kobukuro_kanofes_2027_day2_team_kobukuro_20261121",
+      "tourId": "kobukuro_kanofes_2027_day2",
+      "type": "TEAM KOBUKURO会員最速抽選先行",
+      "entryStartAt": "2026-11-21T14:00:00+09:00",
+      "entryEndAt": "2026-11-25T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kobukuro_kanofes_2027_day2_sendai_0221"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kobukuro.com/news/detail/105279",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "kobukuro_kanofes_2027_day2_class_kobukuro_20261121",
+      "tourId": "kobukuro_kanofes_2027_day2",
+      "type": "CLASS KOBUKURO会員最速抽選先行",
+      "entryStartAt": "2026-11-21T14:00:00+09:00",
+      "entryEndAt": "2026-11-25T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kobukuro_kanofes_2027_day2_sendai_0221"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kobukuro.com/news/detail/105279",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "kobukuro_kanofes_2027_day2_lawson_prereq_2nd_20261201",
+      "tourId": "kobukuro_kanofes_2027_day2",
+      "type": "ローソンチケットプレリクエスト2次抽選先行",
+      "entryStartAt": "2026-12-01T12:00:00+09:00",
+      "entryEndAt": "2026-12-20T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kobukuro_kanofes_2027_day2_sendai_0221"
+      ],
+      "source": "system",
+      "sourceUrl": "https://grapecom.jp/information/news/kanofes2027/",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "kobukuro_kanofes_2027_day2_lawson_prereq_3rd_20261223",
+      "tourId": "kobukuro_kanofes_2027_day2",
+      "type": "ローソンチケットプレリクエスト3次抽選先行",
+      "entryStartAt": "2026-12-23T15:00:00+09:00",
+      "entryEndAt": "2026-12-27T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "kobukuro_kanofes_2027_day2_sendai_0221"
+      ],
+      "source": "system",
+      "sourceUrl": "https://grapecom.jp/information/news/kanofes2027/",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

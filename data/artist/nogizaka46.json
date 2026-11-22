@@ -552,17 +552,18 @@
     {
       "id": "nogizaka46_gift_2026_day3_1129",
       "tourId": "nogizaka46_gift_2026",
-      "venue": null,
+      "venue": "TOYOTA ARENA TOKYO",
       "performanceAt": "2026-11-29T13:00:00+09:00",
       "doorOpenAt": "2026-11-29T11:30:00+09:00",
       "source": "system",
-      "sourceUrl": "https://gift-idol.jp/",
-      "lastVerifiedAt": "2026-09-12T00:00:00+09:00",
+      "sourceUrl": "https://www.gift-idol.jp/images/timetable/tt-1129.jpg",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00",
       "kind": "fes",
       "performanceTimeEstimated": false,
       "performanceDate": "2026-11-29",
       "eventName": "GIFT〜Girls Idol Festival Tokyo〜",
-      "note": "13:00はイベント全体の開演予定時刻です。"
+      "note": "GIFT主催者公式11月29日タイムテーブルによるTOYOTA ARENA TOKYO会場出演18:20～19:10。11:30開場/13:00フェス全体開演。performanceAtの13:00はフェス全体の開演時刻であり、本人個別ステージの開始時刻ではない。",
+      "kindReviewed": true
     },
     {
       "id": "nogizaka46_event_2026_sixth_gen_zennyasai_saitama_1025",

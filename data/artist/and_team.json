@@ -841,28 +841,28 @@
     {
       "id": "and_team_event_mark_on_me_talk_2026_kanagawa_0112",
       "tourId": "and_team_event_mark_on_me_talk_2026",
-      "venue": null,
+      "venue": "パシフィコ横浜 展示ホールA",
       "performanceAt": "2027-01-12T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": "&TEAM KR 2nd Mini Album 'Mark on Me' 刻印個別ロングトーク会",
       "source": "system",
-      "sourceUrl": "https://www.andteam-official.jp/news/f905e8f20837",
-      "lastVerifiedAt": "2026-08-28T20:00:00+09:00",
+      "sourceUrl": "https://www.universal-music.co.jp/andteam/2nd_al_markonme_offline/",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00",
       "performanceDate": "2027-01-12",
       "performanceTimeEstimated": true
     },
     {
       "id": "and_team_event_mark_on_me_talk_2026_aichi_0130",
       "tourId": "and_team_event_mark_on_me_talk_2026",
-      "venue": null,
+      "venue": "Aichi Sky Expo(愛知県国際展示場) 展示ホールF",
       "performanceAt": "2027-01-30T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
       "eventName": "&TEAM KR 2nd Mini Album 'Mark on Me' 刻印個別ロングトーク会",
       "source": "system",
-      "sourceUrl": "https://www.andteam-official.jp/news/f905e8f20837",
-      "lastVerifiedAt": "2026-08-28T20:00:00+09:00",
+      "sourceUrl": "https://www.universal-music.co.jp/andteam/2nd_al_markonme_offline/",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00",
       "performanceDate": "2027-01-30",
       "performanceTimeEstimated": true
     },
@@ -1374,6 +1374,18 @@
       "source": "system",
       "sourceUrl": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008837439",
       "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "and_team_mark_on_you_2026_2027_hokkaido_add_1226",
+      "tourId": "and_team_mark_on_you_2026_2027",
+      "performanceDate": "2026-12-26",
+      "performanceAt": "2026-12-26T18:00:00+09:00",
+      "doorOpenAt": "2026-12-26T17:00:00+09:00",
+      "venue": "札幌文化芸術劇場 hitaru",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/d6fe308a947f?categoryId=280",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -2111,6 +2123,22 @@
       "source": "system",
       "sourceUrl": "https://www.qoo10.jp/gmkt.inc/Special/Special.aspx?sid=367181",
       "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "and_team_mark_on_you_hokkaido_add_1226_lune_20261118",
+      "tourId": "and_team_mark_on_you_2026_2027",
+      "type": "LUNÉ Membership JP会員先行抽選（12/26北海道追加公演限定）",
+      "entryStartAt": "2026-11-18T12:00:00+09:00",
+      "entryEndAt": "2026-11-23T23:59:00+09:00",
+      "resultAt": "2026-11-28T11:00:00+09:00",
+      "paymentStartAt": "2026-11-28T11:00:00+09:00",
+      "paymentEndAt": "2026-11-30T23:00:00+09:00",
+      "performanceIds": [
+        "and_team_mark_on_you_2026_2027_hokkaido_add_1226"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.andteam-official.jp/news/d6fe308a947f?categoryId=280",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

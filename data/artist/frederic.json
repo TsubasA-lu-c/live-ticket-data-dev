@@ -234,6 +234,17 @@
       "source": "system",
       "sourceUrl": "https://event.myflagment.com/news/270301-02",
       "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "frederic_fukuoka_music_fes_2027",
+      "artistId": "frederic",
+      "title": "FUKUOKA MUSIC FES.2027 supported by Trunk",
+      "startDate": "2027-01-31T00:00:00+09:00",
+      "endDate": "2027-01-31T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3796",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -639,11 +650,26 @@
       "performanceAt": "2027-03-01T18:30:00+09:00",
       "doorOpenAt": "2027-03-01T17:30:00+09:00",
       "venue": "SHIBUYA CLUB QUATTRO",
-      "kind": "fes",
+      "kind": "taiban",
       "eventName": "MY FLAGMENT（フレデリック × muque）",
       "source": "system",
-      "sourceUrl": "https://event.myflagment.com/news/270301-02",
-      "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+      "sourceUrl": "https://frederic-official.com/news/detail/3794",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00",
+      "kindReviewed": true
+    },
+    {
+      "id": "frederic_fukuoka_music_fes_2027_0131",
+      "tourId": "frederic_fukuoka_music_fes_2027",
+      "performanceDate": "2027-01-31",
+      "performanceAt": "2027-01-31T10:20:00+09:00",
+      "doorOpenAt": "2027-01-31T09:00:00+09:00",
+      "venue": "みずほPayPayドーム福岡",
+      "kind": "fes",
+      "kindReviewed": true,
+      "eventName": "FUKUOKA MUSIC FES.2027",
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3796",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1464,6 +1490,73 @@
       "source": "system",
       "sourceUrl": "https://frederic-official.com/news/detail/3793",
       "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "frederic_fukuoka_music_fes_2027_official_4th_20261117",
+      "tourId": "frederic_fukuoka_music_fes_2027",
+      "type": "福フェス オフィシャル4次抽選先行（1月31日公演）",
+      "entryStartAt": "2026-11-17T18:00:00+09:00",
+      "entryEndAt": "2026-11-29T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_fukuoka_music_fes_2027_0131"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.softbankhawks.co.jp/news/detail/20261117_001.html",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_kanaboon_jackin_2027_fc_first_20260918",
+      "tourId": "frederic_kanaboon_jack_in_tour_2027",
+      "type": "カナブーンメイト先行（各公演2枚まで）",
+      "entryStartAt": "2026-09-18T18:00:00+09:00",
+      "entryEndAt": "2026-09-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_kanaboon_jack_in_tour_2027_ex_theater_0325",
+        "frederic_kanaboon_jack_in_tour_2027_ex_theater_0326"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sp.kanaboon.jp/feature/jackin2027",
+      "lastVerifiedAt": "2026-11-22T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_kanaboon_jackin_2027_official_first_20260927",
+      "tourId": "frederic_kanaboon_jack_in_tour_2027",
+      "type": "オフィシャル先行（各公演4枚まで）",
+      "entryStartAt": "2026-09-27T18:00:00+09:00",
+      "entryEndAt": "2026-10-04T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_kanaboon_jack_in_tour_2027_ex_theater_0325",
+        "frederic_kanaboon_jack_in_tour_2027_ex_theater_0326"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sp.kanaboon.jp/feature/jackin2027",
+      "lastVerifiedAt": "2026-11-22T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_kanaboon_jackin_2027_official_third_20261116",
+      "tourId": "frederic_kanaboon_jack_in_tour_2027",
+      "type": "オフィシャル3次先行（各公演4枚まで）",
+      "entryStartAt": "2026-11-16T12:00:00+09:00",
+      "entryEndAt": "2026-11-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_kanaboon_jack_in_tour_2027_ex_theater_0325",
+        "frederic_kanaboon_jack_in_tour_2027_ex_theater_0326"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sp.kanaboon.jp/feature/jackin2027",
+      "lastVerifiedAt": "2026-11-22T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

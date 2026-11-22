@@ -2065,6 +2065,38 @@
       "sourceUrl": "https://ikimonogakari.com/tour2026-2027/",
       "source": "system",
       "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_third_fc_second_20261121",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "第三弾発表公演 オフィシャルファンクラス超1年2組 2次先行抽選",
+      "entryStartAt": "2026-11-21T12:00:00+09:00",
+      "entryEndAt": "2026-12-06T23:59:00+09:00",
+      "resultAt": "2026-12-12T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-12-16T23:59:00+09:00",
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_tokyo_0411",
+        "ikimonogakari_angyar_2026_ibaraki_0605",
+        "ikimonogakari_angyar_2026_saga_0619",
+        "ikimonogakari_angyar_2026_shizuoka_0626",
+        "ikimonogakari_angyar_2026_gifu_0627",
+        "ikimonogakari_angyar_2026_akita_0703",
+        "ikimonogakari_angyar_2026_fukushima_0710",
+        "ikimonogakari_angyar_2026_tokushima_0717",
+        "ikimonogakari_angyar_2026_kochi_0719",
+        "ikimonogakari_angyar_2026_yamanashi_0731",
+        "ikimonogakari_angyar_2026_osaka_0805",
+        "ikimonogakari_angyar_2026_osaka_0806",
+        "ikimonogakari_angyar_2026_iwate_0814",
+        "ikimonogakari_angyar_2026_mie_0821",
+        "ikimonogakari_angyar_2026_hyogo_0822",
+        "ikimonogakari_angyar_2026_miyazaki_0904",
+        "ikimonogakari_angyar_2026_kagoshima_0905"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/news/live/20261120-1",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

@@ -564,6 +564,33 @@
       "source": "system",
       "sourceUrl": "https://kyodo-osaka.co.jp/news/detail/788",
       "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "10_feet_x_orchestra_2027",
+      "artistId": "10_feet",
+      "title": "X-ORCHESTRA PRESENTS 10-FEET THE ORCHESTRA",
+      "startDate": "2027-03-05T00:00:00+09:00",
+      "endDate": "2027-03-16T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 9900
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://10-feet.kyoto/pages/orchestra",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "10_feet_midosuji_runway_2026",
+      "artistId": "10_feet",
+      "title": "御堂筋ランウェイ2026",
+      "startDate": "2026-11-23T00:00:00+09:00",
+      "endDate": "2026-11-23T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://10-feet.kyoto/contents/1128824",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -982,15 +1009,16 @@
       "id": "10_feet_kyoto_chotokkyu_2026_kyoto_1213",
       "tourId": "10_feet_kyoto_chotokkyu_2026",
       "venue": "京都パルスプラザ",
-      "performanceAt": "2026-12-13T12:00:00+09:00",
+      "performanceAt": "2026-12-13T11:00:00+09:00",
       "performanceDate": "2026-12-13",
-      "performanceTimeEstimated": true,
-      "doorOpenAt": null,
+      "performanceTimeEstimated": false,
+      "doorOpenAt": "2026-12-13T10:00:00+09:00",
       "kind": "fes",
       "eventName": "響都超特急2026",
       "source": "system",
-      "sourceUrl": "https://10-feet.kyoto/contents/live/page/2",
-      "lastVerifiedAt": "2026-09-12T00:00:00+09:00"
+      "sourceUrl": "https://kue.rotten-g.com/26/about/",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00",
+      "kindReviewed": true
     },
     {
       "id": "10_feet_bukurock_festival_2027_makuhari_0211",
@@ -1275,6 +1303,45 @@
       "source": "system",
       "sourceUrl": "https://kyodo-osaka.co.jp/news/detail/788",
       "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "10_feet_x_orchestra_2027_tokyo_0305",
+      "tourId": "10_feet_x_orchestra_2027",
+      "performanceDate": "2027-03-05",
+      "performanceAt": "2027-03-05T18:30:00+09:00",
+      "doorOpenAt": "2027-03-05T17:30:00+09:00",
+      "venue": "東京国際フォーラム ホールA",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://10-feet.kyoto/pages/orchestra",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "10_feet_x_orchestra_2027_kyoto_0316",
+      "tourId": "10_feet_x_orchestra_2027",
+      "performanceDate": "2027-03-16",
+      "performanceAt": "2027-03-16T18:30:00+09:00",
+      "doorOpenAt": "2027-03-16T17:30:00+09:00",
+      "venue": "ロームシアター京都 メインホール",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://10-feet.kyoto/pages/orchestra",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "10_feet_midosuji_runway_2026_1123",
+      "tourId": "10_feet_midosuji_runway_2026",
+      "performanceDate": "2026-11-23",
+      "performanceAt": "2026-11-23T14:00:00+09:00",
+      "doorOpenAt": "2026-11-23T12:45:00+09:00",
+      "venue": "御堂筋（淀屋橋交差点～船場中央3交差点）",
+      "kind": "fes",
+      "source": "system",
+      "sourceUrl": "https://10-feet.kyoto/contents/1128824",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00",
+      "kindReviewed": true,
+      "eventName": "御堂筋ランウェイ2026",
+      "note": "イベント全体の開演14:00・開場12:45。御堂筋スペシャルライブ出演枠は14:40頃（公式タイムテーブル）。Performance.performanceAtはCOLLECTION_RULES §4.5に従いイベント全体の開演。"
     }
   ],
   "lotteries": [
@@ -1728,6 +1795,40 @@
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/3604630001-P0030019",
       "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "10_feet_x_orchestra_2027_mobile_presale_20261116",
+      "tourId": "10_feet_x_orchestra_2027",
+      "type": "10-FEET MOBILE会員先行（抽選）",
+      "entryStartAt": "2026-11-16T20:00:00+09:00",
+      "entryEndAt": "2026-11-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "10_feet_x_orchestra_2027_tokyo_0305",
+        "10_feet_x_orchestra_2027_kyoto_0316"
+      ],
+      "source": "system",
+      "sourceUrl": "https://10-feet.kyoto/pages/orchestra",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "10_feet_x_orchestra_2027_official_presale_20261116",
+      "tourId": "10_feet_x_orchestra_2027",
+      "type": "オフィシャル先行（抽選）",
+      "entryStartAt": "2026-11-16T20:00:00+09:00",
+      "entryEndAt": "2026-11-30T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "10_feet_x_orchestra_2027_tokyo_0305",
+        "10_feet_x_orchestra_2027_kyoto_0316"
+      ],
+      "source": "system",
+      "sourceUrl": "https://10-feet.kyoto/pages/orchestra",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ]
 }

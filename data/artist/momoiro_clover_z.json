@@ -407,6 +407,30 @@
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/261017_01",
       "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_angel_eyes_general_assembly_2027",
+      "artistId": "momoiro_clover_z",
+      "title": "2026年度 ANGEL EYES総会（第三部ライブ）",
+      "startDate": "2027-01-31T00:00:00+09:00",
+      "endDate": "2027-01-31T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 9500
+        },
+        {
+          "label": "着席指定席",
+          "amount": 9500
+        },
+        {
+          "label": "子供指定席（子）",
+          "amount": 3000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/261120_05",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -511,13 +535,13 @@
       "id": "momoiro_clover_z_utagassen_10th_tokyo_1231",
       "tourId": "momoiro_clover_z_utagassen_10th",
       "venue": "有明アリーナ",
-      "performanceAt": "2026-12-31T18:00:00+09:00",
-      "doorOpenAt": null,
+      "performanceAt": "2026-12-31T14:00:00+09:00",
+      "doorOpenAt": "2026-12-31T12:30:00+09:00",
       "kind": "oneman",
       "eventName": "第10回 ももいろ歌合戦",
       "source": "system",
-      "sourceUrl": "https://www.momoclo.net/archives/news/251221_01",
-      "lastVerifiedAt": "2026-08-23T00:00:00+09:00"
+      "sourceUrl": "https://fc.momoclo.net/pub/pc/information/?id=9867",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     },
     {
       "id": "momoiro_clover_z_orchestra_summer_memories_2026_tokyo_0824",
@@ -994,6 +1018,18 @@
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/261017_01",
       "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_angel_eyes_general_assembly_2027_0131_part3",
+      "tourId": "momoiro_clover_z_angel_eyes_general_assembly_2027",
+      "performanceDate": "2027-01-31",
+      "performanceAt": "2027-01-31T18:30:00+09:00",
+      "doorOpenAt": "2027-01-31T17:30:00+09:00",
+      "venue": "東京体育館",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/261120_05",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1457,6 +1493,38 @@
       "sourceUrl": "https://www.momoclo.net/archives/news/261017_01",
       "source": "system",
       "lastVerifiedAt": "2026-11-01T08:39:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_angel_eyes_general_assembly_2027_part3_ae_20261127",
+      "tourId": "momoiro_clover_z_angel_eyes_general_assembly_2027",
+      "type": "ANGEL EYES会員限定第三部ライブ抽選",
+      "entryStartAt": "2026-11-27T13:00:00+09:00",
+      "entryEndAt": "2026-12-01T23:59:00+09:00",
+      "resultAt": "2026-12-09T13:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-12-13T23:59:00+09:00",
+      "performanceIds": [
+        "momoiro_clover_z_angel_eyes_general_assembly_2027_0131_part3"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/261120_05",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_utagassen_10th_ae_20261120",
+      "tourId": "momoiro_clover_z_utagassen_10th",
+      "type": "第10回ももいろ歌合戦 ANGEL EYES会員先行抽選",
+      "entryStartAt": "2026-11-20T13:00:00+09:00",
+      "entryEndAt": "2026-11-25T23:59:00+09:00",
+      "resultAt": "2026-12-03T13:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-12-07T23:59:00+09:00",
+      "performanceIds": [
+        "momoiro_clover_z_utagassen_10th_tokyo_1231"
+      ],
+      "source": "system",
+      "sourceUrl": "https://fc.momoclo.net/pub/pc/information/?id=9867",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

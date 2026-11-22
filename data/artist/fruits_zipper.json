@@ -2462,6 +2462,63 @@
       "source": "system",
       "sourceUrl": "https://www.gift-idol.jp/ticket.html",
       "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_noel_hayase_birthday_2026_upgrade_20261120",
+      "tourId": "fruits_zipper_noel_hayase_birthday_2026",
+      "type": "早瀬ノエル生誕祭 お見送り会付指定席アップグレード抽選（FC指定席購入者）",
+      "entryStartAt": "2026-11-20T18:00:00+09:00",
+      "entryEndAt": "2026-11-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fruits_zipper_noel_hayase_birthday_2026_tokyo"
+      ],
+      "source": "system",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/96781",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_suzuka_chinzei_birthday_2026_official_resale_20261122",
+      "tourId": "fruits_zipper_suzuka_chinzei_birthday_2026",
+      "type": "公式リセール（一般指定席／FC・チケットぴあ）",
+      "entryStartAt": "2026-11-22T10:00:00+09:00",
+      "entryEndAt": "2026-11-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fruits_zipper_suzuka_chinzei_birthday_2026_tokyo"
+      ],
+      "source": "system",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/96566",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_kawaii_lab_5th_2027_fruits_zipper_fc_20261026",
+      "tourId": "fruits_zipper_kawaii_lab_5th_2027",
+      "type": "FRUITS ZIPPER OFFICIAL FANCLUB有料会員先行",
+      "entryStartAt": "2026-10-26T12:00:00+09:00",
+      "entryEndAt": "2026-11-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fruits_zipper_kawaii_lab_5th_2027_20270130",
+        "fruits_zipper_kawaii_lab_5th_2027_20270131",
+        "fruits_zipper_kawaii_lab_5th_2027_20270213",
+        "fruits_zipper_kawaii_lab_5th_2027_20270214",
+        "fruits_zipper_kawaii_lab_5th_2027_20270220",
+        "fruits_zipper_kawaii_lab_5th_2027_20270221",
+        "fruits_zipper_kawaii_lab_5th_2027_20270320",
+        "fruits_zipper_kawaii_lab_5th_2027_20270321",
+        "fruits_zipper_kawaii_lab_5th_2027_20270403",
+        "fruits_zipper_kawaii_lab_5th_2027_20270404"
+      ],
+      "source": "system",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/93732",
+      "lastVerifiedAt": "2026-11-22T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

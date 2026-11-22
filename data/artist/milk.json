@@ -203,6 +203,22 @@
           "amount": 11000
         }
       ]
+    },
+    {
+      "id": "milk_yamanaka_jyutaro_the_seminar_2027",
+      "artistId": "milk",
+      "title": "【山中柔太朗】劇場版 じゅうたろう『The セミナー』",
+      "startDate": "2027-02-16T00:00:00+09:00",
+      "endDate": "2027-02-16T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席・ファミリー席・着席指定席・注釈付指定席（公演別）",
+          "amount": 8900
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://lp.mailivis.jp/gekijoban-jyutaro2026.html",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -1004,6 +1020,34 @@
       "sourceUrl": "https://sd-milk.com/contents/1116721",
       "lastVerifiedAt": "2026-10-26T00:00:00+09:00",
       "note": "開演時刻はイベント全体の開始時刻。出演者ごとの出演時刻は未公表。"
+    },
+    {
+      "id": "milk_yamanaka_jyutaro_the_seminar_2027_0216_day",
+      "tourId": "milk_yamanaka_jyutaro_the_seminar_2027",
+      "performanceDate": "2027-02-16",
+      "performanceAt": "2027-02-16T13:30:00+09:00",
+      "doorOpenAt": "2027-02-16T12:00:00+09:00",
+      "venue": "東京ガーデンシアター",
+      "kind": "oneman",
+      "kindReviewed": true,
+      "eventName": "【山中柔太朗】劇場版 じゅうたろう『The セミナー』（1部）",
+      "source": "system",
+      "sourceUrl": "https://lp.mailivis.jp/gekijoban-jyutaro2026.html",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "milk_yamanaka_jyutaro_the_seminar_2027_0216_night",
+      "tourId": "milk_yamanaka_jyutaro_the_seminar_2027",
+      "performanceDate": "2027-02-16",
+      "performanceAt": "2027-02-16T19:00:00+09:00",
+      "doorOpenAt": "2027-02-16T17:30:00+09:00",
+      "venue": "東京ガーデンシアター",
+      "kind": "oneman",
+      "kindReviewed": true,
+      "eventName": "【山中柔太朗】劇場版 じゅうたろう『The セミナー』（2部）",
+      "source": "system",
+      "sourceUrl": "https://lp.mailivis.jp/gekijoban-jyutaro2026.html",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -2059,6 +2103,108 @@
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/3015200001",
       "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "milk_shakariki_kanagawa_release_20261121",
+      "tourId": "milk_shakariki_revolution_2026",
+      "type": "ぴあアリーナMM直前機材開放席 ローチケ一般先着",
+      "entryStartAt": "2026-11-21T10:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_shakariki_revolution_2026_kanagawa_1121",
+        "milk_shakariki_revolution_2026_kanagawa_1122a",
+        "milk_shakariki_revolution_2026_kanagawa_1122b"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1129302",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "milk_yamanaka_jyutaro_the_seminar_2027_fc_first_night_20261030",
+      "tourId": "milk_yamanaka_jyutaro_the_seminar_2027",
+      "type": "山中柔太朗 +KIRARI会員限定最速抽選先行（2部）",
+      "entryStartAt": "2026-10-30T18:00:00+09:00",
+      "entryEndAt": "2026-11-03T23:59:00+09:00",
+      "resultAt": "2026-11-11T14:00:00+09:00",
+      "paymentStartAt": "2026-11-11T14:00:00+09:00",
+      "paymentEndAt": "2026-11-13T23:59:00+09:00",
+      "performanceIds": [
+        "milk_yamanaka_jyutaro_the_seminar_2027_0216_night"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1123628",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "milk_yamanaka_jyutaro_the_seminar_2027_fc_day_first_20261113",
+      "tourId": "milk_yamanaka_jyutaro_the_seminar_2027",
+      "type": "山中柔太朗 +KIRARI会員限定先行抽選（追加1部）",
+      "entryStartAt": "2026-11-13T19:00:00+09:00",
+      "entryEndAt": "2026-11-16T23:59:00+09:00",
+      "resultAt": "2026-11-21T14:00:00+09:00",
+      "paymentStartAt": "2026-11-21T14:00:00+09:00",
+      "paymentEndAt": "2026-11-23T23:59:00+09:00",
+      "performanceIds": [
+        "milk_yamanaka_jyutaro_the_seminar_2027_0216_day"
+      ],
+      "source": "system",
+      "sourceUrl": "https://lp.mailivis.jp/gekijoban-jyutaro2026.html",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "milk_yamanaka_jyutaro_the_seminar_2027_fc_night_second_20261113",
+      "tourId": "milk_yamanaka_jyutaro_the_seminar_2027",
+      "type": "山中柔太朗 +KIRARI会員限定2次先行抽選（2部）",
+      "entryStartAt": "2026-11-13T19:00:00+09:00",
+      "entryEndAt": "2026-11-16T23:59:00+09:00",
+      "resultAt": "2026-11-21T14:00:00+09:00",
+      "paymentStartAt": "2026-11-21T14:00:00+09:00",
+      "paymentEndAt": "2026-11-23T23:59:00+09:00",
+      "performanceIds": [
+        "milk_yamanaka_jyutaro_the_seminar_2027_0216_night"
+      ],
+      "source": "system",
+      "sourceUrl": "https://lp.mailivis.jp/gekijoban-jyutaro2026.html",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "milk_shakariki_aichi_fc_equipment_release_20261121",
+      "tourId": "milk_shakariki_revolution_2026",
+      "type": "PREMIUM MILK会員限定 愛知機材席開放抽選（会員＋会員）",
+      "entryStartAt": "2026-11-21T12:00:00+09:00",
+      "entryEndAt": "2026-11-23T23:59:00+09:00",
+      "resultAt": "2026-11-28T14:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_shakariki_revolution_2026_aichi_1212",
+        "milk_shakariki_revolution_2026_aichi_1213a",
+        "milk_shakariki_revolution_2026_aichi_1213b"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1129458",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "milk_shakariki_aichi_ebidan_ticket_chance_resale_20261204",
+      "tourId": "milk_shakariki_revolution_2026",
+      "type": "EBiDAN TICKET CHANCE ローチケ公式リセール（機材席開放分、1回抽選型）",
+      "entryStartAt": "2026-12-04T18:00:00+09:00",
+      "entryEndAt": "2026-12-06T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "milk_shakariki_revolution_2026_aichi_1212",
+        "milk_shakariki_revolution_2026_aichi_1213a",
+        "milk_shakariki_revolution_2026_aichi_1213b"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1129458",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

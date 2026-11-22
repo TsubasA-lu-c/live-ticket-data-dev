@@ -63,6 +63,22 @@
       "source": "system",
       "sourceUrl": "https://www.direngrey.co.jp/tour/japan.html",
       "lastVerifiedAt": "2026-09-16T23:03:00+09:00"
+    },
+    {
+      "id": "dir_en_grey_toshiya_j_hokama_2026",
+      "artistId": "dir_en_grey",
+      "title": "【Toshiya】J 2026『放火魔大暴年会』（2025年12月公演振替）",
+      "startDate": "2026-12-30T00:00:00+09:00",
+      "endDate": "2026-12-30T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "スタンディング",
+          "amount": 7700
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.j-wumf.com/live",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -403,6 +419,21 @@
       "sourceUrl": "https://www.direngrey.co.jp/tour/japan.html",
       "lastVerifiedAt": "2026-09-16T23:03:00+09:00",
       "kind": "oneman"
+    },
+    {
+      "id": "dir_en_grey_toshiya_j_hokama_2026_1230",
+      "tourId": "dir_en_grey_toshiya_j_hokama_2026",
+      "performanceDate": "2026-12-30",
+      "performanceAt": "2026-12-30T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "venue": "Spotify O-EAST（渋谷）",
+      "kind": "taiban",
+      "kindReviewed": true,
+      "eventName": "J 2026 放火魔大暴年会",
+      "source": "system",
+      "sourceUrl": "https://www.j-wumf.com/live",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -669,6 +700,22 @@
       "source": "system",
       "sourceUrl": "https://www.direngrey.co.jp/tour/japan.html",
       "lastVerifiedAt": "2026-09-19T00:00:00+09:00"
+    },
+    {
+      "id": "dir_en_grey_toshiya_j_hokama_2026_general_20261128",
+      "tourId": "dir_en_grey_toshiya_j_hokama_2026",
+      "type": "J 2026 放火魔大暴年会 一般発売（先着）",
+      "entryStartAt": "2026-11-28T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "dir_en_grey_toshiya_j_hokama_2026_1230"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.j-wumf.com/live",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "lastVerifiedAt": "2026-09-16T23:03:00+09:00"

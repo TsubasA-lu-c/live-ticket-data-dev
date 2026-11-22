@@ -421,6 +421,33 @@
       "source": "system",
       "sourceUrl": "https://kyodo-osaka.co.jp/news/detail/788",
       "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_akachan_additional_2027",
+      "artistId": "yabai_tshirts_yasan",
+      "title": "ヤバイTシャツ屋さん “赤ちゃん” リリースツアー追加特別公演",
+      "startDate": "2027-01-07T00:00:00+09:00",
+      "endDate": "2027-01-07T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "前売り（1F自由／2F指定）",
+          "amount": 5500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/baby2027/",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_fukuoka_music_fes_2027",
+      "artistId": "yabai_tshirts_yasan",
+      "title": "FUKUOKA MUSIC FES.2027",
+      "startDate": "2027-01-30T00:00:00+09:00",
+      "endDate": "2027-01-30T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/news/299708/",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -1108,6 +1135,34 @@
       "source": "system",
       "sourceUrl": "https://kyodo-osaka.co.jp/news/detail/788",
       "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_akachan_additional_2027_kawasaki_0107",
+      "tourId": "yabai_tshirts_yasan_akachan_additional_2027",
+      "performanceDate": "2027-01-07",
+      "performanceAt": "2027-01-07T18:30:00+09:00",
+      "doorOpenAt": "2027-01-07T17:45:00+09:00",
+      "venue": "CLUB CITTA'（川崎）",
+      "kind": "taiban",
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/baby2027/",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00",
+      "kindReviewed": true,
+      "eventName": "ヤバイTシャツ屋さん “赤ちゃん” リリースツアー追加特別公演"
+    },
+    {
+      "id": "yabai_tshirts_yasan_fukuoka_music_fes_2027_0130",
+      "tourId": "yabai_tshirts_yasan_fukuoka_music_fes_2027",
+      "performanceDate": "2027-01-30",
+      "performanceAt": "2027-01-30T10:20:00+09:00",
+      "doorOpenAt": "2027-01-30T09:00:00+09:00",
+      "venue": "みずほPayPayドーム福岡",
+      "kind": "fes",
+      "kindReviewed": true,
+      "eventName": "FUKUOKA MUSIC FES.2027",
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/news/299708/",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -1616,6 +1671,38 @@
       "source": "system",
       "sourceUrl": "https://kyodo-osaka.co.jp/news/detail/788",
       "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_akachan_additional_2027_kokyakukurabu_0th_20261118",
+      "tourId": "yabai_tshirts_yasan_akachan_additional_2027",
+      "type": "顧客倶楽部部員限定超最速0次先行（抽選）",
+      "entryStartAt": "2026-11-18T22:00:00+09:00",
+      "entryEndAt": "2026-11-24T23:59:00+09:00",
+      "resultAt": "2026-11-28T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-12-02T23:00:00+09:00",
+      "performanceIds": [
+        "yabai_tshirts_yasan_akachan_additional_2027_kawasaki_0107"
+      ],
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/baby2027/",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_akachan_additional_2027_official_20261118",
+      "tourId": "yabai_tshirts_yasan_akachan_additional_2027",
+      "type": "オフィシャル先行（抽選）",
+      "entryStartAt": "2026-11-18T22:00:00+09:00",
+      "entryEndAt": "2026-11-24T23:59:00+09:00",
+      "resultAt": "2026-11-28T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-12-02T23:00:00+09:00",
+      "performanceIds": [
+        "yabai_tshirts_yasan_akachan_additional_2027_kawasaki_0107"
+      ],
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/baby2027/",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

@@ -246,6 +246,76 @@
       "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2027-04-29&id=1003091&ldate=2027-07-25",
       "source": "system",
       "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "artistId": "iris",
+      "id": "iris_serizawa_anirave_2027",
+      "title": "【芹澤優】☆アニレヴ 2 Time Zone !!!!!",
+      "startDate": "2027-02-07T00:00:00+09:00",
+      "endDate": "2027-02-07T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1137267",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "artistId": "iris",
+      "id": "iris_kubota_hongkong_fanmeeting_2026",
+      "title": "【久保田未夢】香港ファンミーティング2026",
+      "startDate": "2026-12-19T00:00:00+08:00",
+      "endDate": "2026-12-19T00:00:00+08:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://www.uutix.com/detail?pId=4058",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "artistId": "iris",
+      "id": "iris_kubota_yattekuru_2027",
+      "title": "【久保田未夢】久保田未夢がYATTEKURU 2027",
+      "startDate": "2027-01-23T00:00:00+09:00",
+      "endDate": "2027-01-23T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 6000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://aruarucity.com/event/?act=Detail&mode=View&e_id=00002468",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "artistId": "iris",
+      "id": "iris_yamakita_sakisama_nightclub_2026_1129",
+      "title": "【山北早紀】サキサマーナイトクラブ ～バーニングheart&fat～",
+      "startDate": "2026-11-29T00:00:00+09:00",
+      "endDate": "2026-11-29T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "入場券（ドリンク代別途）",
+          "amount": 5000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1136849",
+      "lastVerifiedAt": "2026-11-22T00:00:00+09:00"
+    },
+    {
+      "artistId": "iris",
+      "id": "iris_akane_himika_urakai_vol12_2026_1114",
+      "title": "【茜屋日海夏】ひみちゃんねらーの裏会 vol.12",
+      "startDate": "2026-11-14T00:00:00+09:00",
+      "endDate": "2026-11-14T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "入場券（ドリンク代別途）",
+          "amount": 5000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1136852",
+      "lastVerifiedAt": "2026-11-22T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -613,25 +683,27 @@
       "id": "iris_yu_serizawa_6th_live_tour_2026_tokyo_0214_day",
       "tourId": "iris_yu_serizawa_6th_live_tour_2026",
       "venue": "Zepp DiverCity",
-      "performanceAt": "2027-02-14T13:45:00+09:00",
+      "performanceAt": "2027-02-14T14:00:00+09:00",
       "doorOpenAt": "2027-02-14T13:15:00+09:00",
       "kind": "oneman",
       "eventName": "Yu Serizawa 6th Live Tour 2026-2027",
       "source": "system",
-      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133054",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=&id=1003010&ldate=",
+      "lastVerifiedAt": "2026-11-22T00:00:00+09:00",
+      "performanceTimeEstimated": false
     },
     {
       "id": "iris_yu_serizawa_6th_live_tour_2026_tokyo_0214_night",
       "tourId": "iris_yu_serizawa_6th_live_tour_2026",
       "venue": "Zepp DiverCity",
-      "performanceAt": "2027-02-14T17:45:00+09:00",
+      "performanceAt": "2027-02-14T18:00:00+09:00",
       "doorOpenAt": "2027-02-14T17:15:00+09:00",
       "kind": "oneman",
       "eventName": "Yu Serizawa 6th Live Tour 2026-2027",
       "source": "system",
-      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133054",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=&id=1003010&ldate=",
+      "lastVerifiedAt": "2026-11-22T00:00:00+09:00",
+      "performanceTimeEstimated": false
     },
     {
       "id": "iris_saki_yamakita_summer_night_club_2026_tokyo_0811",
@@ -1112,6 +1184,96 @@
       "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2027-04-29&id=1003091&ldate=2027-07-25",
       "source": "system",
       "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "iris_serizawa_anirave_2027_0207",
+      "tourId": "iris_serizawa_anirave_2027",
+      "performanceDate": "2027-02-07",
+      "performanceAt": "2027-02-07T15:30:00+09:00",
+      "doorOpenAt": "2027-02-07T14:30:00+09:00",
+      "venue": "KANDA SQUARE HALL",
+      "kind": "fes",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1137267",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00",
+      "kindReviewed": true,
+      "eventName": "☆アニレヴ 2 Time Zone !!!!!"
+    },
+    {
+      "id": "iris_kubota_hongkong_fanmeeting_2026_1219",
+      "tourId": "iris_kubota_hongkong_fanmeeting_2026",
+      "performanceDate": "2026-12-19",
+      "performanceAt": "2026-12-19T11:00:00+08:00",
+      "doorOpenAt": "2026-12-19T10:20:00+08:00",
+      "venue": "Novotel Century Hong Kong - Plaza room",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://www.uutix.com/detail?pId=4058",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00",
+      "eventName": "【久保田未夢】香港ファンミーティング 第1部"
+    },
+    {
+      "id": "iris_kubota_hongkong_fanmeeting_2026_1219_session2",
+      "tourId": "iris_kubota_hongkong_fanmeeting_2026",
+      "performanceDate": "2026-12-19",
+      "performanceAt": "2026-12-19T16:30:00+08:00",
+      "doorOpenAt": "2026-12-19T15:50:00+08:00",
+      "venue": "Novotel Century Hong Kong - Plaza room",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://www.uutix.com/detail?pId=4058",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00",
+      "eventName": "【久保田未夢】香港ファンミーティング 第2部"
+    },
+    {
+      "id": "iris_kubota_yattekuru_2027_0123_1230",
+      "tourId": "iris_kubota_yattekuru_2027",
+      "performanceDate": "2027-01-23",
+      "performanceAt": "2027-01-23T12:30:00+09:00",
+      "doorOpenAt": "2027-01-23T12:00:00+09:00",
+      "venue": "あるあるCity 7階ホール",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://aruarucity.com/event/?act=Detail&mode=View&e_id=00002468",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "iris_kubota_yattekuru_2027_0123_1630",
+      "tourId": "iris_kubota_yattekuru_2027",
+      "performanceDate": "2027-01-23",
+      "performanceAt": "2027-01-23T16:30:00+09:00",
+      "doorOpenAt": "2027-01-23T16:00:00+09:00",
+      "venue": "あるあるCity 7階ホール",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://aruarucity.com/event/?act=Detail&mode=View&e_id=00002468",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "iris_yamakita_sakisama_nightclub_2026_1129_shinjuku",
+      "tourId": "iris_yamakita_sakisama_nightclub_2026_1129",
+      "performanceDate": "2026-11-29",
+      "performanceAt": "2026-11-29T18:00:00+09:00",
+      "doorOpenAt": "2026-11-29T17:00:00+09:00",
+      "venue": "新宿ロフトプラスワン",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1136849",
+      "lastVerifiedAt": "2026-11-22T00:00:00+09:00",
+      "eventName": "【山北早紀】サキサマーナイトクラブ ～バーニングheart&fat～"
+    },
+    {
+      "id": "iris_akane_himika_urakai_vol12_2026_1114_shinjuku",
+      "tourId": "iris_akane_himika_urakai_vol12_2026_1114",
+      "performanceDate": "2026-11-14",
+      "performanceAt": "2026-11-14T18:00:00+09:00",
+      "doorOpenAt": "2026-11-14T17:00:00+09:00",
+      "venue": "新宿ロフトプラスワン",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1136852",
+      "lastVerifiedAt": "2026-11-22T00:00:00+09:00",
+      "eventName": "【茜屋日海夏】ひみちゃんねらーの裏会 vol.12"
     }
   ],
   "lotteries": [
@@ -1392,6 +1554,104 @@
       "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2027-04-29&id=1003091&ldate=2027-07-25",
       "source": "system",
       "lastVerifiedAt": "2026-11-07T00:00:00+09:00"
+    },
+    {
+      "id": "iris_kubota_hongkong_fanmeeting_2026_session1_general_20261118",
+      "tourId": "iris_kubota_hongkong_fanmeeting_2026",
+      "type": "香港ファンミーティング第1部 UUTIX一般先着",
+      "entryStartAt": "2026-11-18T13:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "iris_kubota_hongkong_fanmeeting_2026_1219"
+      ],
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1136921",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "iris_kubota_hongkong_fanmeeting_2026_session2_general_20261118",
+      "tourId": "iris_kubota_hongkong_fanmeeting_2026",
+      "type": "香港ファンミーティング第2部 UUTIX一般先着",
+      "entryStartAt": "2026-11-18T13:10:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "iris_kubota_hongkong_fanmeeting_2026_1219_session2"
+      ],
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1136921",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "iris_kubota_yattekuru_2027_presale_20261031",
+      "tourId": "iris_kubota_yattekuru_2027",
+      "type": "LivePocket抽選先行",
+      "entryStartAt": "2026-10-31T10:00:00+09:00",
+      "entryEndAt": "2026-11-08T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "iris_kubota_yattekuru_2027_0123_1230",
+        "iris_kubota_yattekuru_2027_0123_1630"
+      ],
+      "source": "system",
+      "sourceUrl": "https://aruarucity.com/event/?act=Detail&mode=View&e_id=00002468",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "iris_kubota_yattekuru_2027_general_20261121",
+      "tourId": "iris_kubota_yattekuru_2027",
+      "type": "LivePocket一般先着",
+      "entryStartAt": "2026-11-21T12:00:00+09:00",
+      "entryEndAt": "2027-01-21T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "iris_kubota_yattekuru_2027_0123_1230",
+        "iris_kubota_yattekuru_2027_0123_1630"
+      ],
+      "source": "system",
+      "sourceUrl": "https://aruarucity.com/event/?act=Detail&mode=View&e_id=00002468",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "iris_yamakita_sakisama_nightclub_2026_1129_ticket_20261023",
+      "tourId": "iris_yamakita_sakisama_nightclub_2026_1129",
+      "type": "LivePocket抽選受付（当落発表 10/30、時刻未公表）",
+      "entryStartAt": "2026-10-23T19:00:00+09:00",
+      "entryEndAt": "2026-10-29T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "iris_yamakita_sakisama_nightclub_2026_1129_shinjuku"
+      ],
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1136849",
+      "lastVerifiedAt": "2026-11-22T00:00:00+09:00"
+    },
+    {
+      "id": "iris_akane_himika_urakai_vol12_2026_1114_member_20261017",
+      "tourId": "iris_akane_himika_urakai_vol12_2026_1114",
+      "type": "YouTubeメンバーシップ会員限定抽選受付（当落発表 11/3、時刻未公表）",
+      "entryStartAt": "2026-10-17T20:00:00+09:00",
+      "entryEndAt": "2026-11-01T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "iris_akane_himika_urakai_vol12_2026_1114_shinjuku"
+      ],
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1136852",
+      "lastVerifiedAt": "2026-11-22T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

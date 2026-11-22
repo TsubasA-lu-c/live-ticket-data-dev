@@ -412,15 +412,16 @@
     {
       "id": "hinatazaka46_gift_girls_idol_festival_tokyo_2026_1128",
       "tourId": "hinatazaka46_gift_girls_idol_festival_tokyo_2026",
-      "venue": null,
+      "venue": "TOYOTA ARENA TOKYO",
       "performanceAt": "2026-11-28T13:00:00+09:00",
       "doorOpenAt": "2026-11-28T11:30:00+09:00",
       "kind": "fes",
       "eventName": "GIFT ～Girls Idol Festival Tokyo～",
       "source": "system",
-      "sourceUrl": "https://ticket.tv-asahi.co.jp/ex/project/gift",
-      "lastVerifiedAt": "2026-08-23T00:00:00+09:00",
-      "note": "13:00はイベント全体の開演予定時刻です。"
+      "sourceUrl": "https://www.gift-idol.jp/images/timetable/tt-1128.jpg",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00",
+      "note": "GIFT主催者公式11月28日タイムテーブルによるTOYOTA ARENA TOKYO会場出演15:40～16:30。11:30開場/13:00フェス全体開演。performanceAtの13:00はフェス全体の開演時刻であり、本人個別ステージの開始時刻ではない。",
+      "kindReviewed": true
     },
     {
       "id": "hinatazaka46_hinata_medleytown_opening_festa_2026_miyazaki_1010",

@@ -614,6 +614,17 @@
       "source": "system",
       "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/46912",
       "lastVerifiedAt": "2026-11-01T00:00:00+09:00"
+    },
+    {
+      "id": "candy_tune_grand_finale_night_2026",
+      "artistId": "candy_tune",
+      "title": "GRAND FINALE NIGHT（ハウステンボス）",
+      "startDate": "2026-12-29T00:00:00+09:00",
+      "endDate": "2026-12-29T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/47738",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -1375,18 +1386,18 @@
     {
       "id": "candy_tune_gift_2026_1128",
       "tourId": "candy_tune_gift_2026",
-      "venue": null,
+      "venue": "TOYOTA ARENA TOKYO",
       "performanceAt": "2026-11-28T13:00:00+09:00",
       "performanceDate": "2026-11-28",
       "performanceTimeEstimated": false,
       "doorOpenAt": "2026-11-28T11:30:00+09:00",
       "kind": "fes",
-      "eventName": "GIFT ～Girls Idol Festival Tokyo～ DAY-2",
+      "eventName": "GIFT DAY-2【TOYOTA ARENA TOKYO】CANDY TUNE",
       "source": "system",
-      "sourceUrl": "https://ticket.tv-asahi.co.jp/ex/project/gift",
-      "lastVerifiedAt": "2026-09-19T00:00:00+09:00",
+      "sourceUrl": "https://www.gift-idol.jp/images/timetable/tt-1128.jpg",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00",
       "kindReviewed": true,
-      "note": "13:00はイベント全体の開演予定時刻です。"
+      "note": "GIFT DAY-2（2会場共通券）。フェス全体は11:30開場／13:00開演。CANDY TUNEのTOYOTA ARENA TOKYOステージ出演は14:20～15:10（主催者11/28公式タイムテーブル）。Performance.performanceAtはフェス全体の開演時刻とし、出演枠14:20を上書きしない。"
     },
     {
       "id": "candy_tune_asobiexpo_hawaii_2027_honolulu_0308",
@@ -1716,6 +1727,37 @@
       "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/46912",
       "lastVerifiedAt": "2026-11-01T00:00:00+09:00",
       "note": "12:00はイベント全体の開演予定時刻です。"
+    },
+    {
+      "id": "candy_tune_grand_finale_night_2026_1229",
+      "tourId": "candy_tune_grand_finale_night_2026",
+      "performanceDate": "2026-12-29",
+      "performanceAt": "2026-12-29T12:00:00+09:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "venue": "ハウステンボス ウォーターガーデン",
+      "kind": "oneman",
+      "kindReviewed": true,
+      "eventName": "GRAND FINALE NIGHT",
+      "source": "system",
+      "sourceUrl": "https://candytune.asobisystem.com/live_information/detail/47738",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "candy_tune_gift_2026_1128_sgc_hall_ariake",
+      "tourId": "candy_tune_gift_2026",
+      "venue": "SGCホール有明",
+      "performanceAt": "2026-11-28T13:00:00+09:00",
+      "performanceDate": "2026-11-28",
+      "performanceTimeEstimated": false,
+      "doorOpenAt": "2026-11-28T11:30:00+09:00",
+      "kind": "fes",
+      "kindReviewed": true,
+      "eventName": "GIFT DAY-2【SGCホール有明】CANDY TUNE",
+      "source": "system",
+      "sourceUrl": "https://www.gift-idol.jp/images/timetable/tt-1128.jpg",
+      "lastVerifiedAt": "2026-11-21T00:00:00+09:00",
+      "note": "GIFT DAY-2（2会場共通券）。会場SGC HALL ARIAKE 11:30開場／13:00イベント開演。CANDY TUNEステージ出演18:10～19:00（主催者公式11/28タイムテーブル）。Performance.performanceAtに出演枠18:10を流用しない。"
     }
   ],
   "lotteries": [
@@ -2682,7 +2724,8 @@
       "paymentStartAt": null,
       "paymentEndAt": null,
       "performanceIds": [
-        "candy_tune_gift_2026_1128"
+        "candy_tune_gift_2026_1128",
+        "candy_tune_gift_2026_1128_sgc_hall_ariake"
       ],
       "source": "system",
       "sourceUrl": "https://www.gift-idol.jp/ticket.html",
@@ -2698,7 +2741,8 @@
       "paymentStartAt": null,
       "paymentEndAt": null,
       "performanceIds": [
-        "candy_tune_gift_2026_1128"
+        "candy_tune_gift_2026_1128",
+        "candy_tune_gift_2026_1128_sgc_hall_ariake"
       ],
       "source": "system",
       "sourceUrl": "https://www.gift-idol.jp/ticket.html",
@@ -2714,7 +2758,8 @@
       "paymentStartAt": null,
       "paymentEndAt": null,
       "performanceIds": [
-        "candy_tune_gift_2026_1128"
+        "candy_tune_gift_2026_1128",
+        "candy_tune_gift_2026_1128_sgc_hall_ariake"
       ],
       "source": "system",
       "sourceUrl": "https://www.gift-idol.jp/ticket.html",
@@ -2730,11 +2775,37 @@
       "paymentStartAt": null,
       "paymentEndAt": null,
       "performanceIds": [
-        "candy_tune_gift_2026_1128"
+        "candy_tune_gift_2026_1128",
+        "candy_tune_gift_2026_1128_sgc_hall_ariake"
       ],
       "source": "system",
       "sourceUrl": "https://www.gift-idol.jp/ticket.html",
       "lastVerifiedAt": "2026-11-16T12:00:00+09:00"
+    },
+    {
+      "id": "candy_tune_kawaii_lab_5th_2027_candy_tune_fc_20261026",
+      "tourId": "candy_tune_kawaii_lab_5th_2027",
+      "type": "CANDY TUNE OFFICIAL FANCLUB有料会員先行",
+      "entryStartAt": "2026-10-26T12:00:00+09:00",
+      "entryEndAt": "2026-11-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "candy_tune_kawaii_lab_5th_2027_20270130",
+        "candy_tune_kawaii_lab_5th_2027_20270131",
+        "candy_tune_kawaii_lab_5th_2027_20270213",
+        "candy_tune_kawaii_lab_5th_2027_20270214",
+        "candy_tune_kawaii_lab_5th_2027_20270220",
+        "candy_tune_kawaii_lab_5th_2027_20270221",
+        "candy_tune_kawaii_lab_5th_2027_20270320",
+        "candy_tune_kawaii_lab_5th_2027_20270321",
+        "candy_tune_kawaii_lab_5th_2027_20270403",
+        "candy_tune_kawaii_lab_5th_2027_20270404"
+      ],
+      "source": "system",
+      "sourceUrl": "https://candytune.asobisystem.com/news/detail/93735",
+      "lastVerifiedAt": "2026-11-22T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
