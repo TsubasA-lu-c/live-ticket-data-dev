@@ -1091,6 +1091,74 @@
       "source": "system",
       "sourceUrl": "https://theoralcigarettes.com/news/list/2",
       "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_kanaboon_jack_in_2027_fc_first_20260918",
+      "tourId": "the_oral_cigarettes_kanaboon_jack_in_tour_2027",
+      "type": "カナブーンメイト先行（各公演2枚まで）",
+      "entryStartAt": "2026-09-18T18:00:00+09:00",
+      "entryEndAt": "2026-09-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "the_oral_cigarettes_kanaboon_jack_in_tour_2027_osaka_0227",
+        "the_oral_cigarettes_kanaboon_jack_in_tour_2027_osaka_0228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sp.kanaboon.jp/feature/jackin2027",
+      "lastVerifiedAt": "2026-11-23T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_kanaboon_jack_in_2027_official_first_20260927",
+      "tourId": "the_oral_cigarettes_kanaboon_jack_in_tour_2027",
+      "type": "オフィシャル先行（各公演4枚まで）",
+      "entryStartAt": "2026-09-27T18:00:00+09:00",
+      "entryEndAt": "2026-10-04T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "the_oral_cigarettes_kanaboon_jack_in_tour_2027_osaka_0227",
+        "the_oral_cigarettes_kanaboon_jack_in_tour_2027_osaka_0228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sp.kanaboon.jp/feature/jackin2027",
+      "lastVerifiedAt": "2026-11-23T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_kanaboon_jack_in_2027_fc_second_20261028",
+      "tourId": "the_oral_cigarettes_kanaboon_jack_in_tour_2027",
+      "type": "カナブーンメイト2次先行（各公演2枚まで）",
+      "entryStartAt": "2026-10-28T18:00:00+09:00",
+      "entryEndAt": "2026-11-03T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "the_oral_cigarettes_kanaboon_jack_in_tour_2027_osaka_0227",
+        "the_oral_cigarettes_kanaboon_jack_in_tour_2027_osaka_0228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sp.kanaboon.jp/feature/jackin2027",
+      "lastVerifiedAt": "2026-11-23T00:00:00+09:00"
+    },
+    {
+      "id": "the_oral_kanaboon_jack_in_2027_official_third_20261116",
+      "tourId": "the_oral_cigarettes_kanaboon_jack_in_tour_2027",
+      "type": "オフィシャル3次先行（各公演4枚まで）",
+      "entryStartAt": "2026-11-16T12:00:00+09:00",
+      "entryEndAt": "2026-11-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "the_oral_cigarettes_kanaboon_jack_in_tour_2027_osaka_0227",
+        "the_oral_cigarettes_kanaboon_jack_in_tour_2027_osaka_0228"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sp.kanaboon.jp/feature/jackin2027",
+      "lastVerifiedAt": "2026-11-23T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

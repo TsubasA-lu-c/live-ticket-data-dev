@@ -1506,6 +1506,57 @@
       "source": "system",
       "sourceUrl": "https://www.softbankhawks.co.jp/news/detail/20261117_001.html",
       "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_kanaboon_jackin_2027_fc_first_20260918",
+      "tourId": "frederic_kanaboon_jack_in_tour_2027",
+      "type": "カナブーンメイト先行（各公演2枚まで）",
+      "entryStartAt": "2026-09-18T18:00:00+09:00",
+      "entryEndAt": "2026-09-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_kanaboon_jack_in_tour_2027_ex_theater_0325",
+        "frederic_kanaboon_jack_in_tour_2027_ex_theater_0326"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sp.kanaboon.jp/feature/jackin2027",
+      "lastVerifiedAt": "2026-11-23T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_kanaboon_jackin_2027_official_first_20260927",
+      "tourId": "frederic_kanaboon_jack_in_tour_2027",
+      "type": "オフィシャル先行（各公演4枚まで）",
+      "entryStartAt": "2026-09-27T18:00:00+09:00",
+      "entryEndAt": "2026-10-04T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_kanaboon_jack_in_tour_2027_ex_theater_0325",
+        "frederic_kanaboon_jack_in_tour_2027_ex_theater_0326"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sp.kanaboon.jp/feature/jackin2027",
+      "lastVerifiedAt": "2026-11-23T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_kanaboon_jackin_2027_official_third_20261116",
+      "tourId": "frederic_kanaboon_jack_in_tour_2027",
+      "type": "オフィシャル3次先行（各公演4枚まで）",
+      "entryStartAt": "2026-11-16T12:00:00+09:00",
+      "entryEndAt": "2026-11-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_kanaboon_jack_in_tour_2027_ex_theater_0325",
+        "frederic_kanaboon_jack_in_tour_2027_ex_theater_0326"
+      ],
+      "source": "system",
+      "sourceUrl": "https://sp.kanaboon.jp/feature/jackin2027",
+      "lastVerifiedAt": "2026-11-23T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
