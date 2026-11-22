@@ -683,25 +683,27 @@
       "id": "iris_yu_serizawa_6th_live_tour_2026_tokyo_0214_day",
       "tourId": "iris_yu_serizawa_6th_live_tour_2026",
       "venue": "Zepp DiverCity",
-      "performanceAt": "2027-02-14T13:45:00+09:00",
+      "performanceAt": "2027-02-14T14:00:00+09:00",
       "doorOpenAt": "2027-02-14T13:15:00+09:00",
       "kind": "oneman",
       "eventName": "Yu Serizawa 6th Live Tour 2026-2027",
       "source": "system",
-      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133054",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=&id=1003010&ldate=",
+      "lastVerifiedAt": "2026-11-23T00:00:00+09:00",
+      "performanceTimeEstimated": false
     },
     {
       "id": "iris_yu_serizawa_6th_live_tour_2026_tokyo_0214_night",
       "tourId": "iris_yu_serizawa_6th_live_tour_2026",
       "venue": "Zepp DiverCity",
-      "performanceAt": "2027-02-14T17:45:00+09:00",
+      "performanceAt": "2027-02-14T18:00:00+09:00",
       "doorOpenAt": "2027-02-14T17:15:00+09:00",
       "kind": "oneman",
       "eventName": "Yu Serizawa 6th Live Tour 2026-2027",
       "source": "system",
-      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133054",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=&id=1003010&ldate=",
+      "lastVerifiedAt": "2026-11-23T00:00:00+09:00",
+      "performanceTimeEstimated": false
     },
     {
       "id": "iris_saki_yamakita_summer_night_club_2026_tokyo_0811",
