@@ -284,6 +284,38 @@
       "source": "system",
       "sourceUrl": "https://aruarucity.com/event/?act=Detail&mode=View&e_id=00002468",
       "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "artistId": "iris",
+      "id": "iris_yamakita_sakisama_nightclub_2026_1129",
+      "title": "【山北早紀】サキサマーナイトクラブ ～バーニングheart&fat～",
+      "startDate": "2026-11-29T00:00:00+09:00",
+      "endDate": "2026-11-29T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "入場券（ドリンク代別途）",
+          "amount": 5000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1136849",
+      "lastVerifiedAt": "2026-11-23T00:00:00+09:00"
+    },
+    {
+      "artistId": "iris",
+      "id": "iris_akane_himika_urakai_vol12_2026_1114",
+      "title": "【茜屋日海夏】ひみちゃんねらーの裏会 vol.12",
+      "startDate": "2026-11-14T00:00:00+09:00",
+      "endDate": "2026-11-14T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "入場券（ドリンク代別途）",
+          "amount": 5000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1136852",
+      "lastVerifiedAt": "2026-11-23T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -1214,6 +1246,32 @@
       "source": "system",
       "sourceUrl": "https://aruarucity.com/event/?act=Detail&mode=View&e_id=00002468",
       "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "iris_yamakita_sakisama_nightclub_2026_1129_shinjuku",
+      "tourId": "iris_yamakita_sakisama_nightclub_2026_1129",
+      "performanceDate": "2026-11-29",
+      "performanceAt": "2026-11-29T18:00:00+09:00",
+      "doorOpenAt": "2026-11-29T17:00:00+09:00",
+      "venue": "新宿ロフトプラスワン",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1136849",
+      "lastVerifiedAt": "2026-11-23T00:00:00+09:00",
+      "eventName": "【山北早紀】サキサマーナイトクラブ ～バーニングheart&fat～"
+    },
+    {
+      "id": "iris_akane_himika_urakai_vol12_2026_1114_shinjuku",
+      "tourId": "iris_akane_himika_urakai_vol12_2026_1114",
+      "performanceDate": "2026-11-14",
+      "performanceAt": "2026-11-14T18:00:00+09:00",
+      "doorOpenAt": "2026-11-14T17:00:00+09:00",
+      "venue": "新宿ロフトプラスワン",
+      "kind": "oneman",
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1136852",
+      "lastVerifiedAt": "2026-11-23T00:00:00+09:00",
+      "eventName": "【茜屋日海夏】ひみちゃんねらーの裏会 vol.12"
     }
   ],
   "lotteries": [
@@ -1560,6 +1618,38 @@
       "source": "system",
       "sourceUrl": "https://aruarucity.com/event/?act=Detail&mode=View&e_id=00002468",
       "lastVerifiedAt": "2026-11-21T00:00:00+09:00"
+    },
+    {
+      "id": "iris_yamakita_sakisama_nightclub_2026_1129_ticket_20261023",
+      "tourId": "iris_yamakita_sakisama_nightclub_2026_1129",
+      "type": "LivePocket抽選受付（当落発表 10/30、時刻未公表）",
+      "entryStartAt": "2026-10-23T19:00:00+09:00",
+      "entryEndAt": "2026-10-29T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "iris_yamakita_sakisama_nightclub_2026_1129_shinjuku"
+      ],
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1136849",
+      "lastVerifiedAt": "2026-11-23T00:00:00+09:00"
+    },
+    {
+      "id": "iris_akane_himika_urakai_vol12_2026_1114_member_20261017",
+      "tourId": "iris_akane_himika_urakai_vol12_2026_1114",
+      "type": "YouTubeメンバーシップ会員限定抽選受付（当落発表 11/3、時刻未公表）",
+      "entryStartAt": "2026-10-17T20:00:00+09:00",
+      "entryEndAt": "2026-11-01T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "iris_akane_himika_urakai_vol12_2026_1114_shinjuku"
+      ],
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1136852",
+      "lastVerifiedAt": "2026-11-23T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
