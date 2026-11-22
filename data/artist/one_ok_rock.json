@@ -63,6 +63,17 @@
       "source": "system",
       "sourceUrl": "https://www.oneokrock.com/jp/news/5142",
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00"
+    },
+    {
+      "artistId": "one_ok_rock",
+      "id": "one_ok_rock_when_we_were_young_festival_2027",
+      "title": "When We Were Young 2027",
+      "startDate": "2027-10-16T00:00:00-07:00",
+      "endDate": "2027-10-16T00:00:00-07:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.ticketmaster.com/one-ok-rock-tickets/artist/1884284",
+      "lastVerifiedAt": "2026-11-23T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -175,6 +186,22 @@
       "lastVerifiedAt": "2026-08-30T00:00:00+09:00",
       "performanceDate": "2026-10-04",
       "performanceTimeEstimated": true
+    },
+    {
+      "id": "one_ok_rock_when_we_were_young_2027_las_vegas_1016",
+      "tourId": "one_ok_rock_when_we_were_young_festival_2027",
+      "performanceDate": "2027-10-16",
+      "performanceAt": "2027-10-16T12:00:00-07:00",
+      "performanceTimeEstimated": true,
+      "doorOpenAt": null,
+      "venue": "Las Vegas Festival Grounds",
+      "kind": "fes",
+      "kindReviewed": true,
+      "eventName": "When We Were Young 2027",
+      "source": "system",
+      "sourceUrl": "https://www.ticketmaster.com/one-ok-rock-tickets/artist/1884284",
+      "lastVerifiedAt": "2026-11-23T00:00:00+09:00",
+      "note": "ONE OK ROCK出演日2027/10/16は公式Ticketmasterの同日ラインアップに明示。12:00はフェス券面上のイベント時刻であり本人の出演開始時刻ではないためestimated=trueの互換センチネル。会場はLas Vegas Festival Grounds。"
     }
   ],
   "lotteries": [
